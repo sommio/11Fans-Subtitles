@@ -1,0 +1,503 @@
+[Script Info]
+; // 此字幕由PopSub生成  2010-03-27 16:52:38
+; // 版本: 0.77
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:漫游字幕
+Original Script:漫游字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0.00,1,1,1,2,10,10,12,1
+Style: op,comic sans ms,20,&H00000000,&H00FFFFFF,&H00FFFFFF,&HF0FFFFFF,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,8,1
+Style: ed,MS PGothic,20,&H00FFFFFF,&HFF000000,&HFF000000,&HFF000000,-1,0,0,0,100,100,0,0.00,1,1,1,2,30,30,10,137
+Style: logo,SimHei,19,&H00999999,&H00999999,&H00FFFFFF,&H40000000,-1,0,0,0,100,100,0,0.00,1,4,0,2,20,20,10,1
+Style: staff,@SimHei,19,&H00999999,&H00999999,&H00FFFFFF,&H40000000,-1,0,0,0,100,100,0,0.00,1,4,0,2,20,20,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:20.06,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H0D3893&\3a&HFF&}{\fad(100,0)}{\move(550,80,450,80,0,3000)}灵风工作室  &  WLGO字幕组 合作
+Dialogue: 0,0:01:20.06,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H0D3893&\3a&HFF&}{\move(600,320,370,320,0,3000)}www.fosky.com
+Dialogue: 0,0:01:21.12,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H000000&\3a&HFF&}{\pos(260,80)}制  作
+Dialogue: 0,0:01:21.12,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H000000&\3a&HFF&}{\pos(260,320)}制  作
+Dialogue: 0,0:01:28.16,0:01:30.56,staff,NTP,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(60,65)}{\1c&HFFFFFF&}{\3c&H000000&}翻译：詹柯&神无月豪 校对：SAORI
+Dialogue: 0,0:01:28.16,0:01:30.56,staff,NTP,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(100,130)}{\1c&HFFFFFF&}{\3c&H000000&}特效：SHIRAKAWA
+Dialogue: 0,0:01:28.16,0:01:30.56,staff,NTP,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(650,90)}{\1c&HFFFFFF&}{\3c&H000000&}时间：CAMEN 后期：D.BOY
+Dialogue: 0,0:00:10.57,0:00:10.85,op,NTP,0000,0000,0000,,Yeah!
+Dialogue: 0,0:00:11.12,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(140,352)}{\alpha&Hff&\frx-90}{\t(0,310,0.5,\frx0\alpha&H00&)}Sharp
+Dialogue: 0,0:00:11.43,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(195,352)}{\alpha&Hff&\frx-90}{\t(0,290,0.5,\frx0\alpha&H00&)}Like
+Dialogue: 0,0:00:11.72,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(260,352)}{\alpha&Hff&\frx-90}{\t(0,550,0.5,\frx0\alpha&H00&)}An Edge
+Dialogue: 0,0:00:12.27,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(320,352)}{\alpha&Hff&\frx-90}{\t(0,160,0.5,\frx0\alpha&H00&)}Of
+Dialogue: 0,0:00:12.43,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(390,352)}{\alpha&Hff&\frx-90}{\t(0,500,0.5,\frx0\alpha&H00&)}A Samurai
+Dialogue: 0,0:00:12.93,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(480,352)}{\alpha&Hff&\frx-90}{\t(0,180,0.5,\frx0\alpha&H00&)}Sword
+Dialogue: 0,0:00:13.41,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(73,332)}{\alpha&Hff&\frx90}{\t(0,70,\alpha&H00&\frx0)}The
+Dialogue: 0,0:00:13.48,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(114,332)}{\alpha&Hff&\frx90}{\t(0,460,0.5,\alpha&H00&\frx0)}Metal
+Dialogue: 0,0:00:13.94,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(173,332)}{\alpha&Hff&\frx90}{\t(0,340,0.5,\alpha&H00&\frx0)}Blade
+Dialogue: 0,0:00:14.28,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(234,332)}{\alpha&Hff&\frx90}{\t(0,340,0.5,\alpha&H00&\frx0)}Cutting
+Dialogue: 0,0:00:14.62,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(310,332)}{\alpha&Hff&\frx90}{\t(0,270,0.5,\alpha&H00&\frx0)}Through
+Dialogue: 0,0:00:14.89,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(399,332)}{\alpha&Hff&\frx90}{\t(0,300,0.5,\alpha&H00&\frx0)}Flesh
+Dialogue: 0,0:00:15.19,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(460,332)}{\alpha&Hff&\frx90}{\t(0,100,0.5,\alpha&H00&\frx0)}And
+Dialogue: 0,0:00:15.29,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(507,332)}{\alpha&Hff&\frx90}{\t(0,190,0.5,\alpha&H00&\frx0)}Bone
+Dialogue: 2,0:00:15.95,0:00:17.35,op,NTP,0000,0000,0000,,Though My Mind's At Peace
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(222,352)}{\alpha&Hff&\fs30}{\t(0,110,\fs20\alpha&H00&)}The
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(279,352)}{\alpha&Hff&\fs30}{\t(110,360,\fs20\alpha&H00&)}World{\fnarial}'{\fncomic sans ms}s
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(335,352)}{\alpha&Hff&\fs30}{\t(360,580,\fs20\alpha&H00&)}Out
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(368,352)}{\alpha&Hff&\fs30}{\t(580,710,\fs20\alpha&H00&)}Of
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(410,352)}{\alpha&Hff&\fs30}{\t(710,1060,\fs20\alpha&H00&)}Order
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(250,352)}{\alpha&H00&}{\t(0,320,\fs30\alpha&Hff&)}Missing
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(314,352)}{\alpha&H00&}{\t(320,430,\fs30\alpha&Hff&)}Then
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(359,352)}{\alpha&H00&}{\t(430,540,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(403,352)}{\alpha&H00&}{\t(540,960,\fs30\alpha&Hff&)}Heat
+Dialogue: 0,0:00:19.87,0:00:21.19,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko17}Blood {\ko33}Gets {\ko50}Col{\ko25}der
+Dialogue: 0,0:00:21.35,0:00:21.86,op,NTP,0000,0000,0000,,Oh Yes
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(215,352)}{\alpha&Hff&\fscy500}{\t(0,120,\fscy100\alpha&H00&)}I
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(248,352)}{\alpha&Hff&\fscy500}{\t(120,320,\fscy100\alpha&H00&)}Have
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(288,352)}{\alpha&Hff&\fscy500}{\t(320,450,\fscy100\alpha&H00&)}To
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(325,352)}{\alpha&Hff&\fscy500}{\t(450,700,\fscy100\alpha&H00&)}Find
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(364,352)}{\alpha&Hff&\fscy500}{\t(700,920,\fscy100\alpha&H00&)}My
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(406,352)}{\alpha&Hff&\fscy500}{\t(920,1240,\fscy100\alpha&H00&)}Path
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(140,352)}{\alpha&Hff&\fscx200}{\t(0,200,\fscx100\alpha&H00&)}No
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(172,352)}{\alpha&Hff&\fscx200}{\t(200,500,\fscx100\alpha&H00&)}Less
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(220,352)}{\alpha&Hff&\fscx200}{\t(500,930,\fscx100\alpha&H00&)}Walk
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(273,352)}{\alpha&Hff&\fscx200}{\t(930,1080,\fscx100\alpha&H00&)}On
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(305,352)}{\alpha&Hff&\fscx200}{\t(1080,1300,\fscx100\alpha&H00&)}Earth
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(361,352)}{\alpha&Hff&\fscx200}{\t(1300,1640,\fscx100\alpha&H00&)}Water
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(423,352)}{\alpha&Hff&\fscx200}{\t(1640,1910,\fscx100\alpha&H00&)}And
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(465,352)}{\alpha&Hff&\fscx200}{\t(1910,2250,\fscx100\alpha&H00&)}Fire
+Dialogue: 0,0:00:26.17,0:00:28.17,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko11}The {\ko27}Ele{\ko28}ments {\ko29}Com{\ko35}pose {\ko11}Of {\ko35}Ma{\ko22}gnum
+Dialogue: 0,0:00:28.17,0:00:28.26,op,NTP,0000,0000,0000,,{\alpha&Haa&\fscx100\frx-135}{\t(0,200,1,\alpha&H00&\fscx180\frx-70}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:28.26,0:00:28.35,op,NTP,0000,0000,0000,,{\alpha&Haa&\fscx180\frx-70}{\t(0,50,1,\alpha&H00&\fscx100\frx0}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:28.35,0:00:30.90,op,NTP,0000,0000,0000,,Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:30.90,0:00:31.00,op,NTP,0000,0000,0000,,{\alpha&H00&\fscx100\frx0}{\t(0,100,1,\alpha&Hff&\fscx180\frx-70}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:31.32,0:00:31.52,op,NTP,0000,0000,0000,,{\t(0,200,\bord4)}Steel {\bord2}Packed Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.52,0:00:31.72,op,NTP,0000,0000,0000,,{\bord4}{\t(0,200,\bord2)}Steel {\bord2}Packed Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.72,0:00:31.88,op,NTP,0000,0000,0000,,Steel {\t(0,160,\bord4)}Packed {\bord2}Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.88,0:00:32.04,op,NTP,0000,0000,0000,,Steel {\bord4}{\t(0,160,\bord2)}Packed {\bord2}Tight In Microchip On My Arm
+Dialogue: 0,0:00:32.04,0:00:32.17,op,NTP,0000,0000,0000,,Steel Packed {\t(0,130,\bord4)}Tight {\bord2}In Microchip On My Arm
+Dialogue: 0,0:00:32.17,0:00:32.31,op,NTP,0000,0000,0000,,Steel Packed {\bord4}{\t(0,140,\bord2)}Tight {\bord2}In Microchip On My Arm
+Dialogue: 0,0:00:32.31,0:00:32.40,op,NTP,0000,0000,0000,,Steel Packed Tight {\t(0,90,\bord4)}In {\bord2}Microchip On My Arm
+Dialogue: 0,0:00:32.40,0:00:32.49,op,NTP,0000,0000,0000,,Steel Packed Tight {\bord4}{\t(0,90,\bord2)}In {\bord2}Microchip On My Arm
+Dialogue: 0,0:00:32.49,0:00:32.63,op,NTP,0000,0000,0000,,Steel Packed Tight In {\t(0,140,\bord4)}Mi{\bord2}crochip On My Arm
+Dialogue: 0,0:00:32.63,0:00:32.76,op,NTP,0000,0000,0000,,Steel Packed Tight In {\bord4}{\t(0,130,\bord2)}Mi{\bord2}crochip On My Arm
+Dialogue: 0,0:00:32.76,0:00:32.96,op,NTP,0000,0000,0000,,Steel Packed Tight In Mi{\t(0,200,\bord4)}cro{\bord2}chip On My Arm
+Dialogue: 0,0:00:32.96,0:00:33.16,op,NTP,0000,0000,0000,,Steel Packed Tight In Mi{\bord4}{\t(0,200,\bord2)}cro{\bord2}chip On My Arm
+Dialogue: 0,0:00:33.16,0:00:33.33,op,NTP,0000,0000,0000,,Steel Packed Tight In Micro{\t(0,170,\bord4)}chip {\bord2}On My Arm
+Dialogue: 0,0:00:33.33,0:00:33.50,op,NTP,0000,0000,0000,,Steel Packed Tight In Micro{\bord4}{\t(0,170,\bord2)}chip {\bord2}On My Arm
+Dialogue: 0,0:00:33.50,0:00:33.64,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip {\t(0,140,\bord4)}On {\bord2}My Arm
+Dialogue: 0,0:00:33.64,0:00:33.78,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip {\bord4}{\t(0,140,\bord2)}On {\bord2}My Arm
+Dialogue: 0,0:00:33.78,0:00:33.85,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On {\t(0,70,\bord4)}My {\bord2}Arm
+Dialogue: 0,0:00:33.85,0:00:33.92,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On {\bord4}{\t(0,70,\bord2)}My {\bord2}Arm
+Dialogue: 0,0:00:33.92,0:00:34.02,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On My {\t(0,100,\bord4)}Arm
+Dialogue: 0,0:00:34.02,0:00:34.12,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On My {\bord4}{\t(0,100,\bord2)}Arm
+Dialogue: 0,0:00:34.26,0:00:34.32,op,NTP,0000,0000,0000,,{\t(0,60,\bord4)}But {\bord2}The Sign Of Our Pro
+Dialogue: 0,0:00:34.32,0:00:34.38,op,NTP,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}But {\bord2}The Sign Of Our Pro
+Dialogue: 0,0:00:34.38,0:00:34.42,op,NTP,0000,0000,0000,,But {\t(0,40,\bord4)}The {\bord2}Sign Of Our Pro
+Dialogue: 0,0:00:34.42,0:00:34.47,op,NTP,0000,0000,0000,,But {\bord4}{\t(0,50,\bord2)}The {\bord2}Sign Of Our Pro
+Dialogue: 0,0:00:34.47,0:00:34.62,op,NTP,0000,0000,0000,,But The {\t(0,150,\bord4)}Sign {\bord2}Of Our Pro
+Dialogue: 0,0:00:34.62,0:00:34.77,op,NTP,0000,0000,0000,,But The {\bord4}{\t(0,150,\bord2)}Sign {\bord2}Of Our Pro
+Dialogue: 0,0:00:34.77,0:00:34.83,op,NTP,0000,0000,0000,,But The Sign {\t(0,60,\bord4)}Of {\bord2}Our Pro
+Dialogue: 0,0:00:34.83,0:00:34.90,op,NTP,0000,0000,0000,,But The Sign {\bord4}{\t(0,70,\bord2)}Of {\bord2}Our Pro
+Dialogue: 0,0:00:34.90,0:00:35.04,op,NTP,0000,0000,0000,,But The Sign Of {\t(0,140,\bord4)}Our {\bord2}Pro
+Dialogue: 0,0:00:35.04,0:00:35.19,op,NTP,0000,0000,0000,,But The Sign Of {\bord4}{\t(0,150,\bord2)}Our {\bord2}Pro
+Dialogue: 0,0:00:35.19,0:00:35.32,op,NTP,0000,0000,0000,,But The Sign Of Our {\t(0,130,\bord4)}Pro
+Dialogue: 0,0:00:35.32,0:00:35.46,op,NTP,0000,0000,0000,,But The Sign Of Our {\bord4}{\t(0,140,\bord2)}Pro
+Dialogue: 0,0:00:35.68,0:00:35.73,op,NTP,0000,0000,0000,,{\t(0,50,\bord4)}The {\bord2}Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.73,0:00:35.79,op,NTP,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}The {\bord2}Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.79,0:00:35.91,op,NTP,0000,0000,0000,,The {\t(0,120,\bord4)}Ulti{\bord2}mate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.91,0:00:36.03,op,NTP,0000,0000,0000,,The {\bord4}{\t(0,120,\bord2)}Ulti{\bord2}mate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.03,0:00:36.14,op,NTP,0000,0000,0000,,The Ulti{\t(0,110,\bord4)}mate {\bord2}Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.14,0:00:36.25,op,NTP,0000,0000,0000,,The Ulti{\bord4}{\t(0,110,\bord2)}mate {\bord2}Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.25,0:00:36.32,op,NTP,0000,0000,0000,,The Ultimate {\t(0,70,\bord4)}Re{\bord2}ward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.32,0:00:36.42,op,NTP,0000,0000,0000,,The Ultimate {\bord4}{\t(0,100,\bord2)}Re{\bord2}ward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.42,0:00:36.59,op,NTP,0000,0000,0000,,The Ultimate Re{\t(0,170,\bord4)}ward {\bord2}Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.59,0:00:36.76,op,NTP,0000,0000,0000,,The Ultimate Re{\bord4}{\t(0,170,\bord2)}ward {\bord2}Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.76,0:00:36.83,op,NTP,0000,0000,0000,,The Ultimate Reward {\t(0,70,\bord4)}Is {\bord2}I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.83,0:00:36.90,op,NTP,0000,0000,0000,,The Ultimate Reward {\bord4}{\t(0,70,\bord2)}Is {\bord2}I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.90,0:00:36.96,op,NTP,0000,0000,0000,,The Ultimate Reward Is {\t(0,60,\bord4)}I{\fnarial}'{\fncomic sans ms}m {\bord2}Not At Wars
+Dialogue: 0,0:00:36.96,0:00:37.02,op,NTP,0000,0000,0000,,The Ultimate Reward Is {\bord4}{\t(0,60,\bord2)}I{\fnarial}'{\fncomic sans ms}m {\bord2}Not At Wars
+Dialogue: 0,0:00:37.02,0:00:37.12,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m {\t(0,100,\bord4)}Not {\bord2}At Wars
+Dialogue: 0,0:00:37.12,0:00:37.22,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m {\bord4}{\t(0,100,\bord2)}Not {\bord2}At Wars
+Dialogue: 0,0:00:37.22,0:00:37.35,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not {\t(0,130,\bord4)}At {\bord2}Wars
+Dialogue: 0,0:00:37.35,0:00:37.49,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not {\bord4}{\t(0,140,\bord2)}At {\bord2}Wars
+Dialogue: 0,0:00:37.49,0:00:37.69,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At {\t(0,130,\bord4)}Wars
+Dialogue: 0,0:00:37.69,0:00:37.89,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At {\bord4}{\t(0,200,\bord2)}Wars
+Dialogue: 0,0:00:38.02,0:00:38.07,op,NTP,0000,0000,0000,,{\t(0,50,\bord4)}At {\bord2}Odds With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.07,0:00:38.13,op,NTP,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}At {\bord2}Odds With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.13,0:00:38.24,op,NTP,0000,0000,0000,,At {\t(0,110,\bord4)}Odds {\bord2}With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.24,0:00:38.35,op,NTP,0000,0000,0000,,At {\bord4}{\t(0,110,\bord2)}Odds {\bord2}With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.35,0:00:38.45,op,NTP,0000,0000,0000,,At Odds {\t(0,100,\bord4)}With {\bord2}The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.45,0:00:38.55,op,NTP,0000,0000,0000,,At Odds {\bord4}{\t(0,100,\bord2)}With {\bord2}The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.55,0:00:38.62,op,NTP,0000,0000,0000,,At Odds With {\t(0,70,\bord4)}The {\bord2}Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.62,0:00:38.70,op,NTP,0000,0000,0000,,At Odds With {\bord4}{\t(0,80,\bord2)}The {\bord2}Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.70,0:00:38.84,op,NTP,0000,0000,0000,,At Odds With The {\t(0,140,\bord4)}Time {\bord2}Of Worlds With No Lords
+Dialogue: 0,0:00:38.84,0:00:38.98,op,NTP,0000,0000,0000,,At Odds With The {\bord4}{\t(0,140,\bord2)}Time {\bord2}Of Worlds With No Lords
+Dialogue: 0,0:00:38.98,0:00:39.04,op,NTP,0000,0000,0000,,At Odds With The Time {\t(0,60,\bord4)}Of {\bord2}Worlds With No Lords
+Dialogue: 0,0:00:39.04,0:00:39.11,op,NTP,0000,0000,0000,,At Odds With The Time {\bord4}{\t(0,70,\bord2)}Of {\bord2}Worlds With No Lords
+Dialogue: 0,0:00:39.11,0:00:39.30,op,NTP,0000,0000,0000,,At Odds With The Time Of {\t(0,190,\bord4)}Worlds {\bord2}With No Lords
+Dialogue: 0,0:00:39.30,0:00:39.49,op,NTP,0000,0000,0000,,At Odds With The Time Of {\bord4}{\t(0,190,\bord2)}Worlds {\bord2}With No Lords
+Dialogue: 0,0:00:39.49,0:00:39.58,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds {\t(0,90,\bord4)}With {\bord2}No Lords
+Dialogue: 0,0:00:39.58,0:00:39.68,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds {\bord4}{\t(0,100,\bord2)}With {\bord2}No Lords
+Dialogue: 0,0:00:39.68,0:00:39.79,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With {\t(0,110,\bord4)}No {\bord2}Lords
+Dialogue: 0,0:00:39.79,0:00:39.91,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With {\bord4}{\t(0,120,\bord2)}No {\bord2}Lords
+Dialogue: 0,0:00:39.91,0:00:40.11,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With No {\t(0,200,\bord4)}Lords
+Dialogue: 0,0:00:40.11,0:00:40.31,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With No {\bord4}{\t(0,200,\bord2)}Lords
+Dialogue: 0,0:00:40.73,0:00:42.02,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko7}A {\ko34}Free{\ko43}lan{\ko35}cer
+Dialogue: 0,0:00:42.08,0:00:44.05,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko10}A {\ko27}Battle{\ko31}cry {\ko15}Of {\ko15}A {\ko36}Heart{\ko2}{\fnarial}-{\ko31}{\fncomic sans ms}Picker {\ko22}Dove
+Dialogue: 0,0:00:44.07,0:00:45.40,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko30}Fly{\ko12}in{\fnarial}'{\fncomic sans ms}s {\ko25}The {\ko26}Tear {\ko35}Dry
+Dialogue: 0,0:00:45.82,0:00:48.22,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko29}Wonder {\ko26}Why {\ko35}Love {\ko23}Won{\fnarial}'{\fncomic sans ms}t {\ko28}Go {\ko35}Wrong {\ko19}With {\ko12}The {\ko30}Clan
+Dialogue: 0,0:00:48.25,0:00:50.85,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko26}Only {\ko32}Trust {\ko10}In {\ko21}Ins{\ko28}tincts {\ko18}And {\ko10}Be {\ko30}One {\ko18}With {\ko18}The {\ko40}Plans
+Dialogue: 0,0:00:50.96,0:00:52.95,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko31}Some {\ko56}Days {\ko33}Some {\ko53}Nights
+Dialogue: 0,0:00:53.16,0:00:54.50,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko21}Some {\ko35}Live {\ko40}Some {\ko37}Die
+Dialogue: 0,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,In The Way Of The Samurai
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(202,352)}{\alpha&H00&}{\t(0,80,\fs30\alpha&Hff&)}In
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(234,352)}{\alpha&H00&}{\t(80,190,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(277,352)}{\alpha&H00&}{\t(190,510,\fs30\alpha&Hff&)}Way
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(314,352)}{\alpha&H00&}{\t(510,670,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(347,352)}{\alpha&H00&}{\t(670,780,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(780,1040,\fs30\alpha&Hff&)}Samu
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(435,352)}{\alpha&H00&}{\t(1040,1400,\fs30\alpha&Hff&)}rai
+Dialogue: 0,0:00:56.21,0:00:57.95,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko26}Some {\ko15}{\ko43}Fight {\ko39}Some {\ko40}Bleed
+Dialogue: 0,0:00:58.04,0:00:59.35,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko24}Sun {\ko20}Up {\ko13}To {\ko30}Sun {\ko30}Down
+Dialogue: 0,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,The Sounds Of The Battlecry
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(205,352)}{\alpha&H00&}{\t(0,100,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(262,352)}{\alpha&H00&}{\t(100,430,\fs30\alpha&Hff&)}Sounds
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(313,352)}{\alpha&H00&}{\t(430,560,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(346,352)}{\alpha&H00&}{\t(560,710,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(710,1100,\fs30\alpha&Hff&)}Battle
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(439,352)}{\alpha&H00&}{\t(1100,1470,\fs30\alpha&Hff&)}cry
+Dialogue: 0,0:01:01.04,0:01:02.66,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko10}Some {\ko49}Days {\ko36}Some {\ko50}Nights
+Dialogue: 0,0:01:02.91,0:01:04.15,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko22}Some {\ko41}Live {\ko29}Some {\ko32}Die
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,In The Name Of The Samurai
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(195,352)}{\alpha&H00&}{\t(0,130,\fs30\alpha&Hff&)}In
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(227,352)}{\alpha&H00&}{\t(130,260,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(277,352)}{\alpha&H00&}{\t(260,640,\fs30\alpha&Hff&)}Name
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(320,352)}{\alpha&H00&}{\t(640,750,\fs30\alpha&Hff&)}Of
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(353,352)}{\alpha&H00&}{\t(750,850,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(402,352)}{\alpha&H00&}{\t(850,1200,\fs30\alpha&Hff&)}Samu
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(442,352)}{\alpha&H00&}{\t(1200,1500,\fs30\alpha&Hff&)}rai
+Dialogue: 0,0:01:05.99,0:01:07.64,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko28}Some {\ko40}Fight {\ko20}{\ko31}Some {\ko40}Bleed
+Dialogue: 0,0:01:07.79,0:01:09.01,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko22}Sun {\ko23}Up {\ko15}To {\ko34}Sun {\ko33}Down
+Dialogue: 0,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,The Sounds Of The Battlecry
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(205,352)}{\alpha&H00&}{\t(0,100,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(262,352)}{\alpha&H00&}{\t(100,430,\fs30\alpha&Hff&)}Sounds
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(313,352)}{\alpha&H00&}{\t(430,550,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(346,352)}{\alpha&H00&}{\t(550,680,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(680,1110,\fs30\alpha&Hff&)}Battle
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(439,352)}{\alpha&H00&}{\t(1110,1510,\fs30\alpha&Hff&)}cry
+Dialogue: 0,0:01:12.38,0:01:13.29,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko5}A {\ko31}Battle{\ko44}cry
+Dialogue: 0,0:21:36.25,0:21:40.25,ed,NTP,0000,0000,0000,,{\fad(200,200)}また夜が明ければお別れ
+Dialogue: 0,0:21:40.55,0:21:43.95,ed,NTP,0000,0000,0000,,{\fad(200,200)}夢は遠きまぼろしに
+Dialogue: 0,0:21:44.45,0:21:51.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}あなたを追いかけていた光の中で
+Dialogue: 0,0:21:51.45,0:21:57.55,ed,NTP,0000,0000,0000,,{\fad(200,200)}抱かれるたび　温かい風をたより
+Dialogue: 0,0:21:57.75,0:22:02.65,ed,NTP,0000,0000,0000,,{\fad(200,200)}春を告げ　踊り出すsunshine
+Dialogue: 0,0:22:02.75,0:22:07.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}夏をmusic　野原唐草乾くわ
+Dialogue: 0,0:22:08.05,0:22:13.25,ed,NTP,0000,0000,0000,,{\fad(200,200)}秋の月登った　まん丸さお祝い
+Dialogue: 0,0:22:13.25,0:22:18.35,ed,NTP,0000,0000,0000,,{\fad(200,200)}冬を過ぎまた　月日を数える
+Dialogue: 0,0:22:18.35,0:22:21.25,ed,NTP,0000,0000,0000,,{\fad(200,200)}まだ目蓋の奥にある　いつかの夏
+Dialogue: 0,0:22:21.55,0:22:22.55,ed,NTP,0000,0000,0000,,{\fad(200,200)}遠すぎた青空
+Dialogue: 0,0:22:22.65,0:22:26.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}温かかった　手をつなぐ花摘み歌う
+Dialogue: 0,0:22:26.85,0:22:28.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}いつや思い出
+Dialogue: 0,0:22:29.05,0:22:34.05,ed,NTP,0000,0000,0000,,{\fad(200,200)}今呼び覚ます　記憶の中で
+Dialogue: 0,0:22:34.15,0:22:39.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}いざ歩き出す　あなたのもとへ
+Dialogue: 0,0:22:39.25,0:22:44.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}春を告げ　踊ってsamba
+Dialogue: 0,0:22:44.25,0:22:49.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}夏をmusic　野原唐草乾くわ
+Dialogue: 0,0:22:49.45,0:22:54.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}秋の月登った　まん丸さお祝い
+Dialogue: 0,0:22:54.75,0:22:59.65,ed,NTP,0000,0000,0000,,{\fad(200,200)}冬を過ぎまた　月日を数える
+Dialogue: 0,0:23:00.25,0:23:03.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}また夜が明ければお別れ
+Dialogue: 0,0:23:03.85,0:23:07.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}夢は遠きまぼろしに
+Dialogue: 0,0:23:07.85,0:23:14.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}あなたを追いかけていた光の中で
+Dialogue: 0,0:23:14.15,0:23:20.95,ed,NTP,0000,0000,0000,,{\fad(200,200)}抱かれるたび　温かい風をたより
+Dialogue: 0,0:01:41.10,0:01:41.90,*Default,NTP,0000,0000,0000,,刈屋
+Dialogue: 0,0:01:44.00,0:01:48.10,*Default,NTP,0000,0000,0000,,哎呀 沒想到老中大人大駕光臨
+Dialogue: 0,0:01:48.10,0:01:51.30,*Default,NTP,0000,0000,0000,,你應該知道為什麼我會來吧
+Dialogue: 0,0:01:52.50,0:01:54.20,*Default,NTP,0000,0000,0000,,大概能了解
+Dialogue: 0,0:01:54.50,0:01:57.10,*Default,NTP,0000,0000,0000,,事態已經萬分緊急了
+Dialogue: 0,0:01:57.70,0:02:03.40,*Default,NTP,0000,0000,0000,,那個背叛无住的家伙又找來琉球罪犯的浪人
+Dialogue: 0,0:02:03.80,0:02:07.20,*Default,NTP,0000,0000,0000,,那是和他一樣厲害的傢伙不是嗎
+Dialogue: 0,0:02:08.20,0:02:09.70,*Default,NTP,0000,0000,0000,,我了解您的意思
+Dialogue: 0,0:02:09.90,0:02:16.10,*Default,NTP,0000,0000,0000,,而且那些人不久就要和那個清藏有所接觸了
+Dialogue: 0,0:02:16.50,0:02:21.10,*Default,NTP,0000,0000,0000,,如果在把島原之亂的殘黨連根拔除之前就讓他們逃走的話
+Dialogue: 0,0:02:21.10,0:02:22.90,*Default,NTP,0000,0000,0000,,事情就會變得很麻煩
+Dialogue: 0,0:02:22.90,0:02:23.90,*Default,NTP,0000,0000,0000,,老中大人
+Dialogue: 0,0:02:25.40,0:02:27.80,*Default,NTP,0000,0000,0000,,難得有這樣的機會 如何
+Dialogue: 0,0:02:28.30,0:02:31.00,*Default,NTP,0000,0000,0000,,好好觀賞一下庭院的花
+Dialogue: 0,0:02:33.10,0:02:35.90,*Default,NTP,0000,0000,0000,,比起這樣的大事 還提什麼花
+Dialogue: 0,0:02:35.90,0:02:39.90,*Default,NTP,0000,0000,0000,,您知道把雜草連根拔除的方法嗎
+Dialogue: 0,0:02:41.10,0:02:45.70,*Default,NTP,0000,0000,0000,,雜草會搶走養分讓花枯死
+Dialogue: 0,0:02:46.20,0:02:47.50,*Default,NTP,0000,0000,0000,,儘管如此
+Dialogue: 0,0:02:48.20,0:02:53.70,*Default,NTP,0000,0000,0000,,如果把雜草都連根拔除了 在相同泥土生長的花也會枯死
+Dialogue: 0,0:02:55.50,0:02:57.30,*Default,NTP,0000,0000,0000,,那麼該怎麼做
+Dialogue: 0,0:02:57.80,0:03:02.10,*Default,NTP,0000,0000,0000,,只要把雜草變成養分來栽培花朵就可以了
+Dialogue: 0,0:03:02.90,0:03:10.30,*Default,NTP,0000,0000,0000,,對 就像是表面看起來很美但是下面都是落葉的樹木那樣
+Dialogue: 0,0:03:12.70,0:03:15.00,*Default,NTP,0000,0000,0000,,沙羅好像已經被殺死了
+Dialogue: 0,0:03:17.90,0:03:20.50,*Default,NTP,0000,0000,0000,,如果是能打倒那種程度的對手的話
+Dialogue: 0,0:03:21.00,0:03:25.40,*Default,NTP,0000,0000,0000,,就有拔出很久都沒用的劍的價值了
+Dialogue: 0,0:03:25.70,0:03:26.60,*Default,NTP,0000,0000,0000,,你說什麼
+Dialogue: 0,0:03:28.40,0:03:30.90,*Default,NTP,0000,0000,0000,,讓我來做吧
+Dialogue: 0,0:03:35.90,0:03:37.90,*Default,NTP,0000,0000,0000,,老中大人 恕我多言
+Dialogue: 0,0:03:38.00,0:03:38.90,*Default,NTP,0000,0000,0000,,怎麼了
+Dialogue: 0,0:03:39.10,0:03:43.30,*Default,NTP,0000,0000,0000,,說到那個刈屋都只是個種花的人
+Dialogue: 0,0:03:43.80,0:03:47.80,*Default,NTP,0000,0000,0000,,在我身邊的人都沒有看過他拔劍
+Dialogue: 0,0:03:49.00,0:03:52.90,*Default,NTP,0000,0000,0000,,恕我無禮 我擔心這樣的重責大任那個人是不是能勝任
+Dialogue: 0,0:03:53.70,0:03:54.70,*Default,NTP,0000,0000,0000,,這樣啊
+Dialogue: 0,0:03:55.40,0:03:56.80,*Default,NTP,0000,0000,0000,,你還年輕
+Dialogue: 0,0:03:56.90,0:04:00.30,*Default,NTP,0000,0000,0000,,不知道那男人也無可厚非
+Dialogue: 0,0:04:01.40,0:04:04.10,*Default,NTP,0000,0000,0000,,你知道他為什麼不拔劍嗎
+Dialogue: 0,0:04:04.80,0:04:08.50,*Default,NTP,0000,0000,0000,,那是因為沒有能和自己匹敵的對手
+Dialogue: 0,0:04:09.80,0:04:16.70,*Default,NTP,0000,0000,0000,,刈屋景時那傢伙正是從前被稱為劍神的人
+Dialogue: 0,0:04:17.60,0:04:18.30,*Default,NTP,0000,0000,0000,,不會吧...
+Dialogue: 0,0:04:19.30,0:04:25.10,*Default,NTP,0000,0000,0000,,在這世上大概沒有人能殺死那個男人
+Dialogue: 0,0:04:27.20,0:04:31.10,*Default,NTP,0000,0000,0000,,{\fad(250,250)}#24 生死流轉 其之壹
+Dialogue: 0,0:04:33.30,0:04:36.40,*Default,NTP,0000,0000,0000,,然後 到長崎還有多遠啊
+Dialogue: 0,0:04:37.80,0:04:40.20,*Default,NTP,0000,0000,0000,,長崎已經過頭了
+Dialogue: 0,0:04:41.30,0:04:45.50,*Default,NTP,0000,0000,0000,,生月島就在長崎稍微北方一點
+Dialogue: 0,0:04:46.50,0:04:49.00,*Default,NTP,0000,0000,0000,,過了這個山頭就在眼前了
+Dialogue: 0,0:04:49.30,0:04:54.30,*Default,NTP,0000,0000,0000,,什麼啊 辛苦了老半天 突然之間就到啦
+Dialogue: 0,0:04:54.70,0:04:57.60,*Default,NTP,0000,0000,0000,,這樣啊 好像做夢一樣的
+Dialogue: 0,0:04:58.30,0:05:00.50,*Default,NTP,0000,0000,0000,,明明覺得一直都到不了的
+Dialogue: 0,0:05:01.60,0:05:03.00,*Default,NTP,0000,0000,0000,,到底到了啊
+Dialogue: 0,0:05:03.50,0:05:09.60,*Default,NTP,0000,0000,0000,,在那個什麼島的和那個向日葵武士見了面不就得了
+Dialogue: 0,0:05:10.50,0:05:13.40,*Default,NTP,0000,0000,0000,,是這樣沒錯
+Dialogue: 0,0:05:20.90,0:05:21.60,*Default,NTP,0000,0000,0000,,你們...
+Dialogue: 0,0:05:22.30,0:05:23.70,*Default,NTP,0000,0000,0000,,不覺得很不可思議嗎
+Dialogue: 0,0:05:24.50,0:05:25.50,*Default,NTP,0000,0000,0000,,什麼
+Dialogue: 0,0:05:25.60,0:05:31.70,*Default,NTP,0000,0000,0000,,我們這樣一直旅行 卻對彼此完全不瞭解
+Dialogue: 0,0:05:31.80,0:05:35.40,*Default,NTP,0000,0000,0000,,比如 在這以前 大家都幹過什麽之類的都不清楚
+Dialogue: 0,0:05:36.40,0:05:37.70,*Default,NTP,0000,0000,0000,,說得也是
+Dialogue: 0,0:05:37.90,0:05:43.80,*Default,NTP,0000,0000,0000,,那現在每個人都說一個自己一直隱瞞到現在的秘密 如何
+Dialogue: 0,0:05:45.50,0:05:50.70,*Default,NTP,0000,0000,0000,,我們可能已經沒有機會再聊天了
+Dialogue: 0,0:05:53.70,0:05:54.80,*Default,NTP,0000,0000,0000,,那傢伙怎麼啦
+Dialogue: 0,0:05:55.20,0:05:56.40,*Default,NTP,0000,0000,0000,,先齊面投祿(多愁善感)啦
+Dialogue: 0,0:05:56.80,0:05:58.10,*Default,NTP,0000,0000,0000,,先齊面投祿
+Dialogue: 0,0:05:58.50,0:06:01.30,*Default,NTP,0000,0000,0000,,是西洋的女孩子感情流露的一種說法啦
+Dialogue: 0,0:06:02.10,0:06:04.40,*Default,NTP,0000,0000,0000,,大概心情起伏很大吧
+Dialogue: 0,0:06:05.10,0:06:06.10,*Default,NTP,0000,0000,0000,,你們有在聽嗎
+Dialogue: 0,0:06:06.40,0:06:07.50,*Default,NTP,0000,0000,0000,,那從無幻開始
+Dialogue: 0,0:06:07.50,0:06:08.10,*Default,NTP,0000,0000,0000,,我
+Dialogue: 0,0:06:09.50,0:06:11.40,*Default,NTP,0000,0000,0000,,我也沒什麼秘密
+Dialogue: 0,0:06:12.50,0:06:15.10,*Default,NTP,0000,0000,0000,,倒是以前做了不少壞事
+Dialogue: 0,0:06:15.20,0:06:16.60,*Default,NTP,0000,0000,0000,,這我知道
+Dialogue: 0,0:06:17.90,0:06:20.40,*Default,NTP,0000,0000,0000,,還有我喜歡胸大的女人
+Dialogue: 0,0:06:20.60,0:06:21.50,*Default,NTP,0000,0000,0000,,這我也知道
+Dialogue: 0,0:06:21.70,0:06:25.10,*Default,NTP,0000,0000,0000,,對了 在旅途中發生過一些事情
+Dialogue: 0,0:06:25.50,0:06:27.60,*Default,NTP,0000,0000,0000,,我幹掉了一個奇怪的老頭
+Dialogue: 0,0:06:28.00,0:06:29.40,*Default,NTP,0000,0000,0000,,怎麼個奇怪法
+Dialogue: 0,0:06:30.10,0:06:30.80,*Default,NTP,0000,0000,0000,,好像是...
+Dialogue: 0,0:06:31.40,0:06:34.50,*Default,NTP,0000,0000,0000,,說了"你不把這個家放在眼裡啦"之類的
+Dialogue: 0,0:06:35.00,0:06:38.40,*Default,NTP,0000,0000,0000,,我就說我才不把那種東西放在眼裡之類的 就把他幹掉了
+Dialogue: 0,0:06:39.50,0:06:42.00,*Default,NTP,0000,0000,0000,,等等 那不就不得了啦
+Dialogue: 0,0:06:42.10,0:06:43.30,*Default,NTP,0000,0000,0000,,不是什麼不得了的事
+Dialogue: 0,0:06:43.80,0:06:45.90,*Default,NTP,0000,0000,0000,,你竟然能活到現在呢
+Dialogue: 0,0:06:46.80,0:06:48.10,*Default,NTP,0000,0000,0000,,那接下來是仁
+Dialogue: 0,0:06:48.60,0:06:49.10,*Default,NTP,0000,0000,0000,,來
+Dialogue: 0,0:06:50.80,0:06:53.70,*Default,NTP,0000,0000,0000,,在遇到我們之前你在做什麼呢
+Dialogue: 0,0:06:55.60,0:06:57.90,*Default,NTP,0000,0000,0000,,一直在旅行
+Dialogue: 0,0:06:58.80,0:07:02.20,*Default,NTP,0000,0000,0000,,我年幼的時候就失去雙親
+Dialogue: 0,0:07:02.90,0:07:05.80,*Default,NTP,0000,0000,0000,,被寄養在無住真劍劍術道場
+Dialogue: 0,0:07:07.10,0:07:08.00,*Default,NTP,0000,0000,0000,,但是
+Dialogue: 0,0:07:11.60,0:07:15.00,*Default,NTP,0000,0000,0000,,我從小時候開始就日以繼夜地練習劍術
+Dialogue: 0,0:07:15.20,0:07:17.30,*Default,NTP,0000,0000,0000,,從那時候開始 我一直都是孤獨的一人
+Dialogue: 0,0:07:18.50,0:07:22.40,*Default,NTP,0000,0000,0000,,在我的身邊都沒有能當我對手的孩子
+Dialogue: 0,0:07:23.60,0:07:26.20,*Default,NTP,0000,0000,0000,,大家都怕我 嫉妒我
+Dialogue: 0,0:07:26.50,0:07:28.10,*Default,NTP,0000,0000,0000,,然後都疏远我了
+Dialogue: 0,0:07:30.20,0:07:32.20,*Default,NTP,0000,0000,0000,,你知道的東西確實非常多
+Dialogue: 0,0:07:32.50,0:07:35.30,*Default,NTP,0000,0000,0000,,但你的強悍並沒有支點
+Dialogue: 0,0:07:35.60,0:07:40.30,*Default,NTP,0000,0000,0000,,也就是說 那種強悍也只是爲了你自己而已
+Dialogue: 0,0:07:42.30,0:07:45.30,*Default,NTP,0000,0000,0000,,最後被背上殺害師父的罪
+Dialogue: 0,0:07:45.60,0:07:47.80,*Default,NTP,0000,0000,0000,,我離開了道場
+Dialogue: 0,0:07:49.20,0:07:53.10,*Default,NTP,0000,0000,0000,,在那之後我就在找尋著什麼 一直旅行著
+Dialogue: 0,0:07:54.00,0:07:54.70,*Default,NTP,0000,0000,0000,,但是
+Dialogue: 0,0:07:55.00,0:07:58.80,*Default,NTP,0000,0000,0000,,在找尋什麼 自己也不知道
+Dialogue: 0,0:08:01.00,0:08:04.00,*Default,NTP,0000,0000,0000,,或許只是一直在逃避也說不定
+Dialogue: 0,0:08:09.00,0:08:10.20,*Default,NTP,0000,0000,0000,,到你了
+Dialogue: 0,0:08:15.60,0:08:21.40,*Default,NTP,0000,0000,0000,,我小時候一直和媽媽一起生活
+Dialogue: 0,0:08:23.50,0:08:26.20,*Default,NTP,0000,0000,0000,,我一直以為爸爸在很久之前就過世了
+Dialogue: 0,0:08:27.30,0:08:29.80,*Default,NTP,0000,0000,0000,,可是媽媽在病重臨死前告訴我
+Dialogue: 0,0:08:31.00,0:08:34.50,*Default,NTP,0000,0000,0000,,我的父親一定還在某個地方活著
+Dialogue: 0,0:08:35.70,0:08:40.20,*Default,NTP,0000,0000,0000,,只是在很久以前丟下我和媽媽不知道到哪裡去了
+Dialogue: 0,0:08:42.70,0:08:46.10,*Default,NTP,0000,0000,0000,,雖然媽媽沒有抱怨過
+Dialogue: 0,0:08:46.80,0:08:48.30,*Default,NTP,0000,0000,0000,,但是我沒有辦法原諒他
+Dialogue: 0,0:08:49.40,0:08:52.30,*Default,NTP,0000,0000,0000,,所以我發誓一定要找到他
+Dialogue: 0,0:08:52.90,0:08:57.50,*Default,NTP,0000,0000,0000,,連媽媽的那一份也揍回來
+Dialogue: 0,0:08:59.20,0:09:02.40,*Default,NTP,0000,0000,0000,,可是一直沒有踏上旅程的勇氣
+Dialogue: 0,0:09:03.20,0:09:06.10,*Default,NTP,0000,0000,0000,,直到在那間茶店遇到你們了
+Dialogue: 0,0:09:07.30,0:09:08.90,*Default,NTP,0000,0000,0000,,那個時候我就想
+Dialogue: 0,0:09:09.50,0:09:12.40,*Default,NTP,0000,0000,0000,,和這兩個人一起的話 應該可以去了
+Dialogue: 0,0:09:12.90,0:09:14.30,*Default,NTP,0000,0000,0000,,我就是這樣想的
+Dialogue: 0,0:09:18.20,0:09:19.40,*Default,NTP,0000,0000,0000,,謝謝你們
+Dialogue: 0,0:09:20.10,0:09:21.80,*Default,NTP,0000,0000,0000,,一直陪我走到這裡
+Dialogue: 0,0:09:41.60,0:09:42.70,*Default,NTP,0000,0000,0000,,怎麼了
+Dialogue: 0,0:09:44.70,0:09:45.80,*Default,NTP,0000,0000,0000,,沒什麼
+Dialogue: 0,0:09:46.30,0:09:47.10,*Default,NTP,0000,0000,0000,,沒事
+Dialogue: 0,0:09:49.00,0:09:49.60,*Default,NTP,0000,0000,0000,,風
+Dialogue: 0,0:09:51.00,0:09:55.90,*Default,NTP,0000,0000,0000,,見到向日葵武士之後 你打算怎麽辦
+Dialogue: 0,0:09:57.70,0:10:00.60,*Default,NTP,0000,0000,0000,,嗯 是啊
+Dialogue: 0,0:10:01.50,0:10:03.10,*Default,NTP,0000,0000,0000,,是該好好考慮了
+Dialogue: 0,0:10:04.40,0:10:06.10,*Default,NTP,0000,0000,0000,,如果可以的話...
+Dialogue: 0,0:10:07.70,0:10:10.90,*Default,NTP,0000,0000,0000,,我並不想去想那些事
+Dialogue: 0,0:10:11.90,0:10:14.10,*Default,NTP,0000,0000,0000,,因為 無幻那傢伙
+Dialogue: 0,0:10:16.50,0:10:17.40,*Default,NTP,0000,0000,0000,,對不起...
+Dialogue: 0,0:10:18.00,0:10:18.60,*Default,NTP,0000,0000,0000,,對不起...
+Dialogue: 0,0:10:35.60,0:10:36.30,*Default,NTP,0000,0000,0000,,怎麽樣
+Dialogue: 0,0:10:38.10,0:10:39.10,*Default,NTP,0000,0000,0000,,錯不了
+Dialogue: 0,0:10:39.20,0:10:40.00,*Default,NTP,0000,0000,0000,,這樣啊
+Dialogue: 0,0:10:40.40,0:10:41.40,*Default,NTP,0000,0000,0000,,殺
+Dialogue: 0,0:10:41.90,0:10:43.40,*Default,NTP,0000,0000,0000,,快點讓我殺
+Dialogue: 0,0:10:43.40,0:10:44.60,*Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:10:45.00,0:10:46.90,*Default,NTP,0000,0000,0000,,再稍微忍耐一下
+Dialogue: 0,0:10:49.10,0:10:49.70,*Default,NTP,0000,0000,0000,,喂
+Dialogue: 0,0:10:51.50,0:10:54.70,*Default,NTP,0000,0000,0000,,你知不知道昨天在這裡露宿的傢伙
+Dialogue: 0,0:10:55.40,0:10:56.40,*Default,NTP,0000,0000,0000,,不知道
+Dialogue: 0,0:10:57.00,0:10:59.20,*Default,NTP,0000,0000,0000,,外人就快滾出去
+Dialogue: 0,0:11:01.00,0:11:03.50,*Default,NTP,0000,0000,0000,,忘記你見過我們的事情
+Dialogue: 0,0:11:06.20,0:11:09.30,*Default,NTP,0000,0000,0000,,這樣說好像也沒用呢
+Dialogue: 0,0:11:50.60,0:11:51.50,*Default,NTP,0000,0000,0000,,看
+Dialogue: 0,0:11:54.90,0:11:57.20,*Default,NTP,0000,0000,0000,,等等 不要用肚子回話啦
+Dialogue: 0,0:11:57.30,0:11:58.80,*Default,NTP,0000,0000,0000,,總之 先吃飯吧
+Dialogue: 0,0:12:00.60,0:12:02.00,*Default,NTP,0000,0000,0000,,生月島
+Dialogue: 0,0:12:02.60,0:12:04.90,*Default,NTP,0000,0000,0000,,要去那裡的話 就要搭船
+Dialogue: 0,0:12:06.10,0:12:06.80,*Default,NTP,0000,0000,0000,,來了
+Dialogue: 0,0:12:06.90,0:12:08.20,*Default,NTP,0000,0000,0000,,涮牛肉火鍋
+Dialogue: 0,0:12:08.70,0:12:10.20,*Default,NTP,0000,0000,0000,,哇 這是什麼
+Dialogue: 0,0:12:10.60,0:12:11.30,*Default,NTP,0000,0000,0000,,肉
+Dialogue: 0,0:12:11.50,0:12:15.10,*Default,NTP,0000,0000,0000,,因為這附近融入南蠻的飲食文化
+Dialogue: 0,0:12:15.50,0:12:18.60,*Default,NTP,0000,0000,0000,,說起來 這不是生的嗎
+Dialogue: 0,0:12:20.00,0:12:22.70,*Default,NTP,0000,0000,0000,,把那個在熱湯上面涮一涮 然後才吃
+Dialogue: 0,0:12:23.10,0:12:24.90,*Default,NTP,0000,0000,0000,,稍微有點熟就可以了
+Dialogue: 0,0:12:25.50,0:12:27.20,*Default,NTP,0000,0000,0000,,算了 怎樣都好
+Dialogue: 0,0:12:27.20,0:12:28.40,*Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:12:28.50,0:12:31.30,*Default,NTP,0000,0000,0000,,火鍋是會顯現出人性的
+Dialogue: 0,0:12:31.60,0:12:33.20,*Default,NTP,0000,0000,0000,,在這裡先決定規則
+Dialogue: 0,0:12:33.80,0:12:35.40,*Default,NTP,0000,0000,0000,,要好好的 肉
+Dialogue: 0,0:12:35.40,0:12:36.00,*Default,NTP,0000,0000,0000,,青菜
+Dialogue: 0,0:12:36.00,0:12:36.60,*Default,NTP,0000,0000,0000,,肉
+Dialogue: 0,0:12:36.70,0:12:38.30,*Default,NTP,0000,0000,0000,,青菜這樣...
+Dialogue: 0,0:12:38.50,0:12:40.20,*Default,NTP,0000,0000,0000,,按照順序
+Dialogue: 0,0:12:40.20,0:12:41.20,*Default,NTP,0000,0000,0000,,等等啦
+Dialogue: 0,0:12:42.00,0:12:43.60,*Default,NTP,0000,0000,0000,,你們怎麽隨意就...
+Dialogue: 0,0:12:45.10,0:12:47.30,*Default,NTP,0000,0000,0000,,無幻 你從剛才就只吃肉
+Dialogue: 0,0:12:47.40,0:12:49.60,*Default,NTP,0000,0000,0000,,吵死了 不要影響吃火鍋的心情
+Dialogue: 0,0:12:49.60,0:12:51.30,*Default,NTP,0000,0000,0000,,好好遵守規定...
+Dialogue: 0,0:12:51.30,0:12:53.70,*Default,NTP,0000,0000,0000,,仁 你也盡吃肉
+Dialogue: 0,0:12:53.80,0:12:54.40,*Default,NTP,0000,0000,0000,,好吃
+Dialogue: 0,0:12:54.70,0:12:56.40,*Default,NTP,0000,0000,0000,,我才不管什麼規則呢
+Dialogue: 0,0:12:56.80,0:12:58.80,*Default,NTP,0000,0000,0000,,世上本來就是弱肉強食的
+Dialogue: 0,0:12:58.90,0:13:00.30,*Default,NTP,0000,0000,0000,,真是太好吃了
+Dialogue: 0,0:13:00.80,0:13:01.80,*Default,NTP,0000,0000,0000,,真是的
+Dialogue: 0,0:13:01.90,0:13:03.70,*Default,NTP,0000,0000,0000,,都是任性的傢伙
+Dialogue: 0,0:13:11.20,0:13:12.50,*Default,NTP,0000,0000,0000,,有了 有了 船耶
+Dialogue: 0,0:13:14.90,0:13:16.60,*Default,NTP,0000,0000,0000,,我忘記買土產了
+Dialogue: 0,0:13:17.60,0:13:18.40,*Default,NTP,0000,0000,0000,,土產
+Dialogue: 0,0:13:18.60,0:13:19.70,*Default,NTP,0000,0000,0000,,長崎蛋糕
+Dialogue: 0,0:13:20.40,0:13:22.30,*Default,NTP,0000,0000,0000,,你們兩人可以去買給我嗎
+Dialogue: 0,0:13:22.60,0:13:23.40,*Default,NTP,0000,0000,0000,,我說啊
+Dialogue: 0,0:13:23.50,0:13:26.20,*Default,NTP,0000,0000,0000,,來 這裡面有錢
+Dialogue: 0,0:13:26.40,0:13:28.40,*Default,NTP,0000,0000,0000,,不要囉囉嗦嗦的 快去快去
+Dialogue: 0,0:13:29.60,0:13:32.10,*Default,NTP,0000,0000,0000,,我去雇船
+Dialogue: 0,0:13:32.20,0:13:33.90,*Default,NTP,0000,0000,0000,,什麼啦...
+Dialogue: 0,0:13:34.30,0:13:34.80,*Default,NTP,0000,0000,0000,,拿去
+Dialogue: 0,0:13:42.00,0:13:42.90,*Default,NTP,0000,0000,0000,,歡迎光...
+Dialogue: 0,0:13:51.10,0:13:55.40,*Default,NTP,0000,0000,0000,,這裡是不是有個叫做無幻的從琉球來的罪犯來過
+Dialogue: 0,0:13:56.30,0:13:57.50,*Default,NTP,0000,0000,0000,,你們是...
+Dialogue: 0,0:13:57.70,0:14:01.00,*Default,NTP,0000,0000,0000,,想要隱瞞的話也沒關係
+Dialogue: 0,0:14:01.10,0:14:06.70,*Default,NTP,0000,0000,0000,,但是這裏有個傢夥可總按捺不住想殺人哦
+Dialogue: 0,0:14:06.90,0:14:08.90,*Default,NTP,0000,0000,0000,,能不能制住這傢伙...
+Dialogue: 0,0:14:09.20,0:14:12.40,*Default,NTP,0000,0000,0000,,我也沒有自信
+Dialogue: 0,0:14:16.40,0:14:17.40,*Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:14:18.10,0:14:19.20,*Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:14:31.50,0:14:33.70,*Default,NTP,0000,0000,0000,,是不是那個男的我不知道
+Dialogue: 0,0:14:33.80,0:14:36.70,*Default,NTP,0000,0000,0000,,但是有一個拿著奇怪的刀 穿著奇怪衣服的男人
+Dialogue: 0,0:14:37.30,0:14:39.40,*Default,NTP,0000,0000,0000,,說是要去生月島...
+Dialogue: 0,0:14:40.30,0:14:43.50,*Default,NTP,0000,0000,0000,,忘記我們來過這裡的事情
+Dialogue: 0,0:14:43.70,0:14:46.20,*Default,NTP,0000,0000,0000,,不可以跟任何人說 可以吧
+Dialogue: 0,0:14:46.90,0:14:47.80,*Default,NTP,0000,0000,0000,,我知道
+Dialogue: 0,0:14:48.20,0:14:49.20,*Default,NTP,0000,0000,0000,,這我知道的
+Dialogue: 0,0:14:58.60,0:14:59.60,*Default,NTP,0000,0000,0000,,不許說喔
+Dialogue: 0,0:15:01.60,0:15:04.60,*Default,NTP,0000,0000,0000,,明明都跟你說不要告訴任何人了
+Dialogue: 0,0:15:12.50,0:15:14.80,*Default,NTP,0000,0000,0000,,隨便買點什麼就好了
+Dialogue: 0,0:15:14.90,0:15:17.80,*Default,NTP,0000,0000,0000,,可是 很貴呢
+Dialogue: 0,0:15:18.00,0:15:19.70,*Default,NTP,0000,0000,0000,,錢包裡面有多少錢啊
+Dialogue: 0,0:15:28.60,0:15:30.10,*Default,NTP,0000,0000,0000,,準備要出發囉
+Dialogue: 0,0:15:30.50,0:15:31.80,*Default,NTP,0000,0000,0000,,現在馬上去
+Dialogue: 0,0:15:45.50,0:15:46.30,*Default,NTP,0000,0000,0000,,怎麼了
+Dialogue: 0,0:15:47.40,0:15:48.00,*Default,NTP,0000,0000,0000,,不...
+Dialogue: 0,0:15:49.00,0:15:50.40,*Default,NTP,0000,0000,0000,,出船囉
+Dialogue: 0,0:15:51.60,0:15:56.30,*Default,NTP,0000,0000,0000,,請問您是霞清藏先生嗎
+Dialogue: 0,0:15:59.20,0:16:00.10,*Default,NTP,0000,0000,0000,,對不起...
+Dialogue: 0,0:16:00.60,0:16:02.80,*Default,NTP,0000,0000,0000,,我到底在說什麼阿...
+Dialogue: 0,0:16:03.50,0:16:04.80,*Default,NTP,0000,0000,0000,,認錯人了
+Dialogue: 0,0:16:05.70,0:16:06.70,*Default,NTP,0000,0000,0000,,對不起
+Dialogue: 0,0:16:26.80,0:16:27.40,*Default,NTP,0000,0000,0000,,什麼啊
+Dialogue: 0,0:16:28.10,0:16:29.00,*Default,NTP,0000,0000,0000,,是風
+Dialogue: 0,0:16:30.60,0:16:32.30,*Default,NTP,0000,0000,0000,,要分離很痛苦
+Dialogue: 0,0:16:32.50,0:16:33.70,*Default,NTP,0000,0000,0000,,所以我一個人去
+Dialogue: 0,0:16:36.10,0:16:40.60,*Default,NTP,0000,0000,0000,,昨天在篝火前聊天真的很快樂
+Dialogue: 0,0:16:41.60,0:16:46.30,*Default,NTP,0000,0000,0000,,真希望那樣的時刻能一直一直持續下去
+Dialogue: 0,0:16:47.00,0:16:49.90,*Default,NTP,0000,0000,0000,,可是那個時候我突然變得好害怕
+Dialogue: 0,0:16:50.30,0:16:53.70,*Default,NTP,0000,0000,0000,,一旦跟大家分離了會變得怎樣
+Dialogue: 0,0:16:54.50,0:16:57.40,*Default,NTP,0000,0000,0000,,我是不是太依賴無幻和仁了呢
+Dialogue: 0,0:16:58.50,0:17:02.40,*Default,NTP,0000,0000,0000,,旅程結束後 一個人也可以過得去
+Dialogue: 0,0:17:03.50,0:17:05.40,*Default,NTP,0000,0000,0000,,這些事情我想了很多
+Dialogue: 0,0:17:08.70,0:17:11.00,*Default,NTP,0000,0000,0000,,所以我決定一個人去
+Dialogue: 0,0:17:12.70,0:17:14.00,*Default,NTP,0000,0000,0000,,最後有一件事
+Dialogue: 0,0:17:15.10,0:17:18.80,*Default,NTP,0000,0000,0000,,雖然我說過你們的勝負留到這旅程結束後
+Dialogue: 0,0:17:19.40,0:17:21.20,*Default,NTP,0000,0000,0000,,但是我不希望你們兩人互相打鬥
+Dialogue: 0,0:17:22.70,0:17:25.90,*Default,NTP,0000,0000,0000,,長崎蛋糕是我的餞別禮
+Dialogue: 0,0:17:26.90,0:17:30.20,*Default,NTP,0000,0000,0000,,一邊吃一邊再好好想想吧
+Dialogue: 0,0:17:31.70,0:17:33.90,*Default,NTP,0000,0000,0000,,再見了 什麽時候會再見面呢
+Dialogue: 0,0:18:02.20,0:18:03.60,*Default,NTP,0000,0000,0000,,我在找人
+Dialogue: 0,0:18:04.50,0:18:07.00,*Default,NTP,0000,0000,0000,,是關於霞清藏先生的事情...
+Dialogue: 0,0:18:07.50,0:18:09.40,*Default,NTP,0000,0000,0000,,我聽說他在這個島上
+Dialogue: 0,0:18:10.00,0:18:11.20,*Default,NTP,0000,0000,0000,,你找死啊
+Dialogue: 0,0:18:12.80,0:18:16.10,*Default,NTP,0000,0000,0000,,不 我只是在找人而已
+Dialogue: 0,0:18:16.20,0:18:19.40,*Default,NTP,0000,0000,0000,,這個村子以前是很平靜的
+Dialogue: 0,0:18:19.50,0:18:21.50,*Default,NTP,0000,0000,0000,,如果天主教徒什麼的沒有來過
+Dialogue: 0,0:18:21.50,0:18:26.00,*Default,NTP,0000,0000,0000,,我的家人和住的房子就不會被燒掉了
+Dialogue: 0,0:18:27.80,0:18:28.70,*Default,NTP,0000,0000,0000,,滾出去
+Dialogue: 0,0:18:28.90,0:18:31.70,*Default,NTP,0000,0000,0000,,不要再提起那個名字了
+Dialogue: 0,0:18:45.60,0:18:46.30,*Default,NTP,0000,0000,0000,,來這裡
+Dialogue: 0,0:18:46.60,0:18:47.10,*Default,NTP,0000,0000,0000,,你看
+Dialogue: 0,0:18:47.90,0:18:48.90,*Default,NTP,0000,0000,0000,,不要管了 到這裡來
+Dialogue: 0,0:18:54.60,0:18:55.20,*Default,NTP,0000,0000,0000,,請問...
+Dialogue: 0,0:18:55.90,0:18:58.60,*Default,NTP,0000,0000,0000,,你在找的人是誰
+Dialogue: 0,0:19:00.30,0:19:02.90,*Default,NTP,0000,0000,0000,,我爸爸
+Dialogue: 0,0:19:05.20,0:19:06.20,*Default,NTP,0000,0000,0000,,這樣啊
+Dialogue: 0,0:19:13.30,0:19:16.70,*Default,NTP,0000,0000,0000,,在北邊的海角有一間小屋
+Dialogue: 0,0:19:17.50,0:19:19.00,*Default,NTP,0000,0000,0000,,你去那裡看看
+Dialogue: 0,0:19:21.20,0:19:22.80,*Default,NTP,0000,0000,0000,,快點去比較好
+Dialogue: 0,0:19:23.50,0:19:24.60,*Default,NTP,0000,0000,0000,,因為那個人已經快...
+Dialogue: 0,0:19:27.80,0:19:28.60,*Default,NTP,0000,0000,0000,,謝謝你
+Dialogue: 0,0:19:30.60,0:19:31.40,*Default,NTP,0000,0000,0000,,謝謝你
+Dialogue: 0,0:19:39.10,0:19:43.20,*Default,NTP,0000,0000,0000,,所謂的絕望 就是沒有任何希望
+Dialogue: 0,0:19:43.80,0:19:48.60,*Default,NTP,0000,0000,0000,,不過人沒有任何希望地活著
+Dialogue: 0,0:19:48.90,0:19:54.00,*Default,NTP,0000,0000,0000,,也就是說人只能和絕望一起活下去了
+Dialogue: 0,0:19:55.10,0:19:56.60,*Default,NTP,0000,0000,0000,,你是什麼人啊
+Dialogue: 0,0:19:57.20,0:20:00.40,*Default,NTP,0000,0000,0000,,佳澄的女兒已經搭船到島上了
+Dialogue: 0,0:20:02.80,0:20:03.70,*Default,NTP,0000,0000,0000,,你知道嗎
+Dialogue: 0,0:20:04.20,0:20:06.00,*Default,NTP,0000,0000,0000,,霞清藏
+Dialogue: 0,0:20:06.50,0:20:11.90,*Default,NTP,0000,0000,0000,,被異國宗教侵蝕靈魂的重刑犯
+Dialogue: 0,0:20:12.70,0:20:14.80,*Default,NTP,0000,0000,0000,,致使九州血流成河
+Dialogue: 0,0:20:14.90,0:20:17.50,*Default,NTP,0000,0000,0000,,也聽說他和島原之亂有關聯
+Dialogue: 0,0:20:18.60,0:20:22.90,*Default,NTP,0000,0000,0000,,是幕府最想消滅的男人
+Dialogue: 0,0:20:23.80,0:20:27.60,*Default,NTP,0000,0000,0000,,那個男人最想擺脫關係的女兒也是
+Dialogue: 0,0:20:27.90,0:20:29.80,*Default,NTP,0000,0000,0000,,我更清楚
+Dialogue: 0,0:20:30.20,0:20:34.90,*Default,NTP,0000,0000,0000,,想要知道霞清藏的所在地 一路找尋著來的吧
+Dialogue: 0,0:20:36.30,0:20:41.00,*Default,NTP,0000,0000,0000,,接著 很遺憾的 只好請你們死在這了
+Dialogue: 0,0:20:41.20,0:20:42.80,*Default,NTP,0000,0000,0000,,你一個人上嗎
+Dialogue: 0,0:20:43.30,0:20:45.20,*Default,NTP,0000,0000,0000,,很有自信呢
+Dialogue: 0,0:20:47.30,0:20:47.80,*Default,NTP,0000,0000,0000,,來
+Dialogue: 0,0:20:48.30,0:20:50.70,*Default,NTP,0000,0000,0000,,不要讓我失望了
+Dialogue: 0,0:20:59.70,0:21:01.90,*Default,NTP,0000,0000,0000,,不要這麼慌張 大小姐
+Dialogue: 0,0:21:04.30,0:21:07.80,*Default,NTP,0000,0000,0000,,是啊 很辛苦吧
+Dialogue: 0,0:21:08.60,0:21:10.70,*Default,NTP,0000,0000,0000,,那麼長的旅程才到走裡
+Dialogue: 0,0:21:11.10,0:21:15.60,*Default,NTP,0000,0000,0000,,因為在到達之前 全部都白費了呢
+Dialogue: 0,0:21:16.20,0:21:21.00,*Default,NTP,0000,0000,0000,,是啊 我想要讓你嚐嚐這個滋味呢
+Dialogue: 0,0:21:21.50,0:21:25.20,*Default,NTP,0000,0000,0000,,我只想要讓你知道我們的心情啊
+Dialogue: 0,0:21:26.10,0:21:27.50,*Default,NTP,0000,0000,0000,,你這話是什麼意思
+Dialogue: 0,0:21:27.80,0:21:31.20,*Default,NTP,0000,0000,0000,,也就是說這裡是你的墳場了

@@ -1,0 +1,230 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Microsoft YaHei,56,&H00ffffff,&H000000ff,&H0008009f,&H006757b7,0,0,0,0,100,100,0,0.00,1,2,1,2,10,10,40,1
+Style: Note,Microsoft YaHei,74,&H00ffffff,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,2,8,10,10,10,1
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: Staff,Microsoft YaHei,34,&H00ffffff,&H000000ff,&H00000000,&H000000ff,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,40,1
+Style: BRB sign,Microsoft YaHei,133,&H002900ad,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,0,0,8,34,34,34,1
+Style: D1,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,7,40,10,30,1
+Style: D2,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,3,10,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.36,0:00:03.63,D,,0000,0000,0000,,Penny, I..I don't understand
+Dialogue: 0,0:00:04.31,0:00:06.25,D,,0000,0000,0000,,Most girls are born..
+Dialogue: 0,0:00:06.25,0:00:07.65,D,,0000,0000,0000,,but I was made
+Dialogue: 0,0:00:07.98,0:00:12.22,D,,0000,0000,0000,,I'm the world's first synthetic person capable of generating an Aura
+Dialogue: 0,0:00:13.59,0:00:15.02,D,,0000,0000,0000,,I'm not real
+Dialogue: 0,0:00:20.40,0:00:21.93,D,,0000,0000,0000,,Of course you are
+Dialogue: 0,0:00:22.36,0:00:27.20,D,,0000,0000,0000,,You think just because you got nuts and bolts instead of squishy guts makes you any less real than me?
+Dialogue: 0,0:00:27.37,0:00:29.47,D,,0000,0000,0000,,I don't..um..
+Dialogue: 0,0:00:30.57,0:00:34.92,D,,0000,0000,0000,,You're taking this extraordinarily well
+Dialogue: 0,0:00:34.92,0:00:37.71,D,,0000,0000,0000,,You're not like those things we saw back there
+Dialogue: 0,0:00:38.19,0:00:41.35,D,,0000,0000,0000,,You've got a heart, and a soul, I can feel it
+Dialogue: 0,0:00:42.68,0:00:47.84,D,,0000,0000,0000,,Oh! Ruby, you're the best friend anyone could have!
+Dialogue: 0,0:00:47.84,0:00:52.16,D,,0000,0000,0000,,Uhh, I can see why your father would want to protect such a delicate flower..
+Dialogue: 0,0:00:52.86,0:00:54.98,D,,0000,0000,0000,,Oh, he is very sweet
+Dialogue: 0,0:00:54.98,0:00:56.94,D,,0000,0000,0000,,My father's the one that built me
+Dialogue: 0,0:00:56.94,0:00:59.05,D,,0000,0000,0000,,I'm sure you would just love him
+Dialogue: 0,0:00:59.35,0:01:02.35,D,,0000,0000,0000,,Wow..he built you all by himself?
+Dialogue: 0,0:01:02.35,0:01:03.77,D,,0000,0000,0000,,Well, almost
+Dialogue: 0,0:01:03.77,0:01:06.08,D,,0000,0000,0000,,He had some help from Mr.Ironwood
+Dialogue: 0,0:01:06.08,0:01:07.24,D,,0000,0000,0000,,The general?
+Dialogue: 0,0:01:07.80,0:01:08.41,D,,0000,0000,0000,,Wait..
+Dialogue: 0,0:01:09.01,0:01:11.18,D,,0000,0000,0000,,Is that why those soldiers were after you?
+Dialogue: 0,0:01:11.18,0:01:12.85,D,,0000,0000,0000,,They like to protect me too!
+Dialogue: 0,0:01:12.85,0:01:13.47,D,,0000,0000,0000,,Pfft
+Dialogue: 0,0:01:13.47,0:01:15.47,D,,0000,0000,0000,,They don't think you can protect yourself?
+Dialogue: 0,0:01:15.47,0:01:17.52,D,,0000,0000,0000,,They're not sure if I'm ready yet
+Dialogue: 0,0:01:17.95,0:01:21.19,D,,0000,0000,0000,,One day, it will be my job to save the world
+Dialogue: 0,0:01:21.68,0:01:23.90,D,,0000,0000,0000,,But I still have a lot left to learn
+Dialogue: 0,0:01:24.30,0:01:27.00,D,,0000,0000,0000,,That's why my father let me come to the Vytal festival
+Dialogue: 0,0:01:27.70,0:01:30.04,D,,0000,0000,0000,,I want to see what it's like in the rest of the world
+Dialogue: 0,0:01:30.04,0:01:32.04,D,,0000,0000,0000,,And test myself in the tournament
+Dialogue: 0,0:01:32.33,0:01:33.92,D,,0000,0000,0000,,Penny, what're you talking about?
+Dialogue: 0,0:01:34.44,0:01:37.15,D,,0000,0000,0000,,Save the world from what? We're in a time of peace
+Dialogue: 0,0:01:37.60,0:01:40.54,D,,0000,0000,0000,,That's not what Mr.Ironwood said
+Dialogue: 0,0:01:40.54,0:01:41.71,D,,0000,0000,0000,,Check down here
+Dialogue: 0,0:01:42.52,0:01:43.64,D,,0000,0000,0000,,You have to hide
+Dialogue: 0,0:01:43.98,0:01:48.89,D,,0000,0000,0000,,No! Penny! What're you doing?! You don't have to go with them! I can help you!
+Dialogue: 0,0:01:49.77,0:01:52.14,D,,0000,0000,0000,,It's okay, Ruby, they're not bad people
+Dialogue: 0,0:01:52.42,0:01:54.56,D,,0000,0000,0000,,I just don't want you to get in trouble
+Dialogue: 0,0:01:54.99,0:02:00.03,D,,0000,0000,0000,,Just promise me you won't tell anyone about my secret..okay?
+Dialogue: 0,0:02:00.33,0:02:01.64,D,,0000,0000,0000,,I promise
+Dialogue: 0,0:02:02.27,0:02:03.33,D,,0000,0000,0000,,There she is!
+Dialogue: 0,0:02:04.21,0:02:07.62,D,,0000,0000,0000,,Salutations, officers!
+Dialogue: 0,0:02:07.62,0:02:08.84,D,,0000,0000,0000,,Why were you running?
+Dialogue: 0,0:02:09.18,0:02:10.84,D,,0000,0000,0000,,And.. what happened to the other girl?
+Dialogue: 0,0:02:10.84,0:02:12.30,D,,0000,0000,0000,,What girl?
+Dialogue: 0,0:02:12.59,0:02:14.40,D,,0000,0000,0000,,I've been by myself all day
+Dialogue: 0,0:02:16.58,0:02:18.65,D,,0000,0000,0000,,You shouldn't cause such a scene
+Dialogue: 0,0:02:19.07,0:02:20.04,D,,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:02:20.41,0:02:21.67,D,,0000,0000,0000,,Just a scratch
+Dialogue: 0,0:02:22.12,0:02:25.34,D,,0000,0000,0000,,Penny..your father isn't going to be happy about this
+Dialogue: 0,0:02:25.65,0:02:27.78,D,,0000,0000,0000,,Please, just come with us
+Dialogue: 0,0:02:28.62,0:02:29.48,D,,0000,0000,0000,,Yes, sir
+Dialogue: 0,0:02:47.71,0:02:49.14,D,,0000,0000,0000,,Come on, my friend's right in here
+Dialogue: 0,0:02:51.55,0:02:52.45,D,,0000,0000,0000,,Cool
+Dialogue: 0,0:02:53.10,0:02:53.99,D,,0000,0000,0000,,(>_<)
+Dialogue: 0,0:02:54.45,0:02:57.05,D,,0000,0000,0000,,And where exactly is....here?
+Dialogue: 0,0:03:07.70,0:03:09.40,D,,0000,0000,0000,,Hurry, close the door! She's coming!
+Dialogue: 0,0:03:13.47,0:03:14.94,D,,0000,0000,0000,,What're you two idiots doing?
+Dialogue: 0,0:03:15.37,0:03:18.31,D,,0000,0000,0000,,Junior! She's here, she's back..the one with her..
+Dialogue: 0,0:03:23.38,0:03:24.91,D,,0000,0000,0000,,Guess who's back!
+Dialogue: 0,0:03:41.96,0:03:44.33,D,,0000,0000,0000,,Yeah, so could you define 'friend' for me?
+Dialogue: 0,0:03:44.33,0:03:47.20,D,,0000,0000,0000,,Stop, stop! Nobody shoot
+Dialogue: 0,0:03:49.35,0:03:51.41,D,,0000,0000,0000,,Blondie! You're here
+Dialogue: 0,0:03:52.12,0:03:52.99,D,,0000,0000,0000,,Why?
+Dialogue: 0,0:03:53.51,0:03:55.58,D,,0000,0000,0000,,You still owe me a drink
+Dialogue: 0,0:03:58.61,0:04:01.08,D,,0000,0000,0000,,Whoaa..what a women..
+Dialogue: 0,0:04:02.92,0:04:03.69,D,,0000,0000,0000,,Sup
+Dialogue: 0,0:04:04.34,0:04:04.99,D,,0000,0000,0000,,Hmph!
+Dialogue: 0,0:04:04.99,0:04:06.12,D,,0000,0000,0000,,Whatever
+Dialogue: 0,0:04:16.50,0:04:17.67,D,,0000,0000,0000,,This is it
+Dialogue: 0,0:04:17.67,0:04:18.83,D,,0000,0000,0000,,You sure?
+Dialogue: 0,0:04:19.66,0:04:21.44,D,,0000,0000,0000,,You know, I'm just gonna take your word for it
+Dialogue: 0,0:04:24.91,0:04:27.28,D,,0000,0000,0000,,New recruits, keep to the right
+Dialogue: 0,0:04:28.07,0:04:31.72,D,,0000,0000,0000,,I don't get it. If you believe what you're doing is right, why hide who you are?
+Dialogue: 0,0:04:32.38,0:04:33.92,D,,0000,0000,0000,,The masks are a symbol
+Dialogue: 0,0:04:34.28,0:04:38.65,D,,0000,0000,0000,,Humanity wanted to make monsters out of us, so we chose to don the face of the monsters
+Dialogue: 0,0:04:38.65,0:04:40.22,D,,0000,0000,0000,,Grimm masks..
+Dialogue: 0,0:04:40.22,0:04:41.88,D,,0000,0000,0000,,That's..kinda dark
+Dialogue: 0,0:04:41.88,0:04:43.69,D,,0000,0000,0000,,So was the guy who started it
+Dialogue: 0,0:04:44.60,0:04:47.06,D,,0000,0000,0000,,Always sunshine and rainbows with you
+Dialogue: 0,0:05:05.66,0:05:07.32,D,,0000,0000,0000,,Thank you all for coming
+Dialogue: 0,0:05:07.92,0:05:11.37,D,,0000,0000,0000,,for those of you who are joining us for the first time tonight
+Dialogue: 0,0:05:11.37,0:05:15.39,D,,0000,0000,0000,,allow me to introduce a very special comrade of ours
+Dialogue: 0,0:05:17.09,0:05:23.30,D,,0000,0000,0000,,I can assure you, he is the key to obtaining what we have fought for, for so long!
+Dialogue: 0,0:05:25.15,0:05:27.64,D,,0000,0000,0000,,Thank you, thank you
+Dialogue: 0,0:05:27.93,0:05:29.85,D,,0000,0000,0000,,Please, hold your applause
+Dialogue: 0,0:05:29.85,0:05:31.77,D,,0000,0000,0000,,What's a human doing here?!
+Dialogue: 0,0:05:31.77,0:05:33.24,D,,0000,0000,0000,,I'm glad you asked, deery
+Dialogue: 0,0:05:33.50,0:05:35.79,D,,0000,0000,0000,,Now, I'll be the first to admit..
+Dialogue: 0,0:05:35.79,0:05:39.48,D,,0000,0000,0000,,Humans..are the worst
+Dialogue: 0,0:05:39.48,0:05:41.29,D,,0000,0000,0000,,Case in point
+Dialogue: 0,0:05:41.29,0:05:47.18,D,,0000,0000,0000,,So, I understand why you would love to see us all locked away, or, better yet..killed!
+Dialogue: 0,0:05:47.48,0:05:48.07,D,,0000,0000,0000,,But..
+Dialogue: 0,0:05:48.07,0:05:50.19,D,,0000,0000,0000,,So is he going somewhere with this or..?
+Dialogue: 0,0:05:50.19,0:05:55.13,D,,0000,0000,0000,,I'd like to mention the fact that you and I all have a common enemy!
+Dialogue: 0,0:05:55.40,0:06:01.57,D,,0000,0000,0000,,The ones in control, the people pulling the strings, the dirty, rotten humans that run our kingdoms
+Dialogue: 0,0:05:58.10,0:05:59.20,D2,,0000,0000,0000,,Yeah!
+Dialogue: 0,0:06:02.36,0:06:05.75,D,,0000,0000,0000,,Government, military, even the schools
+Dialogue: 0,0:06:05.75,0:06:08.44,D,,0000,0000,0000,,They're all to blame for your lot in life
+Dialogue: 0,0:06:11.29,0:06:13.79,D,,0000,0000,0000,,And they're all pests that need to be dealt with
+Dialogue: 0,0:06:14.33,0:06:15.48,D,,0000,0000,0000,,Fortunately..
+Dialogue: 0,0:06:15.85,0:06:18.49,D,,0000,0000,0000,,I'm the best exterminator around
+Dialogue: 0,0:06:18.85,0:06:20.69,D,,0000,0000,0000,,No offense to any rodents in the room
+Dialogue: 0,0:06:31.98,0:06:34.14,D,,0000,0000,0000,,Uh..that's a big robot
+Dialogue: 0,0:06:34.14,0:06:35.40,D,,0000,0000,0000,,How did he get that?
+Dialogue: 0,0:06:35.40,0:06:37.73,D,,0000,0000,0000,,As some of you may have heard, this right here..
+Dialogue: 0,0:06:38.51,0:06:43.64,D,,0000,0000,0000,,is Atlas's newest line of defense against all the scary things in the world
+Dialogue: 0,0:06:44.44,0:06:46.70,D,,0000,0000,0000,,And thanks to my employer
+Dialogue: 0,0:06:47.12,0:06:51.52,D,,0000,0000,0000,,we've managed to snag a few before they..uh, hit the shelves
+Dialogue: 0,0:06:51.52,0:06:56.04,D,,0000,0000,0000,,Now, many of your brothers have already moved down to our new operations in the southeast
+Dialogue: 0,0:06:56.38,0:06:58.44,D,,0000,0000,0000,,If you'd rather stay within the city..
+Dialogue: 0,0:06:58.69,0:07:00.16,D,,0000,0000,0000,,that's fine..
+Dialogue: 0,0:07:00.68,0:07:03.60,D,,0000,0000,0000,,But if you're truly ready to fight for what you believe in
+Dialogue: 0,0:07:04.40,0:07:06.97,D,,0000,0000,0000,,this is the arsenal I can provide you
+Dialogue: 0,0:07:07.32,0:07:09.44,D,,0000,0000,0000,,Any questions?
+Dialogue: 0,0:07:14.78,0:07:16.15,D,,0000,0000,0000,,We should get out of here
+Dialogue: 0,0:07:16.58,0:07:20.05,D,,0000,0000,0000,,All new recruits, please come forward
+Dialogue: 0,0:07:20.19,0:07:20.81,D,,0000,0000,0000,,Welp..
+Dialogue: 0,0:07:30.86,0:07:32.23,D,,0000,0000,0000,,I don't know
+Dialogue: 0,0:07:32.23,0:07:33.76,D,,0000,0000,0000,,How can you not know?
+Dialogue: 0,0:07:33.90,0:07:35.86,D,,0000,0000,0000,,I haven't talked to him
+Dialogue: 0,0:07:35.86,0:07:39.86,D,,0000,0000,0000,,I haven't even seen him since the night you first came in here
+Dialogue: 0,0:07:39.86,0:07:42.67,D,,0000,0000,0000,,He paid up front, I lent him my men
+Dialogue: 0,0:07:42.67,0:07:45.84,D,,0000,0000,0000,,And none of them ever came back
+Dialogue: 0,0:07:46.20,0:07:47.48,D,,0000,0000,0000,,So where did they go?
+Dialogue: 0,0:07:49.38,0:07:51.45,D,,0000,0000,0000,,What kind of stupid question is that?
+Dialogue: 0,0:07:51.45,0:07:52.85,D,,0000,0000,0000,,They never came back
+Dialogue: 0,0:07:53.11,0:07:54.25,D,,0000,0000,0000,,Who is this guy?
+Dialogue: 0,0:07:54.58,0:07:55.75,D,,0000,0000,0000,,Don't worry about him
+Dialogue: 0,0:07:55.75,0:07:58.07,D,,0000,0000,0000,,Worry about me if I don't find out what I want!
+Dialogue: 0,0:07:58.07,0:08:00.26,D,,0000,0000,0000,,I already told you everything
+Dialogue: 0,0:08:00.26,0:08:03.50,D,,0000,0000,0000,,Torchwick hired my boys, and I guess he wasn't happy with them
+Dialogue: 0,0:08:03.50,0:08:05.96,D,,0000,0000,0000,,which is something I can relate to!
+Dialogue: 0,0:08:08.48,0:08:09.65,D,,0000,0000,0000,,Come on, Neptune
+Dialogue: 0,0:08:12.39,0:08:13.74,D,,0000,0000,0000,,We get everything we need?
+Dialogue: 0,0:08:13.74,0:08:15.81,D,,0000,0000,0000,,Well, we got everything we can
+Dialogue: 0,0:08:15.81,0:08:18.07,D,,0000,0000,0000,,Hopefully the rest of the team is having better luck
+Dialogue: 0,0:08:23.05,0:08:24.26,D,,0000,0000,0000,,What're we gonna do?!
+Dialogue: 0,0:08:24.26,0:08:25.65,D,,0000,0000,0000,,I'm thinking
+Dialogue: 0,0:08:30.12,0:08:31.55,D,,0000,0000,0000,,He sees us..
+Dialogue: 0,0:08:38.89,0:08:40.53,D,,0000,0000,0000,,He can't see in the dark
+Dialogue: 0,0:08:42.50,0:08:43.73,D,,0000,0000,0000,,Don't let them get away!
+Dialogue: 0,0:08:44.13,0:08:45.43,D,,0000,0000,0000,,Sun! The window
+Dialogue: 0,0:08:45.43,0:08:46.33,D,,0000,0000,0000,,Stop them!
+Dialogue: 0,0:09:03.18,0:09:06.09,D,,0000,0000,0000,,So you wouldn't happen to have..oh, I don't know
+Dialogue: 0,0:09:06.69,0:09:08.29,D,,0000,0000,0000,,some form of backup?!
+Dialogue: 0,0:09:08.29,0:09:09.12,D,,0000,0000,0000,,On it
+Dialogue: 0,0:09:11.35,0:09:13.29,D,,0000,0000,0000,,Everyone! If you can hear me, we need back-
+Dialogue: 0,0:09:13.29,0:09:14.90,D,,0000,0000,0000,,Help!
+Dialogue: 0,0:09:17.40,0:09:20.10,D,,0000,0000,0000,,They've got a robot, and it's big, really big
+Dialogue: 0,0:09:20.10,0:09:22.70,D,,0000,0000,0000,,Oh, I am not missing this
+Dialogue: 0,0:09:22.70,0:09:24.17,D,,0000,0000,0000,,That Torchwick guy's in it!
+Dialogue: 0,0:09:24.17,0:09:28.43,D,,0000,0000,0000,,But not like, it didn't eat him, he's like controlling it or something!
+Dialogue: 0,0:09:28.43,0:09:29.61,D,,0000,0000,0000,,Where are you guys?
+Dialogue: 0,0:09:29.61,0:09:31.55,D,,0000,0000,0000,,Hury!
+Dialogue: 0,0:09:32.41,0:09:33.95,D,,0000,0000,0000,,I..think that was them
+Dialogue: 0,0:09:33.95,0:09:35.22,D,,0000,0000,0000,,Yeah, I got it
+Dialogue: 0,0:09:44.44,0:09:45.11,D,,0000,0000,0000,,Whoa!
+Dialogue: 0,0:09:53.05,0:09:54.32,D,,0000,0000,0000,,We've gotta slow it down
+Dialogue: 0,0:09:54.32,0:09:55.17,D,,0000,0000,0000,,Got it
+Dialogue: 0,0:10:01.15,0:10:01.94,D,,0000,0000,0000,,Hold on!
+Dialogue: 0,0:10:23.40,0:10:24.73,D,,0000,0000,0000,,Neptune, hang on!
+Dialogue: 0,0:10:36.24,0:10:38.05,D,,0000,0000,0000,,Blake! I'm in position!
+Dialogue: 0,0:10:57.65,0:10:58.77,D,,0000,0000,0000,,Freezer burn!
+Dialogue: 0,0:11:29.57,0:11:30.30,D,,0000,0000,0000,,Checkmate!
+Dialogue: 0,0:12:02.56,0:12:03.40,D,,0000,0000,0000,,Ladybug
+Dialogue: 0,0:12:33.19,0:12:33.80,D,,0000,0000,0000,,Yang!
+Dialogue: 0,0:12:34.83,0:12:35.60,D,,0000,0000,0000,,Don't worry
+Dialogue: 0,0:12:36.44,0:12:38.16,D,,0000,0000,0000,,With each hit she gets stronger
+Dialogue: 0,0:12:38.16,0:12:40.37,D,,0000,0000,0000,,and she uses that energy to fight back!
+Dialogue: 0,0:12:41.27,0:12:42.87,D,,0000,0000,0000,,That's what makes her special
+Dialogue: 0,0:12:57.48,0:12:58.59,D,,0000,0000,0000,,Bumblebee!
+Dialogue: 0,0:13:06.73,0:13:07.99,D,,0000,0000,0000,,We have to slow it down!
+Dialogue: 0,0:13:07.99,0:13:09.93,D,,0000,0000,0000,,And how do you propose we do that?
+Dialogue: 0,0:13:10.26,0:13:11.27,D,,0000,0000,0000,,Iceflower!
+Dialogue: 0,0:13:31.15,0:13:33.05,D,,0000,0000,0000,,Just got this thing cleaned..
+Dialogue: 0,0:13:43.73,0:13:44.97,D,,0000,0000,0000,,Ladies..
+Dialogue: 0,0:13:44.97,0:13:45.58,D,,0000,0000,0000,,Ice Queen..
+Dialogue: 0,0:13:45.58,0:13:46.13,D,,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:46.45,0:13:47.52,D,,0000,0000,0000,,Always a pleasure
+Dialogue: 0,0:13:47.96,0:13:49.44,D,,0000,0000,0000,,Neo, if you would..
+Dialogue: 0,0:14:07.45,0:14:09.12,D,,0000,0000,0000,,So I guess he got a new henchman
+Dialogue: 0,0:14:09.72,0:14:12.63,D,,0000,0000,0000,,Yeah, I guess she really made our plans..
+Dialogue: 0,0:14:13.19,0:14:14.63,D,,0000,0000,0000,,fall apart..
+Dialogue: 0,0:14:16.33,0:14:18.50,D,,0000,0000,0000,,No, Just..no
+Dialogue: 0,0:14:18.50,0:14:19.97,D,,0000,0000,0000,,Whatï¼ŸBut you do it
+Dialogue: 0,0:14:19.97,0:14:22.10,D,,0000,0000,0000,,There's a time and a place for jokes
+Dialogue: 0,0:14:22.10,0:14:23.57,D,,0000,0000,0000,,Was this not it?
+Dialogue: 0,0:14:23.57,0:14:25.21,D,,0000,0000,0000,,No, it just..wasn't very good
+Dialogue: 0,0:14:25.71,0:14:27.74,D,,0000,0000,0000,,Well, at least I'm trying
+Dialogue: 0,0:14:27.74,0:14:28.58,D,,0000,0000,0000,,Wait..
+Dialogue: 0,0:14:28.58,0:14:30.34,D,,0000,0000,0000,,Where are Sun and Neptune?
+Dialogue: 0,0:14:31.15,0:14:32.41,D,,0000,0000,0000,,They're probably fine, right?
+Dialogue: 0,0:14:33.41,0:14:34.35,D,,0000,0000,0000,,Probably
+Dialogue: 0,0:15:10.02,0:15:12.88,BRB sign,,0000,0000,0000,,BRB
+Dialogue: 0,0:15:10.11,0:15:12.22,Staff,,0000,0000,0000,,This SUB is presented by Baidu RWBY Bar\N\N\N\N\N\N\N\NCreator: sbz_kid

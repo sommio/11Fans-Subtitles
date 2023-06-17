@@ -1,0 +1,490 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 未设定
+Original Script: 未设定
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗圆_GBK,52,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: Default2,方正粗圆_GBK,45,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: Default3,方正粗圆_GBK,48,&H00FFFFFF,&HF0000000,&H00FFFFFF,&HF0000000,0,0,0,0,100,100,0,0,1,0,0,8,30,30,30,1
+Style: zhushi,方正粗圆_GBK,36,&H00FFFFFF,&HF0000000,&H00000000,&H0AC0C0C0,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: zhushi2,方正粗圆_GBK,32,&H00FFFFFF,&HF0000000,&H00000000,&H0AC0C0C0,-1,0,0,0,100,100,0,0,1,5,0,2,30,30,30,1
+Style: warring,方正粗圆_GBK,36,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,8,30,30,30,1
+Style: title,SimHei,62,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: OPCN,方正小标宋_GBK,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: OPJP,方正小标宋_GBK,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: EDCN,方正小标宋_GBK,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: EDJP,方正小标宋_GBK,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: INCN,方正小标宋_GBK,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,7,30,30,30,1
+Style: INJP,方正小标宋_GBK,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,7,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:22.95,0:03:32.89,warring,NTP,0,0,0,,{\fad(50,50)}翻譯 TL舊民  後期 aoi  惡魔島字幕組製作 僅供交流試看之用\N請勿添加廣告 相關資源和討論請訪問：http://www.acg6.com
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:02:05.58,0:02:15.62,OPJP,NTP,0,0,0,,カラダはこんなにクタクタに疲れてるのに
+Dialogue: 0,0:02:16.23,0:02:26.28,OPJP,NTP,0,0,0,,ココロはどうしてドキドキが止まらないんだろ？
+Dialogue: 0,0:02:27.19,0:02:32.31,OPJP,NTP,0,0,0,,昨日とちがう明日があること
+Dialogue: 0,0:02:32.78,0:02:40.25,OPJP,NTP,0,0,0,,信じられる自分がいるなら
+Dialogue: 0,0:02:40.68,0:02:42.79,OPJP,NTP,0,0,0,,今日も走れ
+Dialogue: 0,0:02:43.20,0:02:49.05,OPJP,NTP,0,0,0,,倒れたって恥ずかしくない
+Dialogue: 0,0:02:49.39,0:02:53.29,OPJP,NTP,0,0,0,,もう一度立ち上がれば
+Dialogue: 0,0:02:53.87,0:02:59.67,OPJP,NTP,0,0,0,,あと少しでたどり着けそうな
+Dialogue: 0,0:03:00.12,0:03:03.60,OPJP,NTP,0,0,0,,予感がしてる
+Dialogue: 0,0:03:04.18,0:03:08.98,OPJP,NTP,0,0,0,,夢の地図なんていらない
+Dialogue: 0,0:03:09.32,0:03:14.69,OPJP,NTP,0,0,0,,目指す場所はもうずっと決まっている
+Dialogue: 0,0:03:15.18,0:03:23.26,OPJP,NTP,0,0,0,,新しい世界にいま出会いたいよ
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:02:05.58,0:02:15.62,OPCN,NTP,0,0,0,,明明身體這麼疲憊不堪
+Dialogue: 0,0:02:16.23,0:02:26.28,OPCN,NTP,0,0,0,,為什麼卻抑制不住內心的激動
+Dialogue: 0,0:02:27.19,0:02:32.31,OPCN,NTP,0,0,0,,和昨天不同 明天是新的一天
+Dialogue: 0,0:02:32.78,0:02:40.25,OPCN,NTP,0,0,0,,如果相信自己的話
+Dialogue: 0,0:02:40.68,0:02:42.79,OPCN,NTP,0,0,0,,今天也邁開大步吧
+Dialogue: 0,0:02:43.20,0:02:49.05,OPCN,NTP,0,0,0,,就算被打倒也不覺得丟人
+Dialogue: 0,0:02:49.39,0:02:53.29,OPCN,NTP,0,0,0,,再次站起來就行
+Dialogue: 0,0:02:53.87,0:02:59.67,OPCN,NTP,0,0,0,,還差一點就能抵達
+Dialogue: 0,0:03:00.12,0:03:03.60,OPCN,NTP,0,0,0,,我有這種預感
+Dialogue: 0,0:03:04.18,0:03:08.98,OPCN,NTP,0,0,0,,根本不需要什麼夢幻地圖
+Dialogue: 0,0:03:09.32,0:03:14.69,OPCN,NTP,0,0,0,,我的目標早已決定好了
+Dialogue: 0,0:03:15.18,0:03:23.26,OPCN,NTP,0,0,0,,好想立刻邂逅全新的世界
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:21:57.41,0:22:04.22,EDJP,NTP,0,0,0,,ボクの見ていた　一人分の景色の中
+Dialogue: 0,0:22:04.22,0:22:10.22,EDJP,NTP,0,0,0,,君の色があたりまえになる
+Dialogue: 0,0:22:10.61,0:22:14.44,EDJP,NTP,0,0,0,,知らなかった心地いい距離や
+Dialogue: 0,0:22:14.86,0:22:18.16,EDJP,NTP,0,0,0,,くだらない意地の張り合い
+Dialogue: 0,0:22:18.48,0:22:22.87,EDJP,NTP,0,0,0,,ほらまたすぐに笑い合えてる
+Dialogue: 0,0:22:23.19,0:22:29.90,EDJP,NTP,0,0,0,,日常を重ね合って行く　途切れず強くなって行く
+Dialogue: 0,0:22:30.29,0:22:38.09,EDJP,NTP,0,0,0,,ボクの心はきっと君の半分が満たすんだ
+Dialogue: 0,0:22:38.35,0:22:39.72,EDJP,NTP,0,0,0,,ぴったりと
+Dialogue: 0,0:22:40.19,0:22:44.18,EDJP,NTP,0,0,0,,もっと寄り添って生きて行こう
+Dialogue: 0,0:22:44.64,0:22:47.77,EDJP,NTP,0,0,0,,ボク等なんだか似てるね
+Dialogue: 0,0:22:47.94,0:22:54.35,EDJP,NTP,0,0,0,,頼りないとこも 補ってちょうどいいとこも
+Dialogue: 0,0:22:54.66,0:22:58.55,EDJP,NTP,0,0,0,,ちゃんと向き合って生きて行こう
+Dialogue: 0,0:22:58.92,0:23:01.57,EDJP,NTP,0,0,0,,偶然の引力は
+Dialogue: 0,0:23:01.57,0:23:11.18,EDJP,NTP,0,0,0,,神様だって予測できない必然示してるんだ
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:21:57.41,0:22:04.22,EDCN,NTP,0,0,0,,我所看到的 一人份的景色中
+Dialogue: 0,0:22:04.22,0:22:10.22,EDCN,NTP,0,0,0,,你的顏色 漸漸變得司空見慣
+Dialogue: 0,0:22:10.61,0:22:14.44,EDCN,NTP,0,0,0,,進入從未體驗過的愜意距離
+Dialogue: 0,0:22:14.86,0:22:18.16,EDCN,NTP,0,0,0,,無聊的賭氣之後
+Dialogue: 0,0:22:18.48,0:22:22.87,EDCN,NTP,0,0,0,,看 馬上又笑在一塊了
+Dialogue: 0,0:22:23.19,0:22:29.90,EDCN,NTP,0,0,0,,我們的日常漸漸重合 不斷變得更強
+Dialogue: 0,0:22:30.29,0:22:38.09,EDCN,NTP,0,0,0,,有你作「半」一定能填補我心中的空洞
+Dialogue: 0,0:22:38.35,0:22:39.72,EDCN,NTP,0,0,0,,如此的契合
+Dialogue: 0,0:22:40.19,0:22:44.18,EDCN,NTP,0,0,0,,再更靠近一些吧
+Dialogue: 0,0:22:44.64,0:22:47.77,EDCN,NTP,0,0,0,,我們好像很相似呢
+Dialogue: 0,0:22:47.94,0:22:54.35,EDCN,NTP,0,0,0,,不可靠的地方也都能互相彌補
+Dialogue: 0,0:22:54.66,0:22:58.55,EDCN,NTP,0,0,0,,好好面對彼此吧
+Dialogue: 0,0:22:58.92,0:23:01.57,EDCN,NTP,0,0,0,,偶然的引力諭示著
+Dialogue: 0,0:23:01.57,0:23:11.18,EDCN,NTP,0,0,0,,連神明都無法預測的必然
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:02.78,0:00:04.78,Default,NTP,0,0,0,,是的 好像那天..
+Dialogue: 0,0:00:05.20,0:00:07.07,Default,NTP,0,0,0,,也是這樣一個晴朗的日子
+Dialogue: 0,0:00:07.51,0:00:08.98,Default,NTP,0,0,0,,喂 大事不好了 貝爾
+Dialogue: 0,0:00:13.39,0:00:17.82,Default,NTP,0,0,0,,爺爺在山裏遭到怪獸的襲擊 就這麼輕易地死了
+Dialogue: 0,0:00:20.60,0:00:24.45,Default,NTP,0,0,0,,聽說他跌入了很深的谷底 就算想找都沒法找
+Dialogue: 0,0:00:31.09,0:00:32.88,Default,NTP,0,0,0,,我決定了 爺爺
+Dialogue: 0,0:00:33.80,0:00:35.83,Default,NTP,0,0,0,,我要成為冒險者
+Dialogue: 0,0:00:45.14,0:00:47.87,Default,NTP,0,0,0,,但是 我卻沒能找到哪個眷族..
+Dialogue: 0,0:00:48.53,0:00:51.68,Default,NTP,0,0,0,,願意收留我這樣看似很弱小的冒險者
+Dialogue: 0,0:00:52.15,0:00:54.50,Default,NTP,0,0,0,,給我滾 小鬼 我可養不起你
+Dialogue: 0,0:00:54.50,0:00:56.77,Default,NTP,0,0,0,,我這倒是缺一個掃地的哦
+Dialogue: 0,0:00:56.77,0:00:58.33,Default,NTP,0,0,0,,你倒是拿點錢再來投奔啊
+Dialogue: 0,0:01:00.63,0:01:01.43,Default,NTP,0,0,0,,拜託了
+Dialogue: 0,0:01:01.77,0:01:02.73,Default,NTP,0,0,0,,讓我加入你們眷族..
+Dialogue: 0,0:01:04.34,0:01:06.64,Default,NTP,0,0,0,,等你變強了再來吧
+Dialogue: 0,0:01:08.72,0:01:09.56,Default,NTP,0,0,0,,呀 少年
+Dialogue: 0,0:01:11.74,0:01:13.27,Default,NTP,0,0,0,,你在尋找眷族嗎？
+Dialogue: 0,0:01:19.71,0:01:20.58,Default,NTP,0,0,0,,上神大人..
+Dialogue: 0,0:01:21.71,0:01:22.73,Default,NTP,0,0,0,,就出現在那裏
+Dialogue: 0,0:01:32.94,0:01:35.38,Default,NTP,0,0,0,,我的 上神大人..
+Dialogue: 0,0:01:37.71,0:01:39.25,Default,NTP,0,0,0,,我會爭取時間的
+Dialogue: 0,0:01:40.08,0:01:41.90,Default,NTP,0,0,0,,上神大人請繼續逃吧
+Dialogue: 0,0:01:42.23,0:01:43.60,Default,NTP,0,0,0,,你在說什麼啊 貝爾
+Dialogue: 0,0:01:43.95,0:01:45.37,Default,NTP,0,0,0,,現在馬上把門打開
+Dialogue: 0,0:01:46.71,0:01:47.40,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:01:48.76,0:01:51.03,Default,NTP,0,0,0,,我已經不想再失去家人了
+Dialogue: 0,0:01:52.21,0:01:55.37,Default,NTP,0,0,0,,貝爾 貝爾！
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:03:26.00,0:03:29.53,title,NTP,0,0,0,,{\pos(1100,164)}{\fad(450,0)}上神之刃
+Dialogue: 0,0:03:26.00,0:03:29.53,zhushi,NTP,0,0,0,,{\pos(1100,104)}{\fad(450,0)}赫斯緹雅之刃
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:03:29.17,0:03:30.45,Default,NTP,0,0,0,,怪獸逃走了？
+Dialogue: 0,0:03:31.21,0:03:31.75,Default,NTP,0,0,0,,看守的人呢？
+Dialogue: 0,0:03:32.23,0:03:33.03,Default,NTP,0,0,0,,不知為何..
+Dialogue: 0,0:03:33.60,0:03:36.35,Default,NTP,0,0,0,,大家看起來都像掉了魂似的..
+Dialogue: 0,0:03:36.83,0:03:39.91,Default,NTP,0,0,0,,我認為恐怕是外人所為
+Dialogue: 0,0:03:39.91,0:03:41.39,Default,NTP,0,0,0,,這種事一會再說
+Dialogue: 0,0:03:42.04,0:03:43.37,Default,NTP,0,0,0,,逃走的怪獸有幾隻？
+Dialogue: 0,0:03:43.84,0:03:44.49,Default,NTP,0,0,0,,9只
+Dialogue: 0,0:03:45.02,0:03:48.33,Default,NTP,0,0,0,,我們眷族的討伐隊已經立刻前往處理了
+Dialogue: 0,0:03:49.26,0:03:50.69,Default,NTP,0,0,0,,僅憑我們的力量可來不及
+Dialogue: 0,0:03:51.27,0:03:53.10,Default,NTP,0,0,0,,要跟其他眷族聯合起來
+Dialogue: 0,0:03:53.88,0:03:56.46,Default,NTP,0,0,0,,快去尋求在場的其他神明的協助
+Dialogue: 0,0:03:56.96,0:04:01.48,Default,NTP,0,0,0,,請等一下 讓怪獸逃跑是我們迦尼薩眷族的失態
+Dialogue: 0,0:04:01.85,0:04:04.56,Default,NTP,0,0,0,,如果借助其他勢力的力量 我們的臉面何在
+Dialogue: 0,0:04:05.50,0:04:08.05,Default,NTP,0,0,0,,我可是群眾之主 迦尼薩
+Dialogue: 0,0:04:08.94,0:04:10.79,Default,NTP,0,0,0,,子民們的笑容就是我們的至福
+Dialogue: 0,0:04:11.34,0:04:12.86,Default,NTP,0,0,0,,把地位和名譽統統拋棄吧
+Dialogue: 0,0:04:13.83,0:04:16.19,Default,NTP,0,0,0,,市民的安全擺在第一位
+Dialogue: 0,0:04:16.75,0:04:17.95,Default,NTP,0,0,0,,十分抱歉
+Dialogue: 0,0:04:18.46,0:04:21.34,Default,NTP,0,0,0,,為了避免混亂 祭典要繼續下去
+Dialogue: 0,0:04:22.02,0:04:24.57,Default,NTP,0,0,0,,可別讓騷亂擴大了 去吧
+Dialogue: 0,0:04:25.00,0:04:25.57,Default,NTP,0,0,0,,遵命
+Dialogue: 0,0:04:31.18,0:04:32.25,Default,NTP,0,0,0,,目的是什麼？
+Dialogue: 0,0:04:36.90,0:04:40.35,Default,NTP,0,0,0,,佯攻？擾亂？還是..
+Dialogue: 0,0:04:53.35,0:04:54.20,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:04:57.95,0:04:59.70,Default,NTP,0,0,0,,好痛..
+Dialogue: 0,0:05:06.44,0:05:09.63,Default,NTP,0,0,0,,赫斯緹雅 你仔細聽好了
+Dialogue: 0,0:05:10.77,0:05:13.83,Default,NTP,0,0,0,,這柄短刀在被你刻印上神聖文字之後
+Dialogue: 0,0:05:10.77,0:05:13.83,zhushi,NTP,0,0,0,,{\pos(820,640)}Hieroglyph
+Dialogue: 0,0:05:14.20,0:05:15.75,Default,NTP,0,0,0,,也會產生自己的狀態
+Dialogue: 0,0:05:14.20,0:05:15.75,zhushi,NTP,0,0,0,,{\pos(798,640)}Status
+Dialogue: 0,0:05:16.62,0:05:19.00,Default,NTP,0,0,0,,這把武器是活的哦
+Dialogue: 0,0:05:19.90,0:05:20.75,Default,NTP,0,0,0,,活的？
+Dialogue: 0,0:05:22.31,0:05:25.05,Default,NTP,0,0,0,,在把它交到你的子民 貝爾·克朗尼手上的那刻起..
+Dialogue: 0,0:05:25.05,0:05:27.92,Default,NTP,0,0,0,,它將獲得新生 與主人一同成長..
+Dialogue: 0,0:05:28.96,0:05:29.61,Default,NTP,0,0,0,,貝爾
+Dialogue: 0,0:05:32.03,0:05:32.54,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:05:36.04,0:05:37.03,Default,NTP,0,0,0,,真的嗎？
+Dialogue: 0,0:05:37.30,0:05:40.31,Default,NTP,0,0,0,,嗯 迦尼薩眷族的人說了
+Dialogue: 0,0:05:40.66,0:05:42.85,Default,NTP,0,0,0,,有怪獸在西門那逃走了
+Dialogue: 0,0:05:43.83,0:05:47.06,Default,NTP,0,0,0,,聲音太大了啦 要是引發混亂怎麼辦啊
+Dialogue: 0,0:05:47.66,0:05:48.75,Default,NTP,0,0,0,,對..對不起
+Dialogue: 0,0:05:49.20,0:05:51.48,Default,NTP,0,0,0,,總之 他們說要是在附近碰到冒險者
+Dialogue: 0,0:05:51.81,0:05:54.59,Default,NTP,0,0,0,,無論是哪個家族的都要請來協助
+Dialogue: 0,0:05:54.94,0:05:57.39,Default,NTP,0,0,0,,但是 怎麼會這麼巧在附近..
+Dialogue: 0,0:05:57.39,0:05:59.31,Default,NTP,0,0,0,,咋回事？賺錢的活嗎？
+Dialogue: 0,0:06:00.20,0:06:01.43,Default,NTP,0,0,0,,出什麼事了嗎？
+Dialogue: 0,0:06:01.64,0:06:02.90,Default,NTP,0,0,0,,劍姬？
+Dialogue: 0,0:06:04.11,0:06:06.03,Default,NTP,0,0,0,,艾絲·華倫斯坦小姐..
+Dialogue: 0,0:06:35.45,0:06:39.84,Default,NTP,0,0,0,,有成功逃掉嗎？上神大人..
+Dialogue: 0,0:06:50.05,0:06:53.17,Default,NTP,0,0,0,,這次艾絲小姐也不會來幫我呢
+Dialogue: 0,0:06:56.31,0:06:57.79,Default,NTP,0,0,0,,雖然還想再見她一面
+Dialogue: 0,0:06:58.83,0:06:59.99,Default,NTP,0,0,0,,不過這樣可能更好呢
+Dialogue: 0,0:07:00.99,0:07:04.12,Default,NTP,0,0,0,,這幅慘樣..不會再被她看到
+Dialogue: 0,0:07:15.13,0:07:17.50,Default,NTP,0,0,0,,幹得漂亮 不愧是咱家艾絲碳
+Dialogue: 0,0:07:19.61,0:07:21.86,Default,NTP,0,0,0,,逃走的怪獸還有幾隻呢？
+Dialogue: 0,0:07:22.65,0:07:25.45,Default,NTP,0,0,0,,雖然也委託了其他冒險者進行討伐
+Dialogue: 0,0:07:26.03,0:07:27.88,Default,NTP,0,0,0,,不過恐怕還有三四隻吧
+Dialogue: 0,0:07:21.96,0:07:24.12,Default2,NTP,0,0,0,,真是的 這妞還真會害臊呀
+Dialogue: 0,0:07:31.79,0:07:33.19,Default,NTP,0,0,0,,等等啊
+Dialogue: 0,0:07:35.07,0:07:36.86,Default,NTP,0,0,0,,果然厲害啊 劍姬
+Dialogue: 0,0:07:37.31,0:07:37.88,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:07:38.64,0:07:41.23,Default,NTP,0,0,0,,也難怪貝爾會憧憬她呢
+Dialogue: 0,0:07:42.88,0:07:45.51,Default,NTP,0,0,0,,他沒有被捲入這場騷亂吧
+Dialogue: 0,0:07:46.90,0:07:48.42,Default,NTP,0,0,0,,永別了 上神大人
+Dialogue: 0,0:07:48.42,0:07:49.10,Default,NTP,0,0,0,,貝爾
+Dialogue: 0,0:07:51.97,0:07:52.68,Default,NTP,0,0,0,,怎麼會..
+Dialogue: 0,0:07:53.84,0:07:54.47,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:07:56.23,0:07:57.68,Default,NTP,0,0,0,,為什麼要來啊
+Dialogue: 0,0:08:04.81,0:08:06.28,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:08:13.70,0:08:16.58,Default,NTP,0,0,0,,上神大人 您沒事吧？
+Dialogue: 0,0:08:17.08,0:08:19.55,Default,NTP,0,0,0,,嗯啊 還算沒事啦
+Dialogue: 0,0:08:21.08,0:08:22.57,Default,NTP,0,0,0,,為什麼您會出現在這啊？
+Dialogue: 0,0:08:23.20,0:08:26.41,Default,NTP,0,0,0,,不是請您趕緊逃走嗎？為什麼..
+Dialogue: 0,0:08:27.23,0:08:29.63,Default,NTP,0,0,0,,真拿你這孩子沒辦法呢
+Dialogue: 0,0:08:30.59,0:08:33.23,Default,NTP,0,0,0,,我怎麼可能丟下你自顧自逃跑呢
+Dialogue: 0,0:08:34.98,0:08:36.61,Default,NTP,0,0,0,,你說你想保護我？
+Dialogue: 0,0:08:37.07,0:08:40.24,Default,NTP,0,0,0,,那麼 這句話就全數奉還給你
+Dialogue: 0,0:08:41.13,0:08:43.59,Default,NTP,0,0,0,,而且 我們做過約定了吧？
+Dialogue: 0,0:08:45.82,0:08:49.35,Default,NTP,0,0,0,,拜託你 不要丟下我一人
+Dialogue: 0,0:08:53.92,0:08:56.80,Default,NTP,0,0,0,,但是 但是 這樣下去的話我們倆都會..
+Dialogue: 0,0:08:59.72,0:09:02.30,Default,NTP,0,0,0,,說放棄還太早了哦 貝爾
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:09:09.03,0:09:11.24,Default,NTP,0,0,0,,說放棄還太早了哦 貝爾
+Dialogue: 0,0:09:18.68,0:09:19.76,Default,NTP,0,0,0,,失禮了 上神大人
+Dialogue: 0,0:09:25.21,0:09:26.25,Default,NTP,0,0,0,,真抱歉 貝爾
+Dialogue: 0,0:09:26.58,0:09:27.92,Default,NTP,0,0,0,,明明情況這麼危機
+Dialogue: 0,0:09:27.92,0:09:30.37,Default,NTP,0,0,0,,我還是打心底裏感覺好幸福啊
+Dialogue: 0,0:09:30.62,0:09:32.17,Default,NTP,0,0,0,,您在說什麼啊？上神大人
+Dialogue: 0,0:09:44.81,0:09:45.67,Default,NTP,0,0,0,,難不成..
+Dialogue: 0,0:09:58.94,0:10:01.08,Default,NTP,0,0,0,,那傢伙緊追著上神大人不放
+Dialogue: 0,0:10:02.16,0:10:03.82,Default,NTP,0,0,0,,被發現只是時間問題
+Dialogue: 0,0:10:04.57,0:10:06.35,Default,NTP,0,0,0,,那就換個思路吧
+Dialogue: 0,0:10:07.04,0:10:09.69,Default,NTP,0,0,0,,貝爾 由你去打倒那個怪獸
+Dialogue: 0,0:10:11.10,0:10:12.84,Default,NTP,0,0,0,,我要在這裏更新你的狀態
+Dialogue: 0,0:10:13.43,0:10:16.09,Default,NTP,0,0,0,,以你的力量 去和那隻怪獸抗衡吧
+Dialogue: 0,0:10:17.13,0:10:18.10,Default,NTP,0,0,0,,不行的
+Dialogue: 0,0:10:18.70,0:10:20.76,Default,NTP,0,0,0,,即便再強上一些
+Dialogue: 0,0:10:21.18,0:10:24.86,Default,NTP,0,0,0,,我的攻擊也無法給那隻怪獸造成致命傷
+Dialogue: 0,0:10:25.58,0:10:28.55,Default,NTP,0,0,0,,而且 憑我..
+Dialogue: 0,0:10:29.82,0:10:30.65,Default,NTP,0,0,0,,打敗不了那傢伙
+Dialogue: 0,0:10:31.54,0:10:35.78,Default,NTP,0,0,0,,貝爾 你什麼時候變得這麼低聲下氣啊
+Dialogue: 0,0:10:36.62,0:10:38.56,Default,NTP,0,0,0,,我可是很相信你的哦
+Dialogue: 0,0:10:39.23,0:10:40.29,Default,NTP,0,0,0,,因為你想啊
+Dialogue: 0,0:10:41.66,0:10:45.63,Default,NTP,0,0,0,,如果是以華倫某某那種怪物女為奮鬥目標的
+Dialogue: 0,0:10:46.01,0:10:47.69,Default,NTP,0,0,0,,冒險者貝爾·克朗尼的話..
+Dialogue: 0,0:10:48.07,0:10:50.20,Default,NTP,0,0,0,,那種怪獸根本是小菜一碟嘛
+Dialogue: 0,0:10:52.88,0:10:53.92,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:10:56.92,0:10:58.14,Default,NTP,0,0,0,,終於能交給你了
+Dialogue: 0,0:11:04.65,0:11:06.01,Default,NTP,0,0,0,,這是..
+Dialogue: 0,0:11:06.56,0:11:07.96,Default,NTP,0,0,0,,你的..不
+Dialogue: 0,0:11:08.71,0:11:09.69,Default,NTP,0,0,0,,是我們的武器
+Dialogue: 0,0:11:10.53,0:11:11.18,Default,NTP,0,0,0,,我叫它..
+Dialogue: 0,0:11:12.45,0:11:13.45,Default,NTP,0,0,0,,赫斯緹雅之刃
+Dialogue: 0,0:11:17.25,0:11:18.92,Default,NTP,0,0,0,,我會讓你贏的
+Dialogue: 0,0:11:20.16,0:11:21.27,Default,NTP,0,0,0,,一定會讓你贏的
+Dialogue: 0,0:11:22.97,0:11:24.05,Default,NTP,0,0,0,,你能相信我嗎？
+Dialogue: 0,0:11:28.78,0:11:29.28,Default,NTP,0,0,0,,是
+Dialogue: 0,0:11:39.62,0:11:41.92,Default,NTP,0,0,0,,這下大概就收拾得差不多了吧？
+Dialogue: 0,0:11:42.80,0:11:44.73,Default,NTP,0,0,0,,還讓迦尼薩欠了咱個人情
+Dialogue: 0,0:11:46.17,0:11:48.03,Default,NTP,0,0,0,,還剩一隻銀背
+Dialogue: 0,0:11:48.91,0:11:53.35,Default,NTP,0,0,0,,據目擊者稱 它追著兩名年輕冒險者進入了代達羅斯街
+Dialogue: 0,0:11:53.60,0:11:56.62,Default,NTP,0,0,0,,代達羅斯街？怎跑進那種麻煩地方..
+Dialogue: 0,0:11:56.87,0:12:00.01,Default,NTP,0,0,0,,是 雖然迦尼薩眷族的討伐隊已前去處理
+Dialogue: 0,0:12:00.39,0:12:03.58,Default,NTP,0,0,0,,但畢竟地形複雜 好像連找都還沒找到呢
+Dialogue: 0,0:12:06.32,0:12:10.23,Default,NTP,0,0,0,,嗯 稍微歇會啦 艾絲碳
+Dialogue: 0,0:12:34.34,0:12:36.50,Default,NTP,0,0,0,,這把短刀有那樣的力量？
+Dialogue: 0,0:12:36.95,0:12:42.18,Default,NTP,0,0,0,,對 換言之這是一把新手冒險者能用的一級武器
+Dialogue: 0,0:12:42.56,0:12:46.11,Default,NTP,0,0,0,,好厲害 不愧是天界神匠赫菲斯托絲
+Dialogue: 0,0:12:46.52,0:12:48.81,Default,NTP,0,0,0,,讚得再多也不會便宜1瓦利斯哦
+Dialogue: 0,0:12:51.74,0:12:53.42,Default,NTP,0,0,0,,但是 這樣的武器
+Dialogue: 0,0:12:53.91,0:12:55.84,Default,NTP,0,0,0,,以鍛造師來講根本是邪道之作
+Dialogue: 0,0:12:56.48,0:12:57.81,Default,NTP,0,0,0,,別再叫我做了哦
+Dialogue: 0,0:12:58.68,0:12:59.35,Default,NTP,0,0,0,,謝謝你
+Dialogue: 0,0:13:01.54,0:13:03.08,Default,NTP,0,0,0,,謝謝 赫菲斯托絲
+Dialogue: 0,0:13:05.11,0:13:05.69,Default,NTP,0,0,0,,問題是..
+Dialogue: 0,0:13:06.53,0:13:09.42,Default,NTP,0,0,0,,貝爾的狀態到底提升了多少
+Dialogue: 0,0:13:40.00,0:13:40.76,Default,NTP,0,0,0,,好驚人..
+Dialogue: 0,0:13:42.12,0:13:44.42,Default,NTP,0,0,0,,熟練度合計超越了600？
+Dialogue: 0,0:13:45.30,0:13:45.95,Default,NTP,0,0,0,,這樣的話..
+Dialogue: 0,0:13:47.18,0:13:48.35,Default,NTP,0,0,0,,上神大人 它要來了
+Dialogue: 0,0:13:59.23,0:14:00.61,Default,NTP,0,0,0,,沒問題的 貝爾
+Dialogue: 0,0:14:04.21,0:14:07.83,Default,NTP,0,0,0,,我再說一遍 我會讓你贏的
+Dialogue: 0,0:14:08.87,0:14:09.37,Default,NTP,0,0,0,,是
+Dialogue: 0,0:14:11.14,0:14:12.12,Default,NTP,0,0,0,,你會相信我吧？
+Dialogue: 0,0:14:12.80,0:14:13.30,Default,NTP,0,0,0,,是
+Dialogue: 0,0:14:13.57,0:14:14.38,Default,NTP,0,0,0,,好 去吧
+Dialogue: 0,0:14:30.75,0:14:31.74,Default,NTP,0,0,0,,這是..
+Dialogue: 0,0:14:32.61,0:14:35.20,Default,NTP,0,0,0,,這就是你現在的力量 貝爾
+Dialogue: 0,0:14:36.42,0:14:37.65,Default,NTP,0,0,0,,那把短刀是活的
+Dialogue: 0,0:14:38.26,0:14:38.89,Default,NTP,0,0,0,,它的使用者..
+Dialogue: 0,0:14:39.41,0:14:41.90,Default,NTP,0,0,0,,也就是你越是成長 它就會變得越強
+Dialogue: 0,0:14:43.33,0:14:45.73,Default,NTP,0,0,0,,我的..成長？
+Dialogue: 0,0:14:49.45,0:14:52.11,Default,NTP,0,0,0,,你要相信那把短刀
+Dialogue: 0,0:14:53.34,0:14:54.74,Default,NTP,0,0,0,,你要相信我
+Dialogue: 0,0:14:55.92,0:14:57.79,Default,NTP,0,0,0,,並且 相信你自己
+Dialogue: 0,0:15:09.07,0:15:17.26,Default,NTP,0,0,0,,相信 相信 相信 相信
+Dialogue: 0,0:15:27.29,0:15:29.16,Default,NTP,0,0,0,,為了上神大人..
+Dialogue: 0,0:16:08.16,0:16:08.83,Default,NTP,0,0,0,,成..
+Dialogue: 0,0:16:08.90,0:16:10.42,Default,NTP,0,0,0,,成功啦！！
+Dialogue: 0,0:16:17.05,0:16:19.17,Default,NTP,0,0,0,,成功了 你成功啦 貝爾
+Dialogue: 0,0:16:19.99,0:16:21.95,Default,NTP,0,0,0,,是 我做到了 上神大人
+Dialogue: 0,0:16:22.63,0:16:24.34,Default,NTP,0,0,0,,十分感謝您 上神大人
+Dialogue: 0,0:16:24.87,0:16:27.32,Default,NTP,0,0,0,,這是我要說的啦 貝爾
+Dialogue: 0,0:16:29.12,0:16:29.89,Default,NTP,0,0,0,,太棒了
+Dialogue: 0,0:16:34.08,0:16:35.92,Default,NTP,0,0,0,,什麼啊 已經歇菜了嘛
+Dialogue: 0,0:16:36.45,0:16:37.68,Default,NTP,0,0,0,,咱明明是拼了老命..
+Dialogue: 0,0:16:37.68,0:16:41.95,Default,NTP,0,0,0,,追著艾絲碳的屁股而來的說..
+Dialogue: 0,0:16:45.29,0:16:46.88,Default,NTP,0,0,0,,誒？這就走啦？
+Dialogue: 0,0:16:47.19,0:16:50.62,Default,NTP,0,0,0,,剛才就說了嘛 稍微歇會啊
+Dialogue: 0,0:16:51.41,0:16:53.55,Default,NTP,0,0,0,,事情鬧大了啊
+Dialogue: 0,0:16:54.23,0:16:56.01,Default,NTP,0,0,0,,嗯 是啊..
+Dialogue: 0,0:16:56.92,0:16:57.50,Default,NTP,0,0,0,,上神大人？
+Dialogue: 0,0:16:58.43,0:17:03.57,Default,NTP,0,0,0,,貝爾..真的..很努力呢..
+Dialogue: 0,0:17:09.04,0:17:13.59,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:17:15.64,0:17:17.95,Default,NTP,0,0,0,,是不是有些對不住赫斯緹雅呀
+Dialogue: 0,0:17:21.35,0:17:25.25,Default,NTP,0,0,0,,有機會再玩吧 貝爾
+Dialogue: 0,0:17:35.02,0:17:35.92,Default,NTP,0,0,0,,雖然發生了不少事
+Dialogue: 0,0:17:36.32,0:17:37.74,Default,NTP,0,0,0,,但是大家幹得不錯
+Dialogue: 0,0:17:38.29,0:17:39.69,Default,NTP,0,0,0,,迦尼薩超滿足
+Dialogue: 0,0:17:40.70,0:17:42.87,Default,NTP,0,0,0,,順便一提 我就是迦尼薩
+Dialogue: 0,0:17:44.30,0:17:45.31,Default,NTP,0,0,0,,我們知道的..
+Dialogue: 0,0:17:47.88,0:17:51.62,Default,NTP,0,0,0,,死傷者皆未出現
+Dialogue: 0,0:17:59.59,0:18:02.89,Default,NTP,0,0,0,,但是..犯人的真面目和目的都不明
+Dialogue: 0,0:18:08.11,0:18:09.49,Default,NTP,0,0,0,,到底是怎麼回事呢？
+Dialogue: 0,0:18:19.57,0:18:23.35,Default,NTP,0,0,0,,如何啊？女神大人的情況
+Dialogue: 0,0:18:24.35,0:18:26.78,Default,NTP,0,0,0,,好像只是疲勞過度睡著了而已
+Dialogue: 0,0:18:27.52,0:18:30.79,Default,NTP,0,0,0,,真是麻煩各位了 還借了你們的床用..
+Dialogue: 0,0:18:31.19,0:18:32.89,Default,NTP,0,0,0,,有困難的時候要互相幫忙
+Dialogue: 0,0:18:33.53,0:18:35.69,Default,NTP,0,0,0,,而且也得到米婭老媽的允許了
+Dialogue: 0,0:18:36.29,0:18:37.64,Default,NTP,0,0,0,,你們就安心休息吧
+Dialogue: 0,0:18:38.52,0:18:43.11,Default,NTP,0,0,0,,而且說到底 也是因為我忘了錢包..
+Dialogue: 0,0:18:43.73,0:18:46.59,Default,NTP,0,0,0,,才讓貝爾先生捲入了騷亂之中呢
+Dialogue: 0,0:18:47.53,0:18:48.26,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:18:48.48,0:18:49.19,Default,NTP,0,0,0,,哪..哪裏
+Dialogue: 0,0:18:49.54,0:18:50.52,Default,NTP,0,0,0,,那不是希兒小姐的錯
+Dialogue: 0,0:18:51.33,0:18:54.16,Default,NTP,0,0,0,,對了對了 大街小巷的人們都在說哦
+Dialogue: 0,0:18:54.70,0:18:57.64,Default,NTP,0,0,0,,跟怪獸戰鬥的貝爾先生很勇敢
+Dialogue: 0,0:18:57.97,0:19:00.93,Default,NTP,0,0,0,,不 沒有啦..只是到處逃跑而已
+Dialogue: 0,0:19:01.71,0:19:03.11,Default,NTP,0,0,0,,沒有那回事
+Dialogue: 0,0:19:03.86,0:19:06.67,Default,NTP,0,0,0,,其實我也稍微看到了一點..
+Dialogue: 0,0:19:08.76,0:19:10.07,Default,NTP,0,0,0,,把人家看入迷了..
+Dialogue: 0,0:19:13.07,0:19:16.51,Default,NTP,0,0,0,,我還要回店裏幫忙 之後再聊 貝爾先生
+Dialogue: 0,0:19:19.08,0:19:21.84,Default,NTP,0,0,0,,是..是戲弄我吧
+Dialogue: 0,0:19:25.03,0:19:25.97,Default,NTP,0,0,0,,貝爾？
+Dialogue: 0,0:19:27.18,0:19:28.91,Default,NTP,0,0,0,,貝爾啊..
+Dialogue: 0,0:19:30.31,0:19:31.34,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:19:34.54,0:19:37.52,Default,NTP,0,0,0,,嚇死我了 看您突然就倒下了
+Dialogue: 0,0:19:38.16,0:19:40.93,Default,NTP,0,0,0,,哎呀 看來實在是累得不行呢
+Dialogue: 0,0:19:41.49,0:19:43.17,Default,NTP,0,0,0,,對不起 讓你擔心了
+Dialogue: 0,0:19:43.63,0:19:45.38,Default,NTP,0,0,0,,希兒小姐她們說了
+Dialogue: 0,0:19:45.89,0:19:49.47,Default,NTP,0,0,0,,除了那隻銀背 其他怪獸也全都被打倒了
+Dialogue: 0,0:19:50.24,0:19:53.11,Default,NTP,0,0,0,,據說艾絲·華倫斯坦小姐也表現活躍哦
+Dialogue: 0,0:19:54.11,0:19:55.60,Default,NTP,0,0,0,,欸 是嘛
+Dialogue: 0,0:19:55.71,0:19:56.82,Default,NTP,0,0,0,,話說回來 上神大人
+Dialogue: 0,0:19:58.04,0:19:59.89,Default,NTP,0,0,0,,這把短刀是哪來的？
+Dialogue: 0,0:20:00.76,0:20:03.86,Default,NTP,0,0,0,,刀鞘上還刻著赫菲斯托絲..那個
+Dialogue: 0,0:20:04.17,0:20:07.38,Default,NTP,0,0,0,,就是那個赫菲斯托絲啊 如假包換的哦
+Dialogue: 0,0:20:08.97,0:20:14.33,Default,NTP,0,0,0,,我知道哦 你總是把臉貼在赫菲斯托絲的店窗上
+Dialogue: 0,0:20:16.78,0:20:19.86,Default,NTP,0,0,0,,雖然和你想要的可能不一樣
+Dialogue: 0,0:20:21.65,0:20:24.68,Default,NTP,0,0,0,,但是這個 是世界上獨一無二的
+Dialogue: 0,0:20:24.99,0:20:25.86,Default,NTP,0,0,0,,很厲害吧
+Dialogue: 0,0:20:27.93,0:20:30.76,Default,NTP,0,0,0,,我啊 討厭只做個旁觀者
+Dialogue: 0,0:20:31.99,0:20:36.85,Default,NTP,0,0,0,,只是讓你供養 只是受你幫助 我討厭那樣
+Dialogue: 0,0:20:37.13,0:20:38.17,Default,NTP,0,0,0,,但是錢呢？
+Dialogue: 0,0:20:38.65,0:20:41.26,Default,NTP,0,0,0,,赫菲斯托絲眷族的武器非常昂貴..
+Dialogue: 0,0:20:41.93,0:20:43.06,Default,NTP,0,0,0,,我說服她了
+Dialogue: 0,0:20:43.88,0:20:45.13,Default,NTP,0,0,0,,你想變強吧？
+Dialogue: 0,0:20:45.82,0:20:48.04,Default,NTP,0,0,0,,我不是說過嘛 會幫助你的
+Dialogue: 0,0:20:48.85,0:20:50.74,Default,NTP,0,0,0,,這點閒事還是讓我管一管嘛
+Dialogue: 0,0:20:52.56,0:20:56.62,Default,NTP,0,0,0,,我比任何人 都更想成為你的力量啊
+Dialogue: 0,0:20:58.23,0:21:01.01,Default,NTP,0,0,0,,因為我喜歡你啊
+Dialogue: 0,0:21:04.04,0:21:04.91,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:21:05.61,0:21:06.47,Default,NTP,0,0,0,,上神大人
+Dialogue: 0,0:21:07.50,0:21:09.01,Default,NTP,0,0,0,,要幫忙隨時想到我哦
+Dialogue: 0,0:21:09.84,0:21:12.20,Default,NTP,0,0,0,,因為我是你的神呀
+Dialogue: 0,0:21:19.36,0:21:22.35,Default,NTP,0,0,0,,喂 你在幹什麼？動作快點
+Dialogue: 0,0:21:25.55,0:21:28.45,Default,NTP,0,0,0,,吊兒郎當的 區區一個無能的支援者
+Dialogue: 0,0:21:29.29,0:21:33.46,Default,NTP,0,0,0,,不能好好完成工作的累贅可沒錢拿啊
+Dialogue: 0,0:21:36.60,0:21:38.76,Default,NTP,0,0,0,,不過 要是被怪物包圍的話
+Dialogue: 0,0:21:39.06,0:21:41.89,Default,NTP,0,0,0,,我至少會把你當誘餌哦 廢物
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:23:25.69,0:23:30.03,Default,NTP,0,0,0,,真要這麼穿嗎？赫菲斯托斯
+Dialogue: 0,0:23:33.12,0:23:34.41,Default,NTP,0,0,0,,嗯 當然了
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:23:38.02,0:23:40.49,Default,NTP,0,0,0,,下回 弱者
+Dialogue: 0,0:23:38.02,0:23:40.49,zhushi,NTP,0,0,0,,{\pos(690,640)}支援者
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+

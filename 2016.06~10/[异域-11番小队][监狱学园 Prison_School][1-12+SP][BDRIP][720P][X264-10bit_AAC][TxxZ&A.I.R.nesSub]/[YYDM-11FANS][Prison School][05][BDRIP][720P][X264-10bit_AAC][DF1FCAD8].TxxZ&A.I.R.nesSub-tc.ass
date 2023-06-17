@@ -1,0 +1,516 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 监狱学园 #05 chs
+Original Script: TxxZ&A.I.R.nesSub（翻译：伊藤誠 / 校对：村汉）
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Source Han Sans CN Medium,45,&H00FFFFFF,&HF0000000,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,15,1
+Style: title,Source Han Sans CN Medium,56,&H00FFFFFF,&HF0000000,&H00000000,&H64400490,-1,0,0,0,100,100,0,0,1,0,2,8,30,30,15,1
+Style: OPJP,Source Han Sans JP Medium,40,&H00FFFFFF,&HF0000000,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,15,1
+Style: OPCN,Source Han Sans CN Medium,42,&H00FFFFFF,&HF0000000,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,15,1
+Style: EDJP,Source Han Sans JP Medium,40,&H00FFFFFF,&HF0000000,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,45,1
+Style: EDCN,Source Han Sans CN Medium,40,&H00FFFFFF,&HF0000000,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:46.67,0:00:49.05,OPJP,NTP,0,0,0,,ダダッダッダ脱走脱走
+Dialogue: 0,0:00:49.25,0:00:51.62,OPJP,NTP,0,0,0,,ゲゲッゲッゲ逃げ出そう
+Dialogue: 0,0:00:51.73,0:00:53.74,OPJP,NTP,0,0,0,,ズズンズンズンプリズンプリズン
+Dialogue: 0,0:00:53.78,0:00:56.56,OPJP,NTP,0,0,0,,つかみ取れ自由を
+Dialogue: 0,0:00:56.78,0:00:59.11,OPJP,NTP,0,0,0,,アナッナッナ穴掘れ
+Dialogue: 0,0:00:59.29,0:01:01.75,OPJP,NTP,0,0,0,,ジェジェッジェッジェジェイルブレイク
+Dialogue: 0,0:01:01.83,0:01:03.87,OPJP,NTP,0,0,0,,ズズンズンズンプリズンプリズン
+Dialogue: 0,0:01:03.92,0:01:06.70,OPJP,NTP,0,0,0,,この支配から だけど
+Dialogue: 0,0:01:06.71,0:01:09.27,OPJP,NTP,0,0,0,,(judge) 自由になって
+Dialogue: 0,0:01:09.30,0:01:11.73,OPJP,NTP,0,0,0,,(innocent) 何ができるんだ
+Dialogue: 0,0:01:11.76,0:01:14.31,OPJP,NTP,0,0,0,,(judge) 好きな誰かと
+Dialogue: 0,0:01:14.33,0:01:16.83,OPJP,NTP,0,0,0,,(guilty) 恋ができるの
+Dialogue: 0,0:01:16.86,0:01:19.38,OPJP,NTP,0,0,0,,(prison) 恋をしたとて
+Dialogue: 0,0:01:19.41,0:01:21.83,OPJP,NTP,0,0,0,,(break out) 縛り縛られ
+Dialogue: 0,0:01:21.88,0:01:24.10,OPJP,NTP,0,0,0,,結局 監獄
+Dialogue: 0,0:01:24.14,0:01:26.94,OPJP,NTP,0,0,0,,ああプリズンさ
+Dialogue: 0,0:01:27.10,0:01:29.47,OPJP,NTP,0,0,0,,プリプリズン 愛のプリズン
+Dialogue: 0,0:01:29.59,0:01:31.94,OPJP,NTP,0,0,0,,逃げ出したいけど
+Dialogue: 0,0:01:32.17,0:01:34.54,OPJP,NTP,0,0,0,,プリプリズン 愛のプリズン
+Dialogue: 0,0:01:34.57,0:01:37.17,OPJP,NTP,0,0,0,,逃げられない
+Dialogue: 0,0:01:37.22,0:01:39.60,OPJP,NTP,0,0,0,,プリプリズン 愛のプリズン
+Dialogue: 0,0:01:39.73,0:01:41.86,OPJP,NTP,0,0,0,,どこへ逃げたって
+Dialogue: 0,0:01:42.01,0:01:46.55,OPJP,NTP,0,0,0,,世界は 愛という 限りない
+Dialogue: 0,0:01:47.10,0:01:51.21,OPJP,NTP,0,0,0,,心は愛という 果ての無い
+Dialogue: 0,0:01:51.54,0:01:52.19,OPJP,NTP,0,0,0,,プリズン
+Dialogue: 0,0:00:46.67,0:00:49.05,OPCN,NTP,0,0,0,,越越越越越獄越獄
+Dialogue: 0,0:00:49.25,0:00:51.62,OPCN,NTP,0,0,0,,逃逃逃逃逃出逃出
+Dialogue: 0,0:00:51.73,0:00:53.74,OPCN,NTP,0,0,0,,son-son-son-son-prison prison
+Dialogue: 0,0:00:53.78,0:00:56.56,OPCN,NTP,0,0,0,,我們要抓住自由！
+Dialogue: 0,0:00:56.78,0:00:59.11,OPCN,NTP,0,0,0,,挖啊挖啊齊挖洞
+Dialogue: 0,0:00:59.29,0:01:01.75,OPCN,NTP,0,0,0,,Ja-Ja-Ja-Ja-Jail Break
+Dialogue: 0,0:01:01.83,0:01:03.87,OPCN,NTP,0,0,0,,son-son-son-son-prison prison
+Dialogue: 0,0:01:03.92,0:01:06.70,OPCN,NTP,0,0,0,,要擺脫這些支配 然而——
+Dialogue: 0,0:01:06.71,0:01:09.27,OPCN,NTP,0,0,0,,(judge) 自由了
+Dialogue: 0,0:01:09.30,0:01:11.73,OPCN,NTP,0,0,0,,(innocent) 又能怎樣
+Dialogue: 0,0:01:11.76,0:01:14.31,OPCN,NTP,0,0,0,,(judge) 能與喜歡的人
+Dialogue: 0,0:01:14.33,0:01:16.83,OPCN,NTP,0,0,0,,(guilty) 兩情相悅
+Dialogue: 0,0:01:16.86,0:01:19.38,OPCN,NTP,0,0,0,,(prison) 就算相愛了
+Dialogue: 0,0:01:19.41,0:01:21.83,OPCN,NTP,0,0,0,,(break out) 也是束縛自己束縛對方
+Dialogue: 0,0:01:21.88,0:01:24.10,OPCN,NTP,0,0,0,,到頭來 還是監獄
+Dialogue: 0,0:01:24.14,0:01:26.94,OPCN,NTP,0,0,0,,啊啊 就是PRISON啊
+Dialogue: 0,0:01:27.10,0:01:29.47,OPCN,NTP,0,0,0,,PRI-PRISON 愛的PRISON
+Dialogue: 0,0:01:29.59,0:01:31.94,OPCN,NTP,0,0,0,,好想逃出去
+Dialogue: 0,0:01:32.17,0:01:34.54,OPCN,NTP,0,0,0,,PRI-PRISON 愛的PRISON
+Dialogue: 0,0:01:34.57,0:01:37.17,OPCN,NTP,0,0,0,,死活逃不掉
+Dialogue: 0,0:01:37.22,0:01:39.60,OPCN,NTP,0,0,0,,PRI-PRISON 愛的PRISON
+Dialogue: 0,0:01:39.73,0:01:41.86,OPCN,NTP,0,0,0,,無論逃到哪裏
+Dialogue: 0,0:01:42.01,0:01:46.55,OPCN,NTP,0,0,0,,世界就是一個名為愛的無限的——
+Dialogue: 0,0:01:47.10,0:01:51.21,OPCN,NTP,0,0,0,,心就是一個名為愛的無際的——
+Dialogue: 0,0:01:51.54,0:01:52.19,OPCN,NTP,0,0,0,,PRISON
+Dialogue: 0,0:23:15.84,0:23:22.19,EDJP,NTP,0,0,0,,誰かを好きになることは 遺伝子に仕組まれたワナ
+Dialogue: 0,0:23:22.56,0:23:27.72,EDJP,NTP,0,0,0,,欲望は すでに始まっているのさ
+Dialogue: 0,0:23:29.34,0:23:32.48,EDJP,NTP,0,0,0,,いろいろあります 日常
+Dialogue: 0,0:23:32.62,0:23:35.81,EDJP,NTP,0,0,0,,いろいろあります 純情
+Dialogue: 0,0:23:36.10,0:23:42.10,EDJP,NTP,0,0,0,,がっぷり四つで 胸を締め付けるよ
+Dialogue: 0,0:23:42.74,0:23:45.92,EDJP,NTP,0,0,0,,触るんじゃない 触らせろ ハート
+Dialogue: 0,0:23:46.17,0:23:49.49,EDJP,NTP,0,0,0,,こじあけて こらしめて モット
+Dialogue: 0,0:23:49.60,0:23:54.76,EDJP,NTP,0,0,0,,全神経が従順にフォーリン ラブ
+Dialogue: 0,0:23:56.47,0:23:59.18,EDJP,NTP,0,0,0,,あなたが欲しい
+Dialogue: 0,0:23:59.69,0:24:02.64,EDJP,NTP,0,0,0,,すべてを知りたい
+Dialogue: 0,0:24:03.18,0:24:09.48,EDJP,NTP,0,0,0,,俺たちの夢 許可してよ
+Dialogue: 0,0:24:09.91,0:24:12.78,EDJP,NTP,0,0,0,,愛など要らない
+Dialogue: 0,0:24:13.24,0:24:16.18,EDJP,NTP,0,0,0,,……やっぱりください
+Dialogue: 0,0:24:16.59,0:24:22.98,EDJP,NTP,0,0,0,,思春期にかける手錠はないの、だ！
+Dialogue: 0,0:23:15.84,0:23:22.19,EDCN,NTP,0,0,0,,喜歡上一個人 那是種在遺傳基因的陷阱
+Dialogue: 0,0:23:22.56,0:23:27.72,EDCN,NTP,0,0,0,,慾望早已經開始了啊
+Dialogue: 0,0:23:29.34,0:23:32.48,EDCN,NTP,0,0,0,,驚濤駭浪啊 日常
+Dialogue: 0,0:23:32.62,0:23:35.81,EDCN,NTP,0,0,0,,慾火難耐啊 純情
+Dialogue: 0,0:23:36.10,0:23:42.10,EDCN,NTP,0,0,0,,四手互抱 壓緊胸部不要放哦
+Dialogue: 0,0:23:42.74,0:23:45.92,EDCN,NTP,0,0,0,,別亂摸 給我摸吧 甜心！
+Dialogue: 0,0:23:46.17,0:23:49.49,EDCN,NTP,0,0,0,,硬生生地撬開 狠狠地罰我吧 還要！
+Dialogue: 0,0:23:49.60,0:23:54.76,EDCN,NTP,0,0,0,,全身神經順從地Fall in Love
+Dialogue: 0,0:23:54.81,0:23:56.40,EDCN,NTP,0,0,0,,{\an5\blur3}(Love & Peace Fight!)
+Dialogue: 0,0:23:56.47,0:23:59.18,EDCN,NTP,0,0,0,,想要你
+Dialogue: 0,0:23:59.69,0:24:02.64,EDCN,NTP,0,0,0,,想知道你的一切
+Dialogue: 0,0:24:03.18,0:24:09.48,EDCN,NTP,0,0,0,,我們的夢想 請求你批准
+Dialogue: 0,0:24:09.91,0:24:12.78,EDCN,NTP,0,0,0,,我們不需要愛
+Dialogue: 0,0:24:13.24,0:24:16.18,EDCN,NTP,0,0,0,,……但還是很想要啊
+Dialogue: 0,0:24:16.59,0:24:22.98,EDCN,NTP,0,0,0,,沒有手銬可以扣住青春期的、啊！
+Dialogue: 0,0:00:02.26,0:00:03.83,Default,NTP,0,0,0,,我不說第二遍 清志
+Dialogue: 0,0:00:04.88,0:00:06.25,Default,NTP,0,0,0,,現在馬上給我出來
+Dialogue: 0,0:00:08.40,0:00:10.82,Default,NTP,0,0,0,,你這傢伙別在這種時候給我玩弄性器官
+Dialogue: 0,0:00:11.00,0:00:11.95,Default,NTP,0,0,0,,癢啊
+Dialogue: 0,0:00:12.20,0:00:14.03,Default,NTP,0,0,0,,{\an8}屁眼和性器都那麼骯髒
+Dialogue: 0,0:00:13.21,0:00:17.62,Default,NTP,0,0,0,,怎麼回事 在最後的最後居然沒有大便聲了
+Dialogue: 0,0:00:18.43,0:00:21.74,Default,NTP,0,0,0,,不回話嗎 那麼
+Dialogue: 0,0:00:24.34,0:00:26.11,Default,NTP,0,0,0,,就！看！我！的！
+Dialogue: 0,0:01:57.77,0:01:58.37,Default,NTP,0,0,0,,佛祖保佑
+Dialogue: 0,0:02:02.53,0:02:03.31,Default,NTP,0,0,0,,你這傢伙
+Dialogue: 0,0:02:03.11,0:02:06.90,Default,NTP,0,0,0,,{\pos(644,308)\c&H1C00B4&\3c&HFFFFFF&}學校第一的背叛者
+Dialogue: 0,0:02:03.91,0:02:05.26,Default,NTP,0,0,0,,在就給我回一聲
+Dialogue: 0,0:02:06.06,0:02:07.07,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:02:07.34,0:02:09.79,Default,NTP,0,0,0,,痔瘡嚴重得要哭成這樣嗎
+Dialogue: 0,0:02:09.93,0:02:14.17,Default,NTP,0,0,0,,一邊拉屎一邊哭真噁心 給我快點回去幹活
+Dialogue: 0,0:02:15.33,0:02:18.79,Default,NTP,0,0,0,,上廁所有點太久了啊 好好工作啦
+Dialogue: 0,0:02:19.05,0:02:20.57,Default,NTP,0,0,0,,抱歉 真吾
+Dialogue: 0,0:02:23.76,0:02:24.64,Default,NTP,0,0,0,,清志
+Dialogue: 0,0:02:27.70,0:02:31.94,Default,NTP,0,0,0,,你能回來真是太好了
+Dialogue: 0,0:02:32.64,0:02:37.57,Default,NTP,0,0,0,,我還擔心你光顧著看相撲忘形了要晚回來
+Dialogue: 0,0:02:37.88,0:02:39.41,Default,NTP,0,0,0,,你在哭什麼啊
+Dialogue: 0,0:02:39.72,0:02:41.41,Default,NTP,0,0,0,,這個時間回來了的話
+Dialogue: 0,0:02:41.55,0:02:44.01,Default,NTP,0,0,0,,就是說提早結束觀看相撲了吧
+Dialogue: 0,0:02:44.67,0:02:46.49,Default,NTP,0,0,0,,葛人 失敗了
+Dialogue: 0,0:02:46.89,0:02:49.04,Default,NTP,0,0,0,,我真是糟透了
+Dialogue: 0,0:02:49.91,0:02:51.63,Default,NTP,0,0,0,,你說什麼
+Dialogue: 0,0:02:51.69,0:02:53.00,Default,NTP,0,0,0,,失敗了
+Dialogue: 0,0:02:53.15,0:02:53.80,Default,NTP,0,0,0,,難道說
+Dialogue: 0,0:02:54.39,0:02:57.28,Default,NTP,0,0,0,,提早10分鐘回來是因為沒買到手辦嗎
+Dialogue: 0,0:02:59.77,0:03:01.40,Default,NTP,0,0,0,,四年一次的三國誌祭典
+Dialogue: 0,0:03:01.45,0:03:04.43,Default,NTP,0,0,0,,再加上失禁而毀掉的高中三年
+Dialogue: 0,0:03:04.89,0:03:08.02,Default,NTP,0,0,0,,你把小生的這七年當成什麼了
+Dialogue: 0,0:03:08.48,0:03:10.14,Default,NTP,0,0,0,,這不是你說失敗了就能了事的
+Dialogue: 0,0:03:10.31,0:03:11.64,Default,NTP,0,0,0,,現在就給我回去買
+Dialogue: 0,0:03:11.80,0:03:12.60,Default,NTP,0,0,0,,小生的手辦
+Dialogue: 0,0:03:12.75,0:03:14.70,Default,NTP,0,0,0,,關羽雲長&赤兔馬手辦
+Dialogue: 0,0:03:15.57,0:03:18.02,Default,NTP,0,0,0,,你的手辦買來了 你看
+Dialogue: 0,0:03:20.78,0:03:22.92,Default,NTP,0,0,0,,清志心眼真壞
+Dialogue: 0,0:03:23.06,0:03:24.66,Default,NTP,0,0,0,,監獄玩笑是吧
+Dialogue: 0,0:03:24.84,0:03:27.26,Default,NTP,0,0,0,,不 其實我的相撲約會……
+Dialogue: 0,0:03:27.49,0:03:29.82,Default,NTP,0,0,0,,不快點回去的話又要被懷疑了
+Dialogue: 0,0:03:30.24,0:03:34.11,Default,NTP,0,0,0,,總之手辦先藏在這 等一會再來拿
+Dialogue: 0,0:03:34.44,0:03:37.02,Default,NTP,0,0,0,,清志還真是會演
+Dialogue: 0,0:03:37.49,0:03:40.20,Default,NTP,0,0,0,,那眼淚還真是逼真
+Dialogue: 0,0:03:40.25,0:03:43.16,Default,NTP,0,0,0,,我是想說早回來是因為約會…
+Dialogue: 0,0:03:43.23,0:03:44.00,Default,NTP,0,0,0,,那雙鞋
+Dialogue: 0,0:03:46.44,0:03:47.74,Default,NTP,0,0,0,,原來是你啊
+Dialogue: 0,0:03:48.68,0:03:51.12,Default,NTP,0,0,0,,觀看相撲開心嗎
+Dialogue: 0,0:03:52.22,0:03:53.59,Default,NTP,0,0,0,,你指什麼
+Dialogue: 0,0:03:53.85,0:03:57.19,Default,NTP,0,0,0,,我在校門叫住的就是你吧
+Dialogue: 0,0:03:57.45,0:03:59.96,Default,NTP,0,0,0,,不 我一直在廁所裏
+Dialogue: 0,0:04:00.03,0:04:00.73,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:04:01.43,0:04:03.73,Default,NTP,0,0,0,,那這個不是你嗎
+Dialogue: 0,0:04:05.32,0:04:07.88,Default,NTP,0,0,0,,現在和清志君一起看相撲
+Dialogue: 0,0:04:08.15,0:04:12.43,Default,NTP,0,0,0,,爸爸姐姐 謝謝你們允許清志外出
+Dialogue: 0,0:04:12.62,0:04:14.00,Default,NTP,0,0,0,,雖然跟相撲沒什麼關係
+Dialogue: 0,0:04:14.11,0:04:16.02,Default,NTP,0,0,0,,拍到有趣的照片了發給你門看
+Dialogue: 0,0:04:16.19,0:04:18.35,Default,NTP,0,0,0,,注意鼻子和臉頰♥
+Dialogue: 0,0:04:21.40,0:04:23.45,Default,NTP,0,0,0,,佛祖保 佑
+Dialogue: 0,0:04:24.54,0:04:28.02,Default,NTP,0,0,0,,竟然欺騙我的寶貝妹妹膽子不小啊
+Dialogue: 0,0:04:28.09,0:04:29.82,Default,NTP,0,0,0,,妹妹 千代？
+Dialogue: 0,0:04:31.76,0:04:32.93,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:04:33.00,0:04:34.65,Default,NTP,0,0,0,,沒有什麼怎麼了
+Dialogue: 0,0:04:34.71,0:04:36.32,Default,NTP,0,0,0,,那兩人闖什麼禍了嗎
+Dialogue: 0,0:04:36.88,0:04:39.39,Default,NTP,0,0,0,,副會長 檢查他的書包
+Dialogue: 0,0:04:39.47,0:04:39.97,Default,NTP,0,0,0,,是
+Dialogue: 0,0:04:43.66,0:04:45.18,Default,NTP,0,0,0,,這表皮是…
+Dialogue: 0,0:04:45.98,0:04:49.04,Default,NTP,0,0,0,,你用死眼鏡的頭髮
+Dialogue: 0,0:04:49.27,0:04:50.89,Default,NTP,0,0,0,,喂喂 難道說…
+Dialogue: 0,0:04:50.97,0:04:51.25,Default,NTP,0,0,0,,騙人
+Dialogue: 0,0:04:51.34,0:04:53.76,Default,NTP,0,0,0,,看來就是你說的難道了
+Dialogue: 0,0:04:54.95,0:04:57.96,Default,NTP,0,0,0,,雖然不知道女生的制服是從哪偷來的
+Dialogue: 0,0:04:58.26,0:05:02.14,Default,NTP,0,0,0,,你通過女裝逃獄是沒錯了吧
+Dialogue: 0,0:05:07.58,0:05:08.17,Default,NTP,0,0,0,,是
+Dialogue: 0,0:05:08.77,0:05:12.37,Default,NTP,0,0,0,,逃獄就要連帶責任延長一個月刑期吧
+Dialogue: 0,0:05:12.51,0:05:14.64,Default,NTP,0,0,0,,嘖 fuck 真的假的
+Dialogue: 0,0:05:16.25,0:05:19.36,Default,NTP,0,0,0,,會長 這套制服是你妹妹的
+Dialogue: 0,0:05:21.58,0:05:24.22,Default,NTP,0,0,0,,你好噁心
+Dialogue: 0,0:05:26.25,0:05:27.90,Default,NTP,0,0,0,,今天的作業終止
+Dialogue: 0,0:05:28.11,0:05:29.37,Default,NTP,0,0,0,,全員給我回監獄去
+Dialogue: 0,0:05:29.67,0:05:32.23,Default,NTP,0,0,0,,清志 回頭會給你處分的
+Dialogue: 0,0:05:32.46,0:05:33.35,Default,NTP,0,0,0,,好好覺悟吧
+Dialogue: 0,0:05:41.36,0:05:43.79,Default,NTP,0,0,0,,為了和女人約會去逃獄！？
+Dialogue: 0,0:05:44.02,0:05:47.36,Default,NTP,0,0,0,,這麼任意妄為 你有什麼解釋啊
+Dialogue: 0,0:05:48.40,0:05:48.97,Default,NTP,0,0,0,,抱歉
+Dialogue: 0,0:05:49.13,0:05:50.43,Default,NTP,0,0,0,,抱歉個屁啊
+Dialogue: 0,0:05:50.59,0:05:52.00,Default,NTP,0,0,0,,真吾 住手啦
+Dialogue: 0,0:05:52.06,0:05:53.31,Default,NTP,0,0,0,,什麼事 吵架
+Dialogue: 0,0:05:53.42,0:05:54.48,Default,NTP,0,0,0,,騙人 為什麼
+Dialogue: 0,0:05:54.20,0:05:55.06,Default,NTP,0,0,0,,好嚇人
+Dialogue: 0,0:05:55.79,0:05:57.77,Default,NTP,0,0,0,,就自己跟女生交好
+Dialogue: 0,0:05:57.98,0:06:00.04,Default,NTP,0,0,0,,你把我們都當笨蛋吧
+Dialogue: 0,0:06:01.21,0:06:01.96,Default,NTP,0,0,0,,抱歉
+Dialogue: 0,0:06:03.76,0:06:05.86,Default,NTP,0,0,0,,清志 你最差勁了
+Dialogue: 0,0:06:19.72,0:06:21.86,Default,NTP,0,0,0,,罰你進獨房
+Dialogue: 0,0:06:22.15,0:06:23.78,Default,NTP,0,0,0,,逃獄也就算了
+Dialogue: 0,0:06:23.90,0:06:25.95,Default,NTP,0,0,0,,居然敢對會長的妹妹出手
+Dialogue: 0,0:06:26.48,0:06:27.59,Default,NTP,0,0,0,,別以為這樣就能了事了
+Dialogue: 0,0:06:34.49,0:06:39.38,Default,NTP,0,0,0,,我在這裏已經沒有容身之處了
+Dialogue: 0,0:06:44.03,0:06:46.52,Default,NTP,0,0,0,,用死眼鏡的頭髮做的假髮
+Dialogue: 0,0:06:46.75,0:06:47.79,Default,NTP,0,0,0,,那東西怎麼來的
+Dialogue: 0,0:06:48.21,0:06:51.83,Default,NTP,0,0,0,,那是我拿葛人剪下的頭髮做的
+Dialogue: 0,0:06:52.07,0:06:56.45,Default,NTP,0,0,0,,那麼死眼鏡跟逃獄計劃無關嗎
+Dialogue: 0,0:06:56.57,0:06:57.06,Default,NTP,0,0,0,,是
+Dialogue: 0,0:06:57.62,0:06:59.23,Default,NTP,0,0,0,,我只是拜託葛人
+Dialogue: 0,0:06:59.56,0:07:02.28,Default,NTP,0,0,0,,在我不在的時候說我去廁所了
+Dialogue: 0,0:07:02.67,0:07:05.39,Default,NTP,0,0,0,,那廁所拉屎的聲音是怎麼回事
+Dialogue: 0,0:07:05.82,0:07:08.76,Default,NTP,0,0,0,,不知道 我去學校外了
+Dialogue: 0,0:07:09.52,0:07:11.87,Default,NTP,0,0,0,,有什麼其他人在上廁所吧
+Dialogue: 0,0:07:12.17,0:07:14.34,Default,NTP,0,0,0,,你想說是你的單人犯案嗎
+Dialogue: 0,0:07:14.56,0:07:15.04,Default,NTP,0,0,0,,是
+Dialogue: 0,0:07:15.30,0:07:17.03,Default,NTP,0,0,0,,最後再問一個
+Dialogue: 0,0:07:17.45,0:07:19.47,Default,NTP,0,0,0,,為什麼偷了千代的制服
+Dialogue: 0,0:07:20.31,0:07:22.60,Default,NTP,0,0,0,,我根本不知道的
+Dialogue: 0,0:07:23.18,0:07:27.03,Default,NTP,0,0,0,,真的是沒注意 偶然拿了千代的
+Dialogue: 0,0:07:27.29,0:07:29.53,Default,NTP,0,0,0,,誰讓你這麼親密地稱呼會長的妹妹了
+Dialogue: 0,0:07:42.62,0:07:43.43,Default,NTP,0,0,0,,我會再來的
+Dialogue: 0,0:07:47.24,0:07:49.55,Default,NTP,0,0,0,,宣佈逃獄事件的懲罰
+Dialogue: 0,0:07:49.86,0:07:50.88,Default,NTP,0,0,0,,被告人清志
+Dialogue: 0,0:07:51.74,0:07:53.35,Default,NTP,0,0,0,,你在看行李的時間
+Dialogue: 0,0:07:53.85,0:07:55.96,Default,NTP,0,0,0,,一個人計劃逃獄了是吧
+Dialogue: 0,0:07:56.85,0:07:57.38,Default,NTP,0,0,0,,是
+Dialogue: 0,0:07:58.61,0:08:00.93,Default,NTP,0,0,0,,清志 一個人背負罪名
+Dialogue: 0,0:08:01.41,0:08:02.60,Default,NTP,0,0,0,,以前已經告知你們
+Dialogue: 0,0:08:03.03,0:08:04.86,Default,NTP,0,0,0,,逃獄要負連帶責任
+Dialogue: 0,0:08:05.30,0:08:09.69,Default,NTP,0,0,0,,因此清志以外的4名延長一個月刑期
+Dialogue: 0,0:08:10.65,0:08:12.43,Default,NTP,0,0,0,,清志 你的罪名是
+Dialogue: 0,0:08:12.59,0:08:15.03,Default,NTP,0,0,0,,逃獄 盜竊 不純異性交往
+Dialogue: 0,0:08:15.85,0:08:18.39,Default,NTP,0,0,0,,處以退學
+Dialogue: 0,0:08:23.28,0:08:25.50,Default,NTP,0,0,0,,沒想到會退學啊
+Dialogue: 0,0:08:26.54,0:08:27.71,Default,NTP,0,0,0,,真不敢相信啊
+Dialogue: 0,0:08:31.83,0:08:32.92,Default,NTP,0,0,0,,太殘暴了
+Dialogue: 0,0:08:33.45,0:08:37.08,Default,NTP,0,0,0,,到底裏學生會有什麼權限能讓清志退學
+Dialogue: 0,0:08:37.54,0:08:40.18,Default,NTP,0,0,0,,她們應該沒有那種強制力的
+Dialogue: 0,0:08:40.47,0:08:42.20,Default,NTP,0,0,0,,大家一起向校方投訴吧
+Dialogue: 0,0:08:42.57,0:08:44.15,Default,NTP,0,0,0,,你一個人在激動什麼啊
+Dialogue: 0,0:08:44.31,0:08:46.00,Default,NTP,0,0,0,,這怎麼能不激動
+Dialogue: 0,0:08:47.03,0:08:49.93,Default,NTP,0,0,0,,真吾覺得清志退學也沒關係嗎
+Dialogue: 0,0:08:50.47,0:08:51.25,Default,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:08:51.54,0:08:52.79,Default,NTP,0,0,0,,何等的態度
+Dialogue: 0,0:08:53.09,0:08:56.15,Default,NTP,0,0,0,,真吾跟清志不是初中就認識的嗎
+Dialogue: 0,0:08:56.47,0:08:57.99,Default,NTP,0,0,0,,你這還算是朋友嗎
+Dialogue: 0,0:08:59.80,0:09:03.37,Default,NTP,0,0,0,,如果我們是朋友的話為什麼清志瞞著我逃獄啊
+Dialogue: 0,0:09:04.05,0:09:07.10,Default,NTP,0,0,0,,不是清志覺得我們會告密嗎
+Dialogue: 0,0:09:07.85,0:09:09.73,Default,NTP,0,0,0,,根本沒有信任我們吧
+Dialogue: 0,0:09:10.42,0:09:13.40,Default,NTP,0,0,0,,那傢伙才是沒把我們當朋友啊
+Dialogue: 0,0:09:14.35,0:09:15.72,Default,NTP,0,0,0,,確實是這樣
+Dialogue: 0,0:09:16.24,0:09:16.85,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:09:18.36,0:09:20.84,Default,NTP,0,0,0,,沒那回事
+Dialogue: 0,0:09:21.05,0:09:24.21,Default,NTP,0,0,0,,你剛才起就一直在維護清志
+Dialogue: 0,0:09:24.38,0:09:27.17,Default,NTP,0,0,0,,不會是幫過他吧
+Dialogue: 0,0:09:30.39,0:09:33.18,Default,NTP,0,0,0,,沒有那回事
+Dialogue: 0,0:09:35.40,0:09:36.57,Default,NTP,0,0,0,,怎麼可能嘛
+Dialogue: 0,0:09:37.29,0:09:40.77,Default,NTP,0,0,0,,會長 讓清志退學的心情雖然能理解
+Dialogue: 0,0:09:41.08,0:09:42.61,Default,NTP,0,0,0,,但我們沒有這個權限
+Dialogue: 0,0:09:43.14,0:09:46.09,Default,NTP,0,0,0,,不通過職員會議就決定還是……
+Dialogue: 0,0:09:46.12,0:09:47.73,Default,NTP,0,0,0,,沒問題的 副會長
+Dialogue: 0,0:09:55.03,0:09:55.65,Default,NTP,0,0,0,,這是！
+Dialogue: 0,0:09:56.37,0:09:58.97,Default,NTP,0,0,0,,不過他會老實寫嗎
+Dialogue: 0,0:09:59.40,0:10:00.57,Default,NTP,0,0,0,,逼他寫
+Dialogue: 0,0:10:00.85,0:10:02.41,Default,NTP,0,0,0,,把清志帶到這裏來
+Dialogue: 0,0:10:03.61,0:10:05.31,Default,NTP,0,0,0,,是 先告退了
+Dialogue: 0,0:10:09.19,0:10:11.10,Default,NTP,0,0,0,,把千代噁心到了
+Dialogue: 0,0:10:11.36,0:10:12.59,Default,NTP,0,0,0,,被真吾揍了
+Dialogue: 0,0:10:12.92,0:10:14.96,Default,NTP,0,0,0,,我真是太差勁了
+Dialogue: 0,0:10:15.53,0:10:16.94,Default,NTP,0,0,0,,借口都想不到了
+Dialogue: 0,0:10:18.11,0:10:19.80,Default,NTP,0,0,0,,留在這裏的自信沒了
+Dialogue: 0,0:10:20.20,0:10:21.55,Default,NTP,0,0,0,,也沒臉再見大家了
+Dialogue: 0,0:10:22.57,0:10:26.38,Default,NTP,0,0,0,,退學 這也不錯吧
+Dialogue: 0,0:10:33.86,0:10:36.12,Default,NTP,0,0,0,,千代 沒事吧
+Dialogue: 0,0:10:42.22,0:10:43.54,Default,NTP,0,0,0,,肚子餓了
+Dialogue: 0,0:10:45.81,0:10:49.53,Default,NTP,0,0,0,,想了一晚上 果然我也有錯吧
+Dialogue: 0,0:10:50.11,0:10:51.16,Default,NTP,0,0,0,,怎麼回事
+Dialogue: 0,0:10:51.69,0:10:55.29,Default,NTP,0,0,0,,看到清志拿著我壞掉的制服是嚇呆了
+Dialogue: 0,0:10:55.52,0:10:57.53,Default,NTP,0,0,0,,還認定他是變態
+Dialogue: 0,0:11:00.07,0:11:04.73,Default,NTP,0,0,0,,但理由都沒聽就自己回來了 果然還是不太好吧
+Dialogue: 0,0:11:05.36,0:11:07.17,Default,NTP,0,0,0,,一定有什麼內情的
+Dialogue: 0,0:11:07.40,0:11:09.52,Default,NTP,0,0,0,,這方面我真佩服你
+Dialogue: 0,0:11:10.39,0:11:13.61,Default,NTP,0,0,0,,昨天回來的時候臉青得像殭屍一樣
+Dialogue: 0,0:11:13.94,0:11:15.87,Default,NTP,0,0,0,,睡了一晚 就能大口吃豬排飯啊
+Dialogue: 0,0:11:16.79,0:11:18.44,Default,NTP,0,0,0,,什麼啊 在誇我嗎
+Dialogue: 0,0:11:18.71,0:11:21.30,Default,NTP,0,0,0,,聽說了嗎 昨天男生逃獄了哦
+Dialogue: 0,0:11:21.68,0:11:22.59,Default,NTP,0,0,0,,聽說了
+Dialogue: 0,0:11:23.00,0:11:25.09,Default,NTP,0,0,0,,說是女裝了從正門出去的
+Dialogue: 0,0:11:25.31,0:11:25.91,Default,NTP,0,0,0,,好噁心
+Dialogue: 0,0:11:26.23,0:11:28.88,Default,NTP,0,0,0,,然後那個男生好像要退學呢
+Dialogue: 0,0:11:29.83,0:11:30.41,Default,NTP,0,0,0,,退學！？
+Dialogue: 0,0:11:39.12,0:11:39.67,Default,NTP,0,0,0,,出來
+Dialogue: 0,0:11:41.37,0:11:42.23,Default,NTP,0,0,0,,打擾了
+Dialogue: 0,0:11:43.70,0:11:45.09,Default,NTP,0,0,0,,把清志帶過來了
+Dialogue: 0,0:11:46.35,0:11:48.50,Default,NTP,0,0,0,,在這上面填上名字
+Dialogue: 0,0:11:48.85,0:11:50.69,Default,NTP,0,0,0,,讓我自願退學嗎
+Dialogue: 0,0:11:50.94,0:11:51.46,Default,NTP,0,0,0,,不錯
+Dialogue: 0,0:11:51.69,0:11:54.16,Default,NTP,0,0,0,,我還以為會強制退學
+Dialogue: 0,0:11:54.89,0:11:58.12,Default,NTP,0,0,0,,看你犯下的過錯是當然的吧
+Dialogue: 0,0:11:58.38,0:11:59.08,Default,NTP,0,0,0,,副會長
+Dialogue: 0,0:11:59.78,0:12:01.67,Default,NTP,0,0,0,,不要威脅別人
+Dialogue: 0,0:12:01.90,0:12:02.39,Default,NTP,0,0,0,,是
+Dialogue: 0,0:12:02.93,0:12:04.88,Default,NTP,0,0,0,,這也是為了你自身
+Dialogue: 0,0:12:05.15,0:12:05.91,Default,NTP,0,0,0,,我自身？
+Dialogue: 0,0:12:06.46,0:12:11.72,Default,NTP,0,0,0,,不錯 偷了制服女裝的流言很快就會傳開
+Dialogue: 0,0:12:12.98,0:12:16.25,Default,NTP,0,0,0,,那樣的話你在這個學校還有容身之處？
+Dialogue: 0,0:12:17.22,0:12:21.15,Default,NTP,0,0,0,,這三年一定會一直被當成變態的吧
+Dialogue: 0,0:12:22.33,0:12:24.39,Default,NTP,0,0,0,,所以這也是為了你自己啊
+Dialogue: 0,0:12:25.17,0:12:28.19,Default,NTP,0,0,0,,比起待在這個學校被當成噁心的變態
+Dialogue: 0,0:12:28.76,0:12:33.42,Default,NTP,0,0,0,,在沒人知道你性癖的地方活下去更好吧
+Dialogue: 0,0:12:34.10,0:12:35.31,Default,NTP,0,0,0,,好了簽字吧
+Dialogue: 0,0:12:35.76,0:12:37.08,Default,NTP,0,0,0,,這樣你就解放了
+Dialogue: 0,0:12:39.61,0:12:41.43,Default,NTP,0,0,0,,確實 會長說得沒錯
+Dialogue: 0,0:12:42.05,0:12:44.40,Default,NTP,0,0,0,,我留在這裏也無濟於事吧
+Dialogue: 0,0:12:45.36,0:12:45.96,Default,NTP,0,0,0,,不過
+Dialogue: 0,0:12:51.21,0:12:54.85,Default,NTP,0,0,0,,至少想解開千代的誤會吧
+Dialogue: 0,0:12:56.44,0:12:57.32,Default,NTP,0,0,0,,姐姐
+Dialogue: 0,0:12:57.61,0:12:59.69,Default,NTP,0,0,0,,清志君要退學是怎麼回事
+Dialogue: 0,0:12:59.90,0:13:00.56,Default,NTP,0,0,0,,千代
+Dialogue: 0,0:13:01.06,0:13:04.53,Default,NTP,0,0,0,,清志君 那是…
+Dialogue: 0,0:13:04.92,0:13:06.13,Default,NTP,0,0,0,,千代 你來幹什麼
+Dialogue: 0,0:13:06.60,0:13:08.95,Default,NTP,0,0,0,,為什麼只是去了學校外就要退學
+Dialogue: 0,0:13:09.52,0:13:12.30,Default,NTP,0,0,0,,而且還逼他寫退學申請
+Dialogue: 0,0:13:12.48,0:13:13.70,Default,NTP,0,0,0,,話說得那麼難聽
+Dialogue: 0,0:13:13.96,0:13:16.50,Default,NTP,0,0,0,,是他自己選擇要退學的
+Dialogue: 0,0:13:16.76,0:13:20.33,Default,NTP,0,0,0,,而且他還有盜竊和不純異性交往的罪名
+Dialogue: 0,0:13:21.07,0:13:22.40,Default,NTP,0,0,0,,退學處理沒什麼不妥吧
+Dialogue: 0,0:13:22.61,0:13:25.00,Default,NTP,0,0,0,,不純異性交往的話我也一樣啊
+Dialogue: 0,0:13:25.32,0:13:26.41,Default,NTP,0,0,0,,你是被害者啊
+Dialogue: 0,0:13:26.69,0:13:29.50,Default,NTP,0,0,0,,被這個男的慫恿去看相撲比賽的吧
+Dialogue: 0,0:13:29.69,0:13:31.49,Default,NTP,0,0,0,,不對 我是邀請他的
+Dialogue: 0,0:13:31.70,0:13:35.35,Default,NTP,0,0,0,,你要維護這個偷了你的制服還弄壞了的變態嗎
+Dialogue: 0,0:13:35.59,0:13:39.39,Default,NTP,0,0,0,,那是有什麼理由的吧 清志君
+Dialogue: 0,0:13:40.88,0:13:42.24,Default,NTP,0,0,0,,我有在反省
+Dialogue: 0,0:13:42.78,0:13:45.96,Default,NTP,0,0,0,,那時嚇了一跳對清志君說了過分的話
+Dialogue: 0,0:13:46.49,0:13:48.38,Default,NTP,0,0,0,,沒聽理由就逃走了
+Dialogue: 0,0:13:48.57,0:13:49.43,Default,NTP,0,0,0,,千代我
+Dialogue: 0,0:13:50.01,0:13:51.03,Default,NTP,0,0,0,,真的只是偶然
+Dialogue: 0,0:13:51.33,0:13:54.66,Default,NTP,0,0,0,,制服確實是偷了 但不知道是千代的
+Dialogue: 0,0:13:54.77,0:13:56.53,Default,NTP,0,0,0,,煩死了 別找借口
+Dialogue: 0,0:13:56.86,0:13:58.78,Default,NTP,0,0,0,,芽衣子快住手 太過分了
+Dialogue: 0,0:14:00.66,0:14:03.95,Default,NTP,0,0,0,,清志君為了遵守跟我的約定才逃獄的
+Dialogue: 0,0:14:04.10,0:14:05.59,Default,NTP,0,0,0,,所以我也是同罪吧
+Dialogue: 0,0:14:05.74,0:14:07.11,Default,NTP,0,0,0,,都說不關你事了
+Dialogue: 0,0:14:07.43,0:14:09.46,Default,NTP,0,0,0,,現在你快給我離開千代 清志
+Dialogue: 0,0:14:11.11,0:14:15.59,Default,NTP,0,0,0,,總之清志君退學的話我也要退學
+Dialogue: 0,0:14:16.43,0:14:17.78,Default,NTP,0,0,0,,你在說什麼傻話
+Dialogue: 0,0:14:20.36,0:14:21.53,Default,NTP,0,0,0,,別做傻事了
+Dialogue: 0,0:14:21.64,0:14:22.70,Default,NTP,0,0,0,,不可以 千代
+Dialogue: 0,0:14:23.19,0:14:24.44,Default,NTP,0,0,0,,放開我芽衣子
+Dialogue: 0,0:14:24.85,0:14:28.29,Default,NTP,0,0,0,,你要為了這種變態意氣用事嗎 千代
+Dialogue: 0,0:14:28.43,0:14:30.10,Default,NTP,0,0,0,,清志君不是那種人
+Dialogue: 0,0:14:30.33,0:14:31.68,Default,NTP,0,0,0,,不是姐姐說的嗎
+Dialogue: 0,0:14:31.92,0:14:33.88,Default,NTP,0,0,0,,喜歡烏鴉的沒有壞人
+Dialogue: 0,0:14:34.09,0:14:38.71,Default,NTP,0,0,0,,清志君是把從樹上掉下來的小烏鴉放回巢裏的好人
+Dialogue: 0,0:14:39.15,0:14:40.86,Default,NTP,0,0,0,,你說這個男的…
+Dialogue: 0,0:14:42.21,0:14:43.05,Default,NTP,0,0,0,,把烏鴉…
+Dialogue: 0,0:14:46.06,0:14:47.24,Default,NTP,0,0,0,,我不信
+Dialogue: 0,0:14:48.46,0:14:49.30,Default,NTP,0,0,0,,我看到了
+Dialogue: 0,0:14:49.63,0:14:51.49,Default,NTP,0,0,0,,一定是你的錯覺吧
+Dialogue: 0,0:14:52.16,0:14:55.90,Default,NTP,0,0,0,,好了清志 快點在退學申請上簽字
+Dialogue: 0,0:14:57.55,0:14:58.28,Default,NTP,0,0,0,,我……
+Dialogue: 0,0:15:00.04,0:15:01.37,Default,NTP,0,0,0,,我不會簽字的
+Dialogue: 0,0:15:02.04,0:15:03.96,Default,NTP,0,0,0,,你說什麼
+Dialogue: 0,0:15:04.12,0:15:05.75,Default,NTP,0,0,0,,在今後的學校生活裏
+Dialogue: 0,0:15:06.06,0:15:07.67,Default,NTP,0,0,0,,不管有多麼痛苦的事在等著我
+Dialogue: 0,0:15:08.03,0:15:10.70,Default,NTP,0,0,0,,我發誓一定會矯正過來好好做人
+Dialogue: 0,0:15:11.15,0:15:12.77,Default,NTP,0,0,0,,所以我不會退學
+Dialogue: 0,0:15:13.20,0:15:15.64,Default,NTP,0,0,0,,你看 清志君也在反省了
+Dialogue: 0,0:15:18.82,0:15:21.54,Default,NTP,0,0,0,,算了 清志回監獄去
+Dialogue: 0,0:15:23.30,0:15:23.97,Default,NTP,0,0,0,,姐姐
+Dialogue: 0,0:15:25.43,0:15:27.11,Default,NTP,0,0,0,,讓清志君退學的話
+Dialogue: 0,0:15:27.50,0:15:28.80,Default,NTP,0,0,0,,我也會把這遞交
+Dialogue: 0,0:15:34.98,0:15:36.39,Default,NTP,0,0,0,,解開了千代的誤會
+Dialogue: 0,0:15:37.86,0:15:39.71,Default,NTP,0,0,0,,千代的胸碰到了臉上
+Dialogue: 0,0:15:40.68,0:15:42.23,Default,NTP,0,0,0,,千代的胸好軟
+Dialogue: 0,0:15:42.95,0:15:45.63,Default,NTP,0,0,0,,千代的胸超級香
+Dialogue: 0,0:15:46.95,0:15:49.21,Default,NTP,0,0,0,,胸 胸
+Dialogue: 0,0:15:50.81,0:15:52.09,Default,NTP,0,0,0,,千代的胸
+Dialogue: 0,0:15:56.65,0:15:59.70,Default,NTP,0,0,0,,現在要我離開這個學校的理由
+Dialogue: 0,0:15:59.90,0:16:00.59,Default,NTP,0,0,0,,根本沒有！
+Dialogue: 0,0:16:03.06,0:16:07.37,Default,NTP,0,0,0,,喜歡烏鴉的沒有壞人嗎
+Dialogue: 0,0:16:10.13,0:16:11.70,Default,NTP,0,0,0,,各位 我回來了
+Dialogue: 0,0:16:12.31,0:16:14.57,Default,NTP,0,0,0,,我總算不用退學了
+Dialogue: 0,0:16:15.14,0:16:16.94,Default,NTP,0,0,0,,這次的事情真的對不起
+Dialogue: 0,0:16:21.88,0:16:23.10,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:16:24.08,0:16:25.08,Default,NTP,0,0,0,,謝了 葛人
+Dialogue: 0,0:16:25.64,0:16:26.64,Default,NTP,0,0,0,,今天的晚飯是什麼
+Dialogue: 0,0:16:27.69,0:16:29.18,Default,NTP,0,0,0,,呃…唔…
+Dialogue: 0,0:16:29.73,0:16:31.78,Default,NTP,0,0,0,,咦 我的份沒來
+Dialogue: 0,0:16:32.41,0:16:33.11,Default,NTP,0,0,0,,我去領一下
+Dialogue: 0,0:16:33.40,0:16:35.03,Default,NTP,0,0,0,,沒有你的份
+Dialogue: 0,0:16:36.37,0:16:38.16,Default,NTP,0,0,0,,以為你會退學的
+Dialogue: 0,0:16:38.36,0:16:39.93,Default,NTP,0,0,0,,大家就分掉了
+Dialogue: 0,0:16:42.50,0:16:43.24,Default,NTP,0,0,0,,不好意思啊
+Dialogue: 0,0:16:43.52,0:16:45.70,Default,NTP,0,0,0,,是嗎 沒事
+Dialogue: 0,0:16:46.20,0:16:48.17,Default,NTP,0,0,0,,順便就當是道歉 好好吃吧
+Dialogue: 0,0:16:49.44,0:16:51.94,Default,NTP,0,0,0,,小生的炸肉分給你吃
+Dialogue: 0,0:16:52.24,0:16:53.45,Default,NTP,0,0,0,,真的嗎 可以嗎
+Dialogue: 0,0:16:54.28,0:16:58.43,Default,NTP,0,0,0,,哦 葛人 我最喜歡吃炸肉了
+Dialogue: 0,0:16:58.73,0:16:59.92,Default,NTP,0,0,0,,不要的話給我吧
+Dialogue: 0,0:17:00.05,0:17:02.89,Default,NTP,0,0,0,,那是 要給清志的
+Dialogue: 0,0:17:03.16,0:17:04.33,Default,NTP,0,0,0,,算了葛人
+Dialogue: 0,0:17:06.28,0:17:07.46,Default,NTP,0,0,0,,好吃
+Dialogue: 0,0:17:14.39,0:17:15.08,Default,NTP,0,0,0,,會長
+Dialogue: 0,0:17:16.88,0:17:19.05,Default,NTP,0,0,0,,就那樣處理清志沒關係嗎
+Dialogue: 0,0:17:19.64,0:17:20.36,Default,NTP,0,0,0,,那樣？
+Dialogue: 0,0:17:21.47,0:17:23.75,Default,NTP,0,0,0,,就是說清志不用退學
+Dialogue: 0,0:17:25.35,0:17:27.27,Default,NTP,0,0,0,,當然要退學
+Dialogue: 0,0:17:28.42,0:17:31.05,Default,NTP,0,0,0,,不光是清志 男生全體都要
+Dialogue: 0,0:17:48.00,0:17:52.35,Default,NTP,0,0,0,,葛人 還是除了三國誌以外毫無興趣的樣子
+Dialogue: 0,0:17:53.29,0:17:56.03,Default,NTP,0,0,0,,喬 迷著飼養螞蟻
+Dialogue: 0,0:17:57.54,0:18:01.24,Default,NTP,0,0,0,,安德雷 床下面藏著日記
+Dialogue: 0,0:18:02.69,0:18:07.17,Default,NTP,0,0,0,,今天做了把副會長弄髒的靴子舔乾淨的夢
+Dialogue: 0,0:18:07.60,0:18:10.07,Default,NTP,0,0,0,,這個算日記嗎 算了
+Dialogue: 0,0:17:58.98,0:18:01.56,Default,NTP,0,0,0,,{\an8}我的德雷（奴隸）日記
+Dialogue: 0,0:18:11.66,0:18:14.02,Default,NTP,0,0,0,,真吾 房間很亂啊
+Dialogue: 0,0:18:15.22,0:18:18.42,Default,NTP,0,0,0,,因為刑期延長了心情很不好的樣子
+Dialogue: 0,0:18:19.44,0:18:23.97,Default,NTP,0,0,0,,{\an8}645年中大兄皇子和中臣鐮足
+Dialogue: 0,0:18:24.08,0:18:28.48,Default,NTP,0,0,0,,{\an8}暗殺了當時權傾一時的蘇我入鹿
+Dialogue: 0,0:18:28.64,0:18:29.75,Default,NTP,0,0,0,,橡皮擦的渣滓
+Dialogue: 0,0:18:29.75,0:18:34.50,Default,NTP,0,0,0,,{\an8}以及之後所發生的一系列的改革被稱為大化改新
+Dialogue: 0,0:18:34.94,0:18:40.23,Default,NTP,0,0,0,,{\an8}然後把首都移到難波宮
+Dialogue: 0,0:18:40.67,0:18:42.87,Default,NTP,0,0,0,,是誰啦 別搞了
+Dialogue: 0,0:18:49.98,0:18:54.71,Default,NTP,0,0,0,,今天的監獄作業是體育倉庫的整理和操場廁所的打掃
+Dialogue: 0,0:18:55.10,0:18:58.12,Default,NTP,0,0,0,,廁所的門壞了 那也要修好
+Dialogue: 0,0:18:58.27,0:18:58.76,Default,NTP,0,0,0,,是
+Dialogue: 0,0:18:59.09,0:19:01.25,Default,NTP,0,0,0,,那麼分成兩班快去作業
+Dialogue: 0,0:19:01.60,0:19:02.12,Default,NTP,0,0,0,,是
+Dialogue: 0,0:19:02.42,0:19:05.64,Default,NTP,0,0,0,,安德雷 喬 我們去整理倉庫吧
+Dialogue: 0,0:19:06.16,0:19:06.66,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:07.06,0:19:10.31,Default,NTP,0,0,0,,那附近有網球部的部室 很賺的
+Dialogue: 0,0:19:10.96,0:19:13.08,Default,NTP,0,0,0,,那我們去打掃廁所吧
+Dialogue: 0,0:19:13.34,0:19:13.87,Default,NTP,0,0,0,,好
+Dialogue: 0,0:19:14.03,0:19:17.68,Default,NTP,0,0,0,,葛人 你也一起去倉庫吧
+Dialogue: 0,0:19:17.92,0:19:20.76,Default,NTP,0,0,0,,不不 我一個人打掃廁所的話
+Dialogue: 0,0:19:21.52,0:19:23.03,Default,NTP,0,0,0,,而且門也要修理
+Dialogue: 0,0:19:23.05,0:19:24.72,Default,NTP,0,0,0,,不來嗎 葛人
+Dialogue: 0,0:19:29.03,0:19:30.99,Default,NTP,0,0,0,,{\an8}工具室
+Dialogue: 0,0:19:31.47,0:19:33.93,Default,NTP,0,0,0,,我完全被孤立了啊
+Dialogue: 0,0:19:35.23,0:19:37.27,Default,NTP,0,0,0,,我覺得說不定真能看到呢
+Dialogue: 0,0:19:39.08,0:19:40.29,Default,NTP,0,0,0,,雖說是自作自受
+Dialogue: 0,0:19:40.53,0:19:41.46,Default,NTP,0,0,0,,還挺痛苦的
+Dialogue: 0,0:19:42.06,0:19:45.70,Default,NTP,0,0,0,,之前的話說不定我就沒法忍受這種狀況了吧
+Dialogue: 0,0:19:46.34,0:19:48.63,Default,NTP,0,0,0,,但現在的我不要緊的
+Dialogue: 0,0:19:49.62,0:19:50.46,Default,NTP,0,0,0,,胸部
+Dialogue: 0,0:19:51.11,0:19:52.96,Default,NTP,0,0,0,,千代的胸好棒啊
+Dialogue: 0,0:19:53.36,0:19:54.76,Default,NTP,0,0,0,,超級軟
+Dialogue: 0,0:19:55.55,0:19:58.85,Default,NTP,0,0,0,,知道千代胸部的柔軟和溫柔的我
+Dialogue: 0,0:19:59.14,0:20:00.66,Default,NTP,0,0,0,,不管有什麼都能忍受
+Dialogue: 0,0:20:00.86,0:20:02.16,Default,NTP,0,0,0,,不 忍給你看
+Dialogue: 0,0:20:04.48,0:20:06.13,Default,NTP,0,0,0,,不好 有人在裏面
+Dialogue: 0,0:20:07.51,0:20:10.65,Default,NTP,0,0,0,,囚徒們的調查進行得很順利
+Dialogue: 0,0:20:11.09,0:20:12.16,Default,NTP,0,0,0,,幸苦了
+Dialogue: 0,0:20:12.98,0:20:14.76,Default,NTP,0,0,0,,還請繼續下去
+Dialogue: 0,0:20:15.20,0:20:17.08,Default,NTP,0,0,0,,要找出他們的弱點
+Dialogue: 0,0:20:17.50,0:20:22.52,Default,NTP,0,0,0,,為了男生退學計劃——代號DTO作戰
+Dialogue: 0,0:20:22.86,0:20:23.53,Default,NTP,0,0,0,,是
+Dialogue: 0,0:20:24.19,0:20:25.63,Default,NTP,0,0,0,,DTO作戰
+Dialogue: 0,0:20:25.98,0:20:29.51,Default,NTP,0,0,0,,operator的o和作戰在意思上重疊了
+Dialogue: 0,0:20:29.83,0:20:31.62,Default,NTP,0,0,0,,該不該指出來呢
+Dialogue: 0,0:20:32.00,0:20:35.58,Default,NTP,0,0,0,,失禮了 operator和作戰重疊了
+Dialogue: 0,0:20:36.05,0:20:37.13,Default,NTP,0,0,0,,我真是失態了
+Dialogue: 0,0:20:37.86,0:20:38.62,Default,NTP,0,0,0,,重新說
+Dialogue: 0,0:20:39.17,0:20:41.00,Default,NTP,0,0,0,,為了代號DTO
+Dialogue: 0,0:20:41.26,0:20:43.23,Default,NTP,0,0,0,,是 不愧是會長
+Dialogue: 0,0:20:43.58,0:20:45.66,Default,NTP,0,0,0,,一瞬間就承認了自己的過錯
+Dialogue: 0,0:20:45.78,0:20:48.14,Default,NTP,0,0,0,,毫不忌諱認錯
+Dialogue: 0,0:20:48.50,0:20:51.60,Default,NTP,0,0,0,,這種度量真是讓人敬佩
+Dialogue: 0,0:20:51.85,0:20:54.59,Default,NTP,0,0,0,,話說她很慢呢
+Dialogue: 0,0:20:55.37,0:20:57.04,Default,NTP,0,0,0,,這時間差不多該來了
+Dialogue: 0,0:20:57.61,0:20:58.52,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:21:05.84,0:21:07.76,Default,NTP,0,0,0,,你在那種地方做什麼啊
+Dialogue: 0,0:21:08.10,0:21:10.56,Default,NTP,0,0,0,,我不是可疑的人物
+Dialogue: 0,0:21:10.97,0:21:13.57,Default,NTP,0,0,0,,我來打掃廁所的 發現有人在
+Dialogue: 0,0:21:13.84,0:21:15.42,Default,NTP,0,0,0,,就在外面等了
+Dialogue: 0,0:21:15.70,0:21:17.51,Default,NTP,0,0,0,,哼 很適合你的工作嘛
+Dialogue: 0,0:21:18.37,0:21:19.40,Default,NTP,0,0,0,,小花
+Dialogue: 0,0:21:20.13,0:21:22.53,Default,NTP,0,0,0,,哇 小花回來了嗎
+Dialogue: 0,0:21:22.87,0:21:24.64,Default,NTP,0,0,0,,聽說你逃獄了
+Dialogue: 0,0:21:24.84,0:21:27.36,Default,NTP,0,0,0,,那個 我還要打掃廁所
+Dialogue: 0,0:21:29.14,0:21:30.82,Default,NTP,0,0,0,,偏偏是在這種地方
+Dialogue: 0,0:21:31.44,0:21:32.91,Default,NTP,0,0,0,,你幹什麼無視我啊
+Dialogue: 0,0:21:33.03,0:21:33.49,Default,NTP,0,0,0,,哇
+Dialogue: 0,0:21:33.69,0:21:34.98,Default,NTP,0,0,0,,哇什麼的真失禮啊
+Dialogue: 0,0:21:35.19,0:21:36.81,Default,NTP,0,0,0,,把人當髒東西一樣
+Dialogue: 0,0:21:37.15,0:21:38.63,Default,NTP,0,0,0,,不是的 嚇了一跳
+Dialogue: 0,0:21:39.08,0:21:40.70,Default,NTP,0,0,0,,我哪敢說你髒
+Dialogue: 0,0:21:41.39,0:21:43.66,Default,NTP,0,0,0,,真的嗎 我不髒嗎
+Dialogue: 0,0:21:43.73,0:21:45.17,Default,NTP,0,0,0,,是不是太近了
+Dialogue: 0,0:21:45.64,0:21:48.95,Default,NTP,0,0,0,,什麼啊 你果然覺得我很髒吧
+Dialogue: 0,0:21:49.58,0:21:50.74,Default,NTP,0,0,0,,不是的
+Dialogue: 0,0:21:50.92,0:21:52.52,Default,NTP,0,0,0,,那就證明給我看啊
+Dialogue: 0,0:21:54.19,0:21:55.23,Default,NTP,0,0,0,,證明？
+Dialogue: 0,0:21:57.18,0:22:01.40,Default,NTP,0,0,0,,你沒忘了對我做的事吧
+Dialogue: 0,0:22:03.58,0:22:04.19,Default,NTP,0,0,0,,是
+Dialogue: 0,0:22:05.29,0:22:06.83,Default,NTP,0,0,0,,我也不是魔鬼
+Dialogue: 0,0:22:06.98,0:22:09.02,Default,NTP,0,0,0,,不會比你做過的事情跟過分
+Dialogue: 0,0:22:11.20,0:22:14.52,Default,NTP,0,0,0,,那啥 難道說
+Dialogue: 0,0:22:14.77,0:22:17.15,Default,NTP,0,0,0,,我不髒吧
+Dialogue: 0,0:22:17.40,0:22:20.96,Default,NTP,0,0,0,,那當然 小花根本不髒 可是…
+Dialogue: 0,0:22:23.37,0:22:25.53,Default,NTP,0,0,0,,很好 那就沒問題了吧
+Dialogue: 0,0:22:26.13,0:22:27.05,Default,NTP,0,0,0,,再見
+Dialogue: 0,0:22:28.54,0:22:29.76,Default,NTP,0,0,0,,今天我很忙
+Dialogue: 0,0:22:29.96,0:22:32.15,Default,NTP,0,0,0,,下次好好證明吧
+Dialogue: 0,0:22:32.95,0:22:35.72,Default,NTP,0,0,0,,我也不是故意的啊
+Dialogue: 0,0:22:36.75,0:22:38.16,Default,NTP,0,0,0,,太糟了
+Dialogue: 0,0:22:39.86,0:22:41.35,Default,NTP,0,0,0,,歡迎你回歸 小花
+Dialogue: 0,0:24:36.28,0:24:41.08,Default,NTP,0,0,0,,下回 監獄學園 復仇在小花
+

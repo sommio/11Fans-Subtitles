@@ -1,0 +1,50 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 莓乱扔
+Original Script: 华盟字幕社
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 日文歌词,DFMaruGothic-SB,25,&H00FFFFFF,&H00F685FB,&H00F675EB,&HFF000000,0,0,0,0,100,100,1,0,0,2,0,8,8,8,7,1
+Style: 中文歌词,汉仪粗圆简,25,&H00FFFFFF,&H00F685FB,&H00F675EB,&HFF000000,-1,0,0,0,100,100,1,0,0,2,0,2,8,8,5,134
+Style: staff,汉仪粗圆简,25,&H00FFFFFF,&H00F685FB,&H00F675EB,&HFF000000,-1,0,0,0,100,100,1,0,0,2,0,8,315,8,105,134
+Style: start,SimHei,25,&H00FFFFFF,&H004080FF,&HFFBE07BE,&HFFD2A9ED,-1,0,0,0,100,100,0,0,0,0,2,8,30,30,10,134
+Style: start2,汉仪粗黑简,30,&H00FFFFFF,&H004080FF,&HFFBE07BE,&HFFD2A9ED,0,0,0,0,100,100,0,0,0,0,2,2,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.06,0:00:06.06,start,NTP,0,0,0,,{\fad(1000,900)}角色歌曲 安娜
+Dialogue: 0,0:00:00.06,0:00:06.06,start2,NTP,0,0,0,,{\fad(1000,900)}Made in 女孩子\N\N{\fs28}宣傳動畫
+Dialogue: 0,0:01:51.29,0:02:00.47,staff,NTP,0,0,0,,{\fad(0,1500)}中文歌詞：茶{\fn汉仪秀英体简}々{\r}丸MK-Ⅱ\N\N\N字幕製作：zipwinmax
+Dialogue: 0,0:00:28.69,0:00:35.58,日文歌词,NTP,0,0,0,,{\fad(200,200)}だれにも内緒にして  胸の中
+Dialogue: 0,0:00:36.20,0:00:41.96,日文歌词,NTP,0,0,0,,{\fad(200,200)}秘めてた想いを  打ちあけるね
+Dialogue: 0,0:00:43.71,0:00:50.22,日文歌词,NTP,0,0,0,,{\fad(200,200)}どんなときも  いつも  なにしても
+Dialogue: 0,0:00:50.55,0:00:56.14,日文歌词,NTP,0,0,0,,{\fad(200,200)}【あなた】がいちばんステキだわ
+Dialogue: 0,0:00:57.14,0:01:04.61,日文歌词,NTP,0,0,0,,{\fad(200,200)}失敗したってね  きっと大丈夫
+Dialogue: 0,0:01:05.81,0:01:12.86,日文歌词,NTP,0,0,0,,{\fad(200,200)}その笑顔だけで  すべてチャラになるでしょう
+Dialogue: 0,0:01:13.07,0:01:20.04,日文歌词,NTP,0,0,0,,{\fad(200,200)}今日もひとりつぶやく  鏡の前「O.K.」
+Dialogue: 0,0:01:20.37,0:01:27.80,日文歌词,NTP,0,0,0,,{\fad(200,200)}女の子は自分が大好きなんです
+Dialogue: 0,0:00:28.69,0:00:35.58,中文歌词,NTP,0,0,0,,{\fad(200,200)}不論是對誰都會保密  深藏於心中
+Dialogue: 0,0:00:36.20,0:00:41.96,中文歌词,NTP,0,0,0,,{\fad(200,200)}那份秘密的思念啊  現在說出來吧
+Dialogue: 0,0:00:43.71,0:00:50.22,中文歌词,NTP,0,0,0,,{\fad(200,200)}不論何時也不去管究竟做什麼
+Dialogue: 0,0:00:50.55,0:00:56.14,中文歌词,NTP,0,0,0,,{\fad(200,200)}只有【你】是最棒的  一直是這樣
+Dialogue: 0,0:00:57.14,0:01:04.61,中文歌词,NTP,0,0,0,,{\fad(200,200)}就算做錯事情了  也一定沒關係
+Dialogue: 0,0:01:05.81,0:01:12.86,中文歌词,NTP,0,0,0,,{\fad(200,200)}即使只憑那份笑容  就可以把全部勾銷掉吧
+Dialogue: 0,0:01:13.07,0:01:20.04,中文歌词,NTP,0,0,0,,{\fad(200,200)}今天也一個人自言自語  在鏡子前面說「O.K.」
+Dialogue: 0,0:01:20.37,0:01:27.80,中文歌词,NTP,0,0,0,,{\fad(200,200)}女孩子一向最喜歡的可就是自己本身
+

@@ -1,0 +1,172 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 720
+PlayResY: 540
+Timer: 100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,Simhei,32,&Hffffff,&H00ffff,&H000000,&H000000,-1,0,1,2,3,2,20,20,20,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:09.69,0:02:12.60,Default,NTP,0000,0000,0000,,如果你能夠聽到「那個」的話…
+Dialogue: Marked=0,0:02:13.50,0:02:15.90,Default,NTP,0000,0000,0000,,那就是它正在對你說話
+Dialogue: Marked=0,0:02:17.20,0:02:19.60,Default,NTP,0000,0000,0000,,如果你能看到「那個」…
+Dialogue: Marked=0,0:02:20.30,0:02:21.90,Default,NTP,0000,0000,0000,,那麼它就是你的…
+Dialogue: Marked=0,0:02:26.50,0:02:29.40,Default,NTP,0000,0000,0000,,Layer:05 Distortion
+Dialogue: Marked=0,0:02:30.60,0:02:34.30,Default,NTP,0000,0000,0000,,人類已經是不能進化的生物了
+Dialogue: Marked=0,0:02:36.10,0:02:39.50,Default,NTP,0000,0000,0000,,突變機率比起動物是相當相當的低
+Dialogue: Marked=0,0:02:40.90,0:02:44.80,Default,NTP,0000,0000,0000,,有個叫做雷歐典的人類說人類已經無法再進化
+Dialogue: Marked=0,0:02:46.50,0:02:48.10,Default,NTP,0000,0000,0000,,如果這是事實
+Dialogue: Marked=0,0:02:49.10,0:02:52.10,Default,NTP,0000,0000,0000,,人類豈不成了低等動物？
+Dialogue: Marked=0,0:02:53.50,0:02:56.40,Default,NTP,0000,0000,0000,,連自己都不知道憑什麼推動進化
+Dialogue: Marked=0,0:02:56.90,0:02:59.10,Default,NTP,0000,0000,0000,,人類只會為了滿足自己的欲望
+Dialogue: Marked=0,0:02:59.10,0:03:00.90,Default,NTP,0000,0000,0000,,而驅使肉體行動
+Dialogue: Marked=0,0:03:02.20,0:03:03.70,Default,NTP,0000,0000,0000,,不會覺得無聊嗎？
+Dialogue: Marked=0,0:03:06.20,0:03:08.30,Default,NTP,0000,0000,0000,,我們只能如此地生存下去嗎？
+Dialogue: Marked=0,0:03:15.20,0:03:18.30,Default,NTP,0000,0000,0000,,已沒必要再繼續這種悲哀的人生
+Dialogue: Marked=0,0:03:20.30,0:03:22.10,Default,NTP,0000,0000,0000,,人類已經找到一個脫離這世界的出口
+Dialogue: Marked=0,0:03:22.80,0:03:24.90,Default,NTP,0000,0000,0000,,人類終於找到了
+Dialogue: Marked=0,0:03:27.50,0:03:28.03,Default,NTP,0000,0000,0000,,是什麼？
+Dialogue: Marked=0,0:03:28.03,0:03:28.30,Default,NTP,0000,0000,0000,,是什麼？
+Dialogue: Marked=0,0:03:28.30,0:03:31.70,Default,NTP,0000,0000,0000,,NETWORK 也就是網絡
+Dialogue: Marked=0,0:03:32.30,0:03:32.83,Default,NTP,0000,0000,0000,,玲音
+Dialogue: Marked=0,0:03:34.40,0:03:35.56,Default,NTP,0000,0000,0000,,你是誰？
+Dialogue: Marked=0,0:03:36.40,0:03:39.40,Default,NTP,0000,0000,0000,,我就是神喔
+Dialogue: Marked=0,0:03:56.60,0:03:58.00,Default,NTP,0000,0000,0000,,去吃點東西好嗎？
+Dialogue: Marked=0,0:03:59.60,0:04:00.70,Default,NTP,0000,0000,0000,,肚子不餓嗎？
+Dialogue: Marked=0,0:04:07.10,0:04:08.70,Default,NTP,0000,0000,0000,,下次一起去游泳吧
+Dialogue: Marked=0,0:04:55.80,0:04:56.90,Default,NTP,0000,0000,0000,,跟我說話吧
+Dialogue: Marked=0,0:05:12.70,0:05:14.50,Default,NTP,0000,0000,0000,,說吧 說吧
+Dialogue: Marked=0,0:05:19.50,0:05:21.30,Default,NTP,0000,0000,0000,,你說一句吧
+Dialogue: Marked=0,0:05:23.00,0:05:25.70,Default,NTP,0000,0000,0000,,玲音 你要聽什麼呢？
+Dialogue: Marked=0,0:05:31.30,0:05:32.90,Default,NTP,0000,0000,0000,,告訴我一些我不知道的事
+Dialogue: Marked=0,0:05:37.40,0:05:40.80,Default,NTP,0000,0000,0000,,你不知道的事根本不存在
+Dialogue: Marked=0,0:05:41.30,0:05:44.50,Default,NTP,0000,0000,0000,,我沒辦法告訴你不存在的事
+Dialogue: Marked=0,0:05:45.70,0:05:46.70,Default,NTP,0000,0000,0000,,明白嗎？
+Dialogue: Marked=0,0:05:50.10,0:05:52.30,Default,NTP,0000,0000,0000,,那這麼說好了
+Dialogue: Marked=0,0:05:52.70,0:05:56.70,Default,NTP,0000,0000,0000,,事情的發生其實是先有預言的
+Dialogue: Marked=0,0:05:58.00,0:06:01.40,Default,NTP,0000,0000,0000,,有了預言 這些事才會成真
+Dialogue: Marked=0,0:06:02.70,0:06:05.10,Default,NTP,0000,0000,0000,,誰？ 誰會預言？
+Dialogue: Marked=0,0:06:10.56,0:06:17.06,Default,NTP,0000,0000,0000,,東京各地區V, T, C, Z, X, 交通號誌出現錯誤
+Dialogue: Marked=0,0:06:17.76,0:06:19.66,Default,NTP,0000,0000,0000,,尤其是在塞車的的路口
+Dialogue: Marked=0,0:06:20.00,0:06:24.26,Default,NTP,0000,0000,0000,,私家車和貨車的自動行駛系統都受到干擾
+Dialogue: Marked=0,0:06:24.80,0:06:26.60,Default,NTP,0000,0000,0000,,導致多宗車輛暴衝
+Dialogue: Marked=0,0:06:28.30,0:06:31.53,Default,NTP,0000,0000,0000,,東京的涉谷一帶特別嚴重
+Dialogue: Marked=0,0:06:32.00,0:06:33.43,Default,NTP,0000,0000,0000,,車禍引致較多人受傷 情報管理局…
+Dialogue: Marked=0,0:06:33.56,0:06:37.40,Default,NTP,0000,0000,0000,,剛收到最新的消息 系統已回復正常
+Dialogue: Marked=0,0:07:18.50,0:07:18.96,Default,NTP,0000,0000,0000,,請問…
+Dialogue: Marked=0,0:07:21.70,0:07:22.56,Default,NTP,0000,0000,0000,,請問…
+Dialogue: Marked=0,0:07:27.00,0:07:28.70,Default,NTP,0000,0000,0000,,小姐 有空嗎
+Dialogue: Marked=0,0:07:38.80,0:07:41.00,Default,NTP,0000,0000,0000,,糟了 拜
+Dialogue: Marked=0,0:07:41.60,0:07:43.30,Default,NTP,0000,0000,0000,,等一下
+Dialogue: Marked=0,0:07:47.90,0:07:48.60,Default,NTP,0000,0000,0000,,真不爽
+Dialogue: Marked=0,0:07:53.60,0:07:55.70,Default,NTP,0000,0000,0000,,不快抹乾 會洗不掉的
+Dialogue: Marked=0,0:08:00.50,0:08:05.50,Default,NTP,0000,0000,0000,,(地獄已經沒有位置 亡魂已失去容身之處)
+Dialogue: Marked=0,0:08:06.30,0:08:08.00,Default,NTP,0000,0000,0000,,這是什麼？
+Dialogue: Marked=0,0:08:13.00,0:08:14.10,Default,NTP,0000,0000,0000,,真不吉利
+Dialogue: Marked=0,0:08:19.60,0:08:21.70,Default,NTP,0000,0000,0000,,那是什麼？ 討厭
+Dialogue: Marked=0,0:08:21.80,0:08:23.20,Default,NTP,0000,0000,0000,,真奇怪
+Dialogue: Marked=0,0:08:40.40,0:08:41.20,Default,NTP,0000,0000,0000,,玲音
+Dialogue: Marked=0,0:08:44.90,0:08:46.50,Default,NTP,0000,0000,0000,,那傢伙在幹什麼啊
+Dialogue: Marked=0,0:09:28.00,0:09:30.70,Default,NTP,0000,0000,0000,,玲音 預言終於要實現了
+Dialogue: Marked=0,0:09:32.40,0:09:34.70,Default,NTP,0000,0000,0000,,若是這樣的話 就不是預言了
+Dialogue: Marked=0,0:09:35.20,0:09:36.50,Default,NTP,0000,0000,0000,,不 是預言
+Dialogue: Marked=0,0:09:37.30,0:09:38.40,Default,NTP,0000,0000,0000,,所謂的歷史
+Dialogue: Marked=0,0:09:38.80,0:09:41.50,Default,NTP,0000,0000,0000,,就是時間軸上的各點
+Dialogue: Marked=0,0:09:41.80,0:09:45.00,Default,NTP,0000,0000,0000,,連結起來的東西
+Dialogue: Marked=0,0:09:45.70,0:09:48.20,Default,NTP,0000,0000,0000,,它們都是以線聯繫的
+Dialogue: Marked=0,0:09:48.50,0:09:53.10,Default,NTP,0000,0000,0000,,不 應該說全都可能被線聯繫著會比較好
+Dialogue: Marked=0,0:09:54.30,0:09:57.70,Default,NTP,0000,0000,0000,,誰？ 被誰聯繫著？
+Dialogue: Marked=0,0:10:22.10,0:10:22.60,Default,NTP,0000,0000,0000,,玲音
+Dialogue: Marked=0,0:10:30.10,0:10:32.10,Default,NTP,0000,0000,0000,,玲音 你在做什麼？
+Dialogue: Marked=0,0:10:33.20,0:10:36.80,Default,NTP,0000,0000,0000,,真想不到 原來你如此了得
+Dialogue: Marked=0,0:10:37.30,0:10:40.70,Default,NTP,0000,0000,0000,,玲音 看來你已能發揮自己的本能
+Dialogue: Marked=0,0:10:41.30,0:10:42.60,Default,NTP,0000,0000,0000,,你在說什麼？
+Dialogue: Marked=0,0:10:43.00,0:10:44.60,Default,NTP,0000,0000,0000,,不要再裝傻了
+Dialogue: Marked=0,0:10:45.40,0:10:47.50,Default,NTP,0000,0000,0000,,我…真的…不知道
+Dialogue: Marked=0,0:10:48.40,0:10:50.30,Default,NTP,0000,0000,0000,,不是你做的嗎？
+Dialogue: Marked=0,0:10:51.90,0:10:52.80,Default,NTP,0000,0000,0000,,我做了什麼？
+Dialogue: Marked=0,0:10:57.20,0:10:59.90,Default,NTP,0000,0000,0000,,昨天下午 網絡通訊系統所發生的事故
+Dialogue: Marked=0,0:11:00.30,0:11:02.70,Default,NTP,0000,0000,0000,,人為因素很高
+Dialogue: Marked=0,0:11:03.00,0:11:05.90,Default,NTP,0000,0000,0000,,情報管理局已開始全面調查此事
+Dialogue: Marked=0,0:11:07.00,0:11:12.70,Default,NTP,0000,0000,0000,,破壞網絡通訊系統是一項刑事罪行
+Dialogue: Marked=0,0:11:13.20,0:11:15.50,Default,NTP,0000,0000,0000,,犯罪者會受到嚴厲的懲罰
+Dialogue: Marked=0,0:11:29.50,0:11:31.70,Default,NTP,0000,0000,0000,,948元
+Dialogue: Marked=0,0:11:32.50,0:11:34.50,Default,NTP,0000,0000,0000,,謝謝 請慢用
+Dialogue: Marked=0,0:11:36.50,0:11:38.00,Default,NTP,0000,0000,0000,,又來了
+Dialogue: Marked=0,0:11:38.73,0:11:39.20,Default,NTP,0000,0000,0000,,什麼事？
+Dialogue: Marked=0,0:11:40.10,0:11:40.60,Default,NTP,0000,0000,0000,,什麼？
+Dialogue: Marked=0,0:11:41.50,0:11:43.40,Default,NTP,0000,0000,0000,,是垃圾郵件
+Dialogue: Marked=0,0:11:43.90,0:11:45.00,Default,NTP,0000,0000,0000,,亂傳的電子郵件
+Dialogue: Marked=0,0:11:45.30,0:11:47.40,Default,NTP,0000,0000,0000,,你是指預言實現的電子郵件？
+Dialogue: Marked=0,0:11:47.80,0:11:50.40,Default,NTP,0000,0000,0000,,會不會是邪教的宣傳手法？
+Dialogue: Marked=0,0:11:51.80,0:11:56.40,Default,NTP,0000,0000,0000,,早陣子在網上跟朋友談論過
+Dialogue: Marked=0,0:11:56.90,0:11:59.40,Default,NTP,0000,0000,0000,,那郵件像是由KNIGHTS發出的
+Dialogue: Marked=0,0:11:59.50,0:12:01.10,Default,NTP,0000,0000,0000,,KNIGHTS？ 是什麼？
+Dialogue: Marked=0,0:12:02.30,0:12:04.80,Default,NTP,0000,0000,0000,,他們是網絡上專家級駭客集團
+Dialogue: Marked=0,0:12:05.10,0:12:08.90,Default,NTP,0000,0000,0000,,但是 駭客是不會一起行動的吧
+Dialogue: Marked=0,0:12:09.50,0:12:14.90,Default,NTP,0000,0000,0000,,一般來說沒錯 但因為是KNIGHTS可能會不一樣吧
+Dialogue: Marked=0,0:12:15.30,0:12:18.60,Default,NTP,0000,0000,0000,,因為它在網絡上擁有很大的力量
+Dialogue: Marked=0,0:12:18.90,0:12:21.10,Default,NTP,0000,0000,0000,,做了很多事
+Dialogue: Marked=0,0:12:21.36,0:12:23.40,Default,NTP,0000,0000,0000,,那麼 它不就是地下集團？
+Dialogue: Marked=0,0:12:24.00,0:12:26.90,Default,NTP,0000,0000,0000,,真是的 做這種事會有趣嗎？
+Dialogue: Marked=0,0:12:28.20,0:12:29.80,Default,NTP,0000,0000,0000,,總覺得啦
+Dialogue: Marked=0,0:12:32.90,0:12:34.30,Default,NTP,0000,0000,0000,,我只覺得他們的所作所為
+Dialogue: Marked=0,0:12:34.50,0:12:36.80,Default,NTP,0000,0000,0000,,不是因為好玩或金錢
+Dialogue: Marked=0,0:12:53.70,0:12:58.50,Default,NTP,0000,0000,0000,,網絡和現實世界基本上是相同的
+Dialogue: Marked=0,0:12:59.00,0:13:05.50,Default,NTP,0000,0000,0000,,現實世界的肉體之類的東西\N只不過是網絡上流傳的程序罷了
+Dialogue: Marked=0,0:13:07.30,0:13:07.80,Default,NTP,0000,0000,0000,,媽媽？
+Dialogue: Marked=0,0:13:08.70,0:13:10.60,Default,NTP,0000,0000,0000,,原本人的肉體
+Dialogue: Marked=0,0:13:10.60,0:13:12.40,Default,NTP,0000,0000,0000,,人體的腦部活動
+Dialogue: Marked=0,0:13:12.50,0:13:18.70,Default,NTP,0000,0000,0000,,只是由電流傳導所引發的非常普通的物理現象
+Dialogue: Marked=0,0:13:21.00,0:13:21.70,Default,NTP,0000,0000,0000,,我…
+Dialogue: Marked=0,0:13:22.20,0:13:23.90,Default,NTP,0000,0000,0000,,肉體存在的理由
+Dialogue: Marked=0,0:13:24.30,0:13:28.30,Default,NTP,0000,0000,0000,,只是確定自我的存在罷了
+Dialogue: Marked=0,0:13:30.80,0:13:33.80,Default,NTP,0000,0000,0000,,你到底是不是我「真正」的媽媽？
+Dialogue: Marked=0,0:14:16.90,0:14:17.40,Default,NTP,0000,0000,0000,,玲音
+Dialogue: Marked=0,0:14:21.20,0:14:23.90,Default,NTP,0000,0000,0000,,前陣子你是否去過涉谷？
+Dialogue: Marked=0,0:14:33.30,0:14:34.90,Default,NTP,0000,0000,0000,,算了 沒事
+Dialogue: Marked=0,0:15:44.00,0:15:45.20,Default,NTP,0000,0000,0000,,謝謝光臨
+Dialogue: Marked=0,0:15:47.00,0:15:49.00,Default,NTP,0000,0000,0000,,你見過那位男生？
+Dialogue: Marked=0,0:15:58.36,0:15:59.73,Default,NTP,0000,0000,0000,,你換了男朋友了？
+Dialogue: Marked=0,0:16:28.20,0:16:32.80,Default,NTP,0000,0000,0000,,(預言實現)
+Dialogue: Marked=0,0:16:35.80,0:16:37.40,Default,NTP,0000,0000,0000,,這是什麼？ 什麼預言？
+Dialogue: Marked=0,0:17:14.80,0:17:15.50,Default,NTP,0000,0000,0000,,發生了什麼事？
+Dialogue: Marked=0,0:17:16.20,0:17:17.70,Default,NTP,0000,0000,0000,,爸爸和媽媽總是…
+Dialogue: Marked=0,0:17:21.13,0:17:21.73,Default,NTP,0000,0000,0000,,已經…
+Dialogue: Marked=0,0:17:26.40,0:17:27.09,Default,NTP,0000,0000,0000,,為何會這樣？
+Dialogue: Marked=0,0:17:40.80,0:17:42.80,Default,NTP,0000,0000,0000,,有人嗎？
+Dialogue: Marked=0,0:17:52.00,0:17:53.10,Default,NTP,0000,0000,0000,,有人在吧
+Dialogue: Marked=0,0:18:22.00,0:18:26.00,Default,NTP,0000,0000,0000,,(把預言實現)
+Dialogue: Marked=0,0:18:45.23,0:18:47.80,Default,NTP,0000,0000,0000,,你真的是我爸爸？
+Dialogue: Marked=0,0:18:49.30,0:18:50.80,Default,NTP,0000,0000,0000,,在網絡上流傳的東西
+Dialogue: Marked=0,0:18:51.20,0:18:54.20,Default,NTP,0000,0000,0000,,可能不是單純的電子檔案而已
+Dialogue: Marked=0,0:18:56.80,0:19:01.90,Default,NTP,0000,0000,0000,,網絡是因為電話之類的電器產品等等所發展而形成的
+Dialogue: Marked=0,0:19:02.33,0:19:08.16,Default,NTP,0000,0000,0000,,因此 我們就不得不注意到這時就會形成另一個世界
+Dialogue: Marked=0,0:19:09.20,0:19:09.80,Default,NTP,0000,0000,0000,,請問…
+Dialogue: Marked=0,0:19:10.30,0:19:11.60,Default,NTP,0000,0000,0000,,在現實世界內
+Dialogue: Marked=0,0:19:12.00,0:19:14.80,Default,NTP,0000,0000,0000,,神的存在只是概念
+Dialogue: Marked=0,0:19:15.20,0:19:17.10,Default,NTP,0000,0000,0000,,但在網絡上的世界就不一樣
+Dialogue: Marked=0,0:19:17.20,0:19:20.00,Default,NTP,0000,0000,0000,,概念可以被肯定
+Dialogue: Marked=0,0:19:20.80,0:19:21.50,Default,NTP,0000,0000,0000,,是神？
+Dialogue: Marked=0,0:19:23.50,0:19:26.10,Default,NTP,0000,0000,0000,,其實也不知道該不該稱他為神
+Dialogue: Marked=0,0:19:27.10,0:19:32.50,Default,NTP,0000,0000,0000,,但至少他能擁有跟神話中的神一樣的超自然力量
+Dialogue: Marked=0,0:19:34.20,0:19:37.40,Default,NTP,0000,0000,0000,,我可能曾經在網絡上和神說過話
+Dialogue: Marked=0,0:19:38.50,0:19:42.40,Default,NTP,0000,0000,0000,,若是在網絡上以這真神的支配力來說
+Dialogue: Marked=0,0:19:42.90,0:19:45.90,Default,NTP,0000,0000,0000,,他的能力有可能隨意介入現實世界中
+Dialogue: Marked=0,0:19:47.20,0:19:49.60,Default,NTP,0000,0000,0000,,沒錯 就是以預言這個形式介入
+Dialogue: Marked=0,0:19:53.10,0:19:53.50,Default,NTP,0000,0000,0000,,預言？
+Dialogue: Marked=0,0:21:04.00,0:21:04.50,Default,NTP,0000,0000,0000,,什麼事？
+Dialogue: Marked=0,0:21:05.80,0:21:06.16,Default,NTP,0000,0000,0000,,沒什麼
+Dialogue: Marked=0,0:21:07.70,0:21:08.70,Default,NTP,0000,0000,0000,,沒事
+Dialogue: Marked=0,0:22:08.80,0:22:10.20,Default,NTP,0000,0000,0000,,今天會是誰呢？

@@ -1,0 +1,412 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正北魏楷书_GBK,60,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,45,45,30,134
+Style: up-center,KaiTi,42,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,0,0,0,1
+Style: up-left,KaiTi,45,&H001F6E64,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: OP,KaiTi,60,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,30,134
+Style: ED,KaiTi,60,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,30,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:30.64,0:01:32.02,Default,NTP,0,0,0,,雖然是我一方面的見解
+Dialogue: 0,0:01:32.11,0:01:35.45,Default,NTP,0,0,0,,我認為Wake Up. Girls!並不需要林田藍裏
+Dialogue: 0,0:01:37.60,0:01:42.95,Default,NTP,0,0,0,,大家都知道 現在Wake Up. Girls!的運營都交給我了
+Dialogue: 0,0:01:43.56,0:01:47.32,Default,NTP,0,0,0,,結論就是 我想把她從Wake Up. Girls!中剔除
+Dialogue: 0,0:01:47.52,0:01:49.66,Default,NTP,0,0,0,,你怎麼能！
+Dialogue: 0,0:01:49.72,0:01:53.64,Default,NTP,0,0,0,,我說過了吧 你們現在由我全權負責
+Dialogue: 0,0:01:54.89,0:01:59.35,Default,NTP,0,0,0,,要是你們把她放棄 課程就繼續下去
+Dialogue: 0,0:01:59.73,0:02:03.44,Default,NTP,0,0,0,,不行的話 都拎包走人
+Dialogue: 0,0:02:05.80,0:02:07.46,Default,NTP,0,0,0,,給你們10分鐘
+Dialogue: 0,0:02:17.16,0:02:18.79,Default,NTP,0,0,0,,為什麼要說那樣的話？！
+Dialogue: 0,0:02:23.15,0:02:25.22,Default,NTP,0,0,0,,我只不過扔了一塊石頭
+Dialogue: 0,0:02:25.37,0:02:29.41,Default,NTP,0,0,0,,我可不想和你玩什麼禪問道
+Dialogue: 0,0:02:29.72,0:02:31.39,Default,NTP,0,0,0,,我也沒這打算
+Dialogue: 0,0:02:32.58,0:02:37.69,Default,NTP,0,0,0,,在經手過I-1的你看來Wake Up. Girls!的確太差了
+Dialogue: 0,0:02:38.68,0:02:40.31,Default,NTP,0,0,0,,也還沒有身為職業偶像的意識
+Dialogue: 0,0:02:40.82,0:02:44.73,Default,NTP,0,0,0,,但是她們正以她們自己的步調在努力著
+Dialogue: 0,0:02:46.73,0:02:50.86,Default,NTP,0,0,0,,在她們的團隊性還未穩固之前就這麼動搖她們…
+Dialogue: 0,0:02:52.95,0:02:54.60,Default,NTP,0,0,0,,如果只是這樣就能摧毀她們
+Dialogue: 0,0:02:54.68,0:02:55.79,Default,NTP,0,0,0,,那正說明她們還不行
+Dialogue: 0,0:02:56.22,0:02:56.91,Default,NTP,0,0,0,,社長！
+Dialogue: 0,0:02:58.11,0:03:01.30,Default,NTP,0,0,0,,獅子會把幼崽推下懸崖
+Dialogue: 0,0:03:01.51,0:03:03.76,Default,NTP,0,0,0,,然後只把那些能爬上來的幼崽養大
+Dialogue: 0,0:03:05.44,0:03:09.04,Default,NTP,0,0,0,,爬不上來的幼崽無法在叢林中生存
+Dialogue: 0,0:03:09.61,0:03:13.69,Default,NTP,0,0,0,,像這樣熱血的話我可是不會說的
+Dialogue: 0,0:03:19.10,0:03:21.17,Default,NTP,0,0,0,,土豆要是掉下懸崖了
+Dialogue: 0,0:03:21.48,0:03:23.08,Default,NTP,0,0,0,,也不可能爬不上來嘛
+Dialogue: 0,0:03:25.11,0:03:28.36,Default,NTP,0,0,0,,社長！你來說他兩句啊！
+Dialogue: 0,0:03:33.51,0:03:34.61,Default,NTP,0,0,0,,怎麼辦啊
+Dialogue: 0,0:03:35.05,0:03:37.55,Default,NTP,0,0,0,,什麼怎麼辦 我們什麼都做不了
+Dialogue: 0,0:03:38.50,0:03:40.58,Default,NTP,0,0,0,,你這是想要踢掉藍藍嗎？
+Dialogue: 0,0:03:41.74,0:03:43.08,Default,NTP,0,0,0,,我可沒這麼說
+Dialogue: 0,0:03:44.68,0:03:46.10,Default,NTP,0,0,0,,怎麼辦 隊長？
+Dialogue: 0,0:03:52.01,0:03:54.06,Default,NTP,0,0,0,,這不只剩下7分鐘了
+Dialogue: 0,0:03:55.55,0:03:56.80,Default,NTP,0,0,0,,來投票如何
+Dialogue: 0,0:03:57.06,0:03:58.46,Default,NTP,0,0,0,,都不經過討論嗎？
+Dialogue: 0,0:04:00.25,0:04:03.28,Default,NTP,0,0,0,,我們爭論這些不是在浪費時間嗎
+Dialogue: 0,0:04:03.59,0:04:04.96,Default,NTP,0,0,0,,佳佳！
+Dialogue: 0,0:04:05.29,0:04:08.03,Default,NTP,0,0,0,,不要把什麼事情都推給我啊
+Dialogue: 0,0:04:09.12,0:04:11.70,Default,NTP,0,0,0,,但你是我們的隊長
+Dialogue: 0,0:04:12.07,0:04:15.70,Default,NTP,0,0,0,,就算如此 也必須由我來做決斷嗎？
+Dialogue: 0,0:04:16.33,0:04:18.18,Default,NTP,0,0,0,,我沒這麼說啊
+Dialogue: 0,0:04:18.82,0:04:20.92,Default,NTP,0,0,0,,只是這樣的往左完全得不出結論吧
+Dialogue: 0,0:04:21.62,0:04:24.54,Default,NTP,0,0,0,,時間越來越少了啦！
+Dialogue: 0,0:04:24.70,0:04:26.07,Default,NTP,0,0,0,,你不要再說了
+Dialogue: 0,0:04:26.30,0:04:26.88,Default,NTP,0,0,0,,可是…
+Dialogue: 0,0:04:27.61,0:04:28.95,Default,NTP,0,0,0,,那要我怎麼辦
+Dialogue: 0,0:04:29.05,0:04:31.61,Default,NTP,0,0,0,,決定是不是應該投票嗎？
+Dialogue: 0,0:04:31.95,0:04:33.84,Default,NTP,0,0,0,,當然不是啦
+Dialogue: 0,0:04:39.60,0:04:42.15,Default,NTP,0,0,0,,說白了 我認為你沒有才能
+Dialogue: 0,0:05:04.98,0:05:07.13,Default,NTP,0,0,0,,你一個人高興怎麼能行
+Dialogue: 0,0:05:16.20,0:05:17.52,Default,NTP,0,0,0,,時間快到了
+Dialogue: 0,0:05:19.67,0:05:22.87,Default,NTP,0,0,0,,我希望藍裏能留下
+Dialogue: 0,0:05:24.22,0:05:28.20,Default,NTP,0,0,0,,但是我們全都為此拎包走人也沒關係嗎
+Dialogue: 0,0:05:28.84,0:05:29.71,Default,NTP,0,0,0,,誒？！
+Dialogue: 0,0:05:30.14,0:05:32.45,Default,NTP,0,0,0,,你這反應 難道你希望踢掉她嗎
+Dialogue: 0,0:05:35.51,0:05:39.93,Default,NTP,0,0,0,,這一定就是我們和I-1之間的區別吧
+Dialogue: 0,0:05:40.47,0:05:41.21,Default,NTP,0,0,0,,什麼意思？
+Dialogue: 0,0:05:42.37,0:05:43.30,Default,NTP,0,0,0,,都不知道我們之間是否真有什麼友情
+Dialogue: 0,0:05:43.58,0:05:46.06,Default,NTP,0,0,0,,卻還玩著朋友過家家
+Dialogue: 0,0:05:46.56,0:05:47.51,Default,NTP,0,0,0,,我不懂你意思
+Dialogue: 0,0:05:48.55,0:05:51.11,Default,NTP,0,0,0,,就是因為我們老是這麼游移不定
+Dialogue: 0,0:05:51.19,0:05:53.22,Default,NTP,0,0,0,,才會被當作外行啊
+Dialogue: 0,0:05:53.41,0:05:55.07,Default,NTP,0,0,0,,被當作外行？
+Dialogue: 0,0:05:55.29,0:05:56.29,Default,NTP,0,0,0,,不正是這樣嗎
+Dialogue: 0,0:05:57.40,0:05:59.27,Default,NTP,0,0,0,,所以才會被人說Wake Up. Girls!
+Dialogue: 0,0:05:59.35,0:06:01.55,Default,NTP,0,0,0,,是因為島田真夢而存在的組合！
+Dialogue: 0,0:06:02.06,0:06:03.32,Default,NTP,0,0,0,,這是現在該說的話嗎？
+Dialogue: 0,0:06:04.05,0:06:08.11,Default,NTP,0,0,0,,我們不是為了交朋友才在這裏的吧
+Dialogue: 0,0:06:08.54,0:06:10.35,Default,NTP,0,0,0,,我們是為了成為偶像才在這裏的吧
+Dialogue: 0,0:06:11.90,0:06:14.48,Default,NTP,0,0,0,,的確 佳佳說的對
+Dialogue: 0,0:06:16.49,0:06:19.24,Default,NTP,0,0,0,,這麼爭來爭去真煩人
+Dialogue: 0,0:06:20.82,0:06:21.82,Default,NTP,0,0,0,,我不幹了
+Dialogue: 0,0:06:22.08,0:06:24.05,Default,NTP,0,0,0,,我本來就是想要進光塚
+Dialogue: 0,0:06:24.52,0:06:27.08,Default,NTP,0,0,0,,為了在那之前能提升自己的實力才來這裏的
+Dialogue: 0,0:06:27.64,0:06:29.82,Default,NTP,0,0,0,,誒？踏腳石嗎
+Dialogue: 0,0:06:30.11,0:06:33.85,Default,NTP,0,0,0,,現在和你的夢想啊妄想什麼的又沒有關係
+Dialogue: 0,0:06:34.30,0:06:35.75,Default,NTP,0,0,0,,什麼叫妄想？
+Dialogue: 0,0:06:35.92,0:06:37.43,Default,NTP,0,0,0,,能不能不要亂講
+Dialogue: 0,0:06:37.60,0:06:39.74,Default,NTP,0,0,0,,等等 你們越扯越遠了啊
+Dialogue: 0,0:06:39.89,0:06:41.25,Default,NTP,0,0,0,,不要再說了！
+Dialogue: 0,0:06:43.84,0:06:46.74,Default,NTP,0,0,0,,我肚子餓了！
+Dialogue: 0,0:06:48.12,0:06:48.73,Default,NTP,0,0,0,,實波…
+Dialogue: 0,0:06:54.46,0:06:55.02,Default,NTP,0,0,0,,給
+Dialogue: 0,0:07:01.08,0:07:01.38,Default,NTP,0,0,0,,佳佳
+Dialogue: 0,0:07:02.53,0:07:07.39,Default,NTP,0,0,0,,我說不太清楚 但是我們所做的事情正是這些吧
+Dialogue: 0,0:07:09.39,0:07:12.66,Default,NTP,0,0,0,,我們的確是為了成為偶像而在這裏的
+Dialogue: 0,0:07:13.18,0:07:15.47,Default,NTP,0,0,0,,但是偶像不正是是這樣嗎
+Dialogue: 0,0:07:17.71,0:07:21.56,Default,NTP,0,0,0,,我還是認為少了藍裏就不再是Wake Up. Girls!了
+Dialogue: 0,0:07:23.41,0:07:23.70,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:07:24.90,0:07:28.78,Default,NTP,0,0,0,,社長不也說過Wake Up. Girls!是7個人
+Dialogue: 0,0:07:29.53,0:07:34.72,Default,NTP,0,0,0,,說的對 我出走的時候 也是藍裏來迎接我的
+Dialogue: 0,0:07:35.76,0:07:36.66,Default,NTP,0,0,0,,我去帶也回來
+Dialogue: 0,0:07:37.61,0:07:39.77,Default,NTP,0,0,0,,我去把藍裏帶回來
+Dialogue: 0,0:07:41.67,0:07:42.48,Default,NTP,0,0,0,,我也要去
+Dialogue: 0,0:07:42.93,0:07:43.43,Default,NTP,0,0,0,,我也去
+Dialogue: 0,0:07:43.79,0:07:44.80,Default,NTP,0,0,0,,我也去
+Dialogue: 0,0:07:45.26,0:07:46.12,Default,NTP,0,0,0,,我也去
+Dialogue: 0,0:07:47.00,0:07:47.76,Default,NTP,0,0,0,,由我來去
+Dialogue: 0,0:07:48.36,0:07:49.88,Default,NTP,0,0,0,,因為我是隊長
+Dialogue: 0,0:07:50.93,0:07:51.44,Default,NTP,0,0,0,,真夢夢
+Dialogue: 0,0:07:57.40,0:07:59.29,Default,NTP,0,0,0,,這就是結論了吧
+Dialogue: 0,0:08:00.69,0:08:02.99,Default,NTP,0,0,0,,我們不想剔除藍裏
+Dialogue: 0,0:08:03.62,0:08:04.11,Default,NTP,0,0,0,,對
+Dialogue: 0,0:08:05.32,0:08:07.35,Default,NTP,0,0,0,,不覺得我們被逼急了嗎
+Dialogue: 0,0:08:07.87,0:08:09.68,Default,NTP,0,0,0,,被逼入了窘境
+Dialogue: 0,0:08:11.28,0:08:14.96,Default,NTP,0,0,0,,再說我們也沒道理被他炒魷魚啊
+Dialogue: 0,0:08:15.15,0:08:19.77,Default,NTP,0,0,0,,但是社長也說全權交給早阪先生了不是嗎
+Dialogue: 0,0:08:20.00,0:08:22.12,Default,NTP,0,0,0,,那我們直接去和社長談談吧
+Dialogue: 0,0:08:22.53,0:08:23.06,Default,NTP,0,0,0,,好
+Dialogue: 0,0:08:27.68,0:08:29.50,Default,NTP,0,0,0,,藍藍竟然會無故缺席
+Dialogue: 0,0:08:32.11,0:08:34.15,Default,NTP,0,0,0,,早阪先生一定說了很苛刻的話吧
+Dialogue: 0,0:08:35.07,0:08:35.56,Default,NTP,0,0,0,,可能吧
+Dialogue: 0,0:08:36.59,0:08:39.86,Default,NTP,0,0,0,,說來那天你有等她吧
+Dialogue: 0,0:08:40.11,0:08:41.36,Default,NTP,0,0,0,,有聽她提起什麼嗎
+Dialogue: 0,0:08:42.34,0:08:44.39,Default,NTP,0,0,0,,她什麼都沒和我說
+Dialogue: 0,0:08:45.19,0:08:47.47,Default,NTP,0,0,0,,什麼都沒和你說…啊
+Dialogue: 0,0:08:48.28,0:08:50.77,Default,NTP,0,0,0,,我能明白她的心情
+Dialogue: 0,0:08:52.57,0:08:55.74,up-center,NTP,0,0,30,,{\c&HFFFFFF&}下一站 北四番町 北四番町
+Dialogue: 0,0:08:58.43,0:08:59.36,Default,NTP,0,0,0,,我聽說了
+Dialogue: 0,0:09:00.27,0:09:04.93,Default,NTP,0,0,0,,那社長也覺得早阪先生說的事情不對頭吧
+Dialogue: 0,0:09:05.42,0:09:06.47,Default,NTP,0,0,0,,哪裏不對頭了？
+Dialogue: 0,0:09:07.25,0:09:10.87,Default,NTP,0,0,0,,因為我們GreenLeaves所屬吧
+Dialogue: 0,0:09:11.23,0:09:15.44,Default,NTP,0,0,0,,是否應該炒魷魚 不是早阪先生而是社長來決定的吧？
+Dialogue: 0,0:09:16.67,0:09:17.97,Default,NTP,0,0,0,,我沒說過嗎
+Dialogue: 0,0:09:18.39,0:09:21.14,Default,NTP,0,0,0,,這次全權交由早阪先生處理
+Dialogue: 0,0:09:22.42,0:09:23.92,Default,NTP,0,0,0,,我就知道會這樣
+Dialogue: 0,0:09:24.22,0:09:26.44,Default,NTP,0,0,0,,但我們果然還是希望藍裏能留下
+Dialogue: 0,0:09:26.50,0:09:28.27,Default,NTP,0,0,0,,作為7人組合進行活動
+Dialogue: 0,0:09:30.28,0:09:31.60,Default,NTP,0,0,0,,這裏可是禁煙的
+Dialogue: 0,0:09:33.69,0:09:35.90,Default,NTP,0,0,0,,你們弄錯應該說服的對象了吧
+Dialogue: 0,0:09:36.17,0:09:36.64,Default,NTP,0,0,0,,什麼？
+Dialogue: 0,0:09:37.14,0:09:39.20,Default,NTP,0,0,0,,去和早阪先生說啦
+Dialogue: 0,0:09:39.51,0:09:40.55,Default,NTP,0,0,0,,果然是這樣嗎
+Dialogue: 0,0:09:40.82,0:09:42.15,Default,NTP,0,0,0,,這展開真不妙
+Dialogue: 0,0:09:42.41,0:09:43.12,Default,NTP,0,0,0,,我懂了
+Dialogue: 0,0:09:43.56,0:09:45.84,Default,NTP,0,0,0,,那早阪先生在哪？
+Dialogue: 0,0:09:55.60,0:09:56.10,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:09:57.55,0:09:59.80,Default,NTP,0,0,0,,我想要來幫忙
+Dialogue: 0,0:10:01.04,0:10:03.08,Default,NTP,0,0,0,,這吹的是什麼風
+Dialogue: 0,0:10:04.80,0:10:09.12,Default,NTP,0,0,0,,點心店的女兒來幫忙做點心需要什麼理由嗎
+Dialogue: 0,0:10:11.20,0:10:12.81,Default,NTP,0,0,0,,點心是這樣子做出來的啊？
+Dialogue: 0,0:10:13.05,0:10:13.84,Default,NTP,0,0,0,,礙事
+Dialogue: 0,0:10:14.13,0:10:16.80,Default,NTP,0,0,0,,就沒有什麼我能幫忙的事麼
+Dialogue: 0,0:10:17.37,0:10:17.84,Default,NTP,0,0,0,,沒有
+Dialogue: 0,0:10:19.87,0:10:21.23,Default,NTP,0,0,0,,說起來今天沒有嗎
+Dialogue: 0,0:10:22.46,0:10:24.42,Default,NTP,0,0,0,,你不是一直去上課的嗎
+Dialogue: 0,0:10:27.26,0:10:29.22,Default,NTP,0,0,0,,去把那些點心排好
+Dialogue: 0,0:10:31.03,0:10:31.61,Default,NTP,0,0,0,,好
+Dialogue: 0,0:10:36.51,0:10:39.85,Default,NTP,0,0,0,,藍裏來幫忙了？真少見
+Dialogue: 0,0:10:40.66,0:10:42.03,Default,NTP,0,0,0,,爸爸應該很高興吧
+Dialogue: 0,0:10:49.86,0:10:51.22,Default,NTP,0,0,0,,真的在這裏嗎？
+Dialogue: 0,0:10:51.89,0:10:53.59,Default,NTP,0,0,0,,松田不會騙人的
+Dialogue: 0,0:10:55.81,0:10:56.37,Default,NTP,0,0,0,,他在那！
+Dialogue: 0,0:11:00.10,0:11:04.05,Default,NTP,0,0,0,,不剔除林田藍裏 但是課程也要繼續？
+Dialogue: 0,0:11:08.45,0:11:09.87,Default,NTP,0,0,0,,太得意忘形了吧
+Dialogue: 0,0:11:10.08,0:11:11.10,Default,NTP,0,0,0,,也是啊
+Dialogue: 0,0:11:11.55,0:11:14.15,Default,NTP,0,0,0,,但這是我們經過討論得出的結論
+Dialogue: 0,0:11:14.74,0:11:18.39,Default,NTP,0,0,0,,社長也讓我們直接來說服早阪先生
+Dialogue: 0,0:11:21.10,0:11:21.91,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:11:22.64,0:11:26.21,Default,NTP,0,0,0,,那總之先照我說的辦就行了
+Dialogue: 0,0:11:26.37,0:11:27.00,Default,NTP,0,0,0,,太好了！
+Dialogue: 0,0:11:27.38,0:11:29.39,Default,NTP,0,0,0,,要慶祝還太早了
+Dialogue: 0,0:11:29.95,0:11:32.06,Default,NTP,0,0,0,,那你們能給我抓三隻那個嗎
+Dialogue: 0,0:11:40.50,0:11:41.07,Default,NTP,0,0,0,,藍裏…
+Dialogue: 0,0:11:42.03,0:11:44.07,Default,NTP,0,0,0,,怎麼樣？合身嗎？
+Dialogue: 0,0:11:46.20,0:11:49.39,Default,NTP,0,0,0,,好 好 就那樣
+Dialogue: 0,0:11:49.58,0:11:51.73,Default,NTP,0,0,0,,可惜了 下次一定能行
+Dialogue: 0,0:11:51.90,0:11:56.11,Default,NTP,0,0,0,,「下次一定能行」你三回前就一直在說這句話了
+Dialogue: 0,0:11:56.53,0:11:57.07,Default,NTP,0,0,0,,囉嗦！
+Dialogue: 0,0:11:57.76,0:11:58.99,Default,NTP,0,0,0,,停下來停下來！
+Dialogue: 0,0:11:59.20,0:12:01.30,Default,NTP,0,0,0,,真是的！你太慢了！
+Dialogue: 0,0:12:01.41,0:12:03.14,Default,NTP,0,0,0,,都說了你個外野的別插話！
+Dialogue: 0,0:12:08.51,0:12:09.00,Default,NTP,0,0,0,,那個
+Dialogue: 0,0:12:11.13,0:12:15.10,Default,NTP,0,0,0,,對不起哦 每次都是上我們家的點心
+Dialogue: 0,0:12:17.45,0:12:19.79,Default,NTP,0,0,0,,對了 這個是藍裏做的
+Dialogue: 0,0:12:20.48,0:12:22.59,Default,NTP,0,0,0,,所以形狀看上去有點怪吧
+Dialogue: 0,0:12:23.09,0:12:25.14,Default,NTP,0,0,0,,好了別說了媽媽
+Dialogue: 0,0:12:25.38,0:12:27.28,Default,NTP,0,0,0,,不好意思打擾你們了
+Dialogue: 0,0:12:32.55,0:12:35.23,Default,NTP,0,0,0,,其實 我想退出WUG
+Dialogue: 0,0:12:36.48,0:12:38.67,Default,NTP,0,0,0,,我根本不適合
+Dialogue: 0,0:12:39.45,0:12:41.29,Default,NTP,0,0,0,,和大家不一樣一點才能都沒有
+Dialogue: 0,0:12:42.55,0:12:45.47,Default,NTP,0,0,0,,所以 這樣持續下去也…
+Dialogue: 0,0:12:47.21,0:12:49.62,Default,NTP,0,0,0,,你是被早阪先生這樣說了嗎？
+Dialogue: 0,0:12:50.34,0:12:50.70,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:13:00.31,0:13:02.92,Default,NTP,0,0,0,,嗯~好像不行啊
+Dialogue: 0,0:13:03.95,0:13:04.72,Default,NTP,0,0,0,,怎麼辦？
+Dialogue: 0,0:13:07.58,0:13:08.53,Default,NTP,0,0,0,,去換零錢
+Dialogue: 0,0:13:12.89,0:13:14.47,Default,NTP,0,0,0,,我來試試
+Dialogue: 0,0:13:16.39,0:13:20.32,Default,NTP,0,0,0,,雖然一開始認為只要練習就總能行
+Dialogue: 0,0:13:20.75,0:13:21.68,Default,NTP,0,0,0,,但現在實在是不行了
+Dialogue: 0,0:13:21.99,0:13:23.92,Default,NTP,0,0,0,,就算是我 一開始也這樣覺得的
+Dialogue: 0,0:13:24.83,0:13:28.17,Default,NTP,0,0,0,,佳佳比我的實力高太多了
+Dialogue: 0,0:13:30.68,0:13:33.21,Default,NTP,0,0,0,,我最喜歡Wake Up. Girls!了
+Dialogue: 0,0:13:34.36,0:13:38.60,Default,NTP,0,0,0,,總覺得和大家在一起非常快樂
+Dialogue: 0,0:13:40.48,0:13:43.47,Default,NTP,0,0,0,,從試鏡會開始就一直覺得
+Dialogue: 0,0:13:44.15,0:13:46.39,Default,NTP,0,0,0,,大家都超級可愛
+Dialogue: 0,0:13:47.23,0:13:50.73,Default,NTP,0,0,0,,然後我就「哇~」的士氣高漲了起來
+Dialogue: 0,0:13:51.78,0:13:54.04,Default,NTP,0,0,0,,所以和大家在一起的時候
+Dialogue: 0,0:13:54.62,0:13:59.04,Default,NTP,0,0,0,,就錯認為我也是其中一員
+Dialogue: 0,0:13:59.75,0:14:00.33,Default,NTP,0,0,0,,誤解？
+Dialogue: 0,0:14:01.00,0:14:02.67,Default,NTP,0,0,0,,嗯 是誤解
+Dialogue: 0,0:14:03.64,0:14:07.39,Default,NTP,0,0,0,,想了想的確是 和在I-1當過center的真夢夢
+Dialogue: 0,0:14:07.65,0:14:09.59,Default,NTP,0,0,0,,還有在雜誌上出現過的佳佳
+Dialogue: 0,0:14:09.74,0:14:12.12,Default,NTP,0,0,0,,我和她們在一個組合裏這件事本身
+Dialogue: 0,0:14:12.41,0:14:15.39,Default,NTP,0,0,0,,就是個錯誤
+Dialogue: 0,0:14:15.93,0:14:17.67,Default,NTP,0,0,0,,沒有這種事情啦
+Dialogue: 0,0:14:18.03,0:14:18.61,Default,NTP,0,0,0,,有
+Dialogue: 0,0:14:20.09,0:14:21.47,Default,NTP,0,0,0,,就是有這種事啦！
+Dialogue: 0,0:14:22.64,0:14:25.80,Default,NTP,0,0,0,,因為 就我一個和大家不一樣
+Dialogue: 0,0:14:27.45,0:14:30.09,Default,NTP,0,0,0,,只有我一個人沒有存在感
+Dialogue: 0,0:14:30.60,0:14:31.55,Default,NTP,0,0,0,,哪裏有…
+Dialogue: 0,0:14:31.85,0:14:33.41,Default,NTP,0,0,0,,佳佳別勉強了
+Dialogue: 0,0:14:33.72,0:14:34.84,Default,NTP,0,0,0,,我沒有勉強自己
+Dialogue: 0,0:14:35.89,0:14:39.13,Default,NTP,0,0,0,,我認為我很瞭解自己
+Dialogue: 0,0:14:39.72,0:14:41.08,Default,NTP,0,0,0,,為什麼要這樣說自己
+Dialogue: 0,0:14:42.30,0:14:43.87,Default,NTP,0,0,0,,我加入WUG的理由
+Dialogue: 0,0:14:44.59,0:14:46.98,Default,NTP,0,0,0,,重新再一次當偶像的理由
+Dialogue: 0,0:14:47.55,0:14:48.86,Default,NTP,0,0,0,,都是因為藍裏啊
+Dialogue: 0,0:14:50.68,0:14:52.49,Default,NTP,0,0,0,,聽到藍裏要去試鏡
+Dialogue: 0,0:14:53.00,0:14:55.48,Default,NTP,0,0,0,,然後在一起唱歌跳舞的這段時間裏
+Dialogue: 0,0:14:55.91,0:14:56.98,Default,NTP,0,0,0,,我察覺到了
+Dialogue: 0,0:14:57.81,0:15:00.74,Default,NTP,0,0,0,,我果然還是喜歡這樣
+Dialogue: 0,0:15:02.81,0:15:06.16,Default,NTP,0,0,0,,寒い夜だから
+Dialogue: 0,0:15:06.25,0:15:07.64,Default,NTP,0,0,0,,明日~
+Dialogue: 0,0:15:07.85,0:15:09.77,Default,NTP,0,0,0,,太在意麥克風的位置了 沒法唱啊
+Dialogue: 0,0:15:10.13,0:15:11.23,Default,NTP,0,0,0,,那稍微借我下
+Dialogue: 0,0:15:12.08,0:15:14.87,Default,NTP,0,0,0,,就這樣掌握嘴巴和麥克風的距離感
+Dialogue: 0,0:15:16.46,0:15:17.32,Default,NTP,0,0,0,,那你稍微試試
+Dialogue: 0,0:15:24.10,0:15:26.95,Default,NTP,0,0,0,,在失落到人生低谷的我看來
+Dialogue: 0,0:15:27.17,0:15:29.08,Default,NTP,0,0,0,,藍裏的身影非常的耀眼
+Dialogue: 0,0:15:39.22,0:15:42.12,Default,NTP,0,0,0,,那個時候的藍裏毫無疑問閃閃發光著
+Dialogue: 0,0:15:43.01,0:15:45.85,Default,NTP,0,0,0,,在我眼裏確實這樣映照出來
+Dialogue: 0,0:15:46.76,0:15:49.83,Default,NTP,0,0,0,,藍裏給了我回來的契機
+Dialogue: 0,0:15:51.98,0:15:54.45,Default,NTP,0,0,0,,所以 千萬不能說放棄啊
+Dialogue: 0,0:15:57.53,0:15:58.10,Default,NTP,0,0,0,,能行！
+Dialogue: 0,0:15:58.41,0:15:59.09,Default,NTP,0,0,0,,加油！
+Dialogue: 0,0:16:00.62,0:16:02.07,Default,NTP,0,0,0,,就這樣 就這樣
+Dialogue: 0,0:16:03.90,0:16:04.87,Default,NTP,0,0,0,,成功啦！
+Dialogue: 0,0:16:05.11,0:16:05.86,Default,NTP,0,0,0,,拿到了！
+Dialogue: 0,0:16:06.02,0:16:07.22,Default,NTP,0,0,0,,好 繼續再來！
+Dialogue: 0,0:16:07.44,0:16:08.33,Default,NTP,0,0,0,,喊出聲來！
+Dialogue: 0,0:16:08.70,0:16:09.36,Default,NTP,0,0,0,,噢！
+Dialogue: 0,0:16:16.50,0:16:18.54,Default,NTP,0,0,0,,對不起 果然還是不行
+Dialogue: 0,0:16:19.86,0:16:22.06,Default,NTP,0,0,0,,那個時候可能是那樣的
+Dialogue: 0,0:16:23.13,0:16:26.01,Default,NTP,0,0,0,,現在的我只是在拖大家的後腿
+Dialogue: 0,0:16:26.88,0:16:27.73,Default,NTP,0,0,0,,這又怎麼了！
+Dialogue: 0,0:16:29.18,0:16:31.35,Default,NTP,0,0,0,,那就努力的不拖大家後腿不就好了
+Dialogue: 0,0:16:31.94,0:16:34.04,Default,NTP,0,0,0,,我會幫你的
+Dialogue: 0,0:16:34.63,0:16:36.87,Default,NTP,0,0,0,,至少這種事不能全部…
+Dialogue: 0,0:16:37.21,0:16:38.08,Default,NTP,0,0,0,,什麼事都要先做過
+Dialogue: 0,0:16:39.17,0:16:41.63,Default,NTP,0,0,0,,說退出也要等做過以後也不遲啊
+Dialogue: 0,0:16:42.99,0:16:43.60,Default,NTP,0,0,0,,佳佳
+Dialogue: 0,0:16:44.96,0:16:49.37,Default,NTP,0,0,0,,我也是 不知道莫名其妙的就當上了隊長
+Dialogue: 0,0:16:49.99,0:16:53.04,Default,NTP,0,0,0,,實際上到底要做什麼 我完全不知道
+Dialogue: 0,0:16:54.91,0:16:57.31,Default,NTP,0,0,0,,完全不知道什麼事情應該怎麼做
+Dialogue: 0,0:16:57.59,0:16:59.54,Default,NTP,0,0,0,,還被大家問來問去
+Dialogue: 0,0:16:59.70,0:17:00.70,Default,NTP,0,0,0,,也一直在煩惱著
+Dialogue: 0,0:17:01.41,0:17:03.31,Default,NTP,0,0,0,,有想過總結大家的意見
+Dialogue: 0,0:17:03.72,0:17:06.64,Default,NTP,0,0,0,,但是就連自己的想法都摸不清
+Dialogue: 0,0:17:07.72,0:17:11.15,Default,NTP,0,0,0,,當早阪先生說從拋棄藍裏繼續課程
+Dialogue: 0,0:17:11.35,0:17:14.45,Default,NTP,0,0,0,,還是解散裏選一個的時候
+Dialogue: 0,0:17:15.20,0:17:17.91,Default,NTP,0,0,0,,大家都在喊「隊長！隊長！」
+Dialogue: 0,0:17:18.48,0:17:19.40,Default,NTP,0,0,0,,是這樣啊
+Dialogue: 0,0:17:21.05,0:17:24.23,Default,NTP,0,0,0,,這樣的話就不要在意我了
+Dialogue: 0,0:17:25.00,0:17:27.08,Default,NTP,0,0,0,,不想再給大家添麻煩了
+Dialogue: 0,0:17:27.18,0:17:28.94,Default,NTP,0,0,0,,不是說了不能一個人煩惱了嘛！
+Dialogue: 0,0:17:30.01,0:17:31.10,Default,NTP,0,0,0,,藍裏自己不是說了
+Dialogue: 0,0:17:31.44,0:17:33.23,Default,NTP,0,0,0,,不要一個人煩惱
+Dialogue: 0,0:17:33.43,0:17:35.80,Default,NTP,0,0,0,,那就大家一起煩惱吧
+Dialogue: 0,0:17:36.06,0:17:37.00,Default,NTP,0,0,0,,一起思考吧
+Dialogue: 0,0:17:37.39,0:17:40.54,Default,NTP,0,0,0,,是為了什麼才存在的團隊啊
+Dialogue: 0,0:17:41.54,0:17:43.21,Default,NTP,0,0,0,,什麼事都可以找我商量
+Dialogue: 0,0:17:43.32,0:17:44.42,Default,NTP,0,0,0,,都是一個團隊的
+Dialogue: 0,0:17:44.59,0:17:46.10,Default,NTP,0,0,0,,大家一起想辦法吧
+Dialogue: 0,0:17:50.72,0:17:52.02,Default,NTP,0,0,0,,實波好厲害！
+Dialogue: 0,0:17:52.17,0:17:58.77,Default,NTP,0,0,0,,藍裏！藍裏！藍裏！藍裏！藍裏！藍裏！
+Dialogue: 0,0:17:58.89,0:18:00.42,Default,NTP,0,0,0,,差不多快到時間了
+Dialogue: 0,0:18:00.59,0:18:01.44,Default,NTP,0,0,0,,早阪先生
+Dialogue: 0,0:18:01.98,0:18:03.90,Default,NTP,0,0,0,,再給我們一次機會
+Dialogue: 0,0:18:05.01,0:18:07.52,Default,NTP,0,0,0,,給我做好覺悟！結丸
+Dialogue: 0,0:18:08.46,0:18:12.33,Default,NTP,0,0,0,,大家商量過了 不管做什麼都要把藍裏帶回來
+Dialogue: 0,0:18:12.92,0:18:17.52,Default,NTP,0,0,0,,所以我和真夢夢一起來了不是
+Dialogue: 0,0:18:19.28,0:18:22.42,Default,NTP,0,0,0,,這是我作為隊長的第一次命令
+Dialogue: 0,0:18:23.67,0:18:26.03,Default,NTP,0,0,0,,回來吧 藍裏！
+Dialogue: 0,0:18:57.60,0:18:59.58,Default,NTP,0,0,0,,做到了！
+Dialogue: 0,0:19:00.02,0:19:02.56,Default,NTP,0,0,0,,太好了 太好了啊
+Dialogue: 0,0:19:05.77,0:19:06.11,Default,NTP,0,0,0,,給！
+Dialogue: 0,0:19:17.57,0:19:18.38,Default,NTP,0,0,0,,謝謝了
+Dialogue: 0,0:19:20.66,0:19:22.31,Default,NTP,0,0,0,,為什麼佳佳要哭啊
+Dialogue: 0,0:19:22.52,0:19:23.73,Default,NTP,0,0,0,,誰哭了啊
+Dialogue: 0,0:19:28.13,0:19:30.66,Default,NTP,0,0,0,,早阪陷落 你們那裏的情況呢？
+Dialogue: 0,0:19:31.75,0:19:32.52,Default,NTP,0,0,0,,陷落？
+Dialogue: 0,0:19:35.28,0:19:37.02,Default,NTP,0,0,0,,現在把藍裏帶回去
+Dialogue: 0,0:19:46.74,0:19:50.43,Default,NTP,0,0,0,,因為湊齊了結丸而改變了主意？
+Dialogue: 0,0:19:50.63,0:19:53.09,Default,NTP,0,0,0,,藍裏可以繼續下去
+Dialogue: 0,0:19:53.47,0:19:55.60,Default,NTP,0,0,0,,能不能說得明白點啊
+Dialogue: 0,0:19:57.14,0:19:58.59,Default,NTP,0,0,0,,早阪先生怎麼說的
+Dialogue: 0,0:19:59.30,0:20:02.73,Default,NTP,0,0,0,,和平常一樣完全不知道他在說什麼
+Dialogue: 0,0:20:03.25,0:20:05.69,Default,NTP,0,0,0,,總之 藍裏回歸WUG
+Dialogue: 0,0:20:05.94,0:20:08.96,Default,NTP,0,0,0,,那個人也會繼續WUG的課程
+Dialogue: 0,0:20:09.46,0:20:10.49,Default,NTP,0,0,0,,真的啊！？
+Dialogue: 0,0:20:11.43,0:20:12.66,Default,NTP,0,0,0,,雖然說著對充滿外行人性質
+Dialogue: 0,0:20:12.66,0:20:15.81,Default,NTP,0,0,0,,土豆一樣的朋友過家家感到厭煩
+Dialogue: 0,0:20:16.68,0:20:18.07,Default,NTP,0,0,0,,但是從他的口氣聽得出來
+Dialogue: 0,0:20:18.23,0:20:21.00,Default,NTP,0,0,0,,那個怪人好像就對這一點非常有興趣
+Dialogue: 0,0:20:22.73,0:20:26.69,Default,NTP,0,0,0,,一直為I-1幹活才會這樣的吧
+Dialogue: 0,0:20:31.73,0:20:32.31,Default,NTP,0,0,0,,爸爸
+Dialogue: 0,0:20:33.42,0:20:35.24,Default,NTP,0,0,0,,幫忙才幫到一半對不起了
+Dialogue: 0,0:20:36.14,0:20:37.50,Default,NTP,0,0,0,,稍微有點事
+Dialogue: 0,0:20:41.51,0:20:42.28,Default,NTP,0,0,0,,我出門了
+Dialogue: 0,0:20:43.48,0:20:44.58,Default,NTP,0,0,0,,努力事必成
+Dialogue: 0,0:20:46.39,0:20:50.30,Default,NTP,0,0,0,,什麼事情都不能半途而廢的意思
+Dialogue: 0,0:20:52.73,0:20:53.61,Default,NTP,0,0,0,,加油吧
+Dialogue: 0,0:20:55.60,0:20:56.47,Default,NTP,0,0,0,,我出門了！
+Dialogue: 0,0:20:58.94,0:20:59.54,Default,NTP,0,0,0,,對不起！
+Dialogue: 0,0:21:00.31,0:21:01.57,Default,NTP,0,0,0,,藍藍~
+Dialogue: 0,0:21:08.15,0:21:08.72,Default,NTP,0,0,0,,歡迎歸來
+Dialogue: 0,0:21:14.03,0:21:15.89,Default,NTP,0,0,0,,終於說出想說的話了
+Dialogue: 0,0:21:17.42,0:21:21.98,Default,NTP,0,0,0,,有點明白卡莉娜小姐說過的「去吵架吧」了
+Dialogue: 0,0:21:26.69,0:21:29.30,Default,NTP,0,0,0,,真夢夢要是有什麼想說的話
+Dialogue: 0,0:21:38.30,0:21:38.65,Default,NTP,0,0,0,,那個！
+Dialogue: 0,0:21:40.83,0:21:45.49,Default,NTP,0,0,0,,我絕對會讓早阪先生認同我的
+Dialogue: 0,0:21:47.44,0:21:50.37,Default,NTP,0,0,0,,讓我認同你有什麼用
+Dialogue: 0,0:21:51.56,0:21:55.68,Default,NTP,0,0,0,,需要認同你們的是一般people
+Dialogue: 0,0:21:55.83,0:21:57.71,Default,NTP,0,0,0,,也就是觀眾
+Dialogue: 0,0:21:58.09,0:22:00.09,Default,NTP,0,0,0,,於是 這個
+Dialogue: 0,0:22:06.37,0:22:08.66,Default,NTP,0,0,0,,『偶像的祭典』的應募用紙
+Dialogue: 0,0:22:08.95,0:22:11.01,Default,NTP,0,0,0,,你們要報名這個
+Dialogue: 0,0:22:11.52,0:22:12.48,Default,NTP,0,0,0,,哎！？
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,//NEXT
+Dialogue: 0,0:23:45.69,0:23:47.97,Default,NTP,0,0,0,,真夢夢你和佳佳的關係很好麼？
+Dialogue: 0,0:23:48.18,0:23:49.44,Default,NTP,0,0,0,,為啥突然問這個
+Dialogue: 0,0:23:49.55,0:23:52.00,Default,NTP,0,0,0,,總感覺一直有這樣的氛圍
+Dialogue: 0,0:23:52.11,0:23:53.19,Default,NTP,0,0,0,,是…是麼？
+Dialogue: 0,0:23:53.36,0:23:54.11,Default,NTP,0,0,0,,一般啦
+Dialogue: 0,0:23:54.25,0:23:56.29,Default,NTP,0,0,0,,這樣啊 那這樣就算了
+Dialogue: 0,0:23:56.41,0:23:57.77,Default,NTP,0,0,0,,總感覺有點意味深長
+Dialogue: 0,0:23:58.13,0:23:59.43,Default,NTP,0,0,0,,下一集 「凌亂」
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,//NEXT-END
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:05.61,0:00:09.52,OP,NTP,0,0,0,,各位 都把問題交給我們吧
+Dialogue: 0,0:00:11.16,0:00:15.95,OP,NTP,0,0,0,,無論多麼困難 都會輕鬆解決
+Dialogue: 0,0:00:16.40,0:00:20.46,OP,NTP,0,0,0,,就算平時多麼沒有自信
+Dialogue: 0,0:00:21.62,0:00:28.54,OP,NTP,0,0,0,,只要能與你相遇 我也可以改變
+Dialogue: 0,0:00:29.44,0:00:31.96,OP,NTP,0,0,0,,絕對不想被人說成
+Dialogue: 0,0:00:32.56,0:00:34.34,OP,NTP,0,0,0,,什麼都不懂的孩子
+Dialogue: 0,0:00:34.75,0:00:36.94,OP,NTP,0,0,0,,少女從夢中醒來
+Dialogue: 0,0:00:37.31,0:00:41.92,OP,NTP,0,0,0,,為了抓住那份幸福
+Dialogue: 0,0:00:42.27,0:00:43.99,OP,NTP,0,0,0,,TAKE OFF!
+Dialogue: 0,0:00:44.20,0:00:45.30,OP,NTP,0,0,0,,3!2!1!GO!
+Dialogue: 0,0:00:45.66,0:00:50.76,OP,NTP,0,0,0,,讓自己做個大大的改變
+Dialogue: 0,0:00:51.02,0:00:55.51,OP,NTP,0,0,0,,這並不是無法做到的事
+Dialogue: 0,0:00:55.74,0:01:00.82,OP,NTP,0,0,0,,因為有你在我的身旁
+Dialogue: 0,0:01:01.10,0:01:06.22,OP,NTP,0,0,0,,勇敢地向前邁出步伐
+Dialogue: 0,0:01:06.51,0:01:12.01,OP,NTP,0,0,0,,距離夢想還有很長的路
+Dialogue: 0,0:01:12.34,0:01:16.76,OP,NTP,0,0,0,,但我並不會心急
+Dialogue: 0,0:01:17.06,0:01:22.29,OP,NTP,0,0,0,,讓信念變得更加堅定
+Dialogue: 0,0:01:22.63,0:01:28.15,OP,NTP,0,0,0,,明天才會無比閃耀
+Dialogue: 0,0:00:00.00,0:00:00.00,OP,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,OP,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,OP,NTP,0,0,0,,
+Dialogue: 0,0:22:21.70,0:22:26.07,ED,NTP,0,0,0,,輕輕哼起歌
+Dialogue: 0,0:22:26.64,0:22:30.93,ED,NTP,0,0,0,,大家緩步行
+Dialogue: 0,0:22:31.34,0:22:40.18,ED,NTP,0,0,0,,用音符連起希望
+Dialogue: 0,0:22:40.82,0:22:44.91,ED,NTP,0,0,0,,走向前方的街道
+Dialogue: 0,0:22:45.46,0:22:48.88,ED,NTP,0,0,0,,美麗卻不年輕
+Dialogue: 0,0:22:49.22,0:22:53.82,ED,NTP,0,0,0,,是因為在那個地方
+Dialogue: 0,0:22:53.82,0:22:58.08,ED,NTP,0,0,0,,知曉了誰的悲傷
+Dialogue: 0,0:22:59.79,0:23:03.39,ED,NTP,0,0,0,,青山滿山麓
+Dialogue: 0,0:23:03.59,0:23:08.70,ED,NTP,0,0,0,,無論季節如何流轉
+Dialogue: 0,0:23:09.01,0:23:18.86,ED,NTP,0,0,0,,依舊在這裏靜靜萌芽綻放
+Dialogue: 0,0:23:19.16,0:23:22.72,ED,NTP,0,0,0,,拭去眼邊的淚
+Dialogue: 0,0:23:22.92,0:23:27.85,ED,NTP,0,0,0,,你的笑顏像花一樣
+Dialogue: 0,0:23:28.15,0:23:32.74,ED,NTP,0,0,0,,此刻什麼都不要說
+Dialogue: 0,0:23:33.00,0:23:35.99,ED,NTP,0,0,0,,只要陪在身邊
+Dialogue: 0,0:23:36.20,0:23:41.51,ED,NTP,0,0,0,,就已足夠
+Dialogue: 0,0:00:01.70,0:00:01.70,ED,NTP,0,0,0,,
+Dialogue: 0,0:00:01.70,0:00:01.70,ED,NTP,0,0,0,,
+Dialogue: 0,0:00:01.70,0:00:01.70,ED,NTP,0,0,0,,
+

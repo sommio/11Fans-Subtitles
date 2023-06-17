@@ -1,0 +1,371 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正魏碑_GBK,48,&H00FFFFFF,&HF0000000,&H00232181,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,3,134
+Style: warning,FZZhunYuan-M02,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: logo,DFPYeaSong-B5,60,&H004A11BB,&H000000FF,&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: title,FZCuSong-B09T,40,&H00000000,&H000000FF,&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,1
+Style: NEXT,方正粗宋_GBK,40,&H00000000,&H000000FF,&HC8000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: yugao,方正魏碑_GBK,48,&H00232181,&H000000FF,&H00FEFEFE,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:06.27,0:02:11.27,logo,,0,0,0,,{\pos(640,266)\fsp40\t(800,850,\1c&H4B232E&\1a&50&)\t(850,1180,\1c&H4A11BB&\1a&20&)\t(2050,2100,\1a&10&\t(2100,2800,\1a&00&))}{\t(50,3000,\fsp6)\t(3050,4700,\fs55\t(4700,4850,\fs512))}異域字幕組
+Dialogue: 0,0:02:06.27,0:02:11.27,logo,,0,0,0,,{\1a&HFF&\move(650,266,645,266,2250,2300)\fsp40\c&H9139C7&\t(800,850,\1a&30&\t(850,1400,\1a&HFF&\t(2050,2100,\1a&00&\1c&HED00E7&\t(2100,2800,\1a&HFF&))))}{\t(50,3000,\fsp6)}異域字幕組
+Dialogue: 0,0:02:06.27,0:02:11.27,logo,,0,0,0,,{\1a&HFF&\pos(630,266)\fsp40\c&H50FFF1&\t(800,850,\1a&90&\t(850,1400,\1a&HFF&\t(2050,2100,\1c&H50FFF1&\1a&50&\t(2100,2800,\1a&HFF&))))}{\t(50,3000,\fsp6)}異域字幕組
+Dialogue: 0,0:03:30.86,0:03:35.86,warning,,0,0,0,,{\blur4\be3\fad(100,100)}本片字幕由異域字幕組(http://www.yyman.com.cn)製作,僅供試看之用,請在24小時內刪除,\N如果喜歡本作品,請購買並支援正版!如因私自散佈造成的法律問題,本字幕組恕不負責。
+Dialogue: 0,0:03:35.95,0:03:40.90,warning,,0,0,0,,{\blur4\be3\fad(100,100)}翻譯：作死病院大怪獸 zea 作死病院手術刀 作死病號89  校對：作死病院院長  時間：萌鹿鹿  後期：作死病院院助
+Dialogue: 0,0:00:14.05,0:00:16.26,Default,NTP,0,0,0,,那傢伙被傷的很深
+Dialogue: 0,0:00:17.37,0:00:19.11,Default,NTP,0,0,0,,不該放他跑嗎…
+Dialogue: 0,0:00:22.23,0:00:23.04,Default,NTP,0,0,0,,兆麻
+Dialogue: 0,0:00:24.48,0:00:25.13,Default,NTP,0,0,0,,在
+Dialogue: 0,0:00:26.40,0:00:27.40,Default,NTP,0,0,0,,來這裡
+Dialogue: 0,0:00:33.22,0:00:34.01,Default,NTP,0,0,0,,報告
+Dialogue: 0,0:00:34.26,0:00:34.73,Default,NTP,0,0,0,,是
+Dialogue: 0,0:00:35.89,0:00:37.81,Default,NTP,0,0,0,,風穴打開已有三天
+Dialogue: 0,0:00:38.16,0:00:41.60,Default,NTP,0,0,0,,請求分社和其他神社張開的結界
+Dialogue: 0,0:00:41.74,0:00:43.76,Default,NTP,0,0,0,,進一步的擴大已經被壓制住了
+Dialogue: 0,0:00:45.67,0:00:49.33,Default,NTP,0,0,0,,但是 已經溢出的妖怪只能祛除
+Dialogue: 0,0:00:50.26,0:00:51.76,Default,NTP,0,0,0,,夜鬥找到了麼
+Dialogue: 0,0:00:54.68,0:00:55.81,Default,NTP,0,0,0,,{\fn方正准圆_GBK\fs43}毘{\r}沙門大人
+Dialogue: 0,0:00:56.27,0:00:56.93,Default,NTP,0,0,0,,什麼事
+Dialogue: 0,0:00:59.80,0:01:01.39,Default,NTP,0,0,0,,現在只有我們倆人
+Dialogue: 0,0:01:06.15,0:01:08.10,Default,NTP,0,0,0,,又這樣弄濕頭髮
+Dialogue: 0,0:01:08.87,0:01:09.79,Default,NTP,0,0,0,,會感冒的
+Dialogue: 0,0:01:16.47,0:01:17.49,Default,NTP,0,0,0,,恕我冒昧
+Dialogue: 0,0:01:18.98,0:01:20.58,Default,NTP,0,0,0,,之前那次戰鬥是什麼
+Dialogue: 0,0:01:20.87,0:01:22.47,Default,NTP,0,0,0,,完全沒有考慮囷巴他們
+Dialogue: 0,0:01:22.71,0:01:24.29,Default,NTP,0,0,0,,因為私怨而一意孤行
+Dialogue: 0,0:01:25.31,0:01:27.72,Default,NTP,0,0,0,,您有欠作為主人的資格
+Dialogue: 0,0:01:27.73,0:01:28.58,Default,NTP,0,0,0,,夠了
+Dialogue: 0,0:01:35.62,0:01:38.60,Default,NTP,0,0,0,,現在首先要做的是處理風穴
+Dialogue: 0,0:01:39.51,0:01:41.67,Default,NTP,0,0,0,,自己造的孽要由自己收拾
+Dialogue: 0,0:01:42.65,0:01:46.24,Default,NTP,0,0,0,,這點我還是明白的
+Dialogue: 0,0:01:48.08,0:01:49.67,Default,NTP,0,0,0,,這才是{\fn方正准圆_GBK\fs43}毘{\r}沙門大人
+Dialogue: 0,0:01:50.87,0:01:52.90,Default,NTP,0,0,0,,囷巴 {\fn方正准圆_GBK\fs40}紝{\r}巴 {\fn方正准圆_GBK\fs40}靫{\r}巴
+Dialogue: 0,0:01:53.47,0:01:56.11,Default,NTP,0,0,0,,秋巴 刈巴 數巴 紹巴
+Dialogue: 0,0:01:59.54,0:02:00.34,Default,NTP,0,0,0,,出發
+Dialogue: 0,0:03:33.45,0:03:35.31,Default,NTP,0,0,0,,雪音君 醒著麼
+Dialogue: 0,0:03:38.70,0:03:41.30,Default,NTP,0,0,0,,我把早飯拿來了
+Dialogue: 0,0:03:41.45,0:03:43.34,Default,NTP,0,0,0,,謝謝 日和
+Dialogue: 0,0:03:45.18,0:03:46.88,Default,NTP,0,0,0,,為什麼夜鬥在這裡
+Dialogue: 0,0:03:46.93,0:03:48.68,Default,NTP,0,0,0,,雪音君怎麼了
+Dialogue: 0,0:03:49.76,0:03:50.69,Default,NTP,0,0,0,,離家出走了
+Dialogue: 0,0:03:51.42,0:03:53.60,Default,NTP,0,0,0,,去天神那裡了吧
+Dialogue: 0,0:03:53.65,0:03:56.08,Default,NTP,0,0,0,,離家出走 你沒阻止他麼
+Dialogue: 0,0:03:56.48,0:04:00.22,Default,NTP,0,0,0,,沒 要用他的時候在身邊就行了
+Dialogue: 0,0:04:03.10,0:04:07.11,title,NTP,0,0,0,,{\c&HFFFFFF&\pos(494,258)}迷\N惑\N之\N事
+Dialogue: 0,0:04:03.10,0:04:07.11,title,NTP,0,0,0,,{\pos(446,258)\c&HFFFFFF&}确\N定\N之\N事
+Dialogue: 0,0:04:12.60,0:04:13.63,Default,NTP,0,0,0,,日和小姐
+Dialogue: 0,0:04:13.91,0:04:15.07,Default,NTP,0,0,0,,天神大人
+Dialogue: 0,0:04:15.32,0:04:18.02,Default,NTP,0,0,0,,怎麼了 學習上有困難麼
+Dialogue: 0,0:04:18.61,0:04:20.98,Default,NTP,0,0,0,,不好意思 雪音君在麼
+Dialogue: 0,0:04:21.55,0:04:23.71,Default,NTP,0,0,0,,今天早上來過了
+Dialogue: 0,0:04:24.82,0:04:27.61,Default,NTP,0,0,0,,我想到這裡來工作 不行麼
+Dialogue: 0,0:04:29.32,0:04:31.45,Default,NTP,0,0,0,,有一個月了吧
+Dialogue: 0,0:04:32.58,0:04:35.70,Default,NTP,0,0,0,,真喻在夜鬥大人那裡待了多久
+Dialogue: 0,0:04:36.00,0:04:37.09,Default,NTP,0,0,0,,三個月
+Dialogue: 0,0:04:37.14,0:04:38.84,Default,NTP,0,0,0,,真能忍啊
+Dialogue: 0,0:04:38.85,0:04:40.31,Default,NTP,0,0,0,,我可忍不下
+Dialogue: 0,0:04:40.32,0:04:41.28,Default,NTP,0,0,0,,絕對沒戲
+Dialogue: 0,0:04:41.30,0:04:42.35,Default,NTP,0,0,0,,好了
+Dialogue: 0,0:04:43.06,0:04:46.84,Default,NTP,0,0,0,,你在夜鬥君那裡時間還不長吧
+Dialogue: 0,0:04:47.06,0:04:48.56,Default,NTP,0,0,0,,為什麼突然…
+Dialogue: 0,0:04:49.09,0:04:51.06,Default,NTP,0,0,0,,那傢伙太討厭了
+Dialogue: 0,0:04:51.45,0:04:52.99,Default,NTP,0,0,0,,神社也沒有錢也沒有
+Dialogue: 0,0:04:53.13,0:04:54.05,Default,NTP,0,0,0,,還很囉嗦
+Dialogue: 0,0:04:54.35,0:04:55.76,Default,NTP,0,0,0,,好像還有很多過去
+Dialogue: 0,0:04:56.60,0:04:59.41,Default,NTP,0,0,0,,而且除了我以外還有別的神器
+Dialogue: 0,0:05:00.55,0:05:04.07,Default,NTP,0,0,0,,所以就覺得沒必要勉強自己待在那裡
+Dialogue: 0,0:05:06.44,0:05:09.11,Default,NTP,0,0,0,,來找我幫忙我很欣慰
+Dialogue: 0,0:05:09.14,0:05:11.45,Default,NTP,0,0,0,,但是現在我沒法雇你
+Dialogue: 0,0:05:11.76,0:05:14.33,Default,NTP,0,0,0,,如果我給現在的你命名的話
+Dialogue: 0,0:05:15.59,0:05:17.50,Default,NTP,0,0,0,,你會變成野良的
+Dialogue: 0,0:05:19.32,0:05:20.12,Default,NTP,0,0,0,,野良？
+Dialogue: 0,0:05:22.59,0:05:26.12,Default,NTP,0,0,0,,那個…野良是什麼
+Dialogue: 0,0:05:26.54,0:05:28.59,Default,NTP,0,0,0,,我一直以為是名字
+Dialogue: 0,0:05:28.91,0:05:31.70,Default,NTP,0,0,0,,野良 打個比方
+Dialogue: 0,0:05:31.80,0:05:33.51,Default,NTP,0,0,0,,就像是神仙的私處
+Dialogue: 0,0:05:34.39,0:05:36.07,Default,NTP,0,0,0,,私處 能理解麼
+Dialogue: 0,0:05:42.52,0:05:44.99,Default,NTP,0,0,0,,公 請您注意自己的措辭
+Dialogue: 0,0:05:45.07,0:05:49.53,Default,NTP,0,0,0,,梅雨 此乃文藻 非是騷擾
+Dialogue: 0,0:05:51.36,0:05:54.06,Default,NTP,0,0,0,,野良就是指像野貓一樣
+Dialogue: 0,0:05:54.08,0:05:57.14,Default,NTP,0,0,0,,同時擁有多個主人的神器的統稱
+Dialogue: 0,0:05:57.85,0:06:00.63,Default,NTP,0,0,0,,但是擁有越多的名字
+Dialogue: 0,0:06:00.69,0:06:03.42,Default,NTP,0,0,0,,也就意味著背叛主人的次數越多
+Dialogue: 0,0:06:03.66,0:06:06.14,Default,NTP,0,0,0,,同時也會被他人所忌憚
+Dialogue: 0,0:06:08.44,0:06:09.43,Default,NTP,0,0,0,,換個說法吧
+Dialogue: 0,0:06:09.64,0:06:13.54,Default,NTP,0,0,0,,如果我給日和小姐取個別的名字的話 你會怎麼想
+Dialogue: 0,0:06:13.94,0:06:16.41,Default,NTP,0,0,0,,讓我成為你新的命名父母嗎
+Dialogue: 0,0:06:17.24,0:06:18.49,Default,NTP,0,0,0,,叫什麼好呢
+Dialogue: 0,0:06:18.51,0:06:21.27,Default,NTP,0,0,0,,小由美？小友？小優子？
+Dialogue: 0,0:06:21.38,0:06:22.81,Default,NTP,0,0,0,,這就有點…
+Dialogue: 0,0:06:23.01,0:06:26.42,Default,NTP,0,0,0,,是吧 這樣你會覺得有愧于父母吧
+Dialogue: 0,0:06:26.64,0:06:27.36,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:06:27.56,0:06:30.25,Default,NTP,0,0,0,,人會本能地排斥
+Dialogue: 0,0:06:31.52,0:06:34.59,Default,NTP,0,0,0,,所以野良 才會成為被厭棄的對象
+Dialogue: 0,0:06:35.08,0:06:35.99,Default,NTP,0,0,0,,厭棄
+Dialogue: 0,0:06:40.53,0:06:42.98,Default,NTP,0,0,0,,一般 神器只會有一個名字
+Dialogue: 0,0:06:42.99,0:06:44.89,Default,NTP,0,0,0,,並且只侍奉一位主人
+Dialogue: 0,0:06:45.59,0:06:47.68,Default,NTP,0,0,0,,想要為新的主人所用
+Dialogue: 0,0:06:47.72,0:06:50.99,Default,NTP,0,0,0,,請前任主人去掉名字是常識
+Dialogue: 0,0:06:51.34,0:06:52.62,Default,NTP,0,0,0,,就像真喻那樣
+Dialogue: 0,0:06:53.65,0:06:56.49,Default,NTP,0,0,0,,那麼為什麼 還會存在野良呢
+Dialogue: 0,0:06:57.26,0:07:04.32,Default,NTP,0,0,0,,大體上 都是在有不能用自己的神器做的事的時候使用
+Dialogue: 0,0:07:08.90,0:07:09.99,Default,NTP,0,0,0,,那…那個
+Dialogue: 0,0:07:10.39,0:07:13.45,Default,NTP,0,0,0,,天神大人知道一個女孩子的野良嗎
+Dialogue: 0,0:07:13.91,0:07:15.41,Default,NTP,0,0,0,,和雪音君差不多年齡樣子的…
+Dialogue: 0,0:07:15.41,0:07:19.01,Default,NTP,0,0,0,,對不起了 請不要再追問那個了
+Dialogue: 0,0:07:19.61,0:07:22.28,Default,NTP,0,0,0,,光是聽到那個名字就讓我毛骨悚然呢
+Dialogue: 0,0:07:23.59,0:07:25.99,Default,NTP,0,0,0,,公您也請不要隨意提起
+Dialogue: 0,0:07:26.24,0:07:30.52,Default,NTP,0,0,0,,沒事 我不會去用 也不會想去用的
+Dialogue: 0,0:07:32.24,0:07:36.44,Default,NTP,0,0,0,,和那種下賤之人 我根本不想有所交集
+Dialogue: 0,0:07:49.20,0:07:51.17,Default,NTP,0,0,0,,明明只要用我就好了嘛
+Dialogue: 0,0:07:52.29,0:07:52.90,Default,NTP,0,0,0,,野良
+Dialogue: 0,0:07:53.77,0:07:56.43,Default,NTP,0,0,0,,明明我一直都看著夜鬥
+Dialogue: 0,0:07:56.96,0:07:58.74,Default,NTP,0,0,0,,但是你卻完全不呼喚我
+Dialogue: 0,0:07:59.45,0:08:00.68,Default,NTP,0,0,0,,我好寂寞啊
+Dialogue: 0,0:08:03.89,0:08:05.46,Default,NTP,0,0,0,,那種不安定的孩子
+Dialogue: 0,0:08:05.59,0:08:07.05,Default,NTP,0,0,0,,明明扔掉就好了嘛
+Dialogue: 0,0:08:13.33,0:08:14.86,Default,NTP,0,0,0,,用我吧
+Dialogue: 0,0:08:16.10,0:08:19.25,Default,NTP,0,0,0,,我的話 肯定比那孩子更有用
+Dialogue: 0,0:08:30.66,0:08:32.94,Default,NTP,0,0,0,,雪音君 不在呢
+Dialogue: 0,0:08:39.40,0:08:41.02,Default,NTP,0,0,0,,這不是夜鬥的味道
+Dialogue: 0,0:08:48.33,0:08:49.42,Default,NTP,0,0,0,,{\fn方正准圆_GBK\fs43}毘{\r}沙門天
+Dialogue: 0,0:08:57.58,0:08:59.31,Default,NTP,0,0,0,,果然你能看得見
+Dialogue: 0,0:08:59.62,0:09:01.52,Default,NTP,0,0,0,,你…你是{\fn方正准圆_GBK\fs43}毘{\r}沙門的…
+Dialogue: 0,0:09:01.92,0:09:03.65,Default,NTP,0,0,0,,之前你還是生靈的樣子
+Dialogue: 0,0:09:04.61,0:09:05.85,Default,NTP,0,0,0,,也就是說你是半妖嗎
+Dialogue: 0,0:09:06.50,0:09:09.86,Default,NTP,0,0,0,,還真是沒一個正常人呢 夜鬥的周圍
+Dialogue: 0,0:09:11.82,0:09:12.87,Default,NTP,0,0,0,,會被殺掉的
+Dialogue: 0,0:09:16.44,0:09:17.10,Default,NTP,0,0,0,,縛布
+Dialogue: 0,0:09:20.98,0:09:22.20,Default,NTP,0,0,0,,身體不能動了
+Dialogue: 0,0:09:26.83,0:09:27.57,Default,NTP,0,0,0,,陰固
+Dialogue: 0,0:09:43.93,0:09:46.17,Default,NTP,0,0,0,,誰快來救救我啊 神呐
+Dialogue: 0,0:09:47.14,0:09:49.75,Default,NTP,0,0,0,,啊啊啊 我已經死了
+Dialogue: 0,0:09:50.19,0:09:52.86,Default,NTP,0,0,0,,兆麻 找到下一個妖魔了嗎
+Dialogue: 0,0:09:53.11,0:09:53.63,Default,NTP,0,0,0,,還沒有
+Dialogue: 0,0:09:54.77,0:09:58.24,Default,NTP,0,0,0,,這一區域已經沒有妖魔的味道了呢 大小姐
+Dialogue: 0,0:09:58.75,0:10:02.51,Default,NTP,0,0,0,,就像囷巴說的 這一區的驅除已經基本完成了
+Dialogue: 0,0:10:03.10,0:10:05.61,Default,NTP,0,0,0,,如果還有遺漏 那只有偏南方那裡了吧
+Dialogue: 0,0:10:07.09,0:10:10.23,Default,NTP,0,0,0,,這難道 是看不見我嗎
+Dialogue: 0,0:10:11.29,0:10:13.97,Default,NTP,0,0,0,,雖然還有點早 要不要擴大一點範圍
+Dialogue: 0,0:10:14.35,0:10:16.42,Default,NTP,0,0,0,,那麼 為了以防萬一
+Dialogue: 0,0:10:16.52,0:10:18.36,Default,NTP,0,0,0,,我再做一次探測再來追你們
+Dialogue: 0,0:10:18.61,0:10:19.34,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:10:20.11,0:10:23.25,Default,NTP,0,0,0,,抱歉了囷巴 明明你的傷都還沒好
+Dialogue: 0,0:10:23.57,0:10:25.70,Default,NTP,0,0,0,,這麼一點完全沒事的
+Dialogue: 0,0:10:26.53,0:10:28.19,Default,NTP,0,0,0,,那麼拜託你了 囷巴
+Dialogue: 0,0:10:28.62,0:10:29.25,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:10:32.13,0:10:35.33,Default,NTP,0,0,0,,和天神大人還有小福小姐那裡的感覺都不一樣
+Dialogue: 0,0:10:36.05,0:10:37.44,Default,NTP,0,0,0,,就好像一個隊伍
+Dialogue: 0,0:10:38.07,0:10:39.74,Default,NTP,0,0,0,,也有像這樣的神存在啊
+Dialogue: 0,0:10:41.78,0:10:45.60,Default,NTP,0,0,0,,你可別陷得太深哦 一岐日和
+Dialogue: 0,0:10:49.36,0:10:51.04,Default,NTP,0,0,0,,為什麼你會知道我的名字
+Dialogue: 0,0:10:51.40,0:10:53.31,Default,NTP,0,0,0,,怪了 身體能動了
+Dialogue: 0,0:10:54.03,0:10:56.80,Default,NTP,0,0,0,,掌握控制在場的事物便是我的能力
+Dialogue: 0,0:10:57.50,0:10:59.93,Default,NTP,0,0,0,,掌握之後對他們施加法術也是辦得到的
+Dialogue: 0,0:11:00.52,0:11:01.49,Default,NTP,0,0,0,,就像剛才那樣
+Dialogue: 0,0:11:02.07,0:11:03.45,Default,NTP,0,0,0,,我的錢包
+Dialogue: 0,0:11:03.66,0:11:05.64,Default,NTP,0,0,0,,是…是什麼時候
+Dialogue: 0,0:11:07.56,0:11:10.33,Default,NTP,0,0,0,,如果你再碰上{\fn方正准圆_GBK\fs40}毘{\r}娜…{\fn方正准圆_GBK\fs40}毘{\r}沙門的話
+Dialogue: 0,0:11:10.45,0:11:11.92,Default,NTP,0,0,0,,就裝作沒看見
+Dialogue: 0,0:11:12.82,0:11:14.23,Default,NTP,0,0,0,,如果你還珍惜生命的話
+Dialogue: 0,0:11:15.81,0:11:17.79,Default,NTP,0,0,0,,為什麼要救我
+Dialogue: 0,0:11:18.23,0:11:20.42,Default,NTP,0,0,0,,你們不是憎恨著夜鬥嗎
+Dialogue: 0,0:11:21.48,0:11:23.72,Default,NTP,0,0,0,,他確實是我們的敵人
+Dialogue: 0,0:11:25.22,0:11:25.77,Default,NTP,0,0,0,,但是
+Dialogue: 0,0:11:28.03,0:11:29.69,Default,NTP,0,0,0,,他同時也是我們的恩人
+Dialogue: 0,0:11:38.79,0:11:40.89,Default,NTP,0,0,0,,話說回來 夜鬥身體還好嗎
+Dialogue: 0,0:11:42.14,0:11:43.29,Default,NTP,0,0,0,,他應該染了恙了吧
+Dialogue: 0,0:11:44.06,0:11:45.40,Default,NTP,0,0,0,,而且看上去還不輕的樣子
+Dialogue: 0,0:11:45.80,0:11:46.72,Default,NTP,0,0,0,,有那麼嚴重嗎
+Dialogue: 0,0:11:47.78,0:11:49.63,Default,NTP,0,0,0,,那不是外物所造成的
+Dialogue: 0,0:11:50.57,0:11:52.40,Default,NTP,0,0,0,,恐怕是從內部造成的
+Dialogue: 0,0:11:53.73,0:11:56.78,Default,NTP,0,0,0,,夜鬥的神器 好像是叫雪器吧
+Dialogue: 0,0:11:57.73,0:11:59.75,Default,NTP,0,0,0,,那個還是儘快處理掉比較好
+Dialogue: 0,0:12:00.77,0:12:01.75,Default,NTP,0,0,0,,處理？
+Dialogue: 0,0:12:02.59,0:12:05.67,Default,NTP,0,0,0,,沒 沒關係的 雪音君是個好孩子
+Dialogue: 0,0:12:05.68,0:12:07.19,Default,NTP,0,0,0,,而且原本就是人類
+Dialogue: 0,0:12:07.52,0:12:09.91,Default,NTP,0,0,0,,殺神器就和殺人沒什麼兩樣吧
+Dialogue: 0,0:12:10.15,0:12:14.87,Default,NTP,0,0,0,,他以前有砍過神器 也會殺人的哦
+Dialogue: 0,0:12:17.25,0:12:19.12,Default,NTP,0,0,0,,可不能錯過時機啊
+Dialogue: 0,0:12:20.81,0:12:22.60,Default,NTP,0,0,0,,神器如果一直作惡的話
+Dialogue: 0,0:12:23.02,0:12:24.87,Default,NTP,0,0,0,,會讓他的主人患病的
+Dialogue: 0,0:12:25.70,0:12:28.16,Default,NTP,0,0,0,,如果放置不管的話痛苦會不斷累積
+Dialogue: 0,0:12:28.47,0:12:31.52,Default,NTP,0,0,0,,恙擴散至全身 漸漸惡化
+Dialogue: 0,0:12:35.87,0:12:39.26,Default,NTP,0,0,0,,真是 夜鬥為什麼還要用那種神器呢
+Dialogue: 0,0:12:40.72,0:12:42.35,Default,NTP,0,0,0,,你是他的眷屬吧
+Dialogue: 0,0:12:43.56,0:12:45.33,Default,NTP,0,0,0,,你什麼都沒聽他說嗎
+Dialogue: 0,0:12:47.90,0:12:49.62,Default,NTP,0,0,0,,雖然拜託你有點奇怪
+Dialogue: 0,0:12:51.97,0:12:53.24,Default,NTP,0,0,0,,不過請你救救夜鬥吧
+Dialogue: 0,0:12:54.34,0:12:55.77,Default,NTP,0,0,0,,我不想失去我的恩人
+Dialogue: 0,0:13:00.24,0:13:01.91,Default,NTP,0,0,0,,我…我知道了
+Dialogue: 0,0:13:02.89,0:13:04.28,Default,NTP,0,0,0,,再不對那個叫雪音的壞小鬼
+Dialogue: 0,0:13:05.39,0:13:06.61,Default,NTP,0,0,0,,採取措施的話…
+Dialogue: 0,0:13:13.56,0:13:14.29,Default,NTP,0,0,0,,可惡…
+Dialogue: 0,0:13:14.62,0:13:16.43,Default,NTP,0,0,0,,那個倒眉毛老頭
+Dialogue: 0,0:13:17.06,0:13:18.90,Default,NTP,0,0,0,,被拒絕啦
+Dialogue: 0,0:13:20.54,0:13:21.61,Default,NTP,0,0,0,,煩死了
+Dialogue: 0,0:13:24.29,0:13:25.41,Default,NTP,0,0,0,,幹什麼啊
+Dialogue: 0,0:13:26.40,0:13:28.12,Default,NTP,0,0,0,,要工作了 雪音
+Dialogue: 0,0:13:30.34,0:13:32.97,logo,NTP,0,0,0,,{\fad(100,0)\c&HEAEAEA&\fsp20\move(640,536,640,510,0,600)\clip(502,452,754,486)}野良神
+Dialogue: 0,0:13:30.34,0:13:32.97,logo,NTP,0,0,0,,{\fad(100,0)\c&HEAEAEA&\fsp20\move(640,494,640,510,0,600)\clip(512,486,752,512)}野良神
+Dialogue: 0,0:13:30.34,0:13:32.97,logo,NTP,0,0,0,,{\c&HEAEAEA&\move(640,204,640,172,0,600)\clip(486,114,828,144)}異域字幕組
+Dialogue: 0,0:13:30.34,0:13:32.97,logo,NTP,0,0,0,,{\c&HEAEAEA&\move(640,144,640,172,0,600)\clip(458,144,802,208)}異域字幕組
+Dialogue: 0,0:13:33.34,0:13:37.26,logo,,0,0,0,,{\2a&HFF&\c&HFEFEFE&\move(1022,578,1298,578,3700,3950)}{\k30}野{\k30}良{\k30\move(1014,588,1290,588,3700,3950)}神
+Dialogue: 0,0:13:40.12,0:13:41.51,Default,NTP,0,0,0,,把關東煮上的白沫給撈掉…
+Dialogue: 0,0:13:44.51,0:13:46.52,Default,NTP,0,0,0,,工作就是這個啊
+Dialogue: 0,0:13:47.03,0:13:48.78,Default,NTP,0,0,0,,你別給我做神了
+Dialogue: 0,0:13:48.80,0:13:50.00,Default,NTP,0,0,0,,話說你快給我到職業介紹所去！
+Dialogue: 0,0:13:50.01,0:13:51.50,Default,NTP,0,0,0,,給我閉嘴你個沒用的傢伙
+Dialogue: 0,0:13:51.66,0:13:53.97,Default,NTP,0,0,0,,這可是從人類大人那裡得到的委託
+Dialogue: 0,0:13:53.99,0:13:56.99,Default,NTP,0,0,0,,如果深夜裡沒人顧店的話店長可會很困擾的哦
+Dialogue: 0,0:13:57.60,0:13:59.13,Default,NTP,0,0,0,,燙死了 燙死了
+Dialogue: 0,0:13:59.71,0:14:00.83,Default,NTP,0,0,0,,遜爆了
+Dialogue: 0,0:14:01.07,0:14:01.70,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:14:02.11,0:14:04.28,Default,NTP,0,0,0,,為什麼老是讓我碰到這種事
+Dialogue: 0,0:14:08.26,0:14:09.33,Default,NTP,0,0,0,,真的在啊
+Dialogue: 0,0:14:09.49,0:14:10.34,Default,NTP,0,0,0,,大黑
+Dialogue: 0,0:14:10.96,0:14:12.48,Default,NTP,0,0,0,,小夜鬥！
+Dialogue: 0,0:14:13.20,0:14:14.53,Default,NTP,0,0,0,,小福！！
+Dialogue: 0,0:14:16.18,0:14:17.83,Default,NTP,0,0,0,,別進來 窮神！
+Dialogue: 0,0:14:18.22,0:14:21.34,Default,NTP,0,0,0,,你這臭小子對我家老婆做什麼呢
+Dialogue: 0,0:14:22.88,0:14:24.63,Default,NTP,0,0,0,,那可是正義的制裁
+Dialogue: 0,0:14:25.09,0:14:26.20,Default,NTP,0,0,0,,又是惠比壽又弄個大黑
+Dialogue: 0,0:14:26.21,0:14:27.87,Default,NTP,0,0,0,,沒得到本人允許就盜用他人名字
+Dialogue: 0,0:14:27.89,0:14:29.03,Default,NTP,0,0,0,,你個黑心商人
+Dialogue: 0,0:14:29.05,0:14:30.32,Default,NTP,0,0,0,,就是個名號罷了
+Dialogue: 0,0:14:30.33,0:14:32.41,Default,NTP,0,0,0,,這種店多了去了
+Dialogue: 0,0:14:34.51,0:14:36.14,Default,NTP,0,0,0,,好痛啊
+Dialogue: 0,0:14:36.15,0:14:38.53,Default,NTP,0,0,0,,快摸摸我 小日和
+Dialogue: 0,0:14:38.74,0:14:40.93,Default,NTP,0,0,0,,你…你還好嗎
+Dialogue: 0,0:14:41.25,0:14:42.12,Default,NTP,0,0,0,,日和？
+Dialogue: 0,0:14:43.68,0:14:44.84,Default,NTP,0,0,0,,打擾了
+Dialogue: 0,0:14:49.84,0:14:52.84,Default,NTP,0,0,0,,是小日和帶我們到這裡來的哦
+Dialogue: 0,0:14:53.31,0:14:54.15,Default,NTP,0,0,0,,帶？
+Dialogue: 0,0:14:54.42,0:14:55.90,Default,NTP,0,0,0,,真虧你知道我們在這裡啊
+Dialogue: 0,0:14:56.95,0:14:58.37,Default,NTP,0,0,0,,那是因為夜鬥的味…
+Dialogue: 0,0:15:01.11,0:15:03.09,Default,NTP,0,0,0,,她死活不肯說啊
+Dialogue: 0,0:15:03.27,0:15:05.23,Default,NTP,0,0,0,,這話怎麼你一說就像在犯罪一樣
+Dialogue: 0,0:15:05.51,0:15:07.09,Default,NTP,0,0,0,,然後 你們有什麼事嗎
+Dialogue: 0,0:15:07.46,0:15:11.35,Default,NTP,0,0,0,,我們這裡來了個不對口的委託所以想轉讓給你
+Dialogue: 0,0:15:11.75,0:15:13.27,Default,NTP,0,0,0,,反正你很閑吧
+Dialogue: 0,0:15:14.03,0:15:15.60,Default,NTP,0,0,0,,那倒也行啦
+Dialogue: 0,0:15:16.67,0:15:17.60,Default,NTP,0,0,0,,夜鬥…
+Dialogue: 0,0:15:18.49,0:15:20.62,Default,NTP,0,0,0,,怎麼感覺你臉色看起來不太好啊
+Dialogue: 0,0:15:26.31,0:15:28.76,Default,NTP,0,0,0,,你又沒吃東西嗎
+Dialogue: 0,0:15:33.21,0:15:34.30,Default,NTP,0,0,0,,雪音
+Dialogue: 0,0:15:34.76,0:15:35.92,Default,NTP,0,0,0,,你做什麼了
+Dialogue: 0,0:15:40.04,0:15:42.83,Default,NTP,0,0,0,,難道你以為我把錢拿走了嗎
+Dialogue: 0,0:15:47.57,0:15:48.63,Default,NTP,0,0,0,,不是吧
+Dialogue: 0,0:15:49.12,0:15:51.72,Default,NTP,0,0,0,,連神都遺棄我了啊
+Dialogue: 0,0:15:53.93,0:15:56.23,Default,NTP,0,0,0,,我果然還是應該去死啊
+Dialogue: 0,0:16:09.20,0:16:12.02,Default,NTP,0,0,0,,雪音你…拿了嗎
+Dialogue: 0,0:16:20.55,0:16:21.88,Default,NTP,0,0,0,,小夜鬥
+Dialogue: 0,0:16:24.67,0:16:25.88,Default,NTP,0,0,0,,委託我接下了
+Dialogue: 0,0:16:26.43,0:16:28.77,Default,NTP,0,0,0,,小福 大黑 店就交給你們了
+Dialogue: 0,0:16:28.80,0:16:30.87,Default,NTP,0,0,0,,喂 什麼交給…
+Dialogue: 0,0:16:31.93,0:16:34.27,Default,NTP,0,0,0,,一共582日元
+Dialogue: 0,0:16:35.27,0:16:36.79,Default,NTP,0,0,0,,多謝惠顧！
+Dialogue: 0,0:16:41.43,0:16:45.22,Default,NTP,0,0,0,,驅除出現在上井戶町上空的妖怪
+Dialogue: 0,0:16:46.00,0:16:47.42,Default,NTP,0,0,0,,這委託真簡單啊
+Dialogue: 0,0:16:48.58,0:16:49.83,Default,NTP,0,0,0,,不過風穴打開了
+Dialogue: 0,0:16:49.85,0:16:52.89,Default,NTP,0,0,0,,神社都會接到很多這種類型的委託吧
+Dialogue: 0,0:16:53.28,0:16:53.97,Default,NTP,0,0,0,,夜鬥
+Dialogue: 0,0:16:55.50,0:16:56.58,Default,NTP,0,0,0,,雪音君…
+Dialogue: 0,0:16:56.60,0:16:57.46,Default,NTP,0,0,0,,我會找的
+Dialogue: 0,0:16:58.47,0:17:00.78,Default,NTP,0,0,0,,畢竟妖怪只有神器能砍啊
+Dialogue: 0,0:17:01.29,0:17:03.72,Default,NTP,0,0,0,,有沒有神器差別可是很大的
+Dialogue: 0,0:17:04.62,0:17:06.97,Default,NTP,0,0,0,,雖然話是如此 但…不是這樣的
+Dialogue: 0,0:17:08.55,0:17:09.65,Default,NTP,0,0,0,,怎麼說呢
+Dialogue: 0,0:17:09.79,0:17:10.74,Default,NTP,0,0,0,,我知道
+Dialogue: 0,0:17:11.90,0:17:13.92,Default,NTP,0,0,0,,差不多也該有個了斷了
+Dialogue: 0,0:17:18.33,0:17:20.52,Default,NTP,0,0,0,,那個還是儘快處理掉比較好
+Dialogue: 0,0:17:39.87,0:17:42.00,Default,NTP,0,0,0,,日…日和 你在幹什…
+Dialogue: 0,0:17:56.75,0:17:57.36,Default,NTP,0,0,0,,夜鬥
+Dialogue: 0,0:17:58.11,0:17:58.67,Default,NTP,0,0,0,,在
+Dialogue: 0,0:17:59.41,0:18:02.86,Default,NTP,0,0,0,,別說「有」「沒有」這樣的話
+Dialogue: 0,0:18:04.14,0:18:05.83,Default,NTP,0,0,0,,雪音是雪音
+Dialogue: 0,0:18:05.96,0:18:07.55,Default,NTP,0,0,0,,別把他看做神器
+Dialogue: 0,0:18:07.72,0:18:10.89,Default,NTP,0,0,0,,要正兒八經地把他當做一個人類去接觸溝通
+Dialogue: 0,0:18:17.98,0:18:19.09,Default,NTP,0,0,0,,拜託你了
+Dialogue: 0,0:18:20.32,0:18:21.24,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:18:32.00,0:18:33.80,Default,NTP,0,0,0,,果然你的眼睛很漂亮呢
+Dialogue: 0,0:18:35.03,0:18:37.31,Default,NTP,0,0,0,,好像風中搖曳的野山楂
+Dialogue: 0,0:18:38.73,0:18:42.33,Default,NTP,0,0,0,,不過 這山楂連只小鳥都不會吃啊
+Dialogue: 0,0:18:44.25,0:18:46.30,Default,NTP,0,0,0,,不甘也不苦
+Dialogue: 0,0:18:46.54,0:18:49.13,Default,NTP,0,0,0,,雖然無毒但也毫無營養
+Dialogue: 0,0:18:49.96,0:18:52.64,Default,NTP,0,0,0,,毫無用處的空心果實
+Dialogue: 0,0:18:53.94,0:18:57.29,Default,NTP,0,0,0,,無人去采拮 漸漸顏色消褪
+Dialogue: 0,0:18:57.58,0:19:00.81,Default,NTP,0,0,0,,無物去依附 最後枯萎致死
+Dialogue: 0,0:19:03.75,0:19:05.24,Default,NTP,0,0,0,,真是可憐的孩子呢
+Dialogue: 0,0:19:06.78,0:19:07.55,Default,NTP,0,0,0,,雪音
+Dialogue: 0,0:19:09.58,0:19:10.77,Default,NTP,0,0,0,,你在幹什麼 野良
+Dialogue: 0,0:19:11.95,0:19:13.03,Default,NTP,0,0,0,,夜鬥
+Dialogue: 0,0:19:13.46,0:19:15.89,Default,NTP,0,0,0,,像以前那樣用用我嘛
+Dialogue: 0,0:19:16.05,0:19:16.51,Default,NTP,0,0,0,,什…
+Dialogue: 0,0:19:17.18,0:19:21.26,Default,NTP,0,0,0,,礙眼的東西 不管是什麼我都會很俐落地砍掉哦
+Dialogue: 0,0:19:22.33,0:19:23.20,Default,NTP,0,0,0,,夜鬥
+Dialogue: 0,0:19:30.38,0:19:31.12,Default,NTP,0,0,0,,雪器
+Dialogue: 0,0:19:35.80,0:19:38.71,Default,NTP,0,0,0,,雪音 別聽野良的那些話
+Dialogue: 0,0:19:39.71,0:19:40.97,Default,NTP,0,0,0,,你的對手
+Dialogue: 0,0:19:42.37,0:19:43.21,Default,NTP,0,0,0,,是那傢伙
+Dialogue: 0,0:19:45.13,0:19:46.20,Default,NTP,0,0,0,,妖怪?
+Dialogue: 0,0:19:47.16,0:19:48.79,Default,NTP,0,0,0,,等…夜鬥
+Dialogue: 0,0:20:05.27,0:20:07.19,Default,NTP,0,0,0,,豐葦原之中津中國
+Dialogue: 0,0:20:07.56,0:20:09.74,Default,NTP,0,0,0,,於此荒亂騷動之物
+Dialogue: 0,0:20:10.34,0:20:12.69,Default,NTP,0,0,0,,吾神夜鬥降臨於此
+Dialogue: 0,0:20:12.94,0:20:15.21,Default,NTP,0,0,0,,汝等臣服雪器之威
+Dialogue: 0,0:20:15.47,0:20:19.06,Default,NTP,0,0,0,,清除諸等污穢障壁
+Dialogue: 0,0:20:20.99,0:20:21.63,Default,NTP,0,0,0,,斬
+Dialogue: 0,0:20:24.97,0:20:25.87,Default,NTP,0,0,0,,沒斬斷?
+Dialogue: 0,0:20:31.10,0:20:32.58,Default,NTP,0,0,0,,真不像話
+Dialogue: 0,0:20:33.80,0:20:35.22,Default,NTP,0,0,0,,變得這麼鈍
+Dialogue: 0,0:20:35.91,0:20:38.87,Default,NTP,0,0,0,,本來就被雪音刺到了
+Dialogue: 0,0:20:47.06,0:20:48.95,Default,NTP,0,0,0,,好…香…
+Dialogue: 0,0:20:49.11,0:20:50.44,Default,NTP,0,0,0,,夜鬥 快逃
+Dialogue: 0,0:20:54.30,0:20:56.22,Default,NTP,0,0,0,,好…香…
+Dialogue: 0,0:21:13.86,0:21:15.21,Default,NTP,0,0,0,,淨化之水
+Dialogue: 0,0:21:17.04,0:21:19.40,Default,NTP,0,0,0,,野良 你給我回去
+Dialogue: 0,0:21:19.65,0:21:21.79,Default,NTP,0,0,0,,這傢伙雖然是個沒用的臭小鬼
+Dialogue: 0,0:21:22.06,0:21:23.30,Default,NTP,0,0,0,,但仍然是我找到的他
+Dialogue: 0,0:21:23.31,0:21:24.42,Default,NTP,0,0,0,,給他起的名字
+Dialogue: 0,0:21:24.92,0:21:27.99,Default,NTP,0,0,0,,雪器由我來錘煉
+Dialogue: 0,0:21:29.44,0:21:30.10,Default,NTP,0,0,0,,斬
+Dialogue: 0,0:21:40.24,0:21:41.19,Default,NTP,0,0,0,,夜鬥
+Dialogue: 0,0:21:47.52,0:21:48.53,Default,NTP,0,0,0,,被抛棄了啊
+Dialogue: 0,0:21:49.14,0:21:52.53,Default,NTP,0,0,0,,多年跟隨身後的緋之名在哭泣啊
+Dialogue: 0,0:21:56.31,0:21:57.03,Default,NTP,0,0,0,,走了
+Dialogue: 0,0:22:11.97,0:22:13.45,Default,NTP,0,0,0,,雪音這個壞孩子
+Dialogue: 0,0:22:14.61,0:22:17.45,Default,NTP,0,0,0,,如果不快點處理了它 夜鬥會死
+Dialogue: 0,0:22:21.76,0:22:24.53,Default,NTP,0,0,0,,夜鬥…會死…
+Dialogue: 0,0:23:58.87,0:24:01.01,yugao,NTP,0,0,0,,夜鬥 剛剛把你扔出去對不住啊
+Dialogue: 0,0:24:01.02,0:24:02.02,yugao,NTP,0,0,0,,我也有錯
+Dialogue: 0,0:24:02.03,0:24:04.64,yugao,NTP,0,0,0,,這是我們和好的印證 收好
+Dialogue: 0,0:24:04.67,0:24:05.44,yugao,NTP,0,0,0,,大黑
+Dialogue: 0,0:24:05.47,0:24:07.60,yugao,NTP,0,0,0,,下回野良神 超越一線
+Dialogue: 0,0:24:07.64,0:24:09.63,yugao,NTP,0,0,0,,這是賠償費的單子?
+Dialogue: 0,0:24:09.65,0:24:12.23,yugao,NTP,0,0,0,,我家老婆頭上起了個大包啊
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+

@@ -1,0 +1,338 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: DC312
+Original Script: SumiSora&FLsnow
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,24,&H00FFFFFF,&HF0000000,&H00F06B33,&H64FC8118,-1,0,0,0,100,100,0,0,1,2,2,2,15,15,10,134
+Style: sotsupa,Microsoft YaHei,24,&H00767275,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: EDlrcJPN,DFGMaruGothic-Lt,17,&H00FFFFFF,&H000000FF,&H004141E8,&H32000000,-1,0,0,0,100,100,1,0,1,0,2,7,10,10,10,1
+Style: EDlrcCHN,方正细圆_GBK,19,&H00FFFFFF,&H008A8AF4,&H005959D4,&H32000000,-1,0,0,0,100,100,1,0,1,0,2,3,10,10,10,1
+Style: OPlrcJPN,DFGMaruGothic-SB,18,&H00FFFFFF,&H000000FF,&H00C650BC,&H28BD76EF,0,0,0,0,100,100,1,0,1,2,2,8,10,10,10,1
+Style: OPlrcCHN,方正粗圆_GBK,22,&H00FFFFFF,&H008A8AF4,&H00C650BC,&H28BD76EF,0,0,0,0,100,100,1,0,1,2,2,2,10,10,10,1
+Style: title,方正中倩_GBK,24,&H00FFFFFF,&HF0000000,&H00F37FE7,&H64EF7FDF,-1,0,0,0,100,100,2,0,1,1,2,2,30,30,10,134
+Style: staff,SimHei,18,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,10,134
+Style: Newspaper,方正兰亭中黑_GBK,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: INlrcJPN,DFGMaruGothic-Lt,16,&H00FFFFFF,&H000000FF,&H004141E8,&H32000000,-1,0,0,0,100,100,1,0,1,0,2,7,10,10,10,1
+Style: INlrcCHN,方正细圆_GBK,18,&H00FFFFFF,&H008A8AF4,&H005959D4,&H32000000,-1,0,0,0,100,100,1,0,1,0,2,7,10,10,10,1
+Style: MSG,方正兰亭中黑_GBK,24,&H00575757,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,10,10,10,1
+Style: Blackboard,FZZhunYuan-M02,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: BlackboardTATE,@FZZhunYuan-M02,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,-90,1,0,0,2,10,10,10,1
+Style: post,@STSong,30,&H005A5E60,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,-90,1,0,0,2,10,10,10,1
+Style: Phone,方正兰亭中黑_GBK,12,&H00656565,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,10,10,10,1
+Style: Phone2,方正兰亭中黑_GBK,12,&H00A6A6A6,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----OPlrcJPN-----
+Dialogue: 0,0:00:30.59,0:00:36.34,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}オハヨウ  ホホエミ  キラキラ  ハジケタラ
+Dialogue: 0,0:00:36.34,0:00:41.97,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}ソワソワ  ハニカミ  シアワセ  フウ
+Dialogue: 0,0:00:42.52,0:00:48.27,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}ドキドキ  トキメキ  フワフワ  トイキデホラ
+Dialogue: 0,0:00:48.27,0:00:54.07,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}ユメミテ  ツナガル  ハジマル  ヒトツニナル
+Dialogue: 0,0:00:54.07,0:00:59.16,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}かけがえのない  約束
+Dialogue: 0,0:00:59.16,0:01:01.95,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}みつめあい  僕は誓う
+Dialogue: 0,0:01:01.95,0:01:06.21,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}キミとの輝く明日へ
+Dialogue: 0,0:01:01.95,0:01:06.21,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)\pos(360,0)\fs10\shad1\bord1}ミライ
+Dialogue: 0,0:01:06.37,0:01:12.80,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}サクラハッピーイノベーション
+Dialogue: 0,0:01:12.80,0:01:18.76,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}笑顔咲く空の下で手と手つないで歩こう
+Dialogue: 0,0:01:18.76,0:01:24.60,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}サクラハッピーイノベーション
+Dialogue: 0,0:01:24.60,0:01:32.82,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}百の花ひとつひとつ咲かせ満開の愛をずっと
+Dialogue: 0,0:01:34.36,0:01:37.11,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}ドキドキ  トキメキ
+Dialogue: 0,0:01:40.24,0:01:43.04,OPlrcJPN,NTP,0,0,0,,{\fad(120,120)}ユメミテ  ツナガル
+Dialogue: 0,0:00:30.59,0:00:36.34,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}早上好  只是看到你阳光般的微笑
+Dialogue: 0,0:00:36.34,0:00:41.97,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}心乱如麻  面红耳赤  我就能如此的幸福
+Dialogue: 0,0:00:42.52,0:00:48.27,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}心跳加速  小鹿乱撞  连呼吸都变得如此凌乱
+Dialogue: 0,0:00:48.27,0:00:54.07,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}与你相系梦中  我们的故事即将开始
+Dialogue: 0,0:00:54.07,0:00:59.16,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}许下矢志不渝的永恒之约
+Dialogue: 0,0:00:59.16,0:01:01.95,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}彼此相望  我此刻起誓
+Dialogue: 0,0:01:01.95,0:01:06.21,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}与你共赴璀璨的明天
+Dialogue: 0,0:01:06.37,0:01:12.80,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}樱花Happy  Innovation
+Dialogue: 0,0:01:12.80,0:01:18.76,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}让我们牵起彼此的手  漫步于充满笑容的天空下
+Dialogue: 0,0:01:18.76,0:01:24.60,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}樱花Happy  Innovation
+Dialogue: 0,0:01:24.60,0:01:32.82,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}让心中的真爱  如漫天飞舞的樱花般绽放
+Dialogue: 0,0:01:34.36,0:01:37.11,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}心跳加速  小鹿乱撞
+Dialogue: 0,0:01:40.24,0:01:43.04,OPlrcCHN,NTP,0,0,0,,{\fad(120,120)}与你相系梦中
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----Staff-----
+Dialogue: 0,0:01:46.92,0:01:50.39,staff,NTP,0,0,0,,字幕制作：澄空学园 & 雪飘工作室
+Dialogue: 0,0:01:46.92,0:01:50.39,staff,NTP,0,0,0,,片源：ayukas    翻譯：桜色の祈り  絕靈之手    校對：七夜雙識    後期：Span  volence  阿爽
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----Title-----
+Dialogue: 0,0:01:46.92,0:01:50.39,title,NTP,0,0,0,,永不凋零的樱花岛
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----TXT-----
+Dialogue: 0,0:01:58.94,0:01:59.64,Default,NTP,0,0,0,,立夏
+Dialogue: 0,0:01:59.90,0:02:00.67,Default,NTP,0,0,0,,什么事
+Dialogue: 0,0:02:01.06,0:02:04.11,Default,NTP,0,0,0,,这是怎么了  突然把大家叫出来
+Dialogue: 0,0:02:04.27,0:02:05.62,Default,NTP,0,0,0,,发生了什么吗
+Dialogue: 0,0:02:06.04,0:02:07.36,Default,NTP,0,0,0,,好啦  跟我来就是了
+Dialogue: 0,0:02:18.62,0:02:19.34,Default,NTP,0,0,0,,樱？
+Dialogue: 0,0:02:19.74,0:02:21.70,Default,NTP,0,0,0,,啊  小樱
+Dialogue: 0,0:02:22.81,0:02:23.98,Default,NTP,0,0,0,,大家好久不见
+Dialogue: 0,0:02:24.22,0:02:27.22,Default,NTP,0,0,0,,我们上次碰面是在游泳池的时候呢
+Dialogue: 0,0:02:27.41,0:02:28.40,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:02:29.48,0:02:30.24,Default,NTP,0,0,0,,樱
+Dialogue: 0,0:02:34.46,0:02:35.84,Default,NTP,0,0,0,,我很担心你哦
+Dialogue: 0,0:02:38.44,0:02:39.49,Default,NTP,0,0,0,,哥哥
+Dialogue: 0,0:02:43.18,0:02:45.73,Default,NTP,0,0,0,,立夏姐  你把我们叫出来
+Dialogue: 0,0:02:46.01,0:02:48.45,Default,NTP,0,0,0,,难道是为了让我们和小樱见面吗
+Dialogue: 0,0:02:48.65,0:02:51.44,Default,NTP,0,0,0,,嗯  樱说想见你们
+Dialogue: 0,0:02:51.58,0:02:52.86,Default,NTP,0,0,0,,我们？
+Dialogue: 0,0:02:53.15,0:02:55.44,Default,NTP,0,0,0,,樱  出什么事了吗
+Dialogue: 0,0:02:56.10,0:02:58.24,Default,NTP,0,0,0,,嗯  其实啊
+Dialogue: 0,0:03:00.04,0:03:03.19,Default,NTP,0,0,0,,我今天就要离开这里了
+Dialogue: 0,0:03:08.00,0:03:09.22,Default,NTP,0,0,0,,你说离开…
+Dialogue: 0,0:03:11.41,0:03:13.58,Default,NTP,0,0,0,,我已经决定了
+Dialogue: 0,0:03:14.86,0:03:15.85,Default,NTP,0,0,0,,樱…
+Dialogue: 0,0:03:18.92,0:03:21.20,Default,NTP,0,0,0,,所以今天玩一整天吧
+Dialogue: 0,0:03:21.86,0:03:22.39,Default,NTP,0,0,0,,但是…
+Dialogue: 0,0:03:22.45,0:03:23.68,Default,NTP,0,0,0,,嘛  有什么不好呢
+Dialogue: 0,0:03:24.64,0:03:25.47,Default,NTP,0,0,0,,立夏
+Dialogue: 0,0:03:25.94,0:03:29.16,Default,NTP,0,0,0,,在最后  就让我们给她创造一份快乐的回忆吧
+Dialogue: 0,0:03:29.42,0:03:30.41,Default,NTP,0,0,0,,也对呢
+Dialogue: 0,0:03:30.82,0:03:32.94,Default,NTP,0,0,0,,我也不喜欢太伤感的
+Dialogue: 0,0:03:33.14,0:03:34.96,Default,NTP,0,0,0,,大家一起享受吧
+Dialogue: 0,0:03:35.10,0:03:36.09,Default,NTP,0,0,0,,好主意
+Dialogue: 0,0:03:36.24,0:03:36.83,Default,NTP,0,0,0,,是
+Dialogue: 0,0:03:38.99,0:03:42.19,Default,NTP,0,0,0,,但是就算说要玩  要去哪里玩呢
+Dialogue: 0,0:03:42.44,0:03:44.01,Default,NTP,0,0,0,,要去游泳池吗
+Dialogue: 0,0:03:44.23,0:03:45.28,Default,NTP,0,0,0,,又去吗
+Dialogue: 0,0:03:46.46,0:03:49.28,Default,NTP,0,0,0,,小樱  你有想去的地方吗
+Dialogue: 0,0:04:48.78,0:04:52.76,Default,NTP,0,0,0,,把这个画上去  这样就大功告成了
+Dialogue: 0,0:04:56.92,0:04:57.80,Default,NTP,0,0,0,,锵
+Dialogue: 0,0:04:59.87,0:05:01.62,Default,NTP,0,0,0,,你不觉得太夸张了吗
+Dialogue: 0,0:05:01.88,0:05:04.04,Default,NTP,0,0,0,,我的眼睛可没有这么大
+Dialogue: 0,0:05:04.15,0:05:05.52,Default,NTP,0,0,0,,好啦  好啦
+Dialogue: 0,0:05:05.61,0:05:06.92,Default,NTP,0,0,0,,请重拍一张
+Dialogue: 0,0:05:10.14,0:05:12.11,Default,NTP,0,0,0,,哥哥  我们一起拍吧
+Dialogue: 0,0:05:13.23,0:05:16.33,Default,NTP,0,0,0,,啊  小樱好狡猾
+Dialogue: 0,0:05:16.37,0:05:17.68,Default,NTP,0,0,0,,真是的  夏露露姐
+Dialogue: 0,0:05:17.85,0:05:21.66,Default,NTP,0,0,0,,我也想和小隆拍双人照啊
+Dialogue: 0,0:05:21.85,0:05:24.15,Default,NTP,0,0,0,,今天你就忍耐一下吧
+Dialogue: 0,0:05:25.86,0:05:27.57,Default,NTP,0,0,0,,哥哥  这边这边
+Dialogue: 0,0:05:34.66,0:05:35.60,Default,NTP,0,0,0,,哥哥
+Dialogue: 0,0:05:37.48,0:05:38.32,Default,NTP,0,0,0,,笑一笑
+Dialogue: 0,0:05:45.62,0:05:47.04,Default,NTP,0,0,0,,干杯
+Dialogue: 0,0:05:48.70,0:05:50.49,Default,NTP,0,0,0,,我们能做的也就只有这些了
+Dialogue: 0,0:05:50.53,0:05:52.40,Default,NTP,0,0,0,,我很开心哦
+Dialogue: 0,0:05:52.57,0:05:53.73,Default,NTP,0,0,0,,我也是
+Dialogue: 0,0:05:54.15,0:05:55.59,Default,NTP,0,0,0,,让大家久等了
+Dialogue: 0,0:05:57.73,0:05:59.53,Default,NTP,0,0,0,,哇  好厉害
+Dialogue: 0,0:05:59.64,0:06:01.09,Default,NTP,0,0,0,,这是什么
+Dialogue: 0,0:06:01.16,0:06:02.16,Default,NTP,0,0,0,,日式点心？
+Dialogue: 0,0:06:02.28,0:06:03.96,Default,NTP,0,0,0,,菜单里有这个吗
+Dialogue: 0,0:06:04.05,0:06:05.47,Default,NTP,0,0,0,,这…这是…
+Dialogue: 0,0:06:05.94,0:06:10.91,Default,NTP,0,0,0,,我听说小樱喜欢日式点心  就特地请店里做的
+Dialogue: 0,0:06:11.34,0:06:12.87,Default,NTP,0,0,0,,快点吃吧
+Dialogue: 0,0:06:20.29,0:06:21.42,Default,NTP,0,0,0,,好好吃
+Dialogue: 0,0:06:23.81,0:06:25.37,Default,NTP,0,0,0,,给  歌丸的份
+Dialogue: 0,0:06:29.30,0:06:30.75,Default,NTP,0,0,0,,好好吃
+Dialogue: 0,0:06:32.03,0:06:35.95,Default,NTP,0,0,0,,虽然我平时不怎么吃日式点心  但这还挺好吃的
+Dialogue: 0,0:06:36.15,0:06:38.10,Default,NTP,0,0,0,,说不定会吃上瘾呢
+Dialogue: 0,0:06:40.29,0:06:43.14,Default,NTP,0,0,0,,但是  小樱竟然喜欢日式点心
+Dialogue: 0,0:06:43.32,0:06:45.54,Default,NTP,0,0,0,,看来相当喜欢古朴的东西啊
+Dialogue: 0,0:06:45.95,0:06:47.22,Default,NTP,0,0,0,,是这样吗
+Dialogue: 0,0:06:49.92,0:06:51.40,Default,NTP,0,0,0,,要变冷清了呢
+Dialogue: 0,0:06:53.30,0:06:55.53,Default,NTP,0,0,0,,小樱不在的话…
+Dialogue: 0,0:07:00.14,0:07:02.64,Default,NTP,0,0,0,,好不容易成为了朋友
+Dialogue: 0,0:07:04.00,0:07:05.21,Default,NTP,0,0,0,,朋友…
+Dialogue: 0,0:07:05.93,0:07:08.06,Default,NTP,0,0,0,,我也是你的朋友哦
+Dialogue: 0,0:07:08.17,0:07:11.36,Default,NTP,0,0,0,,小樱和我们永远都是朋友
+Dialogue: 0,0:07:11.91,0:07:12.91,Default,NTP,0,0,0,,谢谢你们
+Dialogue: 0,0:07:25.00,0:07:25.76,Default,NTP,0,0,0,,立夏
+Dialogue: 0,0:07:25.88,0:07:26.54,Default,NTP,0,0,0,,什么事
+Dialogue: 0,0:07:26.88,0:07:31.49,Default,NTP,0,0,0,,发生了什么事吗  樱突然说要离开这个小岛
+Dialogue: 0,0:07:33.64,0:07:35.98,Default,NTP,0,0,0,,立夏  你知道些什么吗
+Dialogue: 0,0:07:37.61,0:07:41.07,Default,NTP,0,0,0,,樱要离开这里的事  我也是昨天知道的
+Dialogue: 0,0:07:42.90,0:07:44.89,Default,NTP,0,0,0,,这是樱做的决定
+Dialogue: 0,0:07:45.64,0:07:47.37,Default,NTP,0,0,0,,我想为她作见证
+Dialogue: 0,0:07:58.25,0:07:59.34,Default,NTP,0,0,0,,好漂亮
+Dialogue: 0,0:07:59.42,0:08:01.57,Default,NTP,0,0,0,,真的  好漂亮啊
+Dialogue: 0,0:08:01.76,0:08:05.22,Default,NTP,0,0,0,,不过  早知道要来海边  我就带上泳衣了
+Dialogue: 0,0:08:05.38,0:08:07.95,Default,NTP,0,0,0,,要下海的话季节还太早了
+Dialogue: 0,0:08:08.24,0:08:10.57,Default,NTP,0,0,0,,就是啊  会感冒的
+Dialogue: 0,0:08:11.26,0:08:12.09,Default,NTP,0,0,0,,也对呢
+Dialogue: 0,0:08:12.12,0:08:13.80,Default,NTP,0,0,0,,歌丸  我们走吧
+Dialogue: 0,0:08:14.79,0:08:15.50,Default,NTP,0,0,0,,樱
+Dialogue: 0,0:08:19.31,0:08:19.85,Default,NTP,0,0,0,,好凉…
+Dialogue: 0,0:08:21.28,0:08:22.91,Default,NTP,0,0,0,,我们也去吧
+Dialogue: 0,0:08:24.00,0:08:24.90,Default,NTP,0,0,0,,立夏
+Dialogue: 0,0:08:27.18,0:08:28.15,Default,NTP,0,0,0,,也对呢
+Dialogue: 0,0:08:28.27,0:08:29.35,Default,NTP,0,0,0,,我们走吧
+Dialogue: 0,0:08:29.57,0:08:30.97,Default,NTP,0,0,0,,难得来到海边
+Dialogue: 0,0:08:31.25,0:08:33.17,Default,NTP,0,0,0,,我们也好好享受吧
+Dialogue: 0,0:09:45.29,0:09:48.08,Default,NTP,0,0,0,,站在这里  初音岛就能一览无遗呢
+Dialogue: 0,0:09:50.36,0:09:53.50,Default,NTP,0,0,0,,像这样望过去  真是个很小的岛啊
+Dialogue: 0,0:09:55.74,0:09:57.90,Default,NTP,0,0,0,,我的家在哪里呢
+Dialogue: 0,0:09:58.23,0:10:01.00,Default,NTP,0,0,0,,清隆同学的社区在那里…
+Dialogue: 0,0:10:01.39,0:10:03.99,Default,NTP,0,0,0,,有这么多房子可不好找啊
+Dialogue: 0,0:10:04.36,0:10:06.92,Default,NTP,0,0,0,,那边以前是个广场哦
+Dialogue: 0,0:10:07.51,0:10:08.93,Default,NTP,0,0,0,,啊  我想起来了
+Dialogue: 0,0:10:09.26,0:10:11.25,Default,NTP,0,0,0,,哥哥  你想起什么了
+Dialogue: 0,0:10:11.57,0:10:14.43,Default,NTP,0,0,0,,姬乃以前在那个广场摔倒过
+Dialogue: 0,0:10:15.48,0:10:18.00,Default,NTP,0,0,0,,那个时候哄你不哭可费了我很大劲呢
+Dialogue: 0,0:10:18.49,0:10:20.34,Default,NTP,0,0,0,,还有过那样的事吗
+Dialogue: 0,0:10:20.63,0:10:22.12,Default,NTP,0,0,0,,真是的  哥哥
+Dialogue: 0,0:10:22.35,0:10:25.99,Default,NTP,0,0,0,,太狡猾了  沉醉在两个人的回忆中
+Dialogue: 0,0:10:26.67,0:10:28.17,Default,NTP,0,0,0,,因为是个很小的岛
+Dialogue: 0,0:10:28.33,0:10:31.07,Default,NTP,0,0,0,,所以每个地方都充满了回忆啊
+Dialogue: 0,0:10:43.95,0:10:46.42,Default,NTP,0,0,0,,那么  我们是时候该走了
+Dialogue: 0,0:10:47.93,0:10:49.50,Default,NTP,0,0,0,,再见了  小樱
+Dialogue: 0,0:10:49.88,0:10:50.90,Default,NTP,0,0,0,,要保重啊
+Dialogue: 0,0:11:04.42,0:11:06.91,Default,NTP,0,0,0,,再借给你一会儿
+Dialogue: 0,0:11:11.92,0:11:13.79,Default,NTP,0,0,0,,好了  大家走吧
+Dialogue: 0,0:11:13.98,0:11:14.89,Default,NTP,0,0,0,,立夏？
+Dialogue: 0,0:11:15.26,0:11:16.77,Default,NTP,0,0,0,,请等一下  立夏姐
+Dialogue: 0,0:11:31.71,0:11:32.68,Default,NTP,0,0,0,,哥哥
+Dialogue: 0,0:11:34.00,0:11:34.73,Default,NTP,0,0,0,,怎么了
+Dialogue: 0,0:11:38.08,0:11:41.45,Default,NTP,0,0,0,,马上就要和哥哥分别了呢
+Dialogue: 0,0:11:42.24,0:11:43.16,Default,NTP,0,0,0,,樱
+Dialogue: 0,0:11:47.70,0:11:48.62,Default,NTP,0,0,0,,在最后…
+Dialogue: 0,0:12:01.50,0:12:02.47,Default,NTP,0,0,0,,约会吧
+Dialogue: 0,0:12:04.13,0:12:04.83,Default,NTP,0,0,0,,约会？
+Dialogue: 0,0:12:13.76,0:12:15.37,Default,NTP,0,0,0,,约会  约会
+Dialogue: 0,0:12:15.47,0:12:17.08,Default,NTP,0,0,0,,和哥哥约会
+Dialogue: 0,0:12:17.49,0:12:18.91,Default,NTP,0,0,0,,我说  樱…
+Dialogue: 0,0:12:18.95,0:12:21.73,Default,NTP,0,0,0,,用不着害羞啊  因为这是约会
+Dialogue: 0,0:12:21.81,0:12:22.47,Default,NTP,0,0,0,,但是…
+Dialogue: 0,0:12:23.82,0:12:25.66,Default,NTP,0,0,0,,去哪里好呢
+Dialogue: 0,0:12:33.84,0:12:34.52,Default,NTP,0,0,0,,怎么了？
+Dialogue: 0,0:12:35.22,0:12:36.92,Default,NTP,0,0,0,,哥哥  来一下
+Dialogue: 0,0:12:44.70,0:12:49.68,Default,NTP,0,0,0,,真是的  这是哪门子的约会啊
+Dialogue: 0,0:12:49.82,0:12:51.03,Default,NTP,0,0,0,,好啦好啦
+Dialogue: 0,0:13:00.82,0:13:03.13,Default,NTP,0,0,0,,我喜欢从这里看海
+Dialogue: 0,0:13:03.62,0:13:07.18,Default,NTP,0,0,0,,说起来  和小樱第一次相遇也是在这里呢
+Dialogue: 0,0:13:08.43,0:13:09.90,Default,NTP,0,0,0,,你一直看着大海
+Dialogue: 0,0:13:10.32,0:13:12.35,Default,NTP,0,0,0,,就算我跟你搭话  你也一副怅然若失的样子
+Dialogue: 0,0:13:12.99,0:13:14.57,Default,NTP,0,0,0,,现在仍然记忆犹新啊
+Dialogue: 0,0:13:15.91,0:13:16.71,Default,NTP,0,0,0,,我也是
+Dialogue: 0,0:13:22.84,0:13:24.03,Default,NTP,0,0,0,,我说  樱
+Dialogue: 0,0:13:25.87,0:13:27.05,Default,NTP,0,0,0,,发生了什么事
+Dialogue: 0,0:13:29.59,0:13:31.85,Default,NTP,0,0,0,,就算你突然之间说要离开…
+Dialogue: 0,0:13:32.37,0:13:33.19,Default,NTP,0,0,0,,痛痛痛
+Dialogue: 0,0:13:34.34,0:13:35.93,Default,NTP,0,0,0,,你干什么啊  樱
+Dialogue: 0,0:13:36.20,0:13:38.24,Default,NTP,0,0,0,,哥哥  笑一笑啊
+Dialogue: 0,0:13:39.13,0:13:42.84,Default,NTP,0,0,0,,难得的约会  你这样一点都不开心
+Dialogue: 0,0:13:44.99,0:13:45.83,Default,NTP,0,0,0,,说的也是
+Dialogue: 0,0:13:46.25,0:13:47.15,Default,NTP,0,0,0,,而且
+Dialogue: 0,0:13:48.61,0:13:53.30,Default,NTP,0,0,0,,我希望能跟哥哥笑着道别
+Dialogue: 0,0:13:53.89,0:13:54.69,Default,NTP,0,0,0,,樱…
+Dialogue: 0,0:13:56.45,0:13:57.01,Default,NTP,0,0,0,,好吗
+Dialogue: 0,0:14:02.92,0:14:05.02,Default,NTP,0,0,0,,那么接下来去哪里好呢
+Dialogue: 0,0:14:09.04,0:14:10.78,Default,NTP,0,0,0,,今天是休息日呢
+Dialogue: 0,0:14:12.87,0:14:15.40,Default,NTP,0,0,0,,我记得  在这边…
+Dialogue: 0,0:14:21.94,0:14:25.73,Default,NTP,0,0,0,,我都不知道在那种地方居然有个能进入学校的小洞
+Dialogue: 0,0:14:26.32,0:14:29.30,Default,NTP,0,0,0,,因为我很了解这所学校呢
+Dialogue: 0,0:14:32.28,0:14:33.20,Default,NTP,0,0,0,,我们去那里吧
+Dialogue: 0,0:14:45.85,0:14:46.55,Default,NTP,0,0,0,,那个…
+Dialogue: 0,0:14:48.05,0:14:50.59,Default,NTP,0,0,0,,就快要开毕业派对了呢
+Dialogue: 0,0:14:51.20,0:14:52.97,Default,NTP,0,0,0,,现在开始做准备了
+Dialogue: 0,0:14:53.68,0:14:56.02,Default,NTP,0,0,0,,总觉得有点寂寞呢
+Dialogue: 0,0:14:56.85,0:14:57.53,Default,NTP,0,0,0,,是这样吗
+Dialogue: 0,0:14:58.82,0:15:02.72,Default,NTP,0,0,0,,不  毕业也是启程的日子啊
+Dialogue: 0,0:15:04.56,0:15:06.92,Default,NTP,0,0,0,,哥哥将来想干什么
+Dialogue: 0,0:15:07.58,0:15:11.26,Default,NTP,0,0,0,,我吗？现在还没有决定
+Dialogue: 0,0:15:11.62,0:15:13.15,Default,NTP,0,0,0,,小樱将来想干什么
+Dialogue: 0,0:15:14.09,0:15:15.24,Default,NTP,0,0,0,,我…
+Dialogue: 0,0:15:17.61,0:15:18.27,Default,NTP,0,0,0,,樱？
+Dialogue: 0,0:15:20.37,0:15:21.37,Default,NTP,0,0,0,,秘密
+Dialogue: 0,0:15:28.47,0:15:29.71,Default,NTP,0,0,0,,真漂亮呢
+Dialogue: 0,0:15:29.76,0:15:30.29,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:15:31.10,0:15:32.51,Default,NTP,0,0,0,,我好幸福
+Dialogue: 0,0:15:33.41,0:15:35.52,Default,NTP,0,0,0,,能够认识到这么多朋友
+Dialogue: 0,0:15:36.40,0:15:39.38,Default,NTP,0,0,0,,最后还能和哥哥约会
+Dialogue: 0,0:15:40.13,0:15:40.95,Default,NTP,0,0,0,,樱
+Dialogue: 0,0:15:42.60,0:15:43.72,Default,NTP,0,0,0,,也是
+Dialogue: 0,0:15:44.27,0:15:48.85,Default,NTP,0,0,0,,果然还是应该跟哥哥说清楚呢
+Dialogue: 0,0:16:20.23,0:16:20.96,Default,NTP,0,0,0,,这里是…
+Dialogue: 0,0:16:23.15,0:16:24.42,Default,NTP,0,0,0,,永不凋零的樱花
+Dialogue: 0,0:16:24.73,0:16:28.59,Default,NTP,0,0,0,,能实现任何愿望的魔法樱花
+Dialogue: 0,0:16:43.28,0:16:44.51,Default,NTP,0,0,0,,呐  哥哥
+Dialogue: 0,0:16:45.28,0:16:47.47,Default,NTP,0,0,0,,能和我做个约定吗
+Dialogue: 0,0:17:06.92,0:17:07.74,Default,NTP,0,0,0,,然后
+Dialogue: 0,0:17:09.77,0:17:12.51,Default,NTP,0,0,0,,相隔20年樱花再次盛开的那一天
+Dialogue: 0,0:17:14.23,0:17:17.35,Default,NTP,0,0,0,,我再一次出现在这里
+Dialogue: 0,0:17:24.97,0:17:27.85,Default,NTP,0,0,0,,我应该存在的地方并不是这里
+Dialogue: 0,0:17:29.19,0:17:32.50,Default,NTP,0,0,0,,我马上要去和重要的人见面
+Dialogue: 0,0:17:33.57,0:17:34.63,Default,NTP,0,0,0,,重要的人？
+Dialogue: 0,0:17:35.07,0:17:38.22,Default,NTP,0,0,0,,虽然不知道能不能相见
+Dialogue: 0,0:17:41.88,0:17:42.65,Default,NTP,0,0,0,,能相见的
+Dialogue: 0,0:17:44.53,0:17:47.60,Default,NTP,0,0,0,,小樱的思念肯定能传达过去的
+Dialogue: 0,0:17:53.04,0:17:54.99,Default,NTP,0,0,0,,果然很像
+Dialogue: 0,0:17:56.47,0:17:58.09,Default,NTP,0,0,0,,很像我重要的人
+Dialogue: 0,0:17:58.82,0:17:59.89,Default,NTP,0,0,0,,他是个怎样的人？
+Dialogue: 0,0:18:00.57,0:18:03.41,Default,NTP,0,0,0,,是个平时总是很懒散的人
+Dialogue: 0,0:18:04.83,0:18:08.54,Default,NTP,0,0,0,,不过  他是个温柔的人
+Dialogue: 0,0:18:10.11,0:18:10.86,Default,NTP,0,0,0,,是吗
+Dialogue: 0,0:18:17.02,0:18:18.00,Default,NTP,0,0,0,,我出发了
+Dialogue: 0,0:18:19.15,0:18:20.54,Default,NTP,0,0,0,,无论何时都可以回来哦
+Dialogue: 0,0:18:30.16,0:18:33.69,Default,NTP,0,0,0,,我永远是樱的伙伴
+Dialogue: 0,0:18:35.11,0:18:36.03,Default,NTP,0,0,0,,哥哥
+Dialogue: 0,0:18:38.99,0:18:43.09,Default,NTP,0,0,0,,我能和哥哥相遇真是太好了
+Dialogue: 0,0:18:45.28,0:18:46.09,Default,NTP,0,0,0,,小樱
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----EDlrcJPN-----
+Dialogue: 0,0:21:37.48,0:21:46.91,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}この世界はいつも  移り変わってしまうけど
+Dialogue: 0,0:21:48.70,0:21:54.89,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}ここにボクらが存在コトだけは
+Dialogue: 0,0:21:48.70,0:21:54.89,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)\fs10\pos(130,0)}いる
+Dialogue: 0,0:21:55.82,0:22:01.49,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}変えようのない１つの現実
+Dialogue: 0,0:22:01.88,0:22:06.09,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}どんな時代を生き抜いても
+Dialogue: 0,0:22:07.79,0:22:17.30,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}そこにある笑顔をボクは信じていくよ
+Dialogue: 0,0:22:17.51,0:22:24.57,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}会いたいよ  会いたいよ  またどこかで…
+Dialogue: 0,0:22:25.45,0:22:30.15,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}そう願うのは  ボクのワガママ？
+Dialogue: 0,0:22:30.30,0:22:34.88,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}会いたいよ  会いたいよ
+Dialogue: 0,0:22:35.07,0:22:43.31,EDlrcJPN,NTP,0,0,0,,{\fad(100,100)}またその手であたためて欲しいよ
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----EDlrcCHN-----
+Dialogue: 0,0:21:37.48,0:21:46.91,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}虽然这个世界总是在改变着
+Dialogue: 0,0:21:48.70,0:21:54.89,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}唯独我们所在的此刻
+Dialogue: 0,0:21:55.82,0:22:01.49,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}是不容改变的现实
+Dialogue: 0,0:22:01.88,0:22:06.09,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}无论身处什么时代
+Dialogue: 0,0:22:07.79,0:22:17.30,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}你的笑容  都是我的支柱
+Dialogue: 0,0:22:17.51,0:22:24.57,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}好想见你  好想见你  我们何处再会
+Dialogue: 0,0:22:25.45,0:22:30.15,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}这份愿望是我的任性吗
+Dialogue: 0,0:22:30.30,0:22:34.88,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}好想见你  好想见你
+Dialogue: 0,0:22:35.07,0:22:43.31,EDlrcCHN,NTP,0,0,0,,{\fad(100,100)}好希望你再次用这双手温暖我
+Dialogue: 0,0:23:06.86,0:23:10.34,Default,NTP,0,0,0,,明天的傍晚  来看看永不凋零的樱花树
+Dialogue: 0,0:23:25.82,0:23:28.45,Default,NTP,0,0,0,,一个的约定和小小的愿望
+Dialogue: 0,0:23:28.89,0:23:32.86,Default,NTP,0,0,0,,无论经过几十年  几百年都不会改变的  重要的回忆
+Dialogue: 0,0:23:33.84,0:23:35.58,Default,NTP,0,0,0,,最终回  Da Capo
+Dialogue: 0,0:23:36.22,0:23:39.15,Default,NTP,0,0,0,,穿越时空的奇迹  此刻又开始了轮回
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----INlrcJPN-----
+Dialogue: 0,0:08:33.58,0:08:37.12,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}君の声  その笑顔
+Dialogue: 0,0:08:37.56,0:08:41.12,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}弾むように  届くから
+Dialogue: 0,0:08:42.04,0:08:49.17,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}続く空の先へと  思いは駆けてく
+Dialogue: 0,0:08:49.56,0:08:53.18,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}桜舞う  時の風
+Dialogue: 0,0:08:53.54,0:08:57.25,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}その香り  煌きと
+Dialogue: 0,0:08:58.71,0:09:02.14,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}寄せては返す思い
+Dialogue: 0,0:09:02.58,0:09:05.11,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}ここに満ちて揺れる
+Dialogue: 0,0:09:05.28,0:09:09.17,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}君が好きなんだって
+Dialogue: 0,0:09:10.04,0:09:13.60,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}言ってしまいたい
+Dialogue: 0,0:09:14.59,0:09:21.14,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}お喋りの欠片たち  願いを包めば
+Dialogue: 0,0:09:21.36,0:09:29.37,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}不意に切なくて  心を隠してた
+Dialogue: 0,0:09:30.56,0:09:38.89,INlrcJPN,NTP,0,0,0,,{\fad(200,200)}降り注ぐ光の行方    どこへ行くの
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,-----INlrcCHN-----
+Dialogue: 0,0:08:33.58,0:08:37.12,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}你的音容笑貌
+Dialogue: 0,0:08:37.56,0:08:41.12,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}令我不禁心跳加速
+Dialogue: 0,0:08:42.04,0:08:49.17,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}把心中的思念放飞  向着蓝天的尽头
+Dialogue: 0,0:08:49.56,0:08:53.18,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}樱花飘舞  时光如风
+Dialogue: 0,0:08:53.54,0:08:57.25,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}花香甜美  花瓣闪耀
+Dialogue: 0,0:08:58.71,0:09:02.14,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}回忆如浪花般翻飞起伏
+Dialogue: 0,0:09:02.58,0:09:05.11,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}摇荡着填满了我的心
+Dialogue: 0,0:09:05.28,0:09:09.17,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}我好喜欢你
+Dialogue: 0,0:09:10.04,0:09:13.60,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}好想告诉你
+Dialogue: 0,0:09:14.59,0:09:21.14,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}在片言只语中  包含着最真挚的愿望
+Dialogue: 0,0:09:21.36,0:09:29.37,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}悲伤不经意地略过心头  令我不禁藏起对你的心意
+Dialogue: 0,0:09:30.56,0:09:38.89,INlrcCHN,NTP,0,0,0,,{\fad(200,200)}天空中洒下的光芒  究竟会照向何方
+

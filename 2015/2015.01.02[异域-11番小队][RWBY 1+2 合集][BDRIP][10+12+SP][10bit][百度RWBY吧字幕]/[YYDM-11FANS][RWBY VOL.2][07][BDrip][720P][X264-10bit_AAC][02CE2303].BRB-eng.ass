@@ -1,0 +1,192 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Microsoft YaHei,56,&H00ffffff,&H000000ff,&H0008009f,&H006757b7,0,0,0,0,100,100,0,0.00,1,2,1,2,10,10,40,1
+Style: Note,Microsoft YaHei,47,&H0001020b,&H000000ff,&H00ffffff,&H009fb4ba,0,0,0,0,100,100,0,0.00,1,2,2,8,10,10,40,1
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: Staff,Microsoft YaHei,34,&H00ffffff,&H000000ff,&H00000000,&H000000ff,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,40,1
+Style: BRB sign,Microsoft YaHei,133,&H002900ad,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,0,0,8,34,34,34,1
+Style: D1,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,7,40,10,30,1
+Style: D2,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,3,10,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:22.68,0:00:24.88,D,,0000,0000,0000,,I see you're hiding at the punch bowl too
+Dialogue: 0,0:00:24.88,0:00:26.50,D,,0000,0000,0000,,Yep -o-
+Dialogue: 0,0:00:28.00,0:00:29.31,D,,0000,0000,0000,,To the socially awkward
+Dialogue: 0,0:00:31.88,0:00:34.12,D,,0000,0000,0000,,Sorry things didn't work out with Weiss
+Dialogue: 0,0:00:34.50,0:00:36.28,D,,0000,0000,0000,,Meh, it's fine
+Dialogue: 0,0:00:36.28,0:00:38.28,D,,0000,0000,0000,,Neptune's pretty cool
+Dialogue: 0,0:00:38.28,0:00:39.94,D,,0000,0000,0000,,I get why she went with him
+Dialogue: 0,0:00:39.94,0:00:40.95,D,,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:00:40.95,0:00:44.44,D,,0000,0000,0000,,Well, come on..not many people can pull off blue hair
+Dialogue: 0,0:00:44.44,0:00:47.64,D,,0000,0000,0000,,No, I mean..Weiss came to the dance alone
+Dialogue: 0,0:00:48.42,0:00:49.62,D,,0000,0000,0000,,Uh, what?
+Dialogue: 0,0:00:51.14,0:00:54.76,D,,0000,0000,0000,,Yeah, she said she had too much to focus on to worry about boys
+Dialogue: 0,0:01:06.18,0:01:08.54,D,,0000,0000,0000,,Hold my punch
+Dialogue: 0,0:01:34.36,0:01:36.04,D,,0000,0000,0000,,Hey, Pyrrha
+Dialogue: 0,0:01:36.70,0:01:37.94,D,,0000,0000,0000,,Hello, Jaune
+Dialogue: 0,0:01:40.76,0:01:43.28,D,,0000,0000,0000,,You okay? I haven't seen you tonight
+Dialogue: 0,0:01:43.28,0:01:45.38,D,,0000,0000,0000,,Arrived late, I'm afraid
+Dialogue: 0,0:01:45.38,0:01:48.12,D,,0000,0000,0000,,Well, you look really nice
+Dialogue: 0,0:01:48.12,0:01:48.90,D,,0000,0000,0000,,Thank you
+Dialogue: 0,0:01:49.32,0:01:52.52,D,,0000,0000,0000,,Your..uh, date isn't gonna beat me up for saying that, is he?
+Dialogue: 0,0:01:52.52,0:01:54.76,D,,0000,0000,0000,,I think you're safe for tonight
+Dialogue: 0,0:01:54.76,0:01:56.99,D,,0000,0000,0000,,So, where is the guy?
+Dialogue: 0,0:01:59.36,0:02:00.93,D,,0000,0000,0000,,There is no guy
+Dialogue: 0,0:02:00.93,0:02:02.83,D,,0000,0000,0000,,Hah, What?
+Dialogue: 0,0:02:03.33,0:02:04.86,D,,0000,0000,0000,,Nobody asked me
+Dialogue: 0,0:02:04.86,0:02:06.66,D,,0000,0000,0000,,But that's..
+Dialogue: 0,0:02:06.66,0:02:11.04,D,,0000,0000,0000,,You're Pyrrha Nikos! How could nobody ask you?
+Dialogue: 0,0:02:12.58,0:02:17.76,D,,0000,0000,0000,,I've been blessed with incredible talents and opportunities
+Dialogue: 0,0:02:17.76,0:02:21.78,D,,0000,0000,0000,,I'm constantly surrounded by love and praise
+Dialogue: 0,0:02:21.78,0:02:24.89,D,,0000,0000,0000,,But when you're placed on a pedestal like that for so long
+Dialogue: 0,0:02:24.89,0:02:29.19,D,,0000,0000,0000,,you become separated from the people that put you there in the first place
+Dialogue: 0,0:02:29.19,0:02:31.96,D,,0000,0000,0000,,Everyone assumes I'm too good for them
+Dialogue: 0,0:02:31.96,0:02:35.20,D,,0000,0000,0000,,That I'm on a level they simply can't attain
+Dialogue: 0,0:02:35.20,0:02:39.40,D,,0000,0000,0000,,It's become impossible to form any sort of meaningful relationship with people
+Dialogue: 0,0:02:39.90,0:02:42.24,D,,0000,0000,0000,,That's what I like about you
+Dialogue: 0,0:02:42.64,0:02:46.41,D,,0000,0000,0000,,When we met, you didn't even know my name
+Dialogue: 0,0:02:46.41,0:02:49.25,D,,0000,0000,0000,,You treated me just like anyone else
+Dialogue: 0,0:02:49.72,0:02:51.26,D,,0000,0000,0000,,And thanks to you
+Dialogue: 0,0:02:51.88,0:02:55.88,D,,0000,0000,0000,,I've made friendships that will last a lifetime
+Dialogue: 0,0:02:55.88,0:02:59.59,D,,0000,0000,0000,,I guess, you're the kinda guy I wish I was here with
+Dialogue: 0,0:03:00.52,0:03:03.66,D,,0000,0000,0000,,Someone who just saw me for me
+Dialogue: 0,0:03:12.33,0:03:13.57,D,,0000,0000,0000,,Uh, wait..
+Dialogue: 0,0:03:13.57,0:03:15.57,D,,0000,0000,0000,,Hey! uh..Jaune, right?
+Dialogue: 0,0:03:16.77,0:03:17.88,D,,0000,0000,0000,,Yeah..
+Dialogue: 0,0:03:17.88,0:03:21.88,D,,0000,0000,0000,,This party's pretty lame, huh? I mean, ballroom dancing..pfft
+Dialogue: 0,0:03:21.88,0:03:23.00,D,,0000,0000,0000,,Yeah
+Dialogue: 0,0:03:23.00,0:03:24.42,D,,0000,0000,0000,,Cute girls, though, huh?
+Dialogue: 0,0:03:25.35,0:03:27.18,D,,0000,0000,0000,,Is that all you think about?
+Dialogue: 0,0:03:27.18,0:03:27.88,D,,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:27.88,0:03:31.99,D,,0000,0000,0000,,Do you even care about the girls you're hitting on? How they feel about you?
+Dialogue: 0,0:03:31.99,0:03:33.66,D,,0000,0000,0000,,Whoa! Where's this coming from?
+Dialogue: 0,0:03:33.66,0:03:35.72,D,,0000,0000,0000,,How could you just turn her down like that?
+Dialogue: 0,0:03:35.72,0:03:37.10,D,,0000,0000,0000,,Wait..who?
+Dialogue: 0,0:03:37.10,0:03:38.39,D,,0000,0000,0000,,Weiss!
+Dialogue: 0,0:03:38.39,0:03:40.36,D,,0000,0000,0000,,I, uh..
+Dialogue: 0,0:03:40.36,0:03:41.92,D,,0000,0000,0000,,It, uh..
+Dialogue: 0,0:03:41.92,0:03:43.60,D,,0000,0000,0000,,It just didn't work out, you know?
+Dialogue: 0,0:03:43.60,0:03:46.90,D,,0000,0000,0000,,What, you think that you're too cool, too many other options?
+Dialogue: 0,0:03:46.90,0:03:51.26,D,,0000,0000,0000,,Weiss Schnee asked you to the dance, what in the world could possibly keep you from go..
+Dialogue: 0,0:03:51.26,0:03:52.44,D,,0000,0000,0000,,I can't dance..
+Dialogue: 0,0:03:53.24,0:03:54.18,D,,0000,0000,0000,,Beg your pardon?
+Dialogue: 0,0:03:54.18,0:03:55.84,D,,0000,0000,0000,,I can't dance, man!
+Dialogue: 0,0:03:55.84,0:03:58.32,D,,0000,0000,0000,,But..you're..so..
+Dialogue: 0,0:03:58.32,0:03:59.42,D,,0000,0000,0000,,Cool!
+Dialogue: 0,0:03:59.42,0:04:02.32,D,,0000,0000,0000,,Thank you, I try really, really hard
+Dialogue: 0,0:04:03.62,0:04:07.48,D,,0000,0000,0000,,You would rather break a girl's heart and go to a dance alone than..
+Dialogue: 0,0:04:07.48,0:04:10.98,D,,0000,0000,0000,,just admit to everyone that you can't move in rythm to music?
+Dialogue: 0,0:04:10.98,0:04:13.06,D,,0000,0000,0000,,That about sums it up, yeah
+Dialogue: 0,0:04:13.06,0:04:16.13,D,,0000,0000,0000,,Well, I certainly feel a lot better about myself
+Dialogue: 0,0:04:16.13,0:04:17.73,D,,0000,0000,0000,,Please don't tell anybody
+Dialogue: 0,0:04:17.73,0:04:21.87,D,,0000,0000,0000,,Look, if you want Weiss, she's all yours, I don't wanna get in your way
+Dialogue: 0,0:04:24.94,0:04:25.91,D,,0000,0000,0000,,Do you like her?
+Dialogue: 0,0:04:25.91,0:04:27.31,D,,0000,0000,0000,,Yeah, I mean..
+Dialogue: 0,0:04:27.31,0:04:30.25,D,,0000,0000,0000,,I don't know her too well yet, but..she seems pretty cool
+Dialogue: 0,0:04:30.25,0:04:32.95,D,,0000,0000,0000,,Then just go talk to her
+Dialogue: 0,0:04:32.95,0:04:35.84,D,,0000,0000,0000,,No pickup lines, no suave moves..
+Dialogue: 0,0:04:35.84,0:04:37.86,D,,0000,0000,0000,,Just be yourself
+Dialogue: 0,0:04:37.86,0:04:39.52,D,,0000,0000,0000,,I've heard that's the way to go
+Dialogue: 0,0:04:39.52,0:04:40.06,D,,0000,0000,0000,,Yeah, but that..
+Dialogue: 0,0:04:40.06,0:04:43.86,D,,0000,0000,0000,,Hey! You don't have to look cool all the time
+Dialogue: 0,0:04:43.86,0:04:47.50,D,,0000,0000,0000,,In all honesty, if you could be a little less cool, I'd really appreciate it
+Dialogue: 0,0:04:48.40,0:04:49.34,D,,0000,0000,0000,,Yeah
+Dialogue: 0,0:04:49.80,0:04:50.60,D,,0000,0000,0000,,Okay
+Dialogue: 0,0:04:51.00,0:04:52.10,D,,0000,0000,0000,,Go talk to her
+Dialogue: 0,0:04:52.47,0:04:54.20,D,,0000,0000,0000,,I guarantee it'll make her night
+Dialogue: 0,0:04:54.20,0:04:55.30,D,,0000,0000,0000,,Thanks
+Dialogue: 0,0:04:55.30,0:04:56.46,D,,0000,0000,0000,,You're a really cool guy, Jaune
+Dialogue: 0,0:04:56.46,0:04:58.41,D,,0000,0000,0000,,Alright, don't lie to my face
+Dialogue: 0,0:05:04.11,0:05:05.42,D,,0000,0000,0000,,All right
+Dialogue: 0,0:05:05.42,0:05:07.32,D,,0000,0000,0000,,Only one thing left to do
+Dialogue: 0,0:05:11.39,0:05:12.30,D,,0000,0000,0000,,You know..
+Dialogue: 0,0:05:12.72,0:05:14.82,D,,0000,0000,0000,,I think we really needed this
+Dialogue: 0,0:05:22.66,0:05:23.60,D,,0000,0000,0000,,Yeah
+Dialogue: 0,0:05:23.60,0:05:26.04,D,,0000,0000,0000,,And you did a great job planning it too
+Dialogue: 0,0:05:26.04,0:05:27.46,D,,0000,0000,0000,,Aww, thanks!
+Dialogue: 0,0:05:27.04,0:05:29.88,Note,,0000,0000,0000,,>....<
+Dialogue: 0,0:05:27.46,0:05:30.21,D,,0000,0000,0000,,It wasn't all me, though, Weiss did a lot too
+Dialogue: 0,0:05:42.06,0:05:43.95,D,,0000,0000,0000,,Tomorrow it's back to work
+Dialogue: 0,0:05:43.95,0:05:47.76,D,,0000,0000,0000,,Well, I'm sure we can handle whatever gets thrown at us
+Dialogue: 0,0:05:49.53,0:05:51.29,D,,0000,0000,0000,,Except for that..
+Dialogue: 0,0:05:59.84,0:06:01.10,D,,0000,0000,0000,,Jaune?
+Dialogue: 0,0:06:02.34,0:06:04.31,D,,0000,0000,0000,,Eh, a promise is a promise
+Dialogue: 0,0:06:11.71,0:06:14.70,D,,0000,0000,0000,,Jaune! You didn't have to!
+Dialogue: 0,0:06:14.70,0:06:18.16,D,,0000,0000,0000,,Hey, an Arc never goes back on his word
+Dialogue: 0,0:06:18.16,0:06:20.40,D,,0000,0000,0000,,Now do you wanna stand there and laugh at me..
+Dialogue: 0,0:06:20.40,0:06:22.12,D,,0000,0000,0000,,or do you wanna dance?
+Dialogue: 0,0:06:22.73,0:06:25.76,D,,0000,0000,0000,,I would love to dance
+Dialogue: 0,0:06:25.76,0:06:27.10,D,,0000,0000,0000,,Oh! 0v0
+Dialogue: 0,0:06:28.23,0:06:32.33,D,,0000,0000,0000,,Ren, This..is..happening!
+Dialogue: 0,0:06:29.74,0:06:38.11,D1,,0000,0000,0000,,But baby, it's time to make up your mind
+Dialogue: 0,0:06:32.80,0:06:34.40,D,,0000,0000,0000,,Wait, what is happening?
+Dialogue: 0,0:06:38.11,0:06:45.95,D1,,0000,0000,0000,,I think that tonight is when our stars align
+Dialogue: 0,0:06:45.95,0:06:52.60,D1,,0000,0000,0000,,Honey, it's time to leave the doubt behind
+Dialogue: 0,0:06:52.60,0:07:00.36,D1,,0000,0000,0000,,Take my hand, cuz you and I are gonna shine
+Dialogue: 0,0:06:54.10,0:06:57.26,D,,0000,0000,0000,,I had no idea you were a dancer
+Dialogue: 0,0:06:57.26,0:07:00.96,D,,0000,0000,0000,,Yeah, well, these things tend to happen when you grow up with seven sisters
+Dialogue: 0,0:07:05.67,0:07:08.44,D,,0000,0000,0000,,So, what made you change your mind?
+Dialogue: 0,0:07:08.44,0:07:09.26,D,,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:09.26,0:07:12.98,D,,0000,0000,0000,,You said you were embarassed at first, what made you come talk to me?
+Dialogue: 0,0:07:13.58,0:07:14.91,D,,0000,0000,0000,,You're looking at him
+Dialogue: 0,0:07:19.80,0:07:22.00,D,,0000,0000,0000,,You've got some good friends looking out for you
+Dialogue: 0,0:07:32.16,0:07:34.43,D,,0000,0000,0000,,It appears all the dancers have partners
+Dialogue: 0,0:07:34.43,0:07:36.30,D,,0000,0000,0000,,How long do I have?
+Dialogue: 0,0:07:36.30,0:07:39.04,D,,0000,0000,0000,,We should probably be home by midnigh, to be safe
+Dialogue: 0,0:07:39.97,0:07:42.07,D,,0000,0000,0000,,I'll keep my eye on the clock
+Dialogue: 0,0:08:39.66,0:08:40.80,D,,0000,0000,0000,,Excuse me
+Dialogue: 0,0:08:41.60,0:08:43.18,D,,0000,0000,0000,,No one's allowed in this area
+Dialogue: 0,0:08:43.18,0:08:44.07,D,,0000,0000,0000,,Stop!
+Dialogue: 0,0:09:09.33,0:09:11.63,D,,0000,0000,0000,,Hey man, do you know the Wi-Fi password?
+Dialogue: 0,0:09:11.63,0:09:17.03,D,,0000,0000,0000,,It's Beacon, but replace the E with the 3 and add a pound symbol to the end
+Dialogue: 0,0:09:11.63,0:09:17.03,Note,,0000,0000,0000,,B3acon#
+Dialogue: 0,0:09:28.14,0:09:28.64,D,,0000,0000,0000,,TvT
+Dialogue: 0,0:09:28.64,0:09:29.14,D,,0000,0000,0000,,T_T
+Dialogue: 0,0:09:43.46,0:09:45.33,D,,0000,0000,0000,,Oh! That's handy
+Dialogue: 0,0:10:00.72,0:10:02.48,D,,0000,0000,0000,,A party guest is leaving
+Dialogue: 0,0:10:03.01,0:10:04.05,D,,0000,0000,0000,,Which one?
+Dialogue: 0,0:10:06.18,0:10:07.38,D,,0000,0000,0000,,Ironwood
+Dialogue: 0,0:10:09.39,0:10:12.52,D,,0000,0000,0000,,I guess the general's had enough fun for one night
+Dialogue: 0,0:10:13.09,0:10:14.42,D,,0000,0000,0000,,Should we intervene?
+Dialogue: 0,0:10:18.99,0:10:20.16,D,,0000,0000,0000,,No
+Dialogue: 0,0:10:20.53,0:10:22.00,D,,0000,0000,0000,,We're done here
+Dialogue: 0,0:10:31.54,0:10:32.54,D,,0000,0000,0000,,Hello?
+Dialogue: 0,0:10:42.32,0:10:43.79,D,,0000,0000,0000,,Is anyone there?
+Dialogue: 0,0:10:45.88,0:10:46.96,D,,0000,0000,0000,,Hello?
+Dialogue: 0,0:10:50.56,0:10:51.86,D,,0000,0000,0000,,Excuse me
+Dialogue: 0,0:10:52.52,0:10:54.64,D,,0000,0000,0000,,You know, it's not a masquerade party
+Dialogue: 0,0:10:54.64,0:10:56.50,D,,0000,0000,0000,,So why don't you take off that..
+Dialogue: 0,0:12:05.07,0:12:06.87,D,,0000,0000,0000,,Oh, may I cut in?
+Dialogue: 0,0:12:07.67,0:12:08.67,D,,0000,0000,0000,,Of course
+Dialogue: 0,0:12:12.27,0:12:14.41,D,,0000,0000,0000,,And how's your night been?
+Dialogue: 0,0:12:14.41,0:12:18.04,D,,0000,0000,0000,,Mmm..a little more exicting than expected
+Dialogue: 0,0:12:18.04,0:12:19.42,D,,0000,0000,0000,,Should we be worried?
+Dialogue: 0,0:12:19.42,0:12:20.62,D,,0000,0000,0000,,Hardly
+Dialogue: 0,0:12:20.62,0:12:24.96,D,,0000,0000,0000,,They'll be scratching their heads long after we finished what we came here for
+Dialogue: 0,0:12:24.96,0:12:26.42,D,,0000,0000,0000,,So then what now?
+Dialogue: 0,0:12:26.42,0:12:29.54,D,,0000,0000,0000,,Enjoy the rest of the night, after all..
+Dialogue: 0,0:12:30.93,0:12:33.36,D,,0000,0000,0000,,It is a party
+Dialogue: 0,0:13:33.44,0:13:36.28,BRB sign,,0000,0000,0000,,BRB
+Dialogue: 0,0:13:33.51,0:13:35.62,Staff,,0000,0000,0000,,This SUB is presented by Baidu RWBY Bar\N\N\N\N\N\N\N\NCreator: sbz_kid

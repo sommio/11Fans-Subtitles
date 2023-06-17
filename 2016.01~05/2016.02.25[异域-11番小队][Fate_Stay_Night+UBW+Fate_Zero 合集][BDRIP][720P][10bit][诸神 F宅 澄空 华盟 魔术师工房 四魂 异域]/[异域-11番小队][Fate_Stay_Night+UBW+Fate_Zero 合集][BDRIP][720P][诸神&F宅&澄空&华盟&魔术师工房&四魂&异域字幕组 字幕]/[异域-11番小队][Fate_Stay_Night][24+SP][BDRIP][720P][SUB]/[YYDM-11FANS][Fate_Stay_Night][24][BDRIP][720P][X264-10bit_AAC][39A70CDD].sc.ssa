@@ -1,0 +1,396 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+;
+; Final Check By CloudXP & Edit By APJFox at 2006/11/15 2000
+;
+Title: [LiouMing][Fate_stay_night][24][DVDRip][WMV9_AC3].cht.ssa
+Original Script: LiouMing Anime Station
+Original Editing: LiouMing Anime Station
+Original Timing: LiouMing Anime Station
+Script Updated By: LiouMing Anime Station
+Script Type: V4.00+
+ScriptType: V4.00+
+Collisions: Normal
+PlayResX: 704
+PlayResY: 396
+Timer: 100.000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,0,10,1
+Style: EDJap,MS Gothic,20,&HFFFFFFFFFFFFFFFF,&H000000FF,&H00005EEA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,10,0,5,128
+Style: EDCht,汉仪小隶书简,18,&H00356666,&H00FF0000,&H00FFFFFF,&H00356666,0,0,0,0,100,100,0,0,1,2,1,7,5,10,5,1
+Style: TypeJap,MS Gothic,16,&H00FFFFFF,&H0028FFFF,&H0000A6A6,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,0,5,128
+Style: TypeEng,ExpressDecoSSi,20,&H00FFFFFF,&H0028FFFF,&H0000A6A6,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,0,10,120
+Style: TypeCht,宋体,24,&H00FFFFFF,&H0028FFFF,&H0000A6A6,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,0,10,1
+Style: ps,方正准圆_GBK,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,2,1
+Style: TypeEng1,ExpressDecoSSi,20,&H00A3FFFF,&H00FF0000,&H00FF0000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,0,10,120
+Style: TypeCht1,宋体,24,&H00A3FFFF,&H00FF0000,&H00FF0000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,0,10,1
+Style: TypeJap1,MS Gothic,16,&H00FFFFFF,&H00FF0000,&H00FF0000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,0,5,128
+Style: memory,方正准圆_GBK,24,&H00FFFFFF,&H000000FF,&H00002680,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,0,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+;前提對話
+Dialogue: 0,0:00:13.57,0:00:14.81,ps,,0000,0000,0000,,(去死)
+Dialogue: 0,0:00:15.32,0:00:16.56,ps,,0000,0000,0000,,(去死去死去死…)
+Dialogue: 0,0:00:17.06,0:00:19.59,ps,,0000,0000,0000,,{\fad(0,500)}(去死去死去死去死去死…)
+Dialogue: 0,0:00:29.41,0:00:30.41,ps,,0000,0000,0000,,(去死)
+Dialogue: 0,0:00:33.75,0:00:34.40,ps,,0000,0000,0000,,(去死去死)
+Dialogue: 0,0:00:39.59,0:00:40.24,ps,,0000,0000,0000,,(去死去死去死去死去死…)
+Dialogue: 0,0:00:42.22,0:00:43.66,Default,,0000,0000,0000,,这种东西…
+Dialogue: 0,0:00:47.88,0:00:48.51,Default,,0000,0000,0000,,老爸他…
+Dialogue: 0,0:00:48.92,0:00:52.06,Default,,0000,0000,0000,,背负着这种东西那么多年吗？
+Dialogue: 0,0:00:54.88,0:00:56.11,Default,,0000,0000,0000,,小时候
+Dialogue: 0,0:00:56.66,0:00:59.09,Default,,0000,0000,0000,,我曾梦想当个正义的使者
+Dialogue: 0,0:00:59.41,0:01:00.69,Default,,0000,0000,0000,,包在我身上吧
+Dialogue: 0,0:01:01.04,0:01:02.27,Default,,0000,0000,0000,,叔叔你的梦想
+Dialogue: 0,0:01:02.41,0:01:04.45,Default,,0000,0000,0000,,我一定会将它付诸实现的
+Dialogue: 0,0:01:04.98,0:01:07.55,Default,,0000,0000,0000,,嗯…　我放心了…
+Dialogue: 0,0:01:12.62,0:01:13.23,Default,,0000,0000,0000,,没错
+Dialogue: 0,0:01:13.62,0:01:14.80,Default,,0000,0000,0000,,我卫宫士郎
+Dialogue: 0,0:01:14.85,0:01:16.58,Default,,0000,0000,0000,,如果真的是卫宫切嗣的…
+Dialogue: 0,0:01:17.13,0:01:19.09,Default,,0000,0000,0000,,正义使者的儿子的话
+Dialogue: 0,0:01:19.32,0:01:20.21,Default,,0000,0000,0000,,士郎
+Dialogue: 0,0:01:20.45,0:01:22.71,Default,,0000,0000,0000,,你要打的话死也要给我赢
+Dialogue: 0,0:01:23.72,0:01:25.50,Default,,0000,0000,0000,,无论如何…
+Dialogue: 0,0:01:27.87,0:01:28.63,Default,,0000,0000,0000,,言峰他
+Dialogue: 0,0:01:29.08,0:01:30.56,Default,,0000,0000,0000,,是你应该打倒的敌人
+Dialogue: 0,0:01:31.44,0:01:34.06,Default,,0000,0000,0000,,我都不能输给那个男的
+Dialogue: 0,0:01:34.67,0:01:35.98,Default,,0000,0000,0000,,赌上性命吧
+Dialogue: 0,0:01:36.88,0:01:40.02,Default,,0000,0000,0000,,如此一来　或许碰得到我也说不定
+
+;本话标题
+Dialogue: 0,0:02:20.08,0:02:27.00,Default,,0000,0000,0000,,{\fad(1200,1200)}最终回　隔世绝尘的世外桃源
+
+;正文字幕
+Dialogue: 0,0:02:36.36,0:02:37.12,Default,,0000,0000,0000,,怎么可能…
+Dialogue: 0,0:02:38.07,0:02:40.14,Default,,0000,0000,0000,,居然把它给挣脱掉了
+Dialogue: 0,0:02:40.95,0:02:41.72,Default,,0000,0000,0000,,就凭你…
+Dialogue: 0,0:02:44.80,0:02:45.84,Default,,0000,0000,0000,,真服了你
+Dialogue: 0,0:02:46.83,0:02:48.83,Default,,0000,0000,0000,,还以为你会逃离它
+Dialogue: 0,0:02:49.12,0:02:50.67,Default,,0000,0000,0000,,结果你却这样没头没脑冲过来
+Dialogue: 0,0:02:51.50,0:02:54.14,Default,,0000,0000,0000,,已经无计可施了是吗？
+Dialogue: 0,0:02:54.30,0:02:54.90,Default,,0000,0000,0000,,吵死了
+Dialogue: 0,0:02:55.32,0:02:56.67,Default,,0000,0000,0000,,打从一开始
+Dialogue: 0,0:02:56.90,0:02:58.10,Default,,0000,0000,0000,,我就没任何计策
+;Dialogue: 0,0:03:09.88,0:03:11.37,TypeJap,,0000,0000,0000,,{\fs13}エヌマ{\fn方正准圆_GBK\fs15}．{\fnMS Gothic\fs13}エリシュ
+;Dialogue: 0,0:03:09.88,0:03:11.37,TypeJap,,0000,0000,0000,,天地乖离す开辟の星
+Dialogue: 0,0:03:09.88,0:03:11.37,TypeCht,,0000,0000,0000,,开天辟地创世之星
+Dialogue: 0,0:03:09.88,0:03:11.37,TypeEng,,0000,0000,0000,,Enuma Elish
+;Dialogue: 0,0:03:13.96,0:03:17.48,TypeJap1,,0000,0000,0000,,{\fs13}エクスカリハー
+;Dialogue: 0,0:03:13.96,0:03:17.48,TypeJap1,,0000,0000,0000,,约束された胜利の剑
+Dialogue: 0,0:03:13.96,0:03:17.48,TypeCht1,,0000,0000,0000,,誓约胜利之剑
+Dialogue: 0,0:03:13.96,0:03:17.48,TypeEng1,,0000,0000,0000,,Excalibur
+Dialogue: 0,0:04:02.52,0:04:03.30,Default,,0000,0000,0000,,如果这就是…
+Dialogue: 0,0:04:03.82,0:04:05.28,Default,,0000,0000,0000,,我的职责所在…
+Dialogue: 0,0:04:05.74,0:04:06.43,Default,,0000,0000,0000,,那…
+Dialogue: 0,0:04:06.43,0:04:08.30,Default,,0000,0000,0000,,就还有我能办到的事
+;Dialogue: 0,0:04:42.31,0:04:43.78,TypeJap,,0000,0000,0000,,{\fs13}エヌマ{\fn方正准圆_GBK\fs15}．{\fnMS Gothic\fs13}エリシュ
+;Dialogue: 0,0:04:42.31,0:04:43.78,TypeJap,,0000,0000,0000,,天地乖离す开辟の星
+Dialogue: 0,0:04:42.31,0:04:43.78,TypeCht,,0000,0000,0000,,开天辟地创世之星
+Dialogue: 0,0:04:42.31,0:04:43.78,TypeEng,,0000,0000,0000,,Enuma Elish
+Dialogue: 0,0:04:48.85,0:04:50.17,Default,,0000,0000,0000,,原来你就是我的…
+Dialogue: 0,0:04:54.69,0:04:56.09,Default,,0000,0000,0000,,投影　开始
+Dialogue: 0,0:05:07.29,0:05:10.21,Default,,0000,0000,0000,,原来你就是我的剑鞘是吗
+Dialogue: 0,0:05:17.50,0:05:18.37,Default,,0000,0000,0000,,她所…
+Dialogue: 0,0:05:19.35,0:05:20.18,Default,,0000,0000,0000,,梦寐以求的…
+Dialogue: 0,0:05:21.46,0:05:22.38,Default,,0000,0000,0000,,世外桃源
+Dialogue: 0,0:05:25.01,0:05:26.13,Default,,0000,0000,0000,,其名即为…
+;Dialogue: 0,0:05:28.17,0:05:29.19,TypeJap1,,0000,0000,0006,,アヴァロン
+;Dialogue: 0,0:05:28.17,0:05:29.19,TypeJap1,,0000,0000,0006,,全て远き理想乡
+Dialogue: 0,0:05:28.17,0:05:29.19,TypeCht1,,0000,0000,0006,,遗世绝尘的世外桃源
+Dialogue: 0,0:05:28.17,0:05:29.19,TypeEng1,,0000,0000,0006,,Avalon
+Dialogue: 0,0:06:06.63,0:06:09.42,Default,,0000,0000,0000,,投…投影魔术！？
+Dialogue: 0,0:06:54.51,0:06:55.77,Default,,0000,0000,0000,,可恶
+Dialogue: 0,0:06:55.91,0:06:58.17,Default,,0000,0000,0000,,居然给我玩那种把戏
+;Dialogue: 0,0:06:59.87,0:07:00.84,TypeJap1,,0000,0000,0000,,{\fs13}エクス…
+;Dialogue: 0,0:06:59.87,0:07:00.84,TypeJap1,,0000,0000,0000,,约束された…
+Dialogue: 0,0:06:59.87,0:07:00.84,TypeCht1,,0000,0000,0000,,誓约…
+Dialogue: 0,0:06:59.87,0:07:00.84,TypeEng1,,0000,0000,0000,,Ex…
+'Dialogue: 0,0:07:10.70,0:07:12.09,TypeJap,,0000,0000,0000,,{\fs13}エヌマ{\fn方正准圆_GBK\fs15}．{\fnMS Gothic\fs13}エ…
+;Dialogue: 0,0:07:01.15,0:07:02.54,TypeJap,,0000,0000,0000,,天地乖离す开…
+Dialogue: 0,0:07:01.15,0:07:02.54,TypeCht,,0000,0000,0000,,开天辟地创…
+Dialogue: 0,0:07:01.15,0:07:02.54,TypeEng,,0000,0000,0000,,Enuma E…
+Dialogue: 0,0:07:02.55,0:07:04.90,TypeJap1,,0000,0000,0000,,{\fs13}カリハー
+;Dialogue: 0,0:07:02.55,0:07:04.90,TypeJap1,,0000,0000,0000,,胜利の剑
+Dialogue: 0,0:07:02.55,0:07:04.90,TypeCht1,,0000,0000,0000,,胜利之剑
+Dialogue: 0,0:07:02.55,0:07:04.90,TypeEng1,,0000,0000,0000,,calibur
+Dialogue: 0,0:07:18.18,0:07:19.55,Default,,0000,0000,0000,,言峰
+Dialogue: 0,0:07:19.76,0:07:21.34,Default,,0000,0000,0000,,绮礼
+Dialogue: 0,0:07:27.42,0:07:28.04,Default,,0000,0000,0006,,{\fnMonotype Corsiva\fe120\fs32}lä{\fn方正准圆_GBK\fs24} …
+Dialogue: 0,0:07:29.86,0:07:30.77,Default,,0000,0000,0006,,{\fnMonotype Corsiva\fe120\fs32}ßt
+Dialogue: 0,0:07:37.06,0:07:38.01,Default,,0000,0000,0000,,{\fnMonotype Corsiva\fe120\fs32}Avalon
+Dialogue: 0,0:07:40.01,0:07:43.88,Default,,0000,0000,0000,,过去一位王者死后所到达的世外桃源
+Dialogue: 0,0:07:45.57,0:07:47.94,Default,,0000,0000,0000,,连五大魔法也不得接近
+Dialogue: 0,0:07:48.80,0:07:52.37,Default,,0000,0000,0000,,无论何者都无法侵害的终极防守
+Dialogue: 0,0:07:54.02,0:07:55.62,Default,,0000,0000,0000,,这才是
+Dialogue: 0,0:07:55.70,0:07:57.95,Default,,0000,0000,0000,,你真正的宝具…
+Dialogue: 0,0:07:58.63,0:08:01.09,Default,,0000,0000,0000,,传说中的圣剑之力吗
+Dialogue: 0,0:08:12.43,0:08:14.79,Default,,0000,0000,0000,,真是可恨的女人
+Dialogue: 0,0:08:15.95,0:08:17.27,Default,,0000,0000,0000,,直到最后一刻…
+Dialogue: 0,0:08:17.56,0:08:20.05,Default,,0000,0000,0000,,都要与我为敌是吗
+Dialogue: 0,0:08:21.58,0:08:22.73,Default,,0000,0000,0000,,但我就原谅你吧
+Dialogue: 0,0:08:23.73,0:08:27.05,Default,,0000,0000,0000,,有些东西正是因为无法得到手才会显得它的美丽
+Dialogue: 0,0:08:27.96,0:08:29.63,Default,,0000,0000,0000,,那再会了　骑士王
+Dialogue: 0,0:08:31.86,0:08:36.93,Default,,0000,0000,0000,,想想还真是　找到了不少的乐子
+Dialogue: 0,0:08:42.01,0:08:43.03,Default,,0000,0000,0000,,为什么…
+Dialogue: 0,0:08:44.48,0:08:48.30,Default,,0000,0000,0000,,为什么你会有这把剑…
+Dialogue: 0,0:08:48.73,0:08:50.63,Default,,0000,0000,0000,,那个不是我的东西
+Dialogue: 0,0:08:51.01,0:08:52.75,Default,,0000,0000,0000,,那是远坂她托付给我的东西
+Dialogue: 0,0:08:53.38,0:08:54.73,Default,,0000,0000,0000,,原来…
+Dialogue: 0,0:08:55.57,0:08:56.37,Default,,0000,0000,0000,,过去
+Dialogue: 0,0:08:57.22,0:08:58.49,Default,,0000,0000,0000,,我曾因为一时兴起
+Dialogue: 0,0:08:59.68,0:09:02.32,Default,,0000,0000,0000,,把它给了不知哪里的丫头
+Dialogue: 0,0:09:04.36,0:09:07.57,Default,,0000,0000,0000,,记得那是　十年前吧
+Dialogue: 0,0:09:08.56,0:09:09.71,Default,,0000,0000,0000,,原来如此
+Dialogue: 0,0:09:10.23,0:09:12.46,Default,,0000,0000,0000,,也难怪我会衰退了…
+Dialogue: 0,0:09:39.28,0:09:40.80,Default,,0000,0000,0000,,投影　开始
+Dialogue: 0,0:10:02.13,0:10:03.79,Default,,0000,0000,0000,,现在我就破坏圣杯
+Dialogue: 0,0:10:14.90,0:10:16.72,Default,,0000,0000,0000,,主人　请下达命令
+Dialogue: 0,0:10:18.49,0:10:20.06,Default,,0000,0000,0000,,没有你的命令
+Dialogue: 0,0:10:20.60,0:10:21.96,Default,,0000,0000,0000,,我便无法将那破坏
+Dialogue: 0,0:10:23.55,0:10:25.37,Default,,0000,0000,0000,,请使用最后的令咒
+Dialogue: 0,0:10:31.78,0:10:32.49,Default,,0000,0000,0000,,士郎
+Dialogue: 0,0:10:35.80,0:10:38.56,Default,,0000,0000,0000,,我希望听见你的声音
+Dialogue: 0,0:10:49.38,0:10:53.83,memory,,0000,0000,0042,,{\fad(500,500)}我
+Dialogue: 0,0:10:50.91,0:10:53.83,memory,,0000,0000,0006,,{\fad(500,500)}是爱着{\fnMonotype Corsiva\fe120\fs32} Saber{\fn方正准圆_GBK\fs24} 的…
+Dialogue: 0,0:11:00.98,0:11:04.67,memory,,0000,0000,0042,,{\fad(500,500)}我希望
+Dialogue: 0,0:11:01.68,0:11:04.67,memory,,0000,0000,0000,,{\fad(500,500)}她能够比任何人都还要来得幸福
+Dialogue: 0,0:11:04.88,0:11:08.01,memory,,0000,0000,0000,,{\fad(500,500)}也想要跟她永远在一起…
+Dialogue: 0,0:11:08.14,0:11:10.07,memory,,0000,0000,0000,,{\fad(500,500)}但是…
+Dialogue: 0,0:11:14.37,0:11:19.42,memory,,0000,0000,0042,,{\fad(500,500)}如果我真的爱着她的话
+Dialogue: 0,0:11:17.53,0:11:19.42,memory,,0000,0000,0000,,{\fad(500,500)}就不能那么想
+Dialogue: 0,0:11:22.74,0:11:29.25,memory,,0000,0000,0042,,{\fad(500,500)}遍体鳞伤，
+Dialogue: 0,0:11:23.97,0:11:29.25,memory,,0000,0000,0006,,{\fad(500,500)\move(356,391,204,391,3000,3100)}却依然奋战到底的{\fnMonotype Corsiva\fe120\fs32} Saber
+Dialogue: 0,0:11:27.01,0:11:29.25,memory,,0000,0000,0000,,{\fad(500,500)\pos(484,386)}我爱的就是这样的她…
+Dialogue: 0,0:11:34.36,0:11:38.71,memory,,0000,0000,0000,,{\fad(500,0)}唯有玷污她的尊严这点
+Dialogue: 0,0:11:38.89,0:11:41.76,memory,,0000,0000,0000,,{\fad(500,500)}我是绝不能做－
+Dialogue: 0,0:11:44.22,0:11:44.90,Default,,0000,0000,0006,,{\fnMonotype Corsiva\fe120\fs32}Saber{\fn方正准圆_GBK\fs24} …
+Dialogue: 0,0:11:48.85,0:11:50.57,Default,,0000,0000,0000,,将你的职责　给完成吧
+Dialogue: 0,0:13:11.69,0:13:13.38,Default,,0000,0000,0000,,如此一来便结束了吧
+Dialogue: 0,0:13:14.02,0:13:14.39,Default,,0000,0000,0000,,是啊
+Dialogue: 0,0:13:15.64,0:13:16.67,Default,,0000,0000,0000,,这么一来就结束了
+Dialogue: 0,0:13:18.40,0:13:20.46,Default,,0000,0000,0000,,成为你的剑　讨伐敌人
+Dialogue: 0,0:13:21.01,0:13:22.24,Default,,0000,0000,0000,,守护了你
+Dialogue: 0,0:13:23.81,0:13:25.96,Default,,0000,0000,0000,,能够完成这项承诺实在太好了
+Dialogue: 0,0:13:27.80,0:13:28.50,Default,,0000,0000,0000,,是啊　
+Dialogue: 0,0:13:29.12,0:13:30.21,Default,,0000,0000,0000,,你做得很好
+Dialogue: 0,0:13:32.92,0:13:35.66,Default,,0000,0000,0000,,最后　还有句话必须告诉你
+Dialogue: 0,0:13:48.17,0:13:48.84,Default,,0000,0000,0000,,士郎
+Dialogue: 0,0:13:49.56,0:13:52.86,Default,,0000,0000,0000,,我…爱你
+Dialogue: 0,0:14:18.41,0:14:19.10,Default,,0000,0000,0000,,嗯
+Dialogue: 0,0:14:20.65,0:14:22.09,Default,,0000,0000,0000,,真是很像你的作风
+Dialogue: 0,0:14:32.56,0:14:34.63,Default,,0000,0000,0000,,学长　学长
+Dialogue: 0,0:14:35.63,0:14:36.88,Default,,0000,0000,0000,,早安
+Dialogue: 0,0:14:38.68,0:14:39.77,Default,,0000,0000,0000,,早安　樱
+Dialogue: 0,0:14:40.26,0:14:42.14,Default,,0000,0000,0000,,早餐已经准备好了喔
+Dialogue: 0,0:14:42.31,0:14:43.05,Default,,0000,0000,0000,,学长
+Dialogue: 0,0:14:43.68,0:14:46.14,Default,,0000,0000,0000,,你今天不是要参加弓道社的大赛吗
+Dialogue: 0,0:14:46.45,0:14:48.64,Default,,0000,0000,0000,,早餐我做就好了啊
+Dialogue: 0,0:14:49.35,0:14:51.74,Default,,0000,0000,0000,,如果没有迎接跟往常一样的早晨
+Dialogue: 0,0:14:51.74,0:14:53.12,Default,,0000,0000,0000,,我会失常的
+Dialogue: 0,0:14:53.29,0:14:54.55,Default,,0000,0000,0000,,这样啊　抱歉
+Dialogue: 0,0:14:58.62,0:15:00.55,Default,,0000,0000,0000,,大河　快停下来
+Dialogue: 0,0:15:00.55,0:15:01.73,Default,,0000,0000,0000,,煞车　煞车
+Dialogue: 0,0:15:04.88,0:15:06.03,Default,,0000,0000,0000,,闪开闪开…
+Dialogue: 0,0:15:13.91,0:15:16.45,Default,,0000,0000,0000,,士郎的身体也越来越硬朗了呢
+Dialogue: 0,0:15:16.61,0:15:18.56,Default,,0000,0000,0000,,居然可以空手停下机车
+Dialogue: 0,0:15:18.57,0:15:19.56,Default,,0000,0000,0000,,多谢你的赞美啊
+Dialogue: 0,0:15:19.71,0:15:21.60,Default,,0000,0000,0000,,士郎　有需要就尽管说
+Dialogue: 0,0:15:21.76,0:15:23.94,Default,,0000,0000,0000,,我随时都能趁她睡觉时干掉她
+Dialogue: 0,0:15:24.05,0:15:25.28,Default,,0000,0000,0000,,那话什么意思啊
+Dialogue: 0,0:15:25.28,0:15:25.72,Default,,0000,0000,0000,,喂
+Dialogue: 0,0:15:25.72,0:15:27.69,Default,,0000,0000,0000,,亏我好心让你寄住在我家
+Dialogue: 0,0:15:27.72,0:15:30.12,Default,,0000,0000,0000,,小心下次倒厨余我把你一起拿去倒掉喔
+Dialogue: 0,0:15:29.17,0:15:31.04,Default,,0000,0000,0000,,雷画才不舍得把我丢掉呢
+Dialogue: 0,0:15:31.06,0:15:32.57,Default,,0000,0000,0000,,他说人家比大河乖多了
+Dialogue: 0,0:15:32.57,0:15:34.45,Default,,0000,0000,0000,,你这个假仙的小恶魔！小恶魔！
+Dialogue: 0,0:15:34.47,0:15:35.76,ps,,0000,0000,0000,,(你说什么～)
+Dialogue: 0,0:15:32.12,0:15:33.27,Default,,0000,0000,0000,,久等了
+Dialogue: 0,0:15:37.65,0:15:39.91,Default,,0000,0000,0000,,大清早就有油炸豆腐得吃
+Dialogue: 0,0:15:39.92,0:15:41.37,Default,,0000,0000,0000,,大河好没家教喔
+Dialogue: 0,0:15:42.27,0:15:44.05,Default,,0000,0000,0000,,真的把你丢掉喔
+Dialogue: 0,0:15:45.47,0:15:47.50,Default,,0000,0000,0000,,因为她说过好吃
+Dialogue: 0,0:15:55.92,0:15:57.50,Default,,0000,0000,0000,,爱死了
+Dialogue: 0,0:15:57.87,0:16:00.91,Default,,0000,0000,0000,,我爱死我自己了
+Dialogue: 0,0:16:01.45,0:16:02.25,Default,,0000,0000,0000,,那是怎样
+Dialogue: 0,0:16:02.69,0:16:04.98,Default,,0000,0000,0000,,昨晚的偶像剧看太多
+Dialogue: 0,0:16:21.36,0:16:24.48,Default,,0000,0000,0000,,听说言峰教会那里来了个新神父的样子
+Dialogue: 0,0:16:24.89,0:16:25.48,Default,,0000,0000,0000,,是啊
+Dialogue: 0,0:16:26.24,0:16:28.36,Default,,0000,0000,0000,,柳洞寺也正在重建当中
+Dialogue: 0,0:16:28.75,0:16:30.94,Default,,0000,0000,0000,,总之可以说是恢复原状了吧
+Dialogue: 0,0:16:36.07,0:16:38.52,Default,,0000,0000,0000,,我还以为你会更沮丧
+Dialogue: 0,0:16:40.45,0:16:43.27,Default,,0000,0000,0000,,那如果我沮丧的话你肯安慰我吗？
+Dialogue: 0,0:16:43.28,0:16:44.08,Default,,0000,0000,0000,,想太多
+Dialogue: 0,0:16:44.40,0:16:46.76,Default,,0000,0000,0000,,我会踢你一脚让你一天就恢复过来好不好
+Dialogue: 0,0:16:49.08,0:16:50.04,Default,,0000,0000,0000,,干嘛啦
+Dialogue: 0,0:16:51.30,0:16:52.23,Default,,0000,0000,0000,,要说有没有留恋
+Dialogue: 0,0:16:52.23,0:16:53.08,Default,,0000,0000,0000,,我想一定没有
+Dialogue: 0,0:16:55.85,0:16:58.55,Default,,0000,0000,0000,,士郎已经在心里头　做出了断了是吗
+Dialogue: 0,0:16:58.75,0:16:59.23,Default,,0000,0000,0000,,是啊
+Dialogue: 0,0:17:01.54,0:17:03.22,Default,,0000,0000,0000,,或许有一天　记忆会变得淡薄
+Dialogue: 0,0:17:03.82,0:17:04.88,Default,,0000,0000,0000,,她的声音
+Dialogue: 0,0:17:05.30,0:17:06.69,Default,,0000,0000,0000,,她的举动
+Dialogue: 0,0:17:07.27,0:17:08.73,Default,,0000,0000,0000,,我都会一一忘记也说不一定
+Dialogue: 0,0:17:09.85,0:17:10.68,Default,,0000,0000,0000,,就算那样
+Dialogue: 0,0:17:12.06,0:17:15.86,Default,,0000,0000,0006,,我也会永远记得…自己曾经喜欢过一个叫{\fnMonotype Corsiva\fe120\fs32} Saber{\fn方正准圆_GBK\fs24} 的人…
+Dialogue: 0,0:17:20.90,0:17:21.62,Default,,0000,0000,0000,,士郎
+Dialogue: 0,0:17:22.24,0:17:23.37,Default,,0000,0000,0000,,你先去吧
+Dialogue: 0,0:17:41.59,0:17:42.59,Default,,0000,0000,0000,,亚瑟王
+Dialogue: 0,0:17:43.43,0:17:45.49,Default,,0000,0000,0000,,我这就去带兵过来
+Dialogue: 0,0:17:45.56,0:17:46.65,Default,,0000,0000,0000,,请您暂时先待在这里
+Dialogue: 0,0:17:47.35,0:17:48.36,Default,,0000,0000,0000,,贝狄威尔
+Dialogue: 0,0:17:49.28,0:17:50.76,Default,,0000,0000,0000,,您的意识恢复过来了吗？
+Dialogue: 0,0:17:53.42,0:17:55.72,Default,,0000,0000,0000,,我稍微做了场梦
+Dialogue: 0,0:17:56.43,0:17:57.39,Default,,0000,0000,0000,,您说梦吗
+Dialogue: 0,0:17:58.04,0:17:58.68,Default,,0000,0000,0000,,是啊
+Dialogue: 0,0:17:59.38,0:18:01.32,Default,,0000,0000,0000,,而且还是一场不曾见过的梦
+Dialogue: 0,0:18:02.16,0:18:03.88,Default,,0000,0000,0000,,让我有了宝贵的体验
+Dialogue: 0,0:18:04.72,0:18:07.93,Default,,0000,0000,0000,,那么　请您放下心来好好休息
+Dialogue: 0,0:18:10.14,0:18:11.66,Default,,0000,0000,0000,,再度阖上双眼
+Dialogue: 0,0:18:12.21,0:18:14.69,Default,,0000,0000,0000,,想必就能看见梦的延续才是
+Dialogue: 0,0:18:15.14,0:18:16.49,Default,,0000,0000,0000,,梦的延续…
+Dialogue: 0,0:18:18.22,0:18:19.95,Default,,0000,0000,0000,,能够看见相同的梦吗？
+Dialogue: 0,0:18:24.51,0:18:25.26,Default,,0000,0000,0000,,是的
+Dialogue: 0,0:18:25.59,0:18:27.38,Default,,0000,0000,0000,,我也有过相同的经验
+Dialogue: 0,0:18:28.69,0:18:29.98,Default,,0000,0000,0000,,只要强烈地去思念
+Dialogue: 0,0:18:30.20,0:18:31.11,Default,,0000,0000,0000,,是吗…
+Dialogue: 0,0:18:32.07,0:18:33.69,Default,,0000,0000,0000,,你真是博学多闻呢
+Dialogue: 0,0:18:39.65,0:18:40.73,Default,,0000,0000,0000,,贝狄威尔
+Dialogue: 0,0:18:42.88,0:18:44.13,Default,,0000,0000,0000,,带着我的剑
+Dialogue: 0,0:18:49.00,0:18:51.77,Default,,0000,0000,0000,,听好　出了这片森林
+Dialogue: 0,0:18:52.72,0:18:54.83,Default,,0000,0000,0000,,然后穿越那涂满血的山丘
+Dialogue: 0,0:18:56.08,0:18:58.66,Default,,0000,0000,0000,,往那前方的深湖
+Dialogue: 0,0:18:59.74,0:19:01.35,Default,,0000,0000,0000,,将我的剑投进去
+Dialogue: 0,0:19:10.97,0:19:13.52,Default,,0000,0000,0000,,去吧　贝狄威尔
+Dialogue: 0,0:20:00.55,0:20:02.66,Default,,0000,0000,0000,,明明感觉就这么近
+Dialogue: 0,0:20:03.18,0:20:04.73,Default,,0000,0000,0000,,但伸长了手也抓不到
+Dialogue: 0,0:20:05.95,0:20:06.60,Default,,0000,0000,0000,,就算这样
+Dialogue: 0,0:20:07.55,0:20:08.57,Default,,0000,0000,0000,,也是有即使接触不到
+Dialogue: 0,0:20:09.07,0:20:10.78,Default,,0000,0000,0000,,也会留在心里头的东西吧
+Dialogue: 0,0:20:12.36,0:20:13.57,Default,,0000,0000,0000,,处在相同的时间下
+Dialogue: 0,0:20:14.16,0:20:15.42,Default,,0000,0000,0000,,仰望过相同的东西
+Dialogue: 0,0:20:16.78,0:20:18.32,Default,,0000,0000,0000,,如果能将那铭记在心
+Dialogue: 0,0:20:19.06,0:20:20.33,Default,,0000,0000,0000,,那就算相隔遥远
+Dialogue: 0,0:20:20.70,0:20:22.36,Default,,0000,0000,0000,,也能够深信与彼此同在
+Dialogue: 0,0:20:23.53,0:20:25.00,Default,,0000,0000,0000,,现在要继续奔跑
+Dialogue: 0,0:20:25.88,0:20:27.27,Default,,0000,0000,0000,,只要朝着远方前进
+Dialogue: 0,0:20:28.08,0:20:28.92,Default,,0000,0000,0000,,总有一天
+Dialogue: 0,0:20:29.50,0:20:31.88,Default,,0000,0000,0000,,目标也会伸手可及吧
+Dialogue: 0,0:20:41.72,0:20:42.29,Default,,0000,0000,0000,,国王
+Dialogue: 0,0:20:42.82,0:20:45.85,Default,,0000,0000,0000,,剑已交到了湖中仕女的手中
+Dialogue: 0,0:20:47.28,0:20:48.06,Default,,0000,0000,0000,,是吗
+Dialogue: 0,0:20:49.09,0:20:50.57,Default,,0000,0000,0000,,挺起胸膛来吧
+Dialogue: 0,0:20:51.36,0:20:54.70,Default,,0000,0000,0000,,你遵守了国王的旨意
+Dialogue: 0,0:21:01.51,0:21:02.47,Default,,0000,0000,0000,,贝狄威尔
+Dialogue: 0,0:21:03.39,0:21:03.83,Default,,0000,0000,0000,,是
+Dialogue: 0,0:21:06.30,0:21:07.76,Default,,0000,0000,0000,,这次的睡眠
+Dialogue: 0,0:21:10.35,0:21:11.27,Default,,0000,0000,0000,,会稍微…
+Dialogue: 0,0:21:13.00,0:21:13.99,Default,,0000,0000,0000,,久一些…
+Dialogue: 0,0:21:31.55,0:21:34.72,Default,,0000,0000,0000,,您已经在看了吗　亚瑟王
+Dialogue: 0,0:21:41.38,0:21:42.91,Default,,0000,0000,0000,,看那梦的延续…
+
+;ED
+;cySUBBlockStart: 0,0,0:21:46.50,0:21:49.63,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[80|偶][135|然][155|じ][175|ゃ][210|な][313|い],偶然じゃない
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:21:46.50,0:21:49.63,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}偶{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(780,1080,1,\1a&H00\2a&H00\3a&H00\4a&H00)}然{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1310,1610,1,\1a&H00\2a&H00\3a&H00\4a&H00)}じ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1490,1790,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ゃ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1670,1970,1,\1a&H00\2a&H00\3a&H00\4a&H00)}な{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2000,2300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}い
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:21:49.85,0:21:53.98,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[40|二][99|人][120|出][155|会][190|え][220|た][245|の][413|は],二人出会えたのは
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:21:49.85,0:21:53.98,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}二{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(380,680,1,\1a&H00\2a&H00\3a&H00\4a&H00)}人{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(950,1250,1,\1a&H00\2a&H00\3a&H00\4a&H00)}出{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1140,1440,1,\1a&H00\2a&H00\3a&H00\4a&H00)}会{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1470,1770,1,\1a&H00\2a&H00\3a&H00\4a&H00)}え{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1800,2100,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2080,2380,1,\1a&H00\2a&H00\3a&H00\4a&H00)}の{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2310,2610,1,\1a&H00\2a&H00\3a&H00\4a&H00)}は
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:21:53.98,0:22:06.30,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[35|ず][80|っ][115|と][180|前][210|か][275|ら][310|決][325|ま][345|っ][365|て][660|た][705|運][1230|命],ずっと前から決まってた運命
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:21:53.98,0:22:06.30,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ず{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(330,630,1,\1a&H00\2a&H00\3a&H00\4a&H00)}っ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(760,1060,1,\1a&H00\2a&H00\3a&H00\4a&H00)}と{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1090,1390,1,\1a&H00\2a&H00\3a&H00\4a&H00)}前{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1720,2020,1,\1a&H00\2a&H00\3a&H00\4a&H00)}か{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2000,2300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ら{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2630,2930,1,\1a&H00\2a&H00\3a&H00\4a&H00)}決{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2960,3260,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ま{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3090,3390,1,\1a&H00\2a&H00\3a&H00\4a&H00)}っ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3270,3570,1,\1a&H00\2a&H00\3a&H00\4a&H00)}て{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3450,3750,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(6380,6680,1,\1a&H00\2a&H00\3a&H00\4a&H00)}運{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(6810,7110,1,\1a&H00\2a&H00\3a&H00\4a&H00)}命
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:16.60,0:22:19.67,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[45|目][70|を][105|閉][140|じ][180|る][205|た][307|び],目を閉じるたび
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:16.60,0:22:19.67,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}目{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(430,730,1,\1a&H00\2a&H00\3a&H00\4a&H00)}を{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(660,960,1,\1a&H00\2a&H00\3a&H00\4a&H00)}閉{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(990,1290,1,\1a&H00\2a&H00\3a&H00\4a&H00)}じ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1320,1620,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1700,2000,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1930,2230,1,\1a&H00\2a&H00\3a&H00\4a&H00)}び
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:19.67,0:22:24.08,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[70|空][110|を][143|見][175|上][200|げ][225|る][266|た][441|び],空を見上げるたび
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:19.67,0:22:24.08,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}空{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(680,980,1,\1a&H00\2a&H00\3a&H00\4a&H00)}を{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1060,1360,1,\1a&H00\2a&H00\3a&H00\4a&H00)}見{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1370,1670,1,\1a&H00\2a&H00\3a&H00\4a&H00)}上{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1670,1970,1,\1a&H00\2a&H00\3a&H00\4a&H00)}げ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1900,2200,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2130,2430,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2520,2820,1,\1a&H00\2a&H00\3a&H00\4a&H00)}び
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:24.08,0:22:32.78,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[135|幻][170|の][185|よ][200|う][270|な][294|あ][317|の][342|日][364|々][567|が][606|よ][648|み][690|が][735|え][870|る],幻のようなあの日々がよみがえる
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:24.08,0:22:32.78,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}幻{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1330,1630,1,\1a&H00\2a&H00\3a&H00\4a&H00)}の{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1660,1960,1,\1a&H00\2a&H00\3a&H00\4a&H00)}よ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1790,2090,1,\1a&H00\2a&H00\3a&H00\4a&H00)}う{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1920,2220,1,\1a&H00\2a&H00\3a&H00\4a&H00)}な{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2600,2900,1,\1a&H00\2a&H00\3a&H00\4a&H00)}あ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2820,3120,1,\1a&H00\2a&H00\3a&H00\4a&H00)}の{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3030,3330,1,\1a&H00\2a&H00\3a&H00\4a&H00)}日{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3260,3560,1,\1a&H00\2a&H00\3a&H00\4a&H00)}々{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3460,3760,1,\1a&H00\2a&H00\3a&H00\4a&H00)}が{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(5470,5770,1,\1a&H00\2a&H00\3a&H00\4a&H00)}よ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(5840,6140,1,\1a&H00\2a&H00\3a&H00\4a&H00)}み{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(6240,6540,1,\1a&H00\2a&H00\3a&H00\4a&H00)}が{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(6640,6940,1,\1a&H00\2a&H00\3a&H00\4a&H00)}え{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(7070,7370,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:32.78,0:22:40.19,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[70|道][190|は][300|進][340|む][385|た][420|び][500|に][565|遠][590|く][635|な][741|る],道は進むたびに遠くなる
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:32.78,0:22:40.19,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}道{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(680,980,1,\1a&H00\2a&H00\3a&H00\4a&H00)}は{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1860,2160,1,\1a&H00\2a&H00\3a&H00\4a&H00)}進{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2940,3240,1,\1a&H00\2a&H00\3a&H00\4a&H00)}む{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3320,3620,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3750,4050,1,\1a&H00\2a&H00\3a&H00\4a&H00)}び{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(4080,4380,1,\1a&H00\2a&H00\3a&H00\4a&H00)}に{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(4860,5160,1,\1a&H00\2a&H00\3a&H00\4a&H00)}遠{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(5490,5790,1,\1a&H00\2a&H00\3a&H00\4a&H00)}く{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(5720,6020,1,\1a&H00\2a&H00\3a&H00\4a&H00)}な{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(6150,6450,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:40.19,0:22:46.95,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[50|だ][80|け][160|ど][200|歩][260|く][365|よ][405|　][430|こ][520|の][535|ま][676|ま],だけど歩くよ　このまま
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:40.19,0:22:46.95,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}だ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(480,780,1,\1a&H00\2a&H00\3a&H00\4a&H00)}け{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(760,1060,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ど{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1540,1840,1,\1a&H00\2a&H00\3a&H00\4a&H00)}歩{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1920,2220,1,\1a&H00\2a&H00\3a&H00\4a&H00)}く{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2500,2800,1,\1a&H00\2a&H00\3a&H00\4a&H00)}よ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3530,3830,1,\1a&H00\2a&H00\3a&H00\4a&H00)}　{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3910,4210,1,\1a&H00\2a&H00\3a&H00\4a&H00)}こ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(4140,4440,1,\1a&H00\2a&H00\3a&H00\4a&H00)}の{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(5020,5320,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ま{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(5150,5450,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ま
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:51.00,0:22:54.79,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[90|私][195|に][230|は][255|見][300|え][373|る],私には見える
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:51.00,0:22:54.79,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}私{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(880,1180,1,\1a&H00\2a&H00\3a&H00\4a&H00)}に{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1910,2210,1,\1a&H00\2a&H00\3a&H00\4a&H00)}は{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2240,2540,1,\1a&H00\2a&H00\3a&H00\4a&H00)}見{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2470,2770,1,\1a&H00\2a&H00\3a&H00\4a&H00)}え{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2900,3200,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:54.81,0:22:58.45,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[45|君][90|と][170|の][230|明][275|日][374|が],君との明日が
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:54.81,0:22:58.45,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}君{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(430,730,1,\1a&H00\2a&H00\3a&H00\4a&H00)}と{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(860,1160,1,\1a&H00\2a&H00\3a&H00\4a&H00)}の{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1640,1940,1,\1a&H00\2a&H00\3a&H00\4a&H00)}明{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2220,2520,1,\1a&H00\2a&H00\3a&H00\4a&H00)}日{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2650,2950,1,\1a&H00\2a&H00\3a&H00\4a&H00)}が
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:22:58.50,0:23:02.28,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[55|君][105|に][185|も][225|わ][235|か][295|る][378|よ],君にもわかるよ
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:22:58.50,0:23:02.28,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}君{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(530,830,1,\1a&H00\2a&H00\3a&H00\4a&H00)}に{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1010,1310,1,\1a&H00\2a&H00\3a&H00\4a&H00)}も{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1790,2090,1,\1a&H00\2a&H00\3a&H00\4a&H00)}わ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2170,2470,1,\1a&H00\2a&H00\3a&H00\4a&H00)}か{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2250,2550,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2830,3130,1,\1a&H00\2a&H00\3a&H00\4a&H00)}よ
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:02.28,0:23:05.63,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[35|い][60|つ][100|だ][165|っ][200|て][246|そ][335|う],いつだってそう
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:02.28,0:23:05.63,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}い{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(330,630,1,\1a&H00\2a&H00\3a&H00\4a&H00)}つ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(560,860,1,\1a&H00\2a&H00\3a&H00\4a&H00)}だ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(940,1240,1,\1a&H00\2a&H00\3a&H00\4a&H00)}っ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1570,1870,1,\1a&H00\2a&H00\3a&H00\4a&H00)}て{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1900,2200,1,\1a&H00\2a&H00\3a&H00\4a&H00)}そ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2340,2640,1,\1a&H00\2a&H00\3a&H00\4a&H00)}う
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:05.94,0:23:09.80,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[100|必][195|ず][250|守][303|る][386|よ],必ず守るよ
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:05.94,0:23:09.80,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}必{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(980,1280,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ず{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1910,2210,1,\1a&H00\2a&H00\3a&H00\4a&H00)}守{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2440,2740,1,\1a&H00\2a&H00\3a&H00\4a&H00)}る{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2950,3250,1,\1a&H00\2a&H00\3a&H00\4a&H00)}よ
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:09.80,0:23:13.53,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[95|約][160|束][205|し][240|た][285|か][373|ら],約束したから
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:09.80,0:23:13.53,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}約{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(930,1230,1,\1a&H00\2a&H00\3a&H00\4a&H00)}束{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1560,1860,1,\1a&H00\2a&H00\3a&H00\4a&H00)}し{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1990,2290,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2320,2620,1,\1a&H00\2a&H00\3a&H00\4a&H00)}か{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2750,3050,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ら
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:13.53,0:23:17.27,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[50|悲][100|し][190|い][220|と][250|き][295|に][374|は],悲しいときには
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:13.53,0:23:17.27,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}悲{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(480,780,1,\1a&H00\2a&H00\3a&H00\4a&H00)}し{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(960,1260,1,\1a&H00\2a&H00\3a&H00\4a&H00)}い{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1840,2140,1,\1a&H00\2a&H00\3a&H00\4a&H00)}と{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2120,2420,1,\1a&H00\2a&H00\3a&H00\4a&H00)}き{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2400,2700,1,\1a&H00\2a&H00\3a&H00\4a&H00)}に{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2830,3130,1,\1a&H00\2a&H00\3a&H00\4a&H00)}は
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:17.27,0:23:20.35,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[30|そ][60|ば][100|に][170|居][220|た][265|い][308|よ],そばに居たいよ
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:17.27,0:23:20.35,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}そ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(280,580,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ば{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(560,860,1,\1a&H00\2a&H00\3a&H00\4a&H00)}に{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(940,1240,1,\1a&H00\2a&H00\3a&H00\4a&H00)}居{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1620,1920,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2100,2400,1,\1a&H00\2a&H00\3a&H00\4a&H00)}い{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2530,2830,1,\1a&H00\2a&H00\3a&H00\4a&H00)}よ
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:20.35,0:23:23.48,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[70|偶][130|然][150|じ][170|ゃ][205|な][313|い],偶然じゃない
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:20.35,0:23:23.48,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}偶{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(680,980,1,\1a&H00\2a&H00\3a&H00\4a&H00)}然{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1260,1560,1,\1a&H00\2a&H00\3a&H00\4a&H00)}じ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1440,1740,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ゃ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1620,1920,1,\1a&H00\2a&H00\3a&H00\4a&H00)}な{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1950,2250,1,\1a&H00\2a&H00\3a&H00\4a&H00)}い
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:23.65,0:23:27.78,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[40|二][75|人][120|出][155|会][190|え][220|た][245|の][413|は],二人出会えたのは
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:23.65,0:23:27.78,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}二{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(380,680,1,\1a&H00\2a&H00\3a&H00\4a&H00)}人{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(710,1010,1,\1a&H00\2a&H00\3a&H00\4a&H00)}出{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1140,1440,1,\1a&H00\2a&H00\3a&H00\4a&H00)}会{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1470,1770,1,\1a&H00\2a&H00\3a&H00\4a&H00)}え{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1800,2100,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2080,2380,1,\1a&H00\2a&H00\3a&H00\4a&H00)}の{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2310,2610,1,\1a&H00\2a&H00\3a&H00\4a&H00)}は
+;cySUBBlockEnd
+;cySUBBlockStart: 0,0,0:23:27.78,0:23:40.08,EDJap,,0000,0000,0000,,build-in\karaoke\k-highlight.php,[35|ず][80|っ][115|と][180|前][210|か][275|ら][320|夢][345|見][370|て][745|た][795|運][1230|命],ずっと前から決まってた運命
+; WARNING: DO NOT ADD YOUR OWN EVENT BEFORE ;cySUBBlockEnd OR OTHERWISE THE EVENT WILL NOT BE PARSED
+Dialogue: 0,0:23:27.78,0:23:40.08,EDJap,,0000,0000,0000,,{\fad(200,500)}{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(0,300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ず{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(330,630,1,\1a&H00\2a&H00\3a&H00\4a&H00)}っ{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(760,1060,1,\1a&H00\2a&H00\3a&H00\4a&H00)}と{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1090,1390,1,\1a&H00\2a&H00\3a&H00\4a&H00)}前{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(1720,2020,1,\1a&H00\2a&H00\3a&H00\4a&H00)}か{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2000,2300,1,\1a&H00\2a&H00\3a&H00\4a&H00)}ら{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(2630,2930,1,\1a&H00\2a&H00\3a&H00\4a&H00)}夢{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3060,3360,1,\1a&H00\2a&H00\3a&H00\4a&H00)}見{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3290,3590,1,\1a&H00\2a&H00\3a&H00\4a&H00)}て{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(3520,3820,1,\1a&H00\2a&H00\3a&H00\4a&H00)}た{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(7250,7550,1,\1a&H00\2a&H00\3a&H00\4a&H00)}運{\1a&HFF}{\2a&HFF}{\3a&HFF}{\4a&HFF}{\t(7730,8030,1,\1a&H00\2a&H00\3a&H00\4a&H00)}命
+;cySUBBlockEnd
+
+;ED_Cht
+Dialogue: 0,0:21:46.50,0:21:49.63,EDCht,,0000,0000,0000,,{\fad(250,250)}这并非偶然
+Dialogue: 0,0:21:49.85,0:21:53.98,EDCht,,0000,0000,0000,,{\fad(250,250)}我俩能够相遇
+Dialogue: 0,0:21:53.98,0:22:06.30,EDCht,,0000,0000,0000,,{\fad(250,250)}是许久以前就注定好的命运
+Dialogue: 0,0:22:16.60,0:22:19.67,EDCht,,0000,0000,0000,,{\fad(250,250)}每当我阖上双眼
+Dialogue: 0,0:22:19.67,0:22:24.08,EDCht,,0000,0000,0000,,{\fad(250,250)}每当我仰望天际
+Dialogue: 0,0:22:24.08,0:22:32.78,EDCht,,0000,0000,0000,,{\fad(250,250)}脑中便会浮现那段梦幻般的时光
+Dialogue: 0,0:22:32.78,0:22:40.19,EDCht,,0000,0000,0000,,{\fad(250,250)}尽管不断行进　前方的道路却越发遥远
+Dialogue: 0,0:22:40.19,0:22:46.95,EDCht,,0000,0000,0000,,{\fad(250,250)}但我还是会就这么　继续向前走
+Dialogue: 0,0:22:51.02,0:22:54.81,EDCht,,0000,0000,0000,,{\fad(250,250)}我能够看见
+Dialogue: 0,0:22:54.81,0:22:58.45,EDCht,,0000,0000,0000,,{\fad(250,250)}与你的将来
+Dialogue: 0,0:22:58.50,0:23:02.28,EDCht,,0000,0000,0000,,{\fad(250,250)}你也能了解吧
+Dialogue: 0,0:23:02.28,0:23:05.63,EDCht,,0000,0000,0000,,{\fad(250,250)}一直以来都是如此
+Dialogue: 0,0:23:05.94,0:23:09.80,EDCht,,0000,0000,0000,,{\fad(250,250)}我绝对会守护你
+Dialogue: 0,0:23:09.80,0:23:13.53,EDCht,,0000,0000,0000,,{\fad(250,250)}因为我们约定过了
+Dialogue: 0,0:23:13.53,0:23:17.27,EDCht,,0000,0000,0000,,{\fad(250,250)}当悲伤的时候
+Dialogue: 0,0:23:17.27,0:23:20.37,EDCht,,0000,0000,0000,,{\fad(250,250)}我想待在你的身旁
+Dialogue: 0,0:23:20.37,0:23:23.16,EDCht,,0000,0000,0000,,{\fad(250,250)}这并非偶然
+Dialogue: 0,0:23:23.65,0:23:27.65,EDCht,,0000,0000,0000,,{\fad(250,250)}我俩能够相遇
+Dialogue: 0,0:23:27.73,0:23:40.70,EDCht,,0000,0000,0000,,{\fad(250,250)}是许久以来魂牵梦萦的命运

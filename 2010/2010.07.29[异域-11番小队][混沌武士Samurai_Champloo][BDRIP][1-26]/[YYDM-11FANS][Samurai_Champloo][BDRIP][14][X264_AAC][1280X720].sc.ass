@@ -1,0 +1,389 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,24,&H00ffffff,&H0000ffff,&H00000000,&H80000000,0,0,0,0,100,100,0,0.00,1,1,1,2,10,10,12,1
+Style: op,comic sans ms,20,&H00000000,&H00ffffff,&H00ffffff,&Hf0ffffff,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,8,1
+Style: ed,MS PGothic,20,&H00ffffff,&Hff000000,&Hff000000,&Hff000000,-1,0,0,0,100,100,0,0.00,1,1,1,2,30,30,10,137
+Style: logo,SimHei,19,&H00999999,&H00999999,&H00FFFFFF,&H40000000,-1,0,0,0,100,100,0,0.00,1,4,0,2,20,20,10,1
+Style: staff,@SimHei,19,&H00999999,&H00999999,&H00FFFFFF,&H40000000,-1,0,0,0,100,100,0,0.00,1,4,0,2,20,20,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:19.06,0:01:23.50,logo,,0000,0000,0000,,{\1c&H0D3893&\3a&HFF&}{\fad(100,0)}{\move(550,80,450,80,0,3000)}灵风工作室  &  WLGO字幕组 合作
+Dialogue: 0,0:01:19.06,0:01:23.50,logo,,0000,0000,0000,,{\1c&H0D3893&\3a&HFF&}{\move(600,320,370,320,0,3000)}www.fosky.com
+Dialogue: 0,0:01:20.12,0:01:23.50,logo,,0000,0000,0000,,{\1c&H000000&\3a&HFF&}{\pos(260,80)}制  作
+Dialogue: 0,0:01:20.12,0:01:23.50,logo,,0000,0000,0000,,{\1c&H000000&\3a&HFF&}{\pos(260,320)}制  作
+Dialogue: 0,0:01:27.16,0:01:29.56,staff,,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(60,65)}{\1c&HFFFFFF&}{\3c&H000000&}翻译：詹柯&神无月豪 校对：SAORI
+Dialogue: 0,0:01:27.16,0:01:29.56,staff,,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(100,130)}{\1c&HFFFFFF&}{\3c&H000000&}特效：SHIRAKAWA
+Dialogue: 0,0:01:27.16,0:01:29.56,staff,,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(650,90)}{\1c&HFFFFFF&}{\3c&H000000&}时间：CAMEN 后期：D.BOY
+Dialogue: 0,0:00:09.57,0:00:09.85,op,,0000,0000,0000,,Yeah!
+Dialogue: 0,0:00:10.12,0:00:12.34,op,,0000,0000,0000,,{\pos(140,352)}{\alpha&Hff&\frx-90}{\t(0,310,0.5,\frx0\alpha&H00&)}Sharp
+Dialogue: 0,0:00:10.43,0:00:12.34,op,,0000,0000,0000,,{\pos(195,352)}{\alpha&Hff&\frx-90}{\t(0,290,0.5,\frx0\alpha&H00&)}Like
+Dialogue: 0,0:00:10.72,0:00:12.34,op,,0000,0000,0000,,{\pos(260,352)}{\alpha&Hff&\frx-90}{\t(0,550,0.5,\frx0\alpha&H00&)}An Edge
+Dialogue: 0,0:00:11.27,0:00:12.34,op,,0000,0000,0000,,{\pos(320,352)}{\alpha&Hff&\frx-90}{\t(0,160,0.5,\frx0\alpha&H00&)}Of
+Dialogue: 0,0:00:11.43,0:00:12.34,op,,0000,0000,0000,,{\pos(390,352)}{\alpha&Hff&\frx-90}{\t(0,500,0.5,\frx0\alpha&H00&)}A Samurai
+Dialogue: 0,0:00:11.93,0:00:12.34,op,,0000,0000,0000,,{\pos(480,352)}{\alpha&Hff&\frx-90}{\t(0,180,0.5,\frx0\alpha&H00&)}Sword
+Dialogue: 0,0:00:12.41,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(73,332)}{\alpha&Hff&\frx90}{\t(0,70,\alpha&H00&\frx0)}The
+Dialogue: 0,0:00:12.48,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(114,332)}{\alpha&Hff&\frx90}{\t(0,460,0.5,\alpha&H00&\frx0)}Metal
+Dialogue: 0,0:00:12.94,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(173,332)}{\alpha&Hff&\frx90}{\t(0,340,0.5,\alpha&H00&\frx0)}Blade
+Dialogue: 0,0:00:13.28,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(234,332)}{\alpha&Hff&\frx90}{\t(0,340,0.5,\alpha&H00&\frx0)}Cutting
+Dialogue: 0,0:00:13.62,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(310,332)}{\alpha&Hff&\frx90}{\t(0,270,0.5,\alpha&H00&\frx0)}Through
+Dialogue: 0,0:00:13.89,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(399,332)}{\alpha&Hff&\frx90}{\t(0,300,0.5,\alpha&H00&\frx0)}Flesh
+Dialogue: 0,0:00:14.19,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(460,332)}{\alpha&Hff&\frx90}{\t(0,100,0.5,\alpha&H00&\frx0)}And
+Dialogue: 0,0:00:14.29,0:00:14.74,op,,0000,0000,0000,,{\a8}{\pos(507,332)}{\alpha&Hff&\frx90}{\t(0,190,0.5,\alpha&H00&\frx0)}Bone
+Dialogue: 2,0:00:14.95,0:00:16.35,op,,0000,0000,0000,,Though My Mind's At Peace
+Dialogue: 0,0:00:16.40,0:00:17.50,op,,0000,0000,0000,,{\pos(222,352)}{\alpha&Hff&\fs30}{\t(0,110,\fs20\alpha&H00&)}The
+Dialogue: 0,0:00:16.40,0:00:17.50,op,,0000,0000,0000,,{\pos(279,352)}{\alpha&Hff&\fs30}{\t(110,360,\fs20\alpha&H00&)}World{\fnarial}'{\fncomic sans ms}s
+Dialogue: 0,0:00:16.40,0:00:17.50,op,,0000,0000,0000,,{\pos(335,352)}{\alpha&Hff&\fs30}{\t(360,580,\fs20\alpha&H00&)}Out
+Dialogue: 0,0:00:16.40,0:00:17.50,op,,0000,0000,0000,,{\pos(368,352)}{\alpha&Hff&\fs30}{\t(580,710,\fs20\alpha&H00&)}Of
+Dialogue: 0,0:00:16.40,0:00:17.50,op,,0000,0000,0000,,{\pos(410,352)}{\alpha&Hff&\fs30}{\t(710,1060,\fs20\alpha&H00&)}Order
+Dialogue: 0,0:00:17.63,0:00:18.75,op,,0000,0000,0000,,{\pos(250,352)}{\alpha&H00&}{\t(0,320,\fs30\alpha&Hff&)}Missing
+Dialogue: 0,0:00:17.63,0:00:18.75,op,,0000,0000,0000,,{\pos(314,352)}{\alpha&H00&}{\t(320,430,\fs30\alpha&Hff&)}Then
+Dialogue: 0,0:00:17.63,0:00:18.75,op,,0000,0000,0000,,{\pos(359,352)}{\alpha&H00&}{\t(430,540,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:00:17.63,0:00:18.75,op,,0000,0000,0000,,{\pos(403,352)}{\alpha&H00&}{\t(540,960,\fs30\alpha&Hff&)}Heat
+Dialogue: 0,0:00:18.87,0:00:20.19,op,,0000,0000,0000,,{\2a&Hff&}{\ko17}Blood {\ko33}Gets {\ko50}Col{\ko25}der
+Dialogue: 0,0:00:20.35,0:00:20.86,op,,0000,0000,0000,,Oh Yes
+Dialogue: 0,0:00:20.86,0:00:22.15,op,,0000,0000,0000,,{\pos(215,352)}{\alpha&Hff&\fscy500}{\t(0,120,\fscy100\alpha&H00&)}I
+Dialogue: 0,0:00:20.86,0:00:22.15,op,,0000,0000,0000,,{\pos(248,352)}{\alpha&Hff&\fscy500}{\t(120,320,\fscy100\alpha&H00&)}Have
+Dialogue: 0,0:00:20.86,0:00:22.15,op,,0000,0000,0000,,{\pos(288,352)}{\alpha&Hff&\fscy500}{\t(320,450,\fscy100\alpha&H00&)}To
+Dialogue: 0,0:00:20.86,0:00:22.15,op,,0000,0000,0000,,{\pos(325,352)}{\alpha&Hff&\fscy500}{\t(450,700,\fscy100\alpha&H00&)}Find
+Dialogue: 0,0:00:20.86,0:00:22.15,op,,0000,0000,0000,,{\pos(364,352)}{\alpha&Hff&\fscy500}{\t(700,920,\fscy100\alpha&H00&)}My
+Dialogue: 0,0:00:20.86,0:00:22.15,op,,0000,0000,0000,,{\pos(406,352)}{\alpha&Hff&\fscy500}{\t(920,1240,\fscy100\alpha&H00&)}Path
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(140,352)}{\alpha&Hff&\fscx200}{\t(0,200,\fscx100\alpha&H00&)}No
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(172,352)}{\alpha&Hff&\fscx200}{\t(200,500,\fscx100\alpha&H00&)}Less
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(220,352)}{\alpha&Hff&\fscx200}{\t(500,930,\fscx100\alpha&H00&)}Walk
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(273,352)}{\alpha&Hff&\fscx200}{\t(930,1080,\fscx100\alpha&H00&)}On
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(305,352)}{\alpha&Hff&\fscx200}{\t(1080,1300,\fscx100\alpha&H00&)}Earth
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(361,352)}{\alpha&Hff&\fscx200}{\t(1300,1640,\fscx100\alpha&H00&)}Water
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(423,352)}{\alpha&Hff&\fscx200}{\t(1640,1910,\fscx100\alpha&H00&)}And
+Dialogue: 0,0:00:22.35,0:00:24.87,op,,0000,0000,0000,,{\a1}{\pos(465,352)}{\alpha&Hff&\fscx200}{\t(1910,2250,\fscx100\alpha&H00&)}Fire
+Dialogue: 0,0:00:25.17,0:00:27.17,op,,0000,0000,0000,,{\2a&Hff&}{\ko11}The {\ko27}Ele{\ko28}ments {\ko29}Com{\ko35}pose {\ko11}Of {\ko35}Ma{\ko22}gnum
+Dialogue: 0,0:00:27.17,0:00:27.26,op,,0000,0000,0000,,{\alpha&Haa&\fscx100\frx-135}{\t(0,200,1,\alpha&H00&\fscx180\frx-70}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:27.26,0:00:27.35,op,,0000,0000,0000,,{\alpha&Haa&\fscx180\frx-70}{\t(0,50,1,\alpha&H00&\fscx100\frx0}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:27.35,0:00:29.90,op,,0000,0000,0000,,Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:29.90,0:00:30.00,op,,0000,0000,0000,,{\alpha&H00&\fscx100\frx0}{\t(0,100,1,\alpha&Hff&\fscx180\frx-70}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:30.32,0:00:30.52,op,,0000,0000,0000,,{\t(0,200,\bord4)}Steel {\bord2}Packed Tight In Microchip On My Arm
+Dialogue: 0,0:00:30.52,0:00:30.72,op,,0000,0000,0000,,{\bord4}{\t(0,200,\bord2)}Steel {\bord2}Packed Tight In Microchip On My Arm
+Dialogue: 0,0:00:30.72,0:00:30.88,op,,0000,0000,0000,,Steel {\t(0,160,\bord4)}Packed {\bord2}Tight In Microchip On My Arm
+Dialogue: 0,0:00:30.88,0:00:31.04,op,,0000,0000,0000,,Steel {\bord4}{\t(0,160,\bord2)}Packed {\bord2}Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.04,0:00:31.17,op,,0000,0000,0000,,Steel Packed {\t(0,130,\bord4)}Tight {\bord2}In Microchip On My Arm
+Dialogue: 0,0:00:31.17,0:00:31.31,op,,0000,0000,0000,,Steel Packed {\bord4}{\t(0,140,\bord2)}Tight {\bord2}In Microchip On My Arm
+Dialogue: 0,0:00:31.31,0:00:31.40,op,,0000,0000,0000,,Steel Packed Tight {\t(0,90,\bord4)}In {\bord2}Microchip On My Arm
+Dialogue: 0,0:00:31.40,0:00:31.49,op,,0000,0000,0000,,Steel Packed Tight {\bord4}{\t(0,90,\bord2)}In {\bord2}Microchip On My Arm
+Dialogue: 0,0:00:31.49,0:00:31.63,op,,0000,0000,0000,,Steel Packed Tight In {\t(0,140,\bord4)}Mi{\bord2}crochip On My Arm
+Dialogue: 0,0:00:31.63,0:00:31.76,op,,0000,0000,0000,,Steel Packed Tight In {\bord4}{\t(0,130,\bord2)}Mi{\bord2}crochip On My Arm
+Dialogue: 0,0:00:31.76,0:00:31.96,op,,0000,0000,0000,,Steel Packed Tight In Mi{\t(0,200,\bord4)}cro{\bord2}chip On My Arm
+Dialogue: 0,0:00:31.96,0:00:32.16,op,,0000,0000,0000,,Steel Packed Tight In Mi{\bord4}{\t(0,200,\bord2)}cro{\bord2}chip On My Arm
+Dialogue: 0,0:00:32.16,0:00:32.33,op,,0000,0000,0000,,Steel Packed Tight In Micro{\t(0,170,\bord4)}chip {\bord2}On My Arm
+Dialogue: 0,0:00:32.33,0:00:32.50,op,,0000,0000,0000,,Steel Packed Tight In Micro{\bord4}{\t(0,170,\bord2)}chip {\bord2}On My Arm
+Dialogue: 0,0:00:32.50,0:00:32.64,op,,0000,0000,0000,,Steel Packed Tight In Microchip {\t(0,140,\bord4)}On {\bord2}My Arm
+Dialogue: 0,0:00:32.64,0:00:32.78,op,,0000,0000,0000,,Steel Packed Tight In Microchip {\bord4}{\t(0,140,\bord2)}On {\bord2}My Arm
+Dialogue: 0,0:00:32.78,0:00:32.85,op,,0000,0000,0000,,Steel Packed Tight In Microchip On {\t(0,70,\bord4)}My {\bord2}Arm
+Dialogue: 0,0:00:32.85,0:00:32.92,op,,0000,0000,0000,,Steel Packed Tight In Microchip On {\bord4}{\t(0,70,\bord2)}My {\bord2}Arm
+Dialogue: 0,0:00:32.92,0:00:33.02,op,,0000,0000,0000,,Steel Packed Tight In Microchip On My {\t(0,100,\bord4)}Arm
+Dialogue: 0,0:00:33.02,0:00:33.12,op,,0000,0000,0000,,Steel Packed Tight In Microchip On My {\bord4}{\t(0,100,\bord2)}Arm
+Dialogue: 0,0:00:33.26,0:00:33.32,op,,0000,0000,0000,,{\t(0,60,\bord4)}But {\bord2}The Sign Of Our Pro
+Dialogue: 0,0:00:33.32,0:00:33.38,op,,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}But {\bord2}The Sign Of Our Pro
+Dialogue: 0,0:00:33.38,0:00:33.42,op,,0000,0000,0000,,But {\t(0,40,\bord4)}The {\bord2}Sign Of Our Pro
+Dialogue: 0,0:00:33.42,0:00:33.47,op,,0000,0000,0000,,But {\bord4}{\t(0,50,\bord2)}The {\bord2}Sign Of Our Pro
+Dialogue: 0,0:00:33.47,0:00:33.62,op,,0000,0000,0000,,But The {\t(0,150,\bord4)}Sign {\bord2}Of Our Pro
+Dialogue: 0,0:00:33.62,0:00:33.77,op,,0000,0000,0000,,But The {\bord4}{\t(0,150,\bord2)}Sign {\bord2}Of Our Pro
+Dialogue: 0,0:00:33.77,0:00:33.83,op,,0000,0000,0000,,But The Sign {\t(0,60,\bord4)}Of {\bord2}Our Pro
+Dialogue: 0,0:00:33.83,0:00:33.90,op,,0000,0000,0000,,But The Sign {\bord4}{\t(0,70,\bord2)}Of {\bord2}Our Pro
+Dialogue: 0,0:00:33.90,0:00:34.04,op,,0000,0000,0000,,But The Sign Of {\t(0,140,\bord4)}Our {\bord2}Pro
+Dialogue: 0,0:00:34.04,0:00:34.19,op,,0000,0000,0000,,But The Sign Of {\bord4}{\t(0,150,\bord2)}Our {\bord2}Pro
+Dialogue: 0,0:00:34.19,0:00:34.32,op,,0000,0000,0000,,But The Sign Of Our {\t(0,130,\bord4)}Pro
+Dialogue: 0,0:00:34.32,0:00:34.46,op,,0000,0000,0000,,But The Sign Of Our {\bord4}{\t(0,140,\bord2)}Pro
+Dialogue: 0,0:00:34.68,0:00:34.73,op,,0000,0000,0000,,{\t(0,50,\bord4)}The {\bord2}Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:34.73,0:00:34.79,op,,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}The {\bord2}Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:34.79,0:00:34.91,op,,0000,0000,0000,,The {\t(0,120,\bord4)}Ulti{\bord2}mate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:34.91,0:00:35.03,op,,0000,0000,0000,,The {\bord4}{\t(0,120,\bord2)}Ulti{\bord2}mate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.03,0:00:35.14,op,,0000,0000,0000,,The Ulti{\t(0,110,\bord4)}mate {\bord2}Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.14,0:00:35.25,op,,0000,0000,0000,,The Ulti{\bord4}{\t(0,110,\bord2)}mate {\bord2}Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.25,0:00:35.32,op,,0000,0000,0000,,The Ultimate {\t(0,70,\bord4)}Re{\bord2}ward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.32,0:00:35.42,op,,0000,0000,0000,,The Ultimate {\bord4}{\t(0,100,\bord2)}Re{\bord2}ward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.42,0:00:35.59,op,,0000,0000,0000,,The Ultimate Re{\t(0,170,\bord4)}ward {\bord2}Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.59,0:00:35.76,op,,0000,0000,0000,,The Ultimate Re{\bord4}{\t(0,170,\bord2)}ward {\bord2}Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.76,0:00:35.83,op,,0000,0000,0000,,The Ultimate Reward {\t(0,70,\bord4)}Is {\bord2}I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.83,0:00:35.90,op,,0000,0000,0000,,The Ultimate Reward {\bord4}{\t(0,70,\bord2)}Is {\bord2}I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.90,0:00:35.96,op,,0000,0000,0000,,The Ultimate Reward Is {\t(0,60,\bord4)}I{\fnarial}'{\fncomic sans ms}m {\bord2}Not At Wars
+Dialogue: 0,0:00:35.96,0:00:36.02,op,,0000,0000,0000,,The Ultimate Reward Is {\bord4}{\t(0,60,\bord2)}I{\fnarial}'{\fncomic sans ms}m {\bord2}Not At Wars
+Dialogue: 0,0:00:36.02,0:00:36.12,op,,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m {\t(0,100,\bord4)}Not {\bord2}At Wars
+Dialogue: 0,0:00:36.12,0:00:36.22,op,,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m {\bord4}{\t(0,100,\bord2)}Not {\bord2}At Wars
+Dialogue: 0,0:00:36.22,0:00:36.35,op,,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not {\t(0,130,\bord4)}At {\bord2}Wars
+Dialogue: 0,0:00:36.35,0:00:36.49,op,,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not {\bord4}{\t(0,140,\bord2)}At {\bord2}Wars
+Dialogue: 0,0:00:36.49,0:00:36.69,op,,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At {\t(0,130,\bord4)}Wars
+Dialogue: 0,0:00:36.69,0:00:36.89,op,,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At {\bord4}{\t(0,200,\bord2)}Wars
+Dialogue: 0,0:00:37.02,0:00:37.07,op,,0000,0000,0000,,{\t(0,50,\bord4)}At {\bord2}Odds With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.07,0:00:37.13,op,,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}At {\bord2}Odds With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.13,0:00:37.24,op,,0000,0000,0000,,At {\t(0,110,\bord4)}Odds {\bord2}With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.24,0:00:37.35,op,,0000,0000,0000,,At {\bord4}{\t(0,110,\bord2)}Odds {\bord2}With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.35,0:00:37.45,op,,0000,0000,0000,,At Odds {\t(0,100,\bord4)}With {\bord2}The Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.45,0:00:37.55,op,,0000,0000,0000,,At Odds {\bord4}{\t(0,100,\bord2)}With {\bord2}The Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.55,0:00:37.62,op,,0000,0000,0000,,At Odds With {\t(0,70,\bord4)}The {\bord2}Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.62,0:00:37.70,op,,0000,0000,0000,,At Odds With {\bord4}{\t(0,80,\bord2)}The {\bord2}Time Of Worlds With No Lords
+Dialogue: 0,0:00:37.70,0:00:37.84,op,,0000,0000,0000,,At Odds With The {\t(0,140,\bord4)}Time {\bord2}Of Worlds With No Lords
+Dialogue: 0,0:00:37.84,0:00:37.98,op,,0000,0000,0000,,At Odds With The {\bord4}{\t(0,140,\bord2)}Time {\bord2}Of Worlds With No Lords
+Dialogue: 0,0:00:37.98,0:00:38.04,op,,0000,0000,0000,,At Odds With The Time {\t(0,60,\bord4)}Of {\bord2}Worlds With No Lords
+Dialogue: 0,0:00:38.04,0:00:38.11,op,,0000,0000,0000,,At Odds With The Time {\bord4}{\t(0,70,\bord2)}Of {\bord2}Worlds With No Lords
+Dialogue: 0,0:00:38.11,0:00:38.30,op,,0000,0000,0000,,At Odds With The Time Of {\t(0,190,\bord4)}Worlds {\bord2}With No Lords
+Dialogue: 0,0:00:38.30,0:00:38.49,op,,0000,0000,0000,,At Odds With The Time Of {\bord4}{\t(0,190,\bord2)}Worlds {\bord2}With No Lords
+Dialogue: 0,0:00:38.49,0:00:38.58,op,,0000,0000,0000,,At Odds With The Time Of Worlds {\t(0,90,\bord4)}With {\bord2}No Lords
+Dialogue: 0,0:00:38.58,0:00:38.68,op,,0000,0000,0000,,At Odds With The Time Of Worlds {\bord4}{\t(0,100,\bord2)}With {\bord2}No Lords
+Dialogue: 0,0:00:38.68,0:00:38.79,op,,0000,0000,0000,,At Odds With The Time Of Worlds With {\t(0,110,\bord4)}No {\bord2}Lords
+Dialogue: 0,0:00:38.79,0:00:38.91,op,,0000,0000,0000,,At Odds With The Time Of Worlds With {\bord4}{\t(0,120,\bord2)}No {\bord2}Lords
+Dialogue: 0,0:00:38.91,0:00:39.11,op,,0000,0000,0000,,At Odds With The Time Of Worlds With No {\t(0,200,\bord4)}Lords
+Dialogue: 0,0:00:39.11,0:00:39.31,op,,0000,0000,0000,,At Odds With The Time Of Worlds With No {\bord4}{\t(0,200,\bord2)}Lords
+Dialogue: 0,0:00:39.73,0:00:41.02,op,,0000,0000,0000,,{\2a&Hff&}{\ko7}A {\ko34}Free{\ko43}lan{\ko35}cer
+Dialogue: 0,0:00:41.08,0:00:43.05,op,,0000,0000,0000,,{\2a&Hff&}{\ko10}A {\ko27}Battle{\ko31}cry {\ko15}Of {\ko15}A {\ko36}Heart{\ko2}{\fnarial}-{\ko31}{\fncomic sans ms}Picker {\ko22}Dove
+Dialogue: 0,0:00:43.07,0:00:44.40,op,,0000,0000,0000,,{\2a&Hff&}{\ko30}Fly{\ko12}in{\fnarial}'{\fncomic sans ms}s {\ko25}The {\ko26}Tear {\ko35}Dry
+Dialogue: 0,0:00:44.82,0:00:47.22,op,,0000,0000,0000,,{\2a&Hff&}{\ko29}Wonder {\ko26}Why {\ko35}Love {\ko23}Won{\fnarial}'{\fncomic sans ms}t {\ko28}Go {\ko35}Wrong {\ko19}With {\ko12}The {\ko30}Clan
+Dialogue: 0,0:00:47.25,0:00:49.85,op,,0000,0000,0000,,{\2a&Hff&}{\ko26}Only {\ko32}Trust {\ko10}In {\ko21}Ins{\ko28}tincts {\ko18}And {\ko10}Be {\ko30}One {\ko18}With {\ko18}The {\ko40}Plans
+Dialogue: 0,0:00:49.96,0:00:51.95,op,,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko31}Some {\ko56}Days {\ko33}Some {\ko53}Nights
+Dialogue: 0,0:00:52.16,0:00:53.50,op,,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko21}Some {\ko35}Live {\ko40}Some {\ko37}Die
+Dialogue: 0,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,In The Way Of The Samurai
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(202,352)}{\alpha&H00&}{\t(0,80,\fs30\alpha&Hff&)}In
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(234,352)}{\alpha&H00&}{\t(80,190,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(277,352)}{\alpha&H00&}{\t(190,510,\fs30\alpha&Hff&)}Way
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(314,352)}{\alpha&H00&}{\t(510,670,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(347,352)}{\alpha&H00&}{\t(670,780,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(780,1040,\fs30\alpha&Hff&)}Samu
+Dialogue: 1,0:00:53.55,0:00:55.16,op,,0000,0000,0000,,{\pos(435,352)}{\alpha&H00&}{\t(1040,1400,\fs30\alpha&Hff&)}rai
+Dialogue: 0,0:00:55.21,0:00:56.95,op,,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko26}Some {\ko15}{\ko43}Fight {\ko39}Some {\ko40}Bleed
+Dialogue: 0,0:00:57.04,0:00:58.35,op,,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko24}Sun {\ko20}Up {\ko13}To {\ko30}Sun {\ko30}Down
+Dialogue: 0,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,The Sounds Of The Battlecry
+Dialogue: 1,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,{\pos(205,352)}{\alpha&H00&}{\t(0,100,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,{\pos(262,352)}{\alpha&H00&}{\t(100,430,\fs30\alpha&Hff&)}Sounds
+Dialogue: 1,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,{\pos(313,352)}{\alpha&H00&}{\t(430,560,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,{\pos(346,352)}{\alpha&H00&}{\t(560,710,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(710,1100,\fs30\alpha&Hff&)}Battle
+Dialogue: 1,0:00:58.46,0:01:00.02,op,,0000,0000,0000,,{\pos(439,352)}{\alpha&H00&}{\t(1100,1470,\fs30\alpha&Hff&)}cry
+Dialogue: 0,0:01:00.04,0:01:01.66,op,,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko10}Some {\ko49}Days {\ko36}Some {\ko50}Nights
+Dialogue: 0,0:01:01.91,0:01:03.15,op,,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko22}Some {\ko41}Live {\ko29}Some {\ko32}Die
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,In The Name Of The Samurai
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(195,352)}{\alpha&H00&}{\t(0,130,\fs30\alpha&Hff&)}In
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(227,352)}{\alpha&H00&}{\t(130,260,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(277,352)}{\alpha&H00&}{\t(260,640,\fs30\alpha&Hff&)}Name
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(320,352)}{\alpha&H00&}{\t(640,750,\fs30\alpha&Hff&)}Of
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(353,352)}{\alpha&H00&}{\t(750,850,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(402,352)}{\alpha&H00&}{\t(850,1200,\fs30\alpha&Hff&)}Samu
+Dialogue: 0,0:01:03.18,0:01:04.87,op,,0000,0000,0000,,{\pos(442,352)}{\alpha&H00&}{\t(1200,1500,\fs30\alpha&Hff&)}rai
+Dialogue: 0,0:01:04.99,0:01:06.64,op,,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko28}Some {\ko40}Fight {\ko20}{\ko31}Some {\ko40}Bleed
+Dialogue: 0,0:01:06.79,0:01:08.01,op,,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko22}Sun {\ko23}Up {\ko15}To {\ko34}Sun {\ko33}Down
+Dialogue: 0,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,The Sounds Of The Battlecry
+Dialogue: 1,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,{\pos(205,352)}{\alpha&H00&}{\t(0,100,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,{\pos(262,352)}{\alpha&H00&}{\t(100,430,\fs30\alpha&Hff&)}Sounds
+Dialogue: 1,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,{\pos(313,352)}{\alpha&H00&}{\t(430,550,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,{\pos(346,352)}{\alpha&H00&}{\t(550,680,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(680,1110,\fs30\alpha&Hff&)}Battle
+Dialogue: 1,0:01:08.15,0:01:09.81,op,,0000,0000,0000,,{\pos(439,352)}{\alpha&H00&}{\t(1110,1510,\fs30\alpha&Hff&)}cry
+Dialogue: 0,0:01:11.38,0:01:12.29,op,,0000,0000,0000,,{\2a&Hff&}{\ko5}A {\ko31}Battle{\ko44}cry
+Dialogue: 0,0:21:35.85,0:21:39.85,ed,,0000,0000,0000,,{\fad(200,200)}また夜が明ければお別れ
+Dialogue: 0,0:21:40.15,0:21:43.55,ed,,0000,0000,0000,,{\fad(200,200)}夢は遠きまぼろしに
+Dialogue: 0,0:21:44.05,0:21:50.75,ed,,0000,0000,0000,,{\fad(200,200)}あなたを追いかけていた光の中で
+Dialogue: 0,0:21:51.05,0:21:57.15,ed,,0000,0000,0000,,{\fad(200,200)}抱かれるたび　温かい風をたより
+Dialogue: 0,0:21:57.35,0:22:02.25,ed,,0000,0000,0000,,{\fad(200,200)}春を告げ　踊り出すsunshine
+Dialogue: 0,0:22:02.35,0:22:07.45,ed,,0000,0000,0000,,{\fad(200,200)}夏をmusic　野原唐草乾くわ
+Dialogue: 0,0:22:07.65,0:22:12.85,ed,,0000,0000,0000,,{\fad(200,200)}秋の月登った　まん丸さお祝い
+Dialogue: 0,0:22:12.85,0:22:17.95,ed,,0000,0000,0000,,{\fad(200,200)}冬を過ぎまた　月日を数える
+Dialogue: 0,0:22:17.95,0:22:20.85,ed,,0000,0000,0000,,{\fad(200,200)}まだ目蓋の奥にある　いつかの夏
+Dialogue: 0,0:22:21.15,0:22:22.15,ed,,0000,0000,0000,,{\fad(200,200)}遠すぎた青空
+Dialogue: 0,0:22:22.25,0:22:26.45,ed,,0000,0000,0000,,{\fad(200,200)}温かかった　手をつなぐ花摘み歌う
+Dialogue: 0,0:22:26.45,0:22:28.45,ed,,0000,0000,0000,,{\fad(200,200)}いつや思い出
+Dialogue: 0,0:22:28.65,0:22:33.65,ed,,0000,0000,0000,,{\fad(200,200)}今呼び覚ます　記憶の中で
+Dialogue: 0,0:22:33.75,0:22:38.75,ed,,0000,0000,0000,,{\fad(200,200)}いざ歩き出す　あなたのもとへ
+Dialogue: 0,0:22:38.85,0:22:43.75,ed,,0000,0000,0000,,{\fad(200,200)}春を告げ　踊ってsamba
+Dialogue: 0,0:22:43.85,0:22:48.75,ed,,0000,0000,0000,,{\fad(200,200)}夏をmusic　野原唐草乾くわ
+Dialogue: 0,0:22:49.05,0:22:54.35,ed,,0000,0000,0000,,{\fad(200,200)}秋の月登った　まん丸さお祝い
+Dialogue: 0,0:22:54.35,0:22:59.25,ed,,0000,0000,0000,,{\fad(200,200)}冬を過ぎまた　月日を数える
+Dialogue: 0,0:22:59.85,0:23:03.45,ed,,0000,0000,0000,,{\fad(200,200)}また夜が明ければお別れ
+Dialogue: 0,0:23:03.45,0:23:07.35,ed,,0000,0000,0000,,{\fad(200,200)}夢は遠きまぼろしに
+Dialogue: 0,0:23:07.45,0:23:13.75,ed,,0000,0000,0000,,{\fad(200,200)}あなたを追いかけていた光の中で
+Dialogue: 0,0:23:13.75,0:23:20.00,ed,,0000,0000,0000,,{\fad(200,200)}抱かれるたび　温かい風をたより
+Dialogue: 0,0:03:30.55,0:03:38.30,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}あらやしき　くぬでぃ
+Dialogue: 0,0:03:38.45,0:03:45.51,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}あらさくばくのでぃ
+Dialogue: 0,0:03:45.69,0:03:52.42,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　ふしぎゅらさねじゅ
+Dialogue: 0,0:03:52.65,0:04:01.65,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ぅくすらじふせろよんど
+Dialogue: 0,0:04:01.81,0:04:08.64,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　ふしぎゅらさねじゅ
+Dialogue: 0,0:04:12.97,0:04:18.23,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ふしぎゅらさねじゅ
+Dialogue: 0,0:04:18.41,0:04:27.49,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ぅくすらじふせろよんど
+Dialogue: 0,0:04:29.48,0:04:36.77,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}きりしがき　くぬでぃ
+Dialogue: 0,0:04:36.95,0:04:43.71,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}くがねやばたてぃてぃ
+Dialogue: 0,0:04:43.86,0:04:50.66,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　ももとぅびゅるわきゃ
+Dialogue: 0,0:04:50.81,0:04:59.68,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ぁやうりば　ゆわお　よんど
+Dialogue: 0,0:04:59.83,0:05:06.59,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　ももとぅびゅるわきゃ
+Dialogue: 0,0:05:10.68,0:05:16.04,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ももとぅびゅるわきゃ
+Dialogue: 0,0:05:16.30,0:05:26.89,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ぁやうりば　ゆわお　よんど
+Dialogue: 0,0:06:35.55,0:06:42.42,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はちぐわてぃやなりゅり
+Dialogue: 0,0:06:42.61,0:06:52.24,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}とぅびばねやねら　あぬ
+Dialogue: 0,0:06:53.34,0:06:59.22,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　うとううじゃかたばに
+Dialogue: 0,0:06:59.48,0:07:08.12,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}にぃや　からちたぼれ
+Dialogue: 0,0:07:08.64,0:07:15.14,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}ひとつあるはねや
+Dialogue: 0,0:07:15.36,0:07:23.67,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}かなしゃせにくすぃてぃ
+Dialogue: 0,0:07:25.84,0:07:31.80,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　わぬぅやおくやま
+Dialogue: 0,0:07:32.02,0:07:39.89,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}あぬ　かずらだすき
+Dialogue: 0,0:08:12.79,0:08:19.48,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}おじゅごやの　てぃきや
+Dialogue: 0,0:08:19.66,0:08:28.63,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}かみぎゅらさてりりゅり
+Dialogue: 0,0:08:29.95,0:08:36.02,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}はれ　かながじょにたた
+Dialogue: 0,0:08:36.13,0:08:46.64,Default,,0000,0000,0000,,{\an7}{\fad(200,200)}{\fnMS PGothic}あば　くもてぃたぼれ
+Dialogue: 0,0:01:33.10,0:01:34.40,Default,,0000,0000,0000,,请救救无幻
+Dialogue: 0,0:01:34.70,0:01:36.80,Default,,0000,0000,0000,,拜讬 救救无幻
+Dialogue: 0,0:01:38.50,0:01:39.50,Default,,0000,0000,0000,,发生什么事了
+Dialogue: 0,0:01:40.40,0:01:41.10,Default,,0000,0000,0000,,陷阱吗
+Dialogue: 0,0:02:00.80,0:02:02.50,Default,,0000,0000,0000,,骸 你这家伙
+Dialogue: 0,0:02:06.00,0:02:07.30,Default,,0000,0000,0000,,居然陷害我
+Dialogue: 0,0:02:16.20,0:02:16.80,Default,,0000,0000,0000,,可恶
+Dialogue: 0,0:02:19.30,0:02:21.60,Default,,0000,0000,0000,,你这个混蛋
+Dialogue: 0,0:02:25.10,0:02:26.10,Default,,0000,0000,0000,,骸!!
+Dialogue: 0,0:02:33.10,0:02:34.00,Default,,0000,0000,0000,,海贼船要…
+Dialogue: 0,0:02:34.10,0:02:35.70,Default,,0000,0000,0000,,怎么了  是哪一个
+Dialogue: 0,0:02:36.10,0:02:37.10,Default,,0000,0000,0000,,无幻他…
+Dialogue: 0,0:02:43.60,0:02:44.40,Default,,0000,0000,0000,,无幻!!
+Dialogue: 0,0:02:47.10,0:02:50.80,Default,,0000,0000,0000,,{\fad(250,250)}#13 暗夜行路 之二
+Dialogue: 0,0:02:52.30,0:02:55.90,Default,,0000,0000,0000,,无幻…我不要你死
+Dialogue: 0,0:03:00.30,0:03:01.20,Default,,0000,0000,0000,,不可能的
+Dialogue: 0,0:03:02.00,0:03:05.40,Default,,0000,0000,0000,,无幻怎么可能就这样轻易死掉
+Dialogue: 0,0:03:06.50,0:03:07.10,Default,,0000,0000,0000,,冷静点
+Dialogue: 0,0:03:07.30,0:03:08.00,Default,,0000,0000,0000,,但是…
+Dialogue: 0,0:03:08.20,0:03:09.30,Default,,0000,0000,0000,,冷静下来
+Dialogue: 0,0:05:42.10,0:05:42.80,Default,,0000,0000,0000,,那样的…
+Dialogue: 0,0:05:44.00,0:05:46.30,Default,,0000,0000,0000,,那样的美丽反而觉得奇怪啊
+Dialogue: 0,0:05:48.10,0:05:49.50,Default,,0000,0000,0000,,明明如此悲伤
+Dialogue: 0,0:05:51.50,0:05:53.20,Default,,0000,0000,0000,,什么都看不到的
+Dialogue: 0,0:05:54.70,0:05:58.20,Default,,0000,0000,0000,,从上面看的话 我也只是像一粒沙罢了
+Dialogue: 0,0:06:02.10,0:06:06.80,Default,,0000,0000,0000,,我不知道自己的父亲是谁
+Dialogue: 0,0:06:07.90,0:06:10.30,Default,,0000,0000,0000,,母亲又很早就去世了
+Dialogue: 0,0:06:11.80,0:06:13.10,Default,,0000,0000,0000,,被骸杀死的
+Dialogue: 0,0:06:18.20,0:06:19.80,Default,,0000,0000,0000,,我想逃离这里
+Dialogue: 0,0:06:21.30,0:06:23.60,Default,,0000,0000,0000,,逃离这个地狱
+Dialogue: 0,0:06:54.80,0:06:58.40,Default,,0000,0000,0000,,什么啊  又是你们
+Dialogue: 0,0:07:07.40,0:07:09.40,Default,,0000,0000,0000,,等等  喂
+Dialogue: 0,0:07:11.50,0:07:13.50,Default,,0000,0000,0000,,我还不想去那儿
+Dialogue: 0,0:07:51.50,0:07:53.60,Default,,0000,0000,0000,,你是想和我打架啊
+Dialogue: 0,0:07:54.00,0:07:55.90,Default,,0000,0000,0000,,加倍奉还给你
+Dialogue: 0,0:07:57.90,0:08:00.50,Default,,0000,0000,0000,,如何 要不要和我联手?
+Dialogue: 0,0:08:00.80,0:08:01.50,Default,,0000,0000,0000,,你说什么?
+Dialogue: 0,0:08:02.00,0:08:04.20,Default,,0000,0000,0000,,你和我是同类
+Dialogue: 0,0:08:05.00,0:08:08.40,Default,,0000,0000,0000,,不管怎么说 都是被这个地狱所眷恋的男人
+Dialogue: 0,0:08:10.20,0:08:12.10,Default,,0000,0000,0000,,我不和任何人合作
+Dialogue: 0,0:08:55.30,0:08:56.90,Default,,0000,0000,0000,,你在害怕些什么
+Dialogue: 0,0:08:58.30,0:08:59.80,Default,,0000,0000,0000,,我有什么好怕的
+Dialogue: 0,0:09:00.20,0:09:02.20,Default,,0000,0000,0000,,那为什么不和我联手
+Dialogue: 0,0:09:02.90,0:09:04.90,Default,,0000,0000,0000,,就是不爽你呗
+Dialogue: 0,0:09:05.60,0:09:10.50,Default,,0000,0000,0000,,听着  我们是在从这个最垃圾的地方出生长大的
+Dialogue: 0,0:09:12.00,0:09:14.50,Default,,0000,0000,0000,,我们已经堕落到底了
+Dialogue: 0,0:09:15.40,0:09:18.30,Default,,0000,0000,0000,,也应该没什么可以失去的了
+Dialogue: 0,0:09:19.40,0:09:20.30,Default,,0000,0000,0000,,对吧
+Dialogue: 0,0:09:22.20,0:09:23.10,Default,,0000,0000,0000,,跟我一起干吧
+Dialogue: 0,0:09:28.40,0:09:31.70,Default,,0000,0000,0000,,那是萨摩藩来的船 运载着黑糖
+Dialogue: 0,0:09:32.80,0:09:34.20,Default,,0000,0000,0000,,要抢下那艘船
+Dialogue: 0,0:09:34.70,0:09:38.10,Default,,0000,0000,0000,,抢下装载的货物后就离开这个岛
+Dialogue: 0,0:09:50.00,0:09:51.80,Default,,0000,0000,0000,,预定变更  快离开这
+Dialogue: 0,0:09:52.10,0:09:53.70,Default,,0000,0000,0000,,但是 无幻还在…
+Dialogue: 0,0:10:19.90,0:10:22.10,Default,,0000,0000,0000,,还有什么要说的吗
+Dialogue: 0,0:10:23.00,0:10:24.70,Default,,0000,0000,0000,,快点动手吧
+Dialogue: 0,0:10:28.10,0:10:30.30,Default,,0000,0000,0000,,我才不管会不会掉进地狱
+Dialogue: 0,0:10:31.00,0:10:33.50,Default,,0000,0000,0000,,反正活着也和地狱没区别
+Dialogue: 0,0:10:34.40,0:10:38.00,Default,,0000,0000,0000,,只是 被你们杀掉很不爽啊
+Dialogue: 0,0:10:39.10,0:10:41.40,Default,,0000,0000,0000,,我一直都是靠自己的力量活过来的
+Dialogue: 0,0:10:42.10,0:10:45.30,Default,,0000,0000,0000,,死的时候也要自己掉到地狱里去
+Dialogue: 0,0:10:58.30,0:10:59.30,Default,,0000,0000,0000,,可恶
+Dialogue: 0,0:10:59.50,0:11:01.00,Default,,0000,0000,0000,,开枪 开枪
+Dialogue: 0,0:11:28.40,0:11:29.90,Default,,0000,0000,0000,,那个时候也是如此
+Dialogue: 0,0:11:32.00,0:11:37.30,Default,,0000,0000,0000,,无幻以袭击黑糖船的罪名\N被萨摩藩的官人处刑
+Dialogue: 0,0:11:38.80,0:11:41.30,Default,,0000,0000,0000,,但那是骸的圈套
+Dialogue: 0,0:11:43.80,0:11:44.90,Default,,0000,0000,0000,,而且 这次也是
+Dialogue: 0,0:11:46.80,0:11:50.30,Default,,0000,0000,0000,,我想替被杀了两次的无幻报仇
+Dialogue: 0,0:11:52.80,0:11:54.10,Default,,0000,0000,0000,,杀了骸
+Dialogue: 0,0:11:56.40,0:11:57.80,Default,,0000,0000,0000,,知道他在哪里吧
+Dialogue: 0,0:12:18.90,0:12:19.60,Default,,0000,0000,0000,,无幻
+Dialogue: 0,0:12:23.00,0:12:24.70,Default,,0000,0000,0000,,这家伙…
+Dialogue: 0,0:12:24.50,0:12:25.10,Default,,0000,0000,0000,,怎么了
+Dialogue: 0,0:12:25.40,0:12:27.00,Default,,0000,0000,0000,,那…是什么东西啊
+Dialogue: 0,0:12:29.00,0:12:29.90,Default,,0000,0000,0000,,无幻
+Dialogue: 0,0:12:34.10,0:12:34.90,Default,,0000,0000,0000,,无幻
+Dialogue: 0,0:12:35.40,0:12:36.20,Default,,0000,0000,0000,,这不是真的
+Dialogue: 0,0:12:38.40,0:12:39.10,Default,,0000,0000,0000,,为什么
+Dialogue: 0,0:12:40.80,0:12:41.80,Default,,0000,0000,0000,,为什么要死
+Dialogue: 0,0:12:46.60,0:12:48.10,Default,,0000,0000,0000,,骗人  还活着吗
+Dialogue: 0,0:12:50.40,0:12:51.10,Default,,0000,0000,0000,,无幻
+Dialogue: 0,0:12:54.90,0:12:56.20,Default,,0000,0000,0000,,醒醒 无幻
+Dialogue: 0,0:13:19.40,0:13:20.10,Default,,0000,0000,0000,,听好了
+Dialogue: 0,0:13:20.70,0:13:24.10,Default,,0000,0000,0000,,知道这个藏身处的只有我和你
+Dialogue: 0,0:13:25.10,0:13:27.20,Default,,0000,0000,0000,,在事情平静下来之前  先在这里避避
+Dialogue: 0,0:13:27.30,0:13:28.00,Default,,0000,0000,0000,,小坐呢
+Dialogue: 0,0:13:28.30,0:13:29.90,Default,,0000,0000,0000,,也告诉她了
+Dialogue: 0,0:13:30.90,0:13:34.10,Default,,0000,0000,0000,,讬付给你了喔  因为你很喜欢她啊
+Dialogue: 0,0:13:36.30,0:13:40.30,Default,,0000,0000,0000,,你好像以为利用小坐 我就会轻易上勾了
+Dialogue: 0,0:13:40.60,0:13:41.60,Default,,0000,0000,0000,,不是吗
+Dialogue: 0,0:13:42.40,0:13:44.40,Default,,0000,0000,0000,,我帮你是因为钱
+Dialogue: 0,0:13:46.10,0:13:49.50,Default,,0000,0000,0000,,就是说我不需要耍这些小把戏了吗
+Dialogue: 0,0:13:50.20,0:13:52.90,Default,,0000,0000,0000,,也不完全是这样
+Dialogue: 0,0:14:09.00,0:14:10.50,Default,,0000,0000,0000,,喂  你们两个
+Dialogue: 0,0:14:12.00,0:14:12.70,Default,,0000,0000,0000,,什么事
+Dialogue: 0,0:14:13.20,0:14:16.70,Default,,0000,0000,0000,,昨晚在这里御用船被袭击的事 你们知道吧
+Dialogue: 0,0:14:18.20,0:14:21.40,Default,,0000,0000,0000,,我们在调查这件事 你知道些什么吗
+Dialogue: 0,0:14:22.70,0:14:23.80,Default,,0000,0000,0000,,奇怪的服装啊
+Dialogue: 0,0:14:24.00,0:14:25.00,Default,,0000,0000,0000,,你是这里的村民吗
+Dialogue: 0,0:14:27.10,0:14:30.30,Default,,0000,0000,0000,,大人  找到御用船了喔
+Dialogue: 0,0:14:30.60,0:14:31.40,Default,,0000,0000,0000,,什么
+Dialogue: 0,0:14:40.80,0:14:43.30,Default,,0000,0000,0000,,还有人吗  御用金还在吗
+Dialogue: 0,0:14:45.60,0:14:46.60,Default,,0000,0000,0000,,全都空了
+Dialogue: 0,0:14:54.10,0:14:56.30,Default,,0000,0000,0000,,仁他们去哪儿了啊
+Dialogue: 0,0:14:57.10,0:14:59.30,Default,,0000,0000,0000,,好不容易才找到无幻的说
+Dialogue: 0,0:15:16.90,0:15:17.50,Default,,0000,0000,0000,,什么
+Dialogue: 0,0:15:20.40,0:15:21.40,Default,,0000,0000,0000,,肚子好饿
+Dialogue: 0,0:15:23.80,0:15:26.00,Default,,0000,0000,0000,,等一等  我去找点什么来
+Dialogue: 0,0:15:42.90,0:15:43.80,Default,,0000,0000,0000,,来了啊
+Dialogue: 0,0:15:45.80,0:15:47.60,Default,,0000,0000,0000,,士炼在里面等很久了
+Dialogue: 0,0:16:19.00,0:16:19.70,Default,,0000,0000,0000,,你这家伙
+Dialogue: 0,0:16:20.70,0:16:22.00,Default,,0000,0000,0000,,怎么会知道这里
+Dialogue: 0,0:16:26.20,0:16:27.00,Default,,0000,0000,0000,,该不会…
+Dialogue: 0,0:16:30.00,0:16:32.20,Default,,0000,0000,0000,,那家伙本来是要由我来杀的
+Dialogue: 0,0:16:33.10,0:16:33.90,Default,,0000,0000,0000,,拔刀吧
+Dialogue: 0,0:17:05.70,0:17:07.70,Default,,0000,0000,0000,,真够傻啊
+Dialogue: 0,0:17:09.40,0:17:12.00,Default,,0000,0000,0000,,完完全全被骗了
+Dialogue: 0,0:17:12.20,0:17:14.30,Default,,0000,0000,0000,,我和你都是…
+Dialogue: 0,0:17:40.50,0:17:41.10,Default,,0000,0000,0000,,无幻??
+Dialogue: 0,0:17:42.00,0:17:42.60,Default,,0000,0000,0000,,不会吧
+Dialogue: 0,0:17:43.80,0:17:46.90,Default,,0000,0000,0000,,真是的  跑哪儿去了啊
+Dialogue: 0,0:18:01.90,0:18:02.40,Default,,0000,0000,0000,,你…
+Dialogue: 0,0:18:07.30,0:18:09.50,Default,,0000,0000,0000,,我会在杀了你之前死掉吗
+Dialogue: 0,0:18:14.20,0:18:15.40,Default,,0000,0000,0000,,等我去收拾下
+Dialogue: 0,0:18:15.60,0:18:16.40,Default,,0000,0000,0000,,杀掉了
+Dialogue: 0,0:18:17.80,0:18:18.60,Default,,0000,0000,0000,,你说什么
+Dialogue: 0,0:18:20.00,0:18:21.50,Default,,0000,0000,0000,,骸被我给杀掉了
+Dialogue: 0,0:18:22.10,0:18:23.30,Default,,0000,0000,0000,,你这家伙
+Dialogue: 0,0:18:24.50,0:18:25.90,Default,,0000,0000,0000,,他应该由我来杀
+Dialogue: 0,0:18:25.60,0:18:26.50,Default,,0000,0000,0000,,我们都上当了
+Dialogue: 0,0:18:30.50,0:18:33.40,Default,,0000,0000,0000,,我们都被骗了  他也是…
+Dialogue: 0,0:18:45.50,0:18:47.10,Default,,0000,0000,0000,,是我杀不了的对手
+Dialogue: 0,0:19:07.90,0:19:09.80,Default,,0000,0000,0000,,这样就行了吗
+Dialogue: 0,0:19:10.10,0:19:11.30,Default,,0000,0000,0000,,是啊
+Dialogue: 0,0:19:12.00,0:19:14.10,Default,,0000,0000,0000,,从骸那里解放出来了吧
+Dialogue: 0,0:19:15.30,0:19:18.30,Default,,0000,0000,0000,,也得到了多得过分的钱
+Dialogue: 0,0:19:19.00,0:19:22.00,Default,,0000,0000,0000,,等风声停了 就告诉你藏钱的地方
+Dialogue: 0,0:19:24.70,0:19:25.90,Default,,0000,0000,0000,,后悔了吗
+Dialogue: 0,0:19:28.10,0:19:30.90,Default,,0000,0000,0000,,因为除此之外没有其他活下去的方法了
+Dialogue: 0,0:19:32.60,0:19:35.60,Default,,0000,0000,0000,,一直都是这样过来的
+Dialogue: 0,0:19:38.70,0:19:41.50,Default,,0000,0000,0000,,答应我 别留下我一个人
+Dialogue: 0,0:21:23.90,0:21:25.30,Default,,0000,0000,0000,,为什么 为什么!!!

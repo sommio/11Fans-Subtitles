@@ -1,0 +1,193 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,標楷體,24,&Hc0f0fe,&Hc0f0fe,&H012029,&H012029,-1,0,1,2,0,2,30,30,10,0,1
+Style: word,MS Gothic,24,&Hc0f0fe,&Hc0f0fe,&H012029,&H012029,-1,0,1,2,0,2,30,30,10,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:00.00,0:01:30.05,Default,NTP,0000,0000,0000,,{\a7\fnMonotype Corsiva\fs20}www.dmhy.net
+Dialogue: Marked=0,0:00:00.00,0:00:10.00,Default,NTP,0000,0080,0000,,{\a3\fs18}製作：
+Dialogue: Marked=0,0:00:00.00,0:00:10.00,Default,NTP,0000,0000,0000,,{\a3\fs18\fnMonotype Corsiva}basaka
+Dialogue: Marked=0,0:00:00.00,0:00:10.00,Default,NTP,0000,0080,0000,,{\a3\fs18}片源：
+Dialogue: Marked=0,0:00:00.00,0:00:10.00,Default,NTP,0000,0000,0000,,{\a3\fs18\fnMonotype Corsiva}Alfredxi
+Dialogue: Marked=0,0:01:30.50,0:02:00.00,Default,NTP,0000,0000,0450,Banner;20;0;40,{\fs18}本作品為動漫花園所作,禁止擅自修改或用於商業用途,若因私自散佈造成法律問題,本團體恕不負責
+Dialogue: Marked=0,0:01:46.37,0:01:48.83,Default,NTP,0000,0000,0000,,和人  和人
+Dialogue: Marked=0,0:02:23.37,0:02:29.15,Default,NTP,0000,0000,0000,,飛翔的瓦露克蕾
+Dialogue: Marked=0,0:02:33.30,0:02:34.37,Default,NTP,0000,0000,0000,,和人
+Dialogue: Marked=0,0:02:35.60,0:02:38.43,Default,NTP,0000,0000,0000,,我等著你呢  瓦露克蕾
+Dialogue: Marked=0,0:02:38.45,0:02:40.61,Default,NTP,0000,0000,0000,,如果是你的話  一定可以做到
+Dialogue: Marked=0,0:02:40.83,0:02:43.62,Default,NTP,0000,0000,0000,,去救她們吧
+Dialogue: Marked=0,0:02:46.57,0:02:48.35,Default,NTP,0000,0000,0000,,如果是你  一定可以的
+Dialogue: Marked=0,0:02:48.70,0:02:51.65,Default,NTP,0000,0000,0000,,我相信你
+Dialogue: Marked=0,0:02:52.54,0:02:54.85,Default,NTP,0000,0000,0000,,等一下  和人
+Dialogue: Marked=0,0:02:58.25,0:02:59.48,Default,NTP,0000,0000,0000,,怎麼了
+Dialogue: Marked=0,0:03:00.29,0:03:03.93,Default,NTP,0000,0000,0000,,和人也感覺到那個悲傷
+Dialogue: Marked=0,0:03:04.46,0:03:05.32,Default,NTP,0000,0000,0000,,所以…
+Dialogue: Marked=0,0:03:05.39,0:03:06.41,Default,NTP,0000,0000,0000,,克拉斯
+Dialogue: Marked=0,0:03:13.88,0:03:17.62,Default,NTP,0000,0000,0000,,拯救了巴魯哈拉星的四皇女
+Dialogue: Marked=0,0:03:49.59,0:03:53.21,Default,NTP,0000,0000,0000,,她們的靈魂一直在異空間中
+Dialogue: Marked=0,0:03:53.36,0:03:56.46,Default,NTP,0000,0000,0000,,抑制著時空暴風雪
+Dialogue: Marked=0,0:03:58.67,0:04:00.08,Default,NTP,0000,0000,0000,,此後也一直如此
+Dialogue: Marked=0,0:04:04.57,0:04:05.56,Default,NTP,0000,0000,0000,,隨著時間的流逝
+Dialogue: Marked=0,0:04:05.74,0:04:07.82,Default,NTP,0000,0000,0000,,巴魯哈拉星繁榮了
+Dialogue: Marked=0,0:04:08.35,0:04:11.61,Default,NTP,0000,0000,0000,,從人們記憶中消失的她們在寒冷的世界中
+Dialogue: Marked=0,0:04:12.02,0:04:14.50,Default,NTP,0000,0000,0000,,默默的守護著巴魯哈拉星
+Dialogue: Marked=0,0:04:15.56,0:04:16.64,Default,NTP,0000,0000,0000,,那種寂寞
+Dialogue: Marked=0,0:04:17.17,0:04:18.35,Default,NTP,0000,0000,0000,,那種痛苦
+Dialogue: Marked=0,0:04:22.89,0:04:24.99,Default,NTP,0000,0000,0000,,沒有人了解
+Dialogue: Marked=0,0:04:25.50,0:04:26.80,Default,NTP,0000,0000,0000,,雖然如此  四個人
+Dialogue: Marked=0,0:04:26.80,0:04:28.40,Default,NTP,0000,0000,0000,,克拉斯  你…
+Dialogue: Marked=0,0:04:29.60,0:04:33.26,Default,NTP,0000,0000,0000,,向著宇宙發出的電波只是漫無目的地飄蕩
+Dialogue: Marked=0,0:04:33.69,0:04:35.64,Default,NTP,0000,0000,0000,,沒有人會收到她們的信息
+Dialogue: Marked=0,0:04:35.81,0:04:37.16,Default,NTP,0000,0000,0000,,但是我收到了
+Dialogue: Marked=0,0:04:37.17,0:04:40.90,Default,NTP,0000,0000,0000,,飛入了如同沙漠中的針一般渺小的我的腦子裡
+Dialogue: Marked=0,0:04:42.23,0:04:43.23,Default,NTP,0000,0000,0000,,克拉斯
+Dialogue: Marked=0,0:04:43.75,0:04:45.61,Default,NTP,0000,0000,0000,,你這孩子
+Dialogue: Marked=0,0:04:49.35,0:04:52.00,Default,NTP,0000,0000,0000,,這到底是怎麼回事  大姐
+Dialogue: Marked=0,0:04:52.48,0:04:57.74,Default,NTP,0000,0000,0000,,克拉斯的心一定是和四個人寂寞的心靈同步了
+Dialogue: Marked=0,0:04:57.85,0:05:02.36,Default,NTP,0000,0000,0000,,正是這個孤獨而且擁有敏銳的感受性的克拉斯
+Dialogue: Marked=0,0:05:03.76,0:05:06.82,Default,NTP,0000,0000,0000,,是啊  明明一切都是你們的功勞
+Dialogue: Marked=0,0:05:07.04,0:05:09.07,Default,NTP,0000,0000,0000,,好象又收到甚麼信息了
+Dialogue: Marked=0,0:05:10.34,0:05:13.54,Default,NTP,0000,0000,0000,,凍結在時空的夾縫中的四人的思念
+Dialogue: Marked=0,0:05:14.60,0:05:18.75,Default,NTP,0000,0000,0000,,經過漫長的歲月  朝著負面的方向發展
+Dialogue: Marked=0,0:05:23.94,0:05:29.18,Default,NTP,0000,0000,0000,,四個人留下的時之鍵由每一代的一位皇女繼承
+Dialogue: Marked=0,0:05:38.72,0:05:44.83,Default,NTP,0000,0000,0000,,這一代掌握時之鍵的皇女得到了幸福的愛情
+Dialogue: Marked=0,0:05:47.30,0:05:51.28,Default,NTP,0000,0000,0000,,那實在是太幸福的愛情
+Dialogue: Marked=0,0:05:54.11,0:06:00.31,Default,NTP,0000,0000,0000,,在歷屆的皇女中也從沒有過如此幸福的皇女
+Dialogue: Marked=0,0:06:40.93,0:06:41.74,Default,NTP,0000,0000,0000,,是的
+Dialogue: Marked=0,0:06:42.30,0:06:47.33,Default,NTP,0000,0000,0000,,就像神話故事中和「夢幻的戀人」相遇的愉悅
+Dialogue: Marked=0,0:06:50.25,0:06:51.46,Default,NTP,0000,0000,0000,,但卻是不存在的
+Dialogue: Marked=0,0:06:52.24,0:06:57.16,Default,NTP,0000,0000,0000,,「夢幻的戀人」是絕不存在於現實中的理想的象徵
+Dialogue: Marked=0,0:06:57.87,0:07:03.21,Default,NTP,0000,0000,0000,,但瓦露克蕾的幸福卻和其無異
+Dialogue: Marked=0,0:07:04.98,0:07:11.28,Default,NTP,0000,0000,0000,,由於瓦露克蕾的幸福使得事態發展加劇
+Dialogue: Marked=0,0:07:11.97,0:07:16.25,Default,NTP,0000,0000,0000,,那個徵兆首先是時之健的異變
+Dialogue: Marked=0,0:07:16.89,0:07:20.23,Default,NTP,0000,0000,0000,,然後就是黑暗瓦露克蕾的出現
+Dialogue: Marked=0,0:07:42.69,0:07:46.67,Default,NTP,0000,0000,0000,,黑暗瓦露克蕾只是想取回屬於她的東西吧
+Dialogue: Marked=0,0:07:47.36,0:07:51.14,Default,NTP,0000,0000,0000,,失去的時間和無法得到的幸福
+Dialogue: Marked=0,0:07:52.60,0:07:54.75,Default,NTP,0000,0000,0000,,所以將駙馬殿下帶走了
+Dialogue: Marked=0,0:07:56.68,0:07:59.94,Default,NTP,0000,0000,0000,,但那隻不過是虛幻的而已
+Dialogue: Marked=0,0:08:03.66,0:08:06.37,Default,NTP,0000,0000,0000,,異空間範圍依然在擴大中
+Dialogue: Marked=0,0:08:07.49,0:08:10.26,Default,NTP,0000,0000,0000,,到達巴魯哈拉境界前維持當前速度
+Dialogue: Marked=0,0:08:14.19,0:08:17.64,Default,NTP,0000,0000,0000,,四皇女抑制住的時空暴風雪
+Dialogue: Marked=0,0:08:18.24,0:08:21.36,Default,NTP,0000,0000,0000,,無論如何都要將其消除
+Dialogue: Marked=0,0:08:22.61,0:08:24.05,Default,NTP,0000,0000,0000,,瓦露克蕾
+Dialogue: Marked=0,0:08:39.63,0:08:41.85,Default,NTP,0000,0000,0000,,這可是我的飛碟哦
+Dialogue: Marked=0,0:08:41.87,0:08:44.21,Default,NTP,0000,0000,0000,,拜託你不要讓它受傷了
+Dialogue: Marked=0,0:08:44.31,0:08:46.33,Default,NTP,0000,0000,0000,,你明白現在是甚麼狀況嗎
+Dialogue: Marked=0,0:08:47.30,0:08:51.60,Default,NTP,0000,0000,0000,,喂  這個圓盤是四十二型雙座式的嗎
+Dialogue: Marked=0,0:08:51.99,0:08:54.86,Default,NTP,0000,0000,0000,,不知道  我是從來不讀說明書的
+Dialogue: Marked=0,0:08:54.91,0:08:55.94,Default,NTP,0000,0000,0000,,讀讀吧
+Dialogue: Marked=0,0:08:59.61,0:09:02.02,Default,NTP,0000,0000,0000,,我等著你  瓦露克蕾
+Dialogue: Marked=0,0:09:11.28,0:09:14.14,Default,NTP,0000,0000,0000,,本艦到達這裡已經是極限了
+Dialogue: Marked=0,0:09:15.33,0:09:17.70,Default,NTP,0000,0000,0000,,剩下的就交給我們吧
+Dialogue: Marked=0,0:09:18.51,0:09:19.66,Default,NTP,0000,0000,0000,,拜託了
+Dialogue: Marked=0,0:09:40.12,0:09:41.03,Default,NTP,0000,0000,0000,,黑暗瓦露克蕾
+Dialogue: Marked=0,0:09:41.71,0:09:43.59,Default,NTP,0000,0000,0000,,出來了啊
+Dialogue: Marked=0,0:09:44.00,0:09:44.84,Default,NTP,0000,0000,0000,,海多拉
+Dialogue: Marked=0,0:09:44.87,0:09:45.87,Default,NTP,0000,0000,0000,,好
+Dialogue: Marked=0,0:09:46.07,0:09:50.03,Default,NTP,0000,0000,0000,,海多拉的錄象帶之三——鞍馬天狗
+Dialogue: Marked=0,0:09:54.21,0:09:57.48,Default,NTP,0000,0000,0000,,啊  施瓦辛格老師
+Dialogue: Marked=0,0:09:57.64,0:09:59.17,Default,NTP,0000,0000,0000,,{\fs18}（飾演鞍馬天狗系列主角的嵐■壽朗的昵稱）
+Dialogue: Marked=0,0:09:57.64,0:09:59.17,Default,NTP,0000,0000,0000,,是阿拉漢演的
+Dialogue: Marked=0,0:10:01.00,0:10:03.93,Default,NTP,0000,0000,0000,,秋多拉合體
+Dialogue: Marked=0,0:10:38.75,0:10:39.82,Default,NTP,0000,0000,0000,,等一下
+Dialogue: Marked=0,0:10:42.06,0:10:43.80,Default,NTP,0000,0000,0000,,快  趁現在
+Dialogue: Marked=0,0:10:48.49,0:10:50.40,Default,NTP,0000,0000,0000,,哼  這可不行
+Dialogue: Marked=0,0:11:12.92,0:11:15.58,Default,NTP,0000,0000,0000,,等著我  和人
+Dialogue: Marked=0,0:11:18.16,0:11:20.06,Default,NTP,0000,0000,0000,,和人
+Dialogue: Marked=0,0:11:40.95,0:11:42.79,Default,NTP,0000,0000,0000,,那邊  是那邊
+Dialogue: Marked=0,0:11:43.03,0:11:44.46,Default,NTP,0000,0000,0000,,那邊
+Dialogue: Marked=0,0:11:44.51,0:11:46.29,Default,NTP,0000,0000,0000,,和人是那麼說的
+Dialogue: Marked=0,0:11:46.31,0:11:47.36,Default,NTP,0000,0000,0000,,好
+Dialogue: Marked=0,0:11:56.29,0:11:57.69,Default,NTP,0000,0000,0000,,那是甚麼
+Dialogue: Marked=0,0:11:57.88,0:12:00.31,Default,NTP,0000,0000,0000,,時空已經慘不忍睹了
+Dialogue: Marked=0,0:12:00.50,0:12:02.86,Default,NTP,0000,0000,0000,,那些像洞一樣的東西嗎
+Dialogue: Marked=0,0:12:02.96,0:12:05.91,Default,NTP,0000,0000,0000,,被那種東西吸進去就完了
+Dialogue: Marked=0,0:12:19.87,0:12:24.10,Default,NTP,0000,0000,0000,,我說  這個難道就是所謂的危機嗎
+Dialogue: Marked=0,0:12:24.59,0:12:27.43,Default,NTP,0000,0000,0000,,說是大危機也不過分
+Dialogue: Marked=0,0:12:49.59,0:12:51.01,Default,NTP,0000,0000,0000,,這是甚麼氣勢
+Dialogue: Marked=0,0:12:50.99,0:12:53.01,Default,NTP,0000,0000,0000,,該怎麼辦
+Dialogue: Marked=0,0:13:09.92,0:13:10.98,Default,NTP,0000,0000,0000,,四隻眼
+Dialogue: Marked=0,0:13:11.95,0:13:15.79,Default,NTP,0000,0000,0000,,嗯  四隻眼  四隻眼
+Dialogue: Marked=0,0:13:16.11,0:13:17.47,Default,NTP,0000,0000,0000,,是嗎  那個嗎
+Dialogue: Marked=0,0:13:17.63,0:13:20.18,Default,NTP,0000,0000,0000,,老師要告訴我的就是這個吧
+Dialogue: Marked=0,0:13:20.46,0:13:23.74,Default,NTP,0000,0000,0000,,正是如此  海多拉
+Dialogue: Marked=0,0:13:26.57,0:13:30.75,word,NTP,0000,0000,0000,,巫蠱の罪、魘魅の罪、外道の罪出でん
+Dialogue: Marked=0,0:13:31.14,0:13:34.67,word,NTP,0000,0000,0000,,ヴァルハラにアインヘルヤル集え給ひ
+Dialogue: Marked=0,0:13:35.19,0:13:38.61,word,NTP,0000,0000,0000,,オーディンの命を黄昏に知ろしめせと
+Dialogue: Marked=0,0:13:38.72,0:13:40.72,word,NTP,0000,0000,0000,,言依りさ奉りき
+Dialogue: Marked=0,0:13:46.62,0:13:50.69,word,NTP,0000,0000,0000,,オーディンの命はアースガルドの磐戸を押し開き
+Dialogue: Marked=0,0:13:50.79,0:13:54.35,word,NTP,0000,0000,0000,,ロキ、フェンリル押し放ちて聞こしめさむ
+Dialogue: Marked=0,0:13:55.37,0:13:59.70,word,NTP,0000,0000,0000,,ゴーストをおどろなる  虚ろなるフィムブルヴェトに
+Dialogue: Marked=0,0:13:59.82,0:14:01.21,word,NTP,0000,0000,0000,,戻れしやれと宣る
+Dialogue: Marked=0,0:14:11.08,0:14:12.64,word,NTP,0000,0000,0000,,邪眼封印
+Dialogue: Marked=0,0:14:30.61,0:14:32.97,Default,NTP,0000,0000,0000,,巴魯哈拉無念流
+Dialogue: Marked=0,0:14:34.42,0:14:36.26,Default,NTP,0000,0000,0000,,姬巫女之劍
+Dialogue: Marked=0,0:14:37.49,0:14:41.31,Default,NTP,0000,0000,0000,,突發奧義  四極聖劍
+Dialogue: Marked=0,0:15:28.41,0:15:29.48,Default,NTP,0000,0000,0000,,不行了
+Dialogue: Marked=0,0:15:32.72,0:15:34.02,Default,NTP,0000,0000,0000,,沒辦法了
+Dialogue: Marked=0,0:15:46.21,0:15:48.16,Default,NTP,0000,0000,0000,,你在幹甚麼
+Dialogue: Marked=0,0:15:48.41,0:15:51.31,Default,NTP,0000,0000,0000,,我的巨大化只能撐5秒
+Dialogue: Marked=0,0:15:51.77,0:15:53.80,Default,NTP,0000,0000,0000,,趁現在  快走
+Dialogue: Marked=0,0:15:53.89,0:15:57.50,Default,NTP,0000,0000,0000,,笨蛋  耍甚麼帥
+Dialogue: Marked=0,0:15:57.68,0:15:59.16,Default,NTP,0000,0000,0000,,快走啊
+Dialogue: Marked=0,0:16:01.33,0:16:02.27,Default,NTP,0000,0000,0000,,我明白了
+Dialogue: Marked=0,0:16:06.16,0:16:10.03,Default,NTP,0000,0000,0000,,妙茵巴哈
+Dialogue: Marked=0,0:16:12.38,0:16:13.96,Default,NTP,0000,0000,0000,,永別了
+Dialogue: Marked=0,0:16:27.08,0:16:29.37,Default,NTP,0000,0000,0000,,我絕不會讓你死的
+Dialogue: Marked=0,0:16:29.55,0:16:31.83,Default,NTP,0000,0000,0000,,拜託你了  丸子公爵
+Dialogue: Marked=0,0:16:55.67,0:16:56.76,Default,NTP,0000,0000,0000,,瓦露克蕾
+Dialogue: Marked=0,0:16:57.43,0:16:58.25,Default,NTP,0000,0000,0000,,和人
+Dialogue: Marked=0,0:16:58.25,0:17:00.16,Default,NTP,0000,0000,0000,,這邊  瓦露克蕾
+Dialogue: Marked=0,0:17:42.88,0:17:44.37,Default,NTP,0000,0000,0000,,我這就來
+Dialogue: Marked=0,0:17:45.61,0:17:47.27,Default,NTP,0000,0000,0000,,好  脫離
+Dialogue: Marked=0,0:17:53.62,0:17:55.78,Default,NTP,0000,0000,0000,,能聽見嗎  瓦露克蕾
+Dialogue: Marked=0,0:17:57.24,0:17:58.21,Default,NTP,0000,0000,0000,,對不起
+Dialogue: Marked=0,0:17:58.53,0:18:01.92,Default,NTP,0000,0000,0000,,我是想平息災難才跟黑暗瓦露克蕾走的
+Dialogue: Marked=0,0:18:04.62,0:18:07.32,Default,NTP,0000,0000,0000,,第一次遇到她時我就感覺到了
+Dialogue: Marked=0,0:18:08.34,0:18:10.46,Default,NTP,0000,0000,0000,,如果我們兩個沒有相遇的話
+Dialogue: Marked=0,0:18:10.67,0:18:13.91,Default,NTP,0000,0000,0000,,你一定也會變成那樣吧
+Dialogue: Marked=0,0:18:21.14,0:18:25.12,Default,NTP,0000,0000,0000,,不知怎麼的我漸漸地確信
+Dialogue: Marked=0,0:18:26.17,0:18:27.78,Default,NTP,0000,0000,0000,,如果不拯救她
+Dialogue: Marked=0,0:18:27.99,0:18:32.03,Default,NTP,0000,0000,0000,,就沒有我們的  不  是大家的幸福
+Dialogue: Marked=0,0:18:33.38,0:18:36.47,Default,NTP,0000,0000,0000,,這是我們的義務
+Dialogue: Marked=0,0:18:38.46,0:18:42.43,Default,NTP,0000,0000,0000,,我明白的  我明白的
+Dialogue: Marked=0,0:19:06.04,0:19:08.15,Default,NTP,0000,0000,0000,,和人…
+Dialogue: Marked=0,0:19:21.51,0:19:26.03,Default,NTP,0000,0000,0000,,和人  我相信
+Dialogue: Marked=0,0:19:28.51,0:19:29.78,Default,NTP,0000,0000,0000,,拿著這個
+Dialogue: Marked=0,0:19:30.99,0:19:32.58,Default,NTP,0000,0000,0000,,你能辦到的
+Dialogue: Marked=0,0:19:35.06,0:19:36.73,Default,NTP,0000,0000,0000,,瓦露克蕾可以做到
+Dialogue: Marked=0,0:19:37.10,0:19:39.63,Default,NTP,0000,0000,0000,,過去四皇女做不到的事情
+Dialogue: Marked=0,0:19:39.73,0:19:41.28,Default,NTP,0000,0000,0000,,現在也能做到
+Dialogue: Marked=0,0:19:41.35,0:19:47.38,Default,NTP,0000,0000,0000,,因為  現在的瓦露克蕾有「夢幻的戀人」
+Dialogue: Marked=0,0:19:51.65,0:19:53.88,Default,NTP,0000,0000,0000,,逝去了的巴魯哈拉星的四皇女啊
+Dialogue: Marked=0,0:19:54.24,0:19:57.78,Default,NTP,0000,0000,0000,,謝謝你們長久以來守護著我們
+Dialogue: Marked=0,0:19:58.52,0:20:00.98,Default,NTP,0000,0000,0000,,這次輪到我來幫你們了
+Dialogue: Marked=0,0:20:01.71,0:20:05.83,Default,NTP,0000,0000,0000,,用你們留下的這個時之鍵
+Dialogue: Marked=0,0:20:54.38,0:20:56.05,Default,NTP,0000,0000,0000,,時之鍵聽命
+Dialogue: Marked=0,0:20:56.09,0:20:59.91,Default,NTP,0000,0000,0000,,現在將巴魯哈拉的時空加上鎖
+Dialogue: Marked=0,0:21:00.10,0:21:03.46,Default,NTP,0000,0000,0000,,將災難的風暴永遠封印
+Dialogue: Marked=0,0:21:54.91,0:21:56.05,Default,NTP,0000,0000,0000,,謝謝
+Dialogue: Marked=0,0:21:57.59,0:21:58.58,Default,NTP,0000,0000,0000,,謝謝
+Dialogue: Marked=0,0:21:59.97,0:22:00.98,Default,NTP,0000,0000,0000,,謝謝
+Dialogue: Marked=0,0:22:02.39,0:22:05.14,Default,NTP,0000,0000,0000,,謝謝  瓦露克蕾
+Dialogue: Marked=0,0:22:12.47,0:22:14.54,Default,NTP,0000,0000,0000,,異空間消失
+Dialogue: Marked=0,0:22:15.02,0:22:16.63,Default,NTP,0000,0000,0000,,通信恢復了
+Dialogue: Marked=0,0:22:16.79,0:22:18.06,Default,NTP,0000,0000,0000,,開始掃描
+Dialogue: Marked=0,0:22:18.22,0:22:21.25,Default,NTP,0000,0000,0000,,調查周圍空間的能量殘存率
+Dialogue: Marked=0,0:22:26.54,0:22:31.25,Default,NTP,0000,0000,0000,,我一直以來到底為甚麼這麼悲傷
+Dialogue: Marked=0,0:22:32.27,0:22:34.15,Default,NTP,0000,0000,0000,,我真傻啊

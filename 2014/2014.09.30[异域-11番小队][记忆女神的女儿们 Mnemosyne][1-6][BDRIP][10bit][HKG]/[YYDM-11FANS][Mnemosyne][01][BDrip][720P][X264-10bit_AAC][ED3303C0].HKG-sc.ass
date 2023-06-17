@@ -1,0 +1,598 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 848
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,32,&H00FFFFFF,&H000000FF,&H004040C8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,8,1
+Style: Staff,FZYaoTi,24,&H00FFFFFF,&HF0000000,&H96000000,&HF0000000,-1,0,0,0,130,100,-1,0,1,0,0,2,30,30,10,1
+Style: ed_jap,MS Gothic,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,1,20,20,5,1
+Style: ed_chi,SimHei,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,9,20,20,8,1
+Style: op_eng,華康硬黑體,30,&H00000000,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: op_chi,華康硬黑體,28,&H00FFFFFF,&H00000000,&H000000BD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:27.69,0:01:31.04,Staff,NTP,0,0,0,,{\pos(625,462)}{\an1\fad(100,100)\fsp-1}HKG·里字幕组
+Dialogue: 0,0:04:08.32,0:04:09.83,Default,NTP,0,0,0,,好痛...
+Dialogue: 0,0:04:13.70,0:04:15.77,Default,NTP,0,0,0,,咦?
+Dialogue: 0,0:04:24.00,0:04:31.40,Default,NTP,0,0,0,,{\an1}{\fs30\bord0\pos(610,370)\fad(700,1400)}猫不会笑
+Dialogue: 0,0:04:24.55,0:04:26.62,Default,NTP,0,0,0,,美美 给我一杯水
+Dialogue: 0,0:04:27.30,0:04:28.19,Default,NTP,0,0,0,,知道了
+Dialogue: 0,0:04:40.33,0:04:41.18,Default,NTP,0,0,0,,给你
+Dialogue: 0,0:04:47.49,0:04:50.91,Default,NTP,0,0,0,,伏特加在俄罗斯语里是水的意思喔
+Dialogue: 0,0:04:54.73,0:04:57.56,Default,NTP,0,0,0,,而且喝这个磷也比较高兴吧
+Dialogue: 0,0:05:05.18,0:05:08.18,Default,NTP,0,0,0,,精神恢复了的话 就努力工作吧
+Dialogue: 0,0:05:09.78,0:05:11.73,Default,NTP,0,0,0,,工作要好好做啦
+Dialogue: 0,0:05:12.74,0:05:14.12,Default,NTP,0,0,0,,那个吗
+Dialogue: 0,0:05:24.91,0:05:26.29,Default,NTP,0,0,0,,虽然每次都有跟你说
+Dialogue: 0,0:05:26.49,0:05:29.19,Default,NTP,0,0,0,,偶而做个视力检查会比较好啊
+Dialogue: 0,0:05:29.43,0:05:30.74,Default,NTP,0,0,0,,跟之前一样没变吧
+Dialogue: 0,0:05:31.05,0:05:33.74,Default,NTP,0,0,0,,可是度数说不定加深了啊
+Dialogue: 0,0:05:34.32,0:05:36.29,Default,NTP,0,0,0,,那永远不可能的
+Dialogue: 0,0:05:37.30,0:05:38.15,Default,NTP,0,0,0,,掰罗
+Dialogue: 0,0:05:38.55,0:05:39.75,Default,NTP,0,0,0,,那个 小磷
+Dialogue: 0,0:07:05.42,0:07:07.90,Default,NTP,0,0,0,,我看到那卡车快要辗到那只猫时
+Dialogue: 0,0:07:08.00,0:07:10.44,Default,NTP,0,0,0,,为了躲闪 碰的一声撞上了油罐车
+Dialogue: 0,0:07:11.11,0:07:12.69,Default,NTP,0,0,0,,那只猫跑到哪去了呢?
+Dialogue: 0,0:07:13.16,0:07:13.95,Default,NTP,0,0,0,,我不清楚
+Dialogue: 0,0:07:14.01,0:07:14.92,Default,NTP,0,0,0,,它跑去那边了喔
+Dialogue: 0,0:07:15.41,0:07:16.14,Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:07:27.58,0:07:28.10,Default,NTP,0,0,0,,那个
+Dialogue: 0,0:07:29.14,0:07:29.78,Default,NTP,0,0,0,,喂!
+Dialogue: 0,0:07:30.65,0:07:31.24,Default,NTP,0,0,0,,跟我们走吧
+Dialogue: 0,0:07:31.56,0:07:32.70,Default,NTP,0,0,0,,你明白吧
+Dialogue: 0,0:07:32.70,0:07:34.05,Default,NTP,0,0,0,,是指什么呢
+Dialogue: 0,0:07:34.20,0:07:35.47,Default,NTP,0,0,0,,给我等等啊
+Dialogue: 0,0:07:40.97,0:07:41.50,Default,NTP,0,0,0,,不要这样
+Dialogue: 0,0:07:41.50,0:07:42.41,Default,NTP,0,0,0,,别多说了 跟我们走
+Dialogue: 0,0:07:42.96,0:07:43.80,Default,NTP,0,0,0,,等等
+Dialogue: 0,0:07:47.36,0:07:48.82,Default,NTP,0,0,0,,这家...这家伙
+Dialogue: 0,0:07:56.07,0:07:56.77,Default,NTP,0,0,0,,要走了喔
+Dialogue: 0,0:07:57.86,0:07:59.11,Default,NTP,0,0,0,,要去哪?
+Dialogue: 0,0:07:59.38,0:08:02.99,Default,NTP,0,0,0,,啊啦 这种事要问女生吗 啊痛
+Dialogue: 0,0:08:06.00,0:08:07.59,Default,NTP,0,0,0,,不跑没关系吗
+Dialogue: 0,0:08:08.03,0:08:09.92,Default,NTP,0,0,0,,我可不喜欢用跑的啊
+Dialogue: 0,0:08:15.62,0:08:19.30,Default,NTP,0,0,0,,磷 你不是去找猫了吗
+Dialogue: 0,0:08:19.53,0:08:22.43,Default,NTP,0,0,0,,作为替代我不是带了个男的回来了吗
+Dialogue: 0,0:08:22.44,0:08:23.76,Default,NTP,0,0,0,,那...那个
+Dialogue: 0,0:08:24.00,0:08:25.99,Default,NTP,0,0,0,,你就放轻松下好了
+Dialogue: 0,0:08:26.03,0:08:27.89,Default,NTP,0,0,0,,就当作是自己家
+Dialogue: 0,0:08:28.51,0:08:29.65,Default,NTP,0,0,0,,接下来
+Dialogue: 0,0:08:30.20,0:08:30.83,Default,NTP,0,0,0,,然后呢
+Dialogue: 0,0:08:31.17,0:08:32.56,Default,NTP,0,0,0,,然后呢是指?
+Dialogue: 0,0:08:33.09,0:08:34.10,Default,NTP,0,0,0,,发生了什么事吗
+Dialogue: 0,0:08:34.57,0:08:37.81,Default,NTP,0,0,0,,我自己也完全不清楚
+Dialogue: 0,0:08:38.53,0:08:41.18,Default,NTP,0,0,0,,为什么那些人会来找碴呢
+Dialogue: 0,0:08:42.35,0:08:44.57,Default,NTP,0,0,0,,真对不起 把你牵连进来
+Dialogue: 0,0:08:45.41,0:08:46.16,Default,NTP,0,0,0,,只不过...
+Dialogue: 0,0:08:46.36,0:08:47.29,Default,NTP,0,0,0,,只不过?
+Dialogue: 0,0:08:47.48,0:08:50.57,Default,NTP,0,0,0,,总觉得如果是你的话似乎可以帮我的样子
+Dialogue: 0,0:08:52.91,0:08:57.06,Default,NTP,0,0,0,,磷从以前就会带些像这样有隐情的男人回来啊
+Dialogue: 0,0:08:57.32,0:08:58.98,Default,NTP,0,0,0,,是磷小姐吗
+Dialogue: 0,0:08:59.20,0:08:59.89,Default,NTP,0,0,0,,对啊
+Dialogue: 0,0:09:00.08,0:09:02.56,Default,NTP,0,0,0,,我是美美 永远不变喔
+Dialogue: 0,0:09:04.22,0:09:05.00,Default,NTP,0,0,0,,然后呢
+Dialogue: 0,0:09:10.65,0:09:12.45,Default,NTP,0,0,0,,我是什么人呢
+Dialogue: 0,0:09:14.82,0:09:16.96,Default,NTP,0,0,0,,难不成是丧失记忆了
+Dialogue: 0,0:09:17.09,0:09:18.68,Default,NTP,0,0,0,,不 我是有记忆的
+Dialogue: 0,0:09:19.11,0:09:20.83,Default,NTP,0,0,0,,我叫做前野光辉
+Dialogue: 0,0:09:21.37,0:09:23.54,Default,NTP,0,0,0,,住址跟电话号码也能说的出来
+Dialogue: 0,0:09:24.03,0:09:25.86,Default,NTP,0,0,0,,就连昨天吃的晚餐也记得...
+Dialogue: 0,0:09:26.67,0:09:29.03,Default,NTP,0,0,0,,可是却没有实感
+Dialogue: 0,0:09:30.07,0:09:31.81,Default,NTP,0,0,0,,怎么说呢 这种不可思议的感觉
+Dialogue: 0,0:09:32.65,0:09:35.12,Default,NTP,0,0,0,,自己明明是前野
+Dialogue: 0,0:09:35.62,0:09:37.33,Default,NTP,0,0,0,,却没那个自信
+Dialogue: 0,0:09:38.37,0:09:39.52,Default,NTP,0,0,0,,该怎么说
+Dialogue: 0,0:09:40.20,0:09:43.03,Default,NTP,0,0,0,,自己就好像装做别人一样
+Dialogue: 0,0:09:43.90,0:09:47.52,Default,NTP,0,0,0,,那 关于袭击你的那些人你心有数吗
+Dialogue: 0,0:09:47.86,0:09:49.29,Default,NTP,0,0,0,,谁知道啊 莫名奇妙的
+Dialogue: 0,0:09:49.74,0:09:52.20,Default,NTP,0,0,0,,回过神来的时候就已经是站在那发呆的那时候了
+Dialogue: 0,0:09:52.56,0:09:53.45,Default,NTP,0,0,0,,说话注意点
+Dialogue: 0,0:09:53.78,0:09:56.67,Default,NTP,0,0,0,,美美虽然看起来那样 其实年纪比你大喔
+Dialogue: 0,0:09:57.79,0:10:02.06,Default,NTP,0,0,0,,就连为什么在歌舞伎町也是没有真实感的意思吗
+Dialogue: 0,0:10:02.18,0:10:03.41,Default,NTP,0,0,0,,不是那样的
+Dialogue: 0,0:10:03.50,0:10:05.08,Default,NTP,0,0,0,,那是因为我没印象
+Dialogue: 0,0:10:05.93,0:10:07.83,Default,NTP,0,0,0,,我记得早上出门
+Dialogue: 0,0:10:07.87,0:10:09.26,Default,NTP,0,0,0,,然后前往大学
+Dialogue: 0,0:10:10.06,0:10:11.99,Default,NTP,0,0,0,,回过神来就已经在那里了
+Dialogue: 0,0:10:14.58,0:10:15.22,Default,NTP,0,0,0,,好吧
+Dialogue: 0,0:10:15.75,0:10:16.19,Default,NTP,0,0,0,,嗯?
+Dialogue: 0,0:10:17.01,0:10:18.10,Default,NTP,0,0,0,,明天再说吧
+Dialogue: 0,0:10:18.34,0:10:19.00,Default,NTP,0,0,0,,什么?
+Dialogue: 0,0:10:19.05,0:10:19.92,Default,NTP,0,0,0,,又这样啊?
+Dialogue: 0,0:10:20.23,0:10:23.11,Default,NTP,0,0,0,,我觉得今天能做好的事拖到明天做可不是很好喔
+Dialogue: 0,0:10:23.35,0:10:24.54,Default,NTP,0,0,0,,那...那个
+Dialogue: 0,0:10:25.39,0:10:25.91,Default,NTP,0,0,0,,那个
+Dialogue: 0,0:10:27.55,0:10:28.40,Default,NTP,0,0,0,,来喝一杯吧
+Dialogue: 0,0:10:29.10,0:10:30.60,Default,NTP,0,0,0,,不...咦?
+Dialogue: 0,0:10:30.64,0:10:34.64,Default,NTP,0,0,0,,喝完醒来以后 那个奇怪的感觉说不定就治好了罗
+Dialogue: 0,0:10:35.06,0:10:36.03,Default,NTP,0,0,0,,是吗
+Dialogue: 0,0:10:36.22,0:10:36.92,Default,NTP,0,0,0,,就是啊
+Dialogue: 0,0:10:41.27,0:10:42.10,Default,NTP,0,0,0,,干杯
+Dialogue: 0,0:10:42.10,0:10:43.70,Default,NTP,0,0,0,,为这命运的相逢干杯
+Dialogue: 0,0:10:45.20,0:10:46.61,Default,NTP,0,0,0,,干...干杯
+Dialogue: 0,0:10:51.58,0:10:52.76,Default,NTP,0,0,0,,真浪费
+Dialogue: 0,0:10:52.89,0:10:55.58,Default,NTP,0,0,0,,一滴酒可是跟一滴血一样珍贵哟
+Dialogue: 0,0:10:55.85,0:10:56.49,Default,NTP,0,0,0,,是
+Dialogue: 0,0:11:16.67,0:11:17.24,Default,NTP,0,0,0,,是
+Dialogue: 0,0:11:20.83,0:11:21.46,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:11:23.98,0:11:24.62,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:11:25.79,0:11:26.31,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:11:27.53,0:11:28.16,Default,NTP,0,0,0,,什么?
+Dialogue: 0,0:11:33.86,0:11:34.78,Default,NTP,0,0,0,,看的见吗
+Dialogue: 0,0:11:35.86,0:11:36.60,Default,NTP,0,0,0,,是吗
+Dialogue: 0,0:11:37.44,0:11:39.94,Default,NTP,0,0,0,,说不定出乎意料的就在附近呢
+Dialogue: 0,0:11:46.38,0:11:47.23,Default,NTP,0,0,0,,早
+Dialogue: 0,0:11:51.03,0:11:52.47,Default,NTP,0,0,0,,宿醉对吧
+Dialogue: 0,0:11:52.73,0:11:54.56,Default,NTP,0,0,0,,跟我们喝到最后的关系嘛
+Dialogue: 0,0:11:54.97,0:11:55.52,Default,NTP,0,0,0,,来
+Dialogue: 0,0:11:55.73,0:11:56.68,Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:11:58.24,0:11:58.90,Default,NTP,0,0,0,,这是
+Dialogue: 0,0:11:58.90,0:12:00.24,Default,NTP,0,0,0,,加了白兰地
+Dialogue: 0,0:12:00.44,0:12:02.39,Default,NTP,0,0,0,,对宿醉来说是迎接早晨的酒
+Dialogue: 0,0:12:04.18,0:12:04.89,Default,NTP,0,0,0,,如何?
+Dialogue: 0,0:12:05.16,0:12:06.05,Default,NTP,0,0,0,,如何是指?
+Dialogue: 0,0:12:06.40,0:12:08.00,Default,NTP,0,0,0,,还是觉得很难受
+Dialogue: 0,0:12:08.15,0:12:09.51,Default,NTP,0,0,0,,我不是指这个
+Dialogue: 0,0:12:09.62,0:12:11.15,Default,NTP,0,0,0,,有这就是我的真实感吗
+Dialogue: 0,0:12:13.07,0:12:14.43,Default,NTP,0,0,0,,果然不行吗
+Dialogue: 0,0:12:14.94,0:12:17.51,Default,NTP,0,0,0,,肉体方面倒是成长了嘛
+Dialogue: 0,0:12:19.83,0:12:21.00,Default,NTP,0,0,0,,那么接下来
+Dialogue: 0,0:12:21.36,0:12:22.32,Default,NTP,0,0,0,,要出门了喔
+Dialogue: 0,0:12:22.89,0:12:24.12,Default,NTP,0,0,0,,要去哪?
+Dialogue: 0,0:12:24.51,0:12:26.13,Default,NTP,0,0,0,,去寻找你自己
+Dialogue: 0,0:12:28.53,0:12:30.44,Default,NTP,0,0,0,,前野光辉 20岁
+Dialogue: 0,0:12:30.88,0:12:33.30,Default,NTP,0,0,0,,上甲大学经济学系2年级生
+Dialogue: 0,0:12:33.57,0:12:35.64,Default,NTP,0,0,0,,父亲 前野清
+Dialogue: 0,0:12:35.89,0:12:37.07,Default,NTP,0,0,0,,母亲 凉子
+Dialogue: 0,0:12:37.25,0:12:38.05,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:12:38.61,0:12:39.82,Default,NTP,0,0,0,,前野吗
+Dialogue: 0,0:12:45.58,0:12:47.18,Default,NTP,0,0,0,,总觉得很奇怪
+Dialogue: 0,0:12:48.00,0:12:49.45,Default,NTP,0,0,0,,明明是自己的家
+Dialogue: 0,0:12:49.64,0:12:51.68,Default,NTP,0,0,0,,却没有在这里生长的实感
+Dialogue: 0,0:12:52.14,0:12:54.68,Default,NTP,0,0,0,,就算看到母亲也觉得像是看到陌生人一般
+Dialogue: 0,0:12:55.19,0:12:57.50,Default,NTP,0,0,0,,看起来完全没在担心你啊
+Dialogue: 0,0:12:57.50,0:13:01.98,Default,NTP,0,0,0,,啊 我常常什么都没说就到朋友那住的关系
+Dialogue: 0,0:13:02.01,0:13:04.78,Default,NTP,0,0,0,,朋友的家...啊
+Dialogue: 0,0:13:04.94,0:13:06.18,Default,NTP,0,0,0,,是男性的朋友啦
+Dialogue: 0,0:13:07.42,0:13:08.74,Default,NTP,0,0,0,,是真的啦
+Dialogue: 0,0:13:12.63,0:13:14.16,Default,NTP,0,0,0,,怎么回事
+Dialogue: 0,0:13:42.19,0:13:44.56,Default,NTP,0,0,0,,驾照跟身份证都没带
+Dialogue: 0,0:13:44.92,0:13:45.75,Default,NTP,0,0,0,,是职业的么
+Dialogue: 0,0:13:46.00,0:13:47.36,Default,NTP,0,0,0,,职业的是指?
+Dialogue: 0,0:13:47.70,0:13:51.22,Default,NTP,0,0,0,,威胁啊 勒索啊 绑架等
+Dialogue: 0,0:13:51.96,0:13:53.52,Default,NTP,0,0,0,,如果是一群职业的的话
+Dialogue: 0,0:13:53.77,0:13:55.65,Default,NTP,0,0,0,,就连我也没办法啊
+Dialogue: 0,0:13:57.95,0:13:59.63,Default,NTP,0,0,0,,上山不动产?
+Dialogue: 0,0:14:08.36,0:14:09.52,Default,NTP,0,0,0,,哟 小磷
+Dialogue: 0,0:14:09.83,0:14:10.96,Default,NTP,0,0,0,,你好啊
+Dialogue: 0,0:14:11.11,0:14:12.89,Default,NTP,0,0,0,,想来我这工作了吗
+Dialogue: 0,0:14:13.06,0:14:13.82,Default,NTP,0,0,0,,才不要
+Dialogue: 0,0:14:14.05,0:14:16.27,Default,NTP,0,0,0,,什么女王的 我对那没兴趣
+Dialogue: 0,0:14:16.45,0:14:19.33,Default,NTP,0,0,0,,不过你就是这样才让人喜欢啊
+Dialogue: 0,0:14:19.32,0:14:20.27,Default,NTP,0,0,0,,认识吗
+Dialogue: 0,0:14:21.99,0:14:24.84,Default,NTP,0,0,0,,虽然我想你应该知道 很贵喔
+Dialogue: 0,0:14:24.92,0:14:27.45,Default,NTP,0,0,0,,如果跟你正在找的女人的所在交换呢
+Dialogue: 0,0:14:27.48,0:14:28.71,Default,NTP,0,0,0,,你知道她在哪吗
+Dialogue: 0,0:14:29.26,0:14:30.78,Default,NTP,0,0,0,,告诉我吧 拜托
+Dialogue: 0,0:14:30.78,0:14:31.64,Default,NTP,0,0,0,,那个酒女...
+Dialogue: 0,0:14:31.64,0:14:33.05,Default,NTP,0,0,0,,你先说
+Dialogue: 0,0:14:35.36,0:14:37.80,Default,NTP,0,0,0,,上山不动产啊...
+Dialogue: 0,0:14:37.85,0:14:40.51,Default,NTP,0,0,0,,好像在哪听过啊
+Dialogue: 0,0:14:42.83,0:14:45.03,Default,NTP,0,0,0,,我明白了啦 我不知道啦
+Dialogue: 0,0:14:45.22,0:14:48.40,Default,NTP,0,0,0,,可能是哪个与帮派有关系的人经营的企业
+Dialogue: 0,0:14:48.63,0:14:49.72,Default,NTP,0,0,0,,什么嘛
+Dialogue: 0,0:14:49.74,0:14:50.94,Default,NTP,0,0,0,,那个先不说
+Dialogue: 0,0:14:51.05,0:14:52.57,Default,NTP,0,0,0,,告诉我那女的所在之处
+Dialogue: 0,0:14:52.57,0:14:53.97,Default,NTP,0,0,0,,等我想说的时候吧
+Dialogue: 0,0:14:54.05,0:14:55.38,Default,NTP,0,0,0,,拜托你啦 小磷
+Dialogue: 0,0:14:55.53,0:14:57.80,Default,NTP,0,0,0,,那个酒女欠我很多东西
+Dialogue: 0,0:14:57.95,0:14:59.28,Default,NTP,0,0,0,,小磷
+Dialogue: 0,0:14:59.33,0:15:00.28,Default,NTP,0,0,0,,大哥
+Dialogue: 0,0:15:04.97,0:15:06.56,Default,NTP,0,0,0,,阿保
+Dialogue: 0,0:15:07.06,0:15:08.47,Default,NTP,0,0,0,,这边这边
+Dialogue: 0,0:15:08.47,0:15:09.11,Default,NTP,0,0,0,,笨
+Dialogue: 0,0:15:09.65,0:15:12.04,Default,NTP,0,0,0,,笨蛋 这可不是碰面的地...
+Dialogue: 0,0:15:12.13,0:15:13.06,Default,NTP,0,0,0,,欢迎光临
+Dialogue: 0,0:15:13.43,0:15:14.65,Default,NTP,0,0,0,,啊 给我杯混合咖啡
+Dialogue: 0,0:15:14.81,0:15:15.79,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:15:17.23,0:15:18.76,Default,NTP,0,0,0,,让别人看到的话
+Dialogue: 0,0:15:18.92,0:15:20.33,Default,NTP,0,0,0,,像是搞婚外情吗
+Dialogue: 0,0:15:20.68,0:15:23.21,Default,NTP,0,0,0,,我还单身 你明明知道的
+Dialogue: 0,0:15:27.10,0:15:28.80,Default,NTP,0,0,0,,你 你什么时候
+Dialogue: 0,0:15:30.08,0:15:31.00,Default,NTP,0,0,0,,开玩笑的
+Dialogue: 0,0:15:32.70,0:15:34.61,Default,NTP,0,0,0,,别吓我啊 真是的
+Dialogue: 0,0:15:35.19,0:15:36.92,Default,NTP,0,0,0,,那么 这家伙是谁啊
+Dialogue: 0,0:15:37.17,0:15:38.32,Default,NTP,0,0,0,,有些隐情
+Dialogue: 0,0:15:38.92,0:15:40.82,Default,NTP,0,0,0,,关于刚刚在电话跟你说到的事
+Dialogue: 0,0:15:41.83,0:15:45.18,Default,NTP,0,0,0,,那种事 警察怎么可能能告诉你啊
+Dialogue: 0,0:15:45.38,0:15:46.11,Default,NTP,0,0,0,,是吗
+Dialogue: 0,0:15:46.39,0:15:47.93,Default,NTP,0,0,0,,那 去年年底
+Dialogue: 0,0:15:47.94,0:15:48.62,Default,NTP,0,0,0,,你...
+Dialogue: 0,0:15:48.62,0:15:49.44,Default,NTP,0,0,0,,我 我知道了
+Dialogue: 0,0:15:50.53,0:15:51.47,Default,NTP,0,0,0,,我知道了啦
+Dialogue: 0,0:15:52.47,0:15:55.77,Default,NTP,0,0,0,,上山不动产虽然在外表是优良中小企业
+Dialogue: 0,0:15:55.95,0:15:57.37,Default,NTP,0,0,0,,其实是血之组的关系企业
+Dialogue: 0,0:15:57.62,0:15:58.88,Default,NTP,0,0,0,,是黑道吗
+Dialogue: 0,0:15:59.35,0:16:01.92,Default,NTP,0,0,0,,可是为什么会是优良企业
+Dialogue: 0,0:16:02.15,0:16:04.20,Default,NTP,0,0,0,,你就不能管管这男孩吗
+Dialogue: 0,0:16:04.42,0:16:06.60,Default,NTP,0,0,0,,我可不是学校的老师
+Dialogue: 0,0:16:06.81,0:16:08.75,Default,NTP,0,0,0,,可没从头开始教起的时间啊
+Dialogue: 0,0:16:09.04,0:16:10.79,Default,NTP,0,0,0,,他就不用管了
+Dialogue: 0,0:16:11.09,0:16:13.25,Default,NTP,0,0,0,,与血之组有联系的企业呢?
+Dialogue: 0,0:16:13.53,0:16:16.33,Default,NTP,0,0,0,,血之组可是跟相当大的企业有联系啊
+Dialogue: 0,0:16:16.83,0:16:19.08,Default,NTP,0,0,0,,随便出手可是会受伤的喔
+Dialogue: 0,0:16:22.78,0:16:25.74,Default,NTP,0,0,0,,联系特别深的是不动产企业
+Dialogue: 0,0:16:26.21,0:16:28.14,Default,NTP,0,0,0,,炒地皮是他们擅长的领域
+Dialogue: 0,0:16:28.31,0:16:30.76,Default,NTP,0,0,0,,各部门的关节什么的 不清白的勾当什么的
+Dialogue: 0,0:16:31.02,0:16:32.31,Default,NTP,0,0,0,,再来就是从外围的
+Dialogue: 0,0:16:32.32,0:16:36.27,Default,NTP,0,0,0,,青山制药 富山工业 Sky of Japan等
+Dialogue: 0,0:16:36.54,0:16:37.85,Default,NTP,0,0,0,,青山制药...
+Dialogue: 0,0:16:38.21,0:16:39.54,Default,NTP,0,0,0,,想到什么线索了吗
+Dialogue: 0,0:16:39.55,0:16:42.28,Default,NTP,0,0,0,,嗯 大约一个月前
+Dialogue: 0,0:16:42.89,0:16:47.10,Default,NTP,0,0,0,,记得前辈介绍了一份不错的零工
+Dialogue: 0,0:16:47.79,0:16:49.75,Default,NTP,0,0,0,,新药的实验什么的
+Dialogue: 0,0:17:00.81,0:17:02.00,Default,NTP,0,0,0,,去看看吧
+Dialogue: 0,0:17:03.05,0:17:05.80,Default,NTP,0,0,0,,虽然我不知道这次你要干些什么
+Dialogue: 0,0:17:06.02,0:17:07.35,Default,NTP,0,0,0,,不过要适可而止啊
+Dialogue: 0,0:17:07.54,0:17:08.23,Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:17:08.74,0:17:10.30,Default,NTP,0,0,0,,一直都很温柔嘛
+Dialogue: 0,0:17:11.58,0:17:13.68,Default,NTP,0,0,0,,才不是那样呢
+Dialogue: 0,0:18:11.99,0:18:13.68,Default,NTP,0,0,0,,这位是内山专务
+Dialogue: 0,0:18:14.26,0:18:16.14,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:18:16.93,0:18:18.94,Default,NTP,0,0,0,,请多指教
+Dialogue: 0,0:18:55.45,0:18:56.66,Default,NTP,0,0,0,,啊啦 真可惜
+Dialogue: 0,0:18:57.09,0:18:59.44,Default,NTP,0,0,0,,难得有个能互相了解的机会啊
+Dialogue: 0,0:19:24.23,0:19:25.73,Default,NTP,0,0,0,,不愧是专务
+Dialogue: 0,0:19:26.13,0:19:27.47,Default,NTP,0,0,0,,认证也很顺利
+Dialogue: 0,0:20:32.88,0:20:34.93,Default,NTP,0,0,0,,虽然听说你不会死
+Dialogue: 0,0:20:35.15,0:20:37.17,Default,NTP,0,0,0,,因为我不是什么好人所以不会死
+Dialogue: 0,0:20:38.54,0:20:39.85,Default,NTP,0,0,0,,原来如此
+Dialogue: 0,0:20:40.48,0:20:41.13,Default,NTP,0,0,0,,这样的话
+Dialogue: 0,0:20:41.45,0:20:43.51,Default,NTP,0,0,0,,不管几次我都会杀了你
+Dialogue: 0,0:21:00.09,0:21:01.73,Default,NTP,0,0,0,,客房服务
+Dialogue: 0,0:21:02.34,0:21:04.24,Default,NTP,0,0,0,,是就放在这里
+Dialogue: 0,0:21:04.89,0:21:07.31,Default,NTP,0,0,0,,还是拿回去会比较好呢
+Dialogue: 0,0:21:08.06,0:21:09.70,Default,NTP,0,0,0,,现在没空
+Dialogue: 0,0:21:24.43,0:21:25.70,Default,NTP,0,0,0,,你的老板是谁
+Dialogue: 0,0:21:27.72,0:21:28.55,Default,NTP,0,0,0,,艾伯斯?
+Dialogue: 0,0:21:29.15,0:21:29.89,Default,NTP,0,0,0,,回答我
+Dialogue: 0,0:21:30.89,0:21:34.66,Default,NTP,0,0,0,,委托人的秘密是绝对不会说的
+Dialogue: 0,0:21:48.71,0:21:50.45,Default,NTP,0,0,0,,居然把我射出的子弹
+Dialogue: 0,0:21:52.80,0:21:55.03,Default,NTP,0,0,0,,好人都死得早啊
+Dialogue: 0,0:22:23.61,0:22:26.39,Default,NTP,0,0,0,,你...你是?
+Dialogue: 0,0:22:45.71,0:22:49.07,Default,NTP,0,0,0,,真是的 想吃的话冰箱里面有喔
+Dialogue: 0,0:22:49.40,0:22:50.66,Default,NTP,0,0,0,,有什么关系
+Dialogue: 0,0:22:51.15,0:22:53.10,Default,NTP,0,0,0,,遇到讨厌的事嘛
+Dialogue: 0,0:22:53.29,0:22:54.48,Default,NTP,0,0,0,,那又...
+Dialogue: 0,0:22:55.40,0:22:57.26,Default,NTP,0,0,0,,不要做些奇怪的事啦
+Dialogue: 0,0:22:57.38,0:22:58.84,Default,NTP,0,0,0,,前野在看着喔
+Dialogue: 0,0:22:59.10,0:23:00.08,Default,NTP,0,0,0,,是是
+Dialogue: 0,0:23:00.56,0:23:01.55,Default,NTP,0,0,0,,结果怎样?
+Dialogue: 0,0:23:01.16,0:23:01.99,Default,NTP,0,0,0,,猫?
+Dialogue: 0,0:23:02.36,0:23:04.18,Default,NTP,0,0,0,,几乎都无法复原
+Dialogue: 0,0:23:04.59,0:23:07.27,Default,NTP,0,0,0,,电子邮件也都损毁 没法知道内容
+Dialogue: 0,0:23:07.66,0:23:10.77,Default,NTP,0,0,0,,不过磷带前野回来的那天附近
+Dialogue: 0,0:23:10.93,0:23:14.86,Default,NTP,0,0,0,,狭山研究所与总公司的电子邮件往来似乎相当频繁
+Dialogue: 0,0:23:17.73,0:23:21.46,Default,NTP,0,0,0,,狭山研究所我一点头绪都没有
+Dialogue: 0,0:23:22.02,0:23:24.04,Default,NTP,0,0,0,,那么 要正面进攻吗
+Dialogue: 0,0:23:30.23,0:23:31.42,Default,NTP,0,0,0,,没问题吗
+Dialogue: 0,0:23:32.29,0:23:34.02,Default,NTP,0,0,0,,相信美美的技术吧
+Dialogue: 0,0:23:34.34,0:23:34.94,Default,NTP,0,0,0,,可是
+Dialogue: 0,0:23:39.28,0:23:40.49,Default,NTP,0,0,0,,怎么了吗
+Dialogue: 0,0:23:43.92,0:23:44.96,Default,NTP,0,0,0,,没什么
+Dialogue: 0,0:23:49.37,0:23:53.14,Default,NTP,0,0,0,,你们...那个...该怎么说
+Dialogue: 0,0:23:53.16,0:23:53.87,Default,NTP,0,0,0,,很奇怪?
+Dialogue: 0,0:23:53.88,0:23:55.41,Default,NTP,0,0,0,,啊 对不起
+Dialogue: 0,0:23:55.74,0:23:56.43,Default,NTP,0,0,0,,没关系啦
+Dialogue: 0,0:23:56.88,0:23:57.42,Default,NTP,0,0,0,,不
+Dialogue: 0,0:23:57.91,0:24:00.38,Default,NTP,0,0,0,,而且因为我的关系把你们牵连进来
+Dialogue: 0,0:24:00.78,0:24:01.74,Default,NTP,0,0,0,,不用在意
+Dialogue: 0,0:24:02.18,0:24:03.47,Default,NTP,0,0,0,,虽然现在问这有点晚
+Dialogue: 0,0:24:03.78,0:24:04.78,Default,NTP,0,0,0,,你们是?
+Dialogue: 0,0:24:05.12,0:24:07.39,Default,NTP,0,0,0,,像是万事屋吧
+Dialogue: 0,0:24:05.12,0:24:07.39,Default,NTP,0,0,0,,{\an8\fs28}<什麼委託都接的人>
+Dialogue: 0,0:24:07.84,0:24:09.60,Default,NTP,0,0,0,,那个...报酬什么的
+Dialogue: 0,0:24:10.04,0:24:10.74,Default,NTP,0,0,0,,钱吗
+Dialogue: 0,0:24:10.99,0:24:12.77,Default,NTP,0,0,0,,说的也是 我会想看看的
+Dialogue: 0,0:24:14.00,0:24:14.74,Default,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:24:15.04,0:24:16.41,Default,NTP,0,0,0,,请稍等一下
+Dialogue: 0,0:24:21.02,0:24:21.80,Default,NTP,0,0,0,,嗯?
+Dialogue: 0,0:24:30.68,0:24:31.99,Default,NTP,0,0,0,,该不会被发现了吧
+Dialogue: 0,0:24:32.03,0:24:32.57,Default,NTP,0,0,0,,嘘
+Dialogue: 0,0:24:36.69,0:24:39.18,Default,NTP,0,0,0,,本人比照片美多了嘛
+Dialogue: 0,0:24:39.56,0:24:40.93,Default,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:24:49.03,0:24:49.60,Default,NTP,0,0,0,,如何?
+Dialogue: 0,0:24:50.22,0:24:51.27,Default,NTP,0,0,0,,有没有什么印象
+Dialogue: 0,0:24:55.25,0:24:56.43,Default,NTP,0,0,0,,欢迎光临
+Dialogue: 0,0:24:56.71,0:24:57.61,Default,NTP,0,0,0,,那个 就是你
+Dialogue: 0,0:24:58.30,0:24:59.69,Default,NTP,0,0,0,,这边 来吧
+Dialogue: 0,0:25:00.50,0:25:02.74,Default,NTP,0,0,0,,记得朝这直走
+Dialogue: 0,0:25:07.38,0:25:09.26,Default,NTP,0,0,0,,怎么了 前野
+Dialogue: 0,0:25:28.38,0:25:29.89,Default,NTP,0,0,0,,想起什么了对吧
+Dialogue: 0,0:25:32.36,0:25:33.14,Default,NTP,0,0,0,,去那边
+Dialogue: 0,0:25:41.03,0:25:44.28,Default,NTP,0,0,0,,看那样子 你在这遇上了什么事对吧
+Dialogue: 0,0:25:46.25,0:25:48.01,Default,NTP,0,0,0,,想回去的话只有现在了
+Dialogue: 0,0:25:49.65,0:25:52.88,Default,NTP,0,0,0,,你向我问了自己是什么人
+Dialogue: 0,0:25:53.62,0:25:56.79,Default,NTP,0,0,0,,那个答案 或许能在此找到
+Dialogue: 0,0:25:57.15,0:26:00.10,Default,NTP,0,0,0,,不过不知道或许比较好也说不定
+Dialogue: 0,0:26:00.68,0:26:02.12,Default,NTP,0,0,0,,做决定的是你
+Dialogue: 0,0:26:04.07,0:26:06.99,Default,NTP,0,0,0,,我...想知道
+Dialogue: 0,0:26:07.95,0:26:11.52,Default,NTP,0,0,0,,不 我觉得我不能不知道
+Dialogue: 0,0:26:11.71,0:26:13.29,Default,NTP,0,0,0,,嗯 我明白了
+Dialogue: 0,0:26:13.76,0:26:15.04,Default,NTP,0,0,0,,契约成立
+Dialogue: 0,0:26:15.45,0:26:16.19,Default,NTP,0,0,0,,怎么了吗
+Dialogue: 0,0:26:16.60,0:26:19.65,Default,NTP,0,0,0,,不好意思 同伴身体不舒服
+Dialogue: 0,0:26:20.09,0:26:22.87,Default,NTP,0,0,0,,可不可以让他在哪休息一下呢
+Dialogue: 0,0:26:24.43,0:26:25.43,Default,NTP,0,0,0,,真对不起啊
+Dialogue: 0,0:26:25.75,0:26:28.29,Default,NTP,0,0,0,,无关的人员是禁止进入警卫室的
+Dialogue: 0,0:26:28.46,0:26:31.15,Default,NTP,0,0,0,,不会 刚好要检查的也是这间房间
+Dialogue: 0,0:26:31.43,0:26:34.30,Default,NTP,0,0,0,,等他好了以后会马上进行检查
+Dialogue: 0,0:26:34.36,0:26:35.76,Default,NTP,0,0,0,,拜托罗 再见
+Dialogue: 0,0:26:37.54,0:26:39.98,Default,NTP,0,0,0,,可以借我烟跟打火机吗
+Dialogue: 0,0:26:41.90,0:26:42.65,Default,NTP,0,0,0,,可以啊
+Dialogue: 0,0:26:44.43,0:26:47.58,Default,NTP,0,0,0,,不好意思 等会一定会还你
+Dialogue: 0,0:26:47.63,0:26:49.01,Default,NTP,0,0,0,,快点把完成工作哟
+Dialogue: 0,0:26:49.05,0:26:49.58,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:26:49.70,0:26:50.20,Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:26:51.72,0:26:52.23,Default,NTP,0,0,0,,好了
+Dialogue: 0,0:26:52.43,0:26:52.96,Default,NTP,0,0,0,,是
+Dialogue: 0,0:26:53.74,0:26:56.08,Default,NTP,0,0,0,,刚刚的警卫 身上有枪
+Dialogue: 0,0:26:56.97,0:26:58.96,Default,NTP,0,0,0,,接下来相当危险喔
+Dialogue: 0,0:26:59.55,0:27:00.22,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:27:01.08,0:27:03.28,Default,NTP,0,0,0,,依照美美准备的设计图来看
+Dialogue: 0,0:27:03.37,0:27:04.68,Default,NTP,0,0,0,,2楼很可疑
+Dialogue: 0,0:27:05.06,0:27:08.66,Default,NTP,0,0,0,,不过 往上走就必须要经过警卫室前面
+Dialogue: 0,0:27:09.01,0:27:10.16,Default,NTP,0,0,0,,除了那之外的路是
+Dialogue: 0,0:27:34.09,0:27:35.85,Default,NTP,0,0,0,,把刚刚的烟点上
+Dialogue: 0,0:27:36.55,0:27:37.34,Default,NTP,0,0,0,,啊 好的
+Dialogue: 0,0:28:09.76,0:28:10.10,Default,NTP,0,0,0,,那个...
+Dialogue: 0,0:28:10.10,0:28:11.85,Default,NTP,0,0,0,,什么都别说 不然扁你
+Dialogue: 0,0:28:12.19,0:28:12.75,Default,NTP,0,0,0,,是
+Dialogue: 0,0:28:35.78,0:28:38.05,Default,NTP,0,0,0,,我叫山之辺沙耶罗
+Dialogue: 0,0:28:38.70,0:28:40.37,Default,NTP,0,0,0,,叫我沙耶罗就好
+Dialogue: 0,0:28:40.66,0:28:42.25,Default,NTP,0,0,0,,叫沙～耶～罗也行喔
+Dialogue: 0,0:28:42.62,0:28:45.03,Default,NTP,0,0,0,,你是...啊 不用了
+Dialogue: 0,0:28:45.06,0:28:46.63,Default,NTP,0,0,0,,反正马上就会知道了
+Dialogue: 0,0:28:48.78,0:28:52.75,Default,NTP,0,0,0,,呐 你知道人身上有几个洞吗
+Dialogue: 0,0:28:52.88,0:28:54.01,Default,NTP,0,0,0,,眼睛有2个洞
+Dialogue: 0,0:28:54.15,0:28:55.13,Default,NTP,0,0,0,,耳朵有2个洞
+Dialogue: 0,0:28:55.46,0:28:56.46,Default,NTP,0,0,0,,鼻子有2个洞
+Dialogue: 0,0:28:56.74,0:28:57.79,Default,NTP,0,0,0,,嘴巴有1个洞
+Dialogue: 0,0:28:58.30,0:29:00.64,Default,NTP,0,0,0,,再来是这里 有3个洞
+Dialogue: 0,0:29:00.81,0:29:02.08,Default,NTP,0,0,0,,全部是10个洞
+Dialogue: 0,0:29:02.49,0:29:04.50,Default,NTP,0,0,0,,不过男生只有9个洞
+Dialogue: 0,0:29:04.89,0:29:09.39,Default,NTP,0,0,0,,穿孔耳环是神所赐与\N让身上的洞能够经由人的手改变的东西哟
+Dialogue: 0,0:29:09.88,0:29:11.23,Default,NTP,0,0,0,,从史前时代开始
+Dialogue: 0,0:29:11.41,0:29:15.23,Default,NTP,0,0,0,,人类就用试着用穿孔耳环摆脱神的创造之手
+Dialogue: 0,0:29:15.51,0:29:16.66,Default,NTP,0,0,0,,你不觉得是这样吗
+Dialogue: 0,0:29:18.34,0:29:19.54,Default,NTP,0,0,0,,很适合你嘛
+Dialogue: 0,0:29:20.16,0:29:22.38,Default,NTP,0,0,0,,还是要塞住这里?
+Dialogue: 0,0:29:22.71,0:29:24.63,Default,NTP,0,0,0,,可以让你保持处女之身喔
+Dialogue: 0,0:29:26.16,0:29:29.59,Default,NTP,0,0,0,,接下来帮你一个一个地穿上环
+Dialogue: 0,0:29:29.90,0:29:32.07,Default,NTP,0,0,0,,而且还有很多其他的事情也要试试
+Dialogue: 0,0:29:32.83,0:29:34.49,Default,NTP,0,0,0,,真是个不得了的虐待狂啊
+Dialogue: 0,0:29:34.89,0:29:35.41,Default,NTP,0,0,0,,嗯?
+Dialogue: 0,0:29:37.56,0:29:39.88,Default,NTP,0,0,0,,啊啦 已经开始害怕了吗
+Dialogue: 0,0:29:39.88,0:29:41.26,Default,NTP,0,0,0,,不过不行
+Dialogue: 0,0:29:41.60,0:29:43.01,Default,NTP,0,0,0,,还不要说喔
+Dialogue: 0,0:29:44.22,0:29:46.07,Default,NTP,0,0,0,,我最开始想听到的
+Dialogue: 0,0:29:46.54,0:29:49.13,Default,NTP,0,0,0,,不是你发出的这样的声音喔
+Dialogue: 0,0:29:53.03,0:29:55.75,Default,NTP,0,0,0,,首先是第11个洞
+Dialogue: 0,0:30:24.66,0:30:25.92,Default,NTP,0,0,0,,你啊...
+Dialogue: 0,0:30:26.97,0:30:28.26,Default,NTP,0,0,0,,会死喔
+Dialogue: 0,0:30:29.78,0:30:30.91,Default,NTP,0,0,0,,就快了
+Dialogue: 0,0:30:38.39,0:30:45.81,Default,NTP,0,0,0,,在新宿发生车祸的油罐车
+Dialogue: 0,0:30:46.79,0:30:48.18,Default,NTP,0,0,0,,把前野...
+Dialogue: 0,0:30:48.93,0:30:49.60,Default,NTP,0,0,0,,没错
+Dialogue: 0,0:30:49.93,0:30:51.93,Default,NTP,0,0,0,,那之后似乎很麻烦
+Dialogue: 0,0:30:52.11,0:30:54.57,Default,NTP,0,0,0,,因为那是运送检体的特殊用车
+Dialogue: 0,0:30:54.59,0:30:56.57,Default,NTP,0,0,0,,得要蒙骗警察之类的
+Dialogue: 0,0:30:57.26,0:30:59.79,Default,NTP,0,0,0,,而且这些都是那些主公司的笨蛋们
+Dialogue: 0,0:30:59.85,0:31:02.51,Default,NTP,0,0,0,,谁叫他们要从我这把他抢走
+Dialogue: 0,0:31:02.78,0:31:05.28,Default,NTP,0,0,0,,说什么再继续下去有违伦理啊
+Dialogue: 0,0:31:05.52,0:31:07.29,Default,NTP,0,0,0,,为什么前野...
+Dialogue: 0,0:31:08.48,0:31:09.26,Default,NTP,0,0,0,,好吧
+Dialogue: 0,0:31:10.69,0:31:12.04,Default,NTP,0,0,0,,我就告诉你
+Dialogue: 0,0:31:12.46,0:31:15.13,Default,NTP,0,0,0,,他是克隆体的适合人选
+Dialogue: 0,0:31:16.53,0:31:18.85,Default,NTP,0,0,0,,虽然我专长是细菌研究
+Dialogue: 0,0:31:19.16,0:31:21.31,Default,NTP,0,0,0,,某种细菌的RNA
+Dialogue: 0,0:31:21.35,0:31:23.20,Default,NTP,0,0,0,,与人类的DNA起了变化
+Dialogue: 0,0:31:23.21,0:31:26.18,Default,NTP,0,0,0,,发现使其产生爆发性增殖的方法
+Dialogue: 0,0:31:27.07,0:31:29.36,Default,NTP,0,0,0,,然后将脑内情报转抄下来
+Dialogue: 0,0:31:29.42,0:31:30.29,Default,NTP,0,0,0,,要怎么...
+Dialogue: 0,0:31:30.51,0:31:31.53,Default,NTP,0,0,0,,要如何办到?
+Dialogue: 0,0:31:31.82,0:31:33.69,Default,NTP,0,0,0,,那是企业机密
+Dialogue: 0,0:31:34.00,0:31:36.00,Default,NTP,0,0,0,,嘛 并不与电子学相关就对了
+Dialogue: 0,0:31:36.23,0:31:38.15,Default,NTP,0,0,0,,因为情报量太过庞大
+Dialogue: 0,0:31:38.39,0:31:41.30,Default,NTP,0,0,0,,光是开发软件好像就得花上一辈子的时间
+Dialogue: 0,0:31:41.49,0:31:43.69,Default,NTP,0,0,0,,终归是以化学的观点来看
+Dialogue: 0,0:31:44.33,0:31:46.19,Default,NTP,0,0,0,,做那种事...
+Dialogue: 0,0:31:46.66,0:31:47.81,Default,NTP,0,0,0,,是要问有什么好处吗
+Dialogue: 0,0:31:48.07,0:31:50.09,Default,NTP,0,0,0,,这是迈向不老不死的一步啊
+Dialogue: 0,0:31:54.53,0:31:55.61,Default,NTP,0,0,0,,有什么好笑的
+Dialogue: 0,0:31:58.11,0:32:01.80,Default,NTP,0,0,0,,受艾伯斯所摆布的堕落者
+Dialogue: 0,0:32:02.63,0:32:03.92,Default,NTP,0,0,0,,艾伯斯?
+Dialogue: 0,0:32:04.65,0:32:05.64,Default,NTP,0,0,0,,那是谁啊
+Dialogue: 0,0:32:06.14,0:32:07.76,Default,NTP,0,0,0,,不是吗
+Dialogue: 0,0:32:09.11,0:32:12.81,Default,NTP,0,0,0,,真是　人类果然是不知吸取教训
+Dialogue: 0,0:32:13.22,0:32:15.94,Default,NTP,0,0,0,,只想要变的不老不死的东西啊
+Dialogue: 0,0:32:18.38,0:32:19.79,Default,NTP,0,0,0,,你知道吗
+Dialogue: 0,0:32:20.91,0:32:22.60,Default,NTP,0,0,0,,自尊心很高的人
+Dialogue: 0,0:32:22.63,0:32:24.35,Default,NTP,0,0,0,,惹他生气会很恐怖喔
+Dialogue: 0,0:32:24.98,0:32:28.08,Default,NTP,0,0,0,,尤其是自己的研究被嘲笑啊
+Dialogue: 0,0:32:32.39,0:32:34.64,Default,NTP,0,0,0,,呜哇 局长也真做得出来的
+Dialogue: 0,0:32:34.79,0:32:35.84,Default,NTP,0,0,0,,体无完肤啊
+Dialogue: 0,0:32:36.07,0:32:37.93,Default,NTP,0,0,0,,明明是个美人啊...
+Dialogue: 0,0:32:38.18,0:32:39.91,Default,NTP,0,0,0,,居然穿了这么多环
+Dialogue: 0,0:32:40.20,0:32:41.97,Default,NTP,0,0,0,,赶快把她塞进去吧
+Dialogue: 0,0:33:05.42,0:33:06.78,Default,NTP,0,0,0,,已经没事了
+Dialogue: 0,0:33:07.14,0:33:10.06,Default,NTP,0,0,0,,把你带到这的人已经死掉罗
+Dialogue: 0,0:33:10.52,0:33:12.55,Default,NTP,0,0,0,,谢谢你回到这里
+Dialogue: 0,0:33:12.62,0:33:15.14,Default,NTP,0,0,0,,我不会再离开你了
+Dialogue: 0,0:33:17.32,0:33:20.09,Default,NTP,0,0,0,,不管上层说什么
+Dialogue: 0,0:33:33.32,0:33:34.69,Default,NTP,0,0,0,,好痛
+Dialogue: 0,0:34:16.26,0:34:16.84,Default,NTP,0,0,0,,好
+Dialogue: 0,0:34:31.40,0:34:33.06,Default,NTP,0,0,0,,似乎还有另一名侵入者的样子
+Dialogue: 0,0:34:33.66,0:34:34.60,Default,NTP,0,0,0,,把他清除掉
+Dialogue: 0,0:34:34.61,0:34:35.69,Default,NTP,0,0,0,,允许开枪
+Dialogue: 0,0:34:35.90,0:34:36.67,Default,NTP,0,0,0,,是
+Dialogue: 0,0:34:38.41,0:34:39.94,Default,NTP,0,0,0,,虽然不知道是谁
+Dialogue: 0,0:34:40.07,0:34:43.35,Default,NTP,0,0,0,,为了自己好 可别去实验楼B栋喔
+Dialogue: 0,0:34:45.99,0:34:47.68,Default,NTP,0,0,0,,明明就不喜欢跑步啊
+Dialogue: 0,0:34:50.40,0:34:50.98,Default,NTP,0,0,0,,这家伙
+Dialogue: 0,0:35:05.91,0:35:06.49,Default,NTP,0,0,0,,撤退!
+Dialogue: 0,0:35:06.90,0:35:07.82,Default,NTP,0,0,0,,赶快撤!
+Dialogue: 0,0:35:58.19,0:35:59.99,Default,NTP,0,0,0,,那女人所说的
+Dialogue: 0,0:36:00.33,0:36:01.68,Default,NTP,0,0,0,,是真的啊
+Dialogue: 0,0:36:02.57,0:36:04.89,Default,NTP,0,0,0,,前野...他是
+Dialogue: 0,0:36:12.43,0:36:14.20,Default,NTP,0,0,0,,振作点 说的出话吗
+Dialogue: 0,0:36:36.55,0:36:37.60,Default,NTP,0,0,0,,锁上了
+Dialogue: 0,0:36:37.76,0:36:38.57,Default,NTP,0,0,0,,摄影机呢?
+Dialogue: 0,0:36:38.76,0:36:41.24,Default,NTP,0,0,0,,B栋的摄影机状况本来就不好
+Dialogue: 0,0:36:41.33,0:36:42.72,Default,NTP,0,0,0,,是吗 真是可惜
+Dialogue: 0,0:36:43.00,0:36:44.59,Default,NTP,0,0,0,,浪费一场难得的好戏
+Dialogue: 0,0:36:44.86,0:36:46.25,Default,NTP,0,0,0,,真的要打开吗
+Dialogue: 0,0:36:46.50,0:36:47.37,Default,NTP,0,0,0,,把那里...
+Dialogue: 0,0:36:48.37,0:36:51.17,Default,NTP,0,0,0,,解除P4隔离壁的锁
+Dialogue: 0,0:37:19.39,0:37:20.76,Default,NTP,0,0,0,,你们是...
+Dialogue: 0,0:37:28.72,0:37:32.09,Default,NTP,0,0,0,,你们被沙耶罗弄成那样...
+Dialogue: 0,0:37:36.40,0:37:38.92,Default,NTP,0,0,0,,是的 你们已经...
+Dialogue: 0,0:37:46.93,0:37:49.28,Default,NTP,0,0,0,,现在就让你们解脱
+Dialogue: 0,0:38:05.92,0:38:08.35,Default,NTP,0,0,0,,B栋的隔离壁居然会被破坏
+Dialogue: 0,0:38:08.85,0:38:10.66,Default,NTP,0,0,0,,这里也马上会受到感染
+Dialogue: 0,0:38:10.69,0:38:12.10,Default,NTP,0,0,0,,到底要怎么办
+Dialogue: 0,0:38:12.35,0:38:13.25,Default,NTP,0,0,0,,对喔
+Dialogue: 0,0:38:13.69,0:38:16.57,Default,NTP,0,0,0,,毁掉A到C级别的文件
+Dialogue: 0,0:38:17.07,0:38:18.44,Default,NTP,0,0,0,,将B栋烧掉后
+Dialogue: 0,0:38:18.55,0:38:19.96,Default,NTP,0,0,0,,把这里也烧了吧
+Dialogue: 0,0:38:20.94,0:38:22.66,Default,NTP,0,0,0,,如果这样做的话 主公司会...
+Dialogue: 0,0:38:24.03,0:38:25.74,Default,NTP,0,0,0,,虽然说感染力不强
+Dialogue: 0,0:38:25.88,0:38:27.23,Default,NTP,0,0,0,,那可是会扩散的啊
+Dialogue: 0,0:38:27.81,0:38:30.30,Default,NTP,0,0,0,,还是说你也想变成那样
+Dialogue: 0,0:38:30.35,0:38:31.57,Default,NTP,0,0,0,,我 我明白了
+Dialogue: 0,0:38:46.62,0:38:47.15,Default,NTP,0,0,0,,是谁
+Dialogue: 0,0:38:59.58,0:39:00.22,Default,NTP,0,0,0,,不会吧
+Dialogue: 0,0:39:00.61,0:39:01.97,Default,NTP,0,0,0,,你应该已经死了
+Dialogue: 0,0:39:03.35,0:39:03.90,Default,NTP,0,0,0,,这不是真的
+Dialogue: 0,0:39:31.09,0:39:32.37,Default,NTP,0,0,0,,你说的没错
+Dialogue: 0,0:39:36.66,0:39:38.18,Default,NTP,0,0,0,,我已经死了
+Dialogue: 0,0:39:39.88,0:39:41.40,Default,NTP,0,0,0,,好痛 好痛
+Dialogue: 0,0:39:41.81,0:39:44.47,Default,NTP,0,0,0,,不要 妈妈 妈妈
+Dialogue: 0,0:39:44.72,0:39:45.66,Default,NTP,0,0,0,,我就是...
+Dialogue: 0,0:39:48.43,0:39:50.33,Default,NTP,0,0,0,,你想成为的东西
+Dialogue: 0,0:39:51.15,0:39:52.09,Default,NTP,0,0,0,,怎么会
+Dialogue: 0,0:39:53.73,0:39:55.65,Default,NTP,0,0,0,,救我 救我
+Dialogue: 0,0:39:56.08,0:39:56.87,Default,NTP,0,0,0,,救我
+Dialogue: 0,0:40:03.93,0:40:05.87,Default,NTP,0,0,0,,虽然由我说出来很怪
+Dialogue: 0,0:40:04.27,0:40:07.60,Default,NTP,0,0,0,,{\an8\fs28}求求你 求求你开门啊
+Dialogue: 0,0:40:06.59,0:40:09.26,Default,NTP,0,0,0,,生命是短暂无常的
+Dialogue: 0,0:40:10.41,0:40:12.19,Default,NTP,0,0,0,,不是能随意操弄的
+Dialogue: 0,0:40:20.52,0:40:21.43,Default,NTP,0,0,0,,这里是?
+Dialogue: 0,0:40:22.25,0:40:23.41,Default,NTP,0,0,0,,我怎么...
+Dialogue: 0,0:40:27.17,0:40:28.68,Default,NTP,0,0,0,,来 回去吧
+Dialogue: 0,0:40:40.46,0:40:41.40,Default,NTP,0,0,0,,我是...
+Dialogue: 0,0:40:42.06,0:40:44.01,Default,NTP,0,0,0,,克隆人对吧
+Dialogue: 0,0:40:45.16,0:40:47.72,Default,NTP,0,0,0,,所以才对任何事物都感受不到真实感吧
+Dialogue: 0,0:40:49.81,0:40:52.23,Default,NTP,0,0,0,,接下来我该怎么办才好
+Dialogue: 0,0:41:00.08,0:41:01.30,Default,NTP,0,0,0,,自己决定吧
+Dialogue: 0,0:41:02.50,0:41:05.80,Default,NTP,0,0,0,,我不会说什么我很了解你的痛苦
+Dialogue: 0,0:41:06.28,0:41:09.33,Default,NTP,0,0,0,,你的痛苦是只属于你自己的
+Dialogue: 0,0:41:09.72,0:41:11.31,Default,NTP,0,0,0,,我无法了解
+Dialogue: 0,0:41:12.64,0:41:16.28,Default,NTP,0,0,0,,我也不会说什么那只是逃避什么的
+Dialogue: 0,0:41:17.30,0:41:19.51,Default,NTP,0,0,0,,那也是一种获得救赎的方法
+Dialogue: 0,0:41:22.67,0:41:24.54,Default,NTP,0,0,0,,是背负着痛苦活下去
+Dialogue: 0,0:41:24.90,0:41:26.49,Default,NTP,0,0,0,,还是要逃离痛苦
+Dialogue: 0,0:41:27.21,0:41:28.82,Default,NTP,0,0,0,,由你来决定
+Dialogue: 0,0:41:29.76,0:41:31.48,Default,NTP,0,0,0,,因为是自己的人生
+Dialogue: 0,0:41:36.68,0:41:39.44,Default,NTP,0,0,0,,谢谢你这样跟我说
+Dialogue: 0,0:42:27.46,0:42:29.82,Default,NTP,0,0,0,,呐 你不喝吗
+Dialogue: 0,0:42:34.93,0:42:37.06,Default,NTP,0,0,0,,所以别带什么男人回来
+Dialogue: 0,0:42:37.14,0:42:39.32,Default,NTP,0,0,0,,把猫带回来就好了啊
+Dialogue: 0,0:42:39.65,0:42:42.23,Default,NTP,0,0,0,,嗯 我在反省
+Dialogue: 0,0:42:42.73,0:42:43.41,Default,NTP,0,0,0,,来了
+Dialogue: 0,0:42:47.89,0:42:48.59,Default,NTP,0,0,0,,你是!
+Dialogue: 0,0:42:49.03,0:42:49.67,Default,NTP,0,0,0,,磷
+Dialogue: 0,0:42:50.43,0:42:51.17,Default,NTP,0,0,0,,磷
+Dialogue: 0,0:42:53.77,0:42:55.00,Default,NTP,0,0,0,,我的人生
+Dialogue: 0,0:42:56.12,0:42:58.02,Default,NTP,0,0,0,,只有我能继续过下去
+Dialogue: 0,0:43:01.16,0:43:04.13,Default,NTP,0,0,0,,那个 可以让我在这工作吗
+Dialogue: 0,0:43:06.75,0:43:08.36,Default,NTP,0,0,0,,录用啦!
+Dialogue: 0,0:43:12.99,0:43:13.66,Default,NTP,0,0,0,,喝吧
+Dialogue: 0,0:43:13.97,0:43:16.35,Default,NTP,0,0,0,,太棒了 喝吧 喝吧
+Dialogue: 0,0:43:16.60,0:43:17.22,Default,NTP,0,0,0,,诶?
+Dialogue: 0,0:43:17.30,0:43:18.52,Default,NTP,0,0,0,,有什么关系嘛
+Dialogue: 0,0:43:18.53,0:43:19.99,Default,NTP,0,0,0,,庆祝啊 庆祝
+Dialogue: 0,0:43:20.39,0:43:21.65,Default,NTP,0,0,0,,庆祝 庆祝
+Dialogue: 0,0:45:01.22,0:45:03.10,Default,NTP,0,0,0,,唯一被留下的感情
+Dialogue: 0,0:45:04.31,0:45:06.76,Default,NTP,0,0,0,,他就像坏掉的机械般
+Dialogue: 0,0:45:07.09,0:45:09.45,Default,NTP,0,0,0,,不断重复试着想解开
+Dialogue: 0,0:45:11.09,0:45:15.22,Default,NTP,0,0,0,,我或许应该将那心意怀抱于心
+Dialogue: 0,0:45:16.63,0:45:18.03,Default,NTP,0,0,0,,受梦之邀
+Dialogue: 0,0:45:18.31,0:45:20.54,Default,NTP,0,0,0,,向精疲力竭的他要求接吻
+Dialogue: 0,0:45:20.98,0:45:21.75,Default,NTP,0,0,0,,一起
+Dialogue: 0,0:45:23.05,0:45:27.01,Default,NTP,0,0,0,,可是 我必须要杀死他
+Dialogue: 0,0:45:28.76,0:45:30.47,Default,NTP,0,0,0,,在天使也好像在哭泣的夜晚
+Dialogue: 0,0:45:03.08,0:45:04.43,Default,NTP,0,0,0,,{\an8\fs28\fad(150,150)}遗失的邮票
+Dialogue: 0,0:45:06.84,0:45:08.56,Default,NTP,0,0,0,,{\an8\fs28\fad(150,150)}下落不明的人
+Dialogue: 0,0:45:09.66,0:45:10.89,Default,NTP,0,0,0,,{\an8\fs28\fad(150,150)}假的委托
+Dialogue: 0,0:45:15.03,0:45:16.26,Default,NTP,0,0,0,,{\an8\fs28\fad(150,150)}悲伤的少女
+Dialogue: 0,0:45:21.80,0:45:23.09,Default,NTP,0,0,0,,{\an8\fs28\fad(150,150)}老人的眼泪
+Dialogue: 0,0:45:25.30,0:45:26.29,Default,NTP,0,0,0,,{\an8\fs28\fad(150,150)}暗杀者
+Dialogue: 0,0:45:27.05,0:45:30.90,Default,NTP,0,0,0,,{\an1}{\fs30\bord0\pos(330,300)\fad(60,0)}天使不会哭泣
+Dialogue: 0,0:00:24.65,0:00:27.71,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,60,1,\alpha&H00&)\t(0,120,1,\1c&Hffffff&\3c&H0000BD&)}No {\r\t(150,230,1,\alpha&H00&)\t(150,310,1,\1c&Hffffff&\3c&H0000BD&)}one {\r\t(350,474,1,\alpha&H00&)\t(350,598,1,\1c&Hffffff&\3c&H0000BD&)}can {\r\t(660,740,1,\alpha&H00&)\t(660,820,1,\1c&Hffffff&\3c&H0000BD&)}play {\r\t(860,940,1,\alpha&H00&)\t(860,1020,1,\1c&Hffffff&\3c&H0000BD&)}in {\r\t(1060,1144,1,\alpha&H00&)\t(1060,1228,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(1270,1610,1,\alpha&H00&)\t(1270,1950,1,\1c&Hffffff&\3c&H0000BD&)}sculpture {\r\t(2120,2308,1,\alpha&H00&)\t(2120,2496,1,\1c&Hffffff&\3c&H0000BD&)}garden
+Dialogue: 0,0:00:28.13,0:00:31.55,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,184,1,\alpha&H00&)\t(0,368,1,\1c&Hffffff&\3c&H0000BD&)}Petrified {\r\t(460,696,1,\alpha&H00&)\t(460,932,1,\1c&Hffffff&\3c&H0000BD&)}faces {\r\t(1050,1166,1,\alpha&H00&)\t(1050,1282,1,\1c&Hffffff&\3c&H0000BD&)}are {\r\t(1340,1704,1,\alpha&H00&)\t(1340,2068,1,\1c&Hffffff&\3c&H0000BD&)}watching {\r\t(2250,2366,1,\alpha&H00&)\t(2250,2482,1,\1c&Hffffff&\3c&H0000BD&)}in {\r\t(2540,2632,1,\alpha&H00&)\t(2540,2724,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(2770,3002,1,\alpha&H00&)\t(2770,3234,1,\1c&Hffffff&\3c&H0000BD&)}dark
+Dialogue: 0,0:00:31.69,0:00:36.07,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,120,1,\alpha&H00&)\t(0,240,1,\1c&Hffffff&\3c&H0000BD&)}Fortune {\r\t(300,424,1,\alpha&H00&)\t(300,548,1,\1c&Hffffff&\3c&H0000BD&)}is {\r\t(610,762,1,\alpha&H00&)\t(610,914,1,\1c&Hffffff&\3c&H0000BD&)}calling {\r\t(990,1114,1,\alpha&H00&)\t(990,1238,1,\1c&Hffffff&\3c&H0000BD&)}you {\r\t(1300,1500,1,\alpha&H00&)\t(1300,1700,1,\1c&Hffffff&\3c&H0000BD&)}in {\r\t(1800,1848,1,\alpha&H00&)\t(1800,1896,1,\1c&Hffffff&\3c&H0000BD&)}this {\r\t(1920,2000,1,\alpha&H00&)\t(1920,2080,1,\1c&Hffffff&\3c&H0000BD&)}{\r\t(2120,2532,1,\alpha&H00&)\t(2120,2944,1,\1c&Hffffff&\3c&H0000BD&)}mystical {\r\t(3150,3590,1,\alpha&H00&)\t(3150,4030,1,\1c&Hffffff&\3c&H0000BD&)}world
+Dialogue: 0,0:00:36.17,0:00:38.15,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,140,1,\alpha&H00&)\t(0,280,1,\1c&Hffffff&\3c&H0000BD&)}You'll {\r\t(350,506,1,\alpha&H00&)\t(350,662,1,\1c&Hffffff&\3c&H0000BD&)}find {\r\t(740,848,1,\alpha&H00&)\t(740,956,1,\1c&Hffffff&\3c&H0000BD&)}a {\r\t(1010,1334,1,\alpha&H00&)\t(1010,1658,1,\1c&Hffffff&\3c&H0000BD&)}way
+Dialogue: 0,0:00:41.24,0:00:43.90,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,136,1,\alpha&H00&)\t(0,272,1,\1c&Hffffff&\3c&H0000BD&)}Cloud {\r\t(340,424,1,\alpha&H00&)\t(340,508,1,\1c&Hffffff&\3c&H0000BD&)}in {\r\t(550,670,1,\alpha&H00&)\t(550,790,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(850,1086,1,\alpha&H00&)\t(850,1322,1,\1c&Hffffff&\3c&H0000BD&)}mists {\r\t(1440,1548,1,\alpha&H00&)\t(1440,1656,1,\1c&Hffffff&\3c&H0000BD&)}of {\r\t(1710,2062,1,\alpha&H00&)\t(1710,2414,1,\1c&Hffffff&\3c&H0000BD&)}time
+Dialogue: 0,0:00:44.34,0:00:47.91,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,140,1,\alpha&H00&)\t(0,280,1,\1c&Hffffff&\3c&H0000BD&)}You {\r\t(350,502,1,\alpha&H00&)\t(350,654,1,\1c&Hffffff&\3c&H0000BD&)}must {\r\t(730,838,1,\alpha&H00&)\t(730,946,1,\1c&Hffffff&\3c&H0000BD&)}take {\r\t(1000,1080,1,\alpha&H00&)\t(1000,1160,1,\1c&Hffffff&\3c&H0000BD&)}your {\r\t(1200,1464,1,\alpha&H00&)\t(1200,1728,1,\1c&Hffffff&\3c&H0000BD&)}aim {\r\t(1860,1968,1,\alpha&H00&)\t(1860,2076,1,\1c&Hffffff&\3c&H0000BD&)}and {\r\t(2130,2290,1,\alpha&H00&)\t(2130,2450,1,\1c&Hffffff&\3c&H0000BD&)}play {\r\t(2530,2670,1,\alpha&H00&)\t(2530,2810,1,\1c&Hffffff&\3c&H0000BD&)}your {\r\t(2880,3068,1,\alpha&H00&)\t(2880,3256,1,\1c&Hffffff&\3c&H0000BD&)}game
+Dialogue: 0,0:00:48.00,0:00:54.98,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,396,1,\alpha&H00&)\t(0,792,1,\1c&Hffffff&\3c&H0000BD&)}Emotional {\r\t(990,1534,1,\alpha&H00&)\t(990,2078,1,\1c&Hffffff&\3c&H0000BD&)}neglect {\r\t(2350,2446,1,\alpha&H00&)\t(2350,2542,1,\1c&Hffffff&\3c&H0000BD&)}is {\r\t(2590,2662,1,\alpha&H00&)\t(2590,2734,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(2770,2958,1,\alpha&H00&)\t(2770,3146,1,\1c&Hffffff&\3c&H0000BD&)}price {\r\t(3240,3360,1,\alpha&H00&)\t(3240,3480,1,\1c&Hffffff&\3c&H0000BD&)}that {\r\t(3540,3828,1,\alpha&H00&)\t(3540,4116,1,\1c&Hffffff&\3c&H0000BD&)}you {\r\t(4260,4436,1,\alpha&H00&)\t(4260,4612,1,\1c&Hffffff&\3c&H0000BD&)}must {\r\t(4700,4956,1,\alpha&H00&)\t(4700,5212,1,\1c&Hffffff&\3c&H0000BD&)}pay {\r\t(5340,5440,1,\alpha&H00&)\t(5340,5540,1,\1c&Hffffff&\3c&H0000BD&)}to {\r\t(5590,5746,1,\alpha&H00&)\t(5590,5902,1,\1c&Hffffff&\3c&H0000BD&)}your {\r\t(5980,6364,1,\alpha&H00&)\t(5980,6748,1,\1c&Hffffff&\3c&H0000BD&)}desire
+Dialogue: 0,0:00:55.16,0:00:58.26,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,196,1,\alpha&H00&)\t(0,392,1,\1c&Hffffff&\3c&H0000BD&)}It's {\r\t(490,1534,1,\alpha&H00&)\t(490,2578,1,\1c&Hffffff&\3c&H0000BD&)}Alsatia
+Dialogue: 0,0:00:58.44,0:01:04.48,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,280,1,\alpha&H00&)\t(0,560,1,\1c&Hffffff&\3c&H0000BD&)}You {\r\t(700,880,1,\alpha&H00&)\t(700,1060,1,\1c&Hffffff&\3c&H0000BD&)}just {\r\t(1150,1626,1,\alpha&H00&)\t(1150,2102,1,\1c&Hffffff&\3c&H0000BD&)}believe {\r\t(2340,2496,1,\alpha&H00&)\t(2340,2652,1,\1c&Hffffff&\3c&H0000BD&)}in {\r\t(2730,2870,1,\alpha&H00&)\t(2730,3010,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(3080,3312,1,\alpha&H00&)\t(3080,3544,1,\1c&Hffffff&\3c&H0000BD&)}lie {\r\t(3660,3760,1,\alpha&H00&)\t(3660,3860,1,\1c&Hffffff&\3c&H0000BD&)}to {\r\t(3910,4134,1,\alpha&H00&)\t(3910,4358,1,\1c&Hffffff&\3c&H0000BD&)}forget {\r\t(4470,4606,1,\alpha&H00&)\t(4470,4742,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(4810,5038,1,\alpha&H00&)\t(4810,5266,1,\1c&Hffffff&\3c&H0000BD&)}awful {\r\t(5380,5604,1,\alpha&H00&)\t(5380,5828,1,\1c&Hffffff&\3c&H0000BD&)}truth
+Dialogue: 0,0:01:04.61,0:01:10.36,op_eng,NTP,0,0,0,,{\fad(150,150)}{\r\t(0,156,1,\alpha&H00&)\t(0,312,1,\1c&Hffffff&\3c&H0000BD&)}You {\r\t(390,562,1,\alpha&H00&)\t(390,734,1,\1c&Hffffff&\3c&H0000BD&)}know {\r\t(820,916,1,\alpha&H00&)\t(820,1012,1,\1c&Hffffff&\3c&H0000BD&)}the {\r\t(1060,1840,1,\alpha&H00&)\t(1060,2620,1,\1c&Hffffff&\3c&H0000BD&)}disturbance {\r\t(3010,3314,1,\alpha&H00&)\t(3010,3618,1,\1c&Hffffff&\3c&H0000BD&)}never {\r\t(3770,4542,1,\alpha&H00&)\t(3770,5314,1,\1c&Hffffff&\3c&H0000BD&)}ends
+Dialogue: 0,0:00:24.65,0:00:27.71,op_chi,NTP,0,0,0,,无人能玩耍于雕刻花园
+Dialogue: 0,0:00:28.13,0:00:31.55,op_chi,NTP,0,0,0,,石化的目光在黑暗中注视着
+Dialogue: 0,0:00:31.69,0:00:36.07,op_chi,NTP,0,0,0,,命运女神在这神秘世界中呼唤着你
+Dialogue: 0,0:00:36.17,0:00:38.15,op_chi,NTP,0,0,0,,你定能找到你的道路
+Dialogue: 0,0:00:41.24,0:00:43.90,op_chi,NTP,0,0,0,,时间迷雾中的彼方
+Dialogue: 0,0:00:44.34,0:00:47.91,op_chi,NTP,0,0,0,,你必须朝着正确的方向玩你的游戏
+Dialogue: 0,0:00:48.00,0:00:54.98,op_chi,NTP,0,0,0,,心灵的疏离是你必须为你的选择而付出的代价
+Dialogue: 0,0:00:55.16,0:00:58.26,op_chi,NTP,0,0,0,,这是避难所
+Dialogue: 0,0:00:58.44,0:01:04.48,op_chi,NTP,0,0,0,,你相信着谎言只为忘记残酷的现实
+Dialogue: 0,0:01:04.61,0:01:10.36,op_chi,NTP,0,0,0,,尽管你知道这混乱没有尽头
+Dialogue: 0,0:43:49.40,0:43:55.29,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,120,1,\3c&HFFFFFF&\1c&H000000&)\t(120,240,1,\1c&HFFFFFF&\3c&H000000&)}止{\r\t(240,330,1,\3c&HFFFFFF&\1c&H000000&)\t(330,420,1,\1c&HFFFFFF&\3c&H000000&)}ま{\r\t(420,525,1,\3c&HFFFFFF&\1c&H000000&)\t(525,630,1,\1c&HFFFFFF&\3c&H000000&)}る{\r\t(630,895,1,\3c&HFFFFFF&\1c&H000000&)\t(895,1160,1,\1c&HFFFFFF&\3c&H000000&)}事{\r\t(1160,1300,1,\3c&HFFFFFF&\1c&H000000&)\t(1300,1440,1,\1c&HFFFFFF&\3c&H000000&)}な{\r\t(1440,1635,1,\3c&HFFFFFF&\1c&H000000&)\t(1635,1830,1,\1c&HFFFFFF&\3c&H000000&)}い{\r\t(1830,1945,1,\3c&HFFFFFF&\1c&H000000&)\t(1945,2060,1,\1c&HFFFFFF&\3c&H000000&)}　久{\r\t(2060,2305,1,\3c&HFFFFFF&\1c&H000000&)\t(2305,2550,1,\1c&HFFFFFF&\3c&H000000&)}遠{\r\t(2550,2810,1,\3c&HFFFFFF&\1c&H000000&)\t(2810,3070,1,\1c&HFFFFFF&\3c&H000000&)}求{\r\t(3070,3195,1,\3c&HFFFFFF&\1c&H000000&)\t(3195,3320,1,\1c&HFFFFFF&\3c&H000000&)}め{\r\t(3320,3435,1,\3c&HFFFFFF&\1c&H000000&)\t(3435,3550,1,\1c&HFFFFFF&\3c&H000000&)}る{\r\t(3550,3655,1,\3c&HFFFFFF&\1c&H000000&)\t(3655,3760,1,\1c&HFFFFFF&\3c&H000000&)}足{\r\t(3760,4015,1,\3c&HFFFFFF&\1c&H000000&)\t(4015,4270,1,\1c&HFFFFFF&\3c&H000000&)}掻{\r\t(4270,5080,1,\3c&HFFFFFF&\1c&H000000&)\t(5080,5890,1,\1c&HFFFFFF&\3c&H000000&)}き
+Dialogue: 0,0:43:56.99,0:44:03.68,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,315,1,\3c&HFFFFFF&\1c&H000000&)\t(315,630,1,\1c&HFFFFFF&\3c&H000000&)}諦{\r\t(630,755,1,\3c&HFFFFFF&\1c&H000000&)\t(755,880,1,\1c&HFFFFFF&\3c&H000000&)}め{\r\t(880,1010,1,\3c&HFFFFFF&\1c&H000000&)\t(1010,1140,1,\1c&HFFFFFF&\3c&H000000&)}る{\r\t(1140,1500,1,\3c&HFFFFFF&\1c&H000000&)\t(1500,1860,1,\1c&HFFFFFF&\3c&H000000&)}事{\r\t(1860,1970,1,\3c&HFFFFFF&\1c&H000000&)\t(1970,2080,1,\1c&HFFFFFF&\3c&H000000&)}　そ{\r\t(2080,2180,1,\3c&HFFFFFF&\1c&H000000&)\t(2180,2280,1,\1c&HFFFFFF&\3c&H000000&)}れ{\r\t(2280,2400,1,\3c&HFFFFFF&\1c&H000000&)\t(2400,2520,1,\1c&HFFFFFF&\3c&H000000&)}さ{\r\t(2520,2670,1,\3c&HFFFFFF&\1c&H000000&)\t(2670,2820,1,\1c&HFFFFFF&\3c&H000000&)}え{\r\t(2820,2970,1,\3c&HFFFFFF&\1c&H000000&)\t(2970,3120,1,\1c&HFFFFFF&\3c&H000000&)}も{\r\t(3120,3470,1,\3c&HFFFFFF&\1c&H000000&)\t(3470,3820,1,\1c&HFFFFFF&\3c&H000000&)}諦{\r\t(3820,3995,1,\3c&HFFFFFF&\1c&H000000&)\t(3995,4170,1,\1c&HFFFFFF&\3c&H000000&)}め{\r\t(4170,4345,1,\3c&HFFFFFF&\1c&H000000&)\t(4345,4520,1,\1c&HFFFFFF&\3c&H000000&)}る{\r\t(4520,4775,1,\3c&HFFFFFF&\1c&H000000&)\t(4775,5030,1,\1c&HFFFFFF&\3c&H000000&)}　ト{\r\t(5030,5195,1,\3c&HFFFFFF&\1c&H000000&)\t(5195,5360,1,\1c&HFFFFFF&\3c&H000000&)}キ{\r\t(5360,5575,1,\3c&HFFFFFF&\1c&H000000&)\t(5575,5790,1,\1c&HFFFFFF&\3c&H000000&)}の{\r\t(5790,6030,1,\3c&HFFFFFF&\1c&H000000&)\t(6030,6270,1,\1c&HFFFFFF&\3c&H000000&)}果{\r\t(6270,6445,1,\3c&HFFFFFF&\1c&H000000&)\t(6445,6620,1,\1c&HFFFFFF&\3c&H000000&)}て
+Dialogue: 0,0:44:03.70,0:44:07.09,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,210,1,\3c&HFFFFFF&\1c&H000000&)\t(210,420,1,\1c&HFFFFFF&\3c&H000000&)}祈{\r\t(420,545,1,\3c&HFFFFFF&\1c&H000000&)\t(545,670,1,\1c&HFFFFFF&\3c&H000000&)}り{\r\t(670,1015,1,\3c&HFFFFFF&\1c&H000000&)\t(1015,1360,1,\1c&HFFFFFF&\3c&H000000&)}は{\r\t(1360,1665,1,\3c&HFFFFFF&\1c&H000000&)\t(1665,1970,1,\1c&HFFFFFF&\3c&H000000&)}　届{\r\t(1970,2120,1,\3c&HFFFFFF&\1c&H000000&)\t(2120,2270,1,\1c&HFFFFFF&\3c&H000000&)}か{\r\t(2270,2420,1,\3c&HFFFFFF&\1c&H000000&)\t(2420,2570,1,\1c&HFFFFFF&\3c&H000000&)}な{\r\t(2570,2980,1,\3c&HFFFFFF&\1c&H000000&)\t(2980,3390,1,\1c&HFFFFFF&\3c&H000000&)}い
+Dialogue: 0,0:44:08.14,0:44:09.13,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,260,1,\3c&HFFFFFF&\1c&H000000&)\t(260,520,1,\1c&HFFFFFF&\3c&H000000&)}Cause {\r\t(520,755,1,\3c&HFFFFFF&\1c&H000000&)\t(755,990,1,\1c&HFFFFFF&\3c&H000000&)}disarray
+Dialogue: 0,0:44:09.24,0:44:15.55,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,255,1,\3c&HFFFFFF&\1c&H000000&)\t(255,510,1,\1c&HFFFFFF&\3c&H000000&)}刻{\r\t(510,680,1,\3c&HFFFFFF&\1c&H000000&)\t(680,850,1,\1c&HFFFFFF&\3c&H000000&)}む{\r\t(850,1060,1,\3c&HFFFFFF&\1c&H000000&)\t(1060,1270,1,\1c&HFFFFFF&\3c&H000000&)}記{\r\t(1270,1450,1,\3c&HFFFFFF&\1c&H000000&)\t(1450,1630,1,\1c&HFFFFFF&\3c&H000000&)}憶{\r\t(1630,2100,1,\3c&HFFFFFF&\1c&H000000&)\t(2100,2570,1,\1c&HFFFFFF&\3c&H000000&)}は{\r\t(2570,2970,1,\3c&HFFFFFF&\1c&H000000&)\t(2970,3370,1,\1c&HFFFFFF&\3c&H000000&)}　切{\r\t(3370,3475,1,\3c&HFFFFFF&\1c&H000000&)\t(3475,3580,1,\1c&HFFFFFF&\3c&H000000&)}な{\r\t(3580,3710,1,\3c&HFFFFFF&\1c&H000000&)\t(3710,3840,1,\1c&HFFFFFF&\3c&H000000&)}く{\r\t(3840,3980,1,\3c&HFFFFFF&\1c&H000000&)\t(3980,4120,1,\1c&HFFFFFF&\3c&H000000&)}未{\r\t(4120,4350,1,\3c&HFFFFFF&\1c&H000000&)\t(4350,4580,1,\1c&HFFFFFF&\3c&H000000&)}来{\r\t(4580,4815,1,\3c&HFFFFFF&\1c&H000000&)\t(4815,5050,1,\1c&HFFFFFF&\3c&H000000&)}へ{\r\t(5050,5260,1,\3c&HFFFFFF&\1c&H000000&)\t(5260,5470,1,\1c&HFFFFFF&\3c&H000000&)}重{\r\t(5470,5660,1,\3c&HFFFFFF&\1c&H000000&)\t(5660,5850,1,\1c&HFFFFFF&\3c&H000000&)}な{\r\t(5850,6080,1,\3c&HFFFFFF&\1c&H000000&)\t(6080,6310,1,\1c&HFFFFFF&\3c&H000000&)}る
+Dialogue: 0,0:44:15.69,0:44:23.00,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,350,1,\3c&HFFFFFF&\1c&H000000&)\t(350,700,1,\1c&HFFFFFF&\3c&H000000&)}懐{\r\t(700,830,1,\3c&HFFFFFF&\1c&H000000&)\t(830,960,1,\1c&HFFFFFF&\3c&H000000&)}か{\r\t(960,1055,1,\3c&HFFFFFF&\1c&H000000&)\t(1055,1150,1,\1c&HFFFFFF&\3c&H000000&)}し{\r\t(1150,1265,1,\3c&HFFFFFF&\1c&H000000&)\t(1265,1380,1,\1c&HFFFFFF&\3c&H000000&)}い　{\r\t(1380,1525,1,\3c&HFFFFFF&\1c&H000000&)\t(1525,1670,1,\1c&HFFFFFF&\3c&H000000&)}過{\r\t(1670,1755,1,\3c&HFFFFFF&\1c&H000000&)\t(1755,1840,1,\1c&HFFFFFF&\3c&H000000&)}去{\r\t(1840,1965,1,\3c&HFFFFFF&\1c&H000000&)\t(1965,2090,1,\1c&HFFFFFF&\3c&H000000&)}か{\r\t(2090,2285,1,\3c&HFFFFFF&\1c&H000000&)\t(2285,2480,1,\1c&HFFFFFF&\3c&H000000&)}ら{\r\t(2480,2655,1,\3c&HFFFFFF&\1c&H000000&)\t(2655,2830,1,\1c&HFFFFFF&\3c&H000000&)}続{\r\t(2830,3135,1,\3c&HFFFFFF&\1c&H000000&)\t(3135,3440,1,\1c&HFFFFFF&\3c&H000000&)}く　{\r\t(3440,3740,1,\3c&HFFFFFF&\1c&H000000&)\t(3740,4040,1,\1c&HFFFFFF&\3c&H000000&)}歪ん{\r\t(4040,4395,1,\3c&HFFFFFF&\1c&H000000&)\t(4395,4750,1,\1c&HFFFFFF&\3c&H000000&)}だ{\r\t(4750,5150,1,\3c&HFFFFFF&\1c&H000000&)\t(5150,5550,1,\1c&HFFFFFF&\3c&H000000&)}酩{\r\t(5550,6430,1,\3c&HFFFFFF&\1c&H000000&)\t(6430,7310,1,\1c&HFFFFFF&\3c&H000000&)}酊
+Dialogue: 0,0:44:23.38,0:44:24.60,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,200,1,\3c&HFFFFFF&\1c&H000000&)\t(200,400,1,\1c&HFFFFFF&\3c&H000000&)}Search {\r\t(400,510,1,\3c&HFFFFFF&\1c&H000000&)\t(510,620,1,\1c&HFFFFFF&\3c&H000000&)}for {\r\t(620,765,1,\3c&HFFFFFF&\1c&H000000&)\t(765,910,1,\1c&HFFFFFF&\3c&H000000&)}the {\r\t(910,1065,1,\3c&HFFFFFF&\1c&H000000&)\t(1065,1220,1,\1c&HFFFFFF&\3c&H000000&)}truth
+Dialogue: 0,0:44:24.68,0:44:30.77,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,175,1,\3c&HFFFFFF&\1c&H000000&)\t(175,350,1,\1c&HFFFFFF&\3c&H000000&)}刻{\r\t(350,480,1,\3c&HFFFFFF&\1c&H000000&)\t(480,610,1,\1c&HFFFFFF&\3c&H000000&)}む{\r\t(610,965,1,\3c&HFFFFFF&\1c&H000000&)\t(965,1320,1,\1c&HFFFFFF&\3c&H000000&)}傷{\r\t(1320,1805,1,\3c&HFFFFFF&\1c&H000000&)\t(1805,2290,1,\1c&HFFFFFF&\3c&H000000&)}跡　{\r\t(2290,2465,1,\3c&HFFFFFF&\1c&H000000&)\t(2465,2640,1,\1c&HFFFFFF&\3c&H000000&)}そ{\r\t(2640,2920,1,\3c&HFFFFFF&\1c&H000000&)\t(2920,3200,1,\1c&HFFFFFF&\3c&H000000&)}れ{\r\t(3200,3330,1,\3c&HFFFFFF&\1c&H000000&)\t(3330,3460,1,\1c&HFFFFFF&\3c&H000000&)}は{\r\t(3460,3635,1,\3c&HFFFFFF&\1c&H000000&)\t(3635,3810,1,\1c&HFFFFFF&\3c&H000000&)}未{\r\t(3810,3960,1,\3c&HFFFFFF&\1c&H000000&)\t(3960,4110,1,\1c&HFFFFFF&\3c&H000000&)}来{\r\t(4110,4305,1,\3c&HFFFFFF&\1c&H000000&)\t(4305,4500,1,\1c&HFFFFFF&\3c&H000000&)}へ{\r\t(4500,4730,1,\3c&HFFFFFF&\1c&H000000&)\t(4730,4960,1,\1c&HFFFFFF&\3c&H000000&)}の{\r\t(4960,5310,1,\3c&HFFFFFF&\1c&H000000&)\t(5310,5660,1,\1c&HFFFFFF&\3c&H000000&)}戒{\r\t(5660,5875,1,\3c&HFFFFFF&\1c&H000000&)\t(5875,6090,1,\1c&HFFFFFF&\3c&H000000&)}め
+Dialogue: 0,0:44:30.91,0:44:38.67,ed_jap,NTP,0,0,0,,{\fad(100,100)}{\r\t(0,255,1,\3c&HFFFFFF&\1c&H000000&)\t(255,510,1,\1c&HFFFFFF&\3c&H000000&)}狂{\r\t(510,710,1,\3c&HFFFFFF&\1c&H000000&)\t(710,910,1,\1c&HFFFFFF&\3c&H000000&)}お{\r\t(910,1120,1,\3c&HFFFFFF&\1c&H000000&)\t(1120,1330,1,\1c&HFFFFFF&\3c&H000000&)}しい{\r\t(1330,1445,1,\3c&HFFFFFF&\1c&H000000&)\t(1445,1560,1,\1c&HFFFFFF&\3c&H000000&)}　過{\r\t(1560,1700,1,\3c&HFFFFFF&\1c&H000000&)\t(1700,1840,1,\1c&HFFFFFF&\3c&H000000&)}去{\r\t(1840,1935,1,\3c&HFFFFFF&\1c&H000000&)\t(1935,2030,1,\1c&HFFFFFF&\3c&H000000&)}が{\r\t(2030,2235,1,\3c&HFFFFFF&\1c&H000000&)\t(2235,2440,1,\1c&HFFFFFF&\3c&H000000&)}も{\r\t(2440,2545,1,\3c&HFFFFFF&\1c&H000000&)\t(2545,2650,1,\1c&HFFFFFF&\3c&H000000&)}た{\r\t(2650,2785,1,\3c&HFFFFFF&\1c&H000000&)\t(2785,2920,1,\1c&HFFFFFF&\3c&H000000&)}ら{\r\t(2920,3200,1,\3c&HFFFFFF&\1c&H000000&)\t(3200,3480,1,\1c&HFFFFFF&\3c&H000000&)}す　{\r\t(3480,3555,1,\3c&HFFFFFF&\1c&H000000&)\t(3555,3630,1,\1c&HFFFFFF&\3c&H000000&)}甘{\r\t(3630,3830,1,\3c&HFFFFFF&\1c&H000000&)\t(3830,4030,1,\1c&HFFFFFF&\3c&H000000&)}美{\r\t(4030,4420,1,\3c&HFFFFFF&\1c&H000000&)\t(4420,4810,1,\1c&HFFFFFF&\3c&H000000&)}な{\r\t(4810,5160,1,\3c&HFFFFFF&\1c&H000000&)\t(5160,5510,1,\1c&HFFFFFF&\3c&H000000&)}酩{\r\t(5510,6600,1,\3c&HFFFFFF&\1c&H000000&)\t(6600,7690,1,\1c&HFFFFFF&\3c&H000000&)}酊
+Dialogue: 0,0:43:49.40,0:43:55.29,ed_chi,NTP,0,0,0,,无法停下那追求永恒的挣扎
+Dialogue: 0,0:43:56.99,0:44:03.68,ed_chi,NTP,0,0,0,,在时间的终点 连“放弃”都已舍弃
+Dialogue: 0,0:44:03.70,0:44:07.09,ed_chi,NTP,0,0,0,,无法传达的祈祷
+Dialogue: 0,0:44:08.14,0:44:09.13,ed_chi,NTP,0,0,0,,只因混乱
+Dialogue: 0,0:44:09.24,0:44:15.55,ed_chi,NTP,0,0,0,,烙刻的记忆与苦难的未来相互重合
+Dialogue: 0,0:44:15.69,0:44:23.00,ed_chi,NTP,0,0,0,,那令人怀念的从远昔而始的扭曲的痴狂
+Dialogue: 0,0:44:23.38,0:44:24.60,ed_chi,NTP,0,0,0,,寻找着未来
+Dialogue: 0,0:44:24.68,0:44:30.77,ed_chi,NTP,0,0,0,,烙刻的伤痕 是如何向前的戒条
+Dialogue: 0,0:44:30.91,0:44:38.67,ed_chi,NTP,0,0,0,,疯狂的过去带来的是如此甘美的痴狂
+

@@ -1,0 +1,504 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 1
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DFHeiMedium-UN,24,&H00FFFFFF,&HF0000000,&H00000000,&HC8000000,0,0,0,0,100,100,0,0,1,2,3,2,30,30,10,1
+Style: oped-jp,HGSGyoshotai,28,&H00FFFFFF,&HF00F0F0F,&H1E4643BE,&H32DBC079,0,0,0,0,100,100,0,0,1,2,2,7,20,15,15,1
+Style: oped-cn,HGGyoshotai,26,&H00FFFFFF,&HF0000000,&H1E4643BE,&H32DBC079,-1,0,0,0,100,100,0,0,1,2,2,3,10,30,15,1
+Style: 声优表,SeichoShonanGyoshoEXP,27,&H004643BE,&HF0000000,&H1EFFFFFF,&H32DBC079,-1,0,0,0,100,100,0,0,1,2,2,5,30,30,10,1
+Style: titlelogo1,DFHeiMedium-UN,24,&H00E4CC9E,&HFF000000,&H00000000,&HFFFFFFFF,-1,-1,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: titlelogo2,DFHeiMedium-UN,24,&H50FFFFFF,&HF0FFFFFF,&H50EFEFEF,&H50FFFFFF,-1,-1,0,0,100,100,0,0,1,5,0,2,30,30,10,1
+Style: titlelogo3,DFHeiMedium-UN,57,&H00524FD0,&HFFFFFFFF,&H00000000,&HFFFFFFFF,-1,-1,0,0,100,100,0,0,1,3,0,2,30,30,10,1
+Style: staff1,DFHeiMedium-UN,22,&H1EFFFFFF,&HFFFFFFFF,&HFFFFFFFF,&H32000000,-1,0,0,0,100,100,0,0,1,0,2,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:59.20,0:01:02.59,Default,NTP,0,0,0,,{\fad(665,0)}{\pos(220,110)}{\i1}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}漫遊FreeWind工作室
+Dialogue: 0,0:00:59.20,0:01:02.59,Default,NTP,0,0,0,,{\fad(665,0)}{\pos(173,142)}{\i1}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}漫迷A9字幕組
+Dialogue: 0,0:01:01.41,0:01:06.65,titlelogo2,NTP,0,0,0,,{\fad(665,865)}{\pos(220,110)}{\be1}漫遊FreeWind工作室
+Dialogue: 0,0:01:01.41,0:01:06.65,titlelogo2,NTP,0,0,0,,{\fad(665,865)}{\pos(173,142)}{\be1}漫迷A9字幕組
+Dialogue: 0,0:01:01.41,0:01:06.65,titlelogo1,NTP,0,0,0,,{\fad(665,865)}{\pos(220,110)}漫遊FreeWind工作室
+Dialogue: 0,0:01:01.41,0:01:06.65,titlelogo1,NTP,0,0,0,,{\fad(665,865)}{\pos(173,142)}漫迷A9字幕組
+Dialogue: 0,0:01:00.30,0:01:02.59,titlelogo3,NTP,0,0,0,,{\fad(565,0)}{\pos(470,140)}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}聯合製作
+Dialogue: 0,0:01:01.41,0:01:06.65,titlelogo2,NTP,0,0,0,,{\fad(665,865)}{\pos(470,140)}{\fs57}{\bord06}聯合製作
+Dialogue: 0,0:01:01.41,0:01:06.65,titlelogo3,NTP,0,0,0,,{\fad(665,865)}{\pos(470,140)}聯合製作
+Dialogue: 0,0:01:02.84,0:01:06.65,Default,NTP,0,0,0,,{\fad(210,800)}{\fs21}{\pos(457,390)}{\c&HEFEFEF&}http://www.popgo.net
+Dialogue: 0,0:01:02.84,0:01:06.65,Default,NTP,0,0,0,,{\fad(210,800)}{\fs21}{\pos(457,420)}{\c&HEFEFEF&}http://bbs.manmi.com
+Dialogue: 0,0:00:10.85,0:00:14.27,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(302,135)}片  源
+Dialogue: 0,0:00:10.85,0:00:14.27,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(470,138)}{\fs27}Bridge-779
+Dialogue: 0,0:00:10.85,0:00:14.27,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(484,154)}{\fs15}(漫迷A9字幕組)
+Dialogue: 0,0:00:17.41,0:00:21.75,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(113,355)}校  譯
+Dialogue: 0,0:00:17.41,0:00:21.75,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(268,357)}{\fs27}莎    莎
+Dialogue: 0,0:00:17.41,0:00:21.75,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(268,373)}{\fs15}(漫迷A9字幕組)
+Dialogue: 0,0:00:28.40,0:00:32.80,staff1,NTP,0,0,0,,{\fad(200,200)}{\pos(349,443)}壓    制
+Dialogue: 0,0:00:28.40,0:00:32.80,staff1,NTP,0,0,0,,{\fad(200,200)}{\pos(470,445)}{\fs27}風 之 殤
+Dialogue: 0,0:00:28.40,0:00:32.80,staff1,NTP,0,0,0,,{\fad(200,200)}{\pos(485,461)}{\fs15}(FW工作室)
+Dialogue: 0,0:00:39.20,0:00:43.57,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(123,437)}時 間 軸
+Dialogue: 0,0:00:39.20,0:00:43.57,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(123,460)}特    效
+Dialogue: 0,0:00:39.20,0:00:43.57,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(264,448)}{\fs28}noir-eve
+Dialogue: 0,0:00:39.20,0:00:43.57,staff1,NTP,0,0,0,,{\fad(150,200)}{\pos(277,465)}{\fs15}(FW工作室)
+Dialogue: 0,0:01:22.93,0:01:23.70,oped-jp,NTP,0,0,0,,{\fad(50,200)}Beat，my body
+Dialogue: 0,0:01:23.70,0:01:26.29,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K50}今{\K15}こ{\K15}そ{\K10}{\K85}苏{\K20}{\K20}れ
+Dialogue: 0,0:01:26.47,0:01:29.51,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K70}高{\K40}ま{\K10}{\K40}る{\K40}鼓{\K10}{\K40}动{\K20}{\K30}よ
+Dialogue: 0,0:01:29.58,0:01:32.26,oped-jp,NTP,0,0,0,,{\fad(50,200)}Grab it in my soul
+Dialogue: 0,0:01:38.48,0:01:40.30,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}未{\K20}知{\K20}へ{\K10}{\K20}の{\K20}フ{\K20}ェ{\K20}ソ{\K10}ス
+Dialogue: 0,0:01:40.48,0:01:44.07,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}遥{\K20}か{\K30}见{\K30}上{\K20}げ{\K10}{\K20}た {\K50}Ye{\K60}sterday
+Dialogue: 0,0:01:45.03,0:01:49.65,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K30}す{\K25}べ{\K25}て{\K15}{\K50}逆{\K50}光{\K30}の{\K40}中{\K40}{\K20}つ{\K20}か{\K20}み{\K20}き{\K10}{\K20}れ{\K20}な{\K20}い
+Dialogue: 0,0:01:49.68,0:01:52.27,oped-jp,NTP,0,0,0,,{\fad(50,200)}Truths and lies
+Dialogue: 0,0:01:52.74,0:01:53.72,oped-jp,NTP,0,0,0,,{\fad(50,200)}Break Out!
+Dialogue: 0,0:01:53.98,0:01:56.79,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}空{\K30}回{\K15}り{\K20}す{\K20}る{\K10}{\K40}现{\K05}{\K40}实{\K10}{\K10}と
+Dialogue: 0,0:01:57.30,0:02:00.75,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}勇{\K15}み{\K35}足{\K20}の{\K10}{\K25}い{\K25}ら{\K20}だ{\K20}ち{\K30}の{\K20}{\K40}中{\K10}{\K10}で
+Dialogue: 0,0:02:01.54,0:02:04.72,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}目{\K30}觉{\K15}め{\K20}た{\K20}野{\K40}望{\K10}{\K20}を{\K20}{\K45}胸{\K20}に
+Dialogue: 0,0:02:04.99,0:02:07.34,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}今{\K25}立{\K25}ち{\K20}上{\K20}が{\K20}る{\K20}の{\K30}さ
+Dialogue: 0,0:02:09.10,0:02:09.85,oped-jp,NTP,0,0,0,,{\fad(50,200)}Beat,my body
+Dialogue: 0,0:02:09.85,0:02:12.35,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K70}魂{\K10}{\K40}呼{\K15}ぶ{\K10}{\K10}觉{\K10}{\K10}ま{\K20}せ
+Dialogue: 0,0:02:12.58,0:02:16.10,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}热{\K20}い{\K20}记{\K20}忆{\K30}{\K20}た{\K05}{\K20}よ{\K15}{\K20}り{\K20}{\K20}な{\K10}{\K05}が{\K35}ら
+Dialogue: 0,0:02:16.64,0:02:20.05,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K30}こ{\K05}{\K20}の{\K05}{\K10}手{\K05}に{\K30}つ{\K20}か{\K20}ん{\K10}{\K10}で{\K20}も{\K20}{\K20}う{\K40}二{\K20}度{\K20}と
+Dialogue: 0,0:02:20.31,0:02:23.37,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K45}离{\K20}{\K20}し{\K20}{\K20}は{\K20}{\K20}し{\K30}{\K40}な{\K20}{\K20}い
+Dialogue: 0,0:02:23.37,0:02:26.37,oped-jp,NTP,0,0,0,,{\fad(50,200)}Grab it in my soul
+Dialogue: 0,0:01:22.93,0:01:23.70,oped-cn,NTP,0,0,0,,{\fad(50,200)}Beat，my body
+Dialogue: 0,0:01:23.70,0:01:26.29,oped-cn,NTP,0,0,0,,{\fad(50,200)}現在就甦醒
+Dialogue: 0,0:01:26.47,0:01:29.51,oped-cn,NTP,0,0,0,,{\fad(50,200)}激盪心靈的鼓動
+Dialogue: 0,0:01:29.58,0:01:32.26,oped-cn,NTP,0,0,0,,{\fad(50,200)}Grab it in my soul
+Dialogue: 0,0:01:38.48,0:01:40.30,oped-cn,NTP,0,0,0,,{\fad(50,200)}架在明天前的欄杆
+Dialogue: 0,0:01:40.48,0:01:44.07,oped-cn,NTP,0,0,0,,{\fad(50,200)}昨天遙遙仰望
+Dialogue: 0,0:01:45.03,0:01:49.65,oped-cn,NTP,0,0,0,,{\fad(50,200)}在反光之中無法抓緊一切
+Dialogue: 0,0:01:49.68,0:01:52.27,oped-cn,NTP,0,0,0,,{\fad(50,200)}Truths and lies
+Dialogue: 0,0:01:52.74,0:01:53.72,oped-cn,NTP,0,0,0,,{\fad(50,200)}Break Out!
+Dialogue: 0,0:01:53.98,0:01:56.79,oped-cn,NTP,0,0,0,,{\fad(50,200)}在空虛的現實和
+Dialogue: 0,0:01:57.30,0:02:00.75,oped-cn,NTP,0,0,0,,{\fad(50,200)}焦急的腳步之間
+Dialogue: 0,0:02:01.54,0:02:04.72,oped-cn,NTP,0,0,0,,{\fad(50,200)}懷著重新燃起的野心
+Dialogue: 0,0:02:04.99,0:02:07.34,oped-cn,NTP,0,0,0,,{\fad(50,200)}現在就站起來
+Dialogue: 0,0:02:09.10,0:02:09.85,oped-cn,NTP,0,0,0,,{\fad(50,200)}Beat,my body
+Dialogue: 0,0:02:09.85,0:02:12.35,oped-cn,NTP,0,0,0,,{\fad(50,200)}將靈魂喚醒
+Dialogue: 0,0:02:12.58,0:02:16.10,oped-cn,NTP,0,0,0,,{\fad(50,200)}追尋熱暖的記憶
+Dialogue: 0,0:02:16.64,0:02:20.05,oped-cn,NTP,0,0,0,,{\fad(50,200)}再次抓緊在手裏
+Dialogue: 0,0:02:20.31,0:02:23.37,oped-cn,NTP,0,0,0,,{\fad(50,200)}不再放手
+Dialogue: 0,0:02:23.37,0:02:26.37,oped-cn,NTP,0,0,0,,{\fad(50,200)}Grab it in my soul
+Dialogue: 0,0:29:35.93,0:29:37.18,oped-jp,NTP,0,0,0,,{\fad(50,200)}Lose…
+Dialogue: 0,0:29:37.97,0:29:39.86,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K55}闇{\K18}の{\K54}中{\K45}で
+Dialogue: 0,0:29:41.41,0:29:46.04,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}孤{\K40}独{\K95}{\K60}押し{\K50}寄{\K10}{\K32}せ{\K32}る{\K65}时
+Dialogue: 0,0:29:47.06,0:29:48.69,oped-jp,NTP,0,0,0,,{\fad(50,200)}So loose…
+Dialogue: 0,0:29:49.79,0:29:57.45,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K35}不器{\K42}用{\K65}な{\K200}{\K15}自{\K40}分{\K45}を{\K65}{\K58}责{\K15}め{\K25}て{\K45}し{\K35}ま{\K90}う
+Dialogue: 0,0:29:57.93,0:30:00.33,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}で{\K30}も{\K30}何{\K15}处{\K120}か
+Dialogue: 0,0:30:03.57,0:30:06.04,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K55}远{\K30}い异{\K42}国{\K28}で{\K70}は
+Dialogue: 0,0:30:09.52,0:30:12.29,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K50}太{\K72}阳{\K52}が{\K45}今
+Dialogue: 0,0:30:14.92,0:30:17.56,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}降り{\K40}そ{\K30}そ{\K65}い{\K35}でい{\K70}る
+Dialogue: 0,0:30:20.16,0:30:22.62,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K80}谁{\K25}の{\K80}上{\K15}に{\K40}も
+Dialogue: 0,0:30:23.08,0:30:26.27,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K85}命{\K50}あ{\K65}る{\K20}も{\K10}の{\K75}は
+Dialogue: 0,0:30:26.64,0:30:29.29,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}や{\K20}が{\K20}て{\K20} {\K20}そ{\K20}の{\K110}姿{\K50}を
+Dialogue: 0,0:30:29.51,0:30:32.75,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}消{\K20}し{\K20}て{\K30}{\K20}し{\K20}ま{\K20}{\K20}う{\K15}け{\K90}ど
+Dialogue: 0,0:30:34.77,0:30:38.12,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}君{\K40}を{\K80}守{\K15}{\K15}り{\K30}た{\K60}い
+Dialogue: 0,0:30:38.33,0:30:42.70,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K50}情{\K50}热{\K20}は{\K20}{\K20}绝{\K20}え{\K20}ま{\K10}{\K20}な{\K160}く
+Dialogue: 0,0:30:44.44,0:30:48.48,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}溢{\K16}れ{\K30}て{\K10}{\K20}る{\K30} {\K90}Pray
+Dialogue: 0,0:29:35.93,0:29:37.18,oped-cn,NTP,0,0,0,,{\fad(50,200)}Lose…
+Dialogue: 0,0:29:37.97,0:29:39.86,oped-cn,NTP,0,0,0,,{\fad(50,200)}黑暗中
+Dialogue: 0,0:29:41.41,0:29:46.04,oped-cn,NTP,0,0,0,,{\fad(50,200)}孤獨涌來之時
+Dialogue: 0,0:29:47.06,0:29:48.69,oped-cn,NTP,0,0,0,,{\fad(50,200)}So loose…
+Dialogue: 0,0:29:49.79,0:29:57.45,oped-cn,NTP,0,0,0,,{\fad(50,200)}不斷責備著無用的自己
+Dialogue: 0,0:29:57.93,0:30:00.33,oped-cn,NTP,0,0,0,,{\fad(50,200)}但是不管身在何處
+Dialogue: 0,0:30:03.57,0:30:06.04,oped-cn,NTP,0,0,0,,{\fad(50,200)}即使是遙遠的異國他鄉
+Dialogue: 0,0:30:09.52,0:30:12.29,oped-cn,NTP,0,0,0,,{\fad(50,200)}大陽也始終
+Dialogue: 0,0:30:14.92,0:30:17.56,oped-cn,NTP,0,0,0,,{\fad(50,200)}在那裏照耀著
+Dialogue: 0,0:30:20.16,0:30:22.62,oped-cn,NTP,0,0,0,,{\fad(50,200)}在人們共有的那片天空
+Dialogue: 0,0:30:23.08,0:30:26.27,oped-cn,NTP,0,0,0,,{\fad(50,200)}一切擁有生命的東西
+Dialogue: 0,0:30:26.64,0:30:29.29,oped-cn,NTP,0,0,0,,{\fad(50,200)}儘管 他們的存在
+Dialogue: 0,0:30:29.51,0:30:32.75,oped-cn,NTP,0,0,0,,{\fad(50,200)}最終都會消失
+Dialogue: 0,0:30:34.77,0:30:38.12,oped-cn,NTP,0,0,0,,{\fad(50,200)}但我只想守護著{\fn华文新魏}你
+Dialogue: 0,0:30:38.33,0:30:42.70,oped-cn,NTP,0,0,0,,{\fad(50,200)}那熱情絕不會消失
+Dialogue: 0,0:30:44.44,0:30:48.48,oped-cn,NTP,0,0,0,,{\fad(50,200)}洋溢著 Pray
+Dialogue: 0,0:02:41.80,0:02:44.40,Default,NTP,0,0,0,,{\fad(150,150)}{\pos(320,408)}最終戰   日本杯預選賽
+Dialogue: 0,0:02:41.86,0:02:44.23,Default,NTP,0,0,0,,1分56秒186
+Dialogue: 0,0:02:44.46,0:02:46.91,Default,NTP,0,0,0,,風見創下56秒186的記錄
+Dialogue: 0,0:02:47.43,0:02:50.95,Default,NTP,0,0,0,,又超越加賀的極速創造了最高記錄
+Dialogue: 0,0:02:47.91,0:02:50.25,Default,NTP,0,0,0,,{\pos(320,408)}新東京GIO賽車場
+Dialogue: 0,0:02:54.06,0:02:54.92,Default,NTP,0,0,0,,算了吧
+Dialogue: 0,0:02:55.94,0:02:56.84,Default,NTP,0,0,0,,已經夠了
+Dialogue: 0,0:02:57.64,0:02:59.86,Default,NTP,0,0,0,,勝負不是在預賽時分出的
+Dialogue: 0,0:03:02.96,0:03:03.65,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:03:03.93,0:03:06.00,Default,NTP,0,0,0,,風見是64 加賀是62
+Dialogue: 0,0:03:06.12,0:03:08.59,Default,NTP,0,0,0,,在這最終戰中他們只有兩分之差
+Dialogue: 0,0:03:08.94,0:03:12.43,Default,NTP,0,0,0,,若加賀在這場比賽中獲勝則將以2分的優勢反超風見
+Dialogue: 0,0:03:12.63,0:03:14.18,Default,NTP,0,0,0,,登上冠軍寶座
+Dialogue: 0,0:03:14.48,0:03:16.54,Default,NTP,0,0,0,,亦或是風見先獲得冠軍
+Dialogue: 0,0:03:16.75,0:03:20.86,Default,NTP,0,0,0,,兩人的氣勢在激烈的預賽纏鬥中顯得相當驚人
+Dialogue: 0,0:03:23.44,0:03:24.17,Default,NTP,0,0,0,,阿彩
+Dialogue: 0,0:03:28.20,0:03:30.51,Default,NTP,0,0,0,,好，不知是否因為先前風見打破記錄
+Dialogue: 0,0:03:30.51,0:03:32.82,Default,NTP,0,0,0,,這次加賀又進入了跑道
+Dialogue: 0,0:03:34.58,0:03:35.55,Default,NTP,0,0,0,,你想怎麼辦
+Dialogue: 0,0:03:36.71,0:03:38.84,Default,NTP,0,0,0,,被超過的話，我會再跑
+Dialogue: 0,0:03:41.01,0:03:43.72,Default,NTP,0,0,0,,但看來不需要了
+Dialogue: 0,0:03:45.04,0:03:46.13,Default,NTP,0,0,0,,太強了
+Dialogue: 0,0:03:46.87,0:03:49.25,Default,NTP,0,0,0,,真是太強了，隼人
+Dialogue: 0,0:03:53.31,0:03:55.12,Default,NTP,0,0,0,,一定要做出讓自己滿意的戰鬥
+Dialogue: 0,0:03:56.51,0:03:57.74,Default,NTP,0,0,0,,對我而言也是…
+Dialogue: 0,0:04:32.69,0:04:33.61,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:04:40.28,0:04:41.52,Default,NTP,0,0,0,,隼人
+Dialogue: 0,0:04:48.16,0:04:49.02,Default,NTP,0,0,0,,你是...
+Dialogue: 0,0:04:59.01,0:04:59.80,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:05:13.92,0:05:16.48,Default,NTP,0,0,0,,的確凰呀很可能會殺死加賀
+Dialogue: 0,0:05:17.07,0:05:17.62,Default,NTP,0,0,0,,不過
+Dialogue: 0,0:05:18.03,0:05:19.64,Default,NTP,0,0,0,,這樣還算好
+Dialogue: 0,0:05:20.93,0:05:22.25,Default,NTP,0,0,0,,這哪裏算好
+Dialogue: 0,0:05:28.22,0:05:28.75,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:05:29.11,0:05:29.74,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:05:34.89,0:05:35.72,Default,NTP,0,0,0,,凰呀呢
+Dialogue: 0,0:05:39.99,0:05:41.71,Default,NTP,0,0,0,,傷得比你重的多…
+Dialogue: 0,0:05:45.46,0:05:46.07,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:05:49.25,0:05:51.19,Default,NTP,0,0,0,,你還想幹什麼
+Dialogue: 0,0:05:51.58,0:05:52.53,Default,NTP,0,0,0,,我要回維修站
+Dialogue: 0,0:05:52.79,0:05:53.24,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:05:54.00,0:05:56.51,Default,NTP,0,0,0,,你現在過去能做什麼
+Dialogue: 0,0:05:57.03,0:05:59.63,Default,NTP,0,0,0,,難道你要我在這裏悠哉的睡覺嗎
+Dialogue: 0,0:06:04.52,0:06:05.22,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:06:05.76,0:06:07.73,Default,NTP,0,0,0,,真是，你別太過份了
+Dialogue: 0,0:06:11.07,0:06:13.91,Default,NTP,0,0,0,,今日子，請等一下，今日子
+Dialogue: 0,0:06:14.71,0:06:15.79,Default,NTP,0,0,0,,我受夠了
+Dialogue: 0,0:06:16.31,0:06:18.08,Default,NTP,0,0,0,,你們這些人是不是瘋了
+Dialogue: 0,0:06:18.67,0:06:19.50,Default,NTP,0,0,0,,今日子
+Dialogue: 0,0:06:21.01,0:06:21.89,Default,NTP,0,0,0,,今日子
+Dialogue: 0,0:06:25.80,0:06:27.18,Default,NTP,0,0,0,,發生什麼事了
+Dialogue: 0,0:06:29.73,0:06:31.53,Default,NTP,0,0,0,,那個…加賀怎麼樣了
+Dialogue: 0,0:06:32.00,0:06:35.11,Default,NTP,0,0,0,,我們聽普雷斯說他沒什麼大礙
+Dialogue: 0,0:06:37.49,0:06:38.77,Default,NTP,0,0,0,,他確實是沒什麼大礙
+Dialogue: 0,0:06:39.70,0:06:41.79,Default,NTP,0,0,0,,但是明天的決賽不能出場了
+Dialogue: 0,0:06:43.95,0:06:45.73,Default,NTP,0,0,0,,也代我這樣轉告風見吧
+Dialogue: 0,0:06:51.02,0:06:52.55,Default,NTP,0,0,0,,你怎麼能這麼若無其事呢
+Dialogue: 0,0:06:54.19,0:06:56.23,Default,NTP,0,0,0,,你不想阻止風見嗎
+Dialogue: 0,0:06:56.75,0:06:58.03,Default,NTP,0,0,0,,這麼荒謬的車賽
+Dialogue: 0,0:07:01.69,0:07:03.01,Default,NTP,0,0,0,,你能理解他嗎
+Dialogue: 0,0:07:04.27,0:07:06.40,Default,NTP,0,0,0,,還是相信他
+Dialogue: 0,0:07:07.06,0:07:09.04,Default,NTP,0,0,0,,他絕對不會出事
+Dialogue: 0,0:07:10.33,0:07:11.09,Default,NTP,0,0,0,,今日子
+Dialogue: 0,0:07:11.56,0:07:12.92,Default,NTP,0,0,0,,我已經受夠了
+Dialogue: 0,0:07:13.08,0:07:14.62,Default,NTP,0,0,0,,什麼加賀的心意
+Dialogue: 0,0:07:15.23,0:07:17.38,Default,NTP,0,0,0,,事情變成這樣還要我坐視不管嗎
+Dialogue: 0,0:07:18.28,0:07:20.18,Default,NTP,0,0,0,,這就是為了他?
+Dialogue: 0,0:07:23.56,0:07:24.77,Default,NTP,0,0,0,,與其這樣受心理煎熬
+Dialogue: 0,0:07:25.40,0:07:27.81,Default,NTP,0,0,0,,還不如讓葵財團現在就撤出的好
+Dialogue: 0,0:07:28.27,0:07:29.30,Default,NTP,0,0,0,,今日子
+Dialogue: 0,0:07:30.52,0:07:31.76,Default,NTP,0,0,0,,那是無濟於事的
+Dialogue: 0,0:07:32.33,0:07:33.52,Default,NTP,0,0,0,,就算那樣做
+Dialogue: 0,0:07:36.12,0:07:37.44,Default,NTP,0,0,0,,無濟於事的
+Dialogue: 0,0:07:37.76,0:07:38.58,Default,NTP,0,0,0,,明日香
+Dialogue: 0,0:07:39.96,0:07:41.59,Default,NTP,0,0,0,,他還是會繼續前進
+Dialogue: 0,0:07:43.09,0:07:44.99,Default,NTP,0,0,0,,沒法阻止他
+Dialogue: 0,0:07:45.92,0:07:47.10,Default,NTP,0,0,0,,任何人都不行
+Dialogue: 0,0:07:48.61,0:07:50.35,Default,NTP,0,0,0,,直到做出真正的了結為止
+Dialogue: 0,0:07:52.58,0:07:54.87,Default,NTP,0,0,0,,因為那是凰呀
+Dialogue: 0,0:07:55.90,0:07:57.43,Default,NTP,0,0,0,,那是凰呀啊
+Dialogue: 0,0:08:04.72,0:08:07.12,Default,NTP,0,0,0,,我能夠贏嗎
+Dialogue: 0,0:08:09.06,0:08:10.19,Default,NTP,0,0,0,,贏什麼
+Dialogue: 0,0:08:13.14,0:08:15.76,Default,NTP,0,0,0,,你還沒有注意到嗎
+Dialogue: 0,0:08:25.16,0:08:27.88,Default,NTP,0,0,0,,給我變形控制器平衡資料
+Dialogue: 0,0:08:34.07,0:08:38.10,Default,NTP,0,0,0,,五號跟九號氣缸的輸出功率最好讓它平衡過來
+Dialogue: 0,0:08:39.12,0:08:43.00,Default,NTP,0,0,0,,我想馬達的二次冷凝器可能受損了
+Dialogue: 0,0:08:45.67,0:08:49.09,Default,NTP,0,0,0,,應該有很多零件可以跟我們的車子交換
+Dialogue: 0,0:08:49.95,0:08:51.45,Default,NTP,0,0,0,,也可以提供給你哦
+Dialogue: 0,0:08:52.08,0:08:54.17,Default,NTP,0,0,0,,你…你是…
+Dialogue: 0,0:08:54.17,0:08:55.82,Default,NTP,0,0,0,,噓…
+Dialogue: 0,0:08:56.72,0:08:58.85,Default,NTP,0,0,0,,路過的技師
+Dialogue: 0,0:09:00.03,0:09:01.03,Default,NTP,0,0,0,,你別擔心
+Dialogue: 0,0:09:01.32,0:09:03.35,Default,NTP,0,0,0,,我不是來妨礙你們的
+Dialogue: 0,0:09:10.10,0:09:12.70,Default,NTP,0,0,0,,只是希望能在同等的狀態下分出勝負
+Dialogue: 0,0:09:13.66,0:09:14.37,Default,NTP,0,0,0,,他也是
+Dialogue: 0,0:09:22.40,0:09:24.22,Default,NTP,0,0,0,,他還是會繼續前進
+Dialogue: 0,0:09:30.29,0:09:32.04,Default,NTP,0,0,0,,沒法阻止他
+Dialogue: 0,0:09:33.12,0:09:34.13,Default,NTP,0,0,0,,任何人都不行
+Dialogue: 0,0:09:35.68,0:09:37.32,Default,NTP,0,0,0,,因為那是凰呀
+Dialogue: 0,0:09:38.64,0:09:40.14,Default,NTP,0,0,0,,那是凰呀啊
+Dialogue: 0,0:09:51.49,0:09:52.66,Default,NTP,0,0,0,,贏什麼
+Dialogue: 0,0:10:24.60,0:10:25.80,Default,NTP,0,0,0,,弄不壞的
+Dialogue: 0,0:10:26.24,0:10:27.93,Default,NTP,0,0,0,,用這種東西去砸
+Dialogue: 0,0:10:31.42,0:10:32.40,Default,NTP,0,0,0,,住手
+Dialogue: 0,0:10:33.17,0:10:33.94,Default,NTP,0,0,0,,放開
+Dialogue: 0,0:10:35.07,0:10:35.95,Default,NTP,0,0,0,,放開我
+Dialogue: 0,0:10:37.09,0:10:37.85,Default,NTP,0,0,0,,這種賽車
+Dialogue: 0,0:10:38.42,0:10:40.47,Default,NTP,0,0,0,,都是這賽車的錯
+Dialogue: 0,0:10:41.70,0:10:42.53,Default,NTP,0,0,0,,這種…
+Dialogue: 0,0:10:59.07,0:11:00.00,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:11:00.96,0:11:02.68,Default,NTP,0,0,0,,讓你這麼痛苦
+Dialogue: 0,0:11:05.63,0:11:07.79,Default,NTP,0,0,0,,其實我也害怕
+Dialogue: 0,0:11:10.05,0:11:16.00,Default,NTP,0,0,0,,我一真認為還沒做個了結就無法真正結束
+Dialogue: 0,0:11:18.83,0:11:20.88,Default,NTP,0,0,0,,因為那傢伙有阿斯拉
+Dialogue: 0,0:11:22.34,0:11:26.56,Default,NTP,0,0,0,,我一直拿這個藉口來敷衍自己
+Dialogue: 0,0:11:27.16,0:11:27.99,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:11:28.76,0:11:34.92,Default,NTP,0,0,0,,所以…我沒有做出了結 但並不是因為他
+Dialogue: 0,0:11:37.05,0:11:39.74,Default,NTP,0,0,0,,而是我一直太在意風見
+Dialogue: 0,0:11:41.01,0:11:43.89,Default,NTP,0,0,0,,只因為他在我輸掉的牆壁的另一頭
+Dialogue: 0,0:11:46.10,0:11:47.14,Default,NTP,0,0,0,,我輸了
+Dialogue: 0,0:11:48.07,0:11:50.37,Default,NTP,0,0,0,,輸了逃到牆壁這一頭躲避他
+Dialogue: 0,0:11:51.35,0:11:51.88,Default,NTP,0,0,0,,所以...
+Dialogue: 0,0:11:51.99,0:11:54.90,Default,NTP,0,0,0,,別說了!不要再說了
+Dialogue: 0,0:11:56.52,0:11:57.87,Default,NTP,0,0,0,,這種事都不重要了
+Dialogue: 0,0:11:58.44,0:11:59.41,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:12:00.27,0:12:03.91,Default,NTP,0,0,0,,不到達那個終點的話，我就沒法前進
+Dialogue: 0,0:12:05.53,0:12:07.08,Default,NTP,0,0,0,,所以，讓我繼續跑吧
+Dialogue: 0,0:12:10.15,0:12:15.13,Default,NTP,0,0,0,,我要用這輛車做個了結 不論輸贏
+Dialogue: 0,0:12:17.56,0:12:19.99,Default,NTP,0,0,0,,為什麼，為什麼非去不可呢
+Dialogue: 0,0:12:20.14,0:12:21.44,Default,NTP,0,0,0,,就像現在這樣...
+Dialogue: 0,0:12:23.02,0:12:23.56,Default,NTP,0,0,0,,我...
+Dialogue: 0,0:12:23.56,0:12:24.41,Default,NTP,0,0,0,,今日子
+Dialogue: 0,0:12:27.35,0:12:28.75,Default,NTP,0,0,0,,這是最後的比賽
+Dialogue: 0,0:13:00.75,0:13:03.62,Default,NTP,0,0,0,,{\fad(200,200)}{\pos(320,470)}日本杯決勝賽
+Dialogue: 0,0:13:15.04,0:13:15.83,Default,NTP,0,0,0,,走吧
+Dialogue: 0,0:13:18.20,0:13:22.80,Default,NTP,0,0,0,,我和阿斯拉不會那麼簡單就讓你輕鬆超過去哦
+Dialogue: 0,0:13:29.29,0:13:30.72,Default,NTP,0,0,0,,你不肯說嗎
+Dialogue: 0,0:13:32.71,0:13:34.17,Default,NTP,0,0,0,,「把冠軍贏回來」
+Dialogue: 0,0:13:41.89,0:13:43.03,Default,NTP,0,0,0,,那不是加賀
+Dialogue: 0,0:13:45.11,0:13:46.95,Default,NTP,0,0,0,,那不是我認識的加賀
+Dialogue: 0,0:13:47.58,0:13:48.46,Default,NTP,0,0,0,,那個人...
+Dialogue: 0,0:13:57.63,0:14:01.84,Default,NTP,0,0,0,,無所謂，反正我知道當不了明日香的替身
+Dialogue: 0,0:14:02.67,0:14:05.88,Default,NTP,0,0,0,,可是我還是喜歡隼人
+Dialogue: 0,0:14:06.74,0:14:08.15,Default,NTP,0,0,0,,這與明日香無關
+Dialogue: 0,0:14:08.98,0:14:10.22,Default,NTP,0,0,0,,這是我的心意
+Dialogue: 0,0:14:12.64,0:14:13.28,Default,NTP,0,0,0,,我走了
+Dialogue: 0,0:14:17.48,0:14:18.45,Default,NTP,0,0,0,,請加油
+Dialogue: 0,0:14:19.16,0:14:19.86,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:14:30.35,0:14:30.94,Default,NTP,0,0,0,,我贏定了
+Dialogue: 0,0:14:34.17,0:14:36.38,Default,NTP,0,0,0,,哎呀 古德利安這麼快就衝出頭
+Dialogue: 0,0:14:36.70,0:14:38.75,Default,NTP,0,0,0,,一下子就超越加賀跟風見了
+Dialogue: 0,0:14:39.02,0:14:40.48,Default,NTP,0,0,0,,不過剛才的有點...
+Dialogue: 0,0:14:48.68,0:14:49.32,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:14:55.03,0:14:56.79,Default,NTP,0,0,0,,可是第一個轉彎的是加賀
+Dialogue: 0,0:14:56.79,0:14:58.60,Default,NTP,0,0,0,,他一下子就超越了
+Dialogue: 0,0:15:00.37,0:15:01.03,Default,NTP,0,0,0,,剛才那個是...
+Dialogue: 0,0:15:01.56,0:15:02.90,Default,NTP,0,0,0,,那是完成型路線
+Dialogue: 0,0:15:03.73,0:15:04.77,Default,NTP,0,0,0,,以銳角的動作
+Dialogue: 0,0:15:04.77,0:15:06.43,Default,NTP,0,0,0,,瞬間改變行走軌道
+Dialogue: 0,0:15:06.57,0:15:09.29,Default,NTP,0,0,0,,不論內線還是外線都能輕易的超車
+Dialogue: 0,0:15:09.66,0:15:13.18,Default,NTP,0,0,0,,以較狹小的後照鏡與探測器來作為判斷是難以預測的
+Dialogue: 0,0:15:13.83,0:15:14.55,Default,NTP,0,0,0,,原來如此
+Dialogue: 0,0:15:14.88,0:15:16.67,Default,NTP,0,0,0,,怪不得安利會看成兩輛
+Dialogue: 0,0:15:18.16,0:15:18.72,Default,NTP,0,0,0,,可是
+Dialogue: 0,0:15:24.90,0:15:26.56,Default,NTP,0,0,0,,這招對我已經行不通了
+Dialogue: 0,0:15:30.24,0:15:32.59,Default,NTP,0,0,0,,呀 比賽一開始就有著白熱化的展開
+Dialogue: 0,0:15:32.94,0:15:36.00,Default,NTP,0,0,0,,古德利安在開跑時只短暫的領先一陣子
+Dialogue: 0,0:15:36.08,0:15:39.09,Default,NTP,0,0,0,,風見與加賀一下子就超越他
+Dialogue: 0,0:15:39.90,0:15:43.11,Default,NTP,0,0,0,,這是開跑時的慢動作影像嗎
+Dialogue: 0,0:15:45.33,0:15:47.33,Default,NTP,0,0,0,,看來古德利安搶跑了呢
+Dialogue: 0,0:15:55.08,0:15:57.14,Default,NTP,0,0,0,,領先第一的是加賀嗎
+Dialogue: 0,0:15:57.43,0:15:59.72,Default,NTP,0,0,0,,可是風見也緊追不放
+Dialogue: 0,0:16:17.06,0:16:18.21,Default,NTP,0,0,0,,Lifting Turn
+Dialogue: 0,0:16:18.21,0:16:19.76,Default,NTP,0,0,0,,風見果然厲害
+Dialogue: 0,0:16:20.06,0:16:24.06,Default,NTP,0,0,0,,就好像是勝利宣言的無敵超車技術
+Dialogue: 0,0:16:25.19,0:16:26.85,Default,NTP,0,0,0,,請讓我留在這裏
+Dialogue: 0,0:16:28.31,0:16:30.15,Default,NTP,0,0,0,,今天我的心一直無法平靜
+Dialogue: 0,0:16:31.11,0:16:32.36,Default,NTP,0,0,0,,無法留在那邊看
+Dialogue: 0,0:16:38.79,0:16:42.10,Default,NTP,0,0,0,,轉入第二個轉彎時機油漏了一些
+Dialogue: 0,0:16:42.80,0:16:44.65,Default,NTP,0,0,0,,隼人應該知道的
+Dialogue: 0,0:16:44.65,0:16:46.12,Default,NTP,0,0,0,,但你還是告訴他吧
+Dialogue: 0,0:16:46.56,0:16:47.29,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:16:52.54,0:16:57.05,Default,NTP,0,0,0,,我和阿斯拉不會那麼簡單就讓你超過的
+Dialogue: 0,0:16:57.62,0:16:59.26,Default,NTP,0,0,0,,我知道
+Dialogue: 0,0:16:59.54,0:17:00.77,Default,NTP,0,0,0,,但是我才是第一
+Dialogue: 0,0:17:11.90,0:17:12.47,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:17:15.82,0:17:17.77,Default,NTP,0,0,0,,兩者的差距竟然是0.2
+Dialogue: 0,0:17:18.12,0:17:22.22,Default,NTP,0,0,0,,為了獲勝加賀拚命想搶在風見前頭
+Dialogue: 0,0:17:22.69,0:17:26.37,Default,NTP,0,0,0,,哎呀 加賀又在彎道挑戰了
+Dialogue: 0,0:17:41.05,0:17:42.03,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:17:42.84,0:17:44.09,Default,NTP,0,0,0,,還是無法超越
+Dialogue: 0,0:17:44.09,0:17:45.98,Default,NTP,0,0,0,,風見的防備就好像鐵壁一樣
+Dialogue: 0,0:17:46.37,0:17:47.95,Default,NTP,0,0,0,,那傢伙知道的
+Dialogue: 0,0:17:48.49,0:17:50.42,Default,NTP,0,0,0,,「零的領域」的事了
+Dialogue: 0,0:17:52.87,0:17:55.72,Default,NTP,0,0,0,,難道只能等他出錯嗎，可惡
+Dialogue: 0,0:17:55.72,0:17:57.68,Default,NTP,0,0,0,,看 風見依然領先前頭
+Dialogue: 0,0:17:57.89,0:17:59.83,Default,NTP,0,0,0,,在第二位猛追的加賀
+Dialogue: 0,0:18:00.03,0:18:01.86,Default,NTP,0,0,0,,第三位是卡爾·里胥特·馮·蘭德爾
+Dialogue: 0,0:18:02.34,0:18:04.09,Default,NTP,0,0,0,,而從後頭追上來的古德利安
+Dialogue: 0,0:18:04.09,0:18:06.91,Default,NTP,0,0,0,,已經落後一圈排位第七
+Dialogue: 0,0:18:20.91,0:18:22.18,Default,NTP,0,0,0,,雖然我有預料到
+Dialogue: 0,0:18:22.18,0:18:23.77,Default,NTP,0,0,0,,但這情況好得太不尋常了
+Dialogue: 0,0:18:24.28,0:18:24.93,Default,NTP,0,0,0,,阿斯拉達
+Dialogue: 0,0:18:24.99,0:18:28.81,Default,NTP,0,0,0,,引擎及驅動系統檢查正在同時進行
+Dialogue: 0,0:18:29.34,0:18:30.58,Default,NTP,0,0,0,,目前沒有問題
+Dialogue: 0,0:18:31.06,0:18:32.76,Default,NTP,0,0,0,,最大的問題應該是油量吧
+Dialogue: 0,0:18:35.19,0:18:36.09,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:18:36.21,0:18:38.22,Default,NTP,0,0,0,,但對方情況應該也差不多
+Dialogue: 0,0:18:39.19,0:18:42.53,Default,NTP,0,0,0,,加速器所消耗的油量彼此應該差不多
+Dialogue: 0,0:19:03.26,0:19:04.01,Default,NTP,0,0,0,,隼人
+Dialogue: 0,0:19:04.16,0:19:06.44,Default,NTP,0,0,0,,前半場要盡量少用加速器
+Dialogue: 0,0:19:07.08,0:19:08.43,Default,NTP,0,0,0,,照這樣下去
+Dialogue: 0,0:19:08.60,0:19:10.55,Default,NTP,0,0,0,,輪胎只能撐到21圈左右
+Dialogue: 0,0:19:11.08,0:19:11.74,Default,NTP,0,0,0,,阿斯拉達
+Dialogue: 0,0:19:11.95,0:19:13.74,Default,NTP,0,0,0,,時機就由你跟隼人判斷了
+Dialogue: 0,0:19:14.42,0:19:15.01,Default,NTP,0,0,0,,明白
+Dialogue: 0,0:19:15.23,0:19:18.27,Default,NTP,0,0,0,,看 領先前頭的車隊進入第22圈
+Dialogue: 0,0:19:18.56,0:19:20.93,Default,NTP,0,0,0,,各維修站差不多準備換輪胎了
+Dialogue: 0,0:19:21.66,0:19:24.27,Default,NTP,0,0,0,,風見與加賀的差距太短了
+Dialogue: 0,0:19:24.77,0:19:26.77,Default,NTP,0,0,0,,進維修站的時間變得很重要
+Dialogue: 0,0:19:27.55,0:19:29.01,Default,NTP,0,0,0,,看 風見進入維修站
+Dialogue: 0,0:19:29.15,0:19:30.89,Default,NTP,0,0,0,,噢 加賀也是
+Dialogue: 0,0:19:42.02,0:19:44.89,Default,NTP,0,0,0,,但是我就是喜歡隼人
+Dialogue: 0,0:19:45.52,0:19:46.92,Default,NTP,0,0,0,,與明日香無關
+Dialogue: 0,0:19:47.36,0:19:48.65,Default,NTP,0,0,0,,這是我的心意
+Dialogue: 0,0:19:50.42,0:19:51.26,Default,NTP,0,0,0,,心意
+Dialogue: 0,0:19:53.17,0:19:54.34,Default,NTP,0,0,0,,我的心意是...
+Dialogue: 0,0:20:01.15,0:20:02.00,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:20:04.04,0:20:05.03,Default,NTP,0,0,0,,排名依然不變
+Dialogue: 0,0:20:05.24,0:20:06.96,Default,NTP,0,0,0,,兩人的纏鬥又展開了
+Dialogue: 0,0:20:32.81,0:20:34.81,Default,NTP,0,0,0,,可惡，沒有破綻
+Dialogue: 0,0:20:34.98,0:20:37.30,Default,NTP,0,0,0,,難道我要一直讓他領先嗎
+Dialogue: 0,0:20:41.43,0:20:42.53,Default,NTP,0,0,0,,來吧
+Dialogue: 0,0:21:00.36,0:21:01.10,Default,NTP,0,0,0,,蘭德爾
+Dialogue: 0,0:21:13.85,0:21:17.54,Default,NTP,0,0,0,,自己在那裏礙手礙腳怎麼沒注意到啊你這個笨蛋
+Dialogue: 0,0:21:30.83,0:21:32.72,Default,NTP,0,0,0,,為什麼，為什麼非去不可呢
+Dialogue: 0,0:21:32.86,0:21:33.83,Default,NTP,0,0,0,,就像現在這樣...
+Dialogue: 0,0:21:34.69,0:21:35.52,Default,NTP,0,0,0,,我...
+Dialogue: 0,0:21:36.00,0:21:39.74,Default,NTP,0,0,0,,沒有到達終點的我是無法前進
+Dialogue: 0,0:21:46.28,0:21:47.03,Default,NTP,0,0,0,,外線
+Dialogue: 0,0:21:59.43,0:22:03.05,Default,NTP,0,0,0,,看 這演變成白熱化激鬥的最終戰
+Dialogue: 0,0:22:03.35,0:22:04.91,Default,NTP,0,0,0,,只剩下3圈了
+Dialogue: 0,0:22:05.22,0:22:07.64,Default,NTP,0,0,0,,風見能夠擺脫加賀到最後嗎
+Dialogue: 0,0:22:07.82,0:22:10.20,Default,NTP,0,0,0,,還是說，加賀能反敗為勝呢
+Dialogue: 0,0:22:18.31,0:22:20.82,Default,NTP,0,0,0,,去…贏吧…
+Dialogue: 0,0:22:22.17,0:22:23.40,Default,NTP,0,0,0,,不是說這是最後一次嗎
+Dialogue: 0,0:22:24.90,0:22:28.28,Default,NTP,0,0,0,,最後的比賽 你想就這樣輸掉嗎
+Dialogue: 0,0:22:32.90,0:22:33.74,Default,NTP,0,0,0,,能贏的
+Dialogue: 0,0:22:34.54,0:22:37.14,Default,NTP,0,0,0,,是你的話一定能贏的，加賀
+Dialogue: 0,0:22:42.07,0:22:43.14,Default,NTP,0,0,0,,剩下3圈
+Dialogue: 0,0:22:43.38,0:22:44.56,Default,NTP,0,0,0,,變形和加速器...
+Dialogue: 0,0:22:46.46,0:22:47.32,Default,NTP,0,0,0,,阿斯拉達
+Dialogue: 0,0:22:47.54,0:22:49.18,Default,NTP,0,0,0,,我的計算也一樣
+Dialogue: 0,0:22:49.26,0:22:52.22,Default,NTP,0,0,0,,加速器最多只能再使用兩次
+Dialogue: 0,0:22:53.18,0:22:54.00,Default,NTP,0,0,0,,知道了
+Dialogue: 0,0:22:55.77,0:22:56.82,Default,NTP,0,0,0,,剩下兩次
+Dialogue: 0,0:23:20.05,0:23:20.76,Default,NTP,0,0,0,,能贏的
+Dialogue: 0,0:23:21.41,0:23:22.90,Default,NTP,0,0,0,,是你的話一定能贏的
+Dialogue: 0,0:24:29.07,0:24:29.98,Default,NTP,0,0,0,,超越了
+Dialogue: 0,0:24:30.13,0:24:33.27,Default,NTP,0,0,0,,加賀終於超越風見了
+Dialogue: 0,0:24:34.07,0:24:36.80,Default,NTP,0,0,0,,什麼都沒感覺到…
+Dialogue: 0,0:24:38.08,0:24:39.30,Default,NTP,0,0,0,,加賀的氣息…
+Dialogue: 0,0:24:39.95,0:24:43.37,Default,NTP,0,0,0,,看 最後一圈，這是最後一圈
+Dialogue: 0,0:24:43.74,0:24:45.60,Default,NTP,0,0,0,,可是風見一直咬緊不放
+Dialogue: 0,0:24:45.60,0:24:47.41,Default,NTP,0,0,0,,加賀能甩掉他嗎
+Dialogue: 0,0:24:49.03,0:24:49.78,Default,NTP,0,0,0,,要追上的話…
+Dialogue: 0,0:24:50.83,0:24:51.48,Default,NTP,0,0,0,,阿斯拉達
+Dialogue: 0,0:24:51.78,0:24:52.61,Default,NTP,0,0,0,,明白
+Dialogue: 0,0:25:08.92,0:25:10.03,Default,NTP,0,0,0,,最後彎道
+Dialogue: 0,0:25:22.68,0:25:23.51,Default,NTP,0,0,0,,被超了
+Dialogue: 0,0:25:27.26,0:25:28.25,Default,NTP,0,0,0,,Check Out
+Dialogue: 0,0:26:01.79,0:26:03.53,Default,NTP,0,0,0,,最後的加速
+Dialogue: 0,0:26:03.63,0:26:06.86,Default,NTP,0,0,0,,冠軍是布利德·加賀
+Dialogue: 0,0:26:08.29,0:26:09.46,Default,NTP,0,0,0,,你...
+Dialogue: 0,0:26:18.72,0:26:19.49,Default,NTP,0,0,0,,哥哥…
+Dialogue: 0,0:26:39.39,0:26:40.54,Default,NTP,0,0,0,,歡迎回來
+Dialogue: 0,0:26:42.22,0:26:42.87,Default,NTP,0,0,0,,我回來了
+Dialogue: 0,0:26:52.75,0:26:55.60,Default,NTP,0,0,0,,{\fad(400,200)}{\pos(310,470)}成田機場   候機大廳
+Dialogue: 0,0:26:57.05,0:26:59.71,Default,NTP,0,0,0,,嗨 只打個電話給你 不好意思
+Dialogue: 0,0:27:01.28,0:27:03.03,Default,NTP,0,0,0,,聽說你要回去
+Dialogue: 0,0:27:06.09,0:27:08.83,Default,NTP,0,0,0,,你終於達成了願望從賽車界引退了
+Dialogue: 0,0:27:09.56,0:27:12.14,Default,NTP,0,0,0,,看來凰呀幫上你的忙了
+Dialogue: 0,0:27:13.86,0:27:16.42,Default,NTP,0,0,0,,贏得真漂亮，恭喜你
+Dialogue: 0,0:27:17.74,0:27:19.29,Default,NTP,0,0,0,,那是唯一一次的勝利
+Dialogue: 0,0:27:20.28,0:27:22.79,Default,NTP,0,0,0,,真正厲害的還是他
+Dialogue: 0,0:27:24.57,0:27:26.47,Default,NTP,0,0,0,,不過，我終於做了個了結了
+Dialogue: 0,0:27:28.34,0:27:29.24,Default,NTP,0,0,0,,你也是吧
+Dialogue: 0,0:27:31.68,0:27:32.40,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:27:34.29,0:27:35.39,Default,NTP,0,0,0,,再見
+Dialogue: 0,0:27:35.49,0:27:37.75,Default,NTP,0,0,0,,我想這次不會再見了吧
+Dialogue: 0,0:27:38.80,0:27:39.90,Default,NTP,0,0,0,,我想也是
+Dialogue: 0,0:27:40.80,0:27:41.45,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:27:44.16,0:27:44.89,Default,NTP,0,0,0,,謝謝你
+Dialogue: 0,0:27:55.60,0:27:58.09,Default,NTP,0,0,0,,聽說你遞出辭呈了
+Dialogue: 0,0:28:01.39,0:28:03.77,Default,NTP,0,0,0,,那是你辛苦拿到的冠軍哦
+Dialogue: 0,0:28:05.30,0:28:08.63,Default,NTP,0,0,0,,現在已經沒心思做下去了
+Dialogue: 0,0:28:10.61,0:28:12.23,Default,NTP,0,0,0,,沒有你的車隊
+Dialogue: 0,0:28:15.64,0:28:16.82,Default,NTP,0,0,0,,但是總有一天…
+Dialogue: 0,0:28:18.96,0:28:20.24,Default,NTP,0,0,0,,總有一天還能…
+Dialogue: 0,0:28:22.42,0:28:26.26,Default,NTP,0,0,0,,培養出不遜色於你的車手…給你看…
+Dialogue: 0,0:28:27.83,0:28:29.38,Default,NTP,0,0,0,,你一定辦得到的
+Dialogue: 0,0:28:30.16,0:28:33.49,Default,NTP,0,0,0,,因為你可是我們的女王啊
+Dialogue: 0,0:28:36.49,0:28:37.38,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:28:44.58,0:28:46.40,Default,NTP,0,0,0,,有機會過來吧
+Dialogue: 0,0:28:48.87,0:28:52.18,Default,NTP,0,0,0,,到時，我會讓你坐在機車後座的
+Dialogue: 0,0:29:00.81,0:29:01.91,Default,NTP,0,0,0,,喂 布利德
+Dialogue: 0,0:29:02.40,0:29:03.69,Default,NTP,0,0,0,,我不是布利德
+Dialogue: 0,0:29:04.89,0:29:06.57,Default,NTP,0,0,0,,我叫城太郎
+Dialogue: 0,0:30:51.96,0:30:53.22,oped-jp,NTP,0,0,0,,{\fad(50,200)}Days…
+Dialogue: 0,0:30:51.96,0:30:53.22,oped-cn,NTP,0,0,0,,{\fad(50,200)}Days…
+Dialogue: 0,0:30:54.28,0:30:55.98,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K30}水{\K20}を{\K10}{\K45}求{\K20}め
+Dialogue: 0,0:30:54.28,0:30:55.98,oped-cn,NTP,0,0,0,,{\fad(50,200)}祈求著雨水
+Dialogue: 0,0:30:57.30,0:31:01.90,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K50}进{\K40}む{\K100}　{\K40}野{\K60}生{\K10}{\K20}の{\K10}{\K30}群{\K10}{\K20}れ
+Dialogue: 0,0:30:57.30,0:31:01.90,oped-cn,NTP,0,0,0,,{\fad(50,200)}讓萬物得以生存
+Dialogue: 0,0:31:03.16,0:31:04.98,oped-jp,NTP,0,0,0,,{\fad(50,200)}So daze…
+Dialogue: 0,0:31:03.16,0:31:04.98,oped-cn,NTP,0,0,0,,{\fad(50,200)}So daze…
+Dialogue: 0,0:31:05.99,0:31:07.77,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K13}生{\K13}き{\K13}る{\K35}た{\K08}{\K20}め{\K20}に
+Dialogue: 0,0:31:05.99,0:31:07.77,oped-cn,NTP,0,0,0,,{\fad(50,200)}為了生存下去
+Dialogue: 0,0:31:09.12,0:31:13.58,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}贪{\K40}欲{\K30}な{\K40}{\K80}战{\K20}い{\K80}挑{\K70}む
+Dialogue: 0,0:31:09.12,0:31:13.58,oped-cn,NTP,0,0,0,,{\fad(50,200)}向貪慾宣戰
+Dialogue: 0,0:31:13.95,0:31:16.94,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K100}幸{\K10}{\K20}せ{\K150}は
+Dialogue: 0,0:31:13.95,0:31:16.94,oped-cn,NTP,0,0,0,,{\fad(50,200)}幸福
+Dialogue: 0,0:31:19.71,0:31:22.37,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}そ{\K20}れ{\K10}{\K40}ぞ{\K20}れ{\K10}{\K120}に
+Dialogue: 0,0:31:19.71,0:31:22.37,oped-cn,NTP,0,0,0,,{\fad(50,200)}對不同的人來說
+Dialogue: 0,0:31:25.49,0:31:28.38,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}违{\K30}う{\K10}{\K30}も{\K20}の{\K120}さ
+Dialogue: 0,0:31:25.49,0:31:28.38,oped-cn,NTP,0,0,0,,{\fad(50,200)}是不同的東西
+Dialogue: 0,0:31:31.03,0:31:33.67,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}こ{\K40}の{\K80}两{\K20}手{\K70}で
+Dialogue: 0,0:31:31.03,0:31:33.67,oped-cn,NTP,0,0,0,,{\fad(50,200)}單憑這雙手
+Dialogue: 0,0:31:36.12,0:31:38.78,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K70}{\fnSeichoShonanGyoshoEXP}掴{\fnHGSGyoshotai}{\K30}む{\K40}し{\K40}か{\K20}な{\K40}い
+Dialogue: 0,0:31:36.12,0:31:38.78,oped-cn,NTP,0,0,0,,{\fad(50,200)}是無法抓住的
+Dialogue: 0,0:31:39.16,0:31:42.50,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K80}人{\K20}の{\K10}{\K70}爱{\K20}{\K20}情{\K40}は
+Dialogue: 0,0:31:39.16,0:31:42.50,oped-cn,NTP,0,0,0,,{\fad(50,200)}人的愛情
+Dialogue: 0,0:31:42.77,0:31:45.46,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}少{\K20}し{\K10}{\K15}ず{\K15}つ{\K20} {\K20}そ{\K20}の{\K65}色{\K15}を
+Dialogue: 0,0:31:42.77,0:31:45.46,oped-cn,NTP,0,0,0,,{\fad(50,200)}多少是由這顏色
+Dialogue: 0,0:31:45.64,0:31:48.91,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}变{\K20}え{\K20}て{\K10}{\K30}い行{\K30}く{\K10}{\K10}け{\K20}れ{\K150}ど
+Dialogue: 0,0:31:45.64,0:31:48.91,oped-cn,NTP,0,0,0,,{\fad(50,200)}慢慢轉變而來的
+Dialogue: 0,0:31:50.80,0:31:54.13,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K110}慈{\K30}し{\K30}み{\K20}{\K15}合{\K20}え{\K30}る
+Dialogue: 0,0:31:50.80,0:31:54.13,oped-cn,NTP,0,0,0,,{\fad(50,200)}只要互相愛惜
+Dialogue: 0,0:31:54.52,0:31:58.42,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}绊{\K10}{\K20}で{\K70}结{\K20}ば{\K10}{\K25}れ{\K150}る
+Dialogue: 0,0:31:54.52,0:31:58.42,oped-cn,NTP,0,0,0,,{\fad(50,200)}絆結就能將雙方緊緊聯結
+Dialogue: 0,0:31:58.83,0:32:02.17,oped-jp,NTP,0,0,0,,{\fad(50,200)}Pray…
+Dialogue: 0,0:31:58.83,0:32:02.17,oped-cn,NTP,0,0,0,,{\fad(50,200)}Pray…
+Dialogue: 0,0:32:13.76,0:32:19.79,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}Wow{\K30} {\K20}Wow{\K30} {\K20}Wow{\K30} {\K20}Wow{\K30} {\K85}For{\K30}ever
+Dialogue: 0,0:32:13.76,0:32:19.79,oped-cn,NTP,0,0,0,,{\fad(50,200)}Wow Wow Wow Wow Forever
+Dialogue: 0,0:32:25.11,0:32:27.87,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K30}どんな{\K30}{\K30}时も{\K30}{\K20}　{\K30}见つめ{\K30}{\K35}てるよ
+Dialogue: 0,0:32:25.11,0:32:27.87,oped-cn,NTP,0,0,0,,{\fad(50,200)}無論何時 都凝視著你
+Dialogue: 0,0:32:27.96,0:32:33.42,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K30}苍く{\K40}{\K30}碧く{\K40}{\K80}辉く{\K25}惑{\K40}星{\K20}の{\K30}{\K20}よ{\K20}う{\K130}に
+Dialogue: 0,0:32:27.96,0:32:33.42,oped-cn,NTP,0,0,0,,{\fad(50,200)}像藍色的閃耀行星一般
+Dialogue: 0,0:32:33.84,0:32:36.53,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K30}君{\K05}{\K10}だ{\K20}{\K10}け{\K150}を…
+Dialogue: 0,0:32:33.84,0:32:36.53,oped-cn,NTP,0,0,0,,{\fad(50,200)}眼中只有{\fn华文新魏}你
+Dialogue: 0,0:29:26.04,0:29:28.81,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(390,395)}ブリード加贺\N(加贺 城太郎)\N关　俊彦
+Dialogue: 0,0:29:32.08,0:29:35.97,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(390,395)}葵　今日子\N天野由梨
+Dialogue: 0,0:29:53.02,0:29:55.99,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(520,395)}フランツ{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}ハイネル\N置鲇龙太郎
+Dialogue: 0,0:29:53.02,0:29:55.99,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(150,395)}ジャッキー{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}グーデリアン\N岛田　敏
+Dialogue: 0,0:30:04.47,0:30:06.04,声优表,NTP,0,0,0,,{\move(250,395,200,415,500,0)}カール{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}リヒター{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}フォン{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}ランドル\N松冈洋子
+Dialogue: 0,0:30:03.55,0:30:04.47,声优表,NTP,0,0,0,,{\fad(200,0)}{\pos(250,395)}カール{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}リヒター{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}フォン{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}ランドル\N松冈洋子
+Dialogue: 0,0:30:11.16,0:30:13.00,声优表,NTP,0,0,0,,{\fad(600,0)}{\pos(320,400)}菅生   修\N(シューマッハ)\N速水　奖
+Dialogue: 0,0:30:11.16,0:30:13.00,声优表,NTP,0,0,0,,{\fad(600,0)}{\pos(500,360)}アンリ\N结城  比吕
+Dialogue: 0,0:30:11.16,0:30:13.00,声优表,NTP,0,0,0,,{\fad(600,0)}{\pos(160,360)}クレア{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}フォートラン\N冬马由美
+Dialogue: 0,0:30:13.05,0:30:13.97,声优表,NTP,0,0,0,,{\fad(200,0)}{\pos(190,395)}彩{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}スタンフォード\N久川 绫
+Dialogue: 0,0:30:13.97,0:30:19.78,声优表,NTP,0,0,0,,{\move(190,395,130,300,5100,0)}彩{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}スタンフォード\N久川 绫
+Dialogue: 0,0:30:16.48,0:30:19.78,声优表,NTP,0,0,0,,{\fad(200,200)}{\move(550,425,420,350,2600,0)}菅生あすか\N三石琴乃
+Dialogue: 0,0:30:21.95,0:30:22.83,声优表,NTP,0,0,0,,{\fad(100,100)}{\pos(490,395)}クレア{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}フォートラン\N冬马由美
+Dialogue: 0,0:30:32.55,0:30:34.39,声优表,NTP,0,0,0,,{\fad(200,200)}{\move(190,308,190,395,1600,0)}シンティ\N色川京子
+Dialogue: 0,0:30:32.55,0:30:34.39,声优表,NTP,0,0,0,,{\fad(200,200)}{\move(450,308,450,395,1600,0)}篠原めぐみ\N柊　美冬
+Dialogue: 0,0:30:34.80,0:30:37.29,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(250,395)}风见ハヤト\N金丸淳一
+Dialogue: 0,0:30:34.80,0:30:37.29,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(390,395)}菅生あすか\N三石琴乃
+Dialogue: 0,0:30:37.50,0:30:39.76,声优表,NTP,0,0,0,,{\fad(200,200)}{\move(420,395,380,395,2050,0)}アスラーダ\N小野健一
+Dialogue: 0,0:30:43.52,0:30:46.23,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(180,355)}结城レナ\N川澄绫子
+Dialogue: 0,0:30:43.52,0:30:46.23,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(450,355)}司馬 誠一郎
+Dialogue: 0,0:31:03.19,0:31:13.41,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(450,355)}名雲 京志郎\N池田秀一
+Dialogue: 0,0:31:27.23,0:31:28.07,声优表,NTP,0,0,0,,{\fad(100,0)}{\pos(450,355)}天城大介\N一條和矢
+Dialogue: 0,0:31:28.07,0:31:29.50,声优表,NTP,0,0,0,,{\fad(100,0)}{\pos(450,355)}リサ{\fnDFHeiMedium-UN}·{\fnSeichoShonanGyoshoEXP}ハイネル
+Dialogue: 0,0:31:32.45,0:31:35.26,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(390,395)}新條直輝\N綠川　光
+Dialogue: 0,0:32:11.30,0:32:14.60,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(240,395)}菅生あすか\N三石琴乃
+Dialogue: 0,0:32:14.95,0:32:17.18,声优表,NTP,0,0,0,,{\fad(200,200)}{\pos(390,395)}风见ハヤト\N金丸淳一
+

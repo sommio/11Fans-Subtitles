@@ -1,0 +1,716 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Denpa_teki_na_Kanojo~Happiness Game~
+Original Script: 华盟字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正大黑_GBK,27,&H00FFFFFF,&HF0000000,&H000F0F0F,&HF0000000,-1,0,0,0,100,100,0,0,1,2,1,2,30,30,10,134
+Style: EDJ,DFHKStdKai-B5,20,&H000F0F0F,&HF0000000,&H00FFFFFF,&H801894A5,-1,0,0,0,100,100,0,0,1,2,1,1,30,30,10,1
+Style: EDC,方正楷体_GBK,22,&H000F0F0F,&HF0000000,&H00FFFFFF,&H801894A5,-1,0,0,0,100,100,0,0,1,2,1,1,30,30,10,134
+Style: logo2,方正大黑_GBK,35,&H00FFFFFF,&HF0FFFFFF,&H00FFFFFF,&H000F0F0F,-1,0,0,0,100,100,0,0,1,0,4,2,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:44:12.05,0:44:16.05,zhengwen,NTP,0,0,0,,{\an8\fad(200,200)\fs20}本字幕僅限試看之用，禁止用於商業行為及未經同意修改其中任何內容，\N並希望您能在下載後24小時內刪除，如您喜歡本作品，請支持購買正版。\N若因私自散佈傳播造成法律及相關一切問題，華盟字幕社概不負責。
+Dialogue: 0,0:44:16.05,0:44:19.05,zhengwen,NTP,0,0,0,,{\fad(200,200)\an8\fs20} 片源：XO；翻譯：spirit ZERO；\N校對：NT000A ；後期：eyre15gzc。
+Dialogue: 0,0:00:02.25,0:00:04.52,zhengwen,NTP,0,0,0,,{\fad(250,0)\pos(220,250)}我想得到幸福
+Dialogue: 0,0:00:26.09,0:00:28.42,zhengwen,NTP,0,0,0,,{\fad(250,0)}我想得到幸福
+Dialogue: 0,0:00:30.66,0:00:32.25,zhengwen,NTP,0,0,0,,{\fad(200,0)}從小時候就一直這麼想
+Dialogue: 0,0:00:35.95,0:00:37.17,zhengwen,NTP,0,0,0,,我想得到幸福
+Dialogue: 0,0:00:42.04,0:00:43.76,zhengwen,NTP,0,0,0,,誰都會有這樣的願望
+Dialogue: 0,0:00:46.34,0:00:47.48,zhengwen,NTP,0,0,0,,{\fad(100,0)}但是 ——
+Dialogue: 0,0:00:47.76,0:00:50.19,zhengwen,NTP,0,0,0,,{\fad(100,0)}怎麼做才能得到幸福呢？
+Dialogue: 0,0:00:53.22,0:00:55.28,zhengwen,NTP,0,0,0,,—— 我想得到幸福
+Dialogue: 0,0:00:59.90,0:01:02.03,zhengwen,NTP,0,0,0,,{\fad(200,0)\an9\fs20}就是他!!
+Dialogue: 0,0:01:02.31,0:01:04.91,zhengwen,NTP,0,0,0,,{\fad(100,0)}我想得到幸福 ——
+Dialogue: 0,0:01:12.95,0:01:15.67,logo2,NTP,0,0,0,,{\fad(2100,0)\pos(180,360)}幸福遊戲
+Dialogue: 0,0:01:15.96,0:01:17.31,zhengwen,NTP,0,0,0,,你這臭流氓！
+Dialogue: 0,0:01:17.41,0:01:18.46,zhengwen,NTP,0,0,0,,不是我幹的！
+Dialogue: 0,0:01:18.61,0:01:22.20,zhengwen,NTP,0,0,0,,明明干了！  就是你剛才摸我屁股！
+Dialogue: 0,0:01:22.58,0:01:24.06,zhengwen,NTP,0,0,0,,眼神還那麼拽！
+Dialogue: 0,0:01:24.15,0:01:26.66,zhengwen,NTP,0,0,0,,犯人別在這囉囉嗦嗦了！
+Dialogue: 0,0:01:27.25,0:01:27.72,zhengwen,NTP,0,0,0,,怎麼回事？
+Dialogue: 0,0:01:28.20,0:01:30.52,zhengwen,NTP,0,0,0,,這傢伙摸我的屁股
+Dialogue: 0,0:01:31.13,0:01:33.02,zhengwen,NTP,0,0,0,,這傢伙絕對是慣犯
+Dialogue: 0,0:01:33.14,0:01:34.34,zhengwen,NTP,0,0,0,,請判他死刑
+Dialogue: 0,0:01:34.47,0:01:36.80,zhengwen,NTP,0,0,0,,對對  這種垃圾死掉算了
+Dialogue: 0,0:01:37.10,0:01:40.83,zhengwen,NTP,0,0,0,,我知道了  那這個男人就交給我們吧
+Dialogue: 0,0:01:41.12,0:01:42.57,zhengwen,NTP,0,0,0,,現在就聯繫警方
+Dialogue: 0,0:01:42.87,0:01:44.64,zhengwen,NTP,0,0,0,,耍流氓被抓個正著
+Dialogue: 0,0:01:45.32,0:01:47.52,zhengwen,NTP,0,0,0,,找什麼借口都沒用！
+Dialogue: 0,0:01:47.82,0:01:48.56,zhengwen,NTP,0,0,0,,可惡！
+Dialogue: 0,0:01:48.76,0:01:49.73,zhengwen,NTP,0,0,0,,等一下！
+Dialogue: 0,0:01:50.03,0:01:51.68,zhengwen,NTP,0,0,0,,他才沒有耍流氓呢！
+Dialogue: 0,0:01:52.01,0:01:54.12,zhengwen,NTP,0,0,0,,你是誰啊 ！給我閃一邊去！
+Dialogue: 0,0:01:54.26,0:01:55.48,zhengwen,NTP,0,0,0,,跟你沒關係吧！
+Dialogue: 0,0:01:55.67,0:01:56.82,zhengwen,NTP,0,0,0,,關係…
+Dialogue: 0,0:01:59.04,0:01:59.84,zhengwen,NTP,0,0,0,,有關係！
+Dialogue: 0,0:02:00.07,0:02:01.77,zhengwen,NTP,0,0,0,,我是他的女朋友
+Dialogue: 0,0:02:02.16,0:02:03.02,zhengwen,NTP,0,0,0,,喂  光！
+Dialogue: 0,0:02:03.77,0:02:05.16,zhengwen,NTP,0,0,0,,那又怎麼樣？
+Dialogue: 0,0:02:05.21,0:02:07.14,zhengwen,NTP,0,0,0,,所以他不可能耍流氓啊
+Dialogue: 0,0:02:07.67,0:02:10.66,zhengwen,NTP,0,0,0,,因為我已經充分滿足他了
+Dialogue: 0,0:02:14.89,0:02:16.11,zhengwen,NTP,0,0,0,,好了  走吧
+Dialogue: 0,0:02:16.61,0:02:18.24,zhengwen,NTP,0,0,0,,開什麼玩笑！
+Dialogue: 0,0:02:18.56,0:02:22.36,zhengwen,NTP,0,0,0,,這也太奇怪了吧！碰巧女朋友出現在這裏
+Dialogue: 0,0:02:22.79,0:02:24.57,zhengwen,NTP,0,0,0,,你別撒謊了！
+Dialogue: 0,0:02:35.66,0:02:37.79,zhengwen,NTP,0,0,0,,得救了  謝謝你  光
+Dialogue: 0,0:02:39.19,0:02:42.83,zhengwen,NTP,0,0,0,,要不是你來了  我要麼被抓  要麼大打出手
+Dialogue: 0,0:02:43.87,0:02:46.96,zhengwen,NTP,0,0,0,,怎麼都會被警察抓走吧
+Dialogue: 0,0:02:47.11,0:02:48.08,zhengwen,NTP,0,0,0,,完了…
+Dialogue: 0,0:02:48.18,0:02:48.64,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:02:48.84,0:02:50.64,zhengwen,NTP,0,0,0,,一切都完了！
+Dialogue: 0,0:02:51.77,0:02:57.29,zhengwen,NTP,0,0,0,,被你這金髮混蛋奪去了初吻  一切都完了啊！
+Dialogue: 0,0:02:59.08,0:02:59.67,zhengwen,NTP,0,0,0,,喂！
+Dialogue: 0,0:03:01.91,0:03:05.22,zhengwen,NTP,0,0,0,,什麼嘛！竟趁亂幹些不知羞恥的事情！
+Dialogue: 0,0:03:05.37,0:03:06.96,zhengwen,NTP,0,0,0,,你這好色的金髮混蛋！
+Dialogue: 0,0:03:07.19,0:03:09.19,zhengwen,NTP,0,0,0,,你真是卑鄙無恥啊！
+Dialogue: 0,0:03:09.34,0:03:12.87,zhengwen,NTP,0,0,0,,趁著少女弱勢的時候  又吻又抱
+Dialogue: 0,0:03:12.97,0:03:14.52,zhengwen,NTP,0,0,0,,無法無天了嗎！
+Dialogue: 0,0:03:14.63,0:03:15.90,zhengwen,NTP,0,0,0,,不對  明明是你吻…
+Dialogue: 0,0:03:15.92,0:03:17.04,zhengwen,NTP,0,0,0,,明明是你！？
+Dialogue: 0,0:03:17.11,0:03:18.48,zhengwen,NTP,0,0,0,,啊  抱歉  是我不對
+Dialogue: 0,0:03:18.69,0:03:19.89,zhengwen,NTP,0,0,0,,對  全都是…
+Dialogue: 0,0:03:20.23,0:03:22.36,zhengwen,NTP,0,0,0,,全都是你的錯！
+Dialogue: 0,0:03:24.74,0:03:25.78,zhengwen,NTP,0,0,0,,給我忘掉
+Dialogue: 0,0:03:26.10,0:03:26.63,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:03:27.18,0:03:29.20,zhengwen,NTP,0,0,0,,今天的事全給我忘掉！
+Dialogue: 0,0:03:29.34,0:03:31.24,zhengwen,NTP,0,0,0,,不許跟任何人說！
+Dialogue: 0,0:03:31.80,0:03:34.51,zhengwen,NTP,0,0,0,,這是我跟你兩個人的秘密！
+Dialogue: 0,0:03:35.26,0:03:36.90,zhengwen,NTP,0,0,0,,讓我忘記怎麼保密…
+Dialogue: 0,0:03:36.93,0:03:37.54,zhengwen,NTP,0,0,0,,哦？
+Dialogue: 0,0:03:37.64,0:03:38.18,zhengwen,NTP,0,0,0,,是…
+Dialogue: 0,0:03:38.88,0:03:40.80,zhengwen,NTP,0,0,0,,怎麼了  十大人？
+Dialogue: 0,0:03:42.83,0:03:43.23,zhengwen,NTP,0,0,0,,沒事
+Dialogue: 0,0:03:45.10,0:03:46.84,zhengwen,NTP,0,0,0,,又是光做的嗎？
+Dialogue: 0,0:03:49.27,0:03:49.90,zhengwen,NTP,0,0,0,,是的
+Dialogue: 0,0:03:51.29,0:03:52.67,zhengwen,NTP,0,0,0,,她還好嗎
+Dialogue: 0,0:03:52.83,0:03:56.51,zhengwen,NTP,0,0,0,,是的  她有什麼事讓您在意嗎？
+Dialogue: 0,0:03:59.06,0:04:03.84,zhengwen,NTP,0,0,0,,沒什麼  說起來光很喜歡你嘛
+Dialogue: 0,0:04:04.69,0:04:05.40,zhengwen,NTP,0,0,0,,所以…
+Dialogue: 0,0:04:08.43,0:04:10.43,zhengwen,NTP,0,0,0,,小光是個很棒的妹妹
+Dialogue: 0,0:04:11.27,0:04:16.11,zhengwen,NTP,0,0,0,,她愛著我  我也愛著她
+Dialogue: 0,0:04:17.78,0:04:22.61,zhengwen,NTP,0,0,0,,可能的話  我也想試著給她做便當
+Dialogue: 0,0:04:24.19,0:04:29.53,zhengwen,NTP,0,0,0,,可我一進廚房就總被媽媽和小光阻止
+Dialogue: 0,0:04:34.10,0:04:36.15,zhengwen,NTP,0,0,0,,愛著…嗎
+Dialogue: 0,0:04:37.54,0:04:40.16,zhengwen,NTP,0,0,0,,我說雨啊  你覺得愛是什麼？
+Dialogue: 0,0:04:40.82,0:04:42.94,zhengwen,NTP,0,0,0,,五十音圖的前兩個字符
+Dialogue: 0,0:04:40.82,0:04:42.94,zhengwen,NTP,0,0,0,,{\fs20\an8}（SZ：a和i 小雨你真是神吐槽）
+Dialogue: 0,0:04:45.84,0:04:47.00,zhengwen,NTP,0,0,0,,對不起…
+Dialogue: 0,0:04:47.31,0:04:53.88,zhengwen,NTP,0,0,0,,2年13班的柔澤十  2年13班的柔澤十
+Dialogue: 0,0:04:54.60,0:04:57.15,zhengwen,NTP,0,0,0,,請馬上到學生會辦公室來
+Dialogue: 0,0:04:58.30,0:05:00.96,zhengwen,NTP,0,0,0,,我應該只叫了柔澤十同學吧
+Dialogue: 0,0:05:01.32,0:05:03.32,zhengwen,NTP,0,0,0,,無關者請出去
+Dialogue: 0,0:05:03.48,0:05:04.99,zhengwen,NTP,0,0,0,,我不是無關者
+Dialogue: 0,0:05:05.70,0:05:09.73,zhengwen,NTP,0,0,0,,我和十大人有前世至今的強烈羈絆聯繫著
+Dialogue: 0,0:05:10.08,0:05:14.87,zhengwen,NTP,0,0,0,,堅固到連王者之劍都無法斬斷啊  綾瀨同學
+Dialogue: 0,0:05:16.98,0:05:18.80,zhengwen,NTP,0,0,0,,請你別管她  接著說…
+Dialogue: 0,0:05:25.30,0:05:30.12,zhengwen,NTP,0,0,0,,我是綾瀨一子  跟你旁邊的墮花同學同班
+Dialogue: 0,0:05:30.38,0:05:32.88,zhengwen,NTP,0,0,0,,擔任學生會的副會長
+Dialogue: 0,0:05:33.73,0:05:36.37,zhengwen,NTP,0,0,0,,知道為什麼叫你來嗎
+Dialogue: 0,0:05:36.66,0:05:37.53,zhengwen,NTP,0,0,0,,不知
+Dialogue: 0,0:05:37.83,0:05:41.16,zhengwen,NTP,0,0,0,,哎呀  學校裏都已經傳開了
+Dialogue: 0,0:05:41.52,0:05:43.83,zhengwen,NTP,0,0,0,,墮花同學沒聽說嗎
+Dialogue: 0,0:05:44.46,0:05:49.73,zhengwen,NTP,0,0,0,,昨天柔澤同學在電車內被懷疑有流氓行徑
+Dialogue: 0,0:05:50.44,0:05:51.18,zhengwen,NTP,0,0,0,,流氓？
+Dialogue: 0,0:05:51.79,0:05:56.23,zhengwen,NTP,0,0,0,,為了矇混過關不惜在眾目睽睽之下
+Dialogue: 0,0:05:56.30,0:05:58.91,zhengwen,NTP,0,0,0,,與女朋友幹些下流的事情
+Dialogue: 0,0:06:00.44,0:06:01.36,zhengwen,NTP,0,0,0,,女朋友？
+Dialogue: 0,0:06:02.57,0:06:04.56,zhengwen,NTP,0,0,0,,不是我幹的！我是無辜的！
+Dialogue: 0,0:06:04.77,0:06:07.46,zhengwen,NTP,0,0,0,,你這麼主張有什麼證據嗎
+Dialogue: 0,0:06:07.75,0:06:08.39,zhengwen,NTP,0,0,0,,那個…
+Dialogue: 0,0:06:09.02,0:06:10.93,zhengwen,NTP,0,0,0,,十大人才不會幹什麼流氓行徑！
+Dialogue: 0,0:06:11.88,0:06:13.62,zhengwen,NTP,0,0,0,,你憑什麼這麼肯定？
+Dialogue: 0,0:06:14.22,0:06:16.15,zhengwen,NTP,0,0,0,,因為他是柔澤十大人
+Dialogue: 0,0:06:16.52,0:06:18.41,zhengwen,NTP,0,0,0,,這個理由就足夠了吧
+Dialogue: 0,0:06:21.91,0:06:24.78,zhengwen,NTP,0,0,0,,你可真不簡單呀  柔澤同學
+Dialogue: 0,0:06:25.38,0:06:28.47,zhengwen,NTP,0,0,0,,昨天的女孩是正室  墮花同學則是候補嗎
+Dialogue: 0,0:06:28.57,0:06:29.39,zhengwen,NTP,0,0,0,,喂  我說你…
+Dialogue: 0,0:06:29.46,0:06:30.60,zhengwen,NTP,0,0,0,,你可真活躍啊
+Dialogue: 0,0:06:31.01,0:06:35.19,zhengwen,NTP,0,0,0,,聽說你跟那個紗月美夜關係也很好嘛
+Dialogue: 0,0:06:35.54,0:06:38.58,zhengwen,NTP,0,0,0,,你有讓那類女人著迷的費洛蒙嗎
+Dialogue: 0,0:06:38.81,0:06:39.49,zhengwen,NTP,0,0,0,,我們走
+Dialogue: 0,0:06:39.63,0:06:41.26,zhengwen,NTP,0,0,0,,想說走就走？
+Dialogue: 0,0:06:41.31,0:06:41.84,zhengwen,NTP,0,0,0,,放手！
+Dialogue: 0,0:06:47.20,0:06:48.65,zhengwen,NTP,0,0,0,,這可不得了
+Dialogue: 0,0:06:49.03,0:06:51.74,zhengwen,NTP,0,0,0,,竟敢對學生會的人使用暴力
+Dialogue: 0,0:06:51.79,0:06:52.35,zhengwen,NTP,0,0,0,,剛才是…
+Dialogue: 0,0:06:54.45,0:06:57.68,zhengwen,NTP,0,0,0,,剛才是你先挑釁的吧  綾瀨同學
+Dialogue: 0,0:06:58.09,0:06:59.42,zhengwen,NTP,0,0,0,,白石前輩
+Dialogue: 0,0:06:59.63,0:07:00.51,zhengwen,NTP,0,0,0,,學生會長
+Dialogue: 0,0:07:01.04,0:07:03.89,zhengwen,NTP,0,0,0,,對  我就是白石香裏
+Dialogue: 0,0:07:04.36,0:07:06.43,zhengwen,NTP,0,0,0,,抱歉讓你們不愉快了
+Dialogue: 0,0:07:07.58,0:07:13.11,zhengwen,NTP,0,0,0,,綾瀨同學  柔澤同學還在這裏就說明沒有證據嘛
+Dialogue: 0,0:07:14.12,0:07:16.80,zhengwen,NTP,0,0,0,,學生會不能因不確定的傳聞而採取行動
+Dialogue: 0,0:07:17.05,0:07:18.60,zhengwen,NTP,0,0,0,,早上有這麼說過吧
+Dialogue: 0,0:07:21.18,0:07:21.70,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:07:22.80,0:07:27.49,zhengwen,NTP,0,0,0,,我理解柔澤同學很生氣  但也不能使用暴力啊
+Dialogue: 0,0:07:27.90,0:07:29.93,zhengwen,NTP,0,0,0,,能向綾瀨同學道歉嗎
+Dialogue: 0,0:07:35.86,0:07:36.76,zhengwen,NTP,0,0,0,,抱歉了
+Dialogue: 0,0:07:37.68,0:07:41.54,zhengwen,NTP,0,0,0,,好  這件事雙方就此和解  行嗎
+Dialogue: 0,0:07:42.35,0:07:44.63,zhengwen,NTP,0,0,0,,十大人  非常抱歉
+Dialogue: 0,0:07:45.30,0:07:47.44,zhengwen,NTP,0,0,0,,我就在您身邊卻沒能保護您
+Dialogue: 0,0:07:48.03,0:07:49.78,zhengwen,NTP,0,0,0,,你不用在意
+Dialogue: 0,0:07:50.46,0:07:51.64,zhengwen,NTP,0,0,0,,是我太衝動
+Dialogue: 0,0:07:52.23,0:07:55.16,zhengwen,NTP,0,0,0,,話雖如此  被那個學生會長給救了
+Dialogue: 0,0:07:55.56,0:07:57.42,zhengwen,NTP,0,0,0,,白石前輩嗎
+Dialogue: 0,0:07:58.22,0:08:02.75,zhengwen,NTP,0,0,0,,據說人望很高  深受老師和學生雙方信賴
+Dialogue: 0,0:08:03.02,0:08:05.64,zhengwen,NTP,0,0,0,,嗯  還真有這樣的人啊
+Dialogue: 0,0:08:06.00,0:08:12.54,zhengwen,NTP,0,0,0,,但這下終於明白班上的人\N看我的眼神比平時更加奇怪的原因了
+Dialogue: 0,0:08:13.36,0:08:13.90,zhengwen,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:08:15.46,0:08:16.83,zhengwen,NTP,0,0,0,,那個…十大人
+Dialogue: 0,0:08:17.45,0:08:20.13,zhengwen,NTP,0,0,0,,能問個問題嗎
+Dialogue: 0,0:08:20.38,0:08:20.88,zhengwen,NTP,0,0,0,,什麼？
+Dialogue: 0,0:08:21.34,0:08:24.60,zhengwen,NTP,0,0,0,,綾瀨同學說的女朋友是誰？
+Dialogue: 0,0:08:25.94,0:08:27.94,zhengwen,NTP,0,0,0,,這…那個啊…
+Dialogue: 0,0:08:30.55,0:08:33.52,zhengwen,NTP,0,0,0,,對不起  我多嘴了
+Dialogue: 0,0:08:33.80,0:08:37.27,zhengwen,NTP,0,0,0,,不管十大人跟誰交往都與我…
+Dialogue: 0,0:08:42.20,0:08:45.03,zhengwen,NTP,0,0,0,,失禮了  走吧  十大人
+Dialogue: 0,0:08:47.49,0:08:49.46,zhengwen,NTP,0,0,0,,{\an3\fs20}「挖眼魔」事件  又出現了新的受害者
+Dialogue: 0,0:08:51.98,0:08:52.89,zhengwen,NTP,0,0,0,,這裏是柔澤家
+Dialogue: 0,0:08:55.63,0:08:57.58,zhengwen,NTP,0,0,0,,喂喂？這裏是柔澤家
+Dialogue: 0,0:09:01.46,0:09:02.70,zhengwen,NTP,0,0,0,,打錯了嗎
+Dialogue: 0,0:09:05.99,0:09:06.78,zhengwen,NTP,0,0,0,,喂喂？
+Dialogue: 0,0:09:13.97,0:09:18.39,zhengwen,NTP,0,0,0,,十大人  關於傳聞的事情  我們採取點行動吧
+Dialogue: 0,0:09:19.58,0:09:22.94,zhengwen,NTP,0,0,0,,傳聞什麼的過陣子就消失了  不用管它
+Dialogue: 0,0:09:23.59,0:09:26.47,zhengwen,NTP,0,0,0,,但是我有種奇怪的感覺
+Dialogue: 0,0:09:26.93,0:09:33.40,zhengwen,NTP,0,0,0,,十大人知道附近的學校最近持續發生可疑事件嗎
+Dialogue: 0,0:09:33.68,0:09:35.07,zhengwen,NTP,0,0,0,,可疑事件？
+Dialogue: 0,0:09:35.77,0:09:38.26,zhengwen,NTP,0,0,0,,簡單來說就是惡作劇
+Dialogue: 0,0:09:38.81,0:09:42.05,zhengwen,NTP,0,0,0,,比如說鞋子裏被放進圖釘
+Dialogue: 0,0:09:43.75,0:09:45.93,zhengwen,NTP,0,0,0,,文具盒裏的東西全被折斷
+Dialogue: 0,0:09:43.46,0:09:45.97,zhengwen,NTP,0,0,0,,{\fs20\an8}笨蛋
+Dialogue: 0,0:09:46.00,0:09:48.14,zhengwen,NTP,0,0,0,,{\fs20\an8}去死
+Dialogue: 0,0:09:46.27,0:09:48.00,zhengwen,NTP,0,0,0,,筆記本被人塗鴉
+Dialogue: 0,0:09:48.29,0:09:50.19,zhengwen,NTP,0,0,0,,運動服被人藏起來
+Dialogue: 0,0:09:50.74,0:09:55.86,zhengwen,NTP,0,0,0,,哪件都是報警也不會認真調查的小事
+Dialogue: 0,0:09:56.16,0:09:59.59,zhengwen,NTP,0,0,0,,但卻會讓受害者十分不快的事件
+Dialogue: 0,0:09:58.93,0:10:00.40,zhengwen,NTP,0,0,0,,{\fs20\an7}這封信是帶來不幸的信
+Dialogue: 0,0:10:01.18,0:10:06.66,zhengwen,NTP,0,0,0,,說不定十大人的流氓嫌疑也是其中之一
+Dialogue: 0,0:10:09.14,0:10:10.93,zhengwen,NTP,0,0,0,,你想得太多了吧
+Dialogue: 0,0:10:11.60,0:10:16.56,zhengwen,NTP,0,0,0,,可能是我想得太多  也可能是想得還不夠深入
+Dialogue: 0,0:10:17.58,0:10:21.77,zhengwen,NTP,0,0,0,,要是十大人允許的話  我想詳細調查一下
+Dialogue: 0,0:10:22.01,0:10:23.01,zhengwen,NTP,0,0,0,,調查了以後怎麼做？
+Dialogue: 0,0:10:23.22,0:10:24.58,zhengwen,NTP,0,0,0,,斬草除根
+Dialogue: 0,0:10:24.64,0:10:25.37,zhengwen,NTP,0,0,0,,算了吧
+Dialogue: 0,0:10:25.78,0:10:30.27,zhengwen,NTP,0,0,0,,萬一真如你所料  也不用去管它
+Dialogue: 0,0:10:30.74,0:10:31.39,zhengwen,NTP,0,0,0,,但是…
+Dialogue: 0,0:10:32.42,0:10:34.41,zhengwen,NTP,0,0,0,,我不想再惹麻煩了
+Dialogue: 0,0:10:37.07,0:10:39.61,zhengwen,NTP,0,0,0,,畜生！盡搞些無聊的事情
+Dialogue: 0,0:10:42.73,0:10:43.43,zhengwen,NTP,0,0,0,,光
+Dialogue: 0,0:10:46.98,0:10:48.16,zhengwen,NTP,0,0,0,,喂！
+Dialogue: 0,0:10:48.86,0:10:49.53,zhengwen,NTP,0,0,0,,幹什麼？
+Dialogue: 0,0:10:59.76,0:11:01.06,zhengwen,NTP,0,0,0,,不太燙啊
+Dialogue: 0,0:11:02.33,0:11:03.44,zhengwen,NTP,0,0,0,,等…等一下！
+Dialogue: 0,0:11:03.61,0:11:04.84,zhengwen,NTP,0,0,0,,你幹什麼！？
+Dialogue: 0,0:11:04.98,0:11:06.78,zhengwen,NTP,0,0,0,,因為穿著衣服做不了吧
+Dialogue: 0,0:11:06.88,0:11:07.45,zhengwen,NTP,0,0,0,,什麼做不了！？
+Dialogue: 0,0:11:07.62,0:11:08.39,zhengwen,NTP,0,0,0,,做愛
+Dialogue: 0,0:11:11.87,0:11:14.33,zhengwen,NTP,0,0,0,,我是第一次  不過沒關係
+Dialogue: 0,0:11:14.50,0:11:15.72,zhengwen,NTP,0,0,0,,隨你怎麼弄
+Dialogue: 0,0:11:17.05,0:11:19.82,zhengwen,NTP,0,0,0,,這種情況下先把內衣脫了比較好嗎
+Dialogue: 0,0:11:21.84,0:11:23.72,zhengwen,NTP,0,0,0,,跟你做還是免了吧
+Dialogue: 0,0:11:24.29,0:11:27.61,zhengwen,NTP,0,0,0,,為什麼！反正你平時總在幹這種事吧！
+Dialogue: 0,0:11:27.74,0:11:30.23,zhengwen,NTP,0,0,0,,抱歉  我也有選擇的權利
+Dialogue: 0,0:11:30.54,0:11:32.24,zhengwen,NTP,0,0,0,,我不能跟你做那種事
+Dialogue: 0,0:11:34.58,0:11:37.26,zhengwen,NTP,0,0,0,,果然是我沒有魅力嗎
+Dialogue: 0,0:11:38.82,0:11:41.46,zhengwen,NTP,0,0,0,,我不是說你沒有魅力
+Dialogue: 0,0:11:52.81,0:11:55.35,zhengwen,NTP,0,0,0,,我被人拒絕了
+Dialogue: 0,0:11:56.23,0:12:00.53,zhengwen,NTP,0,0,0,,他叫伊吹前輩  在空手道全國大賽上認識
+Dialogue: 0,0:12:01.23,0:12:06.63,zhengwen,NTP,0,0,0,,他很強  還很溫柔  所以我就…
+Dialogue: 0,0:12:09.36,0:12:12.57,zhengwen,NTP,0,0,0,,但好不容易鼓起勇氣對他表白
+Dialogue: 0,0:12:13.21,0:12:15.47,zhengwen,NTP,0,0,0,,前輩卻是一副十分厭惡的表情
+Dialogue: 0,0:12:16.20,0:12:19.35,zhengwen,NTP,0,0,0,,我就問他為什麼這麼生氣
+Dialogue: 0,0:12:20.06,0:12:20.72,zhengwen,NTP,0,0,0,,問了之後？
+Dialogue: 0,0:12:22.38,0:12:25.12,zhengwen,NTP,0,0,0,,前輩知道了…
+Dialogue: 0,0:12:26.45,0:12:30.21,zhengwen,NTP,0,0,0,,我跟你接吻的事情！
+Dialogue: 0,0:12:32.18,0:12:33.47,zhengwen,NTP,0,0,0,,到底是誰傳的？
+Dialogue: 0,0:12:33.63,0:12:34.45,zhengwen,NTP,0,0,0,,不知道
+Dialogue: 0,0:12:34.96,0:12:38.39,zhengwen,NTP,0,0,0,,但好像也傳到前輩那裏去了
+Dialogue: 0,0:12:40.09,0:12:41.46,zhengwen,NTP,0,0,0,,這照片能傳給我嗎
+Dialogue: 0,0:12:43.10,0:12:44.54,zhengwen,NTP,0,0,0,,你想幹什麼！
+Dialogue: 0,0:12:44.72,0:12:46.31,zhengwen,NTP,0,0,0,,難道你想拿這照片來手淫…
+Dialogue: 0,0:12:46.35,0:12:47.08,zhengwen,NTP,0,0,0,,不是！
+Dialogue: 0,0:12:50.60,0:12:53.76,zhengwen,NTP,0,0,0,,你這麼想要的話給你也行
+Dialogue: 0,0:12:55.51,0:12:56.71,zhengwen,NTP,0,0,0,,還有啊  光
+Dialogue: 0,0:12:57.60,0:13:02.64,zhengwen,NTP,0,0,0,,你不用這麼自暴自棄地向我確認  其實你已經很可愛了
+Dialogue: 0,0:13:09.01,0:13:11.18,zhengwen,NTP,0,0,0,,真稀罕呀  柔澤同學
+Dialogue: 0,0:13:13.08,0:13:14.56,zhengwen,NTP,0,0,0,,自行車的剎車？
+Dialogue: 0,0:13:15.16,0:13:16.45,zhengwen,NTP,0,0,0,,這是那個什麼嗎？
+Dialogue: 0,0:13:16.95,0:13:18.93,zhengwen,NTP,0,0,0,,最近一直持續的惡作劇
+Dialogue: 0,0:13:20.40,0:13:24.39,zhengwen,NTP,0,0,0,,說起來…突然剎車失靈是挺奇怪的
+Dialogue: 0,0:13:25.28,0:13:28.58,zhengwen,NTP,0,0,0,,但歸咎於誰的話是不是想太多了呢
+Dialogue: 0,0:13:29.20,0:13:32.79,zhengwen,NTP,0,0,0,,可能是這樣  也可能是想得還不夠深入
+Dialogue: 0,0:13:33.85,0:13:35.19,zhengwen,NTP,0,0,0,,你是學生會長吧
+Dialogue: 0,0:13:35.74,0:13:37.20,zhengwen,NTP,0,0,0,,知道不少事情吧
+Dialogue: 0,0:13:38.99,0:13:42.26,zhengwen,NTP,0,0,0,,怎麼樣？還有很多埋怨的人吧
+Dialogue: 0,0:13:46.86,0:13:52.06,zhengwen,NTP,0,0,0,,對  因此學生會辦公室裏每天都有大量抱怨和咨詢
+Dialogue: 0,0:13:53.94,0:13:57.81,zhengwen,NTP,0,0,0,,但是老師們鑒於紗月同學的事件
+Dialogue: 0,0:13:58.26,0:14:01.02,zhengwen,NTP,0,0,0,,說絕對不要把事情鬧大
+Dialogue: 0,0:14:01.99,0:14:04.25,zhengwen,NTP,0,0,0,,學生會長也不容易啊
+Dialogue: 0,0:14:06.51,0:14:08.43,zhengwen,NTP,0,0,0,,但是沒辦法啊
+Dialogue: 0,0:14:09.25,0:14:11.30,zhengwen,NTP,0,0,0,,這大概是報應吧
+Dialogue: 0,0:14:11.71,0:14:12.27,zhengwen,NTP,0,0,0,,報應？
+Dialogue: 0,0:14:13.17,0:14:17.61,zhengwen,NTP,0,0,0,,我啊  殺過人
+Dialogue: 0,0:14:18.28,0:14:18.89,zhengwen,NTP,0,0,0,,誒！？
+Dialogue: 0,0:14:19.48,0:14:23.73,zhengwen,NTP,0,0,0,,初中的時候  有個男孩喜歡我
+Dialogue: 0,0:14:24.60,0:14:27.20,zhengwen,NTP,0,0,0,,但我卻跟別人交往了
+Dialogue: 0,0:14:28.56,0:14:30.52,zhengwen,NTP,0,0,0,,然後有一天  那孩子…
+Dialogue: 0,0:14:31.67,0:14:35.17,zhengwen,NTP,0,0,0,,說他自己比我男朋友更愛我
+Dialogue: 0,0:14:35.85,0:14:37.69,zhengwen,NTP,0,0,0,,為了我可以去死
+Dialogue: 0,0:14:39.87,0:14:41.45,zhengwen,NTP,0,0,0,,我沒能阻止他
+Dialogue: 0,0:14:43.23,0:14:44.92,zhengwen,NTP,0,0,0,,他就那樣…
+Dialogue: 0,0:14:47.21,0:14:49.25,zhengwen,NTP,0,0,0,,所以這都是我的錯
+Dialogue: 0,0:14:49.93,0:14:55.54,zhengwen,NTP,0,0,0,,繁忙的生活也是  成績倒退也是  這條腿也是
+Dialogue: 0,0:14:57.62,0:15:01.93,zhengwen,NTP,0,0,0,,想要幸福的話  就必須靠自己努力
+Dialogue: 0,0:15:01.32,0:15:03.04,zhengwen,NTP,0,0,0,,{\an8\fs20}幸福俱樂部
+Dialogue: 0,0:15:04.51,0:15:08.13,zhengwen,NTP,0,0,0,,那些惡作劇是什麼人搞的鬼？
+Dialogue: 0,0:15:08.86,0:15:11.55,zhengwen,NTP,0,0,0,,在好多學校進行無差別的惡作劇
+Dialogue: 0,0:15:12.33,0:15:13.84,zhengwen,NTP,0,0,0,,並不是無差別的
+Dialogue: 0,0:15:14.50,0:15:16.78,zhengwen,NTP,0,0,0,,恐怕存在某個基準
+Dialogue: 0,0:15:17.14,0:15:19.42,zhengwen,NTP,0,0,0,,你難道調查過了嗎
+Dialogue: 0,0:15:19.82,0:15:23.74,zhengwen,NTP,0,0,0,,因為不能保證這些事不會對十大人造成傷害
+Dialogue: 0,0:15:24.32,0:15:26.77,zhengwen,NTP,0,0,0,,我姑且簡單調查了一下
+Dialogue: 0,0:15:28.96,0:15:31.45,zhengwen,NTP,0,0,0,,那麼所謂的基準是？
+Dialogue: 0,0:15:32.35,0:15:37.11,zhengwen,NTP,0,0,0,,這只是我的推測  那就是「看起來幸福的人」
+Dialogue: 0,0:15:37.86,0:15:42.40,zhengwen,NTP,0,0,0,,與是否真的幸福無關  關鍵是外人看來的幸福
+Dialogue: 0,0:15:43.13,0:15:45.86,zhengwen,NTP,0,0,0,,可以稱其為「幸福毀滅者」
+Dialogue: 0,0:15:47.41,0:15:49.40,zhengwen,NTP,0,0,0,,他們到底是什麼人
+Dialogue: 0,0:15:49.86,0:15:54.37,zhengwen,NTP,0,0,0,,不清楚  但我得到了一些同類的傳聞
+Dialogue: 0,0:15:54.86,0:15:58.63,zhengwen,NTP,0,0,0,,我發現網上有個集團的活動很可疑
+Dialogue: 0,0:16:12.01,0:16:16.58,zhengwen,NTP,0,0,0,,不出你所料  他們的行動正在逐步升級
+Dialogue: 0,0:16:17.26,0:16:20.22,zhengwen,NTP,0,0,0,,再這麼下去  很可能會出現死者
+Dialogue: 0,0:16:20.73,0:16:21.69,zhengwen,NTP,0,0,0,,我有同感
+Dialogue: 0,0:16:22.81,0:16:25.47,zhengwen,NTP,0,0,0,,我想消滅幸福毀滅者
+Dialogue: 0,0:16:26.52,0:16:28.70,zhengwen,NTP,0,0,0,,你能助我一臂之力嗎
+Dialogue: 0,0:16:29.75,0:16:30.35,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:16:33.98,0:16:34.93,zhengwen,NTP,0,0,0,,媽媽
+Dialogue: 0,0:16:35.42,0:16:37.44,zhengwen,NTP,0,0,0,,好像積累了不少了
+Dialogue: 0,0:16:38.41,0:16:40.53,zhengwen,NTP,0,0,0,,差不多該全部解決掉了吧
+Dialogue: 0,0:16:41.39,0:16:43.48,zhengwen,NTP,0,0,0,,您就期待地等著吧
+Dialogue: 0,0:17:01.91,0:17:04.58,zhengwen,NTP,0,0,0,,歡迎回來  主人
+Dialogue: 0,0:17:10.68,0:17:12.14,zhengwen,NTP,0,0,0,,胸圍84哦
+Dialogue: 0,0:17:12.42,0:17:13.06,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:17:13.56,0:17:15.39,zhengwen,NTP,0,0,0,,因為你總盯著看嘛
+Dialogue: 0,0:17:16.03,0:17:17.92,zhengwen,NTP,0,0,0,,順便告訴你臀圍是83
+Dialogue: 0,0:17:18.27,0:17:20.62,zhengwen,NTP,0,0,0,,我很自負自己是順產型喲
+Dialogue: 0,0:17:20.79,0:17:22.70,zhengwen,NTP,0,0,0,,我不是因為這個盯著你看！
+Dialogue: 0,0:17:22.98,0:17:23.90,zhengwen,NTP,0,0,0,,我來這裏是…
+Dialogue: 0,0:17:23.27,0:17:24.82,zhengwen,NTP,0,0,0,,約了人是吧
+Dialogue: 0,0:17:25.26,0:17:26.56,zhengwen,NTP,0,0,0,,柔澤十君
+Dialogue: 0,0:17:27.58,0:17:28.27,zhengwen,NTP,0,0,0,,你…
+Dialogue: 0,0:17:28.97,0:17:33.12,zhengwen,NTP,0,0,0,,你等的人在·那·邊
+Dialogue: 0,0:17:40.11,0:17:40.73,zhengwen,NTP,0,0,0,,雨！
+Dialogue: 0,0:17:48.81,0:17:51.57,zhengwen,NTP,0,0,0,,我名叫斬島雪姬
+Dialogue: 0,0:17:51.93,0:17:58.10,zhengwen,NTP,0,0,0,,簡單來說  首先姓就是「靠近就斬了你這大惡人」的斬
+Dialogue: 0,0:17:57.96,0:17:59.40,zhengwen,NTP,0,0,0,,漢字是這麼寫的
+Dialogue: 0,0:18:00.53,0:18:01.99,zhengwen,NTP,0,0,0,,雨～
+Dialogue: 0,0:18:04.93,0:18:06.20,zhengwen,NTP,0,0,0,,圓堂圓
+Dialogue: 0,0:18:07.73,0:18:10.25,zhengwen,NTP,0,0,0,,柔澤君  你喜歡處女嗎
+Dialogue: 0,0:18:10.55,0:18:11.04,zhengwen,NTP,0,0,0,,啊？
+Dialogue: 0,0:18:11.30,0:18:15.07,zhengwen,NTP,0,0,0,,順便告訴你  這裏有三個處女
+Dialogue: 0,0:18:15.58,0:18:16.92,zhengwen,NTP,0,0,0,,那麼到底是誰呢？
+Dialogue: 0,0:18:17.33,0:18:18.80,zhengwen,NTP,0,0,0,,你這算什麼問題…
+Dialogue: 0,0:18:19.15,0:18:22.52,zhengwen,NTP,0,0,0,,那麼柔澤君到目前為止人生中
+Dialogue: 0,0:18:22.54,0:18:27.47,zhengwen,NTP,0,0,0,,想死的次數和想殺人的次數  哪個比較多呢？
+Dialogue: 0,0:18:27.83,0:18:29.47,zhengwen,NTP,0,0,0,,我不知道你問這個幹嘛…
+Dialogue: 0,0:18:31.04,0:18:34.48,zhengwen,NTP,0,0,0,,我是想瞭解你的本性
+Dialogue: 0,0:18:34.76,0:18:38.65,zhengwen,NTP,0,0,0,,到底是配得上雨的人呢  還是垃圾呢
+Dialogue: 0,0:18:39.02,0:18:40.02,zhengwen,NTP,0,0,0,,如果是垃圾呢？
+Dialogue: 0,0:18:41.84,0:18:43.26,zhengwen,NTP,0,0,0,,你覺得呢？
+Dialogue: 0,0:18:45.11,0:18:47.39,zhengwen,NTP,0,0,0,,好疼啊  阿圓！害我咬到舌頭了！
+Dialogue: 0,0:18:47.48,0:18:49.33,zhengwen,NTP,0,0,0,,胡鬧到此為止吧
+Dialogue: 0,0:18:51.49,0:18:52.60,zhengwen,NTP,0,0,0,,不好意思
+Dialogue: 0,0:18:53.23,0:18:56.40,zhengwen,NTP,0,0,0,,雪姬從以前開始對人就這麼好惡分明
+Dialogue: 0,0:18:57.86,0:19:02.09,zhengwen,NTP,0,0,0,,出現稍有好感的人就會進行很多試探
+Dialogue: 0,0:19:03.42,0:19:07.29,zhengwen,NTP,0,0,0,,總之先和你說清楚  我並不喜歡你
+Dialogue: 0,0:19:08.24,0:19:11.69,zhengwen,NTP,0,0,0,,但是原因並不在你
+Dialogue: 0,0:19:12.25,0:19:14.78,zhengwen,NTP,0,0,0,,我最討厭男人和花椰菜了
+Dialogue: 0,0:19:16.32,0:19:18.29,zhengwen,NTP,0,0,0,,事情就是這樣  你不要在意
+Dialogue: 0,0:19:19.88,0:19:23.00,zhengwen,NTP,0,0,0,,還有  柔澤君  不許耍流氓哦
+Dialogue: 0,0:19:23.17,0:19:24.13,zhengwen,NTP,0,0,0,,我說了
+Dialogue: 0,0:19:24.12,0:19:26.34,zhengwen,NTP,0,0,0,,{\an8}不是我幹的！
+Dialogue: 0,0:19:26.50,0:19:29.64,zhengwen,NTP,0,0,0,,我跟她倆從初中就認識了
+Dialogue: 0,0:19:30.16,0:19:33.04,zhengwen,NTP,0,0,0,,主要是在愛好方面意氣相投
+Dialogue: 0,0:19:33.37,0:19:38.43,zhengwen,NTP,0,0,0,,這種時刻也是非常可靠的朋友  我就找她們幫忙了
+Dialogue: 0,0:19:40.40,0:19:41.26,zhengwen,NTP,0,0,0,,這種？
+Dialogue: 0,0:19:49.34,0:19:52.87,zhengwen,NTP,0,0,0,,我說雨  你這身打扮…
+Dialogue: 0,0:19:54.72,0:19:56.01,zhengwen,NTP,0,0,0,,有什麼奇怪的嗎
+Dialogue: 0,0:19:57.17,0:19:58.60,zhengwen,NTP,0,0,0,,不  很不錯
+Dialogue: 0,0:20:00.69,0:20:02.03,zhengwen,NTP,0,0,0,,這是交換條件
+Dialogue: 0,0:20:04.48,0:20:06.93,zhengwen,NTP,0,0,0,,雨讓我們助她一臂之力
+Dialogue: 0,0:20:07.14,0:20:09.14,zhengwen,NTP,0,0,0,,作為交換就讓她稍微來店裏幫著打工
+Dialogue: 0,0:20:10.18,0:20:12.48,zhengwen,NTP,0,0,0,,大致情況已經從雨那裏聽說了
+Dialogue: 0,0:20:12.96,0:20:16.67,zhengwen,NTP,0,0,0,,這次由你來說明吧  柔澤十君
+Dialogue: 0,0:20:25.07,0:20:26.16,zhengwen,NTP,0,0,0,,那兩人真不簡單啊
+Dialogue: 0,0:20:26.82,0:20:30.05,zhengwen,NTP,0,0,0,,打幾個電話就知道她的住處了
+Dialogue: 0,0:20:32.17,0:20:34.53,zhengwen,NTP,0,0,0,,但她們打算怎麼進去啊
+Dialogue: 0,0:20:35.07,0:20:37.52,zhengwen,NTP,0,0,0,,她不接電話  跟一群男人窩在裏面吧
+Dialogue: 0,0:20:37.80,0:20:40.20,zhengwen,NTP,0,0,0,,而且對手也不是省油的燈
+Dialogue: 0,0:20:40.73,0:20:45.09,zhengwen,NTP,0,0,0,,不用操心  該擔心的應該是他們才對
+Dialogue: 0,0:20:56.46,0:20:57.33,zhengwen,NTP,0,0,0,,你們是什麼人！
+Dialogue: 0,0:21:02.11,0:21:02.78,zhengwen,NTP,0,0,0,,別殺他！
+Dialogue: 0,0:21:04.18,0:21:06.70,zhengwen,NTP,0,0,0,,立馬帶上那廢物消失
+Dialogue: 0,0:21:08.44,0:21:10.25,zhengwen,NTP,0,0,0,,真是的  為什麼啊！
+Dialogue: 0,0:21:10.37,0:21:11.56,zhengwen,NTP,0,0,0,,為什麼會被你們找到啊
+Dialogue: 0,0:21:11.06,0:21:12.78,zhengwen,NTP,0,0,0,,{\an8\fs20}現在、你的幸福值是？
+Dialogue: 0,0:21:11.57,0:21:14.99,zhengwen,NTP,0,0,0,,不可能啊  難道是我幸福值不夠嗎
+Dialogue: 0,0:21:15.37,0:21:16.34,zhengwen,NTP,0,0,0,,幸福值？
+Dialogue: 0,0:21:16.54,0:21:20.46,zhengwen,NTP,0,0,0,,話說我好不容易存到今天  期待著聚會呢
+Dialogue: 0,0:21:20.58,0:21:23.20,zhengwen,NTP,0,0,0,,原來如此  幸福值嗎？
+Dialogue: 0,0:21:23.55,0:21:24.84,zhengwen,NTP,0,0,0,,我明白了
+Dialogue: 0,0:21:25.02,0:21:25.55,zhengwen,NTP,0,0,0,,雨
+Dialogue: 0,0:21:26.36,0:21:30.53,zhengwen,NTP,0,0,0,,廣瀨奈緒小姐  你的罪行之所以被發現
+Dialogue: 0,0:21:30.58,0:21:33.87,zhengwen,NTP,0,0,0,,是因為我的幸福值比你高
+Dialogue: 0,0:21:34.04,0:21:35.98,zhengwen,NTP,0,0,0,,誒！？你怎麼做的？
+Dialogue: 0,0:21:36.18,0:21:38.73,zhengwen,NTP,0,0,0,,還有比我們更高效的方法嗎
+Dialogue: 0,0:21:39.05,0:21:40.16,zhengwen,NTP,0,0,0,,想知道嗎
+Dialogue: 0,0:21:40.43,0:21:41.26,zhengwen,NTP,0,0,0,,告訴我吧
+Dialogue: 0,0:21:41.64,0:21:47.64,zhengwen,NTP,0,0,0,,作為交換  把你知道的全都說出來  可以嗎
+Dialogue: 0,0:21:48.48,0:21:49.28,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:21:50.02,0:21:54.15,zhengwen,NTP,0,0,0,,首先  為什麼把十大人誣陷成流氓？
+Dialogue: 0,0:21:54.79,0:21:56.75,zhengwen,NTP,0,0,0,,啊  那個啊  是你啊
+Dialogue: 0,0:21:56.83,0:21:57.99,zhengwen,NTP,0,0,0,,你忘了嗎！？
+Dialogue: 0,0:21:58.25,0:22:00.29,zhengwen,NTP,0,0,0,,因為我只是按命令行事
+Dialogue: 0,0:22:00.62,0:22:03.77,zhengwen,NTP,0,0,0,,把你誣陷成流氓  被警察帶走的話
+Dialogue: 0,0:22:03.90,0:22:05.87,zhengwen,NTP,0,0,0,,幸福值就能額外增多了
+Dialogue: 0,0:22:06.18,0:22:08.35,zhengwen,NTP,0,0,0,,是誰發出的指示？
+Dialogue: 0,0:22:08.65,0:22:09.66,zhengwen,NTP,0,0,0,,是暗木
+Dialogue: 0,0:22:10.22,0:22:13.33,zhengwen,NTP,0,0,0,,我們幸福俱樂部的頭目暗木
+Dialogue: 0,0:22:20.14,0:22:23.30,zhengwen,NTP,0,0,0,,沒想到會在我們的高中裏搞集會啊
+Dialogue: 0,0:22:23.75,0:22:26.50,zhengwen,NTP,0,0,0,,但為什麼要特地聚在一起呢
+Dialogue: 0,0:22:26.92,0:22:30.07,zhengwen,NTP,0,0,0,,可以推測出來  但無法確定
+Dialogue: 0,0:22:30.40,0:22:32.48,zhengwen,NTP,0,0,0,,直接問本人最快吧
+Dialogue: 0,0:22:33.58,0:22:34.35,zhengwen,NTP,0,0,0,,是這裏嗎
+Dialogue: 0,0:22:35.70,0:22:36.92,zhengwen,NTP,0,0,0,,這是過去的活動室
+Dialogue: 0,0:22:37.37,0:22:39.99,zhengwen,NTP,0,0,0,,看來很久以前就廢棄了
+Dialogue: 0,0:22:46.64,0:22:47.47,zhengwen,NTP,0,0,0,,有人出來了
+Dialogue: 0,0:22:55.33,0:22:56.05,zhengwen,NTP,0,0,0,,綾瀨！
+Dialogue: 0,0:22:58.26,0:22:59.13,zhengwen,NTP,0,0,0,,柔澤同學
+Dialogue: 0,0:22:59.39,0:23:00.67,zhengwen,NTP,0,0,0,,你怎麼會在這裏？
+Dialogue: 0,0:23:01.85,0:23:04.37,zhengwen,NTP,0,0,0,,難道你也加入了幸福俱樂部？
+Dialogue: 0,0:23:08.17,0:23:11.06,zhengwen,NTP,0,0,0,,說出來不好意思  確實是這樣
+Dialogue: 0,0:23:11.80,0:23:13.61,zhengwen,NTP,0,0,0,,但是我還是很害怕
+Dialogue: 0,0:23:14.12,0:23:17.29,zhengwen,NTP,0,0,0,,話一會再說  我們是來毀了這個俱樂部的
+Dialogue: 0,0:23:17.81,0:23:18.54,zhengwen,NTP,0,0,0,,快回去吧
+Dialogue: 0,0:23:19.21,0:23:20.28,zhengwen,NTP,0,0,0,,謝謝  柔澤同學
+Dialogue: 0,0:23:21.84,0:23:22.73,zhengwen,NTP,0,0,0,,請等一下
+Dialogue: 0,0:23:23.36,0:23:24.64,zhengwen,NTP,0,0,0,,綾瀨一子同學
+Dialogue: 0,0:23:25.66,0:23:29.65,zhengwen,NTP,0,0,0,,你就是幸福俱樂部的創始人暗木吧
+Dialogue: 0,0:23:32.75,0:23:35.07,zhengwen,NTP,0,0,0,,你突然說什麼啊  墮花同學
+Dialogue: 0,0:23:35.29,0:23:36.96,zhengwen,NTP,0,0,0,,難道不是嗎
+Dialogue: 0,0:23:37.31,0:23:40.97,zhengwen,NTP,0,0,0,,那你為什麼會鎖門出來？
+Dialogue: 0,0:23:43.98,0:23:44.90,zhengwen,NTP,0,0,0,,綾瀨  你！
+Dialogue: 0,0:23:47.57,0:23:49.34,zhengwen,NTP,0,0,0,,不愧是墮花同學
+Dialogue: 0,0:23:49.62,0:23:51.61,zhengwen,NTP,0,0,0,,幸福值相當高嘛
+Dialogue: 0,0:23:51.67,0:23:52.59,zhengwen,NTP,0,0,0,,是真的嗎
+Dialogue: 0,0:23:54.18,0:23:59.20,zhengwen,NTP,0,0,0,,沒錯  我操縱裏面的傻孩子們
+Dialogue: 0,0:23:59.57,0:24:01.94,zhengwen,NTP,0,0,0,,創辦了幸福俱樂部
+Dialogue: 0,0:24:02.12,0:24:04.83,zhengwen,NTP,0,0,0,,為什麼  為什麼要幹這種事！
+Dialogue: 0,0:24:05.35,0:24:07.50,zhengwen,NTP,0,0,0,,因為我想得到幸福！
+Dialogue: 0,0:24:09.41,0:24:12.37,zhengwen,NTP,0,0,0,,這跟那些惡作劇有什麼聯繫？
+Dialogue: 0,0:24:12.65,0:24:13.67,zhengwen,NTP,0,0,0,,你不明白嗎？
+Dialogue: 0,0:24:13.71,0:24:15.92,zhengwen,NTP,0,0,0,,確實是個很有趣的觀點
+Dialogue: 0,0:24:16.97,0:24:22.89,zhengwen,NTP,0,0,0,,把別人的幸福摧毀後奪去的這一理論
+Dialogue: 0,0:24:23.83,0:24:27.40,zhengwen,NTP,0,0,0,,假定幸福的總量是固定值的話
+Dialogue: 0,0:24:27.57,0:24:30.21,zhengwen,NTP,0,0,0,,這種理論或許能夠成立
+Dialogue: 0,0:24:30.84,0:24:31.92,zhengwen,NTP,0,0,0,,答得好
+Dialogue: 0,0:24:32.11,0:24:33.77,zhengwen,NTP,0,0,0,,不愧是墮花同學
+Dialogue: 0,0:24:34.76,0:24:40.06,zhengwen,NTP,0,0,0,,我只是把想到的最幼稚理由說出來了而已
+Dialogue: 0,0:24:41.61,0:24:43.16,zhengwen,NTP,0,0,0,,真是嚴厲啊
+Dialogue: 0,0:24:45.26,0:24:48.37,zhengwen,NTP,0,0,0,,但真理不就是那樣嗎
+Dialogue: 0,0:24:49.62,0:24:55.78,zhengwen,NTP,0,0,0,,人在獲得幸福的過程中一定會毀了別人的幸福
+Dialogue: 0,0:24:56.26,0:25:01.72,zhengwen,NTP,0,0,0,,我只是把大家在無意識中做的事情有意去做了而已
+Dialogue: 0,0:25:02.11,0:25:03.54,zhengwen,NTP,0,0,0,,僅此而已
+Dialogue: 0,0:25:05.31,0:25:07.82,zhengwen,NTP,0,0,0,,然後我就因此幸福了
+Dialogue: 0,0:25:08.66,0:25:09.76,zhengwen,NTP,0,0,0,,無藥可救
+Dialogue: 0,0:25:09.92,0:25:12.25,zhengwen,NTP,0,0,0,,超級消極
+Dialogue: 0,0:25:12.48,0:25:13.66,zhengwen,NTP,0,0,0,,無聊！
+Dialogue: 0,0:25:14.09,0:25:15.52,zhengwen,NTP,0,0,0,,無聊之至！
+Dialogue: 0,0:25:15.76,0:25:17.07,zhengwen,NTP,0,0,0,,就因為你們的錯！
+Dialogue: 0,0:25:19.47,0:25:20.96,zhengwen,NTP,0,0,0,,喂  雨！你們！
+Dialogue: 0,0:25:21.34,0:25:25.14,zhengwen,NTP,0,0,0,,了不起  可靠的三劍客嗎
+Dialogue: 0,0:25:31.90,0:25:34.10,zhengwen,NTP,0,0,0,,增加威力吧
+Dialogue: 0,0:25:44.16,0:25:46.49,zhengwen,NTP,0,0,0,,救命啊…
+Dialogue: 0,0:25:55.32,0:25:58.96,zhengwen,NTP,0,0,0,,這樣匯聚的幸福都是我的了！
+Dialogue: 0,0:26:02.07,0:26:02.58,zhengwen,NTP,0,0,0,,雨！
+Dialogue: 0,0:26:02.76,0:26:03.85,zhengwen,NTP,0,0,0,,是  十大人！
+Dialogue: 0,0:26:13.72,0:26:16.59,zhengwen,NTP,0,0,0,,果然最幸福的人是我啊
+Dialogue: 0,0:26:21.16,0:26:21.70,zhengwen,NTP,0,0,0,,柔澤！
+Dialogue: 0,0:26:23.74,0:26:24.95,zhengwen,NTP,0,0,0,,畜生！
+Dialogue: 0,0:26:27.55,0:26:28.42,zhengwen,NTP,0,0,0,,十大人！
+Dialogue: 0,0:26:35.53,0:26:37.49,zhengwen,NTP,0,0,0,,你真的認為她沒有逃走？
+Dialogue: 0,0:26:38.17,0:26:38.69,zhengwen,NTP,0,0,0,,是的
+Dialogue: 0,0:26:39.25,0:26:40.40,zhengwen,NTP,0,0,0,,為什麼這麼確定？
+Dialogue: 0,0:26:40.97,0:26:44.38,zhengwen,NTP,0,0,0,,因為她相信自己的幸福
+Dialogue: 0,0:26:44.75,0:26:46.29,zhengwen,NTP,0,0,0,,誒？為什麼？
+Dialogue: 0,0:26:47.25,0:26:48.29,zhengwen,NTP,0,0,0,,你才是  為什麼在這？
+Dialogue: 0,0:26:48.75,0:26:50.20,zhengwen,NTP,0,0,0,,是我叫來的
+Dialogue: 0,0:27:00.81,0:27:02.04,zhengwen,NTP,0,0,0,,隨便坐吧
+Dialogue: 0,0:27:06.35,0:27:07.99,zhengwen,NTP,0,0,0,,十大人  拿著這個
+Dialogue: 0,0:27:08.89,0:27:10.88,zhengwen,NTP,0,0,0,,或許用得著
+Dialogue: 0,0:27:15.68,0:27:17.78,zhengwen,NTP,0,0,0,,喝茶可以吧  稍等片刻
+Dialogue: 0,0:27:18.89,0:27:20.34,zhengwen,NTP,0,0,0,,你沒逃跑啊
+Dialogue: 0,0:27:21.07,0:27:23.02,zhengwen,NTP,0,0,0,,有這個必要嗎
+Dialogue: 0,0:27:23.38,0:27:27.48,zhengwen,NTP,0,0,0,,現在我的幸福值應該能掃除大部分障礙
+Dialogue: 0,0:27:32.38,0:27:35.37,zhengwen,NTP,0,0,0,,我先說清楚  報警也沒用哦
+Dialogue: 0,0:27:36.03,0:27:41.91,zhengwen,NTP,0,0,0,,我沒留下任何證據  也絕不會招供
+Dialogue: 0,0:27:42.30,0:27:43.54,zhengwen,NTP,0,0,0,,死都不會
+Dialogue: 0,0:27:43.74,0:27:45.11,zhengwen,NTP,0,0,0,,你在說什麼呢？
+Dialogue: 0,0:27:45.35,0:27:48.48,zhengwen,NTP,0,0,0,,她就是那個惡作劇的總頭目
+Dialogue: 0,0:27:49.07,0:27:51.39,zhengwen,NTP,0,0,0,,在組織裏用的是「暗木」這個名字
+Dialogue: 0,0:27:52.13,0:27:52.86,zhengwen,NTP,0,0,0,,錯不了
+Dialogue: 0,0:27:54.54,0:27:55.62,zhengwen,NTP,0,0,0,,暗木…
+Dialogue: 0,0:27:59.84,0:28:00.57,zhengwen,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:28:09.07,0:28:12.11,zhengwen,NTP,0,0,0,,暗木是離婚的父親的姓
+Dialogue: 0,0:28:12.58,0:28:16.15,zhengwen,NTP,0,0,0,,所以我以前的名字是暗木一子
+Dialogue: 0,0:28:18.48,0:28:20.88,zhengwen,NTP,0,0,0,,哥哥的名字是暗木一夫
+Dialogue: 0,0:28:23.61,0:28:27.86,zhengwen,NTP,0,0,0,,柔澤同學  你聽白石前輩說過的吧
+Dialogue: 0,0:28:28.64,0:28:31.98,zhengwen,NTP,0,0,0,,「我殺過人」之類的
+Dialogue: 0,0:28:32.57,0:28:33.11,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:28:33.80,0:28:36.80,zhengwen,NTP,0,0,0,,那是她的慣用伎倆
+Dialogue: 0,0:28:37.23,0:28:40.55,zhengwen,NTP,0,0,0,,把自己的秘密  精神創傷說出來
+Dialogue: 0,0:28:40.69,0:28:43.12,zhengwen,NTP,0,0,0,,以此打開對方的心靈
+Dialogue: 0,0:28:44.34,0:28:46.13,zhengwen,NTP,0,0,0,,這招實在是高明
+Dialogue: 0,0:28:46.50,0:28:49.71,zhengwen,NTP,0,0,0,,到目前為止跟多少人說過同樣的內容了？
+Dialogue: 0,0:28:50.13,0:28:50.87,zhengwen,NTP,0,0,0,,前輩
+Dialogue: 0,0:28:52.04,0:28:53.81,zhengwen,NTP,0,0,0,,這到底怎麼回事？
+Dialogue: 0,0:28:54.10,0:28:56.28,zhengwen,NTP,0,0,0,,你腦瓜真不靈光
+Dialogue: 0,0:28:56.48,0:28:58.95,zhengwen,NTP,0,0,0,,不從頭到尾解釋清楚就不明白嗎
+Dialogue: 0,0:28:59.20,0:29:01.99,zhengwen,NTP,0,0,0,,在白石前輩面前自殺的少年
+Dialogue: 0,0:29:02.57,0:29:06.30,zhengwen,NTP,0,0,0,,也就是你的哥哥吧
+Dialogue: 0,0:29:06.74,0:29:08.04,zhengwen,NTP,0,0,0,,沒錯
+Dialogue: 0,0:29:09.33,0:29:11.30,zhengwen,NTP,0,0,0,,就是我哥哥
+Dialogue: 0,0:29:11.76,0:29:14.77,zhengwen,NTP,0,0,0,,但橫刀奪愛這點是假的
+Dialogue: 0,0:29:15.18,0:29:18.91,zhengwen,NTP,0,0,0,,白石前輩最早是跟我哥哥在交往
+Dialogue: 0,0:29:20.11,0:29:22.81,zhengwen,NTP,0,0,0,,但有一天突然被她甩了
+Dialogue: 0,0:29:23.26,0:29:26.28,zhengwen,NTP,0,0,0,,前輩為了跟即是學生會長又是大公司的名門子弟
+Dialogue: 0,0:29:26.39,0:29:30.68,zhengwen,NTP,0,0,0,,而且成績優秀的另一個男人交往
+Dialogue: 0,0:29:33.24,0:29:36.63,zhengwen,NTP,0,0,0,,然後  絕望的哥哥就死了
+Dialogue: 0,0:29:37.36,0:29:39.67,zhengwen,NTP,0,0,0,,自己割斷了喉嚨
+Dialogue: 0,0:29:50.31,0:29:52.72,zhengwen,NTP,0,0,0,,剛才的話是真的嗎
+Dialogue: 0,0:29:54.90,0:29:57.50,zhengwen,NTP,0,0,0,,你鄙視我了嗎
+Dialogue: 0,0:29:58.52,0:29:59.18,zhengwen,NTP,0,0,0,,不…
+Dialogue: 0,0:30:02.62,0:30:05.04,zhengwen,NTP,0,0,0,,我並不是恨白石前輩
+Dialogue: 0,0:30:06.97,0:30:10.49,zhengwen,NTP,0,0,0,,我簡直想為你作為女人的冷靜判斷鼓掌呢
+Dialogue: 0,0:30:11.67,0:30:16.37,zhengwen,NTP,0,0,0,,而且不如說我是對前輩心存感激
+Dialogue: 0,0:30:17.48,0:30:18.25,zhengwen,NTP,0,0,0,,感激？
+Dialogue: 0,0:30:18.76,0:30:23.83,zhengwen,NTP,0,0,0,,因為她讓我看清了世界的構造
+Dialogue: 0,0:30:25.69,0:30:29.71,zhengwen,NTP,0,0,0,,哥哥自殺後的數年太悲劇了
+Dialogue: 0,0:30:30.53,0:30:34.46,zhengwen,NTP,0,0,0,,祖父母去世  父親因引發交通事故丟了工作
+Dialogue: 0,0:30:34.96,0:30:38.28,zhengwen,NTP,0,0,0,,母親因操心過度  神經衰弱而陷入昏睡
+Dialogue: 0,0:30:39.92,0:30:43.49,zhengwen,NTP,0,0,0,,最後還被人放火燒了房子
+Dialogue: 0,0:30:43.93,0:30:47.40,zhengwen,NTP,0,0,0,,父親扔下病倒的母親失蹤
+Dialogue: 0,0:30:48.90,0:30:54.55,zhengwen,NTP,0,0,0,,母親現在連病床都下不了
+Dialogue: 0,0:30:56.07,0:31:00.18,zhengwen,NTP,0,0,0,,已經不是運氣不好  有點背的等級了
+Dialogue: 0,0:31:00.94,0:31:05.79,zhengwen,NTP,0,0,0,,好像以哥哥的死為轉折  幸福就邁著大步離我們遠去了
+Dialogue: 0,0:31:08.22,0:31:09.66,zhengwen,NTP,0,0,0,,但是你呢？
+Dialogue: 0,0:31:10.12,0:31:12.61,zhengwen,NTP,0,0,0,,白石前輩  你不幸嗎？
+Dialogue: 0,0:31:13.87,0:31:18.98,zhengwen,NTP,0,0,0,,我好不容易進到這所高中找到你的時候大吃一驚
+Dialogue: 0,0:31:19.75,0:31:23.92,zhengwen,NTP,0,0,0,,成績優秀  還是學生會長  又很有人望
+Dialogue: 0,0:31:24.70,0:31:29.59,zhengwen,NTP,0,0,0,,哥哥死了  你卻那麼幸福
+Dialogue: 0,0:31:31.04,0:31:35.28,zhengwen,NTP,0,0,0,,我在不幸的深淵  你卻那麼耀眼
+Dialogue: 0,0:31:36.47,0:31:38.01,zhengwen,NTP,0,0,0,,我就在想
+Dialogue: 0,0:31:41.17,0:31:46.33,zhengwen,NTP,0,0,0,,簡直就像是前輩把哥哥的幸福全都吸走了
+Dialogue: 0,0:31:46.70,0:31:48.62,zhengwen,NTP,0,0,0,,所以才那麼幸福
+Dialogue: 0,0:31:50.47,0:31:52.89,zhengwen,NTP,0,0,0,,道歉的話能原諒我嗎
+Dialogue: 0,0:31:53.22,0:31:55.71,zhengwen,NTP,0,0,0,,我確實背叛了一夫君
+Dialogue: 0,0:31:57.28,0:31:59.41,zhengwen,NTP,0,0,0,,但我沒想到他會去死
+Dialogue: 0,0:32:00.06,0:32:01.94,zhengwen,NTP,0,0,0,,你要我道歉的話我會道歉
+Dialogue: 0,0:32:02.61,0:32:03.12,zhengwen,NTP,0,0,0,,所以…
+Dialogue: 0,0:32:03.87,0:32:05.61,zhengwen,NTP,0,0,0,,沒這個必要
+Dialogue: 0,0:32:06.55,0:32:09.67,zhengwen,NTP,0,0,0,,前輩只要還給我就行了
+Dialogue: 0,0:32:14.73,0:32:16.06,zhengwen,NTP,0,0,0,,媽媽  我進來了
+Dialogue: 0,0:32:26.25,0:32:28.24,zhengwen,NTP,0,0,0,,綾瀨！你這是…
+Dialogue: 0,0:32:28.76,0:32:33.00,zhengwen,NTP,0,0,0,,這是我媽媽  如你所見身體不好
+Dialogue: 0,0:32:33.63,0:32:38.66,zhengwen,NTP,0,0,0,,是我計算失誤了  因為幸福值還不夠吧
+Dialogue: 0,0:32:46.98,0:32:48.27,zhengwen,NTP,0,0,0,,不要啊！別殺我！
+Dialogue: 0,0:32:48.91,0:32:52.74,zhengwen,NTP,0,0,0,,討厭啊  前輩  我才不是殺人魔呢
+Dialogue: 0,0:32:53.50,0:32:55.90,zhengwen,NTP,0,0,0,,只是希望你還給我
+Dialogue: 0,0:32:59.65,0:33:02.75,zhengwen,NTP,0,0,0,,你從哥哥那裏奪去的幸福值
+Dialogue: 0,0:33:02.90,0:33:04.38,zhengwen,NTP,0,0,0,,但…但是我該怎麼做？
+Dialogue: 0,0:33:04.59,0:33:09.01,zhengwen,NTP,0,0,0,,很簡單  只要把白石前輩的幸福毀了就行
+Dialogue: 0,0:33:10.09,0:33:15.58,zhengwen,NTP,0,0,0,,比如前輩是個美人  把耳朵或者鼻子割掉怎麼樣？
+Dialogue: 0,0:33:16.68,0:33:18.19,zhengwen,NTP,0,0,0,,眼睛也可以哦
+Dialogue: 0,0:33:18.52,0:33:21.23,zhengwen,NTP,0,0,0,,啊  乳房也不錯嘛
+Dialogue: 0,0:33:22.01,0:33:25.52,zhengwen,NTP,0,0,0,,來  請你自己動手吧
+Dialogue: 0,0:33:26.00,0:33:27.04,zhengwen,NTP,0,0,0,,饒了我！
+Dialogue: 0,0:33:27.63,0:33:28.90,zhengwen,NTP,0,0,0,,求你饒了我！
+Dialogue: 0,0:33:29.32,0:33:31.21,zhengwen,NTP,0,0,0,,對不起！請原諒我！
+Dialogue: 0,0:33:32.16,0:33:34.87,zhengwen,NTP,0,0,0,,少廢話  我讓你快點動手！
+Dialogue: 0,0:33:39.18,0:33:41.80,zhengwen,NTP,0,0,0,,只要你把幸福值還給我
+Dialogue: 0,0:33:42.64,0:33:44.92,zhengwen,NTP,0,0,0,,媽媽的病就能治好了
+Dialogue: 0,0:33:45.84,0:33:49.42,zhengwen,NTP,0,0,0,,再存更多的幸福值後爸爸也會回來
+Dialogue: 0,0:33:49.89,0:33:53.06,zhengwen,NTP,0,0,0,,或許哥哥也會從那個世界回來
+Dialogue: 0,0:33:53.58,0:33:54.63,zhengwen,NTP,0,0,0,,所以…吶
+Dialogue: 0,0:33:54.67,0:33:57.03,zhengwen,NTP,0,0,0,,不要啊！饒了我吧！
+Dialogue: 0,0:33:57.24,0:33:59.12,zhengwen,NTP,0,0,0,,{\an8}喂  切哪裏好呢？
+Dialogue: 0,0:34:00.70,0:34:02.89,zhengwen,NTP,0,0,0,,{\an8}耳朵嗎？鼻子呢？
+Dialogue: 0,0:33:59.52,0:34:07.33,zhengwen,NTP,0,0,0,,沒事的  日常與非日常相互交織  其差距全憑主觀而定
+Dialogue: 0,0:34:07.38,0:34:10.28,zhengwen,NTP,0,0,0,,{\an8}把臉上的肉挖去幾處也不錯嘛
+Dialogue: 0,0:34:08.42,0:34:12.51,zhengwen,NTP,0,0,0,,沒事的   十大人  您不會敗在這種事上
+Dialogue: 0,0:34:13.24,0:34:14.73,zhengwen,NTP,0,0,0,,手指也行啊
+Dialogue: 0,0:34:15.30,0:34:20.17,zhengwen,NTP,0,0,0,,但是要小心  你要是死了屍體的處理會很麻煩
+Dialogue: 0,0:34:20.47,0:34:22.43,zhengwen,NTP,0,0,0,,就這點請你注意
+Dialogue: 0,0:34:23.33,0:34:25.42,zhengwen,NTP,0,0,0,,十大人  我有一個請求
+Dialogue: 0,0:34:25.95,0:34:28.29,zhengwen,NTP,0,0,0,,請給我下達命令吧
+Dialogue: 0,0:34:28.85,0:34:29.82,zhengwen,NTP,0,0,0,,結束這一切吧
+Dialogue: 0,0:34:30.11,0:34:30.63,zhengwen,NTP,0,0,0,,遵命！
+Dialogue: 0,0:34:31.16,0:34:34.60,zhengwen,NTP,0,0,0,,臣這就去懲治那些醜惡傢伙們
+Dialogue: 0,0:34:34.86,0:34:36.56,zhengwen,NTP,0,0,0,,我讓你趕快動手！
+Dialogue: 0,0:34:36.79,0:34:37.57,zhengwen,NTP,0,0,0,,放過我吧！
+Dialogue: 0,0:34:37.62,0:34:38.60,zhengwen,NTP,0,0,0,,快干啊…
+Dialogue: 0,0:34:38.94,0:34:41.18,zhengwen,NTP,0,0,0,,綾瀨同學  我有話跟你說
+Dialogue: 0,0:34:41.51,0:34:44.53,zhengwen,NTP,0,0,0,,能過會再說嗎  我現在正忙要緊事呢
+Dialogue: 0,0:34:44.86,0:34:47.79,zhengwen,NTP,0,0,0,,但是我有件事很在意
+Dialogue: 0,0:34:48.68,0:34:49.81,zhengwen,NTP,0,0,0,,白石前輩
+Dialogue: 0,0:34:51.69,0:34:56.76,zhengwen,NTP,0,0,0,,綾瀨同學的哥哥是在你面前自殺的吧
+Dialogue: 0,0:35:00.03,0:35:03.59,zhengwen,NTP,0,0,0,,說著「為了你我可以去死」然後真的死了
+Dialogue: 0,0:35:04.07,0:35:07.39,zhengwen,NTP,0,0,0,,那時候的他是什麼表情？
+Dialogue: 0,0:35:11.66,0:35:12.85,zhengwen,NTP,0,0,0,,他在笑…
+Dialogue: 0,0:35:13.29,0:35:14.19,zhengwen,NTP,0,0,0,,開心地笑？
+Dialogue: 0,0:35:14.74,0:35:16.67,zhengwen,NTP,0,0,0,,是的   他在笑
+Dialogue: 0,0:35:17.08,0:35:18.08,zhengwen,NTP,0,0,0,,開心地笑著
+Dialogue: 0,0:35:18.53,0:35:20.41,zhengwen,NTP,0,0,0,,不知道是為什麼  但他在笑
+Dialogue: 0,0:35:21.73,0:35:24.42,zhengwen,NTP,0,0,0,,墮花同學  你想說什麼？
+Dialogue: 0,0:35:24.99,0:35:31.41,zhengwen,NTP,0,0,0,,綾瀨同學  奪走你家庭幸福值的人不是白石前輩
+Dialogue: 0,0:35:32.12,0:35:33.40,zhengwen,NTP,0,0,0,,這不可能
+Dialogue: 0,0:35:33.78,0:35:36.25,zhengwen,NTP,0,0,0,,因為哥哥的死…
+Dialogue: 0,0:35:37.26,0:35:38.33,zhengwen,NTP,0,0,0,,你發現了嗎
+Dialogue: 0,0:35:40.66,0:35:44.98,zhengwen,NTP,0,0,0,,奪走你家庭幸福值的人是你哥哥
+Dialogue: 0,0:35:45.58,0:35:49.43,zhengwen,NTP,0,0,0,,他以自己的死  毀了家庭的幸福
+Dialogue: 0,0:35:49.85,0:35:52.68,zhengwen,NTP,0,0,0,,同時奪走了幸福值
+Dialogue: 0,0:35:54.36,0:35:58.82,zhengwen,NTP,0,0,0,,然後品味著人生最高的幸福而死
+Dialogue: 0,0:35:59.47,0:36:01.45,zhengwen,NTP,0,0,0,,使之成為永恆
+Dialogue: 0,0:36:02.39,0:36:05.70,zhengwen,NTP,0,0,0,,他不惜奪走家人的幸福值也希望這麼做
+Dialogue: 0,0:36:06.14,0:36:08.02,zhengwen,NTP,0,0,0,,並且成功做到了
+Dialogue: 0,0:36:09.20,0:36:12.00,zhengwen,NTP,0,0,0,,哥…哥哥也知道這一真理嗎
+Dialogue: 0,0:36:12.90,0:36:14.12,zhengwen,NTP,0,0,0,,不可能！
+Dialogue: 0,0:36:14.17,0:36:16.38,zhengwen,NTP,0,0,0,,知不知道不是問題
+Dialogue: 0,0:36:18.60,0:36:24.88,zhengwen,NTP,0,0,0,,「人在獲得幸福的過程中必然會毀了別人的幸福」
+Dialogue: 0,0:36:26.34,0:36:29.67,zhengwen,NTP,0,0,0,,這話是你說過的  綾瀨同學
+Dialogue: 0,0:36:39.10,0:36:41.43,zhengwen,NTP,0,0,0,,好過分  哥哥
+Dialogue: 0,0:36:50.49,0:36:52.09,zhengwen,NTP,0,0,0,,幸福毀滅者嗎
+Dialogue: 0,0:36:53.19,0:36:57.18,zhengwen,NTP,0,0,0,,做這些事  她真的幸福嗎
+Dialogue: 0,0:36:57.96,0:36:58.97,zhengwen,NTP,0,0,0,,我想是的
+Dialogue: 0,0:36:59.58,0:37:04.90,zhengwen,NTP,0,0,0,,那時候她堅信這痛苦的狀態很快就會結束
+Dialogue: 0,0:37:05.77,0:37:09.72,zhengwen,NTP,0,0,0,,那不只是在逃避現實嗎
+Dialogue: 0,0:37:09.91,0:37:16.34,zhengwen,NTP,0,0,0,,是的  簡單快速獲得幸福的方法就是逃避現實
+Dialogue: 0,0:37:18.67,0:37:21.02,zhengwen,NTP,0,0,0,,對你來說幸福是什麼？
+Dialogue: 0,0:37:25.53,0:37:28.20,zhengwen,NTP,0,0,0,,就是我現在感受到的東西
+Dialogue: 0,0:37:30.97,0:37:32.46,zhengwen,NTP,0,0,0,,那個…雨
+Dialogue: 0,0:37:33.87,0:37:36.03,zhengwen,NTP,0,0,0,,有件事一定要告訴你
+Dialogue: 0,0:37:36.48,0:37:37.14,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:37:38.91,0:37:42.60,zhengwen,NTP,0,0,0,,流氓騷動中幫我的女朋友的事
+Dialogue: 0,0:37:43.36,0:37:44.84,zhengwen,NTP,0,0,0,,跟當初的約定不一樣啊！
+Dialogue: 0,0:37:45.14,0:37:46.55,zhengwen,NTP,0,0,0,,尤其不能讓我姐姐知道！
+Dialogue: 0,0:37:46.74,0:37:48.60,zhengwen,NTP,0,0,0,,你卻給說出來了！
+Dialogue: 0,0:37:48.75,0:37:49.35,zhengwen,NTP,0,0,0,,小光
+Dialogue: 0,0:37:49.51,0:37:50.06,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:37:51.38,0:37:52.51,zhengwen,NTP,0,0,0,,聽我說
+Dialogue: 0,0:37:54.94,0:37:56.85,zhengwen,NTP,0,0,0,,我很開心
+Dialogue: 0,0:37:57.63,0:38:02.53,zhengwen,NTP,0,0,0,,在我不知情的時候  小光替我給十大人解圍了
+Dialogue: 0,0:38:03.44,0:38:04.40,zhengwen,NTP,0,0,0,,還有…
+Dialogue: 0,0:38:05.58,0:38:08.84,zhengwen,NTP,0,0,0,,作為道謝  我把誤會解開了
+Dialogue: 0,0:38:10.09,0:38:11.36,zhengwen,NTP,0,0,0,,那個叫伊吹的傢伙的
+Dialogue: 0,0:38:11.48,0:38:11.91,zhengwen,NTP,0,0,0,,誒！？
+Dialogue: 0,0:38:13.24,0:38:16.61,zhengwen,NTP,0,0,0,,去吧  這次他應該會好好聽你說了
+Dialogue: 0,0:38:17.19,0:38:18.46,zhengwen,NTP,0,0,0,,但是你怎麼做的？
+Dialogue: 0,0:38:18.59,0:38:23.71,zhengwen,NTP,0,0,0,,柔澤君吶  跟伊吹單挑去了  為了小光
+Dialogue: 0,0:38:24.42,0:38:28.45,zhengwen,NTP,0,0,0,,一下都沒還手  在伊吹打夠之前一直忍著
+Dialogue: 0,0:38:30.09,0:38:33.64,zhengwen,NTP,0,0,0,,男生偶爾還能幹出些不得了的事情呢
+Dialogue: 0,0:38:34.68,0:38:36.02,zhengwen,NTP,0,0,0,,為什麼要做到這種地步
+Dialogue: 0,0:38:36.52,0:38:38.73,zhengwen,NTP,0,0,0,,你也幫過我吧
+Dialogue: 0,0:38:39.70,0:38:40.94,zhengwen,NTP,0,0,0,,就這點理由嗎
+Dialogue: 0,0:38:41.72,0:38:42.48,zhengwen,NTP,0,0,0,,啊
+Dialogue: 0,0:38:43.49,0:38:45.40,zhengwen,NTP,0,0,0,,別害我心神不寧  笨蛋！
+Dialogue: 0,0:38:45.85,0:38:48.18,zhengwen,NTP,0,0,0,,害我想奇怪的事情了
+Dialogue: 0,0:38:51.44,0:38:54.96,zhengwen,NTP,0,0,0,,你也跟去守護她吧  身為姐姐
+Dialogue: 0,0:38:55.61,0:38:56.27,zhengwen,NTP,0,0,0,,但是…
+Dialogue: 0,0:38:57.01,0:39:01.65,zhengwen,NTP,0,0,0,,還有  順利的話祝福她的幸福
+Dialogue: 0,0:39:04.00,0:39:04.62,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:39:25.25,0:39:26.12,zhengwen,NTP,0,0,0,,柔澤同學
+Dialogue: 0,0:39:28.40,0:39:29.66,zhengwen,NTP,0,0,0,,白石前輩
+Dialogue: 0,0:39:30.72,0:39:33.98,zhengwen,NTP,0,0,0,,你小時候的夢想是什麼？
+Dialogue: 0,0:39:35.33,0:39:39.20,zhengwen,NTP,0,0,0,,我是希望獲得幸福
+Dialogue: 0,0:39:40.88,0:39:44.05,zhengwen,NTP,0,0,0,,所以為此一直努力
+Dialogue: 0,0:39:45.06,0:39:47.68,zhengwen,NTP,0,0,0,,妨礙我的東西全都清除了
+Dialogue: 0,0:39:49.20,0:39:52.14,zhengwen,NTP,0,0,0,,一夫君  也是這樣子
+Dialogue: 0,0:39:52.86,0:39:53.44,zhengwen,NTP,0,0,0,,誒？
+Dialogue: 0,0:39:54.99,0:39:56.99,zhengwen,NTP,0,0,0,,一切都很順利的…
+Dialogue: 0,0:39:58.31,0:40:00.43,zhengwen,NTP,0,0,0,,一直都很順利的…
+Dialogue: 0,0:40:01.57,0:40:02.88,zhengwen,NTP,0,0,0,,已經完了
+Dialogue: 0,0:40:03.91,0:40:05.89,zhengwen,NTP,0,0,0,,我的幸福已經…
+Dialogue: 0,0:40:06.06,0:40:06.81,zhengwen,NTP,0,0,0,,什麼意思？
+Dialogue: 0,0:40:07.68,0:40:08.36,zhengwen,NTP,0,0,0,,吶
+Dialogue: 0,0:40:09.67,0:40:15.83,zhengwen,NTP,0,0,0,,柔澤同學  我有件事求你
+Dialogue: 0,0:40:16.57,0:40:17.62,zhengwen,NTP,0,0,0,,給我…
+Dialogue: 0,0:40:21.50,0:40:23.02,zhengwen,NTP,0,0,0,,{\pos(357,330)}給我吧
+Dialogue: 0,0:40:23.63,0:40:24.58,zhengwen,NTP,0,0,0,,是這樣啊！
+Dialogue: 0,0:40:24.76,0:40:26.23,zhengwen,NTP,0,0,0,,{\pos(152,170)}你的幸福值
+Dialogue: 0,0:40:27.63,0:40:29.71,zhengwen,NTP,0,0,0,,你也是幸福毀滅者
+Dialogue: 0,0:40:34.63,0:40:35.37,zhengwen,NTP,0,0,0,,雨？
+Dialogue: 0,0:40:40.76,0:40:41.93,zhengwen,NTP,0,0,0,,交通事故啊
+Dialogue: 0,0:40:42.05,0:40:44.15,zhengwen,NTP,0,0,0,,好像有高中生被車撞了
+Dialogue: 0,0:40:45.56,0:40:46.16,zhengwen,NTP,0,0,0,,十大人！
+Dialogue: 0,0:40:48.12,0:40:48.76,zhengwen,NTP,0,0,0,,十大人！
+Dialogue: 0,0:40:49.00,0:40:49.77,zhengwen,NTP,0,0,0,,十大人！
+Dialogue: 0,0:40:52.15,0:40:53.00,zhengwen,NTP,0,0,0,,十大人！
+Dialogue: 0,0:40:54.40,0:40:54.98,zhengwen,NTP,0,0,0,,雨…
+Dialogue: 0,0:40:56.32,0:40:57.75,zhengwen,NTP,0,0,0,,十大人！
+Dialogue: 0,0:41:08.92,0:41:12.63,zhengwen,NTP,0,0,0,,我並不怎麼相信因果報應
+Dialogue: 0,0:41:13.55,0:41:15.94,zhengwen,NTP,0,0,0,,因為神很懶
+Dialogue: 0,0:41:17.05,0:41:19.62,zhengwen,NTP,0,0,0,,但偶爾也有老天開眼的時候
+Dialogue: 0,0:41:24.61,0:41:28.33,zhengwen,NTP,0,0,0,,你竟然能知道我有危險
+Dialogue: 0,0:41:33.87,0:41:36.34,zhengwen,NTP,0,0,0,,這是前世的羈絆
+Dialogue: 0,0:41:41.15,0:41:46.01,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}独りだった　あの頃はいつも
+Dialogue: 0,0:41:46.74,0:41:50.24,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}自分を消したくて
+Dialogue: 0,0:41:52.54,0:41:57.38,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}居場所のない教室の隅で
+Dialogue: 0,0:41:58.07,0:42:03.95,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}知らない罪さえも負わされ
+Dialogue: 0,0:42:03.99,0:42:09.87,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}悔しくて　怖くて
+Dialogue: 0,0:42:10.99,0:42:14.97,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}閉め切ったdoorを
+Dialogue: 0,0:42:15.60,0:42:25.85,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}いつかあなたに話す勇気があれば開けて欲しくて
+Dialogue: 0,0:42:25.92,0:42:40.30,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}ただ生きている事があなたの幸せになると
+Dialogue: 0,0:42:40.52,0:42:48.92,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}気づかなかった　伝えてくれてありがとう
+Dialogue: 0,0:42:49.84,0:42:52.23,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}今はわかるよ
+Dialogue: 0,0:42:52.58,0:43:00.44,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}傷みを知って　大きな優しさを知った
+Dialogue: 0,0:43:01.03,0:43:11.02,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}自分を信じ　歩いて行けば過去から抜け出せる
+Dialogue: 0,0:43:11.04,0:43:18.22,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}未来は自分次第と
+Dialogue: 0,0:43:20.11,0:43:34.18,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}ただ生きている事がこんなにも意味があるなら
+Dialogue: 0,0:43:34.39,0:43:43.28,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}できるよ　もう越えられる　明日も負けないよ
+Dialogue: 0,0:43:43.35,0:43:47.99,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}いつかあなたに笑って言うよ
+Dialogue: 0,0:43:48.01,0:44:01.00,EDJ,NTP,0,0,0,,{\fad(200,200)\be1}生きる事が大切だと
+Dialogue: 0,0:41:41.15,0:41:46.01,EDC,NTP,0,0,0,,{\fad(200,200)\be1}孤單傷心時
+Dialogue: 0,0:41:46.74,0:41:50.24,EDC,NTP,0,0,0,,{\fad(200,200)\be1}妄想別世去
+Dialogue: 0,0:41:52.54,0:41:57.38,EDC,NTP,0,0,0,,{\fad(200,200)\be1}陌生教室角落間
+Dialogue: 0,0:41:58.07,0:42:03.95,EDC,NTP,0,0,0,,{\fad(200,200)\be1}身背莫名罪
+Dialogue: 0,0:42:03.99,0:42:09.87,EDC,NTP,0,0,0,,{\fad(200,200)\be1}懊悔著  恐慌著
+Dialogue: 0,0:42:10.99,0:42:14.97,EDC,NTP,0,0,0,,{\fad(200,200)\be1}緊閉的door
+Dialogue: 0,0:42:15.60,0:42:25.85,EDC,NTP,0,0,0,,{\fad(200,200)\be1}希望某天能有勇氣去打開
+Dialogue: 0,0:42:25.92,0:42:40.30,EDC,NTP,0,0,0,,{\fad(200,200)\be1}僅僅活著就能讓你幸福
+Dialogue: 0,0:42:40.52,0:42:48.92,EDC,NTP,0,0,0,,{\fad(200,200)\be1}卻渾然不知  謝謝你告訴我
+Dialogue: 0,0:42:49.84,0:42:52.23,EDC,NTP,0,0,0,,{\fad(200,200)\be1}現在明白了
+Dialogue: 0,0:42:52.58,0:43:00.44,EDC,NTP,0,0,0,,{\fad(200,200)\be1}深知傷痛  了然溫柔
+Dialogue: 0,0:43:01.03,0:43:11.02,EDC,NTP,0,0,0,,{\fad(200,200)\be1}相信自己一定可以擺脫過去
+Dialogue: 0,0:43:11.04,0:43:18.22,EDC,NTP,0,0,0,,{\fad(200,200)\be1}未來在自己腳下
+Dialogue: 0,0:43:20.11,0:43:34.18,EDC,NTP,0,0,0,,{\fad(200,200)\be1}如果僅僅活著就能如此充滿意義
+Dialogue: 0,0:43:34.39,0:43:43.28,EDC,NTP,0,0,0,,{\fad(200,200)\be1}一定能夠戰勝自我  超越明天
+Dialogue: 0,0:43:43.35,0:43:47.99,EDC,NTP,0,0,0,,{\fad(200,200)\be1}總有一天我要笑著告訴你
+Dialogue: 0,0:43:48.01,0:44:01.00,EDC,NTP,0,0,0,,{\fad(200,200)\be1}活著是多麼重要
+

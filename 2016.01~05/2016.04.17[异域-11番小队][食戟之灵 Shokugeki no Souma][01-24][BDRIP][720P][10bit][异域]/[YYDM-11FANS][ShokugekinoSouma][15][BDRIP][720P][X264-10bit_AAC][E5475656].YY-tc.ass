@@ -1,0 +1,434 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 食戟之灵
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正少儿_GBK,42,&H00FFFFFF,&HFF0000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: warning,STKaiti,32,&H00FFFFFF,&H000000FF,&H00031531,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: staff,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: note,FZYaSong-B-GBK,42,&H00323232,&HFF0000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: note2,方正毡笔黑_GBK,48,&H001B1B1B,&HFF0000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,5,0,1,2,0,5,10,10,10,1
+Style: logo@,@FZYaSong-B-GBK,60,&H001C71FF,&H000000FF,&H00FFFFFF,&H003A23DA,0,0,0,0,100,100,0,-90,1,1,1,5,10,10,10,1
+Style: logo,FZYaSong-B-GBK,60,&H001C71FF,&H000000FF,&H00FFFFFF,&H003A23DA,0,0,0,0,100,100,0,0,1,2,3,5,10,10,10,1
+Style: note@,@方正毡笔黑_GBK,48,&H00000000,&HFF0000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,-90,1,0,0,5,10,10,10,1
+Style: opj,A-OTF Kanteiryu Std Ultra,48,&H00FFFFFF,&H000000FF,&H00365CE6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,6,1
+Style: edj,A-OTF Kanteiryu Std Ultra,42,&H00DD7741,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,6,1
+Style: note@2,@FZZhiYi-M12,48,&H0045494D,&HFF0000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,-90,1,0,0,5,10,10,10,1
+Style: opc,方正毡笔黑_GBK,42,&H00FFFFFF,&H000000FF,&H00365CE6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,10,10,6,1
+Style: Default_top,方正少儿_GBK,36,&H00FFFFFF,&HFF0000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: edc,方正毡笔黑_GBK,36,&H00FFFFFF,&H000000FF,&H008C583B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,6,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.98,0:00:07.86,warning,,0,0,0,,{\fad(200,200)\b1\move(640,10,640,-24,2500,2600)\clip(0,9,1280,42)}本片字幕由異域字幕組(http://www.yyman.cn)製作,僅供試看之用,請在24小時內刪除,\N如果喜歡本作品,請購買並支持正版!如因私自散佈造成的法律問題,本字幕組恕不負責。
+Dialogue: 0,0:00:07.86,0:00:12.78,warning,,0,0,0,,{\fad(200,0)\b1\move(640,10,640,-24,2500,2600)\clip(0,9,1280,42)}翻譯：澄 蕾拉 茶   校對：茶茶  時後：FM 壓制：AAAA
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,
+Dialogue: 0,0:01:03.00,0:01:08.46,logo,,0,0,0,,{\move(640,620,640,540,4100,4920)\fad(200,0)\t(4100,4920,\fs42)}異域{\c&H8AAF27&\4c&H689E17&}字幕組
+Dialogue: 0,0:12:36.98,0:12:40.98,logo,,0,0,0,,{\fs24\shad1\bord1\pos(180,205)}異域{\c&H8AAF27&\4c&H689E17}字幕組
+Dialogue: 0,0:24:53.01,0:24:58.01,logo,NTP,0,0,0,,{\fs28\shad1\bord1\pos(190,235)}異域{\c&H8AAF27&\4c&H689E17&}字幕組
+Dialogue: 0,0:00:26.77,0:00:30.61,Default,NTP,0,0,0,,現在開始這個合宿的最終環節
+Dialogue: 0,0:00:31.52,0:00:33.32,Default,NTP,0,0,0,,將會品嚐到由畢業生們的料理所組成的
+Dialogue: 0,0:00:33.46,0:00:35.06,Default,NTP,0,0,0,,全席套餐
+Dialogue: 0,0:00:35.06,0:00:37.56,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:02:22.03,0:02:26.96,note@,NTP,0,0,0,,{\fs60\bord3\fad(950,950)\move(80,360,80,340)\3c&H40F9FF&\c&H090504&}被稱為「修羅」的男人
+Dialogue: 0,0:02:31.53,0:02:33.40,Default,NTP,0,0,0,,學生們請整理好隨身行李
+Dialogue: 0,0:02:33.64,0:02:36.18,Default,NTP,0,0,0,,各自搭乘指定的大巴車
+Dialogue: 0,0:02:36.85,0:02:38.97,Default,NTP,0,0,0,,房間鑰匙請還到賓館前台
+Dialogue: 0,0:02:39.42,0:02:42.32,Default,NTP,0,0,0,,注意不要在賓館落下行李
+Dialogue: 0,0:02:45.96,0:02:47.95,Default,NTP,0,0,0,,結束啦 結束啦
+Dialogue: 0,0:02:48.99,0:02:50.91,Default,NTP,0,0,0,,全員都平安無事活下來了呢
+Dialogue: 0,0:02:51.18,0:02:51.68,Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:02:51.86,0:02:52.20,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:02:52.59,0:02:54.96,Default,NTP,0,0,0,,感覺這幾天一下子就過去了
+Dialogue: 0,0:02:55.37,0:02:57.86,Default,NTP,0,0,0,,我也這麼覺得 不過真的很艱苦
+Dialogue: 0,0:02:58.19,0:02:59.48,Default,NTP,0,0,0,,就是就是
+Dialogue: 0,0:03:00.16,0:03:04.27,Default,NTP,0,0,0,,為什麼最後一晚也要在我的房間聚會
+Dialogue: 0,0:03:04.27,0:03:06.29,Default,NTP,0,0,0,,丸井你不也玩得挺嗨的嗎
+Dialogue: 0,0:03:08.85,0:03:10.05,Default,NTP,0,0,0,,想想看你昨天晚上
+Dialogue: 0,0:03:10.46,0:03:12.94,Default,NTP,0,0,0,,來抽我的鬼牌吧 抽我鬼牌
+Dialogue: 0,0:03:12.94,0:03:14.43,Default,NTP,0,0,0,,回宿舍接著玩吧
+Dialogue: 0,0:03:15.13,0:03:16.52,Default,NTP,0,0,0,,再叫上一色學長怎麼樣
+Dialogue: 0,0:03:16.62,0:03:18.01,Default,NTP,0,0,0,,那還可以玩大貧民
+Dialogue: 0,0:03:20.21,0:03:21.32,Default,NTP,0,0,0,,四宮學長
+Dialogue: 0,0:03:24.50,0:03:26.09,Default,NTP,0,0,0,,你們倆都活下來了啊
+Dialogue: 0,0:03:27.45,0:03:28.89,Default,NTP,0,0,0,,那也都是托您的福啊
+Dialogue: 0,0:03:30.06,0:03:33.30,Default,NTP,0,0,0,,這個行李箱…這就要回法國了嗎
+Dialogue: 0,0:03:33.68,0:03:36.69,Default,NTP,0,0,0,,是啊 店總不能天天休業
+Dialogue: 0,0:03:37.40,0:03:39.81,Default,NTP,0,0,0,,而且我也定下了當下的目標
+Dialogue: 0,0:03:40.57,0:03:43.94,Default,NTP,0,0,0,,我要讓我開的「SIHNO's」成為巴黎第一的名店
+Dialogue: 0,0:03:44.35,0:03:45.54,Default,NTP,0,0,0,,去爭奪米其林三星
+Dialogue: 0,0:03:46.52,0:03:48.60,Default,NTP,0,0,0,,還有好多其他想做的事情
+Dialogue: 0,0:03:49.70,0:03:53.15,Default,NTP,0,0,0,,普魯斯普爾勳章已經不能滿足我了
+Dialogue: 0,0:03:54.04,0:03:55.00,Default,NTP,0,0,0,,三個梅子
+Dialogue: 0,0:03:54.04,0:03:55.00,Default_top,NTP,0,0,0,,{\an7}和三星同音……冷笑話
+Dialogue: 0,0:03:55.30,0:03:56.11,Default,NTP,0,0,0,,真厲害
+Dialogue: 0,0:03:56.47,0:04:01.07,Default,NTP,0,0,0,,在法國的日本人廚師 還沒有人獲得此殊榮過
+Dialogue: 0,0:04:02.86,0:04:03.42,Default,NTP,0,0,0,,你們幾個
+Dialogue: 0,0:04:03.58,0:04:04.99,Default,NTP,0,0,0,,等一下
+Dialogue: 0,0:04:06.09,0:04:08.66,Default,NTP,0,0,0,,我們可不會讓你先開溜的 四宮學長
+Dialogue: 0,0:04:09.05,0:04:10.68,Default,NTP,0,0,0,,你說什麼呢 我怎麼聽不懂呢
+Dialogue: 0,0:04:11.14,0:04:14.34,Default,NTP,0,0,0,,幸平創真 你對意大利菜感興趣嗎
+Dialogue: 0,0:04:15.80,0:04:18.93,Default,NTP,0,0,0,,田所 你的才能在壽司店才能全部發揮…
+Dialogue: 0,0:04:18.93,0:04:22.89,Default,NTP,0,0,0,,不行 小惠我要打包回家
+Dialogue: 0,0:04:28.37,0:04:29.66,Default,NTP,0,0,0,,已經在打招呼了嗎
+Dialogue: 0,0:04:30.25,0:04:32.25,Default,NTP,0,0,0,,堂島先生 這是鬧哪出啊
+Dialogue: 0,0:04:32.54,0:04:34.02,Default,NTP,0,0,0,,就是物色
+Dialogue: 0,0:04:34.55,0:04:35.68,Default,NTP,0,0,0,,物色？
+Dialogue: 0,0:04:36.12,0:04:36.90,Default,NTP,0,0,0,,這個合宿
+Dialogue: 0,0:04:37.14,0:04:40.94,Default,NTP,0,0,0,,可以作為在畢業後 招聘學生的一個參考材料
+Dialogue: 0,0:04:41.25,0:04:44.32,Default,NTP,0,0,0,,畢業生們特地把自己的店休業
+Dialogue: 0,0:04:44.60,0:04:47.39,Default,NTP,0,0,0,,或者交給副手打理才來到這裏
+Dialogue: 0,0:04:47.93,0:04:50.44,Default,NTP,0,0,0,,因為這裏也是籠絡人才的機會
+Dialogue: 0,0:04:51.40,0:04:55.02,Default,NTP,0,0,0,,要找到有資質的廚師 並不是件簡單的事情
+Dialogue: 0,0:04:56.56,0:04:57.38,Default,NTP,0,0,0,,原來如此
+Dialogue: 0,0:04:57.90,0:05:00.36,Default,NTP,0,0,0,,合宿居然還有這些意義
+Dialogue: 0,0:05:00.80,0:05:04.65,Default,NTP,0,0,0,,小惠完全沒有明白被那幫人叫走的意義吧
+Dialogue: 0,0:05:06.48,0:05:09.82,Default,NTP,0,0,0,,幸平 你的話就算在遠月度假村你也能成大器
+Dialogue: 0,0:05:10.50,0:05:11.56,Default,NTP,0,0,0,,隨時歡迎你來
+Dialogue: 0,0:05:12.34,0:05:13.68,Default,NTP,0,0,0,,您能這麼說我十分高興
+Dialogue: 0,0:05:14.52,0:05:15.93,Default,NTP,0,0,0,,但是我有自己的店「幸平」
+Dialogue: 0,0:05:16.98,0:05:19.98,Default,NTP,0,0,0,,也是 你家裏就是開餐館的
+Dialogue: 0,0:05:20.43,0:05:23.44,Default,NTP,0,0,0,,是的 和我老爸兩個人辛苦經營的小店
+Dialogue: 0,0:05:24.22,0:05:26.48,Default,NTP,0,0,0,,雖然不知道老爸現在在哪浪
+Dialogue: 0,0:05:27.40,0:05:30.30,Default,NTP,0,0,0,,總有一天我會被那老爸認同
+Dialogue: 0,0:05:31.08,0:05:33.24,Default,NTP,0,0,0,,成為肩負「幸平」的大廚
+Dialogue: 0,0:05:51.68,0:05:54.19,Default,NTP,0,0,0,,學長 聽說你的目標是米其林三星
+Dialogue: 0,0:05:54.57,0:05:55.57,Default,NTP,0,0,0,,被聽到了啊
+Dialogue: 0,0:05:56.28,0:05:58.82,Default,NTP,0,0,0,,要不我去給你幫忙吧
+Dialogue: 0,0:05:59.07,0:06:02.29,Default,NTP,0,0,0,,我想想 你要是願意打打雜的我就僱用你
+Dialogue: 0,0:06:02.57,0:06:03.93,Default,NTP,0,0,0,,你說什麼！
+Dialogue: 0,0:06:16.53,0:06:19.47,Default,NTP,0,0,0,,堂島先生 你怎麼了？
+Dialogue: 0,0:06:19.78,0:06:21.15,Default,NTP,0,0,0,,啊 沒什麼
+Dialogue: 0,0:06:35.80,0:06:38.42,Default,NTP,0,0,0,,那我們先上這輛車了 創真
+Dialogue: 0,0:06:39.32,0:06:40.17,Default,NTP,0,0,0,,過會兒見
+Dialogue: 0,0:06:43.63,0:06:45.12,Default,NTP,0,0,0,,壞了...手巾...
+Dialogue: 0,0:06:46.54,0:06:47.85,Default,NTP,0,0,0,,你忘東西了嗎？
+Dialogue: 0,0:06:48.26,0:06:50.89,Default,NTP,0,0,0,,快要發車了 我去拿吧
+Dialogue: 0,0:06:50.89,0:06:53.02,Default,NTP,0,0,0,,不用 我自己去拿就行
+Dialogue: 0,0:06:53.37,0:06:55.73,Default,NTP,0,0,0,,我坐別的車回學園
+Dialogue: 0,0:06:55.96,0:06:58.81,Default,NTP,0,0,0,,你先回去 幫我搬一下行李
+Dialogue: 0,0:07:02.89,0:07:04.22,Default,NTP,0,0,0,,找到了真是太好了
+Dialogue: 0,0:07:11.30,0:07:12.26,Default_top,NTP,0,0,0,,不是這輛車...
+Dialogue: 0,0:07:08.74,0:07:11.53,Default,NTP,0,0,0,,遠月的人手藝太好了
+Dialogue: 0,0:07:11.89,0:07:14.22,Default,NTP,0,0,0,,明年也很讓人期待啊
+Dialogue: 0,0:07:15.16,0:07:19.44,Default,NTP,0,0,0,,高速巴士排列過密時 非常容易認錯車
+Dialogue: 0,0:07:19.81,0:07:24.54,Default,NTP,0,0,0,,各位離開巴士時請務必牢記停車位及車號
+Dialogue: 0,0:07:25.55,0:07:30.30,note,NTP,0,0,0,,{\fad(450,0)\pos(975,620)}雞蛋的德藏
+Dialogue: 0,0:07:26.02,0:07:28.57,Default,NTP,0,0,0,,你不是那個做舒芙蕾蛋包飯的孩子嗎
+Dialogue: 0,0:07:28.73,0:07:30.16,Default,NTP,0,0,0,,啊 雞蛋的老闆...
+Dialogue: 0,0:07:30.64,0:07:33.15,Default,NTP,0,0,0,,那料理做的相當不錯呢
+Dialogue: 0,0:07:34.97,0:07:35.54,Default,NTP,0,0,0,,那個...
+Dialogue: 0,0:07:36.90,0:07:39.33,Default,NTP,0,0,0,,浪費了好多雞蛋 非常抱歉
+Dialogue: 0,0:07:41.82,0:07:43.14,Default,NTP,0,0,0,,是的呢
+Dialogue: 0,0:07:43.93,0:07:48.81,Default,NTP,0,0,0,,不過你要是照顧我德藏家雞蛋生意的話 我就原諒你
+Dialogue: 0,0:07:49.71,0:07:53.13,Default,NTP,0,0,0,,在將來你自己開的店裏 好嗎？
+Dialogue: 0,0:07:55.93,0:07:56.51,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:07:56.83,0:07:59.16,note,NTP,0,0,0,,{\pos(915,545)}扁豆的耕助
+Dialogue: 0,0:07:57.09,0:07:59.16,Default,NTP,0,0,0,,我家的扁豆生意也拜託你了
+Dialogue: 0,0:07:59.16,0:08:01.05,Default,NTP,0,0,0,,我家的芝士也是啊
+Dialogue: 0,0:07:59.16,0:08:01.04,note,NTP,0,0,0,,{\pos(285,315)}天然芝士的久作
+Dialogue: 0,0:08:01.28,0:08:02.93,Default,NTP,0,0,0,,小伙子吃僊貝嗎
+Dialogue: 0,0:08:03.05,0:08:04.40,Default,NTP,0,0,0,,拿點潤喉糖吃吧
+Dialogue: 0,0:08:04.44,0:08:05.34,Default,NTP,0,0,0,,謝謝...謝謝你們
+Dialogue: 0,0:08:05.54,0:08:06.19,Default,NTP,0,0,0,,謝謝了
+Dialogue: 0,0:08:07.60,0:08:09.78,Default,NTP,0,0,0,,話說現在不是做這些事的時候啊！
+Dialogue: 0,0:08:10.32,0:08:13.72,Default,NTP,0,0,0,,我的巴士是...那個...那個
+Dialogue: 0,0:08:17.80,0:08:18.77,Default,NTP,0,0,0,,被拋下了
+Dialogue: 0,0:08:19.77,0:08:20.94,Default,NTP,0,0,0,,不會吧...
+Dialogue: 0,0:08:21.44,0:08:25.06,Default,NTP,0,0,0,,合宿都挺過去了 卻遇到這種大危機是神馬情況...
+Dialogue: 0,0:08:26.45,0:08:28.51,Default,NTP,0,0,0,,為...為什麼你會在這裏
+Dialogue: 0,0:08:28.85,0:08:31.86,Default,NTP,0,0,0,,要說為什麼...總之各種情況
+Dialogue: 0,0:08:33.82,0:08:36.64,Default,NTP,0,0,0,,繪裏奈小姐 車已經為您備好了
+Dialogue: 0,0:08:37.08,0:08:38.93,Default,NTP,0,0,0,,正好有一輛空車
+Dialogue: 0,0:08:39.87,0:08:42.06,Default,NTP,0,0,0,,這位也是沒趕上車的學生嗎？
+Dialogue: 0,0:08:56.81,0:08:57.68,Default,NTP,0,0,0,,吃僊貝嗎
+Dialogue: 0,0:08:57.94,0:08:58.61,Default,NTP,0,0,0,,不吃
+Dialogue: 0,0:09:02.85,0:09:03.32,Default,NTP,0,0,0,,要潤喉糖嗎
+Dialogue: 0,0:09:03.32,0:09:03.86,Default,NTP,0,0,0,,不用
+Dialogue: 0,0:09:05.63,0:09:09.80,Default,NTP,0,0,0,,話說 你說過非常期待著我被淘汰呢
+Dialogue: 0,0:09:10.40,0:09:12.40,Default,NTP,0,0,0,,現在我留下來了 請問有何感想啊？
+Dialogue: 0,0:09:13.31,0:09:15.48,Default,NTP,0,0,0,,就算不看 眼前也能浮現出他那副得意洋洋的臉
+Dialogue: 0,0:09:18.30,0:09:22.42,Default,NTP,0,0,0,,哼 你就照那樣在底層繼續掙扎吧
+Dialogue: 0,0:09:22.83,0:09:25.48,Default,NTP,0,0,0,,反正你也不可能被選為選拔成員
+Dialogue: 0,0:09:25.85,0:09:26.49,Default,NTP,0,0,0,,選拔？
+Dialogue: 0,0:09:26.78,0:09:28.01,Default,NTP,0,0,0,,這你都不知道?
+Dialogue: 0,0:09:28.57,0:09:31.18,Default,NTP,0,0,0,,遠月傳統「秋季選拔」
+Dialogue: 0,0:09:31.84,0:09:34.00,Default,NTP,0,0,0,,是個被選拔出的一年級學生大顯身手
+Dialogue: 0,0:09:34.19,0:09:35.88,Default,NTP,0,0,0,,相互比拚的美食祭典
+Dialogue: 0,0:09:36.51,0:09:40.62,Default,NTP,0,0,0,,在學園理事和出資人等 齊聚一堂的美食界重要人物的面前
+Dialogue: 0,0:09:40.93,0:09:44.72,Default,NTP,0,0,0,,對學生來說 將會成為對外展示自己能力的最初的舞台
+Dialogue: 0,0:09:45.90,0:09:47.78,Default,NTP,0,0,0,,這個選拔已經開始了
+Dialogue: 0,0:09:48.32,0:09:49.42,Default,NTP,0,0,0,,你沒注意到嗎
+Dialogue: 0,0:09:50.17,0:09:52.48,Default,NTP,0,0,0,,在合宿的時候 就有選拔委員往來會場了
+Dialogue: 0,0:09:53.10,0:09:54.47,Default,NTP,0,0,0,,啊啊 有的有的
+Dialogue: 0,0:09:54.91,0:09:56.46,Default,NTP,0,0,0,,是那些穿西裝的嗎
+Dialogue: 0,0:09:57.02,0:10:00.86,Default,NTP,0,0,0,,也就是說 這次合宿不僅是為了淘汰弱者
+Dialogue: 0,0:10:01.46,0:10:04.27,Default,NTP,0,0,0,,也隱藏著挖掘那些能一步登天的人的目的
+Dialogue: 0,0:10:05.02,0:10:08.05,Default,NTP,0,0,0,,美食的祭典啊 聽起來就很有意思
+Dialogue: 0,0:10:08.37,0:10:10.44,Default,NTP,0,0,0,,讓人突然很興奮啊
+Dialogue: 0,0:10:10.83,0:10:13.55,Default,NTP,0,0,0,,所以說 不是說了像你這種的根本不可能被選上嗎！
+Dialogue: 0,0:10:14.61,0:10:17.25,Default,NTP,0,0,0,,而且那算什麼說法...
+Dialogue: 0,0:10:17.89,0:10:20.19,Default,NTP,0,0,0,,我得到了名為失敗的「經驗」
+Dialogue: 0,0:10:20.65,0:10:22.69,Default,NTP,0,0,0,,什麼叫失敗的「經驗」？
+Dialogue: 0,0:10:23.24,0:10:25.07,Default,NTP,0,0,0,,那不過是不服輸而已
+Dialogue: 0,0:10:25.87,0:10:28.17,Default,NTP,0,0,0,,廚師可是不允許失敗的
+Dialogue: 0,0:10:29.86,0:10:31.04,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:10:31.04,0:10:31.77,Default,NTP,0,0,0,,當然是
+Dialogue: 0,0:10:32.44,0:10:35.89,Default,NTP,0,0,0,,餐桌上一直都是追求著完美的料理
+Dialogue: 0,0:10:36.82,0:10:39.50,Default,NTP,0,0,0,,究極的美食也就因此誕生
+Dialogue: 0,0:10:43.71,0:10:45.26,Default,NTP,0,0,0,,就像那個人的料理一樣...
+Dialogue: 0,0:10:46.77,0:10:47.53,Default,NTP,0,0,0,,你剛剛說什麼...
+Dialogue: 0,0:10:47.68,0:10:48.48,Default,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:10:50.06,0:10:52.93,Default,NTP,0,0,0,,話說 {\fn方正粗雅宋_GBK\b1}薙{\r}切你為啥沒趕上車啊
+Dialogue: 0,0:10:53.24,0:10:55.05,Default,NTP,0,0,0,,有必要告訴你嗎
+Dialogue: 0,0:10:55.94,0:10:56.51,Default,NTP,0,0,0,,哦...這樣啊
+Dialogue: 0,0:11:04.36,0:11:07.48,Default,NTP,0,0,0,,這個就是那什麼吧...叫做尷尬的東西啊
+Dialogue: 0,0:11:08.54,0:11:09.28,Default,NTP,0,0,0,,直接睡吧
+Dialogue: 0,0:11:23.76,0:11:26.23,Default,NTP,0,0,0,,找到了 太好了
+Dialogue: 0,0:11:46.96,0:11:53.18,Default,NTP,0,0,0,,這樣啊 幸平創真是你兒子啊...城一郎
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:12:08.89,0:12:10.86,Default,NTP,0,0,0,,合宿終於結束了啊
+Dialogue: 0,0:12:11.07,0:12:13.06,Default,NTP,0,0,0,,這樣又會變得吵吵鬧鬧的了
+Dialogue: 0,0:12:16.70,0:12:19.66,Default,NTP,0,0,0,,怎麼回事 怎麼這麼快
+Dialogue: 0,0:12:22.02,0:12:24.92,Default,NTP,0,0,0,,啊 啊拉啊拉 真是的
+Dialogue: 0,0:12:25.38,0:12:28.40,Default,NTP,0,0,0,,既然要回來就先打個電話怎麼樣
+Dialogue: 0,0:12:28.73,0:12:30.88,Default,NTP,0,0,0,,還是像以前一樣沒有點常識
+Dialogue: 0,0:12:32.13,0:12:33.47,Default,NTP,0,0,0,,因為正好到了附近
+Dialogue: 0,0:12:36.40,0:12:36.98,Default,NTP,0,0,0,,我回來了
+Dialogue: 0,0:12:36.98,0:12:40.98,note@,NTP,0,0,0,,{\fs36\c&HFAB6FE&\3c&H573BEE&\bord2\pos(45,325)}哥哥 好有趣
+Dialogue: 0,0:12:36.98,0:12:40.98,note@,NTP,0,0,0,,{\fs36\c&HFBED8D&\3c&HAA6853&\bord2\pos(730,485)}在哪裏 幸平在哪裏\N在哪裏 誒 到底哪去了
+Dialogue: 0,0:12:36.98,0:12:40.98,note@,NTP,0,0,0,,{\pos(1230,360)\bord2\3c&H44FCFE&}合宿中的一幕
+Dialogue: 0,0:12:42.69,0:12:43.90,Default,NTP,0,0,0,,我們回來了
+Dialogue: 0,0:12:44.11,0:12:45.28,Default,NTP,0,0,0,,回來了
+Dialogue: 0,0:12:46.53,0:12:50.37,Default,NTP,0,0,0,,也就說創真君 是坐旅館的車回來的啊
+Dialogue: 0,0:12:50.49,0:12:51.41,Default,NTP,0,0,0,,真好啊
+Dialogue: 0,0:12:51.41,0:12:52.70,Default,NTP,0,0,0,,這不是VIP待遇嗎 VIP
+Dialogue: 0,0:12:52.75,0:12:54.54,Default,NTP,0,0,0,,才不是那麼好的東西
+Dialogue: 0,0:12:55.12,0:12:58.17,Default,NTP,0,0,0,,不管怎樣 大家能這樣平安無事回來
+Dialogue: 0,0:12:58.17,0:12:58.79,Default,NTP,0,0,0,,真是太好了
+Dialogue: 0,0:12:59.21,0:13:00.75,Default,NTP,0,0,0,,各位都累了吧
+Dialogue: 0,0:13:01.13,0:13:03.88,Default,NTP,0,0,0,,今晚會讓你們吃夠好東西
+Dialogue: 0,0:13:03.88,0:13:05.09,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:13:05.34,0:13:06.18,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:13:06.55,0:13:08.93,Default,NTP,0,0,0,,太好了 好久沒吃到的文緒大姐的料理
+Dialogue: 0,0:13:09.39,0:13:11.60,Default,NTP,0,0,0,,不過 今天做飯的不是我
+Dialogue: 0,0:13:14.52,0:13:16.27,Default,NTP,0,0,0,,哦 創真 你回來了啊
+Dialogue: 0,0:13:16.60,0:13:17.44,Default,NTP,0,0,0,,來幫我
+Dialogue: 0,0:13:17.73,0:13:18.15,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:13:19.02,0:13:20.52,Default,NTP,0,0,0,,把這邊的食材處理好
+Dialogue: 0,0:13:21.11,0:13:22.53,Default,NTP,0,0,0,,湯我已經煮好了
+Dialogue: 0,0:13:23.07,0:13:24.15,Default,NTP,0,0,0,,哦 我知道
+Dialogue: 0,0:13:24.65,0:13:27.24,Default,NTP,0,0,0,,不對 下意識就做出了反應
+Dialogue: 0,0:13:27.36,0:13:28.95,Default,NTP,0,0,0,,你在這種地方幹什麼呢
+Dialogue: 0,0:13:29.20,0:13:30.62,Default,NTP,0,0,0,,什麼 你認識的人嗎
+Dialogue: 0,0:13:31.45,0:13:33.08,Default,NTP,0,0,0,,請問是哪位
+Dialogue: 0,0:13:33.87,0:13:37.50,Default,NTP,0,0,0,,遠月學園 極星寮的OB
+Dialogue: 0,0:13:37.62,0:13:39.08,Default,NTP,0,0,0,,遠月OB
+Dialogue: 0,0:13:40.42,0:13:42.21,Default,NTP,0,0,0,,真是有代溝啊
+Dialogue: 0,0:13:42.75,0:13:46.80,Default,NTP,0,0,0,,竟然不知道曾經的十傑第二席 才波城一郎
+Dialogue: 0,0:13:47.13,0:13:49.30,Default,NTP,0,0,0,,曾經的十傑第二席？
+Dialogue: 0,0:13:50.10,0:13:50.76,Default,NTP,0,0,0,,才波？
+Dialogue: 0,0:13:51.30,0:13:53.81,Default,NTP,0,0,0,,啊 創真 米飯快好了哦
+Dialogue: 0,0:13:54.18,0:13:57.10,Default,NTP,0,0,0,,囉嗦 趕快解釋一下啊 老爹
+Dialogue: 0,0:13:57.10,0:14:00.86,note,NTP,0,0,0,,{\an8\bord2\b1}曾經的十傑第二席的兒子
+Dialogue: 0,0:13:57.48,0:13:58.73,Default,NTP,0,0,0,,父子！？
+Dialogue: 0,0:13:59.06,0:14:00.86,Default,NTP,0,0,0,,嗯 原來如此啊
+Dialogue: 0,0:14:02.07,0:14:03.98,Default,NTP,0,0,0,,老爹是遠月OB
+Dialogue: 0,0:14:04.57,0:14:05.99,Default,NTP,0,0,0,,出自極星寮
+Dialogue: 0,0:14:06.78,0:14:07.99,Default,NTP,0,0,0,,而且還是十傑
+Dialogue: 0,0:14:10.37,0:14:14.29,Default,NTP,0,0,0,,果然一下子理解這麼多東西 腦袋已經…
+Dialogue: 0,0:14:14.62,0:14:17.41,Default,NTP,0,0,0,,哇 幸平少見的動搖了
+Dialogue: 0,0:14:17.83,0:14:21.38,Default,NTP,0,0,0,,可以說 真不愧是幸平的父親啊
+Dialogue: 0,0:14:21.92,0:14:24.50,Default,NTP,0,0,0,,您就是城一郎才波啊
+Dialogue: 0,0:14:25.09,0:14:27.13,Default,NTP,0,0,0,,誒 竟然知道我嗎
+Dialogue: 0,0:14:27.63,0:14:31.97,Default,NTP,0,0,0,,是的 在過去的資料中我有看到過您的名字
+Dialogue: 0,0:14:33.18,0:14:35.64,Default,NTP,0,0,0,,在世界上各個名店都大展身手的
+Dialogue: 0,0:14:35.97,0:14:36.93,Default,NTP,0,0,0,,流浪的料理人
+Dialogue: 0,0:14:38.02,0:14:42.36,Default,NTP,0,0,0,,但是某一天 突然從料理界的第一線消失了
+Dialogue: 0,0:14:42.77,0:14:45.53,Default,NTP,0,0,0,,只有知道的人才知道的 傳說中的廚師
+Dialogue: 0,0:14:47.07,0:14:48.99,Default,NTP,0,0,0,,我是現十傑第七席
+Dialogue: 0,0:14:49.49,0:14:50.82,Default,NTP,0,0,0,,名叫一色慧
+Dialogue: 0,0:14:51.74,0:14:53.83,Default,NTP,0,0,0,,能見到您真的很高興 才波主廚
+Dialogue: 0,0:14:54.08,0:14:57.54,Default,NTP,0,0,0,,那個 我現在姓幸平
+Dialogue: 0,0:14:57.95,0:14:59.29,Default,NTP,0,0,0,,叫我城一郎就可以了
+Dialogue: 0,0:14:59.87,0:15:03.04,Default,NTP,0,0,0,,看 看到一色學長的裝束也毫不動搖
+Dialogue: 0,0:15:03.25,0:15:05.00,Default,NTP,0,0,0,,不愧是前十傑
+Dialogue: 0,0:15:05.42,0:15:06.59,Default,NTP,0,0,0,,重點不對吧
+Dialogue: 0,0:15:07.38,0:15:09.63,Default,NTP,0,0,0,,老爹竟然那麼有名
+Dialogue: 0,0:15:10.18,0:15:12.26,Default,NTP,0,0,0,,你真的完全不知道嗎
+Dialogue: 0,0:15:12.59,0:15:15.35,Default,NTP,0,0,0,,啊 那個 我也是最近才知道
+Dialogue: 0,0:15:15.35,0:15:16.77,Default,NTP,0,0,0,,他有在海外工作
+Dialogue: 0,0:15:17.60,0:15:20.81,Default,NTP,0,0,0,,不過偶爾會有聽不懂的電話打過來
+Dialogue: 0,0:15:21.39,0:15:25.61,Default,NTP,0,0,0,,也翻出過好多老爹和外國人一起照的相片
+Dialogue: 0,0:15:26.44,0:15:29.49,Default,NTP,0,0,0,,我一直以為這是很常見的呢
+Dialogue: 0,0:15:29.61,0:15:30.24,Default,NTP,0,0,0,,才沒有
+Dialogue: 0,0:15:30.40,0:15:30.95,Default,NTP,0,0,0,,你給我注意到啊
+Dialogue: 0,0:15:31.95,0:15:35.74,Default,NTP,0,0,0,,創真君的父親竟然是那麼厲害的人
+Dialogue: 0,0:15:36.37,0:15:38.33,Default,NTP,0,0,0,,那麼 我們乾杯吧
+Dialogue: 0,0:15:40.08,0:15:42.75,Default,NTP,0,0,0,,慶祝全員都平安度過了合宿
+Dialogue: 0,0:15:43.00,0:15:45.25,Default,NTP,0,0,0,,今天就盛大的慶祝一下吧
+Dialogue: 0,0:15:45.38,0:15:47.17,Default,NTP,0,0,0,,我們開動了
+Dialogue: 0,0:15:47.46,0:15:49.38,Default,NTP,0,0,0,,乾杯
+Dialogue: 0,0:15:49.80,0:15:52.22,Default,NTP,0,0,0,,前十傑所做的料理
+Dialogue: 0,0:15:52.47,0:15:54.05,Default,NTP,0,0,0,,到底是什麼味道
+Dialogue: 0,0:15:54.30,0:15:56.64,Default,NTP,0,0,0,,緊 緊張起來了
+Dialogue: 0,0:16:00.27,0:16:01.77,Default,NTP,0,0,0,,給 請吃吧
+Dialogue: 0,0:16:02.39,0:16:03.48,Default,NTP,0,0,0,,是 是
+Dialogue: 0,0:16:10.69,0:16:11.32,Default,NTP,0,0,0,,能看到
+Dialogue: 0,0:16:11.86,0:16:12.53,Default,NTP,0,0,0,,能看到
+Dialogue: 0,0:16:15.49,0:16:16.83,Default,NTP,0,0,0,,明明沒去過
+Dialogue: 0,0:16:17.58,0:16:19.16,Default,NTP,0,0,0,,異國的風景
+Dialogue: 0,0:16:19.66,0:16:21.04,Default,NTP,0,0,0,,衝進了腦海中
+Dialogue: 0,0:16:21.83,0:16:23.42,Default,NTP,0,0,0,,這個味道就是
+Dialogue: 0,0:16:23.83,0:16:25.96,Default,NTP,0,0,0,,阿拉伯
+Dialogue: 0,0:16:27.75,0:16:29.88,Default,NTP,0,0,0,,超級的好吃
+Dialogue: 0,0:16:31.42,0:16:34.93,Default,NTP,0,0,0,,灑在羔羊肉上的這是什麼醬汁
+Dialogue: 0,0:16:35.43,0:16:36.59,Default,NTP,0,0,0,,那是哈里薩辣椒醬
+Dialogue: 0,0:16:37.14,0:16:38.81,Default,NTP,0,0,0,,用辣椒等香辛料製作的
+Dialogue: 0,0:16:39.01,0:16:41.27,Default,NTP,0,0,0,,發源於北非的萬能調味料
+Dialogue: 0,0:16:42.18,0:16:44.02,Default,NTP,0,0,0,,我這次以中東的傳統料理為底基
+Dialogue: 0,0:16:44.39,0:16:47.31,Default,NTP,0,0,0,,嘗試加入了歐芹和三味香辛料
+Dialogue: 0,0:16:49.15,0:16:51.78,Default,NTP,0,0,0,,城 城一郎先生 這是什麼
+Dialogue: 0,0:16:52.28,0:16:53.78,Default,NTP,0,0,0,,那是海鮮濃湯
+Dialogue: 0,0:16:54.15,0:16:55.99,Default,NTP,0,0,0,,在利古裏亞風的海鮮湯中
+Dialogue: 0,0:16:56.16,0:16:57.91,Default,NTP,0,0,0,,加入鱈魚製作而成
+Dialogue: 0,0:16:58.20,0:16:59.87,Default,NTP,0,0,0,,城一郎先生這邊的呢
+Dialogue: 0,0:17:00.12,0:17:02.08,Default,NTP,0,0,0,,這 這個也請告訴我
+Dialogue: 0,0:17:02.50,0:17:03.54,Default,NTP,0,0,0,,啊 那個啊
+Dialogue: 0,0:17:04.00,0:17:07.88,Default,NTP,0,0,0,,城一郎先生真有大男人的感覺呢
+Dialogue: 0,0:17:08.08,0:17:10.50,Default,NTP,0,0,0,,沒錯 大人成熟的魅力
+Dialogue: 0,0:17:10.92,0:17:12.92,Default,NTP,0,0,0,,感覺男子方陣也都心動了呢
+Dialogue: 0,0:17:13.09,0:17:14.55,Default,NTP,0,0,0,,幸平將來也…
+Dialogue: 0,0:17:14.84,0:17:16.89,Default,NTP,0,0,0,,會變成那樣嗎
+Dialogue: 0,0:17:19.05,0:17:20.47,Default,NTP,0,0,0,,啊 什麼
+Dialogue: 0,0:17:21.35,0:17:23.18,Default,NTP,0,0,0,,讓原本還有點拘謹的他們
+Dialogue: 0,0:17:23.73,0:17:25.56,Default,NTP,0,0,0,,在吃的瞬間就敞開了心扉
+Dialogue: 0,0:17:27.19,0:17:28.10,Default,NTP,0,0,0,,洋溢出來了
+Dialogue: 0,0:17:28.81,0:17:30.40,Default,NTP,0,0,0,,製作出這道料理的人的
+Dialogue: 0,0:17:30.82,0:17:31.73,Default,NTP,0,0,0,,人品
+Dialogue: 0,0:17:32.86,0:17:35.36,Default,NTP,0,0,0,,啊 這個也超好吃
+Dialogue: 0,0:17:35.36,0:17:38.11,Default,NTP,0,0,0,,真厲害 不管哪個都超好吃
+Dialogue: 0,0:17:38.20,0:17:39.24,Default,NTP,0,0,0,,這邊的會是什麼味道呢
+Dialogue: 0,0:17:42.24,0:17:43.16,Default,NTP,0,0,0,,好難吃
+Dialogue: 0,0:17:43.45,0:17:44.33,Default,NTP,0,0,0,,啊 就是那個
+Dialogue: 0,0:17:44.75,0:17:46.96,Default,NTP,0,0,0,,我重現了下上月吃的蛇料理
+Dialogue: 0,0:17:47.62,0:17:49.08,Default,NTP,0,0,0,,這可真是難吃
+Dialogue: 0,0:17:49.46,0:17:51.21,Default,NTP,0,0,0,,在沒剝皮的情況下直接切斷
+Dialogue: 0,0:17:51.42,0:17:53.42,Default,NTP,0,0,0,,然後不進行任何處理直接煮
+Dialogue: 0,0:17:55.30,0:17:57.43,Default,NTP,0,0,0,,老爹 這個可真不妙呢
+Dialogue: 0,0:17:57.68,0:17:58.18,Default,NTP,0,0,0,,對吧
+Dialogue: 0,0:17:58.76,0:18:00.97,Default,NTP,0,0,0,,可以進入過去10大難吃料理 Best 10之一了吧
+Dialogue: 0,0:18:00.97,0:18:07.48,note2,NTP,0,0,0,,{\fad(900,0)\pos(640,585)\b1\c&H030303&\3c&HFEFEFE&}幸平父子隔離區
+Dialogue: 0,0:18:01.60,0:18:03.68,Default,NTP,0,0,0,,難吃的話不該是 Worst 10嗎
+Dialogue: 0,0:18:04.02,0:18:04.97,Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:18:05.23,0:18:07.48,Default,NTP,0,0,0,,這到底還是幸平的父親
+Dialogue: 0,0:18:07.64,0:18:10.73,Default,NTP,0,0,0,,總之 把那個奇葩的料理放一邊
+Dialogue: 0,0:18:11.31,0:18:12.40,Default,NTP,0,0,0,,城一郎
+Dialogue: 0,0:18:13.98,0:18:16.49,Default,NTP,0,0,0,,過去被稱為「修羅」的男人
+Dialogue: 0,0:18:17.11,0:18:21.24,Default,NTP,0,0,0,,竟然做出了如此溫柔的料理
+Dialogue: 0,0:18:22.87,0:18:25.33,Default,NTP,0,0,0,,早晚一天也要讓銀也嘗嘗
+Dialogue: 0,0:18:25.58,0:18:26.50,Default,NTP,0,0,0,,也是呢
+Dialogue: 0,0:18:26.91,0:18:27.41,Default,NTP,0,0,0,,銀？
+Dialogue: 0,0:18:27.83,0:18:28.83,Default,NTP,0,0,0,,銀難道是
+Dialogue: 0,0:18:29.00,0:18:31.84,Default,NTP,0,0,0,,沒錯 在合宿的時候一副很了不起的樣子吧
+Dialogue: 0,0:18:32.46,0:18:34.42,Default,NTP,0,0,0,,遠月度假村總料理長
+Dialogue: 0,0:18:34.67,0:18:35.88,Default,NTP,0,0,0,,堂島銀
+Dialogue: 0,0:18:35.96,0:18:39.26,note,NTP,0,0,0,,{\fad(450,850)\fs32\pos(980,660)\bord2}遠月度假村總料理長兼董事會董事
+Dialogue: 0,0:18:39.72,0:18:41.01,Default,NTP,0,0,0,,看 這就是銀
+Dialogue: 0,0:18:41.59,0:18:42.89,Default,NTP,0,0,0,,這邊的就是城一郎
+Dialogue: 0,0:18:43.35,0:18:45.10,Default,NTP,0,0,0,,這是他倆高二時候照的
+Dialogue: 0,0:18:46.77,0:18:48.52,Default,NTP,0,0,0,,兩人都好年輕
+Dialogue: 0,0:18:49.10,0:18:52.06,Default,NTP,0,0,0,,文緒大姐這就不要給他們看了吧
+Dialogue: 0,0:18:52.61,0:18:53.61,Default,NTP,0,0,0,,有什麼不好的嗎
+Dialogue: 0,0:18:54.40,0:18:57.61,Default,NTP,0,0,0,,堂島主廚也是極星寮出身啊
+Dialogue: 0,0:18:57.94,0:18:58.70,Default,NTP,0,0,0,,真的假的
+Dialogue: 0,0:18:59.57,0:19:01.91,Default,NTP,0,0,0,,十傑第一席堂島銀
+Dialogue: 0,0:19:02.20,0:19:04.03,Default,NTP,0,0,0,,第二席才波城一郎
+Dialogue: 0,0:19:04.53,0:19:06.58,Default,NTP,0,0,0,,這兩人成為中心的那個時候
+Dialogue: 0,0:19:06.95,0:19:09.75,Default,NTP,0,0,0,,可以說是極星寮的黃金時期
+Dialogue: 0,0:19:10.21,0:19:12.42,Default,NTP,0,0,0,,在食戟中連戰連勝
+Dialogue: 0,0:19:12.54,0:19:15.13,Default,NTP,0,0,0,,奪取土地增大宿舍範圍
+Dialogue: 0,0:19:14.67,0:19:20.80,note,NTP,0,0,0,,{\c&H7C7A73&\fs32\frz-10\pos(998,623)\fry35}這裏{\fs36}是極星寮{\fs42}的土地
+Dialogue: 0,0:19:15.42,0:19:17.34,Default,NTP,0,0,0,,投資廚房各種設備
+Dialogue: 0,0:19:17.59,0:19:19.88,Default,NTP,0,0,0,,確保食材的渠道
+Dialogue: 0,0:19:20.22,0:19:23.43,Default,NTP,0,0,0,,不管什麼都是靠自己的力量贏回來的
+Dialogue: 0,0:19:23.97,0:19:26.85,Default,NTP,0,0,0,,就像是一個獨立國家一樣
+Dialogue: 0,0:19:28.93,0:19:31.35,Default,NTP,0,0,0,,不論是你們種菜的那塊田
+Dialogue: 0,0:19:31.73,0:19:33.19,Default,NTP,0,0,0,,還是發酵曲子用的小屋
+Dialogue: 0,0:19:33.52,0:19:35.19,Default,NTP,0,0,0,,養雞的場地
+Dialogue: 0,0:19:35.73,0:19:39.74,Default,NTP,0,0,0,,所有的都是那個時候銀和城一郎贏回來的
+Dialogue: 0,0:19:41.70,0:19:46.41,Default,NTP,0,0,0,,不過 銀每年都會寄賀卡和中元節禮物過來
+Dialogue: 0,0:19:46.95,0:19:51.25,Default,NTP,0,0,0,,城一郎 你偶爾也寄封信回來啊
+Dialogue: 0,0:19:51.58,0:19:54.83,Default,NTP,0,0,0,,所以我不是偶爾會這樣回來看看嗎
+Dialogue: 0,0:19:55.84,0:19:56.84,Default,NTP,0,0,0,,還真敢說
+Dialogue: 0,0:19:57.17,0:19:59.55,Default,NTP,0,0,0,,突然就回來了 不吭聲的就走了
+Dialogue: 0,0:20:01.51,0:20:03.68,Default,NTP,0,0,0,,不愧是傳說中的畢業生
+Dialogue: 0,0:20:04.09,0:20:06.68,Default,NTP,0,0,0,,不過 我沒畢業就是了
+Dialogue: 0,0:20:07.47,0:20:09.10,Default,NTP,0,0,0,,誒 是嗎
+Dialogue: 0,0:20:09.64,0:20:10.77,Default,NTP,0,0,0,,明明是第二席
+Dialogue: 0,0:20:11.27,0:20:12.48,Default,NTP,0,0,0,,發生了很多的事情嘛
+Dialogue: 0,0:20:25.95,0:20:27.24,Default,NTP,0,0,0,,銀他還好嗎
+Dialogue: 0,0:20:28.03,0:20:29.16,Default,NTP,0,0,0,,啊 還好
+Dialogue: 0,0:20:30.08,0:20:30.66,Default,NTP,0,0,0,,老爹
+Dialogue: 0,0:20:32.04,0:20:32.71,Default,NTP,0,0,0,,這裏…
+Dialogue: 0,0:20:33.67,0:20:37.21,Default,NTP,0,0,0,,極星寮對於老爹老說是個什麼樣的地方
+Dialogue: 0,0:20:39.13,0:20:40.13,Default,NTP,0,0,0,,很有趣哦
+Dialogue: 0,0:20:41.17,0:20:44.26,Default,NTP,0,0,0,,大家都任性地磨練著自己的料理
+Dialogue: 0,0:21:03.19,0:21:05.28,Default,NTP,0,0,0,,老爹 要睡我的房間嗎
+Dialogue: 0,0:21:05.82,0:21:07.53,Default,NTP,0,0,0,,我想想
+Dialogue: 0,0:21:10.95,0:21:13.41,Default,NTP,0,0,0,,創真 你是303啊
+Dialogue: 0,0:21:13.83,0:21:15.50,Default,NTP,0,0,0,,啊 是啊
+Dialogue: 0,0:21:16.25,0:21:17.54,Default,NTP,0,0,0,,房間的中間位置的地板上
+Dialogue: 0,0:21:19.38,0:21:21.59,Default,NTP,0,0,0,,有個鍋掉地上燒焦的痕跡
+Dialogue: 0,0:21:22.63,0:21:24.13,Default,NTP,0,0,0,,那是我曾經住過的房間
+Dialogue: 0,0:21:25.34,0:21:27.89,Default,NTP,0,0,0,,文緒大姐  借我一間空房吧
+Dialogue: 0,0:21:28.30,0:21:29.05,Default,NTP,0,0,0,,知道了
+Dialogue: 0,0:21:43.74,0:21:47.24,Default,NTP,0,0,0,,在這個房間裏…老爹他…
+Dialogue: 0,0:21:57.00,0:21:59.21,Default,NTP,0,0,0,,才波城一郎嗎
+Dialogue: 0,0:22:02.00,0:22:02.63,Default,NTP,0,0,0,,我也許…
+Dialogue: 0,0:22:03.50,0:22:04.96,Default,NTP,0,0,0,,完全不知道…
+Dialogue: 0,0:22:05.80,0:22:06.97,Default,NTP,0,0,0,,關於那個料理人
+Dialogue: 0,0:22:07.76,0:22:09.26,Default,NTP,0,0,0,,的事情…
+Dialogue: 0,0:23:43.73,0:23:44.40,Default,NTP,0,0,0,,創真
+Dialogue: 0,0:23:45.15,0:23:45.77,Default,NTP,0,0,0,,創真
+Dialogue: 0,0:23:46.98,0:23:47.73,Default,NTP,0,0,0,,起了嗎
+Dialogue: 0,0:23:49.15,0:23:50.65,Default,NTP,0,0,0,,我現在在廚房
+Dialogue: 0,0:23:51.20,0:23:53.28,Default,NTP,0,0,0,,你也帶著自己的刀下來
+Dialogue: 0,0:23:55.58,0:23:57.66,Default,NTP,0,0,0,,是準備早飯嗎
+Dialogue: 0,0:23:58.95,0:24:02.75,Default,NTP,0,0,0,,話說回來 結果老爹到底是為了什麼回日本的啊
+Dialogue: 0,0:24:03.71,0:24:05.42,Default,NTP,0,0,0,,是這邊有什麼工作嗎
+Dialogue: 0,0:24:06.29,0:24:07.25,Default,NTP,0,0,0,,哦 來了啊
+Dialogue: 0,0:24:07.96,0:24:09.34,Default,NTP,0,0,0,,刀有好好的磨過了吧
+Dialogue: 0,0:24:09.67,0:24:10.30,Default,NTP,0,0,0,,當然
+Dialogue: 0,0:24:10.76,0:24:12.88,Default,NTP,0,0,0,,為了不讓磨刀石的味道留下 昨晚我…
+Dialogue: 0,0:24:12.88,0:24:13.84,Default,NTP,0,0,0,,很好 沒問題
+Dialogue: 0,0:24:14.30,0:24:15.76,Default,NTP,0,0,0,,那麼雖然有點急
+Dialogue: 0,0:24:16.39,0:24:18.31,Default,NTP,0,0,0,,你到底成長了多少
+Dialogue: 0,0:24:19.14,0:24:20.93,Default,NTP,0,0,0,,還是一點都沒成長
+Dialogue: 0,0:24:21.52,0:24:23.02,Default,NTP,0,0,0,,就讓我在這裏看看吧
+Dialogue: 0,0:24:24.10,0:24:27.44,Default,NTP,0,0,0,,來一場久違的料理勝負吧
+Dialogue: 0,0:24:29.65,0:24:30.53,Default,NTP,0,0,0,,創真
+Dialogue: 0,0:24:41.62,0:24:43.58,Default,NTP,0,0,0,,下話 食戟之靈
+Dialogue: 0,0:24:43.92,0:24:44.79,Default,NTP,0,0,0,,第十六道
+Dialogue: 0,0:24:45.37,0:24:46.33,Default,NTP,0,0,0,,讓您久等了
+Dialogue: 0,0:24:48.00,0:24:49.38,Default,NTP,0,0,0,,馳騁萬里的料理人
+Dialogue: 0,0:24:47.00,0:24:50.00,note@,NTP,0,0,0,,{\fs60\pos(496,364)}馳騁萬里的料理人
+Dialogue: 0,0:24:50.71,0:24:51.67,Default,NTP,0,0,0,,請您品嚐
+

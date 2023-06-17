@@ -1,0 +1,268 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: OPED,simhei,20,&HE0851F,&H00FFFF,&HFFFFFF,&HFFFFFF,0,0,1,0,2,2,30,30,15,0,1
+Style: Default,方正粗宋_GBK,28,&HFFFFFF,&H000000,&H000000,&H000000,-1,0,1,1,0,2,20,20,20,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:00.06,0:00:01.49,Default,NTP,0000,0000,0000,!Effect,1945年
+Dialogue: Marked=0,0:00:05.33,0:00:08.03,Default,NTP,0000,0000,0000,!Effect,人類史上最邪惡的生物降臨到這個世界
+Dialogue: Marked=0,0:00:12.34,0:00:14.77,Default,NTP,0000,0000,0000,!Effect,人類組成共同戰線來對抗這些來訪者
+Dialogue: Marked=0,0:00:17.28,0:00:20.15,Default,NTP,0000,0000,0000,!Effect,使用最強的破壞兵器 對來訪者卻完全無效
+Dialogue: Marked=0,0:00:26.12,0:00:28.95,Default,NTP,0000,0000,0000,!Effect,國土被煙霧灰塵所污染
+Dialogue: Marked=0,0:00:32.86,0:00:35.23,Default,NTP,0000,0000,0000,!Effect,來訪者不知何時開始被稱為幻獸
+Dialogue: Marked=0,0:00:39.23,0:00:41.73,Default,NTP,0000,0000,0000,!Effect,人類開始了漫長的消耗戰
+Dialogue: Marked=0,0:00:48.58,0:00:50.48,Default,NTP,0000,0000,0000,!Effect,經過了半個世紀
+Dialogue: Marked=0,0:01:09.83,0:01:12.13,Default,NTP,0000,0000,0000,!Effect,西元1999年7月
+Dialogue: Marked=0,0:01:22.04,0:01:26.41,Default,NTP,0000,0000,0000,!Effect,「第一話  來訪者」
+Dialogue: Marked=0,0:01:27.98,0:01:31.98,Default,NTP,0000,0000,0000,!Effect,這裏是CVα-6 距離目標上空還有60秒
+Dialogue: Marked=0,0:01:32.55,0:01:33.49,Default,NTP,0000,0000,0000,!Effect,司令部收到
+Dialogue: Marked=0,0:01:33.99,0:01:36.75,Default,NTP,0000,0000,0000,!Effect,目的地天候下雨 視線範圍二級
+Dialogue: Marked=0,0:01:37.26,0:01:38.75,Default,NTP,0000,0000,0000,!Effect,索敵雷達已經開啟
+Dialogue: Marked=0,0:01:39.53,0:01:43.69,Default,NTP,0000,0000,0000,!Effect,進行最終狀況確認 行動區域為D47區
+Dialogue: Marked=0,0:01:44.20,0:01:46.76,Default,NTP,0000,0000,0000,!Effect,索敵範圍確定只有小型目標物
+Dialogue: Marked=0,0:01:47.20,0:01:50.54,Default,NTP,0000,0000,0000,!Effect,前鋒為三號機速水 二號機瀧川
+Dialogue: Marked=0,0:01:51.07,0:01:54.77,Default,NTP,0000,0000,0000,!Effect,後衛為四號機瀨戶口 以及一號機壬生屋
+Dialogue: Marked=0,0:01:55.44,0:01:57.27,Default,NTP,0000,0000,0000,!Effect,士魂一號機請求擔任前鋒
+Dialogue: Marked=0,0:01:57.68,0:01:58.54,Default,NTP,0000,0000,0000,!Effect,要求駁回
+Dialogue: Marked=0,0:01:59.51,0:02:02.51,Default,NTP,0000,0000,0000,!Effect,想要當前鋒 就多磨練射擊技巧吧
+Dialogue: Marked=0,0:02:03.28,0:02:06.85,Default,NTP,0000,0000,0000,!Effect,這裏是CVα-6 現在即將進行降落作業
+Dialogue: Marked=0,0:02:07.36,0:02:07.82,Default,NTP,0000,0000,0000,!Effect,收到
+Dialogue: Marked=0,0:02:26.24,0:02:29.37,Default,NTP,0000,0000,0000,!Effect,各突擊隊已接近目標 炮兵隊停止火力支援
+Dialogue: Marked=0,0:02:38.75,0:02:40.91,Default,NTP,0000,0000,0000,!Effect,-HWT出動\N-收到
+Dialogue: Marked=0,0:02:41.59,0:02:42.65,Default,NTP,0000,0000,0000,!Effect,安全裝置解除
+Dialogue: Marked=0,0:02:44.36,0:02:48.63,Default,NTP,0000,0000,0000,!Effect,一號機正常、二號機正常\N三號機正常、四號機正常
+Dialogue: Marked=0,0:02:49.03,0:02:50.26,Default,NTP,0000,0000,0000,!Effect,儀表板完全正常
+Dialogue: Marked=0,0:02:50.73,0:02:55.86,Default,NTP,0000,0000,0000,!Effect,5 4 3 2 1 出動
+Dialogue: Marked=0,0:03:07.68,0:03:12.21,Default,NTP,0000,0000,0000,!Effect,{\fs20\fnsimhei}(七夕特賣)
+Dialogue: Marked=0,0:03:18.63,0:03:20.62,Default,NTP,0000,0000,0000,!Effect,雨好大呢 真慘啊
+Dialogue: Marked=0,0:03:21.33,0:03:25.27,Default,NTP,0000,0000,0000,!Effect,因為大雨 所以雷達不太穩 機能大概只有七八成吧
+Dialogue: Marked=0,0:03:25.70,0:03:28.10,Default,NTP,0000,0000,0000,!Effect,-瀧川 出發咯\N-0K
+Dialogue: Marked=0,0:03:52.46,0:03:55.69,Default,NTP,0000,0000,0000,!Effect,壬生屋 冷靜下來 這是其他部隊的攻擊
+Dialogue: Marked=0,0:03:55.96,0:03:56.73,Default,NTP,0000,0000,0000,!Effect,我知道
+Dialogue: Marked=0,0:03:57.10,0:03:59.12,Default,NTP,0000,0000,0000,!Effect,喂喂～ 你振作一點吧
+Dialogue: Marked=0,0:03:59.33,0:04:01.83,Default,NTP,0000,0000,0000,!Effect,要是不小心打到自己人 可不是開玩笑的
+Dialogue: Marked=0,0:04:02.27,0:04:03.57,Default,NTP,0000,0000,0000,!Effect,如果你不想吃子彈的話…
+Dialogue: Marked=0,0:04:06.31,0:04:08.64,Default,NTP,0000,0000,0000,!Effect,瀨戶口快來幫我吧
+Dialogue: Marked=0,0:04:10.48,0:04:12.11,Default,NTP,0000,0000,0000,!Effect,來了 在三點鐘方向
+Dialogue: Marked=0,0:04:22.99,0:04:24.13,Default,NTP,0000,0000,0000,!Effect,沒中？
+Dialogue: Marked=0,0:04:24.13,0:04:25.92,Default,NTP,0000,0000,0000,!Effect,有援軍 在八點鐘方向！
+Dialogue: Marked=0,0:04:31.57,0:04:32.93,Default,NTP,0000,0000,0000,!Effect,速水 小心上面
+Dialogue: Marked=0,0:04:50.15,0:04:52.45,Default,NTP,0000,0000,0000,!Effect,這裏是5121部隊 已遭遇敵方目標
+Dialogue: Marked=0,0:04:52.75,0:04:55.52,Default,NTP,0000,0000,0000,!Effect,重複 這裏是5121部隊 已遭遇敵方目標
+Dialogue: Marked=0,0:05:00.40,0:05:03.33,Default,NTP,0000,0000,0000,!Effect,這裏是北風02 已確認是幻獸主腦
+Dialogue: Marked=0,0:05:03.53,0:05:07.26,Default,NTP,0000,0000,0000,!Effect,形式為E-1 座標576.740
+Dialogue: Marked=0,0:05:07.60,0:05:08.33,Default,NTP,0000,0000,0000,!Effect,收到
+Dialogue: Marked=0,0:05:08.77,0:05:14.40,Default,NTP,0000,0000,0000,!Effect,北風02已完成索敵任務 現在即刻返回護衛PBE
+Dialogue: Marked=0,0:05:16.28,0:05:18.04,Default,NTP,0000,0000,0000,!Effect,北風02收到
+Dialogue: Marked=0,0:05:18.91,0:05:20.24,Default,NTP,0000,0000,0000,!Effect,這個是…
+Dialogue: Marked=0,0:05:26.49,0:05:31.55,Default,NTP,0000,0000,0000,!Effect,邪惡魔術師有說過 這裏世代都被諂咒了
+Dialogue: Marked=0,0:05:32.06,0:05:37.93,Default,NTP,0000,0000,0000,!Effect,水會變成血 草木會枯萎 蟲魚烏獸也會死掉
+Dialogue: Marked=0,0:05:38.43,0:05:43.43,Default,NTP,0000,0000,0000,!Effect,你們的子孫也無法微笑著面對明天…
+Dialogue: Marked=0,0:05:43.50,0:05:44.44,Default,NTP,0000,0000,0000,!Effect,小優
+Dialogue: Marked=0,0:05:45.01,0:05:46.37,Default,NTP,0000,0000,0000,!Effect,要工作咯
+Dialogue: Marked=0,0:05:57.22,0:05:58.71,Default,NTP,0000,0000,0000,!Effect,壬生屋 快躲開！
+Dialogue: Marked=0,0:06:16.54,0:06:20.84,Default,NTP,0000,0000,0000,!Effect,第一波殲滅成功 各部隊撤退 進行補給
+Dialogue: Marked=0,0:06:21.48,0:06:23.74,Default,NTP,0000,0000,0000,!Effect,敵方幻獸主腦朝東南方移動中
+Dialogue: Marked=0,0:06:23.85,0:06:28.41,Default,NTP,0000,0000,0000,!Effect,敵方主力分成兩路 朝5121部隊後方佈陣
+Dialogue: Marked=0,0:06:28.75,0:06:30.55,Default,NTP,0000,0000,0000,!Effect,開始啟動PBE
+Dialogue: Marked=0,0:06:34.76,0:06:37.19,Default,NTP,0000,0000,0000,!Effect,隔離結束 開始啟動
+Dialogue: Marked=0,0:06:53.27,0:06:54.50,Default,NTP,0000,0000,0000,!Effect,活性化成功
+Dialogue: Marked=0,0:06:56.21,0:06:56.87,Default,NTP,0000,0000,0000,!Effect,怎麼啦
+Dialogue: Marked=0,0:06:57.45,0:06:58.57,Default,NTP,0000,0000,0000,!Effect,我困了
+Dialogue: Marked=0,0:06:59.58,0:07:01.38,Default,NTP,0000,0000,0000,!Effect,那上個洗手間快去睡吧
+Dialogue: Marked=0,0:07:04.89,0:07:06.72,Default,NTP,0000,0000,0000,!Effect,PBE啟動訊號確認
+Dialogue: Marked=0,0:07:07.29,0:07:09.35,Default,NTP,0000,0000,0000,!Effect,PBE部隊已開始行動
+Dialogue: Marked=0,0:07:09.52,0:07:14.39,Default,NTP,0000,0000,0000,!Effect,HWT各機負責敵方機動部隊 另外請避免波及市區
+Dialogue: Marked=0,0:07:17.23,0:07:19.29,Default,NTP,0000,0000,0000,!Effect,說的哪有做的簡單啊
+Dialogue: Marked=0,0:07:19.60,0:07:22.16,Default,NTP,0000,0000,0000,!Effect,已經沒時間抱怨了
+Dialogue: Marked=0,0:07:22.40,0:07:26.60,Default,NTP,0000,0000,0000,!Effect,東方兩公里處有河流 就暫時代替當壕溝吧
+Dialogue: Marked=0,0:07:38.49,0:07:40.39,Default,NTP,0000,0000,0000,!Effect,北風02 你太靠近了
+Dialogue: Marked=0,0:07:40.69,0:07:42.42,Default,NTP,0000,0000,0000,!Effect,北風02 有收到嗎
+Dialogue: Marked=0,0:08:41.55,0:08:43.04,Default,NTP,0000,0000,0000,!Effect,怎麼啦 望望美
+Dialogue: Marked=0,0:08:43.55,0:08:45.45,Default,NTP,0000,0000,0000,!Effect,望望美的朋友都沒事喔
+Dialogue: Marked=0,0:08:57.57,0:08:58.19,Default,NTP,0000,0000,0000,!Effect,是的
+Dialogue: Marked=0,0:08:59.47,0:09:01.83,Default,NTP,0000,0000,0000,!Effect,我知道了 那就先這樣了
+Dialogue: Marked=0,0:09:05.84,0:09:06.83,Default,NTP,0000,0000,0000,!Effect,怎麼啦
+Dialogue: Marked=0,0:09:08.08,0:09:11.34,Default,NTP,0000,0000,0000,!Effect,明天早上六點 應該就可以再度使用PBE了
+Dialogue: Marked=0,0:09:12.08,0:09:13.21,Default,NTP,0000,0000,0000,!Effect,這也是沒辦法的啊
+Dialogue: Marked=0,0:09:13.58,0:09:16.57,Default,NTP,0000,0000,0000,!Effect,不打倒主腦就會一直有增援
+Dialogue: Marked=0,0:09:17.08,0:09:19.21,Default,NTP,0000,0000,0000,!Effect,通宵熬夜不是常有的事情嗎
+Dialogue: Marked=0,0:09:20.22,0:09:22.59,Default,NTP,0000,0000,0000,!Effect,感覺像是中大獎了
+Dialogue: Marked=0,0:09:24.19,0:09:24.85,Default,NTP,0000,0000,0000,!Effect,不…
+Dialogue: Marked=0,0:09:26.09,0:09:28.72,Default,NTP,0000,0000,0000,!Effect,應該說是抽到下下籤了吧
+Dialogue: Marked=0,0:09:51.12,0:09:51.88,Default,NTP,0000,0000,0000,!Effect,好的
+Dialogue: Marked=0,0:09:53.12,0:09:56.25,Default,NTP,0000,0000,0000,!Effect,我知道了 謝謝
+Dialogue: Marked=0,0:10:00.26,0:10:04.13,Default,NTP,0000,0000,0000,!Effect,放心 我們的孩子似乎都平安無事
+Dialogue: Marked=0,0:10:04.40,0:10:07.27,Default,NTP,0000,0000,0000,!Effect,太好了 望望美說的果然沒錯
+Dialogue: Marked=0,0:10:07.64,0:10:11.63,Default,NTP,0000,0000,0000,!Effect,芳野老師 我要去準備作戰簡報
+Dialogue: Marked=0,0:10:11.91,0:10:15.14,Default,NTP,0000,0000,0000,!Effect,可以幫我請大叔準備晚餐嗎
+Dialogue: Marked=0,0:10:15.54,0:10:16.13,Default,NTP,0000,0000,0000,!Effect,好的
+Dialogue: Marked=0,0:10:17.28,0:10:18.64,Default,NTP,0000,0000,0000,!Effect,另外還有
+Dialogue: Marked=0,0:10:21.05,0:10:24.28,Default,NTP,0000,0000,0000,!Effect,今天晚餐請做豪華一點
+Dialogue: Marked=0,0:10:25.55,0:10:29.15,Default,NTP,0000,0000,0000,!Effect,明天的任務將是負責PBE
+Dialogue: Marked=0,0:10:30.29,0:10:31.78,Default,NTP,0000,0000,0000,!Effect,我們班嗎
+Dialogue: Marked=0,0:10:32.79,0:10:33.42,Default,NTP,0000,0000,0000,!Effect,是的
+Dialogue: Marked=0,0:10:36.16,0:10:38.15,Default,NTP,0000,0000,0000,!Effect,喂喂～今天一起去看泳衣吧
+Dialogue: Marked=0,0:10:38.43,0:10:40.16,Default,NTP,0000,0000,0000,!Effect,怎麼啦 難道有男朋友了？
+Dialogue: Marked=0,0:10:41.07,0:10:41.80,Default,NTP,0000,0000,0000,!Effect,應該算吧
+Dialogue: Marked=0,0:10:41.80,0:10:44.29,Default,NTP,0000,0000,0000,!Effect,有男朋友真好呢
+Dialogue: Marked=0,0:10:49.31,0:10:51.80,Default,NTP,0000,0000,0000,!Effect,可是你這麼想要男朋友啊
+Dialogue: Marked=0,0:10:52.08,0:10:53.07,Default,NTP,0000,0000,0000,!Effect,因為…
+Dialogue: Marked=0,0:10:53.58,0:10:55.17,Default,NTP,0000,0000,0000,!Effect,你看那裏有男人喔
+Dialogue: Marked=0,0:10:55.32,0:10:56.31,Default,NTP,0000,0000,0000,!Effect,哪裏？哪裏？
+Dialogue: Marked=0,0:10:57.18,0:10:58.95,Default,NTP,0000,0000,0000,!Effect,那不是特別班的人嗎
+Dialogue: Marked=0,0:11:01.59,0:11:03.68,Default,NTP,0000,0000,0000,!Effect,那個人只會泡妞 所以不考慮
+Dialogue: Marked=0,0:11:03.96,0:11:06.59,Default,NTP,0000,0000,0000,!Effect,就算他們再優秀 不過編在特別班就有點…
+Dialogue: Marked=0,0:11:06.79,0:11:11.06,Default,NTP,0000,0000,0000,!Effect,神啊 感謝您沒有讓我適合當駕駛員呢
+Dialogue: Marked=0,0:11:11.70,0:11:13.10,Default,NTP,0000,0000,0000,!Effect,我這麼說可以嗎
+Dialogue: Marked=0,0:11:17.97,0:11:19.84,Default,NTP,0000,0000,0000,!Effect,整備小組連絡
+Dialogue: Marked=0,0:11:20.71,0:11:26.11,Default,NTP,0000,0000,0000,!Effect,由於攻擊部隊已經歸隊 1800將進行作戰簡報
+Dialogue: Marked=0,0:11:26.71,0:11:29.34,Default,NTP,0000,0000,0000,!Effect,請在十分鐘之內在教室集合
+Dialogue: Marked=0,0:11:31.35,0:11:34.48,Default,NTP,0000,0000,0000,!Effect,爆炸的威力這麼大 難道幻獸主腦沒有死嗎
+Dialogue: Marked=0,0:11:34.72,0:11:38.21,Default,NTP,0000,0000,0000,!Effect,報告說這次的失敗是因為誤爆意外所致
+Dialogue: Marked=0,0:11:38.99,0:11:39.98,Default,NTP,0000,0000,0000,!Effect,誤爆…
+Dialogue: Marked=0,0:11:40.63,0:11:46.36,Default,NTP,0000,0000,0000,!Effect,因此 明天的第二波攻擊將由5121部隊負責PBE
+Dialogue: Marked=0,0:11:47.13,0:11:48.36,Default,NTP,0000,0000,0000,!Effect,請等一下
+Dialogue: Marked=0,0:11:48.64,0:11:49.86,Default,NTP,0000,0000,0000,!Effect,瀨戶口 有什麼事嗎
+Dialogue: Marked=0,0:11:50.37,0:11:53.14,Default,NTP,0000,0000,0000,!Effect,為什麼我們一定得負責這麼危險的東西啊
+Dialogue: Marked=0,0:11:53.51,0:11:58.14,Default,NTP,0000,0000,0000,!Effect,要消滅主腦只能使用PBE進行零距離攻擊
+Dialogue: Marked=0,0:11:58.51,0:12:02.38,Default,NTP,0000,0000,0000,!Effect,果然對付頭頭就要用必殺技啊 我都已經熱血沸騰了
+Dialogue: Marked=0,0:12:03.38,0:12:04.65,Default,NTP,0000,0000,0000,!Effect,這可不是電玩啊
+Dialogue: Marked=0,0:12:05.15,0:12:09.75,Default,NTP,0000,0000,0000,!Effect,可是既然負責PBE 就表示我們是主角啊
+Dialogue: Marked=0,0:12:10.52,0:12:12.39,Default,NTP,0000,0000,0000,!Effect,你真的是無憂無慮呢
+Dialogue: Marked=0,0:12:12.76,0:12:14.39,Default,NTP,0000,0000,0000,!Effect,不過什麼是零距離啊
+Dialogue: Marked=0,0:12:14.66,0:12:17.76,Default,NTP,0000,0000,0000,!Effect,就是把PBE直接打入主腦體內
+Dialogue: Marked=0,0:12:18.03,0:12:20.90,Default,NTP,0000,0000,0000,!Effect,-玩真的啊\N-聽起來越來越帥氣了呢
+Dialogue: Marked=0,0:12:21.54,0:12:25.90,Default,NTP,0000,0000,0000,!Effect,另外PBE是非常貴重且需要長時間製造的東西
+Dialogue: Marked=0,0:12:26.27,0:12:29.77,Default,NTP,0000,0000,0000,!Effect,而且一啟動就無法臨時停止
+Dialogue: Marked=0,0:12:30.78,0:12:33.77,Default,NTP,0000,0000,0000,!Effect,東原望望美 東原同學
+Dialogue: Marked=0,0:12:35.55,0:12:37.41,Default,NTP,0000,0000,0000,!Effect,你應該知道啟動方法了吧
+Dialogue: Marked=0,0:12:37.79,0:12:41.06,Default,NTP,0000,0000,0000,!Effect,嗯…不對 應該說是的
+Dialogue: Marked=0,0:12:41.06,0:12:43.18,Default,NTP,0000,0000,0000,!Effect,-那之後就麻煩班長了\N-遵命
+Dialogue: Marked=0,0:12:45.56,0:12:48.29,Default,NTP,0000,0000,0000,!Effect,-首先原負責協助啟動\N-遵命
+Dialogue: Marked=0,0:12:50.93,0:12:51.69,Default,NTP,0000,0000,0000,!Effect,這是？
+Dialogue: Marked=0,0:12:52.57,0:12:54.19,Default,NTP,0000,0000,0000,!Effect,PBE的規格書
+Dialogue: Marked=0,0:12:55.07,0:12:57.06,Default,NTP,0000,0000,0000,!Effect,到引爆之前的步驟就麻煩你了
+Dialogue: Marked=0,0:12:57.44,0:13:00.20,Default,NTP,0000,0000,0000,!Effect,-天亮之前要記起來啊…\N-原學姊
+Dialogue: Marked=0,0:13:00.94,0:13:03.93,Default,NTP,0000,0000,0000,!Effect,不介意的話 請用這個 對保養肌膚很有用的
+Dialogue: Marked=0,0:13:04.58,0:13:05.31,Default,NTP,0000,0000,0000,!Effect,謝謝你
+Dialogue: Marked=0,0:13:06.58,0:13:09.21,Default,NTP,0000,0000,0000,!Effect,請整備小組負責檢查啟動儀表是否正常
+Dialogue: Marked=0,0:13:09.82,0:13:13.58,Default,NTP,0000,0000,0000,!Effect,-怎麼這樣 -乖乖\N-肯定要通宵熬夜了
+Dialogue: Marked=0,0:13:14.09,0:13:15.82,Default,NTP,0000,0000,0000,!Effect,小隊編組如下
+Dialogue: Marked=0,0:13:15.82,0:13:19.32,Default,NTP,0000,0000,0000,!Effect,速水負責搬運作業 瀧川負責後方支援
+Dialogue: Marked=0,0:13:19.46,0:13:22.33,Default,NTP,0000,0000,0000,!Effect,前鋒是瀨戶口跟壬生屋
+Dialogue: Marked=0,0:13:23.46,0:13:24.95,Default,NTP,0000,0000,0000,!Effect,-壬生屋同學\N-是
+Dialogue: Marked=0,0:13:26.73,0:13:28.10,Default,NTP,0000,0000,0000,!Effect,話先說在前面
+Dialogue: Marked=0,0:13:28.60,0:13:31.23,Default,NTP,0000,0000,0000,!Effect,這麼排可不是因為你的技術啊
+Dialogue: Marked=0,0:13:33.11,0:13:34.10,Default,NTP,0000,0000,0000,!Effect,真是可惜呢
+Dialogue: Marked=0,0:13:34.48,0:13:35.24,Default,NTP,0000,0000,0000,!Effect,你很吵耶
+Dialogue: Marked=0,0:13:41.72,0:13:45.34,Default,NTP,0000,0000,0000,!Effect,速水同學 麻煩你帶東原到女生宿舍
+Dialogue: Marked=0,0:13:45.62,0:13:46.11,Default,NTP,0000,0000,0000,!Effect,好的
+Dialogue: Marked=0,0:13:46.85,0:13:50.85,Default,NTP,0000,0000,0000,!Effect,之後會對四位駕駛員說明攻擊順序跟戰術
+Dialogue: Marked=0,0:13:51.76,0:13:52.75,Default,NTP,0000,0000,0000,!Effect,以上 解散
+Dialogue: Marked=0,0:13:53.99,0:13:55.99,Default,NTP,0000,0000,0000,!Effect,不過 真不愧是班長呢
+Dialogue: Marked=0,0:13:56.36,0:13:57.35,Default,NTP,0000,0000,0000,!Effect,這話怎麼說呢
+Dialogue: Marked=0,0:13:58.00,0:14:00.26,Default,NTP,0000,0000,0000,!Effect,怎麼想都覺得是最合適的人選對吧
+Dialogue: Marked=0,0:14:00.87,0:14:01.77,Default,NTP,0000,0000,0000,!Effect,說得也是
+Dialogue: Marked=0,0:14:02.64,0:14:04.76,Default,NTP,0000,0000,0000,!Effect,不過關於HWT的調整
+Dialogue: Marked=0,0:14:05.01,0:14:08.63,Default,NTP,0000,0000,0000,!Effect,總覺得無論是誰來作都一定會疏忽一些細節呢
+Dialogue: Marked=0,0:14:09.01,0:14:10.00,Default,NTP,0000,0000,0000,!Effect,你還真敢說啊
+Dialogue: Marked=0,0:14:10.28,0:14:15.15,Default,NTP,0000,0000,0000,!Effect,不過樂觀一點想 用刪除法也是速水同學最合適呢
+Dialogue: Marked=0,0:14:15.78,0:14:17.38,Default,NTP,0000,0000,0000,!Effect,真是樂觀的刪除法啊…
+Dialogue: Marked=0,0:14:18.02,0:14:20.51,Default,NTP,0000,0000,0000,!Effect,抱歉 我一定會配合的
+Dialogue: Marked=0,0:14:24.53,0:14:26.02,Default,NTP,0000,0000,0000,!Effect,啊 我是阿隆
+Dialogue: Marked=0,0:14:26.29,0:14:28.66,Default,NTP,0000,0000,0000,!Effect,對不起啦 關於明天的約會…
+Dialogue: Marked=0,0:14:30.30,0:14:32.66,Default,NTP,0000,0000,0000,!Effect,因為臨時說要出動 所以…
+Dialogue: Marked=0,0:14:33.40,0:14:34.39,Default,NTP,0000,0000,0000,!Effect,樂觀是嗎
+Dialogue: Marked=0,0:14:36.04,0:14:37.03,Default,NTP,0000,0000,0000,!Effect,我是瀨戶口…
+Dialogue: Marked=0,0:16:06.26,0:16:08.39,Default,NTP,0000,0000,0000,!Effect,5121部隊已出動
+Dialogue: Marked=0,0:16:08.76,0:16:12.49,Default,NTP,0000,0000,0000,!Effect,8314 8331等部隊已經抵達指定地點
+Dialogue: Marked=0,0:16:13.00,0:16:14.63,Default,NTP,0000,0000,0000,!Effect,開始以炮火掩護
+Dialogue: Marked=0,0:16:25.65,0:16:29.51,Default,NTP,0000,0000,0000,!Effect,這裏是CVα-6 距離目標上空還有60秒
+Dialogue: Marked=0,0:16:29.78,0:16:30.51,Default,NTP,0000,0000,0000,!Effect,收到
+Dialogue: Marked=0,0:16:36.92,0:16:38.79,Default,NTP,0000,0000,0000,!Effect,友軍已殲滅敵方幻獸牛頭人
+Dialogue: Marked=0,0:16:39.53,0:16:41.15,Default,NTP,0000,0000,0000,!Effect,幻獸主腦更改行進方向
+Dialogue: Marked=0,0:16:41.30,0:16:43.16,Default,NTP,0000,0000,0000,!Effect,-被發現了呢\N-盡速進行吧
+Dialogue: Marked=0,0:16:43.80,0:16:47.93,Default,NTP,0000,0000,0000,!Effect,5121部隊 HWT降落便馬上啟動PBE
+Dialogue: Marked=0,0:17:02.68,0:17:03.81,Default,NTP,0000,0000,0000,!Effect,活性化成功
+Dialogue: Marked=0,0:17:07.69,0:17:09.68,Default,NTP,0000,0000,0000,!Effect,確認PBE啟動訊號
+Dialogue: Marked=0,0:17:22.97,0:17:25.30,Default,NTP,0000,0000,0000,!Effect,希望大家都能平安回來
+Dialogue: Marked=0,0:17:25.61,0:17:26.70,Default,NTP,0000,0000,0000,!Effect,沒問題的
+Dialogue: Marked=0,0:17:30.71,0:17:32.44,Default,NTP,0000,0000,0000,!Effect,因為今天是七夕啊
+Dialogue: Marked=0,0:17:33.91,0:17:36.82,Default,NTP,0000,0000,0000,!Effect,所以織女小姐會保佑的…
+Dialogue: Marked=0,0:17:36.82,0:17:37.72,Default,NTP,0000,0000,0000,!Effect,{\fs20\fnsimhei}(我也想要認識一些不一樣的人)\N(東原望望美)
+Dialogue: Marked=0,0:17:37.92,0:17:40.11,Default,NTP,0000,0000,0000,!Effect,5121部隊與幻獸中樞接觸
+Dialogue: Marked=0,0:17:46.13,0:17:47.72,Default,NTP,0000,0000,0000,!Effect,壬生屋 還沒嗎！
+Dialogue: Marked=0,0:17:49.43,0:17:50.23,Default,NTP,0000,0000,0000,!Effect,馬上就好了
+Dialogue: Marked=0,0:17:58.74,0:17:59.50,Default,NTP,0000,0000,0000,!Effect,趁現在
+Dialogue: Marked=0,0:17:59.74,0:18:00.23,Default,NTP,0000,0000,0000,!Effect,收到
+Dialogue: Marked=0,0:18:00.74,0:18:01.47,Default,NTP,0000,0000,0000,!Effect,交給我吧
+Dialogue: Marked=0,0:18:11.52,0:18:12.49,Default,NTP,0000,0000,0000,!Effect,全員撤退！
+Dialogue: Marked=0,0:18:20.53,0:18:21.69,Default,NTP,0000,0000,0000,!Effect,一號機被敵軍包圍
+Dialogue: Marked=0,0:18:22.03,0:18:23.50,Default,NTP,0000,0000,0000,!Effect,主腦正從後方接近
+Dialogue: Marked=0,0:18:24.26,0:18:25.46,Default,NTP,0000,0000,0000,!Effect,速水你要做什麼
+Dialogue: Marked=0,0:18:27.23,0:18:28.26,Default,NTP,0000,0000,0000,!Effect,我要去救壬生屋！
+Dialogue: Marked=0,0:18:28.77,0:18:31.00,Default,NTP,0000,0000,0000,!Effect,要求駁回 現在已經沒時間了
+Dialogue: Marked=0,0:18:31.54,0:18:33.17,Default,NTP,0000,0000,0000,!Effect,一個人沒辦法的 快回來啊
+Dialogue: Marked=0,0:18:33.51,0:18:34.27,Default,NTP,0000,0000,0000,!Effect,我也一起去
+Dialogue: Marked=0,0:18:34.58,0:18:36.98,Default,NTP,0000,0000,0000,!Effect,不准 你們兩人馬上離開
+Dialogue: Marked=0,0:18:37.21,0:18:37.68,Default,NTP,0000,0000,0000,!Effect,可是…
+Dialogue: Marked=0,0:18:38.05,0:18:39.01,Default,NTP,0000,0000,0000,!Effect,這是命令
+Dialogue: Marked=0,0:18:47.29,0:18:49.02,Default,NTP,0000,0000,0000,!Effect,壬生屋 千萬別放棄啊！
+Dialogue: Marked=0,0:18:53.19,0:18:55.02,Default,NTP,0000,0000,0000,!Effect,PBE發動倒數十秒
+Dialogue: Marked=0,0:18:55.90,0:19:04.40,Default,NTP,0000,0000,0000,!Effect,7 6 5 4 3 2 1 0
+Dialogue: Marked=0,0:19:37.00,0:19:39.60,Default,NTP,0000,0000,0000,!Effect,作戰成功 敵方幻獸主腦已被消滅
+Dialogue: Marked=0,0:19:40.24,0:19:43.61,Default,NTP,0000,0000,0000,!Effect,瓦斯濃度急速下降中 目前已降至安全等級
+Dialogue: Marked=0,0:19:51.62,0:19:53.28,Default,NTP,0000,0000,0000,!Effect,壬生屋 你沒事吧
+Dialogue: Marked=0,0:19:54.09,0:19:54.82,Default,NTP,0000,0000,0000,!Effect,我還好…
+Dialogue: Marked=0,0:20:15.98,0:20:19.38,Default,NTP,0000,0000,0000,!Effect,-啊 那個…\N-冒失傢伙！
+Dialogue: Marked=0,0:20:30.69,0:20:31.49,Default,NTP,0000,0000,0000,!Effect,是這樣的嗎
+Dialogue: Marked=0,0:20:32.36,0:20:34.62,Default,NTP,0000,0000,0000,!Effect,5121部隊全員平安
+Dialogue: Marked=0,0:20:35.93,0:20:39.13,Default,NTP,0000,0000,0000,!Effect,太好了 那就得趕快告訴大家了
+Dialogue: Marked=0,0:20:39.57,0:20:41.63,Default,NTP,0000,0000,0000,!Effect,不用擔心 已經開始咯
+Dialogue: Marked=0,0:20:42.37,0:20:43.39,Default,NTP,0000,0000,0000,!Effect,乾杯！
+Dialogue: Marked=0,0:20:51.95,0:20:54.35,Default,NTP,0000,0000,0000,!Effect,出現了 最不幸的果然是你！
+Dialogue: Marked=0,0:20:55.15,0:20:56.14,Default,NTP,0000,0000,0000,!Effect,不愧是名符其實啊
+Dialogue: Marked=0,0:20:57.58,0:20:58.92,Default,NTP,0000,0000,0000,!Effect,大家真有精神啊
+Dialogue: Marked=0,0:20:59.92,0:21:03.19,Default,NTP,0000,0000,0000,!Effect,話說回來 你知道有轉學生要來嗎
+Dialogue: Marked=0,0:21:04.16,0:21:05.42,Default,NTP,0000,0000,0000,!Effect,在這種時候？
+Dialogue: Marked=0,0:21:06.43,0:21:07.92,Default,NTP,0000,0000,0000,!Effect,好像是明天會來
+Dialogue: Marked=0,0:21:10.26,0:21:12.23,Default,NTP,0000,0000,0000,!Effect,一定會是個好孩子的
+Dialogue: Marked=0,0:21:14.03,0:21:17.03,Default,NTP,0000,0000,0000,!Effect,因為今天是七夕啊
+Dialogue: Marked=0,0:21:20.84,0:21:22.43,Default,NTP,0000,0000,0000,!Effect,是這樣就好了…
+Dialogue: Marked=0,0:21:35.86,0:21:47.46,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}最重要的心情 總是過於接近無法傳達
+Dialogue: Marked=0,0:21:47.73,0:21:59.70,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}擦肩而過時的悲傷 在我的內心緊緊糾結
+Dialogue: Marked=0,0:21:59.88,0:22:05.88,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}雨過天睛 光珠般的雨滴
+Dialogue: Marked=0,0:22:06.02,0:22:11.65,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}我將其收集起來 藉以思念你
+Dialogue: Marked=0,0:22:11.96,0:22:18.96,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}沒人知道我將前往何處
+Dialogue: Marked=0,0:22:19.27,0:22:25.69,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}只有明日的風描繪著我的軌跡
+Dialogue: Marked=0,0:22:25.77,0:22:31.11,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}隨著時代變動的我們
+Dialogue: Marked=0,0:22:31.48,0:22:37.25,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}即使迷失在困惑裏
+Dialogue: Marked=0,0:22:37.52,0:22:43.51,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}也要抱緊這相遇的奇跡
+Dialogue: Marked=0,0:22:43.82,0:22:53.26,OPED,NTP,0000,0000,0000,!Effect,{\fs20\fad(100,100)}走吧 一同前去
+Dialogue: Marked=0,0:22:55.44,0:22:56.93,Default,NTP,0000,0000,0000,!Effect,有轉學生要來了
+Dialogue: Marked=0,0:22:57.44,0:23:01.64,Default,NTP,0000,0000,0000,!Effect,聽名字的發音 本來以為是外國人
+Dialogue: Marked=0,0:23:01.94,0:23:05.43,Default,NTP,0000,0000,0000,!Effect,原來是叫做芝村舞的日本女孩
+Dialogue: Marked=0,0:23:06.05,0:23:07.78,Default,NTP,0000,0000,0000,!Effect,希望可以成為好朋友呢
+

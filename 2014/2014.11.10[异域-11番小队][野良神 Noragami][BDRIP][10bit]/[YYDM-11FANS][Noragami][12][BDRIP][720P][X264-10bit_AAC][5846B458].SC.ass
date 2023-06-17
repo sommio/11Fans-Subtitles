@@ -1,0 +1,289 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正魏碑_GBK,48,&H00FFFFFF,&HF0000000,&H00232181,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,3,134
+Style: warning,FZZhunYuan-M02,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: logo,华康雅宋体W9,60,&H004A11BB,&H000000FF,&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: title,方正粗宋_GBK,40,&H00000000,&H000000FF,&HC8000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,1
+Style: NEXT,方正粗宋_GBK,40,&H00FFFFFC,&H000000FF,&HC8FFFFFC,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: yugao,方正魏碑_GBK,48,&H00232181,&H000000FF,&H00FEFEFE,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:50.25,0:01:55.09,logo,,0,0,0,,{\pos(640,266)\fsp40\t(800,850,\1c&H4B232E&\1a&50&)\t(850,1180,\1c&H4A11BB&\1a&20&)\t(2050,2100,\1a&10&\t(2100,2800,\1a&00&))}{\t(50,3000,\fsp6)\t(3050,4700,\fs55\t(4700,4850,\fs512))}异域字幕组
+Dialogue: 0,0:01:50.25,0:01:55.09,logo,,0,0,0,,{\1a&HFF&\move(650,266,645,266,2250,2300)\fsp40\c&H9139C7&\t(800,850,\1a&30&\t(850,1400,\1a&HFF&\t(2050,2100,\1a&00&\1c&HED00E7&\t(2100,2800,\1a&HFF&))))}{\t(50,3000,\fsp6)}异域字幕组
+Dialogue: 0,0:01:50.25,0:01:55.09,logo,,0,0,0,,{\1a&HFF&\pos(630,266)\fsp40\c&H50FFF1&\t(800,850,\1a&90&\t(850,1400,\1a&HFF&\t(2050,2100,\1c&H50FFF1&\1a&50&\t(2100,2800,\1a&HFF&))))}{\t(50,3000,\fsp6)}异域字幕组
+Dialogue: 0,0:03:14.84,0:03:19.84,warning,,0,0,0,,{\blur4\be3\fad(100,100)}本片字幕由异域字幕组(http://www.yyman.com.cn)制作,仅供试看之用,请在24小时内删除,\N如果喜欢本作品,请购买并支持正版!如因私自散布造成的法律问题,本字幕组恕不负责。
+Dialogue: 0,0:03:19.93,0:03:25.26,warning,,0,0,0,,{\blur4\be3\fad(100,100)}翻译：作死病院大怪兽 zea 作死病院手术刀   校对：作死病号89  时间：萌鹿鹿  后期：作死病院院助
+Dialogue: 0,0:00:08.28,0:00:10.58,Default,NTP,0,0,0,,吾之神社也已腐朽
+Dialogue: 0,0:00:11.84,0:00:15.49,Default,NTP,0,0,0,,往日战乱中为诸多卑劣的贪念所缠绕
+Dialogue: 0,0:00:16.09,0:00:19.39,Default,NTP,0,0,0,,时至今日被铭刻的残志却早已被遗忘
+Dialogue: 0,0:00:19.58,0:00:20.94,Default,NTP,0,0,0,,此处亦再无人问津
+Dialogue: 0,0:00:22.08,0:00:22.86,Default,NTP,0,0,0,,蠃蚌
+Dialogue: 0,0:00:23.30,0:00:26.49,Default,NTP,0,0,0,,但是 吾辈却还苟存于此
+Dialogue: 0,0:00:28.59,0:00:30.54,Default,NTP,0,0,0,,吾辈为祸津神
+Dialogue: 0,0:00:30.89,0:00:33.50,Default,NTP,0,0,0,,降生之所也罢 堕入死亡之地也罢
+Dialogue: 0,0:00:33.63,0:00:34.92,Default,NTP,0,0,0,,均在同处
+Dialogue: 0,0:00:38.89,0:00:42.01,Default,NTP,0,0,0,,对吧 夜斗神啊
+Dialogue: 0,0:00:56.70,0:00:59.13,Default,NTP,0,0,0,,为什么你会跟来啊 日和
+Dialogue: 0,0:01:00.13,0:01:02.78,Default,NTP,0,0,0,,这…这里是哪里
+Dialogue: 0,0:01:03.98,0:01:08.12,Default,NTP,0,0,0,,我居然长出尾巴来了 这是什么啊
+Dialogue: 0,0:01:08.14,0:01:09.05,Default,NTP,0,0,0,,我说你啊…
+Dialogue: 0,0:01:09.07,0:01:10.28,Default,NTP,0,0,0,,来得好
+Dialogue: 0,0:01:15.72,0:01:16.70,Default,NTP,0,0,0,,嬴蚌
+Dialogue: 0,0:01:18.51,0:01:21.15,Default,NTP,0,0,0,,看来有一位不速之客啊
+Dialogue: 0,0:01:21.61,0:01:24.86,Default,NTP,0,0,0,,你还真是个碍眼的孩子
+Dialogue: 0,0:01:25.25,0:01:28.80,Default,NTP,0,0,0,,日和 快从这里离开
+Dialogue: 0,0:01:31.67,0:01:34.67,Default,NTP,0,0,0,,吾此刻 再次讨教了
+Dialogue: 0,0:01:34.91,0:01:35.82,Default,NTP,0,0,0,,雪器
+Dialogue: 0,0:01:37.14,0:01:37.98,Default,NTP,0,0,0,,零器
+Dialogue: 0,0:03:14.85,0:03:18.85,title,NTP,0,0,0,,{\3a&HFF&\c&HFDFDFE&\fsp17\fs45\pos(566,466)}一\N\N片\N\N记\N\N忆
+Dialogue: 0,0:03:22.13,0:03:23.76,Default,NTP,0,0,0,,把日和的记忆
+Dialogue: 0,0:03:24.42,0:03:26.23,Default,NTP,0,0,0,,还回来
+Dialogue: 0,0:03:40.23,0:03:40.98,Default,NTP,0,0,0,,捉到了
+Dialogue: 0,0:03:45.16,0:03:46.10,Default,NTP,0,0,0,,太弱了
+Dialogue: 0,0:03:58.32,0:04:00.91,Default,NTP,0,0,0,,可恶 这水泡从里面斩不开
+Dialogue: 0,0:04:03.70,0:04:04.82,Default,NTP,0,0,0,,风姬
+Dialogue: 0,0:04:05.60,0:04:08.52,Default,NTP,0,0,0,,夜斗神至今仍不回心转意
+Dialogue: 0,0:04:27.26,0:04:28.18,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:04:29.27,0:04:30.43,Default,NTP,0,0,0,,好痛…
+Dialogue: 0,0:04:31.63,0:04:32.87,Default,NTP,0,0,0,,你没事吧
+Dialogue: 0,0:04:33.55,0:04:35.35,Default,NTP,0,0,0,,嗯…不对！
+Dialogue: 0,0:04:35.36,0:04:38.04,Default,NTP,0,0,0,,为什么你还在 不是让你快逃吗
+Dialogue: 0,0:04:43.79,0:04:45.59,Default,NTP,0,0,0,,不过 帮上大忙了
+Dialogue: 0,0:04:52.47,0:04:54.36,Default,NTP,0,0,0,,那眼神算什么
+Dialogue: 0,0:04:55.24,0:04:57.38,Default,NTP,0,0,0,,那温和的表情
+Dialogue: 0,0:05:07.11,0:05:08.27,Default,NTP,0,0,0,,在哪
+Dialogue: 0,0:05:08.42,0:05:09.08,Default,NTP,0,0,0,,什么
+Dialogue: 0,0:05:09.45,0:05:11.54,Default,NTP,0,0,0,,我所熟识的那位祸津神
+Dialogue: 0,0:05:19.94,0:05:22.97,Default,NTP,0,0,0,,祸津神夜斗 何在
+Dialogue: 0,0:05:30.20,0:05:33.18,Default,NTP,0,0,0,,那饱含忌讳之息的美丽双目
+Dialogue: 0,0:05:33.92,0:05:35.70,Default,NTP,0,0,0,,那位夜斗神何在
+Dialogue: 0,0:05:35.96,0:05:39.49,Default,NTP,0,0,0,,吾希望一战的 是曾经的那位祸津神
+Dialogue: 0,0:05:40.37,0:05:41.78,Default,NTP,0,0,0,,真罗嗦
+Dialogue: 0,0:05:50.65,0:05:51.79,Default,NTP,0,0,0,,原来如此
+Dialogue: 0,0:05:54.46,0:05:56.25,Default,NTP,0,0,0,,是还不够啊
+Dialogue: 0,0:05:56.61,0:05:58.08,Default,NTP,0,0,0,,你在说些什么
+Dialogue: 0,0:05:59.40,0:06:00.03,Default,NTP,0,0,0,,你这家伙
+Dialogue: 0,0:06:20.64,0:06:21.50,Default,NTP,0,0,0,,雪器
+Dialogue: 0,0:06:28.22,0:06:29.79,Default,NTP,0,0,0,,我说啊 蠃蚌
+Dialogue: 0,0:06:34.22,0:06:35.95,Default,NTP,0,0,0,,如此大规模的时化
+Dialogue: 0,0:06:36.15,0:06:37.49,Default,NTP,0,0,0,,这将会是纷乱的一天啊
+Dialogue: 0,0:06:50.72,0:06:53.15,Default,NTP,0,0,0,,妖魔的数量完全不见减少
+Dialogue: 0,0:06:54.06,0:06:54.75,Default,NTP,0,0,0,,兆麻
+Dialogue: 0,0:06:54.98,0:06:55.46,Default,NTP,0,0,0,,是
+Dialogue: 0,0:06:55.62,0:06:57.46,Default,NTP,0,0,0,,小福小姐那里有说什么吗
+Dialogue: 0,0:06:58.27,0:07:00.55,Default,NTP,0,0,0,,这场时化并不是风穴所致吧
+Dialogue: 0,0:07:02.29,0:07:07.14,Default,NTP,0,0,0,,这 恐怕是狂暴的祸津神所引发的
+Dialogue: 0,0:07:09.19,0:07:10.21,Default,NTP,0,0,0,,祸津神
+Dialogue: 0,0:07:20.48,0:07:21.25,Default,NTP,0,0,0,,雪音
+Dialogue: 0,0:07:25.14,0:07:26.98,Default,NTP,0,0,0,,夜斗 接下来该怎么办啊
+Dialogue: 0,0:07:27.06,0:07:29.59,Default,NTP,0,0,0,,你带着日和离开这里
+Dialogue: 0,0:07:31.11,0:07:33.04,Default,NTP,0,0,0,,蠃蚌的目标原本就是我
+Dialogue: 0,0:07:33.21,0:07:35.67,Default,NTP,0,0,0,,我去吸引他的注意力 你们就趁机逃走
+Dialogue: 0,0:07:35.91,0:07:37.37,Default,NTP,0,0,0,,那夜斗你要怎么办啊
+Dialogue: 0,0:07:37.47,0:07:39.33,Default,NTP,0,0,0,,我不在的话你不就手无缚鸡之力了吗
+Dialogue: 0,0:07:39.34,0:07:41.01,Default,NTP,0,0,0,,吵死了 我自己会想办法的
+Dialogue: 0,0:07:54.87,0:07:55.74,Default,NTP,0,0,0,,那是…
+Dialogue: 0,0:07:56.20,0:07:58.47,Default,NTP,0,0,0,,是封印了日和记忆的珠子
+Dialogue: 0,0:08:20.30,0:08:21.73,Default,NTP,0,0,0,,啊呀呀 真是遗憾
+Dialogue: 0,0:08:22.41,0:08:24.28,Default,NTP,0,0,0,,真是个虚幻而脆弱的东西啊
+Dialogue: 0,0:08:27.70,0:08:28.59,Default,NTP,0,0,0,,日和！
+Dialogue: 0,0:08:30.72,0:08:31.71,Default,NTP,0,0,0,,日和！
+Dialogue: 0,0:08:32.50,0:08:34.22,Default,NTP,0,0,0,,日和 日和
+Dialogue: 0,0:08:35.73,0:08:39.02,Default,NTP,0,0,0,,日和 日和！
+Dialogue: 0,0:08:40.25,0:08:42.19,Default,NTP,0,0,0,,夜斗 怎么办啊 夜斗
+Dialogue: 0,0:08:42.50,0:08:44.09,Default,NTP,0,0,0,,日和不睁开眼睛了啊
+Dialogue: 0,0:08:50.92,0:08:52.65,Default,NTP,0,0,0,,舍弃她吧 夜斗神
+Dialogue: 0,0:08:53.40,0:08:57.08,Default,NTP,0,0,0,,那只是个不会出声 没有灵魂的空壳
+Dialogue: 0,0:08:57.72,0:08:59.45,Default,NTP,0,0,0,,只是个肉块而已
+Dialogue: 0,0:09:18.71,0:09:19.51,Default,NTP,0,0,0,,蠃蚌
+Dialogue: 0,0:09:21.10,0:09:22.80,Default,NTP,0,0,0,,你恨吾辈吗
+Dialogue: 0,0:09:25.42,0:09:26.65,Default,NTP,0,0,0,,那般便好
+Dialogue: 0,0:09:27.93,0:09:30.27,Default,NTP,0,0,0,,荒御魂啊 憎恨吾辈吧
+Dialogue: 0,0:09:30.57,0:09:33.08,Default,NTP,0,0,0,,莫要违逆这漩涡 觉醒吧
+Dialogue: 0,0:09:34.22,0:09:35.74,Default,NTP,0,0,0,,祸津神 夜斗！
+Dialogue: 0,0:09:36.49,0:09:37.24,Default,NTP,0,0,0,,住嘴
+Dialogue: 0,0:09:38.96,0:09:39.84,Default,NTP,0,0,0,,雪器
+Dialogue: 0,0:10:08.36,0:10:09.35,Default,NTP,0,0,0,,没错
+Dialogue: 0,0:10:10.12,0:10:11.32,Default,NTP,0,0,0,,就是那种眼神
+Dialogue: 0,0:10:14.12,0:10:14.84,Default,NTP,0,0,0,,来吧
+Dialogue: 0,0:10:15.69,0:10:16.85,Default,NTP,0,0,0,,你来吧
+Dialogue: 0,0:10:17.98,0:10:21.67,Default,NTP,0,0,0,,我要把你那扭捏的脸砍得粉碎
+Dialogue: 0,0:10:23.76,0:10:24.48,Default,NTP,0,0,0,,夜斗…
+Dialogue: 0,0:11:06.45,0:11:07.67,Default,NTP,0,0,0,,好怀念
+Dialogue: 0,0:11:09.13,0:11:12.30,Default,NTP,0,0,0,,仍与吾等盛行的时代的苍穹一样
+Dialogue: 0,0:11:30.86,0:11:32.77,Default,NTP,0,0,0,,吾等为祸津神
+Dialogue: 0,0:11:34.23,0:11:36.35,Default,NTP,0,0,0,,是回应所忌惮愿望
+Dialogue: 0,0:11:36.54,0:11:38.43,Default,NTP,0,0,0,,将此岸染满鲜血的
+Dialogue: 0,0:11:38.91,0:11:40.19,Default,NTP,0,0,0,,荒御魂
+Dialogue: 0,0:11:41.90,0:11:43.06,Default,NTP,0,0,0,,蠃蚌
+Dialogue: 0,0:11:44.50,0:11:47.36,Default,NTP,0,0,0,,就是此时 吾辈一直在等待此刻
+Dialogue: 0,0:11:48.50,0:11:51.76,Default,NTP,0,0,0,,当下正是吾辈愿望达成之时
+Dialogue: 0,0:11:54.47,0:11:55.96,Default,NTP,0,0,0,,吾辈名为蠃蚌
+Dialogue: 0,0:11:58.35,0:12:00.57,Default,NTP,0,0,0,,手握忌名 不限此面
+Dialogue: 0,0:12:01.31,0:12:03.27,Default,NTP,0,0,0,,以此身躯为媒介
+Dialogue: 0,0:12:03.80,0:12:06.06,Default,NTP,0,0,0,,聚集于此之名
+Dialogue: 0,0:12:06.35,0:12:08.82,Default,NTP,0,0,0,,无法违逆吾辈之命
+Dialogue: 0,0:12:09.24,0:12:11.93,Default,NTP,0,0,0,,遵从于此面之下
+Dialogue: 0,0:12:12.66,0:12:14.54,Default,NTP,0,0,0,,聚集吧 忌讳之气
+Dialogue: 0,0:12:22.85,0:12:25.28,Default,NTP,0,0,0,,他在…吞噬时化？
+Dialogue: 0,0:12:33.53,0:12:34.46,Default,NTP,0,0,0,,真是愚蠢
+Dialogue: 0,0:12:35.16,0:12:36.72,Default,NTP,0,0,0,,被冲昏头了吗
+Dialogue: 0,0:12:36.92,0:12:38.76,Default,NTP,0,0,0,,竟然和妖怪同化
+Dialogue: 0,0:12:39.51,0:12:41.27,Default,NTP,0,0,0,,非也 夜斗神啊
+Dialogue: 0,0:12:41.50,0:12:42.83,Default,NTP,0,0,0,,吾辈只是为了和原本的你
+Dialogue: 0,0:12:43.32,0:12:46.06,Default,NTP,0,0,0,,尽情地厮杀啊！
+Dialogue: 0,0:13:18.44,0:13:19.09,Default,NTP,0,0,0,,夜斗！
+Dialogue: 0,0:13:19.10,0:13:20.59,Default,NTP,0,0,0,,喂 夜斗！
+Dialogue: 0,0:13:44.10,0:13:45.93,logo,NTP,0,0,0,,{\fad(100,0)\c&HE8E8E8&\fsp20\move(640,536,640,510,0,600)\clip(502,452,754,486)}野良神
+Dialogue: 0,0:13:44.10,0:13:45.93,logo,NTP,0,0,0,,{\fad(100,0)\c&HE8E8E8&\fsp20\move(640,494,640,510,0,600)\clip(512,486,752,512)}野良神
+Dialogue: 0,0:13:44.10,0:13:45.93,logo,NTP,0,0,0,,{\c&HE8E8E8&\move(640,204,640,172,0,600)\clip(486,114,828,144)}异域字幕组
+Dialogue: 0,0:13:44.10,0:13:45.93,logo,NTP,0,0,0,,{\c&HE8E8E8&\move(640,144,640,172,0,600)\clip(458,144,802,208)}异域字幕组
+Dialogue: 0,0:13:47.10,0:13:51.02,logo,,0,0,0,,{\2a&HFF&\c&HFEFEFE&\move(1022,578,1298,578,3700,3950)\3c&H9FB1BA&}{\k30}野{\k30}良{\k30\move(1014,588,1290,588,3700,3950)}神
+Dialogue: 0,0:13:48.12,0:13:50.74,Default,NTP,0,0,0,,我…这是怎么了
+Dialogue: 0,0:13:52.37,0:13:53.39,Default,NTP,0,0,0,,我？
+Dialogue: 0,0:13:54.04,0:13:55.17,Default,NTP,0,0,0,,我…
+Dialogue: 0,0:13:56.04,0:13:56.96,Default,NTP,0,0,0,,不知道
+Dialogue: 0,0:13:57.73,0:14:00.34,Default,NTP,0,0,0,,什么都…不知道
+Dialogue: 0,0:14:02.14,0:14:04.74,Default,NTP,0,0,0,,是什么？这股香味…
+Dialogue: 0,0:14:09.81,0:14:11.72,Default,NTP,0,0,0,,夜斗 你没事吧
+Dialogue: 0,0:14:11.87,0:14:12.70,Default,NTP,0,0,0,,夜斗！
+Dialogue: 0,0:14:16.87,0:14:18.23,Default,NTP,0,0,0,,蠃蚌要过来了
+Dialogue: 0,0:14:19.77,0:14:22.56,Default,NTP,0,0,0,,夜斗 夜斗 夜斗！
+Dialogue: 0,0:14:27.46,0:14:28.80,Default,NTP,0,0,0,,好香啊…
+Dialogue: 0,0:14:29.69,0:14:32.11,Default,NTP,0,0,0,,好像有在哪里闻到过
+Dialogue: 0,0:14:35.42,0:14:36.55,Default,NTP,0,0,0,,是我…
+Dialogue: 0,0:14:38.02,0:14:39.49,Default,NTP,0,0,0,,喜欢的香味
+Dialogue: 0,0:14:52.11,0:14:54.22,Default,NTP,0,0,0,,别再…哭了
+Dialogue: 0,0:14:56.15,0:14:56.87,Default,NTP,0,0,0,,夜斗
+Dialogue: 0,0:15:02.78,0:15:04.67,Default,NTP,0,0,0,,日…日和
+Dialogue: 0,0:15:08.14,0:15:10.99,Default,NTP,0,0,0,,日和 日和！
+Dialogue: 0,0:15:12.28,0:15:14.00,Default,NTP,0,0,0,,日和 日和！
+Dialogue: 0,0:15:14.75,0:15:16.54,Default,NTP,0,0,0,,日和！
+Dialogue: 0,0:15:16.76,0:15:17.53,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:15:17.54,0:15:18.98,Default,NTP,0,0,0,,什什…什么！
+Dialogue: 0,0:15:20.23,0:15:25.59,Default,NTP,0,0,0,,Jungle Sobut！
+Dialogue: 0,0:15:32.12,0:15:34.50,Default,NTP,0,0,0,,竟然自己解除了我施下的术
+Dialogue: 0,0:15:35.69,0:15:37.82,Default,NTP,0,0,0,,居然把记忆的盖子打开了
+Dialogue: 0,0:15:38.76,0:15:39.72,Default,NTP,0,0,0,,那孩子…
+Dialogue: 0,0:15:41.73,0:15:44.63,Default,NTP,0,0,0,,不知廉耻！你在干什么啊夜斗
+Dialogue: 0,0:15:44.98,0:15:45.89,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:15:46.65,0:15:48.82,Default,NTP,0,0,0,,你刚才…叫我夜斗
+Dialogue: 0,0:15:50.96,0:15:53.89,Default,NTP,0,0,0,,日和的记忆…恢复了！
+Dialogue: 0,0:15:54.50,0:15:57.09,Default,NTP,0,0,0,,我…为什么…
+Dialogue: 0,0:15:59.27,0:16:00.06,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:16:08.34,0:16:09.22,Default,NTP,0,0,0,,为什么
+Dialogue: 0,0:16:10.11,0:16:12.24,Default,NTP,0,0,0,,为什么你不变回过去的自己？
+Dialogue: 0,0:16:13.49,0:16:15.18,Default,NTP,0,0,0,,吾辈同为祸津神
+Dialogue: 0,0:16:15.54,0:16:18.50,Default,NTP,0,0,0,,接受卑劣不净之愿 以人的欲望和憎恨为食
+Dialogue: 0,0:16:18.50,0:16:19.46,Default,NTP,0,0,0,,谁管你啊
+Dialogue: 0,0:16:19.91,0:16:23.04,Default,NTP,0,0,0,,少啰嗦那些不能当饭吃的陈芝麻烂谷子的事
+Dialogue: 0,0:16:23.28,0:16:24.57,Default,NTP,0,0,0,,快放开日和
+Dialogue: 0,0:16:27.77,0:16:28.97,Default,NTP,0,0,0,,是你吗
+Dialogue: 0,0:16:30.69,0:16:33.04,Default,NTP,0,0,0,,是因为你吗
+Dialogue: 0,0:16:34.50,0:16:35.92,Default,NTP,0,0,0,,区区半妖
+Dialogue: 0,0:16:37.11,0:16:39.86,Default,NTP,0,0,0,,我要拿你做我力量的祭品
+Dialogue: 0,0:16:41.31,0:16:42.16,Default,NTP,0,0,0,,雪器
+Dialogue: 0,0:16:45.41,0:16:46.55,Default,NTP,0,0,0,,要砍了哦 雪音
+Dialogue: 0,0:16:47.51,0:16:49.19,Default,NTP,0,0,0,,但是从这里砍的话 日和也会…
+Dialogue: 0,0:16:49.20,0:16:50.50,Default,NTP,0,0,0,,和境界同样道理
+Dialogue: 0,0:16:51.36,0:16:54.85,Default,NTP,0,0,0,,蠃蚌现在吸收时化 与妖同化了
+Dialogue: 0,0:16:55.29,0:16:57.56,Default,NTP,0,0,0,,斩到什么程度 让哪个存活
+Dialogue: 0,0:16:57.70,0:16:58.69,Default,NTP,0,0,0,,都由你自己来划分
+Dialogue: 0,0:16:59.28,0:17:00.15,Default,NTP,0,0,0,,由我？
+Dialogue: 0,0:17:06.18,0:17:07.49,Default,NTP,0,0,0,,拜托了雪音
+Dialogue: 0,0:17:09.72,0:17:12.12,Default,NTP,0,0,0,,我们两个的话 一定做得到
+Dialogue: 0,0:17:16.36,0:17:18.44,Default,NTP,0,0,0,,丰苇原之中津中国
+Dialogue: 0,0:17:18.77,0:17:20.93,Default,NTP,0,0,0,,于此荒乱骚动之物
+Dialogue: 0,0:17:21.40,0:17:23.53,Default,NTP,0,0,0,,吾神夜斗降临于此
+Dialogue: 0,0:17:23.78,0:17:26.00,Default,NTP,0,0,0,,汝等臣服雪器之威
+Dialogue: 0,0:17:26.17,0:17:29.95,Default,NTP,0,0,0,,清除诸等污秽障壁
+Dialogue: 0,0:17:38.65,0:17:39.40,Default,NTP,0,0,0,,斩
+Dialogue: 0,0:18:06.74,0:18:07.60,Default,NTP,0,0,0,,夜斗
+Dialogue: 0,0:18:07.63,0:18:08.26,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:18:09.48,0:18:10.24,Default,NTP,0,0,0,,没事吧
+Dialogue: 0,0:18:14.13,0:18:14.91,Default,NTP,0,0,0,,回去吧
+Dialogue: 0,0:18:18.31,0:18:21.81,Default,NTP,0,0,0,,赶紧 赶快回去吧 夜斗
+Dialogue: 0,0:18:23.67,0:18:24.79,Default,NTP,0,0,0,,夜斗…
+Dialogue: 0,0:18:27.86,0:18:29.10,Default,NTP,0,0,0,,你的愿望
+Dialogue: 0,0:18:30.77,0:18:31.73,Default,NTP,0,0,0,,夜斗…
+Dialogue: 0,0:18:32.29,0:18:33.93,Default,NTP,0,0,0,,我确实收到了
+Dialogue: 0,0:18:36.15,0:18:38.43,Default,NTP,0,0,0,,夜斗神
+Dialogue: 0,0:18:47.43,0:18:49.71,Default,NTP,0,0,0,,夜斗…神…
+Dialogue: 0,0:18:53.54,0:18:54.42,Default,NTP,0,0,0,,他的脸…
+Dialogue: 0,0:18:54.86,0:18:55.92,Default,NTP,0,0,0,,果然如此啊
+Dialogue: 0,0:18:56.96,0:18:59.68,Default,NTP,0,0,0,,靠咒术强撑着这副身体吗
+Dialogue: 0,0:19:00.30,0:19:01.04,Default,NTP,0,0,0,,为什么
+Dialogue: 0,0:19:02.63,0:19:05.28,Default,NTP,0,0,0,,不论多少次实现他们的愿望
+Dialogue: 0,0:19:05.96,0:19:11.81,Default,NTP,0,0,0,,人们还是会畏惧 厌弃 忘却祸津神
+Dialogue: 0,0:19:12.84,0:19:16.82,Default,NTP,0,0,0,,无论善恶 人心善变
+Dialogue: 0,0:19:17.13,0:19:18.81,Default,NTP,0,0,0,,这就是真理
+Dialogue: 0,0:19:19.19,0:19:22.72,Default,NTP,0,0,0,,被忘却所抹杀便是吾等的宿命
+Dialogue: 0,0:19:24.65,0:19:28.67,Default,NTP,0,0,0,,但是 当吾从五百年的沉睡中觉醒之时
+Dialogue: 0,0:19:28.69,0:19:29.92,Default,NTP,0,0,0,,便察觉到了
+Dialogue: 0,0:19:30.84,0:19:32.56,Default,NTP,0,0,0,,与其让不相识的人动手
+Dialogue: 0,0:19:32.58,0:19:35.77,Default,NTP,0,0,0,,不如让吾所知之人来了断
+Dialogue: 0,0:19:37.18,0:19:38.75,Default,NTP,0,0,0,,真会给人添麻烦啊
+Dialogue: 0,0:19:39.85,0:19:42.65,Default,NTP,0,0,0,,我先走了 夜斗神
+Dialogue: 0,0:19:44.41,0:19:48.20,Default,NTP,0,0,0,,和吾辈拥有同样命运的神明啊
+Dialogue: 0,0:19:52.39,0:19:54.07,Default,NTP,0,0,0,,我和你不一样
+Dialogue: 0,0:20:02.21,0:20:03.84,Default,NTP,0,0,0,,一位神…
+Dialogue: 0,0:20:06.95,0:20:08.82,Default,NTP,0,0,0,,消失了…吗
+Dialogue: 0,0:20:17.41,0:20:19.07,Default,NTP,0,0,0,,失败了啊
+Dialogue: 0,0:20:19.85,0:20:22.32,Default,NTP,0,0,0,,得赶紧回去禀报父亲大人了呢
+Dialogue: 0,0:20:24.68,0:20:26.31,Default,NTP,0,0,0,,你真的全都记起来了吗
+Dialogue: 0,0:20:26.65,0:20:28.36,Default,NTP,0,0,0,,我 还有夜斗的事
+Dialogue: 0,0:20:28.56,0:20:29.15,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:20:31.66,0:20:35.06,Default,NTP,0,0,0,,不过 为什么突然就恢复记忆了呢
+Dialogue: 0,0:20:36.33,0:20:39.16,Default,NTP,0,0,0,,那是因为夜斗的…味…
+Dialogue: 0,0:20:40.25,0:20:41.00,Default,NTP,0,0,0,,怎么了吗
+Dialogue: 0,0:20:42.18,0:20:45.56,Default,NTP,0,0,0,,啊 没什么 没什么
+Dialogue: 0,0:20:45.61,0:20:48.29,Default,NTP,0,0,0,,为什么呢 我不记得了呢
+Dialogue: 0,0:20:51.98,0:20:52.72,Default,NTP,0,0,0,,夜斗？
+Dialogue: 0,0:20:54.80,0:20:55.50,Default,NTP,0,0,0,,日和
+Dialogue: 0,0:20:56.05,0:20:57.56,Default,NTP,0,0,0,,怎么了 这么严肃
+Dialogue: 0,0:21:00.73,0:21:01.59,Default,NTP,0,0,0,,你…
+Dialogue: 0,0:21:06.20,0:21:08.57,Default,NTP,0,0,0,,你最好还是和我们断缘吧
+Dialogue: 0,0:21:09.37,0:21:11.42,Default,NTP,0,0,0,,这样你才能更幸福地生活
+Dialogue: 0,0:21:12.82,0:21:13.21,Default,NTP,0,0,0,,所以…
+Dialogue: 0,0:21:13.22,0:21:14.55,Default,NTP,0,0,0,,等…喂 夜斗
+Dialogue: 0,0:21:14.57,0:21:15.76,Default,NTP,0,0,0,,我拒绝
+Dialogue: 0,0:21:18.17,0:21:21.62,Default,NTP,0,0,0,,我不想斩断和夜斗你们之间的缘
+Dialogue: 0,0:21:27.20,0:21:32.11,Default,NTP,0,0,0,,哎！小日和你说了这样的话啊
+Dialogue: 0,0:21:32.21,0:21:33.66,Default,NTP,0,0,0,,不过为什么呢
+Dialogue: 0,0:21:33.74,0:21:36.37,Default,NTP,0,0,0,,肯定又是在莫名其妙地逞强吧
+Dialogue: 0,0:21:36.39,0:21:37.66,Default,NTP,0,0,0,,才不是呢
+Dialogue: 0,0:21:38.19,0:21:42.49,Default,NTP,0,0,0,,我 今后也想一直和你们在一起
+Dialogue: 0,0:21:44.67,0:21:47.10,Default,NTP,0,0,0,,但是你却突然说让我断缘什么的
+Dialogue: 0,0:21:48.08,0:21:49.94,Default,NTP,0,0,0,,小日和 好主动！
+Dialogue: 0,0:21:50.65,0:21:52.81,Default,NTP,0,0,0,,酒 喝喜酒
+Dialogue: 0,0:21:54.02,0:21:57.54,Default,NTP,0,0,0,,想在一起不是那种奇怪的意思啦
+Dialogue: 0,0:22:02.32,0:22:04.81,Default,NTP,0,0,0,,你的愿望 我会实现的
+Dialogue: 0,0:22:05.82,0:22:06.46,Default,NTP,0,0,0,,给我五円
+Dialogue: 0,0:22:14.09,0:22:18.07,Default,NTP,0,0,0,,你的愿望 我确实收到了
+Dialogue: 0,0:22:19.48,0:22:20.46,Default,NTP,0,0,0,,一岐日和
+Dialogue: 0,0:22:21.12,0:22:23.10,Default,NTP,0,0,0,,愿你我永不失此缘
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+

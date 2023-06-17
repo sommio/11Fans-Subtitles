@@ -1,0 +1,455 @@
+# VobSub index file, v7 (do not modify this line!)
+# 
+# To repair desyncronization, you can insert gaps this way:
+# (it usually happens after vob id changes)
+# 
+#	 delay: [sign]hh:mm:ss:ms
+# 
+# Where:
+#	 [sign]: +, - (optional)
+#	 hh: hours (0 <= hh)
+#	 mm/ss: minutes/seconds (0 <= mm/ss <= 59)
+#	 ms: milliseconds (0 <= ms <= 999)
+# 
+#	 Note: You can't position a sub before the previous with a negative value.
+# 
+# You can also modify timestamps or delete a few subs you don't like.
+# Just make sure they stay in increasing order.
+
+
+# Settings
+
+# Original frame size
+size: 720x480
+
+# Origin, relative to the upper-left corner, can be overloaded by aligment
+org: 0, 0
+
+# Image scaling (hor,ver), origin is at the upper-left corner or at the alignment coord (x, y)
+scale: 100%, 100%
+
+# Alpha blending
+alpha: 100%
+
+# Smoothing for very blocky images (use OLD for no filtering)
+smooth: OFF
+
+# In millisecs
+fadein/out: 50, 50
+
+# Force subtitle placement relative to (org.x, org.y)
+align: OFF at LEFT TOP
+
+# For correcting non-progressive desync. (in millisecs or hh:mm:ss:ms)
+# Note: Not effective in DirectVobSub, use "delay: ... " instead.
+time offset: 0
+
+# ON: displays only forced subtitles, OFF: shows everything
+forced subs: OFF
+
+# The original palette of the DVD
+palette: 000000, 1f1f1f, ffffff, e63f07, 7e7e7e, bebebe, 14bef3, ea12eb, faff1a, 000070, 067506, 731f03, 095f78, 750975, 7c950b, ffffff
+
+# Custom colors (transp idxs and the four colors)
+custom colors: OFF, tridx: 0000, colors: 000008, 300030, 000030, 942af8
+
+# Language index in use
+langidx: 0
+
+# Chinese
+id: zh, index: 0
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: Chinese
+# Vob/Cell ID: 1, 1 (PTS: 0)
+timestamp: 00:00:02:936, filepos: 000000000
+timestamp: 00:00:08:708, filepos: 000001000
+timestamp: 00:00:14:014, filepos: 000002000
+timestamp: 00:00:19:853, filepos: 000003000
+timestamp: 00:00:47:881, filepos: 000004000
+timestamp: 00:01:00:927, filepos: 000005800
+timestamp: 00:01:06:099, filepos: 000006800
+timestamp: 00:01:18:144, filepos: 000008000
+# Vob/Cell ID: 1, 2 (PTS: 90023)
+timestamp: 00:02:41:794, filepos: 000009000
+timestamp: 00:02:56:042, filepos: 00000a000
+timestamp: 00:02:57:410, filepos: 00000a800
+timestamp: 00:03:02:148, filepos: 00000c000
+timestamp: 00:03:07:353, filepos: 00000d000
+timestamp: 00:03:09:689, filepos: 00000e000
+timestamp: 00:03:12:759, filepos: 00000f800
+timestamp: 00:03:14:194, filepos: 000010800
+timestamp: 00:03:16:930, filepos: 000012000
+timestamp: 00:03:19:165, filepos: 000013000
+timestamp: 00:03:20:433, filepos: 000013800
+timestamp: 00:03:22:402, filepos: 000014800
+timestamp: 00:03:23:503, filepos: 000015000
+timestamp: 00:03:31:077, filepos: 000016800
+timestamp: 00:03:43:289, filepos: 000017800
+timestamp: 00:03:49:262, filepos: 000018800
+timestamp: 00:03:52:165, filepos: 000019800
+timestamp: 00:03:54:200, filepos: 00001a800
+timestamp: 00:03:58:671, filepos: 00001c000
+timestamp: 00:04:01:641, filepos: 00001d000
+timestamp: 00:04:07:981, filepos: 00001e800
+timestamp: 00:04:10:250, filepos: 00001f800
+timestamp: 00:04:11:317, filepos: 000020000
+timestamp: 00:04:14:187, filepos: 000021000
+timestamp: 00:04:17:790, filepos: 000022000
+timestamp: 00:04:20:360, filepos: 000023000
+timestamp: 00:04:24:864, filepos: 000024800
+timestamp: 00:04:28:568, filepos: 000026000
+timestamp: 00:04:32:071, filepos: 000027800
+timestamp: 00:04:32:972, filepos: 000028000
+timestamp: 00:04:35:174, filepos: 000029000
+timestamp: 00:04:37:477, filepos: 00002a800
+timestamp: 00:04:40:280, filepos: 00002c000
+timestamp: 00:04:43:016, filepos: 00002d800
+timestamp: 00:04:45:752, filepos: 00002f000
+timestamp: 00:04:47:987, filepos: 000030000
+timestamp: 00:04:51:424, filepos: 000031000
+timestamp: 00:04:57:997, filepos: 000032800
+timestamp: 00:05:01:934, filepos: 000034000
+timestamp: 00:05:04:804, filepos: 000035000
+timestamp: 00:05:06:939, filepos: 000036000
+timestamp: 00:05:10:510, filepos: 000037800
+timestamp: 00:05:18:017, filepos: 000038800
+timestamp: 00:05:21:954, filepos: 000039800
+timestamp: 00:05:23:256, filepos: 00003a800
+timestamp: 00:05:24:824, filepos: 00003b000
+timestamp: 00:05:34:634, filepos: 00003c000
+timestamp: 00:05:37:503, filepos: 00003d000
+timestamp: 00:05:39:972, filepos: 00003e000
+timestamp: 00:05:42:408, filepos: 00003f800
+timestamp: 00:05:45:678, filepos: 000040800
+timestamp: 00:05:47:313, filepos: 000041800
+timestamp: 00:05:50:316, filepos: 000042800
+timestamp: 00:05:52:385, filepos: 000043800
+timestamp: 00:05:55:088, filepos: 000044800
+timestamp: 00:05:55:888, filepos: 000045800
+timestamp: 00:05:58:291, filepos: 000047000
+timestamp: 00:06:01:060, filepos: 000048000
+timestamp: 00:06:04:464, filepos: 000049800
+timestamp: 00:06:05:898, filepos: 00004a000
+timestamp: 00:06:08:434, filepos: 00004b000
+timestamp: 00:06:11:437, filepos: 00004c000
+timestamp: 00:06:15:942, filepos: 00004d000
+timestamp: 00:06:17:643, filepos: 00004e000
+timestamp: 00:06:19:746, filepos: 00004f000
+timestamp: 00:06:21:881, filepos: 000050000
+timestamp: 00:06:24:417, filepos: 000050800
+timestamp: 00:06:25:952, filepos: 000051800
+timestamp: 00:06:27:653, filepos: 000052800
+timestamp: 00:06:30:556, filepos: 000054000
+timestamp: 00:06:32:458, filepos: 000054800
+timestamp: 00:06:38:331, filepos: 000056000
+timestamp: 00:06:44:337, filepos: 000058000
+timestamp: 00:06:47:840, filepos: 000059000
+timestamp: 00:06:56:349, filepos: 00005a000
+timestamp: 00:06:57:450, filepos: 00005a800
+timestamp: 00:06:58:217, filepos: 00005b000
+timestamp: 00:07:00:553, filepos: 00005c000
+timestamp: 00:07:03:589, filepos: 00005d800
+timestamp: 00:07:07:593, filepos: 00005f000
+timestamp: 00:07:09:562, filepos: 000060000
+timestamp: 00:07:14:100, filepos: 000061000
+timestamp: 00:07:18:371, filepos: 000062800
+timestamp: 00:07:19:305, filepos: 000063800
+timestamp: 00:07:23:910, filepos: 000065000
+timestamp: 00:07:25:845, filepos: 000066000
+timestamp: 00:07:28:281, filepos: 000067800
+timestamp: 00:07:30:917, filepos: 000068800
+timestamp: 00:07:36:622, filepos: 00006a000
+timestamp: 00:07:37:824, filepos: 00006b000
+timestamp: 00:07:40:860, filepos: 00006c000
+timestamp: 00:07:44:831, filepos: 00006d000
+timestamp: 00:07:48:267, filepos: 00006e800
+timestamp: 00:07:54:907, filepos: 000070000
+timestamp: 00:07:56:843, filepos: 000070800
+timestamp: 00:08:07:053, filepos: 000071800
+timestamp: 00:08:09:255, filepos: 000072800
+timestamp: 00:08:24:103, filepos: 000073800
+timestamp: 00:08:27:173, filepos: 000074800
+timestamp: 00:08:28:541, filepos: 000075800
+timestamp: 00:08:30:576, filepos: 000076800
+timestamp: 00:08:33:513, filepos: 000077800
+timestamp: 00:08:36:082, filepos: 000078000
+timestamp: 00:08:38:084, filepos: 000079000
+timestamp: 00:08:40:019, filepos: 00007a000
+timestamp: 00:08:53:199, filepos: 00007b000
+timestamp: 00:08:55:101, filepos: 00007c000
+timestamp: 00:08:56:869, filepos: 00007d000
+timestamp: 00:09:08:080, filepos: 00007e000
+timestamp: 00:09:13:519, filepos: 00007f800
+timestamp: 00:09:15:288, filepos: 000080800
+timestamp: 00:09:18:190, filepos: 000081800
+timestamp: 00:09:19:425, filepos: 000082000
+timestamp: 00:09:24:130, filepos: 000083800
+timestamp: 00:09:28:134, filepos: 000084800
+timestamp: 00:09:30:970, filepos: 000085800
+timestamp: 00:09:33:606, filepos: 000086800
+timestamp: 00:09:37:009, filepos: 000088000
+timestamp: 00:09:40:746, filepos: 000089000
+timestamp: 00:09:42:949, filepos: 00008a000
+timestamp: 00:09:47:186, filepos: 00008c000
+timestamp: 00:09:48:955, filepos: 00008c800
+timestamp: 00:09:54:293, filepos: 00008d800
+timestamp: 00:09:57:363, filepos: 00008f000
+timestamp: 00:09:59:799, filepos: 000090800
+timestamp: 00:10:01:300, filepos: 000091800
+timestamp: 00:10:05:137, filepos: 000092800
+timestamp: 00:10:09:542, filepos: 000094000
+timestamp: 00:10:11:544, filepos: 000095000
+timestamp: 00:10:14:880, filepos: 000096000
+timestamp: 00:10:18:751, filepos: 000097800
+timestamp: 00:10:20:786, filepos: 000098800
+timestamp: 00:10:24:523, filepos: 00009a000
+timestamp: 00:10:26:692, filepos: 00009b800
+timestamp: 00:10:28:227, filepos: 00009c800
+timestamp: 00:10:30:630, filepos: 00009d800
+timestamp: 00:10:31:664, filepos: 00009e800
+timestamp: 00:10:34:333, filepos: 0000a0000
+timestamp: 00:10:38:270, filepos: 0000a1800
+timestamp: 00:10:41:107, filepos: 0000a2800
+timestamp: 00:10:44:744, filepos: 0000a3800
+timestamp: 00:10:49:782, filepos: 0000a5000
+timestamp: 00:10:55:221, filepos: 0000a6000
+timestamp: 00:10:56:989, filepos: 0000a7000
+timestamp: 00:10:59:959, filepos: 0000a8000
+timestamp: 00:11:02:495, filepos: 0000a9000
+# Vob/Cell ID: 1, 3 (PTS: 671004)
+timestamp: 00:11:29:722, filepos: 0000aa000
+timestamp: 00:11:32:358, filepos: 0000ab000
+timestamp: 00:11:35:194, filepos: 0000ac800
+timestamp: 00:12:34:053, filepos: 0000ad800
+timestamp: 00:12:59:378, filepos: 0000ae800
+timestamp: 00:13:01:380, filepos: 0000af800
+timestamp: 00:13:04:450, filepos: 0000b0800
+timestamp: 00:13:14:326, filepos: 0000b1800
+timestamp: 00:13:15:294, filepos: 0000b2000
+timestamp: 00:13:17:329, filepos: 0000b3000
+timestamp: 00:13:19:732, filepos: 0000b4800
+timestamp: 00:13:22:201, filepos: 0000b6000
+timestamp: 00:13:30:709, filepos: 0000b7000
+timestamp: 00:13:32:144, filepos: 0000b8000
+timestamp: 00:13:37:483, filepos: 0000b9800
+timestamp: 00:13:39:485, filepos: 0000ba800
+timestamp: 00:13:46:725, filepos: 0000bb800
+timestamp: 00:13:50:095, filepos: 0000bc800
+timestamp: 00:13:51:664, filepos: 0000bd800
+timestamp: 00:13:53:332, filepos: 0000be800
+timestamp: 00:13:54:333, filepos: 0000bf000
+timestamp: 00:13:56:936, filepos: 0000c0000
+timestamp: 00:13:58:504, filepos: 0000c0800
+timestamp: 00:14:01:807, filepos: 0000c1800
+timestamp: 00:14:06:278, filepos: 0000c3000
+timestamp: 00:14:07:813, filepos: 0000c4000
+timestamp: 00:14:09:715, filepos: 0000c5000
+timestamp: 00:14:13:619, filepos: 0000c6800
+timestamp: 00:14:15:454, filepos: 0000c7800
+timestamp: 00:14:19:358, filepos: 0000c9000
+timestamp: 00:14:21:293, filepos: 0000ca000
+timestamp: 00:14:23:229, filepos: 0000cb000
+timestamp: 00:14:26:031, filepos: 0000cc000
+timestamp: 00:14:29:335, filepos: 0000cd000
+timestamp: 00:14:31:403, filepos: 0000ce000
+timestamp: 00:14:35:474, filepos: 0000cf000
+timestamp: 00:14:38:444, filepos: 0000d0000
+timestamp: 00:14:41:313, filepos: 0000d1800
+timestamp: 00:14:42:047, filepos: 0000d2000
+timestamp: 00:14:42:982, filepos: 0000d2800
+timestamp: 00:14:44:316, filepos: 0000d3000
+timestamp: 00:14:52:291, filepos: 0000d4000
+timestamp: 00:14:54:159, filepos: 0000d5000
+timestamp: 00:14:57:196, filepos: 0000d6800
+timestamp: 00:14:58:530, filepos: 0000d7800
+timestamp: 00:14:59:698, filepos: 0000d8000
+timestamp: 00:15:00:766, filepos: 0000d8800
+timestamp: 00:15:02:167, filepos: 0000d9800
+timestamp: 00:15:05:938, filepos: 0000db000
+timestamp: 00:15:09:675, filepos: 0000dc800
+timestamp: 00:15:12:845, filepos: 0000de000
+timestamp: 00:15:16:515, filepos: 0000df800
+timestamp: 00:15:18:517, filepos: 0000e0800
+timestamp: 00:15:20:419, filepos: 0000e1800
+timestamp: 00:15:23:122, filepos: 0000e3000
+timestamp: 00:15:24:723, filepos: 0000e4000
+timestamp: 00:15:29:695, filepos: 0000e5000
+timestamp: 00:15:30:996, filepos: 0000e6000
+timestamp: 00:15:35:434, filepos: 0000e8000
+timestamp: 00:15:36:435, filepos: 0000e9000
+timestamp: 00:15:43:008, filepos: 0000eb000
+timestamp: 00:15:45:711, filepos: 0000ec000
+timestamp: 00:15:47:012, filepos: 0000ec800
+timestamp: 00:15:48:380, filepos: 0000ed800
+timestamp: 00:15:52:818, filepos: 0000ee800
+timestamp: 00:16:02:227, filepos: 0000ef800
+timestamp: 00:16:03:696, filepos: 0000f0800
+timestamp: 00:16:05:664, filepos: 0000f1800
+timestamp: 00:16:07:599, filepos: 0000f2800
+timestamp: 00:16:09:935, filepos: 0000f3800
+timestamp: 00:16:12:438, filepos: 0000f4800
+timestamp: 00:16:14:173, filepos: 0000f5800
+timestamp: 00:16:18:444, filepos: 0000f6800
+timestamp: 00:16:20:713, filepos: 0000f7800
+timestamp: 00:16:22:481, filepos: 0000f8800
+timestamp: 00:16:27:086, filepos: 0000f9800
+timestamp: 00:16:28:487, filepos: 0000fa800
+timestamp: 00:16:31:256, filepos: 0000fb800
+timestamp: 00:16:34:293, filepos: 0000fc800
+timestamp: 00:16:38:097, filepos: 0000fd800
+timestamp: 00:16:41:900, filepos: 0000fe800
+timestamp: 00:16:47:206, filepos: 0000ff800
+timestamp: 00:16:49:174, filepos: 000100800
+timestamp: 00:16:55:047, filepos: 000101800
+timestamp: 00:16:57:383, filepos: 000102800
+timestamp: 00:16:59:952, filepos: 000104000
+timestamp: 00:17:01:320, filepos: 000105000
+timestamp: 00:17:03:188, filepos: 000106000
+timestamp: 00:17:06:425, filepos: 000107000
+timestamp: 00:17:11:697, filepos: 000108800
+timestamp: 00:17:13:966, filepos: 000109000
+timestamp: 00:17:15:968, filepos: 00010a000
+timestamp: 00:17:33:052, filepos: 00010b000
+timestamp: 00:17:35:954, filepos: 00010b800
+timestamp: 00:17:36:922, filepos: 00010c000
+timestamp: 00:17:38:257, filepos: 00010c800
+timestamp: 00:17:40:859, filepos: 00010d800
+timestamp: 00:17:41:660, filepos: 00010e000
+timestamp: 00:17:42:594, filepos: 00010e800
+timestamp: 00:17:44:797, filepos: 00010f800
+timestamp: 00:17:46:565, filepos: 000110800
+timestamp: 00:17:49:201, filepos: 000111800
+timestamp: 00:17:52:905, filepos: 000113000
+timestamp: 00:17:53:839, filepos: 000114000
+timestamp: 00:17:57:109, filepos: 000115800
+timestamp: 00:18:14:960, filepos: 000116800
+timestamp: 00:18:16:695, filepos: 000117800
+timestamp: 00:18:31:743, filepos: 000118800
+timestamp: 00:18:32:978, filepos: 000119800
+timestamp: 00:18:35:280, filepos: 00011a800
+timestamp: 00:18:36:815, filepos: 00011b800
+timestamp: 00:18:41:320, filepos: 00011c800
+timestamp: 00:18:44:923, filepos: 00011e000
+timestamp: 00:18:48:127, filepos: 00011e800
+timestamp: 00:18:50:095, filepos: 00011f000
+timestamp: 00:18:58:170, filepos: 000120000
+timestamp: 00:18:59:304, filepos: 000120800
+timestamp: 00:19:01:240, filepos: 000121000
+timestamp: 00:19:02:741, filepos: 000122000
+timestamp: 00:19:04:176, filepos: 000123000
+timestamp: 00:19:08:981, filepos: 000123800
+timestamp: 00:19:10:449, filepos: 000124000
+timestamp: 00:19:11:750, filepos: 000125000
+timestamp: 00:19:14:953, filepos: 000126000
+timestamp: 00:19:20:526, filepos: 000127000
+timestamp: 00:19:21:493, filepos: 000127800
+timestamp: 00:19:22:828, filepos: 000128800
+timestamp: 00:19:25:831, filepos: 000129800
+timestamp: 00:19:29:368, filepos: 00012a800
+timestamp: 00:19:31:637, filepos: 00012b800
+timestamp: 00:19:40:812, filepos: 00012c800
+timestamp: 00:19:42:748, filepos: 00012d000
+timestamp: 00:19:48:754, filepos: 00012e000
+timestamp: 00:20:04:670, filepos: 00012f000
+timestamp: 00:20:06:805, filepos: 000130000
+timestamp: 00:20:08:240, filepos: 000130800
+timestamp: 00:20:11:610, filepos: 000132000
+timestamp: 00:20:17:516, filepos: 000133800
+timestamp: 00:20:20:319, filepos: 000134800
+timestamp: 00:20:26:692, filepos: 000136000
+timestamp: 00:20:28:860, filepos: 000137000
+timestamp: 00:20:35:801, filepos: 000138000
+timestamp: 00:20:37:402, filepos: 000139000
+timestamp: 00:20:42:140, filepos: 00013a800
+timestamp: 00:20:43:675, filepos: 00013b800
+timestamp: 00:20:47:813, filepos: 00013d000
+timestamp: 00:20:49:715, filepos: 00013e000
+timestamp: 00:20:53:619, filepos: 00013f000
+timestamp: 00:20:57:055, filepos: 000140000
+timestamp: 00:20:59:024, filepos: 000141000
+timestamp: 00:21:02:527, filepos: 000142000
+timestamp: 00:21:06:565, filepos: 000143800
+timestamp: 00:21:12:771, filepos: 000144800
+timestamp: 00:21:13:905, filepos: 000145000
+timestamp: 00:21:17:075, filepos: 000146000
+timestamp: 00:21:20:646, filepos: 000147000
+timestamp: 00:21:21:847, filepos: 000147800
+timestamp: 00:21:24:149, filepos: 000149000
+timestamp: 00:21:29:554, filepos: 00014a800
+timestamp: 00:21:31:056, filepos: 00014b000
+timestamp: 00:21:43:101, filepos: 00014c800
+timestamp: 00:21:44:903, filepos: 00014d800
+timestamp: 00:21:47:039, filepos: 00014e800
+timestamp: 00:21:51:109, filepos: 000150000
+timestamp: 00:21:52:511, filepos: 000150800
+timestamp: 00:21:54:346, filepos: 000151800
+timestamp: 00:21:55:547, filepos: 000152000
+timestamp: 00:21:57:049, filepos: 000153000
+timestamp: 00:21:59:017, filepos: 000154000
+timestamp: 00:22:02:354, filepos: 000155000
+timestamp: 00:22:04:923, filepos: 000155800
+timestamp: 00:22:06:758, filepos: 000156800
+timestamp: 00:22:07:793, filepos: 000157000
+timestamp: 00:22:09:394, filepos: 000158000
+timestamp: 00:22:11:263, filepos: 000159000
+timestamp: 00:22:15:934, filepos: 00015a000
+timestamp: 00:22:17:669, filepos: 00015b000
+timestamp: 00:22:19:137, filepos: 00015c000
+timestamp: 00:22:21:640, filepos: 00015d000
+timestamp: 00:22:24:910, filepos: 00015e000
+timestamp: 00:22:28:880, filepos: 00015f000
+timestamp: 00:22:30:615, filepos: 00015f800
+timestamp: 00:22:32:484, filepos: 000160800
+timestamp: 00:22:33:485, filepos: 000161000
+timestamp: 00:22:35:153, filepos: 000162000
+timestamp: 00:22:40:158, filepos: 000163000
+timestamp: 00:22:43:729, filepos: 000164800
+timestamp: 00:22:47:766, filepos: 000166000
+timestamp: 00:22:49:368, filepos: 000166800
+timestamp: 00:22:56:475, filepos: 000167800
+# Vob/Cell ID: 1, 4 (PTS: 1380046)
+timestamp: 00:23:16:595, filepos: 000168000
+timestamp: 00:23:20:899, filepos: 000169000
+timestamp: 00:23:23:835, filepos: 00016a000
+timestamp: 00:23:26:071, filepos: 00016b000
+timestamp: 00:23:28:974, filepos: 00016c000
+timestamp: 00:23:32:878, filepos: 00016d000
+timestamp: 00:23:36:548, filepos: 00016e000
+timestamp: 00:23:40:886, filepos: 00016f000
+timestamp: 00:23:43:955, filepos: 000170000
+timestamp: 00:23:46:124, filepos: 000171000
+timestamp: 00:23:49:161, filepos: 000172000
+timestamp: 00:23:52:898, filepos: 000173000
+timestamp: 00:23:57:235, filepos: 000174000
+timestamp: 00:24:01:139, filepos: 000175000
+timestamp: 00:24:05:143, filepos: 000176000
+timestamp: 00:24:07:913, filepos: 000177000
+timestamp: 00:24:13:518, filepos: 000178800
+# Vob/Cell ID: 1, 5 (PTS: 1470069)
+timestamp: 00:24:31:102, filepos: 000179800
+timestamp: 00:24:37:509, filepos: 00017a800
+timestamp: 00:24:43:281, filepos: 00017b000
+timestamp: 00:24:45:817, filepos: 00017b800
+timestamp: 00:24:51:523, filepos: 00017c800
+timestamp: 00:24:52:357, filepos: 00017d000
+timestamp: 00:24:54:426, filepos: 00017e000
+timestamp: 00:24:57:662, filepos: 00017f000
+timestamp: 00:25:04:436, filepos: 00017f800
+timestamp: 00:25:05:437, filepos: 000180000
+timestamp: 00:25:07:272, filepos: 000181000
+timestamp: 00:25:11:776, filepos: 000182000
+timestamp: 00:25:16:181, filepos: 000183800
+timestamp: 00:25:19:351, filepos: 000184800
+timestamp: 00:25:20:819, filepos: 000185000
+timestamp: 00:25:26:124, filepos: 000187000
+timestamp: 00:25:28:159, filepos: 000188000
+timestamp: 00:25:31:296, filepos: 000189800
+timestamp: 00:25:32:597, filepos: 00018a000
+timestamp: 00:25:34:165, filepos: 00018b000
+timestamp: 00:25:36:535, filepos: 00018c000
+timestamp: 00:25:37:502, filepos: 00018d000
+timestamp: 00:25:41:172, filepos: 00018e800
+timestamp: 00:25:44:543, filepos: 00018f800
+timestamp: 00:25:47:412, filepos: 000190800
+timestamp: 00:26:01:726, filepos: 000191800
+

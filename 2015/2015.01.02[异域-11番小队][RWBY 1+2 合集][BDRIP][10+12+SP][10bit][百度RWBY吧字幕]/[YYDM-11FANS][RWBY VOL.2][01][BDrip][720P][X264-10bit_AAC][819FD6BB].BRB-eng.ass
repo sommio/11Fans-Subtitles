@@ -1,0 +1,272 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Microsoft YaHei,56,&H00ffffff,&H000000ff,&H0008009f,&H006757b7,0,0,0,0,100,100,0,0.00,1,2,1,2,10,10,40,1
+Style: Note,Microsoft YaHei,74,&H00ffffff,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,2,2,8,10,10,40,1
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: BRB sign,Microsoft YaHei,133,&H002900ad,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,0,0,8,34,34,34,1
+Style: Staff,Microsoft YaHei,34,&H00ffffff,&H000000ff,&H00000000,&H000000ff,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,40,1
+Style: D1,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,7,40,10,30,1
+Style: D2,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,3,10,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:18.34,0:00:19.17,D,,0000,0000,0000,,Excuse me
+Dialogue: 0,0:00:19.17,0:00:19.67,D,,0000,0000,0000,,Mmm
+Dialogue: 0,0:00:19.67,0:00:20.51,D,,0000,0000,0000,,sorry
+Dialogue: 0,0:00:21.54,0:00:23.11,D,,0000,0000,0000,,I'm not really from around here
+Dialogue: 0,0:00:25.84,0:00:28.18,D,,0000,0000,0000,,Would you mind pointing me in the direction of the shop?
+Dialogue: 0,0:00:29.74,0:00:30.28,D,,0000,0000,0000,,Mm hmm
+Dialogue: 0,0:00:36.43,0:00:37.69,D,,0000,0000,0000,,I knew you were lost
+Dialogue: 0,0:00:38.26,0:00:39.29,D,,0000,0000,0000,,Mercury
+Dialogue: 0,0:00:39.29,0:00:42.39,D,,0000,0000,0000,,I will seriously pay you to shut up
+Dialogue: 0,0:00:42.39,0:00:43.73,D,,0000,0000,0000,,That's not your money
+Dialogue: 0,0:00:43.73,0:00:47.00,D,,0000,0000,0000,,But it could be yours for five minutes of silence
+Dialogue: 0,0:00:47.00,0:00:48.37,D,,0000,0000,0000,,Mmm....
+Dialogue: 0,0:00:48.37,0:00:49.37,D,,0000,0000,0000,,No deal
+Dialogue: 0,0:00:50.80,0:00:51.80,D,,0000,0000,0000,,Fine
+Dialogue: 0,0:00:53.74,0:00:55.84,D,,0000,0000,0000,,Whatever, you want me
+Dialogue: 0,0:01:05.18,0:01:06.42,D,,0000,0000,0000,,So how much farther?
+Dialogue: 0,0:01:06.42,0:01:07.69,D,,0000,0000,0000,,A few blocks
+Dialogue: 0,0:01:08.12,0:01:10.69,D,,0000,0000,0000,,Ugh....this place is so dull
+Dialogue: 0,0:01:10.69,0:01:12.39,D,,0000,0000,0000,,Eh, I kinda like it
+Dialogue: 0,0:01:12.76,0:01:14.73,D,,0000,0000,0000,,Tall buildings, diverse culture....
+Dialogue: 0,0:01:14.73,0:01:17.36,D,,0000,0000,0000,,And nice dopey people who are easy to pickpocket
+Dialogue: 0,0:01:17.36,0:01:19.07,D,,0000,0000,0000,,That's every city
+Dialogue: 0,0:01:19.07,0:01:21.37,D,,0000,0000,0000,,Oh, Emerald! Master thief!
+Dialogue: 0,0:01:21.37,0:01:22.77,D,,0000,0000,0000,,Please don't take my money
+Dialogue: 0,0:01:22.77,0:01:25.70,D,,0000,0000,0000,,I barely have enough to get by
+Dialogue: 0,0:01:26.40,0:01:27.51,D,,0000,0000,0000,,Hum
+Dialogue: 0,0:01:29.17,0:01:30.44,D,,0000,0000,0000,,You're no fun today
+Dialogue: 0,0:01:43.63,0:01:44.69,D,,0000,0000,0000,,Be right there!
+Dialogue: 0,0:01:47.63,0:01:51.80,D,,0000,0000,0000,,Welcome to 'Tukson's Book Trade, home to every book under the sun'
+Dialogue: 0,0:01:52.43,0:01:54.10,D,,0000,0000,0000,,How may..
+Dialogue: 0,0:01:56.17,0:01:57.40,D,,0000,0000,0000,,How may I help you?
+Dialogue: 0,0:01:57.77,0:01:59.07,D,,0000,0000,0000,,Just browsing
+Dialogue: 0,0:01:59.47,0:02:00.77,D,,0000,0000,0000,,Actually..
+Dialogue: 0,0:02:00.77,0:02:04.11,D,,0000,0000,0000,,I was wondering, do you have any copies of The Thief and The Butcher?
+Dialogue: 0,0:02:04.34,0:02:05.67,D,,0000,0000,0000,,Yes we do
+Dialogue: 0,0:02:05.67,0:02:07.01,D,,0000,0000,0000,,That's great!
+Dialogue: 0,0:02:07.41,0:02:09.58,D,,0000,0000,0000,,Would you..like a copy?
+Dialogue: 0,0:02:09.58,0:02:11.78,D,,0000,0000,0000,,No, just wondering
+Dialogue: 0,0:02:12.72,0:02:16.82,D,,0000,0000,0000,,Oh, oh! What about Violet's Garden? In paperback
+Dialogue: 0,0:02:16.82,0:02:19.56,D,,0000,0000,0000,,He's got it. Hardback too
+Dialogue: 0,0:02:19.56,0:02:22.03,D,,0000,0000,0000,,Ooh, options are nice
+Dialogue: 0,0:02:22.03,0:02:23.86,D,,0000,0000,0000,,Eh, no pictures
+Dialogue: 0,0:02:24.56,0:02:26.83,D,,0000,0000,0000,,Hey! Do you have any comics?
+Dialogue: 0,0:02:26.83,0:02:27.70,D,,0000,0000,0000,,Near the front
+Dialogue: 0,0:02:27.70,0:02:29.37,D,,0000,0000,0000,,Oh, no, wait
+Dialogue: 0,0:02:30.04,0:02:33.67,D,,0000,0000,0000,,What about Third Crusade?
+Dialogue: 0,0:02:34.54,0:02:35.87,D,,0000,0000,0000,,Um..
+Dialogue: 0,0:02:37.44,0:02:38.41,D,,0000,0000,0000,,I..
+Dialogue: 0,0:02:39.04,0:02:41.08,D,,0000,0000,0000,,don't believe we carry that one
+Dialogue: 0,0:02:41.75,0:02:42.58,D,,0000,0000,0000,,Oh..
+Dialogue: 0,0:02:42.58,0:02:44.42,D,,0000,0000,0000,,What was this place called again?
+Dialogue: 0,0:02:44.72,0:02:46.45,D,,0000,0000,0000,,'Tukson's Book Trade'
+Dialogue: 0,0:02:46.45,0:02:47.59,D,,0000,0000,0000,,And..
+Dialogue: 0,0:02:47.59,0:02:48.69,D,,0000,0000,0000,,You're Tukson?
+Dialogue: 0,0:02:48.69,0:02:49.45,D,,0000,0000,0000,,That's right
+Dialogue: 0,0:02:49.45,0:02:50.57,D,,0000,0000,0000,,So then I take it..
+Dialogue: 0,0:02:50.57,0:02:53.02,D,,0000,0000,0000,,that you're the one who came up with the catchphrase?
+Dialogue: 0,0:02:53.02,0:02:53.93,D,,0000,0000,0000,,Yes
+Dialogue: 0,0:02:53.93,0:02:55.56,D,,0000,0000,0000,,And, what was it again?
+Dialogue: 0,0:02:56.66,0:03:00.17,D,,0000,0000,0000,,'Tukson's Book Trade, home to every book under the sun'
+Dialogue: 0,0:03:00.17,0:03:02.73,D,,0000,0000,0000,,Except The Third Crusade
+Dialogue: 0,0:03:02.73,0:03:04.60,D,,0000,0000,0000,,It's just a catchphrase
+Dialogue: 0,0:03:04.60,0:03:06.10,D,,0000,0000,0000,,It's false advertizing!
+Dialogue: 0,0:03:06.10,0:03:09.67,D,,0000,0000,0000,,You shouldn't make a promise you can't keep, Tukson
+Dialogue: 0,0:03:10.18,0:03:12.31,D,,0000,0000,0000,,I hear you're planning on leaving
+Dialogue: 0,0:03:12.94,0:03:15.88,D,,0000,0000,0000,,Moving all the way to Vacuo
+Dialogue: 0,0:03:16.01,0:03:18.95,D,,0000,0000,0000,,Your brothers in the White Fang wouldn't be happy to hear that
+Dialogue: 0,0:03:20.05,0:03:21.49,D,,0000,0000,0000,,And neither are we
+Dialogue: 0,0:03:23.19,0:03:25.12,D,,0000,0000,0000,,You know who we are, don't you?
+Dialogue: 0,0:03:26.14,0:03:27.06,D,,0000,0000,0000,,Yes
+Dialogue: 0,0:03:27.29,0:03:28.99,D,,0000,0000,0000,,And you know why we're here?
+Dialogue: 0,0:03:29.66,0:03:30.76,D,,0000,0000,0000,,Yes
+Dialogue: 0,0:03:33.70,0:03:34.63,D,,0000,0000,0000,,So..
+Dialogue: 0,0:03:35.59,0:03:37.17,D,,0000,0000,0000,,Are you going to fight back?
+Dialogue: 0,0:03:38.99,0:03:39.97,D,,0000,0000,0000,,Yes!
+Dialogue: 0,0:03:53.60,0:03:54.42,D,,0000,0000,0000,,What's with that?
+Dialogue: 0,0:03:55.25,0:03:56.72,D,,0000,0000,0000,,I like the pictures
+Dialogue: 0,0:04:06.16,0:04:07.40,D,,0000,0000,0000,,Whatcha doing?
+Dialogue: 0,0:04:07.77,0:04:08.73,D,,0000,0000,0000,,Nothing
+Dialogue: 0,0:04:08.73,0:04:11.14,D,,0000,0000,0000,,Just going over notes from last semester
+Dialogue: 0,0:04:12.84,0:04:13.84,D,,0000,0000,0000,,Lame
+Dialogue: 0,0:04:20.57,0:04:21.81,D,,0000,0000,0000,,Ahem
+Dialogue: 0,0:04:22.61,0:04:23.78,D,,0000,0000,0000,,Sisters
+Dialogue: 0,0:04:23.78,0:04:24.95,D,,0000,0000,0000,,Friends
+Dialogue: 0,0:04:25.18,0:04:25.98,D,,0000,0000,0000,,Weiss
+Dialogue: 0,0:04:25.98,0:04:27.04,D,,0000,0000,0000,,Hey!
+Dialogue: 0,0:04:27.04,0:04:28.89,D,,0000,0000,0000,,Four score and seven minutes ago
+Dialogue: 0,0:04:28.89,0:04:30.72,D,,0000,0000,0000,,I had a dream
+Dialogue: 0,0:04:30.77,0:04:31.84,D,,0000,0000,0000,,This ought to be good
+Dialogue: 0,0:04:34.00,0:04:38.00,D,,0000,0000,0000,,A dream that one day, the four of us will come together as a team
+Dialogue: 0,0:04:38.00,0:04:40.97,D,,0000,0000,0000,,and have the most fun anyone has ever had
+Dialogue: 0,0:04:40.97,0:04:41.60,D,,0000,0000,0000,,Ever!
+Dialogue: 0,0:04:41.60,0:04:43.03,D,,0000,0000,0000,,Did you steal my binder?
+Dialogue: 0,0:04:43.17,0:04:44.47,D,,0000,0000,0000,,I am not a crook
+Dialogue: 0,0:04:44.47,0:04:45.74,D,,0000,0000,0000,,What're you talking about?
+Dialogue: 0,0:04:45.74,0:04:48.44,D,,0000,0000,0000,,I'm talking about kicking off the semester with a bang!
+Dialogue: 0,0:04:48.44,0:04:51.78,D,,0000,0000,0000,,I always kick my semesters off with a Yang!
+Dialogue: 0,0:04:51.91,0:04:54.68,D,,0000,0000,0000,,Eh? Guys? Am I right?
+Dialogue: 0,0:04:56.48,0:04:58.22,D,,0000,0000,0000,,Look guys, it's been a good two weeks
+Dialogue: 0,0:04:58.22,0:05:01.79,D,,0000,0000,0000,,and between more exchange students arriving and the tournament at the end of the year
+Dialogue: 0,0:05:02.02,0:05:04.19,D,,0000,0000,0000,,Our second semester's going to be great
+Dialogue: 0,0:05:04.19,0:05:06.62,D,,0000,0000,0000,,But classes start back up tomorrow
+Dialogue: 0,0:05:06.62,0:05:10.46,D,,0000,0000,0000,,Which is why I've taken the time to schedule a series of wonderful events for us today
+Dialogue: 0,0:05:10.46,0:05:14.03,D,,0000,0000,0000,,I don't know whether to be proud or scared of what you have in store
+Dialogue: 0,0:05:15.13,0:05:16.03,D,,0000,0000,0000,,I don't know
+Dialogue: 0,0:05:16.70,0:05:18.67,D,,0000,0000,0000,,I....think I might sit this one out
+Dialogue: 0,0:05:18.67,0:05:19.90,D,,0000,0000,0000,,Sit out or not
+Dialogue: 0,0:05:19.90,0:05:23.37,D,,0000,0000,0000,,I think however we spend this last day, we should do it as a team
+Dialogue: 0,0:05:23.51,0:05:24.08,D,,0000,0000,0000,,I got it!
+Dialogue: 0,0:05:24.08,0:05:25.38,D,,0000,0000,0000,,I for one think that..
+Dialogue: 0,0:05:31.25,0:05:32.95,D,,0000,0000,0000,,Hum, man, that's harsh
+Dialogue: 0,0:05:32.95,0:05:34.35,D,,0000,0000,0000,,So then we were fighting side by side
+Dialogue: 0,0:05:34.35,0:05:36.42,D,,0000,0000,0000,,And she was super fast and I threw a banana at the guy
+Dialogue: 0,0:05:36.42,0:05:38.16,D,,0000,0000,0000,,which sounds gross, but it was awesome
+Dialogue: 0,0:05:38.16,0:05:38.91,D,,0000,0000,0000,,Nice!
+Dialogue: 0,0:05:38.91,0:05:39.52,D,,0000,0000,0000,,Right?
+Dialogue: 0,0:05:39.52,0:05:41.83,D,,0000,0000,0000,,And the best part is, she's a Faunus!
+Dialogue: 0,0:05:42.34,0:05:43.66,D,,0000,0000,0000,,But that's a secret, okay?
+Dialogue: 0,0:05:43.66,0:05:44.37,D,,0000,0000,0000,,Got it..
+Dialogue: 0,0:05:44.37,0:05:47.25,D,,0000,0000,0000,,And not a, 'I'm gonna go tell Scarlet the second Sun turns his back secret'
+Dialogue: 0,0:05:47.25,0:05:48.77,D,,0000,0000,0000,,I'm talking secret secret
+Dialogue: 0,0:05:48.77,0:05:50.27,D,,0000,0000,0000,,Whoa, chill out man, okay?
+Dialogue: 0,0:05:50.27,0:05:51.24,D,,0000,0000,0000,,I got it
+Dialogue: 0,0:05:51.57,0:05:52.80,D,,0000,0000,0000,,I got ~ it
+Dialogue: 0,0:05:52.94,0:05:53.81,D,,0000,0000,0000,,You better
+Dialogue: 0,0:05:54.34,0:05:56.34,D,,0000,0000,0000,,I just don't wanna screw this up, you know?
+Dialogue: 0,0:05:56.34,0:05:58.21,D,,0000,0000,0000,,The people here are the coolest!
+Dialogue: 0,0:05:58.21,0:05:59.48,D,,0000,0000,0000,,No offense to you guys
+Dialogue: 0,0:05:59.48,0:06:00.31,D,,0000,0000,0000,,None taken
+Dialogue: 0,0:06:00.75,0:06:01.91,D,,0000,0000,0000,,Okay, they're just in here
+Dialogue: 0,0:06:01.91,0:06:03.34,D,,0000,0000,0000,,I'm really excited for you to meet them
+Dialogue: 0,0:06:03.34,0:06:04.62,D,,0000,0000,0000,,So be cool, okay?
+Dialogue: 0,0:06:05.12,0:06:06.28,D,,0000,0000,0000,,You're gonna be cool, right?
+Dialogue: 0,0:06:06.58,0:06:07.29,D,,0000,0000,0000,,Dude
+Dialogue: 0,0:06:10.39,0:06:11.16,D,,0000,0000,0000,,Good point
+Dialogue: 0,0:06:16.18,0:06:19.06,D,,0000,0000,0000,,A~hahahaha
+Dialogue: 0,0:06:19.06,0:06:22.90,D,,0000,0000,0000,,I'm queen at the castle
+Dialogue: 0,0:06:24.24,0:06:25.47,D,,0000,0000,0000,,Justice will be swift
+Dialogue: 0,0:06:25.47,0:06:26.90,D,,0000,0000,0000,,Justice will be painful
+Dialogue: 0,0:06:27.21,0:06:30.14,D,,0000,0000,0000,,It will be delicious!
+Dialogue: 0,0:06:30.37,0:06:32.54,D,,0000,0000,0000,,Off with their heads
+Dialogue: 0,0:06:38.16,0:06:39.22,D,,0000,0000,0000,,Yang, turkey!
+Dialogue: 0,0:07:53.39,0:07:54.76,D,,0000,0000,0000,,Weiss!
+Dialogue: 0,0:07:54.76,0:07:55.99,D,,0000,0000,0000,,Don't leave me!
+Dialogue: 0,0:07:55.99,0:08:00.26,D,,0000,0000,0000,,No!
+Dialogue: 0,0:09:39.70,0:09:40.83,D,,0000,0000,0000,,I love these guys
+Dialogue: 0,0:10:01.57,0:10:03.55,D,,0000,0000,0000,,Children, please..
+Dialogue: 0,0:10:03.99,0:10:06.62,D,,0000,0000,0000,,Do not play with your food
+Dialogue: 0,0:10:13.59,0:10:14.60,D,,0000,0000,0000,,Let it go
+Dialogue: 0,0:10:16.27,0:10:19.67,D,,0000,0000,0000,,They're supposed to be the defenders of the world
+Dialogue: 0,0:10:19.67,0:10:21.01,D,,0000,0000,0000,,And they will be
+Dialogue: 0,0:10:21.34,0:10:24.14,D,,0000,0000,0000,,But right now they're still children
+Dialogue: 0,0:10:25.44,0:10:27.65,D,,0000,0000,0000,,So why not let them play the part
+Dialogue: 0,0:10:30.35,0:10:31.42,D,,0000,0000,0000,,After all..
+Dialogue: 0,0:10:32.05,0:10:34.52,D,,0000,0000,0000,,It isn't the role they'll have forever
+Dialogue: 0,0:10:48.77,0:10:52.40,D,,0000,0000,0000,,Oh, look! She sent the kids again..
+Dialogue: 0,0:10:53.57,0:10:56.11,D,,0000,0000,0000,,This is turning out just like the divorce
+Dialogue: 0,0:10:57.24,0:10:59.24,D,,0000,0000,0000,,Spare us the thought of be procreating
+Dialogue: 0,0:10:59.24,0:11:01.01,D,,0000,0000,0000,,That was a joke
+Dialogue: 0,0:11:01.01,0:11:03.15,D,,0000,0000,0000,,And this....
+Dialogue: 0,0:11:03.15,0:11:05.42,D,,0000,0000,0000,,Just might tell me where you two have been all day
+Dialogue: 0,0:11:05.42,0:11:06.58,D,,0000,0000,0000,,What!? Agh!
+Dialogue: 0,0:11:06.58,0:11:07.79,D,,0000,0000,0000,,I'm a professional, sweetheart
+Dialogue: 0,0:11:07.79,0:11:10.09,D,,0000,0000,0000,,Pay attention, maybe you'll learn something
+Dialogue: 0,0:11:11.32,0:11:12.96,D,,0000,0000,0000,,Why you have this address?
+Dialogue: 0,0:11:12.96,0:11:14.29,D,,0000,0000,0000,,Wouldn't you like to know?
+Dialogue: 0,0:11:14.29,0:11:15.62,D,,0000,0000,0000,,Yeah, I..I would
+Dialogue: 0,0:11:15.62,0:11:16.99,D,,0000,0000,0000,,Now, where have you been all day?
+Dialogue: 0,0:11:16.99,0:11:19.13,D,,0000,0000,0000,,Cleaning up your problems
+Dialogue: 0,0:11:19.13,0:11:20.39,D,,0000,0000,0000,,One of them, at least
+Dialogue: 0,0:11:20.39,0:11:22.53,D,,0000,0000,0000,,I had that under control
+Dialogue: 0,0:11:22.53,0:11:25.17,D,,0000,0000,0000,,Two packed bags and a ticket out of Vale said otherwise
+Dialogue: 0,0:11:25.17,0:11:26.47,D,,0000,0000,0000,,Listen you little punk
+Dialogue: 0,0:11:26.47,0:11:27.44,D,,0000,0000,0000,,If it were up to me
+Dialogue: 0,0:11:27.44,0:11:30.14,D,,0000,0000,0000,,I would take you and your little street rat friend here and I would..
+Dialogue: 0,0:11:30.14,0:11:32.58,D,,0000,0000,0000,,Do what, Roman?
+Dialogue: 0,0:11:37.82,0:11:39.12,D,,0000,0000,0000,,Hahaha..
+Dialogue: 0,0:11:39.25,0:11:41.45,D,,0000,0000,0000,,I'd, uh..
+Dialogue: 0,0:11:41.45,0:11:42.42,D,,0000,0000,0000,,Not kill them?
+Dialogue: 0,0:11:42.42,0:11:43.25,D,,0000,0000,0000,,Cinder!
+Dialogue: 0,0:11:43.55,0:11:47.46,D,,0000,0000,0000,,I thought I made it clear that you were to eliminate the would-be runaway
+Dialogue: 0,0:11:47.46,0:11:49.39,D,,0000,0000,0000,,I was going to..
+Dialogue: 0,0:11:49.39,0:11:51.76,D,,0000,0000,0000,,He was going to escape to Vacuo
+Dialogue: 0,0:11:51.76,0:11:55.77,D,,0000,0000,0000,,Mercury and I decided to take it upon ourselves to kill the rat
+Dialogue: 0,0:11:55.77,0:11:57.51,D,,0000,0000,0000,,I think he was some sort of cat, actually
+Dialogue: 0,0:11:57.51,0:11:58.77,D,,0000,0000,0000,,What? Like a puma?
+Dialogue: 0,0:11:58.77,0:12:00.04,D,,0000,0000,0000,,Yeah, there you go
+Dialogue: 0,0:12:00.04,0:12:01.31,D,,0000,0000,0000,,Quiet
+Dialogue: 0,0:12:01.31,0:12:06.27,D,,0000,0000,0000,,Did I not specifically instruct you two to keep your hands clean while in Vale?
+Dialogue: 0,0:12:06.27,0:12:07.85,D,,0000,0000,0000,,I just thought..
+Dialogue: 0,0:12:07.85,0:12:10.25,D,,0000,0000,0000,,Don't think, obey
+Dialogue: 0,0:12:11.28,0:12:13.75,D,,0000,0000,0000,,Yes ma'am. It won't happen again
+Dialogue: 0,0:12:14.09,0:12:15.11,D,,0000,0000,0000,,And you..
+Dialogue: 0,0:12:15.11,0:12:16.62,D,,0000,0000,0000,,Hahahaha~
+Dialogue: 0,0:12:16.62,0:12:19.39,D,,0000,0000,0000,,Why wasn't this job done sooner?
+Dialogue: 0,0:12:19.39,0:12:20.69,D,,0000,0000,0000,,Uh..0v0
+Dialogue: 0,0:12:20.86,0:12:21.69,D,,0000,0000,0000,,Eh..-v-?
+Dialogue: 0,0:12:22.44,0:12:23.24,D,,0000,0000,0000,,Eh..-w-!?
+Dialogue: 0,0:12:24.00,0:12:25.50,D,,0000,0000,0000,,EH 0w0!!
+Dialogue: 0,0:12:25.81,0:12:30.34,D,,0000,0000,0000,,Sorry if I've been little busy stealing every speck of Dust in the Kingdom!
+Dialogue: 0,0:12:30.34,0:12:33.85,D,,0000,0000,0000,,You're an inspiration to every punk with a gun and a ski mask
+Dialogue: 0,0:12:33.85,0:12:34.80,D,,0000,0000,0000,,Look around, kid
+Dialogue: 0,0:12:34.80,0:12:36.87,D,,0000,0000,0000,,I've got this town running scared
+Dialogue: 0,0:12:36.87,0:12:38.54,D,,0000,0000,0000,,Police camping out at every corner
+Dialogue: 0,0:12:38.54,0:12:40.31,D,,0000,0000,0000,,Dust prices through the roof
+Dialogue: 0,0:12:40.31,0:12:42.81,D,,0000,0000,0000,,and we're sitting pretty on an old warehouse
+Dialogue: 0,0:12:42.81,0:12:46.58,D,,0000,0000,0000,,with more Dust crystals, vials and rounds than we know what to do with
+Dialogue: 0,0:12:46.92,0:12:48.49,D,,0000,0000,0000,,Speaking of which
+Dialogue: 0,0:12:48.49,0:12:52.22,D,,0000,0000,0000,,If you guys wouldn't mind filling me in on your grand master plan
+Dialogue: 0,0:12:52.22,0:12:56.39,D,,0000,0000,0000,,It might, actually make my next string of roberries go little smoother!
+Dialogue: 0,0:12:56.39,0:12:58.76,D,,0000,0000,0000,,Oh, Roman~ Have a little faith
+Dialogue: 0,0:13:00.06,0:13:03.10,D,,0000,0000,0000,,You'll know what you need when you need to know
+Dialogue: 0,0:13:07.61,0:13:10.27,D,,0000,0000,0000,,Besides, we're done with Dust
+Dialogue: 0,0:13:10.48,0:13:13.21,D,,0000,0000,0000,,Okay, then what now?
+Dialogue: 0,0:13:13.46,0:13:14.46,D,,0000,0000,0000,,We're moving
+Dialogue: 0,0:13:14.46,0:13:16.86,D,,0000,0000,0000,,Have the White Fang clear out this building
+Dialogue: 0,0:13:16.86,0:13:19.38,D,,0000,0000,0000,,I'll send you details and coordinates tonight
+Dialogue: 0,0:13:20.09,0:13:21.41,D,,0000,0000,0000,,Coordinates?
+Dialogue: 0,0:13:21.41,0:13:24.16,D,,0000,0000,0000,,We're proceeding to Phase Two
+Dialogue: 0,0:13:38.68,0:13:39.89,D1,,0000,0000,0000,,There's a point where it tips
+Dialogue: 0,0:13:39.89,0:13:41.22,D1,,0000,0000,0000,,There's a point where it breaks
+Dialogue: 0,0:13:41.22,0:13:42.35,D1,,0000,0000,0000,,There's a point where it bends
+Dialogue: 0,0:13:42.35,0:13:47.89,D1,,0000,0000,0000,,And a point we just can't take anymore
+Dialogue: 0,0:13:48.02,0:13:49.22,D1,,0000,0000,0000,,There's a line that we'll cross
+Dialogue: 0,0:13:49.22,0:13:50.23,D1,,0000,0000,0000,,And there's no return
+Dialogue: 0,0:13:50.23,0:13:51.33,D1,,0000,0000,0000,,There's a time and a place
+Dialogue: 0,0:13:51.33,0:13:55.96,D1,,0000,0000,0000,,No bridges left to burn anymore
+Dialogue: 0,0:13:55.96,0:13:59.87,D1,,0000,0000,0000,,We can't just wait with lives at stake
+Dialogue: 0,0:13:59.87,0:14:03.71,D1,,0000,0000,0000,,Until they think we're ready
+Dialogue: 0,0:14:03.71,0:14:07.58,D1,,0000,0000,0000,,Our enemies are gathering
+Dialogue: 0,0:14:07.58,0:14:13.34,D1,,0000,0000,0000,,The storm is growing deadly
+Dialogue: 0,0:14:13.34,0:14:17.09,D1,,0000,0000,0000,,Now it's time to say goodbye
+Dialogue: 0,0:14:17.09,0:14:18.95,D1,,0000,0000,0000,,To the things we loved
+Dialogue: 0,0:14:18.95,0:14:21.12,D1,,0000,0000,0000,,And the innocence of youth
+Dialogue: 0,0:14:21.12,0:14:24.82,D1,,0000,0000,0000,,How the time seemed to fly
+Dialogue: 0,0:14:24.82,0:14:26.80,D1,,0000,0000,0000,,From our carefree lives
+Dialogue: 0,0:14:26.80,0:14:29.83,D1,,0000,0000,0000,,And the solitude and peace we always knew
+Dialogue: 0,0:14:35.52,0:14:38.36,BRB sign,,0000,0000,0000,,BRB
+Dialogue: 0,0:14:35.59,0:14:37.70,Staff,,0000,0000,0000,,This SUB is presented by Baidu RWBY Bar\N\N\N\N\N\N\N\NCreator: sbz_kid

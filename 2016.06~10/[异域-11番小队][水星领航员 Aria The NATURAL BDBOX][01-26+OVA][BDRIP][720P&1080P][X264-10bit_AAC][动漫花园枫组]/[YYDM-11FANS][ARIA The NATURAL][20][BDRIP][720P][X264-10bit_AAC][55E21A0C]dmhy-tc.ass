@@ -1,0 +1,268 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: ARIA The NATURAL DVDRip
+Original Script: 动漫花园枫组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZLiBian-S02,32,&H00FFFFFF,&H00FFFFFF,&H01000000,&H012F2F2F,-1,0,0,0,100,100,0,0,1,1,1,2,20,20,10,1
+Style: TITLE,FZZhunYuan-M02,32,&H00FFFFFF,&H000000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: OPEDJP,DFPKaiSho-Md,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,9,10,10,10,1
+Style: OPEDCH,华康楷体W5-A,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.55,0:00:02.08,Default,NTP,0,0,0,,據說一個勁地覺得可怕的話
+Dialogue: 0,0:00:02.32,0:00:04.48,Default,NTP,0,0,0,,本來沒什麼的東西也會變得可怕起來
+Dialogue: 0,0:00:04.58,0:00:07.25,Default,NTP,0,0,0,,那就叫草木皆兵呢
+Dialogue: 0,0:00:07.35,0:00:09.99,Default,NTP,0,0,0,,但一個勁地想 不可怕不可怕
+Dialogue: 0,0:00:10.16,0:00:12.83,Default,NTP,0,0,0,,可怕的東西也不會變得不可怕啊
+Dialogue: 0,0:00:12.93,0:00:13.39,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:00:13.53,0:00:15.76,Default,NTP,0,0,0,,要是真的幽靈出現的話…
+Dialogue: 0,0:00:15.86,0:00:16.40,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:00:16.50,0:00:18.10,Default,NTP,0,0,0,,可怕的話 禁止！
+Dialogue: 0,0:00:29.68,0:00:33.45,Default,NTP,0,0,0,,燈裏姐姐 我們這邊快到冬天了
+Dialogue: 0,0:00:34.21,0:00:37.85,Default,NTP,0,0,0,,雖說如此 卻一點都不冷
+Dialogue: 0,0:00:38.78,0:00:41.62,Default,NTP,0,0,0,,新威尼斯一定還很熱吧
+Dialogue: 0,0:00:42.29,0:00:46.43,Default,NTP,0,0,0,,可是正因為很熱 才能體會到涼爽事物的好吧
+Dialogue: 0,0:00:47.49,0:00:53.13,Default,NTP,0,0,0,,風 水聲 樹蔭 冰牛奶
+Dialogue: 0,0:00:54.00,0:00:55.37,Default,NTP,0,0,0,,和恐怖的故事
+Dialogue: 0,0:00:56.37,0:00:59.34,Default,NTP,0,0,0,,啊 恐怖的故事應該不算吧
+Dialogue: 0,0:01:11.58,0:01:15.96,Default,NTP,0,0,0,,亞利亞社長 感冒快好的時候更要注意哦
+Dialogue: 0,0:01:16.36,0:01:18.22,Default,NTP,0,0,0,,千萬不能跑出去哦
+Dialogue: 0,0:01:20.53,0:01:21.56,Default,NTP,0,0,0,,如果乖乖地待在家裏
+Dialogue: 0,0:01:21.99,0:01:25.73,Default,NTP,0,0,0,,我就給社長買你最喜歡的桃子干哦
+Dialogue: 0,0:01:27.47,0:01:29.50,Default,NTP,0,0,0,,那我出門啦
+Dialogue: 0,0:03:13.91,0:03:17.88,TITLE,NTP,0,0,0,,{\fad(500,0)\pos(320,270)\blur9\be1\fsp2}那個 沒有影子的召喚者…
+Dialogue: 0,0:03:46.57,0:03:48.11,Default,NTP,0,0,0,,我第一名～
+Dialogue: 0,0:04:40.23,0:04:44.10,Default,NTP,0,0,0,,純黑的長裙…她不熱嗎
+Dialogue: 0,0:04:46.67,0:04:48.33,Default,NTP,0,0,0,,燈裏 久等了…
+Dialogue: 0,0:04:49.60,0:04:50.37,Default,NTP,0,0,0,,藍華
+Dialogue: 0,0:04:51.97,0:04:53.74,Default,NTP,0,0,0,,今天也好熱啊…
+Dialogue: 0,0:04:54.87,0:04:59.25,Default,NTP,0,0,0,,不行不行 目不轉睛地盯著別人看 也太失禮了
+Dialogue: 0,0:05:00.15,0:05:04.72,Default,NTP,0,0,0,,啊…好熱好熱 馬尾男該不會是在摸魚吧
+Dialogue: 0,0:05:05.95,0:05:08.22,Default,NTP,0,0,0,,曉先生他還好吧
+Dialogue: 0,0:05:08.59,0:05:11.66,Default,NTP,0,0,0,,那種悶騷男 管他幹啥啊
+Dialogue: 0,0:05:11.72,0:05:16.00,Default,NTP,0,0,0,,啊～是藍華先提起曉先生的啊
+Dialogue: 0,0:05:16.10,0:05:17.16,Default,NTP,0,0,0,,閉嘴～
+Dialogue: 0,0:05:22.23,0:05:26.27,Default,NTP,0,0,0,,啊…真是的 這麼熱真受不了啊
+Dialogue: 0,0:05:26.71,0:05:29.07,Default,NTP,0,0,0,,鳳尾舟又是黑色的 會吸收熱量
+Dialogue: 0,0:05:29.38,0:05:31.41,Default,NTP,0,0,0,,小後輩又還沒來
+Dialogue: 0,0:05:33.68,0:05:34.95,Default,NTP,0,0,0,,不如我們來點夏天的慣例
+Dialogue: 0,0:05:35.28,0:05:38.05,Default,NTP,0,0,0,,講講這個城市有名的鬼故事吧
+Dialogue: 0,0:05:38.32,0:05:39.15,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:05:39.69,0:05:42.89,Default,NTP,0,0,0,,不要講鬼故事啦 好可怕
+Dialogue: 0,0:05:44.22,0:05:48.46,Default,NTP,0,0,0,,這你就錯了 很熱的時候就要靠鬼故事來納涼啊
+Dialogue: 0,0:05:50.16,0:05:56.24,Default,NTP,0,0,0,,你知道聖馬可廣場的名勝 也就是那兩根柱子吧
+Dialogue: 0,0:05:56.64,0:05:57.30,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:05:59.04,0:06:01.87,Default,NTP,0,0,0,,咦 剛才那個人不見了
+Dialogue: 0,0:06:02.17,0:06:05.74,Default,NTP,0,0,0,,嗯 這兩根柱子自從地球的威尼斯時代起
+Dialogue: 0,0:06:05.88,0:06:09.68,Default,NTP,0,0,0,,就被當做是城市的門戶
+Dialogue: 0,0:06:10.42,0:06:13.22,Default,NTP,0,0,0,,但在很久很久以前
+Dialogue: 0,0:06:13.82,0:06:15.89,Default,NTP,0,0,0,,中世紀的威尼斯共和國時期
+Dialogue: 0,0:06:16.42,0:06:22.13,Default,NTP,0,0,0,,那裏還被用作罪人的公開處刑地哦
+Dialogue: 0,0:06:26.27,0:06:26.80,Default,NTP,0,0,0,,騙人
+Dialogue: 0,0:06:26.97,0:06:27.77,Default,NTP,0,0,0,,真的
+Dialogue: 0,0:06:28.40,0:06:33.17,Default,NTP,0,0,0,,那件事情就發生在一個像今天一樣炎熱的夏天
+Dialogue: 0,0:06:34.17,0:06:38.68,Default,NTP,0,0,0,,一個即將被處刑的女人流著淚向官員祈求
+Dialogue: 0,0:06:39.35,0:06:43.85,Default,NTP,0,0,0,,希望能夠被埋葬在墓地之島聖米凱爾島
+Dialogue: 0,0:06:44.28,0:06:48.55,Default,NTP,0,0,0,,因為自己的父母也被埋葬在那裏
+Dialogue: 0,0:06:50.09,0:06:50.79,Default,NTP,0,0,0,,可是
+Dialogue: 0,0:06:51.82,0:06:55.86,Default,NTP,0,0,0,,當時聖米凱爾島的墓地已經處於過密狀態
+Dialogue: 0,0:06:56.30,0:06:58.86,Default,NTP,0,0,0,,於是她的祈求沒有被允許
+Dialogue: 0,0:07:00.60,0:07:03.07,Default,NTP,0,0,0,,然後 女人就這樣被處刑了
+Dialogue: 0,0:07:04.70,0:07:10.74,Default,NTP,0,0,0,,但從那以後…就開始發生恐怖的事情
+Dialogue: 0,0:07:11.91,0:07:13.35,Default,NTP,0,0,0,,城裏的鳳尾舟船員
+Dialogue: 0,0:07:13.58,0:07:15.78,Default,NTP,0,0,0,,如果夜裏一個人待在柱子附近
+Dialogue: 0,0:07:16.18,0:07:18.75,Default,NTP,0,0,0,,就會不知從哪裏出現一名身穿喪服的女性
+Dialogue: 0,0:07:19.29,0:07:23.46,Default,NTP,0,0,0,,「請用你的鳳尾舟 載我到聖米凱爾島」
+Dialogue: 0,0:07:24.72,0:07:25.82,Default,NTP,0,0,0,,她會這樣對船員說
+Dialogue: 0,0:07:26.76,0:07:31.30,Default,NTP,0,0,0,,可是 絕對不能帶她到那裏去
+Dialogue: 0,0:07:32.16,0:07:33.03,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:07:36.44,0:07:40.61,Default,NTP,0,0,0,,因為…那個船員一定會人間蒸發
+Dialogue: 0,0:07:43.01,0:07:45.14,Default,NTP,0,0,0,,可怕 好可怕～
+Dialogue: 0,0:07:45.38,0:07:48.45,Default,NTP,0,0,0,,可是 那個妖怪是住在地球的威尼斯的吧
+Dialogue: 0,0:07:48.71,0:07:51.62,Default,NTP,0,0,0,,還好這裏是AQUA的新威尼斯…
+Dialogue: 0,0:07:52.95,0:07:54.22,Default,NTP,0,0,0,,啊 怎麼？
+Dialogue: 0,0:07:54.69,0:07:57.02,Default,NTP,0,0,0,,你太天真了 燈裏
+Dialogue: 0,0:07:57.56,0:07:58.36,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:07:59.02,0:08:02.80,Default,NTP,0,0,0,,那個傳說中的女人 據說還是會出現哦
+Dialogue: 0,0:08:03.56,0:08:04.16,Default,NTP,0,0,0,,在這…
+Dialogue: 0,0:08:04.76,0:08:07.10,Default,NTP,0,0,0,,新威尼斯城中！
+Dialogue: 0,0:08:08.77,0:08:09.54,Default,NTP,0,0,0,,騙人…
+Dialogue: 0,0:08:16.24,0:08:18.01,Default,NTP,0,0,0,,超級讓你們久等了
+Dialogue: 0,0:08:18.28,0:08:19.95,Default,NTP,0,0,0,,愛麗絲…
+Dialogue: 0,0:08:21.68,0:08:23.78,Default,NTP,0,0,0,,你怎麼了嗎 燈裏前輩
+Dialogue: 0,0:08:25.48,0:08:28.52,Default,NTP,0,0,0,,嘿嘿嘿嘿嘿 有沒有涼快一點啊
+Dialogue: 0,0:08:28.79,0:08:30.09,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:08:56.18,0:08:58.38,Default,NTP,0,0,0,,燈裏真是個膽小鬼啊
+Dialogue: 0,0:08:58.92,0:09:01.59,Default,NTP,0,0,0,,我還知道很多鬼故事哦
+Dialogue: 0,0:09:01.82,0:09:05.66,Default,NTP,0,0,0,,哦 那今天就來開鬼故事大會吧～
+Dialogue: 0,0:09:05.82,0:09:06.99,Default,NTP,0,0,0,,不要啦…
+Dialogue: 0,0:09:13.37,0:09:15.30,Default,NTP,0,0,0,,可是 在我看來
+Dialogue: 0,0:09:15.60,0:09:19.71,Default,NTP,0,0,0,,燈裏前輩是那種容易吸引靈異現象的體質呢
+Dialogue: 0,0:09:20.04,0:09:22.37,Default,NTP,0,0,0,,還是超級注意的比較好
+Dialogue: 0,0:09:22.84,0:09:25.38,Default,NTP,0,0,0,,嗯 這話也許說到點子上了
+Dialogue: 0,0:09:25.64,0:09:29.11,Default,NTP,0,0,0,,啊～那我要怎麼注意啊
+Dialogue: 0,0:09:32.22,0:09:34.05,Default,NTP,0,0,0,,總之 不要見到個什麼
+Dialogue: 0,0:09:34.19,0:09:36.92,Default,NTP,0,0,0,,就喊著「好美哦～」衝上去？
+Dialogue: 0,0:09:40.76,0:09:44.36,Default,NTP,0,0,0,,察覺到危險的氣息就不要靠近的說
+Dialogue: 0,0:09:44.96,0:09:46.67,Default,NTP,0,0,0,,嗯 我知道了
+Dialogue: 0,0:09:59.38,0:10:00.15,Default,NTP,0,0,0,,那再見了
+Dialogue: 0,0:10:00.55,0:10:01.81,Default,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:10:02.28,0:10:03.42,Default,NTP,0,0,0,,辛苦啦
+Dialogue: 0,0:10:04.08,0:10:05.85,Default,NTP,0,0,0,,給亞利亞社長問好哦
+Dialogue: 0,0:10:06.29,0:10:07.75,Default,NTP,0,0,0,,超級保重的說
+Dialogue: 0,0:10:08.09,0:10:09.66,Default,NTP,0,0,0,,嗯 謝謝了
+Dialogue: 0,0:10:18.56,0:10:21.10,Default,NTP,0,0,0,,快些去買桃子干 然後回去吧
+Dialogue: 0,0:10:39.55,0:10:40.79,Default,NTP,0,0,0,,雖然有點晚了
+Dialogue: 0,0:10:41.75,0:10:45.32,Default,NTP,0,0,0,,不過能買到亞利亞社長喜歡的桃子干真是太好了
+Dialogue: 0,0:10:46.26,0:10:49.33,Default,NTP,0,0,0,,亞利亞社長有沒有好點呢
+Dialogue: 0,0:11:24.10,0:11:26.30,Default,NTP,0,0,0,,不好意思 那邊的鳳尾舟
+Dialogue: 0,0:11:32.34,0:11:34.54,Default,NTP,0,0,0,,是白天那個穿黑色長裙的人
+Dialogue: 0,0:11:49.56,0:11:52.39,Default,NTP,0,0,0,,拜託了 領航員小姐
+Dialogue: 0,0:11:55.66,0:12:02.40,Default,NTP,0,0,0,,抱歉 我還是半熟手 不能一個人接待客人
+Dialogue: 0,0:12:03.17,0:12:05.90,Default,NTP,0,0,0,,哎呀 是嗎 對不起
+Dialogue: 0,0:12:07.31,0:12:08.64,Default,NTP,0,0,0,,但這可傷腦筋了
+Dialogue: 0,0:12:09.24,0:12:12.51,Default,NTP,0,0,0,,其它的鳳尾舟好像都回去了
+Dialogue: 0,0:12:13.78,0:12:18.85,Default,NTP,0,0,0,,莫非我誤會了…這真是太失禮了
+Dialogue: 0,0:12:30.63,0:12:31.26,Default,NTP,0,0,0,,那個…
+Dialogue: 0,0:12:33.87,0:12:35.80,Default,NTP,0,0,0,,您還是坐上來吧
+Dialogue: 0,0:12:37.57,0:12:40.27,Default,NTP,0,0,0,,因為有不能單獨載客的規定
+Dialogue: 0,0:12:40.84,0:12:43.14,Default,NTP,0,0,0,,那就作為我的朋友坐上來吧
+Dialogue: 0,0:12:44.84,0:12:46.55,Default,NTP,0,0,0,,謝謝 太麻煩你了
+Dialogue: 0,0:12:46.85,0:12:47.55,Default,NTP,0,0,0,,請坐
+Dialogue: 0,0:12:47.95,0:12:50.08,Default,NTP,0,0,0,,嗯 你真是個好孩子
+Dialogue: 0,0:12:50.25,0:12:50.92,Default,NTP,0,0,0,,哪裏…
+Dialogue: 0,0:12:55.15,0:12:57.59,Default,NTP,0,0,0,,能與你相遇 我十分高興
+Dialogue: 0,0:12:57.99,0:12:58.82,Default,NTP,0,0,0,,相遇…
+Dialogue: 0,0:13:00.56,0:13:01.69,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:13:03.70,0:13:06.37,Default,NTP,0,0,0,,那麼 請問您要去哪裏呢
+Dialogue: 0,0:13:08.87,0:13:10.87,Default,NTP,0,0,0,,到聖米凱爾島
+Dialogue: 0,0:13:26.65,0:13:31.12,Default,NTP,0,0,0,,亞利亞社長 吹夜風會加重感冒哦
+Dialogue: 0,0:13:36.30,0:13:38.96,Default,NTP,0,0,0,,燈裏…怎麼這麼晚啊…
+Dialogue: 0,0:14:03.66,0:14:08.33,Default,NTP,0,0,0,,AQUA的聖米凱爾島也跟地球一樣 是墓地之島
+Dialogue: 0,0:14:10.63,0:14:15.43,Default,NTP,0,0,0,,這個人晚上到聖米凱爾島有什麼事呢…
+Dialogue: 0,0:14:59.54,0:15:01.75,Default,NTP,0,0,0,,這身長裙…是喪服嗎…
+Dialogue: 0,0:15:08.05,0:15:11.39,Default,NTP,0,0,0,,絕對不能帶她到那裏去
+Dialogue: 0,0:15:12.59,0:15:13.49,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:15:16.16,0:15:19.26,Default,NTP,0,0,0,,因為…那個船員一定會人間蒸發
+Dialogue: 0,0:15:23.67,0:15:27.34,Default,NTP,0,0,0,,盡量不去想…雖然盡量不去想
+Dialogue: 0,0:15:28.21,0:15:29.51,Default,NTP,0,0,0,,但藍華的話
+Dialogue: 0,0:15:30.04,0:15:33.31,Default,NTP,0,0,0,,還是像夜晚的波浪一般襲向我的心頭
+Dialogue: 0,0:15:53.57,0:15:54.40,Default,NTP,0,0,0,,我們到了
+Dialogue: 0,0:16:04.04,0:16:07.45,Default,NTP,0,0,0,,真是太感謝了 你幫了我大忙
+Dialogue: 0,0:16:09.25,0:16:12.48,Default,NTP,0,0,0,,那麼 我就此告辭了
+Dialogue: 0,0:16:27.70,0:16:30.37,Default,NTP,0,0,0,,你…真是個好孩子
+Dialogue: 0,0:16:41.75,0:16:43.48,Default,NTP,0,0,0,,我要永遠跟你在一起
+Dialogue: 0,0:16:44.48,0:16:46.95,Default,NTP,0,0,0,,什麼？到底發生什麼了？
+Dialogue: 0,0:16:48.12,0:16:51.19,Default,NTP,0,0,0,,因為…那個船員一定會人間蒸發
+Dialogue: 0,0:17:06.71,0:17:09.98,Default,NTP,0,0,0,,怎麼了？快起來
+Dialogue: 0,0:17:20.29,0:17:21.12,Default,NTP,0,0,0,,快
+Dialogue: 0,0:17:29.16,0:17:30.26,Default,NTP,0,0,0,,別害怕
+Dialogue: 0,0:17:31.56,0:17:33.97,Default,NTP,0,0,0,,我們一定會相處得很好的
+Dialogue: 0,0:17:35.20,0:17:36.13,Default,NTP,0,0,0,,因為…
+Dialogue: 0,0:17:37.64,0:17:39.07,Default,NTP,0,0,0,,我們是朋友啊
+Dialogue: 0,0:19:25.98,0:19:26.78,Default,NTP,0,0,0,,咦…
+Dialogue: 0,0:19:34.95,0:19:36.05,Default,NTP,0,0,0,,亞利亞社長…
+Dialogue: 0,0:19:41.06,0:19:41.96,Default,NTP,0,0,0,,花瓣…
+Dialogue: 0,0:19:47.33,0:19:49.53,Default,NTP,0,0,0,,亞利亞社長…
+Dialogue: 0,0:19:51.94,0:19:52.80,Default,NTP,0,0,0,,燈裏
+Dialogue: 0,0:19:53.64,0:19:54.67,Default,NTP,0,0,0,,艾莉西亞前輩
+Dialogue: 0,0:19:55.07,0:19:56.31,Default,NTP,0,0,0,,燈裏…
+Dialogue: 0,0:19:56.78,0:19:57.98,Default,NTP,0,0,0,,{\an8\fs26}燈裏
+Dialogue: 0,0:19:56.91,0:19:58.28,Default,NTP,0,0,0,,艾莉西亞前輩…
+Dialogue: 0,0:20:00.81,0:20:03.62,Default,NTP,0,0,0,,擔心死我了 你到底去哪了？
+Dialogue: 0,0:20:04.05,0:20:07.52,Default,NTP,0,0,0,,對不起 我載著一個穿黑色長裙的女性
+Dialogue: 0,0:20:08.05,0:20:09.75,Default,NTP,0,0,0,,到聖米凱爾島去了…
+Dialogue: 0,0:20:09.99,0:20:12.62,Default,NTP,0,0,0,,然後…我被帶到墓地裏面…
+Dialogue: 0,0:20:13.46,0:20:16.49,Default,NTP,0,0,0,,我很害怕…什麼都做不到…
+Dialogue: 0,0:20:16.93,0:20:17.70,Default,NTP,0,0,0,,然後…
+Dialogue: 0,0:20:21.13,0:20:22.93,Default,NTP,0,0,0,,Caitsith出現了…
+Dialogue: 0,0:20:23.17,0:20:28.07,Default,NTP,0,0,0,,然後…我回過神來…不知道怎麼就回來了…
+Dialogue: 0,0:20:29.24,0:20:31.71,Default,NTP,0,0,0,,原來發生了這麼可怕的事情啊…
+Dialogue: 0,0:20:33.65,0:20:36.78,Default,NTP,0,0,0,,不過 燈裏你沒事 真是太好了
+Dialogue: 0,0:20:37.35,0:20:40.75,Default,NTP,0,0,0,,嗯…我好怕哦…
+Dialogue: 0,0:20:40.92,0:20:41.99,Default,NTP,0,0,0,,哎呀哎呀…
+Dialogue: 0,0:20:50.63,0:20:52.30,Default,NTP,0,0,0,,喪服女人？
+Dialogue: 0,0:20:53.33,0:20:56.84,Default,NTP,0,0,0,,那個人絕對就是傳說中的女人哦
+Dialogue: 0,0:20:57.74,0:20:59.87,Default,NTP,0,0,0,,那你是怎麼逃回來的啊
+Dialogue: 0,0:21:00.04,0:21:02.11,Default,NTP,0,0,0,,嗯…是Caitsith…
+Dialogue: 0,0:21:03.61,0:21:06.08,Default,NTP,0,0,0,,喪服女性…Caitsith…
+Dialogue: 0,0:21:06.88,0:21:08.48,Default,NTP,0,0,0,,超級疑雲密佈的說
+Dialogue: 0,0:21:08.75,0:21:11.15,Default,NTP,0,0,0,,可怕！好可怕！
+Dialogue: 0,0:21:11.38,0:21:13.08,Default,NTP,0,0,0,,可是也有可能是夢哦
+Dialogue: 0,0:21:13.39,0:21:15.79,Default,NTP,0,0,0,,{\an8\fs26}好可怕…好可怕…
+Dialogue: 0,0:21:15.15,0:21:19.89,Default,NTP,0,0,0,,請讓我再看看那個只在聖米凱爾島開放的花瓣
+Dialogue: 0,0:21:20.13,0:21:21.56,Default,NTP,0,0,0,,可以啊 給
+Dialogue: 0,0:21:26.40,0:21:29.50,Default,NTP,0,0,0,,你們知道那個怪談還有後續嗎
+Dialogue: 0,0:21:31.47,0:21:36.57,Default,NTP,0,0,0,,中世紀的威尼斯共和國雖然存在過公開處刑
+Dialogue: 0,0:21:37.11,0:21:40.61,Default,NTP,0,0,0,,但並沒有罪犯請求指定埋葬地的記錄
+Dialogue: 0,0:21:41.11,0:21:43.35,Default,NTP,0,0,0,,而且 據說這個怪談
+Dialogue: 0,0:21:43.62,0:21:46.79,Default,NTP,0,0,0,,根本就不存在於地球的威尼斯城
+Dialogue: 0,0:21:47.42,0:21:50.22,Default,NTP,0,0,0,,這個怪談好像是人們在AQUA殖民後
+Dialogue: 0,0:21:50.36,0:21:53.59,Default,NTP,0,0,0,,某人在這個城市中散佈出來的編造故事
+Dialogue: 0,0:21:55.29,0:21:57.26,Default,NTP,0,0,0,,就是說 傳說中的女人
+Dialogue: 0,0:21:57.33,0:21:59.56,Default,NTP,0,0,0,,是在新威尼斯被編造出來的
+Dialogue: 0,0:21:59.80,0:22:02.90,Default,NTP,0,0,0,,威尼斯根本就沒有那樣的怪談？
+Dialogue: 0,0:22:03.23,0:22:03.90,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:22:04.10,0:22:05.94,Default,NTP,0,0,0,,但加上這次燈裏的例子
+Dialogue: 0,0:22:06.30,0:22:10.44,Default,NTP,0,0,0,,新威尼斯的目擊案例有很多呢
+Dialogue: 0,0:22:10.78,0:22:11.48,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:22:13.61,0:22:15.05,Default,NTP,0,0,0,,那不是很奇怪嘛
+Dialogue: 0,0:22:15.31,0:22:17.85,Default,NTP,0,0,0,,為什麼編造出來的過去的妖怪
+Dialogue: 0,0:22:17.95,0:22:20.59,Default,NTP,0,0,0,,會出現在未來的這個城市裏啊
+Dialogue: 0,0:22:21.12,0:22:23.12,Default,NTP,0,0,0,,所以才更可怕不是嗎…
+Dialogue: 0,0:22:33.13,0:22:38.47,Default,NTP,0,0,0,,小愛…我也不太明白到底發生了什麼事…
+Dialogue: 0,0:22:39.54,0:22:42.81,Default,NTP,0,0,0,,果然…是Caitsith救了我嗎
+Dialogue: 0,0:24:04.92,0:24:09.93,Default,NTP,0,0,0,,那個 銀河鐵道之夜…
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPJP】
+Dialogue: 0,0:01:39.51,0:01:52.43,OPEDJP,NTP,0,0,0,,{\fad(400,400)}窓からそっと 朝陽がのびて
+Dialogue: 0,0:01:53.79,0:02:05.40,OPEDJP,NTP,0,0,0,,{\fad(400,400)}まどろむまつ毛に こぼれてくよ
+Dialogue: 0,0:02:06.74,0:02:20.42,OPEDJP,NTP,0,0,0,,{\fad(400,400)}そよふく風 部屋へと招いて
+Dialogue: 0,0:02:22.46,0:02:33.23,OPEDJP,NTP,0,0,0,,{\fad(400,400)}木漏れ日に 君の寝顔 優しくて
+Dialogue: 0,0:02:30.63,0:02:33.23,OPEDJP,NTP,0,0,0,,{\fad(400,400)\an7}Euforia
+Dialogue: 0,0:02:33.33,0:02:39.57,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いつものありふれた朝だけど
+Dialogue: 0,0:02:41.24,0:02:47.18,OPEDJP,NTP,0,0,0,,{\fad(400,400)}鮮やかに色づいてるよ
+Dialogue: 0,0:02:47.45,0:02:54.65,OPEDJP,NTP,0,0,0,,{\fad(400,400)}それは君と巡り合えた奇跡
+Dialogue: 0,0:02:55.22,0:02:58.19,OPEDJP,NTP,0,0,0,,{\fad(400,400)}ひとりじゃない
+Dialogue: 0,0:02:58.76,0:03:04.96,OPEDJP,NTP,0,0,0,,{\fad(400,400)}君と一緒にいるから
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPCH】
+Dialogue: 0,0:01:39.51,0:01:52.43,OPEDCH,NTP,0,0,0,,{\fad(400,400)}晨曦悄然漫入窗際
+Dialogue: 0,0:01:53.79,0:02:05.40,OPEDCH,NTP,0,0,0,,{\fad(400,400)}灑落在 舒睡的睫毛間
+Dialogue: 0,0:02:06.74,0:02:20.42,OPEDCH,NTP,0,0,0,,{\fad(400,400)}讓輕拂的風吹入小屋
+Dialogue: 0,0:02:22.46,0:02:33.23,OPEDCH,NTP,0,0,0,,{\fad(400,400)}枝葉間滑落的陽光 映襯你的睡顏
+Dialogue: 0,0:02:30.63,0:02:33.23,OPEDCH,NTP,0,0,0,,{\fad(400,400)\an3}Euforia
+Dialogue: 0,0:02:33.33,0:02:39.57,OPEDCH,NTP,0,0,0,,{\fad(400,400)}雖是個平凡無奇的早晨
+Dialogue: 0,0:02:41.24,0:02:47.18,OPEDCH,NTP,0,0,0,,{\fad(400,400)}也染上了艷麗的色彩
+Dialogue: 0,0:02:47.45,0:02:54.65,OPEDCH,NTP,0,0,0,,{\fad(400,400)}那正是與你邂逅的奇跡
+Dialogue: 0,0:02:55.22,0:02:58.19,OPEDCH,NTP,0,0,0,,{\fad(400,400)}我並非孤單一人
+Dialogue: 0,0:02:58.76,0:03:04.96,OPEDCH,NTP,0,0,0,,{\fad(400,400)}因為 有你相伴
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDJP】
+Dialogue: 0,0:22:44.71,0:22:58.16,OPEDJP,NTP,0,0,0,,{\fad(400,400)}去りゆく夏の日 思いを寄せて集うバルコニー
+Dialogue: 0,0:23:01.93,0:23:15.64,OPEDJP,NTP,0,0,0,,{\fad(400,400)}水面にきらめく風のゴンドラ いま滑り出す
+Dialogue: 0,0:23:17.04,0:23:29.75,OPEDJP,NTP,0,0,0,,{\fad(400,400)}流れる時の河でめぐり逢えた人
+Dialogue: 0,0:23:30.56,0:23:40.73,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いま夜空を焦がして輝く夏の夜の夢
+Dialogue: 0,0:23:41.73,0:23:51.01,OPEDJP,NTP,0,0,0,,{\fad(400,400)}忘れないでSmile Again いつまでも
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDCH】
+Dialogue: 0,0:22:44.71,0:22:58.16,OPEDCH,NTP,0,0,0,,{\fad(400,400)}即將逝去的夏日 懷抱著思念來到露台上
+Dialogue: 0,0:23:01.93,0:23:15.64,OPEDCH,NTP,0,0,0,,{\fad(400,400)}在水面上閃耀著 那風之鳳尾舟 正要啟航
+Dialogue: 0,0:23:17.04,0:23:29.75,OPEDCH,NTP,0,0,0,,{\fad(400,400)}不斷流逝的時間長河中 人們彼此邂逅
+Dialogue: 0,0:23:30.56,0:23:40.73,OPEDCH,NTP,0,0,0,,{\fad(400,400)}劃過長夜之空的是那炫目的夏夜之夢
+Dialogue: 0,0:23:41.73,0:23:51.01,OPEDCH,NTP,0,0,0,,{\fad(400,400)}請不要忘記Smile Again 無論何時
+

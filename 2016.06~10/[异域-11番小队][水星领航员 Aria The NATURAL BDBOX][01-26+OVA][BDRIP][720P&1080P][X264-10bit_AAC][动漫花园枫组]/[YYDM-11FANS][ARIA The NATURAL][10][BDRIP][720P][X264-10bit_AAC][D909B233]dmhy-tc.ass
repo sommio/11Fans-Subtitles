@@ -1,0 +1,355 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: ARIA The NATURAL DVDRip
+Original Script: 动漫花园枫组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZLiBian-S02,32,&H00FFFFFF,&H00FFFFFF,&H01000000,&H012F2F2F,-1,0,0,0,100,100,0,0,1,1,1,2,20,20,10,1
+Style: TITLE,FZZhunYuan-M02,32,&H00FFFFFF,&H000000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: OPEDJP,DFPKaiSho-Md,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,9,10,10,10,1
+Style: OPEDCH,华康楷体W5-A,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.18,0:00:04.05,Default,NTP,0,0,0,,人與人是靠邂逅而聯繫在一起的呢
+Dialogue: 0,0:00:04.18,0:00:06.62,Default,NTP,0,0,0,,朋友的朋友是朋友…
+Dialogue: 0,0:00:06.85,0:00:08.52,Default,NTP,0,0,0,,這樣一直連下去…
+Dialogue: 0,0:00:08.82,0:00:12.12,Default,NTP,0,0,0,,可能整個AQUA的人都變成朋友了
+Dialogue: 0,0:00:12.32,0:00:13.93,Default,NTP,0,0,0,,太美了太美了～
+Dialogue: 0,0:00:14.03,0:00:16.60,Default,NTP,0,0,0,,燈裏的美妙引擎全開了呢
+Dialogue: 0,0:00:16.76,0:00:18.36,Default,NTP,0,0,0,,超級FULL POWER的說
+Dialogue: 0,0:00:23.57,0:00:24.27,Default,NTP,0,0,0,,小愛
+Dialogue: 0,0:00:25.04,0:00:26.61,Default,NTP,0,0,0,,這個季節吹拂過城市的風
+Dialogue: 0,0:00:26.84,0:00:29.57,Default,NTP,0,0,0,,帶上了淡淡的草帽氣息
+Dialogue: 0,0:00:30.94,0:00:33.55,Default,NTP,0,0,0,,夏天來到了新威尼斯
+Dialogue: 0,0:00:37.95,0:00:40.89,Default,NTP,0,0,0,,而夏天是一年中最佳的觀光季節
+Dialogue: 0,0:00:41.39,0:00:44.69,Default,NTP,0,0,0,,小鎮中的人漸漸變多 開始熱鬧起來了
+Dialogue: 0,0:00:46.06,0:00:48.06,Default,NTP,0,0,0,,感覺小鎮生機勃勃的
+Dialogue: 0,0:00:51.83,0:00:53.07,Default,NTP,0,0,0,,早上好
+Dialogue: 0,0:00:54.70,0:00:55.80,Default,NTP,0,0,0,,早上好
+Dialogue: 0,0:00:56.40,0:00:59.91,Default,NTP,0,0,0,,今天又洗了好多衣服呢
+Dialogue: 0,0:01:00.34,0:01:04.48,Default,NTP,0,0,0,,因為天氣很好 就決定一塊洗掉了
+Dialogue: 0,0:01:04.81,0:01:09.11,Default,NTP,0,0,0,,你看 這是大叔的內褲 很大吧
+Dialogue: 0,0:01:15.42,0:01:18.22,Default,NTP,0,0,0,,哦 小姑娘 早上好啊
+Dialogue: 0,0:01:18.89,0:01:20.69,Default,NTP,0,0,0,,早上好 老爺爺
+Dialogue: 0,0:01:21.46,0:01:23.26,Default,NTP,0,0,0,,您的腰怎麼樣了？
+Dialogue: 0,0:01:24.73,0:01:26.40,Default,NTP,0,0,0,,今天好多了
+Dialogue: 0,0:01:26.60,0:01:27.87,Default,NTP,0,0,0,,真是太好了
+Dialogue: 0,0:01:28.30,0:01:31.37,Default,NTP,0,0,0,,又能盡情享受散步了呢
+Dialogue: 0,0:01:32.77,0:01:34.51,Default,NTP,0,0,0,,謝謝 再見啦
+Dialogue: 0,0:01:34.87,0:01:35.61,Default,NTP,0,0,0,,再見
+Dialogue: 0,0:03:16.31,0:03:20.15,Default,NTP,0,0,0,,燈裏前輩好像有很多認識的人呢
+Dialogue: 0,0:03:20.51,0:03:21.35,Default,NTP,0,0,0,,確實
+Dialogue: 0,0:03:23.01,0:03:26.99,TITLE,NTP,0,0,0,,{\fad(500,0)\pos(320,270)\blur9\be1\fsp2}那些 充滿溫情的街道與人們…
+Dialogue: 0,0:03:30.59,0:03:34.76,Default,NTP,0,0,0,,看來比我們兩個本地人還要多呢 您覺得呢
+Dialogue: 0,0:03:35.99,0:03:37.76,Default,NTP,0,0,0,,嗯 好像是啊
+Dialogue: 0,0:03:38.00,0:03:38.86,Default,NTP,0,0,0,,什麼什麼？
+Dialogue: 0,0:03:39.66,0:03:41.10,Default,NTP,0,0,0,,讓您久等了
+Dialogue: 0,0:03:41.23,0:03:42.30,Default,NTP,0,0,0,,啊 是
+Dialogue: 0,0:03:42.60,0:03:44.27,Default,NTP,0,0,0,,鴨肉燉飯
+Dialogue: 0,0:03:42.60,0:03:44.27,Default,NTP,0,0,0,,{\pos(346,440)}{\fs20}risotto
+Dialogue: 0,0:03:44.44,0:03:45.20,Default,NTP,0,0,0,,還有呢
+Dialogue: 0,0:03:46.10,0:03:47.21,Default,NTP,0,0,0,,這是送的
+Dialogue: 0,0:03:47.51,0:03:48.81,Default,NTP,0,0,0,,前段時間的回禮
+Dialogue: 0,0:03:49.41,0:03:52.14,Default,NTP,0,0,0,,哇 是香草沙拉
+Dialogue: 0,0:03:53.28,0:03:54.08,Default,NTP,0,0,0,,那個…
+Dialogue: 0,0:03:54.85,0:03:56.15,Default,NTP,0,0,0,,這樣太不好意思了吧
+Dialogue: 0,0:03:56.65,0:03:57.55,Default,NTP,0,0,0,,沒問題的
+Dialogue: 0,0:03:57.82,0:04:01.02,Default,NTP,0,0,0,,上次你教我把剪刀吊在屋頂上
+Dialogue: 0,0:04:01.12,0:04:03.42,Default,NTP,0,0,0,,就能找到失物的魔法
+Dialogue: 0,0:04:03.86,0:04:07.93,Default,NTP,0,0,0,,多虧了它 你看 我找到我跟先生的紀念物了
+Dialogue: 0,0:04:10.16,0:04:11.53,Default,NTP,0,0,0,,真是太好了
+Dialogue: 0,0:04:11.80,0:04:13.33,Default,NTP,0,0,0,,嗯 謝謝了
+Dialogue: 0,0:04:13.77,0:04:17.24,Default,NTP,0,0,0,,是 我才應該謝謝你的沙拉
+Dialogue: 0,0:04:19.20,0:04:20.31,Default,NTP,0,0,0,,喂 燈裏
+Dialogue: 0,0:04:20.71,0:04:21.97,Default,NTP,0,0,0,,剛才那個人是誰？
+Dialogue: 0,0:04:22.91,0:04:24.21,Default,NTP,0,0,0,,是這裏的店員啊
+Dialogue: 0,0:04:24.34,0:04:25.78,Default,NTP,0,0,0,,我不是問那個啦
+Dialogue: 0,0:04:26.61,0:04:29.61,Default,NTP,0,0,0,,她跟燈裏前輩究竟是什麼關係？
+Dialogue: 0,0:04:29.88,0:04:33.02,Default,NTP,0,0,0,,嗯…平時會聊聊天…
+Dialogue: 0,0:04:33.32,0:04:34.22,Default,NTP,0,0,0,,名字呢？
+Dialogue: 0,0:04:35.42,0:04:38.72,Default,NTP,0,0,0,,這麼說來 我們還沒自我介紹過呢
+Dialogue: 0,0:04:39.02,0:04:41.33,Default,NTP,0,0,0,,卻可以那麼親密…
+Dialogue: 0,0:04:41.93,0:04:43.83,Default,NTP,0,0,0,,超級不可思議的
+Dialogue: 0,0:04:47.10,0:04:50.77,Default,NTP,0,0,0,,啊 對了 等會我要離開一下哦
+Dialogue: 0,0:04:51.17,0:04:54.04,Default,NTP,0,0,0,,啊 你走開的話 下午的練習怎麼辦
+Dialogue: 0,0:04:54.41,0:04:58.31,Default,NTP,0,0,0,,抱歉 我想去布拉諾島買點東西
+Dialogue: 0,0:05:02.28,0:05:03.08,Default,NTP,0,0,0,,小後輩
+Dialogue: 0,0:05:03.55,0:05:04.15,Default,NTP,0,0,0,,在
+Dialogue: 0,0:05:04.55,0:05:07.15,Default,NTP,0,0,0,,乾脆我們也取消下午的練習
+Dialogue: 0,0:05:07.42,0:05:09.35,Default,NTP,0,0,0,,跟在燈裏後面看看吧
+Dialogue: 0,0:05:09.79,0:05:11.69,Default,NTP,0,0,0,,啊 為什麼要這麼做？
+Dialogue: 0,0:05:12.09,0:05:13.93,Default,NTP,0,0,0,,你不想知道燈裏不跟我們在一起的時候
+Dialogue: 0,0:05:14.19,0:05:17.00,Default,NTP,0,0,0,,是怎麼結識朋友的嗎？
+Dialogue: 0,0:05:18.53,0:05:23.44,Default,NTP,0,0,0,,這樣或許能解開燈裏前輩不為人知的秘密呢
+Dialogue: 0,0:05:24.04,0:05:24.94,Default,NTP,0,0,0,,也許吧
+Dialogue: 0,0:05:29.77,0:05:31.44,Default,NTP,0,0,0,,超級瞭解的
+Dialogue: 0,0:05:48.13,0:05:49.43,Default,NTP,0,0,0,,Vaporetto？
+Dialogue: 0,0:05:50.56,0:05:52.03,Default,NTP,0,0,0,,是水上巴士的碼頭吧
+Dialogue: 0,0:05:58.04,0:06:01.11,Default,NTP,0,0,0,,打擾了 請給我兩張全票
+Dialogue: 0,0:06:02.87,0:06:03.84,Default,NTP,0,0,0,,藍華前輩
+Dialogue: 0,0:06:05.04,0:06:05.91,Default,NTP,0,0,0,,給你船票
+Dialogue: 0,0:06:08.68,0:06:11.65,Default,NTP,0,0,0,,不用說目的地嗎？
+Dialogue: 0,0:06:12.08,0:06:13.45,Default,NTP,0,0,0,,超級沒關係的
+Dialogue: 0,0:06:14.02,0:06:17.29,Default,NTP,0,0,0,,因為Vaporetto無論坐到哪都是一個價錢
+Dialogue: 0,0:06:17.56,0:06:19.09,Default,NTP,0,0,0,,哦 這樣啊
+Dialogue: 0,0:06:20.29,0:06:24.66,Default,NTP,0,0,0,,莫非藍華前輩從來沒坐過水上巴士？
+Dialogue: 0,0:06:25.16,0:06:25.93,Default,NTP,0,0,0,,米有！
+Dialogue: 0,0:06:26.33,0:06:30.17,Default,NTP,0,0,0,,代步工具只有鳳尾舟 那是領航員的…
+Dialogue: 0,0:06:30.24,0:06:31.17,Default,NTP,0,0,0,,走了啦
+Dialogue: 0,0:06:31.50,0:06:34.91,Default,NTP,0,0,0,,哎呀～聽我說完嘛 小後輩
+Dialogue: 0,0:06:36.81,0:06:38.91,Default,NTP,0,0,0,,已經變得很暖和了呢
+Dialogue: 0,0:06:39.41,0:06:42.41,Default,NTP,0,0,0,,對啊 外出也沒這麼難受了
+Dialogue: 0,0:07:15.78,0:07:16.45,Default,NTP,0,0,0,,走吧？
+Dialogue: 0,0:07:16.95,0:07:17.92,Default,NTP,0,0,0,,走吧
+Dialogue: 0,0:07:36.27,0:07:40.44,Default,NTP,0,0,0,,什麼嘛 聲音這麼大 速度卻這麼慢
+Dialogue: 0,0:07:40.94,0:07:41.87,Default,NTP,0,0,0,,藍華前輩
+Dialogue: 0,0:07:50.82,0:07:52.72,Default,NTP,0,0,0,,好漂亮的花啊
+Dialogue: 0,0:07:53.82,0:07:55.09,Default,NTP,0,0,0,,啊 謝謝
+Dialogue: 0,0:07:56.15,0:07:58.39,Default,NTP,0,0,0,,那個人她認識嗎
+Dialogue: 0,0:07:58.59,0:08:01.06,Default,NTP,0,0,0,,看不出來啊
+Dialogue: 0,0:08:01.79,0:08:05.13,Default,NTP,0,0,0,,我第一次看到這種花 香味也很不錯呢
+Dialogue: 0,0:08:05.23,0:08:06.23,Default,NTP,0,0,0,,哎呀 是嗎
+Dialogue: 0,0:08:07.13,0:08:09.67,Default,NTP,0,0,0,,這個叫四照花哦
+Dialogue: 0,0:08:09.87,0:08:13.20,Default,NTP,0,0,0,,四照花？這個名字真好聽
+Dialogue: 0,0:08:14.61,0:08:15.47,Default,NTP,0,0,0,,請坐
+Dialogue: 0,0:08:16.04,0:08:17.61,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:08:17.94,0:08:19.44,Default,NTP,0,0,0,,來 請坐請坐
+Dialogue: 0,0:08:19.94,0:08:21.88,Default,NTP,0,0,0,,哎呀 小姐你先請吧
+Dialogue: 0,0:08:22.31,0:08:23.98,Default,NTP,0,0,0,,哪裏 還是您先請吧
+Dialogue: 0,0:08:24.35,0:08:26.05,Default,NTP,0,0,0,,請坐請坐請坐
+Dialogue: 0,0:08:26.45,0:08:28.09,Default,NTP,0,0,0,,大姐姐 這邊
+Dialogue: 0,0:08:28.72,0:08:30.12,Default,NTP,0,0,0,,貓咪也來坐吧
+Dialogue: 0,0:08:36.03,0:08:38.80,Default,NTP,0,0,0,,好 好 亞利亞社長 我這就過去
+Dialogue: 0,0:08:40.23,0:08:43.13,Default,NTP,0,0,0,,一下子就形成了一個小群體呢…
+Dialogue: 0,0:08:43.13,0:08:44.10,Default,NTP,0,0,0,,{\an8\fs26}請坐
+Dialogue: 0,0:08:45.14,0:08:48.17,Default,NTP,0,0,0,,大家應該都是初次見面的人吧
+Dialogue: 0,0:08:48.51,0:08:49.77,Default,NTP,0,0,0,,失禮了
+Dialogue: 0,0:08:50.14,0:08:50.94,Default,NTP,0,0,0,,請坐
+Dialogue: 0,0:08:51.68,0:08:52.61,Default,NTP,0,0,0,,好可愛
+Dialogue: 0,0:08:57.02,0:08:58.02,Default,NTP,0,0,0,,你們到哪去呢？
+Dialogue: 0,0:08:58.42,0:08:59.65,Default,NTP,0,0,0,,去奶奶家
+Dialogue: 0,0:09:00.05,0:09:01.45,Default,NTP,0,0,0,,啊 真好啊
+Dialogue: 0,0:09:02.02,0:09:03.05,Default,NTP,0,0,0,,大姐姐呢
+Dialogue: 0,0:09:03.72,0:09:05.56,Default,NTP,0,0,0,,我去布拉諾島買東西
+Dialogue: 0,0:09:05.69,0:09:07.76,Default,NTP,0,0,0,,看上去超級親密的說
+Dialogue: 0,0:09:08.26,0:09:10.06,Default,NTP,0,0,0,,嗯…是啊…
+Dialogue: 0,0:09:10.86,0:09:13.60,Default,NTP,0,0,0,,話說啊 我們看上去會不會很傻啊
+Dialogue: 0,0:09:15.07,0:09:16.50,Default,NTP,0,0,0,,好像是的
+Dialogue: 0,0:09:18.10,0:09:20.77,Default,NTP,0,0,0,,咋了 咋了 咋咋咋了…
+Dialogue: 0,0:09:20.87,0:09:22.64,Default,NTP,0,0,0,,只是到站了而已
+Dialogue: 0,0:09:23.21,0:09:24.48,Default,NTP,0,0,0,,請冷靜下來
+Dialogue: 0,0:09:25.08,0:09:27.15,Default,NTP,0,0,0,,每次都要撞上去才停啊？
+Dialogue: 0,0:09:28.21,0:09:29.25,Default,NTP,0,0,0,,這是常識
+Dialogue: 0,0:09:37.49,0:09:40.99,Default,NTP,0,0,0,,水上巴士真是讓人昏昏欲睡的交通工具啊…
+Dialogue: 0,0:09:41.76,0:09:43.39,Default,NTP,0,0,0,,快點適應吧
+Dialogue: 0,0:09:46.97,0:09:51.67,Default,NTP,0,0,0,,燈裏前輩不可思議的秘密能解開嗎…
+Dialogue: 0,0:09:53.34,0:09:55.94,Default,NTP,0,0,0,,她又沒有做什麼特別的事情…
+Dialogue: 0,0:09:59.54,0:10:02.91,Default,NTP,0,0,0,,不知不覺啊…有點犯困了
+Dialogue: 0,0:10:04.32,0:10:05.55,Default,NTP,0,0,0,,是啊…
+Dialogue: 0,0:10:09.22,0:10:11.19,Default,NTP,0,0,0,,咋了 咋了 咋咋咋了…
+Dialogue: 0,0:10:12.12,0:10:15.19,Default,NTP,0,0,0,,都跟你說 是到站了啦
+Dialogue: 0,0:10:15.49,0:10:16.73,Default,NTP,0,0,0,,啊…這樣啊
+Dialogue: 0,0:10:18.46,0:10:20.37,Default,NTP,0,0,0,,這東西還真是適應不了啊…
+Dialogue: 0,0:10:20.57,0:10:21.60,Default,NTP,0,0,0,,是嗎？
+Dialogue: 0,0:10:22.20,0:10:23.94,Default,NTP,0,0,0,,嗯…怎麼說呢…
+Dialogue: 0,0:10:24.27,0:10:25.07,Default,NTP,0,0,0,,哦…
+Dialogue: 0,0:10:26.40,0:10:29.67,Default,NTP,0,0,0,,閒適而懷舊 又有點呆呆的
+Dialogue: 0,0:10:30.04,0:10:31.71,Default,NTP,0,0,0,,是說燈裏前輩嗎
+Dialogue: 0,0:10:32.54,0:10:34.08,Default,NTP,0,0,0,,是說水上巴士啦
+Dialogue: 0,0:10:35.71,0:10:36.81,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:10:38.12,0:10:41.62,Default,NTP,0,0,0,,有時一個不注意 就會被「哇」地嚇一跳
+Dialogue: 0,0:10:44.16,0:10:45.69,Default,NTP,0,0,0,,是說水上巴士嗎
+Dialogue: 0,0:10:47.36,0:10:48.56,Default,NTP,0,0,0,,是說燈裏啦
+Dialogue: 0,0:10:49.43,0:10:50.50,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:10:52.30,0:10:53.16,Default,NTP,0,0,0,,抱歉
+Dialogue: 0,0:10:59.64,0:11:01.17,Default,NTP,0,0,0,,好大的皮箱啊
+Dialogue: 0,0:11:03.11,0:11:04.14,Default,NTP,0,0,0,,莫非…
+Dialogue: 0,0:11:05.68,0:11:08.85,Default,NTP,0,0,0,,皮箱裏面放的 說不定是屍體哦
+Dialogue: 0,0:11:11.02,0:11:13.12,Default,NTP,0,0,0,,這是昨天看的偵探小說
+Dialogue: 0,0:11:13.58,0:11:16.89,Default,NTP,0,0,0,,那個人跟書裏的屍體搬運人一模一樣
+Dialogue: 0,0:11:17.42,0:11:19.62,Default,NTP,0,0,0,,屍體…啊
+Dialogue: 0,0:11:22.63,0:11:26.00,Default,NTP,0,0,0,,我只不過是…說說而已
+Dialogue: 0,0:11:29.70,0:11:31.87,Default,NTP,0,0,0,,藍…藍華前輩 那個…
+Dialogue: 0,0:11:34.11,0:11:35.57,Default,NTP,0,0,0,,喂…等等…
+Dialogue: 0,0:11:36.84,0:11:37.81,Default,NTP,0,0,0,,怎麼會這樣…
+Dialogue: 0,0:11:38.71,0:11:39.88,Default,NTP,0,0,0,,她連那個人也…
+Dialogue: 0,0:11:49.42,0:11:50.62,Default,NTP,0,0,0,,聽不到啊…
+Dialogue: 0,0:11:51.22,0:11:52.72,Default,NTP,0,0,0,,他們到底在說什麼啊
+Dialogue: 0,0:11:53.79,0:11:56.56,Default,NTP,0,0,0,,好像在詢問關於皮箱的事情
+Dialogue: 0,0:11:57.63,0:11:59.66,Default,NTP,0,0,0,,超級危險的氣息
+Dialogue: 0,0:12:00.06,0:12:03.37,Default,NTP,0,0,0,,自來熟並不是不好
+Dialogue: 0,0:12:03.77,0:12:05.94,Default,NTP,0,0,0,,但也不能隨便對誰都那樣啊…
+Dialogue: 0,0:12:08.51,0:12:09.51,Default,NTP,0,0,0,,你說怎麼辦
+Dialogue: 0,0:12:09.84,0:12:12.24,Default,NTP,0,0,0,,我們是不是應該過去啊
+Dialogue: 0,0:12:12.71,0:12:13.81,Default,NTP,0,0,0,,說得對啊
+Dialogue: 0,0:12:14.21,0:12:18.55,Default,NTP,0,0,0,,這樣下去 前輩說不定會被捲入什麼事件的
+Dialogue: 0,0:12:18.85,0:12:20.99,Default,NTP,0,0,0,,是啊 好 那就…
+Dialogue: 0,0:12:22.72,0:12:26.72,Default,NTP,0,0,0,,嗚…難道就不能安安靜靜地停船嗎 真是的
+Dialogue: 0,0:12:30.53,0:12:31.70,Default,NTP,0,0,0,,哎呀呀…
+Dialogue: 0,0:12:32.03,0:12:32.90,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:12:34.07,0:12:36.07,Default,NTP,0,0,0,,那個…我們馬上幫你撿起來
+Dialogue: 0,0:12:36.70,0:12:37.64,Default,NTP,0,0,0,,小後輩 那邊
+Dialogue: 0,0:12:37.74,0:12:38.67,Default,NTP,0,0,0,,啊 是
+Dialogue: 0,0:12:39.77,0:12:41.84,Default,NTP,0,0,0,,謝謝了 姬社長
+Dialogue: 0,0:12:44.74,0:12:46.48,Default,NTP,0,0,0,,好 全都撿起來了
+Dialogue: 0,0:12:46.88,0:12:47.91,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:12:48.28,0:12:50.11,Default,NTP,0,0,0,,對不起 妨礙各位了
+Dialogue: 0,0:12:50.48,0:12:51.35,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:12:52.15,0:12:54.02,Default,NTP,0,0,0,,大家 真是不好意思了
+Dialogue: 0,0:12:54.35,0:12:55.15,Default,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:13:03.09,0:13:04.00,Default,NTP,0,0,0,,不見了哦
+Dialogue: 0,0:13:04.70,0:13:06.50,Default,NTP,0,0,0,,屍體男也不見了
+Dialogue: 0,0:13:07.97,0:13:08.87,Default,NTP,0,0,0,,難道說…
+Dialogue: 0,0:13:17.64,0:13:18.71,Default,NTP,0,0,0,,不會吧…
+Dialogue: 0,0:13:19.51,0:13:20.91,Default,NTP,0,0,0,,超級危機的說
+Dialogue: 0,0:13:22.58,0:13:23.82,Default,NTP,0,0,0,,燈裏！
+Dialogue: 0,0:13:24.52,0:13:25.55,Default,NTP,0,0,0,,聽不到的啦
+Dialogue: 0,0:13:25.75,0:13:27.39,Default,NTP,0,0,0,,啊…噪音太大了
+Dialogue: 0,0:13:27.82,0:13:31.99,Default,NTP,0,0,0,,沒辦法 到了下一站馬上轉回來哦
+Dialogue: 0,0:13:32.29,0:13:33.22,Default,NTP,0,0,0,,是！
+Dialogue: 0,0:14:06.99,0:14:08.46,Default,NTP,0,0,0,,他們去哪裏了呢
+Dialogue: 0,0:14:09.23,0:14:11.43,Default,NTP,0,0,0,,現在只能到處找找看了
+Dialogue: 0,0:14:11.93,0:14:14.47,Default,NTP,0,0,0,,是 那我們兵分兩路吧
+Dialogue: 0,0:14:14.77,0:14:18.50,Default,NTP,0,0,0,,那10分鐘後在這裏集合 記住了嗎
+Dialogue: 0,0:14:18.84,0:14:19.80,Default,NTP,0,0,0,,是
+Dialogue: 0,0:14:20.37,0:14:21.14,Default,NTP,0,0,0,,走吧
+Dialogue: 0,0:14:21.44,0:14:22.11,Default,NTP,0,0,0,,是
+Dialogue: 0,0:14:31.75,0:14:32.92,Default,NTP,0,0,0,,剛才好像…
+Dialogue: 0,0:14:33.32,0:14:36.05,Default,NTP,0,0,0,,聽到亞利亞社長的聲音了…
+Dialogue: 0,0:14:36.35,0:14:38.96,Default,NTP,0,0,0,,對 我也聽到了
+Dialogue: 0,0:14:39.56,0:14:40.46,Default,NTP,0,0,0,,是這邊吧
+Dialogue: 0,0:14:41.16,0:14:42.59,Default,NTP,0,0,0,,嗯 大概…
+Dialogue: 0,0:14:43.33,0:14:44.03,Default,NTP,0,0,0,,走吧
+Dialogue: 0,0:14:44.23,0:14:45.10,Default,NTP,0,0,0,,是
+Dialogue: 0,0:14:51.37,0:14:53.47,Default,NTP,0,0,0,,喂 是這邊沒錯吧
+Dialogue: 0,0:14:54.34,0:14:55.24,Default,NTP,0,0,0,,不知道呢
+Dialogue: 0,0:14:56.61,0:14:58.41,Default,NTP,0,0,0,,只有相信自己的感覺了
+Dialogue: 0,0:14:58.91,0:15:00.85,Default,NTP,0,0,0,,FIGHT 藍華前輩！
+Dialogue: 0,0:15:04.45,0:15:06.18,Default,NTP,0,0,0,,你覺得走這邊對嗎
+Dialogue: 0,0:15:06.48,0:15:08.15,Default,NTP,0,0,0,,我完全不清楚…
+Dialogue: 0,0:15:08.45,0:15:10.52,Default,NTP,0,0,0,,啊 燈裏那傢伙真是的
+Dialogue: 0,0:15:10.92,0:15:13.93,Default,NTP,0,0,0,,幹嘛不留下點記號啊 真是的
+Dialogue: 0,0:15:17.63,0:15:19.50,Default,NTP,0,0,0,,好像超級正確的說
+Dialogue: 0,0:15:19.80,0:15:21.50,Default,NTP,0,0,0,,謝謝你 亞利亞社長
+Dialogue: 0,0:15:54.90,0:15:55.87,Default,NTP,0,0,0,,是什麼啊
+Dialogue: 0,0:15:56.53,0:15:57.40,Default,NTP,0,0,0,,不知道…
+Dialogue: 0,0:15:58.07,0:16:01.44,Default,NTP,0,0,0,,不過 好像在哪裏看到過…
+Dialogue: 0,0:16:02.54,0:16:06.08,Default,NTP,0,0,0,,其實我也這麼覺得…真不可思議呢
+Dialogue: 0,0:16:37.98,0:16:39.94,Default,NTP,0,0,0,,真有趣 好像活的一樣
+Dialogue: 0,0:16:49.72,0:16:50.89,Default,NTP,0,0,0,,好可愛
+Dialogue: 0,0:16:56.66,0:17:01.10,Default,NTP,0,0,0,,咦…我以前見過那個人偶…
+Dialogue: 0,0:17:02.23,0:17:05.40,Default,NTP,0,0,0,,我也是 藍華前輩
+Dialogue: 0,0:17:23.72,0:17:27.86,Default,NTP,0,0,0,,難道你是說 我也能玩這個嗎
+Dialogue: 0,0:17:31.33,0:17:34.13,Default,NTP,0,0,0,,是 選哪個好呢…
+Dialogue: 0,0:17:39.04,0:17:39.97,Default,NTP,0,0,0,,這個不錯
+Dialogue: 0,0:17:44.88,0:17:47.95,Default,NTP,0,0,0,,大姐姐也會讓人偶跳舞嗎
+Dialogue: 0,0:17:49.48,0:17:51.62,Default,NTP,0,0,0,,我是第一次玩 不過我會加油的
+Dialogue: 0,0:17:51.95,0:17:53.08,Default,NTP,0,0,0,,加油啊
+Dialogue: 0,0:18:41.43,0:18:45.47,Default,NTP,0,0,0,,對啊…小時候我看過的
+Dialogue: 0,0:18:46.07,0:18:48.81,Default,NTP,0,0,0,,我也…記起來了
+Dialogue: 0,0:18:49.61,0:18:52.18,Default,NTP,0,0,0,,人偶和旅行的大叔
+Dialogue: 0,0:18:59.75,0:19:02.65,Default,NTP,0,0,0,,我跟鄰居的孩子一起去看的
+Dialogue: 0,0:19:03.82,0:19:05.82,Default,NTP,0,0,0,,應該是很快樂的事啊
+Dialogue: 0,0:19:14.87,0:19:17.80,Default,NTP,0,0,0,,藍華 你看你看 好有趣
+Dialogue: 0,0:19:18.10,0:19:19.57,Default,NTP,0,0,0,,啊 真的呢
+Dialogue: 0,0:19:23.61,0:19:26.94,Default,NTP,0,0,0,,愛麗絲 快看 真可愛啊
+Dialogue: 0,0:19:27.44,0:19:29.18,Default,NTP,0,0,0,,嗯 真可愛
+Dialogue: 0,0:19:34.22,0:19:37.59,Default,NTP,0,0,0,,如果燈裏沒跟那個人熟絡起來
+Dialogue: 0,0:19:38.36,0:19:39.69,Default,NTP,0,0,0,,我們都不會發現呢
+Dialogue: 0,0:19:40.29,0:19:44.03,Default,NTP,0,0,0,,我還一直把人家當做屍體搬運人
+Dialogue: 0,0:19:45.86,0:19:47.10,Default,NTP,0,0,0,,尾隨著燈裏
+Dialogue: 0,0:19:47.43,0:19:50.23,Default,NTP,0,0,0,,竟然能與自己遺忘的過去邂逅
+Dialogue: 0,0:19:51.17,0:19:53.10,Default,NTP,0,0,0,,真是難以想像呢
+Dialogue: 0,0:19:54.97,0:19:56.21,Default,NTP,0,0,0,,怎麼說呢
+Dialogue: 0,0:19:57.61,0:19:59.74,Default,NTP,0,0,0,,透過燈裏這個濾光片
+Dialogue: 0,0:20:00.14,0:20:02.18,Default,NTP,0,0,0,,我們能看到原本看不到的東西
+Dialogue: 0,0:20:04.55,0:20:08.25,Default,NTP,0,0,0,,毫不起眼的東西也會開始閃閃發光
+Dialogue: 0,0:20:09.02,0:20:10.92,Default,NTP,0,0,0,,讓人害羞的台詞 禁止！
+Dialogue: 0,0:20:19.20,0:20:23.70,Default,NTP,0,0,0,,真是的 燈裏就是這麼一個奇妙的人啊
+Dialogue: 0,0:20:25.00,0:20:26.54,Default,NTP,0,0,0,,超級同感的說
+Dialogue: 0,0:20:34.58,0:20:36.31,Default,NTP,0,0,0,,她又結識了一個朋友呢
+Dialogue: 0,0:20:37.48,0:20:42.22,Default,NTP,0,0,0,,我似乎明白為何燈裏前輩有這麼多朋友了
+Dialogue: 0,0:20:49.59,0:20:52.83,Default,NTP,0,0,0,,謝謝你 我玩得很開心
+Dialogue: 0,0:20:53.30,0:20:56.53,Default,NTP,0,0,0,,我也是 希望以後還會再見
+Dialogue: 0,0:20:57.07,0:20:57.77,Default,NTP,0,0,0,,哦呀
+Dialogue: 0,0:21:01.57,0:21:03.61,Default,NTP,0,0,0,,藍華 愛麗絲
+Dialogue: 0,0:21:06.44,0:21:07.95,Default,NTP,0,0,0,,你們倆怎麼在這啊
+Dialogue: 0,0:21:08.75,0:21:09.65,Default,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:21:10.08,0:21:11.52,Default,NTP,0,0,0,,超級偶遇而已
+Dialogue: 0,0:21:11.82,0:21:12.95,Default,NTP,0,0,0,,原來是這樣啊
+Dialogue: 0,0:21:46.05,0:21:48.12,Default,NTP,0,0,0,,他說自己是雲遊四方的人偶劇師
+Dialogue: 0,0:21:48.49,0:21:51.29,Default,NTP,0,0,0,,幾年前還來過這個城市
+Dialogue: 0,0:21:51.52,0:21:52.82,Default,NTP,0,0,0,,嗯 知道的
+Dialogue: 0,0:21:53.12,0:21:54.52,Default,NTP,0,0,0,,啊 是嗎
+Dialogue: 0,0:21:55.36,0:21:58.33,Default,NTP,0,0,0,,燈裏 話說回來啊 你的購物計劃呢
+Dialogue: 0,0:21:58.50,0:22:00.16,Default,NTP,0,0,0,,啊 我忘了
+Dialogue: 0,0:22:00.90,0:22:05.30,Default,NTP,0,0,0,,下次再去吧 因為今天得到了美麗的邂逅
+Dialogue: 0,0:22:05.47,0:22:07.04,Default,NTP,0,0,0,,讓人害羞的台詞 禁止！
+Dialogue: 0,0:22:07.17,0:22:08.14,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:22:10.27,0:22:11.48,Default,NTP,0,0,0,,好了 回去吧
+Dialogue: 0,0:22:11.68,0:22:13.28,Default,NTP,0,0,0,,啊 等一下…
+Dialogue: 0,0:22:16.55,0:22:21.18,Default,NTP,0,0,0,,小愛 今天也是充滿了美麗邂逅的一天
+Dialogue: 0,0:22:23.12,0:22:28.26,Default,NTP,0,0,0,,燈裏姐姐的身邊總會聚集著暖洋洋的事情呢
+Dialogue: 0,0:22:29.16,0:22:32.23,Default,NTP,0,0,0,,竟然會和藍華姐姐與愛麗絲姐姐偶遇…
+Dialogue: 0,0:22:33.53,0:22:36.87,Default,NTP,0,0,0,,咦…那真的是偶遇嗎？
+Dialogue: 0,0:24:05.02,0:24:10.03,Default,NTP,0,0,0,,那些 珍貴的光芒中…
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPJP】
+Dialogue: 0,0:01:45.25,0:01:58.13,OPEDJP,NTP,0,0,0,,{\fad(400,400)}窓からそっと 朝陽がのびて
+Dialogue: 0,0:01:59.53,0:02:11.11,OPEDJP,NTP,0,0,0,,{\fad(400,400)}まどろむまつ毛に こぼれてくよ
+Dialogue: 0,0:02:12.48,0:02:26.16,OPEDJP,NTP,0,0,0,,{\fad(400,400)}そよふく風 部屋へと招いて
+Dialogue: 0,0:02:28.19,0:02:38.97,OPEDJP,NTP,0,0,0,,{\fad(400,400)}木漏れ日に 君の寝顔 優しくて
+Dialogue: 0,0:02:36.37,0:02:38.97,OPEDJP,NTP,0,0,0,,{\fad(400,400)\an7}Euforia
+Dialogue: 0,0:02:39.07,0:02:45.31,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いつものありふれた朝だけど
+Dialogue: 0,0:02:46.98,0:02:52.92,OPEDJP,NTP,0,0,0,,{\fad(400,400)}鮮やかに色づいてるよ
+Dialogue: 0,0:02:53.19,0:03:00.39,OPEDJP,NTP,0,0,0,,{\fad(400,400)}それは君と巡り合えた奇跡
+Dialogue: 0,0:03:00.96,0:03:03.93,OPEDJP,NTP,0,0,0,,{\fad(400,400)}ひとりじゃない
+Dialogue: 0,0:03:04.50,0:03:10.70,OPEDJP,NTP,0,0,0,,{\fad(400,400)}君と一緒にいるから
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPCH】
+Dialogue: 0,0:01:45.25,0:01:58.13,OPEDCH,NTP,0,0,0,,{\fad(400,400)}晨曦悄然漫入窗際
+Dialogue: 0,0:01:59.53,0:02:11.11,OPEDCH,NTP,0,0,0,,{\fad(400,400)}灑落在 舒睡的睫毛間
+Dialogue: 0,0:02:12.48,0:02:26.16,OPEDCH,NTP,0,0,0,,{\fad(400,400)}讓輕拂的風吹入小屋
+Dialogue: 0,0:02:28.19,0:02:38.97,OPEDCH,NTP,0,0,0,,{\fad(400,400)}枝葉間滑落的陽光 映襯你的睡顏
+Dialogue: 0,0:02:36.37,0:02:38.97,OPEDCH,NTP,0,0,0,,{\fad(400,400)\an3}Euforia
+Dialogue: 0,0:02:39.07,0:02:45.31,OPEDCH,NTP,0,0,0,,{\fad(400,400)}雖是個平凡無奇的早晨
+Dialogue: 0,0:02:46.98,0:02:52.92,OPEDCH,NTP,0,0,0,,{\fad(400,400)}也染上了艷麗的色彩
+Dialogue: 0,0:02:53.19,0:03:00.39,OPEDCH,NTP,0,0,0,,{\fad(400,400)}那正是與你邂逅的奇跡
+Dialogue: 0,0:03:00.96,0:03:03.93,OPEDCH,NTP,0,0,0,,{\fad(400,400)}我並非孤單一人
+Dialogue: 0,0:03:04.50,0:03:10.70,OPEDCH,NTP,0,0,0,,{\fad(400,400)}因為 有你相伴
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDJP】
+Dialogue: 0,0:22:44.84,0:22:56.19,OPEDJP,NTP,0,0,0,,{\fad(400,400)}白い帽子 追いかけて笑う 響く声は高く
+Dialogue: 0,0:22:56.75,0:23:07.73,OPEDJP,NTP,0,0,0,,{\fad(400,400)}少し早い 夏の訪れに 耳を澄ましたら
+Dialogue: 0,0:23:09.40,0:23:15.64,OPEDJP,NTP,0,0,0,,{\fad(400,400)}ゆっくりと 長くなる影ふたつ
+Dialogue: 0,0:23:15.74,0:23:20.68,OPEDJP,NTP,0,0,0,,{\fad(400,400)}小さな 足音
+Dialogue: 0,0:23:21.98,0:23:27.02,OPEDJP,NTP,0,0,0,,{\fad(400,400)}金色に煌めく 夕暮れる空
+Dialogue: 0,0:23:27.22,0:23:32.72,OPEDJP,NTP,0,0,0,,{\fad(400,400)}波打ち際どこまでも染めて
+Dialogue: 0,0:23:33.82,0:23:38.83,OPEDJP,NTP,0,0,0,,{\fad(400,400)}廻りだす季節の かけらを集めて
+Dialogue: 0,0:23:38.96,0:23:44.30,OPEDJP,NTP,0,0,0,,{\fad(400,400)}そっと触れた指先に感じる
+Dialogue: 0,0:23:45.67,0:23:49.64,OPEDJP,NTP,0,0,0,,{\fad(400,400)}あふれる光の中で
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDCH】
+Dialogue: 0,0:22:44.84,0:22:56.19,OPEDCH,NTP,0,0,0,,{\fad(400,400)}追逐著 白色帽子的笑聲 響徹雲際
+Dialogue: 0,0:22:56.75,0:23:07.73,OPEDCH,NTP,0,0,0,,{\fad(400,400)}傾聽著 過早到來的 夏日之聲
+Dialogue: 0,0:23:09.40,0:23:15.64,OPEDCH,NTP,0,0,0,,{\fad(400,400)}慢慢地 拉長的兩個影子
+Dialogue: 0,0:23:15.74,0:23:20.68,OPEDCH,NTP,0,0,0,,{\fad(400,400)}細碎的 腳步聲
+Dialogue: 0,0:23:21.98,0:23:27.02,OPEDCH,NTP,0,0,0,,{\fad(400,400)}夕陽西下的天空 閃爍著耀眼的金色
+Dialogue: 0,0:23:27.22,0:23:32.72,OPEDCH,NTP,0,0,0,,{\fad(400,400)}映照在波浪間染遍全城
+Dialogue: 0,0:23:33.82,0:23:38.83,OPEDCH,NTP,0,0,0,,{\fad(400,400)}細心收集不斷變換的 季節的碎片
+Dialogue: 0,0:23:38.96,0:23:44.30,OPEDCH,NTP,0,0,0,,{\fad(400,400)}驀然掠過指尖的感觸
+Dialogue: 0,0:23:45.67,0:23:49.64,OPEDCH,NTP,0,0,0,,{\fad(400,400)}消失在泛起的光芒中
+

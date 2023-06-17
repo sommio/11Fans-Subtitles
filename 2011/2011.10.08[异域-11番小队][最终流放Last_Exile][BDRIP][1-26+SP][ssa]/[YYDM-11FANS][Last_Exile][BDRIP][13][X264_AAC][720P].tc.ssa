@@ -1,0 +1,224 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Lyrics,浪漫雅圓,40,&Hffe5ff,&H00ffff,&H000000,&H000000,0,0,1,2,1,2,10,10,5,0,1
+Style: OD,浪漫雅圓,32,&Hffbf3f,&H00ffff,&H000000,&H000000,0,0,1,2,1,6,10,10,12,0,1
+Style: Default,浪漫雅圓,42,&Hffffff,&H00ffff,&H000000,&H000000,0,0,1,2,1,2,10,10,25,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:13.21,0:00:15.27,Default,,0000,0000,0000,,每次都辛苦你了
+Dialogue: Marked=0,0:00:15.38,0:00:17.07,Default,,0000,0000,0000,,哪裡，魏斯洛夫人
+Dialogue: Marked=0,0:00:38.87,0:00:40.93,Default,,0000,0000,0000,,這個月也只有這一點點…
+Dialogue: Marked=0,0:00:44.37,0:00:47.03,Default,,0000,0000,0000,,父親大人的身體還好嗎
+Dialogue: Marked=0,0:00:47.11,0:00:51.24,Default,,0000,0000,0000,,這次我所乘坐的船艦\N在結束了嚴格的訓練後
+Dialogue: Marked=0,0:00:51.31,0:00:55.65,Default,,0000,0000,0000,,終於得以被編入\N皇帝陛下所屬的艦隊
+Dialogue: Marked=0,0:00:55.85,0:00:58.22,Default,,0000,0000,0000,,船員們的士氣都十分高昂
+Dialogue: Marked=0,0:00:58.29,0:01:03.31,Default,,0000,0000,0000,,相信在與度西斯的戰役中\N一定可以獲得好的戰果
+Dialogue: Marked=0,0:01:03.39,0:01:07.26,Default,,0000,0000,0000,,為了不負官校首席生之名
+Dialogue: Marked=0,0:01:07.33,0:01:10.16,Default,,0000,0000,0000,,也為了魏斯洛家的名譽
+Dialogue: Marked=0,0:01:10.23,0:01:12.13,Default,,0000,0000,0000,,我會更勵精圖治
+Dialogue: Marked=0,0:01:12.20,0:01:18.37,Default,,0000,0000,0000,,好早日成為一名可以帶艦的\N出色的安那托勒軍人
+Dialogue: Marked=0,0:01:18.97,0:01:21.50,Default,,0000,0000,0000,,好早日成為一名\N出色的安那托勒軍人
+Dialogue: Marked=0,0:01:21.58,0:01:23.51,Default,,0000,0000,0000,,我正在為此加緊努力
+Dialogue: Marked=0,0:01:23.58,0:01:26.51,Default,,0000,0000,0000,,不過請不要為我擔心
+Dialogue: Marked=0,0:01:26.58,0:01:28.67,Default,,0000,0000,0000,,我可以撐過去的
+Dialogue: Marked=0,0:01:31.49,0:01:35.39,Default,,0000,0000,0000,,因為我身邊永遠有\N我最好的摯友艾麗絲蒂亞
+Dialogue: Marked=0,0:01:37.59,0:01:41.12,Default,,0000,0000,0000,,因為我身邊永遠有\N我最好的摯友艾麗絲蒂亞
+Dialogue: Marked=0,0:01:41.20,0:01:44.82,Default,,0000,0000,0000,,所以…我可以撐過去的
+Dialogue: Marked=0,0:01:53.27,0:01:56.64,Lyrics,,0000,0000,0000,,just keep on trying, keep on flying\N{\c&HFFBF00&}just keep on trying, keep on flying
+Dialogue: Marked=0,0:01:56.71,0:01:59.87,Lyrics,,0000,0000,0000,,I will be the light\N{\c&HFFBF00&}I will be the light
+Dialogue: Marked=0,0:02:00.31,0:02:07.08,Lyrics,,0000,0000,0000,,如果說把黎明　當作是一個開始\N{\c&HFFBF00&}夜明けをひと　つの始まりとするなら
+Dialogue: Marked=0,0:02:07.46,0:02:14.26,Lyrics,,0000,0000,0000,,如果說現在就是來臨的時刻\N{\c&HFFBF00&}今が来るべき時だとするなら
+Dialogue: Marked=0,0:02:14.60,0:02:19.29,Lyrics,,0000,0000,0000,,與你的煙雲時代交響曲 飛向雲海的彼端 \N{\c&HFFBF00&}君とのCloud Age Symphony  雲の海の向こうに
+Dialogue: Marked=0,0:02:19.37,0:02:28.67,Lyrics,,0000,0000,0000,,飛往光芒照射的方向\N{\c&HFFBF00&}光が射す方へ
+Dialogue: Marked=0,0:02:30.14,0:02:43.46,Lyrics,,0000,0000,0000,,Ah～是否可以遇見有如魔法的那瞬間？\N{\c&HFFBF00&}Ah～魔法のような一瞬に会えるのか？
+Dialogue: Marked=0,0:02:43.52,0:02:57.96,Lyrics,,0000,0000,0000,,取代寒冷的黑夜  我倆展翅飛翔\N{\c&HFFBF00&}冷たい夜を引き替えに  二人は羽ばたいて
+Dialogue: Marked=0,0:02:58.04,0:03:08.44,Lyrics,,0000,0000,0000,,在那盡頭  抓住了永恆…\N{\c&HFFBF00&}永远を掴む、その果てには
+Dialogue: Marked=0,0:03:22.26,0:03:24.99,Default,,0000,0000,0000,,{\c&H8dccf0&}孤立的小兵\NIsolated pawn
+Dialogue: Marked=0,0:03:27.13,0:03:28.60,Default,,0000,0000,0000,,最大航速
+Dialogue: Marked=0,0:03:38.18,0:03:39.24,Default,,0000,0000,0000,,引擎被…
+Dialogue: Marked=0,0:03:39.41,0:03:41.47,Default,,0000,0000,0000,,不要說話，當心咬到舌頭
+Dialogue: Marked=0,0:03:44.92,0:03:45.98,Default,,0000,0000,0000,,塔琪安娜機中彈
+Dialogue: Marked=0,0:03:46.05,0:03:47.18,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:03:47.39,0:03:49.55,Default,,0000,0000,0000,,與烏爾班號距離兩百
+Dialogue: Marked=0,0:03:49.96,0:03:52.76,Default,,0000,0000,0000,,發射多管噴射破甲彈
+Dialogue: Marked=0,0:04:01.87,0:04:02.84,Default,,0000,0000,0000,,掉頭
+Dialogue: Marked=0,0:04:03.10,0:04:04.87,Default,,0000,0000,0000,,掉頭，迴避
+Dialogue: Marked=0,0:04:08.94,0:04:09.84,Default,,0000,0000,0000,,拉薇
+Dialogue: Marked=0,0:04:09.94,0:04:11.38,Default,,0000,0000,0000,,我們快離開這裡
+Dialogue: Marked=0,0:04:11.45,0:04:13.21,Default,,0000,0000,0000,,去找個安全的地方
+Dialogue: Marked=0,0:04:21.46,0:04:22.68,Default,,0000,0000,0000,,拉薇
+Dialogue: Marked=0,0:04:23.22,0:04:24.95,Default,,0000,0000,0000,,拉薇，醒醒啊
+Dialogue: Marked=0,0:04:25.86,0:04:27.19,Default,,0000,0000,0000,,拉薇
+Dialogue: Marked=0,0:04:28.23,0:04:30.93,Default,,0000,0000,0000,,不行，拉不起來了
+Dialogue: Marked=0,0:04:35.44,0:04:36.16,Default,,0000,0000,0000,,艾兒…
+Dialogue: Marked=0,0:04:36.24,0:04:37.90,Default,,0000,0000,0000,,拉薇
+Dialogue: Marked=0,0:04:40.11,0:04:41.23,Default,,0000,0000,0000,,銀之戰艦它…
+Dialogue: Marked=0,0:04:46.71,0:04:47.54,Default,,0000,0000,0000,,艾麗絲
+Dialogue: Marked=0,0:04:51.82,0:04:53.15,Default,,0000,0000,0000,,烏爾班號
+Dialogue: Marked=0,0:04:55.39,0:04:56.65,Default,,0000,0000,0000,,要撞上去了
+Dialogue: Marked=0,0:04:56.76,0:04:57.78,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:05:19.58,0:05:20.41,Default,,0000,0000,0000,,有爆炸聲
+Dialogue: Marked=0,0:05:20.48,0:05:21.91,Default,,0000,0000,0000,,還有船身的斷裂聲
+Dialogue: Marked=0,0:05:22.02,0:05:25.54,Default,,0000,0000,0000,,失去銀之戰艦蹤跡
+Dialogue: Marked=0,0:05:28.16,0:05:30.72,Default,,0000,0000,0000,,看來我的仕途就到此為止了
+Dialogue: Marked=0,0:05:33.69,0:05:35.82,Default,,0000,0000,0000,,把操縱桿推到底
+Dialogue: Marked=0,0:05:37.13,0:05:40.00,Default,,0000,0000,0000,,接著把左邊的踏板用力踩下去
+Dialogue: Marked=0,0:05:42.10,0:05:43.13,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:05:44.41,0:05:45.74,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:05:50.11,0:05:51.27,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:06:24.08,0:06:25.57,Default,,0000,0000,0000,,拉起操縱桿
+Dialogue: Marked=0,0:06:25.65,0:06:27.01,Default,,0000,0000,0000,,塔琪安娜‧魏斯洛
+Dialogue: Marked=0,0:07:06.02,0:07:06.99,Default,,0000,0000,0000,,是飛鳥…
+Dialogue: Marked=0,0:07:13.89,0:07:15.89,Default,,0000,0000,0000,,神經還真大條
+Dialogue: Marked=0,0:08:00.41,0:08:02.31,Default,,0000,0000,0000,,左邊的引擎也掛了
+Dialogue: Marked=0,0:08:23.00,0:08:23.96,Default,,0000,0000,0000,,不
+Dialogue: Marked=0,0:08:43.68,0:08:45.81,Default,,0000,0000,0000,,起床囉，貪睡鬼
+Dialogue: Marked=0,0:08:51.49,0:08:54.19,Default,,0000,0000,0000,,為了不負官校首席生之名
+Dialogue: Marked=0,0:08:54.26,0:08:57.13,Default,,0000,0000,0000,,也為了魏斯洛家的名譽
+Dialogue: Marked=0,0:08:57.20,0:08:59.00,Default,,0000,0000,0000,,我會更勵精圖治
+Dialogue: Marked=0,0:08:59.07,0:09:05.47,Default,,0000,0000,0000,,好早日成為一名可以帶艦的\N出色的安那托勒軍人
+Dialogue: Marked=0,0:09:06.41,0:09:07.67,Default,,0000,0000,0000,,母親大人…
+Dialogue: Marked=0,0:09:09.91,0:09:11.47,Default,,0000,0000,0000,,我可以撐過去的
+Dialogue: Marked=0,0:09:12.31,0:09:15.98,Default,,0000,0000,0000,,因為我身邊永遠有\N我最好的摯友艾麗絲蒂亞
+Dialogue: Marked=0,0:09:59.43,0:10:00.29,Default,,0000,0000,0000,,可以了
+Dialogue: Marked=0,0:10:28.82,0:10:31.55,Default,,0000,0000,0000,,快拉節流閥呀，塔琪安娜
+Dialogue: Marked=0,0:10:32.76,0:10:34.13,Default,,0000,0000,0000,,反正也沒用
+Dialogue: Marked=0,0:10:39.37,0:10:40.33,Default,,0000,0000,0000,,不行
+Dialogue: Marked=0,0:10:40.90,0:10:43.06,Default,,0000,0000,0000,,克勞地亞液不夠
+Dialogue: Marked=0,0:11:14.64,0:11:15.60,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:11:18.34,0:11:21.90,Default,,0000,0000,0000,,這次我所乘坐的船艦\N在結束了嚴格的訓練後
+Dialogue: Marked=0,0:11:21.98,0:11:26.04,Default,,0000,0000,0000,,終於得以被編入\N皇帝陛下所屬的艦隊
+Dialogue: Marked=0,0:11:26.45,0:11:28.78,Default,,0000,0000,0000,,船員們的士氣都十分高昂
+Dialogue: Marked=0,0:11:28.85,0:11:33.81,Default,,0000,0000,0000,,相信在與度西斯的戰役中\N一定可以獲得好的戰果
+Dialogue: Marked=0,0:11:35.92,0:11:37.55,Default,,0000,0000,0000,,銀之戰艦…
+Dialogue: Marked=0,0:11:39.56,0:11:40.65,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:11:54.91,0:11:56.03,Default,,0000,0000,0000,,星星…
+Dialogue: Marked=0,0:11:56.48,0:11:59.00,Default,,0000,0000,0000,,星星變得不可靠起來了
+Dialogue: Marked=0,0:11:59.08,0:12:00.67,Default,,0000,0000,0000,,艾麗絲蒂亞她曾這麼說過
+Dialogue: Marked=0,0:12:01.12,0:12:03.91,Default,,0000,0000,0000,,銀之戰艦沈沒了
+Dialogue: Marked=0,0:12:04.12,0:12:06.78,Default,,0000,0000,0000,,大家都不在了
+Dialogue: Marked=0,0:12:10.16,0:12:11.95,Default,,0000,0000,0000,,我們去找銀之戰艦
+Dialogue: Marked=0,0:12:12.26,0:12:14.75,Default,,0000,0000,0000,,我相信…大家一定都還活著
+Dialogue: Marked=0,0:12:43.52,0:12:44.49,Default,,0000,0000,0000,,快一點
+Dialogue: Marked=0,0:13:00.24,0:13:01.30,Default,,0000,0000,0000,,不用道謝
+Dialogue: Marked=0,0:13:01.38,0:13:03.24,Default,,0000,0000,0000,,沒時間了，快點走吧
+Dialogue: Marked=0,0:13:39.41,0:13:40.94,Default,,0000,0000,0000,,要發射了，快退後
+Dialogue: Marked=0,0:14:07.37,0:14:08.43,Default,,0000,0000,0000,,輸出功率下降
+Dialogue: Marked=0,0:14:08.58,0:14:10.01,Default,,0000,0000,0000,,量體平衡開始瓦解
+Dialogue: Marked=0,0:14:41.34,0:14:42.71,Default,,0000,0000,0000,,請忍耐一下
+Dialogue: Marked=0,0:14:43.04,0:14:46.95,Default,,0000,0000,0000,,如果少了這水\N先鋒艇就飛不起來了
+Dialogue: Marked=0,0:15:01.93,0:15:03.23,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:15:03.63,0:15:04.72,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:15:08.54,0:15:10.06,Default,,0000,0000,0000,,快幫忙抓住牠
+Dialogue: Marked=0,0:15:10.20,0:15:13.04,Default,,0000,0000,0000,,可以騎著這個…走出沙漠…
+Dialogue: Marked=0,0:15:19.01,0:15:20.10,Default,,0000,0000,0000,,克勞士？
+Dialogue: Marked=0,0:15:23.32,0:15:24.38,Default,,0000,0000,0000,,克勞士
+Dialogue: Marked=0,0:15:25.22,0:15:26.05,Default,,0000,0000,0000,,鳥呢！？
+Dialogue: Marked=0,0:15:27.75,0:15:28.88,Default,,0000,0000,0000,,好痛
+Dialogue: Marked=0,0:16:10.93,0:16:14.92,Default,,0000,0000,0000,,塔琪安娜\N妳為什麼會坐上銀之戰艦啊
+Dialogue: Marked=0,0:16:15.04,0:16:17.80,Default,,0000,0000,0000,,因為我沒別的地方好待
+Dialogue: Marked=0,0:16:19.14,0:16:21.87,Default,,0000,0000,0000,,塔琪安娜妳是出身貴族對不對
+Dialogue: Marked=0,0:16:22.04,0:16:23.20,Default,,0000,0000,0000,,怎麼說
+Dialogue: Marked=0,0:16:24.61,0:16:27.14,Default,,0000,0000,0000,,因為我看妳對水不是那麼在乎
+Dialogue: Marked=0,0:16:27.31,0:16:28.68,Default,,0000,0000,0000,,所以我才這麼猜想
+Dialogue: Marked=0,0:16:28.78,0:16:30.81,Default,,0000,0000,0000,,沒錯，我是貴族
+Dialogue: Marked=0,0:16:31.08,0:16:33.95,Default,,0000,0000,0000,,不過我們家是那種\N沒辦法遷往新的上層土地
+Dialogue: Marked=0,0:16:34.02,0:16:38.15,Default,,0000,0000,0000,,只能留在舊市區的沒落貴族
+Dialogue: Marked=0,0:16:38.96,0:16:42.26,Default,,0000,0000,0000,,雖然我在官校還曾經拼到榜首
+Dialogue: Marked=0,0:16:42.96,0:16:43.76,Default,,0000,0000,0000,,別看我這樣
+Dialogue: Marked=0,0:16:43.83,0:16:46.96,Default,,0000,0000,0000,,我當時可是個\N拿獎學金的資優生呢
+Dialogue: Marked=0,0:16:47.03,0:16:48.73,Default,,0000,0000,0000,,妳真厲害
+Dialogue: Marked=0,0:16:49.30,0:16:53.07,Default,,0000,0000,0000,,我自以為是資優生\N被捧一下就不知天高地厚
+Dialogue: Marked=0,0:16:55.48,0:16:59.71,Default,,0000,0000,0000,,看來我是太小看軍隊的訓練了
+Dialogue: Marked=0,0:17:05.49,0:17:10.98,Default,,0000,0000,0000,,或許沒落貴族無論到哪兒去\N都只有沒落一途吧
+Dialogue: Marked=0,0:17:13.96,0:17:15.05,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:17:16.46,0:17:21.80,Default,,0000,0000,0000,,我父親和拉薇的父親\N都是先鋒艇駕駛員
+Dialogue: Marked=0,0:17:21.90,0:17:22.93,Default,,0000,0000,0000,,這樣啊
+Dialogue: Marked=0,0:17:23.00,0:17:27.03,Default,,0000,0000,0000,,但就在他們要送和平書簡\N到度西斯的時候…
+Dialogue: Marked=0,0:17:27.11,0:17:28.70,Default,,0000,0000,0000,,你說的是漢密克‧沃卡嗎
+Dialogue: Marked=0,0:17:28.84,0:17:30.83,Default,,0000,0000,0000,,妳知道我父親嗎
+Dialogue: Marked=0,0:17:30.98,0:17:33.97,Default,,0000,0000,0000,,漢密克‧沃卡和喬治‧海德
+Dialogue: Marked=0,0:17:34.05,0:17:36.81,Default,,0000,0000,0000,,只要是先鋒艇駕駛員\N沒有人不知道他們的大名
+Dialogue: Marked=0,0:17:38.62,0:17:40.42,Default,,0000,0000,0000,,希望有一天
+Dialogue: Marked=0,0:17:40.49,0:17:43.42,Default,,0000,0000,0000,,我也能和拉薇一起到那裡闖闖
+Dialogue: Marked=0,0:17:46.69,0:17:50.42,Default,,0000,0000,0000,,大風暴區是一個\N拒絕所有東西進入的怪獸
+Dialogue: Marked=0,0:17:50.50,0:17:53.30,Default,,0000,0000,0000,,甚至連銀之戰艦\N在那裡都曾受過很大的損傷
+Dialogue: Marked=0,0:17:53.37,0:17:55.73,Default,,0000,0000,0000,,換了先鋒艇的話\N連三分鐘都撐不過
+Dialogue: Marked=0,0:17:55.84,0:17:59.03,Default,,0000,0000,0000,,在有如怪物一般的狂風裡\N機身不斷發出悲鳴
+Dialogue: Marked=0,0:17:59.11,0:18:02.34,Default,,0000,0000,0000,,我因為不想認輸\N所以緊緊抓著操縱桿不放
+Dialogue: Marked=0,0:18:02.41,0:18:04.54,Default,,0000,0000,0000,,可是機身彷彿就像要解體似的
+Dialogue: Marked=0,0:18:04.61,0:18:07.24,Default,,0000,0000,0000,,外板一片接一片的被吹走…
+Dialogue: Marked=0,0:18:12.02,0:18:13.38,Default,,0000,0000,0000,,克勞士
+Dialogue: Marked=0,0:18:13.45,0:18:16.48,Default,,0000,0000,0000,,過去我只有從先鋒艇\N參賽者之間聽過這個傳聞
+Dialogue: Marked=0,0:18:16.56,0:18:21.02,Default,,0000,0000,0000,,要不就是從一些吹牛故事裡\N聽過大風暴區的事情
+Dialogue: Marked=0,0:18:21.09,0:18:25.46,Default,,0000,0000,0000,,但我這還是頭一次聽到\N實際去過那裡的人的經驗談
+Dialogue: Marked=0,0:18:25.83,0:18:29.00,Default,,0000,0000,0000,,爸爸他們實在是太厲害了
+Dialogue: Marked=0,0:18:31.10,0:18:32.40,Default,,0000,0000,0000,,是很厲害
+Dialogue: Marked=0,0:18:35.81,0:18:37.17,Default,,0000,0000,0000,,我要作繞流處理
+Dialogue: Marked=0,0:18:37.28,0:18:40.30,Default,,0000,0000,0000,,克勞地亞液的循環距離\N可能不太夠
+Dialogue: Marked=0,0:18:40.38,0:18:42.35,Default,,0000,0000,0000,,不過只要儘量多繞幾圈
+Dialogue: Marked=0,0:18:42.42,0:18:45.35,Default,,0000,0000,0000,,應該還是可以浮起\N一個人的高度
+Dialogue: Marked=0,0:18:50.82,0:18:51.76,Default,,0000,0000,0000,,情況如何
+Dialogue: Marked=0,0:18:52.06,0:18:55.65,Default,,0000,0000,0000,,750…1000…1500
+Dialogue: Marked=0,0:18:55.73,0:18:57.32,Default,,0000,0000,0000,,只要能到達2500轉
+Dialogue: Marked=0,0:18:57.40,0:18:59.02,Default,,0000,0000,0000,,並能夠維持馬力\N不至於突然下降
+Dialogue: Marked=0,0:18:59.10,0:19:00.07,Default,,0000,0000,0000,,就沒問題了
+Dialogue: Marked=0,0:19:00.33,0:19:04.46,Default,,0000,0000,0000,,2000…2250…2500
+Dialogue: Marked=0,0:19:04.54,0:19:07.34,Default,,0000,0000,0000,,我們可是犧牲了珍貴的飲水\N選擇把它用在克勞地亞上
+Dialogue: Marked=0,0:19:07.41,0:19:08.87,Default,,0000,0000,0000,,加油啊，先鋒艇
+Dialogue: Marked=0,0:19:08.94,0:19:12.24,Default,,0000,0000,0000,,2300…2280
+Dialogue: Marked=0,0:19:15.48,0:19:17.92,Default,,0000,0000,0000,,塔琪安娜，妳先上去
+Dialogue: Marked=0,0:19:19.49,0:19:20.45,Default,,0000,0000,0000,,那個位子是…
+Dialogue: Marked=0,0:19:20.65,0:19:21.62,Default,,0000,0000,0000,,塔琪安娜
+Dialogue: Marked=0,0:19:21.69,0:19:23.49,Default,,0000,0000,0000,,你來坐前座
+Dialogue: Marked=0,0:19:28.80,0:19:29.99,Default,,0000,0000,0000,,辛苦你了
+Dialogue: Marked=0,0:19:30.30,0:19:31.86,Default,,0000,0000,0000,,紅色先鋒艇
+Dialogue: Marked=0,0:19:35.80,0:19:37.36,Default,,0000,0000,0000,,我們到防空站去
+Dialogue: Marked=0,0:19:38.21,0:19:39.50,Default,,0000,0000,0000,,我想起來了
+Dialogue: Marked=0,0:19:39.57,0:19:42.67,Default,,0000,0000,0000,,附近有銀之戰艦的\N緊急避難防空站
+Dialogue: Marked=0,0:19:42.74,0:19:46.01,Default,,0000,0000,0000,,只要到那裡\N就可以獲得補給和維修
+Dialogue: Marked=0,0:19:46.11,0:19:50.61,Default,,0000,0000,0000,,以前方的弧形岩石為標的\N轉到2點鐘方向
+Dialogue: Marked=0,0:19:50.68,0:19:51.55,Default,,0000,0000,0000,,暸解
+Dialogue: Marked=0,0:20:12.71,0:20:13.70,Default,,0000,0000,0000,,找到了
+Dialogue: Marked=0,0:20:13.81,0:20:16.44,Default,,0000,0000,0000,,標的在前方2點鐘方向
+Dialogue: Marked=0,0:20:16.51,0:20:18.50,Default,,0000,0000,0000,,暸解，舵轉2點方向
+Dialogue: Marked=0,0:20:34.19,0:20:34.96,Default,,0000,0000,0000,,就是那個
+Dialogue: Marked=0,0:20:45.57,0:20:46.66,Default,,0000,0000,0000,,度西斯兵
+Dialogue: Marked=0,0:21:03.56,0:21:04.58,Default,,0000,0000,0000,,克勞士
+Dialogue: Marked=0,0:21:05.93,0:21:07.29,Default,,0000,0000,0000,,塔琪安娜…
+Dialogue: Marked=0,0:21:22.81,0:21:23.83,Default,,0000,0000,0000,,是女孩子！？
+Dialogue: Marked=0,0:22:35.72,0:22:39.98,Lyrics,,0000,0000,0000,,黑夜的時光逐漸逼近\N{\c&HFFBF00&}夜の時間が迫り来る
+Dialogue: Marked=0,0:22:41.69,0:22:46.63,Lyrics,,0000,0000,0000,,你離我如此接近感覺  卻好遠…\N{\c&HFFBF00&}あなたはこんな近く でも遠い…
+Dialogue: Marked=0,0:22:46.69,0:22:51.93,Lyrics,,0000,0000,0000,,你的憧憬是什麼\N{\c&HFFBF00&}何に憧れて
+Dialogue: Marked=0,0:22:52.00,0:22:57.77,Lyrics,,0000,0000,0000,,心中想的又是誰\N{\c&HFFBF00&}だれを想うのか
+Dialogue: Marked=0,0:22:57.84,0:23:03.30,Lyrics,,0000,0000,0000,,你奮不顧身的身影\N{\c&HFFBF00&}いのち賭ける姿
+Dialogue: Marked=0,0:23:03.38,0:23:12.22,Lyrics,,0000,0000,0000,,有一種透明的美麗  令我噤聲無言\N{\c&HFFBF00&}透き通る美しさに 言葉を飲んだ
+Dialogue: Marked=0,0:23:12.29,0:23:18.09,Lyrics,,0000,0000,0000,,如果你欲飛往天際\N{\c&HFFBF00&}あなたが空を行くなら
+Dialogue: Marked=0,0:23:18.16,0:23:23.96,Lyrics,,0000,0000,0000,,我願成為你的翅膀\N{\c&HFFBF00&}わたしは翼になりたい
+Dialogue: Marked=0,0:23:24.03,0:23:29.87,Lyrics,,0000,0000,0000,,無論風有多麼強\N{\c&HFFBF00&}どんなに強い風にも
+Dialogue: Marked=0,0:23:29.94,0:23:35.60,Lyrics,,0000,0000,0000,,也永遠不會折斷的柔婉翅膀\N{\c&HFFBF00&}けして折れない しなやかな羽
+Dialogue: Marked=0,0:23:35.68,0:23:47.45,Lyrics,,0000,0000,0000,,相信有一天  我會擁有那樣一對翅膀\N{\c&HFFBF00&}いつか　きっと持つから
+Dialogue: Marked=0,0:23:51.83,0:23:53.66,Default,,0000,0000,0000,,(下回預告)
+Dialogue: Marked=0,0:23:53.73,0:23:55.52,Default,,0000,0000,0000,,爸爸，一路順風哦
+Dialogue: Marked=0,0:23:55.60,0:23:57.03,Default,,0000,0000,0000,,一路順風
+Dialogue: Marked=0,0:23:57.10,0:24:00.53,Default,,0000,0000,0000,,回來以後要再讓我坐先鋒艇唷
+Dialogue: Marked=0,0:24:03.17,0:24:05.64,Default,,0000,0000,0000,,好棒哦，是英麥曼式迴轉
+Dialogue: Marked=0,0:24:09.44,0:24:12.41,Default,,0000,0000,0000,,下一回，最後流亡 第14話
+Dialogue: Marked=0,0:24:12.48,0:24:13.88,Default,,0000,0000,0000,,拉薇練習曲\NEtude Lavie
+Dialogue: Marked=0,0:24:13.95,0:24:17.04,Default,,0000,0000,0000,,聽到爸爸他們死訊的時候
+Dialogue: Marked=0,0:24:17.12,0:24:19.92,Default,,0000,0000,0000,,當時的天空好藍…好高…

@@ -1,0 +1,118 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Danna S1
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,8,134
+Style: zhushi,FZZhunYuan-M02,20,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,7,10,30,10,134
+Style: biaoti,方正粗倩_GBK,30,&H00F9F9F9,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: biaoti2,方正康体_GBK,30,&H001E1E1E,&HF0000000,&H00F8F8F8,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: ed,FZCuYuan-M03,25,&H009D9EFF,&HF06060F4,&H00FFFFFF,&HF0000000,-1,0,0,0,100,100,0,0,1,5,0,2,30,30,2,134
+Style: Warning,FZZhunYuan-M02,15,&H00FFFFFF,&H000000FF,&H00000000,&H3C000000,0,0,0,0,100,100,0,0,1,1,1,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:43.85,0:00:46.35,Warning,,0,0,0,,{\an8}{\fad(400,600)}本片字幕由異域字幕組(http://www.yyman.com.cn)製作,僅供試看之用,請在24小時內刪除.
+Dialogue: 0,0:00:47.86,0:00:49.98,Warning,,0,0,0,,{\an8}{\fad(400,600)}如果喜歡本作品,請購買並支持正版!如因私自散佈造成的法律問題,本字幕組恕不負責.
+Dialogue: 0,0:00:07.23,0:00:10.23,biaoti,NTP,0,0,0,,{\pos(229,175)}關於完全聽不懂老公在說什麼的事
+Dialogue: 0,0:00:02.15,0:00:03.81,Default,NTP,0,0,0,,這個點了 誰呢
+Dialogue: 0,0:00:03.98,0:00:04.98,Default,NTP,0,0,0,,{\fn@方正准圆_GBK\frz270\pos(65,160)}房間破壞者
+Dialogue: 0,0:00:06.18,0:00:07.15,Default,NTP,0,0,0,,開門 隆
+Dialogue: 0,0:00:07.23,0:00:10.23,biaoti2,NTP,0,0,0,,{\pos(153,306)}近在咫尺\N遠在天邊的孩子
+Dialogue: 0,0:00:10.40,0:00:12.72,Default,NTP,0,0,0,,為什麼不告訴我你找到工作了
+Dialogue: 0,0:00:12.78,0:00:13.92,Default,NTP,0,0,0,,我忘了
+Dialogue: 0,0:00:14.13,0:00:17.02,Default,NTP,0,0,0,,媽媽我高興的坐不住了
+Dialogue: 0,0:00:17.02,0:00:18.18,Default,NTP,0,0,0,,所以就把門搞壞了？
+Dialogue: 0,0:00:18.39,0:00:21.73,Default,NTP,0,0,0,,從以前你就什麼大事都不說
+Dialogue: 0,0:00:22.14,0:00:22.87,Default,NTP,0,0,0,,抱歉……
+Dialogue: 0,0:00:22.91,0:00:25.83,Default,NTP,0,0,0,,但是就算到了青春期也是個老實的好孩子
+Dialogue: 0,0:00:25.92,0:00:27.41,Default,NTP,0,0,0,,因為絕對贏不了她啊……
+Dialogue: 0,0:00:28.17,0:00:29.44,Default,NTP,0,0,0,,話說 隆
+Dialogue: 0,0:00:30.12,0:00:31.37,Default,NTP,0,0,0,,還沒有孩子嗎
+Dialogue: 0,0:00:31.51,0:00:35.64,Default,NTP,0,0,0,,孩子？就連我也知道不能和小學生結婚啊
+Dialogue: 0,0:00:35.72,0:00:37.18,Default,NTP,0,0,0,,是你和老婆的孩子！
+Dialogue: 0,0:00:37.34,0:00:39.89,Default,NTP,0,0,0,,蛋黃蛋氏會給我生上三個左右的
+Dialogue: 0,0:00:40.04,0:00:41.39,Default,NTP,0,0,0,,陽太是男孩子才對吧！
+Dialogue: 0,0:00:39.93,0:00:41.39,zhushi,NTP,0,0,0,,陽太是蛋黃蛋君的原名 順帶老公的本名應該是十一（tsunashi hajime）才對 動畫有出入
+Dialogue: 0,0:00:41.52,0:00:42.52,Default,NTP,0,0,0,,{\fn@方正准圆_GBK\frz270\fs15\pos(622,188)}三木桑 差不多該造個人了吧
+Dialogue: 0,0:00:42.70,0:00:45.27,Default,NTP,0,0,0,,唉 今天你媽媽來給你慶祝了啊
+Dialogue: 0,0:00:45.35,0:00:47.80,Default,NTP,0,0,0,,但她的口氣是「今天咒死你」
+Dialogue: 0,0:00:48.33,0:00:48.83,Default,NTP,0,0,0,,薰
+Dialogue: 0,0:00:50.09,0:00:51.20,Default,NTP,0,0,0,,你想要孩子嗎
+Dialogue: 0,0:00:52.22,0:00:55.08,Default,NTP,0,0,0,,你知道嗎！和小學生是沒法結婚的！
+Dialogue: 0,0:00:55.15,0:00:57.03,Default,NTP,0,0,0,,啊 真的是我老婆
+Dialogue: 0,0:00:57.30,0:00:58.46,Default,NTP,0,0,0,,孩子啊……
+Dialogue: 0,0:00:58.67,0:01:01.24,Default,NTP,0,0,0,,養孩子的時間啊 放產假啊
+Dialogue: 0,0:01:01.38,0:01:02.45,Default,NTP,0,0,0,,我想多學學……
+Dialogue: 0,0:01:02.52,0:01:04.82,Default,NTP,0,0,0,,而且根本想不到自己去為人母
+Dialogue: 0,0:01:05.22,0:01:06.79,Default,NTP,0,0,0,,你怎麼想的？
+Dialogue: 0,0:01:08.01,0:01:10.80,Default,NTP,0,0,0,,啊 完蛋了 這傢伙比我還想像不到
+Dialogue: 0,0:01:11.26,0:01:13.01,Default,NTP,0,0,0,,總之先別抽煙了
+Dialogue: 0,0:01:13.33,0:01:15.05,Default,NTP,0,0,0,,我 我知道的啊當然知道！
+Dialogue: 0,0:01:16.30,0:01:20.35,Default,NTP,0,0,0,,孩子啊……本來望就沒那麼推我
+Dialogue: 0,0:01:16.13,0:01:20.35,zhushi,NTP,0,0,0,,女主友人樹瀨莉乃 其夫樹瀨望 職業拳擊手 廢柴一個
+Dialogue: 0,0:01:20.72,0:01:24.31,Default,NTP,0,0,0,,雖然我覺得說了不太好 但莉乃親這麼瘦小肯定是他放水照顧你了
+Dialogue: 0,0:01:24.58,0:01:26.58,Default,NTP,0,0,0,,我才不想要那種溫柔呢！
+Dialogue: 0,0:01:30.82,0:01:35.82,Default,,0,0,0,,{\fn@方正准圆_GBK\frz270\c&H000001&\3c&HF7F7FC&\pos(608,97)}這個時候
+Dialogue: 0,0:01:26.88,0:01:28.18,Default,NTP,0,0,0,,你想要孩子嗎？
+Dialogue: 0,0:01:28.38,0:01:30.81,Default,NTP,0,0,0,,那自然啊 愛的結晶嘛
+Dialogue: 0,0:01:31.25,0:01:34.19,Default,NTP,0,0,0,,孩子？反正我都像她媽媽一樣了
+Dialogue: 0,0:01:34.73,0:01:35.78,Default,NTP,0,0,0,,這太嚴重了
+Dialogue: 0,0:01:36.97,0:01:39.12,Default,NTP,0,0,0,,光先想好名字怎麼樣？
+Dialogue: 0,0:01:39.17,0:01:42.29,Default,NTP,0,0,0,,名字啊……因為會被它影響一生
+Dialogue: 0,0:01:42.30,0:01:44.68,Default,NTP,0,0,0,,所以怪名字肯定不行
+Dialogue: 0,0:01:41.95,0:01:43.91,zhushi,NTP,0,0,0,,キラキラネーム（闪亮名字）又称DQN名字 一般指超出常规、脱离常识的名字 比如IS的各位女主就是典型的DQN 还有最近更为脱离常识的旋律（Melody）星之王子殿下之类的诡异名字简直让人无法忍 NG不可避
+Dialogue: 0,0:01:44.85,0:01:47.86,Default,NTP,0,0,0,,想取個和名字音韻好聽的啊
+Dialogue: 0,0:01:47.75,0:01:50.13,zhushi,NTP,0,0,0,,EVA你好EVA再見
+Dialogue: 0,0:01:47.95,0:01:50.29,Default,NTP,0,0,0,,男的就叫真嗣 女的就叫麗
+Dialogue: 0,0:01:50.51,0:01:51.72,Default,NTP,0,0,0,,剛說了還犯
+Dialogue: 0,0:01:51.75,0:01:53.48,Default,NTP,0,0,0,,這多正常啊！
+Dialogue: 0,0:01:51.54,0:01:53.30,zhushi,NTP,0,0,0,,是的這倆名字都是很正常的人名
+Dialogue: 0,0:01:53.70,0:01:57.64,Default,NTP,0,0,0,,無論什麼名字都會跟某部動畫&漫畫&遊戲重名的啊！
+Dialogue: 0,0:01:57.90,0:01:59.58,Default,NTP,0,0,0,,我也重了嗎？
+Dialogue: 0,0:01:59.93,0:02:00.35,Default,NTP,0,0,0,,EVA
+Dialogue: 0,0:01:59.51,0:02:00.26,zhushi,NTP,0,0,0,,諸薰 庵野痞子請收下我的刀片//實際薰一名非常容易重名 初翻君我隨便一想就有浪客劍心的女主薰 和櫻蘭的雙子薰
+Dialogue: 0,0:02:03.36,0:02:06.52,Default,NTP,0,0,0,,總覺得 這麼樣在腦子裏各種亂想
+Dialogue: 0,0:02:06.69,0:02:09.36,Default,NTP,0,0,0,,算著自己能不能行了
+Dialogue: 0,0:02:09.98,0:02:12.16,Default,NTP,0,0,0,,各種計算好了再弄太消極了
+Dialogue: 0,0:02:12.43,0:02:15.28,Default,NTP,0,0,0,,但是 也不想在那方面太過任性
+Dialogue: 0,0:02:16.38,0:02:19.22,Default,NTP,0,0,0,,不過 估計也是很往後的事情了吧
+Dialogue: 0,0:02:20.91,0:02:22.77,Default,NTP,0,0,0,,啊？媽媽 怎麼了
+Dialogue: 0,0:02:22.99,0:02:26.12,Default,NTP,0,0,0,,上次不好意思 沒考慮好情況
+Dialogue: 0,0:02:26.41,0:02:29.34,Default,NTP,0,0,0,,我太高興了就一時衝動
+Dialogue: 0,0:02:29.46,0:02:31.73,Default,NTP,0,0,0,,沒事 也給了我們思考的機會
+Dialogue: 0,0:02:31.76,0:02:35.26,Default,NTP,0,0,0,,你爸還以為他找到工作都是來逗人玩的
+Dialogue: 0,0:02:35.28,0:02:37.40,Default,NTP,0,0,0,,我也那麼想的其實
+Dialogue: 0,0:02:37.87,0:02:39.55,Default,NTP,0,0,0,,好 好
+Dialogue: 0,0:02:39.81,0:02:41.82,Default,NTP,0,0,0,,他們真的好高興啊
+Dialogue: 0,0:02:42.14,0:02:43.14,Default,NTP,0,0,0,,{\fn@方正准圆_GBK\frz270\c&H000001&\3c&HF7F7FC&\pos(391,89)}其父 電次
+Dialogue: 0,0:02:42.14,0:02:43.14,Default,NTP,0,0,0,,{\fn@方正准圆_GBK\frz270\c&H000001&\3c&HF7F7FC&\pos(312,182)}居然不是逗人玩的
+Dialogue: 0,0:02:42.14,0:02:43.14,Default,NTP,0,0,0,,{\an9}順帶其母叫今日子
+Dialogue: 0,0:02:43.27,0:02:47.48,Default,NTP,0,0,0,,各種正值花季的少女會說「不要把我和爸爸的胖次一起洗」吧
+Dialogue: 0,0:02:48.66,0:02:51.94,Default,NTP,0,0,0,,那個難道不是爸爸和女兒穿同樣的胖次不就行了嗎？
+Dialogue: 0,0:02:52.44,0:02:55.51,Default,NTP,0,0,0,,弄得好的話說不定還能讓女兒穿上自己的胖次不是嗎！
+Dialogue: 0,0:02:56.05,0:02:57.48,Default,NTP,0,0,0,,和這傢伙生孩子嗎
+Dialogue: 0,0:02:58.69,0:02:59.64,Default,NTP,0,0,0,,……沒戲
+Dialogue: 0,0:03:00.15,0:03:03.66,ed,NTP,0,0,0,,{\k96}我{\k58}想{\k20}讓{\k27}你{\k150}~
+Dialogue: 0,0:03:03.66,0:03:08.16,ed,NTP,0,0,0,,{\k75}給{\k75}我{\k75}適{\k75}可{\k64}而{\k86}止
+Dialogue: 0,0:03:08.16,0:03:14.17,ed,NTP,0,0,0,,{\k60\c&HA9EB95&}和{\k53}你{\k64}在{\k47}一{\k54}起{\k8} {\k13}{\k47}總{\k51}覺{\k44}得{\k51}很{\k39}有{\k70}趣
+Dialogue: 0,0:03:14.17,0:03:21.93,ed,NTP,0,0,0,,{\k65}兩{\k65}個{\k65}人{\k65}在{\k65}一{\k64}起{\k64} {\k1}{\k65}非{\k65}常{\k64}的{\k64}開{\k64}心
+Dialogue: 0,0:03:21.93,0:03:27.68,ed,NTP,0,0,0,,無論怎麼 現在還是幸福的
+

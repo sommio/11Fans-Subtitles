@@ -1,0 +1,467 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 未设定
+Original Script: 未设定
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZCuYuan-M03,52,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: Default2,FZCuYuan-M03,45,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: Default3,FZCuYuan-M03,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,0,0,8,30,30,30,1
+Style: zhushi,FZZhunYuan-M02,36,&H00FFFFFF,&HF0000000,&H00000000,&H0AC0C0C0,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: zhushi2,@FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&H0AC0C0C0,-1,0,0,0,100,100,0,270,1,2,0,2,30,30,30,1
+Style: warring,FZZhunYuan-M02,36,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: OPCN,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: OPJP,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: EDCN,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: ENJP,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: EDCN2,FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,80,1
+Style: EDJP2,FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:05.94,0:02:08.94,warring,NTP,0,0,0,,{\fad(50,50)}翻譯 暗翼  後期 aoi  惡魔島字幕組製作 僅供交流試看之用\N請勿添加廣告 相關資源和討論請訪問惡魔島動漫世界：http://bbs.emland.net
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:38.42,0:00:41.10,OPCN,NTP,0,0,0,,喂喂 請問未來你在哪裏？
+Dialogue: 0,0:00:41.35,0:00:43.66,OPCN,NTP,0,0,0,,New Life New Love New Road Yeah
+Dialogue: 0,0:00:43.66,0:00:47.69,OPCN,NTP,0,0,0,,緊緊擁抱眼前的美妙
+Dialogue: 0,0:00:48.05,0:00:49.18,OPCN,NTP,0,0,0,,我如此決定
+Dialogue: 0,0:01:01.54,0:01:05.83,OPCN,NTP,0,0,0,,「想要成為故事的主人公」
+Dialogue: 0,0:01:06.23,0:01:11.30,OPCN,NTP,0,0,0,,妄想力全開 衝進Brand new world
+Dialogue: 0,0:01:11.56,0:01:15.78,OPCN,NTP,0,0,0,,即使在閃閃發光的 世界中心
+Dialogue: 0,0:01:16.04,0:01:20.98,OPCN,NTP,0,0,0,,路人B也成不了英雄嗎？
+Dialogue: 0,0:01:21.41,0:01:23.37,OPCN,NTP,0,0,0,,無論何時 都不會改變
+Dialogue: 0,0:01:23.95,0:01:25.95,OPCN,NTP,0,0,0,,一成不變的 今天
+Dialogue: 0,0:01:26.47,0:01:28.46,OPCN,NTP,0,0,0,,不經意間 一定會
+Dialogue: 0,0:01:28.82,0:01:31.01,OPCN,NTP,0,0,0,,遇到我期盼已久的故事
+Dialogue: 0,0:01:31.32,0:01:35.41,OPCN,NTP,0,0,0,,這便是 我的棲身之所
+Dialogue: 0,0:01:35.62,0:01:38.34,OPCN,NTP,0,0,0,,喂喂 請問未來你在這裏嗎？
+Dialogue: 0,0:01:38.85,0:01:41.10,OPCN,NTP,0,0,0,,我來迎接你了
+Dialogue: 0,0:01:41.38,0:01:44.99,OPCN,NTP,0,0,0,,熟悉的羈絆是我的寶物
+Dialogue: 0,0:01:45.29,0:01:48.33,OPCN,NTP,0,0,0,,另一種正解也是存在的
+Dialogue: 0,0:01:48.82,0:01:50.98,OPCN,NTP,0,0,0,,雖然總是很難察覺到
+Dialogue: 0,0:01:51.34,0:01:56.41,OPCN,NTP,0,0,0,,革命每一天 都真實地 在這裏發生著
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:38.42,0:00:41.10,OPJP,NTP,0,0,0,,もしもし未来はどこですか？
+Dialogue: 0,0:00:41.35,0:00:43.66,OPJP,NTP,0,0,0,,New Life New Love New Road Yeah
+Dialogue: 0,0:00:43.66,0:00:47.69,OPJP,NTP,0,0,0,,今あるステキを抱きしめようと
+Dialogue: 0,0:00:48.05,0:00:49.18,OPJP,NTP,0,0,0,,決意しました
+Dialogue: 0,0:01:01.54,0:01:05.83,OPJP,NTP,0,0,0,,「物語の主人公になりたい」
+Dialogue: 0,0:01:06.23,0:01:11.30,OPJP,NTP,0,0,0,,妄想力　フルパワーで　入り込んだBrand new world
+Dialogue: 0,0:01:11.56,0:01:15.78,OPJP,NTP,0,0,0,,ピカピカ光る　世界の中心でも
+Dialogue: 0,0:01:16.04,0:01:20.98,OPJP,NTP,0,0,0,,通行人Bはヒーローになれないの？
+Dialogue: 0,0:01:21.41,0:01:23.37,OPJP,NTP,0,0,0,,いつでも　変わらない
+Dialogue: 0,0:01:23.95,0:01:25.95,OPJP,NTP,0,0,0,,いつもの　今日
+Dialogue: 0,0:01:26.47,0:01:28.46,OPJP,NTP,0,0,0,,いつの間にか　きっと
+Dialogue: 0,0:01:28.82,0:01:31.01,OPJP,NTP,0,0,0,,待ち望んでた物語
+Dialogue: 0,0:01:31.32,0:01:35.41,OPJP,NTP,0,0,0,,これこそが　私の居場所
+Dialogue: 0,0:01:35.62,0:01:38.34,OPJP,NTP,0,0,0,,もしもし未来はここですか？
+Dialogue: 0,0:01:38.85,0:01:41.10,OPJP,NTP,0,0,0,,あなたを迎えにきました
+Dialogue: 0,0:01:41.38,0:01:44.99,OPJP,NTP,0,0,0,,宝物は見慣れた絆
+Dialogue: 0,0:01:45.29,0:01:48.33,OPJP,NTP,0,0,0,,違う形の正解もありますよ
+Dialogue: 0,0:01:48.82,0:01:50.98,OPJP,NTP,0,0,0,,なかなか気付けないけれど
+Dialogue: 0,0:01:51.34,0:01:56.41,OPJP,NTP,0,0,0,,革命は毎日のように　ここで実際　おきてるんです
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:12.31,0:22:18.71,EDCN,NTP,0,0,0,,定會在這裏閃耀Glory Place
+Dialogue: 0,0:22:32.62,0:22:37.32,EDCN,NTP,0,0,0,,「沒能實現…」「為什麼會變成這樣？」
+Dialogue: 0,0:22:37.65,0:22:42.61,EDCN,NTP,0,0,0,,就算說著不該這樣也於事無補
+Dialogue: 0,0:22:42.99,0:22:45.48,EDCN,NTP,0,0,0,,現在你身在此處（Now, you are here）
+Dialogue: 0,0:22:45.48,0:22:48.31,EDCN,NTP,0,0,0,,你只存在於此(You're only here)
+Dialogue: 0,0:22:48.31,0:22:52.60,EDCN,NTP,0,0,0,,不要考慮什麼Move 來吧Rise to upstairs
+Dialogue: 0,0:22:52.60,0:22:57.91,EDCN,NTP,0,0,0,,如果將地圖的比例改變 你是否能明白？
+Dialogue: 0,0:22:57.91,0:23:03.93,EDCN,NTP,0,0,0,,無論誰都在這同一顆星球上
+Dialogue: 0,0:23:03.93,0:23:05.67,EDCN,NTP,0,0,0,,You can change your place!
+Dialogue: 0,0:23:05.67,0:23:10.84,EDCN,NTP,0,0,0,,不存在什麼一切都早已命中注定（可能性無限大）
+Dialogue: 0,0:23:10.84,0:23:16.25,EDCN,NTP,0,0,0,,未來自己的些許Sticking Places
+Dialogue: 0,0:23:16.25,0:23:19.93,EDCN,NTP,0,0,0,,那是（一瞬間）偶然的（經驗）感情（衝動）
+Dialogue: 0,0:23:19.93,0:23:26.94,EDCN,NTP,0,0,0,,那一結晶的光輝 It's stairway to the glory place for you!
+Dialogue: 0,0:23:26.94,0:23:31.46,EDCN,NTP,0,0,0,,「現在你身在此處」所以「你只存在於此」
+Dialogue: 0,0:23:31.46,0:23:37.71,EDCN,NTP,0,0,0,,只要你相信世界就會改變！
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:12.31,0:22:18.71,ENJP,NTP,0,0,0,,きっとここで輝くんだGlory Place
+Dialogue: 0,0:22:32.62,0:22:37.32,ENJP,NTP,0,0,0,,「叶えらんなかった。。。」、「なんでこうなったの？」
+Dialogue: 0,0:22:37.65,0:22:42.61,ENJP,NTP,0,0,0,,コレじゃないよって言ってたって始まらない
+Dialogue: 0,0:22:42.99,0:22:45.48,ENJP,NTP,0,0,0,,今キミはここにいて （Now, you are here）
+Dialogue: 0,0:22:45.48,0:22:48.31,ENJP,NTP,0,0,0,,ここにしかキミはいない (You're only here)
+Dialogue: 0,0:22:48.31,0:22:52.60,ENJP,NTP,0,0,0,,Moveなんて考えてないで、さぁRise to upstairs！
+Dialogue: 0,0:22:52.60,0:22:57.91,ENJP,NTP,0,0,0,,スケールを変えた地図ならね、わかるんじゃない？
+Dialogue: 0,0:22:57.91,0:23:03.93,ENJP,NTP,0,0,0,,誰もが同じ惑星(ばしょ)にいるよ
+Dialogue: 0,0:23:03.93,0:23:05.67,ENJP,NTP,0,0,0,,You can change your place!
+Dialogue: 0,0:23:05.67,0:23:10.84,ENJP,NTP,0,0,0,,なんにも決まっていることなんてナイ　(可能性は無限大)
+Dialogue: 0,0:23:10.84,0:23:16.25,ENJP,NTP,0,0,0,,ほんの少し未来の自分のSticking Places
+Dialogue: 0,0:23:16.25,0:23:19.93,ENJP,NTP,0,0,0,,それは(一瞬)偶然(経験)感情(衝動)
+Dialogue: 0,0:23:19.93,0:23:26.94,ENJP,NTP,0,0,0,,その結晶の輝き、It's stairway to the glory place for you!
+Dialogue: 0,0:23:26.94,0:23:31.46,ENJP,NTP,0,0,0,,「イマキミハココニイル」だから「ココニシカキミハイナイ」
+Dialogue: 0,0:23:31.46,0:23:37.71,ENJP,NTP,0,0,0,,もっと信じれば世界は変わる！
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:03.59,0:00:04.85,Default,NTP,0,0,0,,菲諾被擄走了？
+Dialogue: 0,0:00:05.77,0:00:06.71,Default,NTP,0,0,0,,非常抱歉
+Dialogue: 0,0:00:07.12,0:00:08.43,Default,NTP,0,0,0,,到底是為了什麼？
+Dialogue: 0,0:00:08.90,0:00:09.81,Default,NTP,0,0,0,,不明所以
+Dialogue: 0,0:00:10.20,0:00:13.51,Default,NTP,0,0,0,,不是的 他們估計是要讓菲諾…
+Dialogue: 0,0:00:13.98,0:00:15.92,Default,NTP,0,0,0,,你好像知道對方的身份呢
+Dialogue: 0,0:00:17.32,0:00:19.06,Default,NTP,0,0,0,,是我的…朋友
+Dialogue: 0,0:00:19.96,0:00:21.32,Default,NTP,0,0,0,,勇者育成學校的……
+Dialogue: 0,0:00:21.98,0:00:24.24,Default,NTP,0,0,0,,就是說目標是菲諾其本人對吧？
+Dialogue: 0,0:00:24.89,0:00:25.41,Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:00:27.54,0:00:29.64,Default,NTP,0,0,0,,頭疼了啊 這下
+Dialogue: 0,0:00:30.42,0:00:35.05,Default,NTP,0,0,0,,但是 菲諾我一定會奪回來的
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:02:09.00,0:02:13.98,Default,NTP,0,0,0,,第11話 沒能成為勇者的我前去營救魔王的女兒。
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:02:17.50,0:02:18.60,Default,NTP,0,0,0,,請收下吧
+Dialogue: 0,0:02:19.04,0:02:20.72,Default,NTP,0,0,0,,那是…老爸的護身符？
+Dialogue: 0,0:02:21.17,0:02:24.43,Default,NTP,0,0,0,,正是 支配的血星石——blood stone
+Dialogue: 0,0:02:25.28,0:02:27.62,Default,NTP,0,0,0,,魔王一族代代相傳的至寶
+Dialogue: 0,0:02:28.49,0:02:33.16,Default,NTP,0,0,0,,一旦發動 便可以支配比自己弱小魔人的精神
+Dialogue: 0,0:02:33.60,0:02:38.53,Default,NTP,0,0,0,,隨心所欲地操縱 正可謂魔王的象徵
+Dialogue: 0,0:02:39.73,0:02:42.02,Default,NTP,0,0,0,,這是菲諾大人應當繼承的遺產
+Dialogue: 0,0:02:42.89,0:02:47.59,Default,NTP,0,0,0,,除了集結於新生魔王的旗下以外我們別無活路
+Dialogue: 0,0:02:47.59,0:02:52.32,Default,NTP,0,0,0,,{\fs48}沒有那回事 只要像我和勞爾那樣 和人類一起工作不就行了
+Dialogue: 0,0:02:52.32,0:02:53.40,Default,NTP,0,0,0,,你完全沒搞懂啊
+Dialogue: 0,0:02:54.53,0:02:59.05,Default,NTP,0,0,0,,勞爾會在那種店裏工作 是因為失去了夢想和希望啊
+Dialogue: 0,0:02:59.68,0:03:01.44,Default,NTP,0,0,0,,全都錯在沒了魔王啊
+Dialogue: 0,0:03:02.15,0:03:06.18,Default,NTP,0,0,0,,菲諾大人只要繼承魔王之座 勞爾就能成為勇者了
+Dialogue: 0,0:03:06.90,0:03:09.34,Default,NTP,0,0,0,,這樣大家都能變得幸福了
+Dialogue: 0,0:03:13.89,0:03:14.69,Default,NTP,0,0,0,,菲諾
+Dialogue: 0,0:03:15.76,0:03:20.68,Default,NTP,0,0,0,,通過我們的手復活魔王 讓這個世界再一次重新來過
+Dialogue: 0,0:03:24.29,0:03:25.84,Default,NTP,0,0,0,,再一次重新來過？
+Dialogue: 0,0:03:35.13,0:03:35.94,Default,NTP,0,0,0,,菲諾她？！
+Dialogue: 0,0:03:36.40,0:03:39.53,Default,NTP,0,0,0,,是啊 店裏已經鬧翻天了
+Dialogue: 0,0:03:39.95,0:03:41.53,Default,NTP,0,0,0,,菲諾她還平安無事嗎？
+Dialogue: 0,0:03:41.53,0:03:42.72,Default,NTP,0,0,0,,艾露莎 走了
+Dialogue: 0,0:03:42.96,0:03:44.87,Default,NTP,0,0,0,,哎？但是還有30分鐘才…
+Dialogue: 0,0:03:44.87,0:03:45.71,Default,NTP,0,0,0,,哪管那些
+Dialogue: 0,0:03:46.18,0:03:47.57,Default,NTP,0,0,0,,還有 明天也請假
+Dialogue: 0,0:03:47.99,0:03:49.44,Default,NTP,0,0,0,,你那份假條我也會交上去的
+Dialogue: 0,0:03:49.63,0:03:50.42,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:03:51.21,0:03:52.66,Default,NTP,0,0,0,,店長 我們早退了
+Dialogue: 0,0:03:52.66,0:03:53.47,Default,NTP,0,0,0,,哎？我說
+Dialogue: 0,0:03:54.11,0:03:54.68,Default,NTP,0,0,0,,混賬雷德
+Dialogue: 0,0:03:56.63,0:03:58.22,Default,NTP,0,0,0,,你還真敢干啊！
+Dialogue: 0,0:04:00.90,0:04:02.53,zhushi,NTP,0,0,0,,{\an8}艾瓦雷德勇者育成學校
+Dialogue: 0,0:04:03.12,0:04:05.04,Default,NTP,0,0,0,,沒想到會再次回到這裏
+Dialogue: 0,0:04:12.45,0:04:14.41,zhushi,NTP,0,0,0,,{\an8}朝著勇者努力！ 打倒魔王拯救世界吧
+Dialogue: 0,0:04:14.89,0:04:16.13,Default,NTP,0,0,0,,還是老樣子嗎
+Dialogue: 0,0:04:20.10,0:04:20.92,Default,NTP,0,0,0,,喲 勞爾
+Dialogue: 0,0:04:22.06,0:04:22.66,Default,NTP,0,0,0,,佈雷茲
+Dialogue: 0,0:04:24.61,0:04:25.42,Default,NTP,0,0,0,,菲諾在哪！
+Dialogue: 0,0:04:26.10,0:04:28.62,Default,NTP,0,0,0,,沒想到你竟然會跑來救魔王的女兒
+Dialogue: 0,0:04:29.37,0:04:30.58,Default,NTP,0,0,0,,這個世界算是沒救了
+Dialogue: 0,0:04:31.41,0:04:33.72,Default,NTP,0,0,0,,我只是來救助店內的同伴
+Dialogue: 0,0:04:34.39,0:04:36.12,Default,NTP,0,0,0,,沒有重新考慮一下的打算嗎？
+Dialogue: 0,0:04:38.85,0:04:41.54,Default,NTP,0,0,0,,是嗎 真是個笨蛋
+Dialogue: 0,0:04:42.43,0:04:43.66,Default,NTP,0,0,0,,啊 那是…！
+Dialogue: 0,0:04:44.11,0:04:45.78,Default,NTP,0,0,0,,是你一直夢寐以求的劍
+Dialogue: 0,0:04:46.37,0:04:48.82,Default,NTP,0,0,0,,被這劍打敗的話 也算了了你的心願了吧
+Dialogue: 0,0:04:49.64,0:04:50.71,Default,NTP,0,0,0,,真虧你能買下來啊
+Dialogue: 0,0:04:51.04,0:04:52.52,Default,NTP,0,0,0,,因為有贊助商啊
+Dialogue: 0,0:04:52.94,0:04:56.70,Default,NTP,0,0,0,,算是對即將成為勇者的我們的先行投資！
+Dialogue: 0,0:04:59.21,0:05:00.07,Default,NTP,0,0,0,,住手 佈雷茲
+Dialogue: 0,0:05:04.86,0:05:07.07,Default,NTP,0,0,0,,那個小丫頭也真是讓人頭疼
+Dialogue: 0,0:05:07.85,0:05:12.38,Default,NTP,0,0,0,,趕快成為魔王不就好了 但她卻遲遲不肯答應
+Dialogue: 0,0:05:13.09,0:05:17.41,Default,NTP,0,0,0,,明明只要率領魔人們再一次發動戰爭就行了
+Dialogue: 0,0:05:17.78,0:05:19.22,Default,NTP,0,0,0,,你那樣還算是…
+Dialogue: 0,0:05:19.22,0:05:20.12,Default,NTP,0,0,0,,是勇者啊
+Dialogue: 0,0:05:20.62,0:05:22.87,Default,NTP,0,0,0,,不 正因為是勇者吧
+Dialogue: 0,0:05:23.53,0:05:26.16,Default,NTP,0,0,0,,這種事並非現在才開始的喲
+Dialogue: 0,0:05:26.53,0:05:27.06,Default,NTP,0,0,0,,什麼！？
+Dialogue: 0,0:05:27.06,0:05:29.78,Default,NTP,0,0,0,,我們的前輩們締結了契約
+Dialogue: 0,0:05:30.03,0:05:31.72,Default,NTP,0,0,0,,為了不讓魔王被打倒
+Dialogue: 0,0:05:32.12,0:05:32.71,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:05:33.53,0:05:37.71,Default,NTP,0,0,0,,托魔法道具不斷發展的福 區區魔王已可隨時打倒
+Dialogue: 0,0:05:38.55,0:05:39.80,Default,NTP,0,0,0,,但是卻故意留他一命
+Dialogue: 0,0:05:40.36,0:05:43.44,Default,NTP,0,0,0,,因為沒了魔王 勇者也會失去用武之地
+Dialogue: 0,0:05:44.35,0:05:48.38,Default,NTP,0,0,0,,看看現在的世道吧 哪都沒有我們的容身之所
+Dialogue: 0,0:05:49.34,0:05:53.48,Default,NTP,0,0,0,,只要魔王復活的話 就有玫瑰色的勇者生活在等著我們
+Dialogue: 0,0:05:56.38,0:05:57.16,Default,NTP,0,0,0,,有什麼好笑的？
+Dialogue: 0,0:05:58.37,0:06:00.53,Default,NTP,0,0,0,,為了不讓魔王被打倒？
+Dialogue: 0,0:06:05.00,0:06:08.14,Default,NTP,0,0,0,,那算什麼啊 我可是一直憧憬著的啊
+Dialogue: 0,0:06:11.11,0:06:13.84,Default,NTP,0,0,0,,我一直以來的目標 就是那種玩意嗎
+Dialogue: 0,0:06:14.25,0:06:15.50,Default,NTP,0,0,0,,原來就是那種玩意嗎
+Dialogue: 0,0:06:19.28,0:06:20.19,Default,NTP,0,0,0,,混賬
+Dialogue: 0,0:06:21.57,0:06:23.09,Default,NTP,0,0,0,,拜拜了 勞爾
+Dialogue: 0,0:06:26.24,0:06:27.06,Default,NTP,0,0,0,,你那是什麼架勢
+Dialogue: 0,0:06:27.53,0:06:28.79,Default,NTP,0,0,0,,我終於釋懷了啊
+Dialogue: 0,0:06:29.26,0:06:31.56,Default,NTP,0,0,0,,不 我是問你拿那個準備做什麼
+Dialogue: 0,0:06:32.06,0:06:32.56,Default,NTP,0,0,0,,這個？
+Dialogue: 0,0:06:34.78,0:06:37.44,Default,NTP,0,0,0,,我現在用得最順手的是這個啊
+Dialogue: 0,0:06:38.02,0:06:38.84,Default,NTP,0,0,0,,你這傢伙！
+Dialogue: 0,0:06:43.11,0:06:43.64,Default,NTP,0,0,0,,菲諾！
+Dialogue: 0,0:06:45.19,0:06:46.37,Default,NTP,0,0,0,,喂 沒事吧？
+Dialogue: 0,0:06:47.35,0:06:50.30,Default,NTP,0,0,0,,勞爾 我就知道你會來的
+Dialogue: 0,0:06:52.13,0:06:56.38,Default,NTP,0,0,0,,這裏是怎麼回事啊 看起來非常眼熟
+Dialogue: 0,0:06:56.73,0:06:59.96,Default,NTP,0,0,0,,啊 因為和魔王城的入口造得一模一樣
+Dialogue: 0,0:07:00.89,0:07:03.65,Default,NTP,0,0,0,,是為了成為勇者而接受最終測試的地方
+Dialogue: 0,0:07:04.57,0:07:05.82,Default,NTP,0,0,0,,我本來也應該會考的
+Dialogue: 0,0:07:07.96,0:07:09.55,zhushi,NTP,0,0,0,,{\an7}關於第132回勇者選拔選考會中止的通知
+Dialogue: 0,0:07:07.96,0:07:09.55,zhushi,NTP,0,0,0,,{\an7}由於魔人國的實質性解崩，決定廢除勇者制度。
+Dialogue: 0,0:07:07.96,0:07:09.55,zhushi,NTP,0,0,0,,{\an7}因此，預定進行的第132回及往後的勇者選拔選考會也將中止。
+Dialogue: 0,0:07:07.96,0:07:09.55,zhushi,NTP,0,0,0,,{\an7}對此造成的不便，還請諒解。
+Dialogue: 0,0:07:11.27,0:07:14.24,Default,NTP,0,0,0,,看來佈雷茲他輸了呢
+Dialogue: 0,0:07:14.84,0:07:15.69,Default,NTP,0,0,0,,那個混蛋
+Dialogue: 0,0:07:16.41,0:07:17.22,Default,NTP,0,0,0,,請留步
+Dialogue: 0,0:07:17.66,0:07:18.20,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:07:19.71,0:07:22.45,Default,NTP,0,0,0,,似乎有更加合適的人選來了
+Dialogue: 0,0:07:27.70,0:07:28.51,Default,NTP,0,0,0,,打不開
+Dialogue: 0,0:07:30.58,0:07:31.66,Default,NTP,0,0,0,,怎麼了 勞爾
+Dialogue: 0,0:07:32.10,0:07:32.84,Default,NTP,0,0,0,,有誰在
+Dialogue: 0,0:07:34.61,0:07:35.27,Default,NTP,0,0,0,,那是…
+Dialogue: 0,0:07:36.43,0:07:38.83,Default,NTP,0,0,0,,全A 為什麼你會在這？
+Dialogue: 0,0:07:40.58,0:07:42.93,Default,NTP,0,0,0,,克萊因也來找過我了
+Dialogue: 0,0:07:43.50,0:07:45.22,Default,NTP,0,0,0,,難道你也和他們…
+Dialogue: 0,0:07:45.22,0:07:48.10,Default,NTP,0,0,0,,復活魔王？別說笑了 荒唐至極
+Dialogue: 0,0:07:48.62,0:07:49.30,Default,NTP,0,0,0,,就是啊
+Dialogue: 0,0:07:50.24,0:07:52.69,Default,NTP,0,0,0,,來得正好 幫我救下菲諾…
+Dialogue: 0,0:07:52.69,0:07:53.69,Default,NTP,0,0,0,,別搞錯了
+Dialogue: 0,0:07:54.03,0:07:54.53,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:07:54.79,0:07:58.03,Default,NTP,0,0,0,,我來這裏是為了打倒魔王的女兒
+Dialogue: 0,0:07:58.26,0:07:59.58,Default,NTP,0,0,0,,打..打倒本大人？
+Dialogue: 0,0:07:59.83,0:08:01.53,Default,NTP,0,0,0,,慢著 冷靜點 全A
+Dialogue: 0,0:08:01.53,0:08:02.08,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:08:02.83,0:08:05.47,Default,NTP,0,0,0,,我的家人被魔人殺害了
+Dialogue: 0,0:08:05.72,0:08:06.32,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:08:07.49,0:08:13.51,Default,NTP,0,0,0,,將魔人斬盡殺絕 我是為了這個才想成為勇者的！
+Dialogue: 0,0:08:14.92,0:08:15.50,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:08:20.89,0:08:21.80,Default,NTP,0,0,0,,不要妨礙我
+Dialogue: 0,0:08:21.80,0:08:22.68,Default,NTP,0,0,0,,怎麼可能
+Dialogue: 0,0:08:26.76,0:08:27.28,Default,NTP,0,0,0,,勞爾
+Dialogue: 0,0:08:28.94,0:08:29.63,Default,NTP,0,0,0,,全A
+Dialogue: 0,0:08:31.90,0:08:36.70,Default,NTP,0,0,0,,就算是你 袒護魔人也不可原諒
+Dialogue: 0,0:08:40.30,0:08:40.91,Default,NTP,0,0,0,,啟動！
+Dialogue: 0,0:08:41.85,0:08:44.32,Default,NTP,0,0,0,,這..這算什麼啊
+Dialogue: 0,0:08:47.76,0:08:49.04,Default,NTP,0,0,0,,這下可有好戲看了
+Dialogue: 0,0:08:49.17,0:08:52.64,Default,NTP,0,0,0,,喂喂 魔王的女兒被幹掉了的話你也不妙吧
+Dialogue: 0,0:08:52.98,0:08:54.82,Default,NTP,0,0,0,,他們的實力勢均力敵吧
+Dialogue: 0,0:08:56.23,0:08:56.90,Default,NTP,0,0,0,,比起這個
+Dialogue: 0,0:09:01.77,0:09:02.46,Default,NTP,0,0,0,,如何？
+Dialogue: 0,0:09:03.37,0:09:04.90,Default,NTP,0,0,0,,這可真是厲害
+Dialogue: 0,0:09:05.78,0:09:07.83,Default,NTP,0,0,0,,勞駕你不留一點灰燼
+Dialogue: 0,0:09:08.73,0:09:11.24,Default,NTP,0,0,0,,菲諾大人是不需要有什麼回去的地方的
+Dialogue: 0,0:09:19.27,0:09:22.21,Default,NTP,0,0,0,,你是知道的 她是魔王女兒這件事
+Dialogue: 0,0:09:22.65,0:09:24.33,Default,NTP,0,0,0,,然而你卻一直閉口不提
+Dialogue: 0,0:09:23.77,0:09:25.04,Default,NTP,0,0,0,,全A
+Dialogue: 0,0:09:25.04,0:09:28.54,Default,NTP,0,0,0,,你騙了我 虧我只相信你！
+Dialogue: 0,0:09:31.92,0:09:34.61,Default,NTP,0,0,0,,住手勞爾 你們二人不需要戰鬥
+Dialogue: 0,0:09:35.04,0:09:36.05,Default,NTP,0,0,0,,這可不行
+Dialogue: 0,0:09:36.74,0:09:40.01,Default,NTP,0,0,0,,我很早以前就知道她戰鬥的理由了
+Dialogue: 0,0:09:40.84,0:09:43.44,Default,NTP,0,0,0,,所以也知道三言兩語是無法讓她停手的
+Dialogue: 0,0:09:43.93,0:09:44.72,Default,NTP,0,0,0,,怎麼會
+Dialogue: 0,0:09:45.72,0:09:48.57,Default,NTP,0,0,0,,用那種長尺算是放水的意思？
+Dialogue: 0,0:09:49.39,0:09:50.48,Default,NTP,0,0,0,,真是太小瞧人了
+Dialogue: 0,0:09:51.06,0:09:53.07,Default,NTP,0,0,0,,你才感覺變遲鈍了吧
+Dialogue: 0,0:09:54.25,0:09:58.18,Default,NTP,0,0,0,,我有沒有放水 用自己的雙眼來確認吧！
+Dialogue: 0,0:10:09.53,0:10:12.51,Default,NTP,0,0,0,,全力以赴攻過來吧 我也會全力以赴接下的！
+Dialogue: 0,0:10:13.18,0:10:13.86,Default,NTP,0,0,0,,勞爾
+Dialogue: 0,0:10:14.65,0:10:17.56,Default,NTP,0,0,0,,提升…3000安培！
+Dialogue: 0,0:10:18.13,0:10:20.47,Default,NTP,0,0,0,,提升…3000安培！
+Dialogue: 0,0:10:25.46,0:10:30.30,Default,NTP,0,0,0,,真是讓人吃驚 沒想到還有這等水準的人才
+Dialogue: 0,0:10:28.18,0:10:28.75,Default,NTP,0,0,0,,雷德！
+Dialogue: 0,0:10:30.81,0:10:31.55,Default,NTP,0,0,0,,你這傢伙
+Dialogue: 0,0:10:31.94,0:10:35.25,Default,NTP,0,0,0,,毋庸置疑 超一流的勇者…
+Dialogue: 0,0:10:36.35,0:10:38.58,Default,NTP,0,0,0,,他們本是能當上的人
+Dialogue: 0,0:10:39.30,0:10:41.49,Default,NTP,0,0,0,,您一定不願見到他們死吧
+Dialogue: 0,0:10:42.37,0:10:44.29,Default,NTP,0,0,0,,這樣下去可是要兩敗俱傷的喲
+Dialogue: 0,0:10:46.50,0:10:47.64,Default,NTP,0,0,0,,真是可悲
+Dialogue: 0,0:10:48.44,0:10:51.40,Default,NTP,0,0,0,,共同談論夢想的人竟在互相殘殺
+Dialogue: 0,0:10:52.17,0:10:54.77,Default,NTP,0,0,0,,要不是勇者制度被廢除了…
+Dialogue: 0,0:10:56.49,0:11:00.00,Default,NTP,0,0,0,,能拯救他們二人的只有菲諾大人
+Dialogue: 0,0:11:01.05,0:11:03.11,Default,NTP,0,0,0,,還請決斷 菲諾大人
+Dialogue: 0,0:11:04.29,0:11:06.52,Default,NTP,0,0,0,,選擇一條任誰都能幸福的路
+Dialogue: 0,0:11:09.24,0:11:10.45,Default,NTP,0,0,0,,本大人我…
+Dialogue: 0,0:11:14.46,0:11:15.85,Default,NTP,0,0,0,,已經快早上了
+Dialogue: 0,0:11:16.24,0:11:19.70,Default,NTP,0,0,0,,果然還是大家分頭找比較好吧？
+Dialogue: 0,0:11:25.28,0:11:26.84,Default,NTP,0,0,0,,怎麼回事 這聲音？
+Dialogue: 0,0:11:41.11,0:11:41.69,Default,NTP,0,0,0,,怎麼會？！
+Dialogue: 0,0:11:44.82,0:11:49.92,Default,NTP,0,0,0,,我們店是經營魔法道具的 對落雷對策完美無缺
+Dialogue: 0,0:11:50.13,0:11:51.20,Default,NTP,0,0,0,,真能幹呢！
+Dialogue: 0,0:11:51.68,0:11:54.62,Default,NTP,0,0,0,,看起來擄走菲諾的就是那個人了呢
+Dialogue: 0,0:11:55.11,0:11:57.55,Default,NTP,0,0,0,,來得正好 就讓他知道知道
+Dialogue: 0,0:12:00.31,0:12:02.25,Default,NTP,0,0,0,,怎麼了 你在怕些什麼？
+Dialogue: 0,0:12:03.05,0:12:04.12,Default,NTP,0,0,0,,那是…？
+Dialogue: 0,0:12:12.66,0:12:15.20,Default,NTP,0,0,0,,抱歉 得讓你們今天就關門停業了
+Dialogue: 0,0:12:15.99,0:12:17.70,Default,NTP,0,0,0,,菲諾她在哪？
+Dialogue: 0,0:12:18.38,0:12:19.72,Default,NTP,0,0,0,,你覺得我會說嗎？
+Dialogue: 0,0:12:20.46,0:12:21.77,Default,NTP,0,0,0,,嗯 那是當然
+Dialogue: 0,0:12:22.70,0:12:26.17,Default,NTP,0,0,0,,首先是妨礙我們店營業的損失賠償
+Dialogue: 0,0:12:27.71,0:12:28.41,Default,NTP,0,0,0,,什麼啊？
+Dialogue: 0,0:12:26.78,0:12:29.92,Default2,NTP,0,0,0,,接著是害我們擔心了一整晚的撫慰金和深夜津貼
+Dialogue: 0,0:12:31.17,0:12:32.48,Default,NTP,0,0,0,,那傢伙玩完了呢
+Dialogue: 0,0:12:32.76,0:12:34.51,Default,NTP,0,0,0,,怎..怎麼一回事？
+Dialogue: 0,0:12:34.92,0:12:41.96,Default,NTP,0,0,0,,店長她啊 是能將任何魔法道具改寫成驚異效能的天才
+Dialogue: 0,0:12:42.33,0:12:45.92,Default,NTP,0,0,0,,將菲諾和勞爾兩人的工資按時薪計算
+Dialogue: 0,0:12:46.43,0:12:49.50,Default,NTP,0,0,0,,再加上到今早為止的加班津貼和危險工作津貼
+Dialogue: 0,0:12:50.78,0:12:53.79,Default2,NTP,0,0,0,,而且她的魔力量是那些路人勇者無法比擬的
+Dialogue: 0,0:12:55.16,0:12:58.57,Default2,NTP,0,0,0,,加上昨晚本應去美容院的預約取消金
+Dialogue: 0,0:12:51.30,0:12:53.11,Default,NTP,0,0,0,,什..什麼啊這傢伙
+Dialogue: 0,0:12:54.82,0:12:58.59,Default,NTP,0,0,0,,沒錯沒錯 所以要是真惹她生氣了的話…
+Dialogue: 0,0:12:59.30,0:13:00.99,Default,NTP,0,0,0,,這是向你提出的賠償金
+Dialogue: 0,0:13:14.12,0:13:15.73,Default,NTP,0,0,0,,為什麼要袒護魔王的女兒？
+Dialogue: 0,0:13:16.44,0:13:18.20,Default,NTP,0,0,0,,你可本是以勇者為目標的
+Dialogue: 0,0:13:18.52,0:13:23.00,Default,NTP,0,0,0,,不關那些的事 我只是 想要保護在同一家店工作的同伴！
+Dialogue: 0,0:13:23.25,0:13:24.29,Default,NTP,0,0,0,,她可是魔人啊！
+Dialogue: 0,0:13:25.83,0:13:27.72,Default,NTP,0,0,0,,提升…5000安培！
+Dialogue: 0,0:13:28.31,0:13:29.85,Default,NTP,0,0,0,,你我都快到極限了
+Dialogue: 0,0:13:30.14,0:13:31.80,Default,NTP,0,0,0,,給我讓開 勞爾·切薩
+Dialogue: 0,0:13:32.20,0:13:33.81,Default,NTP,0,0,0,,打倒了菲諾又能怎樣！
+Dialogue: 0,0:13:34.16,0:13:35.46,Default,NTP,0,0,0,,不能怎樣啊！
+Dialogue: 0,0:13:35.72,0:13:36.24,Default,NTP,0,0,0,,哈？
+Dialogue: 0,0:13:36.72,0:13:40.18,Default,NTP,0,0,0,,勇者的夢破碎了 還被迫穿成兔女郎
+Dialogue: 0,0:13:41.05,0:13:46.60,Default,NTP,0,0,0,,{\fs48}如果再在這裏放過一直視作仇敵的魔人 我就一無所有了啊！
+Dialogue: 0,0:13:47.39,0:13:49.74,Default,NTP,0,0,0,,那種事 我無法忍受！
+Dialogue: 0,0:13:51.22,0:13:52.46,Default,NTP,0,0,0,,混蛋！
+Dialogue: 0,0:13:53.70,0:13:55.36,Default,NTP,0,0,0,,艾麗濺射！
+Dialogue: 0,0:13:55.68,0:13:57.76,Default,NTP,0,0,0,,勞爾斬擊！
+Dialogue: 0,0:13:57.76,0:13:59.23,Default,NTP,0,0,0,,住手！
+Dialogue: 0,0:14:05.07,0:14:07.31,Default,NTP,0,0,0,,艾麗 勞爾
+Dialogue: 0,0:14:13.29,0:14:15.09,Default,NTP,0,0,0,,艾麗！勞爾！
+Dialogue: 0,0:14:17.26,0:14:18.02,Default,NTP,0,0,0,,艾麗…
+Dialogue: 0,0:14:21.02,0:14:21.89,Default,NTP,0,0,0,,勞爾…
+Dialogue: 0,0:14:23.88,0:14:29.08,Default,NTP,0,0,0,,對不起 如果本大人去當魔王的話就不會…
+Dialogue: 0,0:14:31.15,0:14:31.88,Default,NTP,0,0,0,,對不起！
+Dialogue: 0,0:14:38.41,0:14:41.50,Default,NTP,0,0,0,,血星石正和菲諾大人產生共鳴
+Dialogue: 0,0:14:42.38,0:14:44.62,Default,NTP,0,0,0,,新生魔王的誕生！
+Dialogue: 0,0:15:07.13,0:15:07.94,Default,NTP,0,0,0,,我還活著？
+Dialogue: 0,0:15:11.86,0:15:12.55,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:15:14.66,0:15:17.33,Default,NTP,0,0,0,,如果不是長尺 而是劍的話…
+Dialogue: 0,0:15:18.55,0:15:21.23,Default,NTP,0,0,0,,啊 勞爾 勞爾
+Dialogue: 0,0:15:23.41,0:15:27.72,Default,NTP,0,0,0,,勞爾 快醒來 求你了
+Dialogue: 0,0:15:29.53,0:15:32.11,Default,NTP,0,0,0,,她是個…好人
+Dialogue: 0,0:15:29.81,0:15:30.48,Default,NTP,0,0,0,,勞爾！
+Dialogue: 0,0:15:34.07,0:15:35.94,Default,NTP,0,0,0,,你也是明白的吧？
+Dialogue: 0,0:15:37.33,0:15:43.21,Default,NTP,0,0,0,,所以不要說什麼…打倒她
+Dialogue: 0,0:15:43.73,0:15:46.85,Default,NTP,0,0,0,,我明白 我明白了！
+Dialogue: 0,0:15:47.60,0:15:49.29,Default,NTP,0,0,0,,你的心情我理解
+Dialogue: 0,0:15:50.91,0:15:54.69,Default,NTP,0,0,0,,但是啊 這樣已經足夠了吧
+Dialogue: 0,0:15:55.71,0:15:59.43,Default,NTP,0,0,0,,復仇…可不是勇者的所為
+Dialogue: 0,0:16:00.04,0:16:04.19,Default,NTP,0,0,0,,我明白了 所以你別再說了
+Dialogue: 0,0:16:04.94,0:16:09.49,Default,NTP,0,0,0,,我不會說讓你忘記對魔人的仇恨
+Dialogue: 0,0:16:10.63,0:16:15.82,Default,NTP,0,0,0,,但是 幫助有困難的人才是勇者不是嗎
+Dialogue: 0,0:16:16.51,0:16:17.10,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:17.84,0:16:21.29,Default,NTP,0,0,0,,乾脆…你也來雷昂工作吧
+Dialogue: 0,0:16:23.14,0:16:26.56,Default,NTP,0,0,0,,然後 代替我 和菲諾…
+Dialogue: 0,0:16:27.81,0:16:28.86,Default,NTP,0,0,0,,你也一定…
+Dialogue: 0,0:16:29.35,0:16:29.98,Default,NTP,0,0,0,,勞爾
+Dialogue: 0,0:16:30.67,0:16:35.86,Default,NTP,0,0,0,,很奇怪吧 都快死了 還在為魔人擔心
+Dialogue: 0,0:16:37.81,0:16:38.45,Default,NTP,0,0,0,,勞爾
+Dialogue: 0,0:16:39.21,0:16:39.87,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:16:41.02,0:16:43.22,Default,NTP,0,0,0,,你真能說啊
+Dialogue: 0,0:16:43.81,0:16:46.58,Default,NTP,0,0,0,,啊 是呢
+Dialogue: 0,0:16:48.49,0:16:49.14,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:16:50.49,0:16:51.80,Default,NTP,0,0,0,,什麼啊 這
+Dialogue: 0,0:16:52.42,0:16:56.55,Default,NTP,0,0,0,,那是…！菲諾給我的 當做紀念的…
+Dialogue: 0,0:17:00.12,0:17:02.30,Default,NTP,0,0,0,,沒想到 這種東西竟然…！
+Dialogue: 0,0:17:06.64,0:17:09.94,Default,NTP,0,0,0,,勞爾… 那個… 我說…
+Dialogue: 0,0:17:11.35,0:17:16.73,Default,NTP,0,0,0,,{\fs46}據說那個裏面 裝著眼看就要成功結果被魔王幹掉的勇者的髮絲
+Dialogue: 0,0:17:18.49,0:17:19.23,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:17:20.30,0:17:20.98,Default,NTP,0,0,0,,你道什麼歉？
+Dialogue: 0,0:17:21.99,0:17:25.61,Default,NTP,0,0,0,,我差一點就把你…
+Dialogue: 0,0:17:25.61,0:17:28.32,Default,NTP,0,0,0,,沒事啦 反正我現在平安無事
+Dialogue: 0,0:17:36.42,0:17:40.25,Default,NTP,0,0,0,,我 必須要去 去追菲諾
+Dialogue: 0,0:17:40.64,0:17:41.38,Default,NTP,0,0,0,,我也一起去
+Dialogue: 0,0:17:41.77,0:17:42.27,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:17:42.54,0:17:43.50,Default,NTP,0,0,0,,去救菲諾
+Dialogue: 0,0:17:43.50,0:17:45.09,Default,NTP,0,0,0,,沒有那個必要
+Dialogue: 0,0:17:46.04,0:17:48.11,Default,NTP,0,0,0,,新的魔王誕生了
+Dialogue: 0,0:17:48.70,0:17:52.72,Default,NTP,0,0,0,,想必勇者制度將會復活 你們的夢想也將實現
+Dialogue: 0,0:17:53.14,0:17:54.73,Default,NTP,0,0,0,,這樣有何不好？
+Dialogue: 0,0:17:55.03,0:17:55.96,Default,NTP,0,0,0,,一點都不好！
+Dialogue: 0,0:17:56.45,0:17:56.97,Default,NTP,0,0,0,,霍？
+Dialogue: 0,0:17:57.80,0:17:59.64,Default,NTP,0,0,0,,你不想成為勇者嗎？
+Dialogue: 0,0:18:00.39,0:18:02.41,Default,NTP,0,0,0,,的確我一度對勇者絕望了
+Dialogue: 0,0:18:03.01,0:18:07.68,Default,NTP,0,0,0,,但是啊 我終於明白了 我所想成為的是什麼樣的勇者
+Dialogue: 0,0:18:08.63,0:18:10.07,Default,NTP,0,0,0,,既不需要勇者也不需要魔王
+Dialogue: 0,0:18:10.79,0:18:15.32,Default,NTP,0,0,0,,{\fs48}想要創造出魔人和人類一同生活一同歡笑的世界的才是勇者
+Dialogue: 0,0:18:16.21,0:18:22.17,Default,NTP,0,0,0,,無法理解呢 為了創造不再需要自己的世界而戰？
+Dialogue: 0,0:18:22.65,0:18:25.00,Default,NTP,0,0,0,,沒有可能 太荒唐了
+Dialogue: 0,0:18:25.00,0:18:28.99,Default,NTP,0,0,0,,沒錯 我就是笨蛋 但是能做到這點才是勇者
+Dialogue: 0,0:18:29.42,0:18:35.31,Default,NTP,0,0,0,,愚蠢 即將迎來新魔王的世界不需要你們
+Dialogue: 0,0:18:39.65,0:18:40.52,Default,NTP,0,0,0,,趕上了
+Dialogue: 0,0:18:41.00,0:18:41.70,Default,NTP,0,0,0,,店長？
+Dialogue: 0,0:18:42.29,0:18:46.27,Default,NTP,0,0,0,,塞阿拉·奧古斯特 又是你嗎
+Dialogue: 0,0:18:46.78,0:18:48.78,Default,NTP,0,0,0,,好久不見 雷德
+Dialogue: 0,0:18:49.49,0:18:50.78,Default,NTP,0,0,0,,勞爾 沒事吧？
+Dialogue: 0,0:18:51.26,0:18:53.60,Default,NTP,0,0,0,,大伙 都來了嗎？
+Dialogue: 0,0:18:54.51,0:18:56.01,Default,NTP,0,0,0,,果然不行嗎
+Dialogue: 0,0:18:56.63,0:18:58.44,Default,NTP,0,0,0,,你是知道這點才派來的吧
+Dialogue: 0,0:18:59.15,0:19:00.72,Default,NTP,0,0,0,,打算爭取時間嗎？
+Dialogue: 0,0:19:01.20,0:19:06.24,Default,NTP,0,0,0,,誒 算是吧 多虧你們菲諾大人順利覺醒了
+Dialogue: 0,0:19:06.40,0:19:07.85,Default,NTP,0,0,0,,怎麼會 你騙人的吧
+Dialogue: 0,0:19:09.18,0:19:10.47,Default,NTP,0,0,0,,勞爾 趕緊追上去
+Dialogue: 0,0:19:10.92,0:19:13.60,Default,NTP,0,0,0,,還來得及 不能讓菲諾回到魔界
+Dialogue: 0,0:19:14.08,0:19:15.35,Default,NTP,0,0,0,,不會讓你們得逞的
+Dialogue: 0,0:19:16.84,0:19:17.36,Default,NTP,0,0,0,,沒用的
+Dialogue: 0,0:19:18.60,0:19:23.29,Default,NTP,0,0,0,,不管吸入什麼吸力照舊 派森的吸塵器是最強的！
+Dialogue: 0,0:19:24.51,0:19:27.19,Default,NTP,0,0,0,,總之這裏就交給我們了
+Dialogue: 0,0:19:27.54,0:19:28.72,Default,NTP,0,0,0,,你們去救菲諾吧
+Dialogue: 0,0:19:35.96,0:19:39.60,Default,NTP,0,0,0,,太慢了 趕時間對吧 上來上來
+Dialogue: 0,0:19:40.20,0:19:41.66,Default,NTP,0,0,0,,老爺子？怎麼會？
+Dialogue: 0,0:19:42.07,0:19:45.44,Default,NTP,0,0,0,,只要是諾娃的請求 我哪都會去的
+Dialogue: 0,0:19:45.93,0:19:53.88,Default,NTP,0,0,0,,菲諾朝坐標N35213826 E138433852去了
+Dialogue: 0,0:19:54.49,0:19:55.53,Default,NTP,0,0,0,,是富士澤洛克山
+Dialogue: 0,0:19:55.53,0:19:58.40,Default,NTP,0,0,0,,趕快上來 要出發了！
+Dialogue: 0,0:19:58.99,0:20:00.53,Default,NTP,0,0,0,,模式轉換！
+Dialogue: 0,0:20:11.31,0:20:13.33,Default,NTP,0,0,0,,可惡 區區吸塵器
+Dialogue: 0,0:20:13.66,0:20:14.99,Default,NTP,0,0,0,,可不止吸塵器喲
+Dialogue: 0,0:20:18.43,0:20:20.74,Default,NTP,0,0,0,,艾露莎精心挑選的魔法道具
+Dialogue: 0,0:20:20.74,0:20:23.61,Default,NTP,0,0,0,,購買請務必光臨雷昂王都店
+Dialogue: 0,0:20:23.61,0:20:24.66,Default,NTP,0,0,0,,別開玩笑了！
+Dialogue: 0,0:20:25.72,0:20:26.92,Default,NTP,0,0,0,,接著 塞阿拉店長
+Dialogue: 0,0:20:27.12,0:20:27.74,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:20:28.34,0:20:28.84,Default,NTP,0,0,0,,啟動！
+Dialogue: 0,0:20:33.93,0:20:38.49,Default,NTP,0,0,0,,高能渦輪魔力吹風機喲 不僅風力對頭髮也很溫柔
+Dialogue: 0,0:20:38.84,0:20:40.11,Default,NTP,0,0,0,,潤發效果超群！
+Dialogue: 0,0:20:40.52,0:20:42.05,Default,NTP,0,0,0,,會不會有點太強了呢
+Dialogue: 0,0:20:44.55,0:20:47.16,Default,NTP,0,0,0,,你們…真敢干啊…
+Dialogue: 0,0:20:49.86,0:20:53.26,Default,NTP,0,0,0,,無論何時聽來我們店的主題曲都這麼治癒人心呢
+Dialogue: 0,0:20:56.09,0:20:59.71,Default,NTP,0,0,0,,搭載有可播放超低音域低音炮的揚聲器
+Dialogue: 0,0:21:00.29,0:21:02.63,Default,NTP,0,0,0,,這就是所謂的充滿魄力的環繞立體聲
+Dialogue: 0,0:21:03.01,0:21:04.34,Default,NTP,0,0,0,,可惡！
+Dialogue: 0,0:21:05.04,0:21:06.98,Default,NTP,0,0,0,,接下來…是這個
+Dialogue: 0,0:21:07.91,0:21:09.45,Default,NTP,0,0,0,,接著
+Dialogue: 0,0:21:10.83,0:21:15.02,Default,NTP,0,0,0,,採用有著優異保溫性能和導熱性北方鐵膽的高級魔飯鍋！
+Dialogue: 0,0:21:15.97,0:21:17.46,Default,NTP,0,0,0,,高級魔飯鍋…
+Dialogue: 0,0:21:18.84,0:21:20.88,Default,NTP,0,0,0,,飯粒圓潤飽滿
+Dialogue: 0,0:21:23.93,0:21:25.03,Default,NTP,0,0,0,,是富士澤洛克山
+Dialogue: 0,0:21:26.25,0:21:31.28,Default,NTP,0,0,0,,對菲諾正起著反應 在魔界入口打開之前必須做點什麼！
+Dialogue: 0,0:21:31.62,0:21:32.29,Default,NTP,0,0,0,,怎麼回事？
+Dialogue: 0,0:21:32.94,0:21:35.78,Default,NTP,0,0,0,,魔界有著被打倒的魔王的怨念
+Dialogue: 0,0:21:36.35,0:21:39.46,Default,NTP,0,0,0,,菲諾如果接觸到那些就會成為新的魔王
+Dialogue: 0,0:21:39.92,0:21:41.37,Default,NTP,0,0,0,,就是說要在那之前阻止她
+Dialogue: 0,0:21:41.99,0:21:43.37,Default,NTP,0,0,0,,為什麼你那麼清楚？
+Dialogue: 0,0:21:44.67,0:21:46.29,Default,NTP,0,0,0,,難不成你也是？
+Dialogue: 0,0:21:48.12,0:21:50.17,Default,NTP,0,0,0,,喂喂 拉姆也是嗎？
+Dialogue: 0,0:21:50.67,0:21:54.27,Default,NTP,0,0,0,,拉姆提米亞·德·雅克賽梅夢露 可是魔界的名門
+Dialogue: 0,0:21:54.93,0:21:56.49,Default,NTP,0,0,0,,那麼 你要怎麼做
+Dialogue: 0,0:21:57.12,0:21:58.02,Default,NTP,0,0,0,,什麼都不做
+Dialogue: 0,0:22:01.18,0:22:02.17,Default,NTP,0,0,0,,趕快了！
+Dialogue: 0,0:22:05.90,0:22:07.23,Default,NTP,0,0,0,,等著我啊 菲諾
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+

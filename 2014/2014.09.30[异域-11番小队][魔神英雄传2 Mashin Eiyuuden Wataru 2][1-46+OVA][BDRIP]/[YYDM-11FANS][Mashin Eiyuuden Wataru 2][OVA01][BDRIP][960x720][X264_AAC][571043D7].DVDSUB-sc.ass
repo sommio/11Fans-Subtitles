@@ -1,0 +1,362 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 魔神英雄伝ワタル -沒有終結之時的物語- 第1話「救世主 再臨」
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Simhei,25,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+Style: jpoped,Simhei,21,&H000080FF,&H00FFFFFF,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,34,134
+Style: cnoped,Simhei,21,&H00FF8000,&H00FFFFFF,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:25.88,0:00:29.47,Default,NTP,0,0,0,,翔龙子大人 请等一等
+Dialogue: 0,0:00:30.09,0:00:31.80,Default,NTP,0,0,0,,飞啊 飞啊
+Dialogue: 0,0:00:31.84,0:00:33.80,Default,NTP,0,0,0,,不用担心 武宝
+Dialogue: 0,0:00:34.10,0:00:36.85,Default,NTP,0,0,0,,我和火美子玩一会就回来
+Dialogue: 0,0:00:37.01,0:00:38.64,Default,NTP,0,0,0,,飞啊 飞啊
+Dialogue: 0,0:00:38.72,0:00:40.94,Default,NTP,0,0,0,,不行啊 翔龙子大人
+Dialogue: 0,0:00:43.27,0:00:45.94,Default,NTP,0,0,0,,火美子 要抓紧啊
+Dialogue: 0,0:00:45.94,0:00:47.15,Default,NTP,0,0,0,,遵命
+Dialogue: 0,0:00:48.94,0:00:51.53,Default,NTP,0,0,0,,翔龙子大人
+Dialogue: 0,0:01:00.41,0:01:01.66,Default,NTP,0,0,0,,翔龙子大人
+Dialogue: 0,0:01:06.67,0:01:08.67,Default,NTP,0,0,0,,翔龙子大人
+Dialogue: 0,0:01:14.22,0:01:15.89,Default,NTP,0,0,0,,翔龙子大人
+Dialogue: 0,0:01:21.43,0:01:22.56,Default,NTP,0,0,0,,原谅我 武宝
+Dialogue: 0,0:01:28.90,0:01:31.28,Default,NTP,0,0,0,,翔翔 再飞快一点吧
+Dialogue: 0,0:01:31.40,0:01:32.65,Default,NTP,0,0,0,,好 去吧
+Dialogue: 0,0:01:51.51,0:01:57.10,Default,NTP,0,0,0,,{\fad(200,300)}—\h没有终结之时的物语\h—
+Dialogue: 0,0:01:57.39,0:02:04.49,Default,NTP,0,0,0,,{\fad(150,1000)}救世主 再临
+Dialogue: 0,0:02:10.40,0:02:12.57,Default,NTP,0,0,0,,翔龙子大人
+Dialogue: 0,0:02:13.40,0:02:15.82,Default,NTP,0,0,0,,翔龙子大人
+Dialogue: 0,0:02:17.37,0:02:19.62,Default,NTP,0,0,0,,请回来吧
+Dialogue: 0,0:02:26.21,0:02:27.25,Default,NTP,0,0,0,,终于走了
+Dialogue: 0,0:02:27.88,0:02:31.09,Default,NTP,0,0,0,,若被武宝发现 一定会被带回去
+Dialogue: 0,0:02:33.46,0:02:35.55,Default,NTP,0,0,0,,躲在这里就没问题了
+Dialogue: 0,0:02:36.05,0:02:37.84,Default,NTP,0,0,0,,没问题没问题
+Dialogue: 0,0:02:42.22,0:02:43.60,Default,NTP,0,0,0,,怎…怎么
+Dialogue: 0,0:02:43.98,0:02:45.14,Default,NTP,0,0,0,,好像有什么
+Dialogue: 0,0:02:45.56,0:02:47.52,Default,NTP,0,0,0,,我去看看
+Dialogue: 0,0:02:47.52,0:02:48.81,Default,NTP,0,0,0,,等等 火美子
+Dialogue: 0,0:02:51.65,0:02:53.69,Default,NTP,0,0,0,,玩捉迷藏啊
+Dialogue: 0,0:02:55.57,0:02:56.99,Default,NTP,0,0,0,,快回来 火美子
+Dialogue: 0,0:02:57.49,0:03:00.28,Default,NTP,0,0,0,,咦 这是什么?
+Dialogue: 0,0:03:23.51,0:03:24.31,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:03:33.32,0:03:33.98,Default,NTP,0,0,0,,咦?
+Dialogue: 0,0:03:36.65,0:03:39.70,Default,NTP,0,0,0,,渡 你又打瞌睡
+Dialogue: 0,0:03:40.03,0:03:40.99,Default,NTP,0,0,0,,我没有睡
+Dialogue: 0,0:03:41.82,0:03:43.08,Default,NTP,0,0,0,,那你在干什么
+Dialogue: 0,0:03:43.70,0:03:45.24,Default,NTP,0,0,0,,我做了个奇怪的梦
+Dialogue: 0,0:03:46.70,0:03:48.46,Default,NTP,0,0,0,,这不是在睡吗
+Dialogue: 0,0:03:49.00,0:03:52.38,Default,NTP,0,0,0,,你啊 明年就要升六年级了
+Dialogue: 0,0:03:53.00,0:03:54.46,Default,NTP,0,0,0,,还不用功的话
+Dialogue: 0,0:03:54.59,0:03:57.34,Default,NTP,0,0,0,,到头来吃苦的是老师还是渡呢
+Dialogue: 0,0:04:01.43,0:04:02.89,Default,NTP,0,0,0,,想什么想
+Dialogue: 0,0:04:03.18,0:04:05.10,Default,NTP,0,0,0,,算了 回答这个问题
+Dialogue: 0,0:04:06.06,0:04:08.02,Default,NTP,0,0,0,,当气温升到30摄氏度
+Dialogue: 0,0:04:08.23,0:04:10.77,Default,NTP,0,0,0,,地面的温度会怎样上升
+Dialogue: 0,0:04:10.90,0:04:11.60,Default,NTP,0,0,0,,画出来看看
+Dialogue: 0,0:04:25.83,0:04:27.16,Default,NTP,0,0,0,,创界山…
+Dialogue: 0,0:04:31.00,0:04:33.17,Default,NTP,0,0,0,,快醒醒 渡
+Dialogue: 0,0:04:40.34,0:04:42.55,Default,NTP,0,0,0,,有种不祥的感觉
+Dialogue: 0,0:04:44.39,0:04:46.81,Default,NTP,0,0,0,,难道创界山发生了什么事
+Dialogue: 0,0:05:10.83,0:05:12.21,Default,NTP,0,0,0,,你在干什么
+Dialogue: 0,0:05:18.84,0:05:23.47,Default,NTP,0,0,0,,果然 创界山果然有事发生
+Dialogue: 0,0:05:26.22,0:05:27.64,Default,NTP,0,0,0,,他是傻子吗
+Dialogue: 0,0:05:29.10,0:05:30.77,Default,NTP,0,0,0,,若创界山发生什么事
+Dialogue: 0,0:05:30.89,0:05:32.39,Default,NTP,0,0,0,,他们应该会来接我啊
+Dialogue: 0,0:05:38.02,0:05:42.90,Default,NTP,0,0,0,,龙神丸 我在这里啊
+Dialogue: 0,0:05:48.83,0:05:51.37,Default,NTP,0,0,0,,对了 不来的话就由我呼叫它
+Dialogue: 0,0:05:51.66,0:05:52.79,Default,NTP,0,0,0,,好吧
+Dialogue: 0,0:05:53.79,0:05:57.79,Default,NTP,0,0,0,,龙神丸
+Dialogue: 0,0:06:03.13,0:06:04.34,Default,NTP,0,0,0,,为什么
+Dialogue: 0,0:06:06.34,0:06:08.72,Default,NTP,0,0,0,,为什么不来接我啊
+Dialogue: 0,0:06:23.11,0:06:25.15,Default,NTP,0,0,0,,这个水池不许钓鱼
+Dialogue: 0,0:06:25.66,0:06:27.07,Default,NTP,0,0,0,,会受罚的
+Dialogue: 0,0:06:27.49,0:06:29.41,Default,NTP,0,0,0,,我没有放饵
+Dialogue: 0,0:06:37.04,0:06:38.58,Default,NTP,0,0,0,,有什么烦恼吗
+Dialogue: 0,0:06:41.09,0:06:43.38,Default,NTP,0,0,0,,你在呼叫龙神大人吧
+Dialogue: 0,0:06:44.59,0:06:46.59,Default,NTP,0,0,0,,才没有呼叫呢
+Dialogue: 0,0:06:47.09,0:06:48.09,Default,NTP,0,0,0,,是吗
+Dialogue: 0,0:07:01.69,0:07:02.86,Default,NTP,0,0,0,,龙神丸?
+Dialogue: 0,0:07:12.08,0:07:13.16,Default,NTP,0,0,0,,龙神丸?
+Dialogue: 0,0:07:15.00,0:07:16.16,Default,NTP,0,0,0,,是龙神丸吗
+Dialogue: 0,0:07:21.29,0:07:22.59,Default,NTP,0,0,0,,你是龙神丸吧
+Dialogue: 0,0:07:22.84,0:07:25.34,Default,NTP,0,0,0,,竟然化成老头子 有一手啊
+Dialogue: 0,0:07:25.34,0:07:26.72,Default,NTP,0,0,0,,真像 真像
+Dialogue: 0,0:07:27.01,0:07:29.39,Default,NTP,0,0,0,,樱花…没有开呢
+Dialogue: 0,0:07:30.60,0:07:33.22,Default,NTP,0,0,0,,夏天当然不会开花
+Dialogue: 0,0:07:34.56,0:07:40.02,Default,NTP,0,0,0,,可是 就算是春天这樱树也多年未开了
+Dialogue: 0,0:07:40.65,0:07:46.24,Default,NTP,0,0,0,,最近守护龙神大人的小孩越来越少了
+Dialogue: 0,0:07:48.07,0:07:50.95,Default,NTP,0,0,0,,这樱树是龙的化身啊
+Dialogue: 0,0:07:51.45,0:07:52.37,Default,NTP,0,0,0,,龙的…
+Dialogue: 0,0:07:53.33,0:07:55.04,Default,NTP,0,0,0,,你知道吗
+Dialogue: 0,0:07:55.70,0:07:59.12,Default,NTP,0,0,0,,在天国有一个专门饲养龙的民族
+Dialogue: 0,0:07:59.37,0:08:03.21,Default,NTP,0,0,0,,他们能骑着龙并自在的操纵龙
+Dialogue: 0,0:08:03.59,0:08:04.63,Default,NTP,0,0,0,,骑着龙?
+Dialogue: 0,0:08:05.13,0:08:08.67,Default,NTP,0,0,0,,从那一族中生出住在地上的人
+Dialogue: 0,0:08:08.93,0:08:14.93,Default,NTP,0,0,0,,代代都把第一个出生的男孩作为守护龙神的人
+Dialogue: 0,0:08:15.93,0:08:19.52,Default,NTP,0,0,0,,每个男孩都取相同的名字
+Dialogue: 0,0:08:20.06,0:08:22.27,Default,NTP,0,0,0,,那名字是Adaru
+Dialogue: 0,0:08:23.27,0:08:24.40,Default,NTP,0,0,0,,Adaru?
+Dialogue: 0,0:08:27.15,0:08:31.91,Default,NTP,0,0,0,,永远的生命 没有终结之时的意思
+Dialogue: 0,0:08:32.82,0:08:33.83,Default,NTP,0,0,0,,Adaru
+Dialogue: 0,0:08:34.49,0:08:38.29,Default,NTP,0,0,0,,那个子孙现在应该还在某处生存
+Dialogue: 0,0:08:38.54,0:08:40.33,Default,NTP,0,0,0,,那孩子能骑龙吗?
+Dialogue: 0,0:08:40.54,0:08:46.00,Default,NTP,0,0,0,,当然 还能前往神的国度
+Dialogue: 0,0:08:47.34,0:08:48.34,Default,NTP,0,0,0,,骑着龙?
+Dialogue: 0,0:08:51.43,0:08:56.56,Default,NTP,0,0,0,,只要还持有信赖之心和巨大的梦想
+Dialogue: 0,0:08:57.93,0:09:00.94,Default,NTP,0,0,0,,信赖之心和巨大的梦想…
+Dialogue: 0,0:09:01.85,0:09:06.44,Default,NTP,0,0,0,,我的梦想已变得这么小
+Dialogue: 0,0:09:06.98,0:09:09.61,Default,NTP,0,0,0,,再也去不了了吧
+Dialogue: 0,0:09:14.99,0:09:17.29,Default,NTP,0,0,0,,创界山逐渐崩溃…
+Dialogue: 0,0:09:19.37,0:09:20.91,Default,NTP,0,0,0,,不可能有这种事
+Dialogue: 0,0:09:22.33,0:09:23.71,Default,NTP,0,0,0,,一定是心理作用
+Dialogue: 0,0:09:28.17,0:09:29.76,Default,NTP,0,0,0,,一定不会有事吧
+Dialogue: 0,0:09:35.89,0:09:36.80,Default,NTP,0,0,0,,什么!?
+Dialogue: 0,0:09:40.39,0:09:41.64,Default,NTP,0,0,0,,骗人的吧
+Dialogue: 0,0:10:43.45,0:10:45.08,Default,NTP,0,0,0,,樱花开了
+Dialogue: 0,0:10:57.47,0:10:59.60,Default,NTP,0,0,0,,这是天马?
+Dialogue: 0,0:11:00.43,0:11:01.43,Default,NTP,0,0,0,,好疼
+Dialogue: 0,0:11:01.64,0:11:02.64,Default,NTP,0,0,0,,不是梦啊
+Dialogue: 0,0:11:06.64,0:11:07.56,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:11:19.66,0:11:20.58,Default,NTP,0,0,0,,虎王
+Dialogue: 0,0:11:20.95,0:11:21.70,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:11:22.74,0:11:23.83,Default,NTP,0,0,0,,虎王
+Dialogue: 0,0:11:25.29,0:11:26.58,Default,NTP,0,0,0,,不是做梦吧
+Dialogue: 0,0:11:26.79,0:11:28.96,Default,NTP,0,0,0,,嗯 真的是本少爷
+Dialogue: 0,0:11:29.46,0:11:30.67,Default,NTP,0,0,0,,可是 为什么
+Dialogue: 0,0:11:30.75,0:11:32.96,Default,NTP,0,0,0,,为什么本少爷会来这里吗
+Dialogue: 0,0:11:33.30,0:11:35.13,Default,NTP,0,0,0,,嗯 发生了什么事
+Dialogue: 0,0:11:35.76,0:11:37.59,Default,NTP,0,0,0,,创界山有危险
+Dialogue: 0,0:11:38.34,0:11:40.30,Default,NTP,0,0,0,,魔界的人又开始行动了
+Dialogue: 0,0:11:40.76,0:11:41.55,Default,NTP,0,0,0,,果然
+Dialogue: 0,0:11:41.97,0:11:43.51,Default,NTP,0,0,0,,详情情形之后再说
+Dialogue: 0,0:11:44.81,0:11:47.39,Default,NTP,0,0,0,,现在快跟本少爷去创界山吧
+Dialogue: 0,0:11:47.81,0:11:48.90,Default,NTP,0,0,0,,骑这匹马?
+Dialogue: 0,0:11:49.02,0:11:49.60,Default,NTP,0,0,0,,对
+Dialogue: 0,0:11:49.94,0:11:50.73,Default,NTP,0,0,0,,好厉害
+Dialogue: 0,0:11:50.98,0:11:52.44,Default,NTP,0,0,0,,愿意来吗 渡
+Dialogue: 0,0:11:52.65,0:11:53.44,Default,NTP,0,0,0,,当然
+Dialogue: 0,0:11:54.61,0:11:56.86,Default,NTP,0,0,0,,这样的渡才是本少爷的
+Dialogue: 0,0:11:57.11,0:11:58.99,Default,NTP,0,0,0,,好朋友 对吧
+Dialogue: 0,0:11:59.70,0:12:00.57,Default,NTP,0,0,0,,没错
+Dialogue: 0,0:12:02.49,0:12:03.49,Default,NTP,0,0,0,,出发了 渡
+Dialogue: 0,0:12:03.74,0:12:04.41,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:12:26.85,0:12:33.36,Default,NTP,0,0,0,,渡 起来 快起来
+Dialogue: 0,0:12:37.86,0:12:39.36,Default,NTP,0,0,0,,好爽快
+Dialogue: 0,0:12:40.28,0:12:44.33,Default,NTP,0,0,0,,好爽快好爽快 爽快爽快
+Dialogue: 0,0:12:44.33,0:12:45.33,Default,NTP,0,0,0,,火美子
+Dialogue: 0,0:12:46.20,0:12:48.37,Default,NTP,0,0,0,,渡 好久不见
+Dialogue: 0,0:12:48.66,0:12:50.87,Default,NTP,0,0,0,,那这里是创界山
+Dialogue: 0,0:12:51.33,0:12:52.21,Default,NTP,0,0,0,,虎王呢
+Dialogue: 0,0:12:52.67,0:12:53.96,Default,NTP,0,0,0,,老虎在吗
+Dialogue: 0,0:12:56.05,0:12:57.17,Default,NTP,0,0,0,,在哪里在哪里
+Dialogue: 0,0:12:57.34,0:12:59.13,Default,NTP,0,0,0,,老虎
+Dialogue: 0,0:12:59.55,0:13:02.18,Default,NTP,0,0,0,,真奇怪 明明是一起来的
+Dialogue: 0,0:13:32.58,0:13:35.67,Default,NTP,0,0,0,,与我脑海中浮现的创界山一样
+Dialogue: 0,0:13:38.76,0:13:40.47,Default,NTP,0,0,0,,过来啊 鸟先生
+Dialogue: 0,0:13:40.67,0:13:41.92,Default,NTP,0,0,0,,那不是鸟先生
+Dialogue: 0,0:13:53.23,0:13:55.81,Default,NTP,0,0,0,,渡 是渡吗
+Dialogue: 0,0:13:56.97,0:13:58.02,Default,NTP,0,0,0,,龙神丸
+Dialogue: 0,0:13:58.27,0:14:00.69,Default,NTP,0,0,0,,渡 你终于来了
+Dialogue: 0,0:14:01.40,0:14:03.74,Default,NTP,0,0,0,,但你是怎么来神部界的
+Dialogue: 0,0:14:04.07,0:14:05.91,Default,NTP,0,0,0,,是虎王带我来的
+Dialogue: 0,0:14:06.78,0:14:09.33,Default,NTP,0,0,0,,龙神丸 到底发生了什么事
+Dialogue: 0,0:14:09.83,0:14:12.62,Default,NTP,0,0,0,,通往魔界的门开始打开了
+Dialogue: 0,0:14:13.00,0:14:13.75,Default,NTP,0,0,0,,门?
+Dialogue: 0,0:14:14.00,0:14:16.33,Default,NTP,0,0,0,,从魔界吹来一股邪恶的能量
+Dialogue: 0,0:14:16.67,0:14:19.09,Default,NTP,0,0,0,,使创界山变成了这样
+Dialogue: 0,0:14:20.13,0:14:21.96,Default,NTP,0,0,0,,若门完全打开的话
+Dialogue: 0,0:14:22.09,0:14:25.47,Default,NTP,0,0,0,,创界山就会完全崩溃
+Dialogue: 0,0:14:29.47,0:14:30.93,Default,NTP,0,0,0,,鸟先生啊
+Dialogue: 0,0:14:31.10,0:14:32.93,Default,NTP,0,0,0,,是魔界的家伙 小心
+Dialogue: 0,0:14:35.77,0:14:36.69,Default,NTP,0,0,0,,龙神丸
+Dialogue: 0,0:14:38.86,0:14:39.61,Default,NTP,0,0,0,,火美子
+Dialogue: 0,0:14:39.65,0:14:41.44,Default,NTP,0,0,0,,鸟先生 鸟先生
+Dialogue: 0,0:14:43.07,0:14:44.40,Default,NTP,0,0,0,,龙神丸
+Dialogue: 0,0:14:45.57,0:14:46.66,Default,NTP,0,0,0,,放开我
+Dialogue: 0,0:14:48.62,0:14:49.49,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:14:51.62,0:14:52.70,Default,NTP,0,0,0,,放开我
+Dialogue: 0,0:15:02.46,0:15:03.26,Default,NTP,0,0,0,,成功了
+Dialogue: 0,0:15:04.55,0:15:06.76,Default,NTP,0,0,0,,好 来吧
+Dialogue: 0,0:15:08.09,0:15:11.06,Default,NTP,0,0,0,,龙神丸
+Dialogue: 0,0:15:16.94,0:15:18.94,Default,NTP,0,0,0,,为什么龙神丸不来?
+Dialogue: 0,0:15:31.08,0:15:31.83,Default,NTP,0,0,0,,糟了
+Dialogue: 0,0:15:32.24,0:15:34.54,Default,NTP,0,0,0,,渡 是鸟先生啊
+Dialogue: 0,0:15:34.79,0:15:36.33,Default,NTP,0,0,0,,我说过不是鸟先生了
+Dialogue: 0,0:15:44.38,0:15:45.84,Default,NTP,0,0,0,,刚才半信半疑
+Dialogue: 0,0:15:46.84,0:15:48.22,Default,NTP,0,0,0,,原来果真是渡
+Dialogue: 0,0:15:48.59,0:15:49.18,Default,NTP,0,0,0,,古拿玛
+Dialogue: 0,0:15:49.22,0:15:50.68,Default,NTP,0,0,0,,果然是鸟先生
+Dialogue: 0,0:15:54.22,0:15:55.56,Default,NTP,0,0,0,,你一直保持鸟的模样吗
+Dialogue: 0,0:15:55.64,0:15:57.19,Default,NTP,0,0,0,,这样比较适合我
+Dialogue: 0,0:15:57.39,0:15:58.77,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:16:01.48,0:16:02.44,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:16:02.52,0:16:03.48,Default,NTP,0,0,0,,海火子
+Dialogue: 0,0:16:05.69,0:16:07.86,Default,NTP,0,0,0,,渡 真的是渡吗
+Dialogue: 0,0:16:07.99,0:16:08.65,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:08.91,0:16:10.32,Default,NTP,0,0,0,,这样就全员到齐了
+Dialogue: 0,0:16:11.16,0:16:11.78,Default,NTP,0,0,0,,快看
+Dialogue: 0,0:16:12.87,0:16:14.49,Default,NTP,0,0,0,,剑部武一郎
+Dialogue: 0,0:16:14.91,0:16:17.16,Default,NTP,0,0,0,,驾到
+Dialogue: 0,0:16:17.50,0:16:18.46,Default,NTP,0,0,0,,师傅
+Dialogue: 0,0:16:19.67,0:16:20.88,Default,NTP,0,0,0,,什…什么
+Dialogue: 0,0:16:21.33,0:16:24.05,Default,NTP,0,0,0,,来啊 尽管放马过来
+Dialogue: 0,0:16:26.09,0:16:26.71,Default,NTP,0,0,0,,师傅
+Dialogue: 0,0:16:35.64,0:16:36.47,Default,NTP,0,0,0,,成功了
+Dialogue: 0,0:16:36.77,0:16:40.14,Default,NTP,0,0,0,,只是暂时撤退 很快就会卷土重来
+Dialogue: 0,0:16:41.10,0:16:42.31,Default,NTP,0,0,0,,噢 渡
+Dialogue: 0,0:16:42.31,0:16:43.11,Default,NTP,0,0,0,,师傅
+Dialogue: 0,0:16:43.69,0:16:45.19,Default,NTP,0,0,0,,你终于来了
+Dialogue: 0,0:16:47.94,0:16:49.53,Default,NTP,0,0,0,,下次那些家伙再来
+Dialogue: 0,0:16:49.82,0:16:52.24,Default,NTP,0,0,0,,我们就呼叫魔神收拾他们
+Dialogue: 0,0:16:54.41,0:16:56.04,Default,NTP,0,0,0,,呼叫不了啊
+Dialogue: 0,0:16:57.12,0:17:00.83,Default,NTP,0,0,0,,魔界的力量使魔神全动不了了
+Dialogue: 0,0:17:01.25,0:17:03.00,Default,NTP,0,0,0,,因为魔界之门已打开了吗
+Dialogue: 0,0:17:03.54,0:17:04.34,Default,NTP,0,0,0,,对
+Dialogue: 0,0:17:04.59,0:17:09.63,Default,NTP,0,0,0,,封印大门的"圣龙之勾玉"被魔界的人抢走了
+Dialogue: 0,0:17:10.55,0:17:11.93,Default,NTP,0,0,0,,"圣龙之勾玉"
+Dialogue: 0,0:17:13.64,0:17:16.85,Default,NTP,0,0,0,,那只要把那个"圣龙之勾玉"取回来就行了吧
+Dialogue: 0,0:17:17.31,0:17:20.81,Default,NTP,0,0,0,,虽说如此 但我们到不了魔界
+Dialogue: 0,0:17:20.94,0:17:22.48,Default,NTP,0,0,0,,也没有足够的时间
+Dialogue: 0,0:17:51.47,0:17:52.22,Default,NTP,0,0,0,,过来了
+Dialogue: 0,0:18:08.07,0:18:08.78,Default,NTP,0,0,0,,什么!?
+Dialogue: 0,0:18:12.45,0:18:13.24,Default,NTP,0,0,0,,古拿玛
+Dialogue: 0,0:18:13.53,0:18:14.20,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:18:18.66,0:18:19.49,Default,NTP,0,0,0,,过来了
+Dialogue: 0,0:18:26.92,0:18:29.50,Default,NTP,0,0,0,,野牛武一郎流 交叉字斩
+Dialogue: 0,0:18:29.63,0:18:31.71,Default,NTP,0,0,0,,受死吧
+Dialogue: 0,0:18:34.72,0:18:35.38,Default,NTP,0,0,0,,什么!?
+Dialogue: 0,0:18:37.76,0:18:38.47,Default,NTP,0,0,0,,大叔
+Dialogue: 0,0:18:38.64,0:18:39.47,Default,NTP,0,0,0,,没事吧
+Dialogue: 0,0:18:39.68,0:18:40.72,Default,NTP,0,0,0,,师傅
+Dialogue: 0,0:18:41.35,0:18:42.77,Default,NTP,0,0,0,,你这家伙
+Dialogue: 0,0:18:54.15,0:18:54.99,Default,NTP,0,0,0,,不行了
+Dialogue: 0,0:18:55.49,0:18:56.28,Default,NTP,0,0,0,,龙神丸
+Dialogue: 0,0:18:59.66,0:19:01.79,Default,NTP,0,0,0,,龙神丸不能来救我们
+Dialogue: 0,0:19:03.75,0:19:04.58,Default,NTP,0,0,0,,古拿玛
+Dialogue: 0,0:19:09.50,0:19:11.21,Default,NTP,0,0,0,,怎样才能打倒它
+Dialogue: 0,0:19:12.76,0:19:14.22,Default,NTP,0,0,0,,别怕 渡
+Dialogue: 0,0:19:15.51,0:19:16.43,Default,NTP,0,0,0,,虎王!?
+Dialogue: 0,0:19:18.30,0:19:19.80,Default,NTP,0,0,0,,有本少爷在你身边
+Dialogue: 0,0:19:20.30,0:19:21.89,Default,NTP,0,0,0,,你在哪 虎王
+Dialogue: 0,0:19:26.02,0:19:26.94,Default,NTP,0,0,0,,虎王
+Dialogue: 0,0:19:28.35,0:19:29.98,Default,NTP,0,0,0,,要战斗到底 渡
+Dialogue: 0,0:19:31.61,0:19:32.69,Default,NTP,0,0,0,,好
+Dialogue: 0,0:19:34.28,0:19:35.07,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:19:40.70,0:19:41.70,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:19:48.88,0:19:49.83,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:20:05.22,0:20:05.98,Default,NTP,0,0,0,,趁现在
+Dialogue: 0,0:20:25.04,0:20:26.87,Default,NTP,0,0,0,,你是谁
+Dialogue: 0,0:20:28.71,0:20:32.67,Default,NTP,0,0,0,,我就是阎罗王
+Dialogue: 0,0:20:33.67,0:20:34.63,Default,NTP,0,0,0,,阎罗王!?
+Dialogue: 0,0:20:35.34,0:20:37.42,Default,NTP,0,0,0,,你就是救世主渡吗
+Dialogue: 0,0:20:37.67,0:20:38.26,Default,NTP,0,0,0,,正是
+Dialogue: 0,0:20:39.38,0:20:42.85,Default,NTP,0,0,0,,能接住吼鬼的剑 真了不起
+Dialogue: 0,0:20:43.76,0:20:46.72,Default,NTP,0,0,0,,我不会让你们这些魔界中人为所欲为的
+Dialogue: 0,0:20:48.98,0:20:52.52,Default,NTP,0,0,0,,竟把我和刚才与你交手的魔物相提并论
+Dialogue: 0,0:20:52.86,0:20:54.36,Default,NTP,0,0,0,,太令我困扰了
+Dialogue: 0,0:20:54.40,0:20:55.07,Default,NTP,0,0,0,,什么!?
+Dialogue: 0,0:20:55.53,0:20:58.95,Default,NTP,0,0,0,,现在我先留你小命
+Dialogue: 0,0:21:00.07,0:21:06.08,Default,NTP,0,0,0,,救世主究竟有何能耐 我会拭目以待的
+Dialogue: 0,0:21:08.04,0:21:09.04,Default,NTP,0,0,0,,想逃吗
+Dialogue: 0,0:21:10.96,0:21:13.08,Default,NTP,0,0,0,,好好珍惜生命吧
+Dialogue: 0,0:21:20.05,0:21:21.51,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:21:22.18,0:21:23.18,Default,NTP,0,0,0,,渡
+Dialogue: 0,0:21:23.72,0:21:25.05,Default,NTP,0,0,0,,没事吧 渡
+Dialogue: 0,0:21:25.10,0:21:25.76,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:21:26.06,0:21:28.39,Default,NTP,0,0,0,,那个人自称阎罗王啊
+Dialogue: 0,0:21:28.98,0:21:31.44,Default,NTP,0,0,0,,全身散发出可怕的杀气
+Dialogue: 0,0:21:31.94,0:21:34.69,Default,NTP,0,0,0,,魔界的大人物终于登场了
+Dialogue: 0,0:21:35.65,0:21:39.69,Default,NTP,0,0,0,,不过渡挡住它的剑的时候 我真吃了一惊
+Dialogue: 0,0:21:40.03,0:21:42.99,Default,NTP,0,0,0,,我也没想到自己能做到
+Dialogue: 0,0:21:43.28,0:21:45.03,Default,NTP,0,0,0,,是虎王救了我
+Dialogue: 0,0:21:45.49,0:21:47.54,Default,NTP,0,0,0,,对了 虎王在哪
+Dialogue: 0,0:21:54.58,0:21:55.96,Default,NTP,0,0,0,,灵魂出窍?
+Dialogue: 0,0:21:56.04,0:21:57.09,Default,NTP,0,0,0,,没错
+Dialogue: 0,0:21:58.21,0:22:02.93,Default,NTP,0,0,0,,翔龙子大人被魔界的邪气击中后就变成这样
+Dialogue: 0,0:22:03.89,0:22:08.47,Default,NTP,0,0,0,,看来虎王好像挣脱了翔龙子大人的身体
+Dialogue: 0,0:22:09.47,0:22:11.64,Default,NTP,0,0,0,,那虎王现在在哪
+Dialogue: 0,0:22:12.27,0:22:14.10,Default,NTP,0,0,0,,那就没人知道了
+Dialogue: 0,0:22:14.94,0:22:16.65,Default,NTP,0,0,0,,如果渡遇见的虎王就是从
+Dialogue: 0,0:22:16.73,0:22:19.98,Default,NTP,0,0,0,,翔龙子大人体内挣脱的虎王的话
+Dialogue: 0,0:22:20.15,0:22:22.90,Default,NTP,0,0,0,,看来除非虎王重回翔龙子大人体内
+Dialogue: 0,0:22:23.74,0:22:26.07,Default,NTP,0,0,0,,否则翔龙子大人便不会醒
+Dialogue: 0,0:22:31.29,0:22:35.33,Default,NTP,0,0,0,,在天部界有一颗"剑龙之勾玉"
+Dialogue: 0,0:22:35.67,0:22:38.04,Default,NTP,0,0,0,,若要关上魔界之门
+Dialogue: 0,0:22:38.38,0:22:42.55,Default,NTP,0,0,0,,除了以"剑龙之勾玉"封印外别无他法
+Dialogue: 0,0:22:42.97,0:22:43.88,Default,NTP,0,0,0,,天部界?
+Dialogue: 0,0:22:44.18,0:22:46.47,Default,NTP,0,0,0,,是比星界山更高的世界
+Dialogue: 0,0:22:46.97,0:22:48.35,Default,NTP,0,0,0,,救世主渡
+Dialogue: 0,0:22:49.10,0:22:53.02,Default,NTP,0,0,0,,你能到天部界把"剑龙之勾玉"取回来吗
+Dialogue: 0,0:22:53.31,0:22:55.44,Default,NTP,0,0,0,,是 我一定尽力而为
+Dialogue: 0,0:22:55.56,0:22:57.27,Default,NTP,0,0,0,,话虽如此
+Dialogue: 0,0:22:57.77,0:23:04.15,Default,NTP,0,0,0,,但别说现生界 就连神部界的人也不能进入天部界
+Dialogue: 0,0:23:04.36,0:23:09.28,Default,NTP,0,0,0,,一进去就会触到大龙光帝的逆鳞而丧命
+Dialogue: 0,0:23:10.16,0:23:12.95,Default,NTP,0,0,0,,即使如此也别无他法
+Dialogue: 0,0:23:15.12,0:23:19.46,Default,NTP,0,0,0,,若由创界山的神子告知神部界的危机的话
+Dialogue: 0,0:23:19.75,0:23:23.34,Default,NTP,0,0,0,,大龙光帝也一定会接受的
+Dialogue: 0,0:23:23.63,0:23:25.72,Default,NTP,0,0,0,,可是翔龙子大人…
+Dialogue: 0,0:23:26.43,0:23:28.89,Default,NTP,0,0,0,,如今翔龙子去不了
+Dialogue: 0,0:23:29.01,0:23:31.31,Default,NTP,0,0,0,,身为星界山神子的海火子
+Dialogue: 0,0:23:31.35,0:23:33.56,Default,NTP,0,0,0,,这项使命就拜托你了
+Dialogue: 0,0:23:34.48,0:23:38.06,Default,NTP,0,0,0,,是 可是有上天部界的方法吗
+Dialogue: 0,0:23:38.35,0:23:41.02,Default,NTP,0,0,0,,要利用创界山彩虹的力量
+Dialogue: 0,0:23:41.11,0:23:45.28,Default,NTP,0,0,0,,请等一下 这样会令创界山的彩虹消失
+Dialogue: 0,0:23:45.65,0:23:50.20,Default,NTP,0,0,0,,彩虹消失的话 创界山就会立刻落入魔界手中
+Dialogue: 0,0:23:50.62,0:23:54.50,Default,NTP,0,0,0,,不仅如此 连圣龙妃大人的生命也…
+Dialogue: 0,0:23:58.04,0:24:00.96,Default,NTP,0,0,0,,即使如此 也非去不可
+Dialogue: 0,0:24:07.72,0:24:10.47,Default,NTP,0,0,0,,我一定会把"剑龙之勾玉"取回来
+Dialogue: 0,0:24:56.97,0:25:00.56,Default,NTP,0,0,0,,渡 不论何时我都与你同在
+Dialogue: 0,0:25:01.35,0:25:02.73,Default,NTP,0,0,0,,拜托你了 渡
+Dialogue: 0,0:25:13.53,0:25:16.87,Default,NTP,0,0,0,,我不会让你得逞的 救世主
+Dialogue: 0,0:25:17.41,0:25:18.62,Default,NTP,0,0,0,,走吧 吼鬼
+Dialogue: 0,0:25:24.92,0:25:26.88,Default,NTP,0,0,0,,渡 海火子
+Dialogue: 0,0:25:30.13,0:25:32.05,Default,NTP,0,0,0,,圣龙妃大人
+Dialogue: 0,0:26:14.88,0:26:20.86,jpoped,NTP,0,0,0,,{\fad(150,150)}耳をふさいでも 聞こえていたの
+Dialogue: 0,0:26:21.82,0:26:28.03,jpoped,NTP,0,0,0,,{\fad(150,150)}時の砂が落ちる音
+Dialogue: 0,0:26:30.16,0:26:36.37,jpoped,NTP,0,0,0,,{\fad(150,150)}黃昏に金の雲を残して
+Dialogue: 0,0:26:36.96,0:26:43.17,jpoped,NTP,0,0,0,,{\fad(150,150)}沈む夕陽をせつなく見る
+Dialogue: 0,0:26:45.38,0:26:55.10,jpoped,NTP,0,0,0,,{\fad(150,150)}Adieu 悲しみの 夜は來るけれど
+Dialogue: 0,0:26:55.39,0:26:59.15,jpoped,NTP,0,0,0,,{\fad(150,150)}淚 見せない
+Dialogue: 0,0:26:59.44,0:27:02.90,jpoped,NTP,0,0,0,,{\fad(150,150)}永遠の扉を
+Dialogue: 0,0:27:03.18,0:27:14.37,jpoped,NTP,0,0,0,,{\fad(150,150)}開けば始まる 終わりなき時の物語
+Dialogue: 0,0:27:14.66,0:27:18.33,jpoped,NTP,0,0,0,,{\fad(150,150)}出逢いは一瞬
+Dialogue: 0,0:27:18.54,0:27:22.13,jpoped,NTP,0,0,0,,{\fad(150,150)}でも胸に Memory
+Dialogue: 0,0:27:22.59,0:27:33.89,jpoped,NTP,0,0,0,,{\fad(150,350)}君の熱さを忘れないよ Forever
+Dialogue: 0,0:26:14.88,0:26:20.86,cnoped,NTP,0,0,0,,{\fad(150,150)}即使堵上耳朵也能听见
+Dialogue: 0,0:26:21.82,0:26:28.03,cnoped,NTP,0,0,0,,{\fad(150,150)}沙漏漏下的声音
+Dialogue: 0,0:26:30.16,0:26:36.37,cnoped,NTP,0,0,0,,{\fad(150,150)}黄昏时只残留金色的云
+Dialogue: 0,0:26:36.96,0:26:43.17,cnoped,NTP,0,0,0,,{\fad(150,150)}难过的看着夕阳落下
+Dialogue: 0,0:26:45.38,0:26:55.10,cnoped,NTP,0,0,0,,{\fad(150,150)}Adieu 悲伤的夜晚到来
+Dialogue: 0,0:26:55.39,0:26:59.15,cnoped,NTP,0,0,0,,{\fad(150,150)}却不让你看见泪水
+Dialogue: 0,0:26:59.44,0:27:02.90,cnoped,NTP,0,0,0,,{\fad(150,150)}只要开启永远的门扉
+Dialogue: 0,0:27:03.18,0:27:14.37,cnoped,NTP,0,0,0,,{\fad(150,150)}永恒的传说就会开始
+Dialogue: 0,0:27:14.66,0:27:18.33,cnoped,NTP,0,0,0,,{\fad(150,150)}虽然只有瞬间的邂逅
+Dialogue: 0,0:27:18.54,0:27:22.13,cnoped,NTP,0,0,0,,{\fad(150,150)}但胸中的 Memory
+Dialogue: 0,0:27:22.59,0:27:33.89,cnoped,NTP,0,0,0,,{\fad(150,350)}不会忘记你的热情 Forever
+Dialogue: 0,0:28:05.37,0:28:09.29,Default,NTP,0,0,0,,挡在进入天部界的我们面前的是两个巨神
+Dialogue: 0,0:28:09.83,0:28:12.70,Default,NTP,0,0,0,,巨神不肯听我们的请求
+Dialogue: 0,0:28:13.00,0:28:15.16,Default,NTP,0,0,0,,要把我们赶出天部界
+Dialogue: 0,0:28:15.79,0:28:19.13,Default,NTP,0,0,0,,这时天部界的神子四天龙王出现了
+Dialogue: 0,0:28:19.50,0:28:22.92,Default,NTP,0,0,0,,从四天龙王处得知的"剑龙之勾玉"所在
+Dialogue: 0,0:28:23.16,0:28:24.47,Default,NTP,0,0,0,,是一个很远的地方
+Dialogue: 0,0:28:24.47,0:28:29.41,Default,NTP,0,0,0,,天部界之岚
+

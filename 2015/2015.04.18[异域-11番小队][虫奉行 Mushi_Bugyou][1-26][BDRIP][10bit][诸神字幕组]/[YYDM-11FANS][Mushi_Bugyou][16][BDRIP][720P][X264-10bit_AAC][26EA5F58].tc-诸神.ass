@@ -1,0 +1,625 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Mushibugyo
+Original Script: 诸神字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: mushibugyo_CN,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,0,134
+Style: mushibugyo_JP,DFPMaruGothic_U-Md,28,&H00FFFFFF,&HF0000000,&H00000000,&HF0FFFFFF,0,0,0,0,100,100,0,0,1,2,0,2,10,10,0,1
+Style: mushibugyo_disclaimer,FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,100,2,0,0,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:36.40,0:01:41.32,mushibugyo_JP,NTP,0,0,0,,吉宗公より　姫様がこの紀州に入られるという知らせ
+Dialogue: 0,0:01:36.40,0:01:41.32,mushibugyo_CN,NTP,0,0,0,,接到吉宗公消息 公主即將進入紀州
+Dialogue: 0,0:01:41.90,0:01:43.89,mushibugyo_JP,NTP,0,0,0,,姫様が井戸に
+Dialogue: 0,0:01:41.90,0:01:43.89,mushibugyo_CN,NTP,0,0,0,,公主要去那口井
+Dialogue: 0,0:01:44.22,0:01:47.82,mushibugyo_JP,NTP,0,0,0,,藩主樣　藩主樣
+Dialogue: 0,0:01:44.22,0:01:47.82,mushibugyo_CN,NTP,0,0,0,,藩主大人 藩主大人
+Dialogue: 0,0:01:58.82,0:02:01.50,mushibugyo_JP,NTP,0,0,0,,藩主様　そこは危のうございます
+Dialogue: 0,0:01:58.82,0:02:01.50,mushibugyo_CN,NTP,0,0,0,,藩主大人 此處危險
+Dialogue: 0,0:02:01.82,0:02:04.40,mushibugyo_JP,NTP,0,0,0,,よい　ここでよい
+Dialogue: 0,0:02:01.82,0:02:04.40,mushibugyo_CN,NTP,0,0,0,,無妨 就在這吧
+Dialogue: 0,0:02:04.80,0:02:07.56,mushibugyo_JP,NTP,0,0,0,,安心しろ　紀州の者共
+Dialogue: 0,0:02:04.80,0:02:07.56,mushibugyo_CN,NTP,0,0,0,,放心吧 紀州的愚民們
+Dialogue: 0,0:02:08.32,0:02:10.81,mushibugyo_JP,NTP,0,0,0,,我らは争いに来たのではない
+Dialogue: 0,0:02:08.32,0:02:10.81,mushibugyo_CN,NTP,0,0,0,,我等來此 並非為引起爭端
+Dialogue: 0,0:02:11.01,0:02:13.59,mushibugyo_JP,NTP,0,0,0,,我が名は　真田幸村
+Dialogue: 0,0:02:11.01,0:02:13.59,mushibugyo_CN,NTP,0,0,0,,吾名為真田幸村
+Dialogue: 0,0:02:13.68,0:02:17.28,mushibugyo_JP,NTP,0,0,0,,紀州藩主　徳川宗直殿に会いに来た
+Dialogue: 0,0:02:13.68,0:02:17.28,mushibugyo_CN,NTP,0,0,0,,是為了見紀州藩主德川宗直閣下而來
+Dialogue: 0,0:02:17.43,0:02:20.65,mushibugyo_JP,NTP,0,0,0,,さ　真田　幸村
+Dialogue: 0,0:02:17.43,0:02:20.65,mushibugyo_CN,NTP,0,0,0,,真…真田幸村
+Dialogue: 0,0:02:21.42,0:02:25.68,mushibugyo_JP,NTP,0,0,0,,百年前の亡霊が　虫人となって蘇ったか
+Dialogue: 0,0:02:21.42,0:02:25.68,mushibugyo_CN,NTP,0,0,0,,百年前的亡靈化作蟲人復活了嗎
+Dialogue: 0,0:02:29.49,0:02:31.14,mushibugyo_JP,NTP,0,0,0,,【クールなメガネのОＸ講座】
+Dialogue: 0,0:02:29.49,0:02:31.14,mushibugyo_CN,NTP,0,0,0,,【高冷眼鏡的○Ｘ講座】
+Dialogue: 0,0:02:36.43,0:02:40.54,mushibugyo_JP,NTP,0,0,0,,はあ　富士のお山がもうあんな遠くに
+Dialogue: 0,0:02:36.43,0:02:40.54,mushibugyo_CN,NTP,0,0,0,,哈 富士山已經那麼遠了啊
+Dialogue: 0,0:02:41.56,0:02:43.35,mushibugyo_JP,NTP,0,0,0,,あ　お付きの方
+Dialogue: 0,0:02:41.56,0:02:43.35,mushibugyo_CN,NTP,0,0,0,,啊 侍女小姐
+Dialogue: 0,0:02:43.35,0:02:46.24,mushibugyo_JP,NTP,0,0,0,,虫奉行様のお付きの方　お待ちください
+Dialogue: 0,0:02:43.35,0:02:46.24,mushibugyo_CN,NTP,0,0,0,,蟲奉行所的侍女小姐 請等一下
+Dialogue: 0,0:02:47.30,0:02:49.90,mushibugyo_JP,NTP,0,0,0,,一体　どこに向かってるんですか
+Dialogue: 0,0:02:47.30,0:02:49.90,mushibugyo_CN,NTP,0,0,0,,我們此行到底要前往何處
+Dialogue: 0,0:02:49.97,0:02:53.23,mushibugyo_JP,NTP,0,0,0,,このままだと江戸からどんどん離れてしまいます
+Dialogue: 0,0:02:49.97,0:02:53.23,mushibugyo_CN,NTP,0,0,0,,這樣只會離江戶漸行漸遠
+Dialogue: 0,0:02:53.58,0:02:56.64,mushibugyo_JP,NTP,0,0,0,,自分には　江戸でのお勤めがあるんですが
+Dialogue: 0,0:02:53.58,0:02:56.64,mushibugyo_CN,NTP,0,0,0,,在下在江戶還有要職…
+Dialogue: 0,0:02:57.25,0:02:58.85,mushibugyo_JP,NTP,0,0,0,,これもお勤めじゃ
+Dialogue: 0,0:02:57.25,0:02:58.85,mushibugyo_CN,NTP,0,0,0,,這也是你的職責
+Dialogue: 0,0:02:59.20,0:03:00.58,mushibugyo_JP,NTP,0,0,0,,お勤め
+Dialogue: 0,0:02:59.20,0:03:00.58,mushibugyo_CN,NTP,0,0,0,,職責？
+Dialogue: 0,0:03:00.80,0:03:02.79,mushibugyo_JP,NTP,0,0,0,,江戸へはしばらく帰れぬ
+Dialogue: 0,0:03:00.80,0:03:02.79,mushibugyo_CN,NTP,0,0,0,,我們暫時回不了江戶
+Dialogue: 0,0:03:03.14,0:03:08.61,mushibugyo_JP,NTP,0,0,0,,月島　お主はこれから妾のお供として紀州藩に参るのじゃ
+Dialogue: 0,0:03:03.14,0:03:08.61,mushibugyo_CN,NTP,0,0,0,,月島 你將要作為妾身的隨從前往紀州藩
+Dialogue: 0,0:03:08.61,0:03:10.24,mushibugyo_JP,NTP,0,0,0,,な　なんと
+Dialogue: 0,0:03:08.61,0:03:10.24,mushibugyo_CN,NTP,0,0,0,,什  什麼
+Dialogue: 0,0:03:10.24,0:03:12.10,mushibugyo_JP,NTP,0,0,0,,自分が紀州藩へ
+Dialogue: 0,0:03:10.24,0:03:12.10,mushibugyo_CN,NTP,0,0,0,,在下將前往紀州藩？
+Dialogue: 0,0:03:12.80,0:03:15.74,mushibugyo_JP,NTP,0,0,0,,って　紀州藩ってどこですか
+Dialogue: 0,0:03:12.80,0:03:15.74,mushibugyo_CN,NTP,0,0,0,,話說 紀州藩在哪裏
+Dialogue: 0,0:03:16.48,0:03:17.85,mushibugyo_JP,NTP,0,0,0,,来ればわかる
+Dialogue: 0,0:03:16.48,0:03:17.85,mushibugyo_CN,NTP,0,0,0,,來就知道了
+Dialogue: 0,0:03:17.89,0:03:21.40,mushibugyo_JP,NTP,0,0,0,,それで　なぜ此度は紀州藩へ行くのですか
+Dialogue: 0,0:03:17.89,0:03:21.40,mushibugyo_CN,NTP,0,0,0,,那麼此行為何要去紀州藩呢
+Dialogue: 0,0:03:23.35,0:03:24.41,mushibugyo_JP,NTP,0,0,0,,バツです
+Dialogue: 0,0:03:23.35,0:03:24.41,mushibugyo_CN,NTP,0,0,0,,錯
+Dialogue: 0,0:03:25.26,0:03:27.96,mushibugyo_JP,NTP,0,0,0,,ただのお供に知る権利などありません
+Dialogue: 0,0:03:25.26,0:03:27.96,mushibugyo_CN,NTP,0,0,0,,區區隨從無權知曉
+Dialogue: 0,0:03:29.00,0:03:31.17,mushibugyo_JP,NTP,0,0,0,,あの　お付きの方
+Dialogue: 0,0:03:29.00,0:03:31.17,mushibugyo_CN,NTP,0,0,0,,那個 侍女小姐
+Dialogue: 0,0:03:31.18,0:03:34.66,mushibugyo_JP,NTP,0,0,0,,もしかして　あのお方が虫奉行様なのですか
+Dialogue: 0,0:03:31.18,0:03:34.66,mushibugyo_CN,NTP,0,0,0,,那位大人該不會就是蟲奉行大人吧
+Dialogue: 0,0:03:34.92,0:03:35.87,mushibugyo_JP,NTP,0,0,0,,蟲奉行
+Dialogue: 0,0:03:34.92,0:03:35.87,mushibugyo_CN,NTP,0,0,0,,蟲奉行？
+Dialogue: 0,0:03:35.87,0:03:36.79,mushibugyo_JP,NTP,0,0,0,,はい
+Dialogue: 0,0:03:35.87,0:03:36.79,mushibugyo_CN,NTP,0,0,0,,正是
+Dialogue: 0,0:03:37.06,0:03:42.89,mushibugyo_JP,NTP,0,0,0,,あの風格あるお姿は　自分が思い描いていた虫奉行様とは違いますが
+Dialogue: 0,0:03:37.06,0:03:42.89,mushibugyo_CN,NTP,0,0,0,,雖然他的儀表跟在下所想像的不太一樣
+Dialogue: 0,0:03:43.29,0:03:45.19,mushibugyo_JP,NTP,0,0,0,,ひょっとしたらと思いまして
+Dialogue: 0,0:03:43.29,0:03:45.19,mushibugyo_CN,NTP,0,0,0,,不過也說不准就是呢
+Dialogue: 0,0:03:46.13,0:03:48.06,mushibugyo_JP,NTP,0,0,0,,あれは虫奉行ではない
+Dialogue: 0,0:03:46.13,0:03:48.06,mushibugyo_CN,NTP,0,0,0,,他不是蟲奉行
+Dialogue: 0,0:03:48.49,0:03:52.46,mushibugyo_JP,NTP,0,0,0,,江戶南町奉行　大岡越前守忠相
+Dialogue: 0,0:03:48.49,0:03:52.46,mushibugyo_CN,NTP,0,0,0,,他是江戶南町奉行 大岡越前守忠相
+Dialogue: 0,0:03:52.60,0:03:55.58,mushibugyo_JP,NTP,0,0,0,,数々の都市政策に携わるキレ者
+Dialogue: 0,0:03:52.60,0:03:55.58,mushibugyo_CN,NTP,0,0,0,,是從事城鎮策劃的能人
+Dialogue: 0,0:03:55.94,0:03:58.92,mushibugyo_JP,NTP,0,0,0,,江戸随一の頭脳を持つ者と言われておる
+Dialogue: 0,0:03:55.94,0:03:58.92,mushibugyo_CN,NTP,0,0,0,,可以說是江戶最具頭腦之人
+Dialogue: 0,0:03:58.92,0:04:02.60,mushibugyo_JP,NTP,0,0,0,,聞こえてますよ　お付きの方
+Dialogue: 0,0:03:58.92,0:04:02.60,mushibugyo_CN,NTP,0,0,0,,我能聽見哦 侍女小姐
+Dialogue: 0,0:04:02.75,0:04:04.42,mushibugyo_JP,NTP,0,0,0,,それは済まなかった
+Dialogue: 0,0:04:02.75,0:04:04.42,mushibugyo_CN,NTP,0,0,0,,那真是對不住了
+Dialogue: 0,0:04:04.54,0:04:06.06,mushibugyo_JP,NTP,0,0,0,,お気になさらずに
+Dialogue: 0,0:04:04.54,0:04:06.06,mushibugyo_CN,NTP,0,0,0,,請不必在意
+Dialogue: 0,0:04:06.30,0:04:11.72,mushibugyo_JP,NTP,0,0,0,,私はただあなたの道中をお護りするというお上の命に従うのみです
+Dialogue: 0,0:04:06.30,0:04:11.72,mushibugyo_CN,NTP,0,0,0,,我只不過是聽從上面安排 充當您此行的護衛而已
+Dialogue: 0,0:04:11.79,0:04:13.65,mushibugyo_JP,NTP,0,0,0,,ご挨拶が遅くなりました
+Dialogue: 0,0:04:11.79,0:04:13.65,mushibugyo_CN,NTP,0,0,0,,問候晚了
+Dialogue: 0,0:04:13.88,0:04:19.21,mushibugyo_JP,NTP,0,0,0,,自分は虫奉行所市中お見廻り組同心　月島仁兵衛と申します
+Dialogue: 0,0:04:13.88,0:04:19.21,mushibugyo_CN,NTP,0,0,0,,在下是蟲奉行所市中巡邏組同心 月島仁兵衛
+Dialogue: 0,0:04:20.11,0:04:21.87,mushibugyo_JP,NTP,0,0,0,,拝見させてもらいます
+Dialogue: 0,0:04:20.11,0:04:21.87,mushibugyo_CN,NTP,0,0,0,,領教了
+Dialogue: 0,0:04:22.65,0:04:23.89,mushibugyo_JP,NTP,0,0,0,,拜見
+Dialogue: 0,0:04:22.65,0:04:23.89,mushibugyo_CN,NTP,0,0,0,,領教？
+Dialogue: 0,0:04:24.78,0:04:29.05,mushibugyo_JP,NTP,0,0,0,,い　あの　何をですか
+Dialogue: 0,0:04:24.78,0:04:29.05,mushibugyo_CN,NTP,0,0,0,,那個…領教什麼
+Dialogue: 0,0:04:29.05,0:04:31.28,mushibugyo_JP,NTP,0,0,0,,行きましょう　時間の無駄です
+Dialogue: 0,0:04:29.05,0:04:31.28,mushibugyo_CN,NTP,0,0,0,,走吧 不要浪費時間
+Dialogue: 0,0:04:34.58,0:04:37.29,mushibugyo_JP,NTP,0,0,0,,わしが　徳川宗直だ
+Dialogue: 0,0:04:34.58,0:04:37.29,mushibugyo_CN,NTP,0,0,0,,老夫就是德川宗直
+Dialogue: 0,0:04:39.58,0:04:41.00,mushibugyo_JP,NTP,0,0,0,,要件を聴こう
+Dialogue: 0,0:04:39.58,0:04:41.00,mushibugyo_CN,NTP,0,0,0,,願聞其詳
+Dialogue: 0,0:04:41.79,0:04:44.37,mushibugyo_JP,NTP,0,0,0,,何が狙いぞ　真田とやら
+Dialogue: 0,0:04:41.79,0:04:44.37,mushibugyo_CN,NTP,0,0,0,,到底有何目的 真田
+Dialogue: 0,0:04:45.90,0:04:47.32,mushibugyo_JP,NTP,0,0,0,,船が欲しい
+Dialogue: 0,0:04:45.90,0:04:47.32,mushibugyo_CN,NTP,0,0,0,,我想要一艘船
+Dialogue: 0,0:04:47.64,0:04:52.85,mushibugyo_JP,NTP,0,0,0,,人間千人が乗ろうと一切動じぬ巨大な船を作ってほしいのだ
+Dialogue: 0,0:04:47.64,0:04:52.85,mushibugyo_CN,NTP,0,0,0,,想要你們幫我造一艘能載千人而毫不動搖的巨船
+Dialogue: 0,0:04:53.56,0:04:55.08,mushibugyo_JP,NTP,0,0,0,,巨大な船
+Dialogue: 0,0:04:53.56,0:04:55.08,mushibugyo_CN,NTP,0,0,0,,巨船？
+Dialogue: 0,0:04:55.38,0:05:01.68,mushibugyo_JP,NTP,0,0,0,,この紀州藩には　質のよい木材があり　またそれを扱う人材がそろっている
+Dialogue: 0,0:04:55.38,0:05:01.68,mushibugyo_CN,NTP,0,0,0,,這紀州藩有上好的木材 且聚集了造船的能工巧匠
+Dialogue: 0,0:05:02.07,0:05:03.29,mushibugyo_JP,NTP,0,0,0,,これを見よう
+Dialogue: 0,0:05:02.07,0:05:03.29,mushibugyo_CN,NTP,0,0,0,,請看這個
+Dialogue: 0,0:05:03.31,0:05:07.95,mushibugyo_JP,NTP,0,0,0,,これは曾て　織田信長公が考案した戦船を元に
+Dialogue: 0,0:05:03.31,0:05:07.95,mushibugyo_CN,NTP,0,0,0,,這是以過去織田信長公設計的船為基礎
+Dialogue: 0,0:05:07.95,0:05:11.11,mushibugyo_JP,NTP,0,0,0,,この幸村が自ら手を加えたものだ
+Dialogue: 0,0:05:07.95,0:05:11.11,mushibugyo_CN,NTP,0,0,0,,再經我幸村親手加工所制的圖
+Dialogue: 0,0:05:12.33,0:05:19.34,mushibugyo_JP,NTP,0,0,0,,幕府の水軍が何千何万と現れようと　物ともせずに薙ぎ払う無敵の軍艦
+Dialogue: 0,0:05:12.33,0:05:19.34,mushibugyo_CN,NTP,0,0,0,,無論幕府派出多少水軍  都能輕而易舉橫掃千軍的無敵軍艦
+Dialogue: 0,0:05:20.55,0:05:25.62,mushibugyo_JP,NTP,0,0,0,,この船さえ渡せば　我らは速やかにここを立ち退く
+Dialogue: 0,0:05:20.55,0:05:25.62,mushibugyo_CN,NTP,0,0,0,,只要交上這艘船來 我們立馬就撤退
+Dialogue: 0,0:05:29.85,0:05:32.64,mushibugyo_JP,NTP,0,0,0,,貴様らの目的はそれだけなのか
+Dialogue: 0,0:05:29.85,0:05:32.64,mushibugyo_CN,NTP,0,0,0,,你們的目的就僅此而已嗎
+Dialogue: 0,0:05:33.01,0:05:36.64,mushibugyo_JP,NTP,0,0,0,,それだけ　妙なことを言うな
+Dialogue: 0,0:05:33.01,0:05:36.64,mushibugyo_CN,NTP,0,0,0,,僅此而已？ 真是好笑
+Dialogue: 0,0:05:37.12,0:05:41.20,mushibugyo_JP,NTP,0,0,0,,こんな辺鄙な城　他に用事などあろうはずがない
+Dialogue: 0,0:05:37.12,0:05:41.20,mushibugyo_CN,NTP,0,0,0,,來如此偏僻之城 難道還能有什麼別的事嗎
+Dialogue: 0,0:05:41.73,0:05:44.35,mushibugyo_JP,NTP,0,0,0,,そうであろう　宗直殿
+Dialogue: 0,0:05:41.73,0:05:44.35,mushibugyo_CN,NTP,0,0,0,,不是嗎 宗直閣下
+Dialogue: 0,0:05:48.72,0:05:50.43,mushibugyo_JP,NTP,0,0,0,,造船を手配する
+Dialogue: 0,0:05:48.72,0:05:50.43,mushibugyo_CN,NTP,0,0,0,,我去安排造船
+Dialogue: 0,0:05:50.58,0:05:54.04,mushibugyo_JP,NTP,0,0,0,,それで紀州の民の殺生をやめてくれるのだな
+Dialogue: 0,0:05:50.58,0:05:54.04,mushibugyo_CN,NTP,0,0,0,,這樣你可以承諾不在紀州殺生吧
+Dialogue: 0,0:05:54.18,0:05:59.46,mushibugyo_JP,NTP,0,0,0,,この真田幸村　己が発した言葉を違えたことはない
+Dialogue: 0,0:05:54.18,0:05:59.46,mushibugyo_CN,NTP,0,0,0,,我真田幸村 一言既出駟馬難追
+Dialogue: 0,0:06:01.29,0:06:03.45,mushibugyo_JP,NTP,0,0,0,,これから紀州はどうなる
+Dialogue: 0,0:06:01.29,0:06:03.45,mushibugyo_CN,NTP,0,0,0,,這以後紀州會變成怎樣
+Dialogue: 0,0:06:06.15,0:06:07.79,mushibugyo_JP,NTP,0,0,0,,む　宗直様
+Dialogue: 0,0:06:06.15,0:06:07.79,mushibugyo_CN,NTP,0,0,0,,宗直大人
+Dialogue: 0,0:06:08.12,0:06:09.97,mushibugyo_JP,NTP,0,0,0,,皆の者　安心せい
+Dialogue: 0,0:06:08.12,0:06:09.97,mushibugyo_CN,NTP,0,0,0,,各位 儘管安心
+Dialogue: 0,0:06:10.35,0:06:12.46,mushibugyo_JP,NTP,0,0,0,,我が紀州は安泰なり
+Dialogue: 0,0:06:10.35,0:06:12.46,mushibugyo_CN,NTP,0,0,0,,我紀州仍是安泰之地
+Dialogue: 0,0:06:18.08,0:06:21.66,mushibugyo_JP,NTP,0,0,0,,遅くはなったが　無事宿に着いたな
+Dialogue: 0,0:06:18.08,0:06:21.66,mushibugyo_CN,NTP,0,0,0,,雖然天色已晚 好歹平安無事抵達住處了
+Dialogue: 0,0:06:51.15,0:06:52.93,mushibugyo_JP,NTP,0,0,0,,明日も楽しみだ
+Dialogue: 0,0:06:51.15,0:06:52.93,mushibugyo_CN,NTP,0,0,0,,明天也值得期待啊
+Dialogue: 0,0:06:56.44,0:06:58.66,mushibugyo_JP,NTP,0,0,0,,バツです　月島殿
+Dialogue: 0,0:06:56.44,0:06:58.66,mushibugyo_CN,NTP,0,0,0,,錯 月島閣下
+Dialogue: 0,0:06:59.24,0:07:03.94,mushibugyo_JP,NTP,0,0,0,,はい　大岡殿　自分はただ歩いてただけですけど
+Dialogue: 0,0:06:59.24,0:07:03.94,mushibugyo_CN,NTP,0,0,0,,是 大岡大人 可是在下只不過是在走路而已啊
+Dialogue: 0,0:07:03.97,0:07:06.09,mushibugyo_JP,NTP,0,0,0,,たとえどんなあぜ道であろうとも
+Dialogue: 0,0:07:03.97,0:07:06.09,mushibugyo_CN,NTP,0,0,0,,無論是怎樣的田間小路
+Dialogue: 0,0:07:06.09,0:07:08.94,mushibugyo_JP,NTP,0,0,0,,一方の武士ならば左側を歩くべきです
+Dialogue: 0,0:07:06.09,0:07:08.94,mushibugyo_CN,NTP,0,0,0,,一方的武士都應行走在左側
+Dialogue: 0,0:07:09.18,0:07:13.15,mushibugyo_JP,NTP,0,0,0,,侍とすれ違う時　鞘当てをしてしまいますからね
+Dialogue: 0,0:07:09.18,0:07:13.15,mushibugyo_CN,NTP,0,0,0,,不然與別的武士擦肩而過之時易刀鞘相碰
+Dialogue: 0,0:07:16.14,0:07:20.60,mushibugyo_JP,NTP,0,0,0,,鞘尻がぶつかると殺傷を引き起こす喧嘩になることもあります
+Dialogue: 0,0:07:16.14,0:07:20.60,mushibugyo_CN,NTP,0,0,0,,引發爭吵甚至導致殺傷事件的情況也時有發生
+Dialogue: 0,0:07:21.47,0:07:22.33,mushibugyo_JP,NTP,0,0,0,,はい
+Dialogue: 0,0:07:21.47,0:07:22.33,mushibugyo_CN,NTP,0,0,0,,是
+Dialogue: 0,0:07:23.42,0:07:27.38,mushibugyo_JP,NTP,0,0,0,,武士の道を極めるなら無用な斬り合いはしてはならない
+Dialogue: 0,0:07:23.42,0:07:27.38,mushibugyo_CN,NTP,0,0,0,,想要貫徹武士之道 必須避免無謂的廝殺
+Dialogue: 0,0:07:27.69,0:07:29.11,mushibugyo_JP,NTP,0,0,0,,気をつける事です
+Dialogue: 0,0:07:27.69,0:07:29.11,mushibugyo_CN,NTP,0,0,0,,切記
+Dialogue: 0,0:07:29.23,0:07:31.33,mushibugyo_JP,NTP,0,0,0,,わかりました　大岡殿
+Dialogue: 0,0:07:29.23,0:07:31.33,mushibugyo_CN,NTP,0,0,0,,在下明白了 大岡大人
+Dialogue: 0,0:07:33.33,0:07:34.47,mushibugyo_JP,NTP,0,0,0,,お困りでしょう
+Dialogue: 0,0:07:33.33,0:07:34.47,mushibugyo_CN,NTP,0,0,0,,需要幫忙嗎
+Dialogue: 0,0:07:34.47,0:07:37.69,mushibugyo_JP,NTP,0,0,0,,不肖この月島仁兵衛　お手伝いさせていただきます
+Dialogue: 0,0:07:34.47,0:07:37.69,mushibugyo_CN,NTP,0,0,0,,月島仁兵衛不才 願助您一臂之力
+Dialogue: 0,0:07:42.20,0:07:44.83,mushibugyo_JP,NTP,0,0,0,,ありがとうございます　お侍様
+Dialogue: 0,0:07:42.20,0:07:44.83,mushibugyo_CN,NTP,0,0,0,,多謝您了 武士大人
+Dialogue: 0,0:07:47.70,0:07:49.07,mushibugyo_JP,NTP,0,0,0,,助かりました
+Dialogue: 0,0:07:47.70,0:07:49.07,mushibugyo_CN,NTP,0,0,0,,幫了大忙了
+Dialogue: 0,0:07:49.07,0:07:51.28,mushibugyo_JP,NTP,0,0,0,,いえ　礼には及びません
+Dialogue: 0,0:07:49.07,0:07:51.28,mushibugyo_CN,NTP,0,0,0,,沒什麼 不必言謝
+Dialogue: 0,0:07:54.46,0:07:55.51,mushibugyo_JP,NTP,0,0,0,,バツです
+Dialogue: 0,0:07:54.46,0:07:55.51,mushibugyo_CN,NTP,0,0,0,,當罰
+Dialogue: 0,0:07:56.47,0:07:57.80,mushibugyo_JP,NTP,0,0,0,,なぜですか
+Dialogue: 0,0:07:56.47,0:07:57.80,mushibugyo_CN,NTP,0,0,0,,誒 這是為何
+Dialogue: 0,0:07:57.84,0:08:02.31,mushibugyo_JP,NTP,0,0,0,,もしあの親子がお付きの方に襲いかかったら　どうするのですか
+Dialogue: 0,0:07:57.84,0:08:02.31,mushibugyo_CN,NTP,0,0,0,,如果那對父女突然襲擊侍女小姐的話 該如何是好
+Dialogue: 0,0:08:03.04,0:08:05.30,mushibugyo_JP,NTP,0,0,0,,ですが　あの親子に限って
+Dialogue: 0,0:08:03.04,0:08:05.30,mushibugyo_CN,NTP,0,0,0,,可是 不至於這麼巧吧
+Dialogue: 0,0:08:05.30,0:08:06.91,mushibugyo_JP,NTP,0,0,0,,油断は禁物です
+Dialogue: 0,0:08:05.30,0:08:06.91,mushibugyo_CN,NTP,0,0,0,,疏忽乃是大忌
+Dialogue: 0,0:08:06.91,0:08:11.16,mushibugyo_JP,NTP,0,0,0,,武士は敷居を跨げば七人の敵がいるという言葉があります
+Dialogue: 0,0:08:06.91,0:08:11.16,mushibugyo_CN,NTP,0,0,0,,常言道 武士出門如臨七人大敵
+Dialogue: 0,0:08:11.54,0:08:15.38,mushibugyo_JP,NTP,0,0,0,,いついかなる時もお付き方の身を案じていなければなりません
+Dialogue: 0,0:08:11.54,0:08:15.38,mushibugyo_CN,NTP,0,0,0,,無論何時都要以侍女小姐的安危為重
+Dialogue: 0,0:08:17.47,0:08:19.13,mushibugyo_JP,NTP,0,0,0,,はい　わかりました
+Dialogue: 0,0:08:17.47,0:08:19.13,mushibugyo_CN,NTP,0,0,0,,是 在下明白了
+Dialogue: 0,0:08:19.82,0:08:21.18,mushibugyo_JP,NTP,0,0,0,,ヤッホー
+Dialogue: 0,0:08:19.82,0:08:21.18,mushibugyo_CN,NTP,0,0,0,,呀霍
+Dialogue: 0,0:08:21.18,0:08:22.31,mushibugyo_JP,NTP,0,0,0,,バツです
+Dialogue: 0,0:08:21.18,0:08:22.31,mushibugyo_CN,NTP,0,0,0,,錯
+Dialogue: 0,0:08:22.66,0:08:23.61,mushibugyo_JP,NTP,0,0,0,,お魚
+Dialogue: 0,0:08:22.66,0:08:23.61,mushibugyo_CN,NTP,0,0,0,,是魚耶
+Dialogue: 0,0:08:23.61,0:08:24.68,mushibugyo_JP,NTP,0,0,0,,バツです
+Dialogue: 0,0:08:23.61,0:08:24.68,mushibugyo_CN,NTP,0,0,0,,錯
+Dialogue: 0,0:08:24.99,0:08:25.95,mushibugyo_JP,NTP,0,0,0,,揺れるぅー
+Dialogue: 0,0:08:24.99,0:08:25.95,mushibugyo_CN,NTP,0,0,0,,搖搖晃晃
+Dialogue: 0,0:08:25.95,0:08:27.19,mushibugyo_JP,NTP,0,0,0,,大バツです
+Dialogue: 0,0:08:25.95,0:08:27.19,mushibugyo_CN,NTP,0,0,0,,大錯特錯
+Dialogue: 0,0:08:27.98,0:08:32.28,mushibugyo_JP,NTP,0,0,0,,月島殿　やはりあなたはこのお勤めにふさわしくない
+Dialogue: 0,0:08:27.98,0:08:32.28,mushibugyo_CN,NTP,0,0,0,,月島閣下 你果然不適合這份職責
+Dialogue: 0,0:08:32.28,0:08:33.96,mushibugyo_JP,NTP,0,0,0,,な　なんと
+Dialogue: 0,0:08:32.28,0:08:33.96,mushibugyo_CN,NTP,0,0,0,,什…什麼
+Dialogue: 0,0:08:34.38,0:08:35.63,mushibugyo_JP,NTP,0,0,0,,大岡
+Dialogue: 0,0:08:34.38,0:08:35.63,mushibugyo_CN,NTP,0,0,0,,大岡
+Dialogue: 0,0:08:35.76,0:08:37.86,mushibugyo_JP,NTP,0,0,0,,申し訳ありません　お付きの方
+Dialogue: 0,0:08:35.76,0:08:37.86,mushibugyo_CN,NTP,0,0,0,,萬分抱歉 侍女小姐
+Dialogue: 0,0:08:38.14,0:08:43.41,mushibugyo_JP,NTP,0,0,0,,しかしこの道中はお忍び　なによりとても重要性の高いお勤め
+Dialogue: 0,0:08:38.14,0:08:43.41,mushibugyo_CN,NTP,0,0,0,,可是此行乃是微服出行 更何況職責重大
+Dialogue: 0,0:08:44.75,0:08:49.72,mushibugyo_JP,NTP,0,0,0,,お供が好き勝手をし　万が一なという事は絶対あってはなりません
+Dialogue: 0,0:08:44.75,0:08:49.72,mushibugyo_CN,NTP,0,0,0,,隨從如此隨心所欲 萬一有何閃失該如何是好
+Dialogue: 0,0:08:49.89,0:08:54.01,mushibugyo_JP,NTP,0,0,0,,これ以上バツが出るようでしたら　即刻江戸にお帰り願いたい
+Dialogue: 0,0:08:49.89,0:08:54.01,mushibugyo_CN,NTP,0,0,0,,再被我指出錯的話 請你立刻回江戶去
+Dialogue: 0,0:08:54.18,0:08:59.69,mushibugyo_JP,NTP,0,0,0,,紀州藩を目前にして　お役御免とはなんたる武士の恥
+Dialogue: 0,0:08:54.18,0:08:59.69,mushibugyo_CN,NTP,0,0,0,,紀州藩已近在咫尺  此時被免職真乃武士之大恥
+Dialogue: 0,0:08:59.97,0:09:02.16,mushibugyo_JP,NTP,0,0,0,,承知致しました　大岡殿
+Dialogue: 0,0:08:59.97,0:09:02.16,mushibugyo_CN,NTP,0,0,0,,謹記在心 大岡大人
+Dialogue: 0,0:09:02.16,0:09:04.58,mushibugyo_JP,NTP,0,0,0,,必ずや期待に応えてみせます
+Dialogue: 0,0:09:02.16,0:09:04.58,mushibugyo_CN,NTP,0,0,0,,在下一定不負您的期待
+Dialogue: 0,0:09:08.81,0:09:10.13,mushibugyo_JP,NTP,0,0,0,,困ったなー
+Dialogue: 0,0:09:08.81,0:09:10.13,mushibugyo_CN,NTP,0,0,0,,這下慘了
+Dialogue: 0,0:09:10.43,0:09:12.03,mushibugyo_JP,NTP,0,0,0,,どうすればいいんだ
+Dialogue: 0,0:09:10.43,0:09:12.03,mushibugyo_CN,NTP,0,0,0,,該怎麼辦呢
+Dialogue: 0,0:09:13.66,0:09:14.63,mushibugyo_JP,NTP,0,0,0,,月島殿
+Dialogue: 0,0:09:13.66,0:09:14.63,mushibugyo_CN,NTP,0,0,0,,月島閣下
+Dialogue: 0,0:09:14.63,0:09:16.12,mushibugyo_JP,NTP,0,0,0,,あぁ　はい
+Dialogue: 0,0:09:14.63,0:09:16.12,mushibugyo_CN,NTP,0,0,0,,來了
+Dialogue: 0,0:09:18.07,0:09:20.12,mushibugyo_JP,NTP,0,0,0,,駄目だ　ここは通せん
+Dialogue: 0,0:09:18.07,0:09:20.12,mushibugyo_CN,NTP,0,0,0,,不行 這裏不能過去
+Dialogue: 0,0:09:20.29,0:09:22.70,mushibugyo_JP,NTP,0,0,0,,あの　それはなぜですか
+Dialogue: 0,0:09:20.29,0:09:22.70,mushibugyo_CN,NTP,0,0,0,,請問 那是為何
+Dialogue: 0,0:09:22.82,0:09:25.32,mushibugyo_JP,NTP,0,0,0,,理由などない　とっとと帰れ
+Dialogue: 0,0:09:22.82,0:09:25.32,mushibugyo_CN,NTP,0,0,0,,沒有理由 趕快回去吧
+Dialogue: 0,0:09:25.37,0:09:30.93,mushibugyo_JP,NTP,0,0,0,,ですが　紀州藩に入るための手形やほかに必要なものを全て用意してあります
+Dialogue: 0,0:09:25.37,0:09:30.93,mushibugyo_CN,NTP,0,0,0,,可是進入紀州的文書和其他必備之物都準備好了
+Dialogue: 0,0:09:30.93,0:09:33.39,mushibugyo_JP,NTP,0,0,0,,駄目だ　さっさと立ち去れ
+Dialogue: 0,0:09:30.93,0:09:33.39,mushibugyo_CN,NTP,0,0,0,,不行 快滾開
+Dialogue: 0,0:09:34.85,0:09:35.78,mushibugyo_JP,NTP,0,0,0,,失禮
+Dialogue: 0,0:09:34.85,0:09:35.78,mushibugyo_CN,NTP,0,0,0,,不好意思
+Dialogue: 0,0:09:37.87,0:09:40.31,mushibugyo_JP,NTP,0,0,0,,関所役人を呼んでいただこう
+Dialogue: 0,0:09:37.87,0:09:40.31,mushibugyo_CN,NTP,0,0,0,,幫我喊一下關卡差役
+Dialogue: 0,0:09:41.38,0:09:45.47,mushibugyo_JP,NTP,0,0,0,,私は江戸南町奉行所　大岡忠相
+Dialogue: 0,0:09:41.38,0:09:45.47,mushibugyo_CN,NTP,0,0,0,,我是江戶南町奉行所的大岡忠相
+Dialogue: 0,0:09:46.16,0:09:50.77,mushibugyo_JP,NTP,0,0,0,,我らの事は徳川宗直公より秘密裏にお達しが来ているはず
+Dialogue: 0,0:09:46.16,0:09:50.77,mushibugyo_CN,NTP,0,0,0,,德川宗直公應已下達密令 允許我等同行
+Dialogue: 0,0:09:51.35,0:09:58.82,mushibugyo_JP,NTP,0,0,0,,速やかに通さねば　関所の役人の者達全員　腹を切る事になりますよ
+Dialogue: 0,0:09:51.35,0:09:58.82,mushibugyo_CN,NTP,0,0,0,,不速速傳達的話 恐怕你們關卡差役全員都得切腹謝罪
+Dialogue: 0,0:09:59.24,0:10:00.62,mushibugyo_JP,NTP,0,0,0,,黙れ　黙れ
+Dialogue: 0,0:09:59.24,0:10:00.62,mushibugyo_CN,NTP,0,0,0,,閉嘴閉嘴
+Dialogue: 0,0:10:00.62,0:10:05.97,mushibugyo_JP,NTP,0,0,0,,我らは　藩主宗直様より　何人とも通すなとの命が来ているのだ
+Dialogue: 0,0:10:00.62,0:10:05.97,mushibugyo_CN,NTP,0,0,0,,我們是奉藩主宗直大人之命 不得放任何人通過
+Dialogue: 0,0:10:07.26,0:10:08.64,mushibugyo_JP,NTP,0,0,0,,宗直様から
+Dialogue: 0,0:10:07.26,0:10:08.64,mushibugyo_CN,NTP,0,0,0,,奉宗直大人之命?
+Dialogue: 0,0:10:11.49,0:10:12.59,mushibugyo_JP,NTP,0,0,0,,これでよい
+Dialogue: 0,0:10:11.49,0:10:12.59,mushibugyo_CN,NTP,0,0,0,,如此便好
+Dialogue: 0,0:10:13.47,0:10:16.82,mushibugyo_JP,NTP,0,0,0,,吉宗公よりどのような処罰を受けようとも
+Dialogue: 0,0:10:13.47,0:10:16.82,mushibugyo_CN,NTP,0,0,0,,不管會受到吉宗公怎樣的處罰
+Dialogue: 0,0:10:16.98,0:10:22.28,mushibugyo_JP,NTP,0,0,0,,真田幸村がいるこの紀州に　姫様を入れるわけにはいかぬ
+Dialogue: 0,0:10:16.98,0:10:22.28,mushibugyo_CN,NTP,0,0,0,,也決不能讓公主進入這真田幸村所在的紀州
+Dialogue: 0,0:10:23.88,0:10:28.34,mushibugyo_JP,NTP,0,0,0,,どうやら紀州藩内部で思わしくないことが起きているようですね
+Dialogue: 0,0:10:23.88,0:10:28.34,mushibugyo_CN,NTP,0,0,0,,看來紀州藩內部發生了蹊蹺之事
+Dialogue: 0,0:10:28.77,0:10:29.88,mushibugyo_JP,NTP,0,0,0,,さようか
+Dialogue: 0,0:10:28.77,0:10:29.88,mushibugyo_CN,NTP,0,0,0,,是嗎
+Dialogue: 0,0:10:29.88,0:10:33.13,mushibugyo_JP,NTP,0,0,0,,他に紀州藩に入る道はないんですか
+Dialogue: 0,0:10:29.88,0:10:33.13,mushibugyo_CN,NTP,0,0,0,,還有別的能進入紀州藩的捷徑嗎
+Dialogue: 0,0:10:42.95,0:10:48.70,mushibugyo_JP,NTP,0,0,0,,お　おお　大岡殿　本当にこの崖を越えれば紀州に入れるのですか
+Dialogue: 0,0:10:42.95,0:10:48.70,mushibugyo_CN,NTP,0,0,0,,大…大大…大岡大人  翻過這道懸崖真的就能進入紀州嗎
+Dialogue: 0,0:10:49.54,0:10:51.61,mushibugyo_JP,NTP,0,0,0,,よくご存知でしたね
+Dialogue: 0,0:10:49.54,0:10:51.61,mushibugyo_CN,NTP,0,0,0,,真虧您知道呢
+Dialogue: 0,0:10:51.71,0:10:55.93,mushibugyo_JP,NTP,0,0,0,,不測の事態に備え　前に調べるのは当然の事
+Dialogue: 0,0:10:51.71,0:10:55.93,mushibugyo_CN,NTP,0,0,0,,為防不測 事先做好準備是應該的
+Dialogue: 0,0:10:56.97,0:10:59.83,mushibugyo_JP,NTP,0,0,0,,しかし　なんと厳しい道
+Dialogue: 0,0:10:56.97,0:10:59.83,mushibugyo_CN,NTP,0,0,0,,不過 真是條險峻之道啊
+Dialogue: 0,0:11:00.93,0:11:04.32,mushibugyo_JP,NTP,0,0,0,,お付きの方　本当にお一人で大丈夫ですか
+Dialogue: 0,0:11:00.93,0:11:04.32,mushibugyo_CN,NTP,0,0,0,,侍女小姐 您一個人真的沒問題嗎
+Dialogue: 0,0:11:04.46,0:11:06.69,mushibugyo_JP,NTP,0,0,0,,自分で良ければ　手を貸しますよ
+Dialogue: 0,0:11:04.46,0:11:06.69,mushibugyo_CN,NTP,0,0,0,,可以的話 讓在下幫您一把吧
+Dialogue: 0,0:11:07.09,0:11:12.57,mushibugyo_JP,NTP,0,0,0,,気持ちはありがたいが　この程度の事心配無用であっ
+Dialogue: 0,0:11:07.09,0:11:12.57,mushibugyo_CN,NTP,0,0,0,,你的好意我領了 不過這點程度無須擔…
+Dialogue: 0,0:11:12.57,0:11:14.37,mushibugyo_JP,NTP,0,0,0,,あ　お付きの方
+Dialogue: 0,0:11:12.57,0:11:14.37,mushibugyo_CN,NTP,0,0,0,,啊 侍女小姐
+Dialogue: 0,0:11:16.59,0:11:18.41,mushibugyo_JP,NTP,0,0,0,,うむ　助かった
+Dialogue: 0,0:11:16.59,0:11:18.41,mushibugyo_CN,NTP,0,0,0,,嗯 得救了
+Dialogue: 0,0:11:18.98,0:11:21.32,mushibugyo_JP,NTP,0,0,0,,ご無事で何よりです
+Dialogue: 0,0:11:18.98,0:11:21.32,mushibugyo_CN,NTP,0,0,0,,您沒事就好
+Dialogue: 0,0:11:22.93,0:11:26.19,mushibugyo_JP,NTP,0,0,0,,月島　こんな事をせずとも良い
+Dialogue: 0,0:11:22.93,0:11:26.19,mushibugyo_CN,NTP,0,0,0,,月島 你大可不必如此
+Dialogue: 0,0:11:26.34,0:11:28.51,mushibugyo_JP,NTP,0,0,0,,妾は一人で大丈夫だ
+Dialogue: 0,0:11:26.34,0:11:28.51,mushibugyo_CN,NTP,0,0,0,,妾身一個人沒問題
+Dialogue: 0,0:11:28.55,0:11:30.05,mushibugyo_JP,NTP,0,0,0,,いいえ　ダメです
+Dialogue: 0,0:11:28.55,0:11:30.05,mushibugyo_CN,NTP,0,0,0,,不 不可以
+Dialogue: 0,0:11:30.05,0:11:33.38,mushibugyo_JP,NTP,0,0,0,,お付きの方は　黙ってしっかりつかまっていてください
+Dialogue: 0,0:11:30.05,0:11:33.38,mushibugyo_CN,NTP,0,0,0,,侍女小姐您就乖乖閉上嘴抓緊我就好
+Dialogue: 0,0:11:39.89,0:11:41.44,mushibugyo_JP,NTP,0,0,0,,どうかされましたか
+Dialogue: 0,0:11:39.89,0:11:41.44,mushibugyo_CN,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:11:41.90,0:11:44.45,mushibugyo_JP,NTP,0,0,0,,なんでもない　ただ
+Dialogue: 0,0:11:41.90,0:11:44.45,mushibugyo_CN,NTP,0,0,0,,沒什麼  只不過
+Dialogue: 0,0:11:44.73,0:11:48.69,mushibugyo_JP,NTP,0,0,0,,お主はお主らしい方が　お主らしいな
+Dialogue: 0,0:11:44.73,0:11:48.69,mushibugyo_CN,NTP,0,0,0,,你還是按你的風格來才像是你啊
+Dialogue: 0,0:11:59.43,0:12:01.45,mushibugyo_JP,NTP,0,0,0,,あれが第二の関所ですか
+Dialogue: 0,0:11:59.43,0:12:01.45,mushibugyo_CN,NTP,0,0,0,,那裏就是第二道關卡嗎
+Dialogue: 0,0:12:01.45,0:12:02.46,mushibugyo_JP,NTP,0,0,0,,そうです
+Dialogue: 0,0:12:01.45,0:12:02.46,mushibugyo_CN,NTP,0,0,0,,是的
+Dialogue: 0,0:12:02.46,0:12:05.06,mushibugyo_JP,NTP,0,0,0,,それでこれからどうなさるのですか
+Dialogue: 0,0:12:02.46,0:12:05.06,mushibugyo_CN,NTP,0,0,0,,那麼接下來我們要怎麼做呢
+Dialogue: 0,0:12:05.52,0:12:07.44,mushibugyo_JP,NTP,0,0,0,,和歌山城へ迎えます
+Dialogue: 0,0:12:05.52,0:12:07.44,mushibugyo_CN,NTP,0,0,0,,向和歌山城進發
+Dialogue: 0,0:12:07.50,0:12:09.14,mushibugyo_JP,NTP,0,0,0,,和歌山城？
+Dialogue: 0,0:12:07.50,0:12:09.14,mushibugyo_CN,NTP,0,0,0,,和歌山城？
+Dialogue: 0,0:12:09.48,0:12:12.88,mushibugyo_JP,NTP,0,0,0,,うむ　そこにわらわの必要な物がある
+Dialogue: 0,0:12:09.48,0:12:12.88,mushibugyo_CN,NTP,0,0,0,,對 在那裏有我需要的東西
+Dialogue: 0,0:12:16.65,0:12:17.43,mushibugyo_JP,NTP,0,0,0,,誰だ
+Dialogue: 0,0:12:16.65,0:12:17.43,mushibugyo_CN,NTP,0,0,0,,是誰
+Dialogue: 0,0:12:17.43,0:12:18.41,mushibugyo_JP,NTP,0,0,0,,何だ　貴様ら
+Dialogue: 0,0:12:17.43,0:12:18.41,mushibugyo_CN,NTP,0,0,0,,你們是什麼人
+Dialogue: 0,0:12:18.41,0:12:19.48,mushibugyo_JP,NTP,0,0,0,,まずい
+Dialogue: 0,0:12:18.41,0:12:19.48,mushibugyo_CN,NTP,0,0,0,,糟了
+Dialogue: 0,0:12:18.81,0:12:20.21,mushibugyo_JP,NTP,0,0,0,,{\an8}どっから入ってきた
+Dialogue: 0,0:12:18.81,0:12:20.21,mushibugyo_CN,NTP,0,0,0,,從何處進來的
+Dialogue: 0,0:12:19.49,0:12:20.22,mushibugyo_JP,NTP,0,0,0,,離れます
+Dialogue: 0,0:12:19.49,0:12:20.22,mushibugyo_CN,NTP,0,0,0,,我們快走
+Dialogue: 0,0:12:20.22,0:12:22.32,mushibugyo_JP,NTP,0,0,0,,皆の者　曲者が侵入したぞ
+Dialogue: 0,0:12:20.22,0:12:22.32,mushibugyo_CN,NTP,0,0,0,,弟兄們 有可疑人物出現
+Dialogue: 0,0:12:22.32,0:12:22.90,mushibugyo_JP,NTP,0,0,0,,であい　であい
+Dialogue: 0,0:12:22.32,0:12:22.90,mushibugyo_CN,NTP,0,0,0,,集合 集合
+Dialogue: 0,0:12:22.90,0:12:23.97,mushibugyo_JP,NTP,0,0,0,,こっちに行ったぞ
+Dialogue: 0,0:12:22.90,0:12:23.97,mushibugyo_CN,NTP,0,0,0,,跑那邊去了
+Dialogue: 0,0:12:23.97,0:12:25.52,mushibugyo_JP,NTP,0,0,0,,そこまでだ　貴様ら
+Dialogue: 0,0:12:23.97,0:12:25.52,mushibugyo_CN,NTP,0,0,0,,你們跑不了了
+Dialogue: 0,0:12:25.52,0:12:26.94,mushibugyo_JP,NTP,0,0,0,,次から次へと
+Dialogue: 0,0:12:25.52,0:12:26.94,mushibugyo_CN,NTP,0,0,0,,來了一撥又一撥
+Dialogue: 0,0:12:26.94,0:12:28.17,mushibugyo_JP,NTP,0,0,0,,こうなったら
+Dialogue: 0,0:12:26.94,0:12:28.17,mushibugyo_CN,NTP,0,0,0,,既然如此只好…
+Dialogue: 0,0:12:28.97,0:12:31.50,mushibugyo_JP,NTP,0,0,0,,こやつ　刀を抜きおった
+Dialogue: 0,0:12:28.97,0:12:31.50,mushibugyo_CN,NTP,0,0,0,,這傢伙拔刀了
+Dialogue: 0,0:12:31.62,0:12:32.59,mushibugyo_JP,NTP,0,0,0,,やるのか
+Dialogue: 0,0:12:31.62,0:12:32.59,mushibugyo_CN,NTP,0,0,0,,要跟我們打嗎
+Dialogue: 0,0:12:33.01,0:12:33.83,mushibugyo_JP,NTP,0,0,0,,月島
+Dialogue: 0,0:12:33.01,0:12:33.83,mushibugyo_CN,NTP,0,0,0,,月島
+Dialogue: 0,0:12:33.83,0:12:35.95,mushibugyo_JP,NTP,0,0,0,,月島殿　無益ですぞ
+Dialogue: 0,0:12:33.83,0:12:35.95,mushibugyo_CN,NTP,0,0,0,,月島閣下 打鬥無益
+Dialogue: 0,0:12:36.13,0:12:37.91,mushibugyo_JP,NTP,0,0,0,,どうかご安心を
+Dialogue: 0,0:12:36.13,0:12:37.91,mushibugyo_CN,NTP,0,0,0,,請您放心
+Dialogue: 0,0:12:37.97,0:12:40.15,mushibugyo_JP,NTP,0,0,0,,恋川殿に教えてもらいました
+Dialogue: 0,0:12:37.97,0:12:40.15,mushibugyo_CN,NTP,0,0,0,,在下從戀川大人那裏學了一招
+Dialogue: 0,0:12:40.18,0:12:42.35,mushibugyo_JP,NTP,0,0,0,,この木は　爪楊枝
+Dialogue: 0,0:12:40.18,0:12:42.35,mushibugyo_CN,NTP,0,0,0,,砍這種樹就跟砍牙籤一樣
+Dialogue: 0,0:12:49.44,0:12:50.46,mushibugyo_JP,NTP,0,0,0,,逃したか
+Dialogue: 0,0:12:49.44,0:12:50.46,mushibugyo_CN,NTP,0,0,0,,讓他們趁機逃了
+Dialogue: 0,0:12:50.95,0:12:52.24,mushibugyo_JP,NTP,0,0,0,,探せ　探せ
+Dialogue: 0,0:12:50.95,0:12:52.24,mushibugyo_CN,NTP,0,0,0,,快搜 快搜
+Dialogue: 0,0:12:53.40,0:12:55.37,mushibugyo_JP,NTP,0,0,0,,この辺りにいるのは間違いない
+Dialogue: 0,0:12:53.40,0:12:55.37,mushibugyo_CN,NTP,0,0,0,,肯定還藏在這附近
+Dialogue: 0,0:12:58.61,0:13:00.15,mushibugyo_JP,NTP,0,0,0,,大人数ですね
+Dialogue: 0,0:12:58.61,0:13:00.15,mushibugyo_CN,NTP,0,0,0,,人數不少啊
+Dialogue: 0,0:13:00.40,0:13:02.57,mushibugyo_JP,NTP,0,0,0,,このまま　夜まで待ちましょう
+Dialogue: 0,0:13:00.40,0:13:02.57,mushibugyo_CN,NTP,0,0,0,,就藏在這裏等天黑吧
+Dialogue: 0,0:13:02.88,0:13:05.93,mushibugyo_JP,NTP,0,0,0,,闇に紛れて　第二の関所を越えるのです
+Dialogue: 0,0:13:02.88,0:13:05.93,mushibugyo_CN,NTP,0,0,0,,我們要趁著夜色通過第二道關卡
+Dialogue: 0,0:13:14.24,0:13:15.60,mushibugyo_JP,NTP,0,0,0,,何だ　お主は
+Dialogue: 0,0:13:14.24,0:13:15.60,mushibugyo_CN,NTP,0,0,0,,你…你是什麼人
+Dialogue: 0,0:13:15.60,0:13:17.44,mushibugyo_JP,NTP,0,0,0,,貴様も曲者の仲間か
+Dialogue: 0,0:13:15.60,0:13:17.44,mushibugyo_CN,NTP,0,0,0,,你是那些可疑人物的同伴嗎
+Dialogue: 0,0:13:17.96,0:13:19.24,mushibugyo_JP,NTP,0,0,0,,何とか言え
+Dialogue: 0,0:13:17.96,0:13:19.24,mushibugyo_CN,NTP,0,0,0,,說句話啊
+Dialogue: 0,0:13:19.26,0:13:21.31,mushibugyo_JP,NTP,0,0,0,,構わぬ　引っ立てよう
+Dialogue: 0,0:13:19.26,0:13:21.31,mushibugyo_CN,NTP,0,0,0,,別管了 先抓起來
+Dialogue: 0,0:13:28.62,0:13:30.43,mushibugyo_JP,NTP,0,0,0,,うるさくそうろう
+Dialogue: 0,0:13:28.62,0:13:30.43,mushibugyo_CN,NTP,0,0,0,,吵吵鬧鬧真是煩人
+Dialogue: 0,0:13:32.14,0:13:33.72,mushibugyo_JP,NTP,0,0,0,,何　なんて…
+Dialogue: 0,0:13:32.14,0:13:33.72,mushibugyo_CN,NTP,0,0,0,,太…太過分…
+Dialogue: 0,0:13:33.74,0:13:34.65,mushibugyo_JP,NTP,0,0,0,,静かに
+Dialogue: 0,0:13:33.74,0:13:34.65,mushibugyo_CN,NTP,0,0,0,,噤聲
+Dialogue: 0,0:13:36.65,0:13:39.97,mushibugyo_JP,NTP,0,0,0,,やはり人間は使えぬでざそうろう
+Dialogue: 0,0:13:36.65,0:13:39.97,mushibugyo_CN,NTP,0,0,0,,果然人類是沒什麼用的
+Dialogue: 0,0:13:40.46,0:13:42.70,mushibugyo_JP,NTP,0,0,0,,関所一つ守れぬとは
+Dialogue: 0,0:13:40.46,0:13:42.70,mushibugyo_CN,NTP,0,0,0,,連一道關卡都守不住
+Dialogue: 0,0:13:43.87,0:13:49.10,mushibugyo_JP,NTP,0,0,0,,拙者の名は　真田十傑虫が一人　根津甚八
+Dialogue: 0,0:13:43.87,0:13:49.10,mushibugyo_CN,NTP,0,0,0,,在下是十傑蟲之一 名叫根津甚八
+Dialogue: 0,0:13:50.04,0:13:52.20,mushibugyo_JP,NTP,0,0,0,,姿を現せ　ネズミ共
+Dialogue: 0,0:13:50.04,0:13:52.20,mushibugyo_CN,NTP,0,0,0,,鼠輩們快現身吧
+Dialogue: 0,0:13:52.53,0:13:55.61,mushibugyo_JP,NTP,0,0,0,,そこにいるのは分かっておりそうろう
+Dialogue: 0,0:13:52.53,0:13:55.61,mushibugyo_CN,NTP,0,0,0,,我知道你們藏在那裏
+Dialogue: 0,0:13:56.44,0:13:58.09,mushibugyo_JP,NTP,0,0,0,,許しません
+Dialogue: 0,0:13:56.44,0:13:58.09,mushibugyo_CN,NTP,0,0,0,,不可饒恕
+Dialogue: 0,0:13:59.61,0:14:01.35,mushibugyo_JP,NTP,0,0,0,,断じて許せません
+Dialogue: 0,0:13:59.61,0:14:01.35,mushibugyo_CN,NTP,0,0,0,,決不可饒恕
+Dialogue: 0,0:14:01.92,0:14:06.39,mushibugyo_JP,NTP,0,0,0,,バツです　このお勤め中の私情は禁物ですぞ　月島殿
+Dialogue: 0,0:14:01.92,0:14:06.39,mushibugyo_CN,NTP,0,0,0,,不可妄動 此番任務摻入私情乃是大忌 月島閣下
+Dialogue: 0,0:14:06.64,0:14:07.95,mushibugyo_JP,NTP,0,0,0,,この場は退くのです
+Dialogue: 0,0:14:06.64,0:14:07.95,mushibugyo_CN,NTP,0,0,0,,此事不可插手
+Dialogue: 0,0:14:07.95,0:14:10.89,mushibugyo_JP,NTP,0,0,0,,大岡殿　これは私情ではありません
+Dialogue: 0,0:14:07.95,0:14:10.89,mushibugyo_CN,NTP,0,0,0,,大岡大人 這並不是在下的私情
+Dialogue: 0,0:14:11.07,0:14:14.77,mushibugyo_JP,NTP,0,0,0,,あのものは　人の命を奪うこの世の悪
+Dialogue: 0,0:14:11.07,0:14:14.77,mushibugyo_CN,NTP,0,0,0,,那是濫殺無辜的世間惡徒
+Dialogue: 0,0:14:14.77,0:14:17.44,mushibugyo_JP,NTP,0,0,0,,成敗しなければ人の道に外れます
+Dialogue: 0,0:14:14.77,0:14:17.44,mushibugyo_CN,NTP,0,0,0,,不給與制裁有違人道
+Dialogue: 0,0:14:18.77,0:14:23.64,mushibugyo_JP,NTP,0,0,0,,月島殿　お付の方にもしものことがあったら　どうするのですか
+Dialogue: 0,0:14:18.77,0:14:23.64,mushibugyo_CN,NTP,0,0,0,,月島大人 侍女小姐若有何差池 你擔得起責任嗎
+Dialogue: 0,0:14:28.16,0:14:32.01,mushibugyo_JP,NTP,0,0,0,,ネズミ共　成敗いたしそうろう
+Dialogue: 0,0:14:28.16,0:14:32.01,mushibugyo_CN,NTP,0,0,0,,鼠輩們 讓我來解決你們吧
+Dialogue: 0,0:14:36.78,0:14:40.04,mushibugyo_JP,NTP,0,0,0,,貴様　よくも皆さんを
+Dialogue: 0,0:14:36.78,0:14:40.04,mushibugyo_CN,NTP,0,0,0,,你這混賬 竟如此濫殺無辜
+Dialogue: 0,0:14:43.95,0:14:47.68,mushibugyo_JP,NTP,0,0,0,,大岡殿　自分がこの蟲人を足止めします
+Dialogue: 0,0:14:43.95,0:14:47.68,mushibugyo_CN,NTP,0,0,0,,大岡大人 讓在下來拖住這個蟲人
+Dialogue: 0,0:14:47.93,0:14:49.28,mushibugyo_JP,NTP,0,0,0,,蟲人
+Dialogue: 0,0:14:47.93,0:14:49.28,mushibugyo_CN,NTP,0,0,0,,蟲人？
+Dialogue: 0,0:14:49.74,0:14:52.51,mushibugyo_JP,NTP,0,0,0,,先にお付の方と紀州の中へ
+Dialogue: 0,0:14:49.74,0:14:52.51,mushibugyo_CN,NTP,0,0,0,,您先帶侍女大人到紀州城裏去
+Dialogue: 0,0:14:52.57,0:14:57.17,mushibugyo_JP,NTP,0,0,0,,なんということ　この場でお勤めを差し置くなど　大バツです
+Dialogue: 0,0:14:52.57,0:14:57.17,mushibugyo_CN,NTP,0,0,0,,太過分了 這種情況下擅離職守 真是大錯特錯
+Dialogue: 0,0:14:57.17,0:14:58.79,mushibugyo_JP,NTP,0,0,0,,かまわぬ　月島
+Dialogue: 0,0:14:57.17,0:14:58.79,mushibugyo_CN,NTP,0,0,0,,不用在意 月島
+Dialogue: 0,0:14:59.11,0:15:01.62,mushibugyo_JP,NTP,0,0,0,,お主がしたいようにすればよい
+Dialogue: 0,0:14:59.11,0:15:01.62,mushibugyo_CN,NTP,0,0,0,,你想做就放手去做
+Dialogue: 0,0:15:02.14,0:15:03.38,mushibugyo_JP,NTP,0,0,0,,お付の方
+Dialogue: 0,0:15:02.14,0:15:03.38,mushibugyo_CN,NTP,0,0,0,,侍女小姐
+Dialogue: 0,0:15:03.76,0:15:07.01,mushibugyo_JP,NTP,0,0,0,,何も気にするな　そやつを成敗せよ
+Dialogue: 0,0:15:03.76,0:15:07.01,mushibugyo_CN,NTP,0,0,0,,不要有所顧忌 處理掉那個傢伙吧
+Dialogue: 0,0:15:07.48,0:15:09.06,mushibugyo_JP,NTP,0,0,0,,わらわが許す
+Dialogue: 0,0:15:07.48,0:15:09.06,mushibugyo_CN,NTP,0,0,0,,我允許你那麼做
+Dialogue: 0,0:15:10.49,0:15:11.80,mushibugyo_JP,NTP,0,0,0,,承知
+Dialogue: 0,0:15:10.49,0:15:11.80,mushibugyo_CN,NTP,0,0,0,,遵命
+Dialogue: 0,0:15:18.54,0:15:20.79,mushibugyo_JP,NTP,0,0,0,,逃がしいたさずそうろう
+Dialogue: 0,0:15:18.54,0:15:20.79,mushibugyo_CN,NTP,0,0,0,,休想逃
+Dialogue: 0,0:15:34.75,0:15:37.58,mushibugyo_JP,NTP,0,0,0,,首　頭　脅
+Dialogue: 0,0:15:34.75,0:15:37.58,mushibugyo_CN,NTP,0,0,0,,脖子 頭 腋下
+Dialogue: 0,0:15:37.82,0:15:39.23,mushibugyo_JP,NTP,0,0,0,,何と鋭く
+Dialogue: 0,0:15:37.82,0:15:39.23,mushibugyo_CN,NTP,0,0,0,,何等敏捷犀利
+Dialogue: 0,0:15:39.23,0:15:42.59,mushibugyo_JP,NTP,0,0,0,,そして的確に急所ばかりを狙ってくる
+Dialogue: 0,0:15:39.23,0:15:42.59,mushibugyo_CN,NTP,0,0,0,,而且專挑要害進攻
+Dialogue: 0,0:15:44.54,0:15:47.99,mushibugyo_JP,NTP,0,0,0,,こいつ　恐ろしく戦い慣れしている
+Dialogue: 0,0:15:44.54,0:15:47.99,mushibugyo_CN,NTP,0,0,0,,這傢伙 恐怕早已身經百戰
+Dialogue: 0,0:15:48.62,0:15:53.32,mushibugyo_JP,NTP,0,0,0,,あの猿飛佐助というものより　遥かに強い
+Dialogue: 0,0:15:48.62,0:15:53.32,mushibugyo_CN,NTP,0,0,0,,遠比那個叫猿飛佐助要強
+Dialogue: 0,0:15:53.81,0:15:57.21,mushibugyo_JP,NTP,0,0,0,,久しい　実に久しい
+Dialogue: 0,0:15:53.81,0:15:57.21,mushibugyo_CN,NTP,0,0,0,,太久了 真的是太久了
+Dialogue: 0,0:15:57.91,0:15:59.07,mushibugyo_JP,NTP,0,0,0,,蟲の身になっており
+Dialogue: 0,0:15:57.91,0:15:59.07,mushibugyo_CN,NTP,0,0,0,,自從變成了蟲身
+Dialogue: 0,0:15:59.07,0:16:04.19,mushibugyo_JP,NTP,0,0,0,,まさか これほど拙者の剣と渡り合える者が現れようとは
+Dialogue: 0,0:15:59.07,0:16:04.19,mushibugyo_CN,NTP,0,0,0,,沒想到還會遇到能接住在下的劍招的人
+Dialogue: 0,0:16:04.76,0:16:09.11,mushibugyo_JP,NTP,0,0,0,,なかなかどうして　楽しませてくれそうろう
+Dialogue: 0,0:16:04.76,0:16:09.11,mushibugyo_CN,NTP,0,0,0,,真是不錯  就讓我打個痛快吧
+Dialogue: 0,0:16:09.66,0:16:11.91,mushibugyo_JP,NTP,0,0,0,,ふ　ふざけるな
+Dialogue: 0,0:16:09.66,0:16:11.91,mushibugyo_CN,NTP,0,0,0,,開 開什麼玩笑
+Dialogue: 0,0:16:15.43,0:16:17.10,mushibugyo_JP,NTP,0,0,0,,なっ　腕が伸びた
+Dialogue: 0,0:16:15.43,0:16:17.10,mushibugyo_CN,NTP,0,0,0,,什 … 手臂伸長了
+Dialogue: 0,0:16:25.00,0:16:27.08,mushibugyo_JP,NTP,0,0,0,,完全に遊ばれている
+Dialogue: 0,0:16:25.00,0:16:27.08,mushibugyo_CN,NTP,0,0,0,,完全被玩弄於股掌之間
+Dialogue: 0,0:16:27.91,0:16:30.97,mushibugyo_JP,NTP,0,0,0,,ネズミ　その程度の腕でそうろうか
+Dialogue: 0,0:16:27.91,0:16:30.97,mushibugyo_CN,NTP,0,0,0,,鼠輩 你就這點本事嗎
+Dialogue: 0,0:16:31.31,0:16:35.15,mushibugyo_JP,NTP,0,0,0,,拙者にはまだまだ奥の手がこれありそうろう
+Dialogue: 0,0:16:31.31,0:16:35.15,mushibugyo_CN,NTP,0,0,0,,在下卻還有招數尚未使出來呢
+Dialogue: 0,0:16:42.36,0:16:43.37,mushibugyo_JP,NTP,0,0,0,,解せません
+Dialogue: 0,0:16:42.36,0:16:43.37,mushibugyo_CN,NTP,0,0,0,,屬下無法理解
+Dialogue: 0,0:16:44.36,0:16:48.87,mushibugyo_JP,NTP,0,0,0,,道中あなたを守り付き従うようにと吉宗様からの命があり
+Dialogue: 0,0:16:44.36,0:16:48.87,mushibugyo_CN,NTP,0,0,0,,屬下奉吉宗大人之命 一路上保護您 對您惟命是從
+Dialogue: 0,0:16:48.87,0:16:51.53,mushibugyo_JP,NTP,0,0,0,,一切口を挟まぬつもりでしたが
+Dialogue: 0,0:16:48.87,0:16:51.53,mushibugyo_CN,NTP,0,0,0,,所以並不打算干涉您的決定
+Dialogue: 0,0:16:51.67,0:16:55.56,mushibugyo_JP,NTP,0,0,0,,なぜ此度の勤めのお供に あの者を選んだのですか
+Dialogue: 0,0:16:51.67,0:16:55.56,mushibugyo_CN,NTP,0,0,0,,但是 為什麼這次任務您會選那樣的人隨行
+Dialogue: 0,0:17:00.73,0:17:05.51,mushibugyo_JP,NTP,0,0,0,,注意力は散漫で　警戒心もなく　勤めに私情を持ち込む
+Dialogue: 0,0:17:00.73,0:17:05.51,mushibugyo_CN,NTP,0,0,0,,注意力散漫 毫無警惕性 執行任務時為私情所動
+Dialogue: 0,0:17:05.57,0:17:09.14,mushibugyo_JP,NTP,0,0,0,,武士としてあまりに幼稚な立ち居振る舞いが目立ちます
+Dialogue: 0,0:17:05.57,0:17:09.14,mushibugyo_CN,NTP,0,0,0,,身為武士 幼稚之舉接連不斷
+Dialogue: 0,0:17:09.23,0:17:11.33,mushibugyo_JP,NTP,0,0,0,,バツです　大バツです
+Dialogue: 0,0:17:09.23,0:17:11.33,mushibugyo_CN,NTP,0,0,0,,選人不當 真是大錯特錯
+Dialogue: 0,0:17:11.47,0:17:13.46,mushibugyo_JP,NTP,0,0,0,,これを受けそうろう
+Dialogue: 0,0:17:11.47,0:17:13.46,mushibugyo_CN,NTP,0,0,0,,嘗嘗這招
+Dialogue: 0,0:17:13.46,0:17:15.79,mushibugyo_JP,NTP,0,0,0,,しもべ共　参らせそうろう
+Dialogue: 0,0:17:13.46,0:17:15.79,mushibugyo_CN,NTP,0,0,0,,小子們 給我上
+Dialogue: 0,0:17:17.95,0:17:20.06,mushibugyo_JP,NTP,0,0,0,,鶴翼卵の陣
+Dialogue: 0,0:17:17.95,0:17:20.06,mushibugyo_CN,NTP,0,0,0,,鶴翼卵之陣
+Dialogue: 0,0:17:20.72,0:17:22.24,mushibugyo_JP,NTP,0,0,0,,背中の卵が
+Dialogue: 0,0:17:20.72,0:17:22.24,mushibugyo_CN,NTP,0,0,0,,背上的卵砸過來了…
+Dialogue: 0,0:17:25.62,0:17:29.58,mushibugyo_JP,NTP,0,0,0,,あなたをお守りするお供として　あまりに相応しくない
+Dialogue: 0,0:17:25.62,0:17:29.58,mushibugyo_CN,NTP,0,0,0,,他不配作您的隨從
+Dialogue: 0,0:17:30.15,0:17:32.55,mushibugyo_JP,NTP,0,0,0,,姫様　何ゆえあの者
+Dialogue: 0,0:17:30.15,0:17:32.55,mushibugyo_CN,NTP,0,0,0,,公主殿下 您究竟為何選他
+Dialogue: 0,0:17:33.38,0:17:34.92,mushibugyo_JP,NTP,0,0,0,,都合がよいのだ
+Dialogue: 0,0:17:33.38,0:17:34.92,mushibugyo_CN,NTP,0,0,0,,他正合適
+Dialogue: 0,0:17:34.92,0:17:35.81,mushibugyo_JP,NTP,0,0,0,,はぁ？
+Dialogue: 0,0:17:34.92,0:17:35.81,mushibugyo_CN,NTP,0,0,0,,哈？
+Dialogue: 0,0:17:36.17,0:17:39.74,mushibugyo_JP,NTP,0,0,0,,月島はわらわの正体を勘違いしている
+Dialogue: 0,0:17:36.17,0:17:39.74,mushibugyo_CN,NTP,0,0,0,,月島他誤解了我的身份
+Dialogue: 0,0:17:41.30,0:17:45.29,mushibugyo_JP,NTP,0,0,0,,それにわらわは思い出を作っておきたくてな
+Dialogue: 0,0:17:41.30,0:17:45.29,mushibugyo_CN,NTP,0,0,0,,而且 我想創造兩人的回憶
+Dialogue: 0,0:17:49.57,0:17:51.37,mushibugyo_JP,NTP,0,0,0,,姫様　どうぞこちらへ
+Dialogue: 0,0:17:49.57,0:17:51.37,mushibugyo_CN,NTP,0,0,0,,公主殿下 請您到這邊來
+Dialogue: 0,0:17:56.23,0:18:00.68,mushibugyo_JP,NTP,0,0,0,,この大岡忠相　やはり姫様の思いは分かりません
+Dialogue: 0,0:17:56.23,0:18:00.68,mushibugyo_CN,NTP,0,0,0,,我大岡忠相 還是不能明白公主殿下的心意
+Dialogue: 0,0:18:00.87,0:18:04.86,mushibugyo_JP,NTP,0,0,0,,だけど　あなた様に付き従うことに変わりはありません
+Dialogue: 0,0:18:00.87,0:18:04.86,mushibugyo_CN,NTP,0,0,0,,但是要對您唯命是從這點卻是沒有變
+Dialogue: 0,0:18:22.43,0:18:24.58,mushibugyo_JP,NTP,0,0,0,,月島　門は開いた
+Dialogue: 0,0:18:22.43,0:18:24.58,mushibugyo_CN,NTP,0,0,0,,月島 門已經打開
+Dialogue: 0,0:18:25.18,0:18:26.45,mushibugyo_JP,NTP,0,0,0,,早く参れ
+Dialogue: 0,0:18:25.18,0:18:26.45,mushibugyo_CN,NTP,0,0,0,,快過來
+Dialogue: 0,0:18:26.78,0:18:27.82,mushibugyo_JP,NTP,0,0,0,,はい
+Dialogue: 0,0:18:26.78,0:18:27.82,mushibugyo_CN,NTP,0,0,0,,是
+Dialogue: 0,0:18:28.24,0:18:30.36,mushibugyo_JP,NTP,0,0,0,,逃がしいたさずそうろう
+Dialogue: 0,0:18:28.24,0:18:30.36,mushibugyo_CN,NTP,0,0,0,,休想逃
+Dialogue: 0,0:18:34.71,0:18:37.33,mushibugyo_JP,NTP,0,0,0,,これにて終わりそうろう
+Dialogue: 0,0:18:34.71,0:18:37.33,mushibugyo_CN,NTP,0,0,0,,到此為止吧
+Dialogue: 0,0:18:37.39,0:18:39.43,mushibugyo_JP,NTP,0,0,0,,三刀流では逃げ場がありません
+Dialogue: 0,0:18:37.39,0:18:39.43,mushibugyo_CN,NTP,0,0,0,,在三刀流裏 沒有退路一說
+Dialogue: 0,0:18:39.56,0:18:40.48,mushibugyo_JP,NTP,0,0,0,,月島
+Dialogue: 0,0:18:39.56,0:18:40.48,mushibugyo_CN,NTP,0,0,0,,月島
+Dialogue: 0,0:18:52.70,0:18:53.98,mushibugyo_JP,NTP,0,0,0,,歯で受け止めた
+Dialogue: 0,0:18:52.70,0:18:53.98,mushibugyo_CN,NTP,0,0,0,,竟用牙接住了
+Dialogue: 0,0:18:54.31,0:18:57.72,mushibugyo_JP,NTP,0,0,0,,受け止める　これが皆さんの無念
+Dialogue: 0,0:18:54.31,0:18:57.72,mushibugyo_CN,NTP,0,0,0,,接招吧 這是為大家報仇
+Dialogue: 0,0:18:58.26,0:19:01.66,mushibugyo_JP,NTP,0,0,0,,月島流　富嶽鉄槌割り
+Dialogue: 0,0:18:58.26,0:19:01.66,mushibugyo_CN,NTP,0,0,0,,月島流 富岳鐵錘斬
+Dialogue: 0,0:19:04.17,0:19:05.25,mushibugyo_JP,NTP,0,0,0,,不覺
+Dialogue: 0,0:19:04.17,0:19:05.25,mushibugyo_CN,NTP,0,0,0,,失策了
+Dialogue: 0,0:19:05.54,0:19:07.99,mushibugyo_JP,NTP,0,0,0,,このネズミ　なかなかに
+Dialogue: 0,0:19:05.54,0:19:07.99,mushibugyo_CN,NTP,0,0,0,,這只鼠輩 有點本事
+Dialogue: 0,0:19:08.39,0:19:11.47,mushibugyo_JP,NTP,0,0,0,,月島流　富嶽突き
+Dialogue: 0,0:19:08.39,0:19:11.47,mushibugyo_CN,NTP,0,0,0,,月島流 富岳突刺
+Dialogue: 0,0:19:36.60,0:19:37.70,mushibugyo_JP,NTP,0,0,0,,おのれ
+Dialogue: 0,0:19:36.60,0:19:37.70,mushibugyo_CN,NTP,0,0,0,,啊 可惡
+Dialogue: 0,0:19:38.45,0:19:41.59,mushibugyo_JP,NTP,0,0,0,,ネズミ共　取り逃がした
+Dialogue: 0,0:19:38.45,0:19:41.59,mushibugyo_CN,NTP,0,0,0,,鼠輩們讓你們跑了
+Dialogue: 0,0:19:49.54,0:19:52.74,mushibugyo_JP,NTP,0,0,0,,なかなか順調のようですね　親方様
+Dialogue: 0,0:19:49.54,0:19:52.74,mushibugyo_CN,NTP,0,0,0,,進行得很順利啊 主公
+Dialogue: 0,0:19:54.04,0:19:55.62,mushibugyo_JP,NTP,0,0,0,,それで　甚八
+Dialogue: 0,0:19:54.04,0:19:55.62,mushibugyo_CN,NTP,0,0,0,,話說回來 甚八
+Dialogue: 0,0:19:55.75,0:19:57.82,mushibugyo_JP,NTP,0,0,0,,その話はまことか
+Dialogue: 0,0:19:55.75,0:19:57.82,mushibugyo_CN,NTP,0,0,0,,那件事是真的嗎
+Dialogue: 0,0:19:57.90,0:20:00.77,mushibugyo_JP,NTP,0,0,0,,はっ　ネズミが三匹紀州に
+Dialogue: 0,0:19:57.90,0:20:00.77,mushibugyo_CN,NTP,0,0,0,,是 有三隻鼠輩躥進了紀州
+Dialogue: 0,0:20:00.95,0:20:04.43,mushibugyo_JP,NTP,0,0,0,,その者達は 我らの存在を知っているようで
+Dialogue: 0,0:20:00.95,0:20:04.43,mushibugyo_CN,NTP,0,0,0,,那些人好像知道我們的存在
+Dialogue: 0,0:20:04.52,0:20:08.92,mushibugyo_JP,NTP,0,0,0,,我らのことを「蟲人」　と呼んでござそうろう
+Dialogue: 0,0:20:04.52,0:20:08.92,mushibugyo_CN,NTP,0,0,0,,把我們稱作「蟲人」
+Dialogue: 0,0:20:10.45,0:20:12.35,mushibugyo_JP,NTP,0,0,0,,我らは「蟲人」か
+Dialogue: 0,0:20:10.45,0:20:12.35,mushibugyo_CN,NTP,0,0,0,,稱我們作「蟲人」啊
+Dialogue: 0,0:20:12.68,0:20:16.01,mushibugyo_JP,NTP,0,0,0,,呼び名など気にもしなかったが　面白い
+Dialogue: 0,0:20:12.68,0:20:16.01,mushibugyo_CN,NTP,0,0,0,,我倒從來沒在意過稱謂 不過這聽起來挺有趣
+Dialogue: 0,0:20:16.54,0:20:17.95,mushibugyo_JP,NTP,0,0,0,,ときに　甚八
+Dialogue: 0,0:20:16.54,0:20:17.95,mushibugyo_CN,NTP,0,0,0,,話說 甚八
+Dialogue: 0,0:20:18.10,0:20:20.93,mushibugyo_JP,NTP,0,0,0,,お主はいつまで　頭を下げているのだ
+Dialogue: 0,0:20:18.10,0:20:20.93,mushibugyo_CN,NTP,0,0,0,,你打算低頭到什麼時候
+Dialogue: 0,0:20:20.97,0:20:24.37,mushibugyo_JP,NTP,0,0,0,,拙者は関所の監視で不適は起こしそうろう
+Dialogue: 0,0:20:20.97,0:20:24.37,mushibugyo_CN,NTP,0,0,0,,在下監視關卡失職
+Dialogue: 0,0:20:24.75,0:20:28.66,mushibugyo_JP,NTP,0,0,0,,親方様に顔向けなど　とてもできぬそうろう
+Dialogue: 0,0:20:24.75,0:20:28.66,mushibugyo_CN,NTP,0,0,0,,實在無顏面對主公
+Dialogue: 0,0:20:29.19,0:20:32.57,mushibugyo_JP,NTP,0,0,0,,根津は相変わらず堅苦しくてかなわん
+Dialogue: 0,0:20:29.19,0:20:32.57,mushibugyo_CN,NTP,0,0,0,,根津他還是這麼死板
+Dialogue: 0,0:20:33.12,0:20:38.26,mushibugyo_JP,NTP,0,0,0,,当藩への侵入者がこやつらのことを「蟲人」といったとな
+Dialogue: 0,0:20:33.12,0:20:38.26,mushibugyo_CN,NTP,0,0,0,,闖入此藩的侵入者 叫這些傢伙「蟲人」
+Dialogue: 0,0:20:38.40,0:20:42.47,mushibugyo_JP,NTP,0,0,0,,その呼称を使うのは　極一握りの者しかいない
+Dialogue: 0,0:20:38.40,0:20:42.47,mushibugyo_CN,NTP,0,0,0,,會使用此稱呼的人 屈指可數
+Dialogue: 0,0:20:44.11,0:20:48.07,mushibugyo_JP,NTP,0,0,0,,つまり姫がこの紀州藩に入ったということか
+Dialogue: 0,0:20:44.11,0:20:48.07,mushibugyo_CN,NTP,0,0,0,,也就是說公主殿下已經進入了紀州了嗎
+Dialogue: 0,0:20:48.17,0:20:52.22,mushibugyo_JP,NTP,0,0,0,,宗直殿　この落とし前　どうつける
+Dialogue: 0,0:20:48.17,0:20:52.22,mushibugyo_CN,NTP,0,0,0,,宗直大人 此番糾紛您打算如何處理
+Dialogue: 0,0:20:52.22,0:20:53.70,mushibugyo_JP,NTP,0,0,0,,落とし前とは…
+Dialogue: 0,0:20:52.22,0:20:53.70,mushibugyo_CN,NTP,0,0,0,,您的「糾紛」是指…
+Dialogue: 0,0:20:53.70,0:20:57.59,mushibugyo_JP,NTP,0,0,0,,我らがここに滞在していることは絶対に秘密
+Dialogue: 0,0:20:53.70,0:20:57.59,mushibugyo_CN,NTP,0,0,0,,我說過 我們逗留在此處之事要保密
+Dialogue: 0,0:20:57.92,0:21:01.22,mushibugyo_JP,NTP,0,0,0,,何人たりとも関所を通すなと命じた
+Dialogue: 0,0:20:57.92,0:21:01.22,mushibugyo_CN,NTP,0,0,0,,任何人都不得進入紀州
+Dialogue: 0,0:21:01.22,0:21:04.27,mushibugyo_JP,NTP,0,0,0,,これは約束が反故されたのを意味し
+Dialogue: 0,0:21:01.22,0:21:04.27,mushibugyo_CN,NTP,0,0,0,,但看來你們打破了約定
+Dialogue: 0,0:21:04.27,0:21:08.25,mushibugyo_JP,NTP,0,0,0,,我らは紀州藩の民全てを殺さねばならん
+Dialogue: 0,0:21:04.27,0:21:08.25,mushibugyo_CN,NTP,0,0,0,,那我們就得把紀州的百姓統統殺光了
+Dialogue: 0,0:21:09.48,0:21:11.09,mushibugyo_JP,NTP,0,0,0,,なんと無茶苦茶な
+Dialogue: 0,0:21:09.48,0:21:11.09,mushibugyo_CN,NTP,0,0,0,,怎可如何不講理
+Dialogue: 0,0:21:11.40,0:21:15.38,mushibugyo_JP,NTP,0,0,0,,ならば　貴様らがそのネズミ共の首をもってこい
+Dialogue: 0,0:21:11.40,0:21:15.38,mushibugyo_CN,NTP,0,0,0,,那麼 您就去把那些鼠輩們的首級取來
+Dialogue: 0,0:21:15.79,0:21:19.27,mushibugyo_JP,NTP,0,0,0,,今すぐ紀州藩　全ての民を使い
+Dialogue: 0,0:21:15.79,0:21:19.27,mushibugyo_CN,NTP,0,0,0,,現在馬上發動紀州藩內所有的百姓
+Dialogue: 0,0:21:19.27,0:21:23.72,mushibugyo_JP,NTP,0,0,0,,そのネズミの屍を　我らの前に差し出せ
+Dialogue: 0,0:21:19.27,0:21:23.72,mushibugyo_CN,NTP,0,0,0,,去把那些鼠輩的屍首 送到我等面前
+Dialogue: 0,0:23:01.41,0:23:04.75,mushibugyo_JP,NTP,0,0,0,,お付の方　長旅で疲れた体を癒したいですね
+Dialogue: 0,0:23:01.41,0:23:04.75,mushibugyo_CN,NTP,0,0,0,,侍女小姐 長途跋涉 一定想好好休息一下吧
+Dialogue: 0,0:23:04.75,0:23:05.33,mushibugyo_JP,NTP,0,0,0,,そうじゃな
+Dialogue: 0,0:23:04.75,0:23:05.33,mushibugyo_CN,NTP,0,0,0,,是啊
+Dialogue: 0,0:23:05.33,0:23:07.01,mushibugyo_JP,NTP,0,0,0,,癒すといえば温泉です
+Dialogue: 0,0:23:05.33,0:23:07.01,mushibugyo_CN,NTP,0,0,0,,說到治癒身心 非溫泉莫屬
+Dialogue: 0,0:23:07.01,0:23:07.60,mushibugyo_JP,NTP,0,0,0,,そうじゃな
+Dialogue: 0,0:23:07.01,0:23:07.60,mushibugyo_CN,NTP,0,0,0,,是啊
+Dialogue: 0,0:23:07.60,0:23:09.32,mushibugyo_JP,NTP,0,0,0,,ちょうどよいところに混浴が…
+Dialogue: 0,0:23:07.60,0:23:09.32,mushibugyo_CN,NTP,0,0,0,,剛好那邊有混浴…
+Dialogue: 0,0:23:09.32,0:23:10.45,mushibugyo_JP,NTP,0,0,0,,大バツです
+Dialogue: 0,0:23:09.32,0:23:10.45,mushibugyo_CN,NTP,0,0,0,,大錯特錯
+Dialogue: 0,0:23:10.93,0:23:15.54,mushibugyo_JP,NTP,0,0,0,,次回蟲奉行「真田幸村の罠！お尋ね者包囲網！！」
+Dialogue: 0,0:23:10.93,0:23:15.54,mushibugyo_CN,NTP,0,0,0,,下回 蟲奉行 真田幸村的陷阱!追捕者的包圍網!!
+

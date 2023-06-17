@@ -1,0 +1,515 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正隶变_GBK,45,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: Warning,方正准圆_GBK,35,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,10,134
+Style: OP-JP,A-OTF Jun Pro 34,50,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,20,1
+Style: OP-CN,方正准圆_GBK,40,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,20,1
+Style: ED-JP,A-OTF Reisho 101 Std Medium,48,&H00DDE3DD,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,2,30,30,15,1
+Style: ED-CN,方正隶变_GBK,40,&H00DDE3DD,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,20,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,------ED------
+Dialogue: 0,0:00:00.00,0:00:00.30,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.30,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.06,0:00:06.22,Warning,NTP,0,0,0,,{\fad(250,250)\fs33\bord3\blur10}本片字幕由異域字幕組(www.yydm.com)製作,僅供試看之用,如果喜歡本作品,請購買並支持正版!
+Dialogue: 0,0:00:06.80,0:00:08.25,Default,NTP,0,0,0,,已經長很大了呢
+Dialogue: 0,0:00:07.21,0:00:14.22,Warning,NTP,0,0,0,,{\fad(250,250)\bord3\blur10}翻譯：束縛，sky，木魚 校譯：塔嗶嗶，時間：鹿鹿，後期：茶
+Dialogue: 0,0:00:08.74,0:00:11.85,Default,NTP,0,0,0,,現在實在不能說是可愛了呢
+Dialogue: 0,0:00:15.27,0:00:16.71,Default,NTP,0,0,0,,還是老樣子啊
+Dialogue: 0,0:00:16.87,0:00:18.56,Default,NTP,0,0,0,,這孩子人很好呢
+Dialogue: 0,0:00:18.87,0:00:20.57,Default,NTP,0,0,0,,豬是不需要謙讓的美德的
+Dialogue: 0,0:00:20.97,0:00:23.33,Default,NTP,0,0,0,,就算排擠掉他人也要在競爭中勝利
+Dialogue: 0,0:00:25.32,0:00:26.60,Default,NTP,0,0,0,,真是沒辦法啊
+Dialogue: 0,0:00:28.51,0:00:29.84,Default,NTP,0,0,0,,豬肉蓋飯 到這兒來
+Dialogue: 0,0:00:33.55,0:00:35.56,Default,NTP,0,0,0,,心跳的好快啊
+Dialogue: 0,0:00:40.56,0:00:41.56,Default,NTP,0,0,0,,多吃點哦
+Dialogue: 0,0:00:52.84,0:00:53.96,Default,NTP,0,0,0,,說起來
+Dialogue: 0,0:00:54.43,0:00:58.08,Default,NTP,0,0,0,,人類的小孩心跳也很快呢
+Dialogue: 0,0:00:58.98,0:21:41.67,Warning,,0,0,0,,
+Dialogue: 0,0:00:59.09,0:01:00.92,Default,NTP,0,0,0,,{\pos(176,58)}暑假回來這邊麼？
+Dialogue: 0,0:01:03.18,0:01:03.92,Default,NTP,0,0,0,,暑假的時候
+Dialogue: 0,0:01:04.09,0:01:06.84,Default,NTP,0,0,0,,就呆在安靜地宿舍裏
+Dialogue: 0,0:01:06.97,0:01:08.28,Default,NTP,0,0,0,,一邊努力學習一邊照顧豬肉飯和馬
+Dialogue: 0,0:01:08.35,0:01:09.92,Default,NTP,0,0,0,,過晴耕雨讀的生活
+Dialogue: 0,0:01:11.02,0:01:13.20,Default,NTP,0,0,0,,{\pos(196,54)}暑假 關閉宿舍的通知
+Dialogue: 0,0:01:11.02,0:01:13.20,Default,NTP,0,0,0,,{\pos(272,108)}在上述時間內由於裝修的原因
+Dialogue: 0,0:01:11.02,0:01:13.20,Default,NTP,0,0,0,,{\pos(128,154)}宿舍不能使用
+Dialogue: 0,0:01:11.02,0:01:13.20,Default,NTP,0,0,0,,{\pos(192,208)}請住宿生們妥善管理
+Dialogue: 0,0:01:11.02,0:01:13.20,Default,NTP,0,0,0,,{\pos(146,266)}自己的貴重物品
+Dialogue: 0,0:01:13.90,0:01:15.21,Default,NTP,0,0,0,,沒錯 關閉宿舍
+Dialogue: 0,0:01:15.73,0:01:16.88,Default,NTP,0,0,0,,在那期間
+Dialogue: 0,0:01:16.98,0:01:19.67,Default,NTP,0,0,0,,家裏離得近的前輩們會來照顧馬
+Dialogue: 0,0:01:20.21,0:01:23.04,Default,NTP,0,0,0,,八軒君暑假不回家嗎？
+Dialogue: 0,0:01:26.10,0:01:27.55,Default,NTP,0,0,0,,要是沒有去的地方的話
+Dialogue: 0,0:01:27.61,0:01:28.25,Default,NTP,0,0,0,,要不要來我家？
+Dialogue: 0,0:01:28.70,0:01:30.22,Default,NTP,0,0,0,,我爸媽都不在
+Dialogue: 0,0:01:32.09,0:01:34.96,Default,NTP,0,0,0,,我爸爸腰疝氣又嚴重了
+Dialogue: 0,0:01:37.42,0:01:38.99,Default,NTP,0,0,0,,也就是說勞動力啊
+Dialogue: 0,0:01:39.48,0:01:41.31,Default,NTP,0,0,0,,打工的錢也會給你的 怎麼樣
+Dialogue: 0,0:01:41.63,0:01:42.38,Default,NTP,0,0,0,,真的？
+Dialogue: 0,0:01:42.39,0:01:43.08,Default,NTP,0,0,0,,我去我去
+Dialogue: 0,0:01:43.57,0:01:45.34,Default,NTP,0,0,0,,那麼定好了日期之後告訴你
+Dialogue: 0,0:01:48.41,0:01:49.34,Default,NTP,0,0,0,,打工嗎
+Dialogue: 0,0:01:51.10,0:01:54.31,Default,NTP,0,0,0,,工作賺錢 還是第一次呢
+Dialogue: 0,0:02:10.25,0:02:18.13,OP-JP,NTP,0,0,0,,{\be20}本格的な鬱の日差しが肌をこぼしていくように
+Dialogue: 0,0:02:10.25,0:02:18.13,OP-CN,NTP,0,0,0,,{\be20}正如炎炎烈日傾灑在肌膚上一樣
+Dialogue: 0,0:02:20.72,0:02:27.10,OP-JP,NTP,0,0,0,,{\be20}私もあなたに恋に焦がれる　海へドライブ
+Dialogue: 0,0:02:20.72,0:02:27.10,OP-CN,NTP,0,0,0,,{\be20}我也在去海邊兜風的時候對你一見鍾情
+Dialogue: 0,0:02:27.31,0:02:30.69,OP-JP,NTP,0,0,0,,{\be20}運転する横顔慣れる
+Dialogue: 0,0:02:27.31,0:02:30.69,OP-CN,NTP,0,0,0,,{\be20}習慣了你開車時的側臉
+Dialogue: 0,0:02:30.90,0:02:34.48,OP-CN,NTP,0,0,0,,{\be20}夏日的海風 清爽心怡的 Summer day
+Dialogue: 0,0:02:30.90,0:02:34.48,OP-JP,NTP,0,0,0,,{\be20}潮風が気持ちいい Summer day
+Dialogue: 0,0:02:35.02,0:02:37.61,OP-JP,NTP,0,0,0,,{\be20}LA LA LA SUMMER DAY
+Dialogue: 0,0:02:35.02,0:02:37.61,OP-CN,NTP,0,0,0,,{\be20}LA LA LA SUMMER DAY
+Dialogue: 0,0:02:37.86,0:02:41.16,OP-JP,NTP,0,0,0,,{\be20}ビッチバレーするカラフルなウェア
+Dialogue: 0,0:02:37.86,0:02:41.16,OP-CN,NTP,0,0,0,,{\be20}沙灘排球時五顏六色的裝束
+Dialogue: 0,0:02:41.41,0:02:44.87,OP-JP,NTP,0,0,0,,{\be20}砂浜に咲く花みたい
+Dialogue: 0,0:02:41.41,0:02:44.87,OP-CN,NTP,0,0,0,,{\be20}就像在沙灘上綻開的花朵
+Dialogue: 0,0:02:44.91,0:02:47.12,OP-JP,NTP,0,0,0,,{\be20}Kiss you
+Dialogue: 0,0:02:44.91,0:02:47.12,OP-CN,NTP,0,0,0,,{\be20}Kiss you
+Dialogue: 0,0:02:47.25,0:02:50.54,OP-JP,NTP,0,0,0,,{\be20}あなたの心
+Dialogue: 0,0:02:47.25,0:02:50.54,OP-CN,NTP,0,0,0,,{\be20}其實我真的好想
+Dialogue: 0,0:02:50.67,0:02:54.88,OP-JP,NTP,0,0,0,,{\be20}もっと　もっと　近くに感じたい
+Dialogue: 0,0:02:50.67,0:02:54.88,OP-CN,NTP,0,0,0,,{\be20}更近 更近的感受你的心
+Dialogue: 0,0:02:54.96,0:02:57.67,OP-JP,NTP,0,0,0,,{\be20}私だけ見て
+Dialogue: 0,0:02:54.96,0:02:57.67,OP-CN,NTP,0,0,0,,{\be20}請只注視著我一個人
+Dialogue: 0,0:02:59.05,0:03:01.05,OP-JP,NTP,0,0,0,,{\be20}Kiss you
+Dialogue: 0,0:02:59.05,0:03:01.05,OP-CN,NTP,0,0,0,,{\be20}Kiss you
+Dialogue: 0,0:03:01.26,0:03:11.56,OP-JP,NTP,0,0,0,,{\be20}服と膨らんだ胸の思い唇に乗せて伝えたいの
+Dialogue: 0,0:03:01.26,0:03:11.56,OP-CN,NTP,0,0,0,,{\be20}好想將那滿脹的思念之情用雙唇傳達給你
+Dialogue: 0,0:03:11.69,0:03:13.31,OP-JP,NTP,0,0,0,,{\be20}だから Kiss you
+Dialogue: 0,0:03:11.69,0:03:13.31,OP-CN,NTP,0,0,0,,{\be20}所以要 Kiss you
+Dialogue: 0,0:03:13.48,0:03:14.94,OP-JP,NTP,0,0,0,,{\be20}だから Kiss you
+Dialogue: 0,0:03:13.48,0:03:14.94,OP-CN,NTP,0,0,0,,{\be20}所以要 Kiss you
+Dialogue: 0,0:03:15.27,0:03:19.19,OP-JP,NTP,0,0,0,,{\be20}だからさ　kiss you
+Dialogue: 0,0:03:15.27,0:03:19.19,OP-CN,NTP,0,0,0,,{\be20}所以呀 我要 Kiss you
+Dialogue: 0,0:03:28.40,0:03:29.83,Default,NTP,0,0,0,,開得太快了啦
+Dialogue: 0,0:03:29.86,0:03:31.17,Default,NTP,0,0,0,,Service Service
+Dialogue: 0,0:03:35.20,0:03:38.83,Default,NTP,0,0,0,,{\fad(700,700)\c&H1400AD&\bord0\pos(832,360)}第六話
+Dialogue: 0,0:03:35.20,0:03:38.83,Default,NTP,0,0,0,,{\fad(700,700)\c&H1400AD&\bord0\pos(964,482)}{\c&H1E181F&\pos(956,380)}去御影家
+Dialogue: 0,0:03:35.20,0:03:38.83,Default,NTP,0,0,0,,{\fad(700,700)\c&H1400AD&\bord0\pos(918,406)}{\c&H1E181F&\pos(956,380)}八軒
+Dialogue: 0,0:03:35.88,0:03:37.39,Default,NTP,0,0,0,,山 好近！
+Dialogue: 0,0:03:46.79,0:03:47.53,Default,NTP,0,0,0,,孩子他爸
+Dialogue: 0,0:03:47.60,0:03:48.92,Default,NTP,0,0,0,,八軒君來了哦
+Dialogue: 0,0:03:54.22,0:03:55.09,Default,NTP,0,0,0,,初次見面
+Dialogue: 0,0:03:55.30,0:03:56.64,Default,NTP,0,0,0,,我是八軒勇吾
+Dialogue: 0,0:03:57.69,0:03:58.54,Default,NTP,0,0,0,,我是不會認可你的！
+Dialogue: 0,0:03:58.61,0:03:59.31,Default,NTP,0,0,0,,什麼啊
+Dialogue: 0,0:04:00.17,0:04:01.32,Default,NTP,0,0,0,,不好意思
+Dialogue: 0,0:04:01.58,0:04:04.17,Default,NTP,0,0,0,,孩子他爸以為你要把小秋搶走呢
+Dialogue: 0,0:04:05.46,0:04:07.99,Default,NTP,0,0,0,,八軒君是農家的長男麼
+Dialogue: 0,0:04:08.00,0:04:10.31,Default,NTP,0,0,0,,不 是工薪家庭的次男
+Dialogue: 0,0:04:12.02,0:04:12.65,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:04:12.76,0:04:14.67,Default,NTP,0,0,0,,剛剛那個像是狩獵般的眼神…
+Dialogue: 0,0:04:14.83,0:04:16.45,Default,NTP,0,0,0,,曾祖母 我回來了
+Dialogue: 0,0:04:18.54,0:04:21.19,Default,NTP,0,0,0,,這是來幫忙的同年級的八軒君
+Dialogue: 0,0:04:21.69,0:04:22.43,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:04:24.32,0:04:25.62,Default,NTP,0,0,0,,107歲了哦
+Dialogue: 0,0:04:27.05,0:04:28.93,Default,NTP,0,0,0,,那個 明治出生的
+Dialogue: 0,0:04:29.15,0:04:29.67,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:04:29.68,0:04:32.01,Default,NTP,0,0,0,,見證了北海道開拓時代的證人
+Dialogue: 0,0:04:34.22,0:04:36.96,Default,NTP,0,0,0,,都是些田舍料理對不起呢
+Dialogue: 0,0:04:37.43,0:04:39.18,Default,NTP,0,0,0,,沒事沒事  很好吃的
+Dialogue: 0,0:04:39.24,0:04:40.20,Default,NTP,0,0,0,,特別是米
+Dialogue: 0,0:04:40.47,0:04:41.75,Default,NTP,0,0,0,,因為親戚是米農
+Dialogue: 0,0:04:41.83,0:04:42.91,Default,NTP,0,0,0,,所以直接從地裏運來的
+Dialogue: 0,0:04:43.54,0:04:44.27,Default,NTP,0,0,0,,而且
+Dialogue: 0,0:04:44.30,0:04:46.37,Default,NTP,0,0,0,,人捏的飯團很好吃吧
+Dialogue: 0,0:04:46.43,0:04:48.32,Default,NTP,0,0,0,,因為包含著愛呢
+Dialogue: 0,0:04:48.63,0:04:50.55,Default,NTP,0,0,0,,因為熟練的奶奶捏的
+Dialogue: 0,0:04:50.63,0:04:52.01,Default,NTP,0,0,0,,湯汁味道就很足呢
+Dialogue: 0,0:04:54.27,0:04:55.71,Default,NTP,0,0,0,,對了八軒君
+Dialogue: 0,0:04:56.03,0:04:58.20,Default,NTP,0,0,0,,把你家的電話號碼告訴我一下吧
+Dialogue: 0,0:04:58.62,0:05:01.26,Default,NTP,0,0,0,,我去跟你的父母打個招呼
+Dialogue: 0,0:05:01.39,0:05:03.33,Default,NTP,0,0,0,,啊 那個 不用了 不用了
+Dialogue: 0,0:05:03.57,0:05:05.83,Default,NTP,0,0,0,,那個 我已經跟他們說過了
+Dialogue: 0,0:05:06.18,0:05:07.38,Default,NTP,0,0,0,,話雖如此
+Dialogue: 0,0:05:07.86,0:05:11.08,Default,NTP,0,0,0,,那個 這個時間我家裏沒人啦
+Dialogue: 0,0:05:11.38,0:05:12.21,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:05:12.85,0:05:14.74,Default,NTP,0,0,0,,是的 沒關係的
+Dialogue: 0,0:05:20.78,0:05:24.16,Default,NTP,0,0,0,,{\frz16.23\pos(554,226)}暑假期間
+Dialogue: 0,0:05:20.78,0:05:24.16,Default,NTP,0,0,0,,{\frz16.62\pos(600,288)}我要去農家的朋友家裏打工
+Dialogue: 0,0:05:20.78,0:05:24.16,Default,NTP,0,0,0,,{\frz18.43\pos(620,356)}不會回來了
+Dialogue: 0,0:05:33.78,0:05:36.69,Default,NTP,0,0,0,,{\pos(634,462)\frz6.253}送信失敗
+Dialogue: 0,0:05:41.78,0:05:44.48,Default,NTP,0,0,0,,那麼我帶你爸爸去醫院了
+Dialogue: 0,0:05:44.69,0:05:45.82,Default,NTP,0,0,0,,暫時拜託你了哦
+Dialogue: 0,0:05:45.85,0:05:46.49,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:05:46.63,0:05:47.50,Default,NTP,0,0,0,,一路好走
+Dialogue: 0,0:05:48.92,0:05:49.80,Default,NTP,0,0,0,,不准出手哦！
+Dialogue: 0,0:05:49.86,0:05:50.75,Default,NTP,0,0,0,,什麼啊！？
+Dialogue: 0,0:05:53.34,0:05:55.92,Default,NTP,0,0,0,,那麼 趕快開始工作吧
+Dialogue: 0,0:05:58.46,0:05:59.53,Default,NTP,0,0,0,,八軒君！
+Dialogue: 0,0:05:59.90,0:06:00.56,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:06:04.34,0:06:06.39,Default,NTP,0,0,0,,現在這個時間領到運動場來
+Dialogue: 0,0:06:06.40,0:06:07.61,Default,NTP,0,0,0,,中午趕進馬棚
+Dialogue: 0,0:06:08.15,0:06:09.86,Default,NTP,0,0,0,,用之間的時間打掃馬糞
+Dialogue: 0,0:06:09.94,0:06:12.05,Default,NTP,0,0,0,,要照顧這麼大匹的嗎
+Dialogue: 0,0:06:12.74,0:06:13.70,Default,NTP,0,0,0,,這個才兩歲
+Dialogue: 0,0:06:13.76,0:06:15.06,Default,NTP,0,0,0,,還會再長大的啦
+Dialogue: 0,0:06:15.33,0:06:16.98,Default,NTP,0,0,0,,脖子和軀幹會長的修長
+Dialogue: 0,0:06:17.01,0:06:18.40,Default,NTP,0,0,0,,屁股會撅起來
+Dialogue: 0,0:06:18.81,0:06:20.74,Default,NTP,0,0,0,,嗯 絕對會養成一匹好馬呢
+Dialogue: 0,0:06:20.92,0:06:23.18,Default,NTP,0,0,0,,和乳牛部的人一樣的眼神！
+Dialogue: 0,0:06:24.75,0:06:26.50,Default,NTP,0,0,0,,說曹操曹操就到 馬販子就來了
+Dialogue: 0,0:06:28.00,0:06:30.28,Default,NTP,0,0,0,,是來看看有沒有好馬的
+Dialogue: 0,0:06:31.18,0:06:32.87,Default,NTP,0,0,0,,社長你好
+Dialogue: 0,0:06:33.13,0:06:34.03,Default,NTP,0,0,0,,哦 好呀
+Dialogue: 0,0:06:34.29,0:06:35.17,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:06:35.48,0:06:37.68,Default,NTP,0,0,0,,咦 小秋去了高中後
+Dialogue: 0,0:06:37.70,0:06:39.08,Default,NTP,0,0,0,,已經找了個女婿來了嗎
+Dialogue: 0,0:06:39.12,0:06:41.88,Default,NTP,0,0,0,,是來打工的朋友啦
+Dialogue: 0,0:06:41.99,0:06:43.67,Default,NTP,0,0,0,,小秋要繼承家業
+Dialogue: 0,0:06:43.67,0:06:46.16,Default,NTP,0,0,0,,所以必須早點找個女婿呢
+Dialogue: 0,0:06:46.34,0:06:47.58,Default,NTP,0,0,0,,沒事的
+Dialogue: 0,0:06:47.77,0:06:49.51,Default,NTP,0,0,0,,小秋是可靠的人
+Dialogue: 0,0:06:49.56,0:06:51.80,Default,NTP,0,0,0,,我會安心把牧場交給她的
+Dialogue: 0,0:06:57.82,0:06:58.58,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:06:59.25,0:07:00.20,Default,NTP,0,0,0,,這裏也不行嗎
+Dialogue: 0,0:07:01.54,0:07:06.08,Default,NTP,0,0,0,,無論朝哪裏都是圈外呢
+Dialogue: 0,0:07:08.01,0:07:10.08,Default,NTP,0,0,0,,你還沒有跟家裏的人聯繫吧
+Dialogue: 0,0:07:11.02,0:07:12.68,Default,NTP,0,0,0,,好好和家裏人說一下比較好哦
+Dialogue: 0,0:07:12.88,0:07:14.00,Default,NTP,0,0,0,,在事態惡化前
+Dialogue: 0,0:07:14.10,0:07:15.96,Default,NTP,0,0,0,,不 我打算發郵件告訴他們的
+Dialogue: 0,0:07:16.03,0:07:16.81,Default,NTP,0,0,0,,但這裏是圈外
+Dialogue: 0,0:07:18.66,0:07:20.55,Default,NTP,0,0,0,,那樣的話小一家比較高
+Dialogue: 0,0:07:20.63,0:07:21.76,Default,NTP,0,0,0,,可能信號比較好
+Dialogue: 0,0:07:22.22,0:07:24.35,Default,NTP,0,0,0,,啊 駒場家就在附近嗎
+Dialogue: 0,0:07:24.78,0:07:26.57,Default,NTP,0,0,0,,我家前面的十字路口右拐
+Dialogue: 0,0:07:26.58,0:07:27.59,Default,NTP,0,0,0,,第一家就是了
+Dialogue: 0,0:07:27.88,0:07:28.87,Default,NTP,0,0,0,,八軒君
+Dialogue: 0,0:07:28.90,0:07:29.99,Default,NTP,0,0,0,,手停下來了哦
+Dialogue: 0,0:07:30.16,0:07:32.25,Default,NTP,0,0,0,,這樣的話不會給你打工費了哦
+Dialogue: 0,0:07:32.81,0:07:33.54,Default,NTP,0,0,0,,是！
+Dialogue: 0,0:07:37.52,0:07:38.52,Default,NTP,0,0,0,,八軒君
+Dialogue: 0,0:07:38.74,0:07:41.11,Default,NTP,0,0,0,,在榨乳時間之前可以休息一下哦
+Dialogue: 0,0:07:41.17,0:07:43.06,Default,NTP,0,0,0,,好的 榨乳是什麼時候
+Dialogue: 0,0:07:43.42,0:07:44.29,Default,NTP,0,0,0,,5點半
+Dialogue: 0,0:07:50.09,0:07:52.35,Default,NTP,0,0,0,,那個 我到附近散步一下
+Dialogue: 0,0:07:52.53,0:07:53.72,Default,NTP,0,0,0,,哦 路上小心
+Dialogue: 0,0:07:55.02,0:07:55.78,Default,NTP,0,0,0,,會有熊出沒的
+Dialogue: 0,0:07:55.80,0:07:56.76,Default,NTP,0,0,0,,小心咯
+Dialogue: 0,0:07:57.34,0:07:57.99,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:07:58.12,0:07:59.83,Default,NTP,0,0,0,,榨乳之前我會回來的
+Dialogue: 0,0:08:06.90,0:08:09.76,Default,NTP,0,0,0,,說是第一家 究竟距離多遠啊
+Dialogue: 0,0:08:11.64,0:08:12.44,Default,NTP,0,0,0,,糟了
+Dialogue: 0,0:08:16.18,0:08:18.18,Default,NTP,0,0,0,,啊 找到了
+Dialogue: 0,0:08:24.97,0:08:29.35,Default,NTP,0,0,0,,這裏…不可能…是駒場家吧
+Dialogue: 0,0:08:35.36,0:08:36.21,Default,NTP,0,0,0,,好冷
+Dialogue: 0,0:08:36.55,0:08:37.59,Default,NTP,0,0,0,,你在做什麼
+Dialogue: 0,0:08:38.83,0:08:43.83,Default,NTP,0,0,0,,駒場 我本來想去你家的 但怎麼也找不到
+Dialogue: 0,0:08:44.03,0:08:46.84,Default,NTP,0,0,0,,說來… 你現在是在亞紀家打工吧
+Dialogue: 0,0:08:47.22,0:08:48.37,Default,NTP,0,0,0,,來我家有什麼事嗎
+Dialogue: 0,0:08:48.61,0:08:51.98,Default,NTP,0,0,0,,因為御影說去你家的話 手機可能會有信號
+Dialogue: 0,0:08:52.24,0:08:53.98,Default,NTP,0,0,0,,那個…我想發個郵件
+Dialogue: 0,0:08:54.43,0:08:55.67,Default,NTP,0,0,0,,我家也沒信號啊
+Dialogue: 0,0:08:56.32,0:08:57.81,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:08:59.05,0:08:59.70,Default,NTP,0,0,0,,我看看
+Dialogue: 0,0:09:00.45,0:09:02.12,Default,NTP,0,0,0,,哦 有信號了
+Dialogue: 0,0:09:03.90,0:09:05.66,Default,NTP,0,0,0,,{\an8\fs40}按中間這個就可以了吧
+Dialogue: 0,0:09:04.24,0:09:06.91,Default,NTP,0,0,0,,吾友 我的信號塔啊
+Dialogue: 0,0:09:07.70,0:09:09.33,Default,NTP,0,0,0,,不過 你現在打算怎麼樣
+Dialogue: 0,0:09:09.46,0:09:10.65,Default,NTP,0,0,0,,天已經完全暗下來了
+Dialogue: 0,0:09:10.96,0:09:14.83,Default,NTP,0,0,0,,啊…糟了 工作應該早就結束了吧
+Dialogue: 0,0:09:15.32,0:09:17.15,Default,NTP,0,0,0,,完了 會惹他們生氣吧
+Dialogue: 0,0:09:17.60,0:09:20.60,Default,NTP,0,0,0,,蠢貨 大家肯定擔心得不得了
+Dialogue: 0,0:09:22.01,0:09:24.35,Default,NTP,0,0,0,,總之 先來我家給他們打個電話
+Dialogue: 0,0:09:27.71,0:09:31.25,Default,NTP,0,0,0,,對不起 十分抱歉 翹掉了傍晚的工作
+Dialogue: 0,0:09:31.51,0:09:33.20,Default,NTP,0,0,0,,那種事怎樣都無所謂啦
+Dialogue: 0,0:09:34.23,0:09:36.22,Default,NTP,0,0,0,,我們都擔心死了
+Dialogue: 0,0:09:36.90,0:09:39.74,Default,NTP,0,0,0,,爺爺 八軒君現在在阿一家裏
+Dialogue: 0,0:09:40.56,0:09:41.78,Default,NTP,0,0,0,,是嘛 那太好了
+Dialogue: 0,0:09:42.32,0:09:44.57,Default,NTP,0,0,0,,等牛捨的活兒幹完了就去接你
+Dialogue: 0,0:09:45.16,0:09:47.96,Default,NTP,0,0,0,,啊…嗯 對不起 謝謝
+Dialogue: 0,0:09:51.43,0:09:52.86,Default,NTP,0,0,0,,是哥哥的朋友嗎
+Dialogue: 0,0:09:54.51,0:09:55.49,Default,NTP,0,0,0,,晚上好
+Dialogue: 0,0:09:56.46,0:09:57.29,Default,NTP,0,0,0,,晚上好
+Dialogue: 0,0:09:57.66,0:09:59.85,Default,NTP,0,0,0,,那個…你們是駒場的妹妹？
+Dialogue: 0,0:09:59.88,0:10:00.94,Default,NTP,0,0,0,,我是二野
+Dialogue: 0,0:10:01.19,0:10:02.34,Default,NTP,0,0,0,,我是三空
+Dialogue: 0,0:10:03.65,0:10:04.98,Default,NTP,0,0,0,,看不出區別啊
+Dialogue: 0,0:10:05.41,0:10:06.97,Default,NTP,0,0,0,,二野 三空
+Dialogue: 0,0:10:07.15,0:10:08.88,Default,NTP,0,0,0,,快點把牧草整理完
+Dialogue: 0,0:10:09.24,0:10:10.21,Default,NTP,0,0,0,,來——啦
+Dialogue: 0,0:10:17.66,0:10:19.71,Default,NTP,0,0,0,,我已經和御影家聯繫過了
+Dialogue: 0,0:10:20.26,0:10:21.46,Default,NTP,0,0,0,,非常感謝
+Dialogue: 0,0:10:22.09,0:10:24.58,Default,NTP,0,0,0,,哪裏 沒能招待你真是不好意思
+Dialogue: 0,0:10:24.89,0:10:25.55,Default,NTP,0,0,0,,沒關係
+Dialogue: 0,0:10:26.51,0:10:28.54,Default,NTP,0,0,0,,啊 腳上的習慣真差
+Dialogue: 0,0:10:29.04,0:10:29.72,Default,NTP,0,0,0,,真討厭
+Dialogue: 0,0:10:33.15,0:10:35.19,Default,NTP,0,0,0,,一直是伯母一個人在照料嗎
+Dialogue: 0,0:10:35.34,0:10:37.47,Default,NTP,0,0,0,,是啊 沒錢僱人啊
+Dialogue: 0,0:10:37.78,0:10:40.88,Default,NTP,0,0,0,,因為只有二三十頭 一個人也勉強管得過來
+Dialogue: 0,0:10:43.00,0:10:44.18,Default,NTP,0,0,0,,我也來幫忙吧
+Dialogue: 0,0:10:44.69,0:10:46.88,Default,NTP,0,0,0,,雖然很感謝 不過不發工資哦
+Dialogue: 0,0:10:47.16,0:10:48.74,Default,NTP,0,0,0,,這種錢 我怎麼拿得下手啊
+Dialogue: 0,0:10:49.58,0:10:52.35,Default,NTP,0,0,0,,這些 餵給成年牛吃就行了吧
+Dialogue: 0,0:10:52.40,0:10:53.59,Default,NTP,0,0,0,,你來幫我們嗎
+Dialogue: 0,0:10:53.84,0:10:54.78,Default,NTP,0,0,0,,幫大忙了
+Dialogue: 0,0:10:55.51,0:10:58.01,Default,NTP,0,0,0,,你們兩個一直在幹這些活兒嗎
+Dialogue: 0,0:10:58.37,0:11:00.00,Default,NTP,0,0,0,,你們有聽說過勞動基準法嗎
+Dialogue: 0,0:11:00.15,0:11:03.31,Default,NTP,0,0,0,,還有 聯合國也有兒童權利條約
+Dialogue: 0,0:11:03.31,0:11:04.14,Default,NTP,0,0,0,,不知道耶
+Dialogue: 0,0:11:04.28,0:11:05.77,Default,NTP,0,0,0,,大哥哥懂好多哦
+Dialogue: 0,0:11:05.82,0:11:07.67,Default,NTP,0,0,0,,別跟她們扯些有的沒的
+Dialogue: 0,0:11:12.32,0:11:14.84,Default,NTP,0,0,0,,這裏的牛 都很親近人嘛
+Dialogue: 0,0:11:15.07,0:11:17.86,Default,NTP,0,0,0,,因為都是些上了年紀的牛 早就習慣和人在一起了
+Dialogue: 0,0:11:18.33,0:11:19.23,Default,NTP,0,0,0,,上了年紀？
+Dialogue: 0,0:11:19.54,0:11:21.20,Default,NTP,0,0,0,,我媽很疼它們
+Dialogue: 0,0:11:21.52,0:11:24.12,Default,NTP,0,0,0,,即使稍微遇到點小問題 也不會隨便處理掉的
+Dialogue: 0,0:11:24.60,0:11:28.36,Default,NTP,0,0,0,,我還以為對經濟動物 遇到這種問題會果斷地處理掉呢
+Dialogue: 0,0:11:28.54,0:11:31.40,Default,NTP,0,0,0,,處理的原則 每家都不一樣啊
+Dialogue: 0,0:11:31.64,0:11:32.79,Default,NTP,0,0,0,,多摩子家你知道嗎
+Dialogue: 0,0:11:33.11,0:11:33.75,Default,NTP,0,0,0,,不太清楚
+Dialogue: 0,0:11:34.04,0:11:36.72,Default,NTP,0,0,0,,是個巨型農場 管理相當系統化
+Dialogue: 0,0:11:37.13,0:11:40.09,Default,NTP,0,0,0,,像牛奶生產工廠一樣壯觀
+Dialogue: 0,0:11:40.34,0:11:41.81,Default,NTP,0,0,0,,去那邊實習一次看看吧
+Dialogue: 0,0:11:43.42,0:11:45.15,Default,NTP,0,0,0,,會不會和雞捨一樣啊
+Dialogue: 0,0:11:45.27,0:11:48.09,Default,NTP,0,0,0,,八軒君 謝謝你來幫忙
+Dialogue: 0,0:11:48.43,0:11:49.63,Default,NTP,0,0,0,,吃個飯吧
+Dialogue: 0,0:11:49.89,0:11:51.61,Default,NTP,0,0,0,,沒關係沒關係 不用這麼客氣
+Dialogue: 0,0:11:51.96,0:11:54.14,Default,NTP,0,0,0,,你們兩個 也一起來幫忙做飯吧
+Dialogue: 0,0:11:54.30,0:11:55.32,Default,NTP,0,0,0,,好——
+Dialogue: 0,0:11:57.73,0:11:59.16,Default,NTP,0,0,0,,現在才開始做飯？
+Dialogue: 0,0:12:03.11,0:12:06.16,Default,NTP,0,0,0,,那啥…我覺得
+Dialogue: 0,0:12:06.74,0:12:09.27,Default,NTP,0,0,0,,這種經營方式是不是有些奇怪
+Dialogue: 0,0:12:09.96,0:12:12.41,Default,NTP,0,0,0,,365天每天都勞累身心
+Dialogue: 0,0:12:13.16,0:12:16.81,Default,NTP,0,0,0,,再怎麼工作也掙不到什麼錢 卻還是當成一件很理所當然的事去做…
+Dialogue: 0,0:12:16.89,0:12:17.65,Default,NTP,0,0,0,,八軒
+Dialogue: 0,0:12:18.03,0:12:19.37,Default,NTP,0,0,0,,對不起 我說過頭了
+Dialogue: 0,0:12:20.26,0:12:21.59,Default,NTP,0,0,0,,稍微過來一下
+Dialogue: 0,0:12:23.21,0:12:24.01,Default,NTP,0,0,0,,這是什麼
+Dialogue: 0,0:12:24.15,0:12:24.87,Default,NTP,0,0,0,,棒球的投球練習場
+Dialogue: 0,0:12:25.12,0:12:27.02,Default,NTP,0,0,0,,是真的字面意義上的「圍牛場」
+Dialogue: 0,0:12:25.12,0:12:27.02,Default,NTP,0,0,0,,{\an8\fs40}棒球投球練習場（bullpen）因形似牛欄（bullpen）而得名
+Dialogue: 0,0:12:27.50,0:12:29.53,Default,NTP,0,0,0,,我媽有時會在這裏放養幼牛
+Dialogue: 0,0:12:30.79,0:12:32.22,Default,NTP,0,0,0,,為什麼會有這樣的地方
+Dialogue: 0,0:12:32.59,0:12:33.98,Default,NTP,0,0,0,,我爸給做的
+Dialogue: 0,0:12:35.51,0:12:37.56,Default,NTP,0,0,0,,八軒 你站到擊球區去
+Dialogue: 0,0:12:39.82,0:12:40.53,Default,NTP,0,0,0,,這裏嗎
+Dialogue: 0,0:12:40.71,0:12:41.31,Default,NTP,0,0,0,,對
+Dialogue: 0,0:12:41.44,0:12:42.37,Default,NTP,0,0,0,,拿好球棒
+Dialogue: 0,0:12:43.80,0:12:46.74,Default,NTP,0,0,0,,說來 球棒的握法…
+Dialogue: 0,0:12:50.24,0:12:53.15,Default,NTP,0,0,0,,哦 果然要有擊球員才有練習的感覺
+Dialogue: 0,0:12:53.64,0:12:54.96,Default,NTP,0,0,0,,你也順便試試打上一球吧
+Dialogue: 0,0:12:57.05,0:12:59.15,Default,NTP,0,0,0,,不行不行不行 根本打不到啊
+Dialogue: 0,0:12:59.22,0:13:00.78,Default,NTP,0,0,0,,現在還是熱身階段
+Dialogue: 0,0:13:00.85,0:13:02.22,Default,NTP,0,0,0,,沒事的 揮下球棒試試
+Dialogue: 0,0:13:05.34,0:13:06.09,Default,NTP,0,0,0,,很好很好
+Dialogue: 0,0:13:06.64,0:13:10.98,Default,NTP,0,0,0,,我說啊…工作一整天之後還來練習是鬧哪樣啊
+Dialogue: 0,0:13:11.07,0:13:13.65,Default,NTP,0,0,0,,不這樣訓練的話 進不了甲子園啊
+Dialogue: 0,0:13:13.84,0:13:16.33,Default,NTP,0,0,0,,這麼說來 今年沒能去啊
+Dialogue: 0,0:13:16.93,0:13:20.08,Default,NTP,0,0,0,,去甲子園 順利的話晉級職業選手
+Dialogue: 0,0:13:20.17,0:13:21.95,Default,NTP,0,0,0,,你不是要繼承家業嗎
+Dialogue: 0,0:13:21.99,0:13:22.69,Default,NTP,0,0,0,,會繼承的
+Dialogue: 0,0:13:23.35,0:13:25.26,Default,NTP,0,0,0,,用簽約金翻新家裏的牛捨
+Dialogue: 0,0:13:25.40,0:13:26.71,Default,NTP,0,0,0,,讓我媽輕鬆一點
+Dialogue: 0,0:13:27.10,0:13:30.49,Default,NTP,0,0,0,,引退之後我再繼承 把它變成一個更大的農場
+Dialogue: 0,0:13:31.09,0:13:34.30,Default,NTP,0,0,0,,這個傢伙也好那個傢伙也好 都帶著夢想閃閃發光
+Dialogue: 0,0:13:34.73,0:13:35.71,Default,NTP,0,0,0,,超不爽
+Dialogue: 0,0:13:35.98,0:13:37.82,Default,NTP,0,0,0,,啊？ 你倒是生什麼氣啊
+Dialogue: 0,0:13:38.06,0:13:42.41,Default,NTP,0,0,0,,有著棒球和農場兩個夢想 太貪心啦你這混蛋
+Dialogue: 0,0:13:42.51,0:13:44.28,Default,NTP,0,0,0,,貪心又怎麼了
+Dialogue: 0,0:13:45.16,0:13:47.99,Default,NTP,0,0,0,,我家的農場由我來改變！
+Dialogue: 0,0:13:57.23,0:13:59.20,Default,NTP,0,0,0,,打到了 打中啦
+Dialogue: 0,0:13:59.83,0:14:02.95,Default,NTP,0,0,0,,可惡 是你讓我認真起來的啊
+Dialogue: 0,0:14:13.58,0:14:14.46,Default,NTP,0,0,0,,晚上好
+Dialogue: 0,0:14:15.74,0:14:16.75,Default,NTP,0,0,0,,小秋姐姐來了
+Dialogue: 0,0:14:16.94,0:14:17.64,Default,NTP,0,0,0,,好啊
+Dialogue: 0,0:14:18.31,0:14:19.00,Default,NTP,0,0,0,,咦
+Dialogue: 0,0:14:19.05,0:14:20.85,Default,NTP,0,0,0,,讓他陪我練習了一會兒
+Dialogue: 0,0:14:21.42,0:14:24.23,Default,NTP,0,0,0,,他怎麼可能跟的上你的練習啊
+Dialogue: 0,0:14:24.62,0:14:26.73,Default,NTP,0,0,0,,我的腰啊…手腕啊…
+Dialogue: 0,0:14:27.28,0:14:28.52,Default,NTP,0,0,0,,你好 駒場太太
+Dialogue: 0,0:14:28.75,0:14:29.75,Default,NTP,0,0,0,,歡迎
+Dialogue: 0,0:14:30.01,0:14:32.07,Default,NTP,0,0,0,,我家的打工仔給你們添麻煩了
+Dialogue: 0,0:14:32.31,0:14:35.32,Default,NTP,0,0,0,,沒事 他過來幫了我大忙
+Dialogue: 0,0:14:35.56,0:14:38.10,Default,NTP,0,0,0,,真的十分抱歉
+Dialogue: 0,0:14:38.91,0:14:41.29,Default,NTP,0,0,0,,哦 八軒君 肚子餓了嗎
+Dialogue: 0,0:14:41.89,0:14:43.73,Default,NTP,0,0,0,,正好有土特產哦
+Dialogue: 0,0:14:44.05,0:14:46.09,Default,NTP,0,0,0,,土特產？ 是什麼好吃的？
+Dialogue: 0,0:14:47.31,0:14:48.01,Default,NTP,0,0,0,,鹿
+Dialogue: 0,0:14:50.09,0:14:51.84,Default,NTP,0,0,0,,來的路上不小心撞到了
+Dialogue: 0,0:14:52.02,0:14:53.91,Default,NTP,0,0,0,,一半給駒場家好了
+Dialogue: 0,0:14:53.97,0:14:55.79,Default,NTP,0,0,0,,哇——有鹿肉
+Dialogue: 0,0:14:56.41,0:14:58.18,Default,NTP,0,0,0,,怎麼了 不喜歡吃鹿肉嗎
+Dialogue: 0,0:14:58.24,0:15:01.38,Default,NTP,0,0,0,,不是 和口味喜不喜歡沒有關係
+Dialogue: 0,0:15:01.67,0:15:03.52,Default,NTP,0,0,0,,是情感上的那種…
+Dialogue: 0,0:15:05.81,0:15:07.77,Default,NTP,0,0,0,,好勒 趕緊解決這個吧
+Dialogue: 0,0:15:08.65,0:15:09.76,Default,NTP,0,0,0,,八軒君
+Dialogue: 0,0:15:10.17,0:15:11.81,Default,NTP,0,0,0,,實體解剖…想試試看嗎
+Dialogue: 0,0:15:13.55,0:15:14.20,Default,NTP,0,0,0,,什麼？
+Dialogue: 0,0:15:15.20,0:15:16.78,Default,NTP,0,0,0,,我是說把它剖成肉塊
+Dialogue: 0,0:15:17.40,0:15:18.70,Default,NTP,0,0,0,,我來做嗎
+Dialogue: 0,0:15:18.92,0:15:20.17,Default,NTP,0,0,0,,嗯 試試看吧
+Dialogue: 0,0:15:20.57,0:15:22.09,Default,NTP,0,0,0,,不不不 肯定不行啦
+Dialogue: 0,0:15:22.22,0:15:25.20,Default,NTP,0,0,0,,而且我從來沒學過怎麼解剖鹿啊
+Dialogue: 0,0:15:25.38,0:15:26.59,Default,NTP,0,0,0,,我說八軒同學啊
+Dialogue: 0,0:15:27.48,0:15:30.76,Default,NTP,0,0,0,,你的人生難道只有在學校學習嗎
+Dialogue: 0,0:15:33.20,0:15:35.83,Default,NTP,0,0,0,,撞到之後馬上放掉血了 沒事的
+Dialogue: 0,0:15:36.04,0:15:38.07,Default,NTP,0,0,0,,剖開肚子也不會出很多血
+Dialogue: 0,0:15:38.54,0:15:39.93,Default,NTP,0,0,0,,該…該怎麼做啊
+Dialogue: 0,0:15:40.27,0:15:42.70,Default,NTP,0,0,0,,先像這樣把刀插進肚子裏
+Dialogue: 0,0:15:42.98,0:15:45.90,Default,NTP,0,0,0,,嘶一下切開 噗嗤一下拔出來 再啪一下…
+Dialogue: 0,0:15:46.09,0:15:47.37,Default,NTP,0,0,0,,完全聽不懂
+Dialogue: 0,0:15:49.39,0:15:53.49,Default,NTP,0,0,0,,對了 跟「豬肉蓋飯」相比這簡直就是毫無感情可言的陌生人
+Dialogue: 0,0:15:54.13,0:15:55.79,Default,NTP,0,0,0,,我能行的 我能…
+Dialogue: 0,0:15:58.72,0:16:00.76,Default,NTP,0,0,0,,啊 和鹿對上眼了
+Dialogue: 0,0:16:01.42,0:16:02.54,Default,NTP,0,0,0,,真沒辦法
+Dialogue: 0,0:16:03.24,0:16:04.95,Default,NTP,0,0,0,,這樣就沒問題了
+Dialogue: 0,0:16:05.62,0:16:08.49,Default,NTP,0,0,0,,這樣不跟綁架人質一樣嗎
+Dialogue: 0,0:16:08.75,0:16:09.46,Default,NTP,0,0,0,,也是啊
+Dialogue: 0,0:16:10.87,0:16:13.32,Default,NTP,0,0,0,,駒場你以前幹過這種事嗎
+Dialogue: 0,0:16:13.32,0:16:15.44,Default,NTP,0,0,0,,恩 因為這附近鹿很多嘛
+Dialogue: 0,0:16:15.64,0:16:16.99,Default,NTP,0,0,0,,看著看著就學會了
+Dialogue: 0,0:16:17.30,0:16:18.24,Default,NTP,0,0,0,,你不覺得反感嗎
+Dialogue: 0,0:16:18.91,0:16:19.86,Default,NTP,0,0,0,,與其說是反感
+Dialogue: 0,0:16:20.30,0:16:22.57,Default,NTP,0,0,0,,當變成只有這東西可以吃的狀況時
+Dialogue: 0,0:16:22.84,0:16:24.95,Default,NTP,0,0,0,,這麼做就能讓大家吃到好吃的東西哦
+Dialogue: 0,0:16:25.44,0:16:27.87,Default,NTP,0,0,0,,說什麼「當變成只有這東西可以吃的狀況時」啥的
+Dialogue: 0,0:16:27.95,0:16:29.53,Default,NTP,0,0,0,,這也不是沒可能的吧
+Dialogue: 0,0:16:29.94,0:16:31.10,Default,NTP,0,0,0,,不想幹的話我也不勉強你了
+Dialogue: 0,0:16:31.28,0:16:32.28,Default,NTP,0,0,0,,把菜刀給我吧
+Dialogue: 0,0:16:32.57,0:16:36.03,Default,NTP,0,0,0,,一郎 這是八軒君的工作
+Dialogue: 0,0:16:36.37,0:16:37.06,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:16:38.60,0:16:39.64,Default,NTP,0,0,0,,我的工作
+Dialogue: 0,0:16:39.88,0:16:42.11,Default,NTP,0,0,0,,像那樣我可不會給你打工費的哦
+Dialogue: 0,0:16:42.57,0:16:43.45,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:16:43.99,0:16:45.42,Default,NTP,0,0,0,,我可是來打工的啊
+Dialogue: 0,0:16:45.89,0:16:47.48,Default,NTP,0,0,0,,可是我今天一天都幹了什麼呢
+Dialogue: 0,0:16:48.04,0:16:49.86,Default,NTP,0,0,0,,我到底為了什麼才來這裏的
+Dialogue: 0,0:16:51.23,0:16:53.76,Default,NTP,0,0,0,,因為輸了才來到這裏嗎 真是無聊
+Dialogue: 0,0:16:54.39,0:16:56.57,Default,NTP,0,0,0,,我要從落荒而逃到的地方 再次落荒而逃嗎！
+Dialogue: 0,0:16:57.49,0:16:58.25,Default,NTP,0,0,0,,絕對不要
+Dialogue: 0,0:17:02.02,0:17:03.45,Default,NTP,0,0,0,,還是溫的
+Dialogue: 0,0:17:07.07,0:17:09.25,Default,NTP,0,0,0,,要是在這裏逃開 讓別人來做的話
+Dialogue: 0,0:17:09.76,0:17:11.62,Default,NTP,0,0,0,,我怎麼還有資格去吃「豬肉蓋飯」呢
+Dialogue: 0,0:17:15.34,0:17:17.87,Default,NTP,0,0,0,,我們也是靠馬吃飯的
+Dialogue: 0,0:17:37.75,0:17:38.54,Default,NTP,0,0,0,,好！
+Dialogue: 0,0:17:39.35,0:17:40.26,Default,NTP,0,0,0,,我來做
+Dialogue: 0,0:17:42.34,0:17:45.42,Default,NTP,0,0,0,,那個 能告訴我怎麼宰掉它嗎
+Dialogue: 0,0:17:45.72,0:17:46.75,Default,NTP,0,0,0,,哦 好的
+Dialogue: 0,0:17:47.43,0:17:48.73,Default,NTP,0,0,0,,首先把肚子割開
+Dialogue: 0,0:17:49.19,0:17:51.00,Default,NTP,0,0,0,,記得不要傷到內臟哦
+Dialogue: 0,0:17:51.68,0:17:52.54,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:17:56.59,0:17:58.83,Default,NTP,0,0,0,,好討厭的手感
+Dialogue: 0,0:17:59.05,0:18:00.01,Default,NTP,0,0,0,,不要東張西望
+Dialogue: 0,0:18:00.08,0:18:00.83,Default,NTP,0,0,0,,會切到手哦
+Dialogue: 0,0:18:01.48,0:18:03.95,Default,NTP,0,0,0,,把內臟摘除之後放到這裏的桶中
+Dialogue: 0,0:18:04.74,0:18:05.69,Default,NTP,0,0,0,,下面是毛皮
+Dialogue: 0,0:18:06.08,0:18:08.47,Default,NTP,0,0,0,,以前的話皮都是可以換錢的呢
+Dialogue: 0,0:18:09.34,0:18:11.32,Default,NTP,0,0,0,,說起來鹿的腦子好像是難得的美味哦
+Dialogue: 0,0:18:12.49,0:18:13.60,Default,NTP,0,0,0,,要把頭割下來了哦
+Dialogue: 0,0:18:13.95,0:18:14.67,Default,NTP,0,0,0,,對對
+Dialogue: 0,0:18:14.79,0:18:16.71,Default,NTP,0,0,0,,在這個骨頭附近 把刀插進去
+Dialogue: 0,0:18:16.92,0:18:18.55,Default,NTP,0,0,0,,脖子是很重的 小心一點哦
+Dialogue: 0,0:18:18.91,0:18:21.03,Default,NTP,0,0,0,,看吧 好勒
+Dialogue: 0,0:18:25.57,0:18:26.82,Default,NTP,0,0,0,,好了 大概就是這樣了
+Dialogue: 0,0:18:27.14,0:18:29.08,Default,NTP,0,0,0,,有一半是給御影家的哦
+Dialogue: 0,0:18:29.15,0:18:30.22,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:18:33.98,0:18:34.86,Default,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:18:35.90,0:18:36.81,Default,NTP,0,0,0,,你辛苦了
+Dialogue: 0,0:18:37.57,0:18:38.65,Default,NTP,0,0,0,,去洗洗手如何
+Dialogue: 0,0:18:47.28,0:18:48.62,Default,NTP,0,0,0,,爺爺你很厲害呢
+Dialogue: 0,0:18:49.18,0:18:49.99,Default,NTP,0,0,0,,你指什麼？
+Dialogue: 0,0:18:50.25,0:18:53.61,Default,NTP,0,0,0,,八軒君他給學校的食用豬起了名字
+Dialogue: 0,0:18:53.83,0:18:55.67,Default,NTP,0,0,0,,為此他一直心煩意亂
+Dialogue: 0,0:18:56.21,0:18:57.62,Default,NTP,0,0,0,,今天多虧了爺爺的幫忙
+Dialogue: 0,0:18:57.81,0:18:59.25,Default,NTP,0,0,0,,他好像有點看開了
+Dialogue: 0,0:18:59.55,0:19:00.93,Default,NTP,0,0,0,,啊 你在說啥啊
+Dialogue: 0,0:19:01.38,0:19:04.88,Default,NTP,0,0,0,,我只是讓他把今天偷得懶全補回來而已
+Dialogue: 0,0:19:05.16,0:19:08.03,Default,NTP,0,0,0,,因為 宰鹿可是個體力活嘛
+Dialogue: 0,0:19:09.87,0:19:12.17,Default,NTP,0,0,0,,御影來吃飯了吧
+Dialogue: 0,0:19:14.52,0:19:16.03,Default,NTP,0,0,0,,是烤肉唉
+Dialogue: 0,0:19:16.36,0:19:18.23,Default,NTP,0,0,0,,啊 肚子餓了
+Dialogue: 0,0:19:18.63,0:19:20.35,Default,NTP,0,0,0,,我們開動了
+Dialogue: 0,0:19:23.75,0:19:25.35,Default,NTP,0,0,0,,我是想問你 當「豬肉蓋飯」被做成肉製品的時候
+Dialogue: 0,0:19:25.61,0:19:26.99,Default,NTP,0,0,0,,你還會不會吃掉它呢
+Dialogue: 0,0:19:31.00,0:19:32.00,Default,NTP,0,0,0,,我開動了
+Dialogue: 0,0:19:51.76,0:19:53.10,Default,NTP,0,0,0,,我明明洗了那麼久
+Dialogue: 0,0:19:59.93,0:20:01.78,Default,NTP,0,0,0,,我直到初中為止
+Dialogue: 0,0:20:01.83,0:20:04.93,Default,NTP,0,0,0,,一直處於不好好學習 在家裏就沒有立足之地的狀態
+Dialogue: 0,0:20:05.73,0:20:09.16,Default,NTP,0,0,0,,今天也是完全都沒有幫上御影家的忙
+Dialogue: 0,0:20:09.36,0:20:13.36,Default,NTP,0,0,0,,但是你們 比起工作 為了我平安無事而高興
+Dialogue: 0,0:20:13.66,0:20:15.12,Default,NTP,0,0,0,,這是讓我大吃了一驚
+Dialogue: 0,0:20:15.39,0:20:17.08,Default,NTP,0,0,0,,那不是理所當然的嗎
+Dialogue: 0,0:20:17.38,0:20:19.92,Default,NTP,0,0,0,,這裏附近的熊很多 山林也很濃密
+Dialogue: 0,0:20:20.30,0:20:23.19,Default,NTP,0,0,0,,恩 駒場他也是因為這個對我發火了
+Dialogue: 0,0:20:25.30,0:20:28.09,Default,NTP,0,0,0,,阿一的父親就是因為過勞而死的
+Dialogue: 0,0:20:28.50,0:20:30.98,Default,NTP,0,0,0,,現在阿一的媽媽也有點勞動過度的樣子
+Dialogue: 0,0:20:31.65,0:20:33.51,Default,NTP,0,0,0,,他也一定有自己的想法吧
+Dialogue: 0,0:20:33.94,0:20:36.73,Default,NTP,0,0,0,,是嗎 越發覺得自己廢柴了
+Dialogue: 0,0:20:36.88,0:20:38.30,Default,NTP,0,0,0,,淨幹一些莽撞的事
+Dialogue: 0,0:20:38.65,0:20:43.89,Default,NTP,0,0,0,,我也有錯啦 擅自臆斷阿一家的話手機就可以用了
+Dialogue: 0,0:20:44.78,0:20:46.39,Default,NTP,0,0,0,,你給家裏人發電郵了嗎
+Dialogue: 0,0:20:46.61,0:20:48.54,Default,NTP,0,0,0,,嗯 托你的福
+Dialogue: 0,0:20:48.58,0:20:49.42,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:20:49.85,0:20:50.58,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:20:53.24,0:20:54.54,Default,NTP,0,0,0,,好美！
+Dialogue: 0,0:20:56.89,0:20:57.91,Default,NTP,0,0,0,,很漂亮吧
+Dialogue: 0,0:20:58.29,0:21:00.07,Default,NTP,0,0,0,,一年到頭都是這樣的哦
+Dialogue: 0,0:21:02.77,0:21:05.01,Default,NTP,0,0,0,,哎呀 這個氣氛貌似不錯嘛
+Dialogue: 0,0:21:12.97,0:21:19.77,Default,NTP,0,0,0,,繁星滿天 車斗里有我和御影以及…熊屍一頭
+Dialogue: 0,0:21:20.74,0:21:22.09,Default,NTP,0,0,0,,今天真是大豐收啊
+Dialogue: 0,0:21:23.74,0:21:27.31,Default,NTP,0,0,0,,也是呢 呵呵呵 　(ToT)
+Dialogue: 0,0:21:27.82,0:21:32.49,ED-JP,NTP,0,0,0,,たまには手紙を書いてみようよ
+Dialogue: 0,0:21:27.82,0:21:32.49,ED-CN,NTP,0,0,0,,偶爾也寫封信吧
+Dialogue: 0,0:21:32.74,0:21:37.58,ED-JP,NTP,0,0,0,,どっかポストカードでもあったっけ？
+Dialogue: 0,0:21:32.74,0:21:37.58,ED-CN,NTP,0,0,0,,話說附近哪有明信片嗎
+Dialogue: 0,0:21:37.62,0:21:41.96,ED-JP,NTP,0,0,0,,懐かしい顔に向けて
+Dialogue: 0,0:21:37.62,0:21:41.96,ED-CN,NTP,0,0,0,,面向充滿懷念的臉龐
+Dialogue: 0,0:21:42.00,0:21:46.25,ED-JP,NTP,0,0,0,,ほんの数行ノスタルジ－を
+Dialogue: 0,0:21:42.00,0:21:46.25,ED-CN,NTP,0,0,0,,寥寥幾行道盡相思 OH
+Dialogue: 0,0:21:47.71,0:21:49.55,ED-JP,NTP,0,0,0,,CHU CHULU CHU
+Dialogue: 0,0:21:47.71,0:21:49.55,ED-CN,NTP,0,0,0,,CHU CHULU CHU
+Dialogue: 0,0:21:50.05,0:21:51.88,ED-JP,NTP,0,0,0,,CHU CHU CHU CHULU CHU
+Dialogue: 0,0:21:50.05,0:21:51.88,ED-CN,NTP,0,0,0,,CHU CHU CHU CHULU CHU
+Dialogue: 0,0:21:52.18,0:21:56.18,ED-JP,NTP,0,0,0,,調子はどうですか
+Dialogue: 0,0:21:52.18,0:21:56.18,ED-CN,NTP,0,0,0,,最近好嗎
+Dialogue: 0,0:21:57.39,0:21:59.27,ED-JP,NTP,0,0,0,,CHU CHULU CHU
+Dialogue: 0,0:21:57.39,0:21:59.27,ED-CN,NTP,0,0,0,,CHU CHULU CHU
+Dialogue: 0,0:21:59.85,0:22:01.64,ED-JP,NTP,0,0,0,,CHU CHU CHU CHULU CHU
+Dialogue: 0,0:21:59.85,0:22:01.64,ED-CN,NTP,0,0,0,,CHU CHU CHU CHULU CHU
+Dialogue: 0,0:22:01.94,0:22:07.19,ED-JP,NTP,0,0,0,,忙しくしていますか　OH
+Dialogue: 0,0:22:01.94,0:22:07.19,ED-CN,NTP,0,0,0,,是不是一直很忙呢 OH
+Dialogue: 0,0:22:07.40,0:22:11.57,ED-JP,NTP,0,0,0,,無我夢中で探し回ってた
+Dialogue: 0,0:22:07.40,0:22:11.57,ED-CN,NTP,0,0,0,,忘我的四處尋找
+Dialogue: 0,0:22:11.57,0:22:16.78,ED-JP,NTP,0,0,0,,あの夢の具合はどうなんだい？
+Dialogue: 0,0:22:11.57,0:22:16.78,ED-CN,NTP,0,0,0,,那個夢究竟是怎樣的呢
+Dialogue: 0,0:22:17.28,0:22:21.37,ED-JP,NTP,0,0,0,,気分転換ぐらいの思いで
+Dialogue: 0,0:22:17.28,0:22:21.37,ED-CN,NTP,0,0,0,,要不要稍稍換個心情
+Dialogue: 0,0:22:21.83,0:22:25.75,ED-JP,NTP,0,0,0,,一緒に歌わないかい？
+Dialogue: 0,0:22:21.83,0:22:25.75,ED-CN,NTP,0,0,0,,跟我一起唱一支歌呢？
+Dialogue: 0,0:22:26.13,0:22:31.09,ED-JP,NTP,0,0,0,,そして無我夢中で探し回ってた
+Dialogue: 0,0:22:26.13,0:22:31.09,ED-CN,NTP,0,0,0,,當再次忘我的四處尋找
+Dialogue: 0,0:22:31.17,0:22:36.47,ED-JP,NTP,0,0,0,,あの夢の続きを語り合おう
+Dialogue: 0,0:22:31.17,0:22:36.47,ED-CN,NTP,0,0,0,,讓我們一起聊聊那個夢的延續吧
+Dialogue: 0,0:22:36.68,0:22:40.77,ED-JP,NTP,0,0,0,,明日を頑張るぜ OH
+Dialogue: 0,0:22:36.68,0:22:40.77,ED-CN,NTP,0,0,0,,為了明天一起加油吧 OH
+Dialogue: 0,0:22:40.93,0:22:44.85,ED-JP,NTP,0,0,0,,今そこにある未来へ
+Dialogue: 0,0:22:40.93,0:22:44.85,ED-CN,NTP,0,0,0,,朝著前方的未來
+Dialogue: 0,0:22:44.94,0:22:47.90,ED-JP,NTP,0,0,0,,駆け出して　さぁ　行こう
+Dialogue: 0,0:22:44.94,0:22:47.90,ED-CN,NTP,0,0,0,,飛奔出去 一起出發吧
+Dialogue: 0,0:22:46.86,0:22:50.86,Default,NTP,0,0,0,,{\pos(298,244)\c&HC5C7BB&\3c&H6A240D&\fad(400,0)}本作品為架空故事。
+Dialogue: 0,0:22:46.86,0:22:50.86,Default,NTP,0,0,0,,{\fad(400,0)\an1\fs30\pos(112,640)\c&HC5C7BB&\3c&HAE4705&}劇中登場人物名和團體名均為虛構。\N乳畜業，作為一個與食品和生命息息相關的主題，\N我們盡量做到依據事實情況進行展現。\N拜訪作為參照的場地與設施可能會引起動物的疾病，十分危險。\N還請各位將本作單純看作架空的故事來欣賞。
+

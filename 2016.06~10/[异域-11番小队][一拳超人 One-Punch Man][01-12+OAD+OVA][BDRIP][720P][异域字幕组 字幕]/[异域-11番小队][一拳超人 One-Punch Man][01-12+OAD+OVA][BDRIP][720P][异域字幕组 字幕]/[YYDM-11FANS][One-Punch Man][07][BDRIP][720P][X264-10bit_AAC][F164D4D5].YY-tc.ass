@@ -1,0 +1,391 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,46,&H00FFFFFF,&H000000FF,&H0062404F,&H00100D26,0,0,0,0,100,100,0,0,1,1,0,2,10,10,6,1
+Style: OPJ,A-OTF TakaHand Std B,40,&H00000000,&H002B268D,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,10,5,1
+Style: OPC,方正超粗黑_GBK,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,5,1
+Style: EDJ,TT-JTCナミキ中太楷書,38,&H00000000,&H00FAC9F4,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,10,5,1
+Style: EDC,方正少儿_GBK,40,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,5,1
+Style: Warning,张海山草泥马体,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,5,1
+Style: Signs,方正准圆_GBK,40,&H00FFFFFF,&H000000FF,&H0062404F,&H00100D26,0,0,0,0,100,100,0,0,1,1,0,8,10,10,6,1
+Style: Signs_Frame,方正准圆_GBK,44,&H00FFFFFF,&H000000FF,&H0062404F,&H00100D26,0,0,0,0,100,100,0,0,1,1,0,8,10,10,6,1
+Style: Title,方正毡笔黑简体,44,&H00ED3182,&H000000FF,&H00FFFFFF,&H00100D26,0,0,0,0,100,100,0,0,1,1,0,8,10,10,6,1
+Style: INJ,A-OTF TakaHand Std B,35,&H00000000,&H00FAC9F4,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,10,10,5,1
+Style: INC,方正少儿_GBK,35,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:40.15,Warning,,0,0,0,Banner;10;0;60,{\fad(500,500)\blur5}本片字幕由異域字幕組(http://www.yyman.com.cn)製作,僅供試看之用,請在24小時內刪除,如果喜歡本作品,請購買並支持正版!如因私自散佈造成的法律問題,本字幕組恕不負責。\h\h\h\h\h\h\h\h\h\h\h翻譯：{\c&HA0DEA0&}licia {\c&H98B0E0&}四毛求氣場 {\c&H82195C&\3c&HC1C1C7&}skyline {\c&HFFFFFF&}{\3c&H000000&}校對：{\c&H6BCAE8&}印第安馬 {\c&HFFFFFF&}時間&後期&壓制：{\c&HE7AFB1&}A4
+Dialogue: 0,0:00:14.45,0:00:16.25,Default,NTP,0,0,0,,這…這是…
+Dialogue: 0,0:00:17.96,0:00:19.83,Default,NTP,0,0,0,,接下來開始對接作業
+Dialogue: 0,0:00:21.04,0:00:21.79,Default,NTP,0,0,0,,瞭解
+Dialogue: 0,0:00:33.93,0:00:35.81,Default,NTP,0,0,0,,將運行的區域從從6變更至9
+Dialogue: 0,0:00:43.69,0:00:46.32,Signs_Frame,NTP,0,0,0,,{\fnFZDaHei-B02\pos(605,524)}A市英雄協會本部
+Dialogue: 0,0:00:44.32,0:00:46.03,Default,NTP,0,0,0,,軌道突然改變了
+Dialogue: 0,0:00:47.53,0:00:48.57,Default,NTP,0,0,0,,我明白了
+Dialogue: 0,0:00:48.78,0:00:51.78,Default,NTP,0,0,0,,那麼 我們這邊也會盡力考慮對策
+Dialogue: 0,0:00:53.62,0:00:54.99,Default,NTP,0,0,0,,現在過去就行了嗎
+Dialogue: 0,0:00:55.91,0:00:56.62,Default,NTP,0,0,0,,我明白了
+Dialogue: 0,0:00:58.25,0:01:01.75,Default,NTP,0,0,0,,老師 不知為何英雄協會叫我過去
+Dialogue: 0,0:01:02.04,0:01:03.21,Default,NTP,0,0,0,,我去去就回
+Dialogue: 0,0:01:03.88,0:01:06.21,Default,NTP,0,0,0,,哦 估計是被炒了吧
+Dialogue: 0,0:01:14.39,0:01:18.89,Title,NTP,0,0,0,,{\fs90\c&HFFFFFF&\pos(642,565)}最厲害的弟子
+Dialogue: 0,0:02:48.94,0:02:51.44,Signs_Frame,NTP,0,0,0,,{\fnFZDaHei-B02\pos(605,524)}Z市英雄協會支部
+Dialogue: 0,0:02:54.99,0:02:56.57,Default,NTP,0,0,0,,你就是傑諾斯君嗎
+Dialogue: 0,0:02:57.87,0:03:01.12,Default,NTP,0,0,0,,老夫名為邦古 請多指教
+Dialogue: 0,0:03:02.12,0:03:05.42,Default,NTP,0,0,0,,邦古 是那位S級第3位的「銀色獠牙」吧
+Dialogue: 0,0:03:06.17,0:03:07.83,Default,NTP,0,0,0,,這是真正有實力的人
+Dialogue: 0,0:03:09.00,0:03:10.71,Default,NTP,0,0,0,,我是被協會叫來的
+Dialogue: 0,0:03:11.46,0:03:16.59,Default,NTP,0,0,0,,大家全都去了本部 這個支部空無一人
+Dialogue: 0,0:03:17.01,0:03:22.31,Default,NTP,0,0,0,,被召集的S級英雄 也就來了老夫和你兩個
+Dialogue: 0,0:03:22.56,0:03:23.56,Default,NTP,0,0,0,,怎麼回事
+Dialogue: 0,0:03:24.39,0:03:28.10,Default,NTP,0,0,0,,可能是地方偏遠 或者是忙事纏身吧
+Dialogue: 0,0:03:28.86,0:03:32.03,Default,NTP,0,0,0,,應該也有嫌麻煩的無情的傢伙
+Dialogue: 0,0:03:32.65,0:03:38.24,Default,NTP,0,0,0,,因為被叫過來肯定是要處理刁難事兒的
+Dialogue: 0,0:03:39.32,0:03:41.58,Default,NTP,0,0,0,,這次咱們也束手無策了
+Dialogue: 0,0:03:42.20,0:03:46.04,Default,NTP,0,0,0,,把災害等級「龍」的最糟糕的事情推給我們
+Dialogue: 0,0:03:46.58,0:03:55.34,Default,NTP,0,0,0,,說是讓附近的S級英雄想辦法處理掉35分鐘後將墜落Z市的巨型隕石
+Dialogue: 0,0:03:55.97,0:03:56.93,Default,NTP,0,0,0,,隕石？
+Dialogue: 0,0:03:57.34,0:03:59.72,Default,NTP,0,0,0,,軌道似乎突然改變了
+Dialogue: 0,0:03:59.93,0:04:02.39,Default,NTP,0,0,0,,看來是打算同歸於盡了
+Dialogue: 0,0:04:03.10,0:04:05.35,Default,NTP,0,0,0,,如果墜落Z市必毀無疑
+Dialogue: 0,0:04:06.89,0:04:09.15,Default,NTP,0,0,0,,這次是無力回天了
+Dialogue: 0,0:04:09.56,0:04:12.82,Default,NTP,0,0,0,,你也和重要的人一起跑遠點避難吧
+Dialogue: 0,0:04:13.23,0:04:14.57,Default,NTP,0,0,0,,市民知道這些嗎
+Dialogue: 0,0:04:15.32,0:04:21.62,Default,NTP,0,0,0,,據說在30分鐘前算出了著落點 並發出了避難警報…
+Dialogue: 0,0:04:23.29,0:04:27.41,Default,NTP,0,0,0,,英雄協會向各位市民發出通知
+Dialogue: 0,0:04:28.83,0:04:30.54,Default,NTP,0,0,0,,會發生恐慌的
+Dialogue: 0,0:04:30.92,0:04:32.17,Default,NTP,0,0,0,,你打算怎麼辦
+Dialogue: 0,0:04:32.50,0:04:35.63,Default,NTP,0,0,0,,別這麼叫我 能叫我邦古先生嗎
+Dialogue: 0,0:04:36.05,0:04:37.26,Default,NTP,0,0,0,,不去避難嗎
+Dialogue: 0,0:04:38.05,0:04:43.31,Default,NTP,0,0,0,,畢竟老夫不能拋棄代代相傳的道場啊
+Dialogue: 0,0:04:45.52,0:04:48.60,Default,NTP,0,0,0,,流水碎巖拳 可曾聽過
+Dialogue: 0,0:04:51.31,0:04:52.44,Default,NTP,0,0,0,,走掉了嗎
+Dialogue: 0,0:04:55.82,0:04:57.53,Default,NTP,0,0,0,,緊急避難警報
+Dialogue: 0,0:04:58.07,0:04:59.78,Default,NTP,0,0,0,,災害等級「龍」
+Dialogue: 0,0:05:00.32,0:05:02.49,Default,NTP,0,0,0,,請立即避難
+Dialogue: 0,0:05:03.12,0:05:06.66,Default,NTP,0,0,0,,距離巨型隕石墜落還有21分鐘
+Dialogue: 0,0:05:07.20,0:05:09.87,Default,NTP,0,0,0,,{\an8}Z市將會整個消失
+Dialogue: 0,0:05:09.04,0:05:09.91,Default,NTP,0,0,0,,沒轍了
+Dialogue: 0,0:05:10.08,0:05:15.05,Default,NTP,0,0,0,,{\an8}請盡快 盡可能地逃向遠處避難
+Dialogue: 0,0:05:10.29,0:05:12.21,Default,NTP,0,0,0,,這下可能要玩完了…
+Dialogue: 0,0:05:16.59,0:05:20.47,Default,NTP,0,0,0,,在這次天災中 有很多人放棄了生存的希望
+Dialogue: 0,0:05:20.97,0:05:25.10,Default,NTP,0,0,0,,不僅Z市會消失 周邊城市也會消滅殆盡吧
+Dialogue: 0,0:05:25.85,0:05:27.85,Default,NTP,0,0,0,,現在已經來不及避難了
+Dialogue: 0,0:05:29.85,0:05:32.35,Default,NTP,0,0,0,,沒想到居然要使出這個試作品了
+Dialogue: 0,0:05:51.37,0:05:53.67,Default,NTP,0,0,0,,以我百分百輸出的焚燒炮
+Dialogue: 0,0:05:53.88,0:05:55.46,Default,NTP,0,0,0,,能不能擊退它呢
+Dialogue: 0,0:05:56.50,0:05:58.38,Default,NTP,0,0,0,,這個城市裏也有老師的居所
+Dialogue: 0,0:05:59.30,0:06:01.17,Default,NTP,0,0,0,,我絕不能單獨逃跑
+Dialogue: 0,0:06:05.89,0:06:06.51,Default,NTP,0,0,0,,那是…
+Dialogue: 0,0:06:18.86,0:06:20.32,Default,NTP,0,0,0,,你就是波佛伊吧
+Dialogue: 0,0:06:21.95,0:06:24.16,Default,NTP,0,0,0,,你是那個新人傑諾斯麼
+Dialogue: 0,0:06:24.74,0:06:26.57,Default,NTP,0,0,0,,是為了阻止隕石而來的嗎
+Dialogue: 0,0:06:26.99,0:06:27.49,Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:06:28.62,0:06:31.41,Default,NTP,0,0,0,,他是S級第7位 使用高火力兵器
+Dialogue: 0,0:06:31.50,0:06:34.21,Default,NTP,0,0,0,,將敵人連同建築都全部粉碎的英雄
+Dialogue: 0,0:06:34.58,0:06:36.54,Default,NTP,0,0,0,,這傢伙也住在Z市嗎
+Dialogue: 0,0:06:36.84,0:06:39.17,Default,NTP,0,0,0,,還是說是拼了命趕過來的
+Dialogue: 0,0:06:39.92,0:06:42.47,Default,NTP,0,0,0,,波佛伊 助我一臂之力吧
+Dialogue: 0,0:06:42.72,0:06:43.47,Default,NTP,0,0,0,,我拒絕
+Dialogue: 0,0:06:43.97,0:06:44.51,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:06:45.18,0:06:48.72,Default,NTP,0,0,0,,我只為實驗新兵器而來
+Dialogue: 0,0:06:49.18,0:06:51.39,Default,NTP,0,0,0,,這顆隕石來的正好
+Dialogue: 0,0:06:51.60,0:06:52.56,Default,NTP,0,0,0,,居然為了實驗？
+Dialogue: 0,0:06:52.89,0:06:55.02,Default,NTP,0,0,0,,隕石一旦墜落你也會死的
+Dialogue: 0,0:06:55.44,0:06:56.81,Default,NTP,0,0,0,,我不會死
+Dialogue: 0,0:06:56.90,0:06:57.36,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:06:57.90,0:07:02.65,Default,NTP,0,0,0,,現在和你對話的是遠程遙控的機器人
+Dialogue: 0,0:07:03.15,0:07:06.45,Default,NTP,0,0,0,,很遺憾我並沒有賭上性命
+Dialogue: 0,0:07:07.24,0:07:10.62,Default,NTP,0,0,0,,還有我不是波佛伊 是金屬騎士
+Dialogue: 0,0:07:11.08,0:07:14.08,Default,NTP,0,0,0,,稱呼英雄不該用本名而是用英雄名
+Dialogue: 0,0:07:14.25,0:07:15.33,Default,NTP,0,0,0,,這是常識
+Dialogue: 0,0:07:17.00,0:07:20.63,Default,NTP,0,0,0,,差不多已經不是說話的時候了
+Dialogue: 0,0:07:26.26,0:07:26.89,Default,NTP,0,0,0,,好
+Dialogue: 0,0:07:28.80,0:07:30.31,Default,NTP,0,0,0,,導彈發射
+Dialogue: 0,0:07:34.85,0:07:35.94,Default,NTP,0,0,0,,金屬騎士？
+Dialogue: 0,0:07:38.61,0:07:41.27,Default,NTP,0,0,0,,這時候插手的話 反而會礙事
+Dialogue: 0,0:07:54.45,0:07:57.54,Default,NTP,0,0,0,,這傢伙 居然有如此強大的破壞兵器…
+Dialogue: 0,0:07:58.17,0:08:00.96,Default,NTP,0,0,0,,這傢伙很危險 看來有必要提防他
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:08:11.35,0:08:14.22,Default,NTP,0,0,0,,這種程度的威力還是不行嗎
+Dialogue: 0,0:08:15.89,0:08:18.14,Default,NTP,0,0,0,,距離墜落還有33秒
+Dialogue: 0,0:08:19.02,0:08:23.11,Default,NTP,0,0,0,,距離全能量發射焚燒炮 還需充能5秒
+Dialogue: 0,0:08:24.11,0:08:27.20,Default,NTP,0,0,0,,但是目標越來越近了
+Dialogue: 0,0:08:27.78,0:08:30.11,Default,NTP,0,0,0,,就算命中了 之後怎麼辦
+Dialogue: 0,0:08:30.70,0:08:33.62,Default,NTP,0,0,0,,隕石破碎恐怕會引發更大的事故
+Dialogue: 0,0:08:33.99,0:08:36.66,Default,NTP,0,0,0,,況且我的力量破壞得了嗎
+Dialogue: 0,0:08:37.08,0:08:40.08,Default,NTP,0,0,0,,金屬騎士的大量導彈圍攻都沒什麼效果
+Dialogue: 0,0:08:41.42,0:08:42.63,Default,NTP,0,0,0,,冷靜一點
+Dialogue: 0,0:08:43.50,0:08:45.34,Default,NTP,0,0,0,,心中的煩亂展露無遺了
+Dialogue: 0,0:08:45.76,0:08:49.72,Default,NTP,0,0,0,,汝尚年輕 不應事前考慮失敗
+Dialogue: 0,0:08:50.43,0:08:53.64,Default,NTP,0,0,0,,越是關鍵時刻越應該放鬆隨意
+Dialogue: 0,0:08:54.10,0:08:57.56,Default,NTP,0,0,0,,結果是不會改變的 這才是最好的做法
+Dialogue: 0,0:08:59.19,0:09:01.31,Default,NTP,0,0,0,,隨意才是最好的？
+Dialogue: 0,0:09:10.32,0:09:14.58,Default,NTP,0,0,0,,是的 如果結果不變
+Dialogue: 0,0:09:17.20,0:09:19.29,Default,NTP,0,0,0,,就用我的全力
+Dialogue: 0,0:09:19.87,0:09:21.12,Default,NTP,0,0,0,,什麼上策！
+Dialogue: 0,0:09:22.83,0:09:24.25,Default,NTP,0,0,0,,邦古 快趴下
+Dialogue: 0,0:09:26.46,0:09:28.80,Default,NTP,0,0,0,,失敗或者事後災難這些事都不考慮
+Dialogue: 0,0:09:29.42,0:09:33.60,Default,NTP,0,0,0,,這一擊將我的現今 我的一切全部獻出
+Dialogue: 0,0:09:46.23,0:09:47.78,Default,NTP,0,0,0,,果然不行嗎
+Dialogue: 0,0:09:48.03,0:09:51.36,Default,NTP,0,0,0,,不 隕石似乎被推後了
+Dialogue: 0,0:09:51.49,0:09:52.20,Default,NTP,0,0,0,,真的嗎
+Dialogue: 0,0:09:52.82,0:09:54.87,Default,NTP,0,0,0,,啊不 好像是錯覺
+Dialogue: 0,0:09:54.91,0:09:55.70,Default,NTP,0,0,0,,臭老頭
+Dialogue: 0,0:09:58.91,0:10:01.62,Default,NTP,0,0,0,,這裏就是我的葬身之地了嗎
+Dialogue: 0,0:10:13.05,0:10:13.84,Default,NTP,0,0,0,,還剩9秒
+Dialogue: 0,0:10:15.05,0:10:16.93,Default,NTP,0,0,0,,快跑吧 邦古先生
+Dialogue: 0,0:10:17.89,0:10:19.93,Default,NTP,0,0,0,,老爺子 這傢伙就拜託你了
+Dialogue: 0,0:10:26.31,0:10:29.28,Default,NTP,0,0,0,,你…你是誰
+Dialogue: 0,0:10:30.23,0:10:32.65,Default,NTP,0,0,0,,我是在當英雄的人
+Dialogue: 0,0:10:45.29,0:10:46.33,Default,NTP,0,0,0,,老師
+Dialogue: 0,0:10:49.34,0:10:50.51,Default,NTP,0,0,0,,不准落在…
+Dialogue: 0,0:10:52.80,0:10:56.18,Default,NTP,0,0,0,,我的城市
+Dialogue: 0,0:11:08.11,0:11:09.57,Default,NTP,0,0,0,,打碎了
+Dialogue: 0,0:11:10.11,0:11:11.32,Default,NTP,0,0,0,,難以置信
+Dialogue: 0,0:11:12.07,0:11:12.82,Default,NTP,0,0,0,,不過…
+Dialogue: 0,0:11:23.33,0:11:24.16,Default,NTP,0,0,0,,要塌了
+Dialogue: 0,0:11:25.58,0:11:27.08,Default,NTP,0,0,0,,不只這棟建築
+Dialogue: 0,0:11:27.71,0:11:31.38,Default,NTP,0,0,0,,衝擊波覆蓋了整個城市
+Dialogue: 0,0:11:40.10,0:11:41.68,Default,NTP,0,0,0,,告一段落了啊
+Dialogue: 0,0:11:54.24,0:11:56.74,Default,NTP,0,0,0,,{\fnFZDaHei-B02\pos(630,530)\fad(0,500)}三天後
+Dialogue: 0,0:11:55.78,0:12:00.20,Default,NTP,0,0,0,,Z市雖然避免了因巨型隕石墜落而消失的命運
+Dialogue: 0,0:12:00.53,0:12:06.83,Default,NTP,0,0,0,,但隕石碎塊卻給整個城市造成了巨大的破壞
+Dialogue: 0,0:12:05.79,0:12:06.91,Default,NTP,0,0,0,,{\fad(500,0)\p1\an5\fscx315\fscy50\shad0\bord0\c&HFAF8F1&\1a&H50&\3c&H000000&\pos(1278,620)}m 0 0 l -200 -200 l 200 -200 l 200 20 l -200 20 l -200 -200
+Dialogue: 0,0:12:05.79,0:12:06.91,Signs_Frame,NTP,0,0,0,,{\fad(500,0)\fs90\fnFZDaHei-B02\c&H414141&\pos(653,478)\1a&H00&}Z市巨大隕石墜落 事故發生後3天
+Dialogue: 0,0:12:08.12,0:12:12.59,Default,NTP,0,0,0,,如果當時英雄協會聯繫的是老師而不是我
+Dialogue: 0,0:12:13.50,0:12:15.55,Default,NTP,0,0,0,,如果老師和金屬騎士聯手的話
+Dialogue: 0,0:12:15.92,0:12:18.34,Default,NTP,0,0,0,,肯定能把災害程度減到最低
+Dialogue: 0,0:12:19.26,0:12:22.85,Default,NTP,0,0,0,,但是金屬騎士這個人很自私吧
+Dialogue: 0,0:12:23.85,0:12:25.06,Default,NTP,0,0,0,,別在意啦
+Dialogue: 0,0:12:25.73,0:12:27.64,Default,NTP,0,0,0,,我覺得災害已經降低到最小了
+Dialogue: 0,0:12:28.02,0:12:30.15,Default,NTP,0,0,0,,你看並沒有人死掉啊
+Dialogue: 0,0:12:30.65,0:12:31.48,Default,NTP,0,0,0,,確實
+Dialogue: 0,0:12:31.90,0:12:35.78,Default,NTP,0,0,0,,老師的那一拳大幅削減了隕石的速度
+Dialogue: 0,0:12:36.49,0:12:40.95,Default,NTP,0,0,0,,本來隕石的衝擊波會炸飛一切
+Dialogue: 0,0:12:41.57,0:12:43.53,Default,NTP,0,0,0,,只能說這是個奇跡
+Dialogue: 0,0:12:44.04,0:12:49.87,Default,NTP,0,0,0,,老師即使被奉為勇者築碑立傳永世傳頌也不為過
+Dialogue: 0,0:12:50.46,0:12:52.71,Default,NTP,0,0,0,,但是 老師並不知道
+Dialogue: 0,0:12:53.34,0:12:57.97,Default,NTP,0,0,0,,自己被社會上一部分人當做Z市破壞的元兇
+Dialogue: 0,0:12:58.22,0:12:59.55,Default,NTP,0,0,0,,被當成了壞人
+Dialogue: 0,0:13:01.43,0:13:03.97,Default,NTP,0,0,0,,但是這件事我不會告訴他
+Dialogue: 0,0:13:04.10,0:13:04.64,Default,NTP,0,0,0,,說起來
+Dialogue: 0,0:13:05.43,0:13:07.73,Default,NTP,0,0,0,,我們的排名有沒有提高啊
+Dialogue: 0,0:13:08.35,0:13:09.89,Default,NTP,0,0,0,,嗯 提高了
+Dialogue: 0,0:13:10.56,0:13:12.86,Default,NTP,0,0,0,,我從S級第17位上升到第16位
+Dialogue: 0,0:13:13.36,0:13:15.73,Default,NTP,0,0,0,,金屬騎士從S級第7位上升到第6位
+Dialogue: 0,0:13:16.53,0:13:21.11,Default,NTP,0,0,0,,老師從C級第342位一口氣升到了第5位呢
+Dialogue: 0,0:13:21.82,0:13:22.57,Default,NTP,0,0,0,,第5位
+Dialogue: 0,0:13:23.37,0:13:25.91,Default,NTP,0,0,0,,從342到5這是怎麼回事
+Dialogue: 0,0:13:26.08,0:13:27.62,Default,NTP,0,0,0,,太奇怪了吧
+Dialogue: 0,0:13:28.12,0:13:28.62,Default,NTP,0,0,0,,不
+Dialogue: 0,0:13:29.21,0:13:32.96,Default,NTP,0,0,0,,老實說一口氣升到A級或者S級都不為過
+Dialogue: 0,0:13:33.42,0:13:35.96,Default,NTP,0,0,0,,畢竟是災害等級為「龍」的危機
+Dialogue: 0,0:13:37.76,0:13:38.92,Default,NTP,0,0,0,,如果沒有造成破壞
+Dialogue: 0,0:13:39.30,0:13:41.55,Default,NTP,0,0,0,,升到S級第5位也沒問題吧
+Dialogue: 0,0:13:43.30,0:13:47.35,Default,NTP,0,0,0,,光是破壞隕石就足夠升到A級了
+Dialogue: 0,0:13:47.93,0:13:50.81,Default,NTP,0,0,0,,恐怕是因為英雄協會擅自認定
+Dialogue: 0,0:13:51.02,0:13:55.15,Default,NTP,0,0,0,,這次危機金屬騎士和我的功勞比較大
+Dialogue: 0,0:13:55.61,0:14:00.32,Default,NTP,0,0,0,,對了 報道總在說的災害等級是什麼「鬼」啊「虎」啊的
+Dialogue: 0,0:14:00.65,0:14:01.78,Default,NTP,0,0,0,,有什麼含義嗎
+Dialogue: 0,0:14:03.70,0:14:04.28,Default,NTP,0,0,0,,有的
+Dialogue: 0,0:14:04.95,0:14:07.74,Default,NTP,0,0,0,,「虎」危及不特定多數生命的危機
+Dialogue: 0,0:14:08.37,0:14:13.08,Default,NTP,0,0,0,,「鬼」導致整個城市停止運轉或毀滅的危機
+Dialogue: 0,0:14:13.58,0:14:16.54,Default,NTP,0,0,0,,「龍」導致若干城市毀滅的危機
+Dialogue: 0,0:14:17.25,0:14:19.63,Default,NTP,0,0,0,,「神」導致人類滅亡的危機
+Dialogue: 0,0:14:21.22,0:14:22.68,Default,NTP,0,0,0,,原來是這個意思啊
+Dialogue: 0,0:14:22.88,0:14:25.39,Default,NTP,0,0,0,,通常英雄會根據災害等級
+Dialogue: 0,0:14:24.93,0:14:28.81,Default,NTP,0,0,0,,{\frz5\c&H342997&\fnFZDaHei-B02\bord0\4c&HFFFFFF&\pos(458,488)}如果遭遇了怪人應該…
+Dialogue: 0,0:14:24.93,0:14:28.81,Default,NTP,0,0,0,,{\frz5\fnFZDaHei-B02\c&H000000&\pos(594,542)}①別慌張盡量逃跑
+Dialogue: 0,0:14:25.51,0:14:28.97,Default,NTP,0,0,0,,來決定自己是否要出擊
+Dialogue: 0,0:14:29.77,0:14:31.89,Default,NTP,0,0,0,,但是這跟老師沒什麼關係吧
+Dialogue: 0,0:14:32.18,0:14:33.90,Default,NTP,0,0,0,,不 當然有關繫了
+Dialogue: 0,0:14:34.48,0:14:36.73,Default,NTP,0,0,0,,英雄要是逃跑了 誰來戰鬥啊
+Dialogue: 0,0:14:41.49,0:14:42.40,Default,NTP,0,0,0,,你在幹什麼
+Dialogue: 0,0:14:42.78,0:14:44.66,Default,NTP,0,0,0,,我要把剛才那句話記下來
+Dialogue: 0,0:14:46.28,0:14:49.95,Default,NTP,0,0,0,,話說回來 這種程度就讓名次提升了這麼多啊
+Dialogue: 0,0:14:51.08,0:14:51.50,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:14:53.50,0:14:55.08,Default,NTP,0,0,0,,我出去轉轉
+Dialogue: 0,0:14:56.38,0:14:57.63,Default,NTP,0,0,0,,您要出去嗎
+Dialogue: 0,0:14:58.04,0:14:59.59,Default,NTP,0,0,0,,那麼我也跟您一起
+Dialogue: 0,0:15:00.25,0:15:00.84,Default,NTP,0,0,0,,不用啦
+Dialogue: 0,0:15:01.34,0:15:04.18,Default,NTP,0,0,0,,萬一有事功勞又歸你了
+Dialogue: 0,0:15:11.89,0:15:14.23,Default,NTP,0,0,0,,破壞的好嚴重啊
+Dialogue: 0,0:15:17.31,0:15:19.02,Default,NTP,0,0,0,,經常去的超市也被毀了
+Dialogue: 0,0:15:19.86,0:15:23.99,Default,NTP,0,0,0,,把我趕出來的可惡房東的屋子…還在啊
+Dialogue: 0,0:15:28.41,0:15:29.99,Default,NTP,0,0,0,,你這個卑鄙小人
+Dialogue: 0,0:15:30.79,0:15:32.79,Default,NTP,0,0,0,,呃 你哪位
+Dialogue: 0,0:15:33.62,0:15:36.08,Default,NTP,0,0,0,,我是背心老虎 給我記牢了
+Dialogue: 0,0:15:36.92,0:15:39.04,Default,NTP,0,0,0,,大哥！
+Dialogue: 0,0:15:39.34,0:15:41.96,Default,NTP,0,0,0,,我找到那個人了
+Dialogue: 0,0:15:40.54,0:15:42.80,Default,NTP,0,0,0,,{\pos(969,714)}你到底是誰啊
+Dialogue: 0,0:15:44.59,0:15:46.80,Default,NTP,0,0,0,,叫我嗎 吾弟啊
+Dialogue: 0,0:15:47.72,0:15:48.43,Default,NTP,0,0,0,,大哥
+Dialogue: 0,0:15:48.89,0:15:52.68,Default,NTP,0,0,0,,英雄 背心黑洞 登場
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:15:52.97,0:15:53.98,Default,NTP,0,0,0,,就是你小子吧
+Dialogue: 0,0:15:54.18,0:15:58.23,Default,NTP,0,0,0,,藉著S級英雄的光提升排名的卑鄙小人
+Dialogue: 0,0:15:58.48,0:15:59.23,Default,NTP,0,0,0,,你什麼意思
+Dialogue: 0,0:15:59.94,0:16:02.02,Default,NTP,0,0,0,,居然在這麼短的時間內排名上升到第5位
+Dialogue: 0,0:16:02.23,0:16:03.73,Default,NTP,0,0,0,,絕對是耍了什麼手段
+Dialogue: 0,0:16:05.40,0:16:06.78,Default,NTP,0,0,0,,你們想幹嘛
+Dialogue: 0,0:16:08.16,0:16:09.24,Default,NTP,0,0,0,,那還用問
+Dialogue: 0,0:16:09.37,0:16:12.37,Default,NTP,0,0,0,,當然是把你打殘 讓你再也沒法活動
+Dialogue: 0,0:16:11.58,0:16:13.20,Default,NTP,0,0,0,,{\an8}稍等 吾弟
+Dialogue: 0,0:16:14.20,0:16:18.17,Default,NTP,0,0,0,,對付這種人就算你這麼做他也不長記性
+Dialogue: 0,0:16:18.50,0:16:21.13,Default,NTP,0,0,0,,我們得讓他嘗夠苦頭才行
+Dialogue: 0,0:16:21.29,0:16:23.84,Default,NTP,0,0,0,,用最殘酷的方法
+Dialogue: 0,0:16:25.72,0:16:27.59,Default,NTP,0,0,0,,就是你這混蛋嗎！
+Dialogue: 0,0:16:27.68,0:16:31.51,Default,NTP,0,0,0,,把這個城市毀掉的罪魁禍首！
+Dialogue: 0,0:16:33.47,0:16:34.47,Default,NTP,0,0,0,,我懂了
+Dialogue: 0,0:16:34.68,0:16:38.10,Default,NTP,0,0,0,,這城市裏還有其他人也把矛頭對準了這傢伙
+Dialogue: 0,0:16:38.35,0:16:39.77,Default,NTP,0,0,0,,真是讓人難以置信
+Dialogue: 0,0:16:39.85,0:16:41.86,Default,NTP,0,0,0,,你這傢伙太過分了
+Dialogue: 0,0:16:42.15,0:16:43.02,Default,NTP,0,0,0,,原來如此
+Dialogue: 0,0:16:43.36,0:16:45.11,Default,NTP,0,0,0,,只要好好利用這種情況
+Dialogue: 0,0:16:45.65,0:16:49.36,Default,NTP,0,0,0,,你看到周圍的這慘狀 難道一點都不為所動嗎
+Dialogue: 0,0:16:50.78,0:16:52.74,Default,NTP,0,0,0,,摧其心志
+Dialogue: 0,0:16:53.53,0:16:57.79,Default,NTP,0,0,0,,還以為是自己救了這裏的居民們 正自鳴得意著呢
+Dialogue: 0,0:16:57.87,0:17:01.63,Default,NTP,0,0,0,,所以才敢大搖大擺地到外面來散步的吧
+Dialogue: 0,0:17:01.75,0:17:07.38,Default,NTP,0,0,0,,明明有這麼多人因為你的失誤才流離失所
+Dialogue: 0,0:17:07.42,0:17:09.72,Default,NTP,0,0,0,,既然搞不定那麼一開始就別跑來出風頭
+Dialogue: 0,0:17:09.84,0:17:14.14,Default,NTP,0,0,0,,等其他英雄來完美解決不就行了
+Dialogue: 0,0:17:14.26,0:17:18.14,Default,NTP,0,0,0,,搞出了這麼大的慘劇 你還好意思繼續當英雄？！
+Dialogue: 0,0:17:18.23,0:17:19.60,Default,NTP,0,0,0,,你看看這城市
+Dialogue: 0,0:17:19.69,0:17:22.65,Default,NTP,0,0,0,,現在這幅慘狀還不都是因為你的所作所為
+Dialogue: 0,0:17:25.07,0:17:25.73,Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:17:26.90,0:17:28.40,Default,NTP,0,0,0,,都…都是你的錯
+Dialogue: 0,0:17:29.95,0:17:31.99,Default,NTP,0,0,0,,上鉤了
+Dialogue: 0,0:17:32.11,0:17:33.20,Default,NTP,0,0,0,,聽見了沒
+Dialogue: 0,0:17:33.41,0:17:36.20,Default,NTP,0,0,0,,流離失所的人們所發出的悲鳴！
+Dialogue: 0,0:17:36.49,0:17:41.96,Default,NTP,0,0,0,,你那草率的行為造就了無數的受害者啊
+Dialogue: 0,0:17:42.46,0:17:43.13,Default,NTP,0,0,0,,說得對
+Dialogue: 0,0:17:43.50,0:17:44.46,Default,NTP,0,0,0,,沒錯沒錯
+Dialogue: 0,0:17:44.84,0:17:47.51,Default,NTP,0,0,0,,你難道都沒想過要為此負起責任來嗎
+Dialogue: 0,0:17:47.76,0:17:48.42,Default,NTP,0,0,0,,就是啊
+Dialogue: 0,0:17:48.67,0:17:49.84,Default,NTP,0,0,0,,無情的傢伙
+Dialogue: 0,0:17:50.26,0:17:52.68,Default,NTP,0,0,0,,別當英雄了！
+Dialogue: 0,0:17:52.93,0:17:55.85,Default,NTP,0,0,0,,別當了 別當了 別當了
+Dialogue: 0,0:17:56.01,0:17:58.02,Default,NTP,0,0,0,,別當了 別當了
+Dialogue: 0,0:17:58.18,0:18:24.04,Default,NTP,0,0,0,,別當了×10086
+Dialogue: 0,0:18:23.71,0:18:24.58,Default,NTP,0,0,0,,{\an8}中計了
+Dialogue: 0,0:18:24.88,0:18:27.63,Default,NTP,0,0,0,,這傢伙的自尊心也該碎一地了吧
+Dialogue: 0,0:18:28.00,0:18:29.67,Default,NTP,0,0,0,,要怪就怪自己無恥吧
+Dialogue: 0,0:18:30.01,0:18:30.67,Default,NTP,0,0,0,,蠢貨
+Dialogue: 0,0:18:32.26,0:18:34.09,Default,NTP,0,0,0,,{\fnFZDaHei-B02\c&H7F72F5&\bord0\pos(645,154)}【Z市隕石墜落】摧毀了城市街道的真的是C級英雄？【有照片】
+Dialogue: 0,0:18:32.26,0:18:34.09,Default,NTP,0,0,0,,{\fnFZDaHei-B02\c&H555555&\bord0\pos(804,284)\1a&H00&}這樣的傢伙居然也是英雄wwww
+Dialogue: 0,0:18:32.26,0:18:34.09,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs35\fnFZDaHei-B02\pos(640,586)}都是因為這傢伙我無家可歸了！！順便把我的JUMP還給我www
+Dialogue: 0,0:18:32.26,0:18:34.09,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(650,688)}他能破壞隕石絕對是假新聞！！這傢伙是傑諾斯的跟屁蟲吧？這是禿了嗎？還是什麼類型的PLAY？
+Dialogue: 0,0:18:34.59,0:18:35.59,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(522,424)}Z市終結通告＼(^o^)／無人街消失？英雄也日漸衰落了啊。
+Dialogue: 0,0:18:34.59,0:18:35.59,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(465,541)}我借你錢啦www
+Dialogue: 0,0:18:34.59,0:18:35.59,Default,NTP,0,0,0,,{\p1\an5\fscx80\fscy80\shad0\bord0\c&HFAF8F1&\1a&H50&\3c&H000000&\pos(829,801)}m 0 0 l -200 -200 l 200 -200 l 200 20 l -200 20 l -200 -200
+Dialogue: 0,0:18:34.59,0:18:35.59,Default,NTP,0,0,0,,{\c&H6759F5&\bord0\fs34\fnFZDaHei-B02\pos(648,606)}任何人都可以借的
+Dialogue: 0,0:18:34.59,0:18:35.59,Default,NTP,0,0,0,,{\c&H6759F5&\bord0\fs34\fnFZDaHei-B02\pos(589,652)}安心貸款
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\p1\an5\fscx80\fscy140\shad0\bord0\c&HFAF8F1&\1a&H50&\3c&H000000&\pos(821,602)}m 0 0 l -200 -200 l 200 -200 l 200 20 l -200 20 l -200 -200
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H6759F5&\bord0\fs25\fnFZDaHei-B02\pos(565,357)}單日融資：
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H6759F5&\bord0\fs25\fnFZDaHei-B02\pos(654,384)}被其他公司拒絕的人請來這裏
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H59F5EC&\bord0.5\fs50\fnFZDaHei-B02\pos(658,461)}微笑借貸
+Dialogue: 0,0:18:34.59,0:18:35.59,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(730,710)}歡迎您的來電
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H6759F5&\bord0\fs34\fnFZDaHei-B02\pos(641,225)}任何人都可以借的
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H6759F5&\bord0\fs34\fnFZDaHei-B02\pos(580,273)}安心貸款
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(718,322)}歡迎您的來電
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(694,541)}英雄之類的早就過時了吧w自己保護自己吧ww
+Dialogue: 0,0:18:36.05,0:18:36.85,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(633,653)}新開了章魚燒店。大猩猩竭誠為各位翻烤章魚燒！
+Dialogue: 0,0:18:36.85,0:18:37.51,Default,NTP,0,0,0,,{\c&H555555&\bord0\fs34\fnFZDaHei-B02\pos(626,582)}禿子×44
+Dialogue: 0,0:18:42.43,0:18:47.40,Default,NTP,0,0,0,,別當了…
+Dialogue: 0,0:18:47.40,0:18:49.82,Default,NTP,0,0,0,,不過 這難道就是所謂的群體心理？
+Dialogue: 0,0:18:50.11,0:18:52.40,Default,NTP,0,0,0,,呼喊整齊得簡直可怕
+Dialogue: 0,0:18:52.65,0:18:56.82,Default,NTP,0,0,0,,別當了…
+Dialogue: 0,0:18:56.53,0:18:57.87,Default,NTP,0,0,0,,{\an8}埼玉君…
+Dialogue: 0,0:18:58.28,0:19:01.66,Default,NTP,0,0,0,,毫無疑問是你拯救了這個城市
+Dialogue: 0,0:19:02.04,0:19:04.50,Default,NTP,0,0,0,,然而與此相對 周圍的反應卻是這樣
+Dialogue: 0,0:19:04.75,0:19:06.54,Default,NTP,0,0,0,,這就是殘酷的現實
+Dialogue: 0,0:19:07.29,0:19:11.38,Default,NTP,0,0,0,,你很強 你恐怕是我所見過最強的人
+Dialogue: 0,0:19:11.67,0:19:14.34,Default,NTP,0,0,0,,因此 我不會在這個場合出言相助
+Dialogue: 0,0:19:15.09,0:19:18.76,Default,NTP,0,0,0,,我不願看到你在這個業界漸漸腐化的模樣
+Dialogue: 0,0:19:19.35,0:19:21.93,Default,NTP,0,0,0,,放棄也是一種生存之道
+Dialogue: 0,0:19:22.31,0:19:24.64,Default,NTP,0,0,0,,成功了
+Dialogue: 0,0:19:24.94,0:19:27.77,Default,NTP,0,0,0,,剛才這傢伙舉止可疑
+Dialogue: 0,0:19:28.06,0:19:29.82,Default,NTP,0,0,0,,啊？ 你說什麼
+Dialogue: 0,0:19:29.36,0:19:30.27,Default,NTP,0,0,0,,{\an8}難道說
+Dialogue: 0,0:19:30.52,0:19:35.99,Default,NTP,0,0,0,,就像你毀了這個城市一樣 你還想傷害所有在場的人們嗎
+Dialogue: 0,0:19:36.16,0:19:38.53,Default,NTP,0,0,0,,一旦不合你意 就把所有人都殺光嗎！
+Dialogue: 0,0:19:38.62,0:19:39.87,Default,NTP,0,0,0,,我可不會讓你做出這種事！
+Dialogue: 0,0:19:40.16,0:19:44.04,Default,NTP,0,0,0,,我們背心兄弟絕不容許你的暴行！
+Dialogue: 0,0:19:44.41,0:19:47.54,Default,NTP,0,0,0,,既然你是個英雄 就堂堂正正地跟我們一決勝負！
+Dialogue: 0,0:19:48.79,0:19:54.17,Default,NTP,0,0,0,,碾壓新人的同時 順便為自己賺一把名聲嗎
+Dialogue: 0,0:19:55.01,0:19:57.34,Default,NTP,0,0,0,,慾望表現得太明顯了啊
+Dialogue: 0,0:19:58.01,0:20:00.43,Default,NTP,0,0,0,,所以才在B級停滯不前吧
+Dialogue: 0,0:20:06.73,0:20:09.98,Default,NTP,0,0,0,,如猛虎般戰鬥的背心老虎 以及
+Dialogue: 0,0:20:10.48,0:20:15.40,Default,NTP,0,0,0,,握力200kg捏碎任何東西都是小菜一碟的背心黑洞
+Dialogue: 0,0:20:15.78,0:20:20.12,Default,NTP,0,0,0,,就由我們兄弟倆來驅逐偏離了英雄之道的你！
+Dialogue: 0,0:20:25.91,0:20:26.75,Default,NTP,0,0,0,,可惡！
+Dialogue: 0,0:20:27.16,0:20:28.92,Default,NTP,0,0,0,,看我捏碎你！
+Dialogue: 0,0:20:30.50,0:20:32.00,Default,NTP,0,0,0,,疼疼疼疼疼死啦啊啊啊啊——
+Dialogue: 0,0:20:32.17,0:20:34.13,Default,NTP,0,0,0,,痛痛痛痛痛痛——
+Dialogue: 0,0:20:34.26,0:20:36.05,Default,NTP,0,0,0,,手要被捏碎了啊啊啊！
+Dialogue: 0,0:20:37.17,0:20:38.26,Default,NTP,0,0,0,,你在逗我嗎
+Dialogue: 0,0:20:38.72,0:20:41.68,Default,NTP,0,0,0,,真的！我認輸！萬分抱歉！
+Dialogue: 0,0:20:41.80,0:20:44.68,Default,NTP,0,0,0,,對不起我說謊騙人了！
+Dialogue: 0,0:20:44.35,0:20:46.14,Default,NTP,0,0,0,,{\an8}沒 你沒說謊
+Dialogue: 0,0:20:47.39,0:20:51.61,Default,NTP,0,0,0,,打碎隕石的就是我 有意見的話有種就快說
+Dialogue: 0,0:20:52.11,0:20:52.94,Default,NTP,0,0,0,,我聽著呢
+Dialogue: 0,0:20:55.94,0:20:58.45,Default,NTP,0,0,0,,可是 因為你我家被…
+Dialogue: 0,0:20:58.90,0:21:00.41,Default,NTP,0,0,0,,煩死了！閉嘴！
+Dialogue: 0,0:21:01.28,0:21:03.12,Default,NTP,0,0,0,,誰他媽知道你們受的什麼委屈
+Dialogue: 0,0:21:03.49,0:21:05.95,Default,NTP,0,0,0,,有牢騷跟隕石發去！一幫蠢貨！
+Dialogue: 0,0:21:06.41,0:21:07.04,Default,NTP,0,0,0,,都給我聽好了！
+Dialogue: 0,0:21:07.45,0:21:11.21,Default,NTP,0,0,0,,老子可不是為了得到你們這種人的認可才當什麼鬼英雄的
+Dialogue: 0,0:21:11.63,0:21:13.88,Default,NTP,0,0,0,,老子當英雄只是因為我樂意！
+Dialogue: 0,0:21:14.21,0:21:16.67,Default,NTP,0,0,0,,要恨老子的話隨你們便 禿子
+Dialogue: 0,0:21:17.34,0:21:18.26,Default,NTP,0,0,0,,禿的是你吧…
+Dialogue: 0,0:21:18.59,0:21:20.80,Default,NTP,0,0,0,,你說什麼？！
+Dialogue: 0,0:21:21.05,0:21:21.72,Default,NTP,0,0,0,,老師
+Dialogue: 0,0:21:22.39,0:21:23.85,Default,NTP,0,0,0,,哦 是你啊 傑諾斯
+Dialogue: 0,0:21:24.68,0:21:26.52,Default,NTP,0,0,0,,稍等啊 那傢伙說我…
+Dialogue: 0,0:21:26.72,0:21:28.98,Default,NTP,0,0,0,,我們回家吧 老師
+Dialogue: 0,0:21:34.27,0:21:36.19,Default,NTP,0,0,0,,哦 好吧
+Dialogue: 0,0:21:38.49,0:21:41.49,Default,NTP,0,0,0,,可惡 我可不會忘了那傢伙的那張蠢臉
+Dialogue: 0,0:21:41.82,0:21:43.07,Default,NTP,0,0,0,,絕對不會忘
+Dialogue: 0,0:21:44.28,0:21:44.95,Default,NTP,0,0,0,,老師
+Dialogue: 0,0:21:46.12,0:21:50.71,Default,NTP,0,0,0,,我從沒見過如埼玉老師您這般優秀的人
+Dialogue: 0,0:21:51.33,0:21:53.50,Default,NTP,0,0,0,,突然提這幹嘛 怪噁心的
+Dialogue: 0,0:21:54.71,0:21:56.71,Default,NTP,0,0,0,,就算這世上沒有人認同您
+Dialogue: 0,0:21:57.67,0:21:59.51,Default,NTP,0,0,0,,我也願意一直跟隨您
+Dialogue: 0,0:22:01.97,0:22:03.84,Default,NTP,0,0,0,,講真 沒必要安慰我
+Dialogue: 0,0:23:43.24,0:23:46.36,Default,NTP,0,0,0,,聽說現在C級英雄裏有個超厲害的傢伙
+Dialogue: 0,0:23:46.45,0:23:47.49,Default,NTP,0,0,0,,你說C級？
+Dialogue: 0,0:23:47.57,0:23:49.83,Default,NTP,0,0,0,,那個據說打碎了隕石的傢伙吧
+Dialogue: 0,0:23:49.95,0:23:51.08,Default,NTP,0,0,0,,肯定是謠言啦
+Dialogue: 0,0:23:51.41,0:23:54.54,Default,NTP,0,0,0,,是光挑弱者打 然後自命為英雄吧
+Dialogue: 0,0:23:55.41,0:23:58.88,Default,NTP,0,0,0,,實際上根本不存在什麼靠得住的英雄啦
+Dialogue: 0,0:24:00.00,0:24:19.98,Title,NTP,0,0,0,,{\fs90\c&HFFFFFF&\pos(1014,137)}下集
+Dialogue: 0,0:24:00.00,0:24:19.98,Title,NTP,0,0,0,,{\fs90\c&HFFFFFF&\pos(800,265)}深海之王
+Dialogue: 0,0:24:01.04,0:24:02.46,Default,NTP,0,0,0,,我是波佛伊
+Dialogue: 0,0:24:02.67,0:24:07.47,Default,NTP,0,0,0,,不 對你們來說 還是「金屬騎士」這個稱呼更熟悉吧
+Dialogue: 0,0:24:08.18,0:24:10.47,Default,NTP,0,0,0,,下集 一拳超人 第八話
+Dialogue: 0,0:24:10.80,0:24:12.22,Default,NTP,0,0,0,,深海之王
+Dialogue: 0,0:24:14.27,0:24:16.77,Default,NTP,0,0,0,,自稱海洋之王 架子挺大啊
+Dialogue: 0,0:24:17.27,0:24:19.19,Default,NTP,0,0,0,,究竟會是個怎樣的傢伙呢
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+

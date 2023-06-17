@@ -1,0 +1,319 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正古隶_GBK,50,&H003766E2,&H000000FF,&HFF000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,6,1
+Style: Warning,FZZhunYuan-M02,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: title,方正剪纸_GBK,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: huiyi,FZHuaLi-M14,46,&H00FFFFFF,&H000000FF,&HFF000000,&H003766E2,0,0,0,0,100,100,0,0,1,2,1,2,10,10,6,1
+Style: logo,FZYiHei-M20S,50,&H00D8A65A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,2,10,10,0,1
+Style: yugao,FZZhiYi-M12S,40,&H006161DC,&H000000FF,&HFF000000,&H0012212C,0,0,0,0,100,100,0,0,1,2,2,2,10,10,8,1
+Style: next,FZYiHei-M20S,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:04.88,0:03:09.88,Warning,NTP,0,0,0,,{\an8}{\fad(400,600)}本片字幕由異域字幕組(www.yydm.com)BC小組製作僅供試看之用,若您喜愛本片,請購買並支持正版!
+Dialogue: 0,0:03:09.94,0:03:14.94,Warning,NTP,0,0,0,,{\an8}{\fad(400,600)}翻校西皮組:  貓茶百閤家族    時間後期吉祥物:  山風嵐管家     壓制正室:  茶夫人
+Dialogue: 0,0:00:03.07,0:00:07.13,Default,NTP,0,0,0,,自從桓武天皇定都之日起已逾1200年
+Dialogue: 0,0:00:08.17,0:00:13.14,Default,NTP,0,0,0,,如今京都這座城市 有150萬人居住
+Dialogue: 0,0:00:14.18,0:00:16.31,Default,NTP,0,0,0,,但是 稍等
+Dialogue: 0,0:00:18.99,0:00:23.08,Default,NTP,0,0,0,,人類只是附屬於我們的歷史
+Dialogue: 0,0:00:23.82,0:00:25.00,Default,NTP,0,0,0,,不論是歷史或是城市
+Dialogue: 0,0:00:25.01,0:00:27.36,Default,NTP,0,0,0,,都是我們創造的
+Dialogue: 0,0:00:27.39,0:00:29.38,Default,NTP,0,0,0,,有只貍貓如此吹噓著
+Dialogue: 0,0:00:30.37,0:00:32.55,Default,NTP,0,0,0,,但是 稍等
+Dialogue: 0,0:00:36.54,0:00:38.74,Default,NTP,0,0,0,,覆蓋王城之地的天界
+Dialogue: 0,0:00:38.91,0:00:41.48,Default,NTP,0,0,0,,自古以來 就是我們的地盤
+Dialogue: 0,0:00:41.82,0:00:44.79,Default,NTP,0,0,0,,畏懼身居天界的我們吧
+Dialogue: 0,0:00:44.92,0:00:48.03,Default,NTP,0,0,0,,有人狂傲的甩下這種話
+Dialogue: 0,0:00:48.76,0:00:49.90,Default,NTP,0,0,0,,這正是天狗
+Dialogue: 0,0:00:52.68,0:00:54.40,Default,NTP,0,0,0,,人類在城市生活
+Dialogue: 0,0:00:54.45,0:00:55.75,Default,NTP,0,0,0,,貍貓在地上爬行
+Dialogue: 0,0:00:55.98,0:00:57.84,Default,NTP,0,0,0,,天狗在天上飛翔
+Dialogue: 0,0:00:58.34,0:01:00.28,Default,NTP,0,0,0,,遷都平安城後
+Dialogue: 0,0:01:00.41,0:01:02.92,Default,NTP,0,0,0,,人類 貍貓 天狗 三足鼎立
+Dialogue: 0,0:01:03.61,0:01:07.21,Default,NTP,0,0,0,,共同轉動著這座城市的車輪
+Dialogue: 0,0:01:08.21,0:01:10.51,Default,NTP,0,0,0,,望著那轉動的車輪
+Dialogue: 0,0:01:10.58,0:01:12.61,Default,NTP,0,0,0,,比任何事都來得有趣
+Dialogue: 0,0:01:14.77,0:01:17.66,Default,NTP,0,0,0,,我就是一隻貍貓
+Dialogue: 0,0:01:17.93,0:01:21.41,Default,NTP,0,0,0,,但我不想只是一隻普通的貍貓
+Dialogue: 0,0:01:21.72,0:01:23.58,Default,NTP,0,0,0,,憧憬著天狗
+Dialogue: 0,0:01:23.94,0:01:26.18,Default,NTP,0,0,0,,也喜歡模仿人類
+Dialogue: 0,0:01:26.99,0:01:30.44,Default,NTP,0,0,0,,因此 我的日常生活令人眼花繚亂
+Dialogue: 0,0:01:30.84,0:01:33.34,Default,NTP,0,0,0,,完全沒有無聊的時間
+Dialogue: 0,0:03:04.96,0:03:07.88,title,NTP,0,0,0,,{\fsp10\c&HD7A657&\3a&HFF&\shad3\4c&H122D40&\pos(640,546)}納{\c&H8182CF&}涼{\c&H9BC33C&}露{\c&H08AFEA&}台{\c&HC18E96&}女{\c&HD6A658&}神
+Dialogue: 0,0:03:24.58,0:03:25.51,Default,NTP,0,0,0,,哥哥
+Dialogue: 0,0:03:27.32,0:03:29.50,Default,NTP,0,0,0,,你又穿成這樣
+Dialogue: 0,0:03:30.31,0:03:32.39,Default,NTP,0,0,0,,變得太過火的話
+Dialogue: 0,0:03:32.48,0:03:35.01,Default,NTP,0,0,0,,又會被矢一郎哥哥罵的哦
+Dialogue: 0,0:03:35.19,0:03:37.73,Default,NTP,0,0,0,,貍貓的潮流我可順應不了
+Dialogue: 0,0:03:39.21,0:03:40.66,Default,NTP,0,0,0,,比起那個 你有事嗎
+Dialogue: 0,0:03:41.03,0:03:43.32,Default,NTP,0,0,0,,你要去紅玉老師那裏吧
+Dialogue: 0,0:03:43.88,0:03:46.36,Default,NTP,0,0,0,,母親說讓你用這個
+Dialogue: 0,0:03:47.81,0:03:50.30,Default,NTP,0,0,0,,說是掉在售票處了
+Dialogue: 0,0:03:51.15,0:03:54.38,Default,NTP,0,0,0,,可別是葉子啊
+Dialogue: 0,0:04:08.60,0:04:09.38,Default,NTP,0,0,0,,我走了
+Dialogue: 0,0:04:49.42,0:04:50.79,Default,NTP,0,0,0,,你想幹嗎
+Dialogue: 0,0:04:51.17,0:04:52.85,Default,NTP,0,0,0,,我要喊人咯
+Dialogue: 0,0:04:53.13,0:04:54.64,Default,NTP,0,0,0,,啊 變態
+Dialogue: 0,0:04:55.35,0:04:57.36,Default,NTP,0,0,0,,不要玩了
+Dialogue: 0,0:04:57.67,0:04:59.37,Default,NTP,0,0,0,,你這是穿成什麼樣子了啊
+Dialogue: 0,0:04:59.70,0:05:01.77,Default,NTP,0,0,0,,我看著都替你丟臉
+Dialogue: 0,0:05:01.87,0:05:03.45,Default,NTP,0,0,0,,那就別看了
+Dialogue: 0,0:05:03.53,0:05:05.14,Default,NTP,0,0,0,,不要強詞奪理
+Dialogue: 0,0:05:05.60,0:05:08.83,Default,NTP,0,0,0,,這是為我們的師傅 紅玉老師著想…
+Dialogue: 0,0:05:08.84,0:05:09.50,Default,NTP,0,0,0,,閉嘴
+Dialogue: 0,0:05:10.18,0:05:12.19,Default,NTP,0,0,0,,就算沒有那個 我們身上也貼有…
+Dialogue: 0,0:05:12.55,0:05:18.61,Default,NTP,0,0,0,,下鴨總一郎超沒出息的悲催孩子們這個標籤
+Dialogue: 0,0:05:22.84,0:05:25.49,Default,NTP,0,0,0,,偽右衛門選舉之前給我乖乖待著
+Dialogue: 0,0:05:25.83,0:05:26.73,Default,NTP,0,0,0,,知道了吧
+Dialogue: 0,0:05:40.40,0:05:41.76,Default,NTP,0,0,0,,是你女兒嗎
+Dialogue: 0,0:05:43.45,0:05:44.59,Default,NTP,0,0,0,,是我弟弟
+Dialogue: 0,0:05:49.64,0:05:51.44,Default,NTP,0,0,0,,你這蠢貨
+Dialogue: 0,0:05:52.52,0:05:56.83,Default,NTP,0,0,0,,你以為這種無聊把戲老夫會高興麼
+Dialogue: 0,0:05:58.26,0:06:02.46,Default,NTP,0,0,0,,我是替每天都死氣沉沉的老師著想
+Dialogue: 0,0:06:02.75,0:06:05.59,Default,NTP,0,0,0,,才會為你灰色的日常帶來一劑清涼劑的
+Dialogue: 0,0:06:05.61,0:06:08.45,Default,NTP,0,0,0,,你的養眼畫面我才不想看
+Dialogue: 0,0:06:09.53,0:06:13.70,Default,NTP,0,0,0,,我這完美至藝術境界的變身你不懂嗎
+Dialogue: 0,0:06:14.05,0:06:16.79,Default,NTP,0,0,0,,看吧 這完美圓潤的胸部
+Dialogue: 0,0:06:17.02,0:06:18.28,Default,NTP,0,0,0,,纖細的腰肢
+Dialogue: 0,0:06:18.56,0:06:20.05,Default,NTP,0,0,0,,其他部位也一應俱全
+Dialogue: 0,0:06:20.07,0:06:22.53,Default,NTP,0,0,0,,別說了 真噁心
+Dialogue: 0,0:06:23.56,0:06:26.86,Default,NTP,0,0,0,,你只是無法原諒心動的自己吧
+Dialogue: 0,0:06:27.46,0:06:30.20,Default,NTP,0,0,0,,那就不該對我發火了
+Dialogue: 0,0:06:30.21,0:06:34.53,Default,NTP,0,0,0,,你以為憑你這點小伎倆還能迷惑我嗎
+Dialogue: 0,0:06:34.67,0:06:38.42,Default,NTP,0,0,0,,少得…意…了
+Dialogue: 0,0:06:44.47,0:06:46.32,Default,NTP,0,0,0,,我買便當來了
+Dialogue: 0,0:06:47.00,0:06:47.94,Default,NTP,0,0,0,,請用
+Dialogue: 0,0:06:55.92,0:06:58.66,Default,NTP,0,0,0,,你最近見到弁天了嗎
+Dialogue: 0,0:06:58.90,0:07:02.07,Default,NTP,0,0,0,,沒有 最近沒見過
+Dialogue: 0,0:07:02.55,0:07:04.95,Default,NTP,0,0,0,,她好久沒露臉了
+Dialogue: 0,0:07:05.68,0:07:07.92,Default,NTP,0,0,0,,在哪裏幹什麼呢
+Dialogue: 0,0:07:07.95,0:07:11.46,Default,NTP,0,0,0,,她不會想回這裏的
+Dialogue: 0,0:07:11.52,0:07:12.60,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:07:17.68,0:07:19.69,huiyi,NTP,0,0,0,,我還不行
+Dialogue: 0,0:07:27.12,0:07:28.50,huiyi,NTP,0,0,0,,那是什麼
+Dialogue: 0,0:07:30.26,0:07:35.41,huiyi,NTP,0,0,0,,在下是下鴨總一郎的三兒子 矢三郎
+Dialogue: 0,0:07:35.98,0:07:39.51,huiyi,NTP,0,0,0,,向如意岳藥師坊大人獻上禮物
+Dialogue: 0,0:07:39.88,0:07:41.14,huiyi,NTP,0,0,0,,有勞了
+Dialogue: 0,0:07:50.50,0:07:52.22,huiyi,NTP,0,0,0,,辛苦你了
+Dialogue: 0,0:07:54.23,0:07:55.88,huiyi,NTP,0,0,0,,你這是什麼打扮
+Dialogue: 0,0:07:56.34,0:07:57.50,huiyi,NTP,0,0,0,,很奇怪嗎
+Dialogue: 0,0:07:58.14,0:08:01.35,huiyi,NTP,0,0,0,,你也不是人類嗎
+Dialogue: 0,0:08:01.72,0:08:03.58,huiyi,NTP,0,0,0,,該怎麼說呢
+Dialogue: 0,0:08:04.01,0:08:04.72,huiyi,NTP,0,0,0,,你呢
+Dialogue: 0,0:08:05.06,0:08:07.36,huiyi,NTP,0,0,0,,我只是一個叫做鈴木聰美的人
+Dialogue: 0,0:08:07.54,0:08:09.51,huiyi,NTP,0,0,0,,好了 別再取笑他了
+Dialogue: 0,0:08:09.57,0:08:11.34,huiyi,NTP,0,0,0,,他可不好惹
+Dialogue: 0,0:08:11.45,0:08:13.12,huiyi,NTP,0,0,0,,是個壞小子呢
+Dialogue: 0,0:08:13.60,0:08:14.96,huiyi,NTP,0,0,0,,好像很有趣
+Dialogue: 0,0:08:14.99,0:08:16.45,huiyi,NTP,0,0,0,,哪裏有趣了
+Dialogue: 0,0:08:16.75,0:08:18.95,huiyi,NTP,0,0,0,,雖然是個能幹的聰明傢伙
+Dialogue: 0,0:08:19.05,0:08:21.88,huiyi,NTP,0,0,0,,卻不懂得矯正自己的缺點
+Dialogue: 0,0:08:22.29,0:08:24.53,huiyi,NTP,0,0,0,,成不了什麼事的
+Dialogue: 0,0:08:25.03,0:08:27.05,huiyi,NTP,0,0,0,,您好像很中意他
+Dialogue: 0,0:08:27.16,0:08:28.46,huiyi,NTP,0,0,0,,別說傻話了
+Dialogue: 0,0:08:32.48,0:08:33.62,huiyi,NTP,0,0,0,,你也來一起看吧
+Dialogue: 0,0:08:40.08,0:08:43.36,huiyi,NTP,0,0,0,,我從未見過這麼美的櫻花
+Dialogue: 0,0:08:45.89,0:08:46.55,huiyi,NTP,0,0,0,,喂
+Dialogue: 0,0:08:48.03,0:08:50.14,huiyi,NTP,0,0,0,,照我教你的試試看
+Dialogue: 0,0:08:50.39,0:08:52.87,huiyi,NTP,0,0,0,,哎呀 我還不行啦
+Dialogue: 0,0:08:53.50,0:08:54.85,huiyi,NTP,0,0,0,,試試看
+Dialogue: 0,0:08:55.46,0:08:55.96,huiyi,NTP,0,0,0,,嗯
+Dialogue: 0,0:09:15.16,0:09:16.26,huiyi,NTP,0,0,0,,我做到了
+Dialogue: 0,0:09:18.47,0:09:21.22,huiyi,NTP,0,0,0,,自由飛翔於天空
+Dialogue: 0,0:09:21.81,0:09:23.86,huiyi,NTP,0,0,0,,這就是天狗
+Dialogue: 0,0:09:35.85,0:09:38.02,Default,NTP,0,0,0,,啊難吃死了
+Dialogue: 0,0:09:38.20,0:09:40.41,Default,NTP,0,0,0,,這種東西怎麼吃啊
+Dialogue: 0,0:09:42.90,0:09:45.19,Default,NTP,0,0,0,,下次也買這裏的便當好了
+Dialogue: 0,0:09:45.44,0:09:49.32,Default,NTP,0,0,0,,吃了一半就說明還算好吃
+Dialogue: 0,0:09:49.56,0:09:52.36,Default,NTP,0,0,0,,你這是對待師傅的態度嗎
+Dialogue: 0,0:09:52.41,0:09:54.33,Default,NTP,0,0,0,,用這種廉價貨糊弄我
+Dialogue: 0,0:09:58.87,0:10:00.89,Default,NTP,0,0,0,,今天是星期五
+Dialogue: 0,0:10:00.90,0:10:05.17,Default,NTP,0,0,0,,看來弁天一定是去了星期五俱樂部了
+Dialogue: 0,0:10:05.33,0:10:08.47,Default,NTP,0,0,0,,弁天小姐一定玩得很開心吧
+Dialogue: 0,0:10:08.58,0:10:12.26,Default,NTP,0,0,0,,跟那種人類混在一起有什麼可開心的
+Dialogue: 0,0:10:12.75,0:10:14.90,Default,NTP,0,0,0,,弁天小姐也是人類哦
+Dialogue: 0,0:10:15.52,0:10:16.60,Default,NTP,0,0,0,,您忘了嗎
+Dialogue: 0,0:10:16.62,0:10:18.58,Default,NTP,0,0,0,,老是跑去夜遊
+Dialogue: 0,0:10:18.75,0:10:22.34,Default,NTP,0,0,0,,老夫一眼沒瞧見 就立刻開始步入魔道
+Dialogue: 0,0:10:22.89,0:10:24.16,Default,NTP,0,0,0,,真是拿她沒辦法
+Dialogue: 0,0:10:24.83,0:10:29.20,Default,NTP,0,0,0,,開始步入魔道這種說法也太怪了
+Dialogue: 0,0:10:29.23,0:10:30.27,Default,NTP,0,0,0,,少囉嗦
+Dialogue: 0,0:10:35.18,0:10:37.33,Default,NTP,0,0,0,,這裏通風不錯呢
+Dialogue: 0,0:10:44.44,0:10:48.05,Default,NTP,0,0,0,,會來我這裏的也就是蟲子和你了
+Dialogue: 0,0:10:48.41,0:10:49.58,Default,NTP,0,0,0,,真沒趣
+Dialogue: 0,0:10:49.60,0:10:52.21,Default,NTP,0,0,0,,你至少也感謝一下吧
+Dialogue: 0,0:10:52.41,0:10:54.90,Default,NTP,0,0,0,,誰叫你來了
+Dialogue: 0,0:10:57.53,0:11:00.52,Default,NTP,0,0,0,,你真是個讓人頭疼的學生
+Dialogue: 0,0:11:01.47,0:11:05.40,Default,NTP,0,0,0,,還以為終於不用照顧你了
+Dialogue: 0,0:11:05.44,0:11:08.56,Default,NTP,0,0,0,,現在又厚著臉皮來這裏 你以為我會高興嗎
+Dialogue: 0,0:11:08.90,0:11:11.21,Default,NTP,0,0,0,,我都懶得說你了
+Dialogue: 0,0:11:11.44,0:11:16.19,Default,NTP,0,0,0,,人家不是說 越是廢柴的孩子老師越疼嘛
+Dialogue: 0,0:11:16.34,0:11:18.79,Default,NTP,0,0,0,,誰告訴你的啊
+Dialogue: 0,0:11:19.01,0:11:19.78,Default,NTP,0,0,0,,蠢貨
+Dialogue: 0,0:11:25.26,0:11:27.59,Default,NTP,0,0,0,,你很閒吧
+Dialogue: 0,0:11:28.14,0:11:30.24,Default,NTP,0,0,0,,去找弁天 把她帶過來
+Dialogue: 0,0:11:31.19,0:11:32.14,Default,NTP,0,0,0,,我才不要
+Dialogue: 0,0:11:32.70,0:11:35.16,Default,NTP,0,0,0,,就算我勸她也不會來的
+Dialogue: 0,0:11:35.56,0:11:38.89,Default,NTP,0,0,0,,而且我最討厭弁天小姐和星期五俱樂部了
+Dialogue: 0,0:11:38.91,0:11:41.95,Default,NTP,0,0,0,,出去的時候順便買點棉花棒回來
+Dialogue: 0,0:11:42.23,0:11:45.26,Default,NTP,0,0,0,,耳朵一癢 我就想颳風
+Dialogue: 0,0:11:45.49,0:11:48.85,Default,NTP,0,0,0,,我把新的棉花棒放在洗臉台上了
+Dialogue: 0,0:11:49.27,0:11:51.20,Default,NTP,0,0,0,,我不是說不去了嗎
+Dialogue: 0,0:11:51.22,0:11:52.47,Default,NTP,0,0,0,,等等
+Dialogue: 0,0:11:52.49,0:11:54.77,Default,NTP,0,0,0,,老夫來寫封信吧
+Dialogue: 0,0:11:55.90,0:11:57.94,Default,NTP,0,0,0,,{\pos(406,714)}給弁天
+Dialogue: 0,0:11:56.03,0:11:57.48,Default,NTP,0,0,0,,{\pos(920,714)}不明事理的老頭子
+Dialogue: 0,0:11:58.00,0:12:00.54,Default,NTP,0,0,0,,老實的去清理下耳朵 然後趕緊睡去吧
+Dialogue: 0,0:12:00.56,0:12:03.80,Default,NTP,0,0,0,,還有 什麼來著
+Dialogue: 0,0:12:08.53,0:12:11.62,Default,NTP,0,0,0,,必須在今晚之內送給弁天
+Dialogue: 0,0:12:12.34,0:12:14.70,Default,NTP,0,0,0,,這可是個光榮的任務
+Dialogue: 0,0:12:16.52,0:12:19.26,Default,NTP,0,0,0,,下鴨矢三郎 遵命
+Dialogue: 0,0:12:41.95,0:12:44.91,logo,,0,0,0,,{\fsp6\pos(268,542)}異{\c&H8482D0&}域{\c&H9DC33E&}字{\c&H0BAEEB&}幕{\c&HC28E96&}組
+Dialogue: 0,0:12:41.95,0:12:44.91,Default,NTP,0,0,0,,{\fn方正艺黑简体\c&HE9EDEE&\4c&H2C2E3E&\3a&HFF&\pos(305,116)}斗形公寓
+Dialogue: 0,0:12:37.07,0:12:40.82,Default,NTP,0,0,0,,適合愛的丘比特的道具
+Dialogue: 0,0:12:52.56,0:12:54.76,Default,NTP,0,0,0,,七福神 七福神
+Dialogue: 0,0:13:01.46,0:13:03.84,Default,NTP,0,0,0,,看來就是那個了
+Dialogue: 0,0:13:04.52,0:13:06.36,Default,NTP,0,0,0,,但是找不到關鍵的那個人物啊
+Dialogue: 0,0:13:09.09,0:13:09.72,Default,NTP,0,0,0,,有了！
+Dialogue: 0,0:13:18.25,0:13:21.28,Default,NTP,0,0,0,,好歹也是被稱作如意岳藥師坊的人
+Dialogue: 0,0:13:21.74,0:13:25.46,Default,NTP,0,0,0,,這個根本就像是整天白日做夢的高中生寫的嗎
+Dialogue: 0,0:13:40.20,0:13:43.92,Default,NTP,0,0,0,,我就是現代的那須與一
+Dialogue: 0,0:13:40.20,0:13:43.92,Default,NTP,0,0,0,,{\an8\fs43}注:是日本鐮倉前期的武士 平家物語的神射手 一箭射中平家放在船頭的扇子
+Dialogue: 0,0:13:48.40,0:13:49.56,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:13:49.90,0:13:50.79,Default,NTP,0,0,0,,誰
+Dialogue: 0,0:13:53.21,0:13:54.42,Default,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:13:54.66,0:13:55.98,Default,NTP,0,0,0,,嚇死我了
+Dialogue: 0,0:13:57.92,0:13:59.26,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:14:11.86,0:14:13.51,Default,NTP,0,0,0,,這裏可不是你這種小姑娘能來的…
+Dialogue: 0,0:14:13.51,0:14:14.80,Default,NTP,0,0,0,,是我啦 我
+Dialogue: 0,0:14:15.19,0:14:16.80,Default,NTP,0,0,0,,什麼啊 是你啊
+Dialogue: 0,0:14:17.32,0:14:18.96,Default,NTP,0,0,0,,又變成這種樣子
+Dialogue: 0,0:14:19.74,0:14:23.32,Default,NTP,0,0,0,,隨心所欲的使用 只有我們才被允許使用的能力
+Dialogue: 0,0:14:23.34,0:14:24.34,Default,NTP,0,0,0,,有什麼不對的
+Dialogue: 0,0:14:24.60,0:14:26.71,Default,NTP,0,0,0,,就算你擅長變化
+Dialogue: 0,0:14:26.89,0:14:30.18,Default,NTP,0,0,0,,好歹也給我變成適合來這裏的模樣
+Dialogue: 0,0:14:30.36,0:14:31.54,Default,NTP,0,0,0,,偽電氣白蘭
+Dialogue: 0,0:14:30.36,0:14:31.54,Default,NTP,0,0,0,,{\an8\fs35}注:「電氣白蘭」是大正時代淺草一家老酒吧推出的一款雞尾酒 「偽電氣白蘭」則是作者小說中常出現的傳奇美酒 據傳只有芳醇的香氣 但沒有味道
+Dialogue: 0,0:14:31.56,0:14:33.21,Default,NTP,0,0,0,,我要紅摻酒
+Dialogue: 0,0:14:38.08,0:14:40.01,Default,NTP,0,0,0,,剛才的那個是什麼意思
+Dialogue: 0,0:14:40.57,0:14:41.79,Default,NTP,0,0,0,,嚇到我了呢
+Dialogue: 0,0:14:42.06,0:14:45.81,Default,NTP,0,0,0,,師傅吩咐我送情書給你
+Dialogue: 0,0:14:46.68,0:14:48.88,Default,NTP,0,0,0,,你在對岸 距離太遠了
+Dialogue: 0,0:14:49.02,0:14:51.58,Default,NTP,0,0,0,,所以我才飛箭傳書的
+Dialogue: 0,0:14:54.09,0:14:56.77,Default,NTP,0,0,0,,難道你是在向我挑釁嗎
+Dialogue: 0,0:14:57.58,0:15:00.03,Default,NTP,0,0,0,,請當這是一種既愛又恨的表現
+Dialogue: 0,0:15:00.98,0:15:03.47,Default,NTP,0,0,0,,別人挑釁 我向來是照單全收的
+Dialogue: 0,0:15:03.74,0:15:05.26,Default,NTP,0,0,0,,千萬不要
+Dialogue: 0,0:15:07.19,0:15:09.51,Default,NTP,0,0,0,,我重要的扇子都壞掉了
+Dialogue: 0,0:15:09.85,0:15:11.90,Default,NTP,0,0,0,,在星期五俱樂部也引起了大混亂
+Dialogue: 0,0:15:12.52,0:15:15.43,Default,NTP,0,0,0,,所以我告訴他們我不舒服 跑出來了
+Dialogue: 0,0:15:15.82,0:15:19.21,Default,NTP,0,0,0,,我要是真想射中的話 是不會偏的
+Dialogue: 0,0:15:19.98,0:15:21.17,Default,NTP,0,0,0,,我想也是
+Dialogue: 0,0:15:22.62,0:15:24.79,Default,NTP,0,0,0,,就這樣直接命中眼珠
+Dialogue: 0,0:15:25.25,0:15:27.72,Default,NTP,0,0,0,,關於扇子 真是對不起了
+Dialogue: 0,0:15:28.07,0:15:29.75,Default,NTP,0,0,0,,可以的話 由我來…
+Dialogue: 0,0:15:29.92,0:15:32.70,Default,NTP,0,0,0,,沒關係 這個還是我拿著吧
+Dialogue: 0,0:15:37.81,0:15:40.36,Default,NTP,0,0,0,,那封情書 讀了嗎
+Dialogue: 0,0:15:40.74,0:15:44.50,Default,NTP,0,0,0,,讀了 老師他還在那裏鬧變扭嗎？
+Dialogue: 0,0:15:44.73,0:15:47.63,Default,NTP,0,0,0,,一直在那裏鬧變扭 越來越倔強了
+Dialogue: 0,0:15:47.91,0:15:49.08,Default,NTP,0,0,0,,我想也是
+Dialogue: 0,0:15:49.74,0:15:51.86,Default,NTP,0,0,0,,因為我好久沒回去了
+Dialogue: 0,0:15:52.17,0:15:56.02,Default,NTP,0,0,0,,起碼一周回去一次怎麼樣
+Dialogue: 0,0:15:56.56,0:15:58.96,Default,NTP,0,0,0,,可不想被你說
+Dialogue: 0,0:15:59.40,0:16:02.14,Default,NTP,0,0,0,,我也不想多管閒事
+Dialogue: 0,0:16:02.73,0:16:04.70,Default,NTP,0,0,0,,你們這趟渾水 狗都不會去摻和
+Dialogue: 0,0:16:05.06,0:16:06.39,Default,NTP,0,0,0,,你明明是只貍貓
+Dialogue: 0,0:16:06.87,0:16:08.88,Default,NTP,0,0,0,,是貍貓不成嗎
+Dialogue: 0,0:16:10.67,0:16:12.75,Default,NTP,0,0,0,,你這麼說的話 我還是人類呢
+Dialogue: 0,0:16:18.89,0:16:23.10,Default,NTP,0,0,0,,如果你來挑釁的話 我很樂意接受哦
+Dialogue: 0,0:16:23.48,0:16:24.50,Default,NTP,0,0,0,,您玩笑開過頭了
+Dialogue: 0,0:16:24.54,0:16:28.28,Default,NTP,0,0,0,,然後就可以抓住你 做成忘年會的火鍋
+Dialogue: 0,0:16:28.35,0:16:30.27,Default,NTP,0,0,0,,您又說這種可怕的事情
+Dialogue: 0,0:16:30.29,0:16:32.85,Default,NTP,0,0,0,,因為這是星期五俱樂部的規矩呢
+Dialogue: 0,0:16:33.48,0:16:37.11,Default,NTP,0,0,0,,每年在除夕夜做貍貓火鍋吃
+Dialogue: 0,0:16:38.69,0:16:40.55,Default,NTP,0,0,0,,老闆 再來一杯…
+Dialogue: 0,0:16:42.61,0:16:47.67,Default,NTP,0,0,0,,話說回來 為什麼今天變成這麼可愛的樣子
+Dialogue: 0,0:16:48.37,0:16:52.08,Default,NTP,0,0,0,,為了滋潤一下老師無聊的日常
+Dialogue: 0,0:16:52.87,0:16:55.14,Default,NTP,0,0,0,,變的相當可愛吧
+Dialogue: 0,0:16:55.76,0:16:57.94,Default,NTP,0,0,0,,真是美好的師徒情誼
+Dialogue: 0,0:16:58.44,0:17:00.95,Default,NTP,0,0,0,,不過 我卻被狠狠罵了一頓
+Dialogue: 0,0:17:01.28,0:17:04.86,Default,NTP,0,0,0,,那種頑固的老頭子 不管他就好了
+Dialogue: 0,0:17:05.37,0:17:07.18,Default,NTP,0,0,0,,怎麼能那麼做
+Dialogue: 0,0:17:11.40,0:17:14.25,Default,NTP,0,0,0,,你一直很介意魔王杉的那件事吧
+Dialogue: 0,0:17:14.81,0:17:17.22,Default,NTP,0,0,0,,你好像並不介意
+Dialogue: 0,0:17:17.58,0:17:19.34,Default,NTP,0,0,0,,你讓我介意些什麼呢
+Dialogue: 0,0:17:19.71,0:17:23.08,Default,NTP,0,0,0,,老師是因為我們 才飛不起來的
+Dialogue: 0,0:17:23.36,0:17:25.73,Default,NTP,0,0,0,,變成杉樹的可是你
+Dialogue: 0,0:17:26.13,0:17:28.85,Default,NTP,0,0,0,,讓老師掉下來摔傷腰的也是你
+Dialogue: 0,0:17:29.21,0:17:31.48,Default,NTP,0,0,0,,那個作戰可是你想出來的
+Dialogue: 0,0:17:31.87,0:17:33.08,Default,NTP,0,0,0,,所以又怎樣
+Dialogue: 0,0:17:35.46,0:17:37.49,Default,NTP,0,0,0,,所以說人類啊
+Dialogue: 0,0:17:38.01,0:17:40.20,Default,NTP,0,0,0,,比天狗還要性格惡劣
+Dialogue: 0,0:17:41.11,0:17:47.42,Default,NTP,0,0,0,,我失禮了 但是你根本不瞭解老師的心情啊
+Dialogue: 0,0:17:48.52,0:17:49.71,Default,NTP,0,0,0,,是南座
+Dialogue: 0,0:17:50.10,0:17:51.73,Default,NTP,0,0,0,,老師就在那裏
+Dialogue: 0,0:17:55.84,0:18:00.39,Default,NTP,0,0,0,,我去不去見他 和你沒關係吧
+Dialogue: 0,0:18:00.81,0:18:03.21,Default,NTP,0,0,0,,是我多言了
+Dialogue: 0,0:18:13.42,0:18:16.47,Default,NTP,0,0,0,,你命真大…啊
+Dialogue: 0,0:18:16.66,0:18:18.52,Default,NTP,0,0,0,,這樣活著才有意思
+Dialogue: 0,0:18:49.42,0:18:50.69,Default,NTP,0,0,0,,老師
+Dialogue: 0,0:18:52.04,0:18:53.43,Default,NTP,0,0,0,,這樣子還…
+Dialogue: 0,0:18:54.59,0:18:57.81,Default,NTP,0,0,0,,稍等一下 我馬上就站起來
+Dialogue: 0,0:18:57.82,0:19:00.43,Default,NTP,0,0,0,,如果你願意 我會緊緊抱住你
+Dialogue: 0,0:19:00.45,0:19:06.03,Default,NTP,0,0,0,,如果你想的話 我們來一場優雅的空中散步怎麼樣
+Dialogue: 0,0:19:07.18,0:19:10.18,Default,NTP,0,0,0,,不要說些根本做不到的事
+Dialogue: 0,0:19:10.47,0:19:11.62,Default,NTP,0,0,0,,師傅啊
+Dialogue: 0,0:19:35.33,0:19:36.57,Default,NTP,0,0,0,,啊啦 老師
+Dialogue: 0,0:19:37.35,0:19:38.82,Default,NTP,0,0,0,,在這裏做什麼呢
+Dialogue: 0,0:19:39.23,0:19:40.96,Default,NTP,0,0,0,,什麼啊 是你啊
+Dialogue: 0,0:19:41.91,0:19:43.17,Default,NTP,0,0,0,,醉了啊
+Dialogue: 0,0:19:43.34,0:19:46.14,Default,NTP,0,0,0,,嘿嘿嘿 稍微小酌了一點
+Dialogue: 0,0:19:46.52,0:19:48.57,Default,NTP,0,0,0,,只知道玩的傢伙
+Dialogue: 0,0:19:49.06,0:19:50.99,Default,NTP,0,0,0,,今夜我打算就這樣了
+Dialogue: 0,0:19:51.02,0:19:52.23,Default,NTP,0,0,0,,等 等下
+Dialogue: 0,0:19:52.28,0:19:55.02,Default,NTP,0,0,0,,我也要回去 幫我叫下出租車
+Dialogue: 0,0:19:55.13,0:19:59.92,Default,NTP,0,0,0,,老師 比起出租車 直接飛回去不是比較快
+Dialogue: 0,0:20:03.81,0:20:06.40,Default,NTP,0,0,0,,就別在那裏欺負人了
+Dialogue: 0,0:20:06.75,0:20:08.37,Default,NTP,0,0,0,,真是的 太沒出息了
+Dialogue: 0,0:20:08.75,0:20:11.11,Default,NTP,0,0,0,,我閃到腰了
+Dialogue: 0,0:20:18.89,0:20:23.34,Default,NTP,0,0,0,,你這個笨蛋 我都說了別變成少女了
+Dialogue: 0,0:20:23.48,0:20:26.59,Default,NTP,0,0,0,,外人看來就只是孫女來接爺爺而已
+Dialogue: 0,0:20:35.00,0:20:37.78,Default,NTP,0,0,0,,話說回來 老師在那裏做什麼呢
+Dialogue: 0,0:20:39.14,0:20:42.33,Default,NTP,0,0,0,,我只是想去衹園喝點小酒
+Dialogue: 0,0:20:42.71,0:20:43.71,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:20:50.37,0:20:55.54,Default,NTP,0,0,0,,自由飛翔於天空 這才是所謂的天狗
+Dialogue: 0,0:20:56.36,0:20:57.68,Default,NTP,0,0,0,,不是嗎
+Dialogue: 0,0:21:00.01,0:21:04.56,Default,NTP,0,0,0,,但是 偶爾坐下出租也不錯嗎
+Dialogue: 0,0:21:05.87,0:21:07.73,Default,NTP,0,0,0,,嗯 是不錯
+Dialogue: 0,0:21:09.54,0:21:12.92,Default,NTP,0,0,0,,就算是我們 天天變身也會煩的
+Dialogue: 0,0:21:13.46,0:21:16.91,Default,NTP,0,0,0,,哼 怎麼能把我和貍貓相提並論
+Dialogue: 0,0:21:18.46,0:21:24.18,Default,NTP,0,0,0,,過去我曾一直糾結 作為一隻貍貓該怎麼活下去
+Dialogue: 0,0:21:25.27,0:21:28.78,Default,NTP,0,0,0,,自認為知道 讓自己快樂的活下去的方法
+Dialogue: 0,0:21:29.19,0:21:33.19,Default,NTP,0,0,0,,但是自己應該去做些什麼 還不是很明白
+Dialogue: 0,0:21:34.02,0:21:37.40,Default,NTP,0,0,0,,就這樣 在碌碌無為的過程中
+Dialogue: 0,0:21:37.67,0:21:40.79,Default,NTP,0,0,0,,終於頓悟到沒有比一直快樂的活下去
+Dialogue: 0,0:21:40.83,0:21:44.09,Default,NTP,0,0,0,,更該去做的事情了
+Dialogue: 0,0:23:33.97,0:23:37.07,yugao,NTP,0,0,0,,哥哥不好了 雷神要來了
+Dialogue: 0,0:23:37.08,0:23:39.22,yugao,NTP,0,0,0,,要趕快去告訴母親啊
+Dialogue: 0,0:23:39.44,0:23:41.86,next,NTP,0,0,0,,{\fad(500,0)\pos(1025,718)\3a&HFF&\4c&H0D1E2A&\c&H8482D0&}母親{\c&H08AFEA&}和{\c&HD8A65A&}雷{\c&HC28E96&}神{\c&H9BC33C&}大人
+

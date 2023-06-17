@@ -1,0 +1,490 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: KanColle
+Original Script: CASO&SumiSora
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,FZZhunYuan-M02,45,&H00FFFFFF,&HFF000000,&H00320A00,&H503D3D3D,0,0,0,0,100,100,0,0,1,3,1,2,20,20,20,1
+Style: zhushi,FZZhunYuan-M02,32,&H00FFFFFF,&HFF000000,&H00320A00,&H503D3D3D,0,0,0,0,100,100,0,0,1,3,1,7,20,20,20,1
+Style: staff,方正兰亭中粗黑_GBK,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,20,20,20,1
+Style: title,方正宋三_GBK,45,&H00FFFFFF,&H000000FF,&H002B2B2B,&HFF000000,-1,0,0,0,100,100,0,0,1,4,0,2,10,10,20,1
+Style: TXTB,方正兰亭准黑_GBK,32,&H00838383,&H000000FF,&H00FFFFFF,&HFF000000,-1,0,0,0,100,100,0,0,1,0,0,8,10,10,10,1
+Style: TXTC,方正瘦金书_GBK,50,&H00000000,&H000000FF,&H00000000,&HFF000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: TXTD,华康俪金黑W8(P),40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: TXTE,@方正大标宋_GBK,40,&H00FFFFFF,&HFF000000,&H00FFFFFF,&H003D3D3D,0,0,0,0,100,100,0,270,1,0,3,7,20,20,20,1
+Style: TXTF,@方正兰亭粗黑_GBK,34,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,270,1,3,0,7,10,10,10,1
+Style: TXTG,方正大标宋_GBK,40,&H00040205,&HFF000000,&H00FFFFFF,&H503D3D3D,0,0,0,0,100,100,0,0,1,5,0,2,20,20,20,1
+Style: TXTGa,@方正大标宋_GBK,40,&H00040205,&HFF000000,&H00FFFFFF,&H503D3D3D,0,0,0,0,100,100,0,270,1,5,0,2,20,20,20,1
+Style: TXTGb,方正大标宋_GBK,40,&H00FFFFFF,&HFF000000,&H00FFFFFF,&H503D3D3D,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,20,1
+Style: NEXT,方正大标宋_GBK,60,&H00FFFFFF,&H000000FF,&H002B2B2B,&HFF000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: OPJPN,DFGHSMincho-W5,45,&H00FFFFFF,&H000000FF,&H002B2B2B,&HFF000000,-1,0,0,0,100,100,2,0,1,4,0,2,10,10,20,1
+Style: OPCNN,方正小标宋_GBK,45,&H00FFFFFF,&H000000FF,&H002B2B2B,&HFF000000,0,0,0,0,100,100,2,0,1,4,0,2,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:01.97,0:02:11.94,staff,NTP,0,0,0,,{\4c&H000000&\fs32}片源：whwdlxy9416    翻译：奇迹の时代  はばやし   校对：童话只要电    后期：瑞鹤家的小石板
+Dialogue: 0,0:02:01.97,0:02:11.94,staff,NTP,0,0,0,,{\an8}{\fs35}字幕製作：華盟澄空聯合艦隊
+Dialogue: 0,0:02:12.57,0:02:16.57,title,NTP,0,0,0,,{\blur4\fad(530,480)\fs44\pos(225.6,614)}W島攻略作戰！
+Dialogue: 0,0:24:44.92,0:24:49.80,NEXT,NTP,0,0,0,,{\pos(654,186.8)}下  集
+Dialogue: 0,0:24:44.92,0:24:49.80,NEXT,NTP,0,0,0,,{\pos(655,495.6)}輪到我們出場了！Follow  me！
+Dialogue: 0,0:00:42.22,0:00:45.93,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}朝の光眩しくて
+Dialogue: 0,0:00:47.51,0:00:53.06,OPJPN,NTP,0,0,0,,{\fad(100,500)\an8\fs32\blur4}Wake  up
+Dialogue: 0,0:00:57.69,0:01:03.07,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}言葉も無くて　ただ波の音聞いてた
+Dialogue: 0,0:01:03.15,0:01:07.91,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}記憶の意味試されているみたいに
+Dialogue: 0,0:01:08.12,0:01:11.91,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}闇の中でも思い出す
+Dialogue: 0,0:01:12.12,0:01:17.92,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}前に進むんだ　見ていて
+Dialogue: 0,0:01:18.13,0:01:22.71,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}So repeat me we will be graduated
+Dialogue: 0,0:01:22.84,0:01:27.47,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}そんな風にも考えていたの
+Dialogue: 0,0:01:27.59,0:01:30.01,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}憧れ  抜錨  未来
+Dialogue: 0,0:01:30.10,0:01:32.52,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}絕望  喪失  別離
+Dialogue: 0,0:01:32.60,0:01:36.27,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}いくつもの悲しみと海を越え
+Dialogue: 0,0:01:36.39,0:01:41.52,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}たとえ世界のすべてが海色に溶けても
+Dialogue: 0,0:01:41.61,0:01:44.40,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}きっとあなたの声がする
+Dialogue: 0,0:01:44.49,0:01:46.95,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}大丈夫、帰ろうって  でも
+Dialogue: 0,0:01:46.99,0:01:52.08,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}世界がすべて反転しているのなら
+Dialogue: 0,0:01:52.20,0:01:57.17,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}それでもあなたと真っ直ぐに前を見てて
+Dialogue: 0,0:01:57.29,0:02:07.18,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}今願い込めた一撃  爆ぜた
+Dialogue: 0,0:00:42.22,0:00:45.93,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}朝陽如此炫目
+Dialogue: 0,0:00:57.69,0:01:03.07,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}相顧無言時  只聞波濤聲
+Dialogue: 0,0:01:03.15,0:01:07.91,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}彷彿叩問著回憶的意義
+Dialogue: 0,0:01:08.12,0:01:11.91,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}身處黑暗之中亦能憶起
+Dialogue: 0,0:01:12.12,0:01:17.92,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}當極目遠眺  一往無前
+Dialogue: 0,0:01:22.84,0:01:27.47,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}我也曾如此暢想
+Dialogue: 0,0:01:27.59,0:01:30.01,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}懷揣憧憬  向未來啟航
+Dialogue: 0,0:01:30.10,0:01:32.52,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}體味絕望  失去中別離
+Dialogue: 0,0:01:32.60,0:01:36.27,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}跨越這重重的悲傷與汪洋
+Dialogue: 0,0:01:36.39,0:01:41.52,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}就算這世界的一切溶為大海之色
+Dialogue: 0,0:01:41.61,0:01:44.40,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}也一定能感受到你的聲音
+Dialogue: 0,0:01:44.49,0:01:46.95,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}對我說  沒關係  回家吧
+Dialogue: 0,0:01:46.99,0:01:52.08,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}但若是這一切顛倒之時
+Dialogue: 0,0:01:52.20,0:01:57.17,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}即便如此也要同你勇往直前
+Dialogue: 0,0:01:57.29,0:02:07.18,OPCNN,NTP,0,0,0,,{\fad(100,100)\an2\fs36\blur4}凝聚心意的一擊  在此爆發
+Dialogue: 0,0:23:26.89,0:23:31.68,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}眠れぬ夜を超えて
+Dialogue: 0,0:23:32.79,0:23:38.93,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}星を見上げ続けてた
+Dialogue: 0,0:23:40.48,0:23:45.60,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}幾多の別れ超えて
+Dialogue: 0,0:23:46.26,0:23:52.72,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}波を見つめ続けてた
+Dialogue: 0,0:23:53.53,0:24:02.20,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}さあ　上ってる朝日が僕らを待ってる
+Dialogue: 0,0:24:02.45,0:24:07.23,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}時の向こうでは
+Dialogue: 0,0:24:07.62,0:24:14.66,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}忘れないの　二人のひだまり
+Dialogue: 0,0:24:15.05,0:24:18.16,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}思い出すよね
+Dialogue: 0,0:24:18.44,0:24:22.06,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}旅立ってく風を
+Dialogue: 0,0:24:22.25,0:24:28.37,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}ねぇ　二人の証は
+Dialogue: 0,0:24:28.61,0:24:31.60,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}消えることない
+Dialogue: 0,0:24:31.79,0:24:38.94,OPJPN,NTP,0,0,0,,{\fad(100,100)\an8\fs32\blur4}So，Let's not say "good-bye"
+Dialogue: 0,0:23:26.89,0:23:31.68,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}度過一個個不眠之夜
+Dialogue: 0,0:23:32.79,0:23:38.93,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}我一直長望遙遠星空
+Dialogue: 0,0:23:40.48,0:23:45.60,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}跨過一次次生離死別
+Dialogue: 0,0:23:46.26,0:23:52.72,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}我一直久久凝望浪花
+Dialogue: 0,0:23:53.53,0:24:02.20,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}朝陽正在遠方等待著我們
+Dialogue: 0,0:24:02.45,0:24:07.23,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}就在時空的彼岸
+Dialogue: 0,0:24:07.62,0:24:14.66,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}無法忘卻兩人一起沐浴過的溫暖陽光
+Dialogue: 0,0:24:15.05,0:24:18.16,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}它喚起我的回憶
+Dialogue: 0,0:24:18.44,0:24:22.06,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}那在記憶中宣告啟程的海風
+Dialogue: 0,0:24:22.25,0:24:28.37,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}我們兩人的證明
+Dialogue: 0,0:24:28.61,0:24:31.60,OPCNN,NTP,0,0,0,,{\fad(100,100)\an8\fs36\blur4}永遠不會被抹去
+Dialogue: 0,0:00:04.95,0:00:08.19,zhengwen,NTP,0,0,0,,終於  要開始了呢
+Dialogue: 0,0:00:10.86,0:00:11.86,zhengwen,NTP,0,0,0,,我知道了
+Dialogue: 0,0:00:12.33,0:00:15.62,zhengwen,NTP,0,0,0,,立刻篩選執行任務的合適人選
+Dialogue: 0,0:00:18.62,0:00:20.62,zhengwen,NTP,0,0,0,,好一個水雷魂
+Dialogue: 0,0:00:21.05,0:00:21.75,zhengwen,NTP,0,0,0,,好吧
+Dialogue: 0,0:00:22.13,0:00:25.04,zhengwen,NTP,0,0,0,,第三水雷戰隊  旗艦神通
+Dialogue: 0,0:00:25.12,0:00:25.58,zhengwen,NTP,0,0,0,,在
+Dialogue: 0,0:00:26.42,0:00:27.96,zhengwen,NTP,0,0,0,,按照當前的安排  做好出擊準備
+Dialogue: 0,0:00:28.50,0:00:29.71,zhengwen,NTP,0,0,0,,下次作戰的重擔
+Dialogue: 0,0:00:30.42,0:00:32.38,zhengwen,NTP,0,0,0,,就交給你們了
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:02:17.06,0:02:18.92,zhengwen,NTP,0,0,0,,怎麼了  吹雪？
+Dialogue: 0,0:02:19.22,0:02:21.67,zhengwen,NTP,0,0,0,,因為是第一次參加作戰說明
+Dialogue: 0,0:02:21.77,0:02:25.00,zhengwen,NTP,0,0,0,,在下略感緊張
+Dialogue: 0,0:02:25.14,0:02:28.01,zhengwen,NTP,0,0,0,,吹雪  說話方式好像又變了poi？
+Dialogue: 0,0:02:28.22,0:02:30.36,zhengwen,NTP,0,0,0,,咦  我有什麼奇怪的地方嗎？
+Dialogue: 0,0:02:30.63,0:02:32.33,zhengwen,NTP,0,0,0,,居然沒注意到poi？
+Dialogue: 0,0:02:33.18,0:02:36.11,zhengwen,NTP,0,0,0,,沒關係的  來  快點進去吧
+Dialogue: 0,0:02:42.23,0:02:43.64,zhengwen,NTP,0,0,0,,睦月
+Dialogue: 0,0:02:43.88,0:02:45.07,zhengwen,NTP,0,0,0,,如月
+Dialogue: 0,0:02:46.09,0:02:48.85,zhengwen,NTP,0,0,0,,難道說  如月你也要參加這次作戰？
+Dialogue: 0,0:02:49.07,0:02:49.96,zhengwen,NTP,0,0,0,,是的
+Dialogue: 0,0:02:50.84,0:02:52.31,zhengwen,NTP,0,0,0,,久違的共同作戰呢
+Dialogue: 0,0:02:52.36,0:02:53.06,zhengwen,NTP,0,0,0,,是啊
+Dialogue: 0,0:02:53.60,0:02:55.29,zhengwen,NTP,0,0,0,,那兩個還是老樣子
+Dialogue: 0,0:02:55.59,0:02:59.33,zhengwen,NTP,0,0,0,,在我們姊妹艦中也是形影不離的一對呢
+Dialogue: 0,0:02:59.85,0:03:02.30,zhengwen,NTP,0,0,0,,人家才沒有…羨慕嫉妒恨
+Dialogue: 0,0:03:03.45,0:03:05.85,zhengwen,NTP,0,0,0,,吹雪你是第一次見到她們倆poi？
+Dialogue: 0,0:03:08.20,0:03:09.69,zhengwen,NTP,0,0,0,,我是望月
+Dialogue: 0,0:03:10.20,0:03:15.47,zhengwen,NTP,0,0,0,,我是彌生  請不必在意我
+Dialogue: 0,0:03:15.91,0:03:18.70,zhengwen,NTP,0,0,0,,我叫吹雪  請多多指教
+Dialogue: 0,0:03:25.08,0:03:25.82,zhengwen,NTP,0,0,0,,敬禮
+Dialogue: 0,0:03:29.42,0:03:30.93,zhengwen,NTP,0,0,0,,我是秘書艦長門
+Dialogue: 0,0:03:31.20,0:03:35.09,zhengwen,NTP,0,0,0,,時間緊急  現在傳達提督的作戰計劃
+Dialogue: 0,0:03:36.36,0:03:38.95,zhengwen,NTP,0,0,0,,我想大家應該已經清楚
+Dialogue: 0,0:03:39.56,0:03:42.75,zhengwen,NTP,0,0,0,,由於日前發現並殲滅了敵人棲地
+Dialogue: 0,0:03:43.10,0:03:44.92,zhengwen,NTP,0,0,0,,附近的深海棲艦據點已經被清除乾淨
+Dialogue: 0,0:03:45.39,0:03:46.70,zhengwen,NTP,0,0,0,,日前…
+Dialogue: 0,0:03:51.10,0:03:55.94,zhengwen,NTP,0,0,0,,據此  預期不久之後將下令進行大規模反攻
+Dialogue: 0,0:03:57.46,0:04:01.05,zhengwen,NTP,0,0,0,,本次作戰  正是大戰前的試金石
+Dialogue: 0,0:04:01.65,0:04:04.83,zhengwen,NTP,0,0,0,,目標是這裏  W島
+Dialogue: 0,0:04:06.04,0:04:11.86,zhengwen,NTP,0,0,0,,希望你們能通過夜戰奇襲來殲滅在守衛這座島的敵水雷戰隊
+Dialogue: 0,0:04:12.18,0:04:15.27,zhengwen,NTP,0,0,0,,太好了  我期待已久的夜戰
+Dialogue: 0,0:04:15.39,0:04:16.46,zhengwen,NTP,0,0,0,,姐姐
+Dialogue: 0,0:04:16.75,0:04:17.99,zhengwen,NTP,0,0,0,,基本的作戰計劃如下
+Dialogue: 0,0:04:18.20,0:04:22.15,zhengwen,NTP,0,0,0,,第三水雷戰隊作為誘餌  引誘敵人並佯退
+Dialogue: 0,0:04:22.57,0:04:25.86,zhengwen,NTP,0,0,0,,誘導敵人進入第四水雷戰隊佈陣的海域
+Dialogue: 0,0:04:26.07,0:04:27.52,zhengwen,NTP,0,0,0,,兩隊進行夾擊
+Dialogue: 0,0:04:28.30,0:04:29.94,zhengwen,NTP,0,0,0,,如果能將W島攻下
+Dialogue: 0,0:04:30.15,0:04:31.59,zhengwen,NTP,0,0,0,,就能補全哨戒線
+Dialogue: 0,0:04:31.87,0:04:34.13,zhengwen,NTP,0,0,0,,接下來的作戰也將成為可能
+Dialogue: 0,0:04:34.97,0:04:36.12,zhengwen,NTP,0,0,0,,做好覺悟了嗎
+Dialogue: 0,0:04:43.96,0:04:46.10,zhengwen,NTP,0,0,0,,夜戰奇襲嗎
+Dialogue: 0,0:04:46.80,0:04:48.34,zhengwen,NTP,0,0,0,,好緊張啊
+Dialogue: 0,0:04:48.61,0:04:51.48,zhengwen,NTP,0,0,0,,吹雪  臉色很難看poi
+Dialogue: 0,0:04:51.71,0:04:54.04,zhengwen,NTP,0,0,0,,不用那麼擔心的…
+Dialogue: 0,0:04:54.24,0:04:57.19,zhengwen,NTP,0,0,0,,三水戰的各位  要出擊了呢
+Dialogue: 0,0:04:59.10,0:05:00.64,zhengwen,NTP,0,0,0,,聽說你們要進行夜戰的說
+Dialogue: 0,0:05:00.97,0:05:04.22,zhengwen,NTP,0,0,0,,所以希望吹雪你能吃些這個的說
+Dialogue: 0,0:05:06.14,0:05:07.19,zhengwen,NTP,0,0,0,,謝謝你
+Dialogue: 0,0:05:07.51,0:05:08.41,zhengwen,NTP,0,0,0,,這是…
+Dialogue: 0,0:05:08.65,0:05:09.51,zhengwen,NTP,0,0,0,,藍莓
+Dialogue: 0,0:05:10.01,0:05:11.43,zhengwen,NTP,0,0,0,,不是說這個對眼睛好嘛
+Dialogue: 0,0:05:11.73,0:05:13.86,zhengwen,NTP,0,0,0,,這樣一來夜戰肯定沒問題的
+Dialogue: 0,0:05:14.09,0:05:16.99,zhengwen,NTP,0,0,0,,吹雪  聽說你要出擊了？
+Dialogue: 0,0:05:17.90,0:05:18.59,zhengwen,NTP,0,0,0,,是的
+Dialogue: 0,0:05:21.11,0:05:23.02,zhengwen,NTP,0,0,0,,可以的話  請收下這個
+Dialogue: 0,0:05:24.01,0:05:25.08,zhengwen,NTP,0,0,0,,護身符？
+Dialogue: 0,0:05:25.50,0:05:28.12,zhengwen,NTP,0,0,0,,可以保佑你不被敵人的炮彈擊中
+Dialogue: 0,0:05:28.64,0:05:30.79,zhengwen,NTP,0,0,0,,其實裏面裝了愛宕的…
+Dialogue: 0,0:05:30.81,0:05:31.95,zhengwen,NTP,0,0,0,,高雄
+Dialogue: 0,0:05:33.36,0:05:36.41,zhengwen,NTP,0,0,0,,也請收下我們的平安祝福
+Dialogue: 0,0:05:36.83,0:05:39.13,zhengwen,NTP,0,0,0,,謝…謝謝你們
+Dialogue: 0,0:05:39.36,0:05:42.27,zhengwen,NTP,0,0,0,,來  請多吃一點
+Dialogue: 0,0:05:42.94,0:05:44.14,zhengwen,NTP,0,0,0,,我沒有點這個…
+Dialogue: 0,0:05:44.23,0:05:45.49,zhengwen,NTP,0,0,0,,是吾輩點的…
+Dialogue: 0,0:05:46.18,0:05:49.19,zhengwen,NTP,0,0,0,,吃頓好的  不要留下遺憾哦
+Dialogue: 0,0:05:49.56,0:05:51.55,zhengwen,NTP,0,0,0,,祝你武運長久
+Dialogue: 0,0:05:51.92,0:05:54.29,zhengwen,NTP,0,0,0,,謝謝你們
+Dialogue: 0,0:05:55.54,0:05:57.47,zhengwen,NTP,0,0,0,,她能欣然收下真是太好了
+Dialogue: 0,0:06:00.09,0:06:02.33,zhengwen,NTP,0,0,0,,吹雪的人氣真高poi
+Dialogue: 0,0:06:02.71,0:06:03.88,zhengwen,NTP,0,0,0,,不如說是…
+Dialogue: 0,0:06:04.01,0:06:06.40,zhengwen,NTP,0,0,0,,快讓開  你擋著北上了
+Dialogue: 0,0:06:06.92,0:06:07.97,zhengwen,NTP,0,0,0,,對不起
+Dialogue: 0,0:06:09.67,0:06:11.19,zhengwen,NTP,0,0,0,,是慰問品啊
+Dialogue: 0,0:06:12.08,0:06:16.92,zhengwen,NTP,0,0,0,,畢竟下次的作戰裏中彈可能性最高的就是這孩子吧
+Dialogue: 0,0:06:17.83,0:06:19.43,zhengwen,NTP,0,0,0,,吹雪  振作一點
+Dialogue: 0,0:06:19.90,0:06:22.79,zhengwen,NTP,0,0,0,,事到如今  手忙腳亂也沒用了
+Dialogue: 0,0:06:23.33,0:06:24.64,zhengwen,NTP,0,0,0,,放鬆一點如何？
+Dialogue: 0,0:06:25.15,0:06:29.90,zhengwen,NTP,0,0,0,,聽好了  北上為了教你甚至減少了跟我相處的時間
+Dialogue: 0,0:06:30.26,0:06:32.67,zhengwen,NTP,0,0,0,,至少給我打中一發再回來
+Dialogue: 0,0:06:34.01,0:06:34.68,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:06:36.69,0:06:39.02,zhengwen,NTP,0,0,0,,我再去練練
+Dialogue: 0,0:06:39.57,0:06:40.78,zhengwen,NTP,0,0,0,,不可以poi
+Dialogue: 0,0:06:41.26,0:06:45.35,zhengwen,NTP,0,0,0,,不是說了  為了準備明天作戰  今晚要好好休息poi
+Dialogue: 0,0:06:45.75,0:06:49.79,zhengwen,NTP,0,0,0,,但是我會拖大家後腿的
+Dialogue: 0,0:06:50.69,0:06:52.04,zhengwen,NTP,0,0,0,,才沒有那回事
+Dialogue: 0,0:06:52.98,0:06:54.04,zhengwen,NTP,0,0,0,,睦月？
+Dialogue: 0,0:06:54.98,0:06:57.24,zhengwen,NTP,0,0,0,,沒事的  一定能做到的
+Dialogue: 0,0:06:57.56,0:07:01.01,zhengwen,NTP,0,0,0,,吹雪已經努力進行了那麼多特訓
+Dialogue: 0,0:07:02.09,0:07:02.84,zhengwen,NTP,0,0,0,,但是…
+Dialogue: 0,0:07:04.95,0:07:06.34,zhengwen,NTP,0,0,0,,我相信你
+Dialogue: 0,0:07:06.83,0:07:08.03,zhengwen,NTP,0,0,0,,拿出自信來
+Dialogue: 0,0:07:08.36,0:07:10.85,zhengwen,NTP,0,0,0,,吹雪絕對沒問題的
+Dialogue: 0,0:07:11.49,0:07:12.73,zhengwen,NTP,0,0,0,,睦月
+Dialogue: 0,0:07:26.63,0:07:28.95,zhengwen,NTP,0,0,0,,吹雪  已經不要緊了poi？
+Dialogue: 0,0:07:29.52,0:07:32.04,zhengwen,NTP,0,0,0,,是的  都是虧了睦月啊
+Dialogue: 0,0:07:32.86,0:07:38.76,zhengwen,NTP,0,0,0,,只是以前如月也對我說了「我相信你」
+Dialogue: 0,0:07:39.32,0:07:41.70,zhengwen,NTP,0,0,0,,讓我非常受鼓舞
+Dialogue: 0,0:07:43.26,0:07:44.74,zhengwen,NTP,0,0,0,,如月嗎
+Dialogue: 0,0:07:45.48,0:07:49.50,zhengwen,NTP,0,0,0,,其實呢  雖然我是睦月型驅逐艦一號艦
+Dialogue: 0,0:07:50.13,0:07:54.44,zhengwen,NTP,0,0,0,,但如月比我要更早一點服役  算是姐姐
+Dialogue: 0,0:07:55.78,0:07:57.68,zhengwen,NTP,0,0,0,,感覺好罕見poi
+Dialogue: 0,0:07:59.25,0:08:04.34,zhengwen,NTP,0,0,0,,我到鎮守府服役後  立刻進行了實戰
+Dialogue: 0,0:08:05.44,0:08:09.28,zhengwen,NTP,0,0,0,,雖然還沒等我反應過來  前輩們就已經收拾掉敵人了
+Dialogue: 0,0:08:09.51,0:08:11.75,zhengwen,NTP,0,0,0,,但我還是輕度受損
+Dialogue: 0,0:08:14.10,0:08:18.37,zhengwen,NTP,0,0,0,,那之後如月一直在我的身旁  照顧著我
+Dialogue: 0,0:08:21.15,0:08:22.67,zhengwen,NTP,0,0,0,,鼓勵我
+Dialogue: 0,0:08:25.21,0:08:27.49,zhengwen,NTP,0,0,0,,我十分感謝她
+Dialogue: 0,0:08:31.67,0:08:34.07,zhengwen,NTP,0,0,0,,感覺就像我和睦月的關係一樣呢
+Dialogue: 0,0:08:35.48,0:08:37.61,zhengwen,NTP,0,0,0,,我才沒有…我完全…
+Dialogue: 0,0:08:37.72,0:08:40.89,zhengwen,NTP,0,0,0,,才沒有那回事  正因為有睦月對我說這些
+Dialogue: 0,0:08:41.12,0:08:42.90,zhengwen,NTP,0,0,0,,我才能這麼努力啊
+Dialogue: 0,0:08:43.98,0:08:45.17,zhengwen,NTP,0,0,0,,吹雪
+Dialogue: 0,0:08:46.95,0:08:48.67,zhengwen,NTP,0,0,0,,好像夕立礙著你們了poi？
+Dialogue: 0,0:08:49.78,0:08:53.85,zhengwen,NTP,0,0,0,,當然我也很感謝夕立啊
+Dialogue: 0,0:08:54.40,0:08:55.86,zhengwen,NTP,0,0,0,,感覺像我逼你說的poi
+Dialogue: 0,0:08:56.74,0:08:58.49,zhengwen,NTP,0,0,0,,是真的啦
+Dialogue: 0,0:08:58.55,0:08:59.47,zhengwen,NTP,0,0,0,,太假了poi
+Dialogue: 0,0:08:59.53,0:09:01.38,zhengwen,NTP,0,0,0,,真的是真的啦
+Dialogue: 0,0:09:01.41,0:09:02.78,zhengwen,NTP,0,0,0,,太假了poi
+Dialogue: 0,0:09:26.24,0:09:27.66,zhengwen,NTP,0,0,0,,很努力呢
+Dialogue: 0,0:09:28.99,0:09:30.26,zhengwen,NTP,0,0,0,,赤城前輩
+Dialogue: 0,0:09:32.07,0:09:34.86,zhengwen,NTP,0,0,0,,只是想稍微複習一下
+Dialogue: 0,0:09:35.36,0:09:38.90,zhengwen,NTP,0,0,0,,明明接受了大家的特訓  我卻…
+Dialogue: 0,0:09:41.85,0:09:43.75,zhengwen,NTP,0,0,0,,你先在旁邊看一下吧？
+Dialogue: 0,0:10:04.95,0:10:06.23,zhengwen,NTP,0,0,0,,好厲害
+Dialogue: 0,0:10:08.43,0:10:11.68,zhengwen,NTP,0,0,0,,有這麼一句話叫做「正射必中」
+Dialogue: 0,0:10:12.23,0:10:17.33,zhengwen,NTP,0,0,0,,意思大致是「只要擺正姿勢  就能自然而然地射中」
+Dialogue: 0,0:10:17.66,0:10:18.26,zhengwen,NTP,0,0,0,,但我認為是
+Dialogue: 0,0:10:18.32,0:10:24.20,zhengwen,NTP,0,0,0,,「只要刻苦訓練的話  就一定會有好結果」的意思
+Dialogue: 0,0:10:25.41,0:10:27.55,zhengwen,NTP,0,0,0,,「正射必中」？
+Dialogue: 0,0:10:27.90,0:10:32.34,zhengwen,NTP,0,0,0,,如果覺得自己已經得到足夠的訓練  不如放手去試試如何？
+Dialogue: 0,0:10:32.72,0:10:35.45,zhengwen,NTP,0,0,0,,身體一定記得的
+Dialogue: 0,0:10:37.40,0:10:38.03,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:10:41.93,0:10:47.27,zhengwen,NTP,0,0,0,,說回來  赤城前輩  為什麼這麼早就起來訓練？
+Dialogue: 0,0:10:52.72,0:10:54.41,zhengwen,NTP,0,0,0,,早上好
+Dialogue: 0,0:10:54.96,0:11:00.44,zhengwen,NTP,0,0,0,,我只是偶爾早一點起床  然後發現她在門前準備敲門
+Dialogue: 0,0:11:00.78,0:11:05.91,zhengwen,NTP,0,0,0,,我只是想著  如果是如月的話  一定會這樣做的  只是這樣
+Dialogue: 0,0:11:06.34,0:11:07.57,zhengwen,NTP,0,0,0,,睦月
+Dialogue: 0,0:11:09.42,0:11:10.58,zhengwen,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:11:10.97,0:11:14.37,zhengwen,NTP,0,0,0,,我一味地受著睦月的照顧
+Dialogue: 0,0:11:14.86,0:11:17.53,zhengwen,NTP,0,0,0,,不知道怎樣才能報答你
+Dialogue: 0,0:11:18.54,0:11:20.28,zhengwen,NTP,0,0,0,,我不在乎那些的
+Dialogue: 0,0:11:22.37,0:11:26.48,zhengwen,NTP,0,0,0,,但是  或許我也在考慮同樣的事情
+Dialogue: 0,0:11:27.00,0:11:31.78,zhengwen,NTP,0,0,0,,要怎樣才能報答如月和前輩們
+Dialogue: 0,0:11:34.12,0:11:36.65,zhengwen,NTP,0,0,0,,誰都沒有期待著報恩
+Dialogue: 0,0:11:37.00,0:11:39.53,zhengwen,NTP,0,0,0,,所以只要說出來就好
+Dialogue: 0,0:11:41.19,0:11:42.78,zhengwen,NTP,0,0,0,,「謝謝你」
+Dialogue: 0,0:11:43.45,0:11:45.62,zhengwen,NTP,0,0,0,,坦率地說出所想之事
+Dialogue: 0,0:11:47.02,0:11:49.13,zhengwen,NTP,0,0,0,,只是這樣就足夠了嗎
+Dialogue: 0,0:11:51.01,0:11:57.56,zhengwen,NTP,0,0,0,,從誕生的那一刻起  戰鬥就是我們艦娘的宿命
+Dialogue: 0,0:11:58.77,0:12:02.98,zhengwen,NTP,0,0,0,,反攻作戰開始後  戰鬥勢必會趨於白熱化
+Dialogue: 0,0:12:03.64,0:12:06.27,zhengwen,NTP,0,0,0,,不知道現在這座鎮守府的艦娘們
+Dialogue: 0,0:12:06.45,0:12:08.37,zhengwen,NTP,0,0,0,,到底有多少人能全身而還
+Dialogue: 0,0:12:09.02,0:12:13.02,zhengwen,NTP,0,0,0,,但是  即使如此  我依然覺得生為艦娘是一大幸事
+Dialogue: 0,0:12:13.57,0:12:16.44,zhengwen,NTP,0,0,0,,因為我能夠守護重要的人
+Dialogue: 0,0:12:16.82,0:12:20.23,zhengwen,NTP,0,0,0,,能和最喜歡的夥伴們一起戰鬥
+Dialogue: 0,0:12:23.57,0:12:26.24,zhengwen,NTP,0,0,0,,鋼鐵鑄造的舾裝  是為了戰鬥而存在
+Dialogue: 0,0:12:26.80,0:12:29.53,zhengwen,NTP,0,0,0,,體內涌動的血液  是為了守護而存在
+Dialogue: 0,0:12:29.91,0:12:32.73,zhengwen,NTP,0,0,0,,隱藏胸中的真心  是為了關愛而存在
+Dialogue: 0,0:12:33.54,0:12:35.73,zhengwen,NTP,0,0,0,,「謝謝你」  「我最喜歡你了」
+Dialogue: 0,0:12:36.20,0:12:38.43,zhengwen,NTP,0,0,0,,「你好棒」  「我好開心」
+Dialogue: 0,0:12:39.29,0:12:44.54,zhengwen,NTP,0,0,0,,不要猶豫  將你這份寶貴的感情傳達給你珍視的人吧
+Dialogue: 0,0:12:45.01,0:12:48.93,zhengwen,NTP,0,0,0,,因為明天  我們或許就沒有機會相見了
+Dialogue: 0,0:12:50.67,0:12:51.36,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:13:00.06,0:13:01.45,zhengwen,NTP,0,0,0,,謝謝你  睦月
+Dialogue: 0,0:13:02.19,0:13:03.22,zhengwen,NTP,0,0,0,,我最喜歡你了
+Dialogue: 0,0:13:03.77,0:13:06.28,zhengwen,NTP,0,0,0,,我也是  最喜歡你了
+Dialogue: 0,0:13:10.80,0:13:12.34,zhengwen,NTP,0,0,0,,另外…那個…
+Dialogue: 0,0:13:12.92,0:13:14.12,zhengwen,NTP,0,0,0,,赤城前輩
+Dialogue: 0,0:13:14.70,0:13:17.63,zhengwen,NTP,0,0,0,,我很尊敬前輩您
+Dialogue: 0,0:13:17.88,0:13:21.00,zhengwen,NTP,0,0,0,,希望有一天我能和您在同一個艦隊中戰鬥
+Dialogue: 0,0:13:22.77,0:13:25.29,zhengwen,NTP,0,0,0,,謝謝你  我等著你哦
+Dialogue: 0,0:13:27.02,0:13:27.75,zhengwen,NTP,0,0,0,,明白
+Dialogue: 0,0:13:33.71,0:13:34.85,zhengwen,NTP,0,0,0,,那麼…
+Dialogue: 0,0:13:35.02,0:13:38.08,zhengwen,NTP,0,0,0,,夜戰啦夜戰啦  迫不及待啊
+Dialogue: 0,0:13:38.27,0:13:41.29,zhengwen,NTP,0,0,0,,我也是  感覺渾身發熱呢
+Dialogue: 0,0:13:41.58,0:13:43.45,zhengwen,NTP,0,0,0,,誘敵工作就交給我吧
+Dialogue: 0,0:13:43.61,0:13:47.35,zhengwen,NTP,0,0,0,,那珂醬的魅力  會讓所有人神魂顛倒哦
+Dialogue: 0,0:13:47.54,0:13:49.18,zhengwen,NTP,0,0,0,,這倒是令人不安kuma
+Dialogue: 0,0:13:49.36,0:13:51.62,zhengwen,NTP,0,0,0,,各位  別扔下我不管哦
+Dialogue: 0,0:13:52.05,0:13:54.46,zhengwen,NTP,0,0,0,,沒事喵  沒有問題喵
+Dialogue: 0,0:13:54.70,0:13:55.58,zhengwen,NTP,0,0,0,,真的嗎
+Dialogue: 0,0:13:55.65,0:13:57.34,zhengwen,NTP,0,0,0,,話說  如月
+Dialogue: 0,0:14:00.23,0:14:01.09,zhengwen,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:14:01.68,0:14:04.74,zhengwen,NTP,0,0,0,,那個…這場作戰結束以後
+Dialogue: 0,0:14:05.29,0:14:07.02,zhengwen,NTP,0,0,0,,我有話想對你說
+Dialogue: 0,0:14:07.31,0:14:10.26,zhengwen,NTP,0,0,0,,哎呀  這是愛的告白嗎
+Dialogue: 0,0:14:10.40,0:14:11.41,zhengwen,NTP,0,0,0,,不是的啦
+Dialogue: 0,0:14:11.80,0:14:16.30,zhengwen,NTP,0,0,0,,雖然也差不多  但是…那個…
+Dialogue: 0,0:14:19.43,0:14:20.59,zhengwen,NTP,0,0,0,,我明白了
+Dialogue: 0,0:14:22.11,0:14:24.20,zhengwen,NTP,0,0,0,,說好了哦
+Dialogue: 0,0:14:31.13,0:14:32.89,zhengwen,NTP,0,0,0,,預定開始作戰的時間已到
+Dialogue: 0,0:14:35.14,0:14:37.55,zhengwen,NTP,0,0,0,,W島攻略作戰開始
+Dialogue: 0,0:14:38.39,0:14:42.17,zhengwen,NTP,0,0,0,,第三  第四水雷戰隊  出擊
+Dialogue: 0,0:14:42.35,0:14:43.03,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:14:51.84,0:14:53.20,zhengwen,NTP,0,0,0,,找到了
+Dialogue: 0,0:14:53.87,0:14:55.43,zhengwen,NTP,0,0,0,,沒被發現吧
+Dialogue: 0,0:14:56.76,0:14:58.43,zhengwen,NTP,0,0,0,,畢竟今天是潛入行動嘛
+Dialogue: 0,0:14:59.47,0:15:03.68,zhengwen,NTP,0,0,0,,依照作戰  我們就在這裏觀察敵人的動向  等待夜幕降臨
+Dialogue: 0,0:15:04.29,0:15:06.17,zhengwen,NTP,0,0,0,,姐姐  派出零式水偵吧
+Dialogue: 0,0:15:06.61,0:15:07.49,zhengwen,NTP,0,0,0,,好的
+Dialogue: 0,0:15:12.60,0:15:13.80,zhengwen,NTP,0,0,0,,交給你了
+Dialogue: 0,0:15:16.19,0:15:17.90,zhengwen,NTP,0,0,0,,去吧
+Dialogue: 0,0:15:26.87,0:15:29.65,zhengwen,NTP,0,0,0,,吹雪  夕立  睦月
+Dialogue: 0,0:15:30.29,0:15:34.23,zhengwen,NTP,0,0,0,,你們輪流通過目視進行戒備
+Dialogue: 0,0:15:34.65,0:15:35.30,zhengwen,NTP,0,0,0,,是
+Dialogue: 0,0:15:40.76,0:15:42.30,zhengwen,NTP,0,0,0,,話說  夕立
+Dialogue: 0,0:15:43.79,0:15:47.50,zhengwen,NTP,0,0,0,,我…最喜歡夕立了
+Dialogue: 0,0:15:51.77,0:15:53.23,zhengwen,NTP,0,0,0,,你真是太唐突了
+Dialogue: 0,0:15:53.41,0:15:56.33,zhengwen,NTP,0,0,0,,睦月你是因為緊張而壞掉了poi？
+Dialogue: 0,0:15:56.70,0:15:57.89,zhengwen,NTP,0,0,0,,不是的啦
+Dialogue: 0,0:15:58.93,0:16:01.06,zhengwen,NTP,0,0,0,,其實  今天早上…
+Dialogue: 0,0:16:03.75,0:16:05.87,zhengwen,NTP,0,0,0,,水上偵察機怎麼還不回來
+Dialogue: 0,0:16:06.18,0:16:08.11,zhengwen,NTP,0,0,0,,不知道有沒有拍攝完哦
+Dialogue: 0,0:16:08.34,0:16:10.47,zhengwen,NTP,0,0,0,,有點擔心呢…
+Dialogue: 0,0:16:12.55,0:16:14.83,zhengwen,NTP,0,0,0,,然後  赤城前輩她…
+Dialogue: 0,0:16:16.67,0:16:18.25,zhengwen,NTP,0,0,0,,還發生了這種事情啊
+Dialogue: 0,0:16:19.49,0:16:20.87,zhengwen,NTP,0,0,0,,有點令人憧憬poi
+Dialogue: 0,0:16:21.08,0:16:23.67,zhengwen,NTP,0,0,0,,是吧  所以我就想
+Dialogue: 0,0:16:23.85,0:16:27.92,zhengwen,NTP,0,0,0,,我好像還沒怎麼對夕立說過這些話
+Dialogue: 0,0:16:28.43,0:16:31.82,zhengwen,NTP,0,0,0,,要這麼說的話  我也一樣…
+Dialogue: 0,0:16:32.48,0:16:35.22,zhengwen,NTP,0,0,0,,對睦月你們…很…
+Dialogue: 0,0:16:36.50,0:16:37.31,zhengwen,NTP,0,0,0,,不會吧
+Dialogue: 0,0:16:38.06,0:16:39.85,zhengwen,NTP,0,0,0,,怎麼了  特型驅逐艦
+Dialogue: 0,0:16:40.28,0:16:41.44,zhengwen,NTP,0,0,0,,10點鐘方向
+Dialogue: 0,0:16:42.21,0:16:42.93,zhengwen,NTP,0,0,0,,是敵機
+Dialogue: 0,0:16:45.42,0:16:46.31,zhengwen,NTP,0,0,0,,怎麼會
+Dialogue: 0,0:16:46.37,0:16:48.34,zhengwen,NTP,0,0,0,,Wo級應該還沒有動靜
+Dialogue: 0,0:16:48.48,0:16:49.25,zhengwen,NTP,0,0,0,,到底是從哪裏…
+Dialogue: 0,0:16:49.52,0:16:52.46,zhengwen,NTP,0,0,0,,要緊的是  既然我們被敵軍偵察機發現了…
+Dialogue: 0,0:16:52.80,0:16:54.84,zhengwen,NTP,0,0,0,,敵軍艦隊開始行動了
+Dialogue: 0,0:16:55.93,0:16:57.20,zhengwen,NTP,0,0,0,,快聯繫司令部
+Dialogue: 0,0:16:59.61,0:17:00.43,zhengwen,NTP,0,0,0,,這怎麼可能
+Dialogue: 0,0:17:00.76,0:17:01.47,zhengwen,NTP,0,0,0,,怎麼辦
+Dialogue: 0,0:17:01.65,0:17:05.78,zhengwen,NTP,0,0,0,,三水戰既已被敵軍發現  奇襲作戰計劃便破產了
+Dialogue: 0,0:17:06.38,0:17:09.26,zhengwen,NTP,0,0,0,,要調用四水戰進行正面對決嗎
+Dialogue: 0,0:17:09.68,0:17:11.99,zhengwen,NTP,0,0,0,,不  讓三水戰撤退
+Dialogue: 0,0:17:12.52,0:17:15.54,zhengwen,NTP,0,0,0,,傳令她們用最大馬力脫離當前海域
+Dialogue: 0,0:17:17.78,0:17:21.60,zhengwen,NTP,0,0,0,,但是敵軍只有兩艘輕巡  四艘驅逐艦  總計六艘船
+Dialogue: 0,0:17:21.97,0:17:24.32,zhengwen,NTP,0,0,0,,我們有兩隊  應該能夠應付
+Dialogue: 0,0:17:25.34,0:17:26.82,zhengwen,NTP,0,0,0,,前提是敵軍真的只有那一點
+Dialogue: 0,0:17:28.49,0:17:29.77,zhengwen,NTP,0,0,0,,姐姐  快看
+Dialogue: 0,0:17:39.36,0:17:39.84,zhengwen,NTP,0,0,0,,不會吧
+Dialogue: 0,0:17:40.10,0:17:41.85,zhengwen,NTP,0,0,0,,居然有兩艘Nu級？
+Dialogue: 0,0:17:41.89,0:17:43.04,zhengwen,NTP,0,0,0,,被發現了
+Dialogue: 0,0:17:43.26,0:17:43.97,zhengwen,NTP,0,0,0,,要來了
+Dialogue: 0,0:17:46.53,0:17:50.05,zhengwen,NTP,0,0,0,,輪型陣  全艦準備對空戰鬥
+Dialogue: 0,0:17:54.56,0:17:56.19,zhengwen,NTP,0,0,0,,開始射擊
+Dialogue: 0,0:17:59.18,0:18:02.86,zhengwen,NTP,0,0,0,,我  一定要和大家一起回去
+Dialogue: 0,0:18:03.85,0:18:05.17,zhengwen,NTP,0,0,0,,有兩艘航母？
+Dialogue: 0,0:18:05.44,0:18:06.56,zhengwen,NTP,0,0,0,,果然如此嗎
+Dialogue: 0,0:18:06.76,0:18:07.57,zhengwen,NTP,0,0,0,,這樣下去
+Dialogue: 0,0:18:07.96,0:18:12.09,zhengwen,NTP,0,0,0,,三水戰一定會被敵軍水雷戰隊追上  受到夾擊
+Dialogue: 0,0:18:12.74,0:18:13.80,zhengwen,NTP,0,0,0,,他們不會得逞的
+Dialogue: 0,0:18:14.04,0:18:17.79,zhengwen,NTP,0,0,0,,傳電四水戰  讓她們拖住敵軍水雷戰隊
+Dialogue: 0,0:18:20.12,0:18:21.87,zhengwen,NTP,0,0,0,,但下一步要怎麼做？
+Dialogue: 0,0:18:22.34,0:18:24.58,zhengwen,NTP,0,0,0,,現在再派出增援也趕不上了
+Dialogue: 0,0:18:25.18,0:18:26.87,zhengwen,NTP,0,0,0,,不  還有別的方法
+Dialogue: 0,0:18:31.37,0:18:33.77,zhengwen,NTP,0,0,0,,發現敵軍水雷戰隊kuma
+Dialogue: 0,0:18:33.93,0:18:35.74,zhengwen,NTP,0,0,0,,準備炮擊戰  雷擊戰
+Dialogue: 0,0:18:37.15,0:18:38.11,zhengwen,NTP,0,0,0,,睦月…
+Dialogue: 0,0:18:38.81,0:18:41.04,zhengwen,NTP,0,0,0,,各位  我們一定要在這裏攔住他們
+Dialogue: 0,0:18:41.27,0:18:42.54,zhengwen,NTP,0,0,0,,開火
+Dialogue: 0,0:18:47.48,0:18:53.67,zhengwen,NTP,0,0,0,,那珂是大家的偶像  不要這樣攻擊人家啦
+Dialogue: 0,0:18:54.90,0:18:58.95,zhengwen,NTP,0,0,0,,它們嗡嗡作響  要打下來好難poi
+Dialogue: 0,0:19:00.92,0:19:06.01,zhengwen,NTP,0,0,0,,吹雪  我們一定  一定要一起回家
+Dialogue: 0,0:19:06.43,0:19:07.09,zhengwen,NTP,0,0,0,,明白
+Dialogue: 0,0:19:19.37,0:19:20.77,zhengwen,NTP,0,0,0,,睦月  發射魚雷
+Dialogue: 0,0:19:21.23,0:19:22.34,zhengwen,NTP,0,0,0,,從你的位置發射一定能打中
+Dialogue: 0,0:19:23.75,0:19:25.89,zhengwen,NTP,0,0,0,,發射
+Dialogue: 0,0:19:48.55,0:19:50.98,zhengwen,NTP,0,0,0,,睦月
+Dialogue: 0,0:20:02.38,0:20:03.83,zhengwen,NTP,0,0,0,,吹雪  發射魚雷
+Dialogue: 0,0:20:04.74,0:20:06.28,zhengwen,NTP,0,0,0,,記住「正射必中」
+Dialogue: 0,0:20:10.70,0:20:11.97,zhengwen,NTP,0,0,0,,相信自己
+Dialogue: 0,0:20:13.05,0:20:15.50,zhengwen,NTP,0,0,0,,拜託了  打中吧
+Dialogue: 0,0:20:27.75,0:20:29.17,zhengwen,NTP,0,0,0,,各位  就是現在
+Dialogue: 0,0:20:30.56,0:20:31.24,zhengwen,NTP,0,0,0,,poi
+Dialogue: 0,0:20:33.41,0:20:35.05,zhengwen,NTP,0,0,0,,發射
+Dialogue: 0,0:20:47.08,0:20:47.96,zhengwen,NTP,0,0,0,,打中了
+Dialogue: 0,0:20:50.09,0:20:52.51,zhengwen,NTP,0,0,0,,不要掉以輕心  敵人還沒有…
+Dialogue: 0,0:21:01.49,0:21:02.27,zhengwen,NTP,0,0,0,,三式彈…
+Dialogue: 0,0:21:02.65,0:21:04.22,zhengwen,NTP,0,0,0,,從水平線的對面射來的？
+Dialogue: 0,0:21:05.22,0:21:06.49,zhengwen,NTP,0,0,0,,她們趕上了嗎
+Dialogue: 0,0:21:14.05,0:21:15.99,zhengwen,NTP,0,0,0,,主炮齊射
+Dialogue: 0,0:21:25.36,0:21:26.41,zhengwen,NTP,0,0,0,,好厲害…
+Dialogue: 0,0:21:26.84,0:21:28.62,zhengwen,NTP,0,0,0,,對  果然是這樣的
+Dialogue: 0,0:21:29.20,0:21:31.81,zhengwen,NTP,0,0,0,,那是遠征中的第二艦隊
+Dialogue: 0,0:21:32.46,0:21:36.05,zhengwen,NTP,0,0,0,,原來如此  她們已經回到這片海域附近了嗎
+Dialogue: 0,0:21:36.90,0:21:40.73,zhengwen,NTP,0,0,0,,快看kuma  敵軍殘艦正在撤退kuma
+Dialogue: 0,0:21:51.84,0:21:54.98,zhengwen,NTP,0,0,0,,太好了  看來一切安好
+Dialogue: 0,0:21:58.65,0:22:01.51,zhengwen,NTP,0,0,0,,討厭  這樣要傷到頭髮的
+Dialogue: 0,0:22:12.17,0:22:14.61,zhengwen,NTP,0,0,0,,等著我哦  如月
+Dialogue: 0,0:22:34.98,0:22:39.06,zhengwen,NTP,0,0,0,,請不要忘了…如月哦…
+Dialogue: 0,0:22:55.05,0:22:59.52,zhengwen,NTP,0,0,0,,據說你拿到了金星？還挺厲害的嘛  吹雪
+Dialogue: 0,0:22:55.05,0:22:59.52,zhengwen,NTP,0,0,0,,{\fs32\pos(574,649.333)}MVP
+Dialogue: 0,0:22:59.81,0:23:00.81,zhengwen,NTP,0,0,0,,真是厲害的說
+Dialogue: 0,0:23:01.19,0:23:02.03,zhengwen,NTP,0,0,0,,{\fs32\pos(640,649.333)}хорошо
+Dialogue: 0,0:23:01.19,0:23:02.03,zhengwen,NTP,0,0,0,,太好了
+Dialogue: 0,0:23:03.94,0:23:08.26,zhengwen,NTP,0,0,0,,這都是大家的功勞  真的很感謝各位
+Dialogue: 0,0:23:08.63,0:23:09.70,zhengwen,NTP,0,0,0,,你真的很厲害
+Dialogue: 0,0:23:09.79,0:23:10.82,zhengwen,NTP,0,0,0,,謝謝
+Dialogue: 0,0:23:10.90,0:23:11.72,zhengwen,NTP,0,0,0,,你還挺能幹的嘛
+Dialogue: 0,0:23:11.79,0:23:14.11,zhengwen,NTP,0,0,0,,四水戰的各位  還沒回來嗎
+Dialogue: 0,0:23:15.67,0:23:17.33,zhengwen,NTP,0,0,0,,對  還沒回呢
+Dialogue: 0,0:23:17.80,0:23:18.96,zhengwen,NTP,0,0,0,,我明白了
+Dialogue: 0,0:23:20.21,0:23:22.14,zhengwen,NTP,0,0,0,,睦月  你要去哪裏？
+Dialogue: 0,0:23:22.36,0:23:27.03,zhengwen,NTP,0,0,0,,海角  我想第一個歡迎如月她們回來
+Dialogue: 0,0:23:28.00,0:23:29.47,zhengwen,NTP,0,0,0,,等等  我也要去
+Dialogue: 0,0:23:30.42,0:23:34.14,zhengwen,NTP,0,0,0,,然後我要對她說  「我最喜歡你了  謝謝你」
+Dialogue: 0,0:23:34.49,0:23:37.61,zhengwen,NTP,0,0,0,,如月她肯定會先大吃一驚吧
+Dialogue: 0,0:23:39.17,0:23:44.21,zhengwen,NTP,0,0,0,,但這之後  她肯定會非常地害羞  然後對我微笑
+Dialogue: 0,0:23:50.70,0:23:52.32,zhengwen,NTP,0,0,0,,你沒告訴她嗎
+Dialogue: 0,0:23:52.62,0:23:54.99,zhengwen,NTP,0,0,0,,畢竟還沒有確定
+Dialogue: 0,0:23:55.81,0:23:58.04,zhengwen,NTP,0,0,0,,只要還有一點希望…
+Dialogue: 0,0:24:00.13,0:24:03.90,zhengwen,NTP,0,0,0,,但有時  這樣做對她而言更加殘酷
+Dialogue: 0,0:24:05.78,0:24:08.27,zhengwen,NTP,0,0,0,,報告提督
+Dialogue: 0,0:24:09.38,0:24:14.71,zhengwen,NTP,0,0,0,,今日15:42  在距W島16公里海域
+Dialogue: 0,0:24:15.20,0:24:19.03,zhengwen,NTP,0,0,0,,驅逐艦如月  由於敵軍艦載機的轟炸
+Dialogue: 0,0:24:19.38,0:24:20.48,zhengwen,NTP,0,0,0,,嚴重受損  起火
+Dialogue: 0,0:24:22.29,0:24:24.91,zhengwen,NTP,0,0,0,,雖經夕張等艦持續搜索
+Dialogue: 0,0:24:25.30,0:24:27.41,zhengwen,NTP,0,0,0,,但我斷定已經回天乏術
+Dialogue: 0,0:24:27.68,0:24:30.32,zhengwen,NTP,0,0,0,,於11分鐘前放棄了搜救
+Dialogue: 0,0:24:33.71,0:24:34.85,zhengwen,NTP,0,0,0,,她已被擊沉
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+

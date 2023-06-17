@@ -1,0 +1,54 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 莓乱扔
+Original Script: 华盟字幕社
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 日文歌词,DFMaruGothic-SB,25,&H00FFFFFF,&H00F685FB,&H002AD831,&HFF000000,0,0,0,0,100,100,1,0,0,2,0,8,8,8,7,1
+Style: 中文歌词,汉仪粗圆简,25,&H00FFFFFF,&H00F685FB,&H002AD831,&HFF000000,-1,0,0,0,100,100,1,0,0,2,0,2,8,8,5,134
+Style: staff,汉仪粗圆简,25,&H00FFFFFF,&H00F685FB,&H002AD831,&HFF000000,-1,0,0,0,100,100,1,0,0,2,0,7,60,60,45,134
+Style: start,SimHei,25,&H00FFFFFF,&H004080FF,&HFFBE07BE,&HFFD2A9ED,-1,0,0,0,100,100,0,0,0,0,2,8,30,30,10,134
+Style: start2,汉仪粗黑简,30,&H00FFFFFF,&H004080FF,&HFFBE07BE,&HFFD2A9ED,0,0,0,0,100,100,0,0,0,0,2,2,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.06,0:00:06.06,start,NTP,0,0,0,,{\fad(1000,1000)}角色歌曲 茉莉
+Dialogue: 0,0:00:00.06,0:00:06.06,start2,NTP,0,0,0,,{\fad(1000,1000)}牛奶撒出來了\N\N{\fs28}宣傳動畫
+Dialogue: 0,0:01:47.83,0:01:55.59,staff,NTP,0,0,0,,{\fad(800,1500)}中文歌詞：茶{\fn汉仪秀英体简}々{\r}丸MK-Ⅱ\N\N\N字幕製作：zipwinmax
+Dialogue: 0,0:00:23.65,0:00:30.15,日文歌词,NTP,0,0,0,,{\fad(200,200)}だいすきな  だいすきな  ピンクの靴
+Dialogue: 0,0:00:31.45,0:00:38.04,日文歌词,NTP,0,0,0,,{\fad(200,200)}駈け出した瞬間につまづいたの
+Dialogue: 0,0:00:39.29,0:00:45.71,日文歌词,NTP,0,0,0,,{\fad(200,200)}そっとそっと  そっとそっと  歩きだせば
+Dialogue: 0,0:00:47.17,0:00:53.80,日文歌词,NTP,0,0,0,,{\fad(200,200)}ゆっくりと白い雲  ついてきたよ
+Dialogue: 0,0:00:55.01,0:01:02.48,日文歌词,NTP,0,0,0,,{\fad(200,200)}わたしの居る世界は  みんなみんな忙しい
+Dialogue: 0,0:01:02.94,0:01:06.90,日文歌词,NTP,0,0,0,,{\fad(200,200)}ちょっと待ってて
+Dialogue: 0,0:01:08.11,0:01:15.53,日文歌词,NTP,0,0,0,,{\fad(200,200)}手をつなぐのかな?  遠くまでゆくのかな?
+Dialogue: 0,0:01:15.66,0:01:24.12,日文歌词,NTP,0,0,0,,{\fad(200,200)}どうしよう  なぜか泣きそうになってしまう
+Dialogue: 0,0:01:24.58,0:01:31.72,日文歌词,NTP,0,0,0,,{\fad(200,200)}さっきこぼした  ミルクなの
+Dialogue: 0,0:01:31.97,0:01:39.22,日文歌词,NTP,0,0,0,,{\fad(200,200)}ひとつぶで  すべて変えてしまう  ふしぎ
+Dialogue: 0,0:00:23.65,0:00:30.15,中文歌词,NTP,0,0,0,,{\fad(200,200)}最喜歡的  最喜歡的  粉色的鞋子
+Dialogue: 0,0:00:31.45,0:00:38.04,中文歌词,NTP,0,0,0,,{\fad(200,200)}剛開始跑的那一瞬間就被絆著跌倒
+Dialogue: 0,0:00:39.29,0:00:45.71,中文歌词,NTP,0,0,0,,{\fad(200,200)}一步一步  一步一步  慢慢前行的話
+Dialogue: 0,0:00:47.17,0:00:53.80,中文歌词,NTP,0,0,0,,{\fad(200,200)}那些白雲也能慢慢的逐漸跟上來了
+Dialogue: 0,0:00:55.01,0:01:02.48,中文歌词,NTP,0,0,0,,{\fad(200,200)}而我所居住的世界之中  大家  大家都很忙碌
+Dialogue: 0,0:01:02.94,0:01:06.90,中文歌词,NTP,0,0,0,,{\fad(200,200)}稍微等一下吧
+Dialogue: 0,0:01:08.11,0:01:15.53,中文歌词,NTP,0,0,0,,{\fad(200,200)}要拉著手一起走嗎?  會不會認為走的很遠呢?
+Dialogue: 0,0:01:15.66,0:01:24.12,中文歌词,NTP,0,0,0,,{\fad(200,200)}怎麼辦啊  不知道究竟為什麼快要哭出來了
+Dialogue: 0,0:01:24.58,0:01:31.72,中文歌词,NTP,0,0,0,,{\fad(200,200)}是不是因為剛才灑出牛奶了
+Dialogue: 0,0:01:31.97,0:01:39.22,中文歌词,NTP,0,0,0,,{\fad(200,200)}僅僅是一滴  就能夠改變了這一切  真奇異
+

@@ -1,0 +1,473 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 未设定
+Original Script: 未设定
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZCuYuan-M03,52,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: Default2,FZCuYuan-M03,45,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: Default3,FZCuYuan-M03,48,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,0,0,8,30,30,30,1
+Style: zhushi,FZZhunYuan-M02,36,&H00FFFFFF,&HF0000000,&H00000000,&H0AC0C0C0,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: zhushi2,@FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&H0AC0C0C0,-1,0,0,0,100,100,0,270,1,2,0,2,30,30,30,1
+Style: warring,FZZhunYuan-M02,36,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: OPCN,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: OPJP,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: EDCN,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,30,1
+Style: ENJP,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,30,1
+Style: EDCN2,FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,8,30,30,80,1
+Style: EDJP2,FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:36.03,0:02:39.03,warring,NTP,0,0,0,,{\fad(50,50)}翻譯 TL舊民  後期 aoi  惡魔島字幕組製作 僅供交流試看之用\N請勿添加廣告 相關資源和討論請訪問惡魔島動漫世界：http://bbs.emland.net
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:01:08.47,0:01:11.15,OPCN,NTP,0,0,0,,喂喂 請問未來你在哪裏？
+Dialogue: 0,0:01:11.40,0:01:13.71,OPCN,NTP,0,0,0,,New Life New Love New Road Yeah
+Dialogue: 0,0:01:13.71,0:01:17.74,OPCN,NTP,0,0,0,,緊緊擁抱眼前的美妙
+Dialogue: 0,0:01:18.10,0:01:19.23,OPCN,NTP,0,0,0,,我如此決定
+Dialogue: 0,0:01:31.59,0:01:35.88,OPCN,NTP,0,0,0,,「想要成為故事的主人公」
+Dialogue: 0,0:01:36.28,0:01:41.35,OPCN,NTP,0,0,0,,妄想力全開 衝進Brand new world
+Dialogue: 0,0:01:41.61,0:01:45.83,OPCN,NTP,0,0,0,,即使在閃閃發光的 世界中心
+Dialogue: 0,0:01:46.09,0:01:51.03,OPCN,NTP,0,0,0,,路人B也成不了英雄嗎？
+Dialogue: 0,0:01:51.46,0:01:53.42,OPCN,NTP,0,0,0,,無論何時 都不會改變
+Dialogue: 0,0:01:54.00,0:01:56.00,OPCN,NTP,0,0,0,,一成不變的 今天
+Dialogue: 0,0:01:56.52,0:01:58.51,OPCN,NTP,0,0,0,,不經意間 一定會
+Dialogue: 0,0:01:58.87,0:02:01.06,OPCN,NTP,0,0,0,,遇到我期盼已久的故事
+Dialogue: 0,0:02:01.37,0:02:05.46,OPCN,NTP,0,0,0,,這便是 我的棲身之所
+Dialogue: 0,0:02:05.67,0:02:08.39,OPCN,NTP,0,0,0,,喂喂 請問未來你在這裏嗎？
+Dialogue: 0,0:02:08.90,0:02:11.15,OPCN,NTP,0,0,0,,我來迎接你了
+Dialogue: 0,0:02:11.43,0:02:15.04,OPCN,NTP,0,0,0,,熟悉的羈絆是我的寶物
+Dialogue: 0,0:02:15.34,0:02:18.38,OPCN,NTP,0,0,0,,另一種正解也是存在的
+Dialogue: 0,0:02:18.87,0:02:21.03,OPCN,NTP,0,0,0,,雖然總是很難察覺到
+Dialogue: 0,0:02:21.39,0:02:26.46,OPCN,NTP,0,0,0,,革命每一天 都真實地 在這裏發生著
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:01:08.47,0:01:11.15,OPJP,NTP,0,0,0,,もしもし未来はどこですか？
+Dialogue: 0,0:01:11.40,0:01:13.71,OPJP,NTP,0,0,0,,New Life New Love New Road Yeah
+Dialogue: 0,0:01:13.71,0:01:17.74,OPJP,NTP,0,0,0,,今あるステキを抱きしめようと
+Dialogue: 0,0:01:18.10,0:01:19.23,OPJP,NTP,0,0,0,,決意しました
+Dialogue: 0,0:01:31.59,0:01:35.88,OPJP,NTP,0,0,0,,「物語の主人公になりたい」
+Dialogue: 0,0:01:36.28,0:01:41.35,OPJP,NTP,0,0,0,,妄想力　フルパワーで　入り込んだBrand new world
+Dialogue: 0,0:01:41.61,0:01:45.83,OPJP,NTP,0,0,0,,ピカピカ光る　世界の中心でも
+Dialogue: 0,0:01:46.09,0:01:51.03,OPJP,NTP,0,0,0,,通行人Bはヒーローになれないの？
+Dialogue: 0,0:01:51.46,0:01:53.42,OPJP,NTP,0,0,0,,いつでも　変わらない
+Dialogue: 0,0:01:54.00,0:01:56.00,OPJP,NTP,0,0,0,,いつもの　今日
+Dialogue: 0,0:01:56.52,0:01:58.51,OPJP,NTP,0,0,0,,いつの間にか　きっと
+Dialogue: 0,0:01:58.87,0:02:01.06,OPJP,NTP,0,0,0,,待ち望んでた物語
+Dialogue: 0,0:02:01.37,0:02:05.46,OPJP,NTP,0,0,0,,これこそが　私の居場所
+Dialogue: 0,0:02:05.67,0:02:08.39,OPJP,NTP,0,0,0,,もしもし未来はここですか？
+Dialogue: 0,0:02:08.90,0:02:11.15,OPJP,NTP,0,0,0,,あなたを迎えにきました
+Dialogue: 0,0:02:11.43,0:02:15.04,OPJP,NTP,0,0,0,,宝物は見慣れた絆
+Dialogue: 0,0:02:15.34,0:02:18.38,OPJP,NTP,0,0,0,,違う形の正解もありますよ
+Dialogue: 0,0:02:18.87,0:02:21.03,OPJP,NTP,0,0,0,,なかなか気付けないけれど
+Dialogue: 0,0:02:21.39,0:02:26.46,OPJP,NTP,0,0,0,,革命は毎日のように　ここで実際　おきてるんです
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:12.27,0:22:18.67,EDCN,NTP,0,0,0,,定會在這裏閃耀Glory Place
+Dialogue: 0,0:22:32.58,0:22:37.28,EDCN,NTP,0,0,0,,「沒能實現…」「為什麼會變成這樣？」
+Dialogue: 0,0:22:37.61,0:22:42.57,EDCN,NTP,0,0,0,,就算說著不該這樣也於事無補
+Dialogue: 0,0:22:42.95,0:22:45.44,EDCN,NTP,0,0,0,,現在你身在此處（Now, you are here）
+Dialogue: 0,0:22:45.44,0:22:48.27,EDCN,NTP,0,0,0,,你只存在於此(You're only here)
+Dialogue: 0,0:22:48.27,0:22:52.56,EDCN,NTP,0,0,0,,不要考慮什麼Move 來吧Rise to upstairs
+Dialogue: 0,0:22:52.56,0:22:57.87,EDCN,NTP,0,0,0,,如果將地圖的比例改變 你是否能明白？
+Dialogue: 0,0:22:57.87,0:23:03.89,EDCN,NTP,0,0,0,,無論誰都在這同一顆星球上
+Dialogue: 0,0:23:03.89,0:23:05.63,EDCN,NTP,0,0,0,,You can change your place!
+Dialogue: 0,0:23:05.63,0:23:10.80,EDCN,NTP,0,0,0,,不存在什麼一切都早已命中注定（可能性無限大）
+Dialogue: 0,0:23:10.80,0:23:16.21,EDCN,NTP,0,0,0,,未來自己的些許Sticking Places
+Dialogue: 0,0:23:16.21,0:23:19.89,EDCN,NTP,0,0,0,,那是（一瞬間）偶然的（經驗）感情（衝動）
+Dialogue: 0,0:23:19.89,0:23:26.90,EDCN,NTP,0,0,0,,那一結晶的光輝 It's stairway to the glory place for you!
+Dialogue: 0,0:23:26.90,0:23:31.42,EDCN,NTP,0,0,0,,「現在你身在此處」所以「你只存在於此」
+Dialogue: 0,0:23:31.42,0:23:37.67,EDCN,NTP,0,0,0,,只要你相信世界就會改變！
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:12.27,0:22:18.67,ENJP,NTP,0,0,0,,きっとここで輝くんだGlory Place
+Dialogue: 0,0:22:32.58,0:22:37.28,ENJP,NTP,0,0,0,,「叶えらんなかった。。。」、「なんでこうなったの？」
+Dialogue: 0,0:22:37.61,0:22:42.57,ENJP,NTP,0,0,0,,コレじゃないよって言ってたって始まらない
+Dialogue: 0,0:22:42.95,0:22:45.44,ENJP,NTP,0,0,0,,今キミはここにいて （Now, you are here）
+Dialogue: 0,0:22:45.44,0:22:48.27,ENJP,NTP,0,0,0,,ここにしかキミはいない (You're only here)
+Dialogue: 0,0:22:48.27,0:22:52.56,ENJP,NTP,0,0,0,,Moveなんて考えてないで、さぁRise to upstairs！
+Dialogue: 0,0:22:52.56,0:22:57.87,ENJP,NTP,0,0,0,,スケールを変えた地図ならね、わかるんじゃない？
+Dialogue: 0,0:22:57.87,0:23:03.89,ENJP,NTP,0,0,0,,誰もが同じ惑星(ばしょ)にいるよ
+Dialogue: 0,0:23:03.89,0:23:05.63,ENJP,NTP,0,0,0,,You can change your place!
+Dialogue: 0,0:23:05.63,0:23:10.80,ENJP,NTP,0,0,0,,なんにも決まっていることなんてナイ　(可能性は無限大)
+Dialogue: 0,0:23:10.80,0:23:16.21,ENJP,NTP,0,0,0,,ほんの少し未来の自分のSticking Places
+Dialogue: 0,0:23:16.21,0:23:19.89,ENJP,NTP,0,0,0,,それは(一瞬)偶然(経験)感情(衝動)
+Dialogue: 0,0:23:19.89,0:23:26.90,ENJP,NTP,0,0,0,,その結晶の輝き、It's stairway to the glory place for you!
+Dialogue: 0,0:23:26.90,0:23:31.42,ENJP,NTP,0,0,0,,「イマキミハココニイル」だから「ココニシカキミハイナイ」
+Dialogue: 0,0:23:31.42,0:23:37.67,ENJP,NTP,0,0,0,,もっと信じれば世界は変わる！
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:02.63,0:00:05.95,Default,NTP,0,0,0,,果然只有這個日子才能讓人提起精神啊
+Dialogue: 0,0:00:06.26,0:00:09.20,Default,NTP,0,0,0,,哇！感覺比上個月要多哦
+Dialogue: 0,0:00:09.59,0:00:12.35,Default,NTP,0,0,0,,本店在阿瑪達開張之後 銷售額也沒降低對吧？
+Dialogue: 0,0:00:12.87,0:00:16.30,Default,NTP,0,0,0,,所以本部啊 給大家發放了特別津貼
+Dialogue: 0,0:00:17.03,0:00:18.71,Default,NTP,0,0,0,,努力有了回報呢
+Dialogue: 0,0:00:20.27,0:00:22.34,Default,NTP,0,0,0,,本..本大人的薪水
+Dialogue: 0,0:00:22.68,0:00:24.11,Default,NTP,0,0,0,,終於領到第一份薪水了呢
+Dialogue: 0,0:00:24.59,0:00:26.00,Default,NTP,0,0,0,,恭喜你 菲諾醬
+Dialogue: 0,0:00:26.49,0:00:28.60,Default,NTP,0,0,0,,謝謝你們 我高興極了
+Dialogue: 0,0:00:29.20,0:00:30.59,Default,NTP,0,0,0,,因為你真的有在努力啊
+Dialogue: 0,0:00:31.11,0:00:33.08,Default,NTP,0,0,0,,雖然有點少不過要好好珍惜哦
+Dialogue: 0,0:00:34.74,0:00:38.06,Default,NTP,0,0,0,,嗯！我一生都不會花掉它的！
+Dialogue: 0,0:00:39.62,0:00:42.29,Default,NTP,0,0,0,,不不 難得有點薪水還是花一花吧..
+Dialogue: 0,0:00:46.02,0:00:49.18,zhushi,NTP,0,0,0,,{\an8}薪水 菲諾
+Dialogue: 0,0:00:45.07,0:00:49.23,Default,NTP,0,0,0,,本大人..在人界第一次賺到的薪水..
+Dialogue: 0,0:00:52.32,0:00:56.79,Default,NTP,0,0,0,,說起來 我拿到第一份薪水的時候也感動到雙手發抖呢
+Dialogue: 0,0:00:59.88,0:01:01.93,Default,NTP,0,0,0,,你可以去買點什麼值得紀念的東西哦
+Dialogue: 0,0:01:02.72,0:01:04.93,Default,NTP,0,0,0,,值得紀念的東西..
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:02:39.03,0:02:43.99,Default,NTP,0,0,0,,第九話 關於魔王女兒的第一份薪水的有效利用
+Dialogue: 0,0:02:46.00,0:02:47.40,Default,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:02:48.02,0:02:49.82,Default,NTP,0,0,0,,乾杯！
+Dialogue: 0,0:02:56.87,0:02:58.50,Default,NTP,0,0,0,,愛吃什麼盡量點哦
+Dialogue: 0,0:02:59.20,0:03:02.52,Default,NTP,0,0,0,,發薪日店長請客已經是我們的傳統了啦
+Dialogue: 0,0:03:03.89,0:03:05.76,Default,NTP,0,0,0,,店長果然好厲害呢
+Dialogue: 0,0:03:06.42,0:03:08.61,Default,NTP,0,0,0,,老爸他還從來沒請過別人呢
+Dialogue: 0,0:03:09.69,0:03:11.58,Default,NTP,0,0,0,,誰讓他是魔王啊..
+Dialogue: 0,0:03:11.93,0:03:13.16,Default,NTP,0,0,0,,啊 對了 菲諾
+Dialogue: 0,0:03:13.75,0:03:16.85,Default,NTP,0,0,0,,這家店啊 漢堡肉很好吃哦
+Dialogue: 0,0:03:17.50,0:03:18.32,Default,NTP,0,0,0,,漢堡肉？
+Dialogue: 0,0:03:18.76,0:03:22.03,Default,NTP,0,0,0,,用奧利安牛在炭火上烤制而成的拳頭漢堡肉
+Dialogue: 0,0:03:22.84,0:03:27.06,Default,NTP,0,0,0,,在份量滿點的肉塊上 淋上黑洋蔥醬咻哇~
+Dialogue: 0,0:03:28.17,0:03:29.17,Default,NTP,0,0,0,,好 決定了！
+Dialogue: 0,0:03:29.58,0:03:31.42,Default,NTP,0,0,0,,我要點這個兒童套餐！
+Dialogue: 0,0:03:28.99,0:03:31.45,zhushi,NTP,0,0,0,,{\an8}兒童套餐 含稅504G
+Dialogue: 0,0:03:33.30,0:03:34.16,Default,NTP,0,0,0,,啊..這樣
+Dialogue: 0,0:03:35.93,0:03:37.12,Default,NTP,0,0,0,,菲諾 我說你..
+Dialogue: 0,0:03:37.44,0:03:41.60,Default,NTP,0,0,0,,這個能吃到最多樣的東西 而且價格也便宜
+Dialogue: 0,0:03:41.96,0:03:44.59,Default,NTP,0,0,0,,而且你們瞧 還有贈品呢！
+Dialogue: 0,0:03:42.42,0:03:44.76,zhushi,NTP,0,0,0,,{\an8}贈品
+Dialogue: 0,0:03:45.53,0:03:47.69,Default,NTP,0,0,0,,你真的是小孩子呢
+Dialogue: 0,0:03:58.37,0:04:00.88,Default,NTP,0,0,0,,副店長的推薦 好好吃哦
+Dialogue: 0,0:04:01.34,0:04:03.27,Default,NTP,0,0,0,,諾娃真體貼人呢
+Dialogue: 0,0:04:03.65,0:04:06.84,Default,NTP,0,0,0,,和選加爾達雞排的某人就是不一樣呢..
+Dialogue: 0,0:04:07.32,0:04:09.56,Default,NTP,0,0,0,,不是啦..今天我就是想吃雞肉啦
+Dialogue: 0,0:04:13.06,0:04:13.65,Default,NTP,0,0,0,,沒想到..
+Dialogue: 0,0:04:14.59,0:04:17.66,Default,NTP,0,0,0,,一共有180個種類啊
+Dialogue: 0,0:04:18.19,0:04:22.03,Default,NTP,0,0,0,,這樣的話我只能每天跑來吃兒童套餐了..
+Dialogue: 0,0:04:22.41,0:04:24.68,Default,NTP,0,0,0,,別浪費你的第一份薪水啊
+Dialogue: 0,0:04:25.11,0:04:28.51,Default,NTP,0,0,0,,是啊 首先要買齊你的生活必需品才行啊
+Dialogue: 0,0:04:29.24,0:04:32.21,Default,NTP,0,0,0,,明天讓勞爾陪你去購物吧
+Dialogue: 0,0:04:35.83,0:04:37.38,Default,NTP,0,0,0,,勞爾也是休假對吧？
+Dialogue: 0,0:04:38.22,0:04:40.98,Default,NTP,0,0,0,,雖然是這樣 不過我有我的計劃..
+Dialogue: 0,0:04:41.53,0:04:43.56,Default,NTP,0,0,0,,最近街上不怎麼太平
+Dialogue: 0,0:04:44.18,0:04:45.95,Default,NTP,0,0,0,,菲諾醬一個人去多讓人擔心啊
+Dialogue: 0,0:04:46.59,0:04:48.21,Default,NTP,0,0,0,,拜託你了哦 勞爾
+Dialogue: 0,0:04:48.95,0:04:50.42,Default,NTP,0,0,0,,是..是
+Dialogue: 0,0:04:55.48,0:04:57.84,Default,NTP,0,0,0,,嗯 買什麼呢？
+Dialogue: 0,0:05:00.75,0:05:03.17,Default,NTP,0,0,0,,怎..怎麼這麼毫無防備
+Dialogue: 0,0:05:03.87,0:05:05.00,Default,NTP,0,0,0,,勞爾怎麼看？
+Dialogue: 0,0:05:06.07,0:05:07.53,Default,NTP,0,0,0,,買什麼都行啦
+Dialogue: 0,0:05:08.62,0:05:12.61,Default,NTP,0,0,0,,提議在購物前先開個作戰會議的不是勞爾嗎？
+Dialogue: 0,0:05:15.54,0:05:16.78,Default,NTP,0,0,0,,店長說了哦
+Dialogue: 0,0:05:17.25,0:05:18.95,Default,NTP,0,0,0,,因為本大人是頭一回
+Dialogue: 0,0:05:19.53,0:05:22.62,Default,NTP,0,0,0,,所以要讓經驗豐富的勞爾來指導我
+Dialogue: 0,0:05:24.16,0:05:25.06,Default,NTP,0,0,0,,你在說什麼啊！？
+Dialogue: 0,0:05:26.33,0:05:27.41,Default,NTP,0,0,0,,在說購物的事啊
+Dialogue: 0,0:05:30.80,0:05:34.13,Default,NTP,0,0,0,,說起來啊！你為什麼老是往我房裏鑽啊！
+Dialogue: 0,0:05:34.72,0:05:37.98,Default,NTP,0,0,0,,有什麼關係嘛 大家都是鄰居啊
+Dialogue: 0,0:05:39.65,0:05:43.29,Default,NTP,0,0,0,,這傢伙絕對沒把我當男人看吧
+Dialogue: 0,0:05:44.56,0:05:50.31,Default,NTP,0,0,0,,出現了呢 本大人來人界之後第一個必須買的是這個！
+Dialogue: 0,0:05:51.65,0:05:53.14,Default,NTP,0,0,0,,蟑螂驅除器？
+Dialogue: 0,0:05:53.57,0:05:55.31,Default,NTP,0,0,0,,嗯 就是那個黑色的惡魔
+Dialogue: 0,0:05:55.95,0:05:57.85,Default,NTP,0,0,0,,那種既兇殘又可怕的傢伙
+Dialogue: 0,0:05:58.42,0:05:59.91,Default,NTP,0,0,0,,連魔界也沒有哦！
+Dialogue: 0,0:06:00.74,0:06:03.15,Default,NTP,0,0,0,,它是比老爹還危險的存在！
+Dialogue: 0,0:06:03.99,0:06:08.96,Default,NTP,0,0,0,,魔王大人 你家女兒輕描淡寫地說了句很傷人的話哦
+Dialogue: 0,0:06:11.91,0:06:13.31,Default,NTP,0,0,0,,來了！那傢伙來了！
+Dialogue: 0,0:06:13.61,0:06:14.88,Default,NTP,0,0,0,,勞爾 救命啊！
+Dialogue: 0,0:06:15.11,0:06:16.05,Default,NTP,0,0,0,,冷靜一下啦..
+Dialogue: 0,0:06:17.46,0:06:18.71,Default,NTP,0,0,0,,是蟬啦 蟬！
+Dialogue: 0,0:06:24.25,0:06:25.01,Default,NTP,0,0,0,,什麼嘛
+Dialogue: 0,0:06:35.42,0:06:36.90,Default,NTP,0,0,0,,我..我回去了
+Dialogue: 0,0:06:40.15,0:06:41.62,Default,NTP,0,0,0,,明天 多有拜託了哦
+Dialogue: 0,0:06:44.25,0:06:46.53,Default,NTP,0,0,0,,你想太多了 笨蛋
+Dialogue: 0,0:06:50.50,0:06:53.59,Default,NTP,0,0,0,,本大人回去之後興奮得連覺都沒好好睡呢
+Dialogue: 0,0:06:54.06,0:06:55.82,Default,NTP,0,0,0,,興奮是..對什麼興奮？
+Dialogue: 0,0:06:57.32,0:06:58.03,Default,NTP,0,0,0,,對購物
+Dialogue: 0,0:06:59.58,0:07:00.24,Default,NTP,0,0,0,,也是呢
+Dialogue: 0,0:07:02.37,0:07:03.67,Default,NTP,0,0,0,,哎呀 早上好
+Dialogue: 0,0:07:05.35,0:07:06.43,Default,NTP,0,0,0,,你們一起去上班嗎？
+Dialogue: 0,0:07:07.31,0:07:08.74,Default,NTP,0,0,0,,不 今天放假啦
+Dialogue: 0,0:07:09.41,0:07:11.72,Default,NTP,0,0,0,,結果非得陪著菲諾出來購物
+Dialogue: 0,0:07:12.25,0:07:14.08,Default,NTP,0,0,0,,而且是我第一次購物
+Dialogue: 0,0:07:14.62,0:07:19.20,Default,NTP,0,0,0,,這種一生一次的活動 你能同行就該感到無比榮幸了啊
+Dialogue: 0,0:07:20.05,0:07:20.96,Default,NTP,0,0,0,,我還是回去了
+Dialogue: 0,0:07:21.93,0:07:23.57,Default,NTP,0,0,0,,等等！等等啦！
+Dialogue: 0,0:07:24.09,0:07:27.22,Default,NTP,0,0,0,,喂喂 你們其實是出來約會的吧？
+Dialogue: 0,0:07:27.67,0:07:29.56,Default,NTP,0,0,0,,我只是作為監護人隨行啦
+Dialogue: 0,0:07:30.07,0:07:31.24,Default,NTP,0,0,0,,真的？
+Dialogue: 0,0:07:31.81,0:07:33.58,Default,NTP,0,0,0,,你這麼問太不識趣了 艾露莎
+Dialogue: 0,0:07:34.57,0:07:35.34,Default,NTP,0,0,0,,但是..
+Dialogue: 0,0:07:35.84,0:07:39.66,Default,NTP,0,0,0,,明明可以挑個更壯實點的肌肉猛男
+Dialogue: 0,0:07:40.51,0:07:43.18,Default,NTP,0,0,0,,卻偏偏看上這種..
+Dialogue: 0,0:07:43.41,0:07:44.78,Default,NTP,0,0,0,,都說不是了啊！
+Dialogue: 0,0:07:45.23,0:07:46.97,Default,NTP,0,0,0,,那麼接下來你們要去哪？
+Dialogue: 0,0:07:48.51,0:07:49.47,Default,NTP,0,0,0,,看看這個吧！
+Dialogue: 0,0:07:49.98,0:07:52.35,Default,NTP,0,0,0,,嗯？超便宜商店？
+Dialogue: 0,0:07:52.57,0:07:55.37,Default,NTP,0,0,0,,如果有發現價位比其他店高的 他們還會再減價哦
+Dialogue: 0,0:07:55.76,0:07:57.56,Default,NTP,0,0,0,,為了得到購物高手的稱號..
+Dialogue: 0,0:07:57.94,0:08:00.40,Default,NTP,0,0,0,,收集情報和擬定計劃是必不可少的！
+Dialogue: 0,0:08:01.86,0:08:04.86,Default,NTP,0,0,0,,你這個購物初學者還說什麼大話啊
+Dialogue: 0,0:08:05.87,0:08:07.02,Default,NTP,0,0,0,,好好盡興吧
+Dialogue: 0,0:08:07.87,0:08:08.42,Default,NTP,0,0,0,,嗯！
+Dialogue: 0,0:08:17.32,0:08:18.74,Default,NTP,0,0,0,,喂 放輕鬆啦
+Dialogue: 0,0:08:19.08,0:08:20.63,Default,NTP,0,0,0,,我有什麼辦法啦！
+Dialogue: 0,0:08:21.42,0:08:23.89,Default,NTP,0,0,0,,一到正式上場就威風不起來了呢
+Dialogue: 0,0:08:24.34,0:08:26.49,Default,NTP,0,0,0,,這點小事..難不倒我！
+Dialogue: 0,0:08:27.51,0:08:31.13,Default,NTP,0,0,0,,歡迎光臨 請問您有會員卡嗎？
+Dialogue: 0,0:08:31.56,0:08:34.44,Default,NTP,0,0,0,,啊？那個..沒有..
+Dialogue: 0,0:08:35.04,0:08:36.04,Default,NTP,0,0,0,,要幫您辦一張嗎？
+Dialogue: 0,0:08:36.72,0:08:39.09,Default,NTP,0,0,0,,那..那個 怎麼辦啊？
+Dialogue: 0,0:08:40.16,0:08:41.76,Default,NTP,0,0,0,,那麼 拜託你了！
+Dialogue: 0,0:08:42.27,0:08:44.47,Default,NTP,0,0,0,,好的 那麼請登記一下
+Dialogue: 0,0:08:46.13,0:08:48.06,Default,NTP,0,0,0,,那個..首先是名字
+Dialogue: 0,0:08:48.45,0:08:50.83,Default,NTP,0,0,0,,菲諾·布拉德斯通
+Dialogue: 0,0:08:51.50,0:08:52.44,Default,NTP,0,0,0,,職業是..
+Dialogue: 0,0:08:53.80,0:08:54.43,Default,NTP,0,0,0,,魔..
+Dialogue: 0,0:08:54.89,0:08:55.48,Default,NTP,0,0,0,,喂！
+Dialogue: 0,0:08:55.48,0:09:00.48,Default,NTP,0,0,0,,..法道具販賣店員
+Dialogue: 0,0:09:02.00,0:09:02.53,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:09:03.32,0:09:05.66,Default,NTP,0,0,0,,我還以為你會寫..
+Dialogue: 0,0:09:06.65,0:09:07.64,Default,NTP,0,0,0,,這樣就好了嗎？
+Dialogue: 0,0:09:08.35,0:09:11.98,Default,NTP,0,0,0,,謝謝你 這是本店的會員卡
+Dialogue: 0,0:09:18.60,0:09:20.28,Default,NTP,0,0,0,,這傢伙已經不同了
+Dialogue: 0,0:09:22.62,0:09:26.54,Default,NTP,0,0,0,,一定沒有人會覺得菲諾是魔王的繼承人吧
+Dialogue: 0,0:09:27.72,0:09:29.32,Default,NTP,0,0,0,,正如她自己所寫的
+Dialogue: 0,0:09:30.12,0:09:31.06,Default,NTP,0,0,0,,現在站在我身邊的..
+Dialogue: 0,0:09:31.85,0:09:36.26,Default,NTP,0,0,0,,只是一位在魔法商店工作的普通女孩..對吧
+Dialogue: 0,0:09:37.80,0:09:38.83,Default,NTP,0,0,0,,好厲害呀
+Dialogue: 0,0:09:39.66,0:09:40.16,Default,NTP,0,0,0,,誒？
+Dialogue: 0,0:09:40.80,0:09:45.04,Default,NTP,0,0,0,,本大人用自己賺來得錢成功買到東西了哦 好厲害啊
+Dialogue: 0,0:09:45.93,0:09:48.39,Default,NTP,0,0,0,,客人在雷昂購買想要的商品
+Dialogue: 0,0:09:48.84,0:09:50.57,Default,NTP,0,0,0,,然後那些錢成為了我的薪水
+Dialogue: 0,0:09:51.24,0:09:53.32,Default,NTP,0,0,0,,而本大人也像這樣購買自己想要的東西
+Dialogue: 0,0:09:54.11,0:09:58.04,Default,NTP,0,0,0,,說不定這個就是那位客人製作出來的商品呢
+Dialogue: 0,0:09:58.70,0:10:00.81,Default,NTP,0,0,0,,大家互相都聯繫在一起啊
+Dialogue: 0,0:10:02.83,0:10:04.47,Default,NTP,0,0,0,,並不是吃和被吃的關係
+Dialogue: 0,0:10:05.32,0:10:07.80,Default,NTP,0,0,0,,這裏和魔界完全不一樣
+Dialogue: 0,0:10:08.42,0:10:12.19,Default,NTP,0,0,0,,為了自己而賺錢同時也能幫到別人
+Dialogue: 0,0:10:13.11,0:10:14.92,Default,NTP,0,0,0,,所有人都能得到自己想要的東西
+Dialogue: 0,0:10:15.42,0:10:17.11,Default,NTP,0,0,0,,所有人都會露出笑容呢
+Dialogue: 0,0:10:18.36,0:10:22.23,Default,NTP,0,0,0,,居然能設想出這樣的結構 人類真的太厲害了！
+Dialogue: 0,0:10:24.03,0:10:29.04,Default,NTP,0,0,0,,本大人工作的意義原來是這樣 我好感動！
+Dialogue: 0,0:10:31.94,0:10:33.51,Default,NTP,0,0,0,,我想都沒有想過..
+Dialogue: 0,0:10:36.88,0:10:41.81,Default,NTP,0,0,0,,當初我只是迫於生活 才不情願地找了工作..
+Dialogue: 0,0:10:43.49,0:10:45.27,Default,NTP,0,0,0,,其實我想做的根本不是這種工作
+Dialogue: 0,0:10:46.67,0:10:51.43,Default,NTP,0,0,0,,認為只有勇者才是拯救世界的工作..
+Dialogue: 0,0:10:53.70,0:10:55.91,Default,NTP,0,0,0,,能來到這裏真的太好了
+Dialogue: 0,0:10:57.12,0:10:57.75,Default,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:10:58.40,0:11:01.56,Default,NTP,0,0,0,,喂 勞爾 本大人還想繼續去購物！
+Dialogue: 0,0:11:02.18,0:11:03.25,Default,NTP,0,0,0,,好 我們走吧
+Dialogue: 0,0:11:03.76,0:11:04.36,Default,NTP,0,0,0,,嗯！
+Dialogue: 0,0:11:05.81,0:11:07.02,Default,NTP,0,0,0,,歡迎光臨！
+Dialogue: 0,0:11:15.55,0:11:16.67,Default,NTP,0,0,0,,感覺活力十足對吧？
+Dialogue: 0,0:11:17.53,0:11:20.02,Default,NTP,0,0,0,,這是王國最大的市場 什麼都有賣
+Dialogue: 0,0:11:20.48,0:11:21.25,Default,NTP,0,0,0,,什麼都有？！
+Dialogue: 0,0:11:23.74,0:11:25.74,Default,NTP,0,0,0,,購物購物！
+Dialogue: 0,0:11:26.05,0:11:26.62,Default,NTP,0,0,0,,喂！
+Dialogue: 0,0:11:26.69,0:11:28.74,Default,NTP,0,0,0,,購物購物！
+Dialogue: 0,0:11:44.25,0:11:45.40,Default,NTP,0,0,0,,沒事吧？有受傷嗎？
+Dialogue: 0,0:11:46.42,0:11:48.82,Default,NTP,0,0,0,,啊啊..沒事
+Dialogue: 0,0:11:50.79,0:11:53.61,Default,NTP,0,0,0,,真是的 突然跑出去很危險啊
+Dialogue: 0,0:11:55.69,0:11:56.19,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:11:56.71,0:11:58.10,Default,NTP,0,0,0,,嗯？怎麼了？
+Dialogue: 0,0:11:59.12,0:12:00.92,Default,NTP,0,0,0,,不..只是被嚇了一跳而已
+Dialogue: 0,0:12:02.53,0:12:04.37,Default,NTP,0,0,0,,總之你沒事就好了
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:12:07.07,0:12:08.21,Default,NTP,0,0,0,,這位小哥
+Dialogue: 0,0:12:12.03,0:12:14.26,Default,NTP,0,0,0,,這是很受情侶歡迎的項鏈哦
+Dialogue: 0,0:12:14.77,0:12:16.46,Default,NTP,0,0,0,,買個送給女朋友如何啊？
+Dialogue: 0,0:12:16.82,0:12:17.88,Default,NTP,0,0,0,,不..不是啦
+Dialogue: 0,0:12:18.26,0:12:18.76,Default,NTP,0,0,0,,我們是..
+Dialogue: 0,0:12:19.57,0:12:22.49,Default,NTP,0,0,0,,那麼這個應該很適合女朋友啊
+Dialogue: 0,0:12:22.74,0:12:23.76,Default,NTP,0,0,0,,當做紀念很不錯哦
+Dialogue: 0,0:12:25.41,0:12:25.95,Default,NTP,0,0,0,,當做紀念？
+Dialogue: 0,0:12:26.17,0:12:27.97,Default,NTP,0,0,0,,沒錯沒錯 約會紀念！
+Dialogue: 0,0:12:28.68,0:12:30.28,Default,NTP,0,0,0,,都說不是約會了啦
+Dialogue: 0,0:12:30.84,0:12:31.34,Default,NTP,0,0,0,,我們走
+Dialogue: 0,0:12:31.91,0:12:34.61,Default,NTP,0,0,0,,等等啊 算你們便宜點嘛
+Dialogue: 0,0:12:37.64,0:12:38.56,Default,NTP,0,0,0,,我說啊 勞爾
+Dialogue: 0,0:12:40.08,0:12:42.21,zhushi,NTP,0,0,0,,{\an8}{\fad(500,0)}艾瓦雷德關東煮普及振興會
+Dialogue: 0,0:12:38.97,0:12:39.73,Default,NTP,0,0,0,,沒關係的
+Dialogue: 0,0:12:40.10,0:12:41.83,Default,NTP,0,0,0,,那種商家你要是理她就沒完沒了啦
+Dialogue: 0,0:12:42.29,0:12:43.30,Default,NTP,0,0,0,,不是這樣啦
+Dialogue: 0,0:12:44.17,0:12:46.62,Default,NTP,0,0,0,,別人又把我叫成「女朋友」了
+Dialogue: 0,0:12:47.36,0:12:49.82,Default,NTP,0,0,0,,明明不是潛入調查..真奇怪呢
+Dialogue: 0,0:12:50.38,0:12:52.06,Default,NTP,0,0,0,,不 這個啊..
+Dialogue: 0,0:12:52.49,0:12:57.00,Default,NTP,0,0,0,,但是啊 被說成是「女朋友」感覺有點開心呢
+Dialogue: 0,0:12:57.79,0:12:59.26,Default,NTP,0,0,0,,本大人也真奇怪呢
+Dialogue: 0,0:13:00.07,0:13:03.20,Default,NTP,0,0,0,,今天難得機會..我可以做一整天你的女朋友嗎？
+Dialogue: 0,0:13:04.00,0:13:04.97,Default,NTP,0,0,0,,說什麼傻話啊！
+Dialogue: 0,0:13:05.74,0:13:07.47,Default,NTP,0,0,0,,等 等等啊
+Dialogue: 0,0:13:10.56,0:13:11.30,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:13:12.38,0:13:14.90,Default,NTP,0,0,0,,阿普裏亞的..i型劍系列..
+Dialogue: 0,0:13:16.49,0:13:18.59,Default,NTP,0,0,0,,而且是很受歡迎的第三版
+Dialogue: 0,0:13:18.93,0:13:23.88,Default,NTP,0,0,0,,小哥眼光不錯啊 這可是很難入手的稀罕玩意哦
+Dialogue: 0,0:13:25.10,0:13:27.07,Default,NTP,0,0,0,,好就好在它的設計啊
+Dialogue: 0,0:13:28.06,0:13:29.73,Default,NTP,0,0,0,,簡潔美觀又好用
+Dialogue: 0,0:13:30.47,0:13:32.75,Default,NTP,0,0,0,,沒想到會在這裏遇見..
+Dialogue: 0,0:13:31.96,0:13:32.78,Default,NTP,0,0,0,,喂 勞爾
+Dialogue: 0,0:13:33.52,0:13:35.35,Default,NTP,0,0,0,,超想要這個的
+Dialogue: 0,0:13:35.83,0:13:37.07,Default,NTP,0,0,0,,喂 我說勞爾啦..
+Dialogue: 0,0:13:37.95,0:13:38.74,Default,NTP,0,0,0,,真讓人受不了啊
+Dialogue: 0,0:13:40.25,0:13:43.80,Default,NTP,0,0,0,,雖然阿普裏亞倒閉了 但是現在還是很受歡迎
+Dialogue: 0,0:13:44.46,0:13:45.28,Default,NTP,0,0,0,,10萬如何啊？
+Dialogue: 0,0:13:46.30,0:13:47.25,Default,NTP,0,0,0,,10萬金？！
+Dialogue: 0,0:13:47.97,0:13:49.54,Default,NTP,0,0,0,,以前明明曾炒到200萬啊
+Dialogue: 0,0:14:01.88,0:14:03.25,Default,NTP,0,0,0,,怎麼辦呢..
+Dialogue: 0,0:14:03.79,0:14:05.36,Default,NTP,0,0,0,,狠下心把它買下來吧！
+Dialogue: 0,0:14:05.89,0:14:07.89,Default,NTP,0,0,0,,不..10萬可不是小數目啊
+Dialogue: 0,0:14:08.60,0:14:09.66,Default,NTP,0,0,0,,菲諾覺得如何？
+Dialogue: 0,0:14:10.25,0:14:11.18,Default,NTP,0,0,0,,咦？嗯？
+Dialogue: 0,0:14:12.08,0:14:14.53,Default,NTP,0,0,0,,菲諾？喂 菲諾？
+Dialogue: 0,0:14:20.57,0:14:21.81,Default,NTP,0,0,0,,這裏是哪裏啊？
+Dialogue: 0,0:14:28.48,0:14:30.38,Default,NTP,0,0,0,,菲諾？喂 菲諾！
+Dialogue: 0,0:14:31.30,0:14:32.15,Default,NTP,0,0,0,,你在哪？菲諾
+Dialogue: 0,0:14:32.98,0:14:36.49,Default,NTP,0,0,0,,突然就迷路了 這傢伙真是個麻煩精啊
+Dialogue: 0,0:14:39.79,0:14:41.37,Default,NTP,0,0,0,,菲諾 你在哪？
+Dialogue: 0,0:14:42.27,0:14:44.39,Default,NTP,0,0,0,,勞爾 你在這啊
+Dialogue: 0,0:14:45.67,0:14:49.20,Default,NTP,0,0,0,,真是的 讓人家這麼擔心..誒？
+Dialogue: 0,0:14:56.63,0:14:59.36,Default,NTP,0,0,0,,剛才不知怎麼突然被拉進一家店裏
+Dialogue: 0,0:14:59.90,0:15:02.42,Default,NTP,0,0,0,,然後店裏的姐姐幫我換了這身衣服呢
+Dialogue: 0,0:15:04.00,0:15:04.62,Default,NTP,0,0,0,,菲諾？
+Dialogue: 0,0:15:05.11,0:15:07.82,Default,NTP,0,0,0,,怎麼啦？你忘掉本大人的臉了嗎？
+Dialogue: 0,0:15:08.49,0:15:11.58,Default,NTP,0,0,0,,不 但是..可你..
+Dialogue: 0,0:15:14.85,0:15:16.59,Default,NTP,0,0,0,,穿這種衣服還是頭一回
+Dialogue: 0,0:15:17.60,0:15:18.58,Default,NTP,0,0,0,,結果我忍不住就買下來了
+Dialogue: 0,0:15:20.14,0:15:20.84,Default,NTP,0,0,0,,如何啊？
+Dialogue: 0,0:15:21.37,0:15:23.55,Default,NTP,0,0,0,,為什麼沒換回去呢？
+Dialogue: 0,0:15:24.05,0:15:25.16,Default,NTP,0,0,0,,你不知道嗎？
+Dialogue: 0,0:15:25.92,0:15:28.97,Default,NTP,0,0,0,,買了武器和防具必須馬上裝備才行啊
+Dialogue: 0,0:15:29.48,0:15:31.05,Default,NTP,0,0,0,,你這又不是防具
+Dialogue: 0,0:15:31.57,0:15:33.01,Default,NTP,0,0,0,,比起這個 你到底覺得怎樣啦？
+Dialogue: 0,0:15:33.48,0:15:35.15,Default,NTP,0,0,0,,好看嗎？還是不好看？
+Dialogue: 0,0:15:36.54,0:15:37.44,Default,NTP,0,0,0,,好看啦..
+Dialogue: 0,0:15:38.07,0:15:39.01,Default,NTP,0,0,0,,太棒了！
+Dialogue: 0,0:15:40.24,0:15:40.93,Default,NTP,0,0,0,,你幹什麼啊！
+Dialogue: 0,0:15:41.67,0:15:43.05,Default,NTP,0,0,0,,店裏的姐姐說啊
+Dialogue: 0,0:15:43.84,0:15:46.86,Default,NTP,0,0,0,,如果穿這件衣服 勞爾一定會高興的
+Dialogue: 0,0:15:48.74,0:15:51.67,Default,NTP,0,0,0,,誒？那麼..你是為了我？
+Dialogue: 0,0:15:52.17,0:15:52.72,Default,NTP,0,0,0,,嗯！
+Dialogue: 0,0:15:54.73,0:15:57.87,Default,NTP,0,0,0,,菲諾她..原來是這麼可愛的嗎？
+Dialogue: 0,0:16:02.30,0:16:04.19,Default,NTP,0,0,0,,打得火熱呢 兩位
+Dialogue: 0,0:16:04.65,0:16:07.37,Default,NTP,0,0,0,,這個不收錢啦 拿去吧拿去吧
+Dialogue: 0,0:16:07.82,0:16:09.00,Default,NTP,0,0,0,,謝..謝謝
+Dialogue: 0,0:16:13.67,0:16:14.85,Default,NTP,0,0,0,,感覺有點不好意思呢
+Dialogue: 0,0:16:16.31,0:16:19.32,Default,NTP,0,0,0,,沒成為勇者的人和沒成為魔王的人
+Dialogue: 0,0:16:20.14,0:16:21.74,Default,NTP,0,0,0,,好奇怪的一對啊
+Dialogue: 0,0:16:23.20,0:16:24.29,Default,NTP,0,0,0,,等一下啊 我！
+Dialogue: 0,0:16:24.89,0:16:26.74,Default,NTP,0,0,0,,說什麼「一對」..是指菲諾和我？！
+Dialogue: 0,0:16:27.76,0:16:29.25,Default,NTP,0,0,0,,勞爾 你的臉很紅哦
+Dialogue: 0,0:16:29.61,0:16:31.83,Default,NTP,0,0,0,,別..別誤會啊 這是..
+Dialogue: 0,0:16:32.25,0:16:33.62,Default,NTP,0,0,0,,總之我把人情還清了哦
+Dialogue: 0,0:16:34.38,0:16:34.93,Default,NTP,0,0,0,,人情？
+Dialogue: 0,0:16:35.28,0:16:38.90,Default,NTP,0,0,0,,嗯 無論昨晚還是剛才 我總是讓你幫忙呢
+Dialogue: 0,0:16:40.85,0:16:42.84,Default,NTP,0,0,0,,這件衣服是這麼回事啊
+Dialogue: 0,0:16:43.49,0:16:46.73,Default,NTP,0,0,0,,其實呢 除了這件衣服之外
+Dialogue: 0,0:16:46.96,0:16:48.28,Default,NTP,0,0,0,,我還買了好多東西
+Dialogue: 0,0:16:48.87,0:16:49.62,Default,NTP,0,0,0,,快看
+Dialogue: 0,0:16:50.34,0:16:52.17,Default,NTP,0,0,0,,你都買了些什麼啊？
+Dialogue: 0,0:16:52.93,0:16:55.94,Default,NTP,0,0,0,,那個..熊的木雕
+Dialogue: 0,0:16:56.54,0:16:58.20,Default,NTP,0,0,0,,富士傑羅克山的三角旗
+Dialogue: 0,0:16:59.05,0:17:00.87,Default,NTP,0,0,0,,還有除魔的壺和提燈！
+Dialogue: 0,0:17:01.71,0:17:03.72,Default,NTP,0,0,0,,對了對了 我還買了錢包
+Dialogue: 0,0:17:05.00,0:17:07.88,Default,NTP,0,0,0,,如何啊？這是用黃金野槌蛇的皮製成的
+Dialogue: 0,0:17:08.42,0:17:11.44,Default,NTP,0,0,0,,是可以賺入大把金幣的黃金錢包哦！
+Dialogue: 0,0:17:13.29,0:17:15.92,Default,NTP,0,0,0,,我說你..到底花了多少？
+Dialogue: 0,0:17:16.35,0:17:19.14,Default,NTP,0,0,0,,別小看本大人的計算能力哦
+Dialogue: 0,0:17:19.83,0:17:21.28,Default,NTP,0,0,0,,薪水正好用完！
+Dialogue: 0,0:17:22.36,0:17:26.06,Default,NTP,0,0,0,,那麼 到下個發薪日之前你打算怎麼過日子？
+Dialogue: 0,0:17:30.88,0:17:31.74,Default,NTP,0,0,0,,好可怕..
+Dialogue: 0,0:17:33.05,0:17:39.51,Default,NTP,0,0,0,,市場好可怕..好可怕..好可怕..
+Dialogue: 0,0:17:40.22,0:17:42.93,Default,NTP,0,0,0,,好啦 沒看住你我也有責任
+Dialogue: 0,0:17:43.60,0:17:45.10,Default,NTP,0,0,0,,可沒想到居然能鬧到這個地步..
+Dialogue: 0,0:17:48.22,0:17:48.77,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:17:50.86,0:17:52.88,Default,NTP,0,0,0,,看不見啦
+Dialogue: 0,0:17:56.73,0:17:57.50,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:18:00.36,0:18:02.30,Default,NTP,0,0,0,,算我請的 快吃吧
+Dialogue: 0,0:18:02.85,0:18:03.37,Default,NTP,0,0,0,,嗯！
+Dialogue: 0,0:18:11.90,0:18:12.80,Default,NTP,0,0,0,,菲諾？
+Dialogue: 0,0:18:13.23,0:18:16.27,Default,NTP,0,0,0,,好棒..這樣子還是頭一回..
+Dialogue: 0,0:18:16.73,0:18:18.96,Default,NTP,0,0,0,,勞爾 怎麼辦啊
+Dialogue: 0,0:18:20.61,0:18:23.15,Default,NTP,0,0,0,,好好吃！好吃過頭了
+Dialogue: 0,0:18:23.37,0:18:24.84,Default,NTP,0,0,0,,心情變得好棒哦！
+Dialogue: 0,0:18:25.45,0:18:26.92,Default,NTP,0,0,0,,太..太好了呢
+Dialogue: 0,0:18:27.45,0:18:29.91,Default,NTP,0,0,0,,來嘛 勞爾也吃 勞爾也一起吃
+Dialogue: 0,0:18:30.53,0:18:31.86,Default,NTP,0,0,0,,我就算了啦
+Dialogue: 0,0:18:32.39,0:18:34.33,Default,NTP,0,0,0,,勞爾也來嘛來嘛
+Dialogue: 0,0:18:35.99,0:18:36.65,Default,NTP,0,0,0,,把嘴張開
+Dialogue: 0,0:18:40.92,0:18:41.56,Default,NTP,0,0,0,,好吃？
+Dialogue: 0,0:18:44.06,0:18:44.58,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:18:49.34,0:18:50.04,Default,NTP,0,0,0,,我說啊 勞爾
+Dialogue: 0,0:18:50.74,0:18:52.07,Default,NTP,0,0,0,,今天真的謝謝你呢
+Dialogue: 0,0:18:53.15,0:18:54.13,Default,NTP,0,0,0,,不必客氣
+Dialogue: 0,0:18:57.56,0:18:59.50,Default,NTP,0,0,0,,勞爾 閉上眼睛
+Dialogue: 0,0:19:00.36,0:19:00.86,Default,NTP,0,0,0,,誒？
+Dialogue: 0,0:19:01.13,0:19:02.12,Default,NTP,0,0,0,,聽我的快點啦
+Dialogue: 0,0:19:07.11,0:19:07.61,Default,NTP,0,0,0,,可以了哦
+Dialogue: 0,0:19:11.00,0:19:11.88,Default,NTP,0,0,0,,這是什麼？
+Dialogue: 0,0:19:12.34,0:19:15.67,Default,NTP,0,0,0,,你想啊 我們一開始不是說要買留作紀念的東西嗎
+Dialogue: 0,0:19:16.14,0:19:18.31,Default,NTP,0,0,0,,所以..那個
+Dialogue: 0,0:19:18.94,0:19:22.88,Default,NTP,0,0,0,,平時我一直受到勞爾的照顧 這個是回禮
+Dialogue: 0,0:19:24.49,0:19:28.69,Default,NTP,0,0,0,,教了我各種各樣的事 我真的很謝謝你
+Dialogue: 0,0:19:30.11,0:19:33.04,Default,NTP,0,0,0,,我來到這裏最開心的事情
+Dialogue: 0,0:19:33.62,0:19:34.78,Default,NTP,0,0,0,,就是遇上了勞爾
+Dialogue: 0,0:19:35.77,0:19:36.45,Default,NTP,0,0,0,,菲諾..
+Dialogue: 0,0:19:37.54,0:19:39.42,Default,NTP,0,0,0,,所以我想好好謝謝你
+Dialogue: 0,0:19:39.94,0:19:41.25,Default,NTP,0,0,0,,不 我才是..
+Dialogue: 0,0:19:42.32,0:19:44.81,Default,NTP,0,0,0,,老實說我在你身上學到的才更多呢
+Dialogue: 0,0:19:45.77,0:19:46.28,Default,NTP,0,0,0,,怎麼說呢..
+Dialogue: 0,0:19:47.00,0:19:49.29,Default,NTP,0,0,0,,能遇上菲諾..太好了
+Dialogue: 0,0:19:50.11,0:19:50.94,Default,NTP,0,0,0,,真的嗎？
+Dialogue: 0,0:19:56.39,0:19:57.19,Default,NTP,0,0,0,,打開來看看吧
+Dialogue: 0,0:19:57.76,0:19:58.29,Default,NTP,0,0,0,,也是呢
+Dialogue: 0,0:19:59.06,0:20:00.55,Default,NTP,0,0,0,,勞爾一定會喜歡的哦
+Dialogue: 0,0:20:03.07,0:20:03.95,Default,NTP,0,0,0,,吊帶？
+Dialogue: 0,0:20:04.46,0:20:11.50,Default,NTP,0,0,0,,嗯..是含有差一點打倒魔王的勇者毛髮的吊帶！
+Dialogue: 0,0:20:12.57,0:20:14.82,Default,NTP,0,0,0,,這是什麼啊！！
+Dialogue: 0,0:20:15.27,0:20:16.15,Default,NTP,0,0,0,,這樣啊這樣啊
+Dialogue: 0,0:20:16.62,0:20:18.22,Default,NTP,0,0,0,,你這麼中意我很開心哦
+Dialogue: 0,0:20:19.01,0:20:23.36,Default,NTP,0,0,0,,這是魔界很流行的道具 拿著它都會特別吸睛呢
+Dialogue: 0,0:20:30.12,0:20:32.41,Default,NTP,0,0,0,,你先走吧 我買點飲料就回去
+Dialogue: 0,0:20:32.99,0:20:34.04,Default,NTP,0,0,0,,嗯 我知道了
+Dialogue: 0,0:20:34.92,0:20:37.52,Default,NTP,0,0,0,,給本大人買個特別甜的哦
+Dialogue: 0,0:20:41.28,0:20:43.06,Default,NTP,0,0,0,,特別甜的..
+Dialogue: 0,0:20:47.05,0:20:49.48,Default,NTP,0,0,0,,被那種姑娘的老爸打倒
+Dialogue: 0,0:20:49.66,0:20:51.47,Default,NTP,0,0,0,,肯定是無比悔恨吧
+Dialogue: 0,0:20:54.68,0:20:55.22,Default,NTP,0,0,0,,菲諾！
+Dialogue: 0,0:20:57.11,0:20:57.73,Default,NTP,0,0,0,,你在哪？菲諾！
+Dialogue: 0,0:20:59.58,0:21:00.38,Default,NTP,0,0,0,,喂 你們幾個！
+Dialogue: 0,0:21:02.48,0:21:03.04,Default,NTP,0,0,0,,菲諾！
+Dialogue: 0,0:21:03.95,0:21:04.56,Default,NTP,0,0,0,,你受傷了嗎？
+Dialogue: 0,0:21:05.93,0:21:06.67,Default,NTP,0,0,0,,我沒事
+Dialogue: 0,0:21:07.87,0:21:08.83,Default,NTP,0,0,0,,只是擦傷
+Dialogue: 0,0:21:09.86,0:21:11.20,Default,NTP,0,0,0,,這哪叫沒事啊
+Dialogue: 0,0:21:11.97,0:21:14.74,Default,NTP,0,0,0,,沒想到..居然鬧到這裏來..
+Dialogue: 0,0:21:15.10,0:21:16.42,Default,NTP,0,0,0,,你認識他們嗎？
+Dialogue: 0,0:21:18.69,0:21:20.50,Default,NTP,0,0,0,,我說你..被人盯上了嗎？
+Dialogue: 0,0:21:23.91,0:21:25.24,Default,NTP,0,0,0,,到底是怎麼回事？
+Dialogue: 0,0:21:27.53,0:21:32.76,Default,NTP,0,0,0,,勞爾 你覺得本大人..成為魔王好嗎？
+Dialogue: 0,0:21:33.93,0:21:34.57,Default,NTP,0,0,0,,誒？
+Dialogue: 0,0:21:35.94,0:21:40.13,Default,NTP,0,0,0,,由於老爸被打倒 不是有很多人都失去了工作嗎？
+Dialogue: 0,0:21:40.98,0:21:43.98,Default,NTP,0,0,0,,不是有很多造武器和防具的公司都倒閉了嗎？
+Dialogue: 0,0:21:46.19,0:21:48.32,Default,NTP,0,0,0,,他們說大家都很煩惱..
+Dialogue: 0,0:21:48.67,0:21:49.84,Default,NTP,0,0,0,,是誰這麼說的
+Dialogue: 0,0:21:53.33,0:21:55.89,Default,NTP,0,0,0,,大概..是勇者
+Dialogue: 0,0:21:58.91,0:22:02.30,Default,NTP,0,0,0,,那些人 叫我要成為魔王
+Dialogue: 0,0:22:04.82,0:22:07.66,Default,NTP,0,0,0,,為了讓這個世界再一次需要勇者
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+

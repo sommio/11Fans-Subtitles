@@ -1,0 +1,496 @@
+[Script Info]
+; // 此字幕由PopSub生成  2010-03-27 17:21:31
+; // 版本: 0.77
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:漫游字幕
+Original Script:漫游字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0.00,1,1,1,2,10,10,12,1
+Style: op,comic sans ms,20,&H00000000,&H00FFFFFF,&H00FFFFFF,&HF0FFFFFF,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,8,1
+Style: ed,MS PGothic,20,&H00FFFFFF,&HFF000000,&HFF000000,&HFF000000,-1,0,0,0,100,100,0,0.00,1,1,1,2,30,30,10,137
+Style: logo,SimHei,19,&H00999999,&H00999999,&H00FFFFFF,&H40000000,-1,0,0,0,100,100,0,0.00,1,4,0,2,20,20,10,1
+Style: staff,@SimHei,19,&H00999999,&H00999999,&H00FFFFFF,&H40000000,-1,0,0,0,100,100,0,0.00,1,4,0,2,20,20,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:20.06,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H0D3893&\3a&HFF&}{\fad(100,0)}{\move(550,80,450,80,0,3000)}灵风工作室  &  WLGO字幕组 合作
+Dialogue: 0,0:01:20.06,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H0D3893&\3a&HFF&}{\move(600,320,370,320,0,3000)}www.fosky.com
+Dialogue: 0,0:01:21.12,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H000000&\3a&HFF&}{\pos(260,80)}制  作
+Dialogue: 0,0:01:21.12,0:01:24.50,logo,NTP,0000,0000,0000,,{\1c&H000000&\3a&HFF&}{\pos(260,320)}制  作
+Dialogue: 0,0:01:28.16,0:01:30.56,staff,NTP,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(60,65)}{\1c&HFFFFFF&}{\3c&H000000&}翻译：詹柯&神无月豪 校对：SAORI
+Dialogue: 0,0:01:28.16,0:01:30.56,staff,NTP,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(100,130)}{\1c&HFFFFFF&}{\3c&H000000&}特效：SHIRAKAWA
+Dialogue: 0,0:01:28.16,0:01:30.56,staff,NTP,0000,0000,0000,,{\frz-90}{\fad(500,500)}{\an4}{\bord2}{\pos(650,90)}{\1c&HFFFFFF&}{\3c&H000000&}时间：CAMEN 后期：D.BOY
+Dialogue: 0,0:00:10.57,0:00:10.85,op,NTP,0000,0000,0000,,Yeah!
+Dialogue: 0,0:00:11.12,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(140,352)}{\alpha&Hff&\frx-90}{\t(0,310,0.5,\frx0\alpha&H00&)}Sharp
+Dialogue: 0,0:00:11.43,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(195,352)}{\alpha&Hff&\frx-90}{\t(0,290,0.5,\frx0\alpha&H00&)}Like
+Dialogue: 0,0:00:11.72,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(260,352)}{\alpha&Hff&\frx-90}{\t(0,550,0.5,\frx0\alpha&H00&)}An Edge
+Dialogue: 0,0:00:12.27,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(320,352)}{\alpha&Hff&\frx-90}{\t(0,160,0.5,\frx0\alpha&H00&)}Of
+Dialogue: 0,0:00:12.43,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(390,352)}{\alpha&Hff&\frx-90}{\t(0,500,0.5,\frx0\alpha&H00&)}A Samurai
+Dialogue: 0,0:00:12.93,0:00:13.34,op,NTP,0000,0000,0000,,{\pos(480,352)}{\alpha&Hff&\frx-90}{\t(0,180,0.5,\frx0\alpha&H00&)}Sword
+Dialogue: 0,0:00:13.41,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(73,332)}{\alpha&Hff&\frx90}{\t(0,70,\alpha&H00&\frx0)}The
+Dialogue: 0,0:00:13.48,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(114,332)}{\alpha&Hff&\frx90}{\t(0,460,0.5,\alpha&H00&\frx0)}Metal
+Dialogue: 0,0:00:13.94,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(173,332)}{\alpha&Hff&\frx90}{\t(0,340,0.5,\alpha&H00&\frx0)}Blade
+Dialogue: 0,0:00:14.28,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(234,332)}{\alpha&Hff&\frx90}{\t(0,340,0.5,\alpha&H00&\frx0)}Cutting
+Dialogue: 0,0:00:14.62,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(310,332)}{\alpha&Hff&\frx90}{\t(0,270,0.5,\alpha&H00&\frx0)}Through
+Dialogue: 0,0:00:14.89,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(399,332)}{\alpha&Hff&\frx90}{\t(0,300,0.5,\alpha&H00&\frx0)}Flesh
+Dialogue: 0,0:00:15.19,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(460,332)}{\alpha&Hff&\frx90}{\t(0,100,0.5,\alpha&H00&\frx0)}And
+Dialogue: 0,0:00:15.29,0:00:15.74,op,NTP,0000,0000,0000,,{\a8}{\pos(507,332)}{\alpha&Hff&\frx90}{\t(0,190,0.5,\alpha&H00&\frx0)}Bone
+Dialogue: 2,0:00:15.95,0:00:17.35,op,NTP,0000,0000,0000,,Though My Mind's At Peace
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(222,352)}{\alpha&Hff&\fs30}{\t(0,110,\fs20\alpha&H00&)}The
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(279,352)}{\alpha&Hff&\fs30}{\t(110,360,\fs20\alpha&H00&)}World{\fnarial}'{\fncomic sans ms}s
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(335,352)}{\alpha&Hff&\fs30}{\t(360,580,\fs20\alpha&H00&)}Out
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(368,352)}{\alpha&Hff&\fs30}{\t(580,710,\fs20\alpha&H00&)}Of
+Dialogue: 0,0:00:17.40,0:00:18.50,op,NTP,0000,0000,0000,,{\pos(410,352)}{\alpha&Hff&\fs30}{\t(710,1060,\fs20\alpha&H00&)}Order
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(250,352)}{\alpha&H00&}{\t(0,320,\fs30\alpha&Hff&)}Missing
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(314,352)}{\alpha&H00&}{\t(320,430,\fs30\alpha&Hff&)}Then
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(359,352)}{\alpha&H00&}{\t(430,540,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:00:18.63,0:00:19.75,op,NTP,0000,0000,0000,,{\pos(403,352)}{\alpha&H00&}{\t(540,960,\fs30\alpha&Hff&)}Heat
+Dialogue: 0,0:00:19.87,0:00:21.19,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko17}Blood {\ko33}Gets {\ko50}Col{\ko25}der
+Dialogue: 0,0:00:21.35,0:00:21.86,op,NTP,0000,0000,0000,,Oh Yes
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(215,352)}{\alpha&Hff&\fscy500}{\t(0,120,\fscy100\alpha&H00&)}I
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(248,352)}{\alpha&Hff&\fscy500}{\t(120,320,\fscy100\alpha&H00&)}Have
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(288,352)}{\alpha&Hff&\fscy500}{\t(320,450,\fscy100\alpha&H00&)}To
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(325,352)}{\alpha&Hff&\fscy500}{\t(450,700,\fscy100\alpha&H00&)}Find
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(364,352)}{\alpha&Hff&\fscy500}{\t(700,920,\fscy100\alpha&H00&)}My
+Dialogue: 0,0:00:21.86,0:00:23.15,op,NTP,0000,0000,0000,,{\pos(406,352)}{\alpha&Hff&\fscy500}{\t(920,1240,\fscy100\alpha&H00&)}Path
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(140,352)}{\alpha&Hff&\fscx200}{\t(0,200,\fscx100\alpha&H00&)}No
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(172,352)}{\alpha&Hff&\fscx200}{\t(200,500,\fscx100\alpha&H00&)}Less
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(220,352)}{\alpha&Hff&\fscx200}{\t(500,930,\fscx100\alpha&H00&)}Walk
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(273,352)}{\alpha&Hff&\fscx200}{\t(930,1080,\fscx100\alpha&H00&)}On
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(305,352)}{\alpha&Hff&\fscx200}{\t(1080,1300,\fscx100\alpha&H00&)}Earth
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(361,352)}{\alpha&Hff&\fscx200}{\t(1300,1640,\fscx100\alpha&H00&)}Water
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(423,352)}{\alpha&Hff&\fscx200}{\t(1640,1910,\fscx100\alpha&H00&)}And
+Dialogue: 0,0:00:23.35,0:00:25.87,op,NTP,0000,0000,0000,,{\a1}{\pos(465,352)}{\alpha&Hff&\fscx200}{\t(1910,2250,\fscx100\alpha&H00&)}Fire
+Dialogue: 0,0:00:26.17,0:00:28.17,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko11}The {\ko27}Ele{\ko28}ments {\ko29}Com{\ko35}pose {\ko11}Of {\ko35}Ma{\ko22}gnum
+Dialogue: 0,0:00:28.17,0:00:28.26,op,NTP,0000,0000,0000,,{\alpha&Haa&\fscx100\frx-135}{\t(0,200,1,\alpha&H00&\fscx180\frx-70}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:28.26,0:00:28.35,op,NTP,0000,0000,0000,,{\alpha&Haa&\fscx180\frx-70}{\t(0,50,1,\alpha&H00&\fscx100\frx0}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:28.35,0:00:30.90,op,NTP,0000,0000,0000,,Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:30.90,0:00:31.00,op,NTP,0000,0000,0000,,{\alpha&H00&\fscx100\frx0}{\t(0,100,1,\alpha&Hff&\fscx180\frx-70}Hope Is My Motive,So Pride Is My Magnum
+Dialogue: 0,0:00:31.32,0:00:31.52,op,NTP,0000,0000,0000,,{\t(0,200,\bord4)}Steel {\bord2}Packed Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.52,0:00:31.72,op,NTP,0000,0000,0000,,{\bord4}{\t(0,200,\bord2)}Steel {\bord2}Packed Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.72,0:00:31.88,op,NTP,0000,0000,0000,,Steel {\t(0,160,\bord4)}Packed {\bord2}Tight In Microchip On My Arm
+Dialogue: 0,0:00:31.88,0:00:32.04,op,NTP,0000,0000,0000,,Steel {\bord4}{\t(0,160,\bord2)}Packed {\bord2}Tight In Microchip On My Arm
+Dialogue: 0,0:00:32.04,0:00:32.17,op,NTP,0000,0000,0000,,Steel Packed {\t(0,130,\bord4)}Tight {\bord2}In Microchip On My Arm
+Dialogue: 0,0:00:32.17,0:00:32.31,op,NTP,0000,0000,0000,,Steel Packed {\bord4}{\t(0,140,\bord2)}Tight {\bord2}In Microchip On My Arm
+Dialogue: 0,0:00:32.31,0:00:32.40,op,NTP,0000,0000,0000,,Steel Packed Tight {\t(0,90,\bord4)}In {\bord2}Microchip On My Arm
+Dialogue: 0,0:00:32.40,0:00:32.49,op,NTP,0000,0000,0000,,Steel Packed Tight {\bord4}{\t(0,90,\bord2)}In {\bord2}Microchip On My Arm
+Dialogue: 0,0:00:32.49,0:00:32.63,op,NTP,0000,0000,0000,,Steel Packed Tight In {\t(0,140,\bord4)}Mi{\bord2}crochip On My Arm
+Dialogue: 0,0:00:32.63,0:00:32.76,op,NTP,0000,0000,0000,,Steel Packed Tight In {\bord4}{\t(0,130,\bord2)}Mi{\bord2}crochip On My Arm
+Dialogue: 0,0:00:32.76,0:00:32.96,op,NTP,0000,0000,0000,,Steel Packed Tight In Mi{\t(0,200,\bord4)}cro{\bord2}chip On My Arm
+Dialogue: 0,0:00:32.96,0:00:33.16,op,NTP,0000,0000,0000,,Steel Packed Tight In Mi{\bord4}{\t(0,200,\bord2)}cro{\bord2}chip On My Arm
+Dialogue: 0,0:00:33.16,0:00:33.33,op,NTP,0000,0000,0000,,Steel Packed Tight In Micro{\t(0,170,\bord4)}chip {\bord2}On My Arm
+Dialogue: 0,0:00:33.33,0:00:33.50,op,NTP,0000,0000,0000,,Steel Packed Tight In Micro{\bord4}{\t(0,170,\bord2)}chip {\bord2}On My Arm
+Dialogue: 0,0:00:33.50,0:00:33.64,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip {\t(0,140,\bord4)}On {\bord2}My Arm
+Dialogue: 0,0:00:33.64,0:00:33.78,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip {\bord4}{\t(0,140,\bord2)}On {\bord2}My Arm
+Dialogue: 0,0:00:33.78,0:00:33.85,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On {\t(0,70,\bord4)}My {\bord2}Arm
+Dialogue: 0,0:00:33.85,0:00:33.92,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On {\bord4}{\t(0,70,\bord2)}My {\bord2}Arm
+Dialogue: 0,0:00:33.92,0:00:34.02,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On My {\t(0,100,\bord4)}Arm
+Dialogue: 0,0:00:34.02,0:00:34.12,op,NTP,0000,0000,0000,,Steel Packed Tight In Microchip On My {\bord4}{\t(0,100,\bord2)}Arm
+Dialogue: 0,0:00:34.26,0:00:34.32,op,NTP,0000,0000,0000,,{\t(0,60,\bord4)}But {\bord2}The Sign Of Our Pro
+Dialogue: 0,0:00:34.32,0:00:34.38,op,NTP,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}But {\bord2}The Sign Of Our Pro
+Dialogue: 0,0:00:34.38,0:00:34.42,op,NTP,0000,0000,0000,,But {\t(0,40,\bord4)}The {\bord2}Sign Of Our Pro
+Dialogue: 0,0:00:34.42,0:00:34.47,op,NTP,0000,0000,0000,,But {\bord4}{\t(0,50,\bord2)}The {\bord2}Sign Of Our Pro
+Dialogue: 0,0:00:34.47,0:00:34.62,op,NTP,0000,0000,0000,,But The {\t(0,150,\bord4)}Sign {\bord2}Of Our Pro
+Dialogue: 0,0:00:34.62,0:00:34.77,op,NTP,0000,0000,0000,,But The {\bord4}{\t(0,150,\bord2)}Sign {\bord2}Of Our Pro
+Dialogue: 0,0:00:34.77,0:00:34.83,op,NTP,0000,0000,0000,,But The Sign {\t(0,60,\bord4)}Of {\bord2}Our Pro
+Dialogue: 0,0:00:34.83,0:00:34.90,op,NTP,0000,0000,0000,,But The Sign {\bord4}{\t(0,70,\bord2)}Of {\bord2}Our Pro
+Dialogue: 0,0:00:34.90,0:00:35.04,op,NTP,0000,0000,0000,,But The Sign Of {\t(0,140,\bord4)}Our {\bord2}Pro
+Dialogue: 0,0:00:35.04,0:00:35.19,op,NTP,0000,0000,0000,,But The Sign Of {\bord4}{\t(0,150,\bord2)}Our {\bord2}Pro
+Dialogue: 0,0:00:35.19,0:00:35.32,op,NTP,0000,0000,0000,,But The Sign Of Our {\t(0,130,\bord4)}Pro
+Dialogue: 0,0:00:35.32,0:00:35.46,op,NTP,0000,0000,0000,,But The Sign Of Our {\bord4}{\t(0,140,\bord2)}Pro
+Dialogue: 0,0:00:35.68,0:00:35.73,op,NTP,0000,0000,0000,,{\t(0,50,\bord4)}The {\bord2}Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.73,0:00:35.79,op,NTP,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}The {\bord2}Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.79,0:00:35.91,op,NTP,0000,0000,0000,,The {\t(0,120,\bord4)}Ulti{\bord2}mate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:35.91,0:00:36.03,op,NTP,0000,0000,0000,,The {\bord4}{\t(0,120,\bord2)}Ulti{\bord2}mate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.03,0:00:36.14,op,NTP,0000,0000,0000,,The Ulti{\t(0,110,\bord4)}mate {\bord2}Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.14,0:00:36.25,op,NTP,0000,0000,0000,,The Ulti{\bord4}{\t(0,110,\bord2)}mate {\bord2}Reward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.25,0:00:36.32,op,NTP,0000,0000,0000,,The Ultimate {\t(0,70,\bord4)}Re{\bord2}ward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.32,0:00:36.42,op,NTP,0000,0000,0000,,The Ultimate {\bord4}{\t(0,100,\bord2)}Re{\bord2}ward Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.42,0:00:36.59,op,NTP,0000,0000,0000,,The Ultimate Re{\t(0,170,\bord4)}ward {\bord2}Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.59,0:00:36.76,op,NTP,0000,0000,0000,,The Ultimate Re{\bord4}{\t(0,170,\bord2)}ward {\bord2}Is I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.76,0:00:36.83,op,NTP,0000,0000,0000,,The Ultimate Reward {\t(0,70,\bord4)}Is {\bord2}I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.83,0:00:36.90,op,NTP,0000,0000,0000,,The Ultimate Reward {\bord4}{\t(0,70,\bord2)}Is {\bord2}I{\fnarial}'{\fncomic sans ms}m Not At Wars
+Dialogue: 0,0:00:36.90,0:00:36.96,op,NTP,0000,0000,0000,,The Ultimate Reward Is {\t(0,60,\bord4)}I{\fnarial}'{\fncomic sans ms}m {\bord2}Not At Wars
+Dialogue: 0,0:00:36.96,0:00:37.02,op,NTP,0000,0000,0000,,The Ultimate Reward Is {\bord4}{\t(0,60,\bord2)}I{\fnarial}'{\fncomic sans ms}m {\bord2}Not At Wars
+Dialogue: 0,0:00:37.02,0:00:37.12,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m {\t(0,100,\bord4)}Not {\bord2}At Wars
+Dialogue: 0,0:00:37.12,0:00:37.22,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m {\bord4}{\t(0,100,\bord2)}Not {\bord2}At Wars
+Dialogue: 0,0:00:37.22,0:00:37.35,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not {\t(0,130,\bord4)}At {\bord2}Wars
+Dialogue: 0,0:00:37.35,0:00:37.49,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not {\bord4}{\t(0,140,\bord2)}At {\bord2}Wars
+Dialogue: 0,0:00:37.49,0:00:37.69,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At {\t(0,130,\bord4)}Wars
+Dialogue: 0,0:00:37.69,0:00:37.89,op,NTP,0000,0000,0000,,The Ultimate Reward Is I{\fnarial}'{\fncomic sans ms}m Not At {\bord4}{\t(0,200,\bord2)}Wars
+Dialogue: 0,0:00:38.02,0:00:38.07,op,NTP,0000,0000,0000,,{\t(0,50,\bord4)}At {\bord2}Odds With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.07,0:00:38.13,op,NTP,0000,0000,0000,,{\bord4}{\t(0,60,\bord2)}At {\bord2}Odds With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.13,0:00:38.24,op,NTP,0000,0000,0000,,At {\t(0,110,\bord4)}Odds {\bord2}With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.24,0:00:38.35,op,NTP,0000,0000,0000,,At {\bord4}{\t(0,110,\bord2)}Odds {\bord2}With The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.35,0:00:38.45,op,NTP,0000,0000,0000,,At Odds {\t(0,100,\bord4)}With {\bord2}The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.45,0:00:38.55,op,NTP,0000,0000,0000,,At Odds {\bord4}{\t(0,100,\bord2)}With {\bord2}The Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.55,0:00:38.62,op,NTP,0000,0000,0000,,At Odds With {\t(0,70,\bord4)}The {\bord2}Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.62,0:00:38.70,op,NTP,0000,0000,0000,,At Odds With {\bord4}{\t(0,80,\bord2)}The {\bord2}Time Of Worlds With No Lords
+Dialogue: 0,0:00:38.70,0:00:38.84,op,NTP,0000,0000,0000,,At Odds With The {\t(0,140,\bord4)}Time {\bord2}Of Worlds With No Lords
+Dialogue: 0,0:00:38.84,0:00:38.98,op,NTP,0000,0000,0000,,At Odds With The {\bord4}{\t(0,140,\bord2)}Time {\bord2}Of Worlds With No Lords
+Dialogue: 0,0:00:38.98,0:00:39.04,op,NTP,0000,0000,0000,,At Odds With The Time {\t(0,60,\bord4)}Of {\bord2}Worlds With No Lords
+Dialogue: 0,0:00:39.04,0:00:39.11,op,NTP,0000,0000,0000,,At Odds With The Time {\bord4}{\t(0,70,\bord2)}Of {\bord2}Worlds With No Lords
+Dialogue: 0,0:00:39.11,0:00:39.30,op,NTP,0000,0000,0000,,At Odds With The Time Of {\t(0,190,\bord4)}Worlds {\bord2}With No Lords
+Dialogue: 0,0:00:39.30,0:00:39.49,op,NTP,0000,0000,0000,,At Odds With The Time Of {\bord4}{\t(0,190,\bord2)}Worlds {\bord2}With No Lords
+Dialogue: 0,0:00:39.49,0:00:39.58,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds {\t(0,90,\bord4)}With {\bord2}No Lords
+Dialogue: 0,0:00:39.58,0:00:39.68,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds {\bord4}{\t(0,100,\bord2)}With {\bord2}No Lords
+Dialogue: 0,0:00:39.68,0:00:39.79,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With {\t(0,110,\bord4)}No {\bord2}Lords
+Dialogue: 0,0:00:39.79,0:00:39.91,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With {\bord4}{\t(0,120,\bord2)}No {\bord2}Lords
+Dialogue: 0,0:00:39.91,0:00:40.11,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With No {\t(0,200,\bord4)}Lords
+Dialogue: 0,0:00:40.11,0:00:40.31,op,NTP,0000,0000,0000,,At Odds With The Time Of Worlds With No {\bord4}{\t(0,200,\bord2)}Lords
+Dialogue: 0,0:00:40.73,0:00:42.02,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko7}A {\ko34}Free{\ko43}lan{\ko35}cer
+Dialogue: 0,0:00:42.08,0:00:44.05,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko10}A {\ko27}Battle{\ko31}cry {\ko15}Of {\ko15}A {\ko36}Heart{\ko2}{\fnarial}-{\ko31}{\fncomic sans ms}Picker {\ko22}Dove
+Dialogue: 0,0:00:44.07,0:00:45.40,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko30}Fly{\ko12}in{\fnarial}'{\fncomic sans ms}s {\ko25}The {\ko26}Tear {\ko35}Dry
+Dialogue: 0,0:00:45.82,0:00:48.22,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko29}Wonder {\ko26}Why {\ko35}Love {\ko23}Won{\fnarial}'{\fncomic sans ms}t {\ko28}Go {\ko35}Wrong {\ko19}With {\ko12}The {\ko30}Clan
+Dialogue: 0,0:00:48.25,0:00:50.85,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko26}Only {\ko32}Trust {\ko10}In {\ko21}Ins{\ko28}tincts {\ko18}And {\ko10}Be {\ko30}One {\ko18}With {\ko18}The {\ko40}Plans
+Dialogue: 0,0:00:50.96,0:00:52.95,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko31}Some {\ko56}Days {\ko33}Some {\ko53}Nights
+Dialogue: 0,0:00:53.16,0:00:54.50,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko21}Some {\ko35}Live {\ko40}Some {\ko37}Die
+Dialogue: 0,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,In The Way Of The Samurai
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(202,352)}{\alpha&H00&}{\t(0,80,\fs30\alpha&Hff&)}In
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(234,352)}{\alpha&H00&}{\t(80,190,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(277,352)}{\alpha&H00&}{\t(190,510,\fs30\alpha&Hff&)}Way
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(314,352)}{\alpha&H00&}{\t(510,670,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(347,352)}{\alpha&H00&}{\t(670,780,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(780,1040,\fs30\alpha&Hff&)}Samu
+Dialogue: 1,0:00:54.55,0:00:56.16,op,NTP,0000,0000,0000,,{\pos(435,352)}{\alpha&H00&}{\t(1040,1400,\fs30\alpha&Hff&)}rai
+Dialogue: 0,0:00:56.21,0:00:57.95,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko26}Some {\ko15}{\ko43}Fight {\ko39}Some {\ko40}Bleed
+Dialogue: 0,0:00:58.04,0:00:59.35,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko24}Sun {\ko20}Up {\ko13}To {\ko30}Sun {\ko30}Down
+Dialogue: 0,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,The Sounds Of The Battlecry
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(205,352)}{\alpha&H00&}{\t(0,100,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(262,352)}{\alpha&H00&}{\t(100,430,\fs30\alpha&Hff&)}Sounds
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(313,352)}{\alpha&H00&}{\t(430,560,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(346,352)}{\alpha&H00&}{\t(560,710,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(710,1100,\fs30\alpha&Hff&)}Battle
+Dialogue: 1,0:00:59.46,0:01:01.02,op,NTP,0000,0000,0000,,{\pos(439,352)}{\alpha&H00&}{\t(1100,1470,\fs30\alpha&Hff&)}cry
+Dialogue: 0,0:01:01.04,0:01:02.66,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko10}Some {\ko49}Days {\ko36}Some {\ko50}Nights
+Dialogue: 0,0:01:02.91,0:01:04.15,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko22}Some {\ko41}Live {\ko29}Some {\ko32}Die
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,In The Name Of The Samurai
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(195,352)}{\alpha&H00&}{\t(0,130,\fs30\alpha&Hff&)}In
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(227,352)}{\alpha&H00&}{\t(130,260,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(277,352)}{\alpha&H00&}{\t(260,640,\fs30\alpha&Hff&)}Name
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(320,352)}{\alpha&H00&}{\t(640,750,\fs30\alpha&Hff&)}Of
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(353,352)}{\alpha&H00&}{\t(750,850,\fs30\alpha&Hff&)}The
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(402,352)}{\alpha&H00&}{\t(850,1200,\fs30\alpha&Hff&)}Samu
+Dialogue: 0,0:01:04.18,0:01:05.87,op,NTP,0000,0000,0000,,{\pos(442,352)}{\alpha&H00&}{\t(1200,1500,\fs30\alpha&Hff&)}rai
+Dialogue: 0,0:01:05.99,0:01:07.64,op,NTP,0000,0000,0000,,{\move(308,352,343,352)}{\2a&Hff&}{\ko28}Some {\ko40}Fight {\ko20}{\ko31}Some {\ko40}Bleed
+Dialogue: 0,0:01:07.79,0:01:09.01,op,NTP,0000,0000,0000,,{\move(343,352,308,352)}{\2a&Hff&}{\ko22}Sun {\ko23}Up {\ko15}To {\ko34}Sun {\ko33}Down
+Dialogue: 0,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,The Sounds Of The Battlecry
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(205,352)}{\alpha&H00&}{\t(0,100,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(262,352)}{\alpha&H00&}{\t(100,430,\fs30\alpha&Hff&)}Sounds
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(313,352)}{\alpha&H00&}{\t(430,550,\fs30\alpha&Hff&)}Of
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(346,352)}{\alpha&H00&}{\t(550,680,\fs30\alpha&Hff&)}The
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(395,352)}{\alpha&H00&}{\t(680,1110,\fs30\alpha&Hff&)}Battle
+Dialogue: 1,0:01:09.15,0:01:10.81,op,NTP,0000,0000,0000,,{\pos(439,352)}{\alpha&H00&}{\t(1110,1510,\fs30\alpha&Hff&)}cry
+Dialogue: 0,0:01:12.38,0:01:13.29,op,NTP,0000,0000,0000,,{\2a&Hff&}{\ko5}A {\ko31}Battle{\ko44}cry
+Dialogue: 0,0:21:36.85,0:21:40.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}また夜が明ければお別れ
+Dialogue: 0,0:21:41.15,0:21:44.55,ed,NTP,0000,0000,0000,,{\fad(200,200)}夢は遠きまぼろしに
+Dialogue: 0,0:21:45.05,0:21:51.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}あなたを追いかけていた光の中で
+Dialogue: 0,0:21:52.05,0:21:58.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}抱かれるたび　温かい風をたより
+Dialogue: 0,0:21:58.35,0:22:03.25,ed,NTP,0000,0000,0000,,{\fad(200,200)}春を告げ　踊り出すsunshine
+Dialogue: 0,0:22:03.35,0:22:08.45,ed,NTP,0000,0000,0000,,{\fad(200,200)}夏をmusic　野原唐草乾くわ
+Dialogue: 0,0:22:08.65,0:22:13.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}秋の月登った　まん丸さお祝い
+Dialogue: 0,0:22:13.85,0:22:18.95,ed,NTP,0000,0000,0000,,{\fad(200,200)}冬を過ぎまた　月日を数える
+Dialogue: 0,0:22:18.95,0:22:21.85,ed,NTP,0000,0000,0000,,{\fad(200,200)}まだ目蓋の奥にある　いつかの夏
+Dialogue: 0,0:22:22.15,0:22:23.15,ed,NTP,0000,0000,0000,,{\fad(200,200)}遠すぎた青空
+Dialogue: 0,0:22:23.25,0:22:27.45,ed,NTP,0000,0000,0000,,{\fad(200,200)}温かかった　手をつなぐ花摘み歌う
+Dialogue: 0,0:22:27.45,0:22:29.45,ed,NTP,0000,0000,0000,,{\fad(200,200)}いつや思い出
+Dialogue: 0,0:22:29.65,0:22:34.65,ed,NTP,0000,0000,0000,,{\fad(200,200)}今呼び覚ます　記憶の中で
+Dialogue: 0,0:22:34.75,0:22:39.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}いざ歩き出す　あなたのもとへ
+Dialogue: 0,0:22:39.85,0:22:44.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}春を告げ　踊ってsamba
+Dialogue: 0,0:22:44.85,0:22:49.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}夏をmusic　野原唐草乾くわ
+Dialogue: 0,0:22:50.05,0:22:55.35,ed,NTP,0000,0000,0000,,{\fad(200,200)}秋の月登った　まん丸さお祝い
+Dialogue: 0,0:22:55.35,0:23:00.25,ed,NTP,0000,0000,0000,,{\fad(200,200)}冬を過ぎまた　月日を数える
+Dialogue: 0,0:23:00.85,0:23:04.45,ed,NTP,0000,0000,0000,,{\fad(200,200)}また夜が明ければお別れ
+Dialogue: 0,0:23:04.45,0:23:08.35,ed,NTP,0000,0000,0000,,{\fad(200,200)}夢は遠きまぼろしに
+Dialogue: 0,0:23:08.45,0:23:14.75,ed,NTP,0000,0000,0000,,{\fad(200,200)}あなたを追いかけていた光の中で
+Dialogue: 0,0:23:14.75,0:23:21.00,ed,NTP,0000,0000,0000,,{\fad(200,200)}抱かれるたび　温かい風をたより
+Dialogue: 0,0:01:34.35,0:01:35.65,*Default,NTP,0000,0000,0000,,無論什麼時代
+Dialogue: 0,0:01:35.75,0:01:37.95,*Default,NTP,0000,0000,0000,,一回頭就能看見的時尚
+Dialogue: 0,0:01:38.25,0:01:42.05,*Default,NTP,0000,0000,0000,,是在怠惰的時代所孕育而生
+Dialogue: 0,0:01:42.85,0:01:46.35,*Default,NTP,0000,0000,0000,,沒錯 美麗而風流的造型
+Dialogue: 0,0:01:46.65,0:01:48.75,*Default,NTP,0000,0000,0000,,是在這個江戶時代的產物
+Dialogue: 0,0:01:49.35,0:01:55.75,*Default,NTP,0000,0000,0000,,此外 街頭藝術時尚也早已登場了
+Dialogue: 0,0:02:37.05,0:02:42.35,*Default,NTP,0000,0000,0000,,{\fad(250,250)}#18 文武兩道
+Dialogue: 0,0:02:46.75,0:02:49.25,*Default,NTP,0000,0000,0000,,明太子加到麻糬起士裡看看吧
+Dialogue: 0,0:02:49.65,0:02:50.55,*Default,NTP,0000,0000,0000,,好的
+Dialogue: 0,0:02:51.65,0:02:53.65,*Default,NTP,0000,0000,0000,,廣島燒可不是大阪燒
+Dialogue: 0,0:02:53.95,0:02:55.55,*Default,NTP,0000,0000,0000,,別說得那麼嚴肅啦
+Dialogue: 0,0:02:56.65,0:02:57.55,*Default,NTP,0000,0000,0000,,你們呢
+Dialogue: 0,0:02:57.95,0:02:59.35,*Default,NTP,0000,0000,0000,,海鮮加蛤
+Dialogue: 0,0:03:00.05,0:03:00.75,*Default,NTP,0000,0000,0000,,客人呢
+Dialogue: 0,0:03:02.15,0:03:03.45,*Default,NTP,0000,0000,0000,,和這傢伙一樣就好了
+Dialogue: 0,0:03:03.95,0:03:04.65,*Default,NTP,0000,0000,0000,,謝謝
+Dialogue: 0,0:03:05.35,0:03:07.95,*Default,NTP,0000,0000,0000,,剛剛開始就一直點一樣的
+Dialogue: 0,0:03:08.35,0:03:10.65,*Default,NTP,0000,0000,0000,,吃自己喜歡的就好了嘛
+Dialogue: 0,0:03:11.05,0:03:12.45,*Default,NTP,0000,0000,0000,,沒辦法的吧
+Dialogue: 0,0:03:12.85,0:03:14.25,*Default,NTP,0000,0000,0000,,這不是寫得很清楚嗎
+Dialogue: 0,0:03:14.65,0:03:16.75,*Default,NTP,0000,0000,0000,,就跟你說我不知道嘛
+Dialogue: 0,0:03:18.05,0:03:21.55,*Default,NTP,0000,0000,0000,,該不會…你…不識字嗎
+Dialogue: 0,0:03:24.15,0:03:27.85,*Default,NTP,0000,0000,0000,,這是NO 這個和這個也是NO
+Dialogue: 0,0:03:28.05,0:03:29.85,*Default,NTP,0000,0000,0000,,區區小字我看得懂的
+Dialogue: 0,0:03:30.15,0:03:30.95,*Default,NTP,0000,0000,0000,,那這個呢
+Dialogue: 0,0:03:33.05,0:03:33.95,*Default,NTP,0000,0000,0000,,是NO吧
+Dialogue: 0,0:03:34.15,0:03:34.45,*Default,NTP,0000,0000,0000,,是ME
+Dialogue: 0,0:03:34.85,0:03:36.85,*Default,NTP,0000,0000,0000,,你出的是陷阱題吧
+Dialogue: 0,0:03:37.45,0:03:40.75,*Default,NTP,0000,0000,0000,,該不會你只看得懂一個字而已?
+Dialogue: 0,0:03:41.15,0:03:43.15,*Default,NTP,0000,0000,0000,,看得懂一個字就足夠了吧
+Dialogue: 0,0:03:44.45,0:03:48.25,*Default,NTP,0000,0000,0000,,這麼說來從沒看過你閱讀耶
+Dialogue: 0,0:03:48.35,0:03:50.75,*Default,NTP,0000,0000,0000,,反正也不會對生活造成困擾呀
+Dialogue: 0,0:03:50.95,0:03:55.55,*Default,NTP,0000,0000,0000,,但是啊 至今從沒發現這事 很厲害不是嗎
+Dialogue: 0,0:03:56.45,0:03:57.65,*Default,NTP,0000,0000,0000,,你剛剛笑了
+Dialogue: 0,0:03:58.55,0:04:01.95,*Default,NTP,0000,0000,0000,,聽好 殺手是不需要任何一個字的
+Dialogue: 0,0:04:03.85,0:04:07.15,*Default,NTP,0000,0000,0000,,你在說啥???
+Dialogue: 0,0:04:07.45,0:04:11.55,*Default,NTP,0000,0000,0000,,笨蛋永遠是笨蛋就好 別說這種蠢話
+Dialogue: 0,0:04:15.35,0:04:19.25,*Default,NTP,0000,0000,0000,,聽好 言語中是有靈魂的
+Dialogue: 0,0:04:19.35,0:04:24.15,*Default,NTP,0000,0000,0000,,為了能夠傳達 不識字的話可是損失呀
+Dialogue: 0,0:04:24.25,0:04:27.35,*Default,NTP,0000,0000,0000,,不識字就會被當成笨蛋
+Dialogue: 0,0:04:27.65,0:04:29.45,*Default,NTP,0000,0000,0000,,你不會不甘心嗎
+Dialogue: 0,0:04:31.35,0:04:32.95,*Default,NTP,0000,0000,0000,,當笨蛋就好了嗎
+Dialogue: 0,0:04:32.95,0:04:34.35,*Default,NTP,0000,0000,0000,,小子
+Dialogue: 0,0:04:41.95,0:04:42.75,*Default,NTP,0000,0000,0000,,睡著了
+Dialogue: 0,0:04:44.25,0:04:45.85,*Default,NTP,0000,0000,0000,,要多少錢呢
+Dialogue: 0,0:04:47.95,0:04:48.85,*Default,NTP,0000,0000,0000,,不夠
+Dialogue: 0,0:04:49.45,0:04:51.05,*Default,NTP,0000,0000,0000,,把帳算在這大叔上
+Dialogue: 0,0:04:51.35,0:04:51.95,*Default,NTP,0000,0000,0000,,謝謝
+Dialogue: 0,0:04:52.65,0:04:53.35,*Default,NTP,0000,0000,0000,,但是…
+Dialogue: 0,0:04:53.95,0:04:55.45,*Default,NTP,0000,0000,0000,,不用在意 被他找麻煩的錢
+Dialogue: 0,0:04:55.95,0:04:56.55,*Default,NTP,0000,0000,0000,,走吧
+Dialogue: 0,0:04:57.35,0:04:57.95,*Default,NTP,0000,0000,0000,,抱歉啦
+Dialogue: 0,0:04:59.15,0:05:02.55,*Default,NTP,0000,0000,0000,,客人 起來起來 請結帳
+Dialogue: 0,0:05:04.15,0:05:06.15,*Default,NTP,0000,0000,0000,,總共十三種
+Dialogue: 0,0:05:06.15,0:05:07.85,*Default,NTP,0000,0000,0000,,這是什麼!?
+Dialogue: 0,0:05:15.65,0:05:18.55,*Default,NTP,0000,0000,0000,,不管擦幾次 還是會畫
+Dialogue: 0,0:05:18.75,0:05:20.95,*Default,NTP,0000,0000,0000,,真是的 別得意忘形了
+Dialogue: 0,0:05:20.95,0:05:23.15,*Default,NTP,0000,0000,0000,,那個 不好意思
+Dialogue: 0,0:05:23.35,0:05:25.55,*Default,NTP,0000,0000,0000,,請問這個是誰畫的
+Dialogue: 0,0:05:25.65,0:05:29.15,*Default,NTP,0000,0000,0000,,誰知道啊 知道的話早就把他給吊起來了
+Dialogue: 0,0:05:31.85,0:05:37.55,*Default,NTP,0000,0000,0000,,抱歉 從前在三原有個照顧過我的人 我想去拜訪他
+Dialogue: 0,0:05:38.35,0:05:40.55,*Default,NTP,0000,0000,0000,,三原離這兒有相當的距離喔
+Dialogue: 0,0:05:41.05,0:05:42.55,*Default,NTP,0000,0000,0000,,居然還特別去拜訪 是誰?
+Dialogue: 0,0:05:42.75,0:05:43.65,*Default,NTP,0000,0000,0000,,前女友之類嗎
+Dialogue: 0,0:05:44.85,0:05:49.75,*Default,NTP,0000,0000,0000,,對於專嚴武藝的人而言 三原是不可或缺的地方
+Dialogue: 0,0:05:50.55,0:05:54.65,*Default,NTP,0000,0000,0000,,其中學習所有武藝 超棒的道場吾住館
+Dialogue: 0,0:05:55.15,0:05:57.95,*Default,NTP,0000,0000,0000,,我從前曾在丹羽充之介的底下…
+Dialogue: 0,0:05:57.95,0:05:59.25,*Default,NTP,0000,0000,0000,,那麼 請保重!!
+Dialogue: 0,0:05:59.75,0:06:03.65,*Default,NTP,0000,0000,0000,,順便也問問他有關向日葵武士的情報喔
+Dialogue: 0,0:06:08.75,0:06:10.95,*Default,NTP,0000,0000,0000,,其實你想知道怎麼讀吧
+Dialogue: 0,0:06:11.45,0:06:12.65,*Default,NTP,0000,0000,0000,,真囉唆啊
+Dialogue: 0,0:06:13.05,0:06:14.75,*Default,NTP,0000,0000,0000,,我來教你吧
+Dialogue: 0,0:06:16.15,0:06:21.75,*Default,NTP,0000,0000,0000,,這個是sa n jyou SANJYOU(參上) 懂了嗎
+Dialogue: 0,0:06:22.65,0:06:26.35,*Default,NTP,0000,0000,0000,,可惡的傢伙 昨天的帳
+Dialogue: 0,0:06:28.45,0:06:30.95,*Default,NTP,0000,0000,0000,,四六四九是什麼呢
+Dialogue: 0,0:06:36.75,0:06:39.05,*Default,NTP,0000,0000,0000,,啊 是請多指教呀
+Dialogue: 0,0:06:39.15,0:06:40.85,*Default,NTP,0000,0000,0000,,你看 咦?
+Dialogue: 0,0:07:00.45,0:07:01.65,*Default,NTP,0000,0000,0000,,你是誰啊
+Dialogue: 0,0:07:01.85,0:07:03.85,*Default,NTP,0000,0000,0000,,在那幹啥啊
+Dialogue: 0,0:07:04.85,0:07:08.65,*Default,NTP,0000,0000,0000,,抱歉啦 這兒可是我們小隊的地盤啊
+Dialogue: 0,0:07:09.15,0:07:12.75,*Default,NTP,0000,0000,0000,,少囉唆了 要我收你的保護費嗎
+Dialogue: 0,0:07:14.75,0:07:16.95,*Default,NTP,0000,0000,0000,,叫你掏錢出來呀
+Dialogue: 0,0:07:21.85,0:07:23.45,*Default,NTP,0000,0000,0000,,別…別過來
+Dialogue: 0,0:07:24.95,0:07:28.35,*Default,NTP,0000,0000,0000,,這裡是想專研武藝的人所聚集的場所
+Dialogue: 0,0:07:28.55,0:07:31.45,*Default,NTP,0000,0000,0000,,不是你們這種傢伙該來的
+Dialogue: 0,0:07:32.15,0:07:36.25,*Default,NTP,0000,0000,0000,,對不起 但這裡是我們的大本營…
+Dialogue: 0,0:07:36.85,0:07:38.75,*Default,NTP,0000,0000,0000,,丹羽殿下在哪裡
+Dialogue: 0,0:07:39.35,0:07:40.75,*Default,NTP,0000,0000,0000,,你說丹羽…
+Dialogue: 0,0:07:42.15,0:07:44.55,*Default,NTP,0000,0000,0000,,頭目的話 在隔壁的鎮上
+Dialogue: 0,0:07:45.35,0:07:45.95,*Default,NTP,0000,0000,0000,,什麼
+Dialogue: 0,0:07:49.55,0:07:53.65,*Default,NTP,0000,0000,0000,,無幻那傢伙 馬上就不見蹤影
+Dialogue: 0,0:07:58.75,0:07:59.85,*Default,NTP,0000,0000,0000,,我是頭目
+Dialogue: 0,0:07:59.85,0:08:01.75,*Default,NTP,0000,0000,0000,,不 我才是頭目
+Dialogue: 0,0:08:02.65,0:08:05.25,*Default,NTP,0000,0000,0000,,你這是對大哥的態度嗎
+Dialogue: 0,0:08:05.25,0:08:08.45,*Default,NTP,0000,0000,0000,,也只是相差一歲而已
+Dialogue: 0,0:08:08.55,0:08:10.45,*Default,NTP,0000,0000,0000,,別擺一副大哥的樣子
+Dialogue: 0,0:08:13.35,0:08:18.65,*Default,NTP,0000,0000,0000,,不懂長幼有序的傢伙 能當頭目嗎
+Dialogue: 0,0:08:19.55,0:08:23.75,*Default,NTP,0000,0000,0000,,又不是大名行列 你的想法太怪了
+Dialogue: 0,0:08:24.15,0:08:26.95,*Default,NTP,0000,0000,0000,,基本上看到你的臉就不爽
+Dialogue: 0,0:08:27.05,0:08:29.85,*Default,NTP,0000,0000,0000,,那可是我的台詞啊
+Dialogue: 0,0:08:29.95,0:08:32.45,*Default,NTP,0000,0000,0000,,什麼啊 臉長得還不都一樣
+Dialogue: 0,0:08:33.55,0:08:34.95,*Default,NTP,0000,0000,0000,,剛剛是誰說的
+Dialogue: 0,0:08:51.45,0:08:52.55,*Default,NTP,0000,0000,0000,,可愛
+Dialogue: 0,0:08:52.85,0:08:54.15,*Default,NTP,0000,0000,0000,,別模仿我
+Dialogue: 0,0:08:54.25,0:08:55.85,*Default,NTP,0000,0000,0000,,是你模仿我吧
+Dialogue: 0,0:08:58.05,0:09:00.35,*Default,NTP,0000,0000,0000,,這個黑色瞳孔太可愛了
+Dialogue: 0,0:09:00.35,0:09:04.15,*Default,NTP,0000,0000,0000,,不對 是稍微有點彈性的嘴唇太性感了
+Dialogue: 0,0:09:04.75,0:09:05.45,*Default,NTP,0000,0000,0000,,真是
+Dialogue: 0,0:09:06.95,0:09:09.65,*Default,NTP,0000,0000,0000,,有如黃鶯出谷的聲音太甜蜜了
+Dialogue: 0,0:09:09.65,0:09:14.25,*Default,NTP,0000,0000,0000,,不對 是小小的鼻子稍微向上翹感覺相當地活潑
+Dialogue: 0,0:09:14.55,0:09:15.35,*Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:09:16.55,0:09:18.45,*Default,NTP,0000,0000,0000,,這傢伙我要定了
+Dialogue: 0,0:09:22.75,0:09:26.75,*Default,NTP,0000,0000,0000,,好久不見呀 達之進 和之介
+Dialogue: 0,0:09:27.45,0:09:29.45,*Default,NTP,0000,0000,0000,,該不會 仁哥
+Dialogue: 0,0:09:30.55,0:09:31.35,*Default,NTP,0000,0000,0000,,認識?
+Dialogue: 0,0:09:38.35,0:09:39.95,*Default,NTP,0000,0000,0000,,你算什麼啊
+Dialogue: 0,0:09:42.15,0:09:44.45,*Default,NTP,0000,0000,0000,,我的名字是文大
+Dialogue: 0,0:09:44.75,0:09:46.35,*Default,NTP,0000,0000,0000,,這裡是寺小屋
+Dialogue: 0,0:09:46.85,0:09:49.15,*Default,NTP,0000,0000,0000,,在這裡叫我老師
+Dialogue: 0,0:09:50.75,0:09:51.95,*Default,NTP,0000,0000,0000,,認真的嗎
+Dialogue: 0,0:09:53.05,0:09:57.05,*Default,NTP,0000,0000,0000,,無論何事都那樣用武力解決呀
+Dialogue: 0,0:09:57.25,0:09:59.25,*Default,NTP,0000,0000,0000,,地球可不會停下來的喔
+Dialogue: 0,0:09:59.95,0:10:03.65,*Default,NTP,0000,0000,0000,,築城若只有工人什麼也做不了
+Dialogue: 0,0:10:03.85,0:10:05.65,*Default,NTP,0000,0000,0000,,需要工具吧
+Dialogue: 0,0:10:06.55,0:10:10.35,*Default,NTP,0000,0000,0000,,工具不時常磨會鈍挫
+Dialogue: 0,0:10:10.55,0:10:11.65,*Default,NTP,0000,0000,0000,,首先把工具磨利
+Dialogue: 0,0:10:11.75,0:10:14.95,*Default,NTP,0000,0000,0000,,然後才是有用的道具啊
+Dialogue: 0,0:10:16.35,0:10:20.45,*Default,NTP,0000,0000,0000,,在位子上坐好 我教你認字
+Dialogue: 0,0:10:23.15,0:10:24.55,*Default,NTP,0000,0000,0000,,不會不甘心嗎
+Dialogue: 0,0:10:24.95,0:10:28.05,*Default,NTP,0000,0000,0000,,何況還是那樣子被嘲弄
+Dialogue: 0,0:10:30.85,0:10:34.25,*Default,NTP,0000,0000,0000,,該不會你不識字嗎
+Dialogue: 0,0:10:37.85,0:10:39.65,*Default,NTP,0000,0000,0000,,要做就來吧
+Dialogue: 0,0:10:46.55,0:10:48.15,*Default,NTP,0000,0000,0000,,為何要互相怨恨
+Dialogue: 0,0:10:48.65,0:10:50.75,*Default,NTP,0000,0000,0000,,兄弟要互相幫助
+Dialogue: 0,0:10:50.95,0:10:54.55,*Default,NTP,0000,0000,0000,,貫徹父親所留下的道路不才是應該的嗎
+Dialogue: 0,0:10:55.25,0:10:56.65,*Default,NTP,0000,0000,0000,,沒辦法不是嗎
+Dialogue: 0,0:10:56.65,0:11:00.05,*Default,NTP,0000,0000,0000,,現在不是什麼繼承家業的時代
+Dialogue: 0,0:11:00.35,0:11:03.95,*Default,NTP,0000,0000,0000,,突然死掉 留下的還挺麻煩的
+Dialogue: 0,0:11:04.05,0:11:06.65,*Default,NTP,0000,0000,0000,,比起那個這傢伙的樣子很糟糕呀
+Dialogue: 0,0:11:06.65,0:11:10.75,*Default,NTP,0000,0000,0000,,你才是把那骯髒的臉洗一洗再出來吧
+Dialogue: 0,0:11:11.55,0:11:12.55,*Default,NTP,0000,0000,0000,,你說什麼 幹!
+Dialogue: 0,0:11:12.75,0:11:13.95,*Default,NTP,0000,0000,0000,,怎樣 蠢蛋
+Dialogue: 0,0:11:15.15,0:11:15.95,*Default,NTP,0000,0000,0000,,夠了
+Dialogue: 0,0:11:16.25,0:11:18.35,*Default,NTP,0000,0000,0000,,那不然就像個吾住館的繼承人
+Dialogue: 0,0:11:18.45,0:11:19.75,*Default,NTP,0000,0000,0000,,用劍來分個勝負
+Dialogue: 0,0:11:19.75,0:11:21.65,*Default,NTP,0000,0000,0000,,那個 饒了我們
+Dialogue: 0,0:11:23.95,0:11:27.95,*Default,NTP,0000,0000,0000,,那麼對你們而言 能代替劍的是什麼
+Dialogue: 0,0:11:28.55,0:11:29.25,*Default,NTP,0000,0000,0000,,那…
+Dialogue: 0,0:11:29.45,0:11:30.85,*Default,NTP,0000,0000,0000,,果然還是那個吧
+Dialogue: 0,0:11:32.15,0:11:33.15,*Default,NTP,0000,0000,0000,,塗鴉嗎
+Dialogue: 0,0:11:33.65,0:11:35.75,*Default,NTP,0000,0000,0000,,大哥 有點不同
+Dialogue: 0,0:11:36.45,0:11:38.65,*Default,NTP,0000,0000,0000,,或許看起來只是普通的塗鴉
+Dialogue: 0,0:11:38.85,0:11:40.45,*Default,NTP,0000,0000,0000,,我們可是拼上老命的喔
+Dialogue: 0,0:11:40.85,0:11:44.05,*Default,NTP,0000,0000,0000,,意義上和老爸的劍之道沒什麼不同
+Dialogue: 0,0:11:44.55,0:11:48.85,*Default,NTP,0000,0000,0000,,這叫做TUGGING 是我們活著的證明
+Dialogue: 0,0:11:49.35,0:11:50.35,*Default,NTP,0000,0000,0000,,不對啦
+Dialogue: 0,0:11:50.75,0:11:55.95,*Default,NTP,0000,0000,0000,,我們的目標是放在最危險且從未有人畫過的地方
+Dialogue: 0,0:11:56.35,0:11:59.45,*Default,NTP,0000,0000,0000,,只有那個時候才有活著的感覺呀
+Dialogue: 0,0:12:00.15,0:12:02.15,*Default,NTP,0000,0000,0000,,結果說的事是一樣的吧
+Dialogue: 0,0:12:04.85,0:12:08.45,*Default,NTP,0000,0000,0000,,那麼用那個塗鴉來分勝負不就好了嘛
+Dialogue: 0,0:12:08.85,0:12:10.05,*Default,NTP,0000,0000,0000,,怎麼分?
+Dialogue: 0,0:12:10.35,0:12:14.35,*Default,NTP,0000,0000,0000,,果然在最危險的地方畫的就算贏
+Dialogue: 0,0:12:14.35,0:12:16.75,*Default,NTP,0000,0000,0000,,那麼 獎品當然是…
+Dialogue: 0,0:12:17.95,0:12:20.15,*Default,NTP,0000,0000,0000,,討厭 怎麼辦
+Dialogue: 0,0:12:20.95,0:12:23.95,*Default,NTP,0000,0000,0000,,大哥 請你當見證人
+Dialogue: 0,0:12:26.15,0:12:27.35,*Default,NTP,0000,0000,0000,,這個呢?
+Dialogue: 0,0:12:28.35,0:12:29.15,*Default,NTP,0000,0000,0000,,RE
+Dialogue: 0,0:12:30.45,0:12:33.25,*Default,NTP,0000,0000,0000,,笨蛋 這是NE
+Dialogue: 0,0:12:33.85,0:12:37.95,*Default,NTP,0000,0000,0000,,最後捲起來的是NE
+Dialogue: 0,0:12:38.15,0:12:41.65,*Default,NTP,0000,0000,0000,,這裡咻~的是RE
+Dialogue: 0,0:12:41.85,0:12:43.75,*Default,NTP,0000,0000,0000,,你要我說幾次才懂啊
+Dialogue: 0,0:12:43.95,0:12:45.45,*Default,NTP,0000,0000,0000,,那長得太像了啦
+Dialogue: 0,0:12:47.25,0:12:50.95,*Default,NTP,0000,0000,0000,,怎麼了 寺小屋一年級生 放棄了嗎
+Dialogue: 0,0:12:51.75,0:12:53.15,*Default,NTP,0000,0000,0000,,你是敗家犬嗎
+Dialogue: 0,0:12:53.75,0:12:56.65,*Default,NTP,0000,0000,0000,,每個字都很像 讓我很不爽啊
+Dialogue: 0,0:12:57.65,0:12:58.85,*Default,NTP,0000,0000,0000,,有很多不滿吧
+Dialogue: 0,0:12:58.95,0:13:00.95,*Default,NTP,0000,0000,0000,,做完這些題目我再聽
+Dialogue: 0,0:13:02.95,0:13:07.35,*Default,NTP,0000,0000,0000,,但是 很稀奇耶 居然擅自就被當中間人
+Dialogue: 0,0:13:08.55,0:13:11.75,*Default,NTP,0000,0000,0000,,因為純粹是兄弟吵架吧
+Dialogue: 0,0:13:13.35,0:13:17.55,*Default,NTP,0000,0000,0000,,以前我受到那些傢伙的父親們的照顧
+Dialogue: 0,0:13:29.75,0:13:32.35,*Default,NTP,0000,0000,0000,,我已經沒有可以教你的了
+Dialogue: 0,0:13:33.05,0:13:37.15,*Default,NTP,0000,0000,0000,,踏上死亡之途吧 抬頭挺胸地走
+Dialogue: 0,0:13:37.95,0:13:38.45,*Default,NTP,0000,0000,0000,,是
+Dialogue: 0,0:13:39.45,0:13:41.15,*Default,NTP,0000,0000,0000,,我只有一個請求
+Dialogue: 0,0:13:42.25,0:13:47.45,*Default,NTP,0000,0000,0000,,若我發生什麼事 我們的兒子們就拜託你了
+Dialogue: 0,0:13:50.05,0:13:51.05,*Default,NTP,0000,0000,0000,,這裡啦 和
+Dialogue: 0,0:13:51.25,0:13:53.45,*Default,NTP,0000,0000,0000,,站起來 達 站起來
+Dialogue: 0,0:14:04.45,0:14:06.25,*Default,NTP,0000,0000,0000,,這真是難得啊
+Dialogue: 0,0:14:06.95,0:14:08.95,*Default,NTP,0000,0000,0000,,還記得我嗎
+Dialogue: 0,0:14:09.85,0:14:11.75,*Default,NTP,0000,0000,0000,,好久不見 大師
+Dialogue: 0,0:14:12.45,0:14:14.65,*Default,NTP,0000,0000,0000,,變成優秀的年輕人了呀
+Dialogue: 0,0:14:14.95,0:14:15.45,*Default,NTP,0000,0000,0000,,不
+Dialogue: 0,0:14:16.15,0:14:18.35,*Default,NTP,0000,0000,0000,,還有綻放的花兒呀
+Dialogue: 0,0:14:18.65,0:14:20.65,*Default,NTP,0000,0000,0000,,只是那邊路旁的野菊
+Dialogue: 0,0:14:21.15,0:14:24.05,*Default,NTP,0000,0000,0000,,不 你那份心意就夠了
+Dialogue: 0,0:14:24.55,0:14:28.45,*Default,NTP,0000,0000,0000,,丹羽在黃泉高興著吧
+Dialogue: 0,0:14:30.25,0:14:31.95,*Default,NTP,0000,0000,0000,,發生什麼事了嗎
+Dialogue: 0,0:14:33.95,0:14:38.35,*Default,NTP,0000,0000,0000,,忌妒說不定是人類最大的煩惱
+Dialogue: 0,0:14:39.15,0:14:43.15,*Default,NTP,0000,0000,0000,,能超越吾住的道場 在這裡是沒有的
+Dialogue: 0,0:14:44.15,0:14:49.15,*Default,NTP,0000,0000,0000,,別的道場的人依附大名來找麻煩
+Dialogue: 0,0:14:49.45,0:14:53.35,*Default,NTP,0000,0000,0000,,不拿下招牌就斬了你的手之類的
+Dialogue: 0,0:14:54.65,0:15:01.65,*Default,NTP,0000,0000,0000,,然後丹羽為了留下道場給兩個人而切腹了
+Dialogue: 0,0:15:02.65,0:15:10.05,*Default,NTP,0000,0000,0000,,但是年幼的兒子們無法了解並學習父親的強壯
+Dialogue: 0,0:15:11.45,0:15:14.05,*Default,NTP,0000,0000,0000,,也沒有尊敬
+Dialogue: 0,0:15:31.75,0:15:33.35,*Default,NTP,0000,0000,0000,,全部正確!
+Dialogue: 0,0:15:33.65,0:15:36.25,*Default,NTP,0000,0000,0000,,對吧 理所當然的
+Dialogue: 0,0:15:36.85,0:15:39.55,*Default,NTP,0000,0000,0000,,由於記住文字而讓自己再度重生
+Dialogue: 0,0:15:39.65,0:15:41.85,*Default,NTP,0000,0000,0000,,比任何人都偉大啊
+Dialogue: 0,0:15:42.75,0:15:44.55,*Default,NTP,0000,0000,0000,,好!!
+Dialogue: 0,0:15:49.45,0:15:51.05,*Default,NTP,0000,0000,0000,,你去哪兒啦?
+Dialogue: 0,0:15:52.15,0:15:53.35,*Default,NTP,0000,0000,0000,,有點事
+Dialogue: 0,0:15:53.75,0:15:56.55,*Default,NTP,0000,0000,0000,,真是的 我這可不得了
+Dialogue: 0,0:15:57.95,0:16:01.65,*Default,NTP,0000,0000,0000,,為了得到我 兩個男人要戰鬥了
+Dialogue: 0,0:16:01.95,0:16:03.55,*Default,NTP,0000,0000,0000,,那可真不得了啊
+Dialogue: 0,0:16:04.15,0:16:09.75,*Default,NTP,0000,0000,0000,,好像是就做JOGGING 以文字來做真劍勝負
+Dialogue: 0,0:16:11.05,0:16:12.05,*Default,NTP,0000,0000,0000,,你說文字?
+Dialogue: 0,0:16:30.05,0:16:31.05,*Default,NTP,0000,0000,0000,,這是什麼啊
+Dialogue: 0,0:16:32.85,0:16:36.25,*Default,NTP,0000,0000,0000,,不得了了 誰來呀
+Dialogue: 0,0:16:56.95,0:17:00.45,*Default,NTP,0000,0000,0000,,好美
+Dialogue: 0,0:17:01.25,0:17:02.55,*Default,NTP,0000,0000,0000,,是我贏
+Dialogue: 0,0:17:02.65,0:17:05.25,*Default,NTP,0000,0000,0000,,別開玩笑
+Dialogue: 0,0:17:06.55,0:17:08.15,*Default,NTP,0000,0000,0000,,這樣無法分勝負
+Dialogue: 0,0:17:08.65,0:17:12.05,*Default,NTP,0000,0000,0000,,那麼目前還沒有塗鴉過的地方呢
+Dialogue: 0,0:17:13.15,0:17:13.95,*Default,NTP,0000,0000,0000,,那…
+Dialogue: 0,0:17:14.55,0:17:15.65,*Default,NTP,0000,0000,0000,,還用說
+Dialogue: 0,0:17:16.35,0:17:17.75,*Default,NTP,0000,0000,0000,,廣島城
+Dialogue: 0,0:17:53.65,0:17:56.65,*Default,NTP,0000,0000,0000,,但是啊 為什麼是廣島城呢
+Dialogue: 0,0:17:57.15,0:17:59.15,*Default,NTP,0000,0000,0000,,這是他們的復仇方式
+Dialogue: 0,0:17:59.65,0:18:02.55,*Default,NTP,0000,0000,0000,,父親所未完成的 對大名的報復
+Dialogue: 0,0:18:19.95,0:18:21.65,*Default,NTP,0000,0000,0000,,可惡 真丟臉
+Dialogue: 0,0:18:21.85,0:18:25.75,*Default,NTP,0000,0000,0000,,最近的年輕人真是的
+Dialogue: 0,0:18:25.75,0:18:27.45,*Default,NTP,0000,0000,0000,,字寫錯了
+Dialogue: 0,0:18:28.35,0:18:31.15,*Default,NTP,0000,0000,0000,,太漂亮了 終於找到了
+Dialogue: 0,0:18:40.45,0:18:41.85,*Default,NTP,0000,0000,0000,,太狡猾了
+Dialogue: 0,0:18:42.15,0:18:43.25,*Default,NTP,0000,0000,0000,,給我等等
+Dialogue: 0,0:19:00.15,0:19:05.25,*Default,NTP,0000,0000,0000,,我是第一
+Dialogue: 0,0:19:16.15,0:19:17.55,*Default,NTP,0000,0000,0000,,誰贏了呢
+Dialogue: 0,0:19:18.45,0:19:21.25,*Default,NTP,0000,0000,0000,,都沒有 有人先到了
+Dialogue: 0,0:19:22.15,0:19:23.75,*Default,NTP,0000,0000,0000,,輸給不認識的人了
+Dialogue: 0,0:19:23.95,0:19:25.55,*Default,NTP,0000,0000,0000,,世界太大了呀
+Dialogue: 0,0:19:25.75,0:19:27.45,*Default,NTP,0000,0000,0000,,人外有人天外有天呀
+Dialogue: 0,0:19:29.45,0:19:31.75,*Default,NTP,0000,0000,0000,,知道這個就足夠了
+Dialogue: 0,0:19:33.35,0:19:35.05,*Default,NTP,0000,0000,0000,,那我就沒事了
+Dialogue: 0,0:19:35.05,0:19:36.95,*Default,NTP,0000,0000,0000,,最後讓我抱一抱
+Dialogue: 0,0:19:37.45,0:19:38.55,*Default,NTP,0000,0000,0000,,等等 不要
+Dialogue: 0,0:19:44.85,0:19:46.65,*Default,NTP,0000,0000,0000,,果然好可愛
+Dialogue: 0,0:19:49.85,0:19:52.25,*Default,NTP,0000,0000,0000,,好厲害 超可愛的眼睛
+Dialogue: 0,0:19:52.95,0:19:53.95,*Default,NTP,0000,0000,0000,,好軟
+Dialogue: 0,0:19:53.95,0:19:54.85,*Default,NTP,0000,0000,0000,,那是什麼
+Dialogue: 0,0:19:56.75,0:19:58.95,*Default,NTP,0000,0000,0000,,你們的才能 我買了
+Dialogue: 0,0:20:00.35,0:20:04.85,*Default,NTP,0000,0000,0000,,你們就是在這一帶活動的武田小隊吧
+Dialogue: 0,0:20:05.35,0:20:06.55,*Default,NTP,0000,0000,0000,,是的話又怎樣?
+Dialogue: 0,0:20:06.55,0:20:07.85,*Default,NTP,0000,0000,0000,,什麼啊 你們
+Dialogue: 0,0:20:08.75,0:20:10.75,*Default,NTP,0000,0000,0000,,好吧
+Dialogue: 0,0:20:11.25,0:20:13.35,*Default,NTP,0000,0000,0000,,我來讓你們成名
+Dialogue: 0,0:20:13.65,0:20:18.55,*Default,NTP,0000,0000,0000,,你們的話 可以成為時尚界偉大的設計家
+Dialogue: 0,0:20:19.25,0:20:21.95,*Default,NTP,0000,0000,0000,,絕對
+Dialogue: 0,0:20:24.75,0:20:25.35,*Default,NTP,0000,0000,0000,,你是誰
+Dialogue: 0,0:20:26.35,0:20:31.55,*Default,NTP,0000,0000,0000,,在裏江戶無人不知的吳服屋 安東屋的魚堀
+Dialogue: 0,0:20:31.65,0:20:32.45,*Default,NTP,0000,0000,0000,,請多指教
+Dialogue: 0,0:20:35.15,0:20:38.05,*Default,NTP,0000,0000,0000,,不 在這之前你們有要緊事吧
+Dialogue: 0,0:20:38.05,0:20:41.05,*Default,NTP,0000,0000,0000,,你們首先要先學字
+Dialogue: 0,0:20:41.05,0:20:42.05,*Default,NTP,0000,0000,0000,,教頭
+Dialogue: 0,0:20:43.15,0:20:45.55,*Default,NTP,0000,0000,0000,,首先要學習 可以吧
+Dialogue: 0,0:20:46.55,0:20:48.05,*Default,NTP,0000,0000,0000,,真的假的
+Dialogue: 0,0:20:48.25,0:20:49.25,*Default,NTP,0000,0000,0000,,等等
+Dialogue: 0,0:20:52.85,0:20:53.75,*Default,NTP,0000,0000,0000,,什麼事
+Dialogue: 0,0:20:54.35,0:20:56.15,*Default,NTP,0000,0000,0000,,這個也是 這個也是
+Dialogue: 0,0:20:56.95,0:20:58.55,*Default,NTP,0000,0000,0000,,怎麼搞的呀
+Dialogue: 0,0:21:02.35,0:21:03.35,*Default,NTP,0000,0000,0000,,你給我等等
+Dialogue: 0,0:21:04.05,0:21:05.45,*Default,NTP,0000,0000,0000,,這是怎麼回事
+Dialogue: 0,0:21:05.95,0:21:08.35,*Default,NTP,0000,0000,0000,,自己的東西要寫上名字吧
+Dialogue: 0,0:21:09.55,0:21:10.25,*Default,NTP,0000,0000,0000,,那個字是?
+Dialogue: 0,0:21:10.85,0:21:12.05,*Default,NTP,0000,0000,0000,,無限的意思
+Dialogue: 0,0:21:12.05,0:21:13.25,*Default,NTP,0000,0000,0000,,我發明的
+Dialogue: 0,0:21:13.65,0:21:15.75,*Default,NTP,0000,0000,0000,,該不會昨晚的是…
+Dialogue: 0,0:21:17.15,0:21:19.55,*Default,NTP,0000,0000,0000,,之後前往到江戶的兩個人
+Dialogue: 0,0:21:20.15,0:21:22.75,*Default,NTP,0000,0000,0000,,席捲了時尚界
+Dialogue: 0,0:21:22.95,0:21:27.75,*Default,NTP,0000,0000,0000,,然後那些設計從裏江戶通擴展至全國
+Dialogue: 0,0:21:28.25,0:21:33.05,*Default,NTP,0000,0000,0000,,大家稱他們為塗鴉之神
+Dialogue: 0,0:21:33.85,0:21:35.20,*Default,NTP,0000,0000,0000,,待續

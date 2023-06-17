@@ -1,0 +1,264 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,方正准圆_GBK,29,&HFFFFFF,&H808080,&H000000,&H000000,-1,0,1,1,0,2,30,30,10,0,134
+Style: Default2,方正卡通简体,26,&HFFFFFF,&H808080,&H000000,&H000000,-1,0,1,1,0,3,30,30,10,0,134
+Style: Default3,DFGMaruMoji-W9,19,&HFFFFFF,&H000000,&H000000,&H000000,-1,0,1,1,0,5,30,30,10,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:01.25,0:00:04.26,Default,NTP,0,0,0,!Effect,嚮往天空 親近天空
+Dialogue: Marked=0,0:00:04.64,0:00:09.88,Default,NTP,0,0,0,!Effect,翱翔於天空的神秘力量開始被一少部分人掌握的世界
+Dialogue: Marked=0,0:00:10.35,0:00:10.91,Default,NTP,0,0,0,!Effect,Guardian
+Dialogue: Marked=0,0:00:11.75,0:00:14.31,Default,NTP,0,0,0,!Effect,那裏有一個傳說
+Dialogue: Marked=0,0:00:15.05,0:00:19.48,Default,NTP,0,0,0,!Effect,在天之邊際雲之彼方存在著一片黃金之地
+Dialogue: Marked=0,0:00:20.22,0:00:24.57,Default,NTP,0,0,0,!Effect,這個故事講述了一個追尋夢想自由生存的天空盜賊
+Dialogue: Marked=0,0:00:25.01,0:00:30.86,Default,NTP,0,0,0,!Effect,空盜團少年——酷的波瀾起伏的愛和冒險的故事
+Dialogue: Marked=0,0:02:01.80,0:02:06.95,Default,NTP,0,0,0,!Effect,與守護翼敵對並想奪走七煌寶樹蕾的ChaosChoir
+Dialogue: Marked=0,0:02:07.90,0:02:14.30,Default,NTP,0,0,0,!Effect,但那卻是存在\N於煌珠的烏托邦——煌珠樂園裏面的組織
+Dialogue: Marked=0,0:02:15.13,0:02:17.93,Default,NTP,0,0,0,!Effect,而現在為了讓蕾成為新的女王
+Dialogue: Marked=0,0:02:18.46,0:02:21.46,Default,NTP,0,0,0,!Effect,他們動真格地要奪走酷的性命
+Dialogue: Marked=0,0:02:22.75,0:02:26.48,Default,NTP,0,0,0,!Effect,究竟酷等人是否能擋住這一攻勢
+Dialogue: Marked=0,0:02:32.61,0:02:37.42,Default,NTP,0,0,0,!Effect,也就是說煌珠樂園和ChaosChoir是同一體
+Dialogue: Marked=0,0:02:47.29,0:02:48.50,Default,NTP,0,0,0,!Effect,射出神聖之矢{\a6}
+Dialogue: Marked=0,0:02:49.00,0:02:50.99,Default,NTP,0,0,0,!Effect,射中之人絕非等閒{\a6}
+Dialogue: Marked=0,0:02:51.53,0:02:53.82,Default,NTP,0,0,0,!Effect,吾主所統之福地{\a6}
+Dialogue: Marked=0,0:02:54.51,0:02:55.84,Default,NTP,0,0,0,!Effect,箭中標的{\a6}
+Dialogue: Marked=0,0:02:56.21,0:02:57.44,Default,NTP,0,0,0,!Effect,死於此箭之下{\a6}
+Dialogue: Marked=0,0:03:03.02,0:03:07.75,Default,NTP,0,0,0,!Effect,第二十二唱 被埋葬的傳說
+Dialogue: Marked=0,0:03:15.04,0:03:17.76,Default,NTP,0,0,0,!Effect,我不會讓你碰酷一根手指的
+Dialogue: Marked=0,0:03:37.56,0:03:37.90,Default,NTP,0,0,0,!Effect,裝彈
+Dialogue: Marked=0,0:03:37.90,0:03:39.53,Default,NTP,0,0,0,!Effect,再偏下發射一次
+Dialogue: Marked=0,0:03:39.93,0:03:41.45,Default,NTP,0,0,0,!Effect,不要打中希絲卡他們
+Dialogue: Marked=0,0:03:44.81,0:03:45.79,Default,NTP,0,0,0,!Effect,守護翼
+Dialogue: Marked=0,0:03:46.54,0:03:48.53,Default,NTP,0,0,0,!Effect,比預想的提早出現了
+Dialogue: Marked=0,0:03:49.41,0:03:51.75,Default,NTP,0,0,0,!Effect,厲害 好興奮啊
+Dialogue: Marked=0,0:03:55.60,0:03:58.29,Default,NTP,0,0,0,!Effect,那是休納貝爾的偵察艇
+Dialogue: Marked=0,0:03:59.20,0:04:00.40,Default,NTP,0,0,0,!Effect,為什麼會在這裏
+Dialogue: Marked=0,0:04:01.30,0:04:02.79,Default,NTP,0,0,0,!Effect,基盧特魯 阿京娜
+Dialogue: Marked=0,0:04:04.19,0:04:05.37,Default,NTP,0,0,0,!Effect,暫時先撤退
+Dialogue: Marked=0,0:04:06.11,0:04:09.73,Default,NTP,0,0,0,!Effect,必須回煌珠樂園整軍備戰
+Dialogue: Marked=0,0:04:12.94,0:04:14.42,Default,NTP,0,0,0,!Effect,現世之人{\a6}
+Dialogue: Marked=0,0:04:14.73,0:04:16.46,Default,NTP,0,0,0,!Effect,以我為蟲{\a6}
+Dialogue: Marked=0,0:04:17.14,0:04:18.36,Default,NTP,0,0,0,!Effect,嘎吱嘎吱{\a6}
+Dialogue: Marked=0,0:04:18.87,0:04:19.74,Default,NTP,0,0,0,!Effect,薄薄一片{\a6}
+Dialogue: Marked=0,0:04:20.36,0:04:21.67,Default,NTP,0,0,0,!Effect,聚集於我{\a6}
+Dialogue: Marked=0,0:04:22.04,0:04:23.26,Default,NTP,0,0,0,!Effect,化作心葉{\a6}
+Dialogue: Marked=0,0:04:27.38,0:04:28.48,Default,NTP,0,0,0,!Effect,蕓蕓眾生{\a6}
+Dialogue: Marked=0,0:04:28.94,0:04:30.27,Default,NTP,0,0,0,!Effect,粗野之魂{\a6}
+Dialogue: Marked=0,0:04:30.37,0:04:31.36,Default,NTP,0,0,0,!Effect,滌除殆盡{\a6}
+Dialogue: Marked=0,0:04:32.15,0:04:33.20,Default,NTP,0,0,0,!Effect,必須臣服{\a6}
+Dialogue: Marked=0,0:04:33.64,0:04:34.67,Default,NTP,0,0,0,!Effect,首領之人{\a6}
+Dialogue: Marked=0,0:04:35.21,0:04:36.52,Default,NTP,0,0,0,!Effect,剛猛之力{\a6}
+Dialogue: Marked=0,0:04:36.96,0:04:38.13,Default,NTP,0,0,0,!Effect,愈加橫溢{\a6}
+Dialogue: Marked=0,0:04:38.60,0:04:39.89,Default,NTP,0,0,0,!Effect,斬斷一切{\a6}
+Dialogue: Marked=0,0:04:50.38,0:04:51.27,Default,NTP,0,0,0,!Effect,沒事吧
+Dialogue: Marked=0,0:04:53.75,0:04:55.48,Default,NTP,0,0,0,!Effect,你去確認受損情況
+Dialogue: Marked=0,0:04:56.37,0:04:56.88,Default,NTP,0,0,0,!Effect,是
+Dialogue: Marked=0,0:05:02.24,0:05:05.27,Default,NTP,0,0,0,!Effect,跟你們遲早要做個了結
+Dialogue: Marked=0,0:05:06.54,0:05:10.56,Default,NTP,0,0,0,!Effect,那時 請交出蕾芙麗·梅札蘭斯大人
+Dialogue: Marked=0,0:05:20.77,0:05:21.10,Default,NTP,0,0,0,!Effect,蕾
+Dialogue: Marked=0,0:05:21.31,0:05:21.73,Default,NTP,0,0,0,!Effect,蕾
+Dialogue: Marked=0,0:05:22.00,0:05:22.65,Default,NTP,0,0,0,!Effect,振作點
+Dialogue: Marked=0,0:05:23.10,0:05:23.62,Default,NTP,0,0,0,!Effect,蕾
+Dialogue: Marked=0,0:05:24.08,0:05:24.66,Default,NTP,0,0,0,!Effect,蕾
+Dialogue: Marked=0,0:05:34.63,0:05:36.66,Default,NTP,0,0,0,!Effect,那是什麼啊 老大
+Dialogue: Marked=0,0:05:44.37,0:05:46.67,Default,NTP,0,0,0,!Effect,酷的情況怎麼樣 龍威
+Dialogue: Marked=0,0:05:47.62,0:05:50.39,Default,NTP,0,0,0,!Effect,全身受到猛烈攻擊 昏過去了
+Dialogue: Marked=0,0:05:51.75,0:05:54.76,Default,NTP,0,0,0,!Effect,我認為最好讓醫生好好檢查一下
+Dialogue: Marked=0,0:05:55.28,0:05:56.88,Default,NTP,0,0,0,!Effect,怎麼辦 前輩
+Dialogue: Marked=0,0:06:00.99,0:06:04.35,Default,NTP,0,0,0,!Effect,現在只能求助於休納貝爾
+Dialogue: Marked=0,0:06:05.10,0:06:06.31,Default,NTP,0,0,0,!Effect,向休納貝爾...
+Dialogue: Marked=0,0:06:07.02,0:06:07.91,Default,NTP,0,0,0,!Effect,但是前輩
+Dialogue: Marked=0,0:06:08.73,0:06:12.85,Default,NTP,0,0,0,!Effect,的確 向休納貝爾尋求救助可能有危險
+Dialogue: Marked=0,0:06:13.54,0:06:16.41,Default,NTP,0,0,0,!Effect,但是醫治酷他們是最緊急的
+Dialogue: Marked=0,0:06:18.23,0:06:21.57,Default,NTP,0,0,0,!Effect,蕾和酷的身體就用我們的雙手來保護吧
+Dialogue: Marked=0,0:06:22.25,0:06:22.90,Default,NTP,0,0,0,!Effect,是
+Dialogue: Marked=0,0:06:22.47,0:06:23.11,Default,NTP,0,0,0,!Effect,嗯
+Dialogue: Marked=0,0:06:37.02,0:06:38.68,Default,NTP,0,0,0,!Effect,痛 你...
+Dialogue: Marked=0,0:06:40.10,0:06:40.85,Default,NTP,0,0,0,!Effect,蕾
+Dialogue: Marked=0,0:06:42.82,0:06:45.78,Default,NTP,0,0,0,!Effect,伊芙 我該怎麼辦才好
+Dialogue: Marked=0,0:07:13.30,0:07:16.38,Default,NTP,0,0,0,!Effect,守護翼的進攻似乎也比預期提前了
+Dialogue: Marked=0,0:07:17.38,0:07:18.81,Default,NTP,0,0,0,!Effect,怎麼辦 歐琺斯
+Dialogue: Marked=0,0:07:19.77,0:07:22.63,Default,NTP,0,0,0,!Effect,伊芙大人已經沒有力量了
+Dialogue: Marked=0,0:07:23.53,0:07:26.88,Default,NTP,0,0,0,!Effect,只能靠現存的擬煌珠對抗了
+Dialogue: Marked=0,0:07:28.70,0:07:32.49,Default,NTP,0,0,0,!Effect,把在煌珠樂園裏的所有煌珠集合到廣場
+Dialogue: Marked=0,0:07:33.30,0:07:37.63,Default,NTP,0,0,0,!Effect,在和守護翼作戰之前我有話要傳達給她們
+Dialogue: Marked=0,0:07:44.22,0:07:47.42,Default,NTP,0,0,0,!Effect,伊芙大人 請再忍耐一下
+Dialogue: Marked=0,0:07:57.75,0:07:59.01,Default,NTP,0,0,0,!Effect,受損的操縱器修好了嗎
+Dialogue: Marked=0,0:07:59.31,0:08:01.31,Default,NTP,0,0,0,!Effect,不 還需再花一點時間
+Dialogue: Marked=0,0:08:01.51,0:08:03.28,Default,NTP,0,0,0,!Effect,那就先把系統修好
+Dialogue: Marked=0,0:08:04.74,0:08:05.78,Default,NTP,0,0,0,!Effect,你們是什麼人
+Dialogue: Marked=0,0:08:06.36,0:08:07.62,Default,NTP,0,0,0,!Effect,請出示證件
+Dialogue: Marked=0,0:08:08.72,0:08:13.06,Default,NTP,0,0,0,!Effect,我是法魯克總監麾下的煌珠保護官希絲卡
+Dialogue: Marked=0,0:08:14.68,0:08:16.79,Default,NTP,0,0,0,!Effect,事關最高機密
+Dialogue: Marked=0,0:08:17.60,0:08:19.82,Default,NTP,0,0,0,!Effect,要求立即會見指揮官
+Dialogue: Marked=0,0:08:41.53,0:08:42.49,Default,NTP,0,0,0,!Effect,打擾了
+Dialogue: Marked=0,0:08:43.36,0:08:45.06,Default,NTP,0,0,0,!Effect,啊 是希絲卡啊
+Dialogue: Marked=0,0:08:45.89,0:08:47.60,Default,NTP,0,0,0,!Effect,又來看望我了嗎
+Dialogue: Marked=0,0:08:47.82,0:08:49.01,Default,NTP,0,0,0,!Effect,奇雅姐姐
+Dialogue: Marked=0,0:08:49.57,0:08:50.65,Default,NTP,0,0,0,!Effect,沙威魯德前輩
+Dialogue: Marked=0,0:08:51.11,0:08:52.26,Default,NTP,0,0,0,!Effect,沙前輩
+Dialogue: Marked=0,0:08:52.28,0:08:53.02,Default,NTP,0,0,0,!Effect,夏爾羅
+Dialogue: Marked=0,0:09:09.63,0:09:10.53,Default,NTP,0,0,0,!Effect,原來如此
+Dialogue: Marked=0,0:09:11.20,0:09:12.59,Default,NTP,0,0,0,!Effect,情況我已大致瞭解
+Dialogue: Marked=0,0:09:13.17,0:09:17.67,Default,NTP,0,0,0,!Effect,夏爾羅 帶酷德他們去一趟醫務室吧
+Dialogue: Marked=0,0:09:18.19,0:09:19.54,Default,NTP,0,0,0,!Effect,好的 知道了
+Dialogue: Marked=0,0:09:20.97,0:09:22.11,Default,NTP,0,0,0,!Effect,跟我來吧
+Dialogue: Marked=0,0:09:26.20,0:09:27.95,Default,NTP,0,0,0,!Effect,前輩 你不去嗎
+Dialogue: Marked=0,0:09:29.11,0:09:30.16,Default,NTP,0,0,0,!Effect,你們先去吧
+Dialogue: Marked=0,0:09:30.81,0:09:34.24,Default,NTP,0,0,0,!Effect,我有重要的事要和沙威魯德前輩說
+Dialogue: Marked=0,0:09:41.99,0:09:43.70,Default,NTP,0,0,0,!Effect,總算趕上了 太好了
+Dialogue: Marked=0,0:09:44.79,0:09:49.81,Default,NTP,0,0,0,!Effect,法魯克總監和克魯斯輔佐官都很擔心希絲卡你們
+Dialogue: Marked=0,0:09:50.36,0:09:52.19,Default,NTP,0,0,0,!Effect,總監和輔佐官他們...
+Dialogue: Marked=0,0:09:53.37,0:09:56.88,Default,NTP,0,0,0,!Effect,所以前輩救了我們啊
+Dialogue: Marked=0,0:09:58.03,0:09:59.14,Default,NTP,0,0,0,!Effect,但是 前輩
+Dialogue: Marked=0,0:09:59.68,0:10:03.94,Default,NTP,0,0,0,!Effect,為什麼休納貝爾的偵察艇會在煌珠樂園的附近
+Dialogue: Marked=0,0:10:04.98,0:10:11.03,Default,NTP,0,0,0,!Effect,實際上早就對守護翼示以敵意的ChaosChoir
+Dialogue: Marked=0,0:10:11.73,0:10:14.37,Default,NTP,0,0,0,!Effect,是煌珠樂園的另一面
+Dialogue: Marked=0,0:10:15.21,0:10:15.95,Default,NTP,0,0,0,!Effect,嗯
+Dialogue: Marked=0,0:10:19.21,0:10:20.13,Default,NTP,0,0,0,!Effect,你已經知道了嗎
+Dialogue: Marked=0,0:10:21.40,0:10:25.06,Default,NTP,0,0,0,!Effect,我是聽幾個貌似ChaosChoir的幹部的人那麼說的
+Dialogue: Marked=0,0:10:26.15,0:10:27.11,Default,NTP,0,0,0,!Effect,這樣啊
+Dialogue: Marked=0,0:10:27.58,0:10:28.87,Default,NTP,0,0,0,!Effect,這樣的話你也應該能理解了
+Dialogue: Marked=0,0:10:31.22,0:10:37.39,Default,NTP,0,0,0,!Effect,守護翼的議會已經決定消滅反叛人類的煌珠樂園
+Dialogue: Marked=0,0:10:38.33,0:10:43.73,Default,NTP,0,0,0,!Effect,不久就應該會向守護翼全軍下達進攻煌珠樂園的命令
+Dialogue: Marked=0,0:11:17.66,0:11:20.95,Default,NTP,0,0,0,!Effect,ChaosChoir的所作所為的確無法原諒
+Dialogue: Marked=0,0:11:21.64,0:11:22.66,Default,NTP,0,0,0,!Effect,但是...
+Dialogue: Marked=0,0:11:24.58,0:11:30.73,Default,NTP,0,0,0,!Effect,因此就以殲滅為目的\N而進攻不是違反了守護翼的理念了嗎
+Dialogue: Marked=0,0:11:32.47,0:11:34.67,Default,NTP,0,0,0,!Effect,希絲卡也是這麼想的啊
+Dialogue: Marked=0,0:11:35.81,0:11:40.24,Default,NTP,0,0,0,!Effect,我也認為必須阻止這次進攻
+Dialogue: Marked=0,0:11:41.01,0:11:42.08,Default,NTP,0,0,0,!Effect,是啊
+Dialogue: Marked=0,0:11:42.41,0:11:47.15,Default,NTP,0,0,0,!Effect,我認為煌珠和人類不應該互相仇恨戰鬥
+Dialogue: Marked=0,0:11:48.84,0:11:50.25,Default,NTP,0,0,0,!Effect,但是 前輩
+Dialogue: Marked=0,0:11:51.29,0:11:56.05,Default,NTP,0,0,0,!Effect,怎麼才能阻止守護翼和煌珠樂園的戰鬥呢
+Dialogue: Marked=0,0:11:58.01,0:12:00.94,Default,NTP,0,0,0,!Effect,因此 有件東西想給你看
+Dialogue: Marked=0,0:12:02.65,0:12:06.80,Default,NTP,0,0,0,!Effect,和七煌寶樹一起旅行的你可能會想到些什麼
+Dialogue: Marked=0,0:12:08.70,0:12:11.03,Default,NTP,0,0,0,!Effect,那邊不是有個舊包嗎
+Dialogue: Marked=0,0:12:12.00,0:12:13.95,Default,NTP,0,0,0,!Effect,能打開看看嗎
+Dialogue: Marked=0,0:12:39.78,0:12:44.63,Default,NTP,0,0,0,!Effect,不久守護翼就會對這個煌珠樂園發動攻擊
+Dialogue: Marked=0,0:12:45.14,0:12:48.36,Default,NTP,0,0,0,!Effect,在那之前 讓我們來埋葬古老的傳說吧
+Dialogue: Marked=0,0:12:58.89,0:12:59.55,Default,NTP,0,0,0,!Effect,這是...
+Dialogue: Marked=0,0:13:00.20,0:13:01.27,Default,NTP,0,0,0,!Effect,古老的石板
+Dialogue: Marked=0,0:13:02.19,0:13:08.05,Default,NTP,0,0,0,!Effect,據說曾在煌珠樂園內的巨大石板碎裂後被丟棄
+Dialogue: Marked=0,0:13:08.72,0:13:10.72,Default,NTP,0,0,0,!Effect,這是它的一部分
+Dialogue: Marked=0,0:13:11.37,0:13:13.19,Default,NTP,0,0,0,!Effect,刻在上面的是文字嗎
+Dialogue: Marked=0,0:13:13.95,0:13:14.41,Default,NTP,0,0,0,!Effect,是的
+Dialogue: Marked=0,0:13:14.78,0:13:15.68,Default,NTP,0,0,0,!Effect,是很久以前的文字
+Dialogue: Marked=0,0:13:16.38,0:13:18.83,Default,NTP,0,0,0,!Effect,記載著古老傳說中的一節
+Dialogue: Marked=0,0:13:19.69,0:13:22.12,Default,NTP,0,0,0,!Effect,煌珠樂園想要拋棄的傳說
+Dialogue: Marked=0,0:13:22.86,0:13:25.21,Default,NTP,0,0,0,!Effect,前輩能看懂這文字嗎
+Dialogue: Marked=0,0:13:26.23,0:13:27.39,Default,NTP,0,0,0,!Effect,只能看懂一點點
+Dialogue: Marked=0,0:13:29.04,0:13:31.08,Default,NTP,0,0,0,!Effect,前人並非儘是爭戰
+Dialogue: Marked=0,0:13:31.66,0:13:34.17,Default,NTP,0,0,0,!Effect,共同唱頌內心頌詞
+Dialogue: Marked=0,0:13:34.58,0:13:36.19,Default,NTP,0,0,0,!Effect,締造奇跡
+Dialogue: Marked=0,0:13:39.27,0:13:43.05,Default,NTP,0,0,0,!Effect,根據曾在煌珠樂園流傳下來的傳說
+Dialogue: Marked=0,0:13:43.66,0:13:48.33,Default,NTP,0,0,0,!Effect,在古老年代 煌珠和人類一同唱頌
+Dialogue: Marked=0,0:13:48.82,0:13:51.27,Default,NTP,0,0,0,!Effect,創造了各種各樣的奇跡
+Dialogue: Marked=0,0:13:52.00,0:13:55.35,Default,NTP,0,0,0,!Effect,但是人類只追求戰鬥的力量
+Dialogue: Marked=0,0:13:55.86,0:13:57.64,Default,NTP,0,0,0,!Effect,丟棄了很多頌詞
+Dialogue: Marked=0,0:13:58.29,0:14:04.56,Default,NTP,0,0,0,!Effect,蔑視我們煌珠為道具 只是用來戰鬥的武器
+Dialogue: Marked=0,0:14:05.11,0:14:07.83,Default,NTP,0,0,0,!Effect,但那是愚蠢的錯誤
+Dialogue: Marked=0,0:14:08.80,0:14:11.41,Default,NTP,0,0,0,!Effect,煌珠不是人類的道具
+Dialogue: Marked=0,0:14:11.96,0:14:17.98,Default,NTP,0,0,0,!Effect,應說是煌珠為了發揮偉大的力量而利用人類
+Dialogue: Marked=0,0:14:18.82,0:14:23.48,Default,NTP,0,0,0,!Effect,而自大的人類卻想要進攻這煌珠樂園
+Dialogue: Marked=0,0:14:23.68,0:14:26.70,Default,NTP,0,0,0,!Effect,威脅我們的生命
+Dialogue: Marked=0,0:14:27.70,0:14:31.59,Default,NTP,0,0,0,!Effect,守護者們既然想戰鬥 那我們也不應示弱
+Dialogue: Marked=0,0:14:32.24,0:14:35.91,Default,NTP,0,0,0,!Effect,如此以我們的力量保衛煌珠樂園
+Dialogue: Marked=0,0:14:36.46,0:14:38.16,Default,NTP,0,0,0,!Effect,擊退守護翼
+Dialogue: Marked=0,0:14:38.00,0:14:44.61,Default,NTP,0,0,0,!Effect,將該是煌珠統治世界這個道理告知守護者與人類
+Dialogue: Marked=0,0:14:45.38,0:14:47.50,Default,NTP,0,0,0,!Effect,古老的傳說已經不需要了
+Dialogue: Marked=0,0:14:48.21,0:14:51.38,Default,NTP,0,0,0,!Effect,該是創造新的傳說的時候了
+Dialogue: Marked=0,0:14:55.09,0:14:55.87,Default,NTP,0,0,0,!Effect,明白了
+Dialogue: Marked=0,0:14:56.54,0:15:04.16,Default,NTP,0,0,0,!Effect,前輩是覺得若能喚醒\N煌珠和我們守護者曾經擁有的創造奇跡的力量的話
+Dialogue: Marked=0,0:15:04.61,0:15:07.57,Default,NTP,0,0,0,!Effect,就能成為制止戰鬥的關鍵
+Dialogue: Marked=0,0:15:08.03,0:15:09.12,Default,NTP,0,0,0,!Effect,嗯
+Dialogue: Marked=0,0:15:09.76,0:15:13.16,Default,NTP,0,0,0,!Effect,只是怎樣才能喚醒那種力量
+Dialogue: Marked=0,0:15:13.90,0:15:16.08,Default,NTP,0,0,0,!Effect,這一關鍵部分不清楚
+Dialogue: Marked=0,0:15:16.94,0:15:18.88,Default,NTP,0,0,0,!Effect,喚醒頌詞的力量
+Dialogue: Marked=0,0:15:20.47,0:15:22.30,Default,NTP,0,0,0,!Effect,前人並非儘是爭戰
+Dialogue: Marked=0,0:15:22.74,0:15:25.15,Default,NTP,0,0,0,!Effect,共同唱頌內心頌詞
+Dialogue: Marked=0,0:15:25.78,0:15:27.70,Default,NTP,0,0,0,!Effect,締造奇跡
+Dialogue: Marked=0,0:15:28.73,0:15:29.85,Default,NTP,0,0,0,!Effect,共同...
+Dialogue: Marked=0,0:15:30.40,0:15:31.88,Default,NTP,0,0,0,!Effect,奇跡...
+Dialogue: Marked=0,0:15:39.28,0:15:40.95,Default,NTP,0,0,0,!Effect,我有個想法
+Dialogue: Marked=0,0:15:42.20,0:15:43.25,Default,NTP,0,0,0,!Effect,酷和蕾
+Dialogue: Marked=0,0:15:43.98,0:15:47.83,Default,NTP,0,0,0,!Effect,那兩人一定能喚醒曾經失去的力量
+Dialogue: Marked=0,0:15:51.94,0:15:54.38,Default,NTP,0,0,0,!Effect,我想你一定知道些什麼
+Dialogue: Marked=0,0:15:56.08,0:15:59.51,Default,NTP,0,0,0,!Effect,我也一起相信他們吧
+Dialogue: Marked=0,0:16:00.38,0:16:01.20,Default,NTP,0,0,0,!Effect,前輩
+Dialogue: Marked=0,0:16:01.97,0:16:04.32,Default,NTP,0,0,0,!Effect,對了 我有個提議
+Dialogue: Marked=0,0:16:05.08,0:16:06.36,Default,NTP,0,0,0,!Effect,提議嗎
+Dialogue: Marked=0,0:16:06.92,0:16:09.35,Default,NTP,0,0,0,!Effect,嗯 一個意想不到的提議
+Dialogue: Marked=0,0:16:26.01,0:16:28.50,Default,NTP,0,0,0,!Effect,怎麼樣了 酷他們的狀況
+Dialogue: Marked=0,0:16:29.77,0:16:31.30,Default,NTP,0,0,0,!Effect,兩個人都似乎沒事了
+Dialogue: Marked=0,0:16:32.22,0:16:34.65,Default,NTP,0,0,0,!Effect,醫生說休息一晚就會好的
+Dialogue: Marked=0,0:16:36.68,0:16:37.83,Default,NTP,0,0,0,!Effect,過來一下行嗎
+Dialogue: Marked=0,0:16:39.05,0:16:40.81,Default,NTP,0,0,0,!Effect,我有事想跟你們說
+Dialogue: Marked=0,0:16:49.73,0:16:53.73,Default,NTP,0,0,0,!Effect,想不到守護翼居然要進攻煌珠樂園
+Dialogue: Marked=0,0:16:54.63,0:16:57.94,Default,NTP,0,0,0,!Effect,雖然想到了有可疑的傢伙混入了上層
+Dialogue: Marked=0,0:16:58.46,0:16:59.66,Default,NTP,0,0,0,!Effect,但沒想到居然到這地步了
+Dialogue: Marked=0,0:17:01.01,0:17:04.02,Default,NTP,0,0,0,!Effect,我依照沙威魯德前輩的提議
+Dialogue: Marked=0,0:17:04.51,0:17:06.08,Default,NTP,0,0,0,!Effect,返回守護翼總部
+Dialogue: Marked=0,0:17:07.19,0:17:09.02,Default,NTP,0,0,0,!Effect,將傳說中所記載的力量一事
+Dialogue: Marked=0,0:17:09.39,0:17:11.93,Default,NTP,0,0,0,!Effect,向法魯克總監和克魯斯輔佐官匯報
+Dialogue: Marked=0,0:17:12.40,0:17:15.55,Default,NTP,0,0,0,!Effect,盡力說服議會中止進攻
+Dialogue: Marked=0,0:17:16.40,0:17:19.73,Default,NTP,0,0,0,!Effect,所以蕾和酷就拜託你們了
+Dialogue: Marked=0,0:17:20.77,0:17:24.77,Default,NTP,0,0,0,!Effect,不要讓任何人妨礙他們兩人決定做的事情
+Dialogue: Marked=0,0:17:25.91,0:17:26.60,Default,NTP,0,0,0,!Effect,明白了
+Dialogue: Marked=0,0:17:27.60,0:17:28.55,Default,NTP,0,0,0,!Effect,但是 前輩
+Dialogue: Marked=0,0:17:29.23,0:17:31.92,Default,NTP,0,0,0,!Effect,總監他們也許能理解
+Dialogue: Marked=0,0:17:32.90,0:17:36.54,Default,NTP,0,0,0,!Effect,議會那些傢伙會改變已定了的事嗎
+Dialogue: Marked=0,0:17:37.32,0:17:40.11,Default,NTP,0,0,0,!Effect,無論如何都要改變
+Dialogue: Marked=0,0:17:40.70,0:17:41.15,Default,NTP,0,0,0,!Effect,不
+Dialogue: Marked=0,0:17:41.44,0:17:46.84,Default,NTP,0,0,0,!Effect,就算議會不改變決議也必須阻止這場戰鬥
+Dialogue: Marked=0,0:17:47.59,0:17:48.43,Default,NTP,0,0,0,!Effect,守護翼
+Dialogue: Marked=0,0:17:48.57,0:17:50.82,Default,NTP,0,0,0,!Effect,其意思是保護煌珠的雙翼
+Dialogue: Marked=0,0:17:51.27,0:17:58.64,Default,NTP,0,0,0,!Effect,而我相信那也是\N意味著煌珠和人類攜手飛向未來的雙翼
+Dialogue: Marked=0,0:18:37.25,0:18:38.63,Default,NTP,0,0,0,!Effect,蕾 怎麼了
+Dialogue: Marked=0,0:18:40.42,0:18:42.87,Default,NTP,0,0,0,!Effect,可以去嗎 我
+Dialogue: Marked=0,0:18:43.00,0:18:43.84,Default,NTP,0,0,0,!Effect,嗯？
+Dialogue: Marked=0,0:18:44.53,0:18:45.76,Default,NTP,0,0,0,!Effect,去煌珠樂園
+Dialogue: Marked=0,0:18:47.27,0:18:48.36,Default,NTP,0,0,0,!Effect,什麼啊
+Dialogue: Marked=0,0:18:52.41,0:18:58.00,Default,NTP,0,0,0,!Effect,不會是因為他們說\N要讓蕾做其該做的事就必須殺了我什麼的吧
+Dialogue: Marked=0,0:18:58.57,0:19:01.42,Default,NTP,0,0,0,!Effect,那是ChaosChoir那些傢伙信口開河的
+Dialogue: Marked=0,0:19:01.89,0:19:03.13,Default,NTP,0,0,0,!Effect,你別在意
+Dialogue: Marked=0,0:19:04.51,0:19:06.91,Default,NTP,0,0,0,!Effect,但是 是同一體
+Dialogue: Marked=0,0:19:07.96,0:19:10.62,Default,NTP,0,0,0,!Effect,煌珠樂園和ChaosChoir
+Dialogue: Marked=0,0:19:12.30,0:19:14.31,Default,NTP,0,0,0,!Effect,那樣的話更要去了
+Dialogue: Marked=0,0:19:16.16,0:19:19.08,Default,NTP,0,0,0,!Effect,像這樣逃來逃去不也無濟於事嗎
+Dialogue: Marked=0,0:19:21.09,0:19:25.13,Default,NTP,0,0,0,!Effect,而且我不希望再像菲蘿那時侯一樣傷心了
+Dialogue: Marked=0,0:19:26.69,0:19:27.69,Default,NTP,0,0,0,!Effect,所以 那個...
+Dialogue: Marked=0,0:19:28.53,0:19:32.45,Default,NTP,0,0,0,!Effect,我們闖進煌珠樂園 幹掉ChaosChoir吧
+Dialogue: Marked=0,0:19:55.54,0:19:56.34,Default,NTP,0,0,0,!Effect,瑪伊娜
+Dialogue: Marked=0,0:19:57.12,0:19:57.92,Default,NTP,0,0,0,!Effect,我...
+Dialogue: Marked=0,0:20:13.50,0:20:16.69,Default,NTP,0,0,0,!Effect,那麼 我出發前往守護翼總部了
+Dialogue: Marked=0,0:20:17.24,0:20:19.29,Default,NTP,0,0,0,!Effect,前輩你們也一定要保重
+Dialogue: Marked=0,0:20:27.36,0:20:28.66,Default,NTP,0,0,0,!Effect,彈射器準備就緒
+Dialogue: Marked=0,0:21:15.65,0:21:16.45,Default,NTP,0,0,0,!Effect,好勒
+Dialogue: Marked=0,0:21:17.89,0:21:19.36,Default,NTP,0,0,0,!Effect,走嘍
+Dialogue: Marked=0,0:22:51.30,0:22:53.45,Default,NTP,0,0,0,!Effect,分別突然來臨
+Dialogue: Marked=0,0:22:53.92,0:22:57.26,Default,NTP,0,0,0,!Effect,究竟那是否是再會的序曲
+Dialogue: Marked=0,0:22:57.23,0:23:04.56,Default,NTP,0,0,0,!Effect,第二十三唱 約定
+Dialogue: Marked=0,0:22:57.91,0:22:59.25,Default,NTP,0,0,0,!Effect,下回 約定
+Dialogue: Marked=0,0:22:59.75,0:23:02.81,Default,NTP,0,0,0,!Effect,少年堅信少女那笑顏
+

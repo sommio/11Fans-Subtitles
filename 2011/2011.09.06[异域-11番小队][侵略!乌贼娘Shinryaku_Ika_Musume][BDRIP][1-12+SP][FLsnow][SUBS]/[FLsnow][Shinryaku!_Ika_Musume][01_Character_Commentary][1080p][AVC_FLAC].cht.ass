@@ -1,0 +1,238 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EDC,DFPPOP3W12-B5,36,&H00a56416,&H80eec694,&H00ffffff,&H40000000,0,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,1
+Style: Default,方正综艺_GBK,48,&H00a56416,&H80eec694,&H00ffffff,&H40000000,0,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,1
+Style: OPC,DFPPOP3W12-B5,36,&H00a56416,&H80eec694,&H00ffffff,&H40000000,0,0,0,0,100,100,0,0.00,1,2,1,8,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.93,0:00:08.70,Default,NTP,0000,0000,0000,,聽到這條音軌的你 大腦馬上就要被侵略了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:00:09.06,0:00:14.46,Default,NTP,0000,0000,0000,,做好覺悟聽著我的聲音 和我一起回溯我的侵略軌跡吧
+Dialogue: 0,0:00:14.74,0:00:20.02,Default,NTP,0000,0000,0000,,為買了這張BD或者DVD一事後悔去吧{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:01:59.20,0:02:04.03,Default,NTP,0000,0000,0000,,哦 是我執行華麗的登陸作戰的瞬間嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:04.51,0:02:10.60,Default,NTP,0000,0000,0000,,我決定了 要把登陸地點眼前的這棟房子作為侵略據點{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:13.29,0:02:17.73,Default,NTP,0000,0000,0000,,好香啊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r} 在人類吃飯時打他們個措手不及
+Dialogue: 0,0:02:17.84,0:02:20.26,Default,NTP,0000,0000,0000,,作為侵略者時機選的剛剛好{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:02:22.80,0:02:25.58,Default,NTP,0000,0000,0000,,你 注意盯著畫面
+Dialogue: 0,0:02:25.74,0:02:26.92,Default,NTP,0000,0000,0000,,名場面哦{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:27.00,0:02:28.29,Default,NTP,0000,0000,0000,,名台詞哦{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:28.42,0:02:32.33,Default,NTP,0000,0000,0000,,這就是流芳百世的 烏賊娘的侵略宣言{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:42.13,0:02:43.78,Default,NTP,0000,0000,0000,,帥呆了不是嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:02:44.08,0:02:46.18,Default,NTP,0000,0000,0000,,此時人類看我的視線…
+Dialogue: 0,0:02:46.53,0:02:48.21,Default,NTP,0000,0000,0000,,爽歪了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:51.21,0:02:53.29,Default,NTP,0000,0000,0000,,不能把他們嚇壞了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:02:53.56,0:02:54.90,Default,NTP,0000,0000,0000,,還有女人小孩在
+Dialogue: 0,0:02:55.03,0:02:57.73,Default,NTP,0000,0000,0000,,侵略者也要有人情味嘛{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:00.16,0:03:02.23,Default,NTP,0000,0000,0000,,是這家店的保安嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:02.48,0:03:05.97,Default,NTP,0000,0000,0000,,把我叫到沒人的地方做什麼{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:06.12,0:03:07.77,Default,NTP,0000,0000,0000,,這樣做只是白費力氣罷了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:09.93,0:03:11.64,Default,NTP,0000,0000,0000,,雖然說我cosplay很失禮{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:11.77,0:03:14.37,Default,NTP,0000,0000,0000,,但自我介紹是打招呼的基本嘛{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:26.31,0:03:28.88,Default,NTP,0000,0000,0000,,人類果然沒禮貌{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:29.21,0:03:31.27,Default,NTP,0000,0000,0000,,為什麼不自報姓名{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:31.48,0:03:33.71,Default,NTP,0000,0000,0000,,問題一個接一個 很失禮耶{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:03:36.75,0:03:38.72,Default,NTP,0000,0000,0000,,這不是廢話嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:38.87,0:03:42.85,Default,NTP,0000,0000,0000,,誰會問侵略者為什麼要侵略啊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:43.13,0:03:45.90,Default,NTP,0000,0000,0000,,但作為烏賊我還是好心告訴她了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:03:46.07,0:03:52.00,Default,NTP,0000,0000,0000,,大海使者的宏圖大志 牢牢記在心裡吧{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:05.87,0:04:10.53,Default,NTP,0000,0000,0000,,這個女人似乎沒能理解大海使者的崇高精神{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:10.98,0:04:12.95,Default,NTP,0000,0000,0000,,但我不會回大海的{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:13.24,0:04:16.18,Default,NTP,0000,0000,0000,,在這裡退縮了 還算什麼侵略者{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:04:25.36,0:04:29.66,Default,NTP,0000,0000,0000,,潛入屋裡 努力端人類的食物…
+Dialogue: 0,0:04:29.93,0:04:32.65,Default,NTP,0000,0000,0000,,不對啊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r} 不許命令我{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:32.88,0:04:34.19,Default,NTP,0000,0000,0000,,我自己會端{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:34.47,0:04:35.67,Default,NTP,0000,0000,0000,,你吃太多了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:39.04,0:04:39.98,Default,NTP,0000,0000,0000,,不行了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:40.66,0:04:41.85,Default,NTP,0000,0000,0000,,這是第幾個{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:42.08,0:04:43.51,Default,NTP,0000,0000,0000,,已經記不清了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:43.82,0:04:45.04,Default,NTP,0000,0000,0000,,搞不懂了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:45.27,0:04:46.45,Default,NTP,0000,0000,0000,,我不幹了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:47.01,0:04:48.24,Default,NTP,0000,0000,0000,,啊咧 {\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:48.39,0:04:49.59,Default,NTP,0000,0000,0000,,啊啦 {\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:04:50.63,0:04:53.86,Default,NTP,0000,0000,0000,,我被侵略了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}…
+Dialogue: 0,0:04:57.09,0:04:58.86,Default,NTP,0000,0000,0000,,雖然身為侵略者
+Dialogue: 0,0:04:58.88,0:05:01.97,Default,NTP,0000,0000,0000,,但做錯事也要敢於道歉{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:02.27,0:05:04.38,Default,NTP,0000,0000,0000,,但我並沒有屈服{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:08.47,0:05:11.50,Default,NTP,0000,0000,0000,,但我還真是吃軟不吃硬啊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:11.64,0:05:14.05,Default,NTP,0000,0000,0000,,作為侵略者要反省一下{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:20.05,0:05:22.48,Default,NTP,0000,0000,0000,,終於想起目的了嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:22.67,0:05:26.21,Default,NTP,0000,0000,0000,,再這樣被人類牽著鼻子走就不妙了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:31.15,0:05:33.12,Default,NTP,0000,0000,0000,,我不是說過不回去嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:39.73,0:05:42.06,Default,NTP,0000,0000,0000,,這個女人又來反問我了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:42.24,0:05:44.45,Default,NTP,0000,0000,0000,,完全不知她在說什麼{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:05:58.79,0:06:04.60,Default,NTP,0000,0000,0000,,人類比我想像的稍微多了不是那麼一丁點嘛{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:06:04.87,0:06:06.83,Default,NTP,0000,0000,0000,,但侵略不靠數量{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:06:06.94,0:06:08.72,Default,NTP,0000,0000,0000,,關鍵在於質量{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:06:08.90,0:06:11.34,Default,NTP,0000,0000,0000,,完全在我的預料之內{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:06:21.84,0:06:27.52,Default,NTP,0000,0000,0000,,也就是說人類似乎擁有超乎想像的強力武器
+Dialogue: 0,0:06:27.76,0:06:29.61,Default,NTP,0000,0000,0000,,我明白了這件事{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:06:30.99,0:06:32.41,Default,NTP,0000,0000,0000,,不要慌張 我自己！
+Dialogue: 0,0:06:32.43,0:06:33.47,Default,NTP,0000,0000,0000,,要冷靜{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}！
+Dialogue: 0,0:06:33.74,0:06:37.16,Default,NTP,0000,0000,0000,,管他什麼軍隊 什麼味增湯 都由我擺平{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:06:46.94,0:06:49.45,Default,NTP,0000,0000,0000,,居然連蟲子都來耍我
+Dialogue: 0,0:06:49.69,0:06:51.69,Default,NTP,0000,0000,0000,,太悲哀了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:06:57.08,0:07:00.31,Default,NTP,0000,0000,0000,,當時我真的好不甘心{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:00.44,0:07:01.89,Default,NTP,0000,0000,0000,,作為侵略者的本性
+Dialogue: 0,0:07:02.01,0:07:03.61,Default,NTP,0000,0000,0000,,作為烏賊族的能力
+Dialogue: 0,0:07:03.71,0:07:06.94,Default,NTP,0000,0000,0000,,讓你看看我的厲害{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:11.20,0:07:12.83,Default,NTP,0000,0000,0000,,看著吧
+Dialogue: 0,0:07:13.11,0:07:15.66,Default,NTP,0000,0000,0000,,這就是十條{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}的全力攻擊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:17.56,0:07:20.41,Default,NTP,0000,0000,0000,,有點用力過頭了 我反省{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:20.57,0:07:24.95,Default,NTP,0000,0000,0000,,因為不僅打碎了杯子 還在牆上開了個洞{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:33.14,0:07:39.23,Default,NTP,0000,0000,0000,,雖然有點遜 但知道這個女人很難纏 也算有收穫了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:39.42,0:07:42.34,Default,NTP,0000,0000,0000,,吃一塹長一智 這也是很重要的{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:44.45,0:07:46.84,Default,NTP,0000,0000,0000,,而這是一雪前恥的場景哦{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:07:47.98,0:07:48.78,Default,NTP,0000,0000,0000,,超音速
+Dialogue: 0,0:07:49.25,0:07:50.35,Default,NTP,0000,0000,0000,,易拉罐限定
+Dialogue: 0,0:07:50.72,0:07:52.14,Default,NTP,0000,0000,0000,,{\fs36}*海之家檸檬所在海岸的綜合設施{\r}\N直到逗子marina！
+Dialogue: 0,0:07:52.67,0:07:53.76,Default,NTP,0000,0000,0000,,勞動課也能做
+Dialogue: 0,0:08:05.08,0:08:08.95,Default,NTP,0000,0000,0000,,你也被我的無敵能力感動了吧{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:08:09.07,0:08:09.92,Default,NTP,0000,0000,0000,,怎麼樣{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:08:17.60,0:08:20.50,Default,NTP,0000,0000,0000,,侵略的第一步就是這樣{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:08:20.81,0:08:24.14,Default,NTP,0000,0000,0000,,別以為這樣就算完{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}！
+Dialogue: 0,0:08:36.41,0:08:40.16,Default,NTP,0000,0000,0000,,我這是在幹什麼呢{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:08:53.07,0:08:55.32,Default,NTP,0000,0000,0000,,被這家人隨便使喚
+Dialogue: 0,0:08:55.43,0:08:58.45,Default,NTP,0000,0000,0000,,我當時有點洩氣了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:02.96,0:09:04.72,Default,NTP,0000,0000,0000,,感覺渾身不舒服{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:04.80,0:09:07.78,Default,NTP,0000,0000,0000,,觸手感覺到了什麼{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:08.52,0:09:10.35,Default,NTP,0000,0000,0000,,這不是錯覺{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:10.54,0:09:12.86,Default,NTP,0000,0000,0000,,我作為烏賊的感覺還沒有退化{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:13.12,0:09:17.15,Default,NTP,0000,0000,0000,,沒錯 我被敵人從背後盯上了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:23.85,0:09:25.82,Default,NTP,0000,0000,0000,,這不是在逃走{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:25.97,0:09:28.04,Default,NTP,0000,0000,0000,,是為了引蛇出洞{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:28.29,0:09:30.92,Default,NTP,0000,0000,0000,,雖然在海裡移動的更快{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:31.05,0:09:33.59,Default,NTP,0000,0000,0000,,但在陸地上這就是極限了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:34.16,0:09:36.29,Default,NTP,0000,0000,0000,,居然被抓到了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:36.45,0:09:38.24,Default,NTP,0000,0000,0000,,作為侵略者太大意了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:43.41,0:09:45.18,Default,NTP,0000,0000,0000,,這不是人類的小孩嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:09:45.41,0:09:47.13,Default,NTP,0000,0000,0000,,被這種小孩子看扁了
+Dialogue: 0,0:09:47.18,0:09:49.48,Default,NTP,0000,0000,0000,,有損侵略者的威嚴{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:49.70,0:09:51.28,Default,NTP,0000,0000,0000,,我這樣想道{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:09:58.98,0:10:05.29,Default,NTP,0000,0000,0000,,讓你知道捋烏賊的觸手會落得怎樣的下場
+Dialogue: 0,0:10:09.12,0:10:11.65,Default,NTP,0000,0000,0000,,人類的小孩還挺耐打的{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:10:12.60,0:10:16.69,Default,NTP,0000,0000,0000,,而且觸手對這傢伙完全沒用耶{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:10:17.01,0:10:19.56,Default,NTP,0000,0000,0000,,所以我變更了作戰{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:10:20.01,0:10:23.05,Default,NTP,0000,0000,0000,,把這個孩子洗腦成忠實的部下
+Dialogue: 0,0:10:23.12,0:10:26.43,Default,NTP,0000,0000,0000,,一氣攻下這個海之家{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:10:26.76,0:10:28.04,Default,NTP,0000,0000,0000,,真是個好主意
+Dialogue: 0,0:10:29.83,0:10:31.13,Default,NTP,0000,0000,0000,,而且這個孩子
+Dialogue: 0,0:10:31.33,0:10:32.99,Default,NTP,0000,0000,0000,,既單純又聽話{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:10:37.42,0:10:40.58,Default,NTP,0000,0000,0000,,事不宜遲 馬上下令進軍{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:10:53.17,0:10:55.94,Default,NTP,0000,0000,0000,,但是前途多難{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:10:56.30,0:11:00.89,Default,NTP,0000,0000,0000,,這個小孩居然是暴力女的弟弟{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:08.18,0:11:10.96,Default,NTP,0000,0000,0000,,矇混過去 我要矇混過去{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:14.40,0:11:16.07,Default,NTP,0000,0000,0000,,烏賊的孩子還可以考慮{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:17.15,0:11:21.08,Default,NTP,0000,0000,0000,,我這份臨機應變的能力真令我佩服{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:21.52,0:11:25.84,Default,NTP,0000,0000,0000,,為了制定作戰 我暫時脫離了戰場{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:27.24,0:11:30.04,Default,NTP,0000,0000,0000,,當我沒看到這個鏡頭{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:30.32,0:11:32.53,Default,NTP,0000,0000,0000,,從你腦中刪除掉{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:41.71,0:11:46.16,Default,NTP,0000,0000,0000,,在孤軍奮戰的我的面前 同胞登場的名場面{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:46.44,0:11:48.74,Default,NTP,0000,0000,0000,,讓我不禁老淚縱橫啊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:11:54.13,0:11:58.33,Default,NTP,0000,0000,0000,,從大海專程趕來助陣的同胞雖然看起來還是個孩子
+Dialogue: 0,0:11:58.49,0:12:01.93,Default,NTP,0000,0000,0000,,但我們聯手起來肯定戰力暴漲{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:12:13.86,0:12:18.50,Default,NTP,0000,0000,0000,,觸手的數量變成了20根 佔領那座房子不在話下{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:12:18.68,0:12:21.86,Default,NTP,0000,0000,0000,,在我看來簡直所向披靡{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:12:32.09,0:12:36.62,Default,NTP,0000,0000,0000,,對於不知所措的新人 我這個前輩積極進行指導{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:12:39.22,0:12:40.21,Default,NTP,0000,0000,0000,,話說回來{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:12:40.47,0:12:44.01,Default,NTP,0000,0000,0000,,這個同胞正值換觸手的期間{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:12:55.55,0:13:00.22,Default,NTP,0000,0000,0000,,休息一下觸手就換好了 年輕就是好{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:00.50,0:13:03.78,Default,NTP,0000,0000,0000,,但是軟綿綿的{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r} 似乎萎了耶{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:13:12.93,0:13:16.33,Default,NTP,0000,0000,0000,,這個機關我當做沒看見{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:19.64,0:13:22.50,Default,NTP,0000,0000,0000,,注入氣勢後變得很像樣了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:22.70,0:13:25.07,Default,NTP,0000,0000,0000,,看到精神十足的復活的{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:25.16,0:13:28.56,Default,NTP,0000,0000,0000,,我真替對方感到高興{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:30.86,0:13:32.41,Default,NTP,0000,0000,0000,,但這只是片刻的事
+Dialogue: 0,0:13:32.75,0:13:35.88,Default,NTP,0000,0000,0000,,此後同胞突然悲劇了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:40.69,0:13:43.67,Default,NTP,0000,0000,0000,,本來以為同胞只是逃開了
+Dialogue: 0,0:13:43.86,0:13:46.76,Default,NTP,0000,0000,0000,,沒想到一動也不動了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:13:54.32,0:13:59.31,Default,NTP,0000,0000,0000,,現在想來 同胞是不想讓我看到自己嚥氣
+Dialogue: 0,0:13:59.49,0:14:01.59,Default,NTP,0000,0000,0000,,是在替我著想
+Dialogue: 0,0:14:02.06,0:14:07.07,Default,NTP,0000,0000,0000,,被我看到這副樣子 會喪失侵略的慾望…
+Dialogue: 0,0:14:24.53,0:14:26.52,Default,NTP,0000,0000,0000,,好美的夕陽{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:14:28.06,0:14:32.51,Default,NTP,0000,0000,0000,,在這個時候 連那個女人都來安慰我{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:14:33.11,0:14:36.98,Default,NTP,0000,0000,0000,,戰場上的犧牲 是不分敵我的{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:14:49.87,0:14:53.74,Default,NTP,0000,0000,0000,,在這一瞬間 我對人類有點刮目相看了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:15:17.50,0:15:21.83,Default,NTP,0000,0000,0000,,現在想來 那是暴風雨到來前的寧靜{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:15:40.64,0:15:42.27,Default,NTP,0000,0000,0000,,當初看到千鶴時
+Dialogue: 0,0:15:42.53,0:15:47.31,Default,NTP,0000,0000,0000,,感覺她親切文靜 和暴力女榮子天差地遠{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:15:55.55,0:15:59.73,Default,NTP,0000,0000,0000,,先前也吃過榮子的這一攻擊 真的很疼{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:00.93,0:16:03.95,Default,NTP,0000,0000,0000,,千鶴護著我這個來自大海的侵略者
+Dialogue: 0,0:16:04.03,0:16:06.71,Default,NTP,0000,0000,0000,,譴責了榮子的暴行{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:07.16,0:16:09.78,Default,NTP,0000,0000,0000,,為了這個叫千鶴的女人 我要努力
+Dialogue: 0,0:16:10.01,0:16:11.66,Default,NTP,0000,0000,0000,,正當我這樣想著{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:14.04,0:16:14.37,Default,NTP,0000,0000,0000,,一個
+Dialogue: 0,0:16:14.44,0:16:15.02,Default,NTP,0000,0000,0000,,兩個
+Dialogue: 0,0:16:15.16,0:16:16.17,Default,NTP,0000,0000,0000,,三個{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:18.77,0:16:20.31,Default,NTP,0000,0000,0000,,闖禍了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:20.50,0:16:24.59,Default,NTP,0000,0000,0000,,攢了好久的墨魚汁一氣全噴出來了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:28.23,0:16:31.27,Default,NTP,0000,0000,0000,,可是榮子真的嚇了一跳{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:31.49,0:16:34.07,Default,NTP,0000,0000,0000,,對於烏賊一族來說理所當然的墨魚汁
+Dialogue: 0,0:16:34.20,0:16:36.99,Default,NTP,0000,0000,0000,,被她看作什麼髒東西{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:38.25,0:16:43.22,Default,NTP,0000,0000,0000,,但千鶴沒有生氣 認同我像真正的烏賊了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:43.36,0:16:45.81,Default,NTP,0000,0000,0000,,話說我本來就是烏賊{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:16:46.02,0:16:47.65,Default,NTP,0000,0000,0000,,已經無所謂了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:17:07.16,0:17:12.53,Default,NTP,0000,0000,0000,,人類居然和著墨魚汁吃我們烏賊族的肉{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:17:12.87,0:17:15.56,Default,NTP,0000,0000,0000,,好不容易從鯊魚虎鯨口中逃到陸上
+Dialogue: 0,0:17:15.65,0:17:18.92,Default,NTP,0000,0000,0000,,連人類都要吃我們嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:17:19.08,0:17:22.20,Default,NTP,0000,0000,0000,,我已經不知道該相信什麼了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:17:22.36,0:17:24.15,Default,NTP,0000,0000,0000,,冷靜點 烏賊娘！
+Dialogue: 0,0:17:27.05,0:17:29.30,Default,NTP,0000,0000,0000,,仔細觀察周圍{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:17:51.71,0:17:55.89,Default,NTP,0000,0000,0000,,作為侵略者的本能全開{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:05.44,0:18:08.47,Default,NTP,0000,0000,0000,,閃電很適合侵略者呢{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:13.73,0:18:15.56,Default,NTP,0000,0000,0000,,我這不是中二病哦{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:19.81,0:18:23.25,Default,NTP,0000,0000,0000,,我恢復侵略者的本來面目了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:33.13,0:18:35.55,Default,NTP,0000,0000,0000,,敢小看我就趁現在吧{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:37.67,0:18:39.71,Default,NTP,0000,0000,0000,,首先是觸手1號2號！
+Dialogue: 0,0:18:51.35,0:18:53.38,Default,NTP,0000,0000,0000,,正所謂飛蛾撲火{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:53.53,0:18:55.72,Default,NTP,0000,0000,0000,,就算是小孩子我也不會手下留情{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:18:55.81,0:18:58.88,Default,NTP,0000,0000,0000,,因為我是恐怖的侵略者嘛{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:00.00,0:19:01.54,Default,NTP,0000,0000,0000,,觸手3號4號！
+Dialogue: 0,0:19:14.42,0:19:16.21,Default,NTP,0000,0000,0000,,至今為止還算順利{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:16.61,0:19:20.67,Default,NTP,0000,0000,0000,,那種閉眼女能做什麼{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:21.12,0:19:22.82,Default,NTP,0000,0000,0000,,我當時這樣想道{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:24.38,0:19:29.07,Default,NTP,0000,0000,0000,,當時我沒發現自己犯了天大的錯誤{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:32.08,0:19:33.55,Default,NTP,0000,0000,0000,,千鶴消失了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:37.37,0:19:39.94,Default,NTP,0000,0000,0000,,5號！ 6號！ 7號！ 8號！
+Dialogue: 0,0:19:40.02,0:19:41.16,Default,NTP,0000,0000,0000,,擊墜…
+Dialogue: 0,0:19:41.46,0:19:42.43,Default,NTP,0000,0000,0000,,9號！ 10號！
+Dialogue: 0,0:19:42.59,0:19:43.36,Default,NTP,0000,0000,0000,,沉默…
+Dialogue: 0,0:19:46.28,0:19:51.54,Default,NTP,0000,0000,0000,,然後我的觸手們全都被千鶴砍成碎片了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:19:57.77,0:20:01.63,Default,NTP,0000,0000,0000,,當時我只能全面投降了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:01.96,0:20:06.27,Default,NTP,0000,0000,0000,,忍辱負重投入了相澤家的麾下{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:06.77,0:20:09.85,Default,NTP,0000,0000,0000,,從腰往下都使不上勁{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:14.15,0:20:16.69,Default,NTP,0000,0000,0000,,因為恐懼說不清話了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:20.61,0:20:23.36,Default,NTP,0000,0000,0000,,不能被千鶴的笑容欺騙了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:35.69,0:20:37.04,Default,NTP,0000,0000,0000,,1 2 3
+Dialogue: 0,0:20:37.26,0:20:38.47,Default,NTP,0000,0000,0000,,Knock out{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:44.60,0:20:49.58,Default,NTP,0000,0000,0000,,當時放鬆警惕吐了墨汁 才是地獄的開始{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:20:54.20,0:20:56.08,Default,NTP,0000,0000,0000,,鮮度超群的聲音{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:21:14.70,0:21:16.98,Default,NTP,0000,0000,0000,,我的墨汁有這麼好吃嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:21:23.63,0:21:26.08,Default,NTP,0000,0000,0000,,我的墨汁… 我的墨汁…
+Dialogue: 0,0:21:26.22,0:21:27.94,Default,NTP,0000,0000,0000,,被吞掉了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:21:28.26,0:21:31.37,Default,NTP,0000,0000,0000,,我的墨汁… 被人類…
+Dialogue: 0,0:21:33.86,0:21:36.39,Default,NTP,0000,0000,0000,,請你不要看下去了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:21:45.03,0:21:49.78,Default,NTP,0000,0000,0000,,不要再看我那被人類羞辱的樣子了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:21:51.68,0:21:55.11,Default,NTP,0000,0000,0000,,我也不想再看到千鶴睜眼的樣子了{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:21:55.37,0:21:57.06,Default,NTP,0000,0000,0000,,不要按停止鍵嗎{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}嗚賊{\r}
+Dialogue: 0,0:21:59.68,0:22:01.67,Default,NTP,0000,0000,0000,,還沒完呢{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}
+Dialogue: 0,0:22:01.88,0:22:05.72,Default,NTP,0000,0000,0000,,下卷我會報仇的 給我期待著吧{\fnDFPPOP3W12-B5\fs40\1c&H407DFF&}觸手{\r}

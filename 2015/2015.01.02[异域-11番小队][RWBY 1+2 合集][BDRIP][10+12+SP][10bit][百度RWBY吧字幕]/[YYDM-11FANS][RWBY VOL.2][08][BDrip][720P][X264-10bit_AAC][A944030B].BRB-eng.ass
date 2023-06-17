@@ -1,0 +1,214 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Microsoft YaHei,56,&H00ffffff,&H000000ff,&H0008009f,&H006757b7,0,0,0,0,100,100,0,0.00,1,2,1,2,10,10,40,1
+Style: Note,Microsoft YaHei,47,&H0001020b,&H000000ff,&H00ffffff,&H009fb4ba,-1,0,0,0,100,100,0,0.00,1,0,0,8,10,10,40,1
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: Staff,Microsoft YaHei,34,&H00ffffff,&H000000ff,&H00000000,&H000000ff,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,40,1
+Style: BRB sign,Microsoft YaHei,133,&H002900ad,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,0,0,8,34,34,34,1
+Style: D1,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,7,40,10,30,1
+Style: D2,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,3,10,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.46,0:00:04.32,D,,0000,0000,0000,,They were here
+Dialogue: 0,0:00:04.88,0:00:06.78,D,,0000,0000,0000,,Ozpin, they were here!
+Dialogue: 0,0:00:06.78,0:00:09.48,D,,0000,0000,0000,,We're very much aware of that, thank you, James
+Dialogue: 0,0:00:09.48,0:00:11.72,D,,0000,0000,0000,,Fantastic, you're aware
+Dialogue: 0,0:00:11.72,0:00:17.69,D,,0000,0000,0000,,Now are we going to do something about it or should we just stay the course and continue to ignore what's right in front of us?
+Dialogue: 0,0:00:18.90,0:00:19.80,D,,0000,0000,0000,,Come in
+Dialogue: 0,0:00:20.60,0:00:22.94,D,,0000,0000,0000,,Ah, sorry it took so long
+Dialogue: 0,0:00:22.94,0:00:26.84,D,,0000,0000,0000,,Someone accidentally hit all the buttons on the elevator on the way up here
+Dialogue: 0,0:00:27.68,0:00:29.11,D,,0000,0000,0000,,It wasn't me
+Dialogue: 0,0:00:29.51,0:00:32.28,D,,0000,0000,0000,,Thank you for coming, Ruby. How are you feeling?
+Dialogue: 0,0:00:32.28,0:00:34.22,D,,0000,0000,0000,,Okay, I guess
+Dialogue: 0,0:00:34.22,0:00:38.08,D,,0000,0000,0000,,I'd feel better if my bad guy catching record wasn't O for three
+Dialogue: 0,0:00:39.40,0:00:42.54,D,,0000,0000,0000,,Okay, so that's the tone we're going for, got it
+Dialogue: 0,0:00:42.54,0:00:43.88,D,,0000,0000,0000,,Ruby
+Dialogue: 0,0:00:43.88,0:00:49.34,D,,0000,0000,0000,,I feel it's appropriate to let you know that I think what you did last night is exactly what being a Huntress is all about
+Dialogue: 0,0:00:49.34,0:00:53.36,D,,0000,0000,0000,,You recognized a threat, you took action, and you did the very best you could
+Dialogue: 0,0:00:53.36,0:00:54.93,D,,0000,0000,0000,,Thank you, sir
+Dialogue: 0,0:00:54.93,0:01:01.34,D,,0000,0000,0000,,Now, the General here has already informed us of the events that..transpired last night
+Dialogue: 0,0:01:01.34,0:01:05.18,D,,0000,0000,0000,,But now that you've rested, we were wondering if you had anything to add
+Dialogue: 0,0:01:05.18,0:01:09.05,D,,0000,0000,0000,,Was anyone else with her? Did she look familiar to you at all?
+Dialogue: 0,0:01:09.78,0:01:13.62,D,,0000,0000,0000,,I..I dont' know
+Dialogue: 0,0:01:13.62,0:01:18.18,D,,0000,0000,0000,,She was wearing a mask, and she never said anything to me
+Dialogue: 0,0:01:18.18,0:01:22.43,D,,0000,0000,0000,,But I know she fought with glass, I don't think that was her Semblance, though
+Dialogue: 0,0:01:22.43,0:01:24.93,D,,0000,0000,0000,,Her clothing lit up whenever she attacked
+Dialogue: 0,0:01:24.93,0:01:30.26,D,,0000,0000,0000,,Save for the glass, That sounds like the women I fought the night we met Ruby
+Dialogue: 0,0:01:30.26,0:01:33.98,D,,0000,0000,0000,,Embedding dust into clothing is an age-old technique. It could've been anyone
+Dialogue: 0,0:01:33.98,0:01:35.40,D,,0000,0000,0000,,Wait..
+Dialogue: 0,0:01:35.40,0:01:38.80,D,,0000,0000,0000,,You think this girl's connected with Tochwick and the White Fang?
+Dialogue: 0,0:01:39.91,0:01:41.36,D,,0000,0000,0000,,It's possible
+Dialogue: 0,0:01:42.86,0:01:46.95,D,,0000,0000,0000,,But we still lack the required evidence to link the two together
+Dialogue: 0,0:01:48.15,0:01:54.26,D,,0000,0000,0000,,Actually, I..I think I remember her saying something about a hideout, or something..
+Dialogue: 0,0:01:54.26,0:01:57.78,D,,0000,0000,0000,,..in the Southeast. Just outside the kingdom
+Dialogue: 0,0:01:58.32,0:01:59.76,D,,0000,0000,0000,,Interesting
+Dialogue: 0,0:01:59.76,0:02:01.32,D,,0000,0000,0000,,I thought you said the intruder never..
+Dialogue: 0,0:02:01.32,0:02:03.57,D,,0000,0000,0000,,Thank you for your cooperation, Ruby
+Dialogue: 0,0:02:03.57,0:02:08.06,D,,0000,0000,0000,,Why don't you go and spend some time with your team? You have a big day ahead of you
+Dialogue: 0,0:02:08.06,0:02:09.37,D,,0000,0000,0000,,Anytime!
+Dialogue: 0,0:02:09.37,0:02:10.97,D,,0000,0000,0000,,And Miss Rose
+Dialogue: 0,0:02:11.51,0:02:13.58,D,,0000,0000,0000,,Please try and be..
+Dialogue: 0,0:02:13.58,0:02:15.64,D,,0000,0000,0000,,..discreet about this matter
+Dialogue: 0,0:02:16.24,0:02:17.51,D,,0000,0000,0000,,Yes, sir
+Dialogue: 0,0:02:22.30,0:02:23.49,D,,0000,0000,0000,,What happened?!
+Dialogue: 0,0:02:23.49,0:02:27.12,D,,0000,0000,0000,,Uh..well,um, hehe..aha~
+Dialogue: 0,0:02:27.12,0:02:28.52,D,,0000,0000,0000,,Well there we have it
+Dialogue: 0,0:02:28.52,0:02:31.29,D,,0000,0000,0000,,We send as many troops as we can to the Southeast
+Dialogue: 0,0:02:31.29,0:02:35.13,D,,0000,0000,0000,,Find out exactly what's going on and eradicate any forces that stand in our way
+Dialogue: 0,0:02:35.13,0:02:40.10,D,,0000,0000,0000,,Why must your answer to everything involve a triumphant display of military bravado?
+Dialogue: 0,0:02:40.10,0:02:43.14,D,,0000,0000,0000,,You treat every situation like it's a contest of measuring..
+Dialogue: 0,0:02:43.14,0:02:44.57,D,,0000,0000,0000,,Glynda
+Dialogue: 0,0:02:45.47,0:02:46.60,D,,0000,0000,0000,,Well, he does
+Dialogue: 0,0:02:47.04,0:02:48.42,D,,0000,0000,0000,,She's right
+Dialogue: 0,0:02:48.42,0:02:52.21,D,,0000,0000,0000,,As much as I too would love to end this situation once and for all
+Dialogue: 0,0:02:52.21,0:02:56.29,D,,0000,0000,0000,,We must remember that this may go beyond Vale, beyond Beacon
+Dialogue: 0,0:02:56.85,0:03:01.86,D,,0000,0000,0000,,And if this truly is part of some master plan for which we know not the final move
+Dialogue: 0,0:03:01.86,0:03:03.79,D,,0000,0000,0000,,We musn't be so bold
+Dialogue: 0,0:03:03.79,0:03:06.23,D,,0000,0000,0000,,Nor can we risk the spread of panic
+Dialogue: 0,0:03:06.70,0:03:09.87,D,,0000,0000,0000,,I have served you faithfully for years
+Dialogue: 0,0:03:10.57,0:03:14.36,D,,0000,0000,0000,,But if you mean to tell me that your plan is to really hold the defenses and wait..
+Dialogue: 0,0:03:14.36,0:03:15.50,D,,0000,0000,0000,,It is not!
+Dialogue: 0,0:03:16.44,0:03:18.41,D,,0000,0000,0000,,You're a general, James
+Dialogue: 0,0:03:18.41,0:03:23.21,D,,0000,0000,0000,,So tell me, when you prepare to go to war, which do you send in first?
+Dialogue: 0,0:03:23.61,0:03:25.21,D,,0000,0000,0000,,The flag bearer..
+Dialogue: 0,0:03:25.21,0:03:26.98,D,,0000,0000,0000,,or the scouts?
+Dialogue: 0,0:03:26.98,0:03:29.02,D,,0000,0000,0000,,That was a risky move
+Dialogue: 0,0:03:29.02,0:03:31.86,D,,0000,0000,0000,,No, I think you handled it well
+Dialogue: 0,0:03:31.86,0:03:33.26,D,,0000,0000,0000,,I hope so
+Dialogue: 0,0:03:33.26,0:03:35.73,D,,0000,0000,0000,,I'm sure everything will be alright, Ruby
+Dialogue: 0,0:03:35.73,0:03:37.93,D,,0000,0000,0000,,Oh, I know what will cheer you up!
+Dialogue: 0,0:03:38.56,0:03:39.60,D,,0000,0000,0000,,What's that?
+Dialogue: 0,0:03:39.60,0:03:43.03,D,,0000,0000,0000,,I don't know yet, Dad sent it to us, I thought we can open it together
+Dialogue: 0,0:03:43.03,0:03:44.96,D,,0000,0000,0000,,Oh, something from home!
+Dialogue: 0,0:03:57.56,0:03:59.45,D,,0000,0000,0000,,Zwei!
+Dialogue: 0,0:04:00.48,0:04:01.84,D,,0000,0000,0000,,He sent a dog?!
+Dialogue: 0,0:04:01.84,0:04:03.22,D,,0000,0000,0000,,In the mail?
+Dialogue: 0,0:04:04.44,0:04:06.52,D,,0000,0000,0000,,Oh, he does stuff like this all the time
+Dialogue: 0,0:04:06.52,0:04:09.63,D1,,0000,0000,0000,,Stop it..I missed you~
+Dialogue: 0,0:04:07.36,0:04:09.24,D,,0000,0000,0000,,Your father or your dog?
+Dialogue: 0,0:04:09.68,0:04:12.56,D,,0000,0000,0000,,Are you telling me that this mangy..
+Dialogue: 0,0:04:13.23,0:04:14.73,D,,0000,0000,0000,,drooling..
+Dialogue: 0,0:04:15.36,0:04:16.13,D,,0000,0000,0000,,mutt..
+Dialogue: 0,0:04:16.13,0:04:18.30,D,,0000,0000,0000,,is going to to live with us forever?!
+Dialogue: 0,0:04:18.30,0:04:20.90,D,,0000,0000,0000,,Oh yes he is,  yes he is! >v<
+Dialogue: 0,0:04:20.90,0:04:22.14,D,,0000,0000,0000,,Oh, he's adorable >w<
+Dialogue: 0,0:04:22.14,0:04:22.57,D1,,0000,0000,0000,,>w<
+Dialogue: 0,0:04:22.24,0:04:24.30,D,,0000,0000,0000,,Please keep it away from my belongings
+Dialogue: 0,0:04:22.57,0:04:23.24,D2,,0000,0000,0000,,>w<
+Dialogue: 0,0:04:24.30,0:04:28.21,D,,0000,0000,0000,,Would all first year students please report to the amphitheater
+Dialogue: 0,0:04:28.21,0:04:31.58,D,,0000,0000,0000,,Well, we can't exactly leave him here while we're gone for a week
+Dialogue: 0,0:04:31.58,0:04:32.94,D,,0000,0000,0000,,Look, there's a letter
+Dialogue: 0,0:04:33.36,0:04:38.40,D,,0000,0000,0000,,Dear girls, I've got to leave the island for a few days, so I'm sending Zwei to you to take care of
+Dialogue: 0,0:04:38.40,0:04:40.46,D,,0000,0000,0000,,Enclosed is all the food you should need
+Dialogue: 0,0:04:40.46,0:04:42.56,D,,0000,0000,0000,,Love you both, Tai Yang
+Dialogue: 0,0:04:43.73,0:04:45.76,D,,0000,0000,0000,,What is he supposed to do with that?
+Dialogue: 0,0:04:47.14,0:04:48.28,D,,0000,0000,0000,,Welp, that settles it
+Dialogue: 0,0:04:48.28,0:04:50.87,D,,0000,0000,0000,,Come on girls, Zwei will be here when we get back
+Dialogue: 0,0:04:52.03,0:04:58.57,D,,0000,0000,0000,,Oh, I'll miss you so much, we're going to be best friends, I can't wait to see you again, I need such.. >w<
+Dialogue: 0,0:05:09.55,0:05:11.79,D,,0000,0000,0000,,Quiet, quiet please
+Dialogue: 0,0:05:17.53,0:05:21.58,D,,0000,0000,0000,,Professor Ozpin would like to share a few words before we begin
+Dialogue: 0,0:05:21.58,0:05:25.13,D,,0000,0000,0000,,Today we stand together, united
+Dialogue: 0,0:05:25.13,0:05:26.74,D,,0000,0000,0000,,Mistral
+Dialogue: 0,0:05:26.74,0:05:28.08,D,,0000,0000,0000,,Atlas
+Dialogue: 0,0:05:28.08,0:05:29.57,D,,0000,0000,0000,,Vacuo
+Dialogue: 0,0:05:29.57,0:05:30.74,D,,0000,0000,0000,,Vale
+Dialogue: 0,0:05:31.32,0:05:33.78,D,,0000,0000,0000,,The four kingdoms of Remnant
+Dialogue: 0,0:05:33.78,0:05:40.12,D,,0000,0000,0000,,On this day, nearly eighty years ago, the largest war in recorded history came to an end
+Dialogue: 0,0:05:40.58,0:05:44.62,D,,0000,0000,0000,,It was a war of ignorance, of greed, and of oppression
+Dialogue: 0,0:05:45.19,0:05:50.14,D,,0000,0000,0000,,A war that was about much more than where borders fell or who traded with who
+Dialogue: 0,0:05:50.14,0:05:54.44,D,,0000,0000,0000,,but about the very idea of individualism itself
+Dialogue: 0,0:05:54.44,0:06:00.97,D,,0000,0000,0000,,We fought for countless reasons, one of which being the destruction of all forms of art and self expression
+Dialogue: 0,0:06:00.97,0:06:04.94,D,,0000,0000,0000,,And as you are well aware that was something many could not stand for
+Dialogue: 0,0:06:05.62,0:06:12.40,D,,0000,0000,0000,,As a result, those who oppose this tyranny began naming their children after one of the core aspects of art itself:
+Dialogue: 0,0:06:12.40,0:06:13.65,D,,0000,0000,0000,,color
+Dialogue: 0,0:06:14.12,0:06:19.29,D,,0000,0000,0000,,It was their way to demonstrate that not only would they refuse to tolerate this oppression
+Dialogue: 0,0:06:19.29,0:06:21.88,D,,0000,0000,0000,,but neither were the generations to come!
+Dialogue: 0,0:06:21.88,0:06:25.13,D,,0000,0000,0000,,And it was a trend that is held to this very day
+Dialogue: 0,0:06:25.13,0:06:31.13,D,,0000,0000,0000,,We encourage individuality, expressionism, and unity, through diversity
+Dialogue: 0,0:06:31.67,0:06:35.82,D,,0000,0000,0000,,As I have said, today we stand together, united
+Dialogue: 0,0:06:36.24,0:06:39.44,D,,0000,0000,0000,,But this bond cannot exist without effort
+Dialogue: 0,0:06:39.44,0:06:43.31,D,,0000,0000,0000,,Which is why today while the rest of the world celebrates peace
+Dialogue: 0,0:06:43.31,0:06:46.62,D,,0000,0000,0000,,Huntsmen and Huntresses will work to uphold it
+Dialogue: 0,0:06:47.22,0:06:53.22,D,,0000,0000,0000,,As first year students, you will be tasked with shadowing a professional Huntsman or Huntress on a mission
+Dialogue: 0,0:06:53.22,0:06:56.29,D,,0000,0000,0000,,Some of you may be taken out of the Kingdom for several days
+Dialogue: 0,0:06:56.29,0:06:59.73,D,,0000,0000,0000,,Others may work within the walls for the rest of the week
+Dialogue: 0,0:07:00.30,0:07:02.40,D,,0000,0000,0000,,But no matter which path you choose
+Dialogue: 0,0:07:02.80,0:07:04.66,D,,0000,0000,0000,,Remember to be safe
+Dialogue: 0,0:07:04.66,0:07:06.64,D,,0000,0000,0000,,Remember your training
+Dialogue: 0,0:07:06.64,0:07:09.34,D,,0000,0000,0000,,And remember to do your very best
+Dialogue: 0,0:07:11.96,0:07:16.02,D,,0000,0000,0000,,This is perfect! All we have to do is shadow a Huntsman working in the southeast!
+Dialogue: 0,0:07:16.02,0:07:19.28,D,,0000,0000,0000,,Yeah! We'll follow him around by day and give him the slip at night
+Dialogue: 0,0:07:19.28,0:07:21.35,D,,0000,0000,0000,,Let's check Search and Destroy
+Dialogue: 0,0:07:25.32,0:07:28.24,D,,0000,0000,0000,,Here we go, Quadrant 5 needs Grimm cleared out
+Dialogue: 0,0:07:28.24,0:07:30.29,D,,0000,0000,0000,,Well, it's in the southeast
+Dialogue: 0,0:07:30.29,0:07:31.76,D,,0000,0000,0000,,Sounds perfect
+Dialogue: 0,0:07:39.17,0:07:40.37,D,,0000,0000,0000,,Wonderful!
+Dialogue: 0,0:07:40.37,0:07:41.44,D,,0000,0000,0000,,Any other ideas?
+Dialogue: 0,0:07:41.44,0:07:43.71,D,,0000,0000,0000,,We mail ourselves there
+Dialogue: 0,0:07:43.71,0:07:45.67,D,,0000,0000,0000,,Well, that's one option
+Dialogue: 0,0:07:46.31,0:07:52.05,D,,0000,0000,0000,,Unfortunately, we determined that the concentration of Grimm was too extreme for first year students
+Dialogue: 0,0:07:52.95,0:07:56.38,D,,0000,0000,0000,,It seems that particular region is rather popular
+Dialogue: 0,0:07:56.89,0:08:03.73,D,,0000,0000,0000,,In fact, I have the sneaking suspicion that the four of you will make your way there no matter which job you choose
+Dialogue: 0,0:08:04.19,0:08:06.20,D,,0000,0000,0000,,Whatever makes you say that?
+Dialogue: 0,0:08:06.20,0:08:11.20,D,,0000,0000,0000,,I'm still curious as to how you all found yourselves at the docks last semester
+Dialogue: 0,0:08:11.20,0:08:15.80,D,,0000,0000,0000,,I'm interested to know how you really learned about a hideout in the Southeast
+Dialogue: 0,0:08:15.80,0:08:22.41,D,,0000,0000,0000,,And I certainly wonder why witnesses reported seeing robots and rose petals in a dance club some time ago
+Dialogue: 0,0:08:22.41,0:08:25.16,D,,0000,0000,0000,,Ah..um..eh, well..
+Dialogue: 0,0:08:25.16,0:08:28.48,D,,0000,0000,0000,,I doubt I'll ever find the exact answers I'm looking for
+Dialogue: 0,0:08:28.96,0:08:31.05,D,,0000,0000,0000,,So, how about this?
+Dialogue: 0,0:08:31.05,0:08:36.19,D,,0000,0000,0000,,Instead of waiting for you all to break the rules, why don't we just bend them?
+Dialogue: 0,0:08:43.37,0:08:46.34,D,,0000,0000,0000,,We won't let you down.Thank you, professor
+Dialogue: 0,0:08:46.77,0:08:48.87,D,,0000,0000,0000,,Do not thank me for this
+Dialogue: 0,0:08:48.87,0:08:51.71,D,,0000,0000,0000,,Teamwork and persistence have carried you far
+Dialogue: 0,0:08:51.71,0:08:53.38,D,,0000,0000,0000,,But you must understand
+Dialogue: 0,0:08:53.38,0:08:58.11,D,,0000,0000,0000,,The things that await you beyond the protection of the Kingdom will not care
+Dialogue: 0,0:08:58.58,0:09:00.88,D,,0000,0000,0000,,Stay close to your Huntsman at all times
+Dialogue: 0,0:09:00.88,0:09:03.19,D,,0000,0000,0000,,And do exactly as he says
+Dialogue: 0,0:09:03.19,0:09:04.94,D,,0000,0000,0000,,He will be leading you on this mission
+Dialogue: 0,0:09:04.94,0:09:11.46,D,,0000,0000,0000,,And he can have you sent back to Beacon, if he finds your skills to be unsatisfactory
+Dialogue: 0,0:09:16.27,0:09:17.40,D,,0000,0000,0000,,Good luck
+Dialogue: 0,0:09:19.84,0:09:22.04,D,,0000,0000,0000,,That wasn't exactly uplifting
+Dialogue: 0,0:09:22.04,0:09:23.27,D,,0000,0000,0000,,But it's the truth
+Dialogue: 0,0:09:23.27,0:09:25.62,D,,0000,0000,0000,,It's gonna be tough, but I know we can do it
+Dialogue: 0,0:09:25.62,0:09:27.58,D,,0000,0000,0000,,Hey, Team CFVY is back!
+Dialogue: 0,0:09:33.08,0:09:35.05,D,,0000,0000,0000,,Velvet? Are you okay?
+Dialogue: 0,0:09:35.48,0:09:38.40,D,,0000,0000,0000,,I'm fine, I had Yatsuhashi to look out for me
+Dialogue: 0,0:09:38.40,0:09:41.59,D,,0000,0000,0000,,Your mission was supposed to end a week ago! What happened?
+Dialogue: 0,0:09:41.96,0:09:43.96,D,,0000,0000,0000,,Um..nothing happens
+Dialogue: 0,0:09:44.36,0:09:45.96,D,,0000,0000,0000,,It was just..
+Dialogue: 0,0:09:45.96,0:09:47.80,D,,0000,0000,0000,,..there was just so many
+Dialogue: 0,0:09:49.34,0:09:51.13,D,,0000,0000,0000,,Oh, but don't worry
+Dialogue: 0,0:09:51.13,0:09:54.50,D,,0000,0000,0000,,You first years are just shadowing Huntsmen, so you should be fine
+Dialogue: 0,0:09:54.87,0:09:56.77,D,,0000,0000,0000,,Right
+Dialogue: 0,0:09:56.77,0:09:59.71,D,,0000,0000,0000,,I should go, be safe, okay
+Dialogue: 0,0:10:01.68,0:10:03.18,D,,0000,0000,0000,,We can do this
+Dialogue: 0,0:10:03.95,0:10:07.48,D,,0000,0000,0000,,We've never backed down before, and we're not going to start now
+Dialogue: 0,0:10:07.48,0:10:08.48,D,,0000,0000,0000,,Right
+Dialogue: 0,0:10:08.48,0:10:13.49,D,,0000,0000,0000,,Besides, it won't only be us out there, we'll be fighting alongside a genuine Huntsman!
+Dialogue: 0,0:10:13.49,0:10:14.72,D,,0000,0000,0000,,Yeah!
+Dialogue: 0,0:10:15.96,0:10:17.56,D,,0000,0000,0000,,Why, hello girls
+Dialogue: 0,0:10:18.10,0:10:19.98,D,,0000,0000,0000,,Who's ready to fight for their lives?
+Dialogue: 0,0:10:49.44,0:10:52.28,BRB sign,,0000,0000,0000,,BRB
+Dialogue: 0,0:10:49.51,0:10:51.62,Staff,,0000,0000,0000,,This SUB is presented by Baidu RWBY Bar\N\N\N\N\N\N\N\NCreator: sbz_kid

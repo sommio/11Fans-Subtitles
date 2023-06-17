@@ -1,0 +1,401 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Robotics;Notes 12 sc
+Original Script: SumiSora & CASO
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,26,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,1,0,1,3,0,2,10,10,10,1
+Style: opjp,DFPSoGei-W7,18,&H00FFFFFF,&HF0000000,&H000F0F0F,&HF0000000,0,0,0,0,100,100,1,0,1,2,0,8,10,10,10,1
+Style: opcn,方正综艺_GBK,22,&H00FFFFFF,&HF0000000,&H000F0F0F,&HF0000000,0,0,0,0,100,100,1,0,1,2,0,2,10,10,10,1
+Style: edjp,DFPHSMincho-W5,18,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: edcn,方正小标宋_GBK,21,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,1,0,1,2,0,2,10,10,8,1
+Style: staff,Microsoft YaHei,20,&H00FFFFFF,&HF0000000,&H50000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:56.71,0:01:01.38,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}残酷なる時は　いつか
+Dialogue: 0,0:01:02.09,0:01:06.83,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}契約の血さえ　引き裂くの
+Dialogue: 0,0:01:07.11,0:01:11.75,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}拡散が生み出す　恐怖
+Dialogue: 0,0:01:12.50,0:01:17.27,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}真理のために今ここにいるよ
+Dialogue: 0,0:01:17.57,0:01:20.89,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}意外なクレイジー　ミニット
+Dialogue: 0,0:01:20.89,0:01:27.96,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}目眩くこのシーン　迂闊な選択
+Dialogue: 0,0:01:28.04,0:01:35.22,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}歪みゆく景色は　やがて鮮やかに
+Dialogue: 0,0:01:35.62,0:01:39.36,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}時間をすり抜ける
+Dialogue: 0,0:01:39.57,0:01:41.47,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}咆筐のメシア
+Dialogue: 0,0:01:41.47,0:01:44.20,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}笑って　泣いて
+Dialogue: 0,0:01:44.32,0:01:46.65,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}僕らの一つの夢
+Dialogue: 0,0:01:46.76,0:01:49.48,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}願って　叫んで
+Dialogue: 0,0:01:49.54,0:01:51.93,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}どこまでも遠くへ
+Dialogue: 0,0:01:51.98,0:01:54.60,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}走って　飛ばして
+Dialogue: 0,0:01:54.72,0:01:57.22,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}気持ちの集まる場所
+Dialogue: 0,0:01:57.57,0:02:02.44,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}愛しすぎるこの空の下で
+Dialogue: 0,0:02:02.79,0:02:05.80,opjp,NTP,0,0,0,,{\fad(150,150)\blur3}明日を証明したくて
+Dialogue: 0,0:00:56.71,0:01:01.38,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}殘忍的時光  不知何時
+Dialogue: 0,0:01:02.09,0:01:06.83,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}甚至將契約之血無情地撕裂
+Dialogue: 0,0:01:07.11,0:01:11.75,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}恐怖生於擴散之中
+Dialogue: 0,0:01:12.50,0:01:17.27,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}我為了追尋真理如今身在此處
+Dialogue: 0,0:01:17.57,0:01:20.89,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}意外瘋狂的這每一分鐘
+Dialogue: 0,0:01:20.89,0:01:27.96,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}眼花繚亂的場景俱是愚蠢的選擇
+Dialogue: 0,0:01:28.04,0:01:35.22,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}逐漸扭曲的景色  終將變得五彩斑斕
+Dialogue: 0,0:01:35.62,0:01:39.36,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}穿越這時空
+Dialogue: 0,0:01:39.57,0:01:41.47,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}咆筐的彌賽亞
+Dialogue: 0,0:01:41.47,0:01:44.20,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}歡笑  哭泣
+Dialogue: 0,0:01:44.32,0:01:46.65,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}這都是我們的同一個夢想
+Dialogue: 0,0:01:46.76,0:01:49.48,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}祈願  吶喊
+Dialogue: 0,0:01:49.54,0:01:51.93,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}夢想飛向無盡的遠方
+Dialogue: 0,0:01:51.98,0:01:54.60,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}奔跑  放飛
+Dialogue: 0,0:01:54.72,0:01:57.22,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}我們心靈的歸處
+Dialogue: 0,0:01:57.57,0:02:02.44,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}就在這無比憐愛的晴空下
+Dialogue: 0,0:02:02.79,0:02:05.80,opcn,NTP,0,0,0,,{\fad(150,150)\blur3}只想證明那明天的美好
+Dialogue: 0,0:21:21.69,0:21:27.05,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}それは　ふとした瞬間に
+Dialogue: 0,0:21:27.32,0:21:32.59,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}君がつぶやく幾つもの言葉
+Dialogue: 0,0:21:32.87,0:21:38.26,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}それが　いつしか価値観さえも
+Dialogue: 0,0:21:38.54,0:21:43.26,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}超えてしまうんだよ
+Dialogue: 0,0:21:44.13,0:21:48.83,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}幾つもの別れを告げ  僕らは
+Dialogue: 0,0:21:49.37,0:21:54.36,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}明日への階段を登る
+Dialogue: 0,0:21:55.26,0:21:59.88,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}止めどなく零れ落ちる雫も
+Dialogue: 0,0:22:00.10,0:22:02.73,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}光が照らすなら
+Dialogue: 0,0:22:02.88,0:22:08.88,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}この星は繋がっている
+Dialogue: 0,0:22:10.97,0:22:16.60,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}奇跡のように　命が集まって
+Dialogue: 0,0:22:16.88,0:22:22.02,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}賑やかな景色の　輪郭になる
+Dialogue: 0,0:22:22.12,0:22:27.81,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}泣きたいほど　眩しいエピローグ
+Dialogue: 0,0:22:28.46,0:22:36.10,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}こみ上げる思いが　描いた空
+Dialogue: 0,0:22:36.39,0:22:41.80,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}柔らかな風が吹き　新しい道となり
+Dialogue: 0,0:22:41.98,0:22:47.90,edjp,NTP,0,0,0,,{\fad(150,150)\blur3}いつだってその道は  この場所に繋がってる
+Dialogue: 0,0:21:21.69,0:21:27.05,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}那是在一個個不經意的瞬間
+Dialogue: 0,0:21:27.32,0:21:32.59,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}你口中呢喃的無數話語
+Dialogue: 0,0:21:32.87,0:21:38.26,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}這些話語不知何時
+Dialogue: 0,0:21:38.54,0:21:43.26,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}甚至顛覆了我的價值觀
+Dialogue: 0,0:21:44.13,0:21:48.83,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}歷經多次別離
+Dialogue: 0,0:21:49.37,0:21:54.36,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}我們登上了通往明日的階梯
+Dialogue: 0,0:21:55.26,0:21:59.88,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}即使淚水止不住地流下
+Dialogue: 0,0:22:00.10,0:22:02.73,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}只要身處光明照耀下
+Dialogue: 0,0:22:02.88,0:22:08.88,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}這個星球就會將我們聯繫在一起
+Dialogue: 0,0:22:10.97,0:22:16.60,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}如同奇跡一般  生命齊聚一堂
+Dialogue: 0,0:22:16.88,0:22:22.02,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}為這幅歡鬧的景象  描繪上鮮明的輪廓
+Dialogue: 0,0:22:22.12,0:22:27.81,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}這結局耀眼得讓人想要哭泣
+Dialogue: 0,0:22:28.46,0:22:36.10,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}心中涌現的思念描繪出了藍天
+Dialogue: 0,0:22:36.39,0:22:41.80,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}微風輕柔地吹拂而過  化作了嶄新的道路
+Dialogue: 0,0:22:41.98,0:22:47.90,edcn,NTP,0,0,0,,{\fad(150,150)\blur3}那條道路無論何時都通往這裏
+Dialogue: 0,0:00:01.00,0:00:03.98,edcn,NTP,0,0,0,,{\an7\fs18\bord0}劇中為了追求真實性  使用了一部分實際存在的\N設定和名稱以及有科學依據的表現方式\N但從整體來說這個故事是虛構的
+Dialogue: 0,0:00:23.31,0:00:25.36,Default,NTP,0,0,0,,笨蛋  你在想些什麼啊
+Dialogue: 0,0:00:25.82,0:00:29.21,Default,NTP,0,0,0,,你看看你都幹了些什麼  幹了些什麼！
+Dialogue: 0,0:00:31.07,0:00:32.30,Default,NTP,0,0,0,,到頭來  我…
+Dialogue: 0,0:00:36.11,0:00:39.39,Default,NTP,0,0,0,,我可以繼續待在這裏嗎
+Dialogue: 0,0:02:10.46,0:02:15.75,Default,NTP,0,0,0,,{\pos(253,290)\fad(500,500)\3cD99437\blur4\b1}#12「直到你能喜歡上機器人的某一處為止」
+Dialogue: 0,0:02:11.21,0:02:14.67,Default,NTP,0,0,0,,進入9月  第二學期開始了
+Dialogue: 0,0:02:11.21,0:02:14.67,Default,NTP,0,0,0,,{\an7\fs20}註：日本的學校多採用三學期制  第二學期一般為9到12月
+Dialogue: 0,0:02:17.46,0:02:20.75,Default,NTP,0,0,0,,忘掉君島晃的事情吧
+Dialogue: 0,0:02:21.30,0:02:23.60,Default,NTP,0,0,0,,為什麼要忘掉啊
+Dialogue: 0,0:02:24.47,0:02:26.13,Default,NTP,0,0,0,,你聽清楚了吧
+Dialogue: 0,0:02:30.87,0:02:35.05,Default,NTP,0,0,0,,她是打算警告我嗎  這反而更讓我在意了
+Dialogue: 0,0:02:36.38,0:02:40.60,Default,NTP,0,0,0,,不過  美紗姐果然知道君島晃的事情
+Dialogue: 0,0:02:44.35,0:02:47.48,Default,NTP,0,0,0,,下面是報告書No.4的FLAG
+Dialogue: 0,0:02:48.75,0:02:52.98,Default,NTP,0,0,0,,1.  已經發現了君島報告書No.3
+Dialogue: 0,0:02:54.80,0:03:03.20,Default,NTP,0,0,0,,2.  把在種子島的4處推薦地點拍攝的火箭升空照片上傳至IRUO.
+Dialogue: 0,0:03:06.61,0:03:11.79,Default,NTP,0,0,0,,3.  用貼了地理標籤的火槍試射一次以上
+Dialogue: 0,0:03:13.74,0:03:20.75,Default,NTP,0,0,0,,4.  按下存放在機器人診所的五二郎君的啟動按鈕
+Dialogue: 0,0:03:28.84,0:03:30.69,Default,NTP,0,0,0,,五二郎君是什麼東西
+Dialogue: 0,0:03:32.75,0:03:34.62,Default,NTP,0,0,0,,機器人診所不就是…
+Dialogue: 0,0:03:37.03,0:03:42.99,Default,NTP,0,0,0,,注意  今天開始就要在這裏組建Gun製造2號機啦
+Dialogue: 0,0:03:43.47,0:03:47.17,Default,NTP,0,0,0,,哎  對方願意把這裏借給我們嗎
+Dialogue: 0,0:03:48.32,0:03:54.21,Default,NTP,0,0,0,,嗯  我想只要有工作人員在場就沒問題
+Dialogue: 0,0:03:55.41,0:03:59.54,Default,NTP,0,0,0,,這裏還有起重機  空著不用也有點浪費
+Dialogue: 0,0:04:00.56,0:04:03.74,Default,NTP,0,0,0,,這次可以在站立的情況下進行組裝哦
+Dialogue: 0,0:04:03.87,0:04:05.11,Default,NTP,0,0,0,,嗚呼呼
+Dialogue: 0,0:04:05.70,0:04:07.29,Default,NTP,0,0,0,,我燃起來了
+Dialogue: 0,0:04:07.64,0:04:10.52,Default,NTP,0,0,0,,連用哪種驅動系統都還沒定下來呢
+Dialogue: 0,0:04:11.17,0:04:16.20,Default,NTP,0,0,0,,嗯  關於這一點其實還是想請教一下DOKU
+Dialogue: 0,0:04:16.50,0:04:20.19,Default,NTP,0,0,0,,連同磁單…  的事情一起
+Dialogue: 0,0:04:20.72,0:04:22.57,Default,NTP,0,0,0,,你還沒有放棄嗎
+Dialogue: 0,0:04:23.70,0:04:26.77,Default,NTP,0,0,0,,因為那個最終話洩漏的事件
+Dialogue: 0,0:04:26.84,0:04:29.40,Default,NTP,0,0,0,,世間對於Gunvarrel的評價一下子就跌到了谷底
+Dialogue: 0,0:04:29.74,0:04:32.01,Default,NTP,0,0,0,,我們要完成Gun製造2號機
+Dialogue: 0,0:04:32.13,0:04:33.47,Default,NTP,0,0,0,,然後想想辦法才行
+Dialogue: 0,0:04:33.93,0:04:34.33,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:04:35.11,0:04:36.18,Default,NTP,0,0,0,,你怎麼了  淳
+Dialogue: 0,0:04:36.62,0:04:37.18,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:04:40.64,0:04:42.66,Default,NTP,0,0,0,,啊  不…不好意思
+Dialogue: 0,0:04:45.15,0:04:49.97,Default,NTP,0,0,0,,喂  啊  是爸爸啊  我現在和朋友在一起
+Dialogue: 0,0:04:52.20,0:04:52.86,Default,NTP,0,0,0,,哎！？
+Dialogue: 0,0:04:54.49,0:04:58.50,Default,NTP,0,0,0,,{\move(393,152,518,152)\fs18\bord0}公\N立\N種\N子\N島\N醫\N院
+Dialogue: 0,0:05:03.21,0:05:06.17,Default,NTP,0,0,0,,{\pos(320,115)\fs18\1c000000\bord0\b1}重癥監護病房（ICU）
+Dialogue: 0,0:05:17.29,0:05:19.69,Default,NTP,0,0,0,,嗯？  請問你有什麼事嗎
+Dialogue: 0,0:05:20.59,0:05:27.29,Default,NTP,0,0,0,,哎  那  那個  我…  我是藤田爺爺的孫女
+Dialogue: 0,0:05:28.31,0:05:29.15,Default,NTP,0,0,0,,…來
+Dialogue: 0,0:05:37.05,0:05:42.92,Default,NTP,0,0,0,,回來…回到我的身邊…笑一笑吧
+Dialogue: 0,0:05:44.44,0:05:45.23,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:05:51.09,0:05:51.62,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:05:52.19,0:05:52.89,Default,NTP,0,0,0,,淳
+Dialogue: 0,0:05:53.25,0:05:53.95,Default,NTP,0,0,0,,啊…
+Dialogue: 0,0:05:54.51,0:05:55.79,Default,NTP,0,0,0,,DOKU他怎麼樣了
+Dialogue: 0,0:05:56.58,0:05:58.59,Default,NTP,0,0,0,,我…我沒能見到他
+Dialogue: 0,0:05:59.07,0:06:00.43,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:06:00.76,0:06:02.61,Default,NTP,0,0,0,,難道說是謝絕探望嗎
+Dialogue: 0,0:06:02.80,0:06:03.82,Default,NTP,0,0,0,,不是
+Dialogue: 0,0:06:05.55,0:06:08.11,Default,NTP,0,0,0,,因為他不願意見我
+Dialogue: 0,0:06:13.20,0:06:14.19,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:06:14.92,0:06:16.54,Default,NTP,0,0,0,,你見過DOKU了？
+Dialogue: 0,0:06:17.02,0:06:19.52,Default,NTP,0,0,0,,嗯  我昨天去看望過他了
+Dialogue: 0,0:06:19.81,0:06:20.68,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:06:21.36,0:06:23.98,Default,NTP,0,0,0,,前天淳去探病的時候卻沒能見到
+Dialogue: 0,0:06:25.31,0:06:27.04,Default,NTP,0,0,0,,所以他現在怎麼樣了
+Dialogue: 0,0:06:27.40,0:06:29.91,Default,NTP,0,0,0,,嗯  好像有點虛弱
+Dialogue: 0,0:06:30.24,0:06:32.94,Default,NTP,0,0,0,,不光身體虛弱  情緒上也很消沉
+Dialogue: 0,0:06:33.34,0:06:34.03,Default,NTP,0,0,0,,情緒消沉？
+Dialogue: 0,0:06:35.21,0:06:37.65,Default,NTP,0,0,0,,我正在考慮要不要把店給關了
+Dialogue: 0,0:06:39.45,0:06:40.72,Default,NTP,0,0,0,,是時候該收手了
+Dialogue: 0,0:06:42.43,0:06:43.33,Default,NTP,0,0,0,,怎麼會這樣
+Dialogue: 0,0:06:57.30,0:06:59.94,Default,NTP,0,0,0,,你居然會出現在這裏  真是少見
+Dialogue: 0,0:07:01.98,0:07:05.21,Default,NTP,0,0,0,,是不是在為不敢去醫院而感到消沉啊
+Dialogue: 0,0:07:06.86,0:07:12.90,Default,NTP,0,0,0,,那倒不是  本來我和藤田爺爺的關係就不是那麼親密
+Dialogue: 0,0:07:14.06,0:07:14.89,Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:07:16.13,0:07:16.47,Default,NTP,0,0,0,,那…
+Dialogue: 0,0:07:16.47,0:07:21.41,Default,NTP,0,0,0,,我…  我在考慮要不要退出Robo部
+Dialogue: 0,0:07:23.56,0:07:24.71,Default,NTP,0,0,0,,你來這招嗎
+Dialogue: 0,0:07:25.36,0:07:27.59,Default,NTP,0,0,0,,嗯  這還真是讓人頭疼啊
+Dialogue: 0,0:07:28.51,0:07:30.33,Default,NTP,0,0,0,,總之  要不要先進店裏坐坐
+Dialogue: 0,0:07:33.58,0:07:35.83,Default,NTP,0,0,0,,真是的  你這個大嘴巴
+Dialogue: 0,0:07:36.12,0:07:37.41,Default,NTP,0,0,0,,哎呀  我一不小心就…
+Dialogue: 0,0:07:38.56,0:07:42.01,Default,NTP,0,0,0,,你不會又是去多管什麼奇怪的閒事了吧
+Dialogue: 0,0:07:42.25,0:07:42.94,Default,NTP,0,0,0,,沒有
+Dialogue: 0,0:07:43.44,0:07:45.80,Default,NTP,0,0,0,,比起這個  你得到情報了吧
+Dialogue: 0,0:07:46.13,0:07:48.64,Default,NTP,0,0,0,,{\pos(320,325)\fs16}宇宙開發事業團
+Dialogue: 0,0:07:46.13,0:07:48.64,Default,NTP,0,0,0,,DOKU是前NASDA的技術人員
+Dialogue: 0,0:07:49.14,0:07:52.04,Default,NTP,0,0,0,,NASDA  就是指那個JAXA的前身嗎
+Dialogue: 0,0:07:52.46,0:07:53.00,Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:07:53.39,0:07:57.93,Default,NTP,0,0,0,,18年前  剛開業的機器人診所是間面向小孩子的店
+Dialogue: 0,0:07:59.32,0:08:02.35,Default,NTP,0,0,0,,店門口擺滿了DOKU製造的機器人
+Dialogue: 0,0:08:03.33,0:08:04.92,Default,NTP,0,0,0,,我也記得很清楚
+Dialogue: 0,0:08:09.97,0:08:11.97,Default,NTP,0,0,0,,當時DOKU常說
+Dialogue: 0,0:08:14.22,0:08:16.71,Default,NTP,0,0,0,,機器人是人類的好朋友
+Dialogue: 0,0:08:17.54,0:08:17.95,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:08:19.50,0:08:20.86,Default,NTP,0,0,0,,真是難以置信
+Dialogue: 0,0:08:21.58,0:08:23.75,Default,NTP,0,0,0,,那麼  那些機器人哪去了
+Dialogue: 0,0:08:24.22,0:08:26.18,Default,NTP,0,0,0,,在機器人診所裏沉眠著呢
+Dialogue: 0,0:08:27.49,0:08:28.22,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:08:29.53,0:08:30.82,Default,NTP,0,0,0,,因為發生了事故
+Dialogue: 0,0:08:32.14,0:08:32.75,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:08:35.28,0:08:39.13,Default,NTP,0,0,0,,我…  抱歉我先走了
+Dialogue: 0,0:08:40.23,0:08:41.04,Default,NTP,0,0,0,,小淳？
+Dialogue: 0,0:08:43.57,0:08:49.22,Default,NTP,0,0,0,,11年前  有個小孩子被機器人壓倒  受了傷
+Dialogue: 0,0:08:51.79,0:08:55.49,Default,NTP,0,0,0,,那個孩子就是DOKU的孫女  大德淳和
+Dialogue: 0,0:09:01.83,0:09:05.20,Default,NTP,0,0,0,,你好  我的名字叫做與四郎
+Dialogue: 0,0:09:05.54,0:09:07.99,Default,NTP,0,0,0,,我是大家的朋友——機器人
+Dialogue: 0,0:09:08.36,0:09:10.55,Default,NTP,0,0,0,,{\an8\fs22}來和我握握手吧
+Dialogue: 0,0:09:08.85,0:09:10.81,Default,NTP,0,0,0,,我們才不是朋友呢
+Dialogue: 0,0:09:11.13,0:09:15.38,Default,NTP,0,0,0,,{\an8\fs22}你好  我是大家的朋友——機器人
+Dialogue: 0,0:09:11.79,0:09:14.55,Default,NTP,0,0,0,,你才不是我的朋友…
+Dialogue: 0,0:09:20.86,0:09:22.78,Default,NTP,0,0,0,,笨蛋  你在想些什麼啊
+Dialogue: 0,0:09:23.20,0:09:26.41,Default,NTP,0,0,0,,你看看你都幹了些什麼  幹了些什麼！
+Dialogue: 0,0:09:30.25,0:09:33.19,Default,NTP,0,0,0,,是嗎  所以淳才會害怕機器人…
+Dialogue: 0,0:09:35.64,0:09:37.05,Default,NTP,0,0,0,,你打算怎麼辦  小亞希
+Dialogue: 0,0:09:44.65,0:09:46.43,Default,NTP,0,0,0,,還是算了吧
+Dialogue: 0,0:09:47.26,0:09:49.79,Default,NTP,0,0,0,,我聽說了DOKU的機器人們的事情
+Dialogue: 0,0:09:50.17,0:09:53.59,Default,NTP,0,0,0,,讓我們修好它們  給DOKU打打氣吧
+Dialogue: 0,0:09:54.51,0:09:55.16,Default,NTP,0,0,0,,可是…
+Dialogue: 0,0:09:56.12,0:09:59.12,Default,NTP,0,0,0,,淳你也想讓DOKU恢復精神對吧
+Dialogue: 0,0:09:59.82,0:10:02.22,Default,NTP,0,0,0,,雖然我也想…
+Dialogue: 0,0:10:02.79,0:10:04.41,Default,NTP,0,0,0,,因為你害怕機器人嗎
+Dialogue: 0,0:10:04.89,0:10:06.86,Default,NTP,0,0,0,,你想要退出Robo部也是因為這個嗎
+Dialogue: 0,0:10:07.52,0:10:09.89,Default,NTP,0,0,0,,那是什麼意思  我可沒聽說過啊
+Dialogue: 0,0:10:10.03,0:10:11.35,Default,NTP,0,0,0,,八  八汐同學
+Dialogue: 0,0:10:11.86,0:10:13.30,Default,NTP,0,0,0,,這是怎麼回事  淳
+Dialogue: 0,0:10:15.67,0:10:17.59,Default,NTP,0,0,0,,我  我之所以進入Robo部
+Dialogue: 0,0:10:18.13,0:10:21.44,Default,NTP,0,0,0,,只是單純地想找個能代替空手道的活動來打發時間
+Dialogue: 0,0:10:22.41,0:10:24.71,Default,NTP,0,0,0,,即使我的空手道很差勁  但我也能堅持下去
+Dialogue: 0,0:10:25.43,0:10:26.50,Default,NTP,0,0,0,,因為我很喜歡它
+Dialogue: 0,0:10:27.34,0:10:29.17,Default,NTP,0,0,0,,但是  機器人就…
+Dialogue: 0,0:10:29.99,0:10:31.45,Default,NTP,0,0,0,,果然還是會害怕嗎
+Dialogue: 0,0:10:32.98,0:10:33.55,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:10:34.70,0:10:39.31,Default,NTP,0,0,0,,那麼…  我是絕對不會允許淳退出的
+Dialogue: 0,0:10:39.54,0:10:40.21,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:10:42.01,0:10:46.16,Default,NTP,0,0,0,,直到你能喜歡上機器人的某一處為止  我是絕對不會放你走的
+Dialogue: 0,0:10:46.33,0:10:47.17,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:10:47.59,0:10:50.67,Default,NTP,0,0,0,,走吧  這是部長的命令
+Dialogue: 0,0:10:50.67,0:10:52.61,Default,NTP,0,0,0,,嗚哇  小亞希？  哇
+Dialogue: 0,0:10:57.29,0:10:58.50,Default,NTP,0,0,0,,哇哈哈
+Dialogue: 0,0:11:04.54,0:11:06.09,Default,NTP,0,0,0,,不知道還能啟動嗎
+Dialogue: 0,0:11:12.28,0:11:12.88,Default,NTP,0,0,0,,有了
+Dialogue: 0,0:11:12.91,0:11:16.38,Default,NTP,0,0,0,,{\an7\fs20\fad(2000,0)}註：GOJIRO是五二郎的日文羅馬音
+Dialogue: 0,0:11:17.97,0:11:18.58,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:11:19.39,0:11:20.08,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:11:22.60,0:11:24.94,Default,NTP,0,0,0,,線纜被切斷了
+Dialogue: 0,0:11:29.00,0:11:32.29,Default,NTP,0,0,0,,這些機器人是被DOKU自己親手「殺死」的嗎
+Dialogue: 0,0:11:37.45,0:11:39.09,Default,NTP,0,0,0,,八  八汐同學呢
+Dialogue: 0,0:11:39.64,0:11:41.94,Default,NTP,0,0,0,,他正在裏面修理五二郎君
+Dialogue: 0,0:11:42.78,0:11:43.41,Default,NTP,0,0,0,,嗚啊…
+Dialogue: 0,0:11:45.21,0:11:47.15,Default,NTP,0,0,0,,他說無論如何都想要修好
+Dialogue: 0,0:11:47.58,0:11:50.33,Default,NTP,0,0,0,,加油  加油  大哥哥
+Dialogue: 0,0:11:51.62,0:11:52.94,Default,NTP,0,0,0,,等這孩子修好了
+Dialogue: 0,0:11:53.66,0:11:56.09,Default,NTP,0,0,0,,淳能不能當一下操作員呢
+Dialogue: 0,0:11:56.43,0:11:56.92,Default,NTP,0,0,0,,哎
+Dialogue: 0,0:11:57.81,0:12:00.74,Default,NTP,0,0,0,,我覺得只有淳才能勝任
+Dialogue: 0,0:12:01.69,0:12:03.67,Default,NTP,0,0,0,,拜託你了  淳
+Dialogue: 0,0:12:05.39,0:12:05.95,Default,NTP,0,0,0,,嗚…
+Dialogue: 0,0:12:08.92,0:12:11.11,Default,NTP,0,0,0,,好  這樣應該就沒問題了
+Dialogue: 0,0:12:12.34,0:12:13.53,Default,NTP,0,0,0,,修好了嗎
+Dialogue: 0,0:12:13.74,0:12:14.80,Default,NTP,0,0,0,,真厲害
+Dialogue: 0,0:12:15.10,0:12:17.21,Default,NTP,0,0,0,,那麼就接上電源吧
+Dialogue: 0,0:12:17.80,0:12:18.30,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:12:20.21,0:12:20.80,Default,NTP,0,0,0,,這是什麼
+Dialogue: 0,0:12:26.05,0:12:26.95,Default,NTP,0,0,0,,這是…
+Dialogue: 0,0:12:27.54,0:12:29.95,Default,NTP,0,0,0,,你…  好…
+Dialogue: 0,0:12:30.28,0:12:32.15,Default,NTP,0,0,0,,啊  這是怎麼回事
+Dialogue: 0,0:12:31.25,0:12:35.75,Default,NTP,0,0,0,,{\an8\fs22}我…  名…  叫…
+Dialogue: 0,0:12:36.78,0:12:39.28,Default,NTP,0,0,0,,{\an8\fs22}與…  四…  郎…
+Dialogue: 0,0:12:36.93,0:12:37.97,Default,NTP,0,0,0,,啊  海
+Dialogue: 0,0:12:38.34,0:12:40.57,Default,NTP,0,0,0,,如何  這孩子能好好開口說話了哦
+Dialogue: 0,0:12:40.91,0:12:41.99,Default,NTP,0,0,0,,「好好」啊…
+Dialogue: 0,0:12:40.82,0:12:46.73,Default,NTP,0,0,0,,{\an8\fs22}是…  大…  家…  的…  朋…  友…
+Dialogue: 0,0:12:44.99,0:12:45.56,Default,NTP,0,0,0,,小淳？
+Dialogue: 0,0:12:47.38,0:12:53.25,Default,NTP,0,0,0,,{\an8\fs22}機…  器…  人
+Dialogue: 0,0:12:53.57,0:12:54.57,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:12:54.90,0:12:56.97,Default,NTP,0,0,0,,我的名字叫做與四郎
+Dialogue: 0,0:12:57.79,0:12:58.72,Default,NTP,0,0,0,,它是那個時候的…
+Dialogue: 0,0:12:59.99,0:13:01.36,Default,NTP,0,0,0,,小亞希  快關掉機器人
+Dialogue: 0,0:13:01.58,0:13:02.06,Default,NTP,0,0,0,,哎？
+Dialogue: 0,0:13:01.78,0:13:06.25,Default,NTP,0,0,0,,{\an8\fs22}是…  朋…  友…  哦
+Dialogue: 0,0:13:05.33,0:13:05.98,Default,NTP,0,0,0,,快點
+Dialogue: 0,0:13:06.26,0:13:09.63,Default,NTP,0,0,0,,你才不是我的朋友呢
+Dialogue: 0,0:13:10.61,0:13:11.66,Default,NTP,0,0,0,,啊  淳
+Dialogue: 0,0:13:21.50,0:13:24.92,Default,NTP,0,0,0,,{\pos(280,185)\fs18\1c000000\bord0\b1}退\N部\N申\N請\N書
+Dialogue: 0,0:13:22.75,0:13:24.94,Default,NTP,0,0,0,,她終於來這一招了嗎
+Dialogue: 0,0:13:25.55,0:13:26.29,Default,NTP,0,0,0,,唉
+Dialogue: 0,0:13:27.39,0:13:29.84,Default,NTP,0,0,0,,我有點事  就先走了
+Dialogue: 0,0:13:30.13,0:13:30.86,Default,NTP,0,0,0,,啊？
+Dialogue: 0,0:13:31.22,0:13:32.83,Default,NTP,0,0,0,,在這麼關鍵的時刻  你這是什麼意思
+Dialogue: 0,0:13:33.17,0:13:34.64,Default,NTP,0,0,0,,你不管淳的事情了嗎
+Dialogue: 0,0:13:35.19,0:13:37.78,Default,NTP,0,0,0,,不是讓你暫且冷靜一下靜觀其變嗎
+Dialogue: 0,0:13:38.12,0:13:40.27,Default,NTP,0,0,0,,推不開的門就拉拉看  欲擒故縱
+Dialogue: 0,0:13:40.85,0:13:44.16,Default,NTP,0,0,0,,這不是戀愛的格言嗎
+Dialogue: 0,0:13:47.60,0:13:50.17,Default,NTP,0,0,0,,笨姐姐  我的正拳打得怎麼樣
+Dialogue: 0,0:13:50.82,0:13:52.48,Default,NTP,0,0,0,,嘿咻  嘿咻
+Dialogue: 0,0:13:53.38,0:13:55.81,Default,NTP,0,0,0,,不是讓你別再叫我笨姐姐了嗎
+Dialogue: 0,0:13:55.90,0:13:57.92,Default,NTP,0,0,0,,明明是我的踢腿比較厲害
+Dialogue: 0,0:13:58.65,0:14:00.83,Default,NTP,0,0,0,,姐姐姐姐  再做些點心帶來吧
+Dialogue: 0,0:14:01.21,0:14:01.62,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:14:01.91,0:14:03.01,Default,NTP,0,0,0,,下次吧
+Dialogue: 0,0:14:03.36,0:14:04.60,Default,NTP,0,0,0,,太好啦
+Dialogue: 0,0:14:09.61,0:14:11.33,Default,NTP,0,0,0,,和你平時給人的感覺完全不同呢
+Dialogue: 0,0:14:12.08,0:14:14.13,Default,NTP,0,0,0,,因為我平時都很緊張
+Dialogue: 0,0:14:15.67,0:14:16.94,Default,NTP,0,0,0,,你要退出Robo部嗎
+Dialogue: 0,0:14:17.72,0:14:18.33,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:14:19.05,0:14:20.22,Default,NTP,0,0,0,,我果然還是不行
+Dialogue: 0,0:14:21.10,0:14:22.37,Default,NTP,0,0,0,,我害怕機器人
+Dialogue: 0,0:14:23.22,0:14:27.51,Default,NTP,0,0,0,,我還是不要幫忙給爺爺打氣比較好
+Dialogue: 0,0:14:28.81,0:14:33.07,Default,NTP,0,0,0,,我倒是覺得只有小淳你能讓DOKU振作起來
+Dialogue: 0,0:14:33.73,0:14:34.82,Default,NTP,0,0,0,,怎麼會呢
+Dialogue: 0,0:14:35.47,0:14:37.45,Default,NTP,0,0,0,,我一直都在避開他
+Dialogue: 0,0:14:38.16,0:14:39.50,Default,NTP,0,0,0,,他肯定還在生我的氣吧
+Dialogue: 0,0:14:40.10,0:14:41.94,Default,NTP,0,0,0,,他一定覺得我這個孫女很討厭
+Dialogue: 0,0:14:43.61,0:14:46.74,Default,NTP,0,0,0,,DOKU的機器人的線纜都被切斷了對吧
+Dialogue: 0,0:14:47.15,0:14:48.70,Default,NTP,0,0,0,,你知道那是為什麼嗎
+Dialogue: 0,0:14:49.76,0:14:50.38,Default,NTP,0,0,0,,哎
+Dialogue: 0,0:14:51.34,0:14:53.58,Default,NTP,0,0,0,,這是掉在倉庫裏的照片
+Dialogue: 0,0:14:55.48,0:14:56.08,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:14:57.24,0:14:58.89,Default,NTP,0,0,0,,要不要再考慮一下
+Dialogue: 0,0:15:08.69,0:15:12.08,Default,NTP,0,0,0,,機器人啊  可是人類的好朋友哦
+Dialogue: 0,0:15:15.47,0:15:18.48,Default,NTP,0,0,0,,那  我也是它們的朋友啦
+Dialogue: 0,0:15:18.84,0:15:21.54,Default,NTP,0,0,0,,當然  哈哈哈
+Dialogue: 0,0:15:29.99,0:15:32.63,Default,NTP,0,0,0,,啊？  Gun製造1號機的視頻？
+Dialogue: 0,0:15:32.93,0:15:33.77,Default,NTP,0,0,0,,是…是的
+Dialogue: 0,0:15:35.18,0:15:36.35,Default,NTP,0,0,0,,給你  就是這個
+Dialogue: 0,0:15:36.95,0:15:38.10,Default,NTP,0,0,0,,非…非常感謝
+Dialogue: 0,0:15:42.08,0:15:43.59,Default,NTP,0,0,0,,哇  好厲害
+Dialogue: 0,0:15:45.07,0:15:46.05,Default,NTP,0,0,0,,好大
+Dialogue: 0,0:15:48.38,0:15:49.37,Default,NTP,0,0,0,,遜斃了
+Dialogue: 0,0:15:50.22,0:15:51.23,Default,NTP,0,0,0,,好大
+Dialogue: 0,0:15:51.50,0:15:53.11,Default,NTP,0,0,0,,大歸大  但遜斃了啦
+Dialogue: 0,0:15:53.33,0:15:55.30,Default,NTP,0,0,0,,就沒有什麼武器嗎  武器
+Dialogue: 0,0:15:56.24,0:15:57.04,Default,NTP,0,0,0,,他們看起來好開心
+Dialogue: 0,0:15:58.65,0:16:00.63,Default,NTP,0,0,0,,大家原來都是這樣看待機器人的啊
+Dialogue: 0,0:16:02.20,0:16:03.32,Default,NTP,0,0,0,,好慢
+Dialogue: 0,0:16:04.03,0:16:05.73,Default,NTP,0,0,0,,這樣算是在走嗎
+Dialogue: 0,0:16:08.72,0:16:13.01,Default,NTP,0,0,0,,機器人啊  可是人類的好朋友哦
+Dialogue: 0,0:16:20.68,0:16:22.85,Default,NTP,0,0,0,,DOKU一直都在自責
+Dialogue: 0,0:16:23.87,0:16:28.45,Default,NTP,0,0,0,,他說自己居然自大地認為機器人是人類的朋友
+Dialogue: 0,0:16:29.76,0:16:33.99,Default,NTP,0,0,0,,不過老師倒覺得他的這種想法才是自以為是
+Dialogue: 0,0:16:34.36,0:16:36.24,Default,NTP,0,0,0,,這可是小常識哦
+Dialogue: 0,0:16:36.38,0:16:36.96,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:16:38.75,0:16:39.42,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:44.53,0:16:45.37,Default,NTP,0,0,0,,你們…
+Dialogue: 0,0:16:46.11,0:16:48.22,Default,NTP,0,0,0,,DOKU瘦了啊
+Dialogue: 0,0:16:48.67,0:16:52.22,Default,NTP,0,0,0,,你能跟我們去一趟機器人診所嗎
+Dialogue: 0,0:16:53.56,0:16:55.11,Default,NTP,0,0,0,,那家店已經關門大吉了
+Dialogue: 0,0:16:55.51,0:16:58.33,Default,NTP,0,0,0,,而且原本就賺不了錢
+Dialogue: 0,0:16:58.62,0:17:00.91,Default,NTP,0,0,0,,你怎麼能說這種違心話呢
+Dialogue: 0,0:17:01.39,0:17:03.18,Default,NTP,0,0,0,,你的內心肯定是非常喜歡它的
+Dialogue: 0,0:17:03.91,0:17:06.09,Default,NTP,0,0,0,,我也最喜歡Gunvarrel了
+Dialogue: 0,0:17:06.14,0:17:08.28,Default,NTP,0,0,0,,所以無論發生什麼都要努力完成它
+Dialogue: 0,0:17:08.69,0:17:09.42,Default,NTP,0,0,0,,所以！
+Dialogue: 0,0:17:10.13,0:17:11.91,Default,NTP,0,0,0,,總之  我已經…
+Dialogue: 0,0:17:12.14,0:17:14.98,Default,NTP,0,0,0,,DOKU的機器人們可是在等著你回去哦
+Dialogue: 0,0:17:15.55,0:17:16.07,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:17:16.44,0:17:17.29,Default,NTP,0,0,0,,你做了些什麼
+Dialogue: 0,0:17:17.54,0:17:19.43,Default,NTP,0,0,0,,你們  難道說…
+Dialogue: 0,0:17:20.21,0:17:22.87,Default,NTP,0,0,0,,只不過是重現了一下機器人診所剛開業時的盛況罷了
+Dialogue: 0,0:17:23.15,0:17:25.04,Default,NTP,0,0,0,,笨蛋  你們都幹了些什麼
+Dialogue: 0,0:17:26.46,0:17:29.65,Default,NTP,0,0,0,,你就親眼來確認一下我們是不是傻瓜吧
+Dialogue: 0,0:17:32.46,0:17:34.11,Default,NTP,0,0,0,,我已經幫你申請好外出許可了
+Dialogue: 0,0:17:36.09,0:17:36.71,Default,NTP,0,0,0,,怎麼樣
+Dialogue: 0,0:18:02.33,0:18:02.97,Default,NTP,0,0,0,,住手
+Dialogue: 0,0:18:04.25,0:18:05.10,Default,NTP,0,0,0,,給我住手啊
+Dialogue: 0,0:18:06.13,0:18:06.59,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:18:07.50,0:18:08.96,Default,NTP,0,0,0,,不然又會傷害到人的
+Dialogue: 0,0:18:10.38,0:18:13.04,Default,NTP,0,0,0,,又會讓人留下可怕的回憶
+Dialogue: 0,0:18:13.68,0:18:16.22,Default,NTP,0,0,0,,我讓那孩子…
+Dialogue: 0,0:18:17.37,0:18:20.32,Default,NTP,0,0,0,,我…我讓淳她…
+Dialogue: 0,0:18:44.99,0:18:45.85,Default,NTP,0,0,0,,與四郎
+Dialogue: 0,0:18:47.24,0:18:48.15,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:18:48.79,0:18:51.72,Default,NTP,0,0,0,,我的名字叫做與四郎
+Dialogue: 0,0:18:52.50,0:18:55.24,Default,NTP,0,0,0,,我是大家的朋友——機器人
+Dialogue: 0,0:18:55.89,0:18:57.88,Default,NTP,0,0,0,,來和我握握手吧
+Dialogue: 0,0:19:00.32,0:19:02.29,Default,NTP,0,0,0,,來和我握握手吧
+Dialogue: 0,0:19:03.00,0:19:04.50,Default,NTP,0,0,0,,藤田爺爺
+Dialogue: 0,0:19:06.03,0:19:09.17,Default,NTP,0,0,0,,你怎麼會知道我的名字
+Dialogue: 0,0:19:10.02,0:19:11.88,Default,NTP,0,0,0,,因為有人教會了它
+Dialogue: 0,0:19:13.07,0:19:16.44,Default,NTP,0,0,0,,是你的孫女親自教會了你的孩子
+Dialogue: 0,0:19:17.79,0:19:19.20,Default,NTP,0,0,0,,孫女…
+Dialogue: 0,0:19:37.67,0:19:38.49,Default,NTP,0,0,0,,請多多關照
+Dialogue: 0,0:19:39.73,0:19:41.18,Default,NTP,0,0,0,,藤田爺爺
+Dialogue: 0,0:19:42.66,0:19:45.85,Default,NTP,0,0,0,,你願意原諒我嗎
+Dialogue: 0,0:19:46.30,0:19:49.49,Default,NTP,0,0,0,,應該道歉的是我
+Dialogue: 0,0:19:50.44,0:19:52.52,Default,NTP,0,0,0,,對不起  爺爺
+Dialogue: 0,0:19:53.41,0:19:55.23,Default,NTP,0,0,0,,雖然我還是有那麼一點害怕
+Dialogue: 0,0:19:56.08,0:20:03.00,Default,NTP,0,0,0,,但今後我會努力再次喜歡上與四郎君和其他的孩子們的
+Dialogue: 0,0:20:03.82,0:20:06.52,Default,NTP,0,0,0,,我一定會和它們再次成為好朋友的
+Dialogue: 0,0:20:07.89,0:20:08.55,Default,NTP,0,0,0,,所以…
+Dialogue: 0,0:20:09.50,0:20:11.18,Default,NTP,0,0,0,,您一定要快點好起來啊
+Dialogue: 0,0:20:12.01,0:20:12.90,Default,NTP,0,0,0,,爺爺
+Dialogue: 0,0:20:17.41,0:20:18.30,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:20:19.59,0:20:20.55,Default,NTP,0,0,0,,謝謝你
+Dialogue: 0,0:20:34.08,0:20:35.38,Default,NTP,0,0,0,,太好啦
+Dialogue: 0,0:20:43.71,0:20:45.27,Default,NTP,0,0,0,,那  我們就回去了哦
+Dialogue: 0,0:20:46.07,0:20:48.12,Default,NTP,0,0,0,,別太亂來  好好養病啊
+Dialogue: 0,0:20:48.55,0:20:51.66,Default,NTP,0,0,0,,我還沒老到需要你來操心呢
+Dialogue: 0,0:20:52.18,0:20:54.41,Default,NTP,0,0,0,,看你這麼精神應該是沒問題了
+Dialogue: 0,0:20:55.13,0:20:55.66,Default,NTP,0,0,0,,喂
+Dialogue: 0,0:20:56.72,0:21:00.10,Default,NTP,0,0,0,,你們還在製作那個什麼巨型機器人嗎
+Dialogue: 0,0:21:00.51,0:21:02.21,Default,NTP,0,0,0,,那還用說嗎
+Dialogue: 0,0:21:03.06,0:21:05.32,Default,NTP,0,0,0,,等我出院了  就讓我瞧一瞧吧
+Dialogue: 0,0:21:06.59,0:21:09.03,Default,NTP,0,0,0,,讓我看看它夠不夠Rock
+Dialogue: 0,0:21:09.40,0:21:10.04,Default,NTP,0,0,0,,嘿
+Dialogue: 0,0:21:10.55,0:21:11.42,Default,NTP,0,0,0,,啊哈哈
+

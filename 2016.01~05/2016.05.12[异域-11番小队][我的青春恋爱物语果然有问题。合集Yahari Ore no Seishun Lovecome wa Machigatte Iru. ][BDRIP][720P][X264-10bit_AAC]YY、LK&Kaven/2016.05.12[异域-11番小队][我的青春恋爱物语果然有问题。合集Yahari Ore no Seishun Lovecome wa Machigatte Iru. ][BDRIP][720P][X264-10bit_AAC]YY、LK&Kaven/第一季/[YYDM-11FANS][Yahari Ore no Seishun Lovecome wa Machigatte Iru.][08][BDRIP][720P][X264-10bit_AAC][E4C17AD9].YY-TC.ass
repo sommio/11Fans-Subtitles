@@ -1,0 +1,513 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: やはり俺のラブコメは間違っている
+Original Script: 异域字幕组
+Original Translation: 异域字幕组
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗倩简体,40,&H00FFFFFF,&HF01D1EF3,&H00000000,&HF01D1EF3,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+Style: OPJ,MS Gothic,27,&H00FFFFFF,&HF0000000,&H00B8C50D,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,7,30,30,18,1
+Style: OPC,方正艺黑简体,33,&H00FFFFFF,&HF0000000,&H007928CC,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,3,30,30,13,134
+Style: warning,FZZhunYuan-M02S,30,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,10,134
+Style: title,FZZhunYuan-M02S,50,&H007C27E7,&HF07C27E7,&H00FFFFFF,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,5,30,30,10,134
+Style: EDJ,MS Gothic,28,&H00FFFFFF,&HF0033345,&H00FFFFFF,&HF0000000,-1,0,0,0,100,100,0,0,1,0,1,7,30,30,13,1
+Style: EDC,FZZhunYuan-M02S,32,&H00033345,&HF0FFFFFF,&H00FFFFFF,&HF0000000,0,0,0,0,100,100,0,0,1,0,0,3,30,30,13,134
+Style: sign,叶根友毛笔行书简体,60,&H00000000,&HF0FFFFFF,&H00FFFFFF,&HF0FFFFFF,0,0,0,0,100,100,0,0,1,1,2,5,30,30,60,134
+Style: bord,@方正稚艺简体,34,&H00121850,&H00121A52,&H00121648,&H00000000,0,0,0,0,100,100,0,270,1,0,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.20,0:00:18.20,warning,NTP,0,0,0,,{\fad(250,250)\be3\blur3}本片字幕由異域字幕組(www.yydm.com)製作,僅供試看之用,如果喜歡本作品,請購買並支持正版!
+Dialogue: 0,0:00:18.70,0:00:23.70,warning,NTP,0,0,0,,{\fad(250,250)\be3\blur3}翻譯：YUKI  受  雨意   校對：貓醬   時間&後期：睡神
+Dialogue: 0,0:00:43.68,0:01:15.17,OPJ,NTP,0,0,0,,{\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t($start,$end,1,\1a&H00\2a&H00\3a&H00\4a&H00)}
+Dialogue: 0,0:01:05.46,0:01:08.13,OPJ,NTP,0,0,0,,{\k25}日{\k18}の{\k17}満{\k23}ち{\k34}る{\k20}こ{\k32}の{\k38}部{\k60}屋
+Dialogue: 0,0:01:08.21,0:01:11.46,OPJ,NTP,0,0,0,,{\k40}そっ{\k20}と{\k50}時{\k32}を{\k32}待{\k46}つ{\k37}よ
+Dialogue: 0,0:01:24.77,0:01:30.73,OPJ,NTP,0,0,0,,{\k42}気{\k50}づ{\k25}け{\k52}ば{\k19}浮{\k37}か{\k37}ん{\k67}で{\k79}眺{\k50}め{\k21}て{\k54}る{\k63}箱
+Dialogue: 0,0:01:30.82,0:01:35.90,OPJ,NTP,0,0,0,,{\k86}同{\k73}じ{\k46}目{\k100}線{\k56}は{\k16}な{\k132}く
+Dialogue: 0,0:01:36.49,0:01:42.28,OPJ,NTP,0,0,0,,{\k32}い{\k38}つ{\k36}し{\k55}か{\k89}心{\k52}は{\k58}白{\k89}色{\k19}不{\k67}透{\k46}明
+Dialogue: 0,0:01:42.45,0:01:48.42,OPJ,NTP,0,0,0,,{\k88}雪{\k71}に{\k45}落{\k30}ち{\k50}た{\k152}光{\k67}も{\k48}散{\k47}る
+Dialogue: 0,0:01:48.96,0:01:53.88,OPJ,NTP,0,0,0,,{\k51}雲{\k24}か{\k39}ら{\k69}零{\k35}れ{\k19}る{\k55}冷{\k71}たい{\k129}雨
+Dialogue: 0,0:01:54.92,0:02:00.51,OPJ,NTP,0,0,0,,{\k21}目{\k27}を{\k14}晴{\k24}ら{\k49}す{\k38}の{\k51}は{\k71}遠{\k53}い{\k41}春{\k69}風{\k51}だ{\k51}け
+Dialogue: 0,0:02:01.39,0:02:06.93,OPJ,NTP,0,0,0,,{\k28}ア{\k38}ザレ{\k54}アを{\k19}咲{\k29}か{\k132}せて{\k38}　暖{\k37}か{\k35}い{\k54}庭{\k35}ま{\k54}で
+Dialogue: 0,0:02:06.98,0:02:09.90,OPJ,NTP,0,0,0,,{\k32}連{\k21}れ{\k22}出{\k49}し{\k33}て{\k22}　連{\k21}れ{\k26}出{\k33}し{\k33}て
+Dialogue: 0,0:02:09.94,0:02:12.15,OPJ,NTP,0,0,0,,{\k23}な{\k26}ん{\k37}て{\k135}ね
+Dialogue: 0,0:02:12.90,0:02:18.53,OPJ,NTP,0,0,0,,{\k72}幸{\k21}せ{\k27}だ{\k32}って{\k36}書{\k37}い{\k41}た{\k51}　{\k45}御{\k40}伽{\k39}話{\k36}なん{\k28}て{\k28}な{\k30}い
+Dialogue: 0,0:02:18.57,0:02:21.53,OPJ,NTP,0,0,0,,{\k40}分{\k51}かっ{\k40}て{\k37}る　{\k17}分{\k55}かっ{\k38}て{\k18}る{\k0}
+Dialogue: 0,0:02:21.57,0:02:28.00,OPJ,NTP,0,0,0,,{\k26}そ{\k27}れ{\k31}で{\k33}も{\k26}ね{\k48}　{\k24}そ{\k23}こ{\k19}へ{\k26}行{\k36}き{\k45}た{\k26}い{\k252}の
+Dialogue: 0,0:01:05.46,0:01:08.13,OPC,NTP,0,0,0,,{\k15}在{\k12}灑{\k15}滿{\k12}陽{\k21}光{\k60}的{\k21}這{\k18}個{\k17}房{\k17}間
+Dialogue: 0,0:01:08.13,0:01:08.21,OPC,NTP,0,0,0,,{\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t($start,$end,1,\1a&H00\2a&H00\3a&H00\4a&H00)}
+Dialogue: 0,0:01:08.21,0:01:11.46,OPC,NTP,0,0,0,,{\k12}靜{\k21}靜{\k36}地{\k24}等{\k33}待{\k33}時{\k32}間{\k14}的{\k32}流{\k17}逝
+Dialogue: 0,0:01:24.77,0:01:30.73,OPC,NTP,0,0,0,,{\k50}回{\k50}過{\k50}神{\k50}來{\k127} {\k18}注{\k21}視{\k96}的{\k67}盒{\k67}子
+Dialogue: 0,0:01:30.82,0:01:35.90,OPC,NTP,0,0,0,,{\k42}並{\k42}不{\k76}在{\k63}視{\k62}線{\k51}的{\k29}盡{\k145}頭
+Dialogue: 0,0:01:36.49,0:01:42.28,OPC,NTP,0,0,0,,{\k45}心{\k45}靈{\k45}不{\k45}知{\k45}不{\k45}覺{\k45}變{\k45}得{\k45}白{\k45}色{\k45}不{\k45}透{\k45}明
+Dialogue: 0,0:01:42.45,0:01:48.42,OPC,NTP,0,0,0,,{\k60}落{\k60}在{\k60}雪{\k60}上{\k60}的{\k60}光{\k60}逐{\k60}漸{\k60}暈{\k60}開
+Dialogue: 0,0:01:48.96,0:01:53.88,OPC,NTP,0,0,0,,{\k19}從{\k16}雲{\k28}中{\k28}落{\k55}下{\k46}的{\k76}冰{\k28}涼{\k22}雨{\k25}滴
+Dialogue: 0,0:01:54.92,0:02:00.51,OPC,NTP,0,0,0,,{\k15}只{\k21}有{\k18}遙{\k21}遠{\k21}的{\k24}春風{\k30}能{\k147}帶{\k117}來{\k33}愉快{\k33}的{\k8}心情
+Dialogue: 0,0:02:01.39,0:02:06.93,OPC,NTP,0,0,0,,{\k46}杜{\k46}鵑{\k46}花{\k46}盛{\k46}開{\k92}在 {\k46}溫{\k46}暖{\k46}的{\k46}庭{\k46}院
+Dialogue: 0,0:02:06.98,0:02:09.90,OPC,NTP,0,0,0,,{\k31}帶{\k31}我{\k31}出{\k63}去 {\k34}帶{\k34}我{\k34}出{\k34}去
+Dialogue: 0,0:02:09.94,0:02:12.15,OPC,NTP,0,0,0,,{\k55}為{\k55}什{\k55}麼{\k55}呀
+Dialogue: 0,0:02:12.90,0:02:18.53,OPC,NTP,0,0,0,,{\k47}又{\k47}不{\k47}是{\k47}寫{\k47}滿{\k47}幸{\k47}福{\k47}的{\k47}童{\k47}話{\k47}故{\k47}事
+Dialogue: 0,0:02:18.57,0:02:21.53,OPC,NTP,0,0,0,,{\k42}我{\k42}知{\k85}道 {\k42}我{\k42}知{\k42}道
+Dialogue: 0,0:02:21.57,0:02:28.00,OPC,NTP,0,0,0,,{\k32}即{\k32}使{\k32}如{\k32}此{\k64}啊 {\k56}還{\k56}是{\k56}想{\k56}去{\k56}那{\k56}裏{\k56}看{\k56}看
+Dialogue: 0,0:00:01.23,0:00:02.27,Default,NTP,0,0,0,,喂 醒醒
+Dialogue: 0,0:00:02.71,0:00:04.03,Default,NTP,0,0,0,,起床啦 八幡
+Dialogue: 0,0:00:09.50,0:00:12.84,Default,NTP,0,0,0,,難道這是早安吻？是早安吻嗎？
+Dialogue: 0,0:00:12.86,0:00:13.88,Default,NTP,0,0,0,,你終於醒了
+Dialogue: 0,0:00:13.90,0:00:15.26,Default,NTP,0,0,0,,大家都先走了
+Dialogue: 0,0:00:13.66,0:00:14.56,warning,NTP,0,0,0,,{\fs40}早安吻
+Dialogue: 0,0:00:15.49,0:00:18.05,Default,NTP,0,0,0,,如果不快點的話 早飯時間就結束了喲
+Dialogue: 0,0:00:19.28,0:00:22.33,Default,NTP,0,0,0,,這樣啊 我來合宿了啊
+Dialogue: 0,0:00:22.95,0:00:25.63,Default,NTP,0,0,0,,你暑假過著不規律的生活吧
+Dialogue: 0,0:00:26.73,0:00:28.56,Default,NTP,0,0,0,,一點都沒運動吧
+Dialogue: 0,0:00:29.02,0:00:30.35,Default,NTP,0,0,0,,下次打網球吧
+Dialogue: 0,0:00:30.43,0:00:33.07,Default,NTP,0,0,0,,哦 有時間聯繫我吧
+Dialogue: 0,0:00:33.12,0:00:34.84,Default,NTP,0,0,0,,嗯 那麼…
+Dialogue: 0,0:00:35.10,0:00:39.28,Default,NTP,0,0,0,,八幡你可以給我 你的聯繫方式吧？
+Dialogue: 0,0:00:41.09,0:00:45.15,Default,NTP,0,0,0,,平時只是用來打發時間 當鬧鐘的我的電話
+Dialogue: 0,0:00:45.37,0:00:47.59,Default,NTP,0,0,0,,終於要輸入平冢的郵件地址了
+Dialogue: 0,0:00:48.26,0:00:49.90,Default,NTP,0,0,0,,八幡 你哭什麼呀
+Dialogue: 0,0:00:50.95,0:00:52.46,Default,NTP,0,0,0,,我試著發一個哈
+Dialogue: 0,0:00:54.55,0:00:55.44,Default,NTP,0,0,0,,我是彩加
+Dialogue: 0,0:00:55.78,0:00:58.70,Default,NTP,0,0,0,,八幡早安 這是我第一次發郵件給你
+Dialogue: 0,0:00:59.04,0:01:00.50,Default,NTP,0,0,0,,以後也請多多關照
+Dialogue: 0,0:01:01.15,0:01:03.56,Default,NTP,0,0,0,,八幡 怎麼了 沒事吧
+Dialogue: 0,0:02:36.49,0:02:38.51,Default,NTP,0,0,0,,現在說下今天的安排
+Dialogue: 0,0:02:38.99,0:02:41.71,Default,NTP,0,0,0,,晚上決定舉行試膽大會和篝火
+Dialogue: 0,0:02:42.03,0:02:44.16,Default,NTP,0,0,0,,因為白天小學生是自由活動
+Dialogue: 0,0:02:44.43,0:02:45.98,Default,NTP,0,0,0,,趁這段時間做好準備
+Dialogue: 0,0:02:46.23,0:02:47.93,Default,NTP,0,0,0,,篝火啊
+Dialogue: 0,0:02:47.96,0:02:49.31,Default,NTP,0,0,0,,可以跳民族舞
+Dialogue: 0,0:02:50.07,0:02:52.31,Default,NTP,0,0,0,,可以跳「ventra、ventra」啊
+Dialogue: 0,0:02:50.06,0:02:52.94,warning,NTP,0,0,0,,傳說可以通過詠唱「ventra、ventra」來召喚UFO或者和宇宙人通信
+Dialogue: 0,0:02:52.69,0:02:55.04,Default,NTP,0,0,0,,你想說跳俄克拉荷馬舞嗎
+Dialogue: 0,0:02:55.18,0:02:57.32,Default,NTP,0,0,0,,只有最後的長音能合上
+Dialogue: 0,0:02:57.40,0:02:58.85,Default,NTP,0,0,0,,也沒什麼兩樣吧
+Dialogue: 0,0:02:58.99,0:03:01.56,Default,NTP,0,0,0,,對方就像宇宙人一樣
+Dialogue: 0,0:03:01.72,0:03:03.74,Default,NTP,0,0,0,,八幡 話說的有點過分了
+Dialogue: 0,0:03:03.89,0:03:04.97,Default,NTP,0,0,0,,不是的
+Dialogue: 0,0:03:05.46,0:03:07.30,Default,NTP,0,0,0,,我可是滿腹牢騷
+Dialogue: 0,0:03:08.58,0:03:10.90,Default,NTP,0,0,0,,小學篝火的時候
+Dialogue: 0,0:03:11.30,0:03:13.82,Default,NTP,0,0,0,,其實不牽手也可以吧
+Dialogue: 0,0:03:14.32,0:03:17.15,Default,NTP,0,0,0,,這以後的女生也有樣學樣
+Dialogue: 0,0:03:17.24,0:03:21.03,Default,NTP,0,0,0,,我一個人變得像空氣俄克拉荷馬舞一樣
+Dialogue: 0,0:03:21.50,0:03:24.28,Default,NTP,0,0,0,,比企谷 你的眼神死掉了哦
+Dialogue: 0,0:03:24.51,0:03:26.84,Default,NTP,0,0,0,,不過你這眼神倒是適合扮鬼
+Dialogue: 0,0:03:27.00,0:03:29.43,Default,NTP,0,0,0,,試膽大會 我們負責當嚇唬人的嗎
+Dialogue: 0,0:03:29.88,0:03:32.05,Default,NTP,0,0,0,,好像有鬼怪的變裝呢
+Dialogue: 0,0:03:32.42,0:03:33.75,Default,NTP,0,0,0,,分開做吧
+Dialogue: 0,0:03:33.77,0:03:35.00,Default,NTP,0,0,0,,好
+Dialogue: 0,0:03:43.93,0:03:47.01,Default,NTP,0,0,0,,就這樣一個人默默地堆著木頭
+Dialogue: 0,0:03:47.21,0:03:48.76,Default,NTP,0,0,0,,就好像在玩疊疊樂
+Dialogue: 0,0:03:49.53,0:03:51.05,Default,NTP,0,0,0,,一個人可以玩疊疊樂嗎
+Dialogue: 0,0:03:51.40,0:03:52.68,Default,NTP,0,0,0,,不是嗎？
+Dialogue: 0,0:03:55.19,0:03:56.32,Default,NTP,0,0,0,,完成了
+Dialogue: 0,0:03:57.03,0:04:00.99,Default,NTP,0,0,0,,看吧 疊疊樂 就是一個人組合才有意思吧
+Dialogue: 0,0:04:01.43,0:04:02.28,Default,NTP,0,0,0,,不是嗎
+Dialogue: 0,0:04:04.04,0:04:06.15,Default,NTP,0,0,0,,不是嗎…
+Dialogue: 0,0:04:07.36,0:04:08.07,Default,NTP,0,0,0,,好熱
+Dialogue: 0,0:04:08.89,0:04:09.67,Default,NTP,0,0,0,,好熱
+Dialogue: 0,0:04:10.39,0:04:11.09,Default,NTP,0,0,0,,好熱
+Dialogue: 0,0:04:13.19,0:04:14.97,Default,NTP,0,0,0,,好像感覺很棒啊
+Dialogue: 0,0:04:14.99,0:04:16.02,Default,NTP,0,0,0,,好涼
+Dialogue: 0,0:04:18.09,0:04:22.16,Default,NTP,0,0,0,,是我哥 這邊這邊 來吧
+Dialogue: 0,0:04:22.36,0:04:23.83,Default,NTP,0,0,0,,幹什麼呢 你們
+Dialogue: 0,0:04:24.19,0:04:26.36,Default,NTP,0,0,0,,還有 為什麼穿泳裝
+Dialogue: 0,0:04:26.43,0:04:29.12,Default,NTP,0,0,0,,平冢老師說可以在河邊玩的
+Dialogue: 0,0:04:29.18,0:04:31.34,Default,NTP,0,0,0,,比起那個 這是新泳裝哦
+Dialogue: 0,0:04:31.71,0:04:32.27,Default,NTP,0,0,0,,看
+Dialogue: 0,0:04:32.78,0:04:33.37,Default,NTP,0,0,0,,看
+Dialogue: 0,0:04:34.01,0:04:34.69,Default,NTP,0,0,0,,看
+Dialogue: 0,0:04:35.98,0:04:36.87,Default,NTP,0,0,0,,感想是？
+Dialogue: 0,0:04:36.95,0:04:40.51,Default,NTP,0,0,0,,嗯 是啊 你是全世界最可愛的
+Dialogue: 0,0:04:40.54,0:04:41.91,Default,NTP,0,0,0,,敷衍了事
+Dialogue: 0,0:04:43.00,0:04:43.93,Default,NTP,0,0,0,,結衣姐的呢？
+Dialogue: 0,0:04:44.69,0:04:45.51,Default,NTP,0,0,0,,小町
+Dialogue: 0,0:04:47.85,0:04:54.17,Default,NTP,0,0,0,,這樣 感覺挺好的 也挺合適的
+Dialogue: 0,0:04:54.69,0:04:57.44,Default,NTP,0,0,0,,這樣啊 謝謝
+Dialogue: 0,0:04:57.67,0:05:00.97,Default,NTP,0,0,0,,不好 自然地吸引我的眼球
+Dialogue: 0,0:05:01.28,0:05:03.15,Default,NTP,0,0,0,,{\fs55\c&HD02183&\3c&HFFFFFF&\2c&HFFFFFF&\b0\4c&HFFFFFF&\pos(970,576)}這是萬{\fs80\c&HFF00FF&\3c&HFFFFFF&\2c&HFFFFFF&\4c&HFFFFFF&}乳{\fs55\pos(880,570)\c&HD02183&\3c&HFFFFFF&\2c&HFFFFFF&\b0\4c&HFFFFFF&}引力的法則嗎
+Dialogue: 0,0:05:03.15,0:05:05.03,Default,NTP,0,0,0,,{\fs55\c&HD02183&\3c&HFFFFFF&\2c&HFFFFFF&\b0\4c&HFFFFFF&\pos(970,576)}不愧是巨{\fs80\c&HFF00FF&\3c&HFFFFFF&\2c&HFFFFFF&\4c&HFFFFFF&}乳{\fs55\c&HD02183&\3c&HFFFFFF&\2c&HFFFFFF&\b0\4c&HFFFFFF&\pos(970,576)}老師啊
+Dialogue: 0,0:05:05.56,0:05:07.04,Default,NTP,0,0,0,,對著河流下跪？
+Dialogue: 0,0:05:07.15,0:05:08.07,Default,NTP,0,0,0,,怎麼可…
+Dialogue: 0,0:05:15.12,0:05:17.65,Default,NTP,0,0,0,,什麼嘛 比企谷也來了啊
+Dialogue: 0,0:05:18.32,0:05:21.02,Default,NTP,0,0,0,,平冢老師 做還是做得到的嘛
+Dialogue: 0,0:05:21.32,0:05:23.07,Default,NTP,0,0,0,,奔三也行得通…
+Dialogue: 0,0:05:24.36,0:05:26.35,Default,NTP,0,0,0,,我可還是出色的奔三呢
+Dialogue: 0,0:05:27.48,0:05:29.45,Default,NTP,0,0,0,,不是去秋葉原嗎？
+Dialogue: 0,0:05:29.47,0:05:32.74,Default,NTP,0,0,0,,不是 不是 池袋啊池袋 完全不對
+Dialogue: 0,0:05:32.75,0:05:34.67,Default,NTP,0,0,0,,地點完全不一樣不是嗎
+Dialogue: 0,0:05:34.74,0:05:36.71,Default,NTP,0,0,0,,秋葉原在山手線的右向 所以是受…
+Dialogue: 0,0:05:36.73,0:05:39.56,warning,NTP,0,0,0,,{\fs40}池袋在上面 所以是攻 明白嗎
+Dialogue: 0,0:05:37.47,0:05:38.30,Default,NTP,0,0,0,,我贏了
+Dialogue: 0,0:05:40.89,0:05:42.57,Default,NTP,0,0,0,,你姐姐是那樣的啊
+Dialogue: 0,0:05:42.61,0:05:45.04,Default,NTP,0,0,0,,我覺得你在遺傳性上還是可以期待一下的哦
+Dialogue: 0,0:05:45.14,0:05:46.96,Default,NTP,0,0,0,,和姐姐有什麼關係
+Dialogue: 0,0:05:47.14,0:05:50.61,Default,NTP,0,0,0,,沒事的 女孩子的價值不是那個決定的
+Dialogue: 0,0:05:50.63,0:05:51.80,Default,NTP,0,0,0,,每個人都不一樣
+Dialogue: 0,0:05:51.80,0:05:54.00,Default,NTP,0,0,0,,小町是雪乃姐的夥伴哦
+Dialogue: 0,0:05:55.34,0:05:56.41,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:05:57.80,0:06:01.86,Default,NTP,0,0,0,,姐姐？遺傳？價值？個人差？
+Dialogue: 0,0:06:04.49,0:06:06.86,Default,NTP,0,0,0,,其實我真的完全沒有在意
+Dialogue: 0,0:06:07.27,0:06:09.64,Default,NTP,0,0,0,,如果要以外部特徵評價一個人的話
+Dialogue: 0,0:06:09.73,0:06:11.46,Default,NTP,0,0,0,,就應該從整體來看
+Dialogue: 0,0:06:11.52,0:06:14.13,Default,NTP,0,0,0,,不是一部分 而是以全體的平均值為對像
+Dialogue: 0,0:06:15.37,0:06:18.83,Default,NTP,0,0,0,,雪之下 還沒到放棄的時候
+Dialogue: 0,0:06:25.48,0:06:26.72,Default,NTP,0,0,0,,小町啊
+Dialogue: 0,0:06:27.89,0:06:28.94,Default,NTP,0,0,0,,已經濕漉漉了
+Dialogue: 0,0:06:28.96,0:06:31.10,Default,NTP,0,0,0,,我也想往戶冢身上潑水啊
+Dialogue: 0,0:06:38.89,0:06:40.19,Default,NTP,0,0,0,,為什麼一個人待在這
+Dialogue: 0,0:06:40.34,0:06:42.17,Default,NTP,0,0,0,,沒帶泳衣啊
+Dialogue: 0,0:06:42.63,0:06:43.37,Default,NTP,0,0,0,,你呢？
+Dialogue: 0,0:06:43.75,0:06:45.59,Default,NTP,0,0,0,,今天說要自由活動
+Dialogue: 0,0:06:45.86,0:06:49.09,Default,NTP,0,0,0,,早飯結束回房間一看 誰也不在
+Dialogue: 0,0:06:53.51,0:06:55.44,Default,NTP,0,0,0,,留美 不和我們一起玩嗎
+Dialogue: 0,0:06:57.03,0:06:58.06,Default,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:06:59.62,0:07:01.54,Default,NTP,0,0,0,,那個 八幡啊
+Dialogue: 0,0:07:01.56,0:07:02.51,Default,NTP,0,0,0,,直呼其名啊
+Dialogue: 0,0:07:02.90,0:07:06.04,Default,NTP,0,0,0,,八幡 有小學時的朋友嗎？
+Dialogue: 0,0:07:07.23,0:07:09.95,Default,NTP,0,0,0,,沒有 大概大家都一樣吧
+Dialogue: 0,0:07:10.27,0:07:11.54,Default,NTP,0,0,0,,所以不用去管
+Dialogue: 0,0:07:11.68,0:07:14.05,Default,NTP,0,0,0,,和他們畢業之後就沒見過
+Dialogue: 0,0:07:14.05,0:07:15.59,Default,NTP,0,0,0,,這只是小企你吧
+Dialogue: 0,0:07:15.68,0:07:17.00,Default,NTP,0,0,0,,我也沒見過
+Dialogue: 0,0:07:18.34,0:07:21.32,Default,NTP,0,0,0,,留美 只是他們比較特殊
+Dialogue: 0,0:07:21.33,0:07:22.73,Default,NTP,0,0,0,,特殊有什麼不好
+Dialogue: 0,0:07:22.78,0:07:24.38,Default,NTP,0,0,0,,用英語講就是special
+Dialogue: 0,0:07:24.77,0:07:26.26,Default,NTP,0,0,0,,感覺高人一等吧
+Dialogue: 0,0:07:26.34,0:07:27.80,Default,NTP,0,0,0,,這是日語的微妙
+Dialogue: 0,0:07:27.88,0:07:28.83,Default,NTP,0,0,0,,由比濱
+Dialogue: 0,0:07:29.36,0:07:32.91,Default,NTP,0,0,0,,你小學同學到現在還常聯繫的有幾個人
+Dialogue: 0,0:07:34.56,0:07:36.42,Default,NTP,0,0,0,,一兩個吧
+Dialogue: 0,0:07:36.60,0:07:38.52,Default,NTP,0,0,0,,當時你們學年一共多少人？
+Dialogue: 0,0:07:38.87,0:07:40.85,Default,NTP,0,0,0,,一個班30人 3個班
+Dialogue: 0,0:07:40.90,0:07:44.84,Default,NTP,0,0,0,,也就是說 畢業五年後還是朋友的比率
+Dialogue: 0,0:07:44.89,0:07:47.42,Default,NTP,0,0,0,,也就是3%到6%左右
+Dialogue: 0,0:07:47.94,0:07:51.09,Default,NTP,0,0,0,,就連作為八方美人的由比濱也就這個比率
+Dialogue: 0,0:07:47.94,0:07:51.74,warning,NTP,0,0,0,,八方美人在日語中意為不管對誰都游刃有餘 八面玲瓏的人 與長得美不美無關
+Dialogue: 0,0:07:51.11,0:07:51.78,Default,NTP,0,0,0,,美人？
+Dialogue: 0,0:07:52.91,0:07:55.97,Default,NTP,0,0,0,,由比濱 這並不是在表揚你啊
+Dialogue: 0,0:07:56.26,0:07:59.93,Default,NTP,0,0,0,,知道嗎 一般人的話不是八方美人
+Dialogue: 0,0:07:59.95,0:08:04.69,Default,NTP,0,0,0,,大概是兩方美人的話 再除以4 就大約1%了
+Dialogue: 0,0:08:04.98,0:08:07.86,Default,NTP,0,0,0,,1%什麼的只能算是誤差罷了 捨去就好了
+Dialogue: 0,0:08:08.14,0:08:10.46,Default,NTP,0,0,0,,聽說過四捨五入這句經典台詞嗎？
+Dialogue: 0,0:08:10.71,0:08:13.20,Default,NTP,0,0,0,,但是抱著有1%也不錯的心態的話
+Dialogue: 0,0:08:13.22,0:08:14.78,Default,NTP,0,0,0,,就會輕鬆一點兒了吧
+Dialogue: 0,0:08:15.15,0:08:18.19,Default,NTP,0,0,0,,要跟所有人都搞好關係有時還真是很困難的
+Dialogue: 0,0:08:18.21,0:08:20.63,Default,NTP,0,0,0,,但是 媽媽不能接受
+Dialogue: 0,0:08:21.20,0:08:24.24,Default,NTP,0,0,0,,總是問我跟朋友相處得好嗎
+Dialogue: 0,0:08:24.55,0:08:28.66,Default,NTP,0,0,0,,這個林間學校也讓我拍好多照片回去 相機也是…
+Dialogue: 0,0:08:29.98,0:08:34.33,Default,NTP,0,0,0,,而且被無視的話 也感覺自己比所有人都卑微似的
+Dialogue: 0,0:08:34.67,0:08:37.26,Default,NTP,0,0,0,,有點兒討厭呢 感覺很悲慘
+Dialogue: 0,0:08:37.68,0:08:41.14,Default,NTP,0,0,0,,不過 已經沒辦法了啊
+Dialogue: 0,0:08:41.41,0:08:42.15,Default,NTP,0,0,0,,為什麼這麼說？
+Dialogue: 0,0:08:43.52,0:08:45.27,Default,NTP,0,0,0,,我已經被拋棄了
+Dialogue: 0,0:08:45.63,0:08:46.97,Default,NTP,0,0,0,,關係已經好不起來了
+Dialogue: 0,0:08:47.48,0:08:48.53,Default,NTP,0,0,0,,就算關繫好
+Dialogue: 0,0:08:48.70,0:08:50.69,Default,NTP,0,0,0,,也不知道什麼時候會再變成這個樣子
+Dialogue: 0,0:08:50.97,0:08:53.32,Default,NTP,0,0,0,,所以我想 既然如此不如就這樣好了
+Dialogue: 0,0:08:53.76,0:08:57.50,Default,NTP,0,0,0,,是啊 這個孩子已經全看透了
+Dialogue: 0,0:08:58.05,0:09:01.94,Default,NTP,0,0,0,,所謂的「自己改變了 世界也會改變」並不存在
+Dialogue: 0,0:09:02.34,0:09:05.58,Default,NTP,0,0,0,,人對人的評價只不過是憑借固定觀念和既存印象而已
+Dialogue: 0,0:09:05.81,0:09:08.39,Default,NTP,0,0,0,,孤單的人就要孤單
+Dialogue: 0,0:09:08.66,0:09:10.30,Default,NTP,0,0,0,,就算是為了某件事而努力
+Dialogue: 0,0:09:10.36,0:09:12.38,Default,NTP,0,0,0,,到頭來也會成為被人攻擊的材料
+Dialogue: 0,0:09:12.56,0:09:15.85,Default,NTP,0,0,0,,這就是孩子王國中腐朽的規則
+Dialogue: 0,0:09:16.79,0:09:18.17,Default,NTP,0,0,0,,不想變得凄慘嗎？
+Dialogue: 0,0:09:18.86,0:09:19.52,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:09:20.38,0:09:22.96,Default,NTP,0,0,0,,試膽大會 希望你能玩的開心
+Dialogue: 0,0:09:25.79,0:09:27.78,Default,NTP,0,0,0,,小企 怎麼了小企
+Dialogue: 0,0:09:31.04,0:09:35.49,Default,NTP,0,0,0,,問題 世界不會改變 自己可以改變
+Dialogue: 0,0:09:35.57,0:09:37.64,Default,NTP,0,0,0,,那麼要怎麼改變呢？
+Dialogue: 0,0:09:38.19,0:09:41.87,Default,NTP,0,0,0,,答案 成為新世界的神
+Dialogue: 0,0:09:45.54,0:09:48.53,Default,NTP,0,0,0,,說的確實是試膽大會的妖怪吧
+Dialogue: 0,0:09:48.70,0:09:50.77,Default,NTP,0,0,0,,什麼啊 一股廉價Cosplay的氣息
+Dialogue: 0,0:09:50.79,0:09:54.12,Default,NTP,0,0,0,,在高天原
+Dialogue: 0,0:09:54.31,0:09:55.65,Default,NTP,0,0,0,,空有一股子認真勁啊
+Dialogue: 0,0:09:55.69,0:09:58.30,Default,NTP,0,0,0,,我是也可以駕馭陰陽師的類型
+Dialogue: 0,0:09:58.43,0:10:00.22,warning,NTP,0,0,0,,{\fs40}五芒星 九字紋
+Dialogue: 0,0:09:59.42,0:10:00.26,Default,NTP,0,0,0,,是這樣啊
+Dialogue: 0,0:10:00.48,0:10:02.58,Default,NTP,0,0,0,,魔法使也算是妖怪嗎？
+Dialogue: 0,0:10:02.94,0:10:05.78,Default,NTP,0,0,0,,說得寬泛一點兒也可以算是妖怪吧
+Dialogue: 0,0:10:05.94,0:10:07.37,Default,NTP,0,0,0,,但是不可怕吧
+Dialogue: 0,0:10:07.39,0:10:09.21,Default,NTP,0,0,0,,沒 挺可怕的 沒事
+Dialogue: 0,0:10:09.93,0:10:11.00,Default,NTP,0,0,0,,真的很可怕
+Dialogue: 0,0:10:11.32,0:10:14.84,Default,NTP,0,0,0,,這樣下去毫無疑問就要進入戶冢路線了實在是太可怕了
+Dialogue: 0,0:10:14.86,0:10:16.27,Default,NTP,0,0,0,,哥 哥
+Dialogue: 0,0:10:18.25,0:10:19.79,Default,NTP,0,0,0,,你這是什麼 妖怪貓？
+Dialogue: 0,0:10:19.89,0:10:20.87,Default,NTP,0,0,0,,可能是吧
+Dialogue: 0,0:10:20.89,0:10:24.53,Default,NTP,0,0,0,,雖然不太明白是什麼 不過既然這麼可愛就無所謂啦
+Dialogue: 0,0:10:28.00,0:10:29.61,Default,NTP,0,0,0,,你到底在鑒定什麼
+Dialogue: 0,0:10:29.84,0:10:31.18,Default,NTP,0,0,0,,很適合你啊
+Dialogue: 0,0:10:31.34,0:10:32.53,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:10:32.73,0:10:34.60,Default,NTP,0,0,0,,你跟和服配的不得了呢
+Dialogue: 0,0:10:34.64,0:10:36.27,Default,NTP,0,0,0,,真的像雪女
+Dialogue: 0,0:10:36.37,0:10:39.19,Default,NTP,0,0,0,,殭屍造型也蠻適合比企谷同學你的
+Dialogue: 0,0:10:39.30,0:10:41.54,Default,NTP,0,0,0,,眼睛的腐爛程度簡直是好萊塢級別的
+Dialogue: 0,0:10:41.57,0:10:43.77,Default,NTP,0,0,0,,我可是沒化妝沒裝扮啊
+Dialogue: 0,0:10:46.13,0:10:47.52,Default,NTP,0,0,0,,你還真忙活呢
+Dialogue: 0,0:10:48.02,0:10:50.17,Default,NTP,0,0,0,,啊 小企 那個…
+Dialogue: 0,0:10:50.87,0:10:51.68,Default,NTP,0,0,0,,怎麼樣？
+Dialogue: 0,0:10:51.77,0:10:54.40,Default,NTP,0,0,0,,要是有一點不合適我會直說的
+Dialogue: 0,0:10:54.47,0:10:57.15,Default,NTP,0,0,0,,不過肯定會被當成笨蛋
+Dialogue: 0,0:10:57.24,0:10:58.68,Default,NTP,0,0,0,,很遺憾我做不到
+Dialogue: 0,0:10:58.70,0:11:00.54,Default,NTP,0,0,0,,唉？那個…
+Dialogue: 0,0:11:01.94,0:11:04.30,Default,NTP,0,0,0,,老老實實誇獎我不就好了嘛！笨蛋！
+Dialogue: 0,0:11:04.67,0:11:06.73,Default,NTP,0,0,0,,因為哥哥是彆扭嬌呢
+Dialogue: 0,0:11:06.75,0:11:08.07,Default,NTP,0,0,0,,別亂用些奇怪的復合詞
+Dialogue: 0,0:11:08.36,0:11:11.10,Default,NTP,0,0,0,,那麼那件事要怎麼辦
+Dialogue: 0,0:11:11.46,0:11:13.99,Default,NTP,0,0,0,,可能只有讓留美去跟大家談談了
+Dialogue: 0,0:11:14.11,0:11:17.40,Default,NTP,0,0,0,,但是這樣的話 留美可能會被大家責難的
+Dialogue: 0,0:11:17.44,0:11:19.27,Default,NTP,0,0,0,,那一個人一個人地說呢
+Dialogue: 0,0:11:19.28,0:11:23.36,Default,NTP,0,0,0,,都一樣的 就算是當面不說背後也會議論的
+Dialogue: 0,0:11:23.44,0:11:26.44,Default,NTP,0,0,0,,女生比隼人想像中的要可怕得多
+Dialogue: 0,0:11:26.63,0:11:28.44,Default,NTP,0,0,0,,真的 超可怕的
+Dialogue: 0,0:11:28.49,0:11:31.06,Default,NTP,0,0,0,,我說 我有一個想法
+Dialogue: 0,0:11:31.42,0:11:33.44,Default,NTP,0,0,0,,不像是有正經的主意呢
+Dialogue: 0,0:11:33.57,0:11:34.83,Default,NTP,0,0,0,,總之 先聽我說
+Dialogue: 0,0:11:34.85,0:11:38.10,Default,NTP,0,0,0,,這是難得的試膽大會 只能利用這次機會了
+Dialogue: 0,0:11:38.21,0:11:39.40,Default,NTP,0,0,0,,怎麼利用呢？
+Dialogue: 0,0:11:39.85,0:11:42.32,Default,NTP,0,0,0,,如果有人際關係方面的煩惱
+Dialogue: 0,0:11:42.51,0:11:45.90,Default,NTP,0,0,0,,那麼只要將人際關係本身破壞掉那麼就不存在困擾了
+Dialogue: 0,0:11:46.25,0:11:49.82,Default,NTP,0,0,0,,大家都孤零零的話就不會有糾紛不會有爭吵了
+Dialogue: 0,0:11:56.04,0:12:00.58,Default,NTP,0,0,0,,好了 那麼下面是這一組出發
+Dialogue: 0,0:12:03.38,0:12:08.37,Default,NTP,0,0,0,,開始之後 請將在森林深處祠堂的咒符取回
+Dialogue: 0,0:12:16.34,0:12:17.74,Default,NTP,0,0,0,,吃了你們哦
+Dialogue: 0,0:12:21.48,0:12:23.34,Default,NTP,0,0,0,,我怎麼跟白癡一樣
+Dialogue: 0,0:12:24.60,0:12:25.85,Default,NTP,0,0,0,,差不多了吧
+Dialogue: 0,0:12:35.07,0:12:35.68,Default,NTP,0,0,0,,是我
+Dialogue: 0,0:12:37.05,0:12:38.82,Default,NTP,0,0,0,,比企谷同學？
+Dialogue: 0,0:12:39.22,0:12:42.04,Default,NTP,0,0,0,,還以為是幽靈呢 因為你眼神都死了
+Dialogue: 0,0:12:42.22,0:12:43.68,Default,NTP,0,0,0,,是嗎？
+Dialogue: 0,0:12:43.76,0:12:45.50,Default,NTP,0,0,0,,那麼 計劃進行得怎麼樣了？
+Dialogue: 0,0:12:46.41,0:12:47.76,Default,NTP,0,0,0,,開始的信號來了
+Dialogue: 0,0:12:48.43,0:12:51.92,Default,NTP,0,0,0,,那麼 最後出發的是這一組
+Dialogue: 0,0:13:02.28,0:13:03.39,Default,NTP,0,0,0,,是哥哥們
+Dialogue: 0,0:13:03.45,0:13:04.88,Default,NTP,0,0,0,,打扮超普通的
+Dialogue: 0,0:13:04.90,0:13:05.95,Default,NTP,0,0,0,,真遜啊
+Dialogue: 0,0:13:06.06,0:13:08.15,Default,NTP,0,0,0,,什麼試膽大會啊 一點兒都不可怕
+Dialogue: 0,0:13:08.79,0:13:10.92,Default,NTP,0,0,0,,還是高中生呢 真沒腦子
+Dialogue: 0,0:13:12.31,0:13:13.96,Default,NTP,0,0,0,,你們幾個抱怨什麼？
+Dialogue: 0,0:13:14.92,0:13:17.33,Default,NTP,0,0,0,,我說你們是不是太得意忘形了
+Dialogue: 0,0:13:17.68,0:13:21.18,Default,NTP,0,0,0,,人家可不是你們的朋友
+Dialogue: 0,0:13:22.30,0:13:25.74,Default,NTP,0,0,0,,話說 剛剛是不是有個超瞧不起我的傢伙
+Dialogue: 0,0:13:25.97,0:13:27.65,Default,NTP,0,0,0,,說了那句話的是誰來著
+Dialogue: 0,0:13:28.78,0:13:29.83,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:13:30.82,0:13:32.97,Default,NTP,0,0,0,,我在問你們是誰說的
+Dialogue: 0,0:13:33.05,0:13:35.26,Default,NTP,0,0,0,,你們是看不起我們麼？
+Dialogue: 0,0:13:35.28,0:13:36.46,Default,NTP,0,0,0,,趕緊動手趕緊的
+Dialogue: 0,0:13:36.56,0:13:39.83,Default,NTP,0,0,0,,在這裏教她們禮貌是咱們的工作不是？
+Dialogue: 0,0:13:40.40,0:13:42.89,Default,NTP,0,0,0,,葉山啊 做了這幫小崽子行不？
+Dialogue: 0,0:13:47.88,0:13:53.21,Default,NTP,0,0,0,,這麼辦吧 放一半 留一半
+Dialogue: 0,0:13:53.98,0:13:56.43,Default,NTP,0,0,0,,你們誰要留在這裏自己決定吧
+Dialogue: 0,0:13:58.65,0:13:59.80,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:13:59.88,0:14:03.18,Default,NTP,0,0,0,,沒有要讓你們道歉 我是讓你們留下一半
+Dialogue: 0,0:14:03.82,0:14:04.73,Default,NTP,0,0,0,,自己選吧
+Dialogue: 0,0:14:05.54,0:14:09.46,Default,NTP,0,0,0,,我說 你們是沒聽見麼 還是聽見了故意裝聾子
+Dialogue: 0,0:14:09.55,0:14:12.96,Default,NTP,0,0,0,,快點兒決定 到底誰留下 你嗎？
+Dialogue: 0,0:14:13.70,0:14:16.25,Default,NTP,0,0,0,,鶴見 你留下來
+Dialogue: 0,0:14:16.81,0:14:18.08,Default,NTP,0,0,0,,就 就是嘛
+Dialogue: 0,0:14:24.88,0:14:26.93,Default,NTP,0,0,0,,這之後就是你的目的了吧
+Dialogue: 0,0:14:26.96,0:14:27.87,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:14:28.16,0:14:31.55,Default,NTP,0,0,0,,將圍繞著鶴見的人際關係毀掉
+Dialogue: 0,0:14:32.04,0:14:34.45,Default,NTP,0,0,0,,人要是真的害怕的話
+Dialogue: 0,0:14:34.58,0:14:36.68,Default,NTP,0,0,0,,是不會管別人的
+Dialogue: 0,0:14:36.93,0:14:40.12,Default,NTP,0,0,0,,就算是犧牲身邊的人 也要想辦法獲救
+Dialogue: 0,0:14:40.42,0:14:42.56,Default,NTP,0,0,0,,只要讓醜陋的一面曝光
+Dialogue: 0,0:14:42.73,0:14:44.40,Default,NTP,0,0,0,,就無法再和好
+Dialogue: 0,0:14:44.66,0:14:47.47,Default,NTP,0,0,0,,就這樣把人際圈打散就好
+Dialogue: 0,0:14:47.47,0:14:50.17,Default,NTP,0,0,0,,就算這樣也不能解決問題不是嗎？
+Dialogue: 0,0:14:50.32,0:14:53.22,Default,NTP,0,0,0,,但是可以消除問題
+Dialogue: 0,0:14:54.86,0:14:58.15,Default,NTP,0,0,0,,逃避是不行的 這只是強者的思維
+Dialogue: 0,0:14:58.51,0:15:00.74,Default,NTP,0,0,0,,無論如何都不覺得自己是錯的
+Dialogue: 0,0:15:01.33,0:15:04.36,Default,NTP,0,0,0,,世界也好 社會也好 周圍也好
+Dialogue: 0,0:15:04.63,0:15:07.33,Default,NTP,0,0,0,,無論是誰都會犯下很多錯誤
+Dialogue: 0,0:15:07.66,0:15:09.08,Default,NTP,0,0,0,,自己可以改變
+Dialogue: 0,0:15:09.21,0:15:13.33,Default,NTP,0,0,0,,只不過是順應這垃圾一樣的冷淡殘酷的世界
+Dialogue: 0,0:15:13.42,0:15:15.63,Default,NTP,0,0,0,,認同自己的失敗俯首稱臣的行為
+Dialogue: 0,0:15:15.83,0:15:19.20,Default,NTP,0,0,0,,充其量算是用華麗語言包裝以欺騙自己的謊言罷了
+Dialogue: 0,0:15:20.10,0:15:24.94,Default,NTP,0,0,0,,這種想法… 我多少能理解她在意你的理由了
+Dialogue: 0,0:15:25.19,0:15:26.05,Default,NTP,0,0,0,,她？
+Dialogue: 0,0:15:26.71,0:15:28.08,Default,NTP,0,0,0,,OK 就這麼辦吧
+Dialogue: 0,0:15:28.96,0:15:33.35,Default,NTP,0,0,0,,只是我打賭大家會團結一致應對這件事
+Dialogue: 0,0:15:34.66,0:15:36.65,Default,NTP,0,0,0,,我覺得他們是天性善良好孩子
+Dialogue: 0,0:15:37.88,0:15:40.37,Default,NTP,0,0,0,,那麼 還有兩個人
+Dialogue: 0,0:15:40.81,0:15:41.74,Default,NTP,0,0,0,,趕快決定
+Dialogue: 0,0:15:43.46,0:15:45.45,Default,NTP,0,0,0,,要是由香剛剛不說那樣的話
+Dialogue: 0,0:15:46.04,0:15:47.13,Default,NTP,0,0,0,,是由香的錯
+Dialogue: 0,0:15:47.13,0:15:48.08,Default,NTP,0,0,0,,確實是的
+Dialogue: 0,0:15:48.08,0:15:50.18,Default,NTP,0,0,0,,不是 是仁美先說的
+Dialogue: 0,0:15:50.64,0:15:53.24,Default,NTP,0,0,0,,我什麼都沒說 我沒有錯
+Dialogue: 0,0:15:53.50,0:15:55.34,Default,NTP,0,0,0,,是小森的態度不好
+Dialogue: 0,0:15:55.97,0:15:58.70,Default,NTP,0,0,0,,小森一直都是這樣 對老師也是
+Dialogue: 0,0:15:58.71,0:16:00.68,Default,NTP,0,0,0,,什麼啊 這跟平時沒有關係吧
+Dialogue: 0,0:16:00.70,0:16:03.51,Default,NTP,0,0,0,,不要再吵了 大家一起道歉吧
+Dialogue: 0,0:16:03.53,0:16:07.20,Default,NTP,0,0,0,,我最討厭那種以為掉眼淚就沒事的人了
+Dialogue: 0,0:16:08.13,0:16:09.77,Default,NTP,0,0,0,,再給你們30秒
+Dialogue: 0,0:16:10.02,0:16:11.80,Default,NTP,0,0,0,,還有兩個人 快點選
+Dialogue: 0,0:16:11.93,0:16:13.79,Default,NTP,0,0,0,,知道打小報告會發生什麼事吧
+Dialogue: 0,0:16:14.01,0:16:15.37,Default,NTP,0,0,0,,我可記住你們的長相了
+Dialogue: 0,0:16:16.63,0:16:17.93,Default,NTP,0,0,0,,還剩20秒
+Dialogue: 0,0:16:18.16,0:16:19.15,Default,NTP,0,0,0,,果然還是由香應該留下來
+Dialogue: 0,0:16:19.43,0:16:20.42,Default,NTP,0,0,0,,由香留下來
+Dialogue: 0,0:16:20.43,0:16:21.82,Default,NTP,0,0,0,,我也覺得應該這麼做
+Dialogue: 0,0:16:23.28,0:16:24.30,Default,NTP,0,0,0,,快 走吧
+Dialogue: 0,0:16:24.33,0:16:25.68,Default,NTP,0,0,0,,喂 不要推我
+Dialogue: 0,0:16:25.74,0:16:26.70,Default,NTP,0,0,0,,由香
+Dialogue: 0,0:16:27.10,0:16:29.26,Default,NTP,0,0,0,,對不起 但是我們也沒辦法
+Dialogue: 0,0:16:34.41,0:16:35.54,Default,NTP,0,0,0,,還剩下一個人
+Dialogue: 0,0:16:36.83,0:16:39.84,Default,NTP,0,0,0,,十 九 八…
+Dialogue: 0,0:16:40.15,0:16:44.48,Default,NTP,0,0,0,,接下來就只要突然出現 然後說一句「逗你玩兒」就沒事了
+Dialogue: 0,0:16:45.12,0:16:45.79,Default,NTP,0,0,0,,等等
+Dialogue: 0,0:16:46.66,0:16:47.48,Default,NTP,0,0,0,,幹嘛啊
+Dialogue: 0,0:16:47.70,0:16:48.73,Default,NTP,0,0,0,,你看
+Dialogue: 0,0:16:49.29,0:16:52.04,Default,NTP,0,0,0,,四 三 二 一
+Dialogue: 0,0:16:52.98,0:16:53.84,Default,NTP,0,0,0,,那個…
+Dialogue: 0,0:16:58.24,0:17:00.31,Default,NTP,0,0,0,,這邊 快跑
+Dialogue: 0,0:17:03.79,0:17:04.62,Default,NTP,0,0,0,,我的眼睛…
+Dialogue: 0,0:17:04.67,0:17:06.00,Default,NTP,0,0,0,,剛才那是什麼啊
+Dialogue: 0,0:17:06.56,0:17:08.01,Default,NTP,0,0,0,,是相機的閃光燈嗎？
+Dialogue: 0,0:17:09.05,0:17:12.07,Default,NTP,0,0,0,,那孩子救了大家嗎
+Dialogue: 0,0:17:12.30,0:17:14.82,Default,NTP,0,0,0,,其實她們關係很好吧
+Dialogue: 0,0:17:15.07,0:17:18.33,Default,NTP,0,0,0,,不詆毀別人關係就好不了
+Dialogue: 0,0:17:18.51,0:17:20.12,Default,NTP,0,0,0,,怎麼可能是真正的關繫好
+Dialogue: 0,0:17:20.32,0:17:22.66,Default,NTP,0,0,0,,是啊 也是啊
+Dialogue: 0,0:17:22.94,0:17:23.81,Default,NTP,0,0,0,,但是…
+Dialogue: 0,0:17:24.78,0:17:29.55,Default,NTP,0,0,0,,雖然知道是假的 卻還是想伸出援手
+Dialogue: 0,0:17:29.84,0:17:32.39,Default,NTP,0,0,0,,那麼這應該是真的吧 一定是
+Dialogue: 0,0:17:37.03,0:17:38.76,Default,NTP,0,0,0,,度過了危險的一關啊
+Dialogue: 0,0:17:39.77,0:17:42.50,Default,NTP,0,0,0,,只要走錯一步也許就會出問題
+Dialogue: 0,0:17:44.03,0:17:44.98,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:17:45.13,0:17:46.39,Default,NTP,0,0,0,,我沒有責怪你
+Dialogue: 0,0:17:46.81,0:17:49.56,Default,NTP,0,0,0,,倒不如說在短時間內做到這樣很不錯了
+Dialogue: 0,0:17:49.80,0:17:51.84,Default,NTP,0,0,0,,不過方法很差勁
+Dialogue: 0,0:17:52.12,0:17:54.53,Default,NTP,0,0,0,,是啊 你最差勁了
+Dialogue: 0,0:17:54.73,0:17:56.50,Default,NTP,0,0,0,,為什麼在批判我的人格
+Dialogue: 0,0:17:56.63,0:17:58.52,Default,NTP,0,0,0,,不是在說方法嗎
+Dialogue: 0,0:17:58.65,0:18:01.66,Default,NTP,0,0,0,,會想到這個方法 你可不最差勁了嘛
+Dialogue: 0,0:18:01.73,0:18:04.16,Default,NTP,0,0,0,,但是 可能正因為是最差勁的
+Dialogue: 0,0:18:04.46,0:18:07.28,Default,NTP,0,0,0,,才能讓墜入深淵的人們親近你
+Dialogue: 0,0:18:07.39,0:18:09.09,Default,NTP,0,0,0,,你這種資質很重要
+Dialogue: 0,0:18:09.92,0:18:11.89,Default,NTP,0,0,0,,這種表揚的方式真是讓人討厭
+Dialogue: 0,0:18:28.47,0:18:29.72,Default,NTP,0,0,0,,沒有得到回報呢
+Dialogue: 0,0:18:31.28,0:18:33.88,Default,NTP,0,0,0,,反正我也沒做什麼好事
+Dialogue: 0,0:18:33.98,0:18:36.61,Default,NTP,0,0,0,,僅僅只是結黨的人不在了
+Dialogue: 0,0:18:36.89,0:18:38.68,Default,NTP,0,0,0,,關係也會變得輕鬆一點
+Dialogue: 0,0:18:39.20,0:18:40.97,Default,NTP,0,0,0,,即使方法是最差勁的
+Dialogue: 0,0:18:41.32,0:18:43.43,Default,NTP,0,0,0,,但是事先做這些準備的是比企谷同學
+Dialogue: 0,0:18:44.04,0:18:44.67,Default,NTP,0,0,0,,所以
+Dialogue: 0,0:18:47.22,0:18:48.94,Default,NTP,0,0,0,,就算沒有被人表揚
+Dialogue: 0,0:18:49.68,0:18:52.46,Default,NTP,0,0,0,,只要產生了一點好處 這方法都可以被原諒
+Dialogue: 0,0:18:53.94,0:18:54.87,Default,NTP,0,0,0,,久等啦
+Dialogue: 0,0:18:55.36,0:18:56.94,Default,NTP,0,0,0,,給 煙花
+Dialogue: 0,0:19:00.30,0:19:02.00,Default,NTP,0,0,0,,雪乃 快看快看
+Dialogue: 0,0:19:02.36,0:19:03.55,Default,NTP,0,0,0,,很危險
+Dialogue: 0,0:19:08.76,0:19:11.20,Default,NTP,0,0,0,,抱歉 讓你做了壞人
+Dialogue: 0,0:19:11.61,0:19:15.63,Default,NTP,0,0,0,,沒關係 感覺也不是很差
+Dialogue: 0,0:19:16.52,0:19:17.50,Default,NTP,0,0,0,,只是…
+Dialogue: 0,0:19:19.25,0:19:21.35,Default,NTP,0,0,0,,讓我想起了過去的事
+Dialogue: 0,0:19:22.10,0:19:25.51,Default,NTP,0,0,0,,相似的經歷發生在我眼前時 我卻無能為力
+Dialogue: 0,0:19:30.35,0:19:34.02,Default,NTP,0,0,0,,如果比企谷和我一個小學的話會怎麼樣呢
+Dialogue: 0,0:19:34.27,0:19:37.18,Default,NTP,0,0,0,,只會讓你們學校多一個形單影隻的人而已
+Dialogue: 0,0:19:38.71,0:19:41.57,Default,NTP,0,0,0,,我倒覺得會有很不一樣的結局
+Dialogue: 0,0:19:42.40,0:19:47.52,Default,NTP,0,0,0,,只是 即使如此大概也不會和比企谷關係很好了
+Dialogue: 0,0:19:49.87,0:19:50.68,Default,NTP,0,0,0,,開玩笑的
+Dialogue: 0,0:19:56.66,0:19:59.87,Default,NTP,0,0,0,,辛苦你們了 到家之前都是合宿時間
+Dialogue: 0,0:20:00.04,0:20:01.78,Default,NTP,0,0,0,,回家時注意安全
+Dialogue: 0,0:20:01.93,0:20:03.10,Default,NTP,0,0,0,,那麼 解散
+Dialogue: 0,0:20:03.63,0:20:06.04,Default,NTP,0,0,0,,小町 我們去買點東西再回家吧
+Dialogue: 0,0:20:06.25,0:20:07.47,Default,NTP,0,0,0,,Yes Sir
+Dialogue: 0,0:20:07.69,0:20:09.80,Default,NTP,0,0,0,,雪乃姐要不要跟我們一起回去啊？
+Dialogue: 0,0:20:15.89,0:20:17.82,Default,NTP,0,0,0,,Hi 雪乃
+Dialogue: 0,0:20:18.43,0:20:19.27,Default,NTP,0,0,0,,姐姐
+Dialogue: 0,0:20:19.55,0:20:22.57,Default,NTP,0,0,0,,雪乃真是的 一直沒回家
+Dialogue: 0,0:20:22.59,0:20:24.72,Default,NTP,0,0,0,,姐姐很擔心 就過來接你啦
+Dialogue: 0,0:20:25.66,0:20:28.40,Default,NTP,0,0,0,,是比企谷同學啊 約會嗎？是約會吧
+Dialogue: 0,0:20:28.42,0:20:30.20,Default,NTP,0,0,0,,都說了不是的
+Dialogue: 0,0:20:30.76,0:20:32.87,Default,NTP,0,0,0,,那個 小企看起來很難受
+Dialogue: 0,0:20:34.76,0:20:37.12,Default,NTP,0,0,0,,你是 比企谷同學的女朋友？
+Dialogue: 0,0:20:37.31,0:20:40.85,Default,NTP,0,0,0,,不是的 我是他同班同學由比濱結衣
+Dialogue: 0,0:20:40.99,0:20:42.19,Default,NTP,0,0,0,,同班同學？
+Dialogue: 0,0:20:42.29,0:20:43.04,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:20:43.34,0:20:48.58,Default,NTP,0,0,0,,太好了 剛才還在想要是妨礙了雪乃可怎麼辦呢
+Dialogue: 0,0:20:48.63,0:20:50.43,Default,NTP,0,0,0,,你可不許對比企谷同學出手哦
+Dialogue: 0,0:20:50.44,0:20:51.86,Default,NTP,0,0,0,,因為他是雪乃的
+Dialogue: 0,0:20:52.02,0:20:53.14,Default,NTP,0,0,0,,才不是
+Dialogue: 0,0:20:53.24,0:20:54.47,Default,NTP,0,0,0,,看吧 不約而同
+Dialogue: 0,0:20:54.81,0:20:57.06,Default,NTP,0,0,0,,陽乃 差不多可以了
+Dialogue: 0,0:20:57.40,0:20:58.89,Default,NTP,0,0,0,,好久不見啦 小靜
+Dialogue: 0,0:20:59.16,0:21:00.84,Default,NTP,0,0,0,,不要叫我小靜
+Dialogue: 0,0:21:01.01,0:21:02.91,Default,NTP,0,0,0,,老師 你認識她啊？
+Dialogue: 0,0:21:03.22,0:21:04.78,Default,NTP,0,0,0,,是我以前教過的學生
+Dialogue: 0,0:21:05.08,0:21:06.39,Default,NTP,0,0,0,,也就是說…
+Dialogue: 0,0:21:06.80,0:21:08.99,Default,NTP,0,0,0,,那麼雪乃 差不多回家吧
+Dialogue: 0,0:21:09.50,0:21:11.17,Default,NTP,0,0,0,,媽媽在等我們
+Dialogue: 0,0:21:14.88,0:21:17.13,Default,NTP,0,0,0,,難得你們邀請我 抱歉
+Dialogue: 0,0:21:17.67,0:21:19.34,Default,NTP,0,0,0,,不能一起回家了
+Dialogue: 0,0:21:20.63,0:21:21.41,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:21:23.71,0:21:24.71,Default,NTP,0,0,0,,再見
+Dialogue: 0,0:21:26.55,0:21:28.76,Default,NTP,0,0,0,,那比企谷同學 Bye Bye
+Dialogue: 0,0:21:30.07,0:21:32.04,Default,NTP,0,0,0,,請開去都築
+Dialogue: 0,0:21:37.95,0:21:39.43,Default,NTP,0,0,0,,那輛車…
+Dialogue: 0,0:21:40.69,0:21:43.94,Default,NTP,0,0,0,,黑色的高級車看起來都長一個樣子
+Dialogue: 0,0:21:44.24,0:21:48.21,Default,NTP,0,0,0,,每個都差不多 不可能每輛都記得很清楚
+Dialogue: 0,0:21:51.80,0:21:53.73,Default,NTP,0,0,0,,我說了違心話
+Dialogue: 0,0:21:54.36,0:21:56.88,Default,NTP,0,0,0,,其實在看到第一眼的時候我就注意到了
+Dialogue: 0,0:21:58.23,0:22:04.53,Default,NTP,0,0,0,,那個暑假 我再也沒有和雪之下雪乃見過面
+Dialogue: 0,0:22:05.72,0:22:09.72,sign,NTP,0,0,0,,301 ⑧總有一天 他們和她們會知道真相
+Dialogue: 0,0:23:42.16,0:23:44.32,Default,NTP,0,0,0,,不要對我抱有那樣的期待
+Dialogue: 0,0:23:45.29,0:23:48.34,Default,NTP,0,0,0,,但是 我想瞭解更多…
+Dialogue: 0,0:23:49.15,0:23:52.27,Default,NTP,0,0,0,,想互相多一些瞭解 讓關係變得更好
+Dialogue: 0,0:23:52.63,0:23:54.32,Default,NTP,0,0,0,,你困擾的時候想幫助你
+Dialogue: 0,0:23:55.73,0:23:56.87,Default,NTP,0,0,0,,所以…
+Dialogue: 0,0:23:58.02,0:23:59.17,Default,NTP,0,0,0,,所以…
+Dialogue: 0,0:24:00.73,0:24:02.95,Default,NTP,0,0,0,,我一定是…
+Dialogue: 0,0:24:04.36,0:24:08.73,Default,NTP,0,0,0,,下回 第三次 他又回到了原來的道路
+Dialogue: 0,0:24:04.17,0:24:09.63,sign,NTP,0,0,0,,281 ⑨第三次 他又回到了原來的道路
+Dialogue: 0,0:00:23.70,0:00:25.70,warning,,0,0,0,,
+Dialogue: 0,0:01:21.89,0:01:24.48,title,NTP,0,0,0,,{\fad(400,0)\b1}{\pos(279,155)}我的{\c&HCB8F07&\2c&HCB8F07&}青春\N{\r}戀愛物語\N{\r\c&HCB8F07&\2c&HCB8F07&}果然有{\r}問題
+Dialogue: 0,0:22:14.81,0:22:16.89,title,NTP,0,0,0,,{\fad(400,0)\c&H000000&\pos(992,126)}我的青春\N戀愛物語\N果然搞錯了
+Dialogue: 0,0:22:16.98,0:22:22.07,EDJ,NTP,0,0,0,,{\K15\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}きら{\K11\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}り{\K173\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}　青い{\K27\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}空{\K16\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}で{\K4\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}光{\K116\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}った
+Dialogue: 0,0:22:23.32,0:22:25.07,EDJ,NTP,0,0,0,,{\K12\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}エ{\K14\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ア{\K14\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}プ{\K17\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}レ{\K16\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ン
+Dialogue: 0,0:22:25.07,0:22:29.11,EDJ,NTP,0,0,0,,{\K12\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}彼{\K12\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}方{\K12\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}の{\K12\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}空{\K15\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}の{\K25\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}彼{\K0\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}方{\K189\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}まで
+Dialogue: 0,0:22:30.07,0:22:36.58,EDJ,NTP,0,0,0,,{\K51\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}胸{\K100\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}に詰{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ま{\K200\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}った　何{\K100\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}かが{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}騒{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}い{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}だ
+Dialogue: 0,0:22:36.75,0:22:42.13,EDJ,NTP,0,0,0,,{\K46\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}言{\K90\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}いた{\K90\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}い気{\K45\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}持{\K42\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ちは{\K9\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}閉{\K18\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}じ{\K21\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}込め
+Dialogue: 0,0:22:43.54,0:22:48.93,EDJ,NTP,0,0,0,,{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}言{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}え{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}な{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}い{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}言{\K98\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}葉に{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}変{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}換{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}す{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(270,470,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}る
+Dialogue: 0,0:22:49.97,0:22:56.56,EDJ,NTP,0,0,0,,{\K95\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}最後{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ま{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}で{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}僕{\K141\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}は　素{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}直{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}じ{\K94\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ゃな{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}く{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(270,470,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}て
+Dialogue: 0,0:22:56.60,0:23:03.23,EDJ,NTP,0,0,0,,{\K45\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}繋{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}が{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}れて{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}た{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}い{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}とわ{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ざと{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}縺{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}れ{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(270,470,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}さ{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(300,500,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}せ{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(330,530,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}て
+Dialogue: 0,0:23:03.23,0:23:06.44,EDJ,NTP,0,0,0,,{\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}切{\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}り{\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}離{\K128\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}した
+Dialogue: 0,0:23:06.48,0:23:13.49,EDJ,NTP,0,0,0,,{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}飛{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}行機{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}雲が{\K132\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}滲んで{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}消え{\K87\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}てし{\K87\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}まう{\K43\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}前{\K43\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}に
+Dialogue: 0,0:23:13.57,0:23:18.08,EDJ,NTP,0,0,0,,{\K76\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}会い{\K76\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}たい{\K38\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}と{\K75\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}いえ{\K37\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}て{\K112\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}たんな{\K37\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ら
+Dialogue: 0,0:23:19.75,0:23:26.80,EDJ,NTP,0,0,0,,{\K32\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}終{\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}わり{\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}のな{\K16\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}い切{\K15\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}なさか{\K161\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ら{\K16\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}も抜{\K19\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}け出{\K24\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}せてい{\K20\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(270,470,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}た{\K272\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(300,500,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}のかな
+Dialogue: 0,0:23:26.88,0:23:31.26,EDJ,NTP,0,0,0,,{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}また{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}君{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}と{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ふ{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}た{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}りぼ{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}っ{\K43\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}ち
+Dialogue: 0,0:23:31.30,0:23:36.10,EDJ,NTP,0,0,0,,{\K67\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Hello {\K58\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Hello {\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Alone
+Dialogue: 0,0:22:16.85,0:22:22.07,EDC,NTP,0,0,0,,{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}在{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}藍{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}藍{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}的{\K141\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}天空 {\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}閃{\K94\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}閃發{\K47\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}光
+Dialogue: 0,0:22:23.32,0:22:25.07,EDC,NTP,0,0,0,,{\K70\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}翱翔{\K35\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}的{\K35\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}飛{\K35\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}機
+Dialogue: 0,0:22:25.07,0:22:29.11,EDC,NTP,0,0,0,,{\K51\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}從{\K51\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}遙{\K51\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}遠{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}的{\K100\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}彼方{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}飛{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}來
+Dialogue: 0,0:22:30.07,0:22:36.58,EDC,NTP,0,0,0,,{\K119\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}胸中{\K60\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}有{\K118\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}某種{\K177\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}感情躁{\K118\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}動不{\K59\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}安
+Dialogue: 0,0:22:36.75,0:22:42.13,EDC,NTP,0,0,0,,{\K50\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}將{\K99\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}想訴{\K98\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}說的{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}心{\K98\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}情緊{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}閉{\K98\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}心間
+Dialogue: 0,0:22:43.54,0:22:48.93,EDC,NTP,0,0,0,,{\K98\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}變換{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}成{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}不{\K98\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}能說{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}出{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}口{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}的{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}話{\K48\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}語
+Dialogue: 0,0:22:49.97,0:22:56.56,EDC,NTP,0,0,0,,{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}直{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}到{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}最{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}後{\K132\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}我都{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}豪{\K132\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}不坦{\K65\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}率
+Dialogue: 0,0:22:56.60,0:23:03.23,EDC,NTP,0,0,0,,{\K67\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}想{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}要{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}聯{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}繫{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}卻{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}糾{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}纏{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}在{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(240,440,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}一{\K66\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(270,470,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}起
+Dialogue: 0,0:23:03.23,0:23:06.44,EDC,NTP,0,0,0,,{\K80\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}隔{\K80\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}斷{\K80\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}分{\K80\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}離
+Dialogue: 0,0:23:06.48,0:23:13.49,EDC,NTP,0,0,0,,{\K70\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}在{\K140\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}飛機{\K140\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}雲擴{\K70\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}散{\K140\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}消失{\K140\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}之前
+Dialogue: 0,0:23:13.57,0:23:18.08,EDC,NTP,0,0,0,,{\K65\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}如果{\K33\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}說{\K32\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}想{\K32\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}要{\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}見面{\K96\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}的話 {\K129\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Wow~
+Dialogue: 0,0:23:19.75,0:23:26.80,EDC,NTP,0,0,0,,{\K59\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}也{\K59\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}想{\K118\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}從無{\K117\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}盡的{\K58\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}苦{\K117\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}悶中{\K117\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}解脫{\K58\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}吧
+Dialogue: 0,0:23:26.88,0:23:31.26,EDC,NTP,0,0,0,,{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}這{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}次又{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}是{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(90,290,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}僅有{\K88\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(120,320,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}我們{\K44\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(150,350,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}兩{\K43\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(180,380,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}個{\K0\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(210,410,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}
+Dialogue: 0,0:23:31.30,0:23:36.10,EDC,NTP,0,0,0,,{\K49\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(0,200,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Hello {\K64\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(30,230,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Hello {\K82\fscy0\1a&HFF\2a&HFF\3a&HFF\4a&HFF\t(60,260,1,\fscy110\1a&H00\2a&H00\3a&H00\4a&HA0)}Alone
+Dialogue: 0,0:23:26.13,0:23:28.13,EDC,,0,0,0,fx,
+

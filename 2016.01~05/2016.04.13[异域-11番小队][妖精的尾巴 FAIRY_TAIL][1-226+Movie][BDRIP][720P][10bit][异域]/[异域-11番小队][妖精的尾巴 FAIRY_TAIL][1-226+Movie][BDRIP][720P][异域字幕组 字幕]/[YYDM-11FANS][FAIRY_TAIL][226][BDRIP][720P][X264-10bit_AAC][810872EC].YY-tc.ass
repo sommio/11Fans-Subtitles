@@ -1,0 +1,389 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 妖精的尾巴 新系列 225
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZCuYuan-M03,47,&H00FFFFFF,&H000000FF,&H1E000000,&H28000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: opc,方正黑体_GBK,32,&H00FFFCEA,&H000000FF,&H1972582D,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
+Style: edc,方正黑体_GBK,32,&H0AD5F4FF,&H000000FF,&H141B65CB,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: Warning,方正大黑_GBK,25,&H00FFFFFF,&HFF0000FF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: Title,方正北魏楷书_GBK,65,&H00FFFFFF,&H000000FF,&H64000000,&H78000000,-1,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.31,0:00:09.48,Default,NTP,0,0,0,,終於完成了
+Dialogue: 0,0:00:10.07,0:00:12.19,Default,NTP,0,0,0,,這就是我的究極香水
+Dialogue: 0,0:00:13.45,0:00:15.36,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:00:40.31,0:00:41.47,Default,NTP,0,0,0,,這件事
+Dialogue: 0,0:00:42.14,0:00:47.48,Default,NTP,0,0,0,,開始於瑪古諾利亞的一個角落
+Dialogue: 0,0:00:48.65,0:00:50.40,Default,NTP,0,0,0,,快點走吧 蕾比還等著呢
+Dialogue: 0,0:00:54.20,0:00:55.86,Default,NTP,0,0,0,,那傢伙在幹什麼呢
+Dialogue: 0,0:00:56.16,0:00:56.86,Default,NTP,0,0,0,,不知道…
+Dialogue: 0,0:00:57.24,0:00:58.41,Default,NTP,0,0,0,,喂 你怎麼了
+Dialogue: 0,0:00:58.62,0:01:00.24,Default,NTP,0,0,0,,身體不舒服嗎
+Dialogue: 0,0:01:04.41,0:01:05.87,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:01:06.37,0:01:08.21,Default,NTP,0,0,0,,藍色天馬的一夜？
+Dialogue: 0,0:01:08.33,0:01:10.25,Default,NTP,0,0,0,,你來瑪古諾利亞幹什麼？
+Dialogue: 0,0:01:13.01,0:01:15.01,Default,NTP,0,0,0,,喂喂 這麼了
+Dialogue: 0,0:01:15.09,0:01:17.59,Default,NTP,0,0,0,,話說一夜是這個體格麼？
+Dialogue: 0,0:01:18.72,0:01:19.76,Default,NTP,0,0,0,,喂喂…
+Dialogue: 0,0:01:22.18,0:01:23.72,Default,NTP,0,0,0,,快…快停下
+Dialogue: 0,0:01:28.44,0:01:30.90,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:03:15.38,0:03:18.92,Default,NTP,0,0,0,,真是的 這份零工是怎麼回事嘛
+Dialogue: 0,0:03:20.26,0:03:22.01,Default,NTP,0,0,0,,不要抱怨好好工作
+Dialogue: 0,0:03:23.22,0:03:26.35,Default,NTP,0,0,0,,今天可是8island瑪古諾利亞店的開業紀念日啊
+Dialogue: 0,0:03:27.77,0:03:29.60,Default,NTP,0,0,0,,開了2號店
+Dialogue: 0,0:03:31.10,0:03:33.44,Default,NTP,0,0,0,,你們幾個還想偷懶到什麼時候
+Dialogue: 0,0:03:33.56,0:03:34.77,Default,NTP,0,0,0,,啊 對不起
+Dialogue: 0,0:03:35.19,0:03:37.40,Default,NTP,0,0,0,,因為是休息時間 不經意就…
+Dialogue: 0,0:03:37.94,0:03:39.36,Default,NTP,0,0,0,,話說回來 艾露莎
+Dialogue: 0,0:03:39.44,0:03:40.74,Default,NTP,0,0,0,,請看看這個
+Dialogue: 0,0:03:40.86,0:03:42.28,Default,NTP,0,0,0,,週刊志怎麼了
+Dialogue: 0,0:03:42.82,0:03:43.78,Default,NTP,0,0,0,,就是這個
+Dialogue: 0,0:03:44.62,0:03:47.20,Default,NTP,0,0,0,,帥哥魔法師排行榜
+Dialogue: 0,0:03:47.24,0:03:49.75,Default,NTP,0,0,0,,哦 每周還有這類報道的啊
+Dialogue: 0,0:03:49.87,0:03:54.63,Default,NTP,0,0,0,,快看這裏 灰大人也榜上有名呢 好厲害
+Dialogue: 0,0:03:54.71,0:03:58.92,Default,NTP,0,0,0,,什麼？說起帥哥的話 不是應該指的一夜那樣的嗎
+Dialogue: 0,0:03:59.09,0:04:00.21,Default,NTP,0,0,0,,哎！
+Dialogue: 0,0:04:00.55,0:04:00.92,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:04:00.97,0:04:04.84,Default,NTP,0,0,0,,你看啊 那傢伙不是一直都自誇俊美無雙嗎
+Dialogue: 0,0:04:05.09,0:04:07.85,Default,NTP,0,0,0,,不是啦 那是他王婆賣瓜 自賣自誇啦
+Dialogue: 0,0:04:08.31,0:04:13.60,Default,NTP,0,0,0,,你看 灰大人和其他魔法師們和一夜完全不一樣啊
+Dialogue: 0,0:04:15.27,0:04:17.65,Default,NTP,0,0,0,,這樣啊 我弄錯了啊
+Dialogue: 0,0:04:17.77,0:04:20.86,Default,NTP,0,0,0,,艾露莎總是讓人充滿了「驚喜」啊…
+Dialogue: 0,0:04:20.90,0:04:22.15,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:04:22.28,0:04:24.99,Default,NTP,0,0,0,,話說傑德和特洛伊好慢啊
+Dialogue: 0,0:04:25.49,0:04:29.95,Default,NTP,0,0,0,,明明還激動地說小蕾比的婚紗裝絕對要看什麼的
+Dialogue: 0,0:04:32.71,0:04:35.67,Default,NTP,0,0,0,,啊 說曹操曹操到
+Dialogue: 0,0:04:36.58,0:04:37.54,Default,NTP,0,0,0,,蕾比…
+Dialogue: 0,0:04:37.96,0:04:38.79,Default,NTP,0,0,0,,蕾比…
+Dialogue: 0,0:04:39.17,0:04:42.80,Default,NTP,0,0,0,,真是的 來太晚了…吧
+Dialogue: 0,0:04:51.97,0:04:53.23,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:05:05.28,0:05:07.82,Default,NTP,0,0,0,,一夜？這是怎麼回事
+Dialogue: 0,0:05:08.07,0:05:10.08,Default,NTP,0,0,0,,我覺得我的精神受到了嚴重創傷
+Dialogue: 0,0:05:11.37,0:05:13.29,Default,NTP,0,0,0,,溫蒂你要堅強一些
+Dialogue: 0,0:05:13.50,0:05:15.46,Default,NTP,0,0,0,,等一下 你們要幹什麼
+Dialogue: 0,0:05:15.66,0:05:18.83,Default,NTP,0,0,0,,不要啊 不要聞過來
+Dialogue: 0,0:05:18.96,0:05:19.71,Default,NTP,0,0,0,,小蕾比
+Dialogue: 0,0:05:19.84,0:05:21.30,Default,NTP,0,0,0,,不能過去啊
+Dialogue: 0,0:05:21.42,0:05:23.38,Default,NTP,0,0,0,,我覺得絕對不能靠近啊
+Dialogue: 0,0:05:23.46,0:05:25.76,Default,NTP,0,0,0,,但是… 小蕾比她
+Dialogue: 0,0:05:27.01,0:05:30.01,Default,NTP,0,0,0,,在叫我嗎 小露
+Dialogue: 0,0:05:30.55,0:05:32.06,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:05:32.97,0:05:36.39,Default,NTP,0,0,0,,啊 不要啊
+Dialogue: 0,0:05:36.81,0:05:38.94,Default,NTP,0,0,0,,被聞到就會傳染嗎
+Dialogue: 0,0:05:39.15,0:05:40.44,Default,NTP,0,0,0,,我們還是快從這裏逃走吧
+Dialogue: 0,0:05:41.82,0:05:43.28,Default,NTP,0,0,0,,可惡的一夜
+Dialogue: 0,0:05:43.69,0:05:45.36,Default,NTP,0,0,0,,和我一決勝負吧
+Dialogue: 0,0:05:45.86,0:05:49.07,Default,NTP,0,0,0,,Men Men
+Dialogue: 0,0:05:49.78,0:05:50.95,Default,NTP,0,0,0,,大家快逃
+Dialogue: 0,0:05:51.45,0:05:52.79,Default,NTP,0,0,0,,這裏交給我吧
+Dialogue: 0,0:05:53.04,0:05:54.45,Default,NTP,0,0,0,,艾露莎 你要小心啊
+Dialogue: 0,0:05:54.75,0:05:57.66,Default,NTP,0,0,0,,要是被聞到 就會變成一夜啊
+Dialogue: 0,0:05:57.75,0:05:58.62,Default,NTP,0,0,0,,不用擔心
+Dialogue: 0,0:05:58.83,0:06:02.38,Default,NTP,0,0,0,,不用擔心 這些一夜的行動好像很遲鈍的樣子
+Dialogue: 0,0:06:07.84,0:06:09.13,Default,NTP,0,0,0,,矢島先生也快點逃比較…
+Dialogue: 0,0:06:14.56,0:06:15.56,Default,NTP,0,0,0,,糟糕了
+Dialogue: 0,0:06:29.45,0:06:31.53,Default,NTP,0,0,0,,不要 不要 快住手啊
+Dialogue: 0,0:06:33.49,0:06:34.74,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:06:39.33,0:06:42.71,Default,NTP,0,0,0,,怎麼辦 城裏被一夜…
+Dialogue: 0,0:06:42.96,0:06:44.71,Default,NTP,0,0,0,,到底要怎麼辦才好啊
+Dialogue: 0,0:06:44.96,0:06:47.09,Default,NTP,0,0,0,,哎？露西不見了
+Dialogue: 0,0:06:47.26,0:06:49.13,Default,NTP,0,0,0,,是跑散了嗎
+Dialogue: 0,0:06:49.26,0:06:51.55,Default,NTP,0,0,0,,畢竟她的行頭不太適合跑動呢
+Dialogue: 0,0:06:54.26,0:06:56.10,Default,NTP,0,0,0,,喂 你們沒事吧
+Dialogue: 0,0:06:56.77,0:06:57.64,Default,NTP,0,0,0,,是灰
+Dialogue: 0,0:06:58.89,0:07:01.35,Default,NTP,0,0,0,,真正的帥哥來救茱比亞了
+Dialogue: 0,0:07:06.15,0:07:08.28,Default,NTP,0,0,0,,這到底是怎麼回事
+Dialogue: 0,0:07:08.44,0:07:10.11,Default,NTP,0,0,0,,全城都是一夜啊
+Dialogue: 0,0:07:10.49,0:07:11.66,Default,NTP,0,0,0,,公會裏怎麼樣了
+Dialogue: 0,0:07:14.16,0:07:16.03,Default,NTP,0,0,0,,簡直不忍直視
+Dialogue: 0,0:07:23.96,0:07:24.67,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:07:24.71,0:07:26.88,Default,NTP,0,0,0,,現在連公會都回不去了啊
+Dialogue: 0,0:07:28.71,0:07:32.59,Default,NTP,0,0,0,,特別是變成一夜的拉克薩斯 完全無法接近
+Dialogue: 0,0:07:32.76,0:07:34.76,Default,NTP,0,0,0,,即使變成一夜也還是一樣強啊
+Dialogue: 0,0:07:34.97,0:07:36.18,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:07:38.18,0:07:39.56,Default,NTP,0,0,0,,還有其他沒中招的傢伙嗎
+Dialogue: 0,0:07:39.85,0:07:41.19,Default,NTP,0,0,0,,也許還有艾露莎和露西
+Dialogue: 0,0:07:41.35,0:07:43.90,Default,NTP,0,0,0,,但是已經走散了
+Dialogue: 0,0:07:44.44,0:07:47.11,Default,NTP,0,0,0,,灰大人 我好害怕
+Dialogue: 0,0:07:47.32,0:07:48.03,Default,NTP,0,0,0,,茱比亞
+Dialogue: 0,0:07:50.78,0:07:52.03,Default,NTP,0,0,0,,不用擔心
+Dialogue: 0,0:07:54.28,0:07:56.16,Default,NTP,0,0,0,,讓我聞一下就好了
+Dialogue: 0,0:07:58.37,0:07:59.66,Default,NTP,0,0,0,,真是好味道
+Dialogue: 0,0:08:00.08,0:08:01.04,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:08:12.84,0:08:15.68,Default,NTP,0,0,0,,大家都沒事吧…
+Dialogue: 0,0:08:19.97,0:08:21.93,Default,NTP,0,0,0,,真是久違的遠足呢
+Dialogue: 0,0:08:22.10,0:08:22.89,Default,NTP,0,0,0,,就是呢
+Dialogue: 0,0:08:23.48,0:08:25.06,Default,NTP,0,0,0,,阿爾扎克 碧斯卡
+Dialogue: 0,0:08:25.19,0:08:26.86,Default,NTP,0,0,0,,小阿絲卡好像也沒事
+Dialogue: 0,0:08:27.86,0:08:29.48,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:08:30.78,0:08:32.69,Default,NTP,0,0,0,,碧斯卡 我愛你
+Dialogue: 0,0:08:33.32,0:08:34.91,Default,NTP,0,0,0,,我也是 阿爾
+Dialogue: 0,0:08:39.16,0:08:39.99,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:08:42.37,0:08:43.58,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:08:47.38,0:08:49.00,Default,NTP,0,0,0,,這裏已經是地獄了
+Dialogue: 0,0:08:49.88,0:08:53.09,Default,NTP,0,0,0,,怎麼辦 怎麼辦啊
+Dialogue: 0,0:08:53.92,0:08:58.22,Default,NTP,0,0,0,,我們…都會變成一夜的
+Dialogue: 0,0:09:26.16,0:09:27.54,Default,NTP,0,0,0,,過來了
+Dialogue: 0,0:09:31.46,0:09:34.05,Default,NTP,0,0,0,,完蛋了
+Dialogue: 0,0:09:35.05,0:09:39.97,Default,NTP,0,0,0,,全瑪古諾利亞的人一定都會變成一夜的
+Dialogue: 0,0:09:40.26,0:09:42.85,Default,NTP,0,0,0,,以這種擴散感染的速度…
+Dialogue: 0,0:09:43.06,0:09:46.06,Default,NTP,0,0,0,,費奧雷全境都會被傳染
+Dialogue: 0,0:09:46.31,0:09:49.02,Default,NTP,0,0,0,,根本沒有可逃之處的
+Dialogue: 0,0:09:50.40,0:09:52.57,Default,NTP,0,0,0,,其他公會的大家也…
+Dialogue: 0,0:09:55.74,0:09:57.11,Default,NTP,0,0,0,,評議院也會…
+Dialogue: 0,0:09:59.03,0:10:00.12,Default,NTP,0,0,0,,就連王都也不例外
+Dialogue: 0,0:10:02.83,0:10:08.00,Default,NTP,0,0,0,,這裏…就是瑪古諾利亞終結的開始
+Dialogue: 0,0:10:13.88,0:10:15.55,Default,NTP,0,0,0,,果然是露西的味道
+Dialogue: 0,0:10:15.67,0:10:17.22,Default,NTP,0,0,0,,看起來好像沒事的說
+Dialogue: 0,0:10:21.93,0:10:24.93,Default,NTP,0,0,0,,夏 哈比
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:10:33.36,0:10:35.94,Default,NTP,0,0,0,,這樣啊 連蕾比他們也…
+Dialogue: 0,0:10:40.82,0:10:43.53,Default,NTP,0,0,0,,夏露露和溫蒂她們沒事吧
+Dialogue: 0,0:10:47.41,0:10:47.91,Default,NTP,0,0,0,,那個是…
+Dialogue: 0,0:10:48.12,0:10:50.46,Default,NTP,0,0,0,,不會吧 矢島先生也…
+Dialogue: 0,0:10:50.58,0:10:51.67,Default,NTP,0,0,0,,艾露莎怎麼樣了
+Dialogue: 0,0:10:52.08,0:10:55.00,Default,NTP,0,0,0,,在被變成一夜的蕾比她們襲擊的時候
+Dialogue: 0,0:10:55.05,0:10:56.76,Default,NTP,0,0,0,,矢島先生是和艾露莎在一起的
+Dialogue: 0,0:10:57.01,0:10:58.72,Default,NTP,0,0,0,,沒準已經…
+Dialogue: 0,0:10:59.01,0:11:00.22,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:11:02.18,0:11:05.39,Default,NTP,0,0,0,,光是想像一下 那破壞力就簡直要醉了
+Dialogue: 0,0:11:12.44,0:11:14.56,Default,NTP,0,0,0,,這裏應該安全吧
+Dialogue: 0,0:11:14.56,0:11:15.98,Default,NTP,0,0,0,,我肚子餓了啊
+Dialogue: 0,0:11:16.02,0:11:18.82,Default,NTP,0,0,0,,至少躲在食物倉庫裏的話還好一點…
+Dialogue: 0,0:11:19.07,0:11:21.41,Default,NTP,0,0,0,,話說 到底發生什麼事了
+Dialogue: 0,0:11:21.53,0:11:23.07,Default,NTP,0,0,0,,雖然不知道發生了什麼
+Dialogue: 0,0:11:23.28,0:11:27.66,Default,NTP,0,0,0,,被一夜化的人聞到的話 好像就會被感染呢
+Dialogue: 0,0:11:27.74,0:11:29.83,Default,NTP,0,0,0,,簡直就像一夜病毒
+Dialogue: 0,0:11:30.00,0:11:34.29,Default,NTP,0,0,0,,雖然循著氣味來找大家 但都已經晚了
+Dialogue: 0,0:11:34.71,0:11:37.34,Default,NTP,0,0,0,,一夜們也是衝著氣味在找人吧
+Dialogue: 0,0:11:37.75,0:11:41.47,Default,NTP,0,0,0,,你因為穿著那個衣服 不怎麼分辨得出氣味了呢
+Dialogue: 0,0:11:41.59,0:11:43.84,Default,NTP,0,0,0,,得感謝這件奇怪的衣服啊…
+Dialogue: 0,0:11:44.39,0:11:47.14,Default,NTP,0,0,0,,話說 你們為啥沒事？
+Dialogue: 0,0:11:47.22,0:11:47.97,Default,NTP,0,0,0,,不知道
+Dialogue: 0,0:11:48.06,0:11:49.31,Default,NTP,0,0,0,,為什麼呢
+Dialogue: 0,0:11:49.56,0:11:51.10,Default,NTP,0,0,0,,等等 你在幹什麼啊
+Dialogue: 0,0:11:51.98,0:11:55.02,Default,NTP,0,0,0,,快看快看 我發現了魚圖案的毛巾
+Dialogue: 0,0:12:01.40,0:12:02.49,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:12:06.87,0:12:07.78,Default,NTP,0,0,0,,不要啊
+Dialogue: 0,0:12:07.99,0:12:09.91,Default,NTP,0,0,0,,可惡 這裏已經被發現了
+Dialogue: 0,0:12:10.00,0:12:11.50,Default,NTP,0,0,0,,對不起的說
+Dialogue: 0,0:00:00.06,0:00:00.06,Default,NTP,0,0,0,,
+Dialogue: 0,0:12:21.55,0:12:23.72,Default,NTP,0,0,0,,總之這個城市已經完蛋了
+Dialogue: 0,0:12:23.80,0:12:26.68,Default,NTP,0,0,0,,只能走下水道逃出這個城市了
+Dialogue: 0,0:12:26.76,0:12:30.77,Default,NTP,0,0,0,,是啊 是不是只能找無人島去避難了呢…
+Dialogue: 0,0:12:31.60,0:12:33.48,Default,NTP,0,0,0,,等等 我好像聞到了什麼味道
+Dialogue: 0,0:12:33.64,0:12:34.77,Default,NTP,0,0,0,,這裏到處都是污水還能聞到？
+Dialogue: 0,0:12:34.81,0:12:35.73,Default,NTP,0,0,0,,快別說了啦
+Dialogue: 0,0:12:37.23,0:12:38.40,Default,NTP,0,0,0,,夏…
+Dialogue: 0,0:12:38.65,0:12:39.32,Default,NTP,0,0,0,,躲開點
+Dialogue: 0,0:12:41.74,0:12:44.70,Default,NTP,0,0,0,,找到你了哦 火龍神 Men
+Dialogue: 0,0:12:44.82,0:12:47.95,Default,NTP,0,0,0,,可別小看了滅龍魔法師的鼻子啊
+Dialogue: 0,0:12:48.03,0:12:49.87,Default,NTP,0,0,0,,一夜化的…伽吉魯？
+Dialogue: 0,0:12:50.12,0:12:51.95,Default,NTP,0,0,0,,還是伽吉魯的一夜？
+Dialogue: 0,0:12:52.04,0:12:53.33,Default,NTP,0,0,0,,這種事都無所謂吧
+Dialogue: 0,0:12:53.75,0:12:54.96,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:12:55.29,0:12:56.12,Default,NTP,0,0,0,,連力利都…
+Dialogue: 0,0:12:57.08,0:12:59.96,Default,NTP,0,0,0,,快逃 被近身聞到的話就完蛋了
+Dialogue: 0,0:13:03.67,0:13:04.88,Default,NTP,0,0,0,,給我等等
+Dialogue: 0,0:13:05.88,0:13:07.34,Default,NTP,0,0,0,,逃也是沒用的
+Dialogue: 0,0:13:08.09,0:13:10.85,Default,NTP,0,0,0,,看樣子他們的行動很遲緩的說
+Dialogue: 0,0:13:10.97,0:13:12.72,Default,NTP,0,0,0,,好勒 走這邊
+Dialogue: 0,0:13:13.02,0:13:14.23,Default,NTP,0,0,0,,行動好不方便
+Dialogue: 0,0:13:14.56,0:13:18.15,Default,NTP,0,0,0,,Men 火龍神 哈比
+Dialogue: 0,0:13:18.27,0:13:19.31,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:13:19.65,0:13:22.98,Default,NTP,0,0,0,,他們…沒有覺察到露西嗎
+Dialogue: 0,0:13:23.74,0:13:25.24,Default,NTP,0,0,0,,那個衣服好厲害
+Dialogue: 0,0:13:26.28,0:13:28.28,Default,NTP,0,0,0,,很好 我想到了個好點子
+Dialogue: 0,0:13:40.46,0:13:43.21,Default,NTP,0,0,0,,火龍神 Men
+Dialogue: 0,0:13:43.30,0:13:46.09,Default,NTP,0,0,0,,哈比 Men
+Dialogue: 0,0:13:46.72,0:13:47.34,Default,NTP,0,0,0,,走了嗎
+Dialogue: 0,0:13:47.63,0:13:49.22,Default,NTP,0,0,0,,好痛苦的說 夏
+Dialogue: 0,0:13:49.30,0:13:50.35,Default,NTP,0,0,0,,別說話啊
+Dialogue: 0,0:13:50.35,0:13:51.14,Default,NTP,0,0,0,,一身汗臭啊…
+Dialogue: 0,0:13:51.18,0:13:53.06,Default,NTP,0,0,0,,別說話 氣息都噴到我後背上了啦
+Dialogue: 0,0:13:54.52,0:13:55.52,Default,NTP,0,0,0,,等…
+Dialogue: 0,0:14:03.86,0:14:04.48,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:14:05.49,0:14:07.74,Default,NTP,0,0,0,,羅梅…不對 羅密歐？
+Dialogue: 0,0:14:07.90,0:14:08.74,Default,NTP,0,0,0,,溫蒂姐
+Dialogue: 0,0:14:09.16,0:14:09.99,Default,NTP,0,0,0,,你沒事啊
+Dialogue: 0,0:14:10.28,0:14:14.91,Default,NTP,0,0,0,,是啊 但是爸爸已經不行了 瓦卡巴叔叔也是
+Dialogue: 0,0:14:15.45,0:14:16.83,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:14:18.04,0:14:19.50,Default,NTP,0,0,0,,到底會變成什麼樣啊
+Dialogue: 0,0:14:19.79,0:14:21.38,Default,NTP,0,0,0,,不能說喪氣話哦
+Dialogue: 0,0:14:21.84,0:14:25.63,Default,NTP,0,0,0,,我好像找到他們的弱點了
+Dialogue: 0,0:14:26.46,0:14:27.05,Default,NTP,0,0,0,,真的嗎？
+Dialogue: 0,0:14:27.42,0:14:29.97,Default,NTP,0,0,0,,我有件事想確認一下 跟我來
+Dialogue: 0,0:14:35.64,0:14:36.89,Default,NTP,0,0,0,,不會讓你們逃跑的
+Dialogue: 0,0:14:36.98,0:14:38.35,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:14:40.06,0:14:40.65,Default,NTP,0,0,0,,糟了
+Dialogue: 0,0:14:41.27,0:14:41.90,Default,NTP,0,0,0,,這邊也…
+Dialogue: 0,0:14:42.48,0:14:43.36,Default,NTP,0,0,0,,怎麼會
+Dialogue: 0,0:14:50.99,0:14:53.66,Default,NTP,0,0,0,,被聞味道也是時間問題了啊
+Dialogue: 0,0:14:53.78,0:14:55.87,Default,NTP,0,0,0,,又不能和他們戰鬥…
+Dialogue: 0,0:14:56.41,0:14:58.66,Default,NTP,0,0,0,,溫蒂姐 和夏露露一起飛走吧
+Dialogue: 0,0:14:59.12,0:15:00.79,Default,NTP,0,0,0,,但是那樣的話羅密歐你就…
+Dialogue: 0,0:15:00.96,0:15:03.13,Default,NTP,0,0,0,,不要管我 比起這個
+Dialogue: 0,0:15:03.17,0:15:05.84,Default,NTP,0,0,0,,到了空中就去找夏哥哥
+Dialogue: 0,0:15:06.21,0:15:08.21,Default,NTP,0,0,0,,夏？為什麼
+Dialogue: 0,0:15:08.30,0:15:09.72,Default,NTP,0,0,0,,溫蒂 我們得走了
+Dialogue: 0,0:15:10.38,0:15:12.34,Default,NTP,0,0,0,,抱歉了 羅密歐
+Dialogue: 0,0:15:12.51,0:15:13.47,Default,NTP,0,0,0,,羅密歐
+Dialogue: 0,0:15:13.72,0:15:15.64,Default,NTP,0,0,0,,拜託你了 溫蒂姐
+Dialogue: 0,0:15:16.10,0:15:18.39,Default,NTP,0,0,0,,夏哥哥的話 一定可以…
+Dialogue: 0,0:15:18.60,0:15:19.98,Default,NTP,0,0,0,,羅密歐
+Dialogue: 0,0:15:20.23,0:15:21.81,Default,NTP,0,0,0,,不要看 溫蒂
+Dialogue: 0,0:15:28.57,0:15:30.70,Default,NTP,0,0,0,,現在不是哭的時候 溫蒂
+Dialogue: 0,0:15:31.32,0:15:35.74,Default,NTP,0,0,0,,不能讓羅密歐的犧牲白費 我們趕快去找夏吧
+Dialogue: 0,0:15:35.99,0:15:36.62,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:15:38.79,0:15:41.67,Default,NTP,0,0,0,,真是的 什麼好點子嘛
+Dialogue: 0,0:15:41.75,0:15:43.92,Default,NTP,0,0,0,,難得的防護服的說
+Dialogue: 0,0:15:44.08,0:15:46.54,Default,NTP,0,0,0,,想法本身我覺得還是很好的嘛
+Dialogue: 0,0:15:46.59,0:15:47.21,Default,NTP,0,0,0,,是的說
+Dialogue: 0,0:15:47.38,0:15:50.55,Default,NTP,0,0,0,,但是 應該差不多能走出瑪古諾利亞了吧
+Dialogue: 0,0:15:53.26,0:15:54.09,Default,NTP,0,0,0,,什麼聲音
+Dialogue: 0,0:15:54.39,0:15:56.93,Default,NTP,0,0,0,,可惡 在下水道鼻子都不靈了
+Dialogue: 0,0:15:57.51,0:15:58.10,Default,NTP,0,0,0,,夏…
+Dialogue: 0,0:15:58.43,0:15:59.06,Default,NTP,0,0,0,,糟糕了
+Dialogue: 0,0:15:59.18,0:16:01.43,Default,NTP,0,0,0,,你在那裏啊 火龍神
+Dialogue: 0,0:16:02.60,0:16:06.40,Default,NTP,0,0,0,,還有露西也是 真是不錯的氣味
+Dialogue: 0,0:16:06.77,0:16:08.32,Default,NTP,0,0,0,,夏 那邊也有人過來了的說
+Dialogue: 0,0:16:08.48,0:16:09.36,Default,NTP,0,0,0,,什麼時候…
+Dialogue: 0,0:16:10.78,0:16:11.53,Default,NTP,0,0,0,,後面也…
+Dialogue: 0,0:16:11.78,0:16:13.28,Default,NTP,0,0,0,,被包圍了的說
+Dialogue: 0,0:16:13.45,0:16:14.86,Default,NTP,0,0,0,,沒地方逃了
+Dialogue: 0,0:16:15.62,0:16:17.66,Default,NTP,0,0,0,,看來只好殺出一條血路逃跑了
+Dialogue: 0,0:16:17.74,0:16:18.58,Default,NTP,0,0,0,,太亂來了啊
+Dialogue: 0,0:16:18.95,0:16:19.62,Default,NTP,0,0,0,,哈比
+Dialogue: 0,0:16:19.62,0:16:21.04,Default,NTP,0,0,0,,好的說
+Dialogue: 0,0:16:21.29,0:16:22.41,Default,NTP,0,0,0,,露西 到背上來
+Dialogue: 0,0:16:22.83,0:16:23.92,Default,NTP,0,0,0,,我知道了啦
+Dialogue: 0,0:16:24.37,0:16:28.00,Default,NTP,0,0,0,,既然你們這麼想聞味道的話 就讓你們聞個夠吧
+Dialogue: 0,0:16:28.21,0:16:29.34,Default,NTP,0,0,0,,火龍的…
+Dialogue: 0,0:16:30.38,0:16:32.84,Default,NTP,0,0,0,,咆哮
+Dialogue: 0,0:17:02.45,0:17:04.37,Default,NTP,0,0,0,,好…好可怕
+Dialogue: 0,0:17:05.33,0:17:07.25,Default,NTP,0,0,0,,瑪古諾利亞到處都是一夜
+Dialogue: 0,0:17:07.63,0:17:08.84,Default,NTP,0,0,0,,這太可怕了
+Dialogue: 0,0:17:09.46,0:17:12.76,Default,NTP,0,0,0,,夏 帶著兩個人飛太勉強了啦
+Dialogue: 0,0:17:12.92,0:17:14.09,Default,NTP,0,0,0,,加油啊哈比
+Dialogue: 0,0:17:14.22,0:17:17.18,Default,NTP,0,0,0,,好…好重
+Dialogue: 0,0:17:17.39,0:17:18.30,Default,NTP,0,0,0,,夏
+Dialogue: 0,0:17:18.51,0:17:20.01,Default,NTP,0,0,0,,哈比 露西也在啊
+Dialogue: 0,0:17:20.31,0:17:21.14,Default,NTP,0,0,0,,哦
+Dialogue: 0,0:17:21.31,0:17:22.85,Default,NTP,0,0,0,,你們兩個都沒事啊
+Dialogue: 0,0:17:23.39,0:17:26.02,Default,NTP,0,0,0,,夏露露 你沒事真是太好了
+Dialogue: 0,0:17:26.14,0:17:27.10,Default,NTP,0,0,0,,我說哈比…
+Dialogue: 0,0:17:27.31,0:17:31.98,Default,NTP,0,0,0,,夏 羅密歐好像發現了一夜他們的弱點
+Dialogue: 0,0:17:32.23,0:17:32.86,Default,NTP,0,0,0,,真的？
+Dialogue: 0,0:17:33.15,0:17:35.07,Default,NTP,0,0,0,,雖然羅密歐已經淪陷了…
+Dialogue: 0,0:17:35.28,0:17:36.15,Default,NTP,0,0,0,,是嘛…
+Dialogue: 0,0:17:36.61,0:17:39.91,Default,NTP,0,0,0,,羅密歐讓我們來找夏
+Dialogue: 0,0:17:40.99,0:17:41.74,Default,NTP,0,0,0,,我？
+Dialogue: 0,0:17:41.33,0:17:43.91,Default,NTP,0,0,0,,{\pos(230,710)}夏…要掉下去了的說
+Dialogue: 0,0:17:44.00,0:17:44.95,Default,NTP,0,0,0,,羅密歐說找我？
+Dialogue: 0,0:17:44.95,0:17:46.16,Default,NTP,0,0,0,,{\pos(230,710)}要掉了掉了
+Dialogue: 0,0:17:46.29,0:17:51.88,Default,NTP,0,0,0,,夏 手要斷了的說
+Dialogue: 0,0:17:52.80,0:17:53.30,Default,NTP,0,0,0,,啊
+Dialogue: 0,0:17:53.55,0:17:54.26,Default,NTP,0,0,0,,夏？
+Dialogue: 0,0:17:54.42,0:17:55.47,Default,NTP,0,0,0,,你知道什麼了嗎
+Dialogue: 0,0:17:55.92,0:17:57.72,Default,NTP,0,0,0,,露西 放開我
+Dialogue: 0,0:17:58.64,0:17:59.84,Default,NTP,0,0,0,,行了 快聽話照做
+Dialogue: 0,0:18:00.14,0:18:01.39,Default,NTP,0,0,0,,真的可以信你吧？
+Dialogue: 0,0:18:01.72,0:18:02.35,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:18:04.10,0:18:05.56,Default,NTP,0,0,0,,夏 那就拜託你了
+Dialogue: 0,0:18:05.68,0:18:07.98,Default,NTP,0,0,0,,交給我吧
+Dialogue: 0,0:18:23.41,0:18:26.00,Default,NTP,0,0,0,,還好一夜他們行動很遲緩呢
+Dialogue: 0,0:18:26.25,0:18:27.54,Default,NTP,0,0,0,,真不愧是夏
+Dialogue: 0,0:18:27.75,0:18:30.13,Default,NTP,0,0,0,,好沉…手要斷了的說
+Dialogue: 0,0:18:30.21,0:18:31.33,Default,NTP,0,0,0,,現在還要說嗎
+Dialogue: 0,0:18:31.88,0:18:34.67,Default,NTP,0,0,0,,但是 這是朝著哪裏去呢
+Dialogue: 0,0:18:35.67,0:18:38.05,Default,NTP,0,0,0,,奇怪 但是那個方向是…
+Dialogue: 0,0:18:38.88,0:18:40.30,Default,NTP,0,0,0,,喂 你們幾個
+Dialogue: 0,0:18:40.84,0:18:41.76,Default,NTP,0,0,0,,幹什麼嘛
+Dialogue: 0,0:18:41.89,0:18:44.72,Default,NTP,0,0,0,,有味兒 又沒有洗澡嗎
+Dialogue: 0,0:18:44.93,0:18:47.27,Default,NTP,0,0,0,,因為真的很麻煩嘛
+Dialogue: 0,0:18:47.48,0:18:48.39,Default,NTP,0,0,0,,是的說
+Dialogue: 0,0:18:48.48,0:18:52.27,Default,NTP,0,0,0,,一兩天不洗澡也沒什麼關係吧 艾露莎姐
+Dialogue: 0,0:18:52.65,0:18:56.07,Default,NTP,0,0,0,,今天可是矢島先生的開店紀念日啊
+Dialogue: 0,0:18:56.19,0:18:59.15,Default,NTP,0,0,0,,你們不會是想就這麼去吧
+Dialogue: 0,0:19:13.88,0:19:15.00,Default,NTP,0,0,0,,借你們這個
+Dialogue: 0,0:19:15.84,0:19:16.55,Default,NTP,0,0,0,,那是什麼
+Dialogue: 0,0:19:17.30,0:19:18.84,Default,NTP,0,0,0,,除臭劑
+Dialogue: 0,0:19:19.26,0:19:21.22,Default,NTP,0,0,0,,之後可要好好去洗個澡啊
+Dialogue: 0,0:19:21.43,0:19:22.93,Default,NTP,0,0,0,,除臭劑？
+Dialogue: 0,0:19:29.77,0:19:31.35,Default,NTP,0,0,0,,哦 好厲害
+Dialogue: 0,0:19:31.85,0:19:33.61,Default,NTP,0,0,0,,用了這個就沒味道了哦
+Dialogue: 0,0:19:33.77,0:19:35.52,Default,NTP,0,0,0,,夏哥哥 也借我用用
+Dialogue: 0,0:19:35.65,0:19:36.57,Default,NTP,0,0,0,,咱也要
+Dialogue: 0,0:19:38.23,0:19:42.32,Default,NTP,0,0,0,,那傢伙鼻子那麼靈 卻對自己的味道毫不在意嗎
+Dialogue: 0,0:20:03.26,0:20:04.05,Default,NTP,0,0,0,,有了
+Dialogue: 0,0:20:05.26,0:20:06.05,Default,NTP,0,0,0,,拉克薩斯
+Dialogue: 0,0:20:08.81,0:20:11.43,Default,NTP,0,0,0,,Men 真是不錯的味道
+Dialogue: 0,0:20:11.98,0:20:14.56,Default,NTP,0,0,0,,我現在可沒空和你玩
+Dialogue: 0,0:20:16.15,0:20:17.48,Default,NTP,0,0,0,,夏
+Dialogue: 0,0:20:21.07,0:20:21.86,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:20:21.99,0:20:24.28,Default,NTP,0,0,0,,嘗嘗這個
+Dialogue: 0,0:20:33.33,0:20:35.17,Default,NTP,0,0,0,,我…我這是…
+Dialogue: 0,0:20:41.30,0:20:44.18,Default,NTP,0,0,0,,喂 夏…這都是什麼情況啊
+Dialogue: 0,0:20:44.47,0:20:47.18,Default,NTP,0,0,0,,好勒 大家都快變回原樣吧
+Dialogue: 0,0:20:59.40,0:21:01.57,Default,NTP,0,0,0,,真是的 開什麼玩笑
+Dialogue: 0,0:21:01.99,0:21:04.11,Default,NTP,0,0,0,,當時真以為要不行了
+Dialogue: 0,0:21:04.24,0:21:06.66,Default,NTP,0,0,0,,真是可怕呢 一夜病毒
+Dialogue: 0,0:21:07.03,0:21:09.41,Default,NTP,0,0,0,,結果那到底是什麼啊
+Dialogue: 0,0:21:09.53,0:21:12.54,Default,NTP,0,0,0,,好像是一夜開發的帥哥藥
+Dialogue: 0,0:21:12.75,0:21:14.29,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:21:16.42,0:21:19.13,Default,NTP,0,0,0,,沒想到會入侵到瑪古諾日亞啊
+Dialogue: 0,0:21:19.25,0:21:21.42,Default,NTP,0,0,0,,是對帥哥的…執念吧
+Dialogue: 0,0:21:21.67,0:21:26.30,Default,NTP,0,0,0,,已經一下子就被認定為魔法禁藥了 可以放心了
+Dialogue: 0,0:21:28.01,0:21:29.01,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:21:29.10,0:21:30.39,Default,NTP,0,0,0,,這也是當然的
+Dialogue: 0,0:21:30.76,0:21:34.23,Default,NTP,0,0,0,,一想到如果沒有除臭劑的情況 就讓人毛骨悚然呢
+Dialogue: 0,0:21:34.68,0:21:41.40,Default,NTP,0,0,0,,也有知道自己變成了一夜 一時半會兒振作不起來的人在呢
+Dialogue: 0,0:21:41.73,0:21:43.19,Default,NTP,0,0,0,,說起來艾露莎也變了吧
+Dialogue: 0,0:21:44.28,0:21:45.49,Default,NTP,0,0,0,,你真敢說啊
+Dialogue: 0,0:21:45.99,0:21:46.95,Default,NTP,0,0,0,,一團亂啊
+Dialogue: 0,0:21:47.11,0:21:48.99,Default,NTP,0,0,0,,已經嫁不出去了
+Dialogue: 0,0:21:49.07,0:21:50.66,Default,NTP,0,0,0,,你們太大驚小怪了啦
+Dialogue: 0,0:21:50.91,0:21:53.33,Default,NTP,0,0,0,,話說回來真是大功一件呢 夏
+Dialogue: 0,0:21:53.54,0:21:54.54,Default,NTP,0,0,0,,那是
+Dialogue: 0,0:21:54.66,0:21:56.37,Default,NTP,0,0,0,,不是帥哥也沒關係
+Dialogue: 0,0:21:57.46,0:21:59.17,Default,NTP,0,0,0,,只要心地好就可以了
+Dialogue: 0,0:22:00.00,0:22:02.38,Default,NTP,0,0,0,,{\fad(0,855)}總覺得很讓人生氣啊
+Dialogue: 0,0:00:00.06,0:00:00.06,Default,NTP,0,0,0,,
+Dialogue: 0,0:23:38.47,0:23:40.27,Default,NTP,0,0,0,,好了 是時候洗個澡了
+Dialogue: 0,0:23:40.69,0:23:42.60,Default,NTP,0,0,0,,就是這樣 借用一下浴室哦露西
+Dialogue: 0,0:23:42.73,0:23:45.82,Default,NTP,0,0,0,,我家？為什麼會變成這樣啊
+Dialogue: 0,0:23:46.02,0:23:47.44,Default,NTP,0,0,0,,快走了 哈比
+Dialogue: 0,0:23:47.69,0:23:48.53,Default,NTP,0,0,0,,好的說
+Dialogue: 0,0:23:49.07,0:23:51.07,Default,NTP,0,0,0,,我說夏
+Dialogue: 0,0:23:53.24,0:23:55.95,Default,NTP,0,0,0,,Men
+Dialogue: 0,0:23:57.08,0:23:59.04,Default,NTP,0,0,0,,因為大魔斗演武上的功績
+Dialogue: 0,0:23:59.20,0:24:02.12,Default,NTP,0,0,0,,重回了往日興盛的妖精的尾巴
+Dialogue: 0,0:24:02.71,0:24:04.50,Default,NTP,0,0,0,,接到了許許多多的委託
+Dialogue: 0,0:24:04.71,0:24:08.30,Default,NTP,0,0,0,,魔法師們的生活也過得非常充實
+Dialogue: 0,0:24:08.84,0:24:09.80,Default,NTP,0,0,0,,然而有一天
+Dialogue: 0,0:24:10.26,0:24:14.14,Default,NTP,0,0,0,,公會接到了一個指明夏和灰的委託
+Dialogue: 0,0:24:14.64,0:24:16.26,Default,NTP,0,0,0,,全公會都為之騷動不已
+Dialogue: 0,0:24:16.39,0:24:18.47,Default,NTP,0,0,0,,沒想到那竟是從「某位人物」那裏接到的委託
+Dialogue: 0,0:24:19.31,0:24:19.81,Default,NTP,0,0,0,,下一話
+Dialogue: 0,0:24:20.14,0:24:21.73,Default,NTP,0,0,0,,新冒險的早晨
+Dialogue: 0,0:24:22.52,0:24:25.61,Default,NTP,0,0,0,,新章 從這裏開啟
+

@@ -1,0 +1,100 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Danna S2
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,75,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,90,90,24,134
+Style: zhushi,FZZhunYuan-M02,54,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,7,30,90,30,134
+Style: biaoti,FZCuQian-M17,90,&H00F9F9F9,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,90,90,30,134
+Style: biaoti2,方正黄草_GBK,147,&H00595959,&HF0000000,&H00F8F8F8,&HF0000000,0,0,0,0,100,100,0,0,1,3,0,2,90,90,30,134
+Style: Warning,Noto Sans CJK SC Medium,54,&H00FFFFFF,&H000000FF,&H00000000,&H3C000000,0,0,0,0,100,100,0,0,1,3,3,8,15,15,21,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:23.06,0:01:25.56,Warning,,0,0,0,,{\an8\fad(400,600)\blur6}本片字幕由異域字幕組(http://www.yyman.com.cn)製作 僅供試看之用 請在24小時內刪除
+Dialogue: 0,0:01:25.56,0:01:28.06,Warning,,0,0,0,,{\an8}{\fad(400,600)\blur6}如果喜歡本作品 請購買並支持正版 如因私自散佈造成的法律問題 本字幕組恕不負責
+Dialogue: 0,0:00:21.50,0:00:24.50,biaoti,NTP,0,0,0,,{\pos(846,543)\1c&H595959&\3c&H595959&}關於老公在說什麼我完全聽不懂這事 第二帖
+Dialogue: 0,0:00:21.50,0:00:24.50,biaoti,,0,0,0,,{\pos(858,537)\bord3.9}關於老公在說什麼我完全聽不懂這事 第二帖
+Dialogue: 0,0:00:21.50,0:00:24.50,biaoti2,NTP,0,0,0,,{\pos(1164,1035)}Snipe Better
+Dialogue: 0,0:00:21.50,0:00:24.50,zhushi,,0,0,0,,{\an1\pos(90,1035)}翻校：ksc319  時後壓：喵碳
+Dialogue: 0,0:00:00.77,0:00:02.41,Default,,0,0,0,,於是就這麼遇到學妹了
+Dialogue: 0,0:00:00.57,0:00:02.28,Default,,0,0,0,,{\fs60\an8}婚後生活還順利嗎？
+Dialogue: 0,0:00:02.60,0:00:04.17,Default,,0,0,0,,很不可思議地順利啊
+Dialogue: 0,0:00:04.36,0:00:05.14,Default,,0,0,0,,話說
+Dialogue: 0,0:00:06.15,0:00:07.45,Default,,0,0,0,,你們之間的相性怎麼樣
+Dialogue: 0,0:00:07.86,0:00:08.70,Default,,0,0,0,,相性？
+Dialogue: 0,0:00:09.21,0:00:11.77,Default,,0,0,0,,從今往後要一起生活幾十年
+Dialogue: 0,0:00:11.86,0:00:13.84,Default,,0,0,0,,所以我認為相性很重要
+Dialogue: 0,0:00:14.57,0:00:15.65,Default,,0,0,0,,原來如此
+Dialogue: 0,0:00:16.03,0:00:17.51,Default,,0,0,0,,就算是身體上的相性很好
+Dialogue: 0,0:00:17.58,0:00:19.54,Default,,0,0,0,,過著過著不也就沒意義了嗎
+Dialogue: 0,0:00:19.94,0:00:21.17,Default,,0,0,0,,別說黃段子啊
+Dialogue: 0,0:00:24.71,0:00:26.76,Default,,0,0,0,,因為在意那話題 結果還是買了
+Dialogue: 0,0:00:27.42,0:00:28.87,Default,,0,0,0,,總而言之先讀讀看吧
+Dialogue: 0,0:00:29.34,0:00:32.36,Default,,0,0,0,,{\fs60\an8\fad(100,100)}檢測你和老公的相性
+Dialogue: 0,0:00:29.34,0:00:32.36,Default,,0,0,0,,我看看……首先作為最大的前提
+Dialogue: 0,0:00:32.26,0:00:35.76,zhushi,,0,0,0,,{\fad(200,200)}美少女戰士中月野兔與馬場衛
+Dialogue: 0,0:00:32.55,0:00:35.90,Default,,0,0,0,,知己知彼相互理解十分重要
+Dialogue: 0,0:00:35.98,0:00:37.39,Default,,0,0,0,,呃……果然
+Dialogue: 0,0:00:38.81,0:00:39.79,Default,,0,0,0,,滾一邊去
+Dialogue: 0,0:00:43.84,0:00:46.49,Default,,0,0,0,,血型方面……我看看
+Dialogue: 0,0:00:46.60,0:00:47.77,Default,,0,0,0,,{\fs60\an8\fad(100,100)}相愛的兩個人的血型
+Dialogue: 0,0:00:48.19,0:00:49.41,Default,,0,0,0,,AB型是…
+Dialogue: 0,0:00:49.82,0:00:51.28,Default,,0,0,0,,{\an8\fs60\fad(100,100)}脫線的行動 有先見性 效率第一 不願與人接觸
+Dialogue: 0,0:00:51.44,0:00:52.61,Default,,0,0,0,,O型是…
+Dialogue: 0,0:00:53.11,0:00:54.78,Default,,0,0,0,,{\fs60\an8\fad(100,100)}富有熱情 粗枝大葉（但對錢比較計較）\N直率的性格 容易嫉妒 母性本能很強
+Dialogue: 0,0:00:54.90,0:00:55.70,Default,,0,0,0,,相性是…
+Dialogue: 0,0:01:00.37,0:01:01.79,Default,,0,0,0,,星  星座的話…
+Dialogue: 0,0:01:02.00,0:01:02.98,Default,,0,0,0,,我看看…
+Dialogue: 0,0:01:03.45,0:01:04.57,Default,,0,0,0,,燃燒吧
+Dialogue: 0,0:01:03.96,0:01:10.04,Default,,0,0,0,,{\fad(500,0)\fs130\an7\pos(100,200)\blur10}射手座
+Dialogue: 0,0:01:05.79,0:01:09.67,Default,,0,0,0,,積極 表裏如一 喜好自由 理想很高
+Dialogue: 0,0:01:05.79,0:01:10.04,zhushi,,0,0,0,,{\an9\fad(200,200)}聖鬥士……星矢……
+Dialogue: 0,0:01:10.84,0:01:18.55,Default,,0,0,0,,{\fad(500,0)\fs130\an7\pos(100,200)\blur10}巨蟹座
+Dialogue: 0,0:01:12.62,0:01:14.85,Default,,0,0,0,,性格柔韌、溫和、善於社交
+Dialogue: 0,0:01:14.88,0:01:18.54,Default,,0,0,0,,感性很強 獨佔欲很強 基本處於被動狀態
+Dialogue: 0,0:01:18.93,0:01:19.76,Default,,0,0,0,,相性是…
+Dialogue: 0,0:01:23.42,0:01:24.46,Default,,0,0,0,,下雨了哦
+Dialogue: 0,0:01:25.03,0:01:26.17,Default,,0,0,0,,晾的衣服
+Dialogue: 0,0:01:29.05,0:01:30.63,Default,,0,0,0,,我去趟便利店
+Dialogue: 0,0:01:30.90,0:01:33.20,Default,,0,0,0,,唉？外面可下雨了啊
+Dialogue: 0,0:01:37.28,0:01:39.70,Default,,0,0,0,,原來如此 相性啊
+Dialogue: 0,0:01:40.16,0:01:42.00,Default,,0,0,0,,抱歉啦 工作時候打擾你
+Dialogue: 0,0:01:42.24,0:01:44.58,Default,,0,0,0,,今天我只上早班 不介意的
+Dialogue: 0,0:01:45.13,0:01:46.67,Default,,0,0,0,,為什麼來我這了
+Dialogue: 0,0:01:47.30,0:01:50.18,Default,,0,0,0,,因為你頭腦最好 還是醫生
+Dialogue: 0,0:01:53.46,0:01:54.33,Default,,0,0,0,,你怎麼想？
+Dialogue: 0,0:01:55.17,0:01:58.94,Default,,0,0,0,,怎麼說呢 看到這種板上釘釘一樣的事有些不安
+Dialogue: 0,0:01:59.58,0:02:00.76,Default,,0,0,0,,「感謝太太發糖」
+Dialogue: 0,0:02:02.31,0:02:04.85,Default,,0,0,0,,…你老公就會這麼說吧
+Dialogue: 0,0:02:05.77,0:02:09.20,Default,,0,0,0,,我的話會給你說別秀恩愛和燒死異端吧
+Dialogue: 0,0:02:11.37,0:02:15.22,Default,,0,0,0,,太過幸福的話反而會感受不到幸福的 人類這東西
+Dialogue: 0,0:02:15.81,0:02:17.00,Default,,0,0,0,,你現在又如何呢？
+Dialogue: 0,0:02:17.56,0:02:18.74,Default,,0,0,0,,趕緊回去吧
+Dialogue: 0,0:02:27.12,0:02:28.88,Default,,0,0,0,,田中小姐打來電話了
+Dialogue: 0,0:02:30.15,0:02:30.67,Default,,0,0,0,,這樣啊
+Dialogue: 0,0:02:32.09,0:02:34.77,Default,,0,0,0,,我和你好像相性差極了
+Dialogue: 0,0:02:36.42,0:02:37.62,Default,,0,0,0,,火星人辛苦了
+Dialogue: 0,0:02:39.57,0:02:41.89,Default,,0,0,0,,那種東西我老早之前就在網上查過了
+Dialogue: 0,0:02:42.68,0:02:46.40,Default,,0,0,0,,我不去在乎這些事是因為和薰做過了那個的關係吧
+Dialogue: 0,0:02:47.14,0:02:49.57,Default,,0,0,0,,那個？什麼啊 告訴我啊
+Dialogue: 0,0:02:50.73,0:02:51.38,Default,,0,0,0,,好啊
+Dialogue: 0,0:02:57.40,0:02:59.13,Default,,0,0,0,,你看 很簡單吧
+

@@ -1,0 +1,491 @@
+# VobSub index file, v7 (do not modify this line!)
+# 
+# To repair desyncronization, you can insert gaps this way:
+# (it usually happens after vob id changes)
+# 
+#	 delay: [sign]hh:mm:ss:ms
+# 
+# Where:
+#	 [sign]: +, - (optional)
+#	 hh: hours (0 <= hh)
+#	 mm/ss: minutes/seconds (0 <= mm/ss <= 59)
+#	 ms: milliseconds (0 <= ms <= 999)
+# 
+#	 Note: You can't position a sub before the previous with a negative value.
+# 
+# You can also modify timestamps or delete a few subs you don't like.
+# Just make sure they stay in increasing order.
+
+
+# Settings
+
+# Original frame size
+size: 720x480
+
+# Origin, relative to the upper-left corner, can be overloaded by aligment
+org: 0, 0
+
+# Image scaling (hor,ver), origin is at the upper-left corner or at the alignment coord (x, y)
+scale: 100%, 100%
+
+# Alpha blending
+alpha: 100%
+
+# Smoothing for very blocky images (use OLD for no filtering)
+smooth: OFF
+
+# In millisecs
+fadein/out: 50, 50
+
+# Force subtitle placement relative to (org.x, org.y)
+align: OFF at LEFT TOP
+
+# For correcting non-progressive desync. (in millisecs or hh:mm:ss:ms)
+# Note: Not effective in DirectVobSub, use "delay: ... " instead.
+time offset: 0
+
+# ON: displays only forced subtitles, OFF: shows everything
+forced subs: OFF
+
+# The original palette of the DVD
+palette: 000000, 1f1f1f, ffffff, e63f07, 7e7e7e, bebebe, 14bef3, ea12eb, faff1a, 000070, 067506, 731f03, 095f78, 750975, 7c950b, ffffff
+
+# Custom colors (transp idxs and the four colors)
+custom colors: OFF, tridx: 0000, colors: 000000, 000000, 000000, 000000
+
+# Language index in use
+langidx: 0
+
+# Chinese
+id: zh, index: 0
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: Chinese
+# Vob/Cell ID: 1, 1 (PTS: 0)
+timestamp: 00:00:03:069, filepos: 000000000
+timestamp: 00:00:08:775, filepos: 000001000
+timestamp: 00:00:14:147, filepos: 000002000
+timestamp: 00:00:20:020, filepos: 000003000
+timestamp: 00:00:48:081, filepos: 000004000
+timestamp: 00:01:00:827, filepos: 000005800
+timestamp: 00:01:06:299, filepos: 000006800
+timestamp: 00:01:18:278, filepos: 000008000
+# Vob/Cell ID: 1, 2 (PTS: 90023)
+timestamp: 00:01:47:941, filepos: 000009000
+timestamp: 00:02:02:155, filepos: 00000a000
+timestamp: 00:02:03:756, filepos: 00000a800
+timestamp: 00:02:06:893, filepos: 00000b800
+timestamp: 00:02:28:448, filepos: 00000c800
+timestamp: 00:02:35:155, filepos: 00000e000
+timestamp: 00:02:37:457, filepos: 00000f000
+timestamp: 00:02:39:559, filepos: 000010000
+timestamp: 00:02:41:394, filepos: 000010800
+timestamp: 00:02:43:530, filepos: 000011800
+timestamp: 00:02:46:633, filepos: 000012800
+timestamp: 00:02:49:602, filepos: 000013800
+timestamp: 00:02:52:272, filepos: 000014800
+timestamp: 00:02:54:874, filepos: 000015800
+timestamp: 00:03:04:250, filepos: 000016800
+timestamp: 00:03:06:653, filepos: 000017800
+timestamp: 00:03:10:190, filepos: 000018800
+timestamp: 00:03:13:993, filepos: 00001a000
+timestamp: 00:03:15:962, filepos: 00001b000
+timestamp: 00:03:18:998, filepos: 00001c000
+timestamp: 00:03:20:900, filepos: 00001d000
+timestamp: 00:03:25:071, filepos: 00001e000
+timestamp: 00:03:28:274, filepos: 00001f000
+timestamp: 00:03:31:678, filepos: 000020000
+timestamp: 00:03:35:381, filepos: 000021000
+timestamp: 00:03:39:052, filepos: 000022000
+timestamp: 00:03:40:687, filepos: 000023000
+timestamp: 00:03:44:824, filepos: 000024000
+timestamp: 00:03:50:597, filepos: 000025000
+timestamp: 00:03:55:168, filepos: 000025800
+timestamp: 00:03:58:104, filepos: 000026800
+timestamp: 00:04:02:875, filepos: 000028000
+timestamp: 00:04:06:446, filepos: 000029000
+timestamp: 00:04:10:250, filepos: 00002a000
+timestamp: 00:04:13:753, filepos: 00002b000
+timestamp: 00:04:14:454, filepos: 00002b800
+timestamp: 00:04:18:024, filepos: 00002d000
+timestamp: 00:04:23:363, filepos: 00002e800
+timestamp: 00:04:25:298, filepos: 00002f000
+timestamp: 00:04:28:268, filepos: 000030000
+timestamp: 00:04:50:089, filepos: 000031000
+timestamp: 00:04:53:326, filepos: 000032000
+timestamp: 00:05:01:000, filepos: 000033000
+timestamp: 00:05:04:270, filepos: 000034000
+timestamp: 00:05:06:773, filepos: 000035000
+timestamp: 00:05:08:975, filepos: 000036000
+timestamp: 00:05:13:279, filepos: 000037000
+timestamp: 00:05:15:682, filepos: 000038000
+timestamp: 00:05:18:284, filepos: 000039000
+timestamp: 00:05:22:588, filepos: 00003a000
+timestamp: 00:05:24:424, filepos: 00003a800
+timestamp: 00:05:28:728, filepos: 00003b800
+timestamp: 00:05:31:364, filepos: 00003c000
+timestamp: 00:05:34:033, filepos: 00003d000
+timestamp: 00:06:29:655, filepos: 00003d800
+timestamp: 00:06:31:090, filepos: 00003e800
+timestamp: 00:06:32:258, filepos: 00003f800
+timestamp: 00:06:35:528, filepos: 000040800
+timestamp: 00:06:44:303, filepos: 000041000
+timestamp: 00:06:49:275, filepos: 000041800
+timestamp: 00:06:50:309, filepos: 000042000
+timestamp: 00:06:51:911, filepos: 000043000
+timestamp: 00:07:01:020, filepos: 000044000
+timestamp: 00:07:02:054, filepos: 000044800
+timestamp: 00:07:04:323, filepos: 000045800
+timestamp: 00:07:05:358, filepos: 000046000
+timestamp: 00:07:07:760, filepos: 000047000
+timestamp: 00:07:15:301, filepos: 000047800
+timestamp: 00:07:17:136, filepos: 000048000
+timestamp: 00:07:25:578, filepos: 000048800
+timestamp: 00:07:26:612, filepos: 000049800
+timestamp: 00:07:28:948, filepos: 00004a800
+timestamp: 00:07:31:784, filepos: 00004b800
+timestamp: 00:07:33:419, filepos: 00004c800
+timestamp: 00:07:43:796, filepos: 00004d800
+timestamp: 00:07:52:038, filepos: 00004e800
+timestamp: 00:07:53:840, filepos: 00004f800
+timestamp: 00:07:55:708, filepos: 000050800
+timestamp: 00:07:58:177, filepos: 000051800
+timestamp: 00:08:01:581, filepos: 000052800
+timestamp: 00:08:04:851, filepos: 000053800
+timestamp: 00:08:10:256, filepos: 000054800
+timestamp: 00:08:13:759, filepos: 000055800
+timestamp: 00:08:14:594, filepos: 000056000
+timestamp: 00:08:17:997, filepos: 000057800
+timestamp: 00:08:19:365, filepos: 000058800
+timestamp: 00:08:22:969, filepos: 000059800
+timestamp: 00:08:25:838, filepos: 00005a800
+timestamp: 00:08:29:942, filepos: 00005b000
+timestamp: 00:08:32:144, filepos: 00005b800
+timestamp: 00:08:35:448, filepos: 00005c800
+timestamp: 00:08:36:849, filepos: 00005d000
+timestamp: 00:08:39:318, filepos: 00005e000
+timestamp: 00:08:42:955, filepos: 00005f800
+timestamp: 00:08:47:193, filepos: 000061000
+timestamp: 00:08:51:030, filepos: 000062800
+timestamp: 00:08:51:931, filepos: 000063000
+timestamp: 00:08:55:801, filepos: 000064800
+timestamp: 00:08:57:270, filepos: 000065000
+timestamp: 00:09:00:273, filepos: 000066800
+timestamp: 00:09:04:076, filepos: 000067800
+timestamp: 00:09:08:381, filepos: 000069000
+timestamp: 00:09:11:284, filepos: 00006a000
+timestamp: 00:09:14:520, filepos: 00006b000
+timestamp: 00:09:16:722, filepos: 00006c000
+timestamp: 00:09:17:723, filepos: 00006c800
+timestamp: 00:09:20:092, filepos: 00006d800
+timestamp: 00:09:22:695, filepos: 00006f000
+timestamp: 00:09:23:696, filepos: 00006f800
+timestamp: 00:09:25:998, filepos: 000070800
+timestamp: 00:09:29:168, filepos: 000072000
+timestamp: 00:09:33:673, filepos: 000073800
+timestamp: 00:09:36:709, filepos: 000074800
+timestamp: 00:09:39:078, filepos: 000075000
+timestamp: 00:10:01:133, filepos: 000076800
+timestamp: 00:10:03:235, filepos: 000077800
+timestamp: 00:10:51:651, filepos: 000078000
+timestamp: 00:10:55:254, filepos: 000079000
+timestamp: 00:11:46:672, filepos: 00007a000
+timestamp: 00:11:48:007, filepos: 00007a800
+timestamp: 00:12:11:097, filepos: 00007b800
+timestamp: 00:12:26:345, filepos: 00007c800
+timestamp: 00:12:28:914, filepos: 00007d800
+timestamp: 00:12:30:182, filepos: 00007e800
+timestamp: 00:12:35:855, filepos: 00007f800
+timestamp: 00:13:05:718, filepos: 000080800
+timestamp: 00:13:07:186, filepos: 000081800
+# Vob/Cell ID: 1, 3 (PTS: 789055)
+timestamp: 00:13:25:838, filepos: 000082800
+timestamp: 00:13:28:574, filepos: 000083800
+timestamp: 00:13:30:910, filepos: 000084800
+timestamp: 00:13:33:612, filepos: 000085800
+timestamp: 00:13:37:883, filepos: 000086800
+timestamp: 00:13:49:428, filepos: 000087800
+timestamp: 00:14:03:576, filepos: 000088800
+timestamp: 00:14:05:411, filepos: 000089000
+timestamp: 00:14:07:279, filepos: 00008a000
+timestamp: 00:14:12:785, filepos: 00008a800
+timestamp: 00:14:20:826, filepos: 00008b000
+timestamp: 00:14:23:495, filepos: 00008c000
+timestamp: 00:14:24:763, filepos: 00008c800
+timestamp: 00:14:26:765, filepos: 00008d800
+timestamp: 00:14:31:303, filepos: 00008e800
+timestamp: 00:14:34:740, filepos: 00008f800
+timestamp: 00:14:43:649, filepos: 000090800
+timestamp: 00:14:46:785, filepos: 000091800
+timestamp: 00:14:49:321, filepos: 000093000
+timestamp: 00:14:54:793, filepos: 000093800
+timestamp: 00:15:04:336, filepos: 000094800
+timestamp: 00:15:12:811, filepos: 000095800
+timestamp: 00:15:28:827, filepos: 000096000
+timestamp: 00:15:30:362, filepos: 000097000
+timestamp: 00:15:44:677, filepos: 000098000
+timestamp: 00:15:46:445, filepos: 000099000
+timestamp: 00:15:50:916, filepos: 000099800
+timestamp: 00:15:59:425, filepos: 00009a000
+timestamp: 00:16:03:162, filepos: 00009a800
+timestamp: 00:16:07:633, filepos: 00009b000
+timestamp: 00:16:20:446, filepos: 00009c000
+timestamp: 00:16:23:716, filepos: 00009c800
+timestamp: 00:16:27:653, filepos: 00009d800
+timestamp: 00:16:29:321, filepos: 00009e800
+timestamp: 00:16:35:294, filepos: 00009f800
+timestamp: 00:16:39:898, filepos: 0000a1000
+timestamp: 00:16:41:266, filepos: 0000a1800
+timestamp: 00:16:48:607, filepos: 0000a2800
+timestamp: 00:16:57:649, filepos: 0000a3800
+timestamp: 00:16:59:451, filepos: 0000a4000
+timestamp: 00:17:03:255, filepos: 0000a4800
+timestamp: 00:17:06:859, filepos: 0000a5000
+timestamp: 00:17:27:112, filepos: 0000a6000
+timestamp: 00:17:29:381, filepos: 0000a7000
+timestamp: 00:17:31:116, filepos: 0000a8000
+timestamp: 00:17:34:420, filepos: 0000a9000
+timestamp: 00:17:36:789, filepos: 0000aa000
+timestamp: 00:17:48:133, filepos: 0000ab000
+timestamp: 00:17:51:203, filepos: 0000ac000
+timestamp: 00:17:53:639, filepos: 0000ad000
+timestamp: 00:17:57:743, filepos: 0000ae000
+timestamp: 00:18:00:546, filepos: 0000af000
+timestamp: 00:18:05:551, filepos: 0000b0000
+timestamp: 00:18:09:121, filepos: 0000b1000
+timestamp: 00:18:10:289, filepos: 0000b1800
+timestamp: 00:18:13:225, filepos: 0000b2800
+timestamp: 00:18:15:594, filepos: 0000b3800
+timestamp: 00:18:17:896, filepos: 0000b4800
+timestamp: 00:18:22:601, filepos: 0000b5800
+timestamp: 00:18:26:205, filepos: 0000b6800
+timestamp: 00:18:32:611, filepos: 0000b8000
+timestamp: 00:18:34:580, filepos: 0000b8800
+timestamp: 00:18:36:915, filepos: 0000b9800
+timestamp: 00:18:40:752, filepos: 0000ba800
+timestamp: 00:18:57:069, filepos: 0000bb000
+timestamp: 00:18:59:805, filepos: 0000bc000
+timestamp: 00:19:05:944, filepos: 0000bd000
+timestamp: 00:19:07:813, filepos: 0000bd800
+timestamp: 00:19:18:157, filepos: 0000be000
+timestamp: 00:19:25:597, filepos: 0000bf000
+timestamp: 00:19:30:169, filepos: 0000c0000
+timestamp: 00:19:56:528, filepos: 0000c1000
+timestamp: 00:19:58:530, filepos: 0000c1800
+timestamp: 00:20:03:969, filepos: 0000c2800
+timestamp: 00:20:05:804, filepos: 0000c3000
+timestamp: 00:20:07:806, filepos: 0000c4000
+timestamp: 00:20:09:208, filepos: 0000c4800
+timestamp: 00:20:13:478, filepos: 0000c5800
+timestamp: 00:20:16:248, filepos: 0000c6800
+timestamp: 00:20:21:253, filepos: 0000c8000
+timestamp: 00:20:24:723, filepos: 0000c9000
+timestamp: 00:20:27:593, filepos: 0000ca000
+timestamp: 00:20:34:566, filepos: 0000cb800
+timestamp: 00:20:40:472, filepos: 0000cd000
+timestamp: 00:20:44:509, filepos: 0000ce000
+timestamp: 00:20:51:149, filepos: 0000cf800
+timestamp: 00:20:56:722, filepos: 0000d1000
+timestamp: 00:20:58:423, filepos: 0000d2000
+timestamp: 00:21:02:427, filepos: 0000d3800
+timestamp: 00:21:29:621, filepos: 0000d5000
+timestamp: 00:21:33:725, filepos: 0000d6000
+timestamp: 00:21:38:063, filepos: 0000d7000
+timestamp: 00:21:40:832, filepos: 0000d8000
+timestamp: 00:22:14:232, filepos: 0000d9000
+timestamp: 00:22:27:746, filepos: 0000d9800
+timestamp: 00:22:38:056, filepos: 0000da000
+timestamp: 00:22:39:624, filepos: 0000db000
+timestamp: 00:22:45:564, filepos: 0000dc000
+timestamp: 00:22:52:204, filepos: 0000dc800
+# Vob/Cell ID: 1, 4 (PTS: 1380112)
+timestamp: 00:23:16:461, filepos: 0000dd000
+timestamp: 00:23:20:832, filepos: 0000de000
+timestamp: 00:23:23:769, filepos: 0000df000
+timestamp: 00:23:25:971, filepos: 0000e0000
+timestamp: 00:23:28:940, filepos: 0000e1000
+timestamp: 00:23:32:844, filepos: 0000e2000
+timestamp: 00:23:36:481, filepos: 0000e3000
+timestamp: 00:23:40:752, filepos: 0000e4000
+timestamp: 00:23:43:822, filepos: 0000e5000
+timestamp: 00:23:46:024, filepos: 0000e6000
+timestamp: 00:23:48:894, filepos: 0000e7000
+timestamp: 00:23:52:864, filepos: 0000e8000
+timestamp: 00:23:57:235, filepos: 0000e9000
+timestamp: 00:24:00:972, filepos: 0000ea000
+timestamp: 00:24:05:076, filepos: 0000eb000
+timestamp: 00:24:07:913, filepos: 0000ec000
+timestamp: 00:24:13:418, filepos: 0000ed800
+# Vob/Cell ID: 1, 5 (PTS: 1470135)
+timestamp: 00:24:31:136, filepos: 0000ee800
+timestamp: 00:24:37:409, filepos: 0000ef800
+timestamp: 00:24:39:077, filepos: 0000f0800
+timestamp: 00:24:43:381, filepos: 0000f1800
+timestamp: 00:24:45:717, filepos: 0000f2800
+timestamp: 00:24:48:487, filepos: 0000f3800
+timestamp: 00:24:54:226, filepos: 0000f4800
+timestamp: 00:24:59:231, filepos: 0000f5800
+timestamp: 00:25:02:701, filepos: 0000f6800
+timestamp: 00:25:05:136, filepos: 0000f7800
+timestamp: 00:25:05:604, filepos: 0000f8000
+timestamp: 00:25:08:240, filepos: 0000f9000
+timestamp: 00:25:11:076, filepos: 0000fa000
+timestamp: 00:25:17:749, filepos: 0000fb000
+timestamp: 00:25:20:785, filepos: 0000fc000
+timestamp: 00:25:23:788, filepos: 0000fd000
+timestamp: 00:25:29:427, filepos: 0000fe000
+
+# (Not detected)
+id: --, index: 1
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 2
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 3
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 4
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 5
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 6
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 7
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 8
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 9
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 10
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 11
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 12
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 13
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 14
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 15
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 16
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 17
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 18
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 19
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 20
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 21
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 22
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 23
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 24
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 25
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 26
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 27
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 28
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 29
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 30
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+
+# (Not detected)
+id: --, index: 31
+# Decomment next line to activate alternative name in DirectVobSub / Windows Media Player 6.x
+# alt: (Not detected)
+

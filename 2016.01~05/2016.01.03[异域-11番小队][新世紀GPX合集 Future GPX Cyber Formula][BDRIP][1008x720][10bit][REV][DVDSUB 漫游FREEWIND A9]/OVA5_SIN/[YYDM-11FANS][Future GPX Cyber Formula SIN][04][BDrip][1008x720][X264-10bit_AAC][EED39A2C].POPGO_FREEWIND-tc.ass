@@ -1,0 +1,457 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 1
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DFHeiMedium-UN,24,&H00FFFFFF,&HF0000000,&H00000000,&HC8000000,0,0,0,0,100,100,0,0,1,2,3,2,30,30,10,1
+Style: oped-jp,HGSGyoshotai,28,&H00FFFFFF,&HF00F0F0F,&H1E4643BE,&H32DBC079,0,0,0,0,100,100,0,0,1,2,2,7,20,15,15,1
+Style: oped-cn,HGGyoshotai,26,&H00FFFFFF,&HF0000000,&H1E4643BE,&H32DBC079,-1,0,0,0,100,100,0,0,1,2,2,3,10,30,15,1
+Style: titlelogo1,DFHeiMedium-UN,24,&H00E4DFA0,&HFF000000,&H00000000,&HFFFFFFFF,-1,-1,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: titlelogo2,DFHeiMedium-UN,21,&H00FFFFFF,&HFFFFFFFF,&H00FFFFFF,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,1
+Style: titlelogo3,DFHeiMedium-UN,57,&H00524FD0,&HFFFFFFFF,&H00000000,&HFFFFFFFF,-1,-1,0,0,100,100,0,0,1,3,0,2,30,30,10,1
+Style: staff1,DFHeiMedium-UN,22,&H28FFFFFF,&HFFFFFFFF,&H280F0F0F,&HFFFFFFFF,-1,0,0,0,100,100,0,0,1,2,2,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:05.45,Default,NTP,0,0,0,,{\fad(665,0)}{\move(300,0,173,142)}{\i1}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}漫迷A9字幕組
+Dialogue: 0,0:00:03.37,0:00:05.67,Default,NTP,0,0,0,,{\move(0,240,950,240)}{\i1}{\fs40}{\1c&H1059E0&}{\3c&H1059E0&}漫迷A9字幕組
+Dialogue: 0,0:00:01.00,0:00:05.45,Default,NTP,0,0,0,,{\fad(665,0)}{\move(300,300,220,110)}{\i1}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}漫遊FreeWind工作室
+Dialogue: 0,0:00:03.37,0:00:05.67,Default,NTP,0,0,0,,{\move(0,100,950,140)}{\i1}{\fs40}{\1c&H9F2000&}{\3c&H9F2000&}漫遊FreeWind工作室
+Dialogue: 0,0:00:03.37,0:00:05.67,Default,NTP,0,0,0,,{\move(0,450,950,410)}{\i1}{\fs40}{\1c&H44AA42&}{\3c&H44AA42&}漫遊FreeWind工作室
+Dialogue: 0,0:00:05.45,0:00:07.20,Default,NTP,0,0,0,,{\pos(220,110)}{\i1}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}漫遊FreeWind工作室
+Dialogue: 0,0:00:05.45,0:00:07.20,Default,NTP,0,0,0,,{\pos(173,142)}{\i1}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}漫迷A9字幕組
+Dialogue: 0,0:00:06.75,0:00:12.43,titlelogo1,NTP,0,0,0,,{\fad(500,265)}{\pos(220,110)}漫遊FreeWind工作室
+Dialogue: 0,0:00:06.75,0:00:12.43,titlelogo1,NTP,0,0,0,,{\fad(500,265)}{\pos(173,142)}漫迷A9字幕組
+Dialogue: 0,0:00:06.31,0:00:12.43,titlelogo3,NTP,0,0,0,,{\fad(265,265)}{\pos(470,140)}{\b1}{\1c&H0F0F0F&}{\3c&HFFFFFF&}聯合製作
+Dialogue: 0,0:00:06.75,0:00:12.43,titlelogo3,NTP,0,0,0,,{\fad(500,0)}{\pos(470,140)}聯合製作
+Dialogue: 0,0:00:07.95,0:00:12.43,titlelogo2,NTP,0,0,0,,{\fad(195,0)}{\fs21}{\pos(451,390)}http://www.popgo.net
+Dialogue: 0,0:00:07.95,0:00:12.43,titlelogo2,NTP,0,0,0,,{\fad(195,0)}{\fs21}{\pos(451,420)}http://bbs.manmi.com
+Dialogue: 0,0:00:15.20,0:00:17.19,staff1,NTP,0,0,0,,{\pos(81,445)}{\be1}片  源
+Dialogue: 0,0:00:15.20,0:00:17.19,staff1,NTP,0,0,0,,{\pos(251,445)}{\fs27}{\be1}Bridge-779
+Dialogue: 0,0:00:15.20,0:00:17.19,staff1,NTP,0,0,0,,{\pos(267,460)}{\fs15}{\be1}(漫迷A9字幕組)
+Dialogue: 0,0:00:17.43,0:00:20.78,staff1,NTP,0,0,0,,{\pos(277,436)}{\be1}校  譯
+Dialogue: 0,0:00:17.43,0:00:20.78,staff1,NTP,0,0,0,,{\pos(431,460)}{\fs27}{\be1}莎    莎
+Dialogue: 0,0:00:17.43,0:00:20.78,staff1,NTP,0,0,0,,{\pos(433,475)}{\fs15}{\be1}(漫迷A9字幕組)
+Dialogue: 0,0:00:21.53,0:00:23.47,staff1,NTP,0,0,0,,{\pos(105,160)}{\be1}壓    制
+Dialogue: 0,0:00:21.53,0:00:23.47,staff1,NTP,0,0,0,,{\pos(251,195)}{\fs27}{\be1}風 之 殤
+Dialogue: 0,0:00:21.53,0:00:23.47,staff1,NTP,0,0,0,,{\pos(266,210)}{\fs15}{\be1}(FW工作室)
+Dialogue: 0,0:00:25.43,0:00:29.45,staff1,NTP,0,0,0,,{\pos(308,142)}{\be1}時間軸
+Dialogue: 0,0:00:25.43,0:00:29.45,staff1,NTP,0,0,0,,{\pos(308,165)}{\be1}特  效
+Dialogue: 0,0:00:25.43,0:00:29.45,staff1,NTP,0,0,0,,{\pos(462,155)}{\fs28}{\be1}noir-eve
+Dialogue: 0,0:00:25.43,0:00:29.45,staff1,NTP,0,0,0,,{\pos(475,170)}{\fs15}{\be1}(FW工作室)
+Dialogue: 0,0:00:30.30,0:00:31.51,oped-jp,NTP,0,0,0,,{\fad(50,200)}Lose…
+Dialogue: 0,0:00:32.30,0:00:34.19,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K55}闇{\K18}の{\K54}中{\K45}で
+Dialogue: 0,0:00:35.74,0:00:40.37,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}孤{\K40}独{\K95}{\K60}押し{\K50}寄{\K10}{\K32}せ{\K32}る{\K65}时
+Dialogue: 0,0:00:41.39,0:00:43.02,oped-jp,NTP,0,0,0,,{\fad(50,200)}So loose…
+Dialogue: 0,0:00:44.12,0:00:51.78,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K35}不器{\K42}用{\K65}な{\K200}{\K15}自{\K40}分{\K45}を{\K65}{\K58}责{\K15}め{\K25}て{\K45}し{\K35}ま{\K90}う
+Dialogue: 0,0:00:52.26,0:00:54.66,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}で{\K30}も{\K30}何{\K15}处{\K120}か
+Dialogue: 0,0:00:57.90,0:01:00.37,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K55}远{\K30}い异{\K42}国{\K28}で{\K70}は
+Dialogue: 0,0:01:03.85,0:01:06.62,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K50}太{\K72}阳{\K52}が{\K45}今
+Dialogue: 0,0:01:09.25,0:01:11.89,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}降り{\K40}そ{\K30}そ{\K65}い{\K35}でい{\K70}る
+Dialogue: 0,0:01:14.49,0:01:16.95,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K80}谁{\K25}の{\K80}上{\K15}に{\K40}も
+Dialogue: 0,0:01:17.41,0:01:20.60,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K85}命{\K50}あ{\K65}る{\K20}も{\K10}の{\K75}は
+Dialogue: 0,0:01:20.97,0:01:23.62,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}や{\K20}が{\K20}て{\K20} {\K20}そ{\K20}の{\K110}姿{\K50}を
+Dialogue: 0,0:01:23.84,0:01:27.08,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}消{\K20}し{\K20}て{\K30}{\K20}し{\K20}ま{\K20}{\K20}う{\K15}け{\K90}ど
+Dialogue: 0,0:01:29.10,0:01:32.45,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}君{\K40}を{\K80}守{\K15}{\K15}り{\K30}た{\K60}い
+Dialogue: 0,0:01:32.66,0:01:37.03,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K50}情{\K50}热{\K20}は{\K20}{\K20}绝{\K20}え{\K20}ま{\K10}{\K20}な{\K160}く
+Dialogue: 0,0:01:38.77,0:01:42.81,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}溢{\K16}れ{\K30}て{\K10}{\K20}る{\K30} {\K90}Pray
+Dialogue: 0,0:00:30.26,0:00:31.51,oped-cn,NTP,0,0,0,,{\fad(50,200)}Lose…
+Dialogue: 0,0:00:32.30,0:00:34.19,oped-cn,NTP,0,0,0,,{\fad(50,200)}黑暗中
+Dialogue: 0,0:00:35.74,0:00:40.37,oped-cn,NTP,0,0,0,,{\fad(50,200)}孤獨涌來之時
+Dialogue: 0,0:00:41.39,0:00:43.02,oped-cn,NTP,0,0,0,,{\fad(50,200)}So loose…
+Dialogue: 0,0:00:44.12,0:00:51.78,oped-cn,NTP,0,0,0,,{\fad(50,200)}不斷責備著無用的自己
+Dialogue: 0,0:00:52.26,0:00:54.66,oped-cn,NTP,0,0,0,,{\fad(50,200)}但是不管身在何處
+Dialogue: 0,0:00:57.90,0:01:00.37,oped-cn,NTP,0,0,0,,{\fad(50,200)}即使是遙遠的異國他鄉
+Dialogue: 0,0:01:03.85,0:01:06.62,oped-cn,NTP,0,0,0,,{\fad(50,200)}大陽也始終
+Dialogue: 0,0:01:09.25,0:01:11.89,oped-cn,NTP,0,0,0,,{\fad(50,200)}在那裏照耀著
+Dialogue: 0,0:01:14.49,0:01:16.95,oped-cn,NTP,0,0,0,,{\fad(50,200)}在人們共有的那片天空
+Dialogue: 0,0:01:17.41,0:01:20.60,oped-cn,NTP,0,0,0,,{\fad(50,200)}一切擁有生命的東西
+Dialogue: 0,0:01:20.97,0:01:23.62,oped-cn,NTP,0,0,0,,{\fad(50,200)}儘管 他們的存在
+Dialogue: 0,0:01:23.84,0:01:27.08,oped-cn,NTP,0,0,0,,{\fad(50,200)}最終都會消失
+Dialogue: 0,0:01:29.10,0:01:32.45,oped-cn,NTP,0,0,0,,{\fad(50,200)}但我只想守護著{\fn华文新魏}你
+Dialogue: 0,0:01:32.66,0:01:37.03,oped-cn,NTP,0,0,0,,{\fad(50,200)}那熱情絕不會消失
+Dialogue: 0,0:01:38.77,0:01:42.81,oped-cn,NTP,0,0,0,,{\fad(50,200)}洋溢著 Pray
+Dialogue: 0,0:25:42.41,0:25:45.15,oped-jp,NTP,0,0,0,,{\fad(50,200)}Power of Love
+Dialogue: 0,0:25:54.52,0:25:57.17,oped-jp,NTP,0,0,0,,{\fad(50,200)}Maybe maybe I'd waited for you
+Dialogue: 0,0:25:57.26,0:26:00.70,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K55}き{\K15}み{\K10}に{\K10} {\K10}き{\K10}み{\K10}に {\K50}逢え{\K40}で {\K20}よ{\K40}か{\K05}っ{\K50}た
+Dialogue: 0,0:26:01.10,0:26:07.08,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}身{\K60}体{\K40}中{\K20}で{\K30} {\K90}叫{\K30}ぶ{\K20}{\K40}の{\K140}さ
+Dialogue: 0,0:26:07.41,0:26:09.23,oped-jp,NTP,0,0,0,,{\fad(50,200)}Power of Love
+Dialogue: 0,0:26:14.23,0:26:16.52,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}祈{\K20}る{\K10}{\K30}よ{\K30}う{\K10}{\K40}に
+Dialogue: 0,0:26:17.40,0:26:19.04,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}挑{\K20}む{\K05}{\K30}よ{\K30}う{\K10}{\K20}に
+Dialogue: 0,0:26:19.34,0:26:23.08,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}地{\K20}平{\K20}{\K20}线{\K20}{\K20}を{\K20} {\K20}见{\K20}つ{\K30}{\K30}め{\K80}る
+Dialogue: 0,0:26:23.38,0:26:25.60,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K40}そん{\K20}な {\K20}de{\K30}{\K25}ja-{\K10}{\K40}vu
+Dialogue: 0,0:26:26.41,0:26:28.61,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K20}生{\K20}ま{\K20}れ {\K35}落{\K15}{\K35}ち{\K20}た
+Dialogue: 0,0:26:29.48,0:26:31.36,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K10}使{\K15}{\K30}命{\K05}{\K33}さ{\K35}え{\K35}も
+Dialogue: 0,0:26:31.45,0:26:34.91,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K55}思{\K15}い{\K05}{\K10}出{\K20}せ{\K15}る{\K20}{\K20}佋{\K25}が{\K15}{\K25}す{\K15}{\K75}る
+Dialogue: 0,0:26:35.46,0:26:37.61,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K10}记{\K10}{\K60}忆{\K20}の{\K10}{\K20}果{\K20}{\K50}て
+Dialogue: 0,0:26:37.70,0:26:43.22,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K90}永{\K90}远{\K50}を{\K50}{\K30}目{\K30}指{\K10}{\K30}す{\K20}{\K120}罗针盘
+Dialogue: 0,0:26:43.95,0:26:49.49,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K70}君{\K20}を{\K50}{\K40}今{\K60}{\K45}指{\K45}し{\K45}て{\K120}る
+Dialogue: 0,0:26:50.61,0:26:55.43,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K100}瞳{\K35}で{\K65} {\K70}语{\K35}り{\K15}{\K60}合{\K20}え{\K55}ば
+Dialogue: 0,0:26:55.78,0:27:03.14,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K65}胸{\K35}の{\K75}中{\K55}の{\K55}{\K35}波{\K75}动{\K28}が{\K100} {\K65}响{\K10}き{\K10}{\K15}会{\K15}{\K55}う
+Dialogue: 0,0:27:03.63,0:27:06.35,oped-jp,NTP,0,0,0,,{\fad(50,200)}Maybe maybe I'd be waiting for you
+Dialogue: 0,0:27:06.44,0:27:09.77,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K65}どん{\K25}な{\K10}距{\K20}离{\K20}も{\K15}引{\K15}き{\K55}裂{\K05}{\K15}け{\K15}な{\K20}{\K15}い
+Dialogue: 0,0:27:10.06,0:27:15.50,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K80}信{\K25}じ{\K60}会{\K40}う{\K45}{\K30}ち{\K50}か{\K45}う {\K45}de{\K20}{\K90}sire
+Dialogue: 0,0:27:15.59,0:27:18.66,oped-jp,NTP,0,0,0,,{\fad(50,200)}Never never never so I never escape
+Dialogue: 0,0:27:18.75,0:27:22.00,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K60}何{\K20}度{\K15}で{\K15}も{\K40}巡{\K15}り{\K45}合{\K25}う {\K40}get a {\K15}chance
+Dialogue: 0,0:27:22.38,0:27:28.40,oped-jp,NTP,0,0,0,,{\fad(50,200)}{\K25}ど{\K35}ん{\K35}な{\K05}{\K55}日{\K20}も{\K45} {\K85}感{\K25}じ{\K35}{\K25}て{\K15}{\K180}る
+Dialogue: 0,0:27:28.82,0:27:31.29,oped-jp,NTP,0,0,0,,{\fad(50,200)}Power of Love
+Dialogue: 0,0:25:42.41,0:25:45.15,oped-cn,NTP,0,0,0,,{\fad(50,200)}Power of Love
+Dialogue: 0,0:25:54.52,0:25:57.17,oped-cn,NTP,0,0,0,,{\fad(50,200)}Maybe maybe I'd waited for you
+Dialogue: 0,0:25:57.26,0:26:00.70,oped-cn,NTP,0,0,0,,{\fad(50,200)}遇上{\fn华文新魏}你{\fnHGSGyoshotai}真是太好了
+Dialogue: 0,0:26:01.10,0:26:07.08,oped-cn,NTP,0,0,0,,{\fad(50,200)}在心裏呼叫著
+Dialogue: 0,0:26:07.41,0:26:09.23,oped-cn,NTP,0,0,0,,{\fad(50,200)}Power of Love
+Dialogue: 0,0:26:14.23,0:26:16.52,oped-cn,NTP,0,0,0,,{\fad(50,200)}像是祈求
+Dialogue: 0,0:26:17.40,0:26:19.04,oped-cn,NTP,0,0,0,,{\fad(50,200)}像是挑戰
+Dialogue: 0,0:26:19.34,0:26:23.08,oped-cn,NTP,0,0,0,,{\fad(50,200)}看著地平線
+Dialogue: 0,0:26:23.38,0:26:25.60,oped-cn,NTP,0,0,0,,{\fad(50,200)}那種deja-vu(法文：即視感)
+Dialogue: 0,0:26:26.41,0:26:31.36,oped-cn,NTP,0,0,0,,{\fad(50,200)}放下與生俱來的使命
+Dialogue: 0,0:26:31.45,0:26:34.91,oped-cn,NTP,0,0,0,,{\fad(50,200)}不經意地想起
+Dialogue: 0,0:26:35.46,0:26:37.61,oped-cn,NTP,0,0,0,,{\fad(50,200)}記憶的終結
+Dialogue: 0,0:26:37.70,0:26:49.49,oped-cn,NTP,0,0,0,,{\fad(50,200)}永遠地將{\fn华文新魏}你{\fnHGSGyoshotai}視為指引方向的羅盤
+Dialogue: 0,0:26:50.61,0:26:55.43,oped-cn,NTP,0,0,0,,{\fad(50,200)}閉上眼睛傾聽
+Dialogue: 0,0:26:55.78,0:27:03.14,oped-cn,NTP,0,0,0,,{\fad(50,200)}心中的波動迴盪響起
+Dialogue: 0,0:27:03.63,0:27:06.35,oped-cn,NTP,0,0,0,,{\fad(50,200)}Maybe maybe I'd be waiting for you
+Dialogue: 0,0:27:06.44,0:27:09.77,oped-cn,NTP,0,0,0,,{\fad(50,200)}不管怎樣的距離也不受影響
+Dialogue: 0,0:27:10.06,0:27:15.50,oped-cn,NTP,0,0,0,,{\fad(50,200)}因為相信必然會相會 desire
+Dialogue: 0,0:27:15.59,0:27:18.66,oped-cn,NTP,0,0,0,,{\fad(50,200)}Never never never so I never escape
+Dialogue: 0,0:27:18.75,0:27:22.00,oped-cn,NTP,0,0,0,,{\fad(50,200)}不管相遇多少次 get a chance
+Dialogue: 0,0:27:22.38,0:27:28.40,oped-cn,NTP,0,0,0,,{\fad(50,200)}無論怎樣的日子都能感到
+Dialogue: 0,0:27:28.82,0:27:31.29,oped-cn,NTP,0,0,0,,{\fad(50,200)}Power of Love
+Dialogue: 0,0:02:04.74,0:02:05.95,Default,NTP,0,0,0,,你到底是什麼意思
+Dialogue: 0,0:02:06.24,0:02:08.05,Default,NTP,0,0,0,,偏偏駕駛那個男人的車
+Dialogue: 0,0:02:08.28,0:02:10.15,Default,NTP,0,0,0,,又掛著葵財團的名義…
+Dialogue: 0,0:02:22.82,0:02:26.46,Default,NTP,0,0,0,,我從明日香那裏聽說了…賽車的事
+Dialogue: 0,0:02:27.64,0:02:31.16,Default,NTP,0,0,0,,當然…凰呀確實跟AL-ZARD不一樣
+Dialogue: 0,0:02:31.67,0:02:32.76,Default,NTP,0,0,0,,但是為什麼要...
+Dialogue: 0,0:02:36.05,0:02:36.98,Default,NTP,0,0,0,,為了葵財團...
+Dialogue: 0,0:02:37.48,0:02:38.27,Default,NTP,0,0,0,,不...
+Dialogue: 0,0:02:39.76,0:02:41.10,Default,NTP,0,0,0,,為了今日子?
+Dialogue: 0,0:02:44.11,0:02:46.80,Default,NTP,0,0,0,,這是正式的採訪嗎
+Dialogue: 0,0:03:20.89,0:03:22.23,Default,NTP,0,0,0,,這不是今日子嗎
+Dialogue: 0,0:03:28.07,0:03:32.09,Default,NTP,0,0,0,,作夢也沒想到你會來這個地方
+Dialogue: 0,0:03:33.65,0:03:34.73,Default,NTP,0,0,0,,好久不見
+Dialogue: 0,0:03:37.80,0:03:39.47,Default,NTP,0,0,0,,來，請吧
+Dialogue: 0,0:03:40.08,0:03:41.02,Default,NTP,0,0,0,,先請進來吧
+Dialogue: 0,0:03:41.42,0:03:43.05,Default,NTP,0,0,0,,這…這裏就可以了
+Dialogue: 0,0:03:49.86,0:03:53.76,Default,NTP,0,0,0,,原來如此，你不相信我是嗎
+Dialogue: 0,0:03:56.15,0:03:59.29,Default,NTP,0,0,0,,唉，算了 這也難怪
+Dialogue: 0,0:04:01.36,0:04:02.01,Default,NTP,0,0,0,,可是...
+Dialogue: 0,0:04:02.62,0:04:05.34,Default,NTP,0,0,0,,你這樣子是沒辦法甩我耳光的
+Dialogue: 0,0:04:07.23,0:04:08.89,Default,NTP,0,0,0,,你到底有什麼企圖
+Dialogue: 0,0:04:09.57,0:04:11.49,Default,NTP,0,0,0,,讓加賀開那種車子
+Dialogue: 0,0:04:11.91,0:04:14.13,Default,NTP,0,0,0,,這次你要對他做什麼事
+Dialogue: 0,0:04:15.41,0:04:17.88,Default,NTP,0,0,0,,又不是我逼他上車的
+Dialogue: 0,0:04:18.42,0:04:19.66,Default,NTP,0,0,0,,你別裝傻了
+Dialogue: 0,0:04:20.88,0:04:22.30,Default,NTP,0,0,0,,我並沒有裝傻
+Dialogue: 0,0:04:22.78,0:04:25.70,Default,NTP,0,0,0,,我只是告訴他而已
+Dialogue: 0,0:04:26.75,0:04:27.89,Default,NTP,0,0,0,,阿斯拉的事
+Dialogue: 0,0:04:28.50,0:04:30.51,Default,NTP,0,0,0,,以及凰呀的事
+Dialogue: 0,0:04:31.98,0:04:34.81,Default,NTP,0,0,0,,我認為這才是為他好
+Dialogue: 0,0:04:35.43,0:04:36.69,Default,NTP,0,0,0,,為他好?
+Dialogue: 0,0:04:37.17,0:04:38.41,Default,NTP,0,0,0,,開什麼玩笑
+Dialogue: 0,0:04:39.03,0:04:41.94,Default,NTP,0,0,0,,讓他開那種害死兩個人超級危險的車子
+Dialogue: 0,0:04:42.68,0:04:45.01,Default,NTP,0,0,0,,這哪裏是為他好了
+Dialogue: 0,0:04:45.77,0:04:46.57,Default,NTP,0,0,0,,如果有個萬一
+Dialogue: 0,0:04:46.73,0:04:50.72,Default,NTP,0,0,0,,你是說萬一連加賀也死掉是嗎
+Dialogue: 0,0:04:54.27,0:04:58.19,Default,NTP,0,0,0,,這樣的話我想必會被你恨死吧
+Dialogue: 0,0:04:58.39,0:04:59.35,Default,NTP,0,0,0,,名雲
+Dialogue: 0,0:05:00.51,0:05:04.71,Default,NTP,0,0,0,,但是對加賀而言他是不會恨我的
+Dialogue: 0,0:05:05.84,0:05:10.17,Default,NTP,0,0,0,,當然，其最大的競敵兼好友風見也不會
+Dialogue: 0,0:05:10.52,0:05:11.26,Default,NTP,0,0,0,,你說什麼
+Dialogue: 0,0:05:13.03,0:05:14.73,Default,NTP,0,0,0,,你應該知道的
+Dialogue: 0,0:05:15.53,0:05:19.17,Default,NTP,0,0,0,,加賀是為了什麼 在去年等了一整年
+Dialogue: 0,0:05:21.04,0:05:23.04,Default,NTP,0,0,0,,你瞭解吧
+Dialogue: 0,0:05:23.95,0:05:26.50,Default,NTP,0,0,0,,與其連挑戰機會都沒有就此結束
+Dialogue: 0,0:05:27.00,0:05:31.84,Default,NTP,0,0,0,,還不如冒一些風險來挑戰才是真的為他好
+Dialogue: 0,0:05:33.67,0:05:34.80,Default,NTP,0,0,0,,可是車賽...
+Dialogue: 0,0:05:35.17,0:05:39.84,Default,NTP,0,0,0,,就算葵財團撤出也不表示他的賽車生涯結束
+Dialogue: 0,0:05:40.16,0:05:43.69,Default,NTP,0,0,0,,像加賀那麼好的車手不開那種賽車也...
+Dialogue: 0,0:05:43.69,0:05:46.43,Default,NTP,0,0,0,,也總有一天能贏風見嗎
+Dialogue: 0,0:05:47.81,0:05:48.73,Default,NTP,0,0,0,,當然
+Dialogue: 0,0:05:49.13,0:05:52.15,Default,NTP,0,0,0,,那就不知道了
+Dialogue: 0,0:05:53.21,0:05:55.35,Default,NTP,0,0,0,,真的有那「總有一天」嗎?
+Dialogue: 0,0:05:56.05,0:05:57.97,Default,NTP,0,0,0,,在連挑戰也做不到的人的的月曆上
+Dialogue: 0,0:06:00.49,0:06:03.26,Default,NTP,0,0,0,,沒錯，戰鬥的機會多的是
+Dialogue: 0,0:06:03.26,0:06:04.73,Default,NTP,0,0,0,,想要的話
+Dialogue: 0,0:06:05.86,0:06:08.33,Default,NTP,0,0,0,,可是能贏的機會只有這個
+Dialogue: 0,0:06:09.89,0:06:12.83,Default,NTP,0,0,0,,只是僅僅是性能好的賽車
+Dialogue: 0,0:06:13.27,0:06:17.30,Default,NTP,0,0,0,,永遠也贏不了他的
+Dialogue: 0,0:06:21.10,0:06:24.85,Default,NTP,0,0,0,,沒關係的，你不瞭解也沒關係
+Dialogue: 0,0:06:25.62,0:06:27.62,Default,NTP,0,0,0,,加賀他瞭解的
+Dialogue: 0,0:06:29.24,0:06:34.25,Default,NTP,0,0,0,,所以拜託你別再吵吵鬧鬧地妨礙加賀了
+Dialogue: 0,0:06:34.98,0:06:35.67,Default,NTP,0,0,0,,你說什麼
+Dialogue: 0,0:06:36.04,0:06:38.41,Default,NTP,0,0,0,,我說加賀可憐
+Dialogue: 0,0:06:40.70,0:06:43.74,Default,NTP,0,0,0,,確實凰呀可能會殺死加賀
+Dialogue: 0,0:06:44.45,0:06:46.87,Default,NTP,0,0,0,,但那還比較好
+Dialogue: 0,0:06:47.69,0:06:51.72,Default,NTP,0,0,0,,總被你封閉起來，一點一點殺死好
+Dialogue: 0,0:06:57.06,0:07:00.91,Default,NTP,0,0,0,,已經無法阻止了 任何人都…
+Dialogue: 0,0:07:07.50,0:07:10.50,Default,NTP,0,0,0,,{\pos(323,408)}{\fs20}第4戰 加拿大杯 深藍賽車場
+Dialogue: 0,0:07:08.18,0:07:12.53,Default,NTP,0,0,0,,替代退出的古德利安爬上第二位的布魯斯賀魯玆
+Dialogue: 0,0:07:12.95,0:07:15.66,Default,NTP,0,0,0,,被加賀所取代，後方是隊友安哈特
+Dialogue: 0,0:07:16.08,0:07:18.82,Default,NTP,0,0,0,,這是"失落之環"很久沒出現的好形勢
+Dialogue: 0,0:07:21.76,0:07:24.15,Default,NTP,0,0,0,,安哈特表現越來越好
+Dialogue: 0,0:07:24.76,0:07:26.81,Default,NTP,0,0,0,,他在這裏的存在很有意義
+Dialogue: 0,0:07:28.13,0:07:29.04,Default,NTP,0,0,0,,然而蘭德爾呢
+Dialogue: 0,0:07:29.40,0:07:32.65,Default,NTP,0,0,0,,哎呀 還沒有出發 他到底怎麼了呢
+Dialogue: 0,0:07:33.20,0:07:35.81,Default,NTP,0,0,0,,啊，在換窩形旋翼
+Dialogue: 0,0:07:36.05,0:07:38.61,Default,NTP,0,0,0,,看來這次受損比想像中嚴重呢
+Dialogue: 0,0:07:40.04,0:07:42.42,Default,NTP,0,0,0,,也難怪，那麼大的衝撞
+Dialogue: 0,0:07:42.71,0:07:44.87,Default,NTP,0,0,0,,進入休息站至今已經30秒
+Dialogue: 0,0:07:44.93,0:07:47.53,Default,NTP,0,0,0,,這下蘭德爾陷入困境了
+Dialogue: 0,0:07:57.47,0:07:59.33,Default,NTP,0,0,0,,加賀衝出車道
+Dialogue: 0,0:07:59.33,0:08:00.48,Default,NTP,0,0,0,,進入砂地
+Dialogue: 0,0:08:00.88,0:08:03.54,Default,NTP,0,0,0,,紫色的身體捲起砂塵
+Dialogue: 0,0:08:07.61,0:08:10.01,Default,NTP,0,0,0,,總算成功脫離
+Dialogue: 0,0:08:10.25,0:08:13.58,Default,NTP,0,0,0,,但是安哈特此刻已經超過加賀晉陞第三位
+Dialogue: 0,0:08:14.28,0:08:16.93,Default,NTP,0,0,0,,失落之環佔滿前頭了
+Dialogue: 0,0:08:16.93,0:08:18.42,Default,NTP,0,0,0,,沒問題的
+Dialogue: 0,0:08:20.24,0:08:23.14,Default,NTP,0,0,0,,他不會輸給那輛車的
+Dialogue: 0,0:08:51.98,0:08:56.58,Default,NTP,0,0,0,,上次在阿根廷杯在終點前車子故障的風見
+Dialogue: 0,0:08:56.84,0:09:00.56,Default,NTP,0,0,0,,今天應該能平安無事的抵達終點吧
+Dialogue: 0,0:09:00.98,0:09:03.40,Default,NTP,0,0,0,,好了，他繞過最後的彎道跑到終點前的看台了
+Dialogue: 0,0:09:03.40,0:09:06.19,Default,NTP,0,0,0,,嗯 速度好像有點減慢了
+Dialogue: 0,0:09:15.93,0:09:18.16,Default,NTP,0,0,0,,阿斯拉的力量平衡的難度
+Dialogue: 0,0:09:19.00,0:09:22.20,Default,NTP,0,0,0,,{\fad(400,400)}{\pos(280,400)}栃木縣        GIO工廠
+Dialogue: 0,0:09:18.65,0:09:22.54,Default,NTP,0,0,0,,早在開發的初期，我就再三提出了
+Dialogue: 0,0:09:23.22,0:09:25.69,Default,NTP,0,0,0,,事到如今才說是構造缺陷
+Dialogue: 0,0:09:25.69,0:09:29.68,Default,NTP,0,0,0,,呃 實在對不起，總之總公司說
+Dialogue: 0,0:09:29.90,0:09:31.52,Default,NTP,0,0,0,,從基礎設計到材料
+Dialogue: 0,0:09:31.68,0:09:33.71,Default,NTP,0,0,0,,要全部改造
+Dialogue: 0,0:09:35.99,0:09:39.60,Default,NTP,0,0,0,,法國賽只能使用現在的類型B
+Dialogue: 0,0:09:39.78,0:09:43.65,Default,NTP,0,0,0,,當然，我們會想好的應對方法的
+Dialogue: 0,0:09:46.45,0:09:48.34,Default,NTP,0,0,0,,拜託了，天誠
+Dialogue: 0,0:09:49.55,0:09:52.16,Default,NTP,0,0,0,,我不想再讓風見受那種苦
+Dialogue: 0,0:09:52.49,0:09:54.38,Default,NTP,0,0,0,,我希望他能好好戰鬥
+Dialogue: 0,0:09:56.14,0:09:56.85,Default,NTP,0,0,0,,是
+Dialogue: 0,0:09:59.07,0:10:00.26,Default,NTP,0,0,0,,嗨 明日香
+Dialogue: 0,0:10:00.70,0:10:01.91,Default,NTP,0,0,0,,明日香
+Dialogue: 0,0:10:02.68,0:10:04.36,Default,NTP,0,0,0,,隼人呢，他在吧
+Dialogue: 0,0:10:04.74,0:10:06.76,Default,NTP,0,0,0,,我們來玩遙控車，遙控車
+Dialogue: 0,0:10:09.90,0:10:14.70,Default,NTP,0,0,0,,對不起，隼人現在面臨重要關頭
+Dialogue: 0,0:10:17.25,0:10:20.73,Default,NTP,0,0,0,,{\fad(600,0)}{\pos(305,358)}{\fs20}第5戰         法國杯
+Dialogue: 0,0:10:17.25,0:10:20.73,Default,NTP,0,0,0,,{\fad(600,0)}{\pos(310,408)}{\fs20}薩爾特賽車場
+Dialogue: 0,0:10:16.78,0:10:19.85,Default,NTP,0,0,0,,暫時無法陪你們玩了
+Dialogue: 0,0:10:27.59,0:10:29.63,Default,NTP,0,0,0,,心情…放鬆了?
+Dialogue: 0,0:10:32.11,0:10:35.65,Default,NTP,0,0,0,,我對隼人還是說不出口
+Dialogue: 0,0:10:38.64,0:10:39.79,Default,NTP,0,0,0,,我想說...
+Dialogue: 0,0:10:40.49,0:10:42.02,Default,NTP,0,0,0,,我真的想說點什麼
+Dialogue: 0,0:10:42.85,0:10:46.63,Default,NTP,0,0,0,,可是一開口，自己又說不出口…
+Dialogue: 0,0:10:47.03,0:10:48.44,Default,NTP,0,0,0,,什麼話都…
+Dialogue: 0,0:10:48.82,0:10:49.76,Default,NTP,0,0,0,,明日香
+Dialogue: 0,0:10:51.16,0:10:55.03,Default,NTP,0,0,0,,我很傻吧，一個人自尋煩惱
+Dialogue: 0,0:10:58.82,0:11:00.31,Default,NTP,0,0,0,,沒那回事
+Dialogue: 0,0:11:01.25,0:11:03.18,Default,NTP,0,0,0,,大家都是一樣的
+Dialogue: 0,0:11:04.26,0:11:05.23,Default,NTP,0,0,0,,阿彩?
+Dialogue: 0,0:11:07.22,0:11:08.80,Default,NTP,0,0,0,,確實說不出口
+Dialogue: 0,0:11:09.23,0:11:10.94,Default,NTP,0,0,0,,說「加油」也不行  說「別比賽了」也不是
+Dialogue: 0,0:11:13.85,0:11:14.61,Default,NTP,0,0,0,,可是...
+Dialogue: 0,0:11:21.33,0:11:22.29,Default,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:11:27.08,0:11:28.00,Default,NTP,0,0,0,,我該去拍照了
+Dialogue: 0,0:11:31.92,0:11:34.38,Default,NTP,0,0,0,,可能…只有這樣了
+Dialogue: 0,0:11:35.46,0:11:36.91,Default,NTP,0,0,0,,我唯一能做的事
+Dialogue: 0,0:11:39.85,0:11:40.62,Default,NTP,0,0,0,,明日香
+Dialogue: 0,0:11:42.68,0:11:43.57,Default,NTP,0,0,0,,加油
+Dialogue: 0,0:12:04.20,0:12:05.32,Default,NTP,0,0,0,,格雷曾經說過
+Dialogue: 0,0:12:07.10,0:12:09.06,Default,NTP,0,0,0,,比賽並不能單靠車手
+Dialogue: 0,0:12:09.60,0:12:13.20,Default,NTP,0,0,0,,能否得到車隊與賽車也是實力之一
+Dialogue: 0,0:12:16.10,0:12:18.01,Default,NTP,0,0,0,,我不想讓他這樣結束
+Dialogue: 0,0:12:18.63,0:12:20.00,Default,NTP,0,0,0,,不管是贏還是輸
+Dialogue: 0,0:12:21.33,0:12:22.75,Default,NTP,0,0,0,,我不想讓他就這樣結束掉
+Dialogue: 0,0:12:32.19,0:12:34.22,Default,NTP,0,0,0,,車隊也是實力之一
+Dialogue: 0,0:12:47.18,0:12:48.63,Default,NTP,0,0,0,,哎呀 阿斯拉
+Dialogue: 0,0:12:48.63,0:12:51.21,Default,NTP,0,0,0,,冒出白煙了 冒出白煙了
+Dialogue: 0,0:12:51.21,0:12:52.93,Default,NTP,0,0,0,,這是怎麼回事呢
+Dialogue: 0,0:12:53.30,0:12:55.46,Default,NTP,0,0,0,,啊 冒煙了 冒煙了
+Dialogue: 0,0:12:59.50,0:13:00.39,Default,NTP,0,0,0,,隼人
+Dialogue: 0,0:13:01.55,0:13:05.49,Default,NTP,0,0,0,,{\fad(600,400)}{\pos(305,358)}{\fs20}第6戰      德國杯
+Dialogue: 0,0:13:01.55,0:13:05.49,Default,NTP,0,0,0,,{\fad(600,400)}{\pos(322,408)}{\fs20}奧格斯堡賽車場(Augsburg賽車場)
+Dialogue: 0,0:13:01.07,0:13:03.40,Default,NTP,0,0,0,,哎呀 黃旗
+Dialogue: 0,0:13:03.40,0:13:04.58,Default,NTP,0,0,0,,完蛋了，風見
+Dialogue: 0,0:13:04.58,0:13:06.52,Default,NTP,0,0,0,,風見竟然無法起步
+Dialogue: 0,0:13:06.87,0:13:07.59,Default,NTP,0,0,0,,是引擎嗎
+Dialogue: 0,0:13:07.59,0:13:09.41,Default,NTP,0,0,0,,又是引擎故障嗎
+Dialogue: 0,0:13:32.05,0:13:35.55,Default,NTP,0,0,0,,{\fad(400,400)}{\pos(300,408)}{\fs20}第7戰        英國杯
+Dialogue: 0,0:13:32.05,0:13:35.55,Default,NTP,0,0,0,,{\fad(400,400)}{\pos(320,475)}{\fs20}普斯特布利玆空港賽道\N{\fs16}(postbrioge空港賽道)
+Dialogue: 0,0:13:43.72,0:13:46.70,Default,NTP,0,0,0,,{\fad(600,0)}西班牙 卡塔羅尼亞賽車場
+Dialogue: 0,0:13:59.47,0:14:00.25,Default,NTP,0,0,0,,隼人嗎
+Dialogue: 0,0:14:03.27,0:14:07.31,Default,NTP,0,0,0,,怎麼了，這時間你應該睡覺的
+Dialogue: 0,0:14:08.88,0:14:09.79,Default,NTP,0,0,0,,還好
+Dialogue: 0,0:14:10.98,0:14:12.82,Default,NTP,0,0,0,,你在擔心賽車的狀況嗎
+Dialogue: 0,0:14:15.89,0:14:18.87,Default,NTP,0,0,0,,我不想讓這場車賽又無疾而終
+Dialogue: 0,0:14:21.93,0:14:24.47,Default,NTP,0,0,0,,我知道大家都很努力
+Dialogue: 0,0:14:25.63,0:14:29.86,Default,NTP,0,0,0,,沒辦法，你跟我再厲害也是英雄無用武之地
+Dialogue: 0,0:14:31.55,0:14:33.51,Default,NTP,0,0,0,,但是也可能起死回生
+Dialogue: 0,0:14:33.88,0:14:35.62,Default,NTP,0,0,0,,你喜歡哪一種
+Dialogue: 0,0:14:39.00,0:14:39.89,Default,NTP,0,0,0,,說的也是
+Dialogue: 0,0:14:42.11,0:14:44.70,Default,NTP,0,0,0,,謝謝你，阿斯拉  我想去睡了
+Dialogue: 0,0:14:45.74,0:14:46.86,Default,NTP,0,0,0,,那就好了
+Dialogue: 0,0:14:47.20,0:14:50.02,Default,NTP,0,0,0,,那麼晚安，隼人，在比賽時再見吧
+Dialogue: 0,0:14:50.81,0:14:52.29,Default,NTP,0,0,0,,嗯，比賽見
+Dialogue: 0,0:14:54.05,0:14:56.70,Default,NTP,0,0,0,,{\pos(310,440)}{\fs20}第8戰       西班牙杯
+Dialogue: 0,0:14:58.85,0:15:00.72,Default,NTP,0,0,0,,取而代之領先的是新條
+Dialogue: 0,0:15:00.72,0:15:02.33,Default,NTP,0,0,0,,他後面是布利德·加賀
+Dialogue: 0,0:15:02.70,0:15:04.50,Default,NTP,0,0,0,,第三位是安利·克雷德
+Dialogue: 0,0:15:12.78,0:15:14.49,Default,NTP,0,0,0,,哎喲 現在使用加速器了
+Dialogue: 0,0:15:14.66,0:15:16.35,Default,NTP,0,0,0,,風見現在排名第四
+Dialogue: 0,0:15:16.55,0:15:19.28,Default,NTP,0,0,0,,他想壓下追來的布魯斯賀魯玆吧
+Dialogue: 0,0:15:22.93,0:15:23.75,Default,NTP,0,0,0,,前輩
+Dialogue: 0,0:15:24.56,0:15:25.39,Default,NTP,0,0,0,,好
+Dialogue: 0,0:15:29.35,0:15:30.93,Default,NTP,0,0,0,,就讓前輩過去吧
+Dialogue: 0,0:15:32.70,0:15:33.87,Default,NTP,0,0,0,,你給我讓開
+Dialogue: 0,0:15:37.22,0:15:38.63,Default,NTP,0,0,0,,引擎輸出功率下降
+Dialogue: 0,0:15:40.20,0:15:40.98,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:15:46.79,0:15:48.50,Default,NTP,0,0,0,,啊 這是怎麼回事
+Dialogue: 0,0:15:48.50,0:15:50.14,Default,NTP,0,0,0,,菅生的兩輛車相撞
+Dialogue: 0,0:15:50.14,0:15:52.06,Default,NTP,0,0,0,,風見停下來了
+Dialogue: 0,0:15:53.53,0:15:54.65,Default,NTP,0,0,0,,前輩
+Dialogue: 0,0:15:57.33,0:15:59.24,Default,NTP,0,0,0,,我怎麼做出這種事
+Dialogue: 0,0:15:59.96,0:16:02.55,Default,NTP,0,0,0,,嗯 他大概是想讓出車道吧
+Dialogue: 0,0:16:02.77,0:16:05.25,Default,NTP,0,0,0,,啊 這下子布魯斯賀魯玆躋身第三位
+Dialogue: 0,0:16:05.25,0:16:07.28,Default,NTP,0,0,0,,加賀也來挑戰了
+Dialogue: 0,0:16:10.10,0:16:12.45,Default,NTP,0,0,0,,超越了 終於超越了
+Dialogue: 0,0:16:12.45,0:16:15.88,Default,NTP,0,0,0,,布利德·加賀超過新條躍居第一
+Dialogue: 0,0:16:25.16,0:16:26.90,Default,NTP,0,0,0,,為什麼要離開
+Dialogue: 0,0:16:29.51,0:16:32.72,Default,NTP,0,0,0,,你明明可以為他做很多事的
+Dialogue: 0,0:16:33.65,0:16:36.02,Default,NTP,0,0,0,,但你連看都不敢看嗎
+Dialogue: 0,0:16:39.07,0:16:41.08,Default,NTP,0,0,0,,你知道什麼
+Dialogue: 0,0:16:41.55,0:16:42.63,Default,NTP,0,0,0,,明明什麼都不知道
+Dialogue: 0,0:16:44.16,0:16:46.39,Default,NTP,0,0,0,,這與知不知道無關
+Dialogue: 0,0:16:47.02,0:16:49.95,Default,NTP,0,0,0,,最重要的是加賀的心情不是嗎
+Dialogue: 0,0:16:57.75,0:16:58.42,Default,NTP,0,0,0,,阿彩
+Dialogue: 0,0:17:00.21,0:17:01.01,Default,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:17:01.72,0:17:03.74,Default,NTP,0,0,0,,說什麼加賀的心情
+Dialogue: 0,0:17:04.79,0:17:05.91,Default,NTP,0,0,0,,你...
+Dialogue: 0,0:17:07.13,0:17:09.11,Default,NTP,0,0,0,,你根本就不會瞭解
+Dialogue: 0,0:17:11.17,0:17:12.08,Default,NTP,0,0,0,,今日子
+Dialogue: 0,0:17:15.73,0:17:18.40,Default,NTP,0,0,0,,{\pos(310,408)}{\fs20}第9戰        義大利杯
+Dialogue: 0,0:17:15.73,0:17:18.40,Default,NTP,0,0,0,,{\pos(310,472)}{\fs20}聖馬利諾賽車場\N{\fs16}(San marino賽車場)
+Dialogue: 0,0:17:21.07,0:17:23.50,Default,NTP,0,0,0,,能做的我都做了
+Dialogue: 0,0:17:25.00,0:17:28.10,Default,NTP,0,0,0,,我知道我這麼說有點太過自大
+Dialogue: 0,0:17:29.10,0:17:30.42,Default,NTP,0,0,0,,請你一定要贏
+Dialogue: 0,0:17:31.12,0:17:31.98,Default,NTP,0,0,0,,用這個...
+Dialogue: 0,0:17:36.48,0:17:37.67,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:18:22.89,0:18:23.49,Default,NTP,0,0,0,,內線嗎
+Dialogue: 0,0:18:37.64,0:18:38.86,Default,NTP,0,0,0,,我會全力以赴的
+Dialogue: 0,0:18:40.51,0:18:42.05,Default,NTP,0,0,0,,要不然贏了也沒意義
+Dialogue: 0,0:18:43.28,0:18:44.41,Default,NTP,0,0,0,,加賀跟凰呀
+Dialogue: 0,0:18:48.03,0:18:49.46,Default,NTP,0,0,0,,我不會讓他們贏的
+Dialogue: 0,0:18:49.72,0:18:52.21,Default,NTP,0,0,0,,{\pos(315,409)}{\fs20}第10戰     中國杯
+Dialogue: 0,0:18:49.72,0:18:52.21,Default,NTP,0,0,0,,{\pos(315,458)}{\fs20}深圳賽車場
+Dialogue: 0,0:19:02.30,0:19:03.93,Default,NTP,0,0,0,,好激烈的纏鬥
+Dialogue: 0,0:19:03.93,0:19:05.57,Default,NTP,0,0,0,,風見隼人與布利德·加賀
+Dialogue: 0,0:19:05.86,0:19:08.94,Default,NTP,0,0,0,,兩人互不相讓 激烈地爭奪第一
+Dialogue: 0,0:19:09.69,0:19:10.84,Default,NTP,0,0,0,,該怎樣辦
+Dialogue: 0,0:19:11.77,0:19:13.10,Default,NTP,0,0,0,,怎麼才能贏他…
+Dialogue: 0,0:19:15.19,0:19:16.04,Default,NTP,0,0,0,,外線嗎?
+Dialogue: 0,0:19:33.13,0:19:34.53,Default,NTP,0,0,0,,厲害
+Dialogue: 0,0:19:35.17,0:19:36.69,Default,NTP,0,0,0,,那傢伙為什麼這麼強…
+Dialogue: 0,0:19:45.22,0:19:46.91,Default,NTP,0,0,0,,真是精彩的戰鬥
+Dialogue: 0,0:19:49.58,0:19:52.54,Default,NTP,0,0,0,,要贏風見是遲早的事
+Dialogue: 0,0:19:53.84,0:19:55.94,Default,NTP,0,0,0,,我可以期待下一場嗎
+Dialogue: 0,0:19:58.85,0:20:01.51,Default,NTP,0,0,0,,凰呀應該已經教過你的
+Dialogue: 0,0:20:02.29,0:20:05.40,Default,NTP,0,0,0,,怎樣才能夠贏他們
+Dialogue: 0,0:20:06.90,0:20:07.52,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:20:12.30,0:20:15.48,Default,NTP,0,0,0,,凰呀教過我的？
+Dialogue: 0,0:20:20.70,0:20:23.70,Default,NTP,0,0,0,,{\fad(500,0)}{\pos(320,408)}{\fs20}第11戰                澳洲杯
+Dialogue: 0,0:20:20.70,0:20:23.70,Default,NTP,0,0,0,,{\fad(500,0)}{\pos(315,458)}{\fs20}雪梨賽車場(Sydney賽車場)
+Dialogue: 0,0:20:23.75,0:20:24.74,Default,NTP,0,0,0,,是彎道
+Dialogue: 0,0:20:24.95,0:20:27.78,Default,NTP,0,0,0,,不能在那裏壓住他 就沒有勝算
+Dialogue: 0,0:20:30.42,0:20:31.63,Default,NTP,0,0,0,,藍色旗?
+Dialogue: 0,0:20:32.58,0:20:34.21,Default,NTP,0,0,0,,哼，管我什麼事
+Dialogue: 0,0:20:34.40,0:20:37.08,Default,NTP,0,0,0,,就算這樣，知道又怎麼樣
+Dialogue: 0,0:20:44.96,0:20:47.39,Default,NTP,0,0,0,,我知道，全看你的了
+Dialogue: 0,0:20:59.85,0:21:00.51,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:21:03.23,0:21:05.20,Default,NTP,0,0,0,,超越了 布利德·加賀
+Dialogue: 0,0:21:05.39,0:21:08.20,Default,NTP,0,0,0,,但是 長澤先生 剛才加賀的車子的那種移動方式…
+Dialogue: 0,0:21:08.20,0:21:10.98,Default,NTP,0,0,0,,對不起 我也有點…
+Dialogue: 0,0:21:10.98,0:21:12.39,Default,NTP,0,0,0,,放一下慢動作吧
+Dialogue: 0,0:21:12.52,0:21:14.06,Default,NTP,0,0,0,,剛才布利德·加賀的...
+Dialogue: 0,0:21:14.19,0:21:17.67,Default,NTP,0,0,0,,看來你也是個卑鄙的傢伙呢
+Dialogue: 0,0:21:20.30,0:21:22.07,Default,NTP,0,0,0,,我也不太清楚 但是…
+Dialogue: 0,0:21:23.21,0:21:25.96,Default,NTP,0,0,0,,安利說車子看起來像成兩輛
+Dialogue: 0,0:21:26.49,0:21:28.82,Default,NTP,0,0,0,,那…那是什麼呀 分身術嗎
+Dialogue: 0,0:21:29.17,0:21:31.86,Default,NTP,0,0,0,,真的，看起來真的像兩輛
+Dialogue: 0,0:21:35.11,0:21:37.50,Default,NTP,0,0,0,,是不是真的 馬上就知道了
+Dialogue: 0,0:22:10.62,0:22:13.02,Default,NTP,0,0,0,,對你是行得通還是行不通呢
+Dialogue: 0,0:22:13.45,0:22:14.31,Default,NTP,0,0,0,,去吧
+Dialogue: 0,0:22:27.76,0:22:28.70,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:22:44.65,0:22:48.00,Default,NTP,0,0,0,,{\fad(400,400)}{\pos(320,405)}{\fs20}雪梨郊外
+Dialogue: 0,0:22:46.70,0:22:49.48,Default,NTP,0,0,0,,沒問題，沒有骨折
+Dialogue: 0,0:22:49.90,0:22:51.76,Default,NTP,0,0,0,,也沒受到太大的撞擊
+Dialogue: 0,0:22:52.26,0:22:55.51,Default,NTP,0,0,0,,只是...體力消耗太大了
+Dialogue: 0,0:22:55.94,0:22:58.56,Default,NTP,0,0,0,,他處於精神極度衰弱的狀態
+Dialogue: 0,0:23:00.51,0:23:04.52,Default,NTP,0,0,0,,老實說 會出車禍是理所當然的
+Dialogue: 0,0:23:05.00,0:23:09.01,Default,NTP,0,0,0,,我不知道他是怎麼混過之前的醫學檢查
+Dialogue: 0,0:23:09.73,0:23:11.97,Default,NTP,0,0,0,,讓他這種身體來開車
+Dialogue: 0,0:23:12.32,0:23:16.29,Default,NTP,0,0,0,,車隊的監督管理恐怕有問題
+Dialogue: 0,0:23:18.39,0:23:20.19,Default,NTP,0,0,0,,加賀沒事吧
+Dialogue: 0,0:23:20.50,0:23:22.15,Default,NTP,0,0,0,,意識還沒恢復
+Dialogue: 0,0:23:24.06,0:23:28.28,Default,NTP,0,0,0,,那輛賽車特別消耗車手的力量
+Dialogue: 0,0:23:29.94,0:23:32.48,Default,NTP,0,0,0,,他是在想超越我時失神的
+Dialogue: 0,0:23:33.51,0:23:35.27,Default,NTP,0,0,0,,然後失去控制
+Dialogue: 0,0:23:39.87,0:23:41.56,Default,NTP,0,0,0,,你還是不去嗎
+Dialogue: 0,0:23:43.72,0:23:45.36,Default,NTP,0,0,0,,這個…交給他吧
+Dialogue: 0,0:23:47.11,0:23:48.68,Default,NTP,0,0,0,,我知道他很累
+Dialogue: 0,0:23:49.31,0:23:50.60,Default,NTP,0,0,0,,可是怎麼會這樣
+Dialogue: 0,0:23:51.18,0:23:53.12,Default,NTP,0,0,0,,他真的在健康檢查時作假嗎
+Dialogue: 0,0:23:53.64,0:23:55.05,Default,NTP,0,0,0,,史坦貝克先生
+Dialogue: 0,0:23:57.28,0:23:58.76,Default,NTP,0,0,0,,他沒有作假
+Dialogue: 0,0:24:00.38,0:24:02.97,Default,NTP,0,0,0,,有關「零的領域」的事，今日子小姐你也知道的吧
+Dialogue: 0,0:24:03.60,0:24:04.28,Default,NTP,0,0,0,,菲爾
+Dialogue: 0,0:24:05.19,0:24:05.93,Default,NTP,0,0,0,,「零」?
+Dialogue: 0,0:24:06.99,0:24:09.83,Default,NTP,0,0,0,,加賀一直在「零的領域」內奔跑
+Dialogue: 0,0:24:10.81,0:24:11.65,Default,NTP,0,0,0,,所以...
+Dialogue: 0,0:24:12.65,0:24:15.28,Default,NTP,0,0,0,,不這樣子是無法超越的
+Dialogue: 0,0:24:16.60,0:24:18.35,Default,NTP,0,0,0,,凰呀就是那樣的賽車
+Dialogue: 0,0:24:20.35,0:24:22.59,Default,NTP,0,0,0,,它是在「零的領域」內奔跑
+Dialogue: 0,0:24:23.67,0:24:27.40,Default,NTP,0,0,0,,超越知覺極限的地方
+Dialogue: 0,0:24:29.29,0:24:33.94,Default,NTP,0,0,0,,這...你們知道自己在幹什麼嗎
+Dialogue: 0,0:24:35.09,0:24:36.57,Default,NTP,0,0,0,,這只是比賽而已
+Dialogue: 0,0:24:37.02,0:24:39.03,Default,NTP,0,0,0,,在車隊和企業贊助商和觀眾之間
+Dialogue: 0,0:24:39.03,0:24:42.36,Default,NTP,0,0,0,,每年都在重覆的 僅僅是比賽而已
+Dialogue: 0,0:24:43.04,0:24:44.41,Default,NTP,0,0,0,,為什麼要這樣的…
+Dialogue: 0,0:24:46.11,0:24:49.17,Default,NTP,0,0,0,,這是一件不知道就沒事的事情
+Dialogue: 0,0:24:49.86,0:24:51.10,Default,NTP,0,0,0,,「零」與「凰呀」也是…
+Dialogue: 0,0:24:52.21,0:24:55.31,Default,NTP,0,0,0,,都是那個傻瓜 獨自熬下來的
+Dialogue: 0,0:24:55.72,0:24:56.67,Default,NTP,0,0,0,,格雷
+Dialogue: 0,0:24:57.30,0:25:00.02,Default,NTP,0,0,0,,可是他知道了
+Dialogue: 0,0:25:00.72,0:25:02.10,Default,NTP,0,0,0,,那輛車子的事
+Dialogue: 0,0:25:02.83,0:25:07.03,Default,NTP,0,0,0,,那個傻瓜那麼疲憊 為什麼沉默不說
+Dialogue: 0,0:25:07.91,0:25:09.84,Default,NTP,0,0,0,,為什麼逃避這個問題?
+Dialogue: 0,0:25:13.09,0:25:16.45,Default,NTP,0,0,0,,我們唯一能做的只有一件事
+Dialogue: 0,0:25:18.11,0:25:20.71,Default,NTP,0,0,0,,就是讓那個傻瓜贏吧
+Dialogue: 0,0:25:25.83,0:25:26.55,Default,NTP,0,0,0,,加賀
+Dialogue: 0,0:25:28.37,0:25:29.53,Default,NTP,0,0,0,,那是什麼
+Dialogue: 0,0:25:32.78,0:25:34.68,Default,NTP,0,0,0,,你拿什麼去探病
+Dialogue: 0,0:25:37.16,0:25:38.31,Default,NTP,0,0,0,,是隼人...
+Dialogue: 0,0:25:39.05,0:25:41.68,Default,NTP,0,0,0,,讓他一下子就有精神的特效藥
+Dialogue: 0,0:27:34.88,0:27:37.20,Default,NTP,0,0,0,,健康又開朗又很計較錢
+Dialogue: 0,0:27:37.58,0:27:39.92,Default,NTP,0,0,0,,教導我許多事情的加賀
+Dialogue: 0,0:27:40.54,0:27:41.97,Default,NTP,0,0,0,,他就像我的哥哥一樣
+Dialogue: 0,0:27:42.47,0:27:43.24,Default,NTP,0,0,0,,隼人…
+Dialogue: 0,0:27:43.24,0:27:46.43,Default,NTP,0,0,0,,可是，可是我怎麼會做那種事
+Dialogue: 0,0:27:46.56,0:27:51.07,Default,NTP,0,0,0,,是呢，你們需要的不是戰鬥
+Dialogue: 0,0:27:51.27,0:27:53.17,Default,NTP,0,0,0,,是相愛呀
+Dialogue: 0,0:27:54.21,0:27:55.64,Default,NTP,0,0,0,,這有點難吧
+Dialogue: 0,0:27:56.53,0:27:58.27,Default,NTP,0,0,0,,新世紀GPX Cyber Formula Sin
+Dialogue: 0,0:27:58.81,0:28:01.32,Default,NTP,0,0,0,,Round 5. 一切都在時間中…
+Dialogue: 0,0:28:01.32,0:28:04.60,Default,NTP,0,0,0,,你不會說「確實如此」吧?
+Dialogue: 0,0:28:04.60,0:28:06.10,Default,NTP,0,0,0,,你要是敢亂來我就打你
+

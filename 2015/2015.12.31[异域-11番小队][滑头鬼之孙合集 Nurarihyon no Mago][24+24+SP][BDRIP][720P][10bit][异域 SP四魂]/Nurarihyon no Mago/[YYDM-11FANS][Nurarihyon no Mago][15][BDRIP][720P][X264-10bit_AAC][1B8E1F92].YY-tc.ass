@@ -1,0 +1,437 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 848
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZCuYuan-M03,35,&H00FFFFFF,&HF0000000,&H006F1317,&H0074291B,0,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: bitoshi,SimSun,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,10,10,10,1
+Style: logo,汉仪小隶书简,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: edj,DFPFuun-W7,25,&H00FFFFFF,&HF0000000,&H00BC3A03,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,8,30,30,10,128
+Style: edc,FZKaTong-M19,32,&H00FFFFFF,&HF0000000,&H00BC3A03,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: Warning,FZCuYuan-M03,20,&H00FFFFFF,&HFF0000FF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: opj,Microsoft YaHei,30,&H00A8968E,&H000000FF,&H00FFFFFF,&H00030303,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,0
+Style: opc,Microsoft YaHei,30,&H005777AB,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: logo1,STXingkai,55,&H00000000,&HF0000000,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,134
+Style: logo2,STXingkai,55,&HFF000000,&HF0000000,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,2,30,30,10,134
+Style: logo3,STXingkai,62,&H00D60592,&HF0000000,&H00D50692,&H00000000,-1,0,0,0,100,100,0,0,1,8,0,2,30,30,10,134
+Style: logo4,Microsoft YaHei,90,&H00FFFFFF,&HF0000000,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.88,Default,NTP,0,0,0,,{\be1\fad550,500\an8}異域字幕組作品\N{\be1\fad0,500}WWW.YYDM.COM
+Dialogue: 0,0:09:22.59,0:11:46.09,Warning,NTP,0,0,0,banner;28;0;60,本片字幕由異域字幕組製作，僅供試看之用，請於試看後24小時內刪除。若因私自散佈造成法律問題，本組概不負責。如果喜歡本作品，請購買並支持正版！
+Dialogue: 0,0:09:59.71,0:27:37.01,Warning,NTP,0,0,0,banner;28;0;60,翻譯 馬姐 果凍 洛艾妖 校譯 初上班的某妖 時間 影子
+Dialogue: 0,0:24:25.94,0:24:27.94,Default,,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:25.67,0:00:28.40,opj,NTP,0,0,0,,明日を照らすよsunshine
+Dialogue: 0,0:00:28.45,0:00:30.80,opj,NTP,0,0,0,,窓から射し込める
+Dialogue: 0,0:00:30.82,0:00:35.68,opj,NTP,0,0,0,,扉開いて
+Dialogue: 0,0:00:36.70,0:00:43.84,opj,NTP,0,0,0,,Yeah～～ Ah～～ Oh～～
+Dialogue: 0,0:00:45.31,0:00:46.13,opj,NTP,0,0,0,,Start
+Dialogue: 0,0:00:46.15,0:00:48.10,opj,NTP,0,0,0,,Cos'you got me thinking that I'm a little quicker
+Dialogue: 0,0:00:48.12,0:00:50.52,opj,NTP,0,0,0,,Maybe the rythem is but I won't never let'ya
+Dialogue: 0,0:00:50.60,0:00:53.30,opj,NTP,0,0,0,,I wish you could see it for yourself
+Dialogue: 0,0:00:53.30,0:00:55.42,opj,NTP,0,0,0,,It's not it's not just stop pick up ya da
+Dialogue: 0,0:00:55.43,0:00:57.38,opj,NTP,0,0,0,,I never thought that i could take over it oh
+Dialogue: 0,0:00:57.59,0:00:59.70,opj,NTP,0,0,0,,No one know that there is a way before
+Dialogue: 0,0:01:00.07,0:01:04.16,opj,NTP,0,0,0,,You know it's only only nothing no one gets a way
+Dialogue: 0,0:01:04.23,0:01:08.54,opj,NTP,0,0,0,,僕の夢はどこにあるのか
+Dialogue: 0,0:01:08.58,0:01:13.06,opj,NTP,0,0,0,,影も形も見えなくて
+Dialogue: 0,0:01:13.62,0:01:18.32,opj,NTP,0,0,0,,追いかけでだ守るべき物
+Dialogue: 0,0:01:18.35,0:01:21.38,opj,NTP,0,0,0,,There is a sunshine
+Dialogue: 0,0:01:21.46,0:01:23.72,opj,NTP,0,0,0,,In my mind
+Dialogue: 0,0:01:25.63,0:01:28.48,opj,NTP,0,0,0,,明日を照らすよsunshine
+Dialogue: 0,0:01:28.50,0:01:30.70,opj,NTP,0,0,0,,どこまでも続くね
+Dialogue: 0,0:01:30.72,0:01:35.95,opj,NTP,0,0,0,,目の前に広がる光の先え
+Dialogue: 0,0:01:35.98,0:01:40.73,opj,NTP,0,0,0,,未来のsunshine　輝くsunshine
+Dialogue: 0,0:01:40.96,0:01:41.80,opj,NTP,0,0,0,,I know it was hard
+Dialogue: 0,0:01:41.82,0:01:42.48,opj,NTP,0,0,0,,Just take the chance
+Dialogue: 0,0:01:42.49,0:01:44.15,opj,NTP,0,0,0,,信じで
+Dialogue: 0,0:01:44.20,0:01:50.71,opj,NTP,0,0,0,,明日も晴れるから
+Dialogue: 0,0:00:00.30,0:00:00.30,Default,,0,0,0,,
+Dialogue: 0,0:00:00.30,0:00:00.30,Default,,0,0,0,,
+Dialogue: 0,0:00:00.30,0:00:00.30,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:25.67,0:00:28.40,opc,NTP,0,0,0,,照亮明天的陽光
+Dialogue: 0,0:00:28.45,0:00:30.80,opc,NTP,0,0,0,,從窗戶撒了進來
+Dialogue: 0,0:00:30.82,0:00:35.68,opc,NTP,0,0,0,,敞開門窗吧
+Dialogue: 0,0:00:36.70,0:00:43.84,opc,NTP,0,0,0,,Yeah～～ Ah～～ Oh～～
+Dialogue: 0,0:00:45.31,0:00:46.13,opc,NTP,0,0,0,,Start
+Dialogue: 0,0:00:46.15,0:00:48.10,opc,NTP,0,0,0,,你讓我覺得自己速度稍快
+Dialogue: 0,0:00:48.12,0:00:50.52,opc,NTP,0,0,0,,也許旋律如此 但我從未如此
+Dialogue: 0,0:00:50.60,0:00:53.30,opc,NTP,0,0,0,,我希望你能親身體會
+Dialogue: 0,0:00:53.30,0:00:55.42,opc,NTP,0,0,0,,不要繼續加速了
+Dialogue: 0,0:00:55.43,0:00:57.38,opc,NTP,0,0,0,,我從未想過我能勝任
+Dialogue: 0,0:00:57.59,0:00:59.70,opc,NTP,0,0,0,,從未有人知曉這能夠成功
+Dialogue: 0,0:01:00.07,0:01:04.16,opc,NTP,0,0,0,,只是從未有人尋徑而上而已
+Dialogue: 0,0:01:04.23,0:01:08.54,opc,NTP,0,0,0,,我的夢想現在身在何處
+Dialogue: 0,0:01:08.58,0:01:13.06,opc,NTP,0,0,0,,如今連身影都未得窺見
+Dialogue: 0,0:01:13.62,0:01:18.32,opc,NTP,0,0,0,,追尋著的 該守護的東西
+Dialogue: 0,0:01:18.35,0:01:21.38,opc,NTP,0,0,0,,那裏有陽光
+Dialogue: 0,0:01:21.46,0:01:23.72,opc,NTP,0,0,0,,在我腦海裏
+Dialogue: 0,0:01:25.63,0:01:28.48,opc,NTP,0,0,0,,照亮明天的陽光
+Dialogue: 0,0:01:28.50,0:01:30.70,opc,NTP,0,0,0,,一直延續到天之盡頭
+Dialogue: 0,0:01:30.72,0:01:35.95,opc,NTP,0,0,0,,直至眼前擴散開來的光之盡頭
+Dialogue: 0,0:01:35.98,0:01:40.73,opc,NTP,0,0,0,,未來的陽光 閃耀著的陽光
+Dialogue: 0,0:01:40.96,0:01:41.80,opc,NTP,0,0,0,,我知道這很困難
+Dialogue: 0,0:01:41.82,0:01:42.48,opc,NTP,0,0,0,,只要抓住機會
+Dialogue: 0,0:01:42.49,0:01:44.15,opc,NTP,0,0,0,,相信著
+Dialogue: 0,0:01:44.20,0:01:50.71,opc,NTP,0,0,0,,明日也會放晴
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:15.62,0:22:19.98,edc,NTP,0,0,0,,被捲入黑暗之中
+Dialogue: 0,0:22:20.04,0:22:24.34,edc,NTP,0,0,0,,綻放在角落之花
+Dialogue: 0,0:22:24.34,0:22:28.54,edc,NTP,0,0,0,,一絲希望都未曾
+Dialogue: 0,0:22:28.63,0:22:33.27,edc,NTP,0,0,0,,讓它知曉察覺
+Dialogue: 0,0:22:33.46,0:22:37.56,edc,NTP,0,0,0,,彷彿試探著恐懼之心
+Dialogue: 0,0:22:37.62,0:22:41.99,edc,NTP,0,0,0,,狂風暴雨叫囂肆虐著
+Dialogue: 0,0:22:42.12,0:22:46.22,edc,NTP,0,0,0,,在搖晃的吊橋上緊握的雙手
+Dialogue: 0,0:22:46.24,0:22:51.92,edc,NTP,0,0,0,,共同書寫著歷史
+Dialogue: 0,0:22:51.93,0:22:55.80,edc,NTP,0,0,0,,在閃耀著光芒直視前方的眼神中
+Dialogue: 0,0:22:55.82,0:22:58.52,edc,NTP,0,0,0,,我學到了
+Dialogue: 0,0:22:58.54,0:23:03.38,edc,NTP,0,0,0,,不退卻向前看的勇氣
+Dialogue: 0,0:23:03.40,0:23:07.42,edc,NTP,0,0,0,,就如你的呼吸一樣
+Dialogue: 0,0:23:07.43,0:23:13.86,edc,NTP,0,0,0,,這全都是你自身演奏而出的交響樂
+Dialogue: 0,0:23:13.88,0:23:16.10,edc,NTP,0,0,0,,好吧 我就相信吧
+Dialogue: 0,0:23:16.13,0:23:19.52,edc,NTP,0,0,0,,相信著你那尚未吐露的真情之話語
+Dialogue: 0,0:23:19.55,0:23:26.80,edc,NTP,0,0,0,,你只要做自己 呼喚我就好
+Dialogue: 0,0:00:00.80,0:00:00.80,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.80,0:00:00.80,Default,,0,0,0,,
+Dialogue: 0,0:00:00.80,0:00:00.80,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.80,0:00:00.80,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:15.62,0:22:19.98,edj,NTP,0,0,0,,宵闇にまぎれ
+Dialogue: 0,0:22:20.04,0:22:24.34,edj,NTP,0,0,0,,隅咲られだ花
+Dialogue: 0,0:22:24.34,0:22:28.54,edj,NTP,0,0,0,,一つの希望も
+Dialogue: 0,0:22:28.63,0:22:33.27,edj,NTP,0,0,0,,きつづさせない
+Dialogue: 0,0:22:33.46,0:22:37.56,edj,NTP,0,0,0,,怖かる心を試すよに
+Dialogue: 0,0:22:37.62,0:22:41.99,edj,NTP,0,0,0,,竜巻があざわら
+Dialogue: 0,0:22:42.12,0:22:46.22,edj,NTP,0,0,0,,揺れる吊橋繋いた手と手
+Dialogue: 0,0:22:46.24,0:22:51.92,edj,NTP,0,0,0,,歴史は書けるける
+Dialogue: 0,0:22:51.93,0:22:55.80,edj,NTP,0,0,0,,真直ぐ光る眼差し
+Dialogue: 0,0:22:55.82,0:22:58.52,edj,NTP,0,0,0,,教えてくれだ
+Dialogue: 0,0:22:58.54,0:23:03.38,edj,NTP,0,0,0,,立ち向かう勇気
+Dialogue: 0,0:23:03.40,0:23:07.42,edj,NTP,0,0,0,,息と如いてる全て
+Dialogue: 0,0:23:07.43,0:23:13.86,edj,NTP,0,0,0,,君の自体に奏でるシンフォニー（symphony）
+Dialogue: 0,0:23:13.88,0:23:16.10,edj,NTP,0,0,0,,好いよぞう信じて
+Dialogue: 0,0:23:16.13,0:23:19.52,edj,NTP,0,0,0,,まだ見ぬ真情の辞
+Dialogue: 0,0:23:19.55,0:23:26.80,edj,NTP,0,0,0,,君は君のままでそこ呼べ
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:03.21,0:00:04.69,Default,NTP,0,0,0,,自古以來
+Dialogue: 0,0:00:04.76,0:00:06.74,Default,NTP,0,0,0,,人們就對妖怪心存畏懼
+Dialogue: 0,0:00:07.44,0:00:09.64,Default,NTP,0,0,0,,而妖怪們的統帥
+Dialogue: 0,0:00:09.69,0:00:12.22,Default,NTP,0,0,0,,領軍「百鬼夜行」的男人
+Dialogue: 0,0:00:12.93,0:00:16.85,Default,NTP,0,0,0,,人們稱之為妖怪的總帥
+Dialogue: 0,0:00:16.90,0:00:19.10,Default,NTP,0,0,0,,賦予其別稱
+Dialogue: 0,0:00:19.69,0:00:21.52,Default,NTP,0,0,0,,魑魅魍魎之主
+Dialogue: 0,0:00:22.26,0:00:23.64,Default,NTP,0,0,0,,「滑頭鬼」
+Dialogue: 0,0:02:15.54,0:02:17.25,Default,NTP,0,0,0,,歡迎光臨
+Dialogue: 0,0:02:18.12,0:02:19.27,Default,NTP,0,0,0,,巡夜辛苦了
+Dialogue: 0,0:02:19.75,0:02:20.83,Default,NTP,0,0,0,,這裏沒什麼事吧
+Dialogue: 0,0:02:20.87,0:02:22.77,Default,NTP,0,0,0,,托您的福
+Dialogue: 0,0:02:27.66,0:02:28.82,Default,NTP,0,0,0,,請慢用
+Dialogue: 0,0:02:33.56,0:02:36.20,Default,NTP,0,0,0,,沒見過的臉啊 新人嗎？
+Dialogue: 0,0:02:36.88,0:02:42.09,Default,NTP,0,0,0,,是的 前些天新進來的 多多指教哦
+Dialogue: 0,0:02:44.74,0:02:47.08,Default,NTP,0,0,0,,她跟這店裏的風格不大搭啊
+Dialogue: 0,0:02:47.17,0:02:49.32,Default,NTP,0,0,0,,她很受歡迎的
+Dialogue: 0,0:02:49.39,0:02:52.44,Default,NTP,0,0,0,,現在這種時候 不要隨便招人
+Dialogue: 0,0:02:52.97,0:02:53.91,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:02:53.96,0:02:55.10,Default,NTP,0,0,0,,有情況
+Dialogue: 0,0:02:55.13,0:02:56.05,Default,NTP,0,0,0,,在那邊
+Dialogue: 0,0:03:05.21,0:03:07.61,Default,NTP,0,0,0,,這附近有人遭到襲擊
+Dialogue: 0,0:03:08.03,0:03:09.76,Default,NTP,0,0,0,,那裏有什麼東西
+Dialogue: 0,0:03:10.41,0:03:13.76,Default,NTP,0,0,0,,小巷裏有奴良組的人被什麼人襲擊
+Dialogue: 0,0:03:21.03,0:03:25.45,Default,NTP,0,0,0,,{\fs40\fad(200,0)\bord3\be4\3c&H27275F&}戰鬥之女 百花繚亂
+Dialogue: 0,0:03:27.94,0:03:30.44,Default,NTP,0,0,0,,現在奴良組正亂成一片呢
+Dialogue: 0,0:03:31.29,0:03:34.73,Default,NTP,0,0,0,,有意思 真有意思呢 犬神
+Dialogue: 0,0:03:36.47,0:03:39.85,Default,NTP,0,0,0,,那麼 我們就看看奴良組有什麼本事吧
+Dialogue: 0,0:03:42.10,0:03:46.52,Default,NTP,0,0,0,,大家都聚集在此 我就做個簡短的報告
+Dialogue: 0,0:03:47.61,0:03:55.45,Default,NTP,0,0,0,,受害者為妖怪組組長浪費鬼大人以及3名護衛
+Dialogue: 0,0:03:55.76,0:03:57.99,Default,NTP,0,0,0,,全部都受了重傷
+Dialogue: 0,0:03:58.09,0:04:01.13,Default,NTP,0,0,0,,這是怎麼回事？ 只一個晚上就發生了這種事情
+Dialogue: 0,0:04:01.20,0:04:05.98,Default,NTP,0,0,0,,而且是繼狒狒之後 幹部浪費鬼居然也遭到毒手了
+Dialogue: 0,0:04:06.01,0:04:08.61,Default,NTP,0,0,0,,你打算怎麼承擔這個責任？
+Dialogue: 0,0:04:08.67,0:04:09.74,Default,NTP,0,0,0,,一目
+Dialogue: 0,0:04:10.76,0:04:15.23,Default,NTP,0,0,0,,現如今找出事實的真相為首要任務吧
+Dialogue: 0,0:04:15.27,0:04:17.05,Default,NTP,0,0,0,,什麼？
+Dialogue: 0,0:04:22.49,0:04:24.62,Default,NTP,0,0,0,,明明已經警戒成那樣了……
+Dialogue: 0,0:04:24.69,0:04:26.46,Default,NTP,0,0,0,,根據父親調查的結果
+Dialogue: 0,0:04:26.82,0:04:31.35,Default,NTP,0,0,0,,每次的犯罪都是在警備較為薄弱的極短的時間內發生的
+Dialogue: 0,0:04:33.17,0:04:38.94,Default,NTP,0,0,0,,而且 浪費鬼大人應該是從本家回去的途中遭到了伏擊
+Dialogue: 0,0:04:40.73,0:04:43.84,Default,NTP,0,0,0,,怎麼會？ 難道說組裏的情報洩露給敵人了嗎!?
+Dialogue: 0,0:04:44.31,0:04:46.49,Default,NTP,0,0,0,,不可原諒！ 到底是誰幹的！
+Dialogue: 0,0:04:46.54,0:04:49.02,Default,NTP,0,0,0,,少主 這事應該徹底追查
+Dialogue: 0,0:04:49.07,0:04:50.72,Default,NTP,0,0,0,,沒錯!
+Dialogue: 0,0:04:50.72,0:04:54.70,Default,NTP,0,0,0,,安靜！事件還沒定下結論
+Dialogue: 0,0:04:55.34,0:04:59.99,Default,NTP,0,0,0,,這件事就交給鴉天狗 大家繼續保持警戒
+Dialogue: 0,0:05:02.13,0:05:03.94,Default,NTP,0,0,0,,一定會找到犯人的！
+Dialogue: 0,0:05:04.11,0:05:05.15,Default,NTP,0,0,0,,是！
+Dialogue: 0,0:05:10.73,0:05:13.42,Default,NTP,0,0,0,,少主 事態變得很糟糕了呢
+Dialogue: 0,0:05:15.02,0:05:18.53,Default,NTP,0,0,0,,不好意思 以後也拜託你保護清繼同學他們了
+Dialogue: 0,0:05:18.58,0:05:22.57,Default,NTP,0,0,0,,是 為了讓少主能安心執行少當家的職務
+Dialogue: 0,0:05:22.62,0:05:24.03,Default,NTP,0,0,0,,我會牢牢地監視他們的
+Dialogue: 0,0:05:25.96,0:05:27.48,Default,NTP,0,0,0,,監視……
+Dialogue: 0,0:05:30.37,0:05:32.01,Default,NTP,0,0,0,,真閒啊！
+Dialogue: 0,0:05:32.55,0:05:34.91,Default,NTP,0,0,0,,那麼我就開始妖怪講座
+Dialogue: 0,0:05:34.06,0:05:36.92,Default,NTP,0,0,0,,都聽你說了一晚上了 聽膩了啊
+Dialogue: 0,0:05:36.98,0:05:40.84,Default,NTP,0,0,0,,雖然奴良同學讓我們不要去 我們還是去探查妖怪……
+Dialogue: 0,0:05:40.62,0:05:41.56,Default,NTP,0,0,0,,不可以！
+Dialogue: 0,0:05:44.37,0:05:45.63,Default,NTP,0,0,0,,及川同學
+Dialogue: 0,0:05:47.12,0:05:51.44,Default,NTP,0,0,0,,看 天氣這麼好 我們來院子裏做運動吧！
+Dialogue: 0,0:05:52.56,0:05:55.34,Default,NTP,0,0,0,,不愧是及川同學！真是好主意！
+Dialogue: 0,0:05:55.54,0:05:57.53,Default,NTP,0,0,0,,反正挺閒的 去吧
+Dialogue: 0,0:05:58.43,0:06:00.31,Default,NTP,0,0,0,,嘛 也確實有點運動不足啊
+Dialogue: 0,0:06:04.31,0:06:08.37,Default,NTP,0,0,0,,那確實是妖怪之間的戰鬥
+Dialogue: 0,0:06:16.54,0:06:20.44,Default,NTP,0,0,0,,這座城市裏到底發生了什麼事
+Dialogue: 0,0:06:21.29,0:06:26.14,Default,NTP,0,0,0,,干想著也不是辦法 如果人類被捲進那種戰鬥就糟了
+Dialogue: 0,0:06:29.59,0:06:31.70,Default,NTP,0,0,0,,我不會讓那種事情發生的
+Dialogue: 0,0:06:40.98,0:06:41.89,Default,NTP,0,0,0,,妖氣
+Dialogue: 0,0:06:44.97,0:06:46.25,Default,NTP,0,0,0,,錯覺嗎？
+Dialogue: 0,0:06:55.36,0:06:56.51,Default,NTP,0,0,0,,那邊的歐巴桑
+Dialogue: 0,0:06:58.15,0:06:59.19,Default,NTP,0,0,0,,歐巴桑？
+Dialogue: 0,0:07:00.11,0:07:05.50,Default,NTP,0,0,0,,看到我的樣子了 你這年輕的生命也就要凋零了
+Dialogue: 0,0:07:05.89,0:07:07.15,Default,NTP,0,0,0,,果然是妖怪
+Dialogue: 0,0:07:07.18,0:07:10.53,Default,NTP,0,0,0,,你來世注意點自己的語言措辭
+Dialogue: 0,0:07:13.49,0:07:14.24,Default,NTP,0,0,0,,你這是什麼？
+Dialogue: 0,0:07:14.71,0:07:17.44,Default,NTP,0,0,0,,難道是陰陽師？
+Dialogue: 0,0:07:18.49,0:07:20.68,Default,NTP,0,0,0,,是跟犬鳳凰打過的那傢伙嗎
+Dialogue: 0,0:07:20.73,0:07:21.81,Default,NTP,0,0,0,,做好覺悟吧！
+Dialogue: 0,0:07:22.44,0:07:25.03,Default,NTP,0,0,0,,不妙 不能在這種地方引發騷亂
+Dialogue: 0,0:07:25.75,0:07:27.36,Default,NTP,0,0,0,,你給我記住 小丫頭！
+Dialogue: 0,0:07:27.40,0:07:28.26,Default,NTP,0,0,0,,站住！
+Dialogue: 0,0:07:50.04,0:07:51.77,Default,NTP,0,0,0,,有妖氣 在這邊！
+Dialogue: 0,0:07:54.63,0:07:55.56,Default,NTP,0,0,0,,這是……
+Dialogue: 0,0:08:03.80,0:08:04.96,Default,NTP,0,0,0,,這不是柚羅嘛？
+Dialogue: 0,0:08:04.96,0:08:05.98,Default,NTP,0,0,0,,你來了啊
+Dialogue: 0,0:08:06.06,0:08:07.38,Default,NTP,0,0,0,,柚羅
+Dialogue: 0,0:08:10.40,0:08:11.28,Default,NTP,0,0,0,,再來一次
+Dialogue: 0,0:08:11.88,0:08:12.52,Default,NTP,0,0,0,,夜
+Dialogue: 0,0:08:13.20,0:08:14.64,Default,NTP,0,0,0,,深
+Dialogue: 0,0:08:15.84,0:08:16.81,Default,NTP,0,0,0,,夜
+Dialogue: 0,0:08:17.44,0:08:18.35,Default,NTP,0,0,0,,深
+Dialogue: 0,0:08:19.19,0:08:19.96,Default,NTP,0,0,0,,人
+Dialogue: 0,0:08:21.00,0:08:22.13,Default,NTP,0,0,0,,靜
+Dialogue: 0,0:08:22.68,0:08:23.42,Default,NTP,0,0,0,,人
+Dialogue: 0,0:08:24.48,0:08:25.17,Default,NTP,0,0,0,,靜
+Dialogue: 0,0:08:25.17,0:08:26.19,Default,NTP,0,0,0,,一起來
+Dialogue: 0,0:08:26.26,0:08:32.56,Default,NTP,0,0,0,,{\an8\fs24}夜深人靜
+Dialogue: 0,0:08:27.01,0:08:29.12,Default,NTP,0,0,0,,這也是為了少主
+Dialogue: 0,0:08:29.78,0:08:31.25,Default,NTP,0,0,0,,好可愛
+Dialogue: 0,0:08:32.55,0:08:34.60,Default,NTP,0,0,0,,大家在幹嗎啊？
+Dialogue: 0,0:08:34.65,0:08:36.24,Default,NTP,0,0,0,,你來了啊
+Dialogue: 0,0:08:39.01,0:08:40.35,Default,NTP,0,0,0,,打擾了
+Dialogue: 0,0:08:41.50,0:08:44.00,Default,NTP,0,0,0,,我自己做的甜甜圈 請用
+Dialogue: 0,0:08:44.18,0:08:45.05,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:08:53.46,0:08:54.28,Default,NTP,0,0,0,,歡迎
+Dialogue: 0,0:08:54.78,0:08:57.91,Default,NTP,0,0,0,,花開院同學也準備參加合宿了？
+Dialogue: 0,0:08:57.95,0:09:03.65,Default,NTP,0,0,0,,不是的 想著消滅妖怪 追著追著不知不覺就來到這裏了
+Dialogue: 0,0:09:04.33,0:09:05.20,Default,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:09:05.70,0:09:09.98,Default,NTP,0,0,0,,那個好像是叫「鉤針女」的四國妖怪
+Dialogue: 0,0:09:10.04,0:09:12.36,Default,NTP,0,0,0,,到底在那種地方幹嗎呢？
+Dialogue: 0,0:09:13.07,0:09:14.38,Default,NTP,0,0,0,,四國的妖怪？
+Dialogue: 0,0:09:15.29,0:09:18.22,Default,NTP,0,0,0,,那個「鉤針女」怎麼了？
+Dialogue: 0,0:09:18.25,0:09:21.33,Default,NTP,0,0,0,,從浮世繪街的巷子裏出現
+Dialogue: 0,0:09:21.39,0:09:24.96,Default,NTP,0,0,0,,樣貌雖然偽裝了過了 還是暴露了
+Dialogue: 0,0:09:25.61,0:09:27.61,Default,NTP,0,0,0,,浮世繪街的後巷……
+Dialogue: 0,0:09:27.67,0:09:30.09,Default,NTP,0,0,0,,怎麼了？有興趣？
+Dialogue: 0,0:09:30.16,0:09:31.64,Default,NTP,0,0,0,,不……完全沒有……
+Dialogue: 0,0:09:33.06,0:09:35.27,Default,NTP,0,0,0,,我想起還有點事兒
+Dialogue: 0,0:09:36.14,0:09:37.39,Default,NTP,0,0,0,,你慢用
+Dialogue: 0,0:09:43.74,0:09:45.45,Default,NTP,0,0,0,,快叫鴉天狗過來
+Dialogue: 0,0:09:45.47,0:09:46.36,Default,NTP,0,0,0,,是
+Dialogue: 0,0:09:46.45,0:09:48.73,Default,NTP,0,0,0,,被陰陽師看到真面目了？
+Dialogue: 0,0:09:50.85,0:09:54.62,Default,NTP,0,0,0,,是的 我想應該是和犬鳳凰戰鬥的傢伙沒錯
+Dialogue: 0,0:09:55.86,0:09:57.66,Default,NTP,0,0,0,,又是那個陰陽師嗎？
+Dialogue: 0,0:09:57.73,0:10:00.53,Default,NTP,0,0,0,,她肯定跟奴良組有關
+Dialogue: 0,0:10:01.10,0:10:02.89,Default,NTP,0,0,0,,四處閒逛真礙眼
+Dialogue: 0,0:10:03.94,0:10:06.36,Default,NTP,0,0,0,,請讓我去幹掉她
+Dialogue: 0,0:10:07.84,0:10:09.42,Default,NTP,0,0,0,,那就靠你了
+Dialogue: 0,0:10:10.34,0:10:11.15,Default,NTP,0,0,0,,是
+Dialogue: 0,0:10:12.17,0:10:13.84,Default,NTP,0,0,0,,那麼我就先走了
+Dialogue: 0,0:10:13.88,0:10:16.14,Default,NTP,0,0,0,,柚羅 你的傷沒事了吧？
+Dialogue: 0,0:10:16.18,0:10:18.41,Default,NTP,0,0,0,,沒事了 不用擔心
+Dialogue: 0,0:10:19.14,0:10:23.53,Default,NTP,0,0,0,,不客氣 為了自己也能出份力 我也在努力
+Dialogue: 0,0:10:23.57,0:10:25.56,Default,NTP,0,0,0,,花開院同學別亂來啊
+Dialogue: 0,0:10:25.60,0:10:26.68,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:10:26.70,0:10:28.22,Default,NTP,0,0,0,,再見啊
+Dialogue: 0,0:10:28.22,0:10:30.40,Default,NTP,0,0,0,,陰陽師的護衛啊
+Dialogue: 0,0:10:31.51,0:10:35.82,Default,NTP,0,0,0,,雖說是少主的命令這也太……
+Dialogue: 0,0:10:39.30,0:10:40.24,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:10:43.05,0:10:46.39,Default,NTP,0,0,0,,那麼 接下來是從妖怪手裏逃走的必勝方法
+Dialogue: 0,0:10:46.43,0:10:48.14,Default,NTP,0,0,0,,禹步的練習
+Dialogue: 0,0:10:48.55,0:10:50.15,Default,NTP,0,0,0,,來吧 奴良同學也一起
+Dialogue: 0,0:10:53.08,0:10:54.81,Default,NTP,0,0,0,,對不起 我有點急事
+Dialogue: 0,0:10:54.90,0:10:56.39,Default,NTP,0,0,0,,等下 奴良同學
+Dialogue: 0,0:10:56.71,0:10:58.51,Default,NTP,0,0,0,,禹步好像很好玩的樣子
+Dialogue: 0,0:10:58.56,0:11:00.21,Default,NTP,0,0,0,,也教教我吧
+Dialogue: 0,0:11:01.08,0:11:04.46,Default,NTP,0,0,0,,及川同學真熱衷啊 感動感動
+Dialogue: 0,0:11:04.49,0:11:07.19,Default,NTP,0,0,0,,妖怪居然學習陰陽師的法術
+Dialogue: 0,0:11:07.24,0:11:10.80,Default,NTP,0,0,0,,少主 我到底會怎麼樣啊
+Dialogue: 0,0:11:11.81,0:11:14.15,Default,NTP,0,0,0,,這是鉤針女的畫像
+Dialogue: 0,0:11:14.77,0:11:17.95,Default,NTP,0,0,0,,然後根據少主的情報搜查了妖怪橫街後
+Dialogue: 0,0:11:17.99,0:11:20.03,Default,NTP,0,0,0,,在化貓組的屋裏找到了這個女人
+Dialogue: 0,0:11:20.68,0:11:26.24,Default,NTP,0,0,0,,就我們調查所知在她頻繁地會接觸客人和奴良組的幹部
+Dialogue: 0,0:11:26.30,0:11:28.74,Default,NTP,0,0,0,,我認為這就是鉤針女沒錯
+Dialogue: 0,0:11:29.33,0:11:32.79,Default,NTP,0,0,0,,四國的妖怪根據她的情報然後展開行動的吧？
+Dialogue: 0,0:11:33.10,0:11:37.10,Default,NTP,0,0,0,,潛入我們的領地冒充組員的行為真是令人髮指
+Dialogue: 0,0:11:37.19,0:11:39.48,Default,NTP,0,0,0,,少主 已經沒有餘地了
+Dialogue: 0,0:11:40.21,0:11:41.73,Default,NTP,0,0,0,,是啊 鴉天狗
+Dialogue: 0,0:11:43.36,0:11:45.00,Default,NTP,0,0,0,,是時候
+Dialogue: 0,0:11:47.84,0:11:48.93,Default,NTP,0,0,0,,安排一下了
+Dialogue: 0,0:12:08.36,0:12:10.56,Default,NTP,0,0,0,,還是老樣子很忙吧？
+Dialogue: 0,0:12:11.27,0:12:12.12,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:12:12.93,0:12:15.48,Default,NTP,0,0,0,,明天幹部們也要碰頭啊
+Dialogue: 0,0:12:17.37,0:12:19.04,Default,NTP,0,0,0,,啊 在哪裏啊？
+Dialogue: 0,0:12:22.67,0:12:24.63,Default,NTP,0,0,0,,女人的頭髮
+Dialogue: 0,0:12:28.90,0:12:29.71,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:12:30.67,0:12:32.55,Default,NTP,0,0,0,,怎麼回事？這個「畏」
+Dialogue: 0,0:12:33.36,0:12:35.82,Default,NTP,0,0,0,,我們經過的時候明明沒有的
+Dialogue: 0,0:12:35.86,0:12:38.17,Default,NTP,0,0,0,,前面貌似有什麼
+Dialogue: 0,0:12:39.12,0:12:40.28,Default,NTP,0,0,0,,走了
+Dialogue: 0,0:12:41.65,0:12:42.64,Default,NTP,0,0,0,,露餡了嗎？
+Dialogue: 0,0:12:44.97,0:12:45.73,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:12:51.47,0:12:52.40,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:12:54.04,0:12:54.99,Default,NTP,0,0,0,,真巧啊
+Dialogue: 0,0:12:58.06,0:13:01.00,Default,NTP,0,0,0,,難……難道說那個女人是……
+Dialogue: 0,0:13:01.04,0:13:01.91,Default,NTP,0,0,0,,在那邊
+Dialogue: 0,0:13:01.98,0:13:02.79,Default,NTP,0,0,0,,休想逃
+Dialogue: 0,0:13:04.87,0:13:08.72,Default,NTP,0,0,0,,好不容易進行得很順利 到底為什麼
+Dialogue: 0,0:13:13.66,0:13:15.99,Default,NTP,0,0,0,,那個小丫頭!
+Dialogue: 0,0:13:16.54,0:13:19.24,Default,NTP,0,0,0,,把她當禮物孝敬給玉章大人
+Dialogue: 0,0:13:21.75,0:13:24.76,Default,NTP,0,0,0,,沒想到是老叔你把我們組的內情給洩漏出去的
+Dialogue: 0,0:13:25.11,0:13:27.20,Default,NTP,0,0,0,,這個爛攤子你要怎麼收拾
+Dialogue: 0,0:13:29.61,0:13:32.31,Default,NTP,0,0,0,,適可而止吧 他沒有惡意
+Dialogue: 0,0:13:32.38,0:13:34.23,Default,NTP,0,0,0,,不要只責備我一個啊
+Dialogue: 0,0:13:34.24,0:13:36.06,Default,NTP,0,0,0,,本來引起這種事的根源就在
+Dialogue: 0,0:13:36.12,0:13:40.19,Default,NTP,0,0,0,,組織的弱化跟無能統領的頭領之錯
+Dialogue: 0,0:13:44.56,0:13:46.07,Default,NTP,0,0,0,,此話不假
+Dialogue: 0,0:13:46.34,0:13:47.30,Default,NTP,0,0,0,,少主
+Dialogue: 0,0:13:52.03,0:13:53.02,Default,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:13:53.86,0:13:55.46,Default,NTP,0,0,0,,我來幫忙收拾
+Dialogue: 0,0:13:56.45,0:13:59.12,Default,NTP,0,0,0,,幫大忙了 加奈能來幫手
+Dialogue: 0,0:13:59.55,0:14:02.25,Default,NTP,0,0,0,,不算什麼 我一直承蒙您的關照
+Dialogue: 0,0:14:05.21,0:14:08.50,Default,NTP,0,0,0,,說起來 妖怪給你留下了很可怕的回憶吧
+Dialogue: 0,0:14:08.61,0:14:10.10,Default,NTP,0,0,0,,真夠嗆
+Dialogue: 0,0:14:10.14,0:14:11.96,Default,NTP,0,0,0,,嗯 是的……
+Dialogue: 0,0:14:12.78,0:14:15.23,Default,NTP,0,0,0,,不過 不是只有可怕的妖怪哦
+Dialogue: 0,0:14:46.48,0:14:47.28,Default,NTP,0,0,0,,等等
+Dialogue: 0,0:14:56.28,0:14:57.52,Default,NTP,0,0,0,,那個真討厭
+Dialogue: 0,0:14:57.57,0:14:58.88,Default,NTP,0,0,0,,這有什麼不好啦
+Dialogue: 0,0:14:58.93,0:15:00.57,Default,NTP,0,0,0,,加奈 去哪了
+Dialogue: 0,0:15:00.61,0:15:02.90,Default,NTP,0,0,0,,說是去幫媽媽忙
+Dialogue: 0,0:15:02.94,0:15:06.55,Default,NTP,0,0,0,,真是賢惠啊 你們也多學學
+Dialogue: 0,0:15:06.63,0:15:07.54,Default,NTP,0,0,0,,你管我
+Dialogue: 0,0:15:07.59,0:15:09.11,Default,NTP,0,0,0,,知道及川同學去哪了嗎
+Dialogue: 0,0:15:11.30,0:15:12.25,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:15:12.62,0:15:14.78,Default,NTP,0,0,0,,難道 家長同學也……
+Dialogue: 0,0:15:15.88,0:15:18.56,Default,NTP,0,0,0,,實際上 我剛才從廁所回來時……
+Dialogue: 0,0:15:20.62,0:15:21.77,Default,NTP,0,0,0,,毛巾……
+Dialogue: 0,0:15:21.77,0:15:22.62,Default,NTP,0,0,0,,給
+Dialogue: 0,0:15:22.62,0:15:23.60,Default,NTP,0,0,0,,謝謝了
+Dialogue: 0,0:15:24.26,0:15:26.22,Default,NTP,0,0,0,,邊擦手邊看時
+Dialogue: 0,0:15:29.87,0:15:32.76,Default,NTP,0,0,0,,那毫無疑問是妖怪干的
+Dialogue: 0,0:15:32.84,0:15:34.75,Default,NTP,0,0,0,,為什麼不是我而是你遇到
+Dialogue: 0,0:15:34.80,0:15:38.24,Default,NTP,0,0,0,,說起來我也感覺到了 不得了的妖氣
+Dialogue: 0,0:15:38.31,0:15:41.15,Default,NTP,0,0,0,,我也是 這裏果然有什麼
+Dialogue: 0,0:15:41.22,0:15:42.66,Default,NTP,0,0,0,,加奈 也遇上什麼了嗎
+Dialogue: 0,0:15:45.76,0:15:47.34,Default,NTP,0,0,0,,Oh My God!
+Dialogue: 0,0:15:47.34,0:15:48.95,Default,NTP,0,0,0,,為什麼只有我一個什麼也沒遇到
+Dialogue: 0,0:15:49.02,0:15:50.22,Default,NTP,0,0,0,,你一點靈感也沒有吧
+Dialogue: 0,0:15:52.80,0:15:55.05,Default,NTP,0,0,0,,我有事要去調查一下
+Dialogue: 0,0:15:59.20,0:16:01.08,Default,NTP,0,0,0,,{\an8\fs24}(妖怪時事漫談 目擊妖怪的方法)
+Dialogue: 0,0:16:07.97,0:16:09.72,Default,NTP,0,0,0,,怎麼了 有事嗎 島
+Dialogue: 0,0:16:09.75,0:16:11.61,Default,NTP,0,0,0,,沒……沒事
+Dialogue: 0,0:16:17.88,0:16:20.18,Default,NTP,0,0,0,,真是的 為什麼我要做這種事
+Dialogue: 0,0:16:22.46,0:16:23.93,Default,NTP,0,0,0,,哎呀 頭髮有開叉
+Dialogue: 0,0:16:31.49,0:16:33.92,Default,NTP,0,0,0,,說起來 這裏是
+Dialogue: 0,0:16:36.51,0:16:38.88,Default,NTP,0,0,0,,爺爺在不在家呢
+Dialogue: 0,0:16:48.96,0:16:50.39,Default,NTP,0,0,0,,找到了
+Dialogue: 0,0:16:53.81,0:16:54.73,Default,NTP,0,0,0,,妖氣
+Dialogue: 0,0:16:55.58,0:16:57.58,Default,NTP,0,0,0,,很強烈的妖氣
+Dialogue: 0,0:16:57.60,0:16:58.73,Default,NTP,0,0,0,,不好
+Dialogue: 0,0:17:04.58,0:17:05.48,Default,NTP,0,0,0,,糟了
+Dialogue: 0,0:17:25.15,0:17:26.55,Default,NTP,0,0,0,,到這裏就行了吧
+Dialogue: 0,0:17:31.02,0:17:32.36,Default,NTP,0,0,0,,果然是你
+Dialogue: 0,0:17:33.01,0:17:36.28,Default,NTP,0,0,0,,為什麼陰陽師要當妖怪的同夥
+Dialogue: 0,0:17:36.36,0:17:39.44,Default,NTP,0,0,0,,妖怪的同夥？怎麼可能
+Dialogue: 0,0:17:39.48,0:17:42.13,Default,NTP,0,0,0,,先別說這個 你的目的到底是什麼
+Dialogue: 0,0:17:42.22,0:17:44.32,Default,NTP,0,0,0,,與你無關
+Dialogue: 0,0:17:44.39,0:17:46.68,Default,NTP,0,0,0,,做好覺悟吧 小丫頭
+Dialogue: 0,0:17:46.73,0:17:48.51,Default,NTP,0,0,0,,七人同行之一
+Dialogue: 0,0:17:48.56,0:17:51.71,Default,NTP,0,0,0,,就讓你瞧瞧鉤針女的厲害
+Dialogue: 0,0:17:51.74,0:17:54.57,Default,NTP,0,0,0,,以陰陽師 花開院家之名為誓
+Dialogue: 0,0:17:54.61,0:17:58.14,Default,NTP,0,0,0,,要將妖怪 將你從這世界肅清!
+Dialogue: 0,0:18:04.44,0:18:05.28,Default,NTP,0,0,0,,在哪兒
+Dialogue: 0,0:18:11.04,0:18:13.58,Default,NTP,0,0,0,,少主 我們找到鉤針女了
+Dialogue: 0,0:18:14.59,0:18:15.69,Default,NTP,0,0,0,,是她一人嗎
+Dialogue: 0,0:18:15.76,0:18:16.83,Default,NTP,0,0,0,,那個……
+Dialogue: 0,0:18:24.06,0:18:25.80,Default,NTP,0,0,0,,式神 祿……
+Dialogue: 0,0:18:28.45,0:18:29.94,Default,NTP,0,0,0,,式神被……
+Dialogue: 0,0:18:31.06,0:18:33.22,Default,NTP,0,0,0,,做好覺悟了吧 小丫頭
+Dialogue: 0,0:18:34.42,0:18:35.86,Default,NTP,0,0,0,,下地獄去吧
+Dialogue: 0,0:18:43.69,0:18:45.04,Default,NTP,0,0,0,,領死吧
+Dialogue: 0,0:18:47.66,0:18:48.57,Default,NTP,0,0,0,,是誰
+Dialogue: 0,0:18:50.60,0:18:51.63,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:18:59.06,0:19:01.28,Default,NTP,0,0,0,,你是奴良組的妖怪
+Dialogue: 0,0:19:02.18,0:19:03.83,Default,NTP,0,0,0,,四國妖怪啊
+Dialogue: 0,0:19:03.89,0:19:06.30,Default,NTP,0,0,0,,真是難看啊 歐巴桑
+Dialogue: 0,0:19:06.36,0:19:08.69,Default,NTP,0,0,0,,不修邊幅任由你頭髮到處亂散
+Dialogue: 0,0:19:08.72,0:19:09.86,Default,NTP,0,0,0,,你說什麼
+Dialogue: 0,0:19:09.90,0:19:11.44,Default,NTP,0,0,0,,你個黃臉婆!
+Dialogue: 0,0:19:12.54,0:19:15.06,Default,NTP,0,0,0,,我就先送你入地獄
+Dialogue: 0,0:19:15.10,0:19:18.01,Default,NTP,0,0,0,,妖念殺女·針刺地獄
+Dialogue: 0,0:19:21.48,0:19:24.66,Default,NTP,0,0,0,,亂欲遮人眼·花女之舞
+Dialogue: 0,0:19:45.15,0:19:46.34,Default,NTP,0,0,0,,怎會被你這種傢伙……
+Dialogue: 0,0:19:48.11,0:19:49.07,Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:19:50.28,0:19:52.37,Default,NTP,0,0,0,,莫非……
+Dialogue: 0,0:20:00.44,0:20:02.77,Default,NTP,0,0,0,,找到你了 鉤針女
+Dialogue: 0,0:20:03.16,0:20:04.24,Default,NTP,0,0,0,,你是……
+Dialogue: 0,0:20:04.81,0:20:05.68,Default,NTP,0,0,0,,少主
+Dialogue: 0,0:20:10.90,0:20:12.64,Default,NTP,0,0,0,,就給你看看
+Dialogue: 0,0:20:12.70,0:20:17.08,Default,NTP,0,0,0,,四國妖怪 七人同行的力量
+Dialogue: 0,0:20:18.70,0:20:21.01,Default,NTP,0,0,0,,我組內之人承蒙你照顧了
+Dialogue: 0,0:20:24.52,0:20:25.75,Default,NTP,0,0,0,,這傢伙是怎麼回事
+Dialogue: 0,0:20:39.14,0:20:40.60,Default,NTP,0,0,0,,我不會殺你的
+Dialogue: 0,0:20:42.42,0:20:44.42,Default,NTP,0,0,0,,你回去轉告玉章
+Dialogue: 0,0:20:44.47,0:20:46.63,Default,NTP,0,0,0,,不要用女人來耍些下三濫的手段
+Dialogue: 0,0:20:48.89,0:20:51.30,Default,NTP,0,0,0,,不過 下次可就不饒你了
+Dialogue: 0,0:21:01.91,0:21:03.56,Default,NTP,0,0,0,,你們跟毛倡妓一起回去吧
+Dialogue: 0,0:21:23.40,0:21:24.23,Default,NTP,0,0,0,,呦
+Dialogue: 0,0:21:26.07,0:21:27.91,Default,NTP,0,0,0,,你為什麼在這裏
+Dialogue: 0,0:21:28.49,0:21:30.18,Default,NTP,0,0,0,,鉤針女怎麼了
+Dialogue: 0,0:21:35.69,0:21:37.24,Default,NTP,0,0,0,,好好療傷吧
+Dialogue: 0,0:21:48.58,0:21:53.10,Default,NTP,0,0,0,,你是什麼人 你想做什麼!
+Dialogue: 0,0:23:27.99,0:23:30.08,Default,NTP,0,0,0,,阿青 你在學校裏叫什麼
+Dialogue: 0,0:23:30.28,0:23:31.38,Default,NTP,0,0,0,,有叫我藏田同學的
+Dialogue: 0,0:23:31.42,0:23:33.68,Default,NTP,0,0,0,,女生叫我小藏田
+Dialogue: 0,0:23:33.72,0:23:36.71,Default,NTP,0,0,0,,果然應該由在下潛入中學裏的
+Dialogue: 0,0:23:36.75,0:23:38.43,Default,NTP,0,0,0,,下回 滑頭鬼之孫
+Dialogue: 0,0:23:38.48,0:23:42.16,Default,NTP,0,0,0,,高傲之靈魂 熊熊燃燒
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+

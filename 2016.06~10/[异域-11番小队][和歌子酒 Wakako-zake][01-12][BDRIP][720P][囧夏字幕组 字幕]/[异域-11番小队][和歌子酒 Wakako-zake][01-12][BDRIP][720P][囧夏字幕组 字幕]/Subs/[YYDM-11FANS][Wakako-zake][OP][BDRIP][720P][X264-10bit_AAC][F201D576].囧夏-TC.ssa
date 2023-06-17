@@ -1,0 +1,40 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: ワカコ酒 01
+Original Script: 囧夏字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: kavenliang
+Update Details: 
+ScriptType: v4.00
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: Default,方正水柱_GBK,45,&HFFFFFF,&H0000FF,&H0A0A0A,&H000000,0,0,0,0,100,2,0,0,1,0,1
+Style: other,方正水柱_GBK,53,&HFFFFFF,&H0000FF,&H0A0A0A,&H000000,0,0,0,0,100,2,0,0,1,0,1
+Style: Lyrics CH,方正粗倩_GBK,31,&HFFFFFF,&H0000FF,&H9C9C9C,&H000000,0,0,0,0,100,2,0,0,1,0,1
+Style: Lyrics JP,FOT-MatisseEleganto Pro EB,36,&HFFFFFF,&H0000FF,&H888888,&H000000,0,0,0,0,100,2,0,0,1,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:08.86,0:00:12.57,Lyrics JP,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}いつもどおりの寄り道
+Dialogue: Marked=0,0:00:12.61,0:00:16.57,Lyrics JP,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}家に帰るその前に
+Dialogue: Marked=0,0:00:16.62,0:00:20.12,Lyrics JP,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}ほっこり幸せの味
+Dialogue: Marked=0,0:00:20.12,0:00:23.75,Lyrics JP,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}かけがえないひととき
+Dialogue: Marked=0,0:00:23.87,0:00:28.46,Lyrics JP,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}ごほうびの帰り道
+Dialogue: Marked=0,0:00:08.86,0:00:12.57,Lyrics CH,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}一如往常的小路
+Dialogue: Marked=0,0:00:12.61,0:00:16.57,Lyrics CH,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}在回到家裏之前
+Dialogue: Marked=0,0:00:16.62,0:00:20.12,Lyrics CH,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}暖暖幸福的味道
+Dialogue: Marked=0,0:00:20.12,0:00:23.75,Lyrics CH,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}無可取代的片刻
+Dialogue: Marked=0,0:00:23.87,0:00:28.46,Lyrics CH,NTP,0,0,0,!Effect,{\fad(200,200)\blur2}犒勞自己的歸途
+

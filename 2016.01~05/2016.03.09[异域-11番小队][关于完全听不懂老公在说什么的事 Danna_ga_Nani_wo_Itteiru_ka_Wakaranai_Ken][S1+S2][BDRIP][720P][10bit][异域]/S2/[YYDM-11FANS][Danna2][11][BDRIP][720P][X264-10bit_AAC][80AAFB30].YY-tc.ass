@@ -1,0 +1,98 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Danna S2
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,75,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,90,90,24,134
+Style: zhushi,FZZhunYuan-M02,54,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,7,30,90,30,134
+Style: biaoti,FZCuQian-M17,90,&H00F9F9F9,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,90,90,30,134
+Style: biaoti2,方正黄草_GBK,147,&H00595959,&HF0000000,&H00F8F8F8,&HF0000000,0,0,0,0,100,100,0,0,1,3,0,2,90,90,30,134
+Style: Warning,Noto Sans CJK SC Medium,54,&H00FFFFFF,&H000000FF,&H00000000,&H3C000000,0,0,0,0,100,100,0,0,1,3,3,8,15,15,21,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:53.90,0:00:56.41,Warning,,0,0,0,,{\an8\fad(400,600)\blur6}本片字幕由異域字幕組(http://www.yyman.com.cn)製作 僅供試看之用 請在24小時內刪除
+Dialogue: 0,0:00:56.41,0:00:58.91,Warning,,0,0,0,,{\an8}{\fad(400,600)\blur6}如果喜歡本作品 請購買並支持正版 如因私自散佈造成的法律問題 本字幕組恕不負責
+Dialogue: 0,0:00:04.98,0:00:07.98,biaoti,NTP,0,0,0,,{\pos(846,543)\1c&H595959&\3c&H595959&}關於老公在說什麼我完全聽不懂這事 第二帖
+Dialogue: 0,0:00:04.98,0:00:07.98,biaoti,,0,0,0,,{\pos(858,537)\bord3.9}關於老公在說什麼我完全聽不懂這事 第二帖
+Dialogue: 0,0:00:04.98,0:00:07.98,biaoti2,NTP,0,0,0,,{\fs75\pos(1175,840)}價值的份量與份量的價值
+Dialogue: 0,0:00:04.98,0:00:07.98,zhushi,,0,0,0,,{\an1\pos(90,1035)}翻校：ksc319  時後壓：喵碳
+Dialogue: 0,0:00:00.85,0:00:03.23,Default,,0,0,0,,截止至上話的《關於老公在瞎扯什麼我聽不懂》
+Dialogue: 0,0:00:03.39,0:00:04.65,Default,,0,0,0,,薰造人成功了
+Dialogue: 0,0:00:08.61,0:00:09.94,Default,,0,0,0,,先該怎麼做
+Dialogue: 0,0:00:10.86,0:00:13.57,Default,,0,0,0,,先去醫院那做正式的身體檢查
+Dialogue: 0,0:00:14.11,0:00:17.83,Default,,0,0,0,,然後聯繫公司 申請休產假
+Dialogue: 0,0:00:18.37,0:00:21.70,Default,,0,0,0,,最後去找個比我更靠譜的爹
+Dialogue: 0,0:00:21.91,0:00:24.08,Default,,0,0,0,,沒關係 我會負責地去找的
+Dialogue: 0,0:00:24.08,0:00:26.21,Default,,0,0,0,,說的就是你丫！你來照顧我啊！
+Dialogue: 0,0:00:27.17,0:00:29.30,Default,,0,0,0,,大家都有點擔心過頭了吧
+Dialogue: 0,0:00:29.42,0:00:30.42,Default,,0,0,0,,那是自然的
+Dialogue: 0,0:00:30.42,0:00:33.72,Default,,0,0,0,,就算工作沒做完 也會讓我直接回家
+Dialogue: 0,0:00:34.13,0:00:35.51,Default,,0,0,0,,這才懷孕兩個月而已啊
+Dialogue: 0,0:00:36.14,0:00:38.64,Default,,0,0,0,,不挺好的嗎 不用加班
+Dialogue: 0,0:00:39.01,0:00:40.64,Default,,0,0,0,,感覺生活少了樂趣
+Dialogue: 0,0:00:40.81,0:00:44.77,Default,,0,0,0,,但是你不用辛苦工作 就看著比平時更精神了
+Dialogue: 0,0:00:45.02,0:00:47.15,Default,,0,0,0,,我不幹我不幹我想工作
+Dialogue: 0,0:00:47.31,0:00:49.15,Default,,0,0,0,,不想給大家添麻煩啊
+Dialogue: 0,0:00:49.44,0:00:53.49,Default,,0,0,0,,不過這麼一消除疲勞 都有心情玩嘻哈了
+Dialogue: 0,0:00:49.15,0:00:53.90,zhushi,,0,0,0,,{\fad(200,200)}看外觀是DRRR那個中村配的角色 不過最近動畫裏玩嘻哈的好像還是AB裏的教主
+Dialogue: 0,0:00:54.15,0:00:57.24,Default,,0,0,0,,這個階段還不用那麼保胎啦
+Dialogue: 0,0:00:57.53,0:01:01.16,Default,,0,0,0,,如果身體不舒服的話匯報給我就行
+Dialogue: 0,0:01:01.41,0:01:03.41,Default,,0,0,0,,我記得我給你這麼說過
+Dialogue: 0,0:01:04.16,0:01:05.92,Default,,0,0,0,,那啥 放不下心去……
+Dialogue: 0,0:01:06.42,0:01:09.25,Default,,0,0,0,,你明明經常做些高恥度的事和連發中二發言
+Dialogue: 0,0:01:09.42,0:01:12.55,Default,,0,0,0,,但一牽扯到你老婆就膽小了啊
+Dialogue: 0,0:01:12.92,0:01:15.80,Default,,0,0,0,,因為我比起自己更重視他人
+Dialogue: 0,0:01:17.01,0:01:19.14,Default,,0,0,0,,和我的思維模式不一樣呢
+Dialogue: 0,0:01:19.47,0:01:23.31,Default,,0,0,0,,我是自己是最重要的 順帶再珍重他人
+Dialogue: 0,0:01:23.35,0:01:25.81,Default,,0,0,0,,你意外得大度啊 田中
+Dialogue: 0,0:01:25.81,0:01:27.56,Default,,0,0,0,,不要對女性說大度
+Dialogue: 0,0:01:25.81,0:01:28.81,zhushi,,0,0,0,,{\fad(200,200)}雙關語梗，大度和胖同音
+Dialogue: 0,0:01:27.56,0:01:28.48,Default,,0,0,0,,我錯了
+Dialogue: 0,0:01:29.90,0:01:32.78,Default,,0,0,0,,帶了鑰匙 帶了手機 OK了吧
+Dialogue: 0,0:01:33.19,0:01:33.82,Default,,0,0,0,,我出門了
+Dialogue: 0,0:01:36.82,0:01:37.78,Default,,0,0,0,,我回來了
+Dialogue: 0,0:01:38.66,0:01:40.07,Default,,0,0,0,,啊 累死了
+Dialogue: 0,0:01:40.24,0:01:41.58,Default,,0,0,0,,歡迎回來
+Dialogue: 0,0:01:42.29,0:01:45.29,Default,,0,0,0,,你給我正常點啊正常點 和平時一樣犯二就行
+Dialogue: 0,0:01:46.41,0:01:47.04,Default,,0,0,0,,我需要決意
+Dialogue: 0,0:01:47.58,0:01:49.92,Default,,0,0,0,,總覺得我必須要下某種決心
+Dialogue: 0,0:01:50.50,0:01:53.38,Default,,0,0,0,,某種 保護家庭所需要的決心
+Dialogue: 0,0:01:54.21,0:01:58.09,Default,,0,0,0,,我是結了婚 所以要背負的東西就變多了
+Dialogue: 0,0:01:58.76,0:02:00.97,Default,,0,0,0,,我認為這必須沉重
+Dialogue: 0,0:02:01.72,0:02:02.35,Default,,0,0,0,,也就是說
+Dialogue: 0,0:02:03.14,0:02:04.77,Default,,0,0,0,,……我不懂啊QuQ
+Dialogue: 0,0:02:05.31,0:02:07.85,Default,,0,0,0,,佐村前輩 該下班了
+Dialogue: 0,0:02:08.27,0:02:10.73,Default,,0,0,0,,剩下的我收拾就行 你先回去吧
+Dialogue: 0,0:02:10.90,0:02:13.48,Default,,0,0,0,,那啥啊 戶部醬你太照顧我了吧
+Dialogue: 0,0:02:13.48,0:02:17.99,Default,,0,0,0,,你在說什麼啊 等我懷孕的時候不也這個待遇的話我可不干
+Dialogue: 0,0:02:18.07,0:02:19.66,Default,,0,0,0,,你還真實誠啊
+Dialogue: 0,0:02:20.11,0:02:22.74,Default,,0,0,0,,我在這工作了五年多
+Dialogue: 0,0:02:23.66,0:02:27.91,Default,,0,0,0,,雖然因為調換部門而鬱悶了一段時間 但還是有迷戀的
+Dialogue: 0,0:02:28.66,0:02:31.96,Default,,0,0,0,,而發現工作上就算沒有我也能正常進行之後
+Dialogue: 0,0:02:32.38,0:02:36.30,Default,,0,0,0,,唉？ 我還被這裏所需要嗎？
+Dialogue: 0,0:02:36.46,0:02:37.76,Default,,0,0,0,,就會這麼想著 有點寂寞
+Dialogue: 0,0:02:38.09,0:02:39.05,Default,,0,0,0,,我回來了
+Dialogue: 0,0:02:41.01,0:02:45.43,Default,,0,0,0,,哎呀 這是因為太早下班而想著這工作還需要我嗎
+Dialogue: 0,0:02:45.47,0:02:48.56,Default,,0,0,0,,從而情緒低落 滿臉寫著我將會怎麼樣啊！的表情
+Dialogue: 0,0:02:48.85,0:02:53.02,Default,,0,0,0,,沒問題！大家都需要薰 我也非常離不開薰的！
+Dialogue: 0,0:02:48.39,0:02:53.15,zhushi,,0,0,0,,{\fad(100,200)}梗自全金2 要教訓宗介怎麼搭訕處
+Dialogue: 0,0:02:55.48,0:02:57.90,Default,,0,0,0,,你讀心術太厲害 我都有點怕了
+

@@ -1,0 +1,56 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: K-ON
+Original Script: 华盟字幕社
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 848
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,FZZhunYuan-M02,32,&H00FFFFFF,&H0000FFFF,&H0027415C,&H9027415C,0,0,0,0,100,100,0,0,1,3,1,2,30,30,13,134
+Style: zhushi,FZZhunYuan-M02,24,&H00FFFFFF,&H0000FFFF,&H0027415C,&H9027415C,0,0,0,0,100,100,0,0,1,3,1,8,15,15,12,134
+Style: jinggao,FZZhunYuan-M02,23,&H00FFFFFF,&H80000000,&H00000000,&HFF555555,-1,0,0,0,95,100,1,0,1,3,0,2,10,10,12,134
+Style: OPJ,MS Gothic,25,&H00FEFEFE,&H0000FFFF,&H11222222,&H11222222,0,0,0,0,100,100,0,0,1,3,0,8,85,85,11,128
+Style: OPC,方正黑体_GBK,29,&H00FEFEFE,&H0000FFFF,&H11222222,&H11222222,0,0,0,0,100,100,0,0,1,3,0,2,76,76,8,134
+Style: EDJ,MS Gothic,25,&H00FEFEFE,&H0000FFFF,&H11222222,&H11222222,0,0,0,0,100,100,0,0,1,3,0,8,85,85,11,128
+Style: EDC,方正黑体_GBK,29,&H00FEFEFE,&H0000FFFF,&H11222222,&H11222222,0,0,0,0,100,100,0,0,1,3,0,2,76,76,8,134
+Style: EDJ2,MS Gothic,25,&H00010101,&H0000FFFF,&H11EEEEEE,&H11222222,0,0,0,0,100,100,0,0,1,3,0,8,85,85,11,128
+Style: EDC2,方正黑体_GBK,29,&H00010101,&H0000FFFF,&H11EEEEEE,&H11222222,0,0,0,0,100,100,0,0,1,3,0,2,76,76,8,134
+Style: title,FZZhunYuan-M02,32,&H00000000,&H0000FFFF,&H0027415C,&H9027415C,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,180,134
+Style: title2,FZZhunYuan-M02,45,&H20EEEEEE,&H0000FFFF,&H20000000,&H80000000,0,0,0,0,100,100,0,0,1,3,0,2,21,30,140,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,zhengwen,NTP,0000,0000,0000,,大家来占卜
+Dialogue: 0,0:00:05.00,0:00:09.00,zhengwen,NTP,0000,0000,0000,,其三  唯的前世
+Dialogue: 0,0:00:09.17,0:00:10.59,zhengwen,NTP,0000,0000,0000,,我呢我呢
+Dialogue: 0,0:00:11.52,0:00:16.50,zhengwen,NTP,0000,0000,0000,,我看看…唯学姐的前世是…
+Dialogue: 0,0:00:17.48,0:00:19.26,zhengwen,NTP,0000,0000,0000,,玛丽·安托瓦内特
+Dialogue: 0,0:00:17.48,0:00:19.26,zhushi,NTP,0000,0000,0000,,（玛丽·安托瓦内特(Marie  An-toinette  1755～1793)，原奥地利帝国公主，生于维也纳，\N是神圣罗马帝国皇帝弗朗索瓦一世与奥地利女王玛丽亚·特蕾西亚的第十五个孩子）
+Dialogue: 0,0:00:19.40,0:00:20.82,zhengwen,NTP,0000,0000,0000,,哦～
+Dialogue: 0,0:00:21.02,0:00:25.03,zhengwen,NTP,0000,0000,0000,,所吃的泡芙的厨师…
+Dialogue: 0,0:00:25.17,0:00:28.06,zhengwen,NTP,0000,0000,0000,,啊…哦～
+Dialogue: 0,0:00:28.28,0:00:32.82,zhengwen,NTP,0000,0000,0000,,创造其成为厨师的机会的木工…
+Dialogue: 0,0:00:33.10,0:00:34.98,zhengwen,NTP,0000,0000,0000,,…嗯？
+Dialogue: 0,0:00:35.23,0:00:36.59,zhengwen,NTP,0000,0000,0000,,什么机会啊
+Dialogue: 0,0:00:36.74,0:00:38.02,zhengwen,NTP,0000,0000,0000,,但是这也很厉害啊
+Dialogue: 0,0:00:38.34,0:00:41.35,zhengwen,NTP,0000,0000,0000,,等等  还有下文呢
+Dialogue: 0,0:00:42.05,0:00:43.45,zhengwen,NTP,0000,0000,0000,,那个…
+Dialogue: 0,0:00:43.80,0:00:49.68,zhengwen,NTP,0000,0000,0000,,那个木匠的初恋情人喜欢的香水的调香师
+Dialogue: 0,0:00:49.78,0:00:53.65,zhengwen,NTP,0000,0000,0000,,35岁生日的早上踩死的…
+Dialogue: 0,0:00:53.94,0:00:55.13,zhengwen,NTP,0000,0000,0000,,球潮虫
+Dialogue: 0,0:00:55.24,0:00:56.37,zhengwen,NTP,0000,0000,0000,,结果还是虫子啊！
+

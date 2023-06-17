@@ -1,0 +1,376 @@
+[Script Info]
+Title: 天字幕組
+Original Script: 天字幕組
+ScriptType: v4.00
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+style: New style_2,Aranl,10,&H000000,&H5f9ea0,&H00ffff,&H00ffff,0,-1,1,2,1,2,30,30,12,0,134
+Style: Default,華康粗圓體,15,&Hffffff,&Hffffff,&H000000,&H000000,-1,0,1,0.9,0,2,30,30,5,0,1
+Style: op_jp,MS PGothic,15,&Hffffff,&Hffffff,&H000000,&H000000,-1,0,1,0.9,0,2,30,30,12,0,1
+Style: op_ch,華康粗圓體,11,&Hffffff,&Hffffff,&H000000,&H000000,-1,0,1,0.9,0,2,30,30,12,0,1
+Style: credits,MS PGothic,12,&Hffffff,&Hffffff,&H000000,&H000000,-1,0,1,0.9,0,2,30,30,12,0,1
+Style: opedj,MS PGothic,12,&Hffffff,&Hf035b2,&H000000,&H000000,-1,0,1,2,1,2,30,30,12,0,1
+style: New style,PGothic,14,&Hffffff,&H990000,&Hf76809,&Hee1111,0,0,1,1,1,2,30,30,12,0,134
+Style: tran,華康粗圓體,10,&Hffffff,&Hffffff,&H000000,&H000000,-1,0,1,2,1,2,30,30,20,0,1
+Style: tran_r,華康粗圓體,10,&Hffffff,&Hffffff,&H000000,&H000000,-1,0,1,2,1,3,30,30,20,0,1
+Style: title,華康粗圓體,15,&Hffffff,&Hffffff,&HFF00A4,&H76365F,-2,0,1,1.3,0,2,30,30,5,0,1
+Style: credit,華康粗圓體,10,&Hffffff,&Hffffff,&HFF00A4,&H76365F,-2,0,1,0.9,0,2,30,30,5,0,1
+
+Dialogue: Marked=0,0:00:27.25,0:00:31.37,credit,NTP,0150,0145,062,,{\fad(0,200)}片源　QR
+Dialogue: Marked=0,0:00:35.70,0:00:38.87,credit,NTP,0190,0085,035,,{\fad(0,200)}翻譯　    rayos
+Dialogue: Marked=0,0:00:38.95,0:00:42.17,credit,NTP,0045,0220,032,,{\fad(0,200)}時間　　        tse004
+Dialogue: Marked=0,0:00:42.15,0:00:46.15,credit,NTP,0050,0190,0173,,{\fad(0,200)}監督　   tse004
+Dialogue: Marked=0,0:00:49.30,0:00:55.10,credit,NTP,0000,0000,0047,,{\fad(0,200)}主題曲+片尾曲          　  阿洛
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:02:10.03,0:02:15.00,title,NTP,0000,0000,0000,!Effect,願望之星 想念之星
+Dialogue: Marked=0,0:02:32.99,0:02:36.48,Default,NTP,0000,0000,0000,!Effect,今天的飯還真是好吃呢
+Dialogue: Marked=0,0:02:37.32,0:02:38.94,Default,NTP,0000,0000,0000,!Effect,對不對啊 秋菜大人
+Dialogue: Marked=0,0:02:39.81,0:02:40.64,Default,NTP,0000,0000,0000,!Effect,是嗎
+Dialogue: Marked=0,0:02:40.73,0:02:42.72,Default,NTP,0000,0000,0000,!Effect,不就跟平常一樣
+Dialogue: Marked=0,0:02:44.20,0:02:46.57,Default,NTP,0000,0000,0000,!Effect,唉唷 秋菜大人您真謙虛
+Dialogue: Marked=0,0:02:46.67,0:02:48.26,Default,NTP,0000,0000,0000,!Effect,簡直就是高尚的女孩呢
+Dialogue: Marked=0,0:02:48.36,0:02:49.07,Default,NTP,0000,0000,0000,!Effect,海朵拉
+Dialogue: Marked=0,0:02:49.31,0:02:49.89,Default,NTP,0000,0000,0000,!Effect,是
+Dialogue: Marked=0,0:02:50.43,0:02:52.34,Default,NTP,0000,0000,0000,!Effect,用餐的時候請安靜
+Dialogue: Marked=0,0:02:52.52,0:02:53.69,Default,NTP,0000,0000,0000,!Effect,這樣有失禮節
+Dialogue: Marked=0,0:02:55.09,0:02:56.27,Default,NTP,0000,0000,0000,!Effect,是…是的
+Dialogue: Marked=0,0:03:01.14,0:03:03.04,Default,NTP,0000,0000,0000,!Effect,真是麻煩耶
+Dialogue: Marked=0,0:03:03.44,0:03:05.86,Default,NTP,0000,0000,0000,!Effect,啊 真抱歉
+Dialogue: Marked=0,0:03:06.61,0:03:10.12,Default,NTP,0000,0000,0000,!Effect,也沒通知一聲就住在我家 已經三天了耶
+Dialogue: Marked=0,0:03:11.53,0:03:12.70,Default,NTP,0000,0000,0000,!Effect,到底是什麼意思啊
+Dialogue: Marked=0,0:03:13.62,0:03:14.41,Default,NTP,0000,0000,0000,!Effect,不知道呢
+Dialogue: Marked=0,0:03:14.64,0:03:18.63,Default,NTP,0000,0000,0000,!Effect,將帶有兩個電子的鋰加入兩個1s
+Dialogue: Marked=0,0:03:18.73,0:03:20.99,Default,NTP,0000,0000,0000,!Effect,融合的時候再加入一個電子…
+Dialogue: Marked=0,0:03:21.13,0:03:22.13,Default,NTP,0000,0000,0000,!Effect,法姆老師
+Dialogue: Marked=0,0:03:22.98,0:03:23.49,Default,NTP,0000,0000,0000,!Effect,是
+Dialogue: Marked=0,0:03:23.85,0:03:26.32,Default,NTP,0000,0000,0000,!Effect,鋰的電子應該是三個吧
+Dialogue: Marked=0,0:03:27.95,0:03:29.88,Default,NTP,0000,0000,0000,!Effect,啊  對…對喔
+Dialogue: Marked=0,0:04:00.59,0:04:02.80,Default,NTP,0000,0000,0000,!Effect,為什麼要一直跟著我?
+Dialogue: Marked=0,0:04:06.11,0:04:06.72,Default,NTP,0000,0000,0000,!Effect,其實…
+Dialogue: Marked=0,0:04:07.07,0:04:10.16,Default,NTP,0000,0000,0000,!Effect,因為近期將要舉行送星之宴
+Dialogue: Marked=0,0:04:10.37,0:04:13.11,Default,NTP,0000,0000,0000,!Effect,我們想讓秋菜小姐擔任這次儀式的巫女
+Dialogue: Marked=0,0:04:13.69,0:04:15.34,Default,NTP,0000,0000,0000,!Effect,送星之宴?
+Dialogue: Marked=0,0:04:16.01,0:04:17.99,Default,NTP,0000,0000,0000,!Effect,史雷普尼爾大彗星的接近
+Dialogue: Marked=0,0:04:18.01,0:04:21.84,Default,NTP,0000,0000,0000,!Effect,應該在瓦爾哈拉的週期是比較早的不是嗎
+Dialogue: Marked=0,0:04:22.00,0:04:23.12,Default,NTP,0000,0000,0000,!Effect,雖是如此
+Dialogue: Marked=0,0:04:23.71,0:04:26.74,Default,NTP,0000,0000,0000,!Effect,ㄧ個月後就會在地球附近通過
+Dialogue: Marked=0,0:04:27.49,0:04:33.47,Default,NTP,0000,0000,0000,!Effect,說起來 地球和瓦爾哈拉星在銀河系是相對的
+Dialogue: Marked=0,0:04:34.32,0:04:37.83,Default,NTP,0000,0000,0000,!Effect,替史雷普尼爾大彗星送行的
+Dialogue: Marked=0,0:04:38.36,0:04:40.31,Default,NTP,0000,0000,0000,!Effect,在這個儀式裡 由亞（指美麗的女性）
+Dialogue: Marked=0,0:04:40.72,0:04:43.07,Default,NTP,0000,0000,0000,!Effect,也就是在地球稱為巫女的人
+Dialogue: Marked=0,0:04:43.21,0:04:46.14,Default,NTP,0000,0000,0000,!Effect,將三張寫在短籤上的願望奉納
+Dialogue: Marked=0,0:04:46.71,0:04:50.61,Default,NTP,0000,0000,0000,!Effect,至於巫女一職 秋菜小姐才是適合的人選
+Dialogue: Marked=0,0:04:50.71,0:04:55.89,Default,NTP,0000,0000,0000,!Effect,我們之前就是秘密地觀察著秋菜小姐的人品
+Dialogue: Marked=0,0:04:56.09,0:04:57.79,Default,NTP,0000,0000,0000,!Effect,一點都不秘密好嗎
+Dialogue: Marked=0,0:04:58.36,0:05:02.38,Default,NTP,0000,0000,0000,!Effect,哇 賞月耶 好期待唷
+Dialogue: Marked=0,0:05:08.64,0:05:12.57,Default,NTP,0000,0000,0000,!Effect,請問 這樣子的話 我也必須要出席嗎?
+Dialogue: Marked=0,0:05:13.07,0:05:13.88,Default,NTP,0000,0000,0000,!Effect,當然
+Dialogue: Marked=0,0:05:14.54,0:05:16.54,Default,NTP,0000,0000,0000,!Effect,負責把三個願望寫在短籤上的
+Dialogue: Marked=0,0:05:16.64,0:05:17.63,Default,NTP,0000,0000,0000,!Effect,是巫女本人
+Dialogue: Marked=0,0:05:17.78,0:05:21.92,Default,NTP,0000,0000,0000,!Effect,瓦爾哈啦家的領導人 以及王家女婿三人
+Dialogue: Marked=0,0:05:23.06,0:05:24.15,Default,NTP,0000,0000,0000,!Effect,等一下
+Dialogue: Marked=0,0:05:24.30,0:05:25.75,Default,NTP,0000,0000,0000,!Effect,我什麼都還沒答應啊‥
+Dialogue: Marked=0,0:05:27.99,0:05:32.32,Default,NTP,0000,0000,0000,!Effect,能擔任送星之宴的巫女是非常榮譽的事情
+Dialogue: Marked=0,0:05:33.08,0:05:36.68,Default,NTP,0000,0000,0000,!Effect,我們的意思是除了秋菜小姐別無其他人選
+Dialogue: Marked=0,0:05:39.16,0:05:42.70,Default,NTP,0000,0000,0000,!Effect,秋秋秋…秋菜小姐 她太過興奮了啦
+Dialogue: Marked=0,0:05:44.34,0:05:45.99,Default,NTP,0000,0000,0000,!Effect,就就就…就是說嘛
+Dialogue: Marked=0,0:05:46.44,0:05:49.17,Default,NTP,0000,0000,0000,!Effect,快點說妳要做 啊不 請快說
+Dialogue: Marked=0,0:05:51.18,0:05:53.06,Default,NTP,0000,0000,0000,!Effect,好 我做
+Dialogue: Marked=0,0:05:53.44,0:05:54.05,Default,NTP,0000,0000,0000,!Effect,你們…
+Dialogue: Marked=0,0:05:54.50,0:05:55.38,Default,NTP,0000,0000,0000,!Effect,太好了
+Dialogue: Marked=0,0:05:56.77,0:05:59.65,Default,NTP,0000,0000,0000,!Effect,那麼 我們今天就來準備一下吧
+Dialogue: Marked=0,0:05:59.75,0:06:00.57,Default,NTP,0000,0000,0000,!Effect,什麼!!!
+Dialogue: Marked=0,0:06:03.78,0:06:05.71,Default,NTP,0000,0000,0000,!Effect,首先 衣服為和式的
+Dialogue: Marked=0,0:06:16.53,0:06:18.93,Default,NTP,0000,0000,0000,!Effect,哇 秋菜好漂亮唷
+Dialogue: Marked=0,0:06:19.18,0:06:20.08,Default,NTP,0000,0000,0000,!Effect,太美了
+Dialogue: Marked=0,0:06:20.23,0:06:22.30,Default,NTP,0000,0000,0000,!Effect,可以說是惹人憐愛哩
+Dialogue: Marked=0,0:06:23.77,0:06:26.84,Default,NTP,0000,0000,0000,!Effect,我們的眼光果然沒錯呢
+Dialogue: Marked=0,0:06:27.33,0:06:27.84,Default,NTP,0000,0000,0000,!Effect,嗯
+Dialogue: Marked=0,0:06:29.33,0:06:30.92,Default,NTP,0000,0000,0000,!Effect,大家說得太誇張了
+Dialogue: Marked=0,0:06:31.73,0:06:33.75,Default,NTP,0000,0000,0000,!Effect,不 一點都不誇張喔
+Dialogue: Marked=0,0:06:34.19,0:06:35.02,Default,NTP,0000,0000,0000,!Effect,真的嗎?
+Dialogue: Marked=0,0:06:35.80,0:06:37.78,Default,NTP,0000,0000,0000,!Effect,真的啊 很漂亮
+Dialogue: Marked=0,0:06:50.95,0:06:54.51,Default,NTP,0000,0000,0000,!Effect,在儀式舉行之前 必須徹底的演練一番
+Dialogue: Marked=0,0:06:55.21,0:07:00.97,Default,NTP,0000,0000,0000,!Effect,讓秋菜小姐完美地學會奉納的舞蹈和規定
+Dialogue: Marked=0,0:07:02.47,0:07:03.05,Default,NTP,0000,0000,0000,!Effect,好痛
+Dialogue: Marked=0,0:07:17.98,0:07:18.63,Default,NTP,0000,0000,0000,!Effect,我回來了
+Dialogue: Marked=0,0:07:19.87,0:07:21.02,Default,NTP,0000,0000,0000,!Effect,和人
+Dialogue: Marked=0,0:07:22.17,0:07:23.21,Default,NTP,0000,0000,0000,!Effect,歡迎回來
+Dialogue: Marked=0,0:07:25.32,0:07:26.24,Default,NTP,0000,0000,0000,!Effect,歡迎回家
+Dialogue: Marked=0,0:07:27.83,0:07:30.17,Default,NTP,0000,0000,0000,!Effect,和人 我們去買東西吧
+Dialogue: Marked=0,0:07:30.99,0:07:34.21,Default,NTP,0000,0000,0000,!Effect,今天二町目的超市有特賣會
+Dialogue: Marked=0,0:07:34.51,0:07:36.09,Default,NTP,0000,0000,0000,!Effect,快點快點
+Dialogue: Marked=0,0:07:36.61,0:07:38.60,Default,NTP,0000,0000,0000,!Effect,我等等要排練
+Dialogue: Marked=0,0:07:39.37,0:07:40.47,Default,NTP,0000,0000,0000,!Effect,練排?
+Dialogue: Marked=0,0:07:41.30,0:07:42.31,Default,NTP,0000,0000,0000,!Effect,排練
+Dialogue: Marked=0,0:07:42.69,0:07:46.32,Default,NTP,0000,0000,0000,!Effect,不要啦 我們去特賣會嘛 走嘛走嘛
+Dialogue: Marked=0,0:07:46.42,0:07:47.55,Default,NTP,0000,0000,0000,!Effect,呵呵 對不起喔
+Dialogue: Marked=0,0:07:47.77,0:07:48.61,Default,NTP,0000,0000,0000,!Effect,這樣啊
+Dialogue: Marked=0,0:07:49.08,0:07:50.61,Default,NTP,0000,0000,0000,!Effect,抱歉 瓦爾古蕾
+Dialogue: Marked=0,0:07:51.25,0:07:51.79,Default,NTP,0000,0000,0000,!Effect,不會
+Dialogue: Marked=0,0:07:55.45,0:07:59.10,Default,NTP,0000,0000,0000,!Effect,和人最近都不陪我玩 好無聊唷
+Dialogue: Marked=0,0:07:59.49,0:08:00.22,Default,NTP,0000,0000,0000,!Effect,是啊
+Dialogue: Marked=0,0:08:00.90,0:08:03.47,Default,NTP,0000,0000,0000,!Effect,小瓦爾也好想當巫女喔
+Dialogue: Marked=0,0:08:04.07,0:08:05.15,Default,NTP,0000,0000,0000,!Effect,這個不錯唷
+Dialogue: Marked=0,0:08:05.97,0:08:08.94,Default,NTP,0000,0000,0000,!Effect,我說不定很適合穿巫女裝呢
+Dialogue: Marked=0,0:08:12.76,0:08:14.58,Default,NTP,0000,0000,0000,!Effect,可是尺寸會不合吧
+Dialogue: Marked=0,0:08:18.02,0:08:23.47,Default,NTP,0000,0000,0000,!Effect,唉  哥哥只要一不在 這裡的工作就多到不行
+Dialogue: Marked=0,0:08:23.38,0:08:24.88,Default,NTP,0000,0000,0000,!Effect,沒辦法的事
+Dialogue: Marked=0,0:08:25.26,0:08:28.72,Default,NTP,0000,0000,0000,!Effect,因為出席儀式是王家女婿的義務呢
+Dialogue: Marked=0,0:08:30.61,0:08:32.97,Default,NTP,0000,0000,0000,!Effect,不過秋菜好漂亮唷
+Dialogue: Marked=0,0:08:34.23,0:08:36.01,Default,NTP,0000,0000,0000,!Effect,就是說呀
+Dialogue: Marked=0,0:08:36.57,0:08:39.70,Default,NTP,0000,0000,0000,!Effect,瓦爾哈啦所選中的巫女 秋菜小姐
+Dialogue: Marked=0,0:08:39.97,0:08:43.30,Default,NTP,0000,0000,0000,!Effect,真可謂是宇宙第一的巫女啊
+Dialogue: Marked=0,0:09:01.66,0:09:05.94,Default,NTP,0000,0000,0000,!Effect,這是在冥王星軌道上建造中的神殿衛星的影像
+Dialogue: Marked=0,0:09:06.56,0:09:07.16,Default,NTP,0000,0000,0000,!Effect,確認完了
+Dialogue: Marked=0,0:09:08.21,0:09:12.23,Default,NTP,0000,0000,0000,!Effect,送星之宴將在這個神殿衛星上舉行
+Dialogue: Marked=0,0:09:12.76,0:09:15.95,Default,NTP,0000,0000,0000,!Effect,現在建造的完成度為62%　
+Dialogue: Marked=0,0:09:16.95,0:09:18.24,Default,NTP,0000,0000,0000,!Effect,可能會比建造公司的預定時間
+Dialogue: Marked=0,0:09:18.24,0:09:20.07,Default,NTP,0000,0000,0000,!Effect,稍微慢一點
+Dialogue: Marked=0,0:09:20.57,0:09:21.94,Default,NTP,0000,0000,0000,!Effect,趕的上儀式時間嗎
+Dialogue: Marked=0,0:09:22.43,0:09:25.77,Default,NTP,0000,0000,0000,!Effect,不管如何 一定要讓它來得及
+Dialogue: Marked=0,0:09:27.28,0:09:30.51,Default,NTP,0000,0000,0000,!Effect,不說這個 涅斯緹 妳那邊如何呢
+Dialogue: Marked=0,0:09:30.83,0:09:33.13,Default,NTP,0000,0000,0000,!Effect,海賊掃蕩任務碰到些小麻煩 
+Dialogue: Marked=0,0:09:33.63,0:09:34.90,Default,NTP,0000,0000,0000,!Effect,看來還需要一點時間
+Dialogue: Marked=0,0:09:35.49,0:09:40.56,Default,NTP,0000,0000,0000,!Effect,依照慣例 送星之宴中八大皇女全員都必須出席
+Dialogue: Marked=0,0:09:40.72,0:09:42.88,Default,NTP,0000,0000,0000,!Effect,絕對不容許遲到
+Dialogue: Marked=0,0:09:43.49,0:09:44.19,Default,NTP,0000,0000,0000,!Effect,我知道
+Dialogue: Marked=0,0:09:49.30,0:09:53.37,Default,NTP,0000,0000,0000,!Effect,耶～贏了贏了 積木倒了
+Dialogue: Marked=0,0:10:00.72,0:10:01.66,Default,NTP,0000,0000,0000,!Effect,和人
+Dialogue: Marked=0,0:10:17.97,0:10:18.52,Default,NTP,0000,0000,0000,!Effect,那個
+Dialogue: Marked=0,0:10:19.10,0:10:19.63,Default,NTP,0000,0000,0000,!Effect,什麼事?
+Dialogue: Marked=0,0:10:20.14,0:10:21.78,Default,NTP,0000,0000,0000,!Effect,今天也要來我家嗎?
+Dialogue: Marked=0,0:10:22.18,0:10:22.72,Default,NTP,0000,0000,0000,!Effect,嗯
+Dialogue: Marked=0,0:10:23.61,0:10:26.27,Default,NTP,0000,0000,0000,!Effect,總不能偷懶不練習啊
+Dialogue: Marked=0,0:10:26.88,0:10:27.79,Default,NTP,0000,0000,0000,!Effect,真辛苦呢
+Dialogue: Marked=0,0:10:28.32,0:10:28.77,Default,NTP,0000,0000,0000,!Effect,怎麼會
+Dialogue: Marked=0,0:10:30.07,0:10:31.08,Default,NTP,0000,0000,0000,!Effect,妳才是
+Dialogue: Marked=0,0:10:31.68,0:10:32.08,Default,NTP,0000,0000,0000,!Effect,咦
+Dialogue: Marked=0,0:10:32.91,0:10:34.42,Default,NTP,0000,0000,0000,!Effect,每天都在練舞不是很辛苦嗎
+Dialogue: Marked=0,0:10:35.41,0:10:36.18,Default,NTP,0000,0000,0000,!Effect,差不多啦
+Dialogue: Marked=0,0:10:37.09,0:10:41.26,Default,NTP,0000,0000,0000,!Effect,抱歉 好像總是把你捲進奇怪的事情中
+Dialogue: Marked=0,0:10:44.19,0:10:45.74,Default,NTP,0000,0000,0000,!Effect,哪會 沒關係的
+Dialogue: Marked=0,0:10:46.27,0:10:48.51,Default,NTP,0000,0000,0000,!Effect,這也算是巫女的工作
+Dialogue: Marked=0,0:10:56.41,0:11:00.20,Default,NTP,0000,0000,0000,!Effect,女婿大人 今天也請你多多指教囉
+Dialogue: Marked=0,0:11:04.57,0:11:06.61,Default,NTP,0000,0000,0000,!Effect,也請你多多指教
+Dialogue: Marked=0,0:11:06.91,0:11:07.51,Default,NTP,0000,0000,0000,!Effect,巫女大人
+Dialogue: Marked=0,0:11:26.22,0:11:28.48,Default,NTP,0000,0000,0000,!Effect,那麼 我先回去做準備囉
+Dialogue: Marked=0,0:11:45.47,0:11:48.99,Default,NTP,0000,0000,0000,!Effect,她的舞步越來越融入感情了呢
+Dialogue: Marked=0,0:11:49.53,0:11:51.25,Default,NTP,0000,0000,0000,!Effect,真不愧是地球的巫女
+Dialogue: Marked=0,0:11:52.98,0:11:55.66,Default,NTP,0000,0000,0000,!Effect,神殿衛星沒有意外地竣工了
+Dialogue: Marked=0,0:11:57.07,0:12:00.01,Default,NTP,0000,0000,0000,!Effect,現在 全員往冥王星出發
+Dialogue: Marked=0,0:12:05.32,0:12:06.23,Default,NTP,0000,0000,0000,!Effect,哇～
+Dialogue: Marked=0,0:12:30.82,0:12:32.43,Default,NTP,0000,0000,0000,!Effect,都到齊了吧?
+Dialogue: Marked=0,0:12:32.46,0:12:33.39,Default,NTP,0000,0000,0000,!Effect,沒錯～～
+Dialogue: Marked=0,0:12:34.24,0:12:36.73,Default,NTP,0000,0000,0000,!Effect,沒問題吧 大家都在嗎?
+Dialogue: Marked=0,0:12:37.32,0:12:41.40,Default,NTP,0000,0000,0000,!Effect,嗯…說起來總覺得好像有人不在…
+Dialogue: Marked=0,0:12:42.20,0:12:44.00,Default,NTP,0000,0000,0000,!Effect,我這邊的都來了喔
+Dialogue: Marked=0,0:12:44.71,0:12:46.06,Default,NTP,0000,0000,0000,!Effect,小瓦爾在唷
+Dialogue: Marked=0,0:12:46.51,0:12:47.59,Default,NTP,0000,0000,0000,!Effect,我也在
+Dialogue: Marked=0,0:12:48.05,0:12:49.28,Default,NTP,0000,0000,0000,!Effect,瓦爾哈啦王家這邊的人呢?
+Dialogue: Marked=0,0:12:49.89,0:12:52.77,Default,NTP,0000,0000,0000,!Effect,涅斯緹姐姐晚點才會到不是嗎
+Dialogue: Marked=0,0:12:53.06,0:12:54.14,Default,NTP,0000,0000,0000,!Effect,還有…
+Dialogue: Marked=0,0:12:54.55,0:12:55.14,Default,NTP,0000,0000,0000,!Effect,啊…
+Dialogue: Marked=0,0:12:57.25,0:12:58.17,Default,NTP,0000,0000,0000,!Effect,萊娜
+Dialogue: Marked=0,0:12:58.86,0:12:59.58,Default,NTP,0000,0000,0000,!Effect,可菈斯
+Dialogue: Marked=0,0:12:59.77,0:13:01.27,Default,NTP,0000,0000,0000,!Effect,萊娜在哪裡?
+Dialogue: Marked=0,0:13:01.60,0:13:05.14,Default,NTP,0000,0000,0000,!Effect,不知道耶 我最近也是覺得老見不到她人
+Dialogue: Marked=0,0:13:07.65,0:13:09.02,Default,NTP,0000,0000,0000,!Effect,萊娜 萊娜
+Dialogue: Marked=0,0:13:09.25,0:13:10.34,Default,NTP,0000,0000,0000,!Effect,聽到請回答
+Dialogue: Marked=0,0:13:11.45,0:13:16.64,Default,NTP,0000,0000,0000,!Effect,不行 至少 通訊器應該不在這附近
+Dialogue: Marked=0,0:13:17.13,0:13:20.00,Default,NTP,0000,0000,0000,!Effect,一定又是在宇宙某處溜達了吧
+Dialogue: Marked=0,0:13:20.24,0:13:23.55,Default,NTP,0000,0000,0000,!Effect,要是給我找到萊娜 一定要好好的給她個痛快
+Dialogue: Marked=0,0:13:24.15,0:13:27.53,Default,NTP,0000,0000,0000,!Effect,要是八大皇女沒到齊的話 就會糟蹋了送星之宴
+Dialogue: Marked=0,0:13:28.00,0:13:28.87,Default,NTP,0000,0000,0000,!Effect,怎麼辦呢?
+Dialogue: Marked=0,0:13:29.12,0:13:33.00,Default,NTP,0000,0000,0000,!Effect,史雷普尼爾大彗星都已經這麼接近了說
+Dialogue: Marked=0,0:13:33.20,0:13:34.12,Default,NTP,0000,0000,0000,!Effect,大家
+Dialogue: Marked=0,0:13:34.93,0:13:36.99,Default,NTP,0000,0000,0000,!Effect,我又來玩囉
+Dialogue: Marked=0,0:13:42.72,0:13:44.34,Default,NTP,0000,0000,0000,!Effect,萊娜…她在
+Dialogue: Marked=0,0:13:46.09,0:13:49.82,Default,NTP,0000,0000,0000,!Effect,雖然說還小但也不能說沒有錯
+Dialogue: Marked=0,0:13:50.30,0:13:52.77,Default,NTP,0000,0000,0000,!Effect,但都要舉行儀式了 就饒了她吧
+Dialogue: Marked=0,0:14:00.41,0:14:03.59,Default,NTP,0000,0000,0000,!Effect,難道說 我現在是被強行帶走的?
+Dialogue: Marked=0,0:14:08.82,0:14:10.46,Default,NTP,0000,0000,0000,!Effect,願望嗎?
+Dialogue: Marked=0,0:14:11.07,0:14:11.66,Default,NTP,0000,0000,0000,!Effect,是的
+Dialogue: Marked=0,0:14:12.15,0:14:15.71,Default,NTP,0000,0000,0000,!Effect,王家的領導者 女婿 以及巫女三人
+Dialogue: Marked=0,0:14:15.81,0:14:19.34,Default,NTP,0000,0000,0000,!Effect,在短籤上各自寫下願望 再進行獻納
+Dialogue: Marked=0,0:14:19.63,0:14:21.43,Default,NTP,0000,0000,0000,!Effect,不論是什麼願望都行嗎?
+Dialogue: Marked=0,0:14:21.66,0:14:24.96,Default,NTP,0000,0000,0000,!Effect,嗯 但是 絕對不能讓別人看
+Dialogue: Marked=0,0:14:25.69,0:14:28.58,Default,NTP,0000,0000,0000,!Effect,短籤要倒蓋著然後放流到宇宙中
+Dialogue: Marked=0,0:14:31.39,0:14:35.92,Default,NTP,0000,0000,0000,!Effect,那麼 希望你們能先想好當天要寫什麼
+Dialogue: Marked=0,0:14:38.62,0:14:41.52,Default,NTP,0000,0000,0000,!Effect,小瓦爾也不能寫願望嗎
+Dialogue: Marked=0,0:14:41.97,0:14:44.89,Default,NTP,0000,0000,0000,!Effect,嗯 聽說不是被決定的人就不能寫
+Dialogue: Marked=0,0:14:46.00,0:14:49.23,Default,NTP,0000,0000,0000,!Effect,那 小瓦爾的願望 就給和人來寫
+Dialogue: Marked=0,0:14:49.65,0:14:50.79,Default,NTP,0000,0000,0000,!Effect,小瓦爾呢
+Dialogue: Marked=0,0:14:50.89,0:14:53.23,Default,NTP,0000,0000,0000,!Effect,想跟大家一起去宇宙旅行
+Dialogue: Marked=0,0:14:53.33,0:14:54.79,Default,NTP,0000,0000,0000,!Effect,現在不就是了嗎?
+Dialogue: Marked=0,0:14:55.14,0:14:56.24,Default,NTP,0000,0000,0000,!Effect,啊 對喔
+Dialogue: Marked=0,0:14:57.02,0:14:59.74,Default,NTP,0000,0000,0000,!Effect,那麼 和人有什麼願望呢?
+Dialogue: Marked=0,0:14:59.91,0:15:02.72,Default,NTP,0000,0000,0000,!Effect,所以我說 告訴其他人是不行的
+Dialogue: Marked=0,0:15:03.19,0:15:04.85,Default,NTP,0000,0000,0000,!Effect,對嘛 不行唷
+Dialogue: Marked=0,0:15:05.14,0:15:06.59,Default,NTP,0000,0000,0000,!Effect,啊 對不起
+Dialogue: Marked=0,0:15:18.08,0:15:20.27,Default,NTP,0000,0000,0000,!Effect,願望...啊
+Dialogue: Marked=0,0:15:30.56,0:15:31.65,Default,NTP,0000,0000,0000,!Effect,是什麼呢…
+Dialogue: Marked=0,0:15:32.36,0:15:33.81,Default,NTP,0000,0000,0000,!Effect,我的願望
+Dialogue: Marked=0,0:15:51.25,0:15:54.52,Default,NTP,0000,0000,0000,!Effect,哇 不僅壯觀 還好大耶
+Dialogue: Marked=0,0:16:16.23,0:16:18.27,Default,NTP,0000,0000,0000,!Effect,已經接近預定時間了
+Dialogue: Marked=0,0:16:18.47,0:16:21.23,Default,NTP,0000,0000,0000,!Effect,各位 請盡快做好準備
+Dialogue: Marked=0,0:16:21.75,0:16:22.91,Default,NTP,0000,0000,0000,!Effect,是～～
+Dialogue: Marked=0,0:16:52.13,0:16:53.99,Default,NTP,0000,0000,0000,!Effect,要我們等到什麼時候啊
+Dialogue: Marked=0,0:16:55.11,0:16:56.58,Default,NTP,0000,0000,0000,!Effect,哇～成功了
+Dialogue: Marked=0,0:16:58.31,0:16:59.49,Default,NTP,0000,0000,0000,!Effect,還沒開始嗎?
+Dialogue: Marked=0,0:16:59.83,0:17:03.27,Default,NTP,0000,0000,0000,!Effect,好像是因為涅斯緹大人遲遲還沒出現的原因…
+Dialogue: Marked=0,0:17:07.08,0:17:08.27,Default,NTP,0000,0000,0000,!Effect,涅斯緹還沒到嗎?
+Dialogue: Marked=0,0:17:08.66,0:17:10.72,Default,NTP,0000,0000,0000,!Effect,是 仍然無法取得連絡
+Dialogue: Marked=0,0:17:14.39,0:17:16.82,Default,NTP,0000,0000,0000,!Effect,如果 涅斯緹來不及的話…
+Dialogue: Marked=0,0:17:19.15,0:17:20.94,Default,NTP,0000,0000,0000,!Effect,發現不明飛行物體急速接近中
+Dialogue: Marked=0,0:17:21.04,0:17:21.88,Default,NTP,0000,0000,0000,!Effect,你說什麼
+Dialogue: Marked=0,0:17:22.08,0:17:22.75,Default,NTP,0000,0000,0000,!Effect,是飛彈
+Dialogue: Marked=0,0:17:25.63,0:17:26.38,Default,NTP,0000,0000,0000,!Effect,迎擊準備呢?
+Dialogue: Marked=0,0:17:26.48,0:17:27.29,Default,NTP,0000,0000,0000,!Effect,來不及完成
+Dialogue: Marked=0,0:17:49.78,0:17:50.51,Default,NTP,0000,0000,0000,!Effect,久等了
+Dialogue: Marked=0,0:17:56.42,0:17:58.23,Default,NTP,0000,0000,0000,!Effect,那個煙火是妳放的?
+Dialogue: Marked=0,0:17:58.40,0:18:00.25,Default,NTP,0000,0000,0000,!Effect,代替禮物的新花樣
+Dialogue: Marked=0,0:18:00.73,0:18:02.97,Default,NTP,0000,0000,0000,!Effect,當作是送星儀式的應景
+Dialogue: Marked=0,0:20:30.55,0:20:31.51,Default,NTP,0000,0000,0000,!Effect,飛走了呢
+Dialogue: Marked=0,0:20:32.31,0:20:33.01,Default,NTP,0000,0000,0000,!Effect,和人
+Dialogue: Marked=0,0:20:34.85,0:20:35.78,Default,NTP,0000,0000,0000,!Effect,真美呢
+Dialogue: Marked=0,0:20:38.73,0:20:41.20,Default,NTP,0000,0000,0000,!Effect,儀式辛苦了
+Dialogue: Marked=0,0:20:45.12,0:20:49.16,Default,NTP,0000,0000,0000,!Effect,現在 我覺得有種充實的感覺
+Dialogue: Marked=0,0:20:54.16,0:20:57.54,Default,NTP,0000,0000,0000,!Effect,以瓦爾哈拉家族的身分完成了這個儀式
+Dialogue: Marked=0,0:20:59.00,0:21:00.57,Default,NTP,0000,0000,0000,!Effect,從今以後也必須要加油呢
+Dialogue: Marked=0,0:21:01.16,0:21:02.52,Default,NTP,0000,0000,0000,!Effect,為了我們的將來
+Dialogue: Marked=0,0:21:07.93,0:21:08.64,Default,NTP,0000,0000,0000,!Effect,和人
+Dialogue: Marked=0,0:21:16.56,0:21:18.41,Default,NTP,0000,0000,0000,!Effect,這裡 這裡唷
+Dialogue: Marked=0,0:21:18.67,0:21:21.34,Default,NTP,0000,0000,0000,!Effect,唉唷 等一下嘛
+Dialogue: Marked=0,0:21:21.40,0:21:22.92,Default,NTP,0000,0000,0000,!Effect,快點 快點
+Dialogue: Marked=0,0:21:24.11,0:21:24.86,Default,NTP,0000,0000,0000,!Effect,等等
+Dialogue: Marked=0,0:21:33.26,0:21:35.71,Default,NTP,0000,0000,0000,!Effect,希望瓦爾哈拉國運長久
+Dialogue: Marked=0,0:21:35.81,0:21:37.55,Default,NTP,0000,0000,0000,!Effect,是梅穆姊姊的字
+Dialogue: Marked=0,0:21:38.09,0:21:40.08,Default,NTP,0000,0000,0000,!Effect,希望時乃湯生意興隆
+Dialogue: Marked=0,0:21:40.93,0:21:42.38,Default,NTP,0000,0000,0000,!Effect,這個是哥哥的字
+Dialogue: Marked=0,0:21:45.89,0:21:47.73,Default,NTP,0000,0000,0000,!Effect,不行 不行
+Dialogue: Marked=0,0:21:48.08,0:21:51.01,Default,NTP,0000,0000,0000,!Effect,短籤上寫的東西是不能看的
+Dialogue: Marked=0,0:22:00.32,0:22:01.55,Default,NTP,0000,0000,0000,!Effect,這是連帶責任
+Dialogue: Marked=0,0:22:03.57,0:22:06.44,Default,NTP,0000,0000,0000,!Effect,接?受?處?罰?吧!!
+Dialogue: Marked=0,0:22:27.59,0:22:29.36,Default,NTP,0000,0000,0000,!Effect,要是實現了該有多好啊
+Dialogue: Marked=0,0:22:31.20,0:22:32.85,Default,NTP,0000,0000,0000,!Effect,我的願望
+
+;其他
+Dialogue: Marked=0,0:01:30.00,0:02:03.00,credits,NTP,0000,0000,0270,Banner;20;0;50,本片僅為網友交流學習參考，如因擅自散播而產生法律問題，天の字幕組將不會負上任何負責。請勿將本片用於商業用途，並在下載後１２小時內刪除本片，如果喜歡本片，請購買正版。
+
+;OP原文
+Dialogue: Marked=0,0:00:14.80,0:00:19.30,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}誰もふれたことない心の奥
+Dialogue: Marked=0,0:00:19.70,0:00:21.51,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}Knock Knock　開いた
+Dialogue: Marked=0,0:00:21.80,0:00:26.35,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}君のホンキ　確かめるすべもない
+Dialogue: Marked=0,0:00:28.75,0:00:33.33,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}空の色を　今　不意打ちみたいな
+Dialogue: Marked=0,0:00:33.75,0:00:35.40,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}One Kiss　変えてく
+Dialogue: Marked=0,0:00:35.70,0:00:40.30,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}シャツのむこう　鼓動の速さ信じた
+Dialogue: Marked=0,0:00:42.40,0:00:45.40,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}何度も恋しても
+Dialogue: Marked=0,0:00:45.75,0:00:48.90,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}始まりはふるえているの
+Dialogue: Marked=0,0:00:49.75,0:00:54.80,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}「またあした!」　振る手　ずっと　見てた
+Dialogue: Marked=0,0:00:55.15,0:00:57.30,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}こんな幸せも
+Dialogue: Marked=0,0:00:57.35,0:00:58.85,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}こんな涙も
+Dialogue: Marked=0,0:00:59.26,0:01:03.00,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}みんな君のせいね
+Dialogue: Marked=0,0:01:03.30,0:01:08.70,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}会えない日の寂しさを知ったの
+Dialogue: Marked=0,0:01:09.00,0:01:11.10,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}こんな瞬間を
+Dialogue: Marked=0,0:01:11.40,0:01:13.75,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}こんな思いをつなげ
+Dialogue: Marked=0,0:01:13.80,0:01:16.90,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}“ふたり”になる
+Dialogue: Marked=0,0:01:17.20,0:01:22.10,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}心は決めたほうへ
+Dialogue: Marked=0,0:01:22.50,0:01:24.50,op_jp,NTP,0000,0000,0000,,{\fad(100,200)}歩いてく
+
+;OP
+Dialogue: Marked=0,0:00:14.80,0:00:19.30,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}誰\N也\N沒\N有\N碰\N觸\N過\N　\N我\N的\N心\N底\N深\N處
+Dialogue: Marked=0,0:00:19.70,0:00:21.51,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}Knock\N　\NKnock\N　\N被\N你\N打\N開
+Dialogue: Marked=0,0:00:21.80,0:00:26.35,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}已\N經\N沒\N有\N方\N法\N可\N以\N確\N定\N你\N的\N真\N心
+Dialogue: Marked=0,0:00:28.75,0:00:33.33,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}現\N在\N　\N像\N是\N突\N如\N其\N來\N的\NONE KISS
+Dialogue: Marked=0,0:00:33.75,0:00:35.40,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}改\N變\N了\N天\N空\N的\N顏\N色
+Dialogue: Marked=0,0:00:35.70,0:00:40.30,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}相\N信\N衣\N衫\N下\N的\N心\N跳\N　\N是\N有\N多\N麼\N的\N快\N速
+Dialogue: Marked=0,0:00:42.40,0:00:45.40,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}不\N管\N戀\N愛\N多\N少\N次
+Dialogue: Marked=0,0:00:45.75,0:00:48.90,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}剛\N開\N始\N都\N是\N高\N興\N得\N顫\N抖
+Dialogue: Marked=0,0:00:49.75,0:00:54.80,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}﹁\N明\N天\N再\N見\N！\N﹂\N的\N道\N別\N　\N一\N直\N都\N映\N在\N我\N的\N眼\N簾
+Dialogue: Marked=0,0:00:55.15,0:00:57.30,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}這\N種\N幸\N福\N的\N感\N覺
+Dialogue: Marked=0,0:00:57.35,0:00:58.85,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}這\N不\N由\N自\N主\N落\N下\N的\N淚
+Dialogue: Marked=0,0:00:59.26,0:01:03.00,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}全\N部\N都\N是\N因\N為\N你\N的\N關\N係
+Dialogue: Marked=0,0:01:03.30,0:01:08.70,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}因\N為\N知\N道\N了\N見\N不\N到\N你\N的\N寂\N寞
+Dialogue: Marked=0,0:01:09.00,0:01:11.10,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}將\N這\N瞬\N間
+Dialogue: Marked=0,0:01:11.40,0:01:13.75,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}與\N思\N念\N連\N接
+Dialogue: Marked=0,0:01:13.80,0:01:16.90,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}讓\N我\N們\N變\N得\N密\N不\N可\N分
+Dialogue: Marked=0,0:01:17.20,0:01:22.10,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}朝\N著\N你\N我\N心\N裡\N決\N定\N的\N方\N向
+Dialogue: Marked=0,0:01:22.50,0:01:24.50,op_ch,NTP,0000,0390,0000,,{\fad(100,200)}大\N步\N邁\N進
+
+;OP拼音
+Dialogue: Marked=0,0:00:14.80,0:00:19.30,New style,NTP,0000,0000,0275,,{\kf15}だ{\kf15}れ{\kf50}も{\kf15}ふ{\kf15}れ{\kf50}た{\kf20}こ{\kf20}と{\kf20}な{\kf20}い{\k0}　{\kf20}こ{\kf20}こ{\kf20}ろ{\kf65}の{\kf15}お{\kf15}く
+Dialogue: Marked=0,0:00:19.70,0:00:21.50,New style,NTP,0000,0000,0275,,{\kf50}のっく{\kf50}のっく{\kf70}ひらいだ
+Dialogue: Marked=0,0:00:21.80,0:00:26.35,New style,NTP,0000,0000,0275,,{\kf15}き{\kf15}み{\kf50}の{\kf15}ほ{\kf15}ん{\kf50}き{\kf20}た{\kf20}し{\kf20}か{\kf20}め{\kf20}る{\kf20}す{\kf20}べ{\kf60}もう{\kf45}ない
+Dialogue: Marked=0,0:00:28.75,0:00:33.33,New style,NTP,0000,0000,0275,,{\kf15}そ{\kf15}ら{\kf50}の{\kf15}い{\kf15}ろ{\kf50}を{\kf20}い{\kf20}ま{\kf20}ふ{\kf20}い{\kf20}う{\kf20}ち{\kf15}み{\kf45}た{\kf15}い{\kf30}な
+Dialogue: Marked=0,0:00:33.75,0:00:35.40,New style,NTP,0000,0000,0275,,{\kf50}わん{\kf0}　{\kf50}きす{\kf0}　{\kf50}かえてく
+Dialogue: Marked=0,0:00:35.70,0:00:40.30,New style,NTP,0000,0000,0275,,{\kf15}しゃ{\kf15}つ{\kf50}の{\kf15}む{\kf15}こ{\kf50}う{\k0}　{\kf15}こ{\kf50}どう{\kf30}の{\kf20}は{\kf20}や{\kf20}さ{\kf60}しん{\kf15}じ{\kf20}た
+Dialogue: Marked=0,0:00:42.40,0:00:45.40,New style,NTP,0000,0000,0275,,{\kf50}な{\kf50}ん{\kf50}ども{\k0}　{\kf15}こ{\kf40}い{\kf40}し{\kf30}ても
+Dialogue: Marked=0,0:00:45.75,0:00:48.90,New style,NTP,0000,0000,0275,,{\kf15}は{\kf40}じ{\kf35}ま{\kf10}り{\kf20}は{\kf25}{\kf20}ふ{\kf20}る{\kf20}え{\kf20}て{\kf20}い{\kf20}る{\kf25}の
+Dialogue: Marked=0,0:00:49.75,0:00:54.80,New style,NTP,0000,0000,0275,,{\kf35}ま{\kf35}た{\kf35}あ{\kf65}し{\kf20}た{\kf30}{\kf50}ふるて{\kf30}{\kf50}ずっと{\kf30}{\kf50}みてた
+Dialogue: Marked=0,0:00:55.15,0:00:57.30,New style,NTP,0000,0000,0275,,{\kf25}こ{\kf25}ん{\kf15}な{\kf100}しあわせも
+Dialogue: Marked=0,0:00:57.35,0:00:58.85,New style,NTP,0000,0000,0275,,{\kf15}こ{\kf15}ん{\kf15}な{\kf20}な{\kf20}み{\kf15}だ{\kf20}も
+Dialogue: Marked=0,0:00:59.26,0:01:03.00,New style,NTP,0000,0000,0275,,{\kf20}み{\kf20}ん{\kf20}な{\kf175}きみのせ{\kf70}い{\kf70}ね
+Dialogue: Marked=0,0:01:03.30,0:01:08.70,New style,NTP,0000,0000,0275,,{\kf30}あ{\kf20}え{\kf20}な{\kf20}い{\kf0}　{\kf20}に{\kf20}ち{\kf20}の{\kf35}さ{\kf20}び{\kf30}し{\kf20}さ{\kf25}を{\kf35}しっ{\kf175}た{\kf15}の
+Dialogue: Marked=0,0:01:09.00,0:01:11.10,New style,NTP,0000,0000,0275,,{\kf25}こ{\kf25}ん{\kf15}な{\kf130}しゅんかんを
+Dialogue: Marked=0,0:01:11.40,0:01:13.75,New style,NTP,0000,0000,0275,,{\kf15}こ{\kf15}ん{\kf15}な{\kf60}おもいを{\kf25}{\kf70}つなげ
+Dialogue: Marked=0,0:01:13.80,0:01:16.90,New style,NTP,0000,0000,0275,,{\kf175}ふたりに{\kf70}な{\kf70}る
+Dialogue: Marked=0,0:01:17.20,0:01:22.10,New style,NTP,0000,0000,0275,,{\kf50}こ{\kf25}こ{\kf15}ろ{\kf55}は{\kf60}き{\kf45}め{\kf20}た{\kf60}ほう{\kf150}へ
+Dialogue: Marked=0,0:01:22.50,0:01:24.50,New style,NTP,0000,0000,0275,,{\kf40}あ{\kf40}る{\kf40}い{\kf50}てく
+
+;ED原文
+Dialogue: Marked=0,0:22:51.25,0:22:54.70,opedj,NTP,0000,0000,0005,,{\fad(100,200)}ほんの少し笑って
+Dialogue: Marked=0,0:22:56.05,0:22:59.25,opedj,NTP,0000,0000,0005,,{\fad(100,200)}ほんの少し傷つき
+Dialogue: Marked=0,0:22:59.85,0:23:02.45,opedj,NTP,0000,0000,0005,,{\fad(100,200)}それから僕が今
+Dialogue: Marked=0,0:23:02.50,0:23:04.65,opedj,NTP,0000,0000,0005,,{\fad(100,200)}僕等の為に
+Dialogue: Marked=0,0:23:04.95,0:23:09.45,opedj,NTP,0000,0000,0005,,{\fad(100,200)}できることをやりたいな
+Dialogue: Marked=0,0:23:10.35,0:23:13.90,opedj,NTP,0000,0000,0005,,{\fad(100,200)}新しい想い出を
+Dialogue: Marked=0,0:23:15.00,0:23:18.40,opedj,NTP,0000,0000,0005,,{\fad(100,200)}喜び会えるように
+Dialogue: Marked=0,0:23:18.85,0:23:25.95,opedj,NTP,0000,0000,0005,,{\fad(100,200)}頑張れるだけ頑張るんだ
+Dialogue: Marked=0,0:23:27.85,0:23:32.40,opedj,NTP,0000,0000,0005,,{\fad(100,200)}明日の側で
+Dialogue: Marked=0,0:23:32.90,0:23:35.55,opedj,NTP,0000,0000,0005,,{\fad(100,200)}迷子になった子供みたいに
+Dialogue: Marked=0,0:23:35.60,0:23:41.95,opedj,NTP,0000,0000,0005,,{\fad(100,200)}ただ探してるものは
+Dialogue: Marked=0,0:23:42.20,0:23:43.75,opedj,NTP,0000,0000,0005,,{\fad(100,200)}「優しさ」だったり
+Dialogue: Marked=0,0:23:43.80,0:23:48.60,opedj,NTP,0000,0000,0005,,{\fad(100,200)}「幸せ」や「勇気」や「愛」かもね
+Dialogue: Marked=0,0:23:48.90,0:23:56.60,opedj,NTP,0000,0000,0005,,{\fad(100,200)}未来はどこで待ってるかな
+Dialogue: Marked=0,0:23:56.80,0:24:00.50,opedj,NTP,0000,0000,0005,,{\fad(100,200)}辿り着けるよ
+Dialogue: Marked=0,0:24:01.60,0:24:05.40,opedj,NTP,0000,0000,0005,,{\fad(100,200)}辿り着くのさ
+
+;ED
+Dialogue: Marked=0,0:22:51.25,0:22:54.70,tran,NTP,0390,0000,0000,,{\fad(100,200)}再\N多\N一\N點\N點\N笑\N容
+Dialogue: Marked=0,0:22:56.05,0:22:59.25,tran,NTP,0390,0000,0000,,{\fad(100,200)}再\N多\N一\N點\N點\N傷\N痕
+Dialogue: Marked=0,0:22:59.85,0:23:02.45,tran,NTP,0390,0000,0000,,{\fad(100,200)}從\N今\N以\N後\N　\N我\N想
+Dialogue: Marked=0,0:23:02.50,0:23:04.65,tran,NTP,0390,0000,0000,,{\fad(100,200)}為\N了\N我\N們
+Dialogue: Marked=0,0:23:04.95,0:23:09.45,tran,NTP,0390,0000,0000,,{\fad(100,200)}做\N所\N有\N我\N們\N能\N做\N到\N的\N事
+Dialogue: Marked=0,0:23:10.35,0:23:13.90,tran,NTP,0390,0000,0000,,{\fad(100,200)}為\N了\N能\N夠\N高\N興\N的
+Dialogue: Marked=0,0:23:15.00,0:23:18.40,tran,NTP,0390,0000,0000,,{\fad(100,200)}迎\N接\N新\N的\N回\N憶
+Dialogue: Marked=0,0:23:18.85,0:23:25.95,tran,NTP,0390,0000,0000,,{\fad(100,200)}只\N要\N我\N們\N能\N努\N力\N的\N　\N就\N加\N油\N吧
+Dialogue: Marked=0,0:23:27.85,0:23:32.40,tran,NTP,0390,0000,0000,,{\fad(100,200)}在\N明\N日\N的\N身\N旁
+Dialogue: Marked=0,0:23:32.90,0:23:35.55,tran,NTP,0390,0000,0000,,{\fad(100,200)}迷\N失\N方\N向\N　\N就\N像\N小\N孩\N般
+Dialogue: Marked=0,0:23:35.60,0:23:41.95,tran,NTP,0390,0000,0000,,{\fad(100,200)}可\N能\N只\N是\N茫\N然\N地\N找\N尋
+Dialogue: Marked=0,0:23:42.20,0:23:43.75,tran,NTP,0390,0000,0000,,{\fad(100,200)}昔\N日\N的\N溫\N柔
+Dialogue: Marked=0,0:23:43.80,0:23:48.60,tran,NTP,0390,0000,0000,,{\fad(100,200)}幸\N福\N　\N勇\N氣\N　\N與\N真\N愛
+Dialogue: Marked=0,0:23:48.90,0:23:56.60,tran,NTP,0390,0000,0000,,{\fad(100,200)}未\N來\N在\N世\N界\N的\N某\N處\N　\N等\N著\N我\N們
+Dialogue: Marked=0,0:23:56.80,0:24:00.50,tran,NTP,0390,0000,0000,,{\fad(100,200)}一\N定\N可\N以\N到\N達\N的
+Dialogue: Marked=0,0:24:01.60,0:24:05.40,tran,NTP,0390,0000,0000,,{\fad(100,200)}只\N要\N我\N們\N不\N放\N棄
+
+;ED羅馬拼音
+Dialogue: Marked=0,0:22:51.25,0:22:54.70,New style_2,NTP,0000,0000,0275,,{\k20}HO {\k20}N {\kf35}NO {\k25}SU {\k25}KO {\kf25}SHI {\k30}WA {\k30}RA {\kf30}T{\kf105}TE
+Dialogue: Marked=0,0:22:56.05,0:22:59.25,New style_2,NTP,0000,0000,0275,,{\k20}HO {\k20}N {\kf35}NO {\k25}SU {\k25}KO {\kf25}SHI {\k30}KI {\k30}ZU {\kf30}TSU {\kf55}KI
+Dialogue: Marked=0,0:22:59.85,0:23:02.45,New style_2,NTP,0000,0000,0275,,{\k20}SO {\k30}RE {\kf30}KA {\kf30}RA　{\k30}BO {\k10}KU {\k25}GA {\kf35}I {\kf30}MA
+Dialogue: Marked=0,0:23:02.50,0:23:04.65,New style_2,NTP,0000,0000,0275,,{\k20}BO {\kf20}KU {\kf30}RA {\k25}NO {\kf20}TA {\kf40}ME {\kf45}NI
+Dialogue: Marked=0,0:23:04.95,0:23:09.45,New style_2,NTP,0000,0000,0275,,{\k35}DE {\k25}KI {\k25}RU {\k25}KO {\kf90}TO WO {\k30}YA {\k30}RI {\k30}TA {\k30}I {\kf110}NA
+Dialogue: Marked=0,0:23:10.35,0:23:13.90,New style_2,NTP,0000,0000,0275,,{\k30}A {\k20}TA {\k40}RA {\kf60}SHI I {\k30}O {\k30}MO {\k30}I {\k30}DE {\kf70}WO
+Dialogue: Marked=0,0:23:15.00,0:23:18.40,New style_2,NTP,0000,0000,0275,,{\kf30}YO {\k25}RO {\kf45}KO {\k25}BI {\k30}A {\k30}E {\k30}RU {\kf55}YO U {\kf50}NI
+Dialogue: Marked=0,0:23:18.85,0:23:25.95,New style_2,NTP,0000,0000,0275,,{\kf25}GA {\k70}N {\k35}BA {\k35}RE {\k35}RU {\k25}DA {\kf65}KE　{\kf30}GA {\k25}N {\kf50}BA {\k35}RU {\k25}N {\kf180}DA
+Dialogue: Marked=0,0:23:27.85,0:23:32.40,New style_2,NTP,0000,0000,0275,,{\k30}A {\k30}SHI {\k30}TA {\kf115}NO {\k35}SO {\k35}BA {\kf150}DE
+Dialogue: Marked=0,0:23:32.90,0:23:35.55,New style_2,NTP,0000,0000,0275,,{\k25}MA {\k15}I {\k20}GO {\kf25}NI {\k25}NA {\k30}TTA　{\k15}KO {\k15}TO {\k15}MO {\kf15}MI {\k15}TA {\k15}I {\kf30}NI
+Dialogue: Marked=0,0:23:35.60,0:23:41.95,New style_2,NTP,0000,0000,0275,,{\k10}TA {\k10}DA {\kf50}SA {\kf50}GA {\kf50}SHI {\kf50}TE {\kf180}RU {\k30}MO {\k30}NO {\kf120}HWA
+Dialogue: Marked=0,0:23:42.20,0:23:43.75,New style_2,NTP,0000,0000,0275,,{\kf25}YA {\k13}SA {\k13}SHI {\k13}SA {\k13}DA {\k15}T{\k15}TA {\kf20}RI
+Dialogue: Marked=0,0:23:43.80,0:23:48.60,New style_2,NTP,0000,0000,0275,,{\k17}SHI {\k17}A {\k17}WA {\k17}SE {\k40}YA　{\k17}YU U {\k17}KI {\k35}YA　{\kf200}A I KA MO {\kf90}NE
+Dialogue: Marked=0,0:23:48.90,0:23:56.60,New style_2,NTP,0000,0000,0275,,{\k25}MI {\k25}RA {\k25}I {\kf170}HWA {\k25}DO {\k25}KO {\kf190}DE　{\k30}MA {\k35}T{\k50}TE {\k20}RU {\k25}KA {\kf30}NA
+Dialogue: Marked=0,0:23:56.80,0:24:00.50,New style_2,NTP,0000,0000,0275,,{\k25}TA {\k25}DO {\k25}RI {\k20}TSU {\kf60}KE {\k15}RU {\kf140}YO
+Dialogue: Marked=0,0:24:01.60,0:24:05.40,New style_2,NTP,0000,0000,0275,,{\k25}TA {\k25}DO {\k25}RI {\k20}TSU {\kf60}KU {\k15}NO {\kf150}SA

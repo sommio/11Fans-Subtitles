@@ -1,0 +1,473 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 妖精的尾巴 新系列 202
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZCuYuan-M03,42,&H00FFFFFF,&H000000FF,&H1E000000,&H28000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: opc,方正黑体_GBK,32,&H00FFFCEA,&H000000FF,&H1972582D,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
+Style: edc,方正黑体_GBK,32,&H0AD5F4FF,&H000000FF,&H141B65CB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Warning,方正大黑_GBK,25,&H00FFFFFF,&HFF0000FF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: Title,方正北魏楷书_GBK,65,&H00FFFFFF,&H000000FF,&H64000000,&H78000000,-1,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:31.15,0:01:37.36,opc,NTP,0,0,0,,就算是連前進軌道都無法改變的幾率
+Dialogue: 0,0:01:37.36,0:01:41.87,opc,NTP,0,0,0,,只要有百分之一就要奮起反抗
+Dialogue: 0,0:01:41.87,0:01:45.70,opc,NTP,0,0,0,,畢竟、被「命運」所束縛的人生、不 我不要
+Dialogue: 0,0:01:45.70,0:01:52.38,opc,NTP,0,0,0,,我要將它重寫、因為若能看見你和未來 不是最棒嗎？
+Dialogue: 0,0:01:52.38,0:01:55.51,opc,NTP,0,0,0,,來吧！我只想在戰鬥中成長 HEY!!
+Dialogue: 0,0:01:55.51,0:01:56.34,opc,NTP,0,0,0,,擊穿陰天！
+Dialogue: 0,0:01:56.34,0:01:59.51,opc,NTP,0,0,0,,我的烈焰仍舊熊熊燃燒 雷鳴撕裂天空
+Dialogue: 0,0:01:59.51,0:02:03.35,opc,NTP,0,0,0,,我只想消除夢魘 看見未來！
+Dialogue: 0,0:02:03.35,0:02:05.81,opc,NTP,0,0,0,,過去、未來、還有如今當下、
+Dialogue: 0,0:02:05.81,0:02:08.81,opc,NTP,0,0,0,,我不畏懼過去 現在為了被托付的未來
+Dialogue: 0,0:02:08.81,0:02:10.15,opc,NTP,0,0,0,,我要吼出我的驕傲!!
+Dialogue: 0,0:02:10.15,0:02:16.82,opc,NTP,0,0,0,,因為不想看到眼淚、所以要不斷嘶吼！一直永遠…
+Dialogue: 0,0:02:16.82,0:02:20.82,opc,NTP,0,0,0,,我不會墮落！因為揚起的風會讓我凌駕於命運之上！
+Dialogue: 0,0:02:20.82,0:02:27.20,opc,NTP,0,0,0,,因為身後、有著想要守護的笑容！ 永遠…
+Dialogue: 0,0:02:27.20,0:02:30.67,opc,NTP,0,0,0,,為了彼此！我會揍飛你心中的痛苦！讓悲傷什麼的永遠安息！
+Dialogue: 0,0:02:30.67,0:02:34.80,opc,NTP,0,0,0,,{\fad(0,832)}無論多少次…
+Dialogue: 0,0:22:25.99,0:22:34.95,edc,NTP,0,0,0,,月光搖曳 我們未來的藍圖
+Dialogue: 0,0:22:34.95,0:22:42.17,edc,NTP,0,0,0,,總有一天會實現 描繪明天吧
+Dialogue: 0,0:22:42.92,0:22:47.01,edc,NTP,0,0,0,,永遠不會磨滅 銘記在心中的願望
+Dialogue: 0,0:22:47.01,0:22:55.81,edc,NTP,0,0,0,,若是無盡的淚水能掩蓋傷痕
+Dialogue: 0,0:22:55.81,0:23:04.86,edc,NTP,0,0,0,,那就無需畏懼 再次去相信吧
+Dialogue: 0,0:23:06.82,0:23:13.32,edc,NTP,0,0,0,,向著無邊無際的天空 張開雙臂
+Dialogue: 0,0:23:13.32,0:23:19.16,edc,NTP,0,0,0,,為了不再哭泣 仰望天空中那輪皎月
+Dialogue: 0,0:23:19.16,0:23:24.96,edc,NTP,0,0,0,,即使心存悲傷 也要懷著希望
+Dialogue: 0,0:23:24.96,0:23:29.30,edc,NTP,0,0,0,,就算無法回頭 也沒有關係
+Dialogue: 0,0:23:29.30,0:23:35.93,edc,NTP,0,0,0,,熠熠生輝的夢想 閃耀在探索的未來
+Dialogue: 0,0:23:35.93,0:23:41.94,edc,NTP,0,0,0,,最寶貴的那份思念 仍舊在延續
+Dialogue: 0,0:23:41.94,0:23:47.78,edc,NTP,0,0,0,,無論哪裏 我們都一起走過
+Dialogue: 0,0:23:47.78,0:23:55.58,edc,NTP,0,0,0,,{\fad(0,825)}握住那唯一的心靈之匙吧
+Dialogue: 0,0:00:20.77,0:00:25.06,Default,NTP,0,0,0,,哦哦 非~常的合身呢 客人
+Dialogue: 0,0:00:25.33,0:00:29.16,Default,NTP,0,0,0,,嗯 怎麼說的 好像有點不夠潮啊
+Dialogue: 0,0:00:29.25,0:00:31.03,Default,NTP,0,0,0,,弗洛也是這麼想的
+Dialogue: 0,0:00:31.10,0:00:34.22,Default,NTP,0,0,0,,那麼…來這個怎麼樣呢
+Dialogue: 0,0:00:34.54,0:00:36.50,Default,NTP,0,0,0,,哦哦 這個不錯呢
+Dialogue: 0,0:00:36.60,0:00:39.45,Default,NTP,0,0,0,,同款式的有暖色系的麼
+Dialogue: 0,0:00:39.59,0:00:41.66,Default,NTP,0,0,0,,嗯 有的
+Dialogue: 0,0:00:41.80,0:00:44.11,Default,NTP,0,0,0,,原來如此 布料也很清爽
+Dialogue: 0,0:00:44.19,0:00:45.92,Default,NTP,0,0,0,,好舒服啊
+Dialogue: 0,0:00:46.05,0:00:47.62,Default,NTP,0,0,0,,怎麼樣呢
+Dialogue: 0,0:00:47.69,0:00:51.95,Default,NTP,0,0,0,,嗯~不過還是和我想像的不一樣呢
+Dialogue: 0,0:00:52.13,0:00:54.07,Default,NTP,0,0,0,,我覺得很合適啊
+Dialogue: 0,0:00:54.17,0:00:57.43,Default,NTP,0,0,0,,弗洛覺得怎麼樣…
+Dialogue: 0,0:00:58.90,0:00:59.82,Default,NTP,0,0,0,,弗洛
+Dialogue: 0,0:01:00.07,0:01:02.74,Default,NTP,0,0,0,,誒？ 上哪裏去了
+Dialogue: 0,0:01:03.20,0:01:04.45,Default,NTP,0,0,0,,弗洛~
+Dialogue: 0,0:01:05.36,0:01:08.91,Default,NTP,0,0,0,,弗洛
+Dialogue: 0,0:02:41.58,0:02:45.32,Default,NTP,0,0,0,,哎呀 大魔斗比武的亢奮還沒有冷卻啊
+Dialogue: 0,0:02:45.60,0:02:49.36,Default,NTP,0,0,0,,話說回來 那以後 劍齒之虎好像變了呢
+Dialogue: 0,0:02:49.49,0:02:50.19,Default,NTP,0,0,0,,是的是的
+Dialogue: 0,0:02:50.33,0:02:54.63,Default,NTP,0,0,0,,匠馬一直是實力至上主義的 用恐怖支配協會的
+Dialogue: 0,0:02:54.77,0:02:56.69,Default,NTP,0,0,0,,話說 大家一直都很害怕啊
+Dialogue: 0,0:02:56.84,0:02:58.69,Default,NTP,0,0,0,,而現在大家都開開心心的
+Dialogue: 0,0:02:58.89,0:03:01.00,Default,NTP,0,0,0,,都是因為斯汀當了會長呢
+Dialogue: 0,0:03:01.11,0:03:04.99,Default,NTP,0,0,0,,托他的福 有劍齒之虎在的這條街的氣氛也變好了呢
+Dialogue: 0,0:03:05.07,0:03:06.45,Default,NTP,0,0,0,,是的是的
+Dialogue: 0,0:03:06.91,0:03:10.60,Default,NTP,0,0,0,,但是 有沒有覺得今天斯汀的樣子有些奇怪
+Dialogue: 0,0:03:10.69,0:03:11.42,Default,NTP,0,0,0,,奇怪？
+Dialogue: 0,0:03:11.62,0:03:15.42,Default,NTP,0,0,0,,就好像是匠馬又回來了似的 一臉苦大仇深的
+Dialogue: 0,0:03:23.20,0:03:29.62,Default,NTP,0,0,0,,轟天沸地 讓海沉默
+Dialogue: 0,0:03:30.07,0:03:32.99,Default,NTP,0,0,0,,那才是劍齒之虎
+Dialogue: 0,0:03:34.86,0:03:37.80,Default,NTP,0,0,0,,把衣服…脫了
+Dialogue: 0,0:03:42.59,0:03:46.01,Default,NTP,0,0,0,,是 遵照您的吩咐
+Dialogue: 0,0:04:00.32,0:04:02.79,Default,NTP,0,0,0,,我們的浴場完工了呢
+Dialogue: 0,0:04:04.53,0:04:05.89,Default,NTP,0,0,0,,恭喜了
+Dialogue: 0,0:04:06.21,0:04:08.15,Default,NTP,0,0,0,,斯汀 你歡脫過頭了
+Dialogue: 0,0:04:09.61,0:04:12.98,Default,NTP,0,0,0,,這個氣氛很好 在記憶裏沒有呢
+Dialogue: 0,0:04:15.34,0:04:18.55,Default,NTP,0,0,0,,沒想到協會裏還有個大浴場呢
+Dialogue: 0,0:04:18.71,0:04:20.11,Default,NTP,0,0,0,,等一下 斯汀大人
+Dialogue: 0,0:04:20.25,0:04:23.01,Default,NTP,0,0,0,,的確這樣的協會記憶裏頭沒有呢
+Dialogue: 0,0:04:23.10,0:04:26.18,Default,NTP,0,0,0,,有浴場的協會只有我們呢
+Dialogue: 0,0:04:26.30,0:04:27.22,Default,NTP,0,0,0,,啊嘁
+Dialogue: 0,0:04:27.87,0:04:29.36,Default,NTP,0,0,0,,你怎麼了 會長
+Dialogue: 0,0:04:29.75,0:04:31.29,Default,NTP,0,0,0,,不 沒什麼
+Dialogue: 0,0:04:31.58,0:04:34.55,Default,NTP,0,0,0,,我們走 布萊恩巴斯塔
+Dialogue: 0,0:04:34.64,0:04:36.04,Default,NTP,0,0,0,,不要啊
+Dialogue: 0,0:04:37.20,0:04:38.94,Default,NTP,0,0,0,,真是一群吵鬧的傢伙啊
+Dialogue: 0,0:04:39.03,0:04:41.51,Default,NTP,0,0,0,,穿著泳裝的灰大人也很棒
+Dialogue: 0,0:04:41.58,0:04:44.28,Default,NTP,0,0,0,,對他還是這麼從一而終啊
+Dialogue: 0,0:04:44.66,0:04:46.49,Default,NTP,0,0,0,,好舒服呢 夏露露
+Dialogue: 0,0:04:46.60,0:04:49.32,Default,NTP,0,0,0,,大家都不工作沒事嗎
+Dialogue: 0,0:04:50.05,0:04:52.86,Default,NTP,0,0,0,,要是浴場裏有魚的話 就更加完美了呢
+Dialogue: 0,0:04:52.96,0:04:55.71,Default,NTP,0,0,0,,游泳也可以鍛煉身體呢
+Dialogue: 0,0:04:55.98,0:04:59.90,Default,NTP,0,0,0,,果然 在協會中建個浴場是對的呢
+Dialogue: 0,0:05:00.14,0:05:00.79,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:05:02.23,0:05:04.73,Default,NTP,0,0,0,,有浴場的協會 只有我們一家麼
+Dialogue: 0,0:05:05.02,0:05:07.41,Default,NTP,0,0,0,,在我記憶裏是這樣的
+Dialogue: 0,0:05:09.02,0:05:11.36,Default,NTP,0,0,0,,住手 你是小孩子嗎
+Dialogue: 0,0:05:11.50,0:05:13.16,Default,NTP,0,0,0,,斯汀君
+Dialogue: 0,0:05:13.28,0:05:14.38,Default,NTP,0,0,0,,斯汀君…
+Dialogue: 0,0:05:14.79,0:05:16.13,Default,NTP,0,0,0,,不對 會長
+Dialogue: 0,0:05:16.41,0:05:18.34,Default,NTP,0,0,0,,不要叫我會長啊 雷克特
+Dialogue: 0,0:05:18.61,0:05:19.68,Default,NTP,0,0,0,,怎麼慌慌張張的
+Dialogue: 0,0:05:19.98,0:05:21.69,Default,NTP,0,0,0,,不…不好了
+Dialogue: 0,0:05:22.32,0:05:26.00,Default,NTP,0,0,0,,在買東西的途中弗洛不見了
+Dialogue: 0,0:05:26.19,0:05:26.89,Default,NTP,0,0,0,,真的假的
+Dialogue: 0,0:05:27.19,0:05:28.16,Default,NTP,0,0,0,,是弗洛大人嗎
+Dialogue: 0,0:05:28.54,0:05:29.55,Default,NTP,0,0,0,,你說什麼？
+Dialogue: 0,0:05:29.78,0:05:32.58,Default,NTP,0,0,0,,雷克特 你們不是一直在一起麼 發生了什麼
+Dialogue: 0,0:05:32.71,0:05:33.65,Default,NTP,0,0,0,,對 對不起
+Dialogue: 0,0:05:33.74,0:05:35.60,Default,NTP,0,0,0,,稍稍溜號了一會兒
+Dialogue: 0,0:05:35.77,0:05:36.89,Default,NTP,0,0,0,,喂 羅格
+Dialogue: 0,0:05:37.10,0:05:39.25,Default,NTP,0,0,0,,責怪雷克特也無濟於事啊
+Dialogue: 0,0:05:39.43,0:05:41.18,Default,NTP,0,0,0,,弗洛他啊
+Dialogue: 0,0:05:41.90,0:05:43.59,Default,NTP,0,0,0,,不認道的
+Dialogue: 0,0:05:43.74,0:05:45.73,Default,NTP,0,0,0,,那就不是雷克特的錯了
+Dialogue: 0,0:05:46.37,0:05:47.23,Default,NTP,0,0,0,,你說什麼？
+Dialogue: 0,0:05:47.49,0:05:48.25,Default,NTP,0,0,0,,你怎麼了？
+Dialogue: 0,0:05:48.55,0:05:51.73,Default,NTP,0,0,0,,你們兩個 現在是吵架的時候嗎
+Dialogue: 0,0:05:51.99,0:05:53.59,Default,NTP,0,0,0,,快去找弗洛大人吧
+Dialogue: 0,0:05:59.58,0:06:03.84,Title,NTP,0,0,0,,{\blur3\pos(640,450)\fad(524,0}歡迎回來、弗洛
+Dialogue: 0,0:06:11.43,0:06:13.68,Default,NTP,0,0,0,,弗洛是在這附近不見的
+Dialogue: 0,0:06:13.81,0:06:17.75,Default,NTP,0,0,0,,是的 人很多一下子就失去蹤跡了
+Dialogue: 0,0:06:17.86,0:06:21.71,Default,NTP,0,0,0,,弗洛~弗洛~
+Dialogue: 0,0:06:21.82,0:06:22.77,Default,NTP,0,0,0,,你在哪裏
+Dialogue: 0,0:06:23.16,0:06:24.41,Default,NTP,0,0,0,,弗洛大人
+Dialogue: 0,0:06:24.71,0:06:27.54,Default,NTP,0,0,0,,我們先去各處問一下吧
+Dialogue: 0,0:06:27.92,0:06:31.93,Default,NTP,0,0,0,,雖然在人群中找目擊者很難…
+Dialogue: 0,0:06:32.11,0:06:35.24,Default,NTP,0,0,0,,沒事的 我們一定能找到的
+Dialogue: 0,0:06:35.39,0:06:37.68,Default,NTP,0,0,0,,咦 明明在這裏的說
+Dialogue: 0,0:06:40.25,0:06:42.78,Default,NTP,0,0,0,,看 相當不錯的東東吧
+Dialogue: 0,0:06:42.91,0:06:46.15,Default,NTP,0,0,0,,店家 你這裏有很多好東西很便宜呢
+Dialogue: 0,0:06:46.87,0:06:49.20,Default,NTP,0,0,0,,全部都是儀式用的古老貨
+Dialogue: 0,0:06:49.29,0:06:52.94,Default,NTP,0,0,0,,裝飾全部都是鐵質的 所以非常重不能用於實戰…
+Dialogue: 0,0:06:54.91,0:06:56.14,Default,NTP,0,0,0,,你把它吃了
+Dialogue: 0,0:06:57.15,0:06:58.13,Default,NTP,0,0,0,,伽吉魯哥
+Dialogue: 0,0:06:59.34,0:07:02.21,Default,NTP,0,0,0,,喂 你們在這附近看見弗洛了嗎
+Dialogue: 0,0:07:02.34,0:07:03.89,Default,NTP,0,0,0,,怎麼突然這樣 混蛋
+Dialogue: 0,0:07:04.20,0:07:05.34,Default,NTP,0,0,0,,找打是麼
+Dialogue: 0,0:07:05.95,0:07:07.56,Default,NTP,0,0,0,,對不起 其實是…
+Dialogue: 0,0:07:07.84,0:07:10.47,Default,NTP,0,0,0,,弗洛走失了
+Dialogue: 0,0:07:10.69,0:07:12.65,Default,NTP,0,0,0,,弗洛？ 是那個青蛙嗎
+Dialogue: 0,0:07:12.76,0:07:13.51,Default,NTP,0,0,0,,是貓啊
+Dialogue: 0,0:07:13.68,0:07:15.82,Default,NTP,0,0,0,,正確說來應該是超越者
+Dialogue: 0,0:07:16.25,0:07:18.83,Default,NTP,0,0,0,,原來如此啊 他迷路了啊
+Dialogue: 0,0:07:19.13,0:07:19.64,Default,NTP,0,0,0,,啥
+Dialogue: 0,0:07:19.73,0:07:23.93,Default,NTP,0,0,0,,十分鐘前在那個轉角前面的公園裏看到他了
+Dialogue: 0,0:07:25.08,0:07:25.82,Default,NTP,0,0,0,,大恩不言謝
+Dialogue: 0,0:07:25.96,0:07:26.52,Default,NTP,0,0,0,,快點
+Dialogue: 0,0:07:26.94,0:07:29.27,Default,NTP,0,0,0,,那 那個 謝謝
+Dialogue: 0,0:07:31.40,0:07:33.76,Default,NTP,0,0,0,,真是一群吵鬧的傢伙
+Dialogue: 0,0:07:33.88,0:07:34.58,Default,NTP,0,0,0,,是的呢
+Dialogue: 0,0:07:36.94,0:07:38.97,Default,NTP,0,0,0,,這個怎麼樣 夏露露
+Dialogue: 0,0:07:39.19,0:07:41.79,Default,NTP,0,0,0,,NO NO 對溫蒂來說太華麗了
+Dialogue: 0,0:07:41.90,0:07:43.61,Default,NTP,0,0,0,,不是給我的 是給雪莉雅的
+Dialogue: 0,0:07:43.70,0:07:45.13,Default,NTP,0,0,0,,什麼嘛 是這樣啊
+Dialogue: 0,0:07:45.46,0:07:46.31,Default,NTP,0,0,0,,覺得怎麼樣
+Dialogue: 0,0:07:49.45,0:07:52.59,Default,NTP,0,0,0,,是呢  配雪莉雅的話 應該很合適
+Dialogue: 0,0:07:52.99,0:07:54.11,Default,NTP,0,0,0,,大小很合適
+Dialogue: 0,0:07:55.10,0:07:56.26,Default,NTP,0,0,0,,說的是呢
+Dialogue: 0,0:07:57.32,0:07:58.80,Default,NTP,0,0,0,,弗洛
+Dialogue: 0,0:07:59.02,0:07:59.91,Default,NTP,0,0,0,,在哪裏
+Dialogue: 0,0:08:00.49,0:08:02.45,Default,NTP,0,0,0,,咦 劍齒之虎的各位
+Dialogue: 0,0:08:02.65,0:08:04.65,Default,NTP,0,0,0,,為什麼大喊大叫的
+Dialogue: 0,0:08:04.87,0:08:06.63,Default,NTP,0,0,0,,溫蒂大人 夏露露大人
+Dialogue: 0,0:08:06.86,0:08:08.42,Default,NTP,0,0,0,,哦哦 好巧
+Dialogue: 0,0:08:09.05,0:08:11.75,Default,NTP,0,0,0,,大魔斗比武給大家添麻煩了
+Dialogue: 0,0:08:11.85,0:08:13.25,Default,NTP,0,0,0,,不是敵人嗎
+Dialogue: 0,0:08:13.35,0:08:15.45,Default,NTP,0,0,0,,那個 向你打聽點事…
+Dialogue: 0,0:08:16.84,0:08:19.87,Default,NTP,0,0,0,,喂 有沒有在這附近看見弗洛
+Dialogue: 0,0:08:20.73,0:08:23.12,Default,NTP,0,0,0,,稍微淡定些 對方是妹紙啊
+Dialogue: 0,0:08:23.40,0:08:24.42,Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:08:24.67,0:08:26.51,Default,NTP,0,0,0,,是弗洛嗎
+Dialogue: 0,0:08:26.75,0:08:29.79,Default,NTP,0,0,0,,是的 是個穿著青蛙裝的貓大人
+Dialogue: 0,0:08:29.96,0:08:32.49,Default,NTP,0,0,0,,那個的話 剛剛在前面見到過
+Dialogue: 0,0:08:32.94,0:08:34.73,Default,NTP,0,0,0,,大恩不言謝 我們走羅格
+Dialogue: 0,0:08:35.26,0:08:36.75,Default,NTP,0,0,0,,謝謝你
+Dialogue: 0,0:08:36.89,0:08:40.48,Default,NTP,0,0,0,,哎呀 夏露露真的很漂亮呢
+Dialogue: 0,0:08:40.66,0:08:43.73,Default,NTP,0,0,0,,這個感覺…預感有情敵
+Dialogue: 0,0:08:43.89,0:08:45.27,Default,NTP,0,0,0,,你在說什麼呢 哈比
+Dialogue: 0,0:08:46.09,0:08:46.82,Default,NTP,0,0,0,,搞什麼呢
+Dialogue: 0,0:08:47.46,0:08:48.48,Default,NTP,0,0,0,,誰知道
+Dialogue: 0,0:08:48.94,0:08:51.82,Default,NTP,0,0,0,,Men 這個怎麼樣
+Dialogue: 0,0:08:52.06,0:08:54.89,Default,NTP,0,0,0,,那個 您這樣的使用方法有點…
+Dialogue: 0,0:08:55.16,0:08:56.60,Default,NTP,0,0,0,,弗洛
+Dialogue: 0,0:08:56.65,0:08:57.54,Default,NTP,0,0,0,,回答我們
+Dialogue: 0,0:08:58.54,0:08:59.82,Default,NTP,0,0,0,,弗洛大人
+Dialogue: 0,0:09:00.06,0:09:02.08,Default,NTP,0,0,0,,嗯 好像不在這裏呢
+Dialogue: 0,0:09:02.38,0:09:04.88,Default,NTP,0,0,0,,那我們再去別處找找吧
+Dialogue: 0,0:09:05.00,0:09:09.05,Default,NTP,0,0,0,,弗洛一定也是到處找我們 各種迷惘呢
+Dialogue: 0,0:09:09.21,0:09:11.22,Default,NTP,0,0,0,,大家再細心一點…
+Dialogue: 0,0:09:11.34,0:09:13.16,Default,NTP,0,0,0,,振作點兒 羅格
+Dialogue: 0,0:09:14.86,0:09:17.11,Default,NTP,0,0,0,,發生什麼事了 劍齒之虎的諸位
+Dialogue: 0,0:09:17.24,0:09:18.93,Default,NTP,0,0,0,,啊 是藍色天馬的
+Dialogue: 0,0:09:19.14,0:09:20.00,Default,NTP,0,0,0,,一夜大人
+Dialogue: 0,0:09:23.80,0:09:25.79,Default,NTP,0,0,0,,喂 有沒有在這附近…
+Dialogue: 0,0:09:26.08,0:09:26.57,Default,NTP,0,0,0,,是
+Dialogue: 0,0:09:28.63,0:09:29.98,Default,NTP,0,0,0,,一上來就要打架嗎
+Dialogue: 0,0:09:30.09,0:09:31.14,Default,NTP,0,0,0,,對不起 不小心就…
+Dialogue: 0,0:09:31.31,0:09:34.26,Default,NTP,0,0,0,,沒事沒事 讓人清醒的一擊
+Dialogue: 0,0:09:34.60,0:09:35.67,Default,NTP,0,0,0,,復活好快
+Dialogue: 0,0:09:36.04,0:09:37.08,Default,NTP,0,0,0,,為什麼穿泳衣
+Dialogue: 0,0:09:37.59,0:09:40.57,Default,NTP,0,0,0,,他這亂來的裝扮還真心不怕雷死人啊
+Dialogue: 0,0:09:40.97,0:09:43.67,Default,NTP,0,0,0,,其實是弗洛大人失蹤了
+Dialogue: 0,0:09:43.97,0:09:45.34,Default,NTP,0,0,0,,那個我知道啊
+Dialogue: 0,0:09:45.40,0:09:46.60,Default,NTP,0,0,0,,在 在哪裏
+Dialogue: 0,0:09:47.20,0:09:47.93,Default,NTP,0,0,0,,在這裏
+Dialogue: 0,0:09:48.32,0:09:50.65,Default,NTP,0,0,0,,Men…
+Dialogue: 0,0:09:54.51,0:09:57.31,Default,NTP,0,0,0,,那我們有急事先走了 不好意思
+Dialogue: 0,0:10:01.52,0:10:04.57,Default,NTP,0,0,0,,弗洛 你在哪裏
+Dialogue: 0,0:10:04.64,0:10:06.12,Default,NTP,0,0,0,,弗洛
+Dialogue: 0,0:10:06.18,0:10:08.47,Default,NTP,0,0,0,,人太多了 跟蹤不到氣味
+Dialogue: 0,0:10:09.82,0:10:11.44,Default,NTP,0,0,0,,快看那裏
+Dialogue: 0,0:10:13.51,0:10:15.63,Default,NTP,0,0,0,,找到了 弗洛
+Dialogue: 0,0:10:15.76,0:10:16.86,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:10:17.69,0:10:18.34,Default,NTP,0,0,0,,喂
+Dialogue: 0,0:10:19.51,0:10:20.23,Default,NTP,0,0,0,,等一下
+Dialogue: 0,0:10:27.73,0:10:29.42,Default,NTP,0,0,0,,你在做什麼啊
+Dialogue: 0,0:10:29.60,0:10:30.87,Default,NTP,0,0,0,,錯 錯了
+Dialogue: 0,0:10:30.94,0:10:32.69,Default,NTP,0,0,0,,對不起 雪乃
+Dialogue: 0,0:10:32.86,0:10:34.00,Default,NTP,0,0,0,,沒 沒事
+Dialogue: 0,0:10:34.67,0:10:37.26,Default,NTP,0,0,0,,請等一下 快看那個
+Dialogue: 0,0:10:41.73,0:10:42.94,Default,NTP,0,0,0,,他在看地圖
+Dialogue: 0,0:10:43.20,0:10:47.05,Default,NTP,0,0,0,,對了 他自己就能回到協會了
+Dialogue: 0,0:10:47.14,0:10:48.88,Default,NTP,0,0,0,,用自己的力量回協會
+Dialogue: 0,0:10:53.73,0:10:56.97,Default,NTP,0,0,0,,我覺得我們現在HOLD住自己 默默跟著他就好
+Dialogue: 0,0:10:57.42,0:10:58.63,Default,NTP,0,0,0,,也是為了弗洛
+Dialogue: 0,0:11:01.25,0:11:03.16,Default,NTP,0,0,0,,弗洛自己回協會？
+Dialogue: 0,0:11:03.21,0:11:04.35,Default,NTP,0,0,0,,不可能啊
+Dialogue: 0,0:11:04.43,0:11:05.77,Default,NTP,0,0,0,,絕對回去了
+Dialogue: 0,0:11:06.75,0:11:09.56,Default,NTP,0,0,0,,總之 不久就能見到了
+Dialogue: 0,0:11:11.43,0:11:12.38,Default,NTP,0,0,0,,開始走咯
+Dialogue: 0,0:11:14.20,0:11:15.66,Default,NTP,0,0,0,,方向一致呢
+Dialogue: 0,0:11:15.72,0:11:17.10,Default,NTP,0,0,0,,太好了 弗洛
+Dialogue: 0,0:11:20.04,0:11:21.42,Default,NTP,0,0,0,,注意力已經轉移到別的地方了
+Dialogue: 0,0:11:22.41,0:11:23.25,Default,NTP,0,0,0,,真是不可能的啊
+Dialogue: 0,0:11:23.42,0:11:24.88,Default,NTP,0,0,0,,加油啊 弗洛
+Dialogue: 0,0:11:26.87,0:11:28.45,Default,NTP,0,0,0,,馬車暴走啦
+Dialogue: 0,0:11:31.12,0:11:32.87,Default,NTP,0,0,0,,為什麼？
+Dialogue: 0,0:11:40.84,0:11:42.38,Default,NTP,0,0,0,,馬車暴走啦
+Dialogue: 0,0:11:42.68,0:11:43.76,Default,NTP,0,0,0,,是無人駕駛的馬車
+Dialogue: 0,0:11:44.01,0:11:44.97,Default,NTP,0,0,0,,弗洛危險啊
+Dialogue: 0,0:11:45.39,0:11:47.81,Default,NTP,0,0,0,,雖說如此 我們去幫忙的話
+Dialogue: 0,0:11:47.93,0:11:49.81,Default,NTP,0,0,0,,會讓弗洛的努力打水漂
+Dialogue: 0,0:11:50.14,0:11:53.52,Default,NTP,0,0,0,,為了不讓弗洛受傷 我會想點辦法的
+Dialogue: 0,0:00:00.10,0:00:00.10,Default,NTP,0,0,0,,
+Dialogue: 0,0:12:01.45,0:12:03.28,Default,NTP,0,0,0,,啊 說來…
+Dialogue: 0,0:12:04.49,0:12:08.58,Default,NTP,0,0,0,,在這緊急事態中 我們還是暈交通工具
+Dialogue: 0,0:12:08.99,0:12:12.83,Default,NTP,0,0,0,,這點小事…弗洛也在努力
+Dialogue: 0,0:12:13.21,0:12:14.67,Default,NTP,0,0,0,,我也要努力
+Dialogue: 0,0:12:23.43,0:12:24.05,Default,NTP,0,0,0,,羅格
+Dialogue: 0,0:12:24.63,0:12:25.47,Default,NTP,0,0,0,,羅格大人
+Dialogue: 0,0:12:27.76,0:12:29.01,Default,NTP,0,0,0,,弗洛呢？
+Dialogue: 0,0:12:29.72,0:12:30.60,Default,NTP,0,0,0,,他沒事
+Dialogue: 0,0:12:31.35,0:12:33.02,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:12:35.10,0:12:40.98,Default,NTP,0,0,0,,喵 我還以為是貓貓 居然是青蛙
+Dialogue: 0,0:12:41.11,0:12:42.69,Default,NTP,0,0,0,,弗洛也這麼認為
+Dialogue: 0,0:12:42.90,0:12:45.99,Default,NTP,0,0,0,,不 等等 感覺很有魅力
+Dialogue: 0,0:12:46.07,0:12:47.03,Default,NTP,0,0,0,,神樂？
+Dialogue: 0,0:12:47.66,0:12:49.87,Default,NTP,0,0,0,,弗洛也這麼認為
+Dialogue: 0,0:12:50.58,0:12:51.95,Default,NTP,0,0,0,,這樣 這樣啊
+Dialogue: 0,0:12:52.16,0:12:57.25,Default,NTP,0,0,0,,弗洛其實小時候一直以為自己是青蛙
+Dialogue: 0,0:12:57.54,0:13:01.76,Default,NTP,0,0,0,,發現自己不是的時候 連哭了三天
+Dialogue: 0,0:13:02.55,0:13:04.63,Default,NTP,0,0,0,,多麼堅強的傢伙啊
+Dialogue: 0,0:13:04.84,0:13:06.38,Default,NTP,0,0,0,,這 這樣啊…
+Dialogue: 0,0:13:06.68,0:13:08.97,Default,NTP,0,0,0,,弗洛大人…好可憐…
+Dialogue: 0,0:13:09.35,0:13:11.85,Default,NTP,0,0,0,,你要來我這邊嗎？
+Dialogue: 0,0:13:12.43,0:13:14.14,Default,NTP,0,0,0,,什麼？
+Dialogue: 0,0:13:14.81,0:13:17.98,Default,NTP,0,0,0,,神樂難道喜歡青蛙嗎？
+Dialogue: 0,0:13:18.23,0:13:22.73,Default,NTP,0,0,0,,不 我只是想要個妹妹
+Dialogue: 0,0:13:22.86,0:13:23.94,Default,NTP,0,0,0,,神樂…
+Dialogue: 0,0:13:24.32,0:13:25.70,Default,NTP,0,0,0,,我忍不了了
+Dialogue: 0,0:13:27.16,0:13:28.70,Default,NTP,0,0,0,,請等一下 情況有點…
+Dialogue: 0,0:13:30.37,0:13:32.04,Default,NTP,0,0,0,,但是很糟糕吧
+Dialogue: 0,0:13:32.49,0:13:36.46,Default,NTP,0,0,0,,那孩子我記得是劍齒之虎的羅格的搭檔
+Dialogue: 0,0:13:37.37,0:13:40.50,Default,NTP,0,0,0,,米莉安娜 說實話吧
+Dialogue: 0,0:13:40.67,0:13:42.50,Default,NTP,0,0,0,,你也想要吧？
+Dialogue: 0,0:13:43.21,0:13:44.01,Default,NTP,0,0,0,,露餡了？
+Dialogue: 0,0:13:44.17,0:13:47.47,Default,NTP,0,0,0,,仔細一看就是穿著青蛙服的貓貓嘛
+Dialogue: 0,0:13:47.55,0:13:49.22,Default,NTP,0,0,0,,我也想要
+Dialogue: 0,0:13:49.39,0:13:51.10,Default,NTP,0,0,0,,我可不能給你
+Dialogue: 0,0:13:53.85,0:13:55.56,Default,NTP,0,0,0,,神樂 你認真的？
+Dialogue: 0,0:13:56.31,0:13:57.31,Default,NTP,0,0,0,,非常認真
+Dialogue: 0,0:13:58.06,0:14:01.23,Default,NTP,0,0,0,,有個萬一 就和贏的那個打一架
+Dialogue: 0,0:14:01.36,0:14:03.61,Default,NTP,0,0,0,,就是說 對手是神樂嗎
+Dialogue: 0,0:14:03.94,0:14:06.11,Default,NTP,0,0,0,,神樂大人很強哦
+Dialogue: 0,0:14:09.74,0:14:10.37,Default,NTP,0,0,0,,等下
+Dialogue: 0,0:14:10.66,0:14:11.66,Default,NTP,0,0,0,,感覺到恐怖了嗎
+Dialogue: 0,0:14:12.24,0:14:15.87,Default,NTP,0,0,0,,別決鬥決定了 不如問問本人什麼想法吧
+Dialogue: 0,0:14:16.71,0:14:18.04,Default,NTP,0,0,0,,這選擇不錯
+Dialogue: 0,0:14:20.96,0:14:21.88,Default,NTP,0,0,0,,不見了？！
+Dialogue: 0,0:14:22.29,0:14:24.88,Default,NTP,0,0,0,,喂喂 我們也跟丟弗洛了
+Dialogue: 0,0:14:25.01,0:14:26.34,Default,NTP,0,0,0,,快找
+Dialogue: 0,0:14:26.51,0:14:27.17,Default,NTP,0,0,0,,是
+Dialogue: 0,0:14:30.76,0:14:32.55,Default,NTP,0,0,0,,看這傢伙
+Dialogue: 0,0:14:32.68,0:14:34.76,Default,NTP,0,0,0,,是青蛙 有珍稀的青蛙
+Dialogue: 0,0:14:34.89,0:14:36.39,Default,NTP,0,0,0,,萌萌噠
+Dialogue: 0,0:14:36.52,0:14:38.14,Default,NTP,0,0,0,,這青蛙真奇怪
+Dialogue: 0,0:14:38.23,0:14:39.77,Default,NTP,0,0,0,,不 這是貓吧？
+Dialogue: 0,0:14:39.85,0:14:41.44,Default,NTP,0,0,0,,管他呢 萌就行
+Dialogue: 0,0:14:41.52,0:14:43.06,Default,NTP,0,0,0,,這可是稀罕貨
+Dialogue: 0,0:14:43.77,0:14:44.52,Default,NTP,0,0,0,,你們是誰？
+Dialogue: 0,0:14:45.36,0:14:47.61,Default,NTP,0,0,0,,看著就挺可疑的傢伙上去搭話了
+Dialogue: 0,0:14:47.78,0:14:48.90,Default,NTP,0,0,0,,發生情況了
+Dialogue: 0,0:14:50.66,0:14:51.74,Default,NTP,0,0,0,,快點抓住吧
+Dialogue: 0,0:14:51.78,0:14:52.95,Default,NTP,0,0,0,,沒準能賣個高價
+Dialogue: 0,0:14:53.20,0:14:55.33,Default,NTP,0,0,0,,來來 進這個籠子裏
+Dialogue: 0,0:14:55.45,0:14:57.00,Default,NTP,0,0,0,,可惡…
+Dialogue: 0,0:14:57.33,0:14:58.54,Default,NTP,0,0,0,,不幫忙嗎？
+Dialogue: 0,0:14:59.04,0:14:59.54,Default,NTP,0,0,0,,好勒
+Dialogue: 0,0:00:00.10,0:00:00.10,Default,NTP,0,0,0,,喂 喂！
+Dialogue: 0,0:15:00.79,0:15:01.63,Default,NTP,0,0,0,,別跑！
+Dialogue: 0,0:15:02.04,0:15:02.75,Default,NTP,0,0,0,,好快
+Dialogue: 0,0:15:02.96,0:15:04.50,Default,NTP,0,0,0,,真厲害 弗洛
+Dialogue: 0,0:15:04.63,0:15:06.00,Default,NTP,0,0,0,,只是偶然吧？
+Dialogue: 0,0:15:06.17,0:15:07.30,Default,NTP,0,0,0,,也是啊
+Dialogue: 0,0:15:08.26,0:15:09.72,Default,NTP,0,0,0,,真 真敏捷的傢伙
+Dialogue: 0,0:15:09.80,0:15:10.55,Default,NTP,0,0,0,,好累…
+Dialogue: 0,0:15:11.13,0:15:12.51,Default,NTP,0,0,0,,挺厲害的
+Dialogue: 0,0:15:12.68,0:15:14.26,Default,NTP,0,0,0,,弗洛也這麼認為
+Dialogue: 0,0:15:14.97,0:15:16.01,Default,NTP,0,0,0,,什麼什麼？
+Dialogue: 0,0:15:16.18,0:15:17.81,Default,NTP,0,0,0,,真沒用
+Dialogue: 0,0:15:17.97,0:15:19.43,Default,NTP,0,0,0,,你們在糾結什麼
+Dialogue: 0,0:15:19.60,0:15:22.35,Default,NTP,0,0,0,,一隻青蛙都抓不到嗎
+Dialogue: 0,0:15:24.11,0:15:24.77,Default,NTP,0,0,0,,誰？
+Dialogue: 0,0:15:24.98,0:15:25.52,Default,NTP,0,0,0,,Boss
+Dialogue: 0,0:15:25.77,0:15:26.48,Default,NTP,0,0,0,,您辛苦了
+Dialogue: 0,0:15:26.78,0:15:28.53,Default,NTP,0,0,0,,真是沒用的新人們
+Dialogue: 0,0:15:28.65,0:15:32.53,Default,NTP,0,0,0,,我們抓青蛙獵人的名號都被你們玷污了
+Dialogue: 0,0:15:33.28,0:15:34.24,Default,NTP,0,0,0,,新手嗎？
+Dialogue: 0,0:15:34.37,0:15:36.33,Default,NTP,0,0,0,,有什麼奇怪的出現了
+Dialogue: 0,0:15:36.45,0:15:39.45,Default,NTP,0,0,0,,抓青蛙獵人是個啥啊
+Dialogue: 0,0:15:40.46,0:15:43.63,Default,NTP,0,0,0,,覺悟吧 我現在就去抓住你
+Dialogue: 0,0:15:44.83,0:15:46.67,Default,NTP,0,0,0,,怎麼看都很糟糕啊
+Dialogue: 0,0:15:46.88,0:15:49.17,Default,NTP,0,0,0,,沒辦法 差不多該我…
+Dialogue: 0,0:15:50.47,0:15:52.38,Default,NTP,0,0,0,,這是啥啊
+Dialogue: 0,0:15:52.55,0:15:54.89,Default,NTP,0,0,0,,誒？ 抓錯了
+Dialogue: 0,0:15:55.72,0:15:56.64,Default,NTP,0,0,0,,這不是弗洛嗎
+Dialogue: 0,0:15:57.97,0:15:59.89,Default,NTP,0,0,0,,你在這裏幹什麼呢？
+Dialogue: 0,0:16:00.02,0:16:01.48,Default,NTP,0,0,0,,別擋道
+Dialogue: 0,0:16:02.77,0:16:03.52,Default,NTP,0,0,0,,誒？
+Dialogue: 0,0:16:05.19,0:16:06.27,Default,NTP,0,0,0,,給我站住青蛙
+Dialogue: 0,0:16:06.40,0:16:08.11,Default,NTP,0,0,0,,住手
+Dialogue: 0,0:16:09.11,0:16:11.03,Default,NTP,0,0,0,,給我抓住
+Dialogue: 0,0:16:12.53,0:16:14.07,Default,NTP,0,0,0,,為啥會這樣啊
+Dialogue: 0,0:16:14.36,0:16:15.95,Default,NTP,0,0,0,,你在幹啥啊
+Dialogue: 0,0:16:16.74,0:16:18.28,Default,NTP,0,0,0,,怎…怎麼辦？
+Dialogue: 0,0:16:18.54,0:16:22.96,Default,NTP,0,0,0,,夏的登場是不可抗力 這裏就交給他吧
+Dialogue: 0,0:16:23.04,0:16:23.96,Default,NTP,0,0,0,,也是啊
+Dialogue: 0,0:16:24.71,0:16:26.00,Default,NTP,0,0,0,,很好
+Dialogue: 0,0:16:26.21,0:16:28.50,Default,NTP,0,0,0,,雖然不知道怎麼回事 但燃起來了
+Dialogue: 0,0:16:29.09,0:16:30.05,Default,NTP,0,0,0,,揍飛你們
+Dialogue: 0,0:16:32.22,0:16:33.38,Default,NTP,0,0,0,,我也要上
+Dialogue: 0,0:16:33.84,0:16:35.89,Default,NTP,0,0,0,,開啟吧 射手座的門扉
+Dialogue: 0,0:16:37.22,0:16:38.35,Default,NTP,0,0,0,,薩奇達利烏斯
+Dialogue: 0,0:16:38.56,0:16:41.81,Default,NTP,0,0,0,,接著就嘗嘗箭的滋味吧 喂喂
+Dialogue: 0,0:16:44.64,0:16:45.48,Default,NTP,0,0,0,,抓到啦
+Dialogue: 0,0:16:45.60,0:16:46.77,Default,NTP,0,0,0,,抓住了
+Dialogue: 0,0:16:47.19,0:16:49.44,Default,NTP,0,0,0,,火龍的煌炎
+Dialogue: 0,0:16:50.82,0:16:52.49,Default,NTP,0,0,0,,糟糕
+Dialogue: 0,0:16:57.24,0:16:58.66,Default,NTP,0,0,0,,好…好過分…
+Dialogue: 0,0:16:59.12,0:17:01.04,Default,NTP,0,0,0,,等下 這該怎麼辦啊
+Dialogue: 0,0:17:01.24,0:17:02.91,Default,NTP,0,0,0,,到處都壞掉了
+Dialogue: 0,0:17:03.16,0:17:07.00,Default,NTP,0,0,0,,沒事 接下去那份工作賺的錢就夠修了
+Dialogue: 0,0:17:07.21,0:17:09.13,Default,NTP,0,0,0,,到 到此為止了嗎…
+Dialogue: 0,0:17:09.29,0:17:10.46,Default,NTP,0,0,0,,真不愧是夏
+Dialogue: 0,0:17:10.92,0:17:13.09,Default,NTP,0,0,0,,總是會使出全力 好帥
+Dialogue: 0,0:17:13.42,0:17:18.05,Default,NTP,0,0,0,,哎呀 弗洛也是千鈞一髮啊 但是…
+Dialogue: 0,0:17:18.39,0:17:19.76,Default,NTP,0,0,0,,弗洛呢？
+Dialogue: 0,0:17:19.89,0:17:20.97,Default,NTP,0,0,0,,不見了！
+Dialogue: 0,0:17:21.43,0:17:22.56,Default,NTP,0,0,0,,去哪兒了？
+Dialogue: 0,0:17:23.27,0:17:23.98,Default,NTP,0,0,0,,什麼？
+Dialogue: 0,0:17:24.10,0:17:25.64,Default,NTP,0,0,0,,弗洛…
+Dialogue: 0,0:17:32.53,0:17:34.03,Default,NTP,0,0,0,,那是劍齒的…
+Dialogue: 0,0:17:34.40,0:17:35.49,Default,NTP,0,0,0,,弗洛
+Dialogue: 0,0:17:37.61,0:17:38.41,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:17:38.70,0:17:39.82,Default,NTP,0,0,0,,你好
+Dialogue: 0,0:17:40.03,0:17:41.74,Default,NTP,0,0,0,,你在這裏做什麼呢？
+Dialogue: 0,0:17:42.04,0:17:43.08,Default,NTP,0,0,0,,買東西
+Dialogue: 0,0:17:43.66,0:17:45.33,Default,NTP,0,0,0,,一個人買東西好厲害啊
+Dialogue: 0,0:17:45.50,0:17:47.21,Default,NTP,0,0,0,,弗洛也這麼認為
+Dialogue: 0,0:17:55.76,0:17:56.80,Default,NTP,0,0,0,,突然間怎麼了…
+Dialogue: 0,0:17:57.51,0:17:58.38,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:17:58.68,0:18:00.72,Default,NTP,0,0,0,,其實我迷路了
+Dialogue: 0,0:18:00.97,0:18:02.97,Default,NTP,0,0,0,,弗洛——
+Dialogue: 0,0:18:04.22,0:18:06.02,Default,NTP,0,0,0,,差不多該去幫幫他了吧
+Dialogue: 0,0:18:06.27,0:18:07.35,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:18:07.85,0:18:08.44,Default,NTP,0,0,0,,不行
+Dialogue: 0,0:18:09.65,0:18:12.94,Default,NTP,0,0,0,,我…我相信弗洛
+Dialogue: 0,0:18:13.19,0:18:16.28,Default,NTP,0,0,0,,他絕對能一個人回到協會
+Dialogue: 0,0:18:17.90,0:18:19.24,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:18:19.61,0:18:21.12,Default,NTP,0,0,0,,你協會在哪裏？
+Dialogue: 0,0:18:21.53,0:18:22.58,Default,NTP,0,0,0,,我們送你回去
+Dialogue: 0,0:18:22.91,0:18:24.41,Default,NTP,0,0,0,,灰大人好溫柔
+Dialogue: 0,0:18:28.04,0:18:30.33,Default,NTP,0,0,0,,弗洛 想一個人回去
+Dialogue: 0,0:18:36.13,0:18:41.97,Default,NTP,0,0,0,,弗洛雖然總迷路 但想能自己回去
+Dialogue: 0,0:18:43.47,0:18:46.06,Default,NTP,0,0,0,,弗洛也是劍齒之虎…
+Dialogue: 0,0:18:46.64,0:18:47.35,Default,NTP,0,0,0,,你看
+Dialogue: 0,0:18:50.94,0:18:55.40,Default,NTP,0,0,0,,而且 感覺羅格在給我加油
+Dialogue: 0,0:18:57.11,0:18:58.65,Default,NTP,0,0,0,,弗洛…
+Dialogue: 0,0:18:59.70,0:19:01.41,Default,NTP,0,0,0,,這樣啊 要加油啊
+Dialogue: 0,0:19:01.57,0:19:03.37,Default,NTP,0,0,0,,弗洛也這麼認為
+Dialogue: 0,0:19:13.96,0:19:17.09,Default,NTP,0,0,0,,弗洛那傢伙 是不是有點成長了？
+Dialogue: 0,0:19:17.21,0:19:18.46,Default,NTP,0,0,0,,真讓人感動
+Dialogue: 0,0:19:19.51,0:19:21.05,Default,NTP,0,0,0,,少擺一副驕傲臉了
+Dialogue: 0,0:19:44.62,0:19:45.49,Default,NTP,0,0,0,,哎呀呀
+Dialogue: 0,0:19:45.66,0:19:46.95,Default,NTP,0,0,0,,去追蝴蝶了
+Dialogue: 0,0:19:47.45,0:19:49.87,Default,NTP,0,0,0,,不行啊 弗洛 要回協會
+Dialogue: 0,0:19:49.95,0:19:52.62,Default,NTP,0,0,0,,大街上有很多誘惑啊
+Dialogue: 0,0:19:52.83,0:19:53.92,Default,NTP,0,0,0,,弗洛…
+Dialogue: 0,0:19:54.79,0:19:56.84,Default,NTP,0,0,0,,只能慢悠悠陪著他了
+Dialogue: 0,0:19:59.13,0:20:00.97,Default,NTP,0,0,0,,這次遇到艾露莎了
+Dialogue: 0,0:20:01.22,0:20:03.09,Default,NTP,0,0,0,,是在問路嗎
+Dialogue: 0,0:20:03.26,0:20:05.97,Default,NTP,0,0,0,,幹得好弗洛 要好好問啊
+Dialogue: 0,0:20:07.60,0:20:09.47,Default,NTP,0,0,0,,看上去像是理解了什麼呢
+Dialogue: 0,0:20:10.39,0:20:12.35,Default,NTP,0,0,0,,說起來 你買了什麼？
+Dialogue: 0,0:20:12.77,0:20:15.86,Default,NTP,0,0,0,,是成對的 要穿嗎？
+Dialogue: 0,0:20:16.19,0:20:17.07,Default,NTP,0,0,0,,成對的？
+Dialogue: 0,0:20:17.86,0:20:20.44,Default,NTP,0,0,0,,是為了找那個才去了各種地方的嗎
+Dialogue: 0,0:20:21.78,0:20:26.45,Default,NTP,0,0,0,,這個 顏色和可愛度都非常棒
+Dialogue: 0,0:20:27.70,0:20:29.45,Default,NTP,0,0,0,,羅格一定會高興的
+Dialogue: 0,0:20:29.62,0:20:31.33,Default,NTP,0,0,0,,弗洛也這麼認為
+Dialogue: 0,0:20:31.50,0:20:33.50,Default,NTP,0,0,0,,弗洛——
+Dialogue: 0,0:20:33.62,0:20:35.50,Default,NTP,0,0,0,,你…要穿那個啊
+Dialogue: 0,0:20:38.13,0:20:39.50,Default,NTP,0,0,0,,啊 走了
+Dialogue: 0,0:20:39.67,0:20:41.84,Default,NTP,0,0,0,,好 幹得好弗洛
+Dialogue: 0,0:21:04.53,0:21:08.24,Default,NTP,0,0,0,,這還是第一次見 有點感動啊
+Dialogue: 0,0:21:08.66,0:21:09.37,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:21:09.70,0:21:11.66,Default,NTP,0,0,0,,加油 弗洛
+Dialogue: 0,0:21:12.08,0:21:17.00,Default,NTP,0,0,0,,弗洛要回協會
+Dialogue: 0,0:21:29.22,0:21:33.22,Default,NTP,0,0,0,,要一個人能回去
+Dialogue: 0,0:21:49.41,0:21:52.08,Default,NTP,0,0,0,,真的假的…邊走邊睡啊
+Dialogue: 0,0:21:52.16,0:21:53.66,Default,NTP,0,0,0,,弗洛 加油
+Dialogue: 0,0:21:54.25,0:21:55.20,Default,NTP,0,0,0,,弗洛大人
+Dialogue: 0,0:21:56.08,0:22:00.54,Default,NTP,0,0,0,,弗洛…一個人能走這麼遠真了不起
+Dialogue: 0,0:22:06.67,0:22:09.18,Default,NTP,0,0,0,,真想現在就飛奔出去迎接你
+Dialogue: 0,0:22:10.18,0:22:14.43,Default,NTP,0,0,0,,啊 到了
+Dialogue: 0,0:22:15.06,0:22:17.56,Default,NTP,0,0,0,,然後 這麼跟你說
+Dialogue: 0,0:22:19.94,0:22:20.98,Default,NTP,0,0,0,,不是這裏
+Dialogue: 0,0:22:21.48,0:22:24.19,Default,NTP,0,0,0,,{\fad(0,555)}弗洛也這麼認為
+Dialogue: 0,0:23:57.05,0:23:58.52,Default,,0,0,0,,哦 打檯球啊
+Dialogue: 0,0:23:58.69,0:23:59.87,Default,,0,0,0,,看起來很好玩
+Dialogue: 0,0:23:59.90,0:24:02.96,Default,,0,0,0,,夏 你知道怎麼玩檯球嗎
+Dialogue: 0,0:24:02.96,0:24:04.05,Default,,0,0,0,,別小看我
+Dialogue: 0,0:24:04.11,0:24:05.31,Default,,0,0,0,,檯球怎麼玩我可是知道的哦
+Dialogue: 0,0:24:05.65,0:24:07.83,Default,,0,0,0,,從開局擊球 開始
+Dialogue: 0,0:24:07.83,0:24:10.17,Default,,0,0,0,,嗯 的確是這樣沒錯
+Dialogue: 0,0:24:10.24,0:24:13.38,Default,,0,0,0,,擊球 也就是把把球擊碎就可以了吧
+Dialogue: 0,0:24:13.57,0:24:14.78,Default,,0,0,0,,這我可很擅長啊
+Dialogue: 0,0:24:14.86,0:24:16.89,Default,,0,0,0,,夏 不是這回事
+Dialogue: 0,0:24:17.45,0:24:19.14,Default,,0,0,0,,下集 紅磨坊
+Dialogue: 0,0:24:19.53,0:24:22.07,Default,,0,0,0,,什麼啊 那要把什麼破壞掉
+Dialogue: 0,0:24:19.53,0:24:22.07,Default,,0,0,0,,夏的這種天真的想法吧
+

@@ -1,0 +1,551 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Mushibugyo
+Original Script: 诸神字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: mushibugyo_CN,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,0,134
+Style: mushibugyo_JP,DFPMaruGothic_U-Md,28,&H00FFFFFF,&HF0000000,&H00000000,&HF0FFFFFF,0,0,0,0,100,100,0,0,1,2,0,2,10,10,0,1
+Style: mushibugyo_disclaimer,FZZhunYuan-M02,32,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,100,2,0,0,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:39.20,0:01:42.60,mushibugyo_JP,NTP,0,0,0,,この天守閣で待つ真田幸村
+Dialogue: 0,0:01:39.20,0:01:42.60,mushibugyo_CN,NTP,0,0,0,,等候在天守閣的真田幸村
+Dialogue: 0,0:01:42.85,0:01:46.07,mushibugyo_JP,NTP,0,0,0,,幸村を倒す事こそ　我らが勤め
+Dialogue: 0,0:01:42.85,0:01:46.07,mushibugyo_CN,NTP,0,0,0,,打倒幸村才是我等的職責
+Dialogue: 0,0:01:48.64,0:01:50.29,mushibugyo_JP,NTP,0,0,0,,わかってるでしょうね
+Dialogue: 0,0:01:48.64,0:01:50.29,mushibugyo_CN,NTP,0,0,0,,你明白的吧
+Dialogue: 0,0:01:50.46,0:01:53.86,mushibugyo_JP,NTP,0,0,0,,私達華組といろり達月組の役目
+Dialogue: 0,0:01:50.46,0:01:53.86,mushibugyo_CN,NTP,0,0,0,,我們「華」組和彩裏所在「月」組的任務
+Dialogue: 0,0:01:53.86,0:01:56.91,mushibugyo_JP,NTP,0,0,0,,はい　お付きの方達雪組…
+Dialogue: 0,0:01:53.86,0:01:56.91,mushibugyo_CN,NTP,0,0,0,,知道 是為侍女小姐的「雪」組…
+Dialogue: 0,0:01:57.28,0:01:59.45,mushibugyo_JP,NTP,0,0,0,,バカ　声がでかい
+Dialogue: 0,0:01:57.28,0:01:59.45,mushibugyo_CN,NTP,0,0,0,,笨蛋 聲音太大了
+Dialogue: 0,0:02:02.36,0:02:06.39,mushibugyo_JP,NTP,0,0,0,,雪組がお勤めを果たすまでの時間稼ぎなんだからね
+Dialogue: 0,0:02:02.36,0:02:06.39,mushibugyo_CN,NTP,0,0,0,,我們是為「雪」組完成任務爭取時間
+Dialogue: 0,0:02:09.90,0:02:11.01,mushibugyo_JP,NTP,0,0,0,,急ぐわよ
+Dialogue: 0,0:02:09.90,0:02:11.01,mushibugyo_CN,NTP,0,0,0,,要趕緊了
+Dialogue: 0,0:02:11.01,0:02:14.10,mushibugyo_JP,NTP,0,0,0,,まだ蟲人は二匹しか倒してないんだから
+Dialogue: 0,0:02:11.01,0:02:14.10,mushibugyo_CN,NTP,0,0,0,,我們才打倒兩隻蟲人
+Dialogue: 0,0:02:15.19,0:02:16.07,mushibugyo_JP,NTP,0,0,0,,はい
+Dialogue: 0,0:02:15.19,0:02:16.07,mushibugyo_CN,NTP,0,0,0,,是
+Dialogue: 0,0:02:20.76,0:02:22.51,mushibugyo_JP,NTP,0,0,0,,
+Dialogue: 0,0:02:20.76,0:02:22.51,mushibugyo_CN,NTP,0,0,0,,【斬裂G的 慈合斬！】
+Dialogue: 0,0:02:32.92,0:02:34.63,mushibugyo_JP,NTP,0,0,0,,そうであったか
+Dialogue: 0,0:02:32.92,0:02:34.63,mushibugyo_CN,NTP,0,0,0,,是嗎
+Dialogue: 0,0:02:36.45,0:02:41.60,mushibugyo_JP,NTP,0,0,0,,奈阿姫様が自らこの和歌山城の地下にいらっしゃるとは
+Dialogue: 0,0:02:36.45,0:02:41.60,mushibugyo_CN,NTP,0,0,0,,奈阿公主殿下居然親臨我和歌山城地下
+Dialogue: 0,0:02:45.57,0:02:48.50,mushibugyo_JP,NTP,0,0,0,,またとない良き機会を
+Dialogue: 0,0:02:45.57,0:02:48.50,mushibugyo_CN,NTP,0,0,0,,真是千載難逢的良機
+Dialogue: 0,0:02:50.24,0:02:54.14,mushibugyo_JP,NTP,0,0,0,,これは　恋川殿の太刀筋
+Dialogue: 0,0:02:50.24,0:02:54.14,mushibugyo_CN,NTP,0,0,0,,這是…戀川閣下的刀法
+Dialogue: 0,0:02:55.21,0:02:56.53,mushibugyo_JP,NTP,0,0,0,,追いかけるわよ
+Dialogue: 0,0:02:55.21,0:02:56.53,mushibugyo_CN,NTP,0,0,0,,快追上去
+Dialogue: 0,0:03:11.16,0:03:12.85,mushibugyo_JP,NTP,0,0,0,,幻術　ですか
+Dialogue: 0,0:03:11.16,0:03:12.85,mushibugyo_CN,NTP,0,0,0,,這是幻術嗎
+Dialogue: 0,0:03:13.10,0:03:14.58,mushibugyo_JP,NTP,0,0,0,,当たり前でしょう
+Dialogue: 0,0:03:13.10,0:03:14.58,mushibugyo_CN,NTP,0,0,0,,必須是啊
+Dialogue: 0,0:03:15.03,0:03:20.08,mushibugyo_JP,NTP,0,0,0,,しかし　霧隠才蔵を倒したのですから幻術が解けるのでは
+Dialogue: 0,0:03:15.03,0:03:20.08,mushibugyo_CN,NTP,0,0,0,,可是…我們既然打倒了霧隱才藏 幻術不是應該解開了嗎
+Dialogue: 0,0:03:20.14,0:03:21.34,mushibugyo_JP,NTP,0,0,0,,そうよね
+Dialogue: 0,0:03:20.14,0:03:21.34,mushibugyo_CN,NTP,0,0,0,,也是啊
+Dialogue: 0,0:03:22.44,0:03:26.66,mushibugyo_JP,NTP,0,0,0,,霧が晴れるように　ゆっくり幻術が解けているかもしれない
+Dialogue: 0,0:03:22.44,0:03:26.66,mushibugyo_CN,NTP,0,0,0,,也許這幻術是如霧靄一般 緩緩散去的也說不定
+Dialogue: 0,0:03:27.26,0:03:30.20,mushibugyo_JP,NTP,0,0,0,,いえ　幻術自体が嘘まやかし
+Dialogue: 0,0:03:27.26,0:03:30.20,mushibugyo_CN,NTP,0,0,0,,不對 幻術本身就是障眼法
+Dialogue: 0,0:03:30.45,0:03:33.32,mushibugyo_JP,NTP,0,0,0,,それを操る才蔵の言葉を信じるのは
+Dialogue: 0,0:03:30.45,0:03:33.32,mushibugyo_CN,NTP,0,0,0,,要讓我們對才藏的話信以為真的話
+Dialogue: 0,0:03:34.28,0:03:35.35,mushibugyo_JP,NTP,0,0,0,,まさか
+Dialogue: 0,0:03:34.28,0:03:35.35,mushibugyo_CN,NTP,0,0,0,,該不會…
+Dialogue: 0,0:03:37.22,0:03:38.62,mushibugyo_JP,NTP,0,0,0,,お春殿
+Dialogue: 0,0:03:37.22,0:03:38.62,mushibugyo_CN,NTP,0,0,0,,小春小姐
+Dialogue: 0,0:03:42.16,0:03:43.40,mushibugyo_JP,NTP,0,0,0,,仁兵衛樣
+Dialogue: 0,0:03:42.16,0:03:43.40,mushibugyo_CN,NTP,0,0,0,,仁兵衛大人
+Dialogue: 0,0:03:43.69,0:03:45.99,mushibugyo_JP,NTP,0,0,0,,お帰りが遅いので来ちゃいました
+Dialogue: 0,0:03:43.69,0:03:45.99,mushibugyo_CN,NTP,0,0,0,,您久久未歸我就來了
+Dialogue: 0,0:03:46.51,0:03:47.70,mushibugyo_JP,NTP,0,0,0,,なんと
+Dialogue: 0,0:03:46.51,0:03:47.70,mushibugyo_CN,NTP,0,0,0,,天哪
+Dialogue: 0,0:03:47.81,0:03:51.57,mushibugyo_JP,NTP,0,0,0,,仁兵衛様の為に　ほーら　こんなにお団子も
+Dialogue: 0,0:03:47.81,0:03:51.57,mushibugyo_CN,NTP,0,0,0,,您看 我為您準備了這麼多糰子
+Dialogue: 0,0:03:52.94,0:03:54.59,mushibugyo_JP,NTP,0,0,0,,なんと　なんと
+Dialogue: 0,0:03:52.94,0:03:54.59,mushibugyo_CN,NTP,0,0,0,,太幫了太棒了
+Dialogue: 0,0:03:55.08,0:03:59.05,mushibugyo_JP,NTP,0,0,0,,早く早く　早く
+Dialogue: 0,0:03:55.08,0:03:59.05,mushibugyo_CN,NTP,0,0,0,,快來 快來 快來啊
+Dialogue: 0,0:04:00.86,0:04:03.42,mushibugyo_JP,NTP,0,0,0,,今　参ります
+Dialogue: 0,0:04:00.86,0:04:03.42,mushibugyo_CN,NTP,0,0,0,,在下這就前去
+Dialogue: 0,0:04:05.99,0:04:08.50,mushibugyo_JP,NTP,0,0,0,,幻術に鼻の下伸ばして
+Dialogue: 0,0:04:05.99,0:04:08.50,mushibugyo_CN,NTP,0,0,0,,幻術就暴露了你的色心…
+Dialogue: 0,0:04:09.64,0:04:10.92,mushibugyo_JP,NTP,0,0,0,,バカ月島
+Dialogue: 0,0:04:09.64,0:04:10.92,mushibugyo_CN,NTP,0,0,0,,笨蛋月島
+Dialogue: 0,0:04:16.35,0:04:17.72,mushibugyo_JP,NTP,0,0,0,,どうなってるの
+Dialogue: 0,0:04:16.35,0:04:17.72,mushibugyo_CN,NTP,0,0,0,,這是怎麼回事
+Dialogue: 0,0:04:18.43,0:04:19.74,mushibugyo_JP,NTP,0,0,0,,幻術です
+Dialogue: 0,0:04:18.43,0:04:19.74,mushibugyo_CN,NTP,0,0,0,,是幻術
+Dialogue: 0,0:04:22.01,0:04:23.92,mushibugyo_JP,NTP,0,0,0,,どうだっていいじゃねーか
+Dialogue: 0,0:04:22.01,0:04:23.92,mushibugyo_CN,NTP,0,0,0,,管他什麼幻術
+Dialogue: 0,0:04:24.37,0:04:27.59,mushibugyo_JP,NTP,0,0,0,,こうやって敵の本丸に乗り込んだんだ
+Dialogue: 0,0:04:24.37,0:04:27.59,mushibugyo_CN,NTP,0,0,0,,反正我們都已經殺進敵人的老巢了
+Dialogue: 0,0:04:28.73,0:04:32.64,mushibugyo_JP,NTP,0,0,0,,言っとくが　てめぇら　今度は俺が行かせてもらうぜ
+Dialogue: 0,0:04:28.73,0:04:32.64,mushibugyo_CN,NTP,0,0,0,,先說好了 這次要讓我上
+Dialogue: 0,0:04:34.35,0:04:38.71,mushibugyo_JP,NTP,0,0,0,,幻術かそうじゃねーか　切って見りゃわかる
+Dialogue: 0,0:04:34.35,0:04:38.71,mushibugyo_CN,NTP,0,0,0,,管它是不是幻術 一砍便見分曉
+Dialogue: 0,0:04:46.71,0:04:49.12,mushibugyo_JP,NTP,0,0,0,,手応えあり　こっちだぜ
+Dialogue: 0,0:04:46.71,0:04:49.12,mushibugyo_CN,NTP,0,0,0,,有手感 是這邊
+Dialogue: 0,0:04:50.61,0:04:52.84,mushibugyo_JP,NTP,0,0,0,,恋川殿に　従いましょう
+Dialogue: 0,0:04:50.61,0:04:52.84,mushibugyo_CN,NTP,0,0,0,,我們就跟著戀川閣下走吧
+Dialogue: 0,0:04:59.92,0:05:03.33,mushibugyo_JP,NTP,0,0,0,,お春殿かと思えば蟲人であったか
+Dialogue: 0,0:04:59.92,0:05:03.33,mushibugyo_CN,NTP,0,0,0,,我還以為是小春小姐 原來是蟲人
+Dialogue: 0,0:05:07.30,0:05:08.49,mushibugyo_JP,NTP,0,0,0,,南無
+Dialogue: 0,0:05:07.30,0:05:08.49,mushibugyo_CN,NTP,0,0,0,,南無
+Dialogue: 0,0:05:23.48,0:05:27.36,mushibugyo_JP,NTP,0,0,0,,出て来やがれ　俺がぶった切ってやる
+Dialogue: 0,0:05:23.48,0:05:27.36,mushibugyo_CN,NTP,0,0,0,,給我滾出來 看我把你剁碎成渣
+Dialogue: 0,0:05:34.30,0:05:36.01,mushibugyo_JP,NTP,0,0,0,,誰もいねーのかよ
+Dialogue: 0,0:05:34.30,0:05:36.01,mushibugyo_CN,NTP,0,0,0,,沒有人在嗎
+Dialogue: 0,0:05:37.21,0:05:38.13,mushibugyo_JP,NTP,0,0,0,,くそ
+Dialogue: 0,0:05:37.21,0:05:38.13,mushibugyo_CN,NTP,0,0,0,,可惡
+Dialogue: 0,0:05:38.17,0:05:43.08,mushibugyo_JP,NTP,0,0,0,,恋川殿　バツです　もうすこし冷静に対処してください
+Dialogue: 0,0:05:38.17,0:05:43.08,mushibugyo_CN,NTP,0,0,0,,戀川閣下 不可衝動 要冷靜應對
+Dialogue: 0,0:05:45.89,0:05:49.44,mushibugyo_JP,NTP,0,0,0,,俺がやりてぇからやる　それだけだ
+Dialogue: 0,0:05:45.89,0:05:49.44,mushibugyo_CN,NTP,0,0,0,,我願怎樣就怎樣 僅此而已
+Dialogue: 0,0:05:49.75,0:05:52.11,mushibugyo_JP,NTP,0,0,0,,まったく　勝手なんだから
+Dialogue: 0,0:05:49.75,0:05:52.11,mushibugyo_CN,NTP,0,0,0,,真是的 你也太肆意而為了
+Dialogue: 0,0:05:53.86,0:05:54.98,mushibugyo_JP,NTP,0,0,0,,火缽
+Dialogue: 0,0:05:53.86,0:05:54.98,mushibugyo_CN,NTP,0,0,0,,火缽
+Dialogue: 0,0:05:55.47,0:05:56.74,mushibugyo_JP,NTP,0,0,0,,月島殿は
+Dialogue: 0,0:05:55.47,0:05:56.74,mushibugyo_CN,NTP,0,0,0,,月島閣下呢
+Dialogue: 0,0:05:56.99,0:05:59.96,mushibugyo_JP,NTP,0,0,0,,バカ月島は幻術に巻かれたわ
+Dialogue: 0,0:05:56.99,0:05:59.96,mushibugyo_CN,NTP,0,0,0,,月島那個笨蛋中了幻術了
+Dialogue: 0,0:06:00.96,0:06:03.05,mushibugyo_JP,NTP,0,0,0,,聞こえてんだろ　蟲ケラ
+Dialogue: 0,0:06:00.96,0:06:03.05,mushibugyo_CN,NTP,0,0,0,,在偷偷聽著吧 臭蟲們
+Dialogue: 0,0:06:04.17,0:06:05.60,mushibugyo_JP,NTP,0,0,0,,バレバレだよ
+Dialogue: 0,0:06:04.17,0:06:05.60,mushibugyo_CN,NTP,0,0,0,,你們早暴露了
+Dialogue: 0,0:06:05.84,0:06:09.66,mushibugyo_JP,NTP,0,0,0,,えげつねー血の匂いがすぐそばでプンプンするさ
+Dialogue: 0,0:06:05.84,0:06:09.66,mushibugyo_CN,NTP,0,0,0,,令人作嘔的血腥味臭氣熏天
+Dialogue: 0,0:06:09.75,0:06:11.91,mushibugyo_JP,NTP,0,0,0,,まさかビビっちまったのか
+Dialogue: 0,0:06:09.75,0:06:11.91,mushibugyo_CN,NTP,0,0,0,,該不會是怕了本大爺了吧
+Dialogue: 0,0:06:12.89,0:06:14.83,mushibugyo_JP,NTP,0,0,0,,俺が相手してやるぜ
+Dialogue: 0,0:06:12.89,0:06:14.83,mushibugyo_CN,NTP,0,0,0,,我來陪你們玩玩
+Dialogue: 0,0:06:17.71,0:06:19.16,mushibugyo_JP,NTP,0,0,0,,いいだろう
+Dialogue: 0,0:06:17.71,0:06:19.16,mushibugyo_CN,NTP,0,0,0,,也好
+Dialogue: 0,0:06:19.40,0:06:22.50,mushibugyo_JP,NTP,0,0,0,,我らは何者も拒まない
+Dialogue: 0,0:06:19.40,0:06:22.50,mushibugyo_CN,NTP,0,0,0,,我等來者不拒
+Dialogue: 0,0:06:28.13,0:06:29.10,mushibugyo_JP,NTP,0,0,0,,月島
+Dialogue: 0,0:06:28.13,0:06:29.10,mushibugyo_CN,NTP,0,0,0,,月島
+Dialogue: 0,0:06:34.63,0:06:36.25,mushibugyo_JP,NTP,0,0,0,,兄さん　どうした
+Dialogue: 0,0:06:34.63,0:06:36.25,mushibugyo_CN,NTP,0,0,0,,小哥 你怎麼了
+Dialogue: 0,0:06:36.68,0:06:40.85,mushibugyo_JP,NTP,0,0,0,,恋川殿　相手は強いです
+Dialogue: 0,0:06:36.68,0:06:40.85,mushibugyo_CN,NTP,0,0,0,,戀川閣下…對手…很強
+Dialogue: 0,0:06:41.21,0:06:42.21,mushibugyo_JP,NTP,0,0,0,,相手
+Dialogue: 0,0:06:41.21,0:06:42.21,mushibugyo_CN,NTP,0,0,0,,對手？
+Dialogue: 0,0:06:46.92,0:06:49.68,mushibugyo_JP,NTP,0,0,0,,ちっとは　手応えありそうだな
+Dialogue: 0,0:06:46.92,0:06:49.68,mushibugyo_CN,NTP,0,0,0,,看來略有些棘手啊
+Dialogue: 0,0:06:49.85,0:06:53.35,mushibugyo_JP,NTP,0,0,0,,気を付けて　そいつら脱皮すると強くなるのよ
+Dialogue: 0,0:06:49.85,0:06:53.35,mushibugyo_CN,NTP,0,0,0,,多加小心 這些傢伙一旦脫皮會變得更強
+Dialogue: 0,0:07:02.68,0:07:04.70,mushibugyo_JP,NTP,0,0,0,,またしても幻術ですか
+Dialogue: 0,0:07:02.68,0:07:04.70,mushibugyo_CN,NTP,0,0,0,,又是幻術嗎
+Dialogue: 0,0:07:04.89,0:07:06.63,mushibugyo_JP,NTP,0,0,0,,大丈夫　月島
+Dialogue: 0,0:07:04.89,0:07:06.63,mushibugyo_CN,NTP,0,0,0,,沒事吧 月島
+Dialogue: 0,0:07:08.77,0:07:10.94,mushibugyo_JP,NTP,0,0,0,,月島殿　バツです
+Dialogue: 0,0:07:08.77,0:07:10.94,mushibugyo_CN,NTP,0,0,0,,月島閣下 不可逞強
+Dialogue: 0,0:07:12.27,0:07:14.42,mushibugyo_JP,NTP,0,0,0,,傷ついたものは足手まといです
+Dialogue: 0,0:07:12.27,0:07:14.42,mushibugyo_CN,NTP,0,0,0,,傷員只會拖累大家
+Dialogue: 0,0:07:14.62,0:07:17.01,mushibugyo_JP,NTP,0,0,0,,ちょ　ひどい言い方ね
+Dialogue: 0,0:07:14.62,0:07:17.01,mushibugyo_CN,NTP,0,0,0,,喂…這話說得太過分了吧
+Dialogue: 0,0:07:17.01,0:07:19.05,mushibugyo_JP,NTP,0,0,0,,ひ　火鉢殿
+Dialogue: 0,0:07:17.01,0:07:19.05,mushibugyo_CN,NTP,0,0,0,,火…火缽小姐
+Dialogue: 0,0:07:22.41,0:07:24.38,mushibugyo_JP,NTP,0,0,0,,火缽殿
+Dialogue: 0,0:07:22.41,0:07:24.38,mushibugyo_CN,NTP,0,0,0,,火缽小…
+Dialogue: 0,0:07:24.63,0:07:26.34,mushibugyo_JP,NTP,0,0,0,,このエロ助が
+Dialogue: 0,0:07:24.63,0:07:26.34,mushibugyo_CN,NTP,0,0,0,,你這個色鬼
+Dialogue: 0,0:07:31.23,0:07:36.06,mushibugyo_JP,NTP,0,0,0,,火鉢殿　大岡殿のおっしゃる通りです
+Dialogue: 0,0:07:31.23,0:07:36.06,mushibugyo_CN,NTP,0,0,0,,火缽小姐 正如大岡大人所言
+Dialogue: 0,0:07:36.26,0:07:38.50,mushibugyo_JP,NTP,0,0,0,,今は幸村を倒す時
+Dialogue: 0,0:07:36.26,0:07:38.50,mushibugyo_CN,NTP,0,0,0,,當務之急乃是打倒幸村
+Dialogue: 0,0:07:38.66,0:07:39.70,mushibugyo_JP,NTP,0,0,0,,月島
+Dialogue: 0,0:07:38.66,0:07:39.70,mushibugyo_CN,NTP,0,0,0,,月島…
+Dialogue: 0,0:07:40.07,0:07:44.38,mushibugyo_JP,NTP,0,0,0,,しかし　自分とで蟲奉行所の一人
+Dialogue: 0,0:07:40.07,0:07:44.38,mushibugyo_CN,NTP,0,0,0,,可在下好歹也是蟲奉行的一員
+Dialogue: 0,0:07:45.26,0:07:47.36,mushibugyo_JP,NTP,0,0,0,,足手まといなどにはなりません
+Dialogue: 0,0:07:45.26,0:07:47.36,mushibugyo_CN,NTP,0,0,0,,絕不會成為大家的累贅
+Dialogue: 0,0:07:49.28,0:07:50.39,mushibugyo_JP,NTP,0,0,0,,月島
+Dialogue: 0,0:07:49.28,0:07:50.39,mushibugyo_CN,NTP,0,0,0,,月島
+Dialogue: 0,0:07:58.76,0:08:03.72,mushibugyo_JP,NTP,0,0,0,,お前らは先に行け　ここは俺に任せろ
+Dialogue: 0,0:07:58.76,0:08:03.72,mushibugyo_CN,NTP,0,0,0,,你們先行前往 這裏就交給我
+Dialogue: 0,0:08:03.95,0:08:05.05,mushibugyo_JP,NTP,0,0,0,,戀川殿
+Dialogue: 0,0:08:03.95,0:08:05.05,mushibugyo_CN,NTP,0,0,0,,戀川閣下
+Dialogue: 0,0:08:06.14,0:08:07.22,mushibugyo_JP,NTP,0,0,0,,バツです
+Dialogue: 0,0:08:06.14,0:08:07.22,mushibugyo_CN,NTP,0,0,0,,不可
+Dialogue: 0,0:08:07.40,0:08:09.64,mushibugyo_JP,NTP,0,0,0,,その言葉は死亡フラグです
+Dialogue: 0,0:08:07.40,0:08:09.64,mushibugyo_CN,NTP,0,0,0,,說這種話相當於樹死亡flag
+Dialogue: 0,0:08:11.42,0:08:12.72,mushibugyo_JP,NTP,0,0,0,,大岡殿
+Dialogue: 0,0:08:11.42,0:08:12.72,mushibugyo_CN,NTP,0,0,0,,大岡大人
+Dialogue: 0,0:08:12.91,0:08:16.46,mushibugyo_JP,NTP,0,0,0,,恋川殿なら脂肪クラゲなど切って捨てますよ
+Dialogue: 0,0:08:12.91,0:08:16.46,mushibugyo_CN,NTP,0,0,0,,戀川大人的話 砍脂肪水母什麼的如同切菜啦
+Dialogue: 0,0:08:18.59,0:08:20.22,mushibugyo_JP,NTP,0,0,0,,皆さん　参ります
+Dialogue: 0,0:08:18.59,0:08:20.22,mushibugyo_CN,NTP,0,0,0,,那麼各位 出發吧
+Dialogue: 0,0:08:21.27,0:08:23.32,mushibugyo_JP,NTP,0,0,0,,チョロチョロしてんじゃねーよ
+Dialogue: 0,0:08:21.27,0:08:23.32,mushibugyo_CN,NTP,0,0,0,,別鬼鬼祟祟的
+Dialogue: 0,0:08:24.13,0:08:26.28,mushibugyo_JP,NTP,0,0,0,,居るのはわかってるんだぜ
+Dialogue: 0,0:08:24.13,0:08:26.28,mushibugyo_CN,NTP,0,0,0,,我知道你們的藏身之處
+Dialogue: 0,0:08:39.59,0:08:41.67,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:08:39.59,0:08:41.67,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:08:43.87,0:08:49.85,mushibugyo_JP,NTP,0,0,0,,拙僧は真田十傑蟲の一人　三好青海入道
+Dialogue: 0,0:08:43.87,0:08:49.85,mushibugyo_CN,NTP,0,0,0,,貧僧乃真田十傑蟲之一 三好青海入道
+Dialogue: 0,0:08:50.14,0:08:53.68,mushibugyo_JP,NTP,0,0,0,,同じく　三好伊三入道
+Dialogue: 0,0:08:50.14,0:08:53.68,mushibugyo_CN,NTP,0,0,0,,同屬 三好伊三入道
+Dialogue: 0,0:08:55.23,0:08:58.91,mushibugyo_JP,NTP,0,0,0,,死者の列に加わる前に聞いておこう
+Dialogue: 0,0:08:55.23,0:08:58.91,mushibugyo_CN,NTP,0,0,0,,將你列入死者名單之前 容貧僧問你一句
+Dialogue: 0,0:08:58.96,0:09:02.29,mushibugyo_JP,NTP,0,0,0,,お主　名をなんと申す
+Dialogue: 0,0:08:58.96,0:09:02.29,mushibugyo_CN,NTP,0,0,0,,施主尊姓大名？
+Dialogue: 0,0:09:02.38,0:09:04.53,mushibugyo_JP,NTP,0,0,0,,あー　別にいいわ
+Dialogue: 0,0:09:02.38,0:09:04.53,mushibugyo_CN,NTP,0,0,0,,啊 這就算了吧
+Dialogue: 0,0:09:04.56,0:09:08.90,mushibugyo_JP,NTP,0,0,0,,すぐ死んじまうお前らに名乗るの面倒だからよ
+Dialogue: 0,0:09:04.56,0:09:08.90,mushibugyo_CN,NTP,0,0,0,,反正你們都快上黃泉了 自報家門太麻煩了
+Dialogue: 0,0:09:12.50,0:09:16.53,mushibugyo_JP,NTP,0,0,0,,てめぇら　脱皮するとえれー強くなるみたいだな
+Dialogue: 0,0:09:12.50,0:09:16.53,mushibugyo_CN,NTP,0,0,0,,聽說你們脫皮之後會變強
+Dialogue: 0,0:09:16.69,0:09:19.94,mushibugyo_JP,NTP,0,0,0,,だけどその前に死んじまったらそこでおしまいなんだろ
+Dialogue: 0,0:09:16.69,0:09:19.94,mushibugyo_CN,NTP,0,0,0,,不過要是那之前就死了不就沒戲唱了
+Dialogue: 0,0:09:21.64,0:09:22.78,mushibugyo_JP,NTP,0,0,0,,な…
+Dialogue: 0,0:09:21.64,0:09:22.78,mushibugyo_CN,NTP,0,0,0,,什麼
+Dialogue: 0,0:09:23.85,0:09:25.24,mushibugyo_JP,NTP,0,0,0,,図星かよ
+Dialogue: 0,0:09:23.85,0:09:25.24,mushibugyo_CN,NTP,0,0,0,,莫非說中了？
+Dialogue: 0,0:09:25.58,0:09:31.46,mushibugyo_JP,NTP,0,0,0,,だったらよ　悪いが今すぐ脱皮してくれや
+Dialogue: 0,0:09:25.58,0:09:31.46,mushibugyo_CN,NTP,0,0,0,,既然如此啊 不好意思勞煩你們現在就脫皮吧
+Dialogue: 0,0:09:31.59,0:09:36.20,mushibugyo_JP,NTP,0,0,0,,あんまり早く終わっちまったら つまんねーだろ
+Dialogue: 0,0:09:31.59,0:09:36.20,mushibugyo_CN,NTP,0,0,0,,不然一下子了結了你們 豈不是很無聊
+Dialogue: 0,0:10:01.17,0:10:03.38,mushibugyo_JP,NTP,0,0,0,,あー　ついてねーや
+Dialogue: 0,0:10:01.17,0:10:03.38,mushibugyo_CN,NTP,0,0,0,,真不走運
+Dialogue: 0,0:10:03.86,0:10:05.64,mushibugyo_JP,NTP,0,0,0,,これで終わりかよ
+Dialogue: 0,0:10:03.86,0:10:05.64,mushibugyo_CN,NTP,0,0,0,,這就玩完了麼
+Dialogue: 0,0:10:07.33,0:10:08.81,mushibugyo_JP,NTP,0,0,0,,効かぬ
+Dialogue: 0,0:10:07.33,0:10:08.81,mushibugyo_CN,NTP,0,0,0,,沒用的
+Dialogue: 0,0:10:09.00,0:10:10.54,mushibugyo_JP,NTP,0,0,0,,効かぬぞ
+Dialogue: 0,0:10:09.00,0:10:10.54,mushibugyo_CN,NTP,0,0,0,,絲毫不奏效
+Dialogue: 0,0:10:12.45,0:10:17.05,mushibugyo_JP,NTP,0,0,0,,拙僧達の体躯はG　すなわちゴキ　ブリ
+Dialogue: 0,0:10:12.45,0:10:17.05,mushibugyo_CN,NTP,0,0,0,,貧僧的軀殼是G 也就是蟑 螂
+Dialogue: 0,0:10:17.78,0:10:20.79,mushibugyo_JP,NTP,0,0,0,,昆虫一の生命力を持つ
+Dialogue: 0,0:10:17.78,0:10:20.79,mushibugyo_CN,NTP,0,0,0,,擁有昆蟲中一等一的生命力
+Dialogue: 0,0:10:22.33,0:10:27.13,mushibugyo_JP,NTP,0,0,0,,拙僧達の再生力の前ではお主の攻撃など
+Dialogue: 0,0:10:22.33,0:10:27.13,mushibugyo_CN,NTP,0,0,0,,在貧僧的再生能力面前 施主的攻擊
+Dialogue: 0,0:10:27.26,0:10:30.64,mushibugyo_JP,NTP,0,0,0,,蚊に刺される痛みほども感じぬ
+Dialogue: 0,0:10:27.26,0:10:30.64,mushibugyo_CN,NTP,0,0,0,,根本不痛不癢
+Dialogue: 0,0:10:31.25,0:10:33.57,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:10:31.25,0:10:33.57,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:10:35.55,0:10:37.98,mushibugyo_JP,NTP,0,0,0,,そうこなくちゃいけねぇや
+Dialogue: 0,0:10:35.55,0:10:37.98,mushibugyo_CN,NTP,0,0,0,,這還差不多嘛
+Dialogue: 0,0:10:51.95,0:10:53.53,mushibugyo_JP,NTP,0,0,0,,弱すぎる
+Dialogue: 0,0:10:51.95,0:10:53.53,mushibugyo_CN,NTP,0,0,0,,太弱了
+Dialogue: 0,0:11:00.91,0:11:02.83,mushibugyo_JP,NTP,0,0,0,,バツです　大岡殿
+Dialogue: 0,0:11:00.91,0:11:02.83,mushibugyo_CN,NTP,0,0,0,,您錯了 大岡大人
+Dialogue: 0,0:11:03.09,0:11:07.40,mushibugyo_JP,NTP,0,0,0,,恋川殿が弱くなったという今のお言葉　取り消してください
+Dialogue: 0,0:11:03.09,0:11:07.40,mushibugyo_CN,NTP,0,0,0,,請您收回方纔所說「戀川閣下變弱了」這句話
+Dialogue: 0,0:11:07.66,0:11:13.23,mushibugyo_JP,NTP,0,0,0,,恋川殿が負ける所など無涯殿が負けるのと同じぐらい想像できません
+Dialogue: 0,0:11:07.66,0:11:13.23,mushibugyo_CN,NTP,0,0,0,,戀川大人會敗 就跟無涯大人會敗一樣難以想像
+Dialogue: 0,0:11:13.98,0:11:19.59,mushibugyo_JP,NTP,0,0,0,,蟲人に対して唯一の不安材料は恋川殿自身です
+Dialogue: 0,0:11:13.98,0:11:19.59,mushibugyo_CN,NTP,0,0,0,,面對蟲人 唯一的不安定因素就是戀川閣下本人
+Dialogue: 0,0:11:21.90,0:11:24.50,mushibugyo_JP,NTP,0,0,0,,昔の恋川殿を知る者達は
+Dialogue: 0,0:11:21.90,0:11:24.50,mushibugyo_CN,NTP,0,0,0,,知曉過去的戀川閣下之人
+Dialogue: 0,0:11:24.63,0:11:28.23,mushibugyo_JP,NTP,0,0,0,,今の恋川殿を見て口々にこう言います
+Dialogue: 0,0:11:24.63,0:11:28.23,mushibugyo_CN,NTP,0,0,0,,如今見他後都說
+Dialogue: 0,0:11:28.61,0:11:35.32,mushibugyo_JP,NTP,0,0,0,,蟲奉行所に入った恋川春菊は　以前より遥かに弱くなったと
+Dialogue: 0,0:11:28.61,0:11:35.32,mushibugyo_CN,NTP,0,0,0,,「進了蟲奉行所的戀川春菊大不如從前」
+Dialogue: 0,0:11:47.27,0:11:52.42,mushibugyo_JP,NTP,0,0,0,,十傑蟲の拙僧達が相手にする程の事も無い
+Dialogue: 0,0:11:47.27,0:11:52.42,mushibugyo_CN,NTP,0,0,0,,你根本不配作貧僧十傑蟲的對手
+Dialogue: 0,0:11:52.75,0:11:57.81,mushibugyo_JP,NTP,0,0,0,,このような弱き者を相手にする拙僧達こそ哀れ
+Dialogue: 0,0:11:52.75,0:11:57.81,mushibugyo_CN,NTP,0,0,0,,以你這樣的弱者為對手 貧僧們才可悲
+Dialogue: 0,0:11:58.30,0:11:59.79,mushibugyo_JP,NTP,0,0,0,,ぬかしあがれ
+Dialogue: 0,0:11:58.30,0:11:59.79,mushibugyo_CN,NTP,0,0,0,,少在那胡說八道
+Dialogue: 0,0:12:02.25,0:12:03.70,mushibugyo_JP,NTP,0,0,0,,懺切り
+Dialogue: 0,0:12:02.25,0:12:03.70,mushibugyo_CN,NTP,0,0,0,,懺斬
+Dialogue: 0,0:12:04.47,0:12:09.83,mushibugyo_JP,NTP,0,0,0,,いくら大岡殿でも恋川殿を侮辱することは自分が許しませんよ
+Dialogue: 0,0:12:04.47,0:12:09.83,mushibugyo_CN,NTP,0,0,0,,就算是大岡大人 在下也不能容許你侮辱戀川大人
+Dialogue: 0,0:12:10.14,0:12:12.63,mushibugyo_JP,NTP,0,0,0,,バツですよ　月島殿
+Dialogue: 0,0:12:10.14,0:12:12.63,mushibugyo_CN,NTP,0,0,0,,你錯了 月島閣下
+Dialogue: 0,0:12:14.28,0:12:15.96,mushibugyo_JP,NTP,0,0,0,,勘違いしないでください
+Dialogue: 0,0:12:14.28,0:12:15.96,mushibugyo_CN,NTP,0,0,0,,請你別誤解了
+Dialogue: 0,0:12:16.17,0:12:20.20,mushibugyo_JP,NTP,0,0,0,,確かに　今の恋川殿は十分強い
+Dialogue: 0,0:12:16.17,0:12:20.20,mushibugyo_CN,NTP,0,0,0,,的確 現在的戀川閣下很強
+Dialogue: 0,0:12:20.33,0:12:23.85,mushibugyo_JP,NTP,0,0,0,,ただ　悪鬼羅刹九十九斬りの大悪人
+Dialogue: 0,0:12:20.33,0:12:23.85,mushibugyo_CN,NTP,0,0,0,,只是 過去那個惡鬼羅剎 「九十九人斬」的大惡人 戀川春菊
+Dialogue: 0,0:12:23.85,0:12:30.15,mushibugyo_JP,NTP,0,0,0,,恋川春菊は今の姿がかすむほど　鮮烈なまでに強すぎたのです
+Dialogue: 0,0:12:23.85,0:12:30.15,mushibugyo_CN,NTP,0,0,0,,強大到讓如今的他黯然失色
+Dialogue: 0,0:12:37.57,0:12:38.88,mushibugyo_JP,NTP,0,0,0,,無駄よ
+Dialogue: 0,0:12:37.57,0:12:38.88,mushibugyo_CN,NTP,0,0,0,,沒用的
+Dialogue: 0,0:12:39.16,0:12:40.44,mushibugyo_JP,NTP,0,0,0,,無馱
+Dialogue: 0,0:12:39.16,0:12:40.44,mushibugyo_CN,NTP,0,0,0,,沒用
+Dialogue: 0,0:12:40.63,0:12:44.44,mushibugyo_JP,NTP,0,0,0,,拙僧達にはあらゆる斬撃が効かぬ
+Dialogue: 0,0:12:40.63,0:12:44.44,mushibugyo_CN,NTP,0,0,0,,所有的斬擊對貧僧們都是無效的
+Dialogue: 0,0:12:46.67,0:12:50.01,mushibugyo_JP,NTP,0,0,0,,クソ　斬っても斬っても再生しやがれ
+Dialogue: 0,0:12:46.67,0:12:50.01,mushibugyo_CN,NTP,0,0,0,,可惡 無論怎麼砍都能再生
+Dialogue: 0,0:12:50.22,0:12:51.46,mushibugyo_JP,NTP,0,0,0,,こうなったら
+Dialogue: 0,0:12:50.22,0:12:51.46,mushibugyo_CN,NTP,0,0,0,,這樣的話就只有…
+Dialogue: 0,0:12:53.06,0:12:55.17,mushibugyo_JP,NTP,0,0,0,,敵に背を向けるとは卑怯なり
+Dialogue: 0,0:12:53.06,0:12:55.17,mushibugyo_CN,NTP,0,0,0,,臨陣脫逃 真是懦夫
+Dialogue: 0,0:12:55.17,0:12:57.86,mushibugyo_JP,NTP,0,0,0,,武士の風上にも置けぬ
+Dialogue: 0,0:12:55.17,0:12:57.86,mushibugyo_CN,NTP,0,0,0,,配不上「武士」這個頭銜
+Dialogue: 0,0:12:57.86,0:13:00.53,mushibugyo_JP,NTP,0,0,0,,残念ながら武士じゃねぇんだよ
+Dialogue: 0,0:12:57.86,0:13:00.53,mushibugyo_CN,NTP,0,0,0,,真遺憾 勞資本來就不是武士
+Dialogue: 0,0:13:06.19,0:13:08.86,mushibugyo_JP,NTP,0,0,0,,あやつ逃げ足だけは早いな
+Dialogue: 0,0:13:06.19,0:13:08.86,mushibugyo_CN,NTP,0,0,0,,逃跑的速度倒是挺快
+Dialogue: 0,0:13:09.53,0:13:13.93,mushibugyo_JP,NTP,0,0,0,,だが　拙僧達がGであることを理解しておらん
+Dialogue: 0,0:13:09.53,0:13:13.93,mushibugyo_CN,NTP,0,0,0,,但是 他還是沒理解在下是G的意思
+Dialogue: 0,0:13:14.09,0:13:16.20,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:13:14.09,0:13:16.20,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:13:16.74,0:13:19.39,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:13:16.74,0:13:19.39,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:13:22.30,0:13:23.96,mushibugyo_JP,NTP,0,0,0,,逃げられると思ったか
+Dialogue: 0,0:13:22.30,0:13:23.96,mushibugyo_CN,NTP,0,0,0,,你以為能逃得了嗎
+Dialogue: 0,0:13:24.22,0:13:27.65,mushibugyo_JP,NTP,0,0,0,,我ら壁を這い上がるなど易きこと
+Dialogue: 0,0:13:24.22,0:13:27.65,mushibugyo_CN,NTP,0,0,0,,攀巖走壁對我等來說根本就易如反掌
+Dialogue: 0,0:13:28.38,0:13:31.41,mushibugyo_JP,NTP,0,0,0,,おめぇらがGだってことは忘れてねぇよ
+Dialogue: 0,0:13:28.38,0:13:31.41,mushibugyo_CN,NTP,0,0,0,,我可沒忘了你們是G
+Dialogue: 0,0:13:32.03,0:13:33.15,mushibugyo_JP,NTP,0,0,0,,だがな
+Dialogue: 0,0:13:32.03,0:13:33.15,mushibugyo_CN,NTP,0,0,0,,不過…
+Dialogue: 0,0:13:34.45,0:13:35.71,mushibugyo_JP,NTP,0,0,0,,ぶったぎる
+Dialogue: 0,0:13:34.45,0:13:35.71,mushibugyo_CN,NTP,0,0,0,,猛砍一刀
+Dialogue: 0,0:13:42.21,0:13:45.19,mushibugyo_JP,NTP,0,0,0,,いくらGでも斬られりゃ落ちるさ
+Dialogue: 0,0:13:42.21,0:13:45.19,mushibugyo_CN,NTP,0,0,0,,就算是G被砍到也是會掉下去的
+Dialogue: 0,0:13:45.74,0:13:47.16,mushibugyo_JP,NTP,0,0,0,,なるほど
+Dialogue: 0,0:13:45.74,0:13:47.16,mushibugyo_CN,NTP,0,0,0,,原來如此
+Dialogue: 0,0:13:47.54,0:13:50.62,mushibugyo_JP,NTP,0,0,0,,闇雲に逃げただけではなかったか
+Dialogue: 0,0:13:47.54,0:13:50.62,mushibugyo_CN,NTP,0,0,0,,並不只是在胡亂地逃命
+Dialogue: 0,0:13:51.08,0:13:55.33,mushibugyo_JP,NTP,0,0,0,,しかし拙僧達の力を 侮るな
+Dialogue: 0,0:13:51.08,0:13:55.33,mushibugyo_CN,NTP,0,0,0,,但是 不要小看了貧僧們的力量
+Dialogue: 0,0:13:58.44,0:13:59.47,mushibugyo_JP,NTP,0,0,0,,やっべ
+Dialogue: 0,0:13:58.44,0:13:59.47,mushibugyo_CN,NTP,0,0,0,,糟了
+Dialogue: 0,0:14:08.17,0:14:09.13,mushibugyo_JP,NTP,0,0,0,,遅い
+Dialogue: 0,0:14:08.17,0:14:09.13,mushibugyo_CN,NTP,0,0,0,,太慢了
+Dialogue: 0,0:14:15.28,0:14:17.19,mushibugyo_JP,NTP,0,0,0,,かなり効いたぜ
+Dialogue: 0,0:14:15.28,0:14:17.19,mushibugyo_CN,NTP,0,0,0,,還真是有點痛啊
+Dialogue: 0,0:14:17.31,0:14:19.18,mushibugyo_JP,NTP,0,0,0,,なかなか面白い
+Dialogue: 0,0:14:17.31,0:14:19.18,mushibugyo_CN,NTP,0,0,0,,真是有趣
+Dialogue: 0,0:14:19.66,0:14:22.43,mushibugyo_JP,NTP,0,0,0,,人には稀な力と技
+Dialogue: 0,0:14:19.66,0:14:22.43,mushibugyo_CN,NTP,0,0,0,,出類拔萃的力量與招式
+Dialogue: 0,0:14:22.77,0:14:25.54,mushibugyo_JP,NTP,0,0,0,,それに感じる同じにおい
+Dialogue: 0,0:14:22.77,0:14:25.54,mushibugyo_CN,NTP,0,0,0,,而且能感覺到相同的氣味
+Dialogue: 0,0:14:26.08,0:14:31.25,mushibugyo_JP,NTP,0,0,0,,これなら拙僧達 脱皮して見せてもよいぞ
+Dialogue: 0,0:14:26.08,0:14:31.25,mushibugyo_CN,NTP,0,0,0,,既然如此 脫皮讓你瞧瞧也無妨
+Dialogue: 0,0:14:37.63,0:14:39.91,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:14:37.63,0:14:39.91,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:14:42.23,0:14:45.74,mushibugyo_JP,NTP,0,0,0,,これこそが拙僧達の真の姿
+Dialogue: 0,0:14:42.23,0:14:45.74,mushibugyo_CN,NTP,0,0,0,,這才是貧僧們真實的面貌
+Dialogue: 0,0:14:46.08,0:14:50.14,mushibugyo_JP,NTP,0,0,0,,再生能力は先ほどまでの五倍
+Dialogue: 0,0:14:46.08,0:14:50.14,mushibugyo_CN,NTP,0,0,0,,再生能力是方纔的五倍
+Dialogue: 0,0:14:50.42,0:14:53.70,mushibugyo_JP,NTP,0,0,0,,貴様の名を死者の列に加えてやろう
+Dialogue: 0,0:14:50.42,0:14:53.70,mushibugyo_CN,NTP,0,0,0,,大發慈悲將你的名字加入死者名單吧
+Dialogue: 0,0:14:53.97,0:14:56.87,mushibugyo_JP,NTP,0,0,0,,といっても名は知らんがな
+Dialogue: 0,0:14:53.97,0:14:56.87,mushibugyo_CN,NTP,0,0,0,,話雖如此 但卻不知道你的姓名
+Dialogue: 0,0:15:00.44,0:15:01.98,mushibugyo_JP,NTP,0,0,0,,何の騒ぎでしょう
+Dialogue: 0,0:15:00.44,0:15:01.98,mushibugyo_CN,NTP,0,0,0,,這是什麼聲音
+Dialogue: 0,0:15:02.08,0:15:03.21,mushibugyo_JP,NTP,0,0,0,,分かりません
+Dialogue: 0,0:15:02.08,0:15:03.21,mushibugyo_CN,NTP,0,0,0,,不清楚
+Dialogue: 0,0:15:03.81,0:15:05.85,mushibugyo_JP,NTP,0,0,0,,これも幻術の一つか
+Dialogue: 0,0:15:03.81,0:15:05.85,mushibugyo_CN,NTP,0,0,0,,不知是幻術之一
+Dialogue: 0,0:15:06.43,0:15:09.45,mushibugyo_JP,NTP,0,0,0,,恋川殿が蟲人と戦っているのか
+Dialogue: 0,0:15:06.43,0:15:09.45,mushibugyo_CN,NTP,0,0,0,,還是戀川閣下與蟲人們的打鬥聲
+Dialogue: 0,0:15:09.45,0:15:10.67,mushibugyo_JP,NTP,0,0,0,,それです
+Dialogue: 0,0:15:09.45,0:15:10.67,mushibugyo_CN,NTP,0,0,0,,就是在戰鬥
+Dialogue: 0,0:15:10.96,0:15:15.80,mushibugyo_JP,NTP,0,0,0,,なぜ恋川殿が蟲奉所に入ってから　弱くなったというのですか
+Dialogue: 0,0:15:10.96,0:15:15.80,mushibugyo_CN,NTP,0,0,0,,為什麼說戀川大人在進了蟲奉行所後就變弱了
+Dialogue: 0,0:15:15.90,0:15:16.83,mushibugyo_JP,NTP,0,0,0,,それは…
+Dialogue: 0,0:15:15.90,0:15:16.83,mushibugyo_CN,NTP,0,0,0,,那是因為…
+Dialogue: 0,0:15:26.90,0:15:31.80,mushibugyo_JP,NTP,0,0,0,,恋川殿は父親が母親を殺した下手人と思い込み
+Dialogue: 0,0:15:26.90,0:15:31.80,mushibugyo_CN,NTP,0,0,0,,戀川閣下誤以為他的父親是殺害他母親的兇手
+Dialogue: 0,0:15:32.02,0:15:33.82,mushibugyo_JP,NTP,0,0,0,,彼の後を追ったのです
+Dialogue: 0,0:15:32.02,0:15:33.82,mushibugyo_CN,NTP,0,0,0,,而到處追殺他的父親
+Dialogue: 0,0:15:33.92,0:15:38.68,mushibugyo_JP,NTP,0,0,0,,その行く手を阻む者を　恋川殿は次々と切り捨てました
+Dialogue: 0,0:15:33.92,0:15:38.68,mushibugyo_CN,NTP,0,0,0,,阻礙他追殺父親的人 都被戀川閣下逐一斬殺了
+Dialogue: 0,0:15:39.04,0:15:41.92,mushibugyo_JP,NTP,0,0,0,,奉行所の人間だろうが誰であろうが
+Dialogue: 0,0:15:39.04,0:15:41.92,mushibugyo_CN,NTP,0,0,0,,不論是蟲奉行所的人還是別的什麼人
+Dialogue: 0,0:15:42.54,0:15:45.26,mushibugyo_JP,NTP,0,0,0,,しかし　ついに追い詰めた時
+Dialogue: 0,0:15:42.54,0:15:45.26,mushibugyo_CN,NTP,0,0,0,,但是當他最終追到他的父親時
+Dialogue: 0,0:15:45.48,0:15:48.45,mushibugyo_JP,NTP,0,0,0,,父親が下手人ではないと分かったのです
+Dialogue: 0,0:15:45.48,0:15:48.45,mushibugyo_CN,NTP,0,0,0,,得知他的父親並非兇手
+Dialogue: 0,0:15:49.27,0:15:53.79,mushibugyo_JP,NTP,0,0,0,,父親を追い詰めるまでは　悪鬼羅刹の如き強さでした
+Dialogue: 0,0:15:49.27,0:15:53.79,mushibugyo_CN,NTP,0,0,0,,在追到自己的父親之前 他就如惡鬼羅剎般強大
+Dialogue: 0,0:15:54.09,0:15:59.30,mushibugyo_JP,NTP,0,0,0,,しかし　それからの恋川殿は 目的を失ってしまったんです
+Dialogue: 0,0:15:54.09,0:15:59.30,mushibugyo_CN,NTP,0,0,0,,但在那之後 戀川閣下就失去了目標
+Dialogue: 0,0:16:00.01,0:16:03.53,mushibugyo_JP,NTP,0,0,0,,人斬りは人斬りであってこそ強いのです
+Dialogue: 0,0:16:00.01,0:16:03.53,mushibugyo_CN,NTP,0,0,0,,劊子手之所以強 是因為他是儈子手
+Dialogue: 0,0:16:07.20,0:16:08.78,mushibugyo_JP,NTP,0,0,0,,どうした
+Dialogue: 0,0:16:07.20,0:16:08.78,mushibugyo_CN,NTP,0,0,0,,為什麼
+Dialogue: 0,0:16:10.96,0:16:13.65,mushibugyo_JP,NTP,0,0,0,,貴様からは血のにおいがする
+Dialogue: 0,0:16:10.96,0:16:13.65,mushibugyo_CN,NTP,0,0,0,,你身上有血的味道
+Dialogue: 0,0:16:13.65,0:16:15.67,mushibugyo_JP,NTP,0,0,0,,人斬りのにおいだ
+Dialogue: 0,0:16:13.65,0:16:15.67,mushibugyo_CN,NTP,0,0,0,,是劊子手的味道
+Dialogue: 0,0:16:17.87,0:16:19.83,mushibugyo_JP,NTP,0,0,0,,しかし　数はまだまだ足りん
+Dialogue: 0,0:16:17.87,0:16:19.83,mushibugyo_CN,NTP,0,0,0,,但殺的人還遠遠不夠
+Dialogue: 0,0:16:19.83,0:16:21.85,mushibugyo_JP,NTP,0,0,0,,せいぜいが百人か
+Dialogue: 0,0:16:19.83,0:16:21.85,mushibugyo_CN,NTP,0,0,0,,至多不過百人吧
+Dialogue: 0,0:16:28.35,0:16:30.91,mushibugyo_JP,NTP,0,0,0,,一人目は恐ろしかったろう
+Dialogue: 0,0:16:28.35,0:16:30.91,mushibugyo_CN,NTP,0,0,0,,殺第一個人的時候很恐懼吧
+Dialogue: 0,0:16:31.24,0:16:34.18,mushibugyo_JP,NTP,0,0,0,,二人目は更に恐ろしかったろう
+Dialogue: 0,0:16:31.24,0:16:34.18,mushibugyo_CN,NTP,0,0,0,,殺第二個人的時候會更加恐懼吧
+Dialogue: 0,0:16:34.66,0:16:38.19,mushibugyo_JP,NTP,0,0,0,,だが三人を過ぎると　恐ろしくなくなる
+Dialogue: 0,0:16:34.66,0:16:38.19,mushibugyo_CN,NTP,0,0,0,,但是殺過了第三個人的時候恐懼就消失了
+Dialogue: 0,0:16:38.46,0:16:41.43,mushibugyo_JP,NTP,0,0,0,,十人を過ぎると　楽しくなる
+Dialogue: 0,0:16:38.46,0:16:41.43,mushibugyo_CN,NTP,0,0,0,,殺過了十個人之後就會開始享受殺戮
+Dialogue: 0,0:16:41.82,0:16:43.70,mushibugyo_JP,NTP,0,0,0,,そんなことはねぇ
+Dialogue: 0,0:16:41.82,0:16:43.70,mushibugyo_CN,NTP,0,0,0,,少胡說八道
+Dialogue: 0,0:16:43.70,0:16:45.61,mushibugyo_JP,NTP,0,0,0,,嘘をつき
+Dialogue: 0,0:16:43.70,0:16:45.61,mushibugyo_CN,NTP,0,0,0,,騙人
+Dialogue: 0,0:16:46.74,0:16:49.85,mushibugyo_JP,NTP,0,0,0,,一人斬るごとに思ったはずだ
+Dialogue: 0,0:16:46.74,0:16:49.85,mushibugyo_CN,NTP,0,0,0,,每殺一個人你就會這麼想吧
+Dialogue: 0,0:16:50.06,0:16:54.42,mushibugyo_JP,NTP,0,0,0,,自分の技が冴えていく喜びに震えたはずだ
+Dialogue: 0,0:16:50.06,0:16:54.42,mushibugyo_CN,NTP,0,0,0,,為自己日漸精進的刀法而欣喜若狂
+Dialogue: 0,0:16:57.14,0:17:02.36,mushibugyo_JP,NTP,0,0,0,,刀から伝わる感触が　快感になったはずだ
+Dialogue: 0,0:16:57.14,0:17:02.36,mushibugyo_CN,NTP,0,0,0,,從刀刃上傳來的觸感會變成快感
+Dialogue: 0,0:17:04.81,0:17:06.09,mushibugyo_JP,NTP,0,0,0,,苦しくて
+Dialogue: 0,0:17:04.81,0:17:06.09,mushibugyo_CN,NTP,0,0,0,,痛徹的
+Dialogue: 0,0:17:07.31,0:17:08.71,mushibugyo_JP,NTP,0,0,0,,苦くて
+Dialogue: 0,0:17:07.31,0:17:08.71,mushibugyo_CN,NTP,0,0,0,,苦澀的
+Dialogue: 0,0:17:09.89,0:17:12.22,mushibugyo_JP,NTP,0,0,0,,息ができねぇほどだ
+Dialogue: 0,0:17:09.89,0:17:12.22,mushibugyo_CN,NTP,0,0,0,,幾乎令人窒息
+Dialogue: 0,0:17:15.79,0:17:18.34,mushibugyo_JP,NTP,0,0,0,,しかも親父のあの顔
+Dialogue: 0,0:17:15.79,0:17:18.34,mushibugyo_CN,NTP,0,0,0,,還有 父親的那張臉
+Dialogue: 0,0:17:18.97,0:17:21.09,mushibugyo_JP,NTP,0,0,0,,俺に助けてくれって
+Dialogue: 0,0:17:18.97,0:17:21.09,mushibugyo_CN,NTP,0,0,0,,要我救救他
+Dialogue: 0,0:17:21.09,0:17:22.65,mushibugyo_JP,NTP,0,0,0,,許してくれって
+Dialogue: 0,0:17:21.09,0:17:22.65,mushibugyo_CN,NTP,0,0,0,,求我原諒他
+Dialogue: 0,0:17:23.91,0:17:26.12,mushibugyo_JP,NTP,0,0,0,,涙を流しやがるんだ
+Dialogue: 0,0:17:23.91,0:17:26.12,mushibugyo_CN,NTP,0,0,0,,滿臉是淚
+Dialogue: 0,0:17:26.82,0:17:28.81,mushibugyo_JP,NTP,0,0,0,,あの親父がだぜ
+Dialogue: 0,0:17:26.82,0:17:28.81,mushibugyo_CN,NTP,0,0,0,,那可是我老爹啊
+Dialogue: 0,0:17:29.58,0:17:32.90,mushibugyo_JP,NTP,0,0,0,,俺を殴るか蹴るかしかしなかったあいつが
+Dialogue: 0,0:17:29.58,0:17:32.90,mushibugyo_CN,NTP,0,0,0,,是那個只知踢我打我的傢伙
+Dialogue: 0,0:17:33.54,0:17:36.40,mushibugyo_JP,NTP,0,0,0,,俺を恐怖で支配してきたやつが
+Dialogue: 0,0:17:33.54,0:17:36.40,mushibugyo_CN,NTP,0,0,0,,將我籠罩在恐懼陰影下的人
+Dialogue: 0,0:17:37.13,0:17:39.74,mushibugyo_JP,NTP,0,0,0,,俺に命乞いしやがった
+Dialogue: 0,0:17:37.13,0:17:39.74,mushibugyo_CN,NTP,0,0,0,,竟向我乞憐求饒
+Dialogue: 0,0:17:46.02,0:17:49.20,mushibugyo_JP,NTP,0,0,0,,しかし　人斬りとしてはまだまだ
+Dialogue: 0,0:17:46.02,0:17:49.20,mushibugyo_CN,NTP,0,0,0,,可是作為劊子手你還沒到家
+Dialogue: 0,0:17:49.20,0:17:53.63,mushibugyo_JP,NTP,0,0,0,,百を超え　千を超えれば何も感じなくなる
+Dialogue: 0,0:17:49.20,0:17:53.63,mushibugyo_CN,NTP,0,0,0,,殺過了一百個 一千個之後就什麼都感覺不到了
+Dialogue: 0,0:17:53.88,0:17:56.54,mushibugyo_JP,NTP,0,0,0,,もはや数さえどうでもよい
+Dialogue: 0,0:17:53.88,0:17:56.54,mushibugyo_CN,NTP,0,0,0,,到那時會覺得殺多少都無所謂了
+Dialogue: 0,0:17:57.03,0:18:02.07,mushibugyo_JP,NTP,0,0,0,,人の命の儚さだけが　手の中に残る
+Dialogue: 0,0:17:57.03,0:18:02.07,mushibugyo_CN,NTP,0,0,0,,只覺得人命虛無短暫如指間流沙不可把握
+Dialogue: 0,0:18:02.44,0:18:04.69,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:18:02.44,0:18:04.69,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:18:04.86,0:18:07.14,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:18:04.86,0:18:07.14,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:18:07.14,0:18:09.93,mushibugyo_JP,NTP,0,0,0,,だからおめぇら蟲ケラなんだよ
+Dialogue: 0,0:18:07.14,0:18:09.93,mushibugyo_CN,NTP,0,0,0,,所以說你們是些螻蟻之輩
+Dialogue: 0,0:18:14.12,0:18:15.39,mushibugyo_JP,NTP,0,0,0,,哀れな
+Dialogue: 0,0:18:14.12,0:18:15.39,mushibugyo_CN,NTP,0,0,0,,真可悲
+Dialogue: 0,0:18:15.81,0:18:19.34,mushibugyo_JP,NTP,0,0,0,,そのまま死に行けば楽なものを
+Dialogue: 0,0:18:15.81,0:18:19.34,mushibugyo_CN,NTP,0,0,0,,就這麼去死了不就解脫了嗎
+Dialogue: 0,0:18:19.34,0:18:20.49,mushibugyo_JP,NTP,0,0,0,,うっせぇ
+Dialogue: 0,0:18:19.34,0:18:20.49,mushibugyo_CN,NTP,0,0,0,,少囉嗦
+Dialogue: 0,0:18:20.80,0:18:22.77,mushibugyo_JP,NTP,0,0,0,,数さえどうでもいい
+Dialogue: 0,0:18:20.80,0:18:22.77,mushibugyo_CN,NTP,0,0,0,,什麼叫 殺多少都無所謂
+Dialogue: 0,0:18:23.07,0:18:26.44,mushibugyo_JP,NTP,0,0,0,,人の命を奪っておいて何抜かしてやがる
+Dialogue: 0,0:18:23.07,0:18:26.44,mushibugyo_CN,NTP,0,0,0,,隨隨便便剝奪人命 還好意思說這種話
+Dialogue: 0,0:18:26.92,0:18:29.56,mushibugyo_JP,NTP,0,0,0,,ああ　俺は人斬りさ
+Dialogue: 0,0:18:26.92,0:18:29.56,mushibugyo_CN,NTP,0,0,0,,是啊 我是個劊子手
+Dialogue: 0,0:18:29.82,0:18:32.87,mushibugyo_JP,NTP,0,0,0,,多くの命をこの手にかけたよ
+Dialogue: 0,0:18:29.82,0:18:32.87,mushibugyo_CN,NTP,0,0,0,,這雙手上沾了多少人的血
+Dialogue: 0,0:18:32.96,0:18:38.18,mushibugyo_JP,NTP,0,0,0,,その手がな 奪った命の数だけ重いんだよ
+Dialogue: 0,0:18:32.96,0:18:38.18,mushibugyo_CN,NTP,0,0,0,,就是這雙手 承受了多少枉死之人的命
+Dialogue: 0,0:18:39.27,0:18:43.83,mushibugyo_JP,NTP,0,0,0,,鉛のように　地獄のように重いんだよ
+Dialogue: 0,0:18:39.27,0:18:43.83,mushibugyo_CN,NTP,0,0,0,,如鉛石 如地獄般沉重
+Dialogue: 0,0:18:44.40,0:18:46.71,mushibugyo_JP,NTP,0,0,0,,だからまだまだだと
+Dialogue: 0,0:18:44.40,0:18:46.71,mushibugyo_CN,NTP,0,0,0,,所以說你還沒到家
+Dialogue: 0,0:18:46.73,0:18:50.07,mushibugyo_JP,NTP,0,0,0,,後五百人も斬れば軽くなる
+Dialogue: 0,0:18:46.73,0:18:50.07,mushibugyo_CN,NTP,0,0,0,,再殺五百個就會覺得輕鬆了
+Dialogue: 0,0:18:50.10,0:18:53.60,mushibugyo_JP,NTP,0,0,0,,何百人斬ろうと　この腕は軽くならねぇ
+Dialogue: 0,0:18:50.10,0:18:53.60,mushibugyo_CN,NTP,0,0,0,,就算再殺幾百個人 這雙手也不會變輕鬆
+Dialogue: 0,0:18:53.60,0:18:57.01,mushibugyo_JP,NTP,0,0,0,,俺はこの重さを背負って生きていくんだ
+Dialogue: 0,0:18:53.60,0:18:57.01,mushibugyo_CN,NTP,0,0,0,,我會背負著這份沉重活下去
+Dialogue: 0,0:18:57.50,0:19:00.38,mushibugyo_JP,NTP,0,0,0,,哀れなり　哀れなり
+Dialogue: 0,0:18:57.50,0:19:00.38,mushibugyo_CN,NTP,0,0,0,,太可悲了 太可悲了
+Dialogue: 0,0:19:00.59,0:19:03.26,mushibugyo_JP,NTP,0,0,0,,迷える者を救うのも
+Dialogue: 0,0:19:00.59,0:19:03.26,mushibugyo_CN,NTP,0,0,0,,拯救迷途之人
+Dialogue: 0,0:19:03.26,0:19:05.61,mushibugyo_JP,NTP,0,0,0,,拙僧達の務め
+Dialogue: 0,0:19:03.26,0:19:05.61,mushibugyo_CN,NTP,0,0,0,,也是貧僧們的職責
+Dialogue: 0,0:19:05.69,0:19:06.95,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:05.69,0:19:06.95,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:06.95,0:19:08.87,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:06.95,0:19:08.87,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:10.94,0:19:12.74,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:10.94,0:19:12.74,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:12.74,0:19:14.23,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:12.74,0:19:14.23,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:14.23,0:19:15.40,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:14.23,0:19:15.40,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛
+Dialogue: 0,0:19:15.40,0:19:21.46,mushibugyo_JP,NTP,0,0,0,,南無阿彌陀佛×Ｎ
+Dialogue: 0,0:19:15.40,0:19:21.46,mushibugyo_CN,NTP,0,0,0,,南無阿彌陀佛×Ｎ
+Dialogue: 0,0:19:21.96,0:19:24.35,mushibugyo_JP,NTP,0,0,0,,俺はあの時から
+Dialogue: 0,0:19:21.96,0:19:24.35,mushibugyo_CN,NTP,0,0,0,,我從那時開始…
+Dialogue: 0,0:19:35.00,0:19:40.18,mushibugyo_JP,NTP,0,0,0,,「今刀を振り下ろせば　父親と同じ道を歩むと分かったんだ」
+Dialogue: 0,0:19:35.00,0:19:40.18,mushibugyo_CN,NTP,0,0,0,,「我知道現在揮刀斬下的話 無異於重蹈老爹的覆轍」
+Dialogue: 0,0:19:40.41,0:19:43.33,mushibugyo_JP,NTP,0,0,0,,と恋川殿はおっしゃっていました
+Dialogue: 0,0:19:40.41,0:19:43.33,mushibugyo_CN,NTP,0,0,0,,戀川大人曾經這樣對我說過
+Dialogue: 0,0:19:44.37,0:19:46.01,mushibugyo_JP,NTP,0,0,0,,慈悲の心ですか
+Dialogue: 0,0:19:44.37,0:19:46.01,mushibugyo_CN,NTP,0,0,0,,慈悲之心嗎
+Dialogue: 0,0:19:46.98,0:19:49.06,mushibugyo_JP,NTP,0,0,0,,慈悲かどうか分かりません
+Dialogue: 0,0:19:46.98,0:19:49.06,mushibugyo_CN,NTP,0,0,0,,是不是慈悲 在下並不
+Dialogue: 0,0:19:49.14,0:19:51.69,mushibugyo_JP,NTP,0,0,0,,もっとすごいものを得たのです
+Dialogue: 0,0:19:49.14,0:19:51.69,mushibugyo_CN,NTP,0,0,0,,他應該是領悟到了更加了不起的東西
+Dialogue: 0,0:19:51.86,0:19:54.07,mushibugyo_JP,NTP,0,0,0,,俺は蟲ケラじゃねぇ
+Dialogue: 0,0:19:51.86,0:19:54.07,mushibugyo_CN,NTP,0,0,0,,我已經不是螻蟻之輩
+Dialogue: 0,0:19:58.12,0:19:59.86,mushibugyo_JP,NTP,0,0,0,,蟲斬りになったんだ
+Dialogue: 0,0:19:58.12,0:19:59.86,mushibugyo_CN,NTP,0,0,0,,而是斬殺你們這些臭蟲子的人
+Dialogue: 0,0:20:03.17,0:20:04.14,mushibugyo_JP,NTP,0,0,0,,これは
+Dialogue: 0,0:20:03.17,0:20:04.14,mushibugyo_CN,NTP,0,0,0,,這是…
+Dialogue: 0,0:20:04.60,0:20:07.37,mushibugyo_JP,NTP,0,0,0,,五倍の再生能力が
+Dialogue: 0,0:20:04.60,0:20:07.37,mushibugyo_CN,NTP,0,0,0,,五倍的再生能力也…
+Dialogue: 0,0:20:07.74,0:20:09.43,mushibugyo_JP,NTP,0,0,0,,間に合わぬ
+Dialogue: 0,0:20:07.74,0:20:09.43,mushibugyo_CN,NTP,0,0,0,,救不了命了
+Dialogue: 0,0:20:14.75,0:20:16.33,mushibugyo_JP,NTP,0,0,0,,慈合い斬り
+Dialogue: 0,0:20:14.75,0:20:16.33,mushibugyo_CN,NTP,0,0,0,,慈合斬
+Dialogue: 0,0:20:30.67,0:20:32.14,mushibugyo_JP,NTP,0,0,0,,生きてやるよ
+Dialogue: 0,0:20:30.67,0:20:32.14,mushibugyo_CN,NTP,0,0,0,,我會活下去
+Dialogue: 0,0:20:32.68,0:20:35.73,mushibugyo_JP,NTP,0,0,0,,ずっと　ずっとな
+Dialogue: 0,0:20:32.68,0:20:35.73,mushibugyo_CN,NTP,0,0,0,,一直 一直活下去
+Dialogue: 0,0:20:44.92,0:20:46.08,mushibugyo_JP,NTP,0,0,0,,戀川殿
+Dialogue: 0,0:20:44.92,0:20:46.08,mushibugyo_CN,NTP,0,0,0,,戀川大人
+Dialogue: 0,0:20:47.69,0:20:48.94,mushibugyo_JP,NTP,0,0,0,,どうしてここに
+Dialogue: 0,0:20:47.69,0:20:48.94,mushibugyo_CN,NTP,0,0,0,,你怎麼會在這裏
+Dialogue: 0,0:20:49.74,0:20:51.98,mushibugyo_JP,NTP,0,0,0,,蟲人はどうなりました
+Dialogue: 0,0:20:49.74,0:20:51.98,mushibugyo_CN,NTP,0,0,0,,那些蟲人怎麼樣了
+Dialogue: 0,0:20:52.67,0:20:55.77,mushibugyo_JP,NTP,0,0,0,,やったよ　二匹な
+Dialogue: 0,0:20:52.67,0:20:55.77,mushibugyo_CN,NTP,0,0,0,,幹掉了 兩隻一起
+Dialogue: 0,0:20:56.06,0:20:58.67,mushibugyo_JP,NTP,0,0,0,,なんと　これで四匹目ですね
+Dialogue: 0,0:20:56.06,0:20:58.67,mushibugyo_CN,NTP,0,0,0,,天吶 這樣一來我們就打倒四隻了
+Dialogue: 0,0:20:58.68,0:21:01.80,mushibugyo_JP,NTP,0,0,0,,残りは後三匹と真田幸村
+Dialogue: 0,0:20:58.68,0:21:01.80,mushibugyo_CN,NTP,0,0,0,,還剩下三隻和真田幸村
+Dialogue: 0,0:21:02.19,0:21:04.01,mushibugyo_JP,NTP,0,0,0,,まだ先は長いです
+Dialogue: 0,0:21:02.19,0:21:04.01,mushibugyo_CN,NTP,0,0,0,,前面路還很長
+Dialogue: 0,0:21:21.97,0:21:25.14,mushibugyo_JP,NTP,0,0,0,,ジャスティスは待っているぞ
+Dialogue: 0,0:21:21.97,0:21:25.14,mushibugyo_CN,NTP,0,0,0,,正義 在等著你們哦
+Dialogue: 0,0:23:01.65,0:23:03.67,mushibugyo_JP,NTP,0,0,0,,俺は穴山ジャスティス小介
+Dialogue: 0,0:23:01.65,0:23:03.67,mushibugyo_CN,NTP,0,0,0,,我是穴山 正義 小介
+Dialogue: 0,0:23:03.67,0:23:07.40,mushibugyo_JP,NTP,0,0,0,,ならば自分の二つ名は月島綺羅星仁兵衛
+Dialogue: 0,0:23:03.67,0:23:07.40,mushibugyo_CN,NTP,0,0,0,,那麼我的外號就是 月島綺羅星仁兵衛
+Dialogue: 0,0:23:07.40,0:23:09.55,mushibugyo_JP,NTP,0,0,0,,あちらは褌忍者火鉢殿だ
+Dialogue: 0,0:23:07.40,0:23:09.55,mushibugyo_CN,NTP,0,0,0,,這位是兜襠布忍者 火缽小姐
+Dialogue: 0,0:23:09.55,0:23:10.21,mushibugyo_JP,NTP,0,0,0,,素敵
+Dialogue: 0,0:23:09.55,0:23:10.21,mushibugyo_CN,NTP,0,0,0,,真好聽
+Dialogue: 0,0:23:10.21,0:23:11.13,mushibugyo_JP,NTP,0,0,0,,じゃない
+Dialogue: 0,0:23:10.21,0:23:11.13,mushibugyo_CN,NTP,0,0,0,,好聽你妹
+Dialogue: 0,0:23:12.02,0:23:15.97,mushibugyo_JP,NTP,0,0,0,,次回　蟲奉行「どっちが正義！？天間とジャスティス」
+Dialogue: 0,0:23:12.02,0:23:15.97,mushibugyo_CN,NTP,0,0,0,,下回 蟲奉行 哪邊才是正義!?天間與正義
+

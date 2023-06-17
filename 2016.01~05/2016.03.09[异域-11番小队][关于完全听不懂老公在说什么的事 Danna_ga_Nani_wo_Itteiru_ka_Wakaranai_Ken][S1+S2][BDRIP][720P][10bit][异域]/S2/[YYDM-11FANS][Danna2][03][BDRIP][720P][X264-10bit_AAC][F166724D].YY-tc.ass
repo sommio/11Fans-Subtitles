@@ -1,0 +1,128 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Danna S2
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,75,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,90,90,24,134
+Style: zhushi,FZZhunYuan-M02,54,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,7,30,90,30,134
+Style: biaoti,FZCuQian-M17,90,&H00F9F9F9,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,90,90,30,134
+Style: biaoti2,方正黄草_GBK,147,&H00595959,&HF0000000,&H00F8F8F8,&HF0000000,0,0,0,0,100,100,0,0,1,3,0,2,90,90,30,134
+Style: Warning,Noto Sans CJK SC Medium,54,&H00FFFFFF,&H000000FF,&H00000000,&H3C000000,0,0,0,0,100,100,0,0,1,3,3,8,15,15,21,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:23.06,0:01:25.56,Warning,,0,0,0,,{\an8\fad(400,600)\blur6}本片字幕由異域字幕組(http://www.yyman.com.cn)製作 僅供試看之用 請在24小時內刪除
+Dialogue: 0,0:01:25.56,0:01:28.06,Warning,,0,0,0,,{\an8}{\fad(400,600)\blur6}如果喜歡本作品 請購買並支持正版 如因私自散佈造成的法律問題 本字幕組恕不負責
+Dialogue: 0,0:00:40.01,0:00:43.02,biaoti,NTP,0,0,0,,{\pos(846,543)\1c&H595959&\3c&H595959&}關於老公在說什麼我完全聽不懂這事 第二帖
+Dialogue: 0,0:00:40.01,0:00:43.02,biaoti,,0,0,0,,{\pos(858,537)\bord3.9}關於老公在說什麼我完全聽不懂這事 第二帖
+Dialogue: 0,0:00:40.01,0:00:43.02,biaoti2,NTP,0,0,0,,{\pos(1163,990)}老婆和老公的xxx
+Dialogue: 0,0:00:40.01,0:00:43.02,zhushi,,0,0,0,,{\an1\pos(90,1035)}翻校：ksc319  時後壓：喵碳
+Dialogue: 0,0:00:00.48,0:00:04.02,Default,,0,0,0,,宅物太多 居然都進軍到客廳裏了
+Dialogue: 0,0:00:01.98,0:00:03.48,zhushi,,0,0,0,,{\pos(360,100)}⬅ IDOL M@STER x2
+Dialogue: 0,0:00:03.48,0:00:04.98,zhushi,,0,0,0,,{\pos(800,260)}⬅ 三台認不出的SD高達
+Dialogue: 0,0:00:03.48,0:00:04.98,zhushi,,0,0,0,,{\pos(200,565)}強襲自由↗\N\hRX-78 ↘
+Dialogue: 0,0:00:03.48,0:00:04.98,zhushi,,0,0,0,,{\pos(1270,490)}⬅ 奈葉vivid x2
+Dialogue: 0,0:00:04.40,0:00:06.36,Default,,0,0,0,,我本來想扔回老公的房間⋯
+Dialogue: 0,0:00:04.98,0:00:07.48,zhushi,,0,0,0,,{\an1\pos(520,800)}⬅ {\s1}伊卡牧師妹{\s0} 烏賊娘
+Dialogue: 0,0:00:07.90,0:00:10.36,Default,,0,0,0,,而且這傢伙還一副對不起我的樣子
+Dialogue: 0,0:00:10.65,0:00:13.74,Default,,0,0,0,,抱歉哦 太可愛了一手滑就買了
+Dialogue: 0,0:00:14.28,0:00:17.16,Default,,0,0,0,,你到底是廢還是宅
+Dialogue: 0,0:00:17.49,0:00:19.66,Default,,0,0,0,,我覺得把這倆合起來就無敵了
+Dialogue: 0,0:00:19.79,0:00:20.50,Default,,0,0,0,,差到家了
+Dialogue: 0,0:00:21.62,0:00:25.54,Default,,0,0,0,,薰小姐如果有什麼興趣的話就會理解我了吧
+Dialogue: 0,0:00:25.71,0:00:26.46,Default,,0,0,0,,興趣？
+Dialogue: 0,0:00:27.21,0:00:28.46,Default,,0,0,0,,保齡球吧
+Dialogue: 0,0:00:30.00,0:00:31.13,Default,,0,0,0,,你有球？
+Dialogue: 0,0:00:31.55,0:00:35.26,Default,,0,0,0,,說起來好久不玩了 忘了扔哪去了
+Dialogue: 0,0:00:36.47,0:00:37.89,Default,,0,0,0,,下次大家一起去玩吧
+Dialogue: 0,0:00:38.10,0:00:39.81,Default,,0,0,0,,我 我會打電話給他們的
+Dialogue: 0,0:00:43.27,0:00:45.56,Default,,0,0,0,,於是乎我就把大家都叫來了
+Dialogue: 0,0:00:46.06,0:00:47.73,Default,,0,0,0,,光這種時候來得快啊
+Dialogue: 0,0:00:48.06,0:00:50.53,Default,,0,0,0,,難得的機會 大家來決勝負吧
+Dialogue: 0,0:00:50.57,0:00:51.53,Default,,0,0,0,,好啊
+Dialogue: 0,0:00:52.03,0:00:54.07,Default,,0,0,0,,那就兩人一組打團隊賽吧
+Dialogue: 0,0:00:54.20,0:00:57.07,Default,,0,0,0,,嗯 感覺一開始就分好隊了啊
+Dialogue: 0,0:00:58.12,0:00:59.58,Default,,0,0,0,,很好 我們去打吧
+Dialogue: 0,0:01:00.16,0:01:02.37,Default,,0,0,0,,那個⋯⋯抽籤吧⋯⋯
+Dialogue: 0,0:01:04.04,0:01:06.54,Default,,0,0,0,,{\fay0.03\bord0\blur8\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1687,563)\1c000000}薰·老公隊
+Dialogue: 0,0:01:04.04,0:01:06.54,Default,,0,0,0,,{\fay0.03\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1670,547)\1c606060\4c000000\3cEDEAEA\bord10}薰·老公隊
+Dialogue: 0,0:01:04.04,0:01:06.54,Default,,0,0,0,,{\fax-0.1\fs110\an7\pos(1330,760)\fnFZZhongDengXian-Z06\1cDE8464\3cFFFFFF\bord1\blur3}型月
+Dialogue: 0,0:01:05.54,0:01:06.08,Default,,0,0,0,,好
+Dialogue: 0,0:01:07.63,0:01:09.34,Default,,0,0,0,,感覺狀態還不太好
+Dialogue: 0,0:01:09.38,0:01:10.42,Default,,0,0,0,,剩下就交給我吧
+Dialogue: 0,0:01:11.09,0:01:14.30,Default,,0,0,0,,誓約勝利之劍！！！
+Dialogue: 0,0:01:11.09,0:01:14.30,zhushi,,0,0,0,,{\an8}{\s1}EX咖喱棒{\s0} Excalibur!!!
+Dialogue: 0,0:01:10.55,0:01:14.55,zhushi,,0,0,0,,{\fad(300,300)}型月廚爆炸中
+Dialogue: 0,0:01:12.30,0:01:14.55,Default,,0,0,0,,{\fnFZShaoer-M11\fs95\1c222222\3cF8F6F6\bord7\move(960,1200,960,850,0,251)}這是動畫。投球姿勢請勿模仿
+Dialogue: 0,0:01:16.34,0:01:16.68,Default,,0,0,0,,啊⋯
+Dialogue: 0,0:01:16.84,0:01:17.97,Default,,0,0,0,,你給我正常地扔球
+Dialogue: 0,0:01:18.55,0:01:21.06,Default,,0,0,0,,{\fay0.03\bord0\blur8\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1687,563)\1c000000}樹瀨夫妻隊
+Dialogue: 0,0:01:18.55,0:01:21.06,Default,,0,0,0,,{\fay0.03\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1670,547)\1c606060\4c000000\3cEDEAEA\bord10}樹瀨夫妻隊
+Dialogue: 0,0:01:18.55,0:01:21.06,Default,,0,0,0,,{\fax-0.1\fs100\an7\pos(1030,910)\fnFZShaoer-M11\1c606060\3cFFFFFF\bord5\shad10}撒氣皮球
+Dialogue: 0,0:01:18.55,0:01:21.06,Default,,0,0,0,,{\fax-0.1\fs100\an7\pos(1116,910)\fnFZShaoer-M11\1cB081F5\3cFFFFFF\bord5\shad10}氣
+Dialogue: 0,0:01:25.52,0:01:28.98,Default,,0,0,0,,那投法就算全中也不覺得她打得好⋯⋯
+Dialogue: 0,0:01:29.69,0:01:32.36,Default,,0,0,0,,總有時候會忘了她年紀比我大
+Dialogue: 0,0:01:32.82,0:01:34.82,Default,,0,0,0,,{\fay0.03\bord0\blur8\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1687,643)\1c000000}山田中夫妻隊
+Dialogue: 0,0:01:32.82,0:01:34.82,Default,,0,0,0,,{\fay0.03\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1670,637)\1c606060\4c000000\3cEDEAEA\bord10}山田中夫妻隊
+Dialogue: 0,0:01:32.82,0:01:34.82,Default,,0,0,0,,{\fax-0.1\fs110\an7\pos(1030,700)\fnFZShaoer-M11\1c606060\3cFFFFFF\bord5\shad10}Immortal\N\h\h&\N\h\hInvisible
+Dialogue: 0,0:01:32.82,0:01:34.82,Default,,0,0,0,,{\fax-0.1\fs110\an7\pos(1130,700)\fnFZShaoer-M11\1c419CE5\3cFFFFFF\bord5\shad10}m
+Dialogue: 0,0:01:32.82,0:01:34.82,Default,,0,0,0,,{\fax-0.1\fs110\an7\pos(1430,920)\fnFZShaoer-M11\1c8FCC42\3cFFFFFF\bord5\shad10}b
+Dialogue: 0,0:01:33.11,0:01:34.32,Default,,0,0,0,,該到我了啊
+Dialogue: 0,0:01:35.24,0:01:36.78,Default,,0,0,0,,田中打得好嗎
+Dialogue: 0,0:01:37.20,0:01:37.91,Default,,0,0,0,,嗯 看著吧
+Dialogue: 0,0:01:38.24,0:01:39.41,Default,,0,0,0,,我家老婆最厲害了
+Dialogue: 0,0:01:40.24,0:01:42.79,Default,,0,0,0,,哎呀！好……疼……
+Dialogue: 0,0:01:43.33,0:01:43.62,Default,,0,0,0,,看吧
+Dialogue: 0,0:01:44.04,0:01:46.00,Default,,0,0,0,,那不是完勝了麼
+Dialogue: 0,0:01:47.00,0:01:48.96,Default,,0,0,0,,日的 要幹就幹贏丫的
+Dialogue: 0,0:01:49.08,0:01:50.67,Default,,0,0,0,,這該死的運氣
+Dialogue: 0,0:01:46.83,0:01:55.34,biaoti2,,0,0,0,,{\fnFZYaSong-B-GBK\fax-0.1\pos(210,830)\an1\c&H000000&\3c&H000000&\blur5}這狗日的命運
+Dialogue: 0,0:01:46.83,0:01:55.34,biaoti2,,0,0,0,,{\fnFZYaSong-B-GBK\fax-0.1\pos(200,820)\an1}這狗日的命運
+Dialogue: 0,0:01:46.83,0:01:55.34,biaoti2,,0,0,0,,{\fnFZYaSong-B-GBK\fax-0.1\pos(282,820)\an1\1c&H0917F7&}狗
+Dialogue: 0,0:01:46.83,0:01:55.34,biaoti2,,0,0,0,,{\fnFZYaSong-B-GBK\fax-0.1\pos(530,820)\an1\c&HD3C432&}命
+Dialogue: 0,0:01:46.83,0:01:55.34,Default,,0,0,0,,{\fay0.03\bord0\blur8\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1687,723)\1c000000}三木& 蛋黃蛋隊
+Dialogue: 0,0:01:46.83,0:01:55.34,Default,,0,0,0,,{\fay0.03\an9\fs110\fn@FZShaoer-M11\frz-90\pos(1670,717)\1c606060\4c000000\3cEDEAEA\bord10}三木& 蛋黃蛋隊
+Dialogue: 0,0:01:51.00,0:01:54.09,Default,,0,0,0,,三木桑好帥 好贊
+Dialogue: 0,0:01:55.84,0:01:58.05,Default,,0,0,0,,臥槽 老子扔歪了
+Dialogue: 0,0:01:59.47,0:02:00.72,Default,,0,0,0,,蛇眼……
+Dialogue: 0,0:01:59.34,0:02:01.60,zhushi,,0,0,0,,{\fad(200,200)}Snake Eyes 一種留球的方式
+Dialogue: 0,0:02:02.39,0:02:05.02,Default,,0,0,0,,你已經是被蛇盯上的青蛙了
+Dialogue: 0,0:02:05.48,0:02:06.14,Default,,0,0,0,,三木桑⋯
+Dialogue: 0,0:02:06.73,0:02:09.65,Default,,0,0,0,,快來吧 來拯救我的靈魂吧
+Dialogue: 0,0:02:10.06,0:02:11.44,Default,,0,0,0,,好球！
+Dialogue: 0,0:02:12.40,0:02:14.23,Default,,0,0,0,,完蛋 樹了個奇怪的旗
+Dialogue: 0,0:02:15.11,0:02:18.15,Default,,0,0,0,,最近因為我的興趣給她添麻煩了
+Dialogue: 0,0:02:19.32,0:02:21.28,Default,,0,0,0,,關於興趣的事 我想拿興趣來補償她
+Dialogue: 0,0:02:22.33,0:02:24.70,Default,,0,0,0,,你稍微自重點不就行了
+Dialogue: 0,0:02:22.33,0:02:24.70,zhushi,,0,0,0,,{\an2\pos(899,981)}jie2 zhi4
+Dialogue: 0,0:02:26.45,0:02:27.66,Default,,0,0,0,,因為太可愛了就總手滑
+Dialogue: 0,0:02:29.00,0:02:31.88,Default,,0,0,0,,優勝隊是三木&蛋黃蛋隊
+Dialogue: 0,0:02:31.96,0:02:33.25,Default,,0,0,0,,很好
+Dialogue: 0,0:02:33.54,0:02:36.63,Default,,0,0,0,,對於勝利隊伍 雖然微不足道但也有獎品
+Dialogue: 0,0:02:36.84,0:02:39.26,Default,,0,0,0,,很好很好 偶爾也得來點福利啊
+Dialogue: 0,0:02:40.05,0:02:42.93,Default,,0,0,0,,溫泉的免費券 你們倆去享♂受吧
+Dialogue: 0,0:02:45.52,0:02:47.68,Default,,0,0,0,,啊今天玩得好開心啊
+Dialogue: 0,0:02:48.06,0:02:49.19,Default,,0,0,0,,開心就好
+Dialogue: 0,0:02:50.39,0:02:52.06,Default,,0,0,0,,咱們兩個也偶爾去打打玩吧
+Dialogue: 0,0:02:52.36,0:02:53.40,Default,,0,0,0,,一個月打一次的話
+Dialogue: 0,0:02:54.44,0:02:57.44,Default,,0,0,0,,不過 要先收拾房間哦
+Dialogue: 0,0:02:57.82,0:02:59.36,Default,,0,0,0,,好的大王，是的大王
+Dialogue: 0,0:02:57.82,0:02:59.36,zhushi,,0,0,0,,{\fad(200,200)}得了，又想到虐我們兩季度的crossange了
+

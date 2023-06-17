@@ -1,0 +1,386 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正隶变_GBK,44,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,1
+Style: CNOP,方正剪纸繁体,40,&H00000000,&HF0000000,&H00FFFFFF,&HF0000000,-1,-1,0,0,100,100,0,0,1,4,0,7,30,30,10,1
+Style: JPOP,A-OTF Harucraft Std Heavy,40,&H00000000,&HF0000000,&H00FFFFFF,&HF0000000,-1,-1,0,0,100,100,0,0,1,3,0,1,30,30,10,1
+Style: CNED,方正大黑_GBK,40,&H00964EE7,&HF0000000,&H00FFFFFF,&HF0FFFFFF,0,0,0,0,100,100,0,0,1,2,2,7,30,30,10,1
+Style: JPED,方正大黑_GBK,40,&H00964EE7,&HF0000000,&H00FFFFFF,&HF0FFFFFF,-1,0,0,0,100,100,0,0,1,2,1,1,30,30,10,1
+Style: BGM,KaiTi,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,1
+Style: title,@方正准圆_GBK,51,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,85,100,4,270,1,3,1,5,180,30,10,1
+Style: explain,方正隶变_GBK,40,&H00FFFFFF,&HF0000000,&H00000000,&HF0FFFFFF,-1,0,0,0,100,100,0,0,1,4,1,7,30,30,20,1
+Style: sub-title,方正大黑_GBK,40,&H00352B84,&HF0000000,&H00FFFFFF,&H642E261D,-1,0,0,0,100,100,0,0,1,3,1,5,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:59.96,0:04:04.96,Default,,0,0,0,,{\fad(400,400)\fs30\an8}翻译 dymy字幕组 手抄 光子&好吧 后期 DK
+Dialogue: 0,0:04:05.96,0:04:10.96,Default,,0,0,0,,{\fad(400,400)\fs30\an8}如果喜欢本作品,请购买并支持正版!如因私自散布造成的法律问题,本字幕组恕不负责.
+Dialogue: 0,0:00:01.74,0:00:02.72,Default,NTP,0,0,0,,帮我扶一下这边
+Dialogue: 0,0:00:02.88,0:00:03.56,Default,NTP,0,0,0,,嗯 知道了
+Dialogue: 0,0:00:13.71,0:00:14.58,Default,NTP,0,0,0,,齐了吗
+Dialogue: 0,0:00:15.01,0:00:16.57,Default,NTP,0,0,0,,再往右上移一点
+Dialogue: 0,0:00:17.19,0:00:18.68,Default,NTP,0,0,0,,硬纸板买来了哦
+Dialogue: 0,0:00:18.98,0:00:21.37,Default,NTP,0,0,0,,明天就正式开始了 抓紧时间哦
+Dialogue: 0,0:00:21.56,0:00:22.35,Default,NTP,0,0,0,,是~
+Dialogue: 0,0:00:25.93,0:00:27.19,Default,NTP,0,0,0,,别涂到外面哦
+Dialogue: 0,0:00:27.45,0:00:29.95,Default,NTP,0,0,0,,不要紧 不要紧 交给我吧
+Dialogue: 0,0:00:43.24,0:00:44.70,Default,NTP,0,0,0,,好想回去
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:02:22.80,0:02:23.87,Default,NTP,0,0,0,,完成了
+Dialogue: 0,0:02:24.04,0:02:25.79,Default,NTP,0,0,0,,不错 不错嘛
+Dialogue: 0,0:02:25.95,0:02:27.77,Default,NTP,0,0,0,,确实利害 涂的真好呢
+Dialogue: 0,0:02:29.39,0:02:31.47,Default,NTP,0,0,0,,只有这种时候才有存在感呢
+Dialogue: 0,0:02:31.82,0:02:33.57,Default,NTP,0,0,0,,什么意思啊 讨厌
+Dialogue: 0,0:02:34.11,0:02:40.45,Default,NTP,0,0,0,,人渣 只要自己做的开心就不顾别人感受了？
+Dialogue: 0,0:02:40.63,0:02:45.78,Default,NTP,0,0,0,,一点事都不分配给我 要是我什么都没干还得被发牢骚
+Dialogue: 0,0:02:51.06,0:02:54.88,Default,NTP,0,0,0,,让他们来生转生成为大便吧
+Dialogue: 0,0:02:55.00,0:02:59.57,Default,NTP,0,0,0,,然后开始从大便到大便轮回转生的无限循环
+Dialogue: 0,0:03:01.70,0:03:03.87,Default,NTP,0,0,0,,咦？ 望美她们呢？
+Dialogue: 0,0:03:04.30,0:03:05.51,Default,NTP,0,0,0,,好像出去了
+Dialogue: 0,0:03:06.02,0:03:09.27,Default,NTP,0,0,0,,传单印好了 本想让她们帮忙裁一下的呢
+Dialogue: 0,0:03:10.69,0:03:13.37,Default,NTP,0,0,0,,让那边那两个好像很闲男生帮你吧
+Dialogue: 0,0:03:13.62,0:03:14.64,Default,NTP,0,0,0,,也是呢
+Dialogue: 0,0:03:15.64,0:03:17.72,Default,NTP,0,0,0,,那两个人什么事都没干呢
+Dialogue: 0,0:03:19.83,0:03:20.39,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:03:20.60,0:03:22.21,Default,NTP,0,0,0,,那…那个…
+Dialogue: 0,0:03:25.24,0:03:30.65,Default,NTP,0,0,0,,我…我来帮忙吧 裁 裁 裁剪
+Dialogue: 0,0:03:30.89,0:03:31.77,Default,NTP,0,0,0,,那些东西
+Dialogue: 0,0:03:33.56,0:03:35.48,Default,NTP,0,0,0,,嗯…
+Dialogue: 0,0:03:37.40,0:03:38.96,Default,NTP,0,0,0,,没事 没事 不用勉强啦
+Dialogue: 0,0:03:39.08,0:03:40.41,Default,NTP,0,0,0,,我会让他们做的啦
+Dialogue: 0,0:03:40.50,0:03:41.15,Default,NTP,0,0,0,,是啊 是啊
+Dialogue: 0,0:03:41.23,0:03:43.11,Default,NTP,0,0,0,,我压根没有勉强啊
+Dialogue: 0,0:03:43.30,0:03:46.00,Default,NTP,0,0,0,,边裁剪都不会的话我真的可以去死了
+Dialogue: 0,0:03:46.70,0:03:50.40,Default,NTP,0,0,0,,现在退缩的话 大概就没有机会了
+Dialogue: 0,0:03:51.11,0:03:54.17,Default,NTP,0,0,0,,那个 我正好没事做
+Dialogue: 0,0:03:54.90,0:03:59.68,Default,NTP,0,0,0,,而且裁东西这种事 我最拿手的了
+Dialogue: 0,0:04:03.32,0:04:05.17,Default,NTP,0,0,0,,那…就拜托你好了
+Dialogue: 0,0:04:05.35,0:04:08.42,Default,NTP,0,0,0,,嗯…这个就这样裁 然后…
+Dialogue: 0,0:04:09.26,0:04:09.86,Default,NTP,0,0,0,,好
+Dialogue: 0,0:04:17.33,0:04:19.92,Default,NTP,0,0,0,,大概有一百张纸
+Dialogue: 0,0:04:20.34,0:04:23.37,Default,NTP,0,0,0,,这样下去上午就完成了
+Dialogue: 0,0:04:23.61,0:04:27.75,Default,NTP,0,0,0,,要熬过今天一整天 至少需要多三百分钟
+Dialogue: 0,0:04:28.45,0:04:30.28,Default,NTP,0,0,0,,这样的话
+Dialogue: 0,0:04:34.56,0:04:37.05,Default,NTP,0,0,0,,为了延长工作时间
+Dialogue: 0,0:04:37.17,0:04:41.16,Default,NTP,0,0,0,,每裁好一张纸就穿插做点伸展运动来拖延时间
+Dialogue: 0,0:04:47.53,0:04:50.64,Default,NTP,0,0,0,,而且每裁好十张就去上次厕所休息一下
+Dialogue: 0,0:04:51.12,0:04:54.20,Default,NTP,0,0,0,,这样三百分钟应该就…
+Dialogue: 0,0:04:56.11,0:04:57.73,Default,NTP,0,0,0,,好 有戏
+Dialogue: 0,0:04:59.04,0:05:04.24,Default,NTP,0,0,0,,慢慢地 仔细地 然后装作很费力的样子
+Dialogue: 0,0:05:05.11,0:05:05.91,Default,NTP,0,0,0,,那个…
+Dialogue: 0,0:05:08.18,0:05:10.46,Default,NTP,0,0,0,,她们叫我们来帮你
+Dialogue: 0,0:05:14.33,0:05:15.96,Default,NTP,0,0,0,,这个要四等分？
+Dialogue: 0,0:05:16.09,0:05:17.30,Default,NTP,0,0,0,,嗯 应该是吧
+Dialogue: 0,0:05:20.87,0:05:23.49,Default,NTP,0,0,0,,以这种速度的话不就瞬间做完了吗
+Dialogue: 0,0:05:23.63,0:05:24.80,Default,NTP,0,0,0,,给我察言观色一点啊
+Dialogue: 0,0:05:25.01,0:05:26.50,Default,NTP,0,0,0,,而且你们也裁得太随便了吧
+Dialogue: 0,0:05:26.59,0:05:29.67,Default,NTP,0,0,0,,反正你们又没别的事 认真点啊
+Dialogue: 0,0:05:29.94,0:05:30.41,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:05:32.23,0:05:34.24,Default,NTP,0,0,0,,可恶 我的计划泡汤了
+Dialogue: 0,0:05:34.84,0:05:37.00,Default,NTP,0,0,0,,要试试衣服啦 都过来一下
+Dialogue: 0,0:05:43.55,0:05:44.83,Default,NTP,0,0,0,,哇 这也太多了吧
+Dialogue: 0,0:05:45.06,0:05:46.58,Default,NTP,0,0,0,,这都从哪找来的
+Dialogue: 0,0:05:46.78,0:05:49.32,Default,NTP,0,0,0,,有些是借朋友的 有些是戏剧部多余的
+Dialogue: 0,0:05:49.39,0:05:50.28,Default,NTP,0,0,0,,还有些是买来的
+Dialogue: 0,0:05:50.52,0:05:54.38,Default,NTP,0,0,0,,啊 这件是那个啦 那个叫啥的动画里面的衣服
+Dialogue: 0,0:05:51.70,0:05:53.27,Default,NTP,0,0,0,,男生到那边换衣服
+Dialogue: 0,0:05:53.39,0:05:55.14,Default,NTP,0,0,0,,换上女装去发传单
+Dialogue: 0,0:05:55.28,0:05:57.39,Default,NTP,0,0,0,,不会吧！这不是女仆装
+Dialogue: 0,0:05:57.90,0:06:00.24,Default,NTP,0,0,0,,黑木同学 我们等你 穿上这个看看
+Dialogue: 0,0:06:00.80,0:06:02.68,Default,NTP,0,0,0,,…不 我…
+Dialogue: 0,0:06:03.26,0:06:05.21,Default,NTP,0,0,0,,哇 直好看
+Dialogue: 0,0:06:05.46,0:06:06.97,Default,NTP,0,0,0,,真的啊 真可爱
+Dialogue: 0,0:06:07.22,0:06:08.99,Default,NTP,0,0,0,,是…是吗
+Dialogue: 0,0:06:18.10,0:06:18.99,Default,NTP,0,0,0,,流血了
+Dialogue: 0,0:06:27.15,0:06:30.53,Default,NTP,0,0,0,,止不住 嘴里全是血腥味
+Dialogue: 0,0:06:30.72,0:06:31.55,Default,NTP,0,0,0,,保健室
+Dialogue: 0,0:06:46.14,0:06:49.11,Default,NTP,0,0,0,,对…对不起 对不起
+Dialogue: 0,0:06:49.52,0:06:51.63,Default,NTP,0,0,0,,该道歉的是我
+Dialogue: 0,0:06:59.11,0:07:02.85,Default,NTP,0,0,0,,沾上…血了
+Dialogue: 0,0:07:04.80,0:07:07.02,Default,NTP,0,0,0,,不用管那些了 得快点去保健室啊
+Dialogue: 0,0:07:15.46,0:07:17.77,Default,NTP,0,0,0,,没什么大问题 真是太好了
+Dialogue: 0,0:07:18.85,0:07:21.17,Default,NTP,0,0,0,,不……不好意思
+Dialogue: 0,0:07:21.53,0:07:24.61,Default,NTP,0,0,0,,对不起 都怪我太匆忙了
+Dialogue: 0,0:07:25.52,0:07:30.47,Default,NTP,0,0,0,,没事 那个 真的不要紧的
+Dialogue: 0,0:07:30.86,0:07:31.82,Default,NTP,0,0,0,,一年级的？
+Dialogue: 0,0:07:32.04,0:07:35.50,Default,NTP,0,0,0,,对 十…十班的
+Dialogue: 0,0:07:35.74,0:07:39.84,Default,NTP,0,0,0,,1-10 你们班是搞 Cosplay咖啡店吧
+Dialogue: 0,0:07:40.05,0:07:40.43,Default,NTP,0,0,0,,咦？
+Dialogue: 0,0:07:40.92,0:07:43.67,Default,NTP,0,0,0,,我是文化祭的执行委员长
+Dialogue: 0,0:07:44.69,0:07:46.78,Default,NTP,0,0,0,,是…是这样啊
+Dialogue: 0,0:07:47.47,0:07:49.37,Default,NTP,0,0,0,,那我还有工作先走了
+Dialogue: 0,0:07:51.40,0:07:55.72,Default,NTP,0,0,0,,非…非常感谢
+Dialogue: 0,0:08:02.43,0:08:06.17,Default,NTP,0,0,0,,保健老师也说了不要勉强
+Dialogue: 0,0:08:17.63,0:08:19.77,Default,NTP,0,0,0,,轻音部…啊
+Dialogue: 0,0:08:20.03,0:08:21.00,Default,NTP,0,0,0,,如果当初加入了的话
+Dialogue: 0,0:08:21.06,0:08:22.13,Default,NTP,0,0,0,,我也…
+Dialogue: 0,0:08:22.49,0:08:25.77,Default,NTP,0,0,0,,地球人 未亡人 超能力者
+Dialogue: 0,0:08:26.70,0:08:30.49,Default,NTP,0,0,0,,在文化祭上 我是不是也会有这样的未来呢
+Dialogue: 0,0:08:32.13,0:08:33.38,Default,NTP,0,0,0,,不 不好说呢
+Dialogue: 0,0:08:33.81,0:08:37.61,Default,NTP,0,0,0,,我铁定没法和玩音乐的人好好相处的
+Dialogue: 0,0:08:38.20,0:08:40.63,Default,NTP,0,0,0,,恐怕会是这种未来
+Dialogue: 0,0:08:41.01,0:08:43.30,Default,NTP,0,0,0,,（梓喵）
+Dialogue: 0,0:08:47.50,0:08:49.87,Default,NTP,0,0,0,,黑木同学真的不好相处呢
+Dialogue: 0,0:08:50.09,0:08:53.26,Default,NTP,0,0,0,,就是啊 根本就不知道她在想什么呢
+Dialogue: 0,0:08:53.45,0:08:56.39,Default,NTP,0,0,0,,再说了 为什么不会玩乐器还进我们部呢
+Dialogue: 0,0:08:56.67,0:08:58.94,Default,NTP,0,0,0,,啊 也不是什么坏人啦
+Dialogue: 0,0:09:00.89,0:09:04.14,explain,NTP,0,0,0,,{\fad(200,40)}注：orz,即[我（O） 认（R） 裁（Z）]
+Dialogue: 0,0:09:02.00,0:09:02.88,Default,NTP,0,0,0,,orz
+Dialogue: 0,0:09:06.71,0:09:09.54,Default,NTP,0,0,0,,文化祭执行委员会通知
+Dialogue: 0,0:09:09.87,0:09:13.29,Default,NTP,0,0,0,,现在在体育馆开始摆放椅子
+Dialogue: 0,0:09:13.64,0:09:17.37,Default,NTP,0,0,0,,请有空的同学过来帮帮忙
+Dialogue: 0,0:09:23.02,0:09:24.92,Default,NTP,0,0,0,,不去帮班上的忙
+Dialogue: 0,0:09:25.13,0:09:27.59,Default,NTP,0,0,0,,为什么跑来这做这种事呢
+Dialogue: 0,0:09:28.86,0:09:31.35,Default,NTP,0,0,0,,算了 无所谓啦 反正也没事做
+Dialogue: 0,0:09:34.17,0:09:36.19,Default,NTP,0,0,0,,谢谢大家帮忙
+Dialogue: 0,0:09:36.55,0:09:38.03,Default,NTP,0,0,0,,非常感谢
+Dialogue: 0,0:09:41.31,0:09:42.47,Default,NTP,0,0,0,,累死了
+Dialogue: 0,0:09:42.95,0:09:44.37,Default,NTP,0,0,0,,早知道就不做了
+Dialogue: 0,0:09:46.98,0:09:48.80,Default,NTP,0,0,0,,你是叫黑木同学吧
+Dialogue: 0,0:09:50.77,0:09:52.37,Default,NTP,0,0,0,,你来帮忙了啊
+Dialogue: 0,0:09:53.41,0:09:56.33,Default,NTP,0,0,0,,是 算是吧…
+Dialogue: 0,0:09:56.73,0:09:58.88,Default,NTP,0,0,0,,明明受了伤呢 谢谢你
+Dialogue: 0,0:09:59.10,0:10:02.52,Default,NTP,0,0,0,,没…没事  我也没做什么
+Dialogue: 0,0:10:05.55,0:10:07.79,Default,NTP,0,0,0,,我们来把它办成一次开心的文化祭吧
+Dialogue: 0,0:10:09.67,0:10:10.24,Default,NTP,0,0,0,,是
+Dialogue: 0,0:10:10.47,0:10:10.99,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:10:11.71,0:10:13.17,Default,NTP,0,0,0,,那么辛苦你了
+Dialogue: 0,0:10:16.12,0:10:19.51,Default,NTP,0,0,0,,开心的文化祭啊…
+Dialogue: 0,0:10:21.21,0:10:22.37,Default,NTP,0,0,0,,回课室吧
+Dialogue: 0,0:10:26.85,0:10:29.24,Default,NTP,0,0,0,,什么嘛 都搞定了啊
+Dialogue: 0,0:11:08.76,0:11:10.41,Default,NTP,0,0,0,,啊 小优
+Dialogue: 0,0:11:12.77,0:11:15.43,Default,NTP,0,0,0,,嗯 是的 明天就是文化祭
+Dialogue: 0,0:11:15.59,0:11:16.62,Default,NTP,0,0,0,,唉？ 可爱
+Dialogue: 0,0:11:16.78,0:11:19.05,Default,NTP,0,0,0,,没有啦 哪有啦
+Dialogue: 0,0:11:19.62,0:11:21.81,Default,NTP,0,0,0,,大家都非常卖力
+Dialogue: 0,0:11:22.07,0:11:25.10,Default,NTP,0,0,0,,我也不知不觉中认真帮起忙了
+Dialogue: 0,0:11:26.49,0:11:27.40,Default,NTP,0,0,0,,很开心的样子呢
+Dialogue: 0,0:11:27.98,0:11:29.46,Default,NTP,0,0,0,,这个呢 怎么说呢…
+Dialogue: 0,0:11:30.35,0:11:31.14,Default,NTP,0,0,0,,唉？你要来
+Dialogue: 0,0:11:32.12,0:11:34.15,Default,NTP,0,0,0,,啊 我只是第一天当班
+Dialogue: 0,0:11:34.18,0:11:35.71,Default,NTP,0,0,0,,第二天一般开放就没我当班了
+Dialogue: 0,0:11:37.46,0:11:39.25,Default,NTP,0,0,0,,啊 第二天来？
+Dialogue: 0,0:11:39.77,0:11:41.34,Default,NTP,0,0,0,,嗯 我等你
+Dialogue: 0,0:11:42.12,0:11:43.46,Default,NTP,0,0,0,,嗯 再见
+Dialogue: 0,0:11:51.73,0:11:54.09,Default,NTP,0,0,0,,加油 享受文化祭吧
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,CM
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:11:55.98,0:11:57.98,sub-title,NTP,0,0,0,,{\pos(640,680)}- 文化祭第一天 -
+Dialogue: 0,0:11:58.41,0:11:59.41,Default,NTP,0,0,0,,欢迎光临
+Dialogue: 0,0:12:01.99,0:12:03.72,Default,NTP,0,0,0,,您要点些什么呢
+Dialogue: 0,0:12:07.08,0:12:08.84,Default,NTP,0,0,0,,快去洗杯子
+Dialogue: 0,0:12:09.10,0:12:09.62,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:12:10.38,0:12:13.36,Default,NTP,0,0,0,,啊 槽了
+Dialogue: 0,0:12:17.65,0:12:20.94,Default,NTP,0,0,0,,反正没事做 就随便逛逛好了
+Dialogue: 0,0:12:22.82,0:12:23.99,Default,NTP,0,0,0,,章鱼烧 要尝尝么？
+Dialogue: 0,0:12:36.47,0:12:39.14,Default,NTP,0,0,0,,我家附近的羊华堂要好吃多了
+Dialogue: 0,0:12:42.66,0:12:47.10,Default,NTP,0,0,0,,体育馆很快将开始吹奏乐部的演出
+Dialogue: 0,0:12:54.50,0:12:57.49,Default,NTP,0,0,0,,嗯 消磨了不少时间呢
+Dialogue: 0,0:12:57.58,0:13:00.18,Default,NTP,0,0,0,,接下来是轻音部的演出
+Dialogue: 0,0:13:04.15,0:13:06.74,Default,NTP,0,0,0,,来吧 大家 和我们一起来吧
+Dialogue: 0,0:13:14.05,0:13:16.95,Default,NTP,0,0,0,,大家 HIGH起来了吗
+Dialogue: 0,0:13:19.24,0:13:21.49,Default,NTP,0,0,0,,没抓住溜走的时机
+Dialogue: 0,0:13:37.24,0:13:40.25,Default,NTP,0,0,0,,不好 刚才吃的章鱼烧
+Dialogue: 0,0:13:47.38,0:13:50.59,Default,NTP,0,0,0,,章鱼烧 全吐出来了
+Dialogue: 0,0:13:51.27,0:13:51.96,Default,NTP,0,0,0,,黑木同学
+Dialogue: 0,0:13:53.45,0:13:54.23,Default,NTP,0,0,0,,要休息？
+Dialogue: 0,0:13:56.81,0:14:01.54,Default,NTP,0,0,0,,我明天才当班 所以没什么事做
+Dialogue: 0,0:14:01.63,0:14:02.89,Default,NTP,0,0,0,,再…再见
+Dialogue: 0,0:14:05.13,0:14:06.01,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:14:09.94,0:14:14.84,Default,NTP,0,0,0,,哎呀 今天人多得不得了 差点累死了
+Dialogue: 0,0:14:15.48,0:14:17.42,Default,NTP,0,0,0,,唉？ 明天在那见面？
+Dialogue: 0,0:14:20.64,0:14:24.53,Default,NTP,0,0,0,,她到班上的话 我现在的状况就全曝光了
+Dialogue: 0,0:14:25.72,0:14:28.02,Default,NTP,0,0,0,,不 把小优叫来的话
+Dialogue: 0,0:14:28.19,0:14:32.46,Default,NTP,0,0,0,,也许能向那帮家伙炫耀我也有个可爱的朋友的
+Dialogue: 0,0:14:32.54,0:14:35.85,Default,NTP,0,0,0,,这个bitch是我的朋友哦
+Dialogue: 0,0:14:37.99,0:14:41.20,Default,NTP,0,0,0,,嗯 那我在课室等你
+Dialogue: 0,0:14:47.49,0:14:49.42,Default,NTP,0,0,0,,明天才是真正的文化祭呢
+Dialogue: 0,0:14:50.28,0:14:52.53,sub-title,NTP,0,0,0,,{\pos(640,680)}- 文化祭第二天 -
+Dialogue: 0,0:14:53.23,0:14:55.42,Default,NTP,0,0,0,,吐 气球啊
+Dialogue: 0,0:14:55.57,0:14:56.62,Default,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:15:02.39,0:15:03.42,Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:15:04.11,0:15:05.03,Default,NTP,0,0,0,,bye bye
+Dialogue: 0,0:15:07.01,0:15:07.63,Default,NTP,0,0,0,,早上好
+Dialogue: 0,0:15:07.91,0:15:10.46,Default,NTP,0,0,0,,今天轮到你当班了吧 要加油哦
+Dialogue: 0,0:15:11.67,0:15:12.29,Default,NTP,0,0,0,,是…
+Dialogue: 0,0:15:12.80,0:15:14.59,Default,NTP,0,0,0,,一起享受文化祭吧
+Dialogue: 0,0:15:27.98,0:15:29.56,Default,NTP,0,0,0,,水还没烧开吗
+Dialogue: 0,0:15:29.95,0:15:30.80,Default,NTP,0,0,0,,我去看看
+Dialogue: 0,0:15:32.21,0:15:33.90,Default,NTP,0,0,0,,今天小优就要来了
+Dialogue: 0,0:15:34.56,0:15:39.03,Default,NTP,0,0,0,,和小优一起的话 也许我也能享受文化祭吧
+Dialogue: 0,0:15:41.99,0:15:44.44,Default,NTP,0,0,0,,我来了 小丧我到学校了哦 要怎么走呢？
+Dialogue: 0,0:15:55.25,0:15:56.21,Default,NTP,0,0,0,,小…小优…
+Dialogue: 0,0:15:57.34,0:15:59.10,Default,NTP,0,0,0,,小 小丧
+Dialogue: 0,0:16:02.13,0:16:03.72,Default,NTP,0,0,0,,突然就抱过来了
+Dialogue: 0,0:16:04.24,0:16:07.86,Default,NTP,0,0,0,,可恶 还是一样浑身散发着雌性的气味
+Dialogue: 0,0:16:08.09,0:16:10.80,Default,NTP,0,0,0,,还在众目睽睽之下硬是把胸部压过来
+Dialogue: 0,0:16:14.34,0:16:18.33,Default,NTP,0,0,0,,可恶 难得的好机会 就摸摸屁股吧…
+Dialogue: 0,0:16:20.57,0:16:21.83,Default,NTP,0,0,0,,好想你哦
+Dialogue: 0,0:16:24.59,0:16:27.04,Default,NTP,0,0,0,,啊 嗯 我也是
+Dialogue: 0,0:16:27.43,0:16:28.69,Default,NTP,0,0,0,,摸的机会没了…
+Dialogue: 0,0:16:29.44,0:16:32.73,Default,NTP,0,0,0,,对了 小丧 今天不Cosplay么？
+Dialogue: 0,0:16:32.87,0:16:36.03,Default,NTP,0,0,0,,我…我们到外面去吧 走吧
+Dialogue: 0,0:16:39.61,0:16:43.18,Default,NTP,0,0,0,,那TC  优 我们也去找朋友啦
+Dialogue: 0,0:16:43.43,0:16:45.00,Default,NTP,0,0,0,,嗯 待会见
+Dialogue: 0,0:16:46.48,0:16:48.46,Default,NTP,0,0,0,,学校的朋友啊…
+Dialogue: 0,0:16:48.76,0:16:51.26,Default,NTP,0,0,0,,也是呢 按理说都会有吗
+Dialogue: 0,0:16:52.37,0:16:53.45,Default,NTP,0,0,0,,那我们去那呢
+Dialogue: 0,0:16:53.87,0:16:57.71,Default,NTP,0,0,0,,这个嘛…是呢 随便逛逛吧
+Dialogue: 0,0:17:03.98,0:17:07.69,Default,NTP,0,0,0,,会不会再像刚才那样抱过来呢
+Dialogue: 0,0:17:11.20,0:17:13.15,Default,NTP,0,0,0,,不 没有工口的意思呢
+Dialogue: 0,0:17:13.40,0:17:18.30,Default,NTP,0,0,0,,只是觉得会很安心 以至于忘记寂寞…
+Dialogue: 0,0:17:20.63,0:17:24.39,Default,NTP,0,0,0,,可是 突然抱住她也确实有点怪
+Dialogue: 0,0:17:26.13,0:17:26.69,Default,NTP,0,0,0,,小优
+Dialogue: 0,0:17:27.60,0:17:28.34,Default,NTP,0,0,0,,怎么了
+Dialogue: 0,0:17:31.81,0:17:36.58,Default,NTP,0,0,0,,哇 比我们初中做的像样多了
+Dialogue: 0,0:17:36.74,0:17:39.34,Default,NTP,0,0,0,,反…反正也来了 进去看看吧
+Dialogue: 0,0:17:40.00,0:17:41.70,Default,NTP,0,0,0,,虽然很老套 不过这里的话
+Dialogue: 0,0:17:42.88,0:17:44.43,Default,NTP,0,0,0,,还真是吓人呢
+Dialogue: 0,0:17:46.23,0:17:48.61,Default,NTP,0,0,0,,不要紧的 有我在
+Dialogue: 0,0:17:55.83,0:17:56.51,Default,NTP,0,0,0,,谢谢惠顾
+Dialogue: 0,0:17:56.81,0:17:58.02,Default,NTP,0,0,0,,好 笑一个
+Dialogue: 0,0:17:59.35,0:18:00.93,Default,NTP,0,0,0,,黑木同学吗
+Dialogue: 0,0:18:01.19,0:18:02.71,Default,NTP,0,0,0,,今天她当班吗
+Dialogue: 0,0:18:02.92,0:18:03.68,Default,NTP,0,0,0,,不知道
+Dialogue: 0,0:18:05.25,0:18:06.62,Default,NTP,0,0,0,,是吧 谢谢了
+Dialogue: 0,0:18:13.65,0:18:15.20,Default,NTP,0,0,0,,也没有多吓人嘛
+Dialogue: 0,0:18:15.51,0:18:16.50,Default,NTP,0,0,0,,…是啊
+Dialogue: 0,0:18:24.01,0:18:26.05,Default,NTP,0,0,0,,完全不像样 一帮废物
+Dialogue: 0,0:18:26.39,0:18:29.03,Default,NTP,0,0,0,,连个娘们都吓不了
+Dialogue: 0,0:18:29.60,0:18:31.01,Default,NTP,0,0,0,,垃圾 渣渣
+Dialogue: 0,0:18:31.77,0:18:34.73,Default,NTP,0,0,0,,可恶 得想另一个办法了
+Dialogue: 0,0:18:35.22,0:18:36.43,Default,NTP,0,0,0,,啊 小丧？
+Dialogue: 0,0:18:44.25,0:18:46.70,Default,NTP,0,0,0,,我买吃的来了 吃吧
+Dialogue: 0,0:18:47.23,0:18:49.23,Default,NTP,0,0,0,,全都是我请客的
+Dialogue: 0,0:18:49.34,0:18:49.87,Default,NTP,0,0,0,,唉？
+Dialogue: 0,0:18:53.88,0:18:56.83,Default,NTP,0,0,0,,那等我一下 我也去买点什么
+Dialogue: 0,0:18:57.55,0:18:59.91,Default,NTP,0,0,0,,不用啦 我无所谓啦
+Dialogue: 0,0:19:04.19,0:19:06.45,Default,NTP,0,0,0,,偏偏是那个章鱼烧啊
+Dialogue: 0,0:19:08.59,0:19:10.61,Default,NTP,0,0,0,,我不吃完 这个也帮我吃了吧
+Dialogue: 0,0:19:13.28,0:19:16.69,Default,NTP,0,0,0,,亏我绞尽脑讨好她 好让她再抱我一次呢
+Dialogue: 0,0:19:18.49,0:19:19.15,Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:19:19.31,0:19:21.26,Default,NTP,0,0,0,,小丧说的那个动画我看了哦
+Dialogue: 0,0:19:21.01,0:19:21.81,Default,NTP,0,0,0,,bye bye
+Dialogue: 0,0:19:22.54,0:19:26.00,Default,NTP,0,0,0,,我还没全部看完 不过非常有趣呢
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:19:26.19,0:19:28.94,Default,NTP,0,0,0,,没想到中途那个孩子会中途死掉呢
+Dialogue: 0,0:19:29.08,0:19:32.37,Default,NTP,0,0,0,,嗯 那之后就开始有趣了呢
+Dialogue: 0,0:19:32.50,0:19:34.47,Default,NTP,0,0,0,,这个动画好像要拍成电影了呢
+Dialogue: 0,0:19:34.56,0:19:37.12,Default,NTP,0,0,0,,真的吗 那一起去看吧
+Dialogue: 0,0:19:39.61,0:19:41.36,Default,NTP,0,0,0,,嗯 一起去吧
+Dialogue: 0,0:19:41.76,0:19:42.94,Default,NTP,0,0,0,,真期待啊
+Dialogue: 0,0:19:46.08,0:19:49.69,Default,NTP,0,0,0,,咦 好开心
+Dialogue: 0,0:19:51.14,0:19:52.78,Default,NTP,0,0,0,,明明在学校
+Dialogue: 0,0:19:55.34,0:19:59.43,Default,NTP,0,0,0,,文化祭 只要有朋友在身边就那么开心
+Dialogue: 0,0:20:11.74,0:20:12.54,Default,NTP,0,0,0,,喂
+Dialogue: 0,0:20:13.42,0:20:16.93,Default,NTP,0,0,0,,嗯 嗯 这就回去了？
+Dialogue: 0,0:20:17.76,0:20:20.52,Default,NTP,0,0,0,,嗯 啊 还在学校啊
+Dialogue: 0,0:20:20.78,0:20:24.20,Default,NTP,0,0,0,,嗯 嗯 知道了
+Dialogue: 0,0:20:28.23,0:20:29.04,Default,NTP,0,0,0,,啊 找到了
+Dialogue: 0,0:20:31.30,0:20:33.78,Default,NTP,0,0,0,,小丧 今天好开心啊
+Dialogue: 0,0:20:34.08,0:20:35.88,Default,NTP,0,0,0,,谢谢你带我玩
+Dialogue: 0,0:20:36.86,0:20:39.64,Default,NTP,0,0,0,,没什么 我也很开心啊
+Dialogue: 0,0:20:41.50,0:20:43.62,Default,NTP,0,0,0,,那 我们再联系
+Dialogue: 0,0:20:44.02,0:20:45.47,Default,NTP,0,0,0,,嗯 再见
+Dialogue: 0,0:20:57.29,0:21:00.10,Default,NTP,0,0,0,,啊 终于弄完了
+Dialogue: 0,0:21:08.78,0:21:10.57,Default,NTP,0,0,0,,穿这个太热啊
+Dialogue: 0,0:21:10.90,0:21:11.90,Default,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:21:12.17,0:21:12.95,Default,NTP,0,0,0,,谢谢你
+Dialogue: 0,0:21:14.54,0:21:15.89,Default,NTP,0,0,0,,汽球没用完啊
+Dialogue: 0,0:21:16.38,0:21:17.46,Default,NTP,0,0,0,,是啊…
+Dialogue: 0,0:21:28.86,0:21:30.60,Default,NTP,0,0,0,,这个 可以借我用一下吗
+Dialogue: 0,0:21:31.23,0:21:33.82,Default,NTP,0,0,0,,可以是可以 会把制服弄皱的哦
+Dialogue: 0,0:21:43.15,0:21:43.77,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:27.28,0:22:28.61,Default,NTP,0,0,0,,怎么回事啊
+Dialogue: 0,0:22:31.28,0:22:34.67,Default,NTP,0,0,0,,文化祭执行委员会通知
+Dialogue: 0,0:22:35.58,0:22:38.72,Default,NTP,0,0,0,,莹辉祭马上就要结束了
+Dialogue: 0,0:22:39.50,0:22:44.01,Default,NTP,0,0,0,,谢谢各位今天到访我校
+Dialogue: 0,0:22:45.83,0:22:47.74,Default,NTP,0,0,0,,算了 无所谓啦
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:23:36.71,0:23:37.13,Default,NTP,0,0,0,,我说
+Dialogue: 0,0:23:37.22,0:23:37.54,Default,NTP,0,0,0,,什么
+Dialogue: 0,0:23:37.66,0:23:39.51,Default,NTP,0,0,0,,我们这个对谈你打算持续到什么时候？
+Dialogue: 0,0:23:39.60,0:23:40.44,Default,NTP,0,0,0,,不是说是训练吗
+Dialogue: 0,0:23:40.52,0:23:41.61,Default,NTP,0,0,0,,差不多了吧
+Dialogue: 0,0:23:41.70,0:23:42.68,Default,NTP,0,0,0,,终于玩腻了啊
+Dialogue: 0,0:23:42.79,0:23:45.37,Default,NTP,0,0,0,,差不多该让大家看到我的成长了
+Dialogue: 0,0:23:45.46,0:23:46.90,Default,NTP,0,0,0,,已经时日无多了
+Dialogue: 0,0:23:47.53,0:23:49.75,Default,NTP,0,0,0,,还是先学会听别人说话吧
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,OP
+Dialogue: 0,0:00:47.00,0:00:50.81,CNOP,NTP,0,0,0,,哇-我已经受够了!
+Dialogue: 0,0:00:59.82,0:01:00.65,CNOP,NTP,0,0,0,,今天也
+Dialogue: 0,0:01:01.03,0:01:03.12,CNOP,NTP,0,0,0,,同样的一天又开始了
+Dialogue: 0,0:01:03.20,0:01:05.53,CNOP,NTP,0,0,0,,比起任何人都在意他人的目光
+Dialogue: 0,0:01:05.62,0:01:07.75,CNOP,NTP,0,0,0,,实际上也是有好的一天的
+Dialogue: 0,0:01:07.95,0:01:10.37,CNOP,NTP,0,0,0,,这并不是我的错觉 （又无视我啊）
+Dialogue: 0,0:01:10.58,0:01:14.92,CNOP,NTP,0,0,0,,内心十分害怕那个时候的心意已经发生变化
+Dialogue: 0,0:01:15.29,0:01:19.63,CNOP,NTP,0,0,0,,我讨厌嘻嘻哈哈的 不想被当成和他们是同一类人
+Dialogue: 0,0:01:20.38,0:01:21.97,CNOP,NTP,0,0,0,,无视那样子的我们
+Dialogue: 0,0:01:22.34,0:01:24.47,CNOP,NTP,0,0,0,,说要好好活下去
+Dialogue: 0,0:01:24.76,0:01:29.48,CNOP,NTP,0,0,0,,被温柔地对待 这才是正常的
+Dialogue: 0,0:01:30.14,0:01:32.35,CNOP,NTP,0,0,0,,I'm in my way to finding my way
+Dialogue: 0,0:01:34.61,0:01:36.32,CNOP,NTP,0,0,0,,我坚强得很 快察觉吧
+Dialogue: 0,0:01:36.77,0:01:41.61,CNOP,NTP,0,0,0,,在没有未来的时代里醒过来
+Dialogue: 0,0:01:41.82,0:01:44.03,CNOP,NTP,0,0,0,,直到我受欢迎之前
+Dialogue: 0,0:01:44.03,0:01:46.03,CNOP,NTP,0,0,0,,我都不会原谅这个世界
+Dialogue: 0,0:01:46.87,0:01:48.83,CNOP,NTP,0,0,0,,对万人迷们敬谢不敏
+Dialogue: 0,0:01:49.08,0:01:50.58,CNOP,NTP,0,0,0,,这样下去也只会被疏远
+Dialogue: 0,0:01:51.37,0:01:53.29,CNOP,NTP,0,0,0,,别再做无谓的挣扎了
+Dialogue: 0,0:01:53.58,0:01:54.42,CNOP,NTP,0,0,0,,爱我吧（爱我吧）
+Dialogue: 0,0:01:54.58,0:01:55.71,CNOP,NTP,0,0,0,,爱我吧（爱我吧）
+Dialogue: 0,0:01:56.04,0:01:56.92,CNOP,NTP,0,0,0,,受欢迎（爱我吧）
+Dialogue: 0,0:01:57.09,0:01:58.21,CNOP,NTP,0,0,0,,受欢迎（爱我吧）
+Dialogue: 0,0:02:00.88,0:02:04.80,CNOP,NTP,0,0,0,,让我们在全新的未来再会吧
+Dialogue: 0,0:02:04.47,0:02:05.47,CNOP,NTP,0,0,0,,{\pos(950,0)}one two three four
+Dialogue: 0,0:02:05.80,0:02:07.51,CNOP,NTP,0,0,0,,无论我怎么想
+Dialogue: 0,0:02:07.72,0:02:09.43,CNOP,NTP,0,0,0,,我不受欢迎都是你们的错
+Dialogue: 0,0:00:47.00,0:00:50.81,JPOP,NTP,0,0,0,,わ—もういいですそういうの!
+Dialogue: 0,0:00:59.82,0:01:00.65,JPOP,NTP,0,0,0,,今日も
+Dialogue: 0,0:01:01.03,0:01:03.12,JPOP,NTP,0,0,0,,同じ一日が始まる
+Dialogue: 0,0:01:03.20,0:01:05.53,JPOP,NTP,0,0,0,,誰よりも他人の目を気にして
+Dialogue: 0,0:01:05.62,0:01:07.75,JPOP,NTP,0,0,0,,実際かわいい日もあるよ?
+Dialogue: 0,0:01:07.95,0:01:10.37,JPOP,NTP,0,0,0,,勘違いじゃないし （無視かよ）
+Dialogue: 0,0:01:10.58,0:01:14.92,JPOP,NTP,0,0,0,,あの時の気持ちが変わってしまうのがこわくて
+Dialogue: 0,0:01:15.29,0:01:19.63,JPOP,NTP,0,0,0,,わいわいは嫌いなの  一緒にされたくないし
+Dialogue: 0,0:01:20.38,0:01:21.97,JPOP,NTP,0,0,0,,そんな僕らを無視して
+Dialogue: 0,0:01:22.34,0:01:24.47,JPOP,NTP,0,0,0,,「生きて行こう!」とおっしゃってる
+Dialogue: 0,0:01:24.76,0:01:29.48,JPOP,NTP,0,0,0,,優しくされて ちょうどいい
+Dialogue: 0,0:01:30.14,0:01:32.35,JPOP,NTP,0,0,0,,I'm in my way to finding my way
+Dialogue: 0,0:01:34.61,0:01:36.32,JPOP,NTP,0,0,0,,健気なの 察しろや!
+Dialogue: 0,0:01:36.77,0:01:41.61,JPOP,NTP,0,0,0,,夢のない時代よ目を覚まして
+Dialogue: 0,0:01:41.82,0:01:44.03,JPOP,NTP,0,0,0,,私がモテる未來まで
+Dialogue: 0,0:01:44.03,0:01:46.03,JPOP,NTP,0,0,0,,この世界を赦さない
+Dialogue: 0,0:01:46.87,0:01:48.83,JPOP,NTP,0,0,0,,モテた者は遠慮せい
+Dialogue: 0,0:01:49.08,0:01:50.58,JPOP,NTP,0,0,0,,これ以上は遠慮せい
+Dialogue: 0,0:01:51.37,0:01:53.29,JPOP,NTP,0,0,0,,無駄な抵抗はやめて
+Dialogue: 0,0:01:53.58,0:01:54.42,JPOP,NTP,0,0,0,,ホレろ（ホレろ）
+Dialogue: 0,0:01:54.58,0:01:55.71,JPOP,NTP,0,0,0,,ホレろ（ホレろ）
+Dialogue: 0,0:01:56.04,0:01:56.92,JPOP,NTP,0,0,0,,モテろ（モテろ）
+Dialogue: 0,0:01:57.09,0:01:58.21,JPOP,NTP,0,0,0,,モテろ（モテろ）
+Dialogue: 0,0:02:00.88,0:02:04.80,JPOP,NTP,0,0,0,,全てが変わる未来で会おう
+Dialogue: 0,0:02:04.47,0:02:05.47,JPOP,NTP,0,0,0,,{\pos(950,670)}one two three four
+Dialogue: 0,0:02:05.80,0:02:07.51,JPOP,NTP,0,0,0,,私がモテないのは
+Dialogue: 0,0:02:07.72,0:02:09.43,JPOP,NTP,0,0,0,,どう考えてもお前らが悪い!
+

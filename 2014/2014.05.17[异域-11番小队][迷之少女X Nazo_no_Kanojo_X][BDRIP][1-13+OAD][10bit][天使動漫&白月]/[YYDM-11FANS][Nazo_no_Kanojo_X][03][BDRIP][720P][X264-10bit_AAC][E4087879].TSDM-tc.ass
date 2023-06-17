@@ -1,0 +1,351 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: TSDM
+Original Script: mengzhi
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,42,&H00FFFFFF,&HF0000000,&H000878C7,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,134
+Style: NETA,FZZhunYuan-M02,33,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,7,30,30,10,134
+Style: STAFF,FZZhunYuan-M02,35,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+Style: OPCN,浪漫雅圆,40,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,2,3,30,30,10,134
+Style: OPJP,浪漫雅圆,40,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,2,7,30,30,10,1
+Style: EDCN,Microsoft YaHei,40,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,0,1,3,10,10,10,1
+Style: EDJP,Microsoft YaHei,40,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,0,1,7,10,10,10,1
+Style: LOGO,@FZZhongQian-M16,80,&H00000000,&HF0000000,&H00FFFFFF,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,5,30,30,10,134
+Style: TITLE,Microsoft YaHei,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,6,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:31.59,0:01:34.95,OPCN,NTP,0,0,0,,{\fad(150,250)}四目相接
+Dialogue: 0,0:01:35.07,0:01:40.07,OPCN,NTP,0,0,0,,{\fad(150,250)}只屬於兩人的secret flower
+Dialogue: 0,0:01:50.99,0:01:58.12,OPCN,NTP,0,0,0,,{\fad(150,250)}如果僅能實現一個願望
+Dialogue: 0,0:01:58.23,0:02:01.40,OPCN,NTP,0,0,0,,{\fad(150,250)}你會實現什麼呢
+Dialogue: 0,0:02:01.60,0:02:05.11,OPCN,NTP,0,0,0,,{\fad(150,250)}見到放學後的黑板上
+Dialogue: 0,0:02:05.15,0:02:08.56,OPCN,NTP,0,0,0,,{\fad(150,250)}留下的信息
+Dialogue: 0,0:02:08.79,0:02:13.08,OPCN,NTP,0,0,0,,{\fad(150,250)}你會擺出什麼表情呢
+Dialogue: 0,0:02:13.50,0:02:19.28,OPCN,NTP,0,0,0,,{\fad(150,250)}你的策略真是無聊
+Dialogue: 0,0:02:19.35,0:02:22.50,OPCN,NTP,0,0,0,,{\fad(150,250)}無論是任性還是逞強
+Dialogue: 0,0:02:22.69,0:02:25.79,OPCN,NTP,0,0,0,,{\fad(150,250)}都將背靠背
+Dialogue: 0,0:02:25.87,0:02:29.37,OPCN,NTP,0,0,0,,{\fad(150,250)}但是每當回頭時
+Dialogue: 0,0:02:29.41,0:02:33.91,OPCN,NTP,0,0,0,,{\fad(150,250)}都嘗到了甜蜜的戀之旋律
+Dialogue: 0,0:02:33.98,0:02:39.57,OPCN,NTP,0,0,0,,{\fad(150,250)}顫抖的嘴唇正在尋求
+Dialogue: 0,0:02:39.93,0:02:43.48,OPCN,NTP,0,0,0,,{\fad(150,250)}你看 手所指的前方
+Dialogue: 0,0:02:43.49,0:02:47.69,OPCN,NTP,0,0,0,,{\fad(150,250)}胸口響起了交響曲
+Dialogue: 0,0:02:47.70,0:02:50.99,OPCN,NTP,0,0,0,,{\fad(150,250)}四目相接
+Dialogue: 0,0:02:50.99,0:02:57.02,OPCN,NTP,0,0,0,,{\fad(150,250)}只屬於兩人的secret flower
+Dialogue: 0,0:00:42.99,0:00:42.99,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:42.99,0:00:42.99,Default,NTP,0,0,0,,
+Dialogue: 0,0:01:31.59,0:01:34.95,OPJP,NTP,0,0,0,,{\fad(150,250)}目と目で通じ合う
+Dialogue: 0,0:01:35.07,0:01:40.07,OPJP,NTP,0,0,0,,{\fad(150,250)}二人だけのsecret flower
+Dialogue: 0,0:01:50.99,0:01:58.12,OPJP,NTP,0,0,0,,{\fad(150,250)}願い事ひとつだけ　叶うのなら
+Dialogue: 0,0:01:58.23,0:02:01.40,OPJP,NTP,0,0,0,,{\fad(150,250)}君は何を思う
+Dialogue: 0,0:02:01.60,0:02:05.11,OPJP,NTP,0,0,0,,{\fad(150,250)}放課後の黒板に
+Dialogue: 0,0:02:05.15,0:02:08.56,OPJP,NTP,0,0,0,,{\fad(150,250)}残したメーセージ
+Dialogue: 0,0:02:08.79,0:02:13.08,OPJP,NTP,0,0,0,,{\fad(150,250)}君はどんな顔するのかな
+Dialogue: 0,0:02:13.50,0:02:19.28,OPJP,NTP,0,0,0,,{\fad(150,250)}なんで他愛のない君の駆け引き
+Dialogue: 0,0:02:19.35,0:02:22.50,OPJP,NTP,0,0,0,,{\fad(150,250)}我儘も　強がりも
+Dialogue: 0,0:02:22.69,0:02:25.79,OPJP,NTP,0,0,0,,{\fad(150,250)}背中合わせ
+Dialogue: 0,0:02:25.87,0:02:29.37,OPJP,NTP,0,0,0,,{\fad(150,250)}でもね　振り返るたびに
+Dialogue: 0,0:02:29.41,0:02:33.91,OPJP,NTP,0,0,0,,{\fad(150,250)}甘い恋のメロディー
+Dialogue: 0,0:02:33.98,0:02:39.57,OPJP,NTP,0,0,0,,{\fad(150,250)}震える唇が求めている
+Dialogue: 0,0:02:39.93,0:02:43.48,OPJP,NTP,0,0,0,,{\fad(150,250)}ほらね　手を伸ばす先に
+Dialogue: 0,0:02:43.49,0:02:47.69,OPJP,NTP,0,0,0,,{\fad(150,250)}胸が高鳴るシンフォニー
+Dialogue: 0,0:02:47.70,0:02:50.99,OPJP,NTP,0,0,0,,{\fad(150,250)}目と目で通じ合う
+Dialogue: 0,0:02:50.99,0:02:57.02,OPJP,NTP,0,0,0,,{\fad(150,250)}二人だけのsecret flower
+Dialogue: 0,0:23:26.80,0:23:26.80,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:01.00,0:00:01.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:35.83,0:00:38.78,STAFF,NTP,0,0,0,,{\an8\fad(500,500)}本字幕由TSDM字幕組提供 僅供試看之用 如果喜歡本作品 請支持並購買正版！
+Dialogue: 0,0:00:39.54,0:00:43.40,STAFF,NTP,0,0,0,,{\an8\fad(500,500)}翻譯：深曉遊人 痕痕  校對\後期：夢之
+Dialogue: 0,0:22:02.92,0:22:04.51,EDJP,NTP,0,0,0,,{\fad(150,250)}一緒に帰ろう
+Dialogue: 0,0:22:04.61,0:22:07.93,EDJP,NTP,0,0,0,,{\fad(150,250)}いつもの場所で会って
+Dialogue: 0,0:22:08.09,0:22:13.07,EDJP,NTP,0,0,0,,{\fad(150,250)}ゆっくり遠回りして
+Dialogue: 0,0:22:13.20,0:22:18.23,EDJP,NTP,0,0,0,,{\fad(150,250)}心も弾む　大幅をあわせて
+Dialogue: 0,0:22:18.31,0:22:23.30,EDJP,NTP,0,0,0,,{\fad(150,250)}you by me 伸びる影法師
+Dialogue: 0,0:22:23.38,0:22:25.34,EDJP,NTP,0,0,0,,{\fad(150,250)}少しだけ　先を行く
+Dialogue: 0,0:22:25.50,0:22:33.25,EDJP,NTP,0,0,0,,{\fad(150,250)}猫背の君は今なにを思ってる
+Dialogue: 0,0:22:33.33,0:22:38.35,EDJP,NTP,0,0,0,,{\fad(150,250)}目を閉じて感じてみて
+Dialogue: 0,0:22:38.65,0:22:43.03,EDJP,NTP,0,0,0,,{\fad(150,250)}放課後の約束は
+Dialogue: 0,0:22:43.18,0:22:48.55,EDJP,NTP,0,0,0,,{\fad(150,250)}两人の秘め事
+Dialogue: 0,0:22:48.82,0:22:53.86,EDJP,NTP,0,0,0,,{\fad(150,250)}日が暮れるまでのエトセトラ
+Dialogue: 0,0:22:53.95,0:22:57.79,EDJP,NTP,0,0,0,,{\fad(150,250)}それじゃね　まだでもね
+Dialogue: 0,0:22:57.87,0:23:03.78,EDJP,NTP,0,0,0,,{\fad(150,250)}このままじゃ　帰れない
+Dialogue: 0,0:23:04.04,0:23:13.98,EDJP,NTP,0,0,0,,{\fad(150,250)}魔法仕掛けの日々が続きますように
+Dialogue: 0,0:23:26.79,0:23:28.79,TITLE,NTP,0,0,0,,
+Dialogue: 0,0:22:02.92,0:22:04.51,EDCN,NTP,0,0,0,,{\fad(150,250)}一起回去吧
+Dialogue: 0,0:22:04.61,0:22:07.93,EDCN,NTP,0,0,0,,{\fad(150,250)}在老地方見面
+Dialogue: 0,0:22:08.09,0:22:13.07,EDCN,NTP,0,0,0,,{\fad(150,250)}悠閒地繞遠路
+Dialogue: 0,0:22:13.20,0:22:18.23,EDCN,NTP,0,0,0,,{\fad(150,250)}心動的感覺被放大
+Dialogue: 0,0:22:18.31,0:22:23.30,EDCN,NTP,0,0,0,,{\fad(150,250)}you by me 伸長的人影
+Dialogue: 0,0:22:23.38,0:22:25.34,EDCN,NTP,0,0,0,,{\fad(150,250)}稍稍走在前頭
+Dialogue: 0,0:22:25.50,0:22:33.25,EDCN,NTP,0,0,0,,{\fad(150,250)}垂著肩的你現在在想什麼
+Dialogue: 0,0:22:33.33,0:22:38.35,EDCN,NTP,0,0,0,,{\fad(150,250)}試著閉眼感受
+Dialogue: 0,0:22:38.65,0:22:43.03,EDCN,NTP,0,0,0,,{\fad(150,250)}放學後的約定
+Dialogue: 0,0:22:43.18,0:22:48.55,EDCN,NTP,0,0,0,,{\fad(150,250)}是兩人的秘密
+Dialogue: 0,0:22:48.82,0:22:53.86,EDCN,NTP,0,0,0,,{\fad(150,250)}直到天黑所做的種種
+Dialogue: 0,0:22:53.95,0:22:57.79,EDCN,NTP,0,0,0,,{\fad(150,250)}那麼再見 但是啊
+Dialogue: 0,0:22:57.87,0:23:03.78,EDCN,NTP,0,0,0,,{\fad(150,250)}這樣的話 回不去
+Dialogue: 0,0:23:04.04,0:23:13.98,EDCN,NTP,0,0,0,,{\fad(150,250)}希望施了魔法的日子永遠持續
+Dialogue: 0,0:23:14.09,0:23:24.03,Default,NTP,0,0,0,,
+Dialogue: 0,0:03:00.94,0:03:06.77,TITLE,NTP,0,0,0,,{\fad(1050,250)\pos(1184,435)}第3話
+Dialogue: 0,0:03:00.94,0:03:06.77,TITLE,NTP,0,0,0,,{\fad(1050,250)\pos(1210,508)}『迷之試管』
+Dialogue: 0,0:23:15.87,0:23:35.75,TITLE,NTP,0,0,0,,{\pos(1188,445)}第4話
+Dialogue: 0,0:23:15.87,0:23:35.75,TITLE,NTP,0,0,0,,{\pos(1211,511)}『謎之Gril Meets Gril』
+Dialogue: 0,0:02:15.03,0:02:17.03,OPJP,NTP,0,0,0,,
+Dialogue: 0,0:00:05.42,0:00:06.61,Default,NTP,0,0,0,,告辭了
+Dialogue: 0,0:00:13.98,0:00:15.68,Default,NTP,0,0,0,,終於完了
+Dialogue: 0,0:00:15.95,0:00:19.00,Default,NTP,0,0,0,,值日的工作還挺多的
+Dialogue: 0,0:00:20.90,0:00:23.72,Default,NTP,0,0,0,,今天沒能跟卜部一起回去呢
+Dialogue: 0,0:00:39.49,0:00:41.13,Default,NTP,0,0,0,,椿？
+Dialogue: 0,0:00:41.69,0:00:43.03,Default,NTP,0,0,0,,上野
+Dialogue: 0,0:00:44.32,0:00:45.84,Default,NTP,0,0,0,,看…看到了？
+Dialogue: 0,0:00:46.58,0:00:47.73,Default,NTP,0,0,0,,看到了
+Dialogue: 0,0:00:47.86,0:00:50.99,Default,NTP,0,0,0,,上野你…和丘在交往嗎
+Dialogue: 0,0:00:51.14,0:00:52.53,Default,NTP,0,0,0,,是的啊
+Dialogue: 0,0:00:52.64,0:00:56.02,Default,NTP,0,0,0,,其實一年級那時起就一直在交往了
+Dialogue: 0,0:00:56.40,0:00:58.86,Default,NTP,0,0,0,,之前明明還說過沒有女友的
+Dialogue: 0,0:00:58.99,0:01:01.92,Default,NTP,0,0,0,,哈哈 嘛 那個嘛
+Dialogue: 0,0:01:02.01,0:01:06.38,Default,NTP,0,0,0,,撇開這個 這件事不能對班上的人說啊
+Dialogue: 0,0:01:06.45,0:01:08.32,Default,NTP,0,0,0,,哈？為啥
+Dialogue: 0,0:01:09.19,0:01:13.12,Default,NTP,0,0,0,,該說是難為情 還是害羞呢
+Dialogue: 0,0:01:13.16,0:01:17.01,Default,NTP,0,0,0,,總之現在不想被任何人知道啊
+Dialogue: 0,0:01:17.08,0:01:18.94,Default,NTP,0,0,0,,要對大家保密啊
+Dialogue: 0,0:01:19.04,0:01:19.78,Default,NTP,0,0,0,,拜託了
+Dialogue: 0,0:03:05.19,0:03:07.80,Default,NTP,0,0,0,,在這裏要代入相同的數值
+Dialogue: 0,0:03:08.00,0:03:11.35,Default,NTP,0,0,0,,首先按順序代入從-3到+3的值比較好
+Dialogue: 0,0:03:11.38,0:03:12.85,Default,NTP,0,0,0,,原來這樣啊
+Dialogue: 0,0:03:13.64,0:03:19.26,Default,NTP,0,0,0,,上野和丘在交往啊
+Dialogue: 0,0:03:20.26,0:03:23.84,Default,NTP,0,0,0,,因為平時都沒看見他們在一起
+Dialogue: 0,0:03:24.45,0:03:27.85,Default,NTP,0,0,0,,完全沒發現他們在偷偷交往
+Dialogue: 0,0:03:28.18,0:03:30.65,Default,NTP,0,0,0,,但是說起來的話
+Dialogue: 0,0:03:31.61,0:03:37.92,Default,NTP,0,0,0,,我和卜部在交往這件事 班上的大家也沒人知道呢
+Dialogue: 0,0:03:40.07,0:03:43.55,Default,NTP,0,0,0,,上野和丘已經發展到接吻階段了嗎
+Dialogue: 0,0:03:48.85,0:03:51.19,Default,NTP,0,0,0,,接吻 真好啊
+Dialogue: 0,0:03:58.49,0:03:59.50,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:03:59.98,0:04:01.57,Default,NTP,0,0,0,,什麼事
+Dialogue: 0,0:04:03.21,0:04:05.62,Default,NTP,0,0,0,,去那邊的公園稍微逛逛嗎
+Dialogue: 0,0:04:06.01,0:04:07.04,Default,NTP,0,0,0,,可以
+Dialogue: 0,0:04:10.41,0:04:12.22,Default,NTP,0,0,0,,今天有作業對吧
+Dialogue: 0,0:04:12.70,0:04:13.92,Default,NTP,0,0,0,,只有一點而已
+Dialogue: 0,0:04:13.98,0:04:15.71,Default,NTP,0,0,0,,我想在這裏做了算了
+Dialogue: 0,0:04:15.89,0:04:17.30,Default,NTP,0,0,0,,啊 原來如此
+Dialogue: 0,0:04:17.86,0:04:19.80,Default,NTP,0,0,0,,那我也做吧
+Dialogue: 0,0:04:26.13,0:04:27.16,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:04:28.18,0:04:31.19,Default,NTP,0,0,0,,我們班有叫上野和丘的吧
+Dialogue: 0,0:04:32.24,0:04:35.39,Default,NTP,0,0,0,,那兩人啊 其實在交往著哦
+Dialogue: 0,0:04:36.54,0:04:39.01,Default,NTP,0,0,0,,昨天放學後 在沒人的教室裏
+Dialogue: 0,0:04:39.08,0:04:42.85,Default,NTP,0,0,0,,他們在接吻的時候被我意外碰見了
+Dialogue: 0,0:04:42.93,0:04:44.08,Default,NTP,0,0,0,,嚇了我一跳呢
+Dialogue: 0,0:04:44.23,0:04:45.60,Default,NTP,0,0,0,,嗯…
+Dialogue: 0,0:04:48.40,0:04:49.82,Default,NTP,0,0,0,,沒興趣嗎
+Dialogue: 0,0:04:51.50,0:04:52.57,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:04:54.23,0:04:57.45,Default,NTP,0,0,0,,現在想和我接吻嗎
+Dialogue: 0,0:05:01.18,0:05:06.67,Default,NTP,0,0,0,,誒 不…那個…這個
+Dialogue: 0,0:05:07.55,0:05:08.45,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:05:15.87,0:05:18.79,Default,NTP,0,0,0,,椿 這個 幫我拿一下
+Dialogue: 0,0:05:19.18,0:05:20.73,Default,NTP,0,0,0,,試管？
+Dialogue: 0,0:05:43.49,0:05:45.24,Default,NTP,0,0,0,,臉很紅
+Dialogue: 0,0:05:46.87,0:05:48.18,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:05:48.34,0:05:49.68,Default,NTP,0,0,0,,給我試管
+Dialogue: 0,0:06:12.80,0:06:16.54,Default,NTP,0,0,0,,椿 今晚睡之前舔這個
+Dialogue: 0,0:06:24.97,0:06:29.72,Default,NTP,0,0,0,,這個 到底跟接吻有啥關係呢
+Dialogue: 0,0:06:31.53,0:06:32.53,Default,NTP,0,0,0,,晚安
+Dialogue: 0,0:06:32.76,0:06:34.21,Default,NTP,0,0,0,,這就要睡了嗎
+Dialogue: 0,0:06:34.26,0:06:35.38,Default,NTP,0,0,0,,還是九點而已哦
+Dialogue: 0,0:06:35.42,0:06:36.84,Default,NTP,0,0,0,,我困了
+Dialogue: 0,0:06:39.16,0:06:42.00,Default,NTP,0,0,0,,宵夜和飯後咖啡我都不要
+Dialogue: 0,0:06:44.48,0:06:46.06,Default,NTP,0,0,0,,青春年華呢
+Dialogue: 0,0:07:13.30,0:07:17.92,Default,NTP,0,0,0,,卜部的口水 為啥這麼甜的呢
+Dialogue: 0,0:07:35.72,0:07:37.53,Default,NTP,0,0,0,,椿也要吃糖嗎
+Dialogue: 0,0:07:37.58,0:07:39.43,Default,NTP,0,0,0,,嗯 要吃
+Dialogue: 0,0:08:08.21,0:08:09.16,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:08:09.20,0:08:09.94,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:08:10.19,0:08:12.80,Default,NTP,0,0,0,,為啥嘴對嘴喂糖啊
+Dialogue: 0,0:08:12.83,0:08:13.83,Default,NTP,0,0,0,,哈？
+Dialogue: 0,0:08:14.53,0:08:16.11,Default,NTP,0,0,0,,你不喜歡吃過的嗎
+Dialogue: 0,0:08:16.34,0:08:17.56,Default,NTP,0,0,0,,那樣的話給你新的
+Dialogue: 0,0:08:17.62,0:08:19.64,Default,NTP,0,0,0,,不是這個問題啊
+Dialogue: 0,0:08:20.25,0:08:22.66,Default,NTP,0,0,0,,因為你嘴對嘴喂的
+Dialogue: 0,0:08:22.76,0:08:26.42,Default,NTP,0,0,0,,剛才的不就成了我們的初吻了嗎
+Dialogue: 0,0:08:27.14,0:08:28.45,Default,NTP,0,0,0,,沒啥不好的吧
+Dialogue: 0,0:08:29.54,0:08:32.44,Default,NTP,0,0,0,,看到上野跟丘接吻
+Dialogue: 0,0:08:32.51,0:08:33.98,Default,NTP,0,0,0,,很羨慕
+Dialogue: 0,0:08:34.43,0:08:36.29,Default,NTP,0,0,0,,就想快點跟我接吻
+Dialogue: 0,0:08:36.39,0:08:37.72,Default,NTP,0,0,0,,你是這樣想的吧
+Dialogue: 0,0:08:38.01,0:08:40.05,Default,NTP,0,0,0,,雖然是這樣
+Dialogue: 0,0:08:40.28,0:08:45.28,Default,NTP,0,0,0,,但是果然初吻不能是這種像突襲一樣的
+Dialogue: 0,0:08:46.98,0:08:50.41,Default,NTP,0,0,0,,我想應該要在雙方心意相通的時候才做的
+Dialogue: 0,0:08:53.36,0:08:55.28,Default,NTP,0,0,0,,夢啊
+Dialogue: 0,0:08:58.85,0:09:00.14,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:09:22.23,0:09:23.35,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:09:23.99,0:09:27.69,Default,NTP,0,0,0,,昨天按你說的那樣我舔了這個再去睡
+Dialogue: 0,0:09:28.08,0:09:30.33,Default,NTP,0,0,0,,感覺做了個奇怪的夢
+Dialogue: 0,0:09:31.63,0:09:32.66,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:09:34.30,0:09:36.62,Default,NTP,0,0,0,,來一下這邊
+Dialogue: 0,0:09:43.84,0:09:45.33,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:09:46.63,0:09:47.97,Default,NTP,0,0,0,,接吻吧
+Dialogue: 0,0:10:01.08,0:10:02.09,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:10:02.33,0:10:05.25,Default,NTP,0,0,0,,果然初吻是很重要的東西
+Dialogue: 0,0:10:05.73,0:10:07.51,Default,NTP,0,0,0,,不是這種偶爾的想法
+Dialogue: 0,0:10:07.69,0:10:11.38,Default,NTP,0,0,0,,我想在雙方心意相通的時候才做
+Dialogue: 0,0:10:12.33,0:10:13.84,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:10:17.16,0:10:19.00,Default,NTP,0,0,0,,我也這麼想的
+Dialogue: 0,0:10:19.34,0:10:21.76,Default,NTP,0,0,0,,真…真可愛
+Dialogue: 0,0:10:22.48,0:10:24.30,Default,NTP,0,0,0,,走吧
+Dialogue: 0,0:10:24.61,0:10:28.38,Default,NTP,0,0,0,,誒？ 剛才莫非害羞了嗎
+Dialogue: 0,0:10:28.79,0:10:34.06,Default,NTP,0,0,0,,但是啊 要等到雙方心意相通啊
+Dialogue: 0,0:10:36.58,0:10:38.92,Default,NTP,0,0,0,,怎樣才能相通呢
+Dialogue: 0,0:10:42.32,0:10:43.94,Default,NTP,0,0,0,,相通
+Dialogue: 0,0:10:52.17,0:10:54.23,Default,NTP,0,0,0,,你在幹啥啊 椿
+Dialogue: 0,0:10:54.59,0:10:55.93,Default,NTP,0,0,0,,抱歉
+Dialogue: 0,0:11:12.27,0:11:14.73,Default,NTP,0,0,0,,心意相通
+Dialogue: 0,0:11:28.81,0:11:29.58,Default,NTP,0,0,0,,誒？
+Dialogue: 0,0:11:29.64,0:11:30.97,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:11:31.01,0:11:32.07,Default,NTP,0,0,0,,你聽我說啊
+Dialogue: 0,0:11:32.11,0:11:33.70,Default,NTP,0,0,0,,最近啊 有只奇怪的貓…
+Dialogue: 0,0:11:36.59,0:11:37.79,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:11:39.60,0:11:42.18,Default,NTP,0,0,0,,那個是要拿去焚燒爐的吧
+Dialogue: 0,0:11:42.27,0:11:43.17,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:11:43.31,0:11:45.09,Default,NTP,0,0,0,,我幫你拿吧
+Dialogue: 0,0:11:49.67,0:11:51.01,Default,NTP,0,0,0,,等…等等
+Dialogue: 0,0:11:51.09,0:11:52.45,Default,NTP,0,0,0,,不要就這麼自己走了啊
+Dialogue: 0,0:11:53.42,0:11:55.70,Default,NTP,0,0,0,,我有事想跟你說
+Dialogue: 0,0:11:55.80,0:11:57.91,Default,NTP,0,0,0,,一起到焚燒爐去吧
+Dialogue: 0,0:12:01.19,0:12:06.15,Default,NTP,0,0,0,,那啥 想和你說的就是…
+Dialogue: 0,0:12:07.08,0:12:08.35,Default,NTP,0,0,0,,就是
+Dialogue: 0,0:12:11.17,0:12:16.28,Default,NTP,0,0,0,,卜部 能和我交往嗎
+Dialogue: 0,0:12:32.00,0:12:34.53,Default,NTP,0,0,0,,話說 卜部
+Dialogue: 0,0:12:34.70,0:12:36.82,Default,NTP,0,0,0,,剛才打掃的時候
+Dialogue: 0,0:12:37.47,0:12:38.70,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:12:45.03,0:12:46.62,Default,NTP,0,0,0,,給 今天的份
+Dialogue: 0,0:12:50.43,0:12:52.15,Default,NTP,0,0,0,,還有呢 椿
+Dialogue: 0,0:12:53.17,0:12:56.25,Default,NTP,0,0,0,,我們班不是有個叫尾形的人嗎
+Dialogue: 0,0:12:57.36,0:13:01.87,Default,NTP,0,0,0,,那個人對我告白說「能和我交往嗎」
+Dialogue: 0,0:13:04.26,0:13:05.24,Default,NTP,0,0,0,,什麼時候
+Dialogue: 0,0:13:05.45,0:13:06.93,Default,NTP,0,0,0,,今天打掃的時候
+Dialogue: 0,0:13:07.63,0:13:14.37,Default,NTP,0,0,0,,卜部雖然有點怪 感覺和其他女生的氣質不同
+Dialogue: 0,0:13:14.84,0:13:17.01,Default,NTP,0,0,0,,有點神秘感
+Dialogue: 0,0:13:17.83,0:13:23.04,Default,NTP,0,0,0,,其實我在你轉校過來那時開始就一直注意你了
+Dialogue: 0,0:13:24.95,0:13:28.52,Default,NTP,0,0,0,,雖說是交往 其實不用想得太複雜的
+Dialogue: 0,0:13:28.62,0:13:32.48,Default,NTP,0,0,0,,一開始只會從放學一起回家開始
+Dialogue: 0,0:13:32.61,0:13:37.76,Default,NTP,0,0,0,,我想要是能漸漸相互瞭解對方…
+Dialogue: 0,0:13:38.35,0:13:40.04,Default,NTP,0,0,0,,怎麼樣
+Dialogue: 0,0:13:40.21,0:13:41.71,Default,NTP,0,0,0,,神秘？
+Dialogue: 0,0:13:41.88,0:13:43.84,Default,NTP,0,0,0,,的確秘密有很多
+Dialogue: 0,0:13:44.32,0:13:47.96,Default,NTP,0,0,0,,然後被告白之後 卜部你怎麼回答的
+Dialogue: 0,0:13:48.23,0:13:49.88,Default,NTP,0,0,0,,我讓他等我一天
+Dialogue: 0,0:13:50.17,0:13:52.21,Default,NTP,0,0,0,,明天會給他答案
+Dialogue: 0,0:13:52.41,0:13:53.60,Default,NTP,0,0,0,,明天？
+Dialogue: 0,0:13:54.05,0:13:56.94,Default,NTP,0,0,0,,我明天去和尾形說一聲
+Dialogue: 0,0:13:57.02,0:14:01.79,Default,NTP,0,0,0,,卜部是我的女朋友 所以不要對卜部說那些事了
+Dialogue: 0,0:14:01.89,0:14:02.83,Default,NTP,0,0,0,,那可不行
+Dialogue: 0,0:14:03.86,0:14:04.96,Default,NTP,0,0,0,,為什麼
+Dialogue: 0,0:14:05.26,0:14:07.98,Default,NTP,0,0,0,,這是被告白的我的問題
+Dialogue: 0,0:14:08.46,0:14:10.30,Default,NTP,0,0,0,,椿什麼都不能做
+Dialogue: 0,0:14:11.60,0:14:12.62,Default,NTP,0,0,0,,再見
+Dialogue: 0,0:14:13.88,0:14:16.53,Default,NTP,0,0,0,,椿 明天見
+Dialogue: 0,0:14:19.00,0:14:20.18,Default,NTP,0,0,0,,晚安
+Dialogue: 0,0:14:20.73,0:14:22.90,Default,NTP,0,0,0,,今天也睡得很早呢
+Dialogue: 0,0:14:23.27,0:14:24.33,Default,NTP,0,0,0,,什麼嘛
+Dialogue: 0,0:14:24.51,0:14:25.92,Default,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:14:26.56,0:14:27.44,Default,NTP,0,0,0,,對了 姐姐
+Dialogue: 0,0:14:27.49,0:14:30.18,Default,NTP,0,0,0,,宵夜和飯後咖啡都不要對吧
+Dialogue: 0,0:14:30.28,0:14:32.10,Default,NTP,0,0,0,,嗯…是的
+Dialogue: 0,0:14:34.86,0:14:36.88,Default,NTP,0,0,0,,青春年華嘛
+Dialogue: 0,0:14:38.37,0:14:42.20,Default,NTP,0,0,0,,為什麼 為什麼是明天啊
+Dialogue: 0,0:14:43.17,0:14:48.59,Default,NTP,0,0,0,,既然有我這個男朋友了 那種告白當場拒絕不就好了
+Dialogue: 0,0:14:50.50,0:14:56.69,Default,NTP,0,0,0,,不過尾形是 足球社的正選 很出名
+Dialogue: 0,0:14:57.07,0:15:00.66,Default,NTP,0,0,0,,而且長相也好 很受女生歡迎
+Dialogue: 0,0:15:01.08,0:15:05.00,Default,NTP,0,0,0,,那就是說 卜部會延遲一天回復是因為…
+Dialogue: 0,0:15:05.08,0:15:09.38,Default,NTP,0,0,0,,卜部在煩惱是選我還是尾形嗎
+Dialogue: 0,0:15:09.41,0:15:13.33,Default,NTP,0,0,0,,怎麼會 怎麼會…  怎麼可能
+Dialogue: 0,0:15:14.00,0:15:15.67,Default,NTP,0,0,0,,怎麼可能
+Dialogue: 0,0:15:50.39,0:15:52.48,Default,NTP,0,0,0,,結果沒有睡著
+Dialogue: 0,0:15:59.57,0:16:04.17,Default,NTP,0,0,0,,也就是X=3 Y=6
+Dialogue: 0,0:16:04.82,0:16:08.77,Default,NTP,0,0,0,,從這裏把二次方程因式分解 就能…
+Dialogue: 0,0:16:27.29,0:16:29.63,Default,NTP,0,0,0,,你怎麼了 椿 要上廁所嗎
+Dialogue: 0,0:16:32.81,0:16:34.97,Default,NTP,0,0,0,,喂 那個是我的
+Dialogue: 0,0:16:36.92,0:16:38.01,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:16:38.77,0:16:40.23,Default,NTP,0,0,0,,能佔用你一點時間嗎
+Dialogue: 0,0:16:49.94,0:16:54.07,Default,NTP,0,0,0,,卜部 昨天的回復能告訴我了嗎
+Dialogue: 0,0:16:54.26,0:16:59.00,Default,NTP,0,0,0,,尾形 現在能把眼睛稍微閉上會兒嗎
+Dialogue: 0,0:16:59.12,0:17:01.41,Default,NTP,0,0,0,,眼睛？為什麼
+Dialogue: 0,0:17:01.65,0:17:04.13,Default,NTP,0,0,0,,無論如何 拜託了
+Dialogue: 0,0:17:05.14,0:17:07.63,Default,NTP,0,0,0,,我明白了
+Dialogue: 0,0:17:23.50,0:17:25.52,Default,NTP,0,0,0,,你剛才幹了什麼
+Dialogue: 0,0:17:25.75,0:17:28.16,Default,NTP,0,0,0,,尾形 你現在感覺怎麼樣
+Dialogue: 0,0:17:28.23,0:17:29.83,Default,NTP,0,0,0,,誒？ 什麼感覺？
+Dialogue: 0,0:17:30.27,0:17:32.17,Default,NTP,0,0,0,,身體感覺有點奇怪之類的
+Dialogue: 0,0:17:32.30,0:17:35.56,Default,NTP,0,0,0,,你現在沒有感覺身體有什麼異常嗎
+Dialogue: 0,0:17:35.86,0:17:37.39,Default,NTP,0,0,0,,身體有異常？
+Dialogue: 0,0:17:37.66,0:17:39.82,Default,NTP,0,0,0,,不 什麼都沒有
+Dialogue: 0,0:17:45.64,0:17:46.89,Default,NTP,0,0,0,,卜部？
+Dialogue: 0,0:17:47.00,0:17:48.20,Default,NTP,0,0,0,,尾形
+Dialogue: 0,0:17:48.44,0:17:49.34,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:17:49.92,0:17:54.59,Default,NTP,0,0,0,,我想你永遠都做不了我的男朋友
+Dialogue: 0,0:18:09.65,0:18:12.47,Default,NTP,0,0,0,,這種日子風這麼大真令人困擾
+Dialogue: 0,0:18:12.82,0:18:13.94,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:18:14.10,0:18:15.01,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:18:15.07,0:18:18.58,Default,NTP,0,0,0,,今天你怎麼回復尾形的
+Dialogue: 0,0:18:18.85,0:18:20.79,Default,NTP,0,0,0,,我當然是拒絕掉了
+Dialogue: 0,0:18:21.35,0:18:23.23,Default,NTP,0,0,0,,「我是不會和你交往的」
+Dialogue: 0,0:18:27.25,0:18:32.81,Default,NTP,0,0,0,,我其實聽到卜部你說給尾形的回復要延遲一天
+Dialogue: 0,0:18:32.93,0:18:36.97,Default,NTP,0,0,0,,以為卜部在煩惱是選我還是尾形呢
+Dialogue: 0,0:18:37.05,0:18:38.76,Default,NTP,0,0,0,,有點擔心
+Dialogue: 0,0:18:38.85,0:18:39.85,Default,NTP,0,0,0,,椿
+Dialogue: 0,0:18:40.92,0:18:42.02,Default,NTP,0,0,0,,把嘴張開
+Dialogue: 0,0:19:10.80,0:19:12.83,Default,NTP,0,0,0,,怎麼突然流鼻血了
+Dialogue: 0,0:19:12.91,0:19:14.01,Default,NTP,0,0,0,,果然
+Dialogue: 0,0:19:14.57,0:19:15.61,Default,NTP,0,0,0,,果然？
+Dialogue: 0,0:19:15.67,0:19:17.40,Default,NTP,0,0,0,,果然什麼？
+Dialogue: 0,0:19:20.39,0:19:22.27,Default,NTP,0,0,0,,椿 拿著這個
+Dialogue: 0,0:19:24.02,0:19:25.73,Default,NTP,0,0,0,,這是什麼
+Dialogue: 0,0:19:30.52,0:19:34.60,Default,NTP,0,0,0,,那個是我今天本該穿的內褲
+Dialogue: 0,0:19:38.14,0:19:43.95,Default,NTP,0,0,0,,我從今天早上到現在就是真空的
+Dialogue: 0,0:19:45.63,0:19:49.29,Default,NTP,0,0,0,,我之所以要延遲一天回復尾形
+Dialogue: 0,0:19:49.81,0:19:54.84,Default,NTP,0,0,0,,是因為要拿我和椿的羈絆和其他人的對比並確認一下
+Dialogue: 0,0:19:55.76,0:19:58.93,Default,NTP,0,0,0,,我今天因為一直都沒穿內褲
+Dialogue: 0,0:19:59.21,0:20:01.87,Default,NTP,0,0,0,,精神狀態和往常不同
+Dialogue: 0,0:20:02.56,0:20:07.47,Default,NTP,0,0,0,,所以和我有這羈絆的人舔了我的口水的話
+Dialogue: 0,0:20:07.81,0:20:10.64,Default,NTP,0,0,0,,那個人的身體肯定會發生什麼異常
+Dialogue: 0,0:20:10.88,0:20:13.88,Default,NTP,0,0,0,,異常？ 就是這些鼻血？
+Dialogue: 0,0:20:14.45,0:20:19.76,Default,NTP,0,0,0,,尾形舔了我的口水之後也沒有出現任何異常
+Dialogue: 0,0:20:20.30,0:20:22.54,Default,NTP,0,0,0,,但是椿出現了異常
+Dialogue: 0,0:20:23.75,0:20:25.43,Default,NTP,0,0,0,,就是說…
+Dialogue: 0,0:20:26.34,0:20:29.36,Default,NTP,0,0,0,,現在我和椿心靈相通了
+Dialogue: 0,0:20:32.63,0:20:35.39,Default,NTP,0,0,0,,與我有羈絆的男生
+Dialogue: 0,0:20:35.88,0:20:39.45,Default,NTP,0,0,0,,我的男朋友 只會是椿哦
+Dialogue: 0,0:20:50.88,0:20:52.47,Default,NTP,0,0,0,,卜部
+Dialogue: 0,0:20:56.81,0:20:58.81,Default,NTP,0,0,0,,說起來今天這裏沒有來著
+Dialogue: 0,0:20:58.93,0:21:01.66,Default,NTP,0,0,0,,剛才準備要用內褲剪刀的啊
+Dialogue: 0,0:21:02.32,0:21:05.73,Default,NTP,0,0,0,,現在裙子要是翻起來的話就會變得很嚴重…
+Dialogue: 0,0:21:10.67,0:21:12.79,Default,NTP,0,0,0,,不能隨便抱人家
+Dialogue: 0,0:21:13.61,0:21:14.58,Default,NTP,0,0,0,,是
+Dialogue: 0,0:21:18.12,0:21:19.16,Default,NTP,0,0,0,,走吧
+Dialogue: 0,0:21:26.11,0:21:27.76,Default,NTP,0,0,0,,明天再還吧
+Dialogue: 0,0:21:29.14,0:21:31.99,Default,NTP,0,0,0,,我的女朋友 卜部美琴
+Dialogue: 0,0:21:32.27,0:21:34.66,Default,NTP,0,0,0,,今天果然依舊是謎樣的女友
+Dialogue: 0,0:21:35.45,0:21:37.13,Default,NTP,0,0,0,,接吻雖然還沒有過
+Dialogue: 0,0:21:38.04,0:21:41.37,Default,NTP,0,0,0,,不過現在這樣就好
+Dialogue: 0,0:23:17.26,0:23:20.29,Default,NTP,0,0,0,,椿 你手指上的試管是怎麼回事
+Dialogue: 0,0:23:20.61,0:23:24.34,Default,NTP,0,0,0,,想把卜部的口水都挖出來 把手指塞進去之後…
+Dialogue: 0,0:23:24.42,0:23:25.88,Default,NTP,0,0,0,,結果拔不出來了
+Dialogue: 0,0:23:27.00,0:23:30.15,Default,NTP,0,0,0,,次回 謎之彼女X 第4話
+Dialogue: 0,0:23:30.28,0:23:32.28,Default,NTP,0,0,0,,謎之Gril Meets Gril
+Dialogue: 0,0:23:33.09,0:23:35.83,Default,NTP,0,0,0,,卜部你臉好紅
+

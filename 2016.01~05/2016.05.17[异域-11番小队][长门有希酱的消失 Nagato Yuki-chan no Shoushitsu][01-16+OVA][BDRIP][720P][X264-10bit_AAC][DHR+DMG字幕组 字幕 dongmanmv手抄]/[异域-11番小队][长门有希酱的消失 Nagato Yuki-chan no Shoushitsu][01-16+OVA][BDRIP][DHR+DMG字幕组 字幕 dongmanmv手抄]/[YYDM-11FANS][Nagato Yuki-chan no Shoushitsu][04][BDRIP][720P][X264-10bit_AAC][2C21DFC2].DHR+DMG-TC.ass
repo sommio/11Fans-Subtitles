@@ -1,0 +1,385 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,1,2,15,15,15,1
+Style: title,SimSun,45,&H00FFFFFF,&H00FFFFFF,&H001718C5,&HF0FFFFFF,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,7,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.87,0:00:02.62,Default,NTP,0,0,0,,放馬過來
+Dialogue: 0,0:00:04.04,0:00:04.71,Default,NTP,0,0,0,,然後呢
+Dialogue: 0,0:00:04.84,0:00:08.05,Default,NTP,0,0,0,,作為懲罰 命令他們兩個去買零食
+Dialogue: 0,0:00:09.21,0:00:13.68,Default,NTP,0,0,0,,也就是說他們在這麼冷的天裏出去買東西啊
+Dialogue: 0,0:00:13.89,0:00:17.56,Default,NTP,0,0,0,,嗯 今天可是很冷的呢
+Dialogue: 0,0:00:18.06,0:00:20.77,Default,NTP,0,0,0,,話說你看起來穿得很冷啊
+Dialogue: 0,0:00:20.77,0:00:22.81,Default,NTP,0,0,0,,我沒問題的啦
+Dialogue: 0,0:00:23.60,0:00:25.52,Default,NTP,0,0,0,,古泉 好可憐
+Dialogue: 0,0:00:25.94,0:00:26.90,Default,NTP,0,0,0,,阿虛就不用關心啦？
+Dialogue: 0,0:00:29.65,0:00:31.28,Default,NTP,0,0,0,,我來打擾啦
+Dialogue: 0,0:00:31.78,0:00:33.53,Default,NTP,0,0,0,,打擾了
+Dialogue: 0,0:00:34.28,0:00:35.07,Default,NTP,0,0,0,,實玖琉
+Dialogue: 0,0:00:35.78,0:00:37.16,Default,NTP,0,0,0,,給我等一下
+Dialogue: 0,0:00:38.04,0:00:38.45,Default,NTP,0,0,0,,哈？
+Dialogue: 0,0:00:38.99,0:00:40.87,Default,NTP,0,0,0,,想要調戲我家實玖琉的話
+Dialogue: 0,0:00:42.58,0:00:45.25,Default,NTP,0,0,0,,先來把我放倒了再說
+Dialogue: 0,0:00:46.92,0:00:48.50,Default,NTP,0,0,0,,想要跟我決鬥的意思啊
+Dialogue: 0,0:00:55.26,0:00:56.26,Default,NTP,0,0,0,,我不允許
+Dialogue: 0,0:00:56.76,0:00:58.56,Default,NTP,0,0,0,,在活動室裏禁止戰鬥
+Dialogue: 0,0:00:58.93,0:01:00.22,Default,NTP,0,0,0,,對吧 社長
+Dialogue: 0,0:01:02.06,0:01:02.64,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:01:03.56,0:01:06.31,Default,NTP,0,0,0,,可是 實玖琉太可愛了啊
+Dialogue: 0,0:01:06.94,0:01:09.19,Default,NTP,0,0,0,,你那心情 我能理解的
+Dialogue: 0,0:01:09.48,0:01:10.48,Default,NTP,0,0,0,,能理解啊？
+Dialogue: 0,0:01:10.69,0:01:14.03,Default,NTP,0,0,0,,在自動販賣機旁掉有實玖琉的話會撿起來對吧
+Dialogue: 0,0:01:14.49,0:01:16.99,Default,NTP,0,0,0,,那是貓咪比喻還是零錢比喻？
+Dialogue: 0,0:01:17.20,0:01:18.78,Default,NTP,0,0,0,,給我等一下
+Dialogue: 0,0:01:19.03,0:01:22.16,Default,NTP,0,0,0,,居然無視我家長門就討論可愛東西
+Dialogue: 0,0:01:22.25,0:01:23.62,Default,NTP,0,0,0,,為什麼要跟他們較勁
+Dialogue: 0,0:01:24.92,0:01:27.00,Default,NTP,0,0,0,,好吧 我接受
+Dialogue: 0,0:01:27.38,0:01:28.75,Default,NTP,0,0,0,,是的 接受你的挑戰
+Dialogue: 0,0:01:30.05,0:01:34.17,Default,NTP,0,0,0,,長門睡覺的時候要是對她說話的話會叫我「媽媽」
+Dialogue: 0,0:01:34.26,0:01:35.93,Default,NTP,0,0,0,,會感冒的啊
+Dialogue: 0,0:01:36.26,0:01:37.64,Default,NTP,0,0,0,,媽媽 再讓我睡一下
+Dialogue: 0,0:01:38.10,0:01:40.06,Default,NTP,0,0,0,,咦？這不是比喻啊
+Dialogue: 0,0:01:40.18,0:01:41.52,Default,NTP,0,0,0,,話說那是真的嗎？
+Dialogue: 0,0:01:42.02,0:01:43.27,Default,NTP,0,0,0,,你太天真了
+Dialogue: 0,0:01:43.77,0:01:45.94,Default,NTP,0,0,0,,實玖琉追貓咪的話會撞到電線桿
+Dialogue: 0,0:01:46.06,0:01:47.27,Default,NTP,0,0,0,,仰望天空的話掉水溝
+Dialogue: 0,0:01:47.31,0:01:49.27,Default,NTP,0,0,0,,而且百發百中
+Dialogue: 0,0:01:49.48,0:01:52.28,Default,NTP,0,0,0,,說得好像我每天都會那樣似的
+Dialogue: 0,0:01:52.69,0:01:54.11,Default,NTP,0,0,0,,雖說偶爾會有
+Dialogue: 0,0:01:54.24,0:01:58.37,Default,NTP,0,0,0,,沒什麼 長門每天在浴室的鏡子前確認肚子的狀況
+Dialogue: 0,0:01:58.87,0:01:59.87,Default,NTP,0,0,0,,為什麼要說
+Dialogue: 0,0:01:59.87,0:02:00.83,Default,NTP,0,0,0,,為什麼要說啊
+Dialogue: 0,0:02:00.91,0:02:02.62,Default,NTP,0,0,0,,這不是什麼害羞的事吧
+Dialogue: 0,0:02:02.91,0:02:04.00,Default,NTP,0,0,0,,既然你都說的這麼徹底了
+Dialogue: 0,0:02:04.00,0:02:04.91,Default,NTP,0,0,0,,那我要丟大招了
+Dialogue: 0,0:02:04.96,0:02:07.92,Default,NTP,0,0,0,,實玖琉的胸前有個星形的黑痣
+Dialogue: 0,0:02:08.04,0:02:10.13,Default,NTP,0,0,0,,出來了 我不知道的情報
+Dialogue: 0,0:02:11.55,0:02:12.38,Default,NTP,0,0,0,,真的有
+Dialogue: 0,0:02:13.63,0:02:15.38,Default,NTP,0,0,0,,真有你的 鶴屋學姐
+Dialogue: 0,0:02:15.92,0:02:19.01,Default,NTP,0,0,0,,居然拿出連本人都不知道的情報
+Dialogue: 0,0:02:19.22,0:02:22.51,Default,NTP,0,0,0,,怎麼辦？這樣下去的話要輸了喔
+Dialogue: 0,0:02:22.93,0:02:24.35,Default,NTP,0,0,0,,不…不要煽動她啊
+Dialogue: 0,0:02:24.98,0:02:29.48,Default,NTP,0,0,0,,朝倉 算了吧 你不會有奇怪的情報對吧
+Dialogue: 0,0:02:29.86,0:02:30.86,Default,NTP,0,0,0,,不 我有
+Dialogue: 0,0:02:31.57,0:02:32.27,Default,NTP,0,0,0,,有喔…
+Dialogue: 0,0:02:33.86,0:02:34.82,Default,NTP,0,0,0,,長門她
+Dialogue: 0,0:02:34.99,0:02:39.70,Default,NTP,0,0,0,,為了即將來臨的情人節偷偷的買了材料 藏起來了
+Dialogue: 0,0:02:46.71,0:02:48.67,Default,NTP,0,0,0,,享受節日是好事啦
+Dialogue: 0,0:02:49.50,0:02:54.71,Default,NTP,0,0,0,,是喔 完全不是害羞的事啊
+Dialogue: 0,0:02:55.09,0:02:57.67,Default,NTP,0,0,0,,沒有偷偷做的必要啊
+Dialogue: 0,0:02:58.51,0:03:00.30,Default,NTP,0,0,0,,就是說啊
+Dialogue: 0,0:04:37.32,0:04:38.94,Default,NTP,0,0,0,,{\an8}平安時代的戀愛
+Dialogue: 0,0:04:39.15,0:04:42.20,Default,NTP,0,0,0,,{\an8}雖說門第跟財富都很重要
+Dialogue: 0,0:04:42.49,0:04:45.49,Default,NTP,0,0,0,,{\an8}但不管怎麼說不會和歌就不受歡迎
+Dialogue: 0,0:04:46.12,0:04:50.75,Default,NTP,0,0,0,,{\an8}因為那時是用和歌互通書信的
+Dialogue: 0,0:04:50.37,0:04:52.33,Default,NTP,0,0,0,,不好意思 阿虛
+Dialogue: 0,0:04:52.37,0:04:54.71,Default,NTP,0,0,0,,真的很痛啊 怎麼了
+Dialogue: 0,0:04:56.38,0:04:57.13,Default,NTP,0,0,0,,今天啊…
+Dialogue: 0,0:05:16.61,0:05:18.02,Default,NTP,0,0,0,,喔 怎麼了
+Dialogue: 0,0:05:18.27,0:05:22.11,Default,NTP,0,0,0,,特地出來門口來等我 真是相當用心啊
+Dialogue: 0,0:05:24.15,0:05:25.36,Default,NTP,0,0,0,,一個人嗎
+Dialogue: 0,0:05:25.66,0:05:26.41,Default,NTP,0,0,0,,古泉呢？
+Dialogue: 0,0:05:26.87,0:05:28.95,Default,NTP,0,0,0,,委員會那有工作 好像來不了
+Dialogue: 0,0:05:29.41,0:05:31.04,Default,NTP,0,0,0,,這樣啊 那正好
+Dialogue: 0,0:05:31.33,0:05:33.75,Default,NTP,0,0,0,,長門跟朝倉也好像有事要做
+Dialogue: 0,0:05:34.96,0:05:37.25,Default,NTP,0,0,0,,就我一人在活動室裏也沒事做
+Dialogue: 0,0:05:37.50,0:05:38.88,Default,NTP,0,0,0,,所以今天休息
+Dialogue: 0,0:05:39.13,0:05:44.22,Default,NTP,0,0,0,,就是這樣 為了不讓你非法入侵學校而在這等你
+Dialogue: 0,0:05:47.93,0:05:51.10,Default,NTP,0,0,0,,真·社長的我都沒問過就擅自休息
+Dialogue: 0,0:05:51.39,0:05:53.06,Default,NTP,0,0,0,,非法社員的你在說什麼啊
+Dialogue: 0,0:05:53.18,0:05:54.48,Default,NTP,0,0,0,,啊 對了
+Dialogue: 0,0:05:54.77,0:05:55.94,Default,NTP,0,0,0,,今天是13號
+Dialogue: 0,0:05:56.14,0:05:58.15,Default,NTP,0,0,0,,所以才休息啊
+Dialogue: 0,0:06:00.82,0:06:02.53,Default,NTP,0,0,0,,那麼我先走了
+Dialogue: 0,0:06:02.73,0:06:04.53,Default,NTP,0,0,0,,等一下那邊的年輕人
+Dialogue: 0,0:06:04.90,0:06:08.32,Default,NTP,0,0,0,,怎麼了 女學生 我可是很忙的
+Dialogue: 0,0:06:10.87,0:06:12.87,Default,NTP,0,0,0,,別磨磨蹭蹭的了 跟我來
+Dialogue: 0,0:06:12.87,0:06:13.91,Default,NTP,0,0,0,,所以說…
+Dialogue: 0,0:06:13.91,0:06:14.91,Default,NTP,0,0,0,,給我閉嘴
+Dialogue: 0,0:06:15.21,0:06:15.62,Default,NTP,0,0,0,,等…
+Dialogue: 0,0:06:18.12,0:06:19.29,Default,NTP,0,0,0,,到哪去啊？
+Dialogue: 0,0:06:20.54,0:06:24.38,Default,NTP,0,0,0,,那麼 雖然我想開始做了
+Dialogue: 0,0:06:25.84,0:06:28.30,Default,NTP,0,0,0,,這材料可真多啊
+Dialogue: 0,0:06:29.80,0:06:30.97,Default,NTP,0,0,0,,總而言之
+Dialogue: 0,0:06:31.56,0:06:33.72,Default,NTP,0,0,0,,大家都說機會是自己過來的
+Dialogue: 0,0:06:33.97,0:06:35.52,Default,NTP,0,0,0,,那都已經過時了
+Dialogue: 0,0:06:36.02,0:06:38.06,Default,NTP,0,0,0,,那不是過不過時的問題吧
+Dialogue: 0,0:06:38.60,0:06:39.90,Default,NTP,0,0,0,,要我說的話
+Dialogue: 0,0:06:40.02,0:06:44.90,Default,NTP,0,0,0,,被稱為不可思議的物品跟現象是不會那麼容易出現
+Dialogue: 0,0:06:44.99,0:06:48.24,Default,NTP,0,0,0,,而把他們找出來才有意義
+Dialogue: 0,0:06:48.49,0:06:48.99,Default,NTP,0,0,0,,喔是喔
+Dialogue: 0,0:06:49.41,0:06:55.12,Default,NTP,0,0,0,,所以啊我們必須主動的去找 不斷的發現它們
+Dialogue: 0,0:06:56.37,0:07:01.46,Default,NTP,0,0,0,,它們也肯定想著被發現一直在等著我們
+Dialogue: 0,0:07:02.59,0:07:06.30,Default,NTP,0,0,0,,不如說它們想著永遠的安眠不想被打擾呢
+Dialogue: 0,0:07:07.09,0:07:09.51,Default,NTP,0,0,0,,去把這世界的不可思議找出來
+Dialogue: 0,0:07:10.14,0:07:10.93,Default,NTP,0,0,0,,在哪找
+Dialogue: 0,0:07:11.89,0:07:12.30,Default,NTP,0,0,0,,不知道
+Dialogue: 0,0:07:13.60,0:07:15.22,Default,NTP,0,0,0,,你真不懂啊
+Dialogue: 0,0:07:15.72,0:07:19.48,Default,NTP,0,0,0,,不知道也會用不知道的方法把它找出來的
+Dialogue: 0,0:07:19.98,0:07:20.85,Default,NTP,0,0,0,,懂了嗎？
+Dialogue: 0,0:07:21.15,0:07:22.56,Default,NTP,0,0,0,,完全不懂
+Dialogue: 0,0:07:26.99,0:07:29.24,Default,NTP,0,0,0,,總之先是腳踏實地的做市內搜尋
+Dialogue: 0,0:07:29.57,0:07:32.87,Default,NTP,0,0,0,,你將能成為新歷史的開拓者
+Dialogue: 0,0:07:33.12,0:07:35.16,Default,NTP,0,0,0,,算了 你想怎樣就怎樣
+Dialogue: 0,0:07:40.08,0:07:42.79,Default,NTP,0,0,0,,好的準備好了
+Dialogue: 0,0:07:44.54,0:07:47.63,Default,NTP,0,0,0,,對了 我還沒問呢
+Dialogue: 0,0:07:47.80,0:07:50.26,Default,NTP,0,0,0,,你是想做怎樣的巧克力？
+Dialogue: 0,0:07:50.72,0:07:54.76,Default,NTP,0,0,0,,以這些材料來看 應該是挺簡單的
+Dialogue: 0,0:07:57.18,0:08:08.19,Default,NTP,0,0,0,,{\an8}長門有希的料理教室
+Dialogue: 0,0:07:57.89,0:08:00.27,Default,NTP,0,0,0,,融化 倒入 撒入
+Dialogue: 0,0:08:00.69,0:08:02.35,Default,NTP,0,0,0,,然後就讓它成型後的巧克力
+Dialogue: 0,0:08:02.60,0:08:03.40,Default,NTP,0,0,0,,怎麼說呢
+Dialogue: 0,0:08:03.40,0:08:05.19,Default,NTP,0,0,0,,明明是很簡單的步驟
+Dialogue: 0,0:08:05.36,0:08:08.19,Default,NTP,0,0,0,,但讓這孩子一個人來做的話 感覺會失敗
+Dialogue: 0,0:08:09.36,0:08:14.12,Default,NTP,0,0,0,,簡單是不錯啦 要不要來點複雜的？
+Dialogue: 0,0:08:14.49,0:08:16.49,Default,NTP,0,0,0,,例如❤形的巧克力
+Dialogue: 0,0:08:16.70,0:08:20.50,Default,NTP,0,0,0,,啊不 不用到那地步也可以
+Dialogue: 0,0:08:20.58,0:08:21.79,Default,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:08:21.92,0:08:26.21,Default,NTP,0,0,0,,太簡單的話也沒有我幫忙的地方
+Dialogue: 0,0:08:28.46,0:08:32.26,Default,NTP,0,0,0,,好吧 那麼先把巧克力融了吧
+Dialogue: 0,0:08:32.68,0:08:33.13,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:08:53.41,0:08:54.74,Default,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:08:55.45,0:08:55.99,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:08:58.41,0:08:58.95,Default,NTP,0,0,0,,很好
+Dialogue: 0,0:08:59.70,0:09:01.87,Default,NTP,0,0,0,,長門 加油
+Dialogue: 0,0:09:06.42,0:09:08.21,Default,NTP,0,0,0,,好 停下來
+Dialogue: 0,0:09:09.05,0:09:18.10,Default,NTP,0,0,0,,{\an8}真正的\N朝倉涼子的料理教室
+Dialogue: 0,0:09:09.46,0:09:11.26,Default,NTP,0,0,0,,馬上就錯了
+Dialogue: 0,0:09:11.51,0:09:13.43,Default,NTP,0,0,0,,這裏我們要隔水加熱來融化
+Dialogue: 0,0:09:13.59,0:09:14.47,Default,NTP,0,0,0,,隔水？
+Dialogue: 0,0:09:14.63,0:09:17.10,Default,NTP,0,0,0,,不這麼做的話巧克力不好融化的
+Dialogue: 0,0:09:19.26,0:09:22.64,Default,NTP,0,0,0,,好厲害 真的能融化
+Dialogue: 0,0:09:22.93,0:09:26.19,Default,NTP,0,0,0,,看來需要幫忙的地方很多呢
+Dialogue: 0,0:09:43.58,0:09:45.54,Default,NTP,0,0,0,,到底在哪裏啊
+Dialogue: 0,0:09:45.67,0:09:47.88,Default,NTP,0,0,0,,喂喂 這可是2月的河流啊
+Dialogue: 0,0:09:48.63,0:09:50.46,Default,NTP,0,0,0,,喂 會感冒的啊
+Dialogue: 0,0:09:50.63,0:09:52.01,Default,NTP,0,0,0,,該上來了
+Dialogue: 0,0:09:52.51,0:09:55.26,Default,NTP,0,0,0,,我再找找 要找到河童為止
+Dialogue: 0,0:09:55.34,0:09:56.01,Default,NTP,0,0,0,,你是白癡嗎
+Dialogue: 0,0:09:56.84,0:10:00.56,Default,NTP,0,0,0,,別走太遠了啊 摔跤了就會死的喔
+Dialogue: 0,0:10:01.39,0:10:03.02,Default,NTP,0,0,0,,沒問題 沒問題
+Dialogue: 0,0:10:05.64,0:10:06.85,Default,NTP,0,0,0,,好危險
+Dialogue: 0,0:10:07.06,0:10:08.81,Default,NTP,0,0,0,,真的沒問題嗎？
+Dialogue: 0,0:10:09.69,0:10:11.19,Default,NTP,0,0,0,,真拿你沒辦法
+Dialogue: 0,0:10:18.87,0:10:19.70,Default,NTP,0,0,0,,有事？
+Dialogue: 0,0:10:19.87,0:10:20.62,Default,NTP,0,0,0,,我來幫忙
+Dialogue: 0,0:10:22.91,0:10:24.25,Default,NTP,0,0,0,,真是有心
+Dialogue: 0,0:10:24.66,0:10:25.46,Default,NTP,0,0,0,,要你管
+Dialogue: 0,0:10:27.00,0:10:28.00,Default,NTP,0,0,0,,跟我來
+Dialogue: 0,0:10:31.17,0:10:31.88,Default,NTP,0,0,0,,春日
+Dialogue: 0,0:10:43.77,0:10:44.72,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:10:47.19,0:10:48.56,Default,NTP,0,0,0,,不用客氣
+Dialogue: 0,0:10:51.69,0:10:53.40,Default,NTP,0,0,0,,腳 很冷吧
+Dialogue: 0,0:10:54.07,0:10:54.94,Default,NTP,0,0,0,,很好
+Dialogue: 0,0:10:55.57,0:10:56.86,Default,NTP,0,0,0,,你也知道冷
+Dialogue: 0,0:10:57.11,0:10:59.20,Default,NTP,0,0,0,,你給我記住喔 你這個混蛋
+Dialogue: 0,0:10:59.32,0:11:00.11,Default,NTP,0,0,0,,恨死你了
+Dialogue: 0,0:11:10.08,0:11:12.17,Default,NTP,0,0,0,,這樣子對吧
+Dialogue: 0,0:11:13.04,0:11:14.80,Default,NTP,0,0,0,,嗯 棒極了
+Dialogue: 0,0:11:20.22,0:11:20.97,Default,NTP,0,0,0,,好冷
+Dialogue: 0,0:11:22.68,0:11:23.56,Default,NTP,0,0,0,,阿虛
+Dialogue: 0,0:11:24.47,0:11:26.39,Default,NTP,0,0,0,,你覺得真的有河童嗎？
+Dialogue: 0,0:11:31.98,0:11:34.90,Default,NTP,0,0,0,,誰知道 可能真的有吧
+Dialogue: 0,0:11:40.45,0:11:42.74,Default,NTP,0,0,0,,春日？春日！
+Dialogue: 0,0:11:44.41,0:11:45.08,Default,NTP,0,0,0,,什麼啊
+Dialogue: 0,0:11:45.29,0:11:47.29,Default,NTP,0,0,0,,夠了吧 回去吧
+Dialogue: 0,0:11:53.00,0:11:55.30,Default,NTP,0,0,0,,喂 區區阿虛 竟然敢先走
+Dialogue: 0,0:11:55.46,0:11:57.51,Default,NTP,0,0,0,,好痛！什麼啊
+Dialogue: 0,0:11:57.92,0:11:59.47,Default,NTP,0,0,0,,明天要去哪裏尋找呢
+Dialogue: 0,0:12:00.13,0:12:00.76,Default,NTP,0,0,0,,真是服了你了
+Dialogue: 0,0:12:05.47,0:12:06.81,Default,NTP,0,0,0,,終於做好了呢
+Dialogue: 0,0:12:07.31,0:12:09.43,Default,NTP,0,0,0,,那麼就放進冰箱讓它們成型吧
+Dialogue: 0,0:12:09.93,0:12:10.35,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:12:29.50,0:12:32.12,Default,NTP,0,0,0,,不行不行 絕對不能熬夜
+Dialogue: 0,0:12:41.72,0:12:44.09,Default,NTP,0,0,0,,所以就和平常一樣晚上睡不著
+Dialogue: 0,0:12:44.22,0:12:46.51,Default,NTP,0,0,0,,回過神來已經早上了
+Dialogue: 0,0:12:47.10,0:12:48.39,Default,NTP,0,0,0,,是…是的
+Dialogue: 0,0:12:48.68,0:12:52.10,Default,NTP,0,0,0,,哈哈哈哈哈 這孩子真是的
+Dialogue: 0,0:12:53.19,0:12:55.61,Default,NTP,0,0,0,,趕緊去給我洗臉！
+Dialogue: 0,0:12:58.02,0:13:00.23,Default,NTP,0,0,0,,長門 快點啊
+Dialogue: 0,0:13:00.99,0:13:01.53,Default,NTP,0,0,0,,哦
+Dialogue: 0,0:13:11.58,0:13:12.96,Default,NTP,0,0,0,,長門
+Dialogue: 0,0:13:13.29,0:13:14.08,Default,NTP,0,0,0,,現在就來
+Dialogue: 0,0:13:18.88,0:13:21.46,Default,NTP,0,0,0,,話說 你打算什麼時候把巧克力送出去呢
+Dialogue: 0,0:13:21.63,0:13:23.76,Default,NTP,0,0,0,,啊 那個…
+Dialogue: 0,0:13:24.63,0:13:26.84,Default,NTP,0,0,0,,果然還是社團活動的時候吧
+Dialogue: 0,0:13:27.18,0:13:28.93,Default,NTP,0,0,0,,嗯…這樣的話
+Dialogue: 0,0:13:29.06,0:13:31.89,Default,NTP,0,0,0,,必須讓你們2個獨處啊
+Dialogue: 0,0:13:32.06,0:13:32.81,Default,NTP,0,0,0,,獨處？
+Dialogue: 0,0:13:33.06,0:13:34.98,Default,NTP,0,0,0,,對對 去把阿虛叫出來
+Dialogue: 0,0:13:36.40,0:13:38.06,Default,NTP,0,0,0,,啊 困難很大啊
+Dialogue: 0,0:13:40.82,0:13:42.15,Default,NTP,0,0,0,,打起精神來啊
+Dialogue: 0,0:13:42.36,0:13:44.99,Default,NTP,0,0,0,,無論怎樣都是要跨過送巧克力這個障礙的
+Dialogue: 0,0:13:45.20,0:13:47.78,Default,NTP,0,0,0,,無非是稍微變難了些 別在意啦
+Dialogue: 0,0:13:49.16,0:13:51.12,Default,NTP,0,0,0,,是這樣的嗎
+Dialogue: 0,0:13:51.87,0:13:54.91,Default,NTP,0,0,0,,因為 無論變得有多困難
+Dialogue: 0,0:13:54.91,0:13:56.29,Default,NTP,0,0,0,,你都會送出去的吧
+Dialogue: 0,0:14:01.55,0:14:04.22,Default,NTP,0,0,0,,嗯 我會送出去的
+Dialogue: 0,0:14:10.01,0:14:12.68,Default,NTP,0,0,0,,期待已久的情人節
+Dialogue: 0,0:14:13.43,0:14:13.89,Default,NTP,0,0,0,,切
+Dialogue: 0,0:14:14.39,0:14:15.48,Default,NTP,0,0,0,,好奇怪啊
+Dialogue: 0,0:14:15.64,0:14:17.98,Default,NTP,0,0,0,,你不覺得有了什麼不對嗎 阿虛
+Dialogue: 0,0:14:18.48,0:14:22.03,Default,NTP,0,0,0,,谷口 過甚的期待只會加深你的絕望哦
+Dialogue: 0,0:14:22.15,0:14:25.70,title,NTP,0,0,0,,♬今天的午飯是巧克力♬
+Dialogue: 0,0:14:26.53,0:14:27.86,Default,NTP,0,0,0,,好奇怪啊
+Dialogue: 0,0:14:28.07,0:14:30.41,Default,NTP,0,0,0,,你不覺得有了麼不對嗎 阿虛
+Dialogue: 0,0:14:30.66,0:14:35.20,Default,NTP,0,0,0,,谷口 放棄可以防止自己白白受傷哦
+Dialogue: 0,0:14:38.00,0:14:38.96,Default,NTP,0,0,0,,長門
+Dialogue: 0,0:14:41.50,0:14:43.96,Default,NTP,0,0,0,,早啊 要去吃飯嗎
+Dialogue: 0,0:14:44.76,0:14:46.67,Default,NTP,0,0,0,,朝喵沒和你在一起嗎
+Dialogue: 0,0:14:47.18,0:14:50.30,Default,NTP,0,0,0,,鶴屋 不要突然跑起來啊
+Dialogue: 0,0:14:50.43,0:14:53.35,Default,NTP,0,0,0,,我和朝倉約在社團活動室會合
+Dialogue: 0,0:14:53.77,0:14:55.10,Default,NTP,0,0,0,,原來如此啊
+Dialogue: 0,0:14:55.48,0:14:56.77,Default,NTP,0,0,0,,好 決定了
+Dialogue: 0,0:14:56.93,0:14:59.90,Default,NTP,0,0,0,,那今天就在文藝社吃午餐了
+Dialogue: 0,0:14:59.98,0:15:01.27,Default,NTP,0,0,0,,實玖琉可以吧
+Dialogue: 0,0:15:01.56,0:15:04.40,Default,NTP,0,0,0,,嗯 我倒是沒問題
+Dialogue: 0,0:15:04.69,0:15:05.65,Default,NTP,0,0,0,,不過
+Dialogue: 0,0:15:06.49,0:15:08.07,Default,NTP,0,0,0,,我們去真的可以嗎
+Dialogue: 0,0:15:09.82,0:15:10.99,Default,NTP,0,0,0,,沒問題哦
+Dialogue: 0,0:15:11.07,0:15:13.08,Default,NTP,0,0,0,,沒問題沒問題
+Dialogue: 0,0:15:13.20,0:15:14.45,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:15:14.54,0:15:17.08,Default,NTP,0,0,0,,今天我們教室裏面裏氣氛很緊張啊
+Dialogue: 0,0:15:17.12,0:15:18.58,Default,NTP,0,0,0,,也不太方便吃飯啊
+Dialogue: 0,0:15:18.92,0:15:19.83,Default,NTP,0,0,0,,氣氛緊張？
+Dialogue: 0,0:15:20.33,0:15:22.92,Default,NTP,0,0,0,,今天可是情人節啊
+Dialogue: 0,0:15:23.67,0:15:26.30,Default,NTP,0,0,0,,男人們的眼神都變了呢
+Dialogue: 0,0:15:26.51,0:15:28.34,Default,NTP,0,0,0,,哦 原來如此
+Dialogue: 0,0:15:28.76,0:15:30.89,Default,NTP,0,0,0,,鶴屋 你太大驚小怪了
+Dialogue: 0,0:15:31.05,0:15:35.31,Default,NTP,0,0,0,,不不 這樣的話如果連一點巧克力都不送
+Dialogue: 0,0:15:35.56,0:15:37.31,Default,NTP,0,0,0,,就沒辦法收場囉
+Dialogue: 0,0:15:38.23,0:15:40.98,Default,NTP,0,0,0,,光是實玖琉粉絲俱樂部就有三位數了呢
+Dialogue: 0,0:15:41.19,0:15:42.73,Default,NTP,0,0,0,,還真是具體…
+Dialogue: 0,0:15:43.73,0:15:46.65,Default,NTP,0,0,0,,難道…應該沒準備巧克力吧
+Dialogue: 0,0:15:46.82,0:15:49.11,Default,NTP,0,0,0,,哈哈哈哈
+Dialogue: 0,0:15:49.11,0:15:51.24,Default,NTP,0,0,0,,為什麼不否定呢
+Dialogue: 0,0:15:52.20,0:15:53.20,Default,NTP,0,0,0,,果然…
+Dialogue: 0,0:15:53.41,0:15:53.91,Default,NTP,0,0,0,,嗯？
+Dialogue: 0,0:15:54.45,0:15:56.95,Default,NTP,0,0,0,,那個雖然是必然的事
+Dialogue: 0,0:15:57.41,0:15:58.54,Default,NTP,0,0,0,,收巧克力的人
+Dialogue: 0,0:15:58.62,0:16:02.08,Default,NTP,0,0,0,,是在期待收到自己喜歡的人的巧克力吧
+Dialogue: 0,0:16:02.79,0:16:04.46,Default,NTP,0,0,0,,這是肯定的啊
+Dialogue: 0,0:16:04.59,0:16:07.80,Default,NTP,0,0,0,,假裝並不期待這個露骨的節日然後突然襲擊什麼的
+Dialogue: 0,0:16:07.96,0:16:10.68,Default,NTP,0,0,0,,不就是最好的證據嗎
+Dialogue: 0,0:16:10.84,0:16:11.97,Default,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:16:12.39,0:16:14.47,Default,NTP,0,0,0,,那 除此以外的
+Dialogue: 0,0:16:14.55,0:16:17.01,Default,NTP,0,0,0,,都只能算成麻煩嗎
+Dialogue: 0,0:16:17.27,0:16:18.81,Default,NTP,0,0,0,,啊不 並不是那樣…
+Dialogue: 0,0:16:19.02,0:16:20.52,Default,NTP,0,0,0,,也許是呢
+Dialogue: 0,0:16:20.69,0:16:21.56,Default,NTP,0,0,0,,鶴屋！
+Dialogue: 0,0:16:22.10,0:16:23.40,Default,NTP,0,0,0,,因為我們是人嘛
+Dialogue: 0,0:16:23.73,0:16:27.07,Default,NTP,0,0,0,,當然有喜歡 一般 討厭 這些想法啊
+Dialogue: 0,0:16:29.90,0:16:32.82,Default,NTP,0,0,0,,但是 那種事無所謂啦
+Dialogue: 0,0:16:33.53,0:16:37.12,Default,NTP,0,0,0,,因為那不過是送出巧克力的人的自我滿足嘛
+Dialogue: 0,0:16:37.66,0:16:39.95,Default,NTP,0,0,0,,為了自己而送出去不就好了
+Dialogue: 0,0:16:40.91,0:16:43.00,Default,NTP,0,0,0,,不要介意對方的想法啦
+Dialogue: 0,0:16:43.46,0:16:46.96,Default,NTP,0,0,0,,朝著他的胸口 用力扔過去就好了嘛
+Dialogue: 0,0:16:47.09,0:16:48.96,Default,NTP,0,0,0,,可不能亂扔東西哦
+Dialogue: 0,0:16:49.01,0:16:50.88,Default,NTP,0,0,0,,哈哈哈哈啊哈
+Dialogue: 0,0:16:52.59,0:16:56.01,Default,NTP,0,0,0,,啊真是的 忘記買飲料了
+Dialogue: 0,0:16:56.22,0:16:59.18,Default,NTP,0,0,0,,我去買一下 你們先吃吧
+Dialogue: 0,0:17:02.31,0:17:05.81,Default,NTP,0,0,0,,應該很快就會回來 我們就先吃吧
+Dialogue: 0,0:17:06.11,0:17:08.07,Default,NTP,0,0,0,,好的 我開動了
+Dialogue: 0,0:17:08.44,0:17:09.53,Default,NTP,0,0,0,,我開動了
+Dialogue: 0,0:17:21.75,0:17:22.75,Default,NTP,0,0,0,,那個…
+Dialogue: 0,0:17:23.25,0:17:23.75,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:17:25.75,0:17:29.38,Default,NTP,0,0,0,,剛才鶴屋說的那些是在鼓勵你
+Dialogue: 0,0:17:30.05,0:17:32.34,Default,NTP,0,0,0,,絕對不是什麼欺負人哦…
+Dialogue: 0,0:17:32.88,0:17:34.47,Default,NTP,0,0,0,,啊 沒關係
+Dialogue: 0,0:17:34.76,0:17:38.14,Default,NTP,0,0,0,,只不過說的稍微極端了一點
+Dialogue: 0,0:17:38.60,0:17:40.43,Default,NTP,0,0,0,,嗯 我明白
+Dialogue: 0,0:17:41.47,0:17:44.31,Default,NTP,0,0,0,,那個 要是換做是我的話
+Dialogue: 0,0:17:45.06,0:17:47.06,Default,NTP,0,0,0,,肯定會很高興的
+Dialogue: 0,0:17:47.48,0:17:47.86,Default,NTP,0,0,0,,欸？
+Dialogue: 0,0:17:48.98,0:17:51.65,Default,NTP,0,0,0,,如果我要是男生的話
+Dialogue: 0,0:17:52.15,0:17:54.32,Default,NTP,0,0,0,,收到了長門的巧克力
+Dialogue: 0,0:17:54.90,0:17:56.70,Default,NTP,0,0,0,,真的會非常開心的啊
+Dialogue: 0,0:18:00.33,0:18:03.29,Default,NTP,0,0,0,,怎麼好像我在表白一樣啊
+Dialogue: 0,0:18:03.79,0:18:05.58,Default,NTP,0,0,0,,沒辦法好好表達 對不起
+Dialogue: 0,0:18:05.87,0:18:08.21,Default,NTP,0,0,0,,不 謝謝你
+Dialogue: 0,0:18:11.55,0:18:14.05,Default,NTP,0,0,0,,哎呀 我聽到了哦 夫人
+Dialogue: 0,0:18:14.30,0:18:16.51,Default,NTP,0,0,0,,我也真真切切地聽到了
+Dialogue: 0,0:18:16.68,0:18:18.18,Default,NTP,0,0,0,,把那個當成是表白
+Dialogue: 0,0:18:18.18,0:18:19.60,Default,NTP,0,0,0,,也沒什麼問題了吧
+Dialogue: 0,0:18:21.26,0:18:24.18,Default,NTP,0,0,0,,實玖琉 我有些不太說得出口的話…
+Dialogue: 0,0:18:25.35,0:18:29.02,Default,NTP,0,0,0,,長門的心已經完全被阿虛佔領了呢
+Dialogue: 0,0:18:29.52,0:18:31.57,Default,NTP,0,0,0,,這裏好像有個很大的誤會？
+Dialogue: 0,0:18:31.77,0:18:32.65,Default,NTP,0,0,0,,哈哈哈哈
+Dialogue: 0,0:18:32.82,0:18:34.49,Default,NTP,0,0,0,,為什麼 要偷聽？
+Dialogue: 0,0:18:34.69,0:18:37.70,Default,NTP,0,0,0,,來的路上遇到鶴屋學姐一起走到門口
+Dialogue: 0,0:18:37.78,0:18:40.95,Default,NTP,0,0,0,,發現你們就像少女漫畫那樣互相對視著
+Dialogue: 0,0:18:40.95,0:18:41.58,Default,NTP,0,0,0,,忍不住就
+Dialogue: 0,0:18:42.58,0:18:46.75,Default,NTP,0,0,0,,然後就靠眼神的交流來守護著你們兩個
+Dialogue: 0,0:18:46.96,0:18:49.96,Default,NTP,0,0,0,,這兩個人思考回路是一樣的嗎
+Dialogue: 0,0:18:52.09,0:18:54.67,Default,NTP,0,0,0,,就像寶冢劇團一樣
+Dialogue: 0,0:18:55.01,0:18:56.88,Default,NTP,0,0,0,,什麼意思啊
+Dialogue: 0,0:18:57.38,0:18:58.22,Default,NTP,0,0,0,,怎麼樣
+Dialogue: 0,0:18:59.30,0:18:59.93,Default,NTP,0,0,0,,什麼怎麼樣
+Dialogue: 0,0:19:00.43,0:19:03.68,Default,NTP,0,0,0,,被學姐們鼓勵之後 鼓起勇氣了嗎
+Dialogue: 0,0:19:04.68,0:19:05.27,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:06.18,0:19:08.56,Default,NTP,0,0,0,,決站就在放學後囉
+Dialogue: 0,0:19:10.10,0:19:10.52,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:12.11,0:19:13.48,Default,NTP,0,0,0,,那 我們就先走了
+Dialogue: 0,0:19:14.28,0:19:15.74,Default,NTP,0,0,0,,打擾了
+Dialogue: 0,0:19:16.07,0:19:16.78,Default,NTP,0,0,0,,那個
+Dialogue: 0,0:19:18.65,0:19:20.07,Default,NTP,0,0,0,,謝謝你門
+Dialogue: 0,0:19:25.16,0:19:27.79,Default,NTP,0,0,0,,那麼 我來講解一下今天的作戰
+Dialogue: 0,0:19:28.12,0:19:29.42,Default,NTP,0,0,0,,要好好聽清楚哦
+Dialogue: 0,0:19:30.17,0:19:30.75,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:31.13,0:19:32.34,Default,NTP,0,0,0,,首先 長門
+Dialogue: 0,0:19:32.63,0:19:34.34,Default,NTP,0,0,0,,把社團活動室的鑰匙交出來
+Dialogue: 0,0:19:36.46,0:19:37.13,Default,NTP,0,0,0,,好
+Dialogue: 0,0:19:37.67,0:19:40.89,Default,NTP,0,0,0,,放學之後 我把這個鑰匙給阿虛
+Dialogue: 0,0:19:41.05,0:19:42.89,Default,NTP,0,0,0,,並拜託他來開門
+Dialogue: 0,0:19:43.18,0:19:43.51,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:19:44.06,0:19:46.39,Default,NTP,0,0,0,,在阿虛打開門的這個時候
+Dialogue: 0,0:19:46.97,0:19:48.27,Default,NTP,0,0,0,,長門過去的話
+Dialogue: 0,0:19:48.52,0:19:49.44,Default,NTP,0,0,0,,哎呀 多麼不可思議
+Dialogue: 0,0:19:49.94,0:19:53.36,Default,NTP,0,0,0,,社團活動室裏面就是長門和阿虛兩人的空間了
+Dialogue: 0,0:19:57.15,0:20:01.07,Default,NTP,0,0,0,,在這之後 我會慢一點到活動室
+Dialogue: 0,0:20:02.24,0:20:06.04,Default,NTP,0,0,0,,喂喂 現在就這樣要怎麼辦啊
+Dialogue: 0,0:20:06.29,0:20:09.08,Default,NTP,0,0,0,,沒問題嗎 能做到嗎
+Dialogue: 0,0:20:09.29,0:20:10.87,Default,NTP,0,0,0,,嗯 我知道了
+Dialogue: 0,0:20:11.42,0:20:15.46,Default,NTP,0,0,0,,咦 就算不用這麼故意地設計成這樣
+Dialogue: 0,0:20:15.63,0:20:19.55,Default,NTP,0,0,0,,我盡快到活動室等他不是也可以嗎
+Dialogue: 0,0:20:20.80,0:20:23.39,Default,NTP,0,0,0,,長門 你稍微自己思考一下啊
+Dialogue: 0,0:20:23.68,0:20:26.51,Default,NTP,0,0,0,,讓阿虛在活動室裏等自己過去
+Dialogue: 0,0:20:26.76,0:20:30.64,Default,NTP,0,0,0,,和自己忐忑不安的等阿虛的到來
+Dialogue: 0,0:20:31.02,0:20:33.90,Default,NTP,0,0,0,,到底哪個比較容易做好心理準備呢
+Dialogue: 0,0:20:41.57,0:20:45.12,Default,NTP,0,0,0,,對不起 還是我過去吧
+Dialogue: 0,0:20:45.87,0:20:49.41,Default,NTP,0,0,0,,就是這樣 就算多費一些時間
+Dialogue: 0,0:20:49.70,0:20:53.21,Default,NTP,0,0,0,,也要做好心理準備 把巧克力送出去哦
+Dialogue: 0,0:20:53.46,0:20:54.00,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:20:58.21,0:21:02.76,Default,NTP,0,0,0,,畢竟是那麼努力做出來的巧克力嘛
+Dialogue: 0,0:21:04.51,0:21:07.05,Default,NTP,0,0,0,,嗯 是啊
+Dialogue: 0,0:21:10.64,0:21:13.14,Default,NTP,0,0,0,,啊哈 結束了
+Dialogue: 0,0:21:13.73,0:21:17.11,Default,NTP,0,0,0,,我被打落了失意的深淵
+Dialogue: 0,0:21:17.44,0:21:18.32,Default,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:21:18.73,0:21:19.48,Default,NTP,0,0,0,,國木田
+Dialogue: 0,0:21:19.90,0:21:23.07,Default,NTP,0,0,0,,我也只是收到了明顯是義理的巧克力而已
+Dialogue: 0,0:21:33.91,0:21:36.08,Default,NTP,0,0,0,,用力扔過去就好了嘛
+Dialogue: 0,0:21:36.58,0:21:38.42,Default,NTP,0,0,0,,真的會非常開心的啊
+Dialogue: 0,0:21:38.79,0:21:43.13,Default,NTP,0,0,0,,畢竟是那麼努力做出來的巧克力嘛
+Dialogue: 0,0:22:14.66,0:22:16.12,Default,NTP,0,0,0,,我來晚了真是抱歉
+

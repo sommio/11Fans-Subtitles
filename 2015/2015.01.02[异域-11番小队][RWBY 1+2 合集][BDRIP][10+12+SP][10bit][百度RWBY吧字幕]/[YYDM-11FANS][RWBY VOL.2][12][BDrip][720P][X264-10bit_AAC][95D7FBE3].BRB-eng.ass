@@ -1,0 +1,198 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: D,Microsoft YaHei,56,&H00ffffff,&H000000ff,&H0008009f,&H006757b7,0,0,0,0,100,100,0,0.00,1,2,1,2,10,10,40,1
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+Style: EDen,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,2,2,7,40,10,30,1
+Style: EDcn,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,2,2,3,10,40,30,1
+Style: Staff,Microsoft YaHei,34,&H00ffffff,&H000000ff,&H00000000,&H000000ff,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,40,1
+Style: BRB sign,Microsoft YaHei,134,&H002900ad,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,0,0,5,34,34,34,1
+Style: D1,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,7,40,10,30,1
+Style: D2,Microsoft YaHei,43,&H00ffffff,&H000000ff,&H00010060,&H002750d2,0,0,0,0,100,100,0,0.00,1,2,0,3,10,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.22,0:00:07.76,D,,0000,0000,0000,,Waffles..
+Dialogue: 0,0:00:07.70,0:00:12.72,D1,,0000,0000,0000,,Ursa Ursa Ursa Ursa Ursa Ursa~
+Dialogue: 0,0:00:13.89,0:00:15.46,D,,0000,0000,0000,,Uh..Hello?
+Dialogue: 0,0:00:15.46,0:00:16.78,D,,0000,0000,0000,,Argh!
+Dialogue: 0,0:00:19.76,0:00:21.00,D,,0000,0000,0000,,Ruby?
+Dialogue: 0,0:00:21.70,0:00:23.48,D,,0000,0000,0000,,I'm sure they're fine
+Dialogue: 0,0:00:23.48,0:00:24.28,D,,0000,0000,0000,,You think?
+Dialogue: 0,0:00:24.28,0:00:26.34,D,,0000,0000,0000,,Probably a butt dial..
+Dialogue: 0,0:00:26.34,0:00:29.30,D,,0000,0000,0000,,Team RWBY has always performed exceptionally in the field
+Dialogue: 0,0:00:29.30,0:00:31.18,D,,0000,0000,0000,,We should be focusing on our own mission
+Dialogue: 0,0:00:31.18,0:00:33.78,D,,0000,0000,0000,,We're gonna be deputies!
+Dialogue: 0,0:00:34.30,0:00:37.50,D,,0000,0000,0000,,I just got this feeling..I don't know
+Dialogue: 0,0:00:37.50,0:00:38.96,D,,0000,0000,0000,,Jaune..
+Dialogue: 0,0:00:49.08,0:00:51.38,D,,0000,0000,0000,,We're changing our mission, everyone on board!
+Dialogue: 0,0:00:55.76,0:00:58.82,D,,0000,0000,0000,,Ren, we'll make it out to that village another time
+Dialogue: 0,0:00:59.76,0:01:01.56,D,,0000,0000,0000,,Take us into the city!
+Dialogue: 0,0:01:10.54,0:01:11.94,D,,0000,0000,0000,,You don't think？
+Dialogue: 0,0:01:11.94,0:01:13.40,D,,0000,0000,0000,,Sure looks like it
+Dialogue: 0,0:01:13.40,0:01:15.30,D,,0000,0000,0000,,That's still days away!
+Dialogue: 0,0:01:15.66,0:01:18.04,D,,0000,0000,0000,,So? What do we do?
+Dialogue: 0,0:02:20.22,0:02:21.64,D,,0000,0000,0000,,Nora
+Dialogue: 0,0:02:21.95,0:02:22.65,D,,0000,0000,0000,,Smash!
+Dialogue: 0,0:02:28.54,0:02:29.59,D,,0000,0000,0000,,Let's move
+Dialogue: 0,0:02:37.62,0:02:39.37,D,,0000,0000,0000,,Okay, who's first?
+Dialogue: 0,0:02:46.44,0:02:48.52,D,,0000,0000,0000,,Oh oh oh okay
+Dialogue: 0,0:02:48.52,0:02:52.16,D,,0000,0000,0000,,You're first, huh? Okay..no, that's..that's fine
+Dialogue: 0,0:03:01.92,0:03:05.30,D,,0000,0000,0000,,Totally fine, done this before, done this before..
+Dialogue: 0,0:03:25.68,0:03:28.42,D,,0000,0000,0000,,Nobody move! Junior detectives!
+Dialogue: 0,0:03:28.42,0:03:30.72,D,,0000,0000,0000,,We have badges so you know it's official
+Dialogue: 0,0:05:19.50,0:05:22.04,D1,,0000,0000,0000,,Listen up strap in notify your next of kin
+Dialogue: 0,0:05:22.04,0:05:24.42,D1,,0000,0000,0000,,You're about to take a ride a little on the blazing side
+Dialogue: 0,0:05:24.42,0:05:26.84,D1,,0000,0000,0000,,Guzzle down your red bull you're gonna need a bucket full
+Dialogue: 0,0:05:26.84,0:05:29.24,D1,,0000,0000,0000,,You're watching me accelerate and tear apart the interstate
+Dialogue: 0,0:05:29.24,0:05:31.16,D1,,0000,0000,0000,,A certified monster I'm an absolute trip
+Dialogue: 0,0:05:31.16,0:05:33.78,D1,,0000,0000,0000,,Like Otis Redding hard to handle so you better get a grip
+Dialogue: 0,0:05:33.78,0:05:36.38,D1,,0000,0000,0000,,A super-fast superfly bonafide wise guy
+Dialogue: 0,0:05:36.38,0:05:38.80,D1,,0000,0000,0000,,Call the morgue and say goodbye write your will it's time to die
+Dialogue: 0,0:05:38.80,0:05:43.54,D1,,0000,0000,0000,,Caffeine, I'm caffeine
+Dialogue: 0,0:05:43.54,0:05:48.02,D1,,0000,0000,0000,,Caffeine, I'm caffeine
+Dialogue: 0,0:05:48.02,0:05:50.38,D1,,0000,0000,0000,,I'm a bad dream
+Dialogue: 0,0:05:50.38,0:05:52.78,D1,,0000,0000,0000,,I'm a rad scene
+Dialogue: 0,0:05:52.78,0:05:55.16,D1,,0000,0000,0000,,I'm a tad mean
+Dialogue: 0,0:05:55.16,0:06:08.56,D1,,0000,0000,0000,,But I'm not afraid to take you out
+Dialogue: 0,0:05:56.27,0:05:58.02,D,,0000,0000,0000,,Nice hustle, Fox
+Dialogue: 0,0:05:58.02,0:05:59.04,D,,0000,0000,0000,,Good job
+Dialogue: 0,0:06:05.88,0:06:08.70,D,,0000,0000,0000,,You just destroyed my favorite clothing store
+Dialogue: 0,0:06:10.71,0:06:12.28,D,,0000,0000,0000,,Prepare to die！
+Dialogue: 0,0:06:13.22,0:06:15.94,D1,,0000,0000,0000,,I'm a cheetah on the plains I'm the highway star
+Dialogue: 0,0:06:15.94,0:06:18.28,D1,,0000,0000,0000,,A supersonic princess in a million dollar car
+Dialogue: 0,0:06:18.28,0:06:20.66,D1,,0000,0000,0000,,Blood on fire pumping through my veins
+Dialogue: 0,0:06:20.66,0:06:23.06,D1,,0000,0000,0000,,Weaving in and out while I'm bolting through the lanes
+Dialogue: 0,0:06:23.06,0:06:25.64,D1,,0000,0000,0000,,I'm hyperdrive overdrive hit the gas at fifty-five
+Dialogue: 0,0:06:25.64,0:06:28.08,D1,,0000,0000,0000,,Breakneck trainwreck in my presence genuflect
+Dialogue: 0,0:06:28.08,0:06:30.48,D1,,0000,0000,0000,,Track-roundin' speed-a-soundin' electrifyin' pulse-poundin'
+Dialogue: 0,0:06:30.48,0:06:32.80,D1,,0000,0000,0000,,Heart-pumpin' brain-thumpin' watch me get the party jumpin'
+Dialogue: 0,0:06:32.80,0:06:37.54,D1,,0000,0000,0000,,Caffeine, I'm caffeine
+Dialogue: 0,0:06:34.12,0:06:37.40,D,,0000,0000,0000,,Hey, come on, you spent all the semester building that up
+Dialogue: 0,0:06:37.54,0:06:42.02,D1,,0000,0000,0000,,Caffeine, I'm caffeine
+Dialogue: 0,0:06:39.08,0:06:40.54,D,,0000,0000,0000,,Don't waste it here
+Dialogue: 0,0:06:42.02,0:06:44.38,D1,,0000,0000,0000,,I'm a bad dream
+Dialogue: 0,0:06:44.38,0:06:46.78,D1,,0000,0000,0000,,I'm a rad scene
+Dialogue: 0,0:06:46.78,0:06:49.16,D1,,0000,0000,0000,,I'm a tad mean
+Dialogue: 0,0:06:49.16,0:07:01.67,D1,,0000,0000,0000,,But I'm not afraid to take you out
+Dialogue: 0,0:07:46.98,0:07:48.74,D,,0000,0000,0000,,Oh, I can't believe that you caught me
+Dialogue: 0,0:07:48.74,0:07:51.44,D,,0000,0000,0000,,You've really taught me the error of my ways
+Dialogue: 0,0:07:51.80,0:07:53.42,D,,0000,0000,0000,,Hey hey, watch the hat!
+Dialogue: 0,0:08:16.24,0:08:18.16,D,,0000,0000,0000,,Well, we did it
+Dialogue: 0,0:08:18.56,0:08:19.46,D,,0000,0000,0000,,We did it
+Dialogue: 0,0:08:19.46,0:08:23.38,D,,0000,0000,0000,,If we don't get extra credit for that, I'm going to be seriously disappointed
+Dialogue: 0,0:08:23.38,0:08:26.78,D,,0000,0000,0000,,Weiss, a two-headed snake literally crushed a bakery
+Dialogue: 0,0:08:26.78,0:08:27.92,D,,0000,0000,0000,,I wouldn't count on it
+Dialogue: 0,0:08:27.92,0:08:30.85,D,,0000,0000,0000,,Plus, I mean, we didn't solve everything
+Dialogue: 0,0:08:30.85,0:08:32.86,D,,0000,0000,0000,,A lot of people were hurt, and..
+Dialogue: 0,0:08:32.86,0:08:37.26,D,,0000,0000,0000,,We still don't even know why they did this, or who that mystery girl was
+Dialogue: 0,0:08:37.26,0:08:41.00,D,,0000,0000,0000,,Well, not every story has a neat and tidy ending
+Dialogue: 0,0:08:41.00,0:08:45.60,D,,0000,0000,0000,,We might not have all the answers, but we do have a lot of dangerous people behind bars
+Dialogue: 0,0:08:45.60,0:08:47.84,D,,0000,0000,0000,,And I think that's something we could be proud of
+Dialogue: 0,0:08:47.84,0:08:48.82,D,,0000,0000,0000,,Yeah
+Dialogue: 0,0:08:49.37,0:08:53.58,D,,0000,0000,0000,,And if anyone tries something like this again, we'll be there to stop them
+Dialogue: 0,0:08:54.14,0:08:58.88,D,,0000,0000,0000,,Yay, teamwork, camaraderie, good guys, go team, alright, good job..
+Dialogue: 0,0:09:00.18,0:09:02.12,D,,0000,0000,0000,,So, what now?
+Dialogue: 0,0:09:02.12,0:09:04.40,D,,0000,0000,0000,,I suggest training for the tournament, but..
+Dialogue: 0,0:09:04.40,0:09:06.19,D,,0000,0000,0000,,I think we have that covered at this point
+Dialogue: 0,0:09:06.19,0:09:07.69,D,,0000,0000,0000,,So then..
+Dialogue: 0,0:09:08.66,0:09:10.06,D,,0000,0000,0000,,Uh..time for bed?
+Dialogue: 0,0:09:10.06,0:09:10.58,D,,0000,0000,0000,,Oh please
+Dialogue: 0,0:09:10.58,0:09:11.12,D,,0000,0000,0000,,Absolutely
+Dialogue: 0,0:09:11.12,0:09:11.86,D,,0000,0000,0000,,Yes
+Dialogue: 0,0:09:11.86,0:09:14.13,D,,0000,0000,0000,,I'm going to sleep forever~
+Dialogue: 0,0:09:26.86,0:09:27.88,D,,0000,0000,0000,,Ozpin!
+Dialogue: 0,0:09:28.88,0:09:29.71,D,,0000,0000,0000,,Ozpin!
+Dialogue: 0,0:09:30.52,0:09:32.42,D,,0000,0000,0000,,Yes, Councilman
+Dialogue: 0,0:09:32.42,0:09:34.52,D,,0000,0000,0000,,You've left us with no choice
+Dialogue: 0,0:09:34.52,0:09:40.32,D,,0000,0000,0000,,The Vytal Festival tournament cannot be broadcast, let alone held, if we are unable to ensure the safety of the citizens
+Dialogue: 0,0:09:42.54,0:09:43.82,D,,0000,0000,0000,,Ahem..
+Dialogue: 0,0:09:43.82,0:09:44.62,D,,0000,0000,0000,,Therefore
+Dialogue: 0,0:09:45.04,0:09:47.14,D,,0000,0000,0000,,We've reached out to the Atlas Council
+Dialogue: 0,0:09:47.14,0:09:53.44,D,,0000,0000,0000,,and together have decided that the best option is to appoint General Ironwood as head of security for the event
+Dialogue: 0,0:09:53.44,0:09:54.90,D,,0000,0000,0000,,Thank you, Councilman
+Dialogue: 0,0:09:54.90,0:10:01.78,D,,0000,0000,0000,,Our Kingdom is happy to lend as many troops as it takes to ensure that the event runs smoothly and safely as possible
+Dialogue: 0,0:10:01.78,0:10:03.76,D,,0000,0000,0000,,And we thank you, General
+Dialogue: 0,0:10:03.76,0:10:05.55,D,,0000,0000,0000,,Will that be all?
+Dialogue: 0,0:10:06.46,0:10:07.80,D,,0000,0000,0000,,For now
+Dialogue: 0,0:10:08.24,0:10:10.40,D,,0000,0000,0000,,But after this festival comes to a close
+Dialogue: 0,0:10:10.40,0:10:14.62,D,,0000,0000,0000,,we are going to have a serious discussion regarding your position at Beacon Academy
+Dialogue: 0,0:10:14.62,0:10:18.64,D,,0000,0000,0000,,General Ironwood's reports of these last few weeks have left us somewhat..
+Dialogue: 0,0:10:18.64,0:10:20.02,D,,0000,0000,0000,,concerned
+Dialogue: 0,0:10:20.50,0:10:23.16,D,,0000,0000,0000,,I'm sure you understand
+Dialogue: 0,0:10:26.70,0:10:28.74,D,,0000,0000,0000,,This is the right move, Ozpin
+Dialogue: 0,0:10:28.74,0:10:33.16,D,,0000,0000,0000,,I promise, I will keep our people safe, you have to trust me
+Dialogue: 0,0:10:48.22,0:10:50.76,D,,0000,0000,0000,,You brought this on yourself
+Dialogue: 0,0:11:04.86,0:11:06.11,D,,0000,0000,0000,,Leave us
+Dialogue: 0,0:11:09.82,0:11:14.44,D,,0000,0000,0000,,I've been informed, that so far you've refused to cooperate with the authorities
+Dialogue: 0,0:11:15.44,0:11:18.10,D,,0000,0000,0000,,I know this might be hard to believe, General, but uh..
+Dialogue: 0,0:11:18.10,0:11:21.00,D,,0000,0000,0000,,I'm not the biggest fan of local law enforcement
+Dialogue: 0,0:11:21.00,0:11:24.04,D,,0000,0000,0000,,How about the world's strongest military power?
+Dialogue: 0,0:11:24.04,0:11:27.02,D,,0000,0000,0000,,Hmm..first impressions..
+Dialogue: 0,0:11:27.73,0:11:29.20,D,,0000,0000,0000,,Not great
+Dialogue: 0,0:11:29.67,0:11:33.04,D,,0000,0000,0000,,I'm going to give you one chance
+Dialogue: 0,0:11:35.61,0:11:37.88,D,,0000,0000,0000,,Who's really behind all this?
+Dialogue: 0,0:11:39.74,0:11:41.34,D,,0000,0000,0000,,Isn't it obvious?
+Dialogue: 0,0:11:43.11,0:11:44.82,D,,0000,0000,0000,,You're looking at him
+Dialogue: 0,0:11:46.08,0:11:47.62,D,,0000,0000,0000,,Very well then
+Dialogue: 0,0:11:50.99,0:11:55.40,D,,0000,0000,0000,,What's the matter, General? I thought you wanted to talk
+Dialogue: 0,0:11:55.40,0:11:59.86,D,,0000,0000,0000,,The council's given me custody over you for as long as I see fit
+Dialogue: 0,0:12:00.36,0:12:02.30,D,,0000,0000,0000,,So you can make yourself comfortable
+Dialogue: 0,0:12:02.30,0:12:06.40,D,,0000,0000,0000,,I can assure you'll have plenty of time to..talk
+Dialogue: 0,0:12:08.27,0:12:10.74,D,,0000,0000,0000,,Oh, wonderful
+Dialogue: 0,0:12:20.10,0:12:21.62,D,,0000,0000,0000,,All in all
+Dialogue: 0,0:12:22.10,0:12:24.99,D,,0000,0000,0000,,I call today a success
+Dialogue: 0,0:12:24.99,0:12:27.56,D,,0000,0000,0000,,Those stupid kids really made a mess of things
+Dialogue: 0,0:12:27.56,0:12:31.12,D,,0000,0000,0000,,Yeah, a lot of Faunus didn't make it out the tunnels
+Dialogue: 0,0:12:31.12,0:12:33.76,D,,0000,0000,0000,,You still think the White Fang's gonna listen to us?
+Dialogue: 0,0:12:33.76,0:12:35.07,D,,0000,0000,0000,,No
+Dialogue: 0,0:12:37.44,0:12:40.04,D,,0000,0000,0000,,But they'll listen to me
+Dialogue: 0,0:12:55.26,0:12:58.52,EDen,,0000,0000,0000,,Close your eyes now time for dreams
+Dialogue: 0,0:12:58.52,0:13:01.86,EDen,,0000,0000,0000,,Death is never what it seems
+Dialogue: 0,0:13:01.86,0:13:05.04,EDen,,0000,0000,0000,,Did the things you thought you should
+Dialogue: 0,0:13:05.04,0:13:12.04,EDen,,0000,0000,0000,,All the things they said were good
+Dialogue: 0,0:13:21.14,0:13:24.36,EDen,,0000,0000,0000,,All your faith in ancient ways
+Dialogue: 0,0:13:24.36,0:13:27.68,EDen,,0000,0000,0000,,Leaves you trapped inside a maze
+Dialogue: 0,0:13:27.68,0:13:30.84,EDen,,0000,0000,0000,,Take the lives of those you need
+Dialogue: 0,0:13:30.84,0:13:37.50,EDen,,0000,0000,0000,,Sow the death then reap the seed
+Dialogue: 0,0:13:38.84,0:13:45.88,EDen,,0000,0000,0000,,Reap the seed
+Dialogue: 0,0:13:46.90,0:13:50.14,EDen,,0000,0000,0000,,Born an angel, heaven sent
+Dialogue: 0,0:13:50.14,0:13:56.38,EDen,,0000,0000,0000,,Falls from grace are never elegant
+Dialogue: 0,0:13:59.62,0:14:02.88,EDen,,0000,0000,0000,,Stars will drop out of the sky
+Dialogue: 0,0:14:02.88,0:14:07.46,EDen,,0000,0000,0000,,The moon will sadly watch the roses die
+Dialogue: 0,0:14:07.46,0:14:09.46,EDen,,0000,0000,0000,,In vain
+Dialogue: 0,0:14:09.46,0:14:12.30,EDen,,0000,0000,0000,,Lost, no gain
+Dialogue: 0,0:14:12.30,0:14:18.52,EDen,,0000,0000,0000,,But you're not taking me
+Dialogue: 0,0:14:19.12,0:14:25.18,EDen,,0000,0000,0000,,You can't have my life
+Dialogue: 0,0:14:25.18,0:14:31.20,EDen,,0000,0000,0000,,I'm not your sacrifice
+Dialogue: 0,0:14:31.20,0:14:34.40,EDen,,0000,0000,0000,,You can try, but I'm free
+Dialogue: 0,0:14:34.40,0:14:37.64,EDen,,0000,0000,0000,,And you won't conquer me
+Dialogue: 0,0:14:37.64,0:14:39.30,EDen,,0000,0000,0000,,I won't crawl
+Dialogue: 0,0:14:39.30,0:14:40.86,EDen,,0000,0000,0000,,Most of all
+Dialogue: 0,0:14:40.86,0:14:43.36,EDen,,0000,0000,0000,,I won't fall
+Dialogue: 0,0:14:43.36,0:14:45.82,EDen,,0000,0000,0000,,For you
+Dialogue: 0,0:14:51.10,0:14:55.40,Staff,,0000,0000,0000,,This SUB is presented by Baidu RWBY Bar\NCreator: sbz_kid
+Dialogue: 0,0:14:52.87,0:14:55.40,BRB sign,,0000,0000,0000,,BRB
+Dialogue: 0,0:15:17.24,0:15:18.76,D,,0000,0000,0000,,Who are you?
+Dialogue: 0,0:15:27.56,0:15:28.68,D,,0000,0000,0000,,Yang
+Dialogue: 0,0:15:29.51,0:15:32.41,D,,0000,0000,0000,,we have a lot to talk about

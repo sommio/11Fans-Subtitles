@@ -1,0 +1,357 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: ARIA The NATURAL DVDRip
+Original Script: 动漫花园枫组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: INJP,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,0,2,3,2,20,20,20,1
+Style: INCH,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,0,2,3,2,20,20,20,1
+Style: Default,FZLiBian-S02,32,&H00FFFFFF,&H00FFFFFF,&H01000000,&H012F2F2F,-1,0,0,0,100,100,0,0,1,1,1,2,20,20,10,1
+Style: TITLE,FZZhunYuan-M02,32,&H00FFFFFF,&H000000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: OPEDJP,DFPKaiSho-Md,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,9,10,10,10,1
+Style: OPEDCH,华康楷体W5-A,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.68,0:00:04.82,Default,NTP,0,0,0,,藍華所自滿的一定是可靠的性格吧
+Dialogue: 0,0:00:04.95,0:00:06.25,Default,NTP,0,0,0,,毫不留情的吐槽嗎
+Dialogue: 0,0:00:06.35,0:00:07.52,Default,NTP,0,0,0,,對艾莉西亞前輩的愛？
+Dialogue: 0,0:00:07.65,0:00:09.92,Default,NTP,0,0,0,,看似母夜叉實質紙老虎？
+Dialogue: 0,0:00:10.09,0:00:12.36,Default,NTP,0,0,0,,小後輩 你那是在誇我嗎…
+Dialogue: 0,0:00:12.46,0:00:13.86,Default,NTP,0,0,0,,沒那回事啦
+Dialogue: 0,0:00:14.06,0:00:14.93,Default,NTP,0,0,0,,我是在誇你啊
+Dialogue: 0,0:00:15.13,0:00:16.50,Default,NTP,0,0,0,,好吧 既然如此…
+Dialogue: 0,0:00:16.83,0:00:19.20,Default,NTP,0,0,0,,藍華 換造型！
+Dialogue: 0,0:00:26.30,0:00:29.71,Default,NTP,0,0,0,,小愛 炎熱的天氣仍在持續著
+Dialogue: 0,0:00:30.31,0:00:34.68,Default,NTP,0,0,0,,今天晃前輩為了給快要熱昏的我們增添活力
+Dialogue: 0,0:00:34.88,0:00:38.15,Default,NTP,0,0,0,,組織了午休時間的BBQ大會
+Dialogue: 0,0:00:43.29,0:00:46.19,Default,NTP,0,0,0,,啊 費用是由前輩們出
+Dialogue: 0,0:00:46.46,0:00:49.49,Default,NTP,0,0,0,,我們三個後輩則是被請的對象
+Dialogue: 0,0:02:30.86,0:02:34.83,TITLE,NTP,0,0,0,,{\fad(500,0)\pos(320,270)\blur9\be1\fsp2}那個 嶄新的自己…
+Dialogue: 0,0:02:42.14,0:02:43.38,Default,NTP,0,0,0,,艾莉西亞和雅典娜呢
+Dialogue: 0,0:02:44.51,0:02:45.24,Default,NTP,0,0,0,,還沒來？
+Dialogue: 0,0:02:45.58,0:02:47.28,Default,NTP,0,0,0,,啊 是 還沒來
+Dialogue: 0,0:02:47.65,0:02:51.95,Default,NTP,0,0,0,,真是的 都說了今天下午絕對要空出時間來的
+Dialogue: 0,0:02:52.65,0:02:55.79,Default,NTP,0,0,0,,我今天輪晚班 所以能慢慢來
+Dialogue: 0,0:02:56.35,0:02:59.22,Default,NTP,0,0,0,,那兩個人不是下午也有預約嗎
+Dialogue: 0,0:03:00.06,0:03:02.96,Default,NTP,0,0,0,,再不快點來 就沒時間吃了啊
+Dialogue: 0,0:03:06.60,0:03:08.03,Default,NTP,0,0,0,,夏天是觀光季節
+Dialogue: 0,0:03:08.57,0:03:12.17,Default,NTP,0,0,0,,三大精靈想要聚在一起是很難的事情
+Dialogue: 0,0:03:20.08,0:03:21.75,Default,NTP,0,0,0,,啊 愛麗絲
+Dialogue: 0,0:03:24.75,0:03:27.49,Default,NTP,0,0,0,,怎麼了怎麼了 一副暈乎乎的樣子
+Dialogue: 0,0:03:27.85,0:03:29.09,Default,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:03:29.72,0:03:31.26,Default,NTP,0,0,0,,超級熱的說…
+Dialogue: 0,0:03:33.69,0:03:35.66,Default,NTP,0,0,0,,沒辦法 我們先吃吧
+Dialogue: 0,0:03:36.76,0:03:37.83,Default,NTP,0,0,0,,沒問題嗎
+Dialogue: 0,0:03:38.43,0:03:41.60,Default,NTP,0,0,0,,沒問題 誰叫她們不來
+Dialogue: 0,0:03:43.00,0:03:43.67,Default,NTP,0,0,0,,給
+Dialogue: 0,0:03:51.24,0:03:52.78,Default,NTP,0,0,0,,來吧 吃肉吃肉
+Dialogue: 0,0:03:59.52,0:04:01.72,Default,NTP,0,0,0,,肚子一下就餓起來了
+Dialogue: 0,0:04:04.52,0:04:05.62,Default,NTP,0,0,0,,久等了
+Dialogue: 0,0:04:07.66,0:04:09.46,Default,NTP,0,0,0,,艾莉西亞前輩 雅典娜前輩
+Dialogue: 0,0:04:09.83,0:04:11.33,Default,NTP,0,0,0,,我們趕上了嗎
+Dialogue: 0,0:04:11.86,0:04:15.27,Default,NTP,0,0,0,,沒問題 我們剛開始烤
+Dialogue: 0,0:04:15.50,0:04:17.54,Default,NTP,0,0,0,,太好了呢 雅典娜
+Dialogue: 0,0:04:17.84,0:04:22.24,Default,NTP,0,0,0,,烤肉 那是烤肉 這是烤肉 我要烤肉
+Dialogue: 0,0:04:22.34,0:04:25.74,Default,NTP,0,0,0,,那是烤肉 這是烤肉 我要烤肉
+Dialogue: 0,0:04:25.91,0:04:29.38,Default,NTP,0,0,0,,{\an8\fs26}那是烤肉 這是烤肉 我要烤肉…
+Dialogue: 0,0:04:27.55,0:04:28.85,Default,NTP,0,0,0,,烤肉之歌…
+Dialogue: 0,0:04:29.11,0:04:31.95,Default,NTP,0,0,0,,啊 我也要來
+Dialogue: 0,0:04:32.92,0:04:33.85,Default,NTP,0,0,0,,哎呀哎呀
+Dialogue: 0,0:04:34.49,0:04:38.22,Default,NTP,0,0,0,,這是烤肉 我要烤肉 那是烤肉
+Dialogue: 0,0:04:38.39,0:04:39.06,Default,NTP,0,0,0,,就是現在！
+Dialogue: 0,0:04:41.86,0:04:43.86,Default,NTP,0,0,0,,那我們也快開始吧
+Dialogue: 0,0:04:44.23,0:04:44.93,Default,NTP,0,0,0,,好
+Dialogue: 0,0:04:48.00,0:04:49.77,Default,NTP,0,0,0,,這邊是海鮮啊
+Dialogue: 0,0:04:50.20,0:04:50.94,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:04:52.57,0:04:55.44,Default,NTP,0,0,0,,啊 艾莉西亞前輩 你趕上了啊
+Dialogue: 0,0:04:55.87,0:04:57.51,Default,NTP,0,0,0,,你好啊 藍華
+Dialogue: 0,0:04:57.71,0:04:59.18,Default,NTP,0,0,0,,讓各位久等了
+Dialogue: 0,0:04:59.34,0:05:01.41,Default,NTP,0,0,0,,我把蔬菜帶來了
+Dialogue: 0,0:05:02.95,0:05:05.22,Default,NTP,0,0,0,,不可以光吃肉哦
+Dialogue: 0,0:05:18.80,0:05:19.60,Default,NTP,0,0,0,,幹嘛啦
+Dialogue: 0,0:05:20.90,0:05:24.97,Default,NTP,0,0,0,,嗯 我在想 藍華的頭髮今天也好好看呢
+Dialogue: 0,0:05:25.34,0:05:27.24,Default,NTP,0,0,0,,今天你換了個髮型呢
+Dialogue: 0,0:05:27.64,0:05:28.87,Default,NTP,0,0,0,,對啊 嘿嘿
+Dialogue: 0,0:05:29.24,0:05:30.74,Default,NTP,0,0,0,,在夏日陽光的照射下
+Dialogue: 0,0:05:31.08,0:05:34.88,Default,NTP,0,0,0,,我的秀髮顯得愈發的閃亮 的感覺嗎
+Dialogue: 0,0:05:41.12,0:05:44.06,Default,NTP,0,0,0,,是啊 又飄逸又閃亮呢
+Dialogue: 0,0:05:45.09,0:05:48.83,Default,NTP,0,0,0,,是啊 黑珍珠一樣的秀髮
+Dialogue: 0,0:05:50.83,0:05:53.33,Default,NTP,0,0,0,,真漂亮 像女神一樣
+Dialogue: 0,0:05:59.10,0:06:00.41,Default,NTP,0,0,0,,艾莉西亞前輩…
+Dialogue: 0,0:06:03.04,0:06:06.11,Default,NTP,0,0,0,,呀～謝謝前輩～
+Dialogue: 0,0:06:06.51,0:06:07.78,Default,NTP,0,0,0,,喂喂 你聽到了嗎
+Dialogue: 0,0:06:07.98,0:06:10.78,Default,NTP,0,0,0,,艾莉西亞前輩說我像女神一樣哦～
+Dialogue: 0,0:06:10.95,0:06:11.78,Default,NTP,0,0,0,,我今天會努力的
+Dialogue: 0,0:06:11.92,0:06:14.15,Default,NTP,0,0,0,,首先由我來照料蔬菜 明白了嗎
+Dialogue: 0,0:06:14.25,0:06:15.05,Default,NTP,0,0,0,,那麼 嗯…
+Dialogue: 0,0:06:35.57,0:06:37.91,Default,NTP,0,0,0,,BBQ果然還是吃肉好哇
+Dialogue: 0,0:06:38.01,0:06:39.54,Default,NTP,0,0,0,,嗯 肉啊！
+Dialogue: 0,0:06:39.81,0:06:41.65,Default,NTP,0,0,0,,給 也要吃蔬菜哦
+Dialogue: 0,0:06:42.71,0:06:44.28,Default,NTP,0,0,0,,太好了呢 藍華
+Dialogue: 0,0:06:44.62,0:06:48.42,Default,NTP,0,0,0,,嗯 我在頭髮上許了願 一直留到現在的
+Dialogue: 0,0:06:48.75,0:06:51.39,Default,NTP,0,0,0,,所以被艾莉西亞前輩誇獎 我真的很高興
+Dialogue: 0,0:06:52.56,0:06:53.46,Default,NTP,0,0,0,,許願？
+Dialogue: 0,0:06:53.66,0:06:55.23,Default,NTP,0,0,0,,對 許願
+Dialogue: 0,0:06:57.16,0:06:59.56,Default,NTP,0,0,0,,好像真的開始興奮不已了呢
+Dialogue: 0,0:07:00.10,0:07:02.90,Default,NTP,0,0,0,,好像能發現嶄新的自己一樣
+Dialogue: 0,0:07:03.20,0:07:05.00,Default,NTP,0,0,0,,炎炎夏日不算什麼
+Dialogue: 0,0:07:05.24,0:07:07.81,Default,NTP,0,0,0,,那種東西就是要大力甩開啦～
+Dialogue: 0,0:07:11.21,0:07:12.94,Default,NTP,0,0,0,,喂 那邊！蝦要烤焦了哦
+Dialogue: 0,0:07:14.95,0:07:15.88,Default,NTP,0,0,0,,好快哦
+Dialogue: 0,0:07:16.48,0:07:17.58,Default,NTP,0,0,0,,對不起…
+Dialogue: 0,0:07:18.08,0:07:21.95,Default,NTP,0,0,0,,這麼有空許願的話 還不如去磨練自己的實力
+Dialogue: 0,0:07:23.22,0:07:24.16,Default,NTP,0,0,0,,太過分了…
+Dialogue: 0,0:07:24.39,0:07:25.52,Default,NTP,0,0,0,,給 快吃吧
+Dialogue: 0,0:07:25.82,0:07:26.46,Default,NTP,0,0,0,,給你給你
+Dialogue: 0,0:07:26.62,0:07:28.93,Default,NTP,0,0,0,,是 謝謝晃…
+Dialogue: 0,0:07:29.03,0:07:31.80,Default,NTP,0,0,0,,啊！那是我精心料理的肉啊！
+Dialogue: 0,0:07:31.93,0:07:34.23,Default,NTP,0,0,0,,啊 是嗎 對不起
+Dialogue: 0,0:07:34.40,0:07:36.10,Default,NTP,0,0,0,,嗯 可是好好吃啊
+Dialogue: 0,0:07:36.23,0:07:37.87,Default,NTP,0,0,0,,超級好吃的說
+Dialogue: 0,0:07:38.10,0:07:39.44,Default,NTP,0,0,0,,你們兩個…
+Dialogue: 0,0:07:39.67,0:07:42.07,Default,NTP,0,0,0,,哎呀哎呀 真熱鬧呢
+Dialogue: 0,0:07:42.31,0:07:44.11,Default,NTP,0,0,0,,是 真高興
+Dialogue: 0,0:07:44.44,0:07:47.61,Default,NTP,0,0,0,,我們慢慢吃吧 慢·慢·吃
+Dialogue: 0,0:07:48.01,0:07:50.38,Default,NTP,0,0,0,,來 艾莉西亞前輩 吃土豆吧
+Dialogue: 0,0:07:50.62,0:07:53.62,Default,NTP,0,0,0,,哎呀哎呀 謝謝了 藍華
+Dialogue: 0,0:07:59.29,0:08:01.96,Default,NTP,0,0,0,,好 大家都把盤子清空了吧
+Dialogue: 0,0:08:02.73,0:08:06.56,Default,NTP,0,0,0,,終於輪到壓軸大戲 特製烤飯團登場了
+Dialogue: 0,0:08:07.60,0:08:08.67,Default,NTP,0,0,0,,哇
+Dialogue: 0,0:08:09.03,0:08:13.47,Default,NTP,0,0,0,,超級好吃的吧 晃前輩的特製烤飯團
+Dialogue: 0,0:08:13.67,0:08:15.14,Default,NTP,0,0,0,,我一直都在期待哦
+Dialogue: 0,0:08:15.37,0:08:18.38,Default,NTP,0,0,0,,哎呀哎呀 大人氣哦 晃
+Dialogue: 0,0:08:18.54,0:08:20.04,Default,NTP,0,0,0,,好期待哦
+Dialogue: 0,0:08:22.85,0:08:25.05,Default,NTP,0,0,0,,嗯 好香啊
+Dialogue: 0,0:08:25.22,0:08:26.25,Default,NTP,0,0,0,,好了嗎
+Dialogue: 0,0:08:26.32,0:08:27.12,Default,NTP,0,0,0,,還沒
+Dialogue: 0,0:08:27.39,0:08:28.32,Default,NTP,0,0,0,,哎呀哎呀
+Dialogue: 0,0:08:30.36,0:08:33.22,Default,NTP,0,0,0,,好 吃得飽飽的 下午也要加油工…
+Dialogue: 0,0:08:35.46,0:08:37.43,Default,NTP,0,0,0,,有沒有聞到奇怪的味道
+Dialogue: 0,0:08:39.26,0:08:40.73,Default,NTP,0,0,0,,飯團烤焦了嗎
+Dialogue: 0,0:08:41.03,0:08:42.87,Default,NTP,0,0,0,,不…不是那個…
+Dialogue: 0,0:08:43.77,0:08:44.70,Default,NTP,0,0,0,,喂 藍華！
+Dialogue: 0,0:08:48.44,0:08:49.21,Default,NTP,0,0,0,,待著不要動！
+Dialogue: 0,0:09:51.97,0:09:53.77,Default,NTP,0,0,0,,這可真是玩大了呢…
+Dialogue: 0,0:09:56.27,0:09:57.01,Default,NTP,0,0,0,,半邊短毛卷？
+Dialogue: 0,0:10:00.81,0:10:06.18,Default,NTP,0,0,0,,嗯…我還是先回去了 這樣下去見不了人…
+Dialogue: 0,0:10:08.09,0:10:13.26,Default,NTP,0,0,0,,啊…大家請繼續吧…請用…請用…
+Dialogue: 0,0:10:13.79,0:10:17.33,Default,NTP,0,0,0,,哦 烤飯團 感覺不錯哦
+Dialogue: 0,0:10:21.67,0:10:22.37,Default,NTP,0,0,0,,再見
+Dialogue: 0,0:10:30.14,0:10:33.01,Default,NTP,0,0,0,,對不起 我們也去看一下
+Dialogue: 0,0:10:35.41,0:10:38.92,Default,NTP,0,0,0,,好了好了 你們不用跟過去
+Dialogue: 0,0:10:39.28,0:10:39.72,Default,NTP,0,0,0,,可…
+Dialogue: 0,0:10:39.75,0:10:40.65,Default,NTP,0,0,0,,閉嘴
+Dialogue: 0,0:10:42.75,0:10:45.89,Default,NTP,0,0,0,,你們要辜負她的一番好意嗎
+Dialogue: 0,0:10:46.76,0:10:47.93,Default,NTP,0,0,0,,晃…
+Dialogue: 0,0:10:48.86,0:10:52.13,Default,NTP,0,0,0,,好了 現在正是機會 我們來大吃特吃吧
+Dialogue: 0,0:10:52.26,0:10:53.00,Default,NTP,0,0,0,,燙燙燙…
+Dialogue: 0,0:10:56.07,0:10:58.90,Default,NTP,0,0,0,,喂 沒有時間的話就快點吃啦
+Dialogue: 0,0:10:59.24,0:11:00.97,Default,NTP,0,0,0,,你們下午不是有預約嗎
+Dialogue: 0,0:11:01.14,0:11:02.24,Default,NTP,0,0,0,,雅典娜和艾莉西亞兩個
+Dialogue: 0,0:11:04.48,0:11:05.44,Default,NTP,0,0,0,,很好吃哦
+Dialogue: 0,0:11:05.74,0:11:07.45,Default,NTP,0,0,0,,嗯 真香
+Dialogue: 0,0:11:07.58,0:11:09.48,Default,NTP,0,0,0,,是啊 好像很好吃呢
+Dialogue: 0,0:11:34.31,0:11:37.54,Default,NTP,0,0,0,,藍華 藍華
+Dialogue: 0,0:11:38.08,0:11:39.41,Default,NTP,0,0,0,,找不到她呢
+Dialogue: 0,0:11:39.78,0:11:41.08,Default,NTP,0,0,0,,到哪裏去了呢
+Dialogue: 0,0:11:41.71,0:11:43.28,Default,NTP,0,0,0,,我們去那邊看看吧
+Dialogue: 0,0:11:43.55,0:11:44.22,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:12:20.75,0:12:22.15,Default,NTP,0,0,0,,藍華…
+Dialogue: 0,0:12:26.02,0:12:28.23,Default,NTP,0,0,0,,幹嘛啊 有事嗎
+Dialogue: 0,0:12:30.96,0:12:32.36,Default,NTP,0,0,0,,烤飯團怎麼了啊
+Dialogue: 0,0:12:33.06,0:12:35.17,Default,NTP,0,0,0,,你們不是很期待的嘛
+Dialogue: 0,0:12:38.04,0:12:44.61,Default,NTP,0,0,0,,嗯 可是啊…我們現在更想留在藍華身邊
+Dialogue: 0,0:13:11.57,0:13:13.07,Default,NTP,0,0,0,,沒事的 藍華
+Dialogue: 0,0:13:13.37,0:13:18.28,Default,NTP,0,0,0,,我們會用盡心血 給你弄一個可愛的新髮型哦
+Dialogue: 0,0:13:18.58,0:13:20.24,Default,NTP,0,0,0,,交給我們超級沒問題！
+Dialogue: 0,0:13:21.78,0:13:25.28,Default,NTP,0,0,0,,不用這麼替我著想啦 別勉強了
+Dialogue: 0,0:13:25.38,0:13:26.72,Default,NTP,0,0,0,,一點也不好！
+Dialogue: 0,0:13:26.95,0:13:29.32,Default,NTP,0,0,0,,今天的我可是超·認真的
+Dialogue: 0,0:13:29.55,0:13:30.39,Default,NTP,0,0,0,,是是…
+Dialogue: 0,0:13:53.18,0:13:54.35,Default,NTP,0,0,0,,那個毛團從哪來的啊
+Dialogue: 0,0:14:06.72,0:14:07.69,Default,NTP,0,0,0,,唉 算了
+Dialogue: 0,0:14:08.53,0:14:10.86,Default,NTP,0,0,0,,這樣吧 隨便給我剪剪就好了
+Dialogue: 0,0:14:11.70,0:14:13.60,Default,NTP,0,0,0,,雖然剪短會覺得很可惜
+Dialogue: 0,0:14:14.07,0:14:17.37,Default,NTP,0,0,0,,但不跟被燒掉的地方剪齊的話會很奇怪吧
+Dialogue: 0,0:14:21.04,0:14:22.61,Default,NTP,0,0,0,,嗯 那我們剪了哦
+Dialogue: 0,0:14:22.87,0:14:24.31,Default,NTP,0,0,0,,交給我們超級沒問題
+Dialogue: 0,0:14:24.78,0:14:25.64,Default,NTP,0,0,0,,拜託了
+Dialogue: 0,0:14:43.49,0:14:44.23,Default,NTP,0,0,0,,嗚…
+Dialogue: 0,0:14:44.93,0:14:48.23,Default,NTP,0,0,0,,Please one more chance！
+Dialogue: 0,0:14:59.28,0:15:00.34,Default,NTP,0,0,0,,這樣怎麼樣啊
+Dialogue: 0,0:15:01.51,0:15:05.42,Default,NTP,0,0,0,,那小馬尾呢 活力充沛的感覺
+Dialogue: 0,0:15:06.32,0:15:08.15,Default,NTP,0,0,0,,那這樣比較好吧
+Dialogue: 0,0:15:09.09,0:15:11.36,Default,NTP,0,0,0,,也不錯啦 不過稍微再這樣…
+Dialogue: 0,0:15:12.76,0:15:14.33,Default,NTP,0,0,0,,這種感覺怎麼樣
+Dialogue: 0,0:15:14.76,0:15:16.46,Default,NTP,0,0,0,,啊 那這樣呢
+Dialogue: 0,0:15:16.99,0:15:18.00,Default,NTP,0,0,0,,我覺得不錯
+Dialogue: 0,0:15:18.23,0:15:19.56,Default,NTP,0,0,0,,嗯 弄好啦
+Dialogue: 0,0:15:20.40,0:15:21.23,Default,NTP,0,0,0,,怎麼樣
+Dialogue: 0,0:15:25.94,0:15:29.41,Default,NTP,0,0,0,,沒事的 中長髮也很可愛哦 藍華
+Dialogue: 0,0:15:29.74,0:15:31.18,Default,NTP,0,0,0,,超級適合的
+Dialogue: 0,0:15:39.18,0:15:41.59,Default,NTP,0,0,0,,嗯…Thank you
+Dialogue: 0,0:15:42.25,0:15:43.29,Default,NTP,0,0,0,,藍華…
+Dialogue: 0,0:15:44.09,0:15:46.86,Default,NTP,0,0,0,,對不起…手藝超級差的…
+Dialogue: 0,0:15:47.12,0:15:48.06,Default,NTP,0,0,0,,不是啦
+Dialogue: 0,0:15:49.83,0:15:51.30,Default,NTP,0,0,0,,我不是說那個…
+Dialogue: 0,0:15:53.90,0:15:58.77,Default,NTP,0,0,0,,我不是…說了在頭髮上許願了嗎
+Dialogue: 0,0:16:01.14,0:16:05.98,Default,NTP,0,0,0,,留一頭跟艾莉西亞前輩一樣的漂亮長髮
+Dialogue: 0,0:16:06.78,0:16:10.05,Default,NTP,0,0,0,,是希望能夠成為像艾莉西亞前輩那樣的領航員
+Dialogue: 0,0:16:11.02,0:16:13.02,Default,NTP,0,0,0,,這就是我許的願…
+Dialogue: 0,0:16:21.43,0:16:25.50,Default,NTP,0,0,0,,許願失敗…想要變成艾莉西亞前輩那樣的人…
+Dialogue: 0,0:16:26.60,0:16:28.13,Default,NTP,0,0,0,,本來就是沒可能的
+Dialogue: 0,0:16:29.40,0:16:31.67,Default,NTP,0,0,0,,我是不是很傻啊
+Dialogue: 0,0:16:33.10,0:16:34.41,Default,NTP,0,0,0,,沒有那回事啦…
+Dialogue: 0,0:16:34.67,0:16:36.74,Default,NTP,0,0,0,,對啊 請打起精神來
+Dialogue: 0,0:16:37.21,0:16:38.61,Default,NTP,0,0,0,,不 沒可能的
+Dialogue: 0,0:16:41.41,0:16:44.92,Default,NTP,0,0,0,,你變成艾莉西亞 當然是不可能的
+Dialogue: 0,0:16:45.05,0:16:47.12,Default,NTP,0,0,0,,晃前輩…你什麼時候來的？
+Dialogue: 0,0:16:47.65,0:16:48.85,Default,NTP,0,0,0,,剛才到的
+Dialogue: 0,0:16:49.42,0:16:52.92,Default,NTP,0,0,0,,真是的 你們三個突然一起消失掉
+Dialogue: 0,0:16:53.59,0:16:55.53,Default,NTP,0,0,0,,艾莉西亞她們又要工作
+Dialogue: 0,0:16:56.06,0:16:58.13,Default,NTP,0,0,0,,全部都是我一個人收拾的哦
+Dialogue: 0,0:16:58.36,0:16:59.16,Default,NTP,0,0,0,,一個人…
+Dialogue: 0,0:16:59.60,0:17:01.17,Default,NTP,0,0,0,,啊 對不起
+Dialogue: 0,0:17:03.77,0:17:06.17,Default,NTP,0,0,0,,藍華 不是清爽很多了嘛
+Dialogue: 0,0:17:06.74,0:17:08.17,Default,NTP,0,0,0,,像小猴子一樣可愛哦
+Dialogue: 0,0:17:11.51,0:17:14.15,Default,NTP,0,0,0,,你剛才…說什麼了
+Dialogue: 0,0:17:14.88,0:17:15.81,Default,NTP,0,0,0,,藍華…
+Dialogue: 0,0:17:16.78,0:17:19.42,Default,NTP,0,0,0,,剛才 你說什麼了
+Dialogue: 0,0:17:20.48,0:17:22.19,Default,NTP,0,0,0,,像小猴子一樣可愛
+Dialogue: 0,0:17:22.29,0:17:23.32,Default,NTP,0,0,0,,之前那句！
+Dialogue: 0,0:17:26.72,0:17:29.09,Default,NTP,0,0,0,,你變成艾莉西亞是不可能的
+Dialogue: 0,0:17:31.90,0:17:32.86,Default,NTP,0,0,0,,藍華…
+Dialogue: 0,0:17:33.46,0:17:36.60,Default,NTP,0,0,0,,不是說過了嗎 許願根本沒有意義
+Dialogue: 0,0:17:37.64,0:17:39.44,Default,NTP,0,0,0,,沒有…意義嗎
+Dialogue: 0,0:17:40.37,0:17:42.04,Default,NTP,0,0,0,,嗯 沒有意義
+Dialogue: 0,0:17:42.81,0:17:46.78,Default,NTP,0,0,0,,因為無論怎麼許願 你都不可能變成艾莉西亞的
+Dialogue: 0,0:17:53.88,0:17:57.02,Default,NTP,0,0,0,,要我說幾次都可以 你絕對不可能變成艾莉西亞
+Dialogue: 0,0:17:59.69,0:18:02.86,Default,NTP,0,0,0,,我最討厭…晃前輩了！
+Dialogue: 0,0:18:03.06,0:18:03.69,Default,NTP,0,0,0,,藍華！
+Dialogue: 0,0:18:08.00,0:18:11.17,Default,NTP,0,0,0,,給我聽好 你只能變成你自己！
+Dialogue: 0,0:18:19.41,0:18:23.85,Default,NTP,0,0,0,,聽好了 能變成艾莉西亞的只有艾莉西亞啊
+Dialogue: 0,0:18:24.82,0:18:26.68,Default,NTP,0,0,0,,藍華 你…
+Dialogue: 0,0:18:28.02,0:18:30.09,Default,NTP,0,0,0,,不是要變成艾莉西亞 也不是雅典娜
+Dialogue: 0,0:18:30.82,0:18:32.16,Default,NTP,0,0,0,,更不是我晃大人
+Dialogue: 0,0:18:33.22,0:18:34.93,Default,NTP,0,0,0,,你只要變成別人都無法模仿的
+Dialogue: 0,0:18:35.93,0:18:39.13,Default,NTP,0,0,0,,新威尼斯史上最好的領航員就行了！
+Dialogue: 0,0:19:07.42,0:19:07.99,Default,NTP,0,0,0,,痛…
+Dialogue: 0,0:19:08.73,0:19:09.43,Default,NTP,0,0,0,,以上！
+Dialogue: 0,0:19:57.21,0:19:58.88,Default,NTP,0,0,0,,又是BBQ嗎
+Dialogue: 0,0:19:59.14,0:20:00.21,Default,NTP,0,0,0,,嗯 對啊
+Dialogue: 0,0:20:01.38,0:20:03.81,Default,NTP,0,0,0,,晃前輩 藍華她…
+Dialogue: 0,0:20:04.32,0:20:07.82,Default,NTP,0,0,0,,她正在準備材料 差不多快來了吧
+Dialogue: 0,0:20:08.32,0:20:12.79,Default,NTP,0,0,0,,真是的 你們兩個只要藍華一發話馬上就來了
+Dialogue: 0,0:20:13.09,0:20:14.76,Default,NTP,0,0,0,,因為很擔心她啊
+Dialogue: 0,0:20:14.96,0:20:15.66,Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:20:16.29,0:20:18.73,Default,NTP,0,0,0,,藍華前輩她真的沒事了嗎
+Dialogue: 0,0:20:19.30,0:20:20.83,Default,NTP,0,0,0,,本人來了就知道了
+Dialogue: 0,0:20:21.57,0:20:24.77,Default,NTP,0,0,0,,對了 晃 今天的材料費…
+Dialogue: 0,0:20:25.20,0:20:26.20,Default,NTP,0,0,0,,她說不用哦
+Dialogue: 0,0:20:26.40,0:20:27.77,Default,NTP,0,0,0,,啊 沒問題嗎
+Dialogue: 0,0:20:28.24,0:20:29.07,Default,NTP,0,0,0,,沒問題的
+Dialogue: 0,0:20:34.48,0:20:37.85,Default,NTP,0,0,0,,昨天因為我而搞砸了氣氛
+Dialogue: 0,0:20:39.08,0:20:40.55,Default,NTP,0,0,0,,所以今天我來請客
+Dialogue: 0,0:20:42.02,0:20:45.19,Default,NTP,0,0,0,,就當是重新來過吧…
+Dialogue: 0,0:20:53.23,0:20:55.27,Default,NTP,0,0,0,,藍華你太可愛了～
+Dialogue: 0,0:20:55.63,0:20:57.77,Default,NTP,0,0,0,,那邊 讓人害羞的台詞 禁止！
+Dialogue: 0,0:21:00.97,0:21:02.54,Default,NTP,0,0,0,,一下都剪掉了呢
+Dialogue: 0,0:21:02.67,0:21:04.71,Default,NTP,0,0,0,,下了很大的決心吧
+Dialogue: 0,0:21:04.91,0:21:06.08,Default,NTP,0,0,0,,哎呀哎呀
+Dialogue: 0,0:21:09.31,0:21:13.15,Default,NTP,0,0,0,,那個髮型 非常適合藍華的氣質呢
+Dialogue: 0,0:21:14.85,0:21:15.82,Default,NTP,0,0,0,,艾莉西亞前輩…
+Dialogue: 0,0:21:17.82,0:21:18.79,Default,NTP,0,0,0,,真的嗎
+Dialogue: 0,0:21:19.79,0:21:21.13,Default,NTP,0,0,0,,嗯 很好看
+Dialogue: 0,0:21:21.46,0:21:24.90,Default,NTP,0,0,0,,非常適合可靠又精神的藍華哦
+Dialogue: 0,0:21:28.53,0:21:30.17,Default,NTP,0,0,0,,謝謝前輩
+Dialogue: 0,0:21:42.28,0:21:44.28,Default,NTP,0,0,0,,好 我們開始吧
+Dialogue: 0,0:21:44.85,0:21:46.02,Default,NTP,0,0,0,,是～
+Dialogue: 0,0:21:52.42,0:21:53.92,Default,NTP,0,0,0,,真好吃～
+Dialogue: 0,0:21:54.36,0:21:56.03,Default,NTP,0,0,0,,超級好吃的說
+Dialogue: 0,0:21:56.49,0:21:58.33,Default,NTP,0,0,0,,真的好好吃
+Dialogue: 0,0:21:58.80,0:22:01.90,Default,NTP,0,0,0,,工作結束後的烤肉真好吃啊～
+Dialogue: 0,0:22:02.07,0:22:06.74,Default,NTP,0,0,0,,哎呀哎呀 都說了蔬菜也要吃的啊 晃
+Dialogue: 0,0:22:07.50,0:22:11.08,Default,NTP,0,0,0,,還有很多很多 請大家盡情地吃吧
+Dialogue: 0,0:22:12.68,0:22:20.02,Default,NTP,0,0,0,,小愛 看來藍華發現了更加美好的嶄新的自己
+Dialogue: 0,0:22:23.22,0:22:26.49,Default,NTP,0,0,0,,燈裏姐姐 我看過藍華姐姐的照片
+Dialogue: 0,0:22:26.76,0:22:29.06,Default,NTP,0,0,0,,看到她剪短髮時嚇了一跳呢
+Dialogue: 0,0:22:29.39,0:22:33.00,Default,NTP,0,0,0,,發現了她新的魅力 我覺得好興奮哦
+Dialogue: 0,0:22:34.23,0:22:38.04,Default,NTP,0,0,0,,BBQ好像很好玩 我也想參加…
+Dialogue: 0,0:22:39.14,0:22:41.54,Default,NTP,0,0,0,,好想再去一次新威尼斯啊
+Dialogue: 0,0:24:05.02,0:24:10.03,Default,NTP,0,0,0,,那個 愛哭鬼啊…\N那顆 少女心啊…
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPJP】
+Dialogue: 0,0:00:58.70,0:01:11.58,OPEDJP,NTP,0,0,0,,{\fad(400,400)}窓からそっと 朝陽がのびて
+Dialogue: 0,0:01:12.98,0:01:24.56,OPEDJP,NTP,0,0,0,,{\fad(400,400)}まどろむまつ毛に こぼれてくよ
+Dialogue: 0,0:01:25.90,0:01:39.61,OPEDJP,NTP,0,0,0,,{\fad(400,400)}そよふく風 部屋へと招いて
+Dialogue: 0,0:01:41.65,0:01:52.42,OPEDJP,NTP,0,0,0,,{\fad(400,400)}木漏れ日に 君の寝顔 優しくて
+Dialogue: 0,0:01:49.79,0:01:52.42,OPEDJP,NTP,0,0,0,,{\fad(400,400)\an7}Euforia
+Dialogue: 0,0:01:52.52,0:01:58.73,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いつものありふれた朝だけど
+Dialogue: 0,0:02:00.43,0:02:06.34,OPEDJP,NTP,0,0,0,,{\fad(400,400)}鮮やかに色づいてるよ
+Dialogue: 0,0:02:06.64,0:02:13.85,OPEDJP,NTP,0,0,0,,{\fad(400,400)}それは君と巡り合えた奇跡
+Dialogue: 0,0:02:14.41,0:02:17.38,OPEDJP,NTP,0,0,0,,{\fad(400,400)}ひとりじゃない
+Dialogue: 0,0:02:17.95,0:02:24.16,OPEDJP,NTP,0,0,0,,{\fad(400,400)}君と一緒にいるから
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPCH】
+Dialogue: 0,0:00:58.70,0:01:11.58,OPEDCH,NTP,0,0,0,,{\fad(400,400)}晨曦悄然漫入窗際
+Dialogue: 0,0:01:12.98,0:01:24.56,OPEDCH,NTP,0,0,0,,{\fad(400,400)}灑落在 舒睡的睫毛間
+Dialogue: 0,0:01:25.90,0:01:39.61,OPEDCH,NTP,0,0,0,,{\fad(400,400)}讓輕拂的風吹入小屋
+Dialogue: 0,0:01:41.65,0:01:52.42,OPEDCH,NTP,0,0,0,,{\fad(400,400)}枝葉間滑落的陽光 映襯你的睡顏
+Dialogue: 0,0:01:49.79,0:01:52.42,OPEDCH,NTP,0,0,0,,{\fad(400,400)\an3}Euforia
+Dialogue: 0,0:01:52.52,0:01:58.73,OPEDCH,NTP,0,0,0,,{\fad(400,400)}雖是個平凡無奇的早晨
+Dialogue: 0,0:02:00.43,0:02:06.34,OPEDCH,NTP,0,0,0,,{\fad(400,400)}也染上了艷麗的色彩
+Dialogue: 0,0:02:06.64,0:02:13.85,OPEDCH,NTP,0,0,0,,{\fad(400,400)}那正是與你邂逅的奇跡
+Dialogue: 0,0:02:14.41,0:02:17.38,OPEDCH,NTP,0,0,0,,{\fad(400,400)}我並非孤單一人
+Dialogue: 0,0:02:17.95,0:02:24.16,OPEDCH,NTP,0,0,0,,{\fad(400,400)}因為 有你相伴
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDJP】
+Dialogue: 0,0:22:45.74,0:22:59.19,OPEDJP,NTP,0,0,0,,{\fad(400,400)}去りゆく夏の日 思いを寄せて集うバルコニー
+Dialogue: 0,0:23:02.96,0:23:16.67,OPEDJP,NTP,0,0,0,,{\fad(400,400)}水面にきらめく風のゴンドラ いま滑り出す
+Dialogue: 0,0:23:18.08,0:23:30.79,OPEDJP,NTP,0,0,0,,{\fad(400,400)}流れる時の河でめぐり逢えた人
+Dialogue: 0,0:23:31.59,0:23:41.77,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いま夜空を焦がして輝く夏の夜の夢
+Dialogue: 0,0:23:42.77,0:23:52.04,OPEDJP,NTP,0,0,0,,{\fad(400,400)}忘れないでSmile Again いつまでも
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDCH】
+Dialogue: 0,0:22:45.74,0:22:59.19,OPEDCH,NTP,0,0,0,,{\fad(400,400)}即將逝去的夏日 懷抱著思念來到露台上
+Dialogue: 0,0:23:02.96,0:23:16.67,OPEDCH,NTP,0,0,0,,{\fad(400,400)}在水面上閃耀著 那風之鳳尾舟 正要啟航
+Dialogue: 0,0:23:18.08,0:23:30.79,OPEDCH,NTP,0,0,0,,{\fad(400,400)}不斷流逝的時間長河中 人們彼此邂逅
+Dialogue: 0,0:23:31.59,0:23:41.77,OPEDCH,NTP,0,0,0,,{\fad(400,400)}劃過長夜之空的是那炫目的夏夜之夢
+Dialogue: 0,0:23:42.77,0:23:52.04,OPEDCH,NTP,0,0,0,,{\fad(400,400)}請不要忘記Smile Again 無論何時
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【INJP】
+Dialogue: 0,0:18:28.99,0:18:40.03,INJP,NTP,0,0,0,,{\fad(400,400)}いつもどおりの朝 あたりまえの日々
+Dialogue: 0,0:18:41.90,0:18:51.64,INJP,NTP,0,0,0,,{\fad(400,400)}空は眩しく晴れてても 私は
+Dialogue: 0,0:18:54.81,0:19:05.72,INJP,NTP,0,0,0,,{\fad(400,400)}岸辺を過ぎる風 すこし目を細め
+Dialogue: 0,0:19:07.89,0:19:17.37,INJP,NTP,0,0,0,,{\fad(400,400)}「いつか」じゃなく今日から変わろうと決めたの
+Dialogue: 0,0:19:20.57,0:19:28.01,INJP,NTP,0,0,0,,{\fad(400,400)}短く切った髪を映して
+Dialogue: 0,0:19:29.05,0:19:37.66,INJP,NTP,0,0,0,,{\fad(400,400)}キラリ 光った涙に手を振るの
+Dialogue: 0,0:19:38.26,0:19:50.07,INJP,NTP,0,0,0,,{\fad(400,400)}さあ 新しい季節が始まるわ
+Dialogue: 0,0:20:41.65,0:20:48.73,INJP,NTP,0,0,0,,{\fad(400,400)}街中が今 輝き出すわ
+Dialogue: 0,0:20:50.23,0:20:58.87,INJP,NTP,0,0,0,,{\fad(400,400)}フワリ やさしく髪を揺らす風も
+Dialogue: 0,0:20:59.37,0:21:11.42,INJP,NTP,0,0,0,,{\fad(400,400)}さあ 新しい季節が始まるわ
+Dialogue: 0,0:21:14.12,0:21:24.76,INJP,NTP,0,0,0,,{\fad(400,400)}新しく生まれ変わるの
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【INCH】
+Dialogue: 0,0:18:28.99,0:18:40.03,INCH,NTP,0,0,0,,{\fad(400,400)}尋常的早晨 平凡的日子
+Dialogue: 0,0:18:41.90,0:18:51.64,INCH,NTP,0,0,0,,{\fad(400,400)}天空是耀眼的藍 可我
+Dialogue: 0,0:18:54.81,0:19:05.72,INCH,NTP,0,0,0,,{\fad(400,400)}拂過岸邊的風 讓我瞇起眼睛
+Dialogue: 0,0:19:07.89,0:19:17.37,INCH,NTP,0,0,0,,{\fad(400,400)}決定了 改變就在今日而不是「某天」
+Dialogue: 0,0:19:20.57,0:19:28.01,INCH,NTP,0,0,0,,{\fad(400,400)}映照著剪短的碎發
+Dialogue: 0,0:19:29.05,0:19:37.66,INCH,NTP,0,0,0,,{\fad(400,400)}向閃亮的淚珠道別
+Dialogue: 0,0:19:38.26,0:19:50.07,INCH,NTP,0,0,0,,{\fad(400,400)}好 新的季節將要開始
+Dialogue: 0,0:20:41.65,0:20:48.73,INCH,NTP,0,0,0,,{\fad(400,400)}整個城市都散發著光芒
+Dialogue: 0,0:20:50.23,0:20:58.87,INCH,NTP,0,0,0,,{\fad(400,400)}就連輕輕拂動髮絲的微風
+Dialogue: 0,0:20:59.37,0:21:11.42,INCH,NTP,0,0,0,,{\fad(400,400)}也傳達著嶄新季節的到來
+Dialogue: 0,0:21:14.12,0:21:24.76,INCH,NTP,0,0,0,,{\fad(400,400)}我即將煥然一新
+

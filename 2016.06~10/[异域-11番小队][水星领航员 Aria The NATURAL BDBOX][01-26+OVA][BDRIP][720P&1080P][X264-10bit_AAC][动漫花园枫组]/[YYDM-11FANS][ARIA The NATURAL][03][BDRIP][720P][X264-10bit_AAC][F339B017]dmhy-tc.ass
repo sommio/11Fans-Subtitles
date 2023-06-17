@@ -1,0 +1,361 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: ARIA The NATURAL DVDRip
+Original Script: 动漫花园枫组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZLiBian-S02,32,&H00FFFFFF,&H00FFFFFF,&H01000000,&H012F2F2F,-1,0,0,0,100,100,0,0,1,1,1,2,20,20,10,1
+Style: TITLE,FZZhunYuan-M02,32,&H00FFFFFF,&H000000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: OPEDJP,DFPKaiSho-Md,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,9,10,10,10,1
+Style: OPEDCH,华康楷体W5-A,25,&H00FFFFFF,&HF00000FF,&H00EF9A25,&H30EF9A25,-1,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.51,0:00:02.78,Default,NTP,0,0,0,,重力真是不可思議
+Dialogue: 0,0:00:03.02,0:00:06.42,Default,NTP,0,0,0,,我和亞利亞社長都被AQUA吸引著呢
+Dialogue: 0,0:00:06.55,0:00:08.39,Default,NTP,0,0,0,,那就是相互吸引的力量啊
+Dialogue: 0,0:00:08.72,0:00:11.29,Default,NTP,0,0,0,,誰也無法掙脫這個力量
+Dialogue: 0,0:00:11.42,0:00:13.99,Default,NTP,0,0,0,,藍華前輩 你怎麼臉紅了
+Dialogue: 0,0:00:14.09,0:00:16.73,Default,NTP,0,0,0,,沒啊 完全沒有臉紅啊我…
+Dialogue: 0,0:00:17.30,0:00:18.30,Default,NTP,0,0,0,,哦～
+Dialogue: 0,0:00:30.24,0:00:33.01,Default,NTP,0,0,0,,小愛 雖說冬天已經過去
+Dialogue: 0,0:00:33.28,0:00:35.41,Default,NTP,0,0,0,,可今天還是非常的冷
+Dialogue: 0,0:00:39.15,0:00:40.19,Default,NTP,0,0,0,,舒服～
+Dialogue: 0,0:00:40.42,0:00:41.49,Default,NTP,0,0,0,,一冷起來啊
+Dialogue: 0,0:00:41.65,0:00:44.92,Default,NTP,0,0,0,,就會不自覺地用力 肩膀就受不了了啊…
+Dialogue: 0,0:00:45.59,0:00:47.19,Default,NTP,0,0,0,,超級硬邦邦的
+Dialogue: 0,0:00:47.33,0:00:50.63,Default,NTP,0,0,0,,是吧 肯定是馬尾男在偷懶 天氣才會這麼冷的
+Dialogue: 0,0:00:51.03,0:00:53.10,Default,NTP,0,0,0,,啊 是曉先生的錯嗎
+Dialogue: 0,0:00:53.23,0:00:54.57,Default,NTP,0,0,0,,這算不算冤枉他呢
+Dialogue: 0,0:00:54.67,0:00:56.10,Default,NTP,0,0,0,,不 就是馬尾男的錯
+Dialogue: 0,0:00:56.30,0:00:58.70,Default,NTP,0,0,0,,害我肩膀痛的仇恨 我是不會忘記的
+Dialogue: 0,0:00:59.37,0:01:02.24,Default,NTP,0,0,0,,雖然地球的天氣一直都很穩定
+Dialogue: 0,0:01:02.47,0:01:04.44,Default,NTP,0,0,0,,但我還是更喜歡AQUA的天氣哦
+Dialogue: 0,0:01:04.81,0:01:06.71,Default,NTP,0,0,0,,就像善變的孩子一樣
+Dialogue: 0,0:01:06.81,0:01:07.98,Default,NTP,0,0,0,,讓人害羞的台詞 禁止！
+Dialogue: 0,0:01:08.28,0:01:09.31,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:01:10.92,0:01:13.09,Default,NTP,0,0,0,,總之很冷就是很冷啦
+Dialogue: 0,0:01:13.22,0:01:15.32,Default,NTP,0,0,0,,但是已經比昨天暖和啦
+Dialogue: 0,0:01:19.32,0:01:21.86,Default,NTP,0,0,0,,氣溫也比昨天…
+Dialogue: 0,0:01:33.84,0:01:35.21,Default,NTP,0,0,0,,是流星雨
+Dialogue: 0,0:03:01.99,0:03:04.30,Default,NTP,0,0,0,,地面上仍舊很冷啊
+Dialogue: 0,0:03:06.97,0:03:10.97,TITLE,NTP,0,0,0,,{\fad(500,0)\pos(320,270)\blur9\be1\fsp2}那個 流星雨的夜晚…
+Dialogue: 0,0:03:17.28,0:03:18.94,Default,NTP,0,0,0,,好 我們去看吧
+Dialogue: 0,0:03:19.08,0:03:20.18,Default,NTP,0,0,0,,哇～
+Dialogue: 0,0:03:20.55,0:03:23.05,Default,NTP,0,0,0,,晚上應該會更冷的
+Dialogue: 0,0:03:23.38,0:03:27.55,Default,NTP,0,0,0,,要帶上懷爐…還有熱熱的飲料
+Dialogue: 0,0:03:27.92,0:03:31.99,Default,NTP,0,0,0,,兩位前輩 知道為什麼我們能看見流星雨嗎
+Dialogue: 0,0:03:32.26,0:03:34.26,Default,NTP,0,0,0,,啊 為什麼
+Dialogue: 0,0:03:34.46,0:03:36.49,Default,NTP,0,0,0,,不是因為星星大量地劃過天際嗎
+Dialogue: 0,0:03:36.73,0:03:38.40,Default,NTP,0,0,0,,以前在書上看到過
+Dialogue: 0,0:03:38.70,0:03:41.90,Default,NTP,0,0,0,,在宇宙中如塵埃般飄浮的隕石 由於重力…
+Dialogue: 0,0:03:44.14,0:03:46.71,Default,NTP,0,0,0,,呃 由於重力…
+Dialogue: 0,0:03:49.57,0:03:50.64,Default,NTP,0,0,0,,由於重力…
+Dialogue: 0,0:03:51.51,0:03:53.51,Default,NTP,0,0,0,,在為重力的事情而煩惱嗎
+Dialogue: 0,0:03:55.81,0:03:57.75,Default,NTP,0,0,0,,啊 阿魯
+Dialogue: 0,0:03:59.02,0:04:02.39,Default,NTP,0,0,0,,藍華小姐 還有燈裏小姐和愛麗絲小姐
+Dialogue: 0,0:04:02.59,0:04:03.92,Default,NTP,0,0,0,,好久不見了
+Dialogue: 0,0:04:04.09,0:04:06.06,Default,NTP,0,0,0,,今天來地面採購嗎
+Dialogue: 0,0:04:06.52,0:04:07.16,Default,NTP,0,0,0,,對
+Dialogue: 0,0:04:07.33,0:04:09.56,Default,NTP,0,0,0,,你的東西看上去超級重的
+Dialogue: 0,0:04:09.73,0:04:14.03,Default,NTP,0,0,0,,你來得正好 我們正在談流星雨的話題
+Dialogue: 0,0:04:14.43,0:04:16.87,Default,NTP,0,0,0,,流星雨不是和重力有關嗎
+Dialogue: 0,0:04:17.04,0:04:18.17,Default,NTP,0,0,0,,你來講解一下吧
+Dialogue: 0,0:04:18.37,0:04:19.87,Default,NTP,0,0,0,,嗯 好啊
+Dialogue: 0,0:04:22.04,0:04:24.94,Default,NTP,0,0,0,,我正想去吃午飯呢
+Dialogue: 0,0:04:25.34,0:04:27.51,Default,NTP,0,0,0,,方便的話 邊吃邊談怎麼樣
+Dialogue: 0,0:04:28.48,0:04:29.31,Default,NTP,0,0,0,,可以啊
+Dialogue: 0,0:04:31.12,0:04:32.22,Default,NTP,0,0,0,,要去什麼樣的店呢？
+Dialogue: 0,0:04:32.78,0:04:35.49,Default,NTP,0,0,0,,又安靜又閒適 是家很好的店哦
+Dialogue: 0,0:04:35.82,0:04:38.02,Default,NTP,0,0,0,,就在這附近 一起去吧
+Dialogue: 0,0:04:38.26,0:04:39.86,Default,NTP,0,0,0,,午飯 哇～
+Dialogue: 0,0:04:40.29,0:04:41.49,Default,NTP,0,0,0,,超級贊成
+Dialogue: 0,0:04:45.86,0:04:47.17,Default,NTP,0,0,0,,是蘑菇火鍋～
+Dialogue: 0,0:04:49.37,0:04:51.47,Default,NTP,0,0,0,,好老氣的感覺…
+Dialogue: 0,0:04:52.10,0:04:54.01,Default,NTP,0,0,0,,超級復古的感覺
+Dialogue: 0,0:04:54.91,0:04:57.38,Default,NTP,0,0,0,,這是我常來的店哦
+Dialogue: 0,0:04:57.58,0:04:58.64,Default,NTP,0,0,0,,來 請進
+Dialogue: 0,0:04:58.98,0:05:01.28,Default,NTP,0,0,0,,啊 這頓我來請客
+Dialogue: 0,0:05:02.01,0:05:04.88,Default,NTP,0,0,0,,我們可不是為了蹭飯才來的…
+Dialogue: 0,0:05:05.12,0:05:09.02,Default,NTP,0,0,0,,怎麼能讓比我小的女孩子掏錢呢
+Dialogue: 0,0:05:09.39,0:05:10.89,Default,NTP,0,0,0,,來 不用客氣
+Dialogue: 0,0:05:11.42,0:05:12.66,Default,NTP,0,0,0,,打擾了！
+Dialogue: 0,0:05:13.53,0:05:16.26,Default,NTP,0,0,0,,說起來 阿魯的年齡比我們大呢
+Dialogue: 0,0:05:16.43,0:05:17.46,Default,NTP,0,0,0,,我都忘記了
+Dialogue: 0,0:05:17.83,0:05:18.60,Default,NTP,0,0,0,,我也是
+Dialogue: 0,0:05:22.00,0:05:25.37,Default,NTP,0,0,0,,啊 果然天冷的時候就應該吃火鍋啊
+Dialogue: 0,0:05:25.84,0:05:29.04,Default,NTP,0,0,0,,這可是能沁入五臟六腑的美味哦
+Dialogue: 0,0:05:29.44,0:05:32.81,Default,NTP,0,0,0,,五臟…六腑…嗎
+Dialogue: 0,0:05:33.11,0:05:36.11,Default,NTP,0,0,0,,阿魯說話總是老裏老氣的…
+Dialogue: 0,0:05:36.41,0:05:38.05,Default,NTP,0,0,0,,那麼 在火鍋還沒煮開的時候
+Dialogue: 0,0:05:38.32,0:05:40.19,Default,NTP,0,0,0,,我們來談談重力的話題吧
+Dialogue: 0,0:05:40.69,0:05:41.99,Default,NTP,0,0,0,,拜託你了
+Dialogue: 0,0:05:42.35,0:05:46.59,Default,NTP,0,0,0,,AQUA的重力比起地球來要小很多
+Dialogue: 0,0:05:46.69,0:05:47.76,Default,NTP,0,0,0,,這點大家都知道吧
+Dialogue: 0,0:05:49.19,0:05:53.23,Default,NTP,0,0,0,,那麼 AQUA的重力是地球的幾分之一呢？
+Dialogue: 0,0:05:53.43,0:05:56.23,Default,NTP,0,0,0,,這點我還是知道的 大概是三分之一吧
+Dialogue: 0,0:05:56.53,0:05:58.54,Default,NTP,0,0,0,,對 藍華小姐答對了
+Dialogue: 0,0:05:58.97,0:05:59.87,Default,NTP,0,0,0,,當然啦
+Dialogue: 0,0:06:00.57,0:06:02.47,Default,NTP,0,0,0,,我們作為重力調節員
+Dialogue: 0,0:06:02.61,0:06:05.11,Default,NTP,0,0,0,,為了把AQUA的重力保持在1G
+Dialogue: 0,0:06:05.28,0:06:07.45,Default,NTP,0,0,0,,必須在地底進行管理…
+Dialogue: 0,0:06:07.75,0:06:09.65,Default,NTP,0,0,0,,重力就是指萬有引力和
+Dialogue: 0,0:06:09.78,0:06:12.55,Default,NTP,0,0,0,,行星自轉所產生離心力的合力
+Dialogue: 0,0:06:12.95,0:06:17.19,Default,NTP,0,0,0,,簡而言之 就是物體與物體之間相互吸引的力量
+Dialogue: 0,0:06:19.42,0:06:21.66,Default,NTP,0,0,0,,好了 請看這鍋裏面
+Dialogue: 0,0:06:24.10,0:06:27.83,Default,NTP,0,0,0,,無論是我們之間 還是這玉蕈和雲蕈之間
+Dialogue: 0,0:06:27.93,0:06:30.34,Default,NTP,0,0,0,,都存在著相互吸引的力量
+Dialogue: 0,0:06:30.74,0:06:34.01,Default,NTP,0,0,0,,而質量越大的物體 其重力就越強
+Dialogue: 0,0:06:34.77,0:06:38.88,Default,NTP,0,0,0,,那麼 說到我們身邊質量最大的是…
+Dialogue: 0,0:06:39.48,0:06:41.38,Default,NTP,0,0,0,,是AQUA嗎
+Dialogue: 0,0:06:41.58,0:06:42.31,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:06:42.48,0:06:44.78,Default,NTP,0,0,0,,包括我們在內的所有物體
+Dialogue: 0,0:06:44.88,0:06:48.39,Default,NTP,0,0,0,,都受到來自AQUA的吸引力 那就是重力了
+Dialogue: 0,0:06:50.16,0:06:53.69,Default,NTP,0,0,0,,哦 火鍋好像已經煮開了 來 請用吧
+Dialogue: 0,0:06:55.09,0:06:56.39,Default,NTP,0,0,0,,我開動啦
+Dialogue: 0,0:06:57.96,0:06:59.76,Default,NTP,0,0,0,,而流星雨就是…
+Dialogue: 0,0:07:00.67,0:07:02.90,Default,NTP,0,0,0,,就比如把這個雲蕈當作是AQUA…
+Dialogue: 0,0:07:03.47,0:07:06.87,Default,NTP,0,0,0,,啊 藍華 那是我的雲蕈
+Dialogue: 0,0:07:07.24,0:07:08.61,Default,NTP,0,0,0,,先下手為強～
+Dialogue: 0,0:07:10.07,0:07:11.78,Default,NTP,0,0,0,,那就待會再解釋吧
+Dialogue: 0,0:07:11.88,0:07:13.48,Default,NTP,0,0,0,,就這麼辦 就這麼辦
+Dialogue: 0,0:07:24.82,0:07:26.32,Default,NTP,0,0,0,,謝謝款待
+Dialogue: 0,0:07:27.26,0:07:28.99,Default,NTP,0,0,0,,啊 真好吃啊
+Dialogue: 0,0:07:29.23,0:07:30.96,Default,NTP,0,0,0,,超級飽的
+Dialogue: 0,0:07:31.80,0:07:33.57,Default,NTP,0,0,0,,你們喜歡就好了
+Dialogue: 0,0:07:34.13,0:07:37.17,Default,NTP,0,0,0,,那麼 我差不多該走了
+Dialogue: 0,0:07:39.67,0:07:42.57,Default,NTP,0,0,0,,呃 那個 阿魯
+Dialogue: 0,0:07:42.84,0:07:44.61,Default,NTP,0,0,0,,嗯 有什麼事嗎
+Dialogue: 0,0:07:45.31,0:07:47.71,Default,NTP,0,0,0,,你知道今晚有流星雨嗎
+Dialogue: 0,0:07:47.98,0:07:48.51,Default,NTP,0,0,0,,知道
+Dialogue: 0,0:07:48.81,0:07:52.45,Default,NTP,0,0,0,,我們決定一起去觀測
+Dialogue: 0,0:07:53.42,0:07:54.52,Default,NTP,0,0,0,,你要一塊來嗎
+Dialogue: 0,0:07:54.89,0:07:58.46,Default,NTP,0,0,0,,剛才是燈裏前輩說一起去的…
+Dialogue: 0,0:07:59.06,0:08:03.13,Default,NTP,0,0,0,,我只是想謝謝他請我們吃火鍋哦 小後輩
+Dialogue: 0,0:08:03.53,0:08:04.93,Default,NTP,0,0,0,,超級痛的
+Dialogue: 0,0:08:05.46,0:08:08.43,Default,NTP,0,0,0,,流星雨啊 好像很有趣的樣子呢
+Dialogue: 0,0:08:08.73,0:08:11.74,Default,NTP,0,0,0,,這對不適應白天的重力調節員不是最好的活動嗎
+Dialogue: 0,0:08:12.14,0:08:13.64,Default,NTP,0,0,0,,那這麼難得的機會
+Dialogue: 0,0:08:13.74,0:08:15.97,Default,NTP,0,0,0,,把曉先生和伍迪先生也叫上吧
+Dialogue: 0,0:08:16.14,0:08:16.67,Default,NTP,0,0,0,,駁回！
+Dialogue: 0,0:08:18.28,0:08:21.88,Default,NTP,0,0,0,,不行不行 一個是小屁孩
+Dialogue: 0,0:08:22.68,0:08:25.12,Default,NTP,0,0,0,,另一個只會大吵大鬧 破壞氣氛
+Dialogue: 0,0:08:25.58,0:08:28.02,Default,NTP,0,0,0,,只有阿魯是特殊對待呢
+Dialogue: 0,0:08:28.15,0:08:29.79,Default,NTP,0,0,0,,不是這樣的！
+Dialogue: 0,0:08:30.56,0:08:33.69,Default,NTP,0,0,0,,你看 剛才那個流星雨的話題不是還沒講完嘛
+Dialogue: 0,0:08:34.46,0:08:37.83,Default,NTP,0,0,0,,我想可以一邊看星星一邊跟你請教…之類的
+Dialogue: 0,0:08:37.93,0:08:39.70,Default,NTP,0,0,0,,那就不能稱為回禮了
+Dialogue: 0,0:08:39.86,0:08:40.70,Default,NTP,0,0,0,,沒關係
+Dialogue: 0,0:08:41.40,0:08:45.07,Default,NTP,0,0,0,,年輕女生的邀請就已經算是充分的回禮了
+Dialogue: 0,0:08:47.34,0:08:49.24,Default,NTP,0,0,0,,總之 今晚十二點
+Dialogue: 0,0:08:49.31,0:08:52.44,Default,NTP,0,0,0,,在嘆息橋前面的帕裏亞橋集合 好嗎
+Dialogue: 0,0:08:52.84,0:08:53.68,Default,NTP,0,0,0,,好的
+Dialogue: 0,0:08:59.92,0:09:01.85,Default,NTP,0,0,0,,真期待啊 亞利亞社長
+Dialogue: 0,0:09:10.26,0:09:11.93,Default,NTP,0,0,0,,我們出發吧 亞利亞社長
+Dialogue: 0,0:09:22.77,0:09:24.84,Default,NTP,0,0,0,,早知道穿多點好了
+Dialogue: 0,0:09:24.91,0:09:26.84,Default,NTP,0,0,0,,是啊 有點冷呢
+Dialogue: 0,0:09:26.98,0:09:28.08,Default,NTP,0,0,0,,好冷啊
+Dialogue: 0,0:09:36.19,0:09:37.52,Default,NTP,0,0,0,,久等了 藍華
+Dialogue: 0,0:09:40.53,0:09:43.09,Default,NTP,0,0,0,,幹嘛啊 害我嚇一跳
+Dialogue: 0,0:09:43.49,0:09:45.46,Default,NTP,0,0,0,,咦 啊 對不起
+Dialogue: 0,0:09:49.97,0:09:51.57,Default,NTP,0,0,0,,其他兩人還沒來嗎
+Dialogue: 0,0:09:52.07,0:09:55.74,Default,NTP,0,0,0,,啊 那個 愛麗絲她來過電話了
+Dialogue: 0,0:09:55.94,0:09:57.81,Default,NTP,0,0,0,,說太睏了 今天就算了
+Dialogue: 0,0:09:58.24,0:10:00.68,Default,NTP,0,0,0,,嗯 到底還是個孩子
+Dialogue: 0,0:10:01.08,0:10:02.41,Default,NTP,0,0,0,,夜晚現在才算開始呢
+Dialogue: 0,0:10:08.52,0:10:09.52,Default,NTP,0,0,0,,晚上好
+Dialogue: 0,0:10:09.72,0:10:12.12,Default,NTP,0,0,0,,在…在的話就該先打聲招呼啊
+Dialogue: 0,0:10:13.52,0:10:17.23,Default,NTP,0,0,0,,抱歉 我在想你們到什麼時候才會發現呢
+Dialogue: 0,0:10:32.01,0:10:34.88,Default,NTP,0,0,0,,不過都大半夜了還有這麼多人呢
+Dialogue: 0,0:10:35.11,0:10:38.82,Default,NTP,0,0,0,,因為這麼大規模的流星雨是很罕見的
+Dialogue: 0,0:10:39.12,0:10:41.95,Default,NTP,0,0,0,,啊 真想早一點看到流星雨呢
+Dialogue: 0,0:10:42.19,0:10:46.89,Default,NTP,0,0,0,,不過這裏街燈這麼多 可能太亮了看不清楚呢
+Dialogue: 0,0:10:47.16,0:10:48.89,Default,NTP,0,0,0,,那哪裏看好些呢
+Dialogue: 0,0:10:48.99,0:10:50.13,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:10:50.56,0:10:54.37,Default,NTP,0,0,0,,要去的話 還是安靜點的地方比較好
+Dialogue: 0,0:10:55.97,0:11:00.97,Default,NTP,0,0,0,,二位 不如去找找屬於我們的最佳地點吧
+Dialogue: 0,0:11:01.14,0:11:04.88,Default,NTP,0,0,0,,在夜晚的新威尼斯穿梭 也是別有一番風味的哦
+Dialogue: 0,0:11:05.31,0:11:07.58,Default,NTP,0,0,0,,而且我也習慣了比較暗的地方
+Dialogue: 0,0:11:08.98,0:11:10.15,Default,NTP,0,0,0,,贊成！
+Dialogue: 0,0:11:10.58,0:11:13.42,Default,NTP,0,0,0,,那麼 向夜晚的街道 Let's go！
+Dialogue: 0,0:11:13.99,0:11:15.02,Default,NTP,0,0,0,,好
+Dialogue: 0,0:11:34.44,0:11:37.08,Default,NTP,0,0,0,,這座城裏的巷子真的很窄呢
+Dialogue: 0,0:11:37.34,0:11:40.21,Default,NTP,0,0,0,,建築物也很密集 幾乎看不到天空呢
+Dialogue: 0,0:11:40.68,0:11:41.55,Default,NTP,0,0,0,,傷腦筋啊
+Dialogue: 0,0:11:41.78,0:11:46.72,Default,NTP,0,0,0,,但是～我們一定要找到我們的最佳觀測點
+Dialogue: 0,0:11:49.85,0:11:55.86,Default,NTP,0,0,0,,彎彎曲曲彎彎曲曲 新威尼斯真像迷宮啊
+Dialogue: 0,0:11:56.29,0:11:59.13,Default,NTP,0,0,0,,雖然覺得阿魯很老氣
+Dialogue: 0,0:11:59.53,0:12:01.83,Default,NTP,0,0,0,,但意外地也有像小孩子的一面呢
+Dialogue: 0,0:12:04.80,0:12:07.34,Default,NTP,0,0,0,,為看流星雨而不斷徘徊的我們
+Dialogue: 0,0:12:07.57,0:12:09.77,Default,NTP,0,0,0,,就像是星星探險隊一樣呢
+Dialogue: 0,0:12:09.91,0:12:11.81,Default,NTP,0,0,0,,讓…讓…
+Dialogue: 0,0:12:11.91,0:12:15.11,Default,NTP,0,0,0,,原來如此 那探險隊的隊長就是阿魯
+Dialogue: 0,0:12:15.31,0:12:17.12,Default,NTP,0,0,0,,你們兩個 讓人害羞的台詞 禁止！
+Dialogue: 0,0:12:23.42,0:12:26.32,Default,NTP,0,0,0,,我好想要那顆星星啊 呵呵 說笑的
+Dialogue: 0,0:12:26.82,0:12:29.99,Default,NTP,0,0,0,,我也要 閃閃發亮 好像寶石一樣
+Dialogue: 0,0:12:30.43,0:12:34.87,Default,NTP,0,0,0,,那個 剛才說的是地球上很久以前流傳的口頭禪
+Dialogue: 0,0:12:35.23,0:12:37.34,Default,NTP,0,0,0,,「想要」和「星星」是諧音
+Dialogue: 0,0:12:37.50,0:12:39.60,Default,NTP,0,0,0,,啊 原來是這樣啊
+Dialogue: 0,0:12:39.84,0:12:40.61,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:12:41.74,0:12:43.94,Default,NTP,0,0,0,,藍華小姐 你怎麼了
+Dialogue: 0,0:12:44.34,0:12:45.84,Default,NTP,0,0,0,,沒什麼啊
+Dialogue: 0,0:12:46.41,0:12:47.81,Default,NTP,0,0,0,,那就好
+Dialogue: 0,0:12:55.32,0:12:56.95,Default,NTP,0,0,0,,什麼 怎麼啦
+Dialogue: 0,0:12:57.19,0:12:58.82,Default,NTP,0,0,0,,啊 因為很暗
+Dialogue: 0,0:12:59.09,0:13:02.69,Default,NTP,0,0,0,,我想藍華小姐你們走在河邊有點危險
+Dialogue: 0,0:13:03.93,0:13:05.76,Default,NTP,0,0,0,,我夜視能力比較好
+Dialogue: 0,0:13:08.57,0:13:14.04,Default,NTP,0,0,0,,阿魯有時候讓人分不清到底是幼稚還是成熟呢
+Dialogue: 0,0:13:17.31,0:13:23.55,Default,NTP,0,0,0,,怎麼說呢…阿魯的這種性格…讓我有點…
+Dialogue: 0,0:13:28.25,0:13:31.12,Default,NTP,0,0,0,,喂 燈裏 幹嘛突然停下來啊
+Dialogue: 0,0:13:38.90,0:13:40.43,Default,NTP,0,0,0,,真的是一片漆黑啊
+Dialogue: 0,0:13:40.90,0:13:43.00,Default,NTP,0,0,0,,果然有點恐怖呢
+Dialogue: 0,0:14:06.02,0:14:08.19,Default,NTP,0,0,0,,燈裏 你這是怎麼了
+Dialogue: 0,0:14:11.30,0:14:13.83,Default,NTP,0,0,0,,唱著歌的話 就不會覺得害怕了
+Dialogue: 0,0:14:43.63,0:14:45.20,Default,NTP,0,0,0,,發現最佳觀測點了
+Dialogue: 0,0:14:47.67,0:14:52.44,Default,NTP,0,0,0,,哎呀 盲點盲點 沒想到還有屋頂這個地方呢
+Dialogue: 0,0:14:52.97,0:14:55.17,Default,NTP,0,0,0,,那就從阿魯你開始加油爬吧
+Dialogue: 0,0:14:55.94,0:14:58.68,Default,NTP,0,0,0,,喂 藍華 這樣會不會不好啊
+Dialogue: 0,0:14:58.84,0:15:03.25,Default,NTP,0,0,0,,沒關係沒關係 我自己也想爬一次看看
+Dialogue: 0,0:15:03.55,0:15:06.05,Default,NTP,0,0,0,,而且這裏是和姬屋有關聯的建築
+Dialogue: 0,0:15:06.25,0:15:08.25,Default,NTP,0,0,0,,如果被責罵的話就由我來負責
+Dialogue: 0,0:15:08.62,0:15:11.66,Default,NTP,0,0,0,,那個 為什麼要從我開始呢
+Dialogue: 0,0:15:13.93,0:15:16.76,Default,NTP,0,0,0,,如果我們先爬 不就讓你看光裙底了嗎
+Dialogue: 0,0:15:26.00,0:15:28.44,Default,NTP,0,0,0,,不能往下看…不能往下看…
+Dialogue: 0,0:15:32.81,0:15:35.48,Default,NTP,0,0,0,,燈裏 絕對不要往下看哦
+Dialogue: 0,0:15:35.95,0:15:38.02,Default,NTP,0,0,0,,啊 下面？
+Dialogue: 0,0:15:42.52,0:15:44.79,Default,NTP,0,0,0,,笨蛋 為什麼要故意看下面啊
+Dialogue: 0,0:15:44.92,0:15:47.19,Default,NTP,0,0,0,,因為是藍華說的嘛…
+Dialogue: 0,0:16:07.08,0:16:09.38,Default,NTP,0,0,0,,這真是絕世美景啊
+Dialogue: 0,0:16:10.05,0:16:10.98,Default,NTP,0,0,0,,好美…
+Dialogue: 0,0:16:11.48,0:16:14.89,Default,NTP,0,0,0,,這是夜晚的魔法編織的 屋頂的地毯呢
+Dialogue: 0,0:16:15.02,0:16:16.39,Default,NTP,0,0,0,,讓人害羞的台詞 禁止！
+Dialogue: 0,0:16:16.59,0:16:17.72,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:16:35.71,0:16:37.38,Default,NTP,0,0,0,,好安靜啊
+Dialogue: 0,0:16:40.71,0:16:45.42,Default,NTP,0,0,0,,因為新威尼斯城規定 所有建築物不得高於教堂
+Dialogue: 0,0:16:45.75,0:16:48.65,Default,NTP,0,0,0,,所以大家的屋頂高度都差不多
+Dialogue: 0,0:16:50.79,0:16:52.42,Default,NTP,0,0,0,,所以視野才會這麼好
+Dialogue: 0,0:16:53.02,0:16:55.79,Default,NTP,0,0,0,,這樣大家就能心滿意足地做觀測了
+Dialogue: 0,0:16:56.16,0:16:57.90,Default,NTP,0,0,0,,你果然還是像個老頭子
+Dialogue: 0,0:17:00.80,0:17:02.00,Default,NTP,0,0,0,,啊 流星
+Dialogue: 0,0:17:03.20,0:17:04.30,Default,NTP,0,0,0,,啊 這裏也有
+Dialogue: 0,0:17:05.74,0:17:06.84,Default,NTP,0,0,0,,在…在哪在哪？
+Dialogue: 0,0:17:20.52,0:17:23.55,Default,NTP,0,0,0,,對了 繼續白天的話題吧
+Dialogue: 0,0:17:24.16,0:17:29.09,Default,NTP,0,0,0,,流星本來是宇宙中的小石塊 被AQUA所吸引
+Dialogue: 0,0:17:29.43,0:17:33.43,Default,NTP,0,0,0,,跟大氣產生摩擦並燃燒 才能被肉眼所見
+Dialogue: 0,0:17:34.03,0:17:36.87,Default,NTP,0,0,0,,啊 那如果沒有空氣就看不見了啊
+Dialogue: 0,0:17:37.23,0:17:38.20,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:17:39.04,0:17:45.71,Default,NTP,0,0,0,,還需要重力 這多虧了阿魯幫我們控制重力啊
+Dialogue: 0,0:17:49.21,0:17:52.92,Default,NTP,0,0,0,,確實…是有這麼一點作用呢
+Dialogue: 0,0:17:53.78,0:17:57.86,Default,NTP,0,0,0,,如果沒有加以調整的話 流星也就不會出現了呢
+Dialogue: 0,0:18:02.03,0:18:05.90,Default,NTP,0,0,0,,這也就是說 現在我們所看到的流星
+Dialogue: 0,0:18:06.16,0:18:11.10,Default,NTP,0,0,0,,可說是150年前 AQUA開拓者們給我們的禮物呢
+Dialogue: 0,0:18:17.21,0:18:19.61,Default,NTP,0,0,0,,來 請用熱乎乎的牛奶咖啡
+Dialogue: 0,0:18:20.04,0:18:22.75,Default,NTP,0,0,0,,非常感謝 我不客氣了
+Dialogue: 0,0:18:39.23,0:18:41.97,Default,NTP,0,0,0,,亞利亞社長 要來一杯牛奶咖啡嗎
+Dialogue: 0,0:18:53.11,0:18:55.35,Default,NTP,0,0,0,,咦 等等…
+Dialogue: 0,0:18:56.81,0:18:57.78,Default,NTP,0,0,0,,難道說…
+Dialogue: 0,0:18:59.75,0:19:00.42,Default,NTP,0,0,0,,現在…
+Dialogue: 0,0:19:00.85,0:19:02.95,Default,NTP,0,0,0,,只有我跟阿魯兩個人？
+Dialogue: 0,0:19:07.63,0:19:10.53,Default,NTP,0,0,0,,真是的 燈裏那傢伙到哪去了
+Dialogue: 0,0:19:11.63,0:19:15.37,Default,NTP,0,0,0,,算了 跟阿魯兩個人的話 也沒什麼…
+Dialogue: 0,0:19:27.38,0:19:32.35,Default,NTP,0,0,0,,咦…咦咦…
+Dialogue: 0,0:19:35.92,0:19:36.72,Default,NTP,0,0,0,,藍華小姐？
+Dialogue: 0,0:20:14.66,0:20:15.56,Default,NTP,0,0,0,,好漂亮…
+Dialogue: 0,0:20:40.08,0:20:43.62,Default,NTP,0,0,0,,隕石的感受 我多少也能體會到一點呢
+Dialogue: 0,0:20:45.29,0:20:47.09,Default,NTP,0,0,0,,一旦對AQUA著迷
+Dialogue: 0,0:20:47.52,0:20:48.93,Default,NTP,0,0,0,,就一廂情願地被吸引過來
+Dialogue: 0,0:20:49.13,0:20:50.36,Default,NTP,0,0,0,,又一廂情願地燃燒殆盡
+Dialogue: 0,0:20:51.46,0:20:53.30,Default,NTP,0,0,0,,這樣真的好傻呢
+Dialogue: 0,0:20:54.13,0:20:55.10,Default,NTP,0,0,0,,藍華小姐？
+Dialogue: 0,0:20:58.77,0:20:59.84,Default,NTP,0,0,0,,是阿魯的錯
+Dialogue: 0,0:21:02.11,0:21:03.61,Default,NTP,0,0,0,,全都是阿魯的錯…
+Dialogue: 0,0:21:04.81,0:21:08.51,Default,NTP,0,0,0,,可是我們不工作的話 AQUA的重力就…
+Dialogue: 0,0:21:09.58,0:21:15.05,Default,NTP,0,0,0,,藍華 阿魯 看見剛才那個了嗎
+Dialogue: 0,0:21:15.25,0:21:17.79,Default,NTP,0,0,0,,嗯 很漂亮啊
+Dialogue: 0,0:21:18.99,0:21:20.26,Default,NTP,0,0,0,,你去哪裏了啊
+Dialogue: 0,0:21:21.63,0:21:23.36,Default,NTP,0,0,0,,因為想在不同的地方看看
+Dialogue: 0,0:21:23.63,0:21:25.73,Default,NTP,0,0,0,,就跑到別的屋頂上去了
+Dialogue: 0,0:21:26.20,0:21:27.93,Default,NTP,0,0,0,,啊 真是的
+Dialogue: 0,0:21:26.20,0:21:34.51,Default,NTP,0,0,0,,{\an8\fs22}房顶的日语是「やね」 而稍带责备语气的词可以是「やぁねぇ」\N这又是阿鲁的日式老头子冷笑话
+Dialogue: 0,0:21:30.53,0:21:32.94,Default,NTP,0,0,0,,那個 剛才是地球上
+Dialogue: 0,0:21:33.04,0:21:34.51,Default,NTP,0,0,0,,很久以前就流傳的文字遊戲…
+Dialogue: 0,0:21:34.57,0:21:36.04,Default,NTP,0,0,0,,老頭子的玩笑 禁止！
+Dialogue: 0,0:21:42.18,0:21:44.78,Default,NTP,0,0,0,,唔 好睏啊
+Dialogue: 0,0:21:46.35,0:21:47.79,Default,NTP,0,0,0,,你居然不困
+Dialogue: 0,0:21:48.79,0:21:49.89,Default,NTP,0,0,0,,對了 藍華小姐
+Dialogue: 0,0:21:50.19,0:21:51.69,Default,NTP,0,0,0,,有件事情我忘記說了
+Dialogue: 0,0:21:54.12,0:21:55.19,Default,NTP,0,0,0,,也有少數罕見的情況
+Dialogue: 0,0:21:55.66,0:21:58.63,Default,NTP,0,0,0,,落入AQUA的流星不會燃燒殆盡
+Dialogue: 0,0:21:58.90,0:22:01.23,Default,NTP,0,0,0,,而一直到達地表哦
+Dialogue: 0,0:22:06.47,0:22:09.14,Default,NTP,0,0,0,,謝謝你今天帶給我如此美好的夜晚
+Dialogue: 0,0:22:09.37,0:22:13.51,Default,NTP,0,0,0,,啊 讓…讓人害羞的台詞 禁止！
+Dialogue: 0,0:22:13.58,0:22:14.58,Default,NTP,0,0,0,,啊～
+Dialogue: 0,0:22:14.98,0:22:17.55,Default,NTP,0,0,0,,{\an8\fs26}還…還有 那種樣子 禁止！…
+Dialogue: 0,0:22:15.48,0:22:16.21,Default,NTP,0,0,0,,小愛
+Dialogue: 0,0:22:16.71,0:22:20.95,Default,NTP,0,0,0,,流星雨的夜晚 就這樣深沉而寧靜地度過了
+Dialogue: 0,0:22:21.75,0:22:24.52,Default,NTP,0,0,0,,這個晚上 我們三個人都非常滿足哦
+Dialogue: 0,0:22:25.06,0:22:25.96,Default,NTP,0,0,0,,…禁止！
+Dialogue: 0,0:22:26.89,0:22:30.79,Default,NTP,0,0,0,,燈裏 雖然有關重力的話題比較難懂
+Dialogue: 0,0:22:31.13,0:22:33.90,Default,NTP,0,0,0,,不過相互吸引的力量真的很棒呢
+Dialogue: 0,0:22:34.70,0:22:38.24,Default,NTP,0,0,0,,我似乎也能理解被AQUA吸引的流星的心情了
+Dialogue: 0,0:22:39.07,0:22:42.21,Default,NTP,0,0,0,,因為 我也非常喜歡AQUA啊
+Dialogue: 0,0:24:04.96,0:24:09.96,Default,NTP,0,0,0,,那顆 新威尼斯色的心…
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPJP】
+Dialogue: 0,0:01:32.34,0:01:45.25,OPEDJP,NTP,0,0,0,,{\fad(400,400)}窓からそっと 朝陽がのびて
+Dialogue: 0,0:01:46.62,0:01:58.23,OPEDJP,NTP,0,0,0,,{\fad(400,400)}まどろむまつ毛に こぼれてくよ
+Dialogue: 0,0:01:59.56,0:02:13.28,OPEDJP,NTP,0,0,0,,{\fad(400,400)}そよふく風 部屋へと招いて
+Dialogue: 0,0:02:15.31,0:02:26.06,OPEDJP,NTP,0,0,0,,{\fad(400,400)}木漏れ日に 君の寝顔 優しくて
+Dialogue: 0,0:02:23.46,0:02:26.06,OPEDJP,NTP,0,0,0,,{\fad(400,400)\an7}Euforia
+Dialogue: 0,0:02:26.16,0:02:32.40,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いつものありふれた朝だけど
+Dialogue: 0,0:02:34.07,0:02:40.01,OPEDJP,NTP,0,0,0,,{\fad(400,400)}鮮やかに色づいてるよ
+Dialogue: 0,0:02:40.27,0:02:47.48,OPEDJP,NTP,0,0,0,,{\fad(400,400)}それは君と巡り合えた奇跡
+Dialogue: 0,0:02:48.08,0:02:51.02,OPEDJP,NTP,0,0,0,,{\fad(400,400)}ひとりじゃない
+Dialogue: 0,0:02:51.58,0:02:57.79,OPEDJP,NTP,0,0,0,,{\fad(400,400)}君と一緒にいるから
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【OPCH】
+Dialogue: 0,0:01:32.34,0:01:45.25,OPEDCH,NTP,0,0,0,,{\fad(400,400)}晨曦悄然漫入窗際
+Dialogue: 0,0:01:46.62,0:01:58.23,OPEDCH,NTP,0,0,0,,{\fad(400,400)}灑落在 舒睡的睫毛間
+Dialogue: 0,0:01:59.56,0:02:13.28,OPEDCH,NTP,0,0,0,,{\fad(400,400)}讓輕拂的風吹入小屋
+Dialogue: 0,0:02:15.31,0:02:26.06,OPEDCH,NTP,0,0,0,,{\fad(400,400)}枝葉間滑落的陽光 映襯你的睡顏
+Dialogue: 0,0:02:23.46,0:02:26.06,OPEDCH,NTP,0,0,0,,{\fad(400,400)\an3}Euforia
+Dialogue: 0,0:02:26.16,0:02:32.40,OPEDCH,NTP,0,0,0,,{\fad(400,400)}雖是個平凡無奇的早晨
+Dialogue: 0,0:02:34.07,0:02:40.01,OPEDCH,NTP,0,0,0,,{\fad(400,400)}也染上了艷麗的色彩
+Dialogue: 0,0:02:40.27,0:02:47.48,OPEDCH,NTP,0,0,0,,{\fad(400,400)}那正是與你邂逅的奇跡
+Dialogue: 0,0:02:48.08,0:02:51.02,OPEDCH,NTP,0,0,0,,{\fad(400,400)}我並非孤單一人
+Dialogue: 0,0:02:51.58,0:02:57.79,OPEDCH,NTP,0,0,0,,{\fad(400,400)}因為 有你相伴
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDJP】
+Dialogue: 0,0:22:45.08,0:22:56.02,OPEDJP,NTP,0,0,0,,{\fad(400,400)}雨が上がる 遠く空眺め 雲の切れ間探す
+Dialogue: 0,0:22:56.89,0:23:07.90,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いつもよりも 少し遠回り 海へ続く道を
+Dialogue: 0,0:23:09.53,0:23:15.61,OPEDJP,NTP,0,0,0,,{\fad(400,400)}切りすぎた前髪 気にしないで
+Dialogue: 0,0:23:15.77,0:23:20.21,OPEDJP,NTP,0,0,0,,{\fad(400,400)}そのまま 駆け出そう
+Dialogue: 0,0:23:22.05,0:23:27.12,OPEDJP,NTP,0,0,0,,{\fad(400,400)}頬をかすめていく 風の色が
+Dialogue: 0,0:23:27.22,0:23:32.69,OPEDJP,NTP,0,0,0,,{\fad(400,400)}いつか夏のはじまりを告げる
+Dialogue: 0,0:23:33.86,0:23:38.93,OPEDJP,NTP,0,0,0,,{\fad(400,400)}大きく手を振って 深呼吸しよう
+Dialogue: 0,0:23:39.13,0:23:44.54,OPEDJP,NTP,0,0,0,,{\fad(400,400)}この時間を抱きしめていたいから
+Dialogue: 0,0:23:45.74,0:23:49.67,OPEDJP,NTP,0,0,0,,{\fad(400,400)}明日もまた会えるかな
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,【EDCH】
+Dialogue: 0,0:22:45.08,0:22:56.02,OPEDCH,NTP,0,0,0,,{\fad(400,400)}雨過天晴 眺望遙遠的天空 探尋雲彩的縫隙
+Dialogue: 0,0:22:56.89,0:23:07.90,OPEDCH,NTP,0,0,0,,{\fad(400,400)}繞過早已習慣的歸途 向著通往大海的道路
+Dialogue: 0,0:23:09.53,0:23:15.61,OPEDCH,NTP,0,0,0,,{\fad(400,400)}忘掉剪得過短的留海
+Dialogue: 0,0:23:15.77,0:23:20.21,OPEDCH,NTP,0,0,0,,{\fad(400,400)}毫無顧忌地大膽前進
+Dialogue: 0,0:23:22.05,0:23:27.12,OPEDCH,NTP,0,0,0,,{\fad(400,400)}吹拂著面頰的海風
+Dialogue: 0,0:23:27.22,0:23:32.69,OPEDCH,NTP,0,0,0,,{\fad(400,400)}不知何時染上了初夏的色彩
+Dialogue: 0,0:23:33.86,0:23:38.93,OPEDCH,NTP,0,0,0,,{\fad(400,400)}用力揮揮手 來個深呼吸
+Dialogue: 0,0:23:39.13,0:23:44.54,OPEDCH,NTP,0,0,0,,{\fad(400,400)}滿心希望永遠擁抱這一刻
+Dialogue: 0,0:23:45.74,0:23:49.67,OPEDCH,NTP,0,0,0,,{\fad(400,400)}明天 我們還會再見嗎
+

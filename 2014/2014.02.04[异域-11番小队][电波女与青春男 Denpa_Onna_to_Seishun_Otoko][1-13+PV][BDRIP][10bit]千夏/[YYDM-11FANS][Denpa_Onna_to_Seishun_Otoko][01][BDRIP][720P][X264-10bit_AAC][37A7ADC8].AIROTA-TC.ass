@@ -1,0 +1,1270 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 848
+PlayResY: 480
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ED_JP,ＤＦブラッシュＲＤW12,24,&H009e3d04,&H000000ff,&H00d09b16,&H00ffffff,0,0,0,0,100,100,0,0.00,1,1,1,2,10,10,10,1
+Style: Default-furigana,標楷體,12,&H00ffffff,&Hf0000000,&H00000000,&Hf0000000,-1,0,0,0,100,100,0,0.00,1,0,0,2,30,30,10,134
+Style: title,華康儷金黑,36,&H007919c6,&H000000ff,&H00ffffff,&H00ffffff,0,0,0,0,100,100,0,0.00,1,3,0,2,10,10,10,1
+Style: yokoku,華康瘦金體,32,&H00ffffff,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,2,0,2,10,10,10,1
+Style: 上字,華康中圓體,25,&H00000000,&H000000ff,&H00ffffff,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,0,8,10,10,10,1
+Style: LOGO-furigana,DFPJinWenW3-GB,15,&H00af7ebd,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,1,1,2,10,10,10,1
+Style: 特效,微軟正黑體,30,&H00dab15e,&H000000ff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,10,1
+Style: OP_denpa-furigana,へた字,14,&H00ffffff,&Hffffffff,&H00616161,&H00000000,0,0,0,0,100,100,0,0.00,1,0,0,2,10,10,10,1
+Style: OP_denpa,へた字,29,&H00ffffff,&H006b6b6d,&H00616161,&H00000000,0,0,0,0,100,100,0,0.00,1,2,2,2,10,10,10,1
+Style: Default,華康隸書體W7,31,&H00f0e6cf,&Hf0000000,&H00000000,&Hf0000000,-1,0,0,0,100,100,1,0.00,1,3,0,2,30,30,10,1
+Style: point,文鼎新中特黑,13,&H0069b9f8,&H000000ff,&H00ffffff,&H00ffffff,-1,0,0,0,100,100,0,0.00,1,0,0,2,10,10,10,1
+Style: LOGO,華康新篆體(P),34,&H00ce9bdc,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,2,2,2,10,10,10,1
+Style: heji,文鼎中特黑,20,&H00ab4c6f,&H000000ff,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.88,0:00:14.00,Default,NTP,0000,0000,0000,,在這被宇宙人看護著的城市裡
+Dialogue: 0,0:00:16.35,0:00:21.96,Default,NTP,0000,0000,0000,,有位少女嗶嗶嗶地向全世界發送著電波
+Dialogue: 0,0:00:23.23,0:00:25.13,Default,NTP,0000,0000,0000,,嗶嗶嗶 嗶嗶嗶
+Dialogue: 0,0:00:26.58,0:00:29.75,Default,NTP,0000,0000,0000,,追趕著遙遠的宇宙
+Dialogue: 0,0:00:31.12,0:00:33.91,title,NTP,0000,0000,0000,,{\pos(498,381)\fad(1000,0)}宇\N宙\N人\N的\N都\N市
+Dialogue: 0,0:00:38.71,0:00:40.53,LOGO,NTP,0000,0000,0000,,{\r\1vc(&HD09B16&,&HD09B16&,&HAF7EBD&,&HD09B16&)\pos(556,244)\jitter(4,4,1,1,100)}千\N夏\N醬
+Dialogue: 0,0:00:38.71,0:00:40.53,LOGO,NTP,0000,0000,0000,,{\r\1vc(&HD09B16&,&HAF7EBD&,&HAF7EBD&,&HAF7EBD&)\pos(526,273)\jitter(4,4,1,1,80)}魔\N法\N使
+Dialogue: 0,0:00:38.71,0:00:40.53,LOGO,NTP,0000,0000,0000,,{\r\1vc(&HD09B16&,&HAF7EBD&,&HAF7EBD&,&HAF7EBD&)\fscy50\fscx50\pos(557,268)\jitter(4,4,1,1,100)}和
+Dialogue: 0,0:00:40.17,0:00:40.41,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,220,\fscx100)\t(100,120,\3c&HEE3000&)\t(210,410,\3c&HCE00EF&)\t(110,610,\3c&HE0608F)\t(610,1110,\3c&H0FFF17&)\t(310,1720,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ニ
+Dialogue: 0,0:00:40.37,0:00:40.59,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:40.37,0:00:40.59,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(294,470)\alpha&HFF&\t(220,221,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(221,440,\fscx100)\t(320,340,\3c&HEE3000&)\t(430,630,\3c&HCE00EF&)\t(330,830,\3c&HE0608F)\t(830,1330,\3c&H0FFF17&)\t(530,1940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ネ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(323,470)\alpha&HFF&\t(440,441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(441,660,\fscx100)\t(540,560,\3c&HEE3000&)\t(650,850,\3c&HCE00EF&)\t(550,1050,\3c&HE0608F)\t(1050,1550,\3c&H0FFF17&)\t(750,2160,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)&}ン
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(660,661,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(661,880,\fscx100)\t(760,780,\3c&HEE3000&)\t(870,1070,\3c&HCE00EF&)\t(770,1270,\3c&HE0608F)\t(1270,1770,\3c&H0FFF17&)\t(970,2380,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}セ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(880,881,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(881,1100,\fscx100)\t(980,1000,\3c&HEE3000&)\t(1090,1290,\3c&HCE00EF&)\t(990,1490,\3c&HE0608F)\t(1490,1990,\3c&H0FFF17&)\t(1190,2600,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1320,1321,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1321,1540,\fscx100)\t(1420,1440,\3c&HEE3000&)\t(1530,1730,\3c&HCE00EF&)\t(1430,1930,\3c&HE0608F)\t(1930,2430,\3c&H0FFF17&)\t(1630,3040,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}バ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(1540,1541,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1541,1760,\fscx100)\t(1640,1660,\3c&HEE3000&)\t(1750,1950,\3c&HCE00EF&)\t(1650,2150,\3c&HE0608F)\t(2150,2650,\3c&H0FFF17&)\t(1850,3260,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(1760,1761,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1761,1980,\fscx100)\t(1860,1880,\3c&HEE3000&)\t(1970,2170,\3c&HCE00EF&)\t(1870,2370,\3c&HE0608F)\t(2370,2870,\3c&H0FFF17&)\t(2070,3480,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ハ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(1980,1981,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1981,2190,\fscx100)\t(2080,2095,\3c&HEE3000&)\t(2185,2385,\3c&HCE00EF&)\t(2085,2585,\3c&HE0608F)\t(2585,3085,\3c&H0FFF17&)\t(2285,3690,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ヒ
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(2190,2191,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2191,2400,\fscx100)\t(2290,2305,\3c&HEE3000&)\t(2395,2595,\3c&HCE00EF&)\t(2295,2795,\3c&HE0608F)\t(2795,3295,\3c&H0FFF17&)\t(2495,3900,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:00:40.37,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(584,470)\alpha&HFF&\t(2400,2401,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2401,2610,\fscx100)\t(2500,2515,\3c&HEE3000&)\t(2605,2805,\3c&HCE00EF&)\t(2505,3005,\3c&HE0608F)\t(3005,3505,\3c&H0FFF17&)\t(2705,4110,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}リ
+Dialogue: 0,0:00:40.39,0:00:40.63,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(284,446,284,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:40.59,0:00:40.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(262,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:40.59,0:00:40.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(326,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:40.61,0:00:40.85,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(313,446,313,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC}ㄣ
+Dialogue: 0,0:00:40.81,0:00:41.03,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(291,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:40.81,0:00:41.03,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(355,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:40.83,0:00:41.07,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz33\1c&H0FFF17&0}ㄣ
+Dialogue: 0,0:00:41.03,0:00:41.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.03,0:00:41.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.05,0:00:41.29,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF& }ㄣ
+Dialogue: 0,0:00:41.25,0:00:41.47,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.25,0:00:41.47,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.49,0:00:41.73,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:41.69,0:00:41.91,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.69,0:00:41.91,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.71,0:00:41.95,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:41.91,0:00:42.13,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.91,0:00:42.13,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:41.93,0:00:42.17,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:42.13,0:00:42.35,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.13,0:00:42.35,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.15,0:00:42.39,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:42.35,0:00:42.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.35,0:00:42.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.36,0:00:42.60,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:42.56,0:00:42.77,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.56,0:00:42.77,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.57,0:00:42.81,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(574,446,574,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:42.77,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(552,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:42.77,0:00:42.98,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(616,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.06,0:00:43.30,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(240,446,240,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(250,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,250,\fscx100)\t(100,135,\3c&HEE3000&)\t(225,425,\3c&HCE00EF&)\t(125,625,\3c&HE0608F)\t(625,1125,\3c&H0FFF17&)\t(325,1750,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}コ
+Dialogue: 0,0:00:43.26,0:00:43.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(218,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.26,0:00:43.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(282,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(279,470)\alpha&HFF&\t(250,251,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(251,500,\fscx100)\t(350,385,\3c&HEE3000&)\t(475,675,\3c&HCE00EF&)\t(375,875,\3c&HE0608F)\t(875,1375,\3c&H0FFF17&)\t(575,2000,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}コ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(500,501,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(501,750,\fscx100)\t(600,635,\3c&HEE3000&)\t(725,925,\3c&HCE00EF&)\t(625,1125,\3c&HE0608F)\t(1125,1625,\3c&H0FFF17&)\t(825,2250,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(750,751,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(751,990,\fscx100)\t(850,880,\3c&HEE3000&)\t(970,1170,\3c&HCE00EF&)\t(870,1370,\3c&HE0608F)\t(1370,1870,\3c&H0FFF17&)\t(1070,2490,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}マ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(990,991,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(991,1230,\fscx100)\t(1090,1120,\3c&HEE3000&)\t(1210,1410,\3c&HCE00EF&)\t(1110,1610,\3c&HE0608F)\t(1610,2110,\3c&H0FFF17&)\t(1310,2730,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1230,1231,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1231,1470,\fscx100)\t(1330,1360,\3c&HEE3000&)\t(1450,1650,\3c&HCE00EF&)\t(1350,1850,\3c&HE0608F)\t(1850,2350,\3c&H0FFF17&)\t(1550,2970,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1710,1711,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1711,1950,\fscx100)\t(1810,1840,\3c&HEE3000&)\t(1930,2130,\3c&HCE00EF&)\t(1830,2330,\3c&HE0608F)\t(2330,2830,\3c&H0FFF17&)\t(2030,3450,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ソ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(1950,1951,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1951,2190,\fscx100)\t(2050,2080,\3c&HEE3000&)\t(2170,2370,\3c&HCE00EF&)\t(2070,2570,\3c&HE0608F)\t(2570,3070,\3c&H0FFF17&)\t(2270,3690,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ラ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2190,2191,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2191,2430,\fscx100)\t(2290,2320,\3c&HEE3000&)\t(2410,2610,\3c&HCE00EF&)\t(2310,2810,\3c&HE0608F)\t(2810,3310,\3c&H0FFF17&)\t(2510,3930,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ミ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2430,2431,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2431,2670,\fscx100)\t(2530,2560,\3c&HEE3000&)\t(2650,2850,\3c&HCE00EF&)\t(2550,3050,\3c&HE0608F)\t(3050,3550,\3c&H0FFF17&)\t(2750,4170,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(2670,2671,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2671,2910,\fscx100)\t(2770,2800,\3c&HEE3000&)\t(2890,3090,\3c&HCE00EF&)\t(2790,3290,\3c&HE0608F)\t(3290,3790,\3c&H0FFF17&)\t(2990,4410,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ゲ
+Dialogue: 0,0:00:43.26,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(2910,2911,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2911,3150,\fscx100)\t(3010,3040,\3c&HEE3000&)\t(3130,3330,\3c&HCE00EF&)\t(3030,3530,\3c&HE0608F)\t(3530,4030,\3c&H0FFF17&)\t(3230,4650,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:00:43.31,0:00:43.55,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(269,446,269,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:43.51,0:00:43.76,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(247,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.51,0:00:43.76,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(311,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.56,0:00:43.80,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:43.76,0:00:44.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.76,0:00:44.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:43.81,0:00:44.05,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:44.01,0:00:44.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.01,0:00:44.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.05,0:00:44.29,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:44.25,0:00:44.49,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.25,0:00:44.49,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.29,0:00:44.53,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:44.49,0:00:44.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.49,0:00:44.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.77,0:00:45.01,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:44.97,0:00:45.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:44.97,0:00:45.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.01,0:00:45.25,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:45.21,0:00:45.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.21,0:00:45.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.25,0:00:45.49,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330}ㄣ
+Dialogue: 0,0:00:45.45,0:00:45.69,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.45,0:00:45.69,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.49,0:00:45.73,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:45.69,0:00:45.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.69,0:00:45.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.73,0:00:45.97,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330}ㄣ
+Dialogue: 0,0:00:45.93,0:00:46.17,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.93,0:00:46.17,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:45.97,0:00:46.21,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:46.17,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:46.17,0:00:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:46.40,0:00:46.64,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(211,446,211,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(221,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,210,\fscx100)\t(100,115,\3c&HEE3000&)\t(205,405,\3c&HCE00EF&)\t(105,605,\3c&HE0608F)\t(605,1105,\3c&H0FFF17&)\t(305,1710,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}サ
+Dialogue: 0,0:00:46.60,0:00:46.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(189,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:46.60,0:00:46.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(253,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(250,470)\alpha&HFF&\t(210,211,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(211,420,\fscx100)\t(310,325,\3c&HEE3000&)\t(415,615,\3c&HCE00EF&)\t(315,815,\3c&HE0608F)\t(815,1315,\3c&H0FFF17&)\t(515,1920,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ボ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(279,470)\alpha&HFF&\t(420,421,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(421,630,\fscx100)\t(520,535,\3c&HEE3000&)\t(625,825,\3c&HCE00EF&)\t(525,1025,\3c&HE0608F)\t(1025,1525,\3c&H0FFF17&)\t(725,2130,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}リ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(630,631,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(631,840,\fscx100)\t(730,745,\3c&HEE3000&)\t(835,1035,\3c&HCE00EF&)\t(735,1235,\3c&HE0608F)\t(1235,1735,\3c&H0FFF17&)\t(935,2340,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(840,841,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(841,1050,\fscx100)\t(940,955,\3c&HEE3000&)\t(1045,1245,\3c&HCE00EF&)\t(945,1445,\3c&HE0608F)\t(1445,1945,\3c&H0FFF17&)\t(1145,2550,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(1050,1051,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1051,1260,\fscx100)\t(1150,1165,\3c&HEE3000&)\t(1255,1455,\3c&HCE00EF&)\t(1155,1655,\3c&HE0608F)\t(1655,2155,\3c&H0FFF17&)\t(1355,2760,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}セ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1260,1261,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1261,1470,\fscx100)\t(1360,1375,\3c&HEE3000&)\t(1465,1665,\3c&HCE00EF&)\t(1365,1865,\3c&HE0608F)\t(1865,2365,\3c&H0FFF17&)\t(1565,2970,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1880,1881,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1881,2090,\fscx100)\t(1980,1995,\3c&HEE3000&)\t(2085,2285,\3c&HCE00EF&)\t(1985,2485,\3c&HE0608F)\t(2485,2985,\3c&H0FFF17&)\t(2185,3590,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}パ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(2090,2091,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2091,2310,\fscx100)\t(2190,2210,\3c&HEE3000&)\t(2300,2500,\3c&HCE00EF&)\t(2200,2700,\3c&HE0608F)\t(2700,3200,\3c&H0FFF17&)\t(2400,3810,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ジャ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2310,2311,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2311,2520,\fscx100)\t(2410,2425,\3c&HEE3000&)\t(2515,2715,\3c&HCE00EF&)\t(2415,2915,\3c&HE0608F)\t(2915,3415,\3c&H0FFF17&)\t(2615,4020,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}マ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(2520,2521,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2521,2720,\fscx100)\t(2620,2630,\3c&HEE3000&)\t(2720,2920,\3c&HCE00EF&)\t(2620,3120,\3c&HE0608F)\t(3120,3620,\3c&H0FFF17&)\t(2820,4220,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(2720,2721,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2721,2920,\fscx100)\t(2820,2830,\3c&HEE3000&)\t(2920,3120,\3c&HCE00EF&)\t(2820,3320,\3c&HE0608F)\t(3320,3820,\3c&H0FFF17&)\t(3020,4420,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:00:46.60,0:00:49.66,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(627,470)\alpha&HFF&\t(2920,2921,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2921,3120,\fscx100)\t(3020,3030,\3c&HEE3000&)\t(3120,3320,\3c&HCE00EF&)\t(3020,3520,\3c&HE0608F)\t(3520,4020,\3c&H0FFF17&)\t(3220,4620,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:00:46.61,0:00:46.85,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(240,446,240,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:46.81,0:00:47.02,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(218,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:46.81,0:00:47.02,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(282,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:46.82,0:00:47.06,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(269,446,269,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:47.02,0:00:47.23,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(247,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.02,0:00:47.23,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(311,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.03,0:00:47.27,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:47.23,0:00:47.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.23,0:00:47.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.24,0:00:47.48,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:47.44,0:00:47.65,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.44,0:00:47.65,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.45,0:00:47.69,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:47.65,0:00:47.86,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.65,0:00:47.86,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.66,0:00:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:47.86,0:00:48.07,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:47.86,0:00:48.07,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.28,0:00:48.52,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:48.48,0:00:48.69,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.48,0:00:48.69,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.49,0:00:48.73,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:48.69,0:00:48.91,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.69,0:00:48.91,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.71,0:00:48.95,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:48.91,0:00:49.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.91,0:00:49.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:48.92,0:00:49.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:49.12,0:00:49.32,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:49.12,0:00:49.32,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:49.12,0:00:49.36,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:49.32,0:00:49.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:49.32,0:00:49.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:49.32,0:00:49.56,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(617,446,617,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:49.52,0:00:49.72,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(595,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:49.52,0:00:49.72,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(659,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:49.84,0:00:50.08,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(211,446,211,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(221,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,230,\fscx100)\t(100,125,\3c&HEE3000&)\t(215,415,\3c&HCE00EF&)\t(115,615,\3c&HE0608F)\t(615,1115,\3c&H0FFF17&)\t(315,1730,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:00:50.04,0:00:50.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(189,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.04,0:00:50.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(253,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(250,470)\alpha&HFF&\t(230,231,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(231,460,\fscx100)\t(330,355,\3c&HEE3000&)\t(445,645,\3c&HCE00EF&)\t(345,845,\3c&HE0608F)\t(845,1345,\3c&H0FFF17&)\t(545,1960,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ツ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(279,470)\alpha&HFF&\t(460,461,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(461,690,\fscx100)\t(560,585,\3c&HEE3000&)\t(675,875,\3c&HCE00EF&)\t(575,1075,\3c&HE0608F)\t(1075,1575,\3c&H0FFF17&)\t(775,2190,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ヤ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(690,691,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(691,920,\fscx100)\t(790,815,\3c&HEE3000&)\t(905,1105,\3c&HCE00EF&)\t(805,1305,\3c&HE0608F)\t(1305,1805,\3c&H0FFF17&)\t(1005,2420,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ス
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(920,921,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(921,1150,\fscx100)\t(1020,1045,\3c&HEE3000&)\t(1135,1335,\3c&HCE00EF&)\t(1035,1535,\3c&HE0608F)\t(1535,2035,\3c&H0FFF17&)\t(1235,2650,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ミ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(1150,1151,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1151,1380,\fscx100)\t(1250,1275,\3c&HEE3000&)\t(1365,1565,\3c&HCE00EF&)\t(1265,1765,\3c&HE0608F)\t(1765,2265,\3c&H0FFF17&)\t(1465,2880,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(1710,1711,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1711,1940,\fscx100)\t(1810,1835,\3c&HEE3000&)\t(1925,2125,\3c&HCE00EF&)\t(1825,2325,\3c&HE0608F)\t(2325,2825,\3c&H0FFF17&)\t(2025,3440,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}コ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1940,1941,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1941,2170,\fscx100)\t(2040,2065,\3c&HEE3000&)\t(2155,2355,\3c&HCE00EF&)\t(2055,2555,\3c&HE0608F)\t(2555,3055,\3c&H0FFF17&)\t(2255,3670,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ズ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(2170,2171,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2171,2390,\fscx100)\t(2270,2290,\3c&HEE3000&)\t(2380,2580,\3c&HCE00EF&)\t(2280,2780,\3c&HE0608F)\t(2780,3280,\3c&H0FFF17&)\t(2480,3890,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ニ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(2390,2391,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2391,2640,\fscx100)\t(2490,2525,\3c&HEE3000&)\t(2615,2815,\3c&HCE00EF&)\t(2515,3015,\3c&HE0608F)\t(3015,3515,\3c&H0FFF17&)\t(2715,4140,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チュ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(2640,2641,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2641,2860,\fscx100)\t(2740,2760,\3c&HEE3000&)\t(2850,3050,\3c&HCE00EF&)\t(2750,3250,\3c&HE0608F)\t(3250,3750,\3c&H0FFF17&)\t(2950,4360,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ウ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(2860,2861,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2861,3080,\fscx100)\t(2960,2980,\3c&HEE3000&)\t(3070,3270,\3c&HCE00EF&)\t(2970,3470,\3c&HE0608F)\t(3470,3970,\3c&H0FFF17&)\t(3170,4580,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:00:50.04,0:00:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(627,470)\alpha&HFF&\t(3080,3081,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3081,3300,\fscx100)\t(3180,3200,\3c&HEE3000&)\t(3290,3490,\3c&HCE00EF&)\t(3190,3690,\3c&HE0608F)\t(3690,4190,\3c&H0FFF17&)\t(3390,4800,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:00:50.07,0:00:50.31,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(240,446,240,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:50.27,0:00:50.50,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(218,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.27,0:00:50.50,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(282,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.30,0:00:50.54,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(269,446,269,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:50.50,0:00:50.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(247,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.50,0:00:50.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(311,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.53,0:00:50.77,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:50.73,0:00:50.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.73,0:00:50.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.76,0:00:51.00,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:50.96,0:00:51.19,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.96,0:00:51.19,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:50.99,0:00:51.23,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:51.19,0:00:51.42,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:51.19,0:00:51.42,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:51.55,0:00:51.79,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:51.75,0:00:51.98,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:51.75,0:00:51.98,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:51.78,0:00:52.02,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:51.98,0:00:52.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:51.98,0:00:52.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.01,0:00:52.25,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:52.21,0:00:52.43,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.21,0:00:52.43,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.23,0:00:52.47,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:52.43,0:00:52.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.43,0:00:52.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.48,0:00:52.72,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:52.68,0:00:52.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.68,0:00:52.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.70,0:00:52.94,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:52.90,0:00:53.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.90,0:00:53.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:52.92,0:00:53.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(617,446,617,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:53.12,0:00:53.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(595,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:53.12,0:00:53.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(659,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:53.26,0:00:53.50,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(139,446,139,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(149,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,320,\fscx100)\t(100,170,\3c&HEE3000&)\t(260,460,\3c&HCE00EF&)\t(160,660,\3c&HE0608F)\t(660,1160,\3c&H0FFF17&)\t(360,1820,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チ
+Dialogue: 0,0:00:53.46,0:00:53.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(117,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:53.46,0:00:53.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(181,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(192,470)\alpha&HFF&\t(320,321,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(321,660,\fscx100)\t(420,500,\3c&HEE3000&)\t(590,790,\3c&HCE00EF&)\t(490,990,\3c&HE0608F)\t(990,1490,\3c&H0FFF17&)\t(690,2160,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キュ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(236,470)\alpha&HFF&\t(660,661,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(661,980,\fscx100)\t(760,830,\3c&HEE3000&)\t(920,1120,\3c&HCE00EF&)\t(820,1320,\3c&HE0608F)\t(1320,1820,\3c&H0FFF17&)\t(1020,2480,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ウ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(980,981,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(981,1500,\fscx100)\t(1080,1250,\3c&HEE3000&)\t(1340,1540,\3c&HCE00EF&)\t(1240,1740,\3c&HE0608F)\t(1740,2240,\3c&H0FFF17&)\t(1440,3000,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(323,470)\alpha&HFF&\t(2120,2121,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2121,2440,\fscx100)\t(2220,2290,\3c&HEE3000&)\t(2380,2580,\3c&HCE00EF&)\t(2280,2780,\3c&HE0608F)\t(2780,3280,\3c&H0FFF17&)\t(2480,3940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ウ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(2440,2441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2441,2880,\fscx100)\t(2540,2670,\3c&HEE3000&)\t(2760,2960,\3c&HCE00EF&)\t(2660,3160,\3c&HE0608F)\t(3160,3660,\3c&H0FFF17&)\t(2860,4380,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チュ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(2880,2881,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2881,3300,\fscx100)\t(2980,3100,\3c&HEE3000&)\t(3190,3390,\3c&HCE00EF&)\t(3090,3590,\3c&HE0608F)\t(3590,4090,\3c&H0FFF17&)\t(3290,4800,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ウ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(3300,3301,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3301,3660,\fscx100)\t(3400,3490,\3c&HEE3000&)\t(3580,3780,\3c&HCE00EF&)\t(3480,3980,\3c&HE0608F)\t(3980,4480,\3c&H0FFF17&)\t(3680,5160,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ジ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(3660,3661,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3661,3960,\fscx100)\t(3760,3820,\3c&HEE3000&)\t(3910,4110,\3c&HCE00EF&)\t(3810,4310,\3c&HE0608F)\t(4310,4810,\3c&H0FFF17&)\t(4010,5460,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(3960,3961,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3961,4320,\fscx100)\t(4060,4150,\3c&HEE3000&)\t(4240,4440,\3c&HCE00EF&)\t(4140,4640,\3c&HE0608F)\t(4640,5140,\3c&H0FFF17&)\t(4340,5820,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(4320,4321,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4321,4620,\fscx100)\t(4420,4480,\3c&HEE3000&)\t(4570,4770,\3c&HCE00EF&)\t(4470,4970,\3c&HE0608F)\t(4970,5470,\3c&H0FFF17&)\t(4670,6120,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(4620,4621,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4621,4980,\fscx100)\t(4720,4810,\3c&HEE3000&)\t(4900,5100,\3c&HCE00EF&)\t(4800,5300,\3c&HE0608F)\t(5300,5800,\3c&H0FFF17&)\t(5000,6480,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(584,470)\alpha&HFF&\t(4980,4981,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4981,5340,\fscx100)\t(5080,5170,\3c&HEE3000&)\t(5260,5460,\3c&HCE00EF&)\t(5160,5660,\3c&HE0608F)\t(5660,6160,\3c&H0FFF17&)\t(5360,6840,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(613,470)\alpha&HFF&\t(5340,5341,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(5341,5700,\fscx100)\t(5440,5530,\3c&HEE3000&)\t(5620,5820,\3c&HCE00EF&)\t(5520,6020,\3c&HE0608F)\t(6020,6520,\3c&H0FFF17&)\t(5720,7200,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ダ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(642,470)\alpha&HFF&\t(5700,5701,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(5701,6060,\fscx100)\t(5800,5890,\3c&HEE3000&)\t(5980,6180,\3c&HCE00EF&)\t(5880,6380,\3c&HE0608F)\t(6380,6880,\3c&H0FFF17&)\t(6080,7560,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(671,470)\alpha&HFF&\t(6060,6061,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(6061,6420,\fscx100)\t(6160,6250,\3c&HEE3000&)\t(6340,6540,\3c&HCE00EF&)\t(6240,6740,\3c&HE0608F)\t(6740,7240,\3c&H0FFF17&)\t(6440,7920,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:00:53.46,0:01:00.21,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(700,470)\alpha&HFF&\t(6420,6421,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(6421,6820,\fscx100)\t(6520,6630,\3c&HEE3000&)\t(6720,6920,\3c&HCE00EF&)\t(6620,7120,\3c&HE0608F)\t(7120,7620,\3c&H0FFF17&)\t(6820,8320,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}モ
+Dialogue: 0,0:00:53.58,0:00:53.82,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(182,446,182,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:53.78,0:00:54.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(160,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:53.78,0:00:54.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(224,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:53.92,0:00:54.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(226,446,226,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:54.12,0:00:54.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(204,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:54.12,0:00:54.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(268,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:54.24,0:00:54.48,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:54.44,0:00:54.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:54.44,0:00:54.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:55.38,0:00:55.62,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(313,446,313,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:55.58,0:00:55.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(291,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:55.58,0:00:55.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(355,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:55.70,0:00:55.94,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:55.90,0:00:56.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:55.90,0:00:56.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:56.14,0:00:56.38,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:56.34,0:00:56.76,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:56.34,0:00:56.76,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:56.56,0:00:56.80,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:56.76,0:00:57.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:56.76,0:00:57.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:56.92,0:00:57.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:57.12,0:00:57.42,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:57.12,0:00:57.42,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:57.22,0:00:57.46,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:57.42,0:00:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:57.42,0:00:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:57.58,0:00:57.82,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:57.78,0:00:58.08,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:57.78,0:00:58.08,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:57.88,0:00:58.12,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:58.08,0:00:58.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:58.08,0:00:58.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:58.24,0:00:58.48,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(574,446,574,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:00:58.44,0:00:58.80,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(552,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:58.44,0:00:58.80,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(616,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:58.60,0:00:58.84,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(603,446,603,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:00:58.80,0:00:59.16,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(581,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:58.80,0:00:59.16,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(645,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:58.96,0:00:59.20,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(632,446,632,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:00:59.16,0:00:59.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(610,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:59.16,0:00:59.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(674,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:59.32,0:00:59.56,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(661,446,661,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:00:59.52,0:00:59.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(639,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:59.52,0:00:59.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(703,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:59.68,0:00:59.92,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(690,446,690,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:00:59.88,0:01:00.28,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(668,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:00:59.88,0:01:00.28,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(732,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:00.11,0:01:00.35,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(211,446,211,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(221,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,370,\fscx100)\t(100,195,\3c&HEE3000&)\t(285,485,\3c&HCE00EF&)\t(185,685,\3c&HE0608F)\t(685,1185,\3c&H0FFF17&)\t(385,1870,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ウ
+Dialogue: 0,0:01:00.31,0:01:00.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(189,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:00.31,0:01:00.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(253,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(370,371,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(371,710,\fscx100)\t(470,550,\3c&HEE3000&)\t(640,840,\3c&HCE00EF&)\t(540,1040,\3c&HE0608F)\t(1040,1540,\3c&H0FFF17&)\t(740,2210,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チュ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(710,711,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(711,1080,\fscx100)\t(810,905,\3c&HEE3000&)\t(995,1195,\3c&HCE00EF&)\t(895,1395,\3c&HE0608F)\t(1395,1895,\3c&H0FFF17&)\t(1095,2580,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ウ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(1080,1081,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1081,1850,\fscx100)\t(1180,1475,\3c&HEE3000&)\t(1565,1765,\3c&HCE00EF&)\t(1465,1965,\3c&HE0608F)\t(1965,2465,\3c&H0FFF17&)\t(1665,3350,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(2220,2221,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2221,2590,\fscx100)\t(2320,2415,\3c&HEE3000&)\t(2505,2705,\3c&HCE00EF&)\t(2405,2905,\3c&HE0608F)\t(2905,3405,\3c&H0FFF17&)\t(2605,4090,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}マ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(2590,2591,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2591,2960,\fscx100)\t(2690,2785,\3c&HEE3000&)\t(2875,3075,\3c&HCE00EF&)\t(2775,3275,\3c&HE0608F)\t(3275,3775,\3c&H0FFF17&)\t(2975,4460,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(2960,2961,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2961,3330,\fscx100)\t(3060,3155,\3c&HEE3000&)\t(3245,3445,\3c&HCE00EF&)\t(3145,3645,\3c&HE0608F)\t(3645,4145,\3c&H0FFF17&)\t(3345,4830,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(3330,3331,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3331,3700,\fscx100)\t(3430,3525,\3c&HEE3000&)\t(3615,3815,\3c&HCE00EF&)\t(3515,4015,\3c&HE0608F)\t(4015,4515,\3c&H0FFF17&)\t(3715,5200,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ワ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(3700,3701,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3701,4070,\fscx100)\t(3800,3895,\3c&HEE3000&)\t(3985,4185,\3c&HCE00EF&)\t(3885,4385,\3c&HE0608F)\t(4385,4885,\3c&H0FFF17&)\t(4085,5570,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}セ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(4070,4071,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4071,4440,\fscx100)\t(4170,4265,\3c&HEE3000&)\t(4355,4555,\3c&HCE00EF&)\t(4255,4755,\3c&HE0608F)\t(4755,5255,\3c&H0FFF17&)\t(4455,5940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(4440,4441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4441,4810,\fscx100)\t(4540,4635,\3c&HEE3000&)\t(4725,4925,\3c&HCE00EF&)\t(4625,5125,\3c&HE0608F)\t(5125,5625,\3c&H0FFF17&)\t(4825,6310,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ツ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(4810,4811,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4811,5180,\fscx100)\t(4910,5005,\3c&HEE3000&)\t(5095,5295,\3c&HCE00EF&)\t(4995,5495,\3c&HE0608F)\t(5495,5995,\3c&H0FFF17&)\t(5195,6680,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ニ
+Dialogue: 0,0:01:00.31,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(627,470)\alpha&HFF&\t(5180,5181,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(5181,5550,\fscx100)\t(5280,5375,\3c&HEE3000&)\t(5465,5665,\3c&HCE00EF&)\t(5365,5865,\3c&HE0608F)\t(5865,6365,\3c&H0FFF17&)\t(5565,7050,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ハ
+Dialogue: 0,0:01:00.48,0:01:00.72,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:00.68,0:01:01.02,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:00.68,0:01:01.02,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:00.82,0:01:01.06,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:01.02,0:01:01.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:01.02,0:01:01.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:01.19,0:01:01.43,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:01.39,0:01:02.16,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:01.39,0:01:02.16,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:02.33,0:01:02.57,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:02.53,0:01:02.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:02.53,0:01:02.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:02.70,0:01:02.94,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:02.90,0:01:03.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:02.90,0:01:03.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:03.07,0:01:03.31,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:03.27,0:01:03.64,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:03.27,0:01:03.64,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:03.44,0:01:03.68,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:03.64,0:01:04.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:03.64,0:01:04.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:03.81,0:01:04.05,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:04.01,0:01:04.38,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:04.01,0:01:04.38,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:04.18,0:01:04.42,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:04.38,0:01:04.75,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:04.38,0:01:04.75,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:04.55,0:01:04.79,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:04.75,0:01:05.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:04.75,0:01:05.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:04.92,0:01:05.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:05.12,0:01:05.49,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:05.12,0:01:05.49,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:05.29,0:01:05.53,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(617,446,617,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:05.49,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(595,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:05.49,0:01:05.86,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(659,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:05.71,0:01:05.95,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,300,\fscx100)\t(100,160,\3c&HEE3000&)\t(250,450,\3c&HCE00EF&)\t(150,650,\3c&HE0608F)\t(650,1150,\3c&H0FFF17&)\t(350,1800,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}モッ
+Dialogue: 0,0:01:05.91,0:01:06.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:05.91,0:01:06.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(300,301,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(301,710,\fscx100)\t(400,515,\3c&HEE3000&)\t(605,805,\3c&HCE00EF&)\t(505,1005,\3c&HE0608F)\t(1005,1505,\3c&H0FFF17&)\t(705,2210,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(710,711,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(711,940,\fscx100)\t(810,835,\3c&HEE3000&)\t(925,1125,\3c&HCE00EF&)\t(825,1325,\3c&HE0608F)\t(1325,1825,\3c&H0FFF17&)\t(1025,2440,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ヘ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(940,941,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(941,1160,\fscx100)\t(1040,1060,\3c&HEE3000&)\t(1150,1350,\3c&HCE00EF&)\t(1050,1550,\3c&HE0608F)\t(1550,2050,\3c&H0FFF17&)\t(1250,2660,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1160,1161,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1161,1440,\fscx100)\t(1260,1310,\3c&HEE3000&)\t(1400,1600,\3c&HCE00EF&)\t(1300,1800,\3c&HE0608F)\t(1800,2300,\3c&H0FFF17&)\t(1500,2940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(1440,1441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1441,1610,\fscx100)\t(1540,1535,\3c&HEE3000&)\t(1625,1825,\3c&HCE00EF&)\t(1525,2025,\3c&HE0608F)\t(2025,2525,\3c&H0FFF17&)\t(1725,3110,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1610,1611,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1611,1820,\fscx100)\t(1710,1725,\3c&HEE3000&)\t(1815,2015,\3c&HCE00EF&)\t(1715,2215,\3c&HE0608F)\t(2215,2715,\3c&H0FFF17&)\t(1915,3320,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(1820,1821,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1821,2040,\fscx100)\t(1920,1940,\3c&HEE3000&)\t(2030,2230,\3c&HCE00EF&)\t(1930,2430,\3c&HE0608F)\t(2430,2930,\3c&H0FFF17&)\t(2130,3540,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2040,2041,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2041,2460,\fscx100)\t(2140,2260,\3c&HEE3000&)\t(2350,2550,\3c&HCE00EF&)\t(2250,2750,\3c&HE0608F)\t(2750,3250,\3c&H0FFF17&)\t(2450,3960,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2460,2461,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2461,2920,\fscx100)\t(2560,2700,\3c&HEE3000&)\t(2790,2990,\3c&HCE00EF&)\t(2690,3190,\3c&HE0608F)\t(3190,3690,\3c&H0FFF17&)\t(2890,4420,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(2920,2921,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2921,3230,\fscx100)\t(3020,3085,\3c&HEE3000&)\t(3175,3375,\3c&HCE00EF&)\t(3075,3575,\3c&HE0608F)\t(3575,4075,\3c&H0FFF17&)\t(3275,4730,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:05.91,0:01:10.68,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(3230,3231,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3231,4600,\fscx100)\t(3330,3925,\3c&HEE3000&)\t(4015,4215,\3c&HCE00EF&)\t(3915,4415,\3c&HE0608F)\t(4415,4915,\3c&H0FFF17&)\t(4115,6100,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:01:06.01,0:01:06.25,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:06.21,0:01:06.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:06.21,0:01:06.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:06.42,0:01:06.66,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:06.62,0:01:06.85,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:06.62,0:01:06.85,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:06.65,0:01:06.89,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:06.85,0:01:07.07,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:06.85,0:01:07.07,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:06.87,0:01:07.11,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:07.07,0:01:07.35,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.07,0:01:07.35,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.15,0:01:07.39,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:07.32,0:01:07.56,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:07.35,0:01:07.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.35,0:01:07.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.52,0:01:07.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.52,0:01:07.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.53,0:01:07.77,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:07.73,0:01:07.95,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.73,0:01:07.95,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.75,0:01:07.99,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:07.95,0:01:08.37,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:07.95,0:01:08.37,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:08.17,0:01:08.41,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:08.37,0:01:08.83,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:08.37,0:01:08.83,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:08.63,0:01:08.87,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:08.83,0:01:09.14,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:08.83,0:01:09.14,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:08.94,0:01:09.18,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:09.14,0:01:10.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:09.14,0:01:10.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:10.76,0:01:11.00,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,430,\fscx100)\t(100,225,\3c&HEE3000&)\t(315,515,\3c&HCE00EF&)\t(215,715,\3c&HE0608F)\t(715,1215,\3c&H0FFF17&)\t(415,1930,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ジュ
+Dialogue: 0,0:01:10.96,0:01:11.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:10.96,0:01:11.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(430,431,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(431,780,\fscx100)\t(530,615,\3c&HEE3000&)\t(705,905,\3c&HCE00EF&)\t(605,1105,\3c&HE0608F)\t(1105,1605,\3c&H0FFF17&)\t(805,2280,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(780,781,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(781,1140,\fscx100)\t(880,970,\3c&HEE3000&)\t(1060,1260,\3c&HCE00EF&)\t(960,1460,\3c&HE0608F)\t(1460,1960,\3c&H0FFF17&)\t(1160,2640,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(1140,1141,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1141,1420,\fscx100)\t(1240,1290,\3c&HEE3000&)\t(1380,1580,\3c&HCE00EF&)\t(1280,1780,\3c&HE0608F)\t(1780,2280,\3c&H0FFF17&)\t(1480,2920,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1420,1421,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1421,1630,\fscx100)\t(1520,1535,\3c&HEE3000&)\t(1625,1825,\3c&HCE00EF&)\t(1525,2025,\3c&HE0608F)\t(2025,2525,\3c&H0FFF17&)\t(1725,3130,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(1630,1631,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1631,1860,\fscx100)\t(1730,1755,\3c&HEE3000&)\t(1845,2045,\3c&HCE00EF&)\t(1745,2245,\3c&HE0608F)\t(2245,2745,\3c&H0FFF17&)\t(1945,3360,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(1860,1861,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1861,2240,\fscx100)\t(1960,2060,\3c&HEE3000&)\t(2150,2350,\3c&HCE00EF&)\t(2050,2550,\3c&HE0608F)\t(2550,3050,\3c&H0FFF17&)\t(2250,3740,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(2240,2241,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2241,2480,\fscx100)\t(2340,2370,\3c&HEE3000&)\t(2460,2660,\3c&HCE00EF&)\t(2360,2860,\3c&HE0608F)\t(2860,3360,\3c&H0FFF17&)\t(2560,3980,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:10.96,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(2480,2481,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2481,2980,\fscx100)\t(2580,2740,\3c&HEE3000&)\t(2830,3030,\3c&HCE00EF&)\t(2730,3230,\3c&HE0608F)\t(3230,3730,\3c&H0FFF17&)\t(2930,4480,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:11.19,0:01:11.43,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:11.39,0:01:11.74,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:11.39,0:01:11.74,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:11.54,0:01:11.78,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330}ㄣ
+Dialogue: 0,0:01:11.74,0:01:12.10,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:11.74,0:01:12.10,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:11.90,0:01:12.14,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:12.10,0:01:12.38,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.10,0:01:12.38,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.18,0:01:12.42,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:12.38,0:01:12.59,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.38,0:01:12.59,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.39,0:01:12.63,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:12.59,0:01:12.82,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.59,0:01:12.82,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.62,0:01:12.86,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:12.82,0:01:13.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:12.82,0:01:13.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:13.00,0:01:13.24,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:13.20,0:01:13.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:13.20,0:01:13.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:13.24,0:01:13.48,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:13.44,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:13.44,0:01:13.94,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:14.20,0:01:14.44,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,490,\fscx100)\t(100,255,\3c&HEE3000&)\t(345,545,\3c&HCE00EF&)\t(245,745,\3c&HE0608F)\t(745,1245,\3c&H0FFF17&)\t(445,1990,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}セ
+Dialogue: 0,0:01:14.40,0:01:14.89,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:14.40,0:01:14.89,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(490,491,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(491,710,\fscx100)\t(590,610,\3c&HEE3000&)\t(700,900,\3c&HCE00EF&)\t(600,1100,\3c&HE0608F)\t(1100,1600,\3c&H0FFF17&)\t(800,2210,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ツ
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(710,711,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(711,1060,\fscx100)\t(810,895,\3c&HEE3000&)\t(985,1185,\3c&HCE00EF&)\t(885,1385,\3c&HE0608F)\t(1385,1885,\3c&H0FFF17&)\t(1085,2560,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ゾ
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1060,1061,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1061,1330,\fscx100)\t(1160,1205,\3c&HEE3000&)\t(1295,1495,\3c&HCE00EF&)\t(1195,1695,\3c&HE0608F)\t(1695,2195,\3c&H0FFF17&)\t(1395,2830,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(1330,1331,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1331,1550,\fscx100)\t(1430,1450,\3c&HEE3000&)\t(1540,1740,\3c&HCE00EF&)\t(1440,1940,\3c&HE0608F)\t(1940,2440,\3c&H0FFF17&)\t(1640,3050,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1550,1551,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1551,1760,\fscx100)\t(1650,1665,\3c&HEE3000&)\t(1755,1955,\3c&HCE00EF&)\t(1655,2155,\3c&HE0608F)\t(2155,2655,\3c&H0FFF17&)\t(1855,3260,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(1760,1761,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1761,2140,\fscx100)\t(1860,1960,\3c&HEE3000&)\t(2050,2250,\3c&HCE00EF&)\t(1950,2450,\3c&HE0608F)\t(2450,2950,\3c&H0FFF17&)\t(2150,3640,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ミ
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2140,2141,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2141,2390,\fscx100)\t(2240,2275,\3c&HEE3000&)\t(2365,2565,\3c&HCE00EF&)\t(2265,2765,\3c&HE0608F)\t(2765,3265,\3c&H0FFF17&)\t(2465,3890,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:14.40,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2390,2391,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2391,2980,\fscx100)\t(2490,2695,\3c&HEE3000&)\t(2785,2985,\3c&HCE00EF&)\t(2685,3185,\3c&HE0608F)\t(3185,3685,\3c&H0FFF17&)\t(2885,4480,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:14.69,0:01:14.93,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:14.89,0:01:15.11,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:14.89,0:01:15.11,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:14.91,0:01:15.15,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:15.11,0:01:15.46,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.11,0:01:15.46,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.26,0:01:15.50,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:15.46,0:01:15.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.46,0:01:15.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.53,0:01:15.77,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:15.73,0:01:15.95,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.73,0:01:15.95,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.75,0:01:15.99,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:15.95,0:01:16.16,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.95,0:01:16.16,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:15.96,0:01:16.20,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:16.16,0:01:16.54,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:16.16,0:01:16.54,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:16.34,0:01:16.58,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:16.54,0:01:16.79,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:16.54,0:01:16.79,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:16.59,0:01:16.83,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330}ㄣ
+Dialogue: 0,0:01:16.79,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:16.79,0:01:17.38,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:17.63,0:01:17.87,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,340,\fscx100)\t(100,180,\3c&HEE3000&)\t(270,470,\3c&HCE00EF&)\t(170,670,\3c&HE0608F)\t(670,1170,\3c&H0FFF17&)\t(370,1840,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ミ
+Dialogue: 0,0:01:17.83,0:01:18.17,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:17.83,0:01:18.17,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(340,341,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(341,680,\fscx100)\t(440,520,\3c&HEE3000&)\t(610,810,\3c&HCE00EF&)\t(510,1010,\3c&HE0608F)\t(1010,1510,\3c&H0FFF17&)\t(710,2180,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(680,681,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(681,1020,\fscx100)\t(780,860,\3c&HEE3000&)\t(950,1150,\3c&HCE00EF&)\t(850,1350,\3c&HE0608F)\t(1350,1850,\3c&H0FFF17&)\t(1050,2520,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1020,1021,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1021,1480,\fscx100)\t(1120,1260,\3c&HEE3000&)\t(1350,1550,\3c&HCE00EF&)\t(1250,1750,\3c&HE0608F)\t(1750,2250,\3c&H0FFF17&)\t(1450,2980,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}サ
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1480,1481,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1481,1760,\fscx100)\t(1580,1630,\3c&HEE3000&)\t(1720,1920,\3c&HCE00EF&)\t(1620,2120,\3c&HE0608F)\t(2120,2620,\3c&H0FFF17&)\t(1820,3260,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(1760,1761,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1761,2160,\fscx100)\t(1860,1970,\3c&HEE3000&)\t(2060,2260,\3c&HCE00EF&)\t(1960,2460,\3c&HE0608F)\t(2460,2960,\3c&H0FFF17&)\t(2160,3660,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2160,2161,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2161,2580,\fscx100)\t(2260,2380,\3c&HEE3000&)\t(2470,2670,\3c&HCE00EF&)\t(2370,2870,\3c&HE0608F)\t(2870,3370,\3c&H0FFF17&)\t(2570,4080,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:17.83,0:01:20.67,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2580,2581,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2581,2920,\fscx100)\t(2680,2760,\3c&HEE3000&)\t(2850,3050,\3c&HCE00EF&)\t(2750,3250,\3c&HE0608F)\t(3250,3750,\3c&H0FFF17&)\t(2950,4420,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:17.97,0:01:18.21,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:18.17,0:01:18.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:18.17,0:01:18.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:18.31,0:01:18.55,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:18.51,0:01:18.85,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:18.51,0:01:18.85,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:18.65,0:01:18.89,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:18.85,0:01:19.31,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:18.85,0:01:19.31,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:19.11,0:01:19.35,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:19.31,0:01:19.59,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:19.31,0:01:19.59,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:19.39,0:01:19.63,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:19.59,0:01:19.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:19.59,0:01:19.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:19.79,0:01:20.03,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:19.99,0:01:20.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:19.99,0:01:20.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:20.21,0:01:20.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:20.41,0:01:20.75,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:20.41,0:01:20.75,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:20.57,0:01:20.81,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(197,446,197,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(207,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,240,\fscx100)\t(100,130,\3c&HEE3000&)\t(220,420,\3c&HCE00EF&)\t(120,620,\3c&HE0608F)\t(620,1120,\3c&H0FFF17&)\t(320,1740,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}パ
+Dialogue: 0,0:01:20.77,0:01:21.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(175,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:20.77,0:01:21.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(239,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(236,470)\alpha&HFF&\t(240,241,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(241,480,\fscx100)\t(340,370,\3c&HEE3000&)\t(460,660,\3c&HCE00EF&)\t(360,860,\3c&HE0608F)\t(860,1360,\3c&H0FFF17&)\t(560,1980,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(480,481,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(481,720,\fscx100)\t(580,610,\3c&HEE3000&)\t(700,900,\3c&HCE00EF&)\t(600,1100,\3c&HE0608F)\t(1100,1600,\3c&H0FFF17&)\t(800,2220,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(294,470)\alpha&HFF&\t(720,721,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(721,960,\fscx100)\t(820,850,\3c&HEE3000&)\t(940,1140,\3c&HCE00EF&)\t(840,1340,\3c&HE0608F)\t(1340,1840,\3c&H0FFF17&)\t(1040,2460,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}リ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(323,470)\alpha&HFF&\t(960,961,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(961,1200,\fscx100)\t(1060,1090,\3c&HEE3000&)\t(1180,1380,\3c&HCE00EF&)\t(1080,1580,\3c&HE0608F)\t(1580,2080,\3c&H0FFF17&)\t(1280,2700,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ミ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(1200,1201,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1201,1440,\fscx100)\t(1300,1330,\3c&HEE3000&)\t(1420,1620,\3c&HCE00EF&)\t(1320,1820,\3c&HE0608F)\t(1820,2320,\3c&H0FFF17&)\t(1520,2940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(1440,1441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1441,1680,\fscx100)\t(1540,1570,\3c&HEE3000&)\t(1660,1860,\3c&HCE00EF&)\t(1560,2060,\3c&HE0608F)\t(2060,2560,\3c&H0FFF17&)\t(1760,3180,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(1680,1681,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1681,1920,\fscx100)\t(1780,1810,\3c&HEE3000&)\t(1900,2100,\3c&HCE00EF&)\t(1800,2300,\3c&HE0608F)\t(2300,2800,\3c&H0FFF17&)\t(2000,3420,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1920,1921,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1921,2160,\fscx100)\t(2020,2050,\3c&HEE3000&)\t(2140,2340,\3c&HCE00EF&)\t(2040,2540,\3c&HE0608F)\t(2540,3040,\3c&H0FFF17&)\t(2240,3660,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(2160,2161,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2161,2400,\fscx100)\t(2260,2290,\3c&HEE3000&)\t(2380,2580,\3c&HCE00EF&)\t(2280,2780,\3c&HE0608F)\t(2780,3280,\3c&H0FFF17&)\t(2480,3900,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(2400,2401,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2401,2640,\fscx100)\t(2500,2530,\3c&HEE3000&)\t(2620,2820,\3c&HCE00EF&)\t(2520,3020,\3c&HE0608F)\t(3020,3520,\3c&H0FFF17&)\t(2720,4140,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(2640,2641,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2641,2880,\fscx100)\t(2740,2770,\3c&HEE3000&)\t(2860,3060,\3c&HCE00EF&)\t(2760,3260,\3c&HE0608F)\t(3260,3760,\3c&H0FFF17&)\t(2960,4380,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(2880,2881,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2881,3110,\fscx100)\t(2980,3005,\3c&HEE3000&)\t(3095,3295,\3c&HCE00EF&)\t(2995,3495,\3c&HE0608F)\t(3495,3995,\3c&H0FFF17&)\t(3195,4610,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(584,470)\alpha&HFF&\t(3110,3111,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3111,3340,\fscx100)\t(3210,3235,\3c&HEE3000&)\t(3325,3525,\3c&HCE00EF&)\t(3225,3725,\3c&HE0608F)\t(3725,4225,\3c&H0FFF17&)\t(3425,4840,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(613,470)\alpha&HFF&\t(3340,3341,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3341,3570,\fscx100)\t(3440,3465,\3c&HEE3000&)\t(3555,3755,\3c&HCE00EF&)\t(3455,3955,\3c&HE0608F)\t(3955,4455,\3c&H0FFF17&)\t(3655,5070,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:20.77,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(642,470)\alpha&HFF&\t(3570,3571,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3571,3800,\fscx100)\t(3670,3695,\3c&HEE3000&)\t(3785,3985,\3c&HCE00EF&)\t(3685,4185,\3c&HE0608F)\t(4185,4685,\3c&H0FFF17&)\t(3885,5300,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ラ
+Dialogue: 0,0:01:20.81,0:01:21.05,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(226,446,226,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:21.01,0:01:21.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(204,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.01,0:01:21.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(268,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.05,0:01:21.29,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:21.25,0:01:21.49,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.25,0:01:21.49,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.29,0:01:21.53,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(284,446,284,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:21.49,0:01:21.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(262,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.49,0:01:21.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(326,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.53,0:01:21.77,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(313,446,313,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:21.73,0:01:21.97,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(291,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.73,0:01:21.97,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(355,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.77,0:01:22.01,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:21.97,0:01:22.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:21.97,0:01:22.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.01,0:01:22.25,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:22.21,0:01:22.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.21,0:01:22.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.25,0:01:22.49,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:22.45,0:01:22.69,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.45,0:01:22.69,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.49,0:01:22.73,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:22.69,0:01:22.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.69,0:01:22.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.73,0:01:22.97,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:22.93,0:01:23.17,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.93,0:01:23.17,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:22.97,0:01:23.21,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330}ㄣ
+Dialogue: 0,0:01:23.17,0:01:23.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.17,0:01:23.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.21,0:01:23.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:23.41,0:01:23.65,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.41,0:01:23.65,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.45,0:01:23.69,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:23.65,0:01:23.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.65,0:01:23.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.68,0:01:23.92,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(574,446,574,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:23.88,0:01:24.11,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(552,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.88,0:01:24.11,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(616,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:23.91,0:01:24.15,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(603,446,603,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:24.11,0:01:24.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(581,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.11,0:01:24.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(645,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.14,0:01:24.38,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(632,446,632,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:24.34,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(610,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.34,0:01:24.57,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(674,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.40,0:01:24.64,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(284,446,284,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(294,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,330,\fscx100)\t(100,175,\3c&HEE3000&)\t(265,465,\3c&HCE00EF&)\t(165,665,\3c&HE0608F)\t(665,1165,\3c&H0FFF17&)\t(365,1830,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:24.60,0:01:24.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(262,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.60,0:01:24.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(326,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(323,470)\alpha&HFF&\t(330,331,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(331,700,\fscx100)\t(430,525,\3c&HEE3000&)\t(615,815,\3c&HCE00EF&)\t(515,1015,\3c&HE0608F)\t(1015,1515,\3c&H0FFF17&)\t(715,2200,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}レ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(700,701,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(701,1040,\fscx100)\t(800,880,\3c&HEE3000&)\t(970,1170,\3c&HCE00EF&)\t(870,1370,\3c&HE0608F)\t(1370,1870,\3c&H0FFF17&)\t(1070,2540,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}パ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(1040,1041,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1041,1220,\fscx100)\t(1140,1140,\3c&HEE3000&)\t(1230,1430,\3c&HCE00EF&)\t(1130,1630,\3c&HE0608F)\t(1630,2130,\3c&H0FFF17&)\t(1330,2720,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(1220,1221,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1221,1320,\fscx100)\t(1320,1280,\3c&HEE3000&)\t(1370,1570,\3c&HCE00EF&)\t(1270,1770,\3c&HE0608F)\t(1770,2270,\3c&H0FFF17&)\t(1470,2820,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ー
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1320,1321,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1321,1490,\fscx100)\t(1420,1415,\3c&HEE3000&)\t(1505,1705,\3c&HCE00EF&)\t(1405,1905,\3c&HE0608F)\t(1905,2405,\3c&H0FFF17&)\t(1605,2990,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(1490,1491,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1491,1750,\fscx100)\t(1590,1630,\3c&HEE3000&)\t(1720,1920,\3c&HCE00EF&)\t(1620,2120,\3c&HE0608F)\t(2120,2620,\3c&H0FFF17&)\t(1820,3250,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(1750,1751,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1751,2080,\fscx100)\t(1850,1925,\3c&HEE3000&)\t(2015,2215,\3c&HCE00EF&)\t(1915,2415,\3c&HE0608F)\t(2415,2915,\3c&H0FFF17&)\t(2115,3580,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}モ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(2080,2081,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2081,2330,\fscx100)\t(2180,2215,\3c&HEE3000&)\t(2305,2505,\3c&HCE00EF&)\t(2205,2705,\3c&HE0608F)\t(2705,3205,\3c&H0FFF17&)\t(2405,3830,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チ
+Dialogue: 0,0:01:24.60,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(2330,2331,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2331,2820,\fscx100)\t(2430,2585,\3c&HEE3000&)\t(2675,2875,\3c&HCE00EF&)\t(2575,3075,\3c&HE0608F)\t(3075,3575,\3c&H0FFF17&)\t(2775,4320,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:24.73,0:01:24.97,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(313,446,313,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:24.93,0:01:25.30,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(291,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:24.93,0:01:25.30,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(355,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.10,0:01:25.34,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:25.30,0:01:25.64,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.30,0:01:25.64,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.44,0:01:25.68,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:25.62,0:01:25.86,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:25.64,0:01:25.82,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.64,0:01:25.82,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.72,0:01:25.96,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:25.82,0:01:25.92,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.82,0:01:25.92,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.89,0:01:26.13,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:25.92,0:01:26.09,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:25.92,0:01:26.09,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.09,0:01:26.35,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.09,0:01:26.35,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.15,0:01:26.39,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:26.35,0:01:26.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.35,0:01:26.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.48,0:01:26.72,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:26.68,0:01:26.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.68,0:01:26.93,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.73,0:01:26.97,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:26.93,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:26.93,0:01:27.42,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:27.76,0:01:28.00,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,310,\fscx100)\t(100,165,\3c&HEE3000&)\t(255,455,\3c&HCE00EF&)\t(155,655,\3c&HE0608F)\t(655,1155,\3c&H0FFF17&)\t(355,1810,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:27.96,0:01:28.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:27.96,0:01:28.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(310,311,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(311,620,\fscx100)\t(410,475,\3c&HEE3000&)\t(565,765,\3c&HCE00EF&)\t(465,965,\3c&HE0608F)\t(965,1465,\3c&H0FFF17&)\t(665,2120,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(620,621,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(621,930,\fscx100)\t(720,785,\3c&HEE3000&)\t(875,1075,\3c&HCE00EF&)\t(775,1275,\3c&HE0608F)\t(1275,1775,\3c&H0FFF17&)\t(975,2430,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}パ
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(930,931,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(931,1240,\fscx100)\t(1030,1095,\3c&HEE3000&)\t(1185,1385,\3c&HCE00EF&)\t(1085,1585,\3c&HE0608F)\t(1585,2085,\3c&H0FFF17&)\t(1285,2740,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(1240,1241,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1241,1550,\fscx100)\t(1340,1405,\3c&HEE3000&)\t(1495,1695,\3c&HCE00EF&)\t(1395,1895,\3c&HE0608F)\t(1895,2395,\3c&H0FFF17&)\t(1595,3050,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}チ
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1550,1551,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1551,1850,\fscx100)\t(1650,1710,\3c&HEE3000&)\t(1800,2000,\3c&HCE00EF&)\t(1700,2200,\3c&HE0608F)\t(2200,2700,\3c&H0FFF17&)\t(1900,3350,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(1850,1851,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1851,2150,\fscx100)\t(1950,2010,\3c&HEE3000&)\t(2100,2300,\3c&HCE00EF&)\t(2000,2500,\3c&HE0608F)\t(2500,3000,\3c&H0FFF17&)\t(2200,3650,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2150,2151,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2151,2450,\fscx100)\t(2250,2310,\3c&HEE3000&)\t(2400,2600,\3c&HCE00EF&)\t(2300,2800,\3c&HE0608F)\t(2800,3300,\3c&H0FFF17&)\t(2500,3950,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:27.96,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2450,2451,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2451,2750,\fscx100)\t(2550,2610,\3c&HEE3000&)\t(2700,2900,\3c&HCE00EF&)\t(2600,3100,\3c&HE0608F)\t(3100,3600,\3c&H0FFF17&)\t(2800,4250,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}モ
+Dialogue: 0,0:01:28.07,0:01:28.31,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:28.27,0:01:28.58,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:28.27,0:01:28.58,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:28.38,0:01:28.62,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:28.58,0:01:28.89,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:28.58,0:01:28.89,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:28.69,0:01:28.93,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:28.89,0:01:29.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:28.89,0:01:29.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.00,0:01:29.24,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:29.20,0:01:29.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.20,0:01:29.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.31,0:01:29.55,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:29.51,0:01:29.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.51,0:01:29.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.61,0:01:29.85,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:29.81,0:01:30.11,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.81,0:01:30.11,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:29.91,0:01:30.15,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:30.11,0:01:30.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:30.11,0:01:30.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:30.21,0:01:30.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:30.41,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:30.41,0:01:30.71,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:31.14,0:01:31.38,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(211,446,211,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(221,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,430,\fscx100)\t(100,225,\3c&HEE3000&)\t(315,515,\3c&HCE00EF&)\t(215,715,\3c&HE0608F)\t(715,1215,\3c&H0FFF17&)\t(415,1930,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キッ
+Dialogue: 0,0:01:31.34,0:01:31.77,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(189,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:31.34,0:01:31.77,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(253,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(430,431,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(431,650,\fscx100)\t(530,550,\3c&HEE3000&)\t(640,840,\3c&HCE00EF&)\t(540,1040,\3c&HE0608F)\t(1040,1540,\3c&H0FFF17&)\t(740,2150,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(294,470)\alpha&HFF&\t(650,651,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(651,860,\fscx100)\t(750,765,\3c&HEE3000&)\t(855,1055,\3c&HCE00EF&)\t(755,1255,\3c&HE0608F)\t(1255,1755,\3c&H0FFF17&)\t(955,2360,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ネ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(1070,1071,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1071,1280,\fscx100)\t(1170,1185,\3c&HEE3000&)\t(1275,1475,\3c&HCE00EF&)\t(1175,1675,\3c&HE0608F)\t(1675,2175,\3c&H0FFF17&)\t(1375,2780,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(1280,1281,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1281,1490,\fscx100)\t(1380,1395,\3c&HEE3000&)\t(1485,1685,\3c&HCE00EF&)\t(1385,1885,\3c&HE0608F)\t(1885,2385,\3c&H0FFF17&)\t(1585,2990,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ニ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(1490,1491,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1491,1700,\fscx100)\t(1590,1605,\3c&HEE3000&)\t(1695,1895,\3c&HCE00EF&)\t(1595,2095,\3c&HE0608F)\t(2095,2595,\3c&H0FFF17&)\t(1795,3200,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1700,1701,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1701,1910,\fscx100)\t(1800,1815,\3c&HEE3000&)\t(1905,2105,\3c&HCE00EF&)\t(1805,2305,\3c&HE0608F)\t(2305,2805,\3c&H0FFF17&)\t(2005,3410,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ツ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(1910,1911,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1911,2120,\fscx100)\t(2010,2025,\3c&HEE3000&)\t(2115,2315,\3c&HCE00EF&)\t(2015,2515,\3c&HE0608F)\t(2515,3015,\3c&H0FFF17&)\t(2215,3620,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(2120,2121,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2121,2330,\fscx100)\t(2220,2235,\3c&HEE3000&)\t(2325,2525,\3c&HCE00EF&)\t(2225,2725,\3c&HE0608F)\t(2725,3225,\3c&H0FFF17&)\t(2425,3830,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(2330,2331,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2331,2540,\fscx100)\t(2430,2445,\3c&HEE3000&)\t(2535,2735,\3c&HCE00EF&)\t(2435,2935,\3c&HE0608F)\t(2935,3435,\3c&H0FFF17&)\t(2635,4040,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(2540,2541,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2541,2750,\fscx100)\t(2640,2655,\3c&HEE3000&)\t(2745,2945,\3c&HCE00EF&)\t(2645,3145,\3c&HE0608F)\t(3145,3645,\3c&H0FFF17&)\t(2845,4250,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(584,470)\alpha&HFF&\t(2750,2751,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2751,2960,\fscx100)\t(2850,2865,\3c&HEE3000&)\t(2955,3155,\3c&HCE00EF&)\t(2855,3355,\3c&HE0608F)\t(3355,3855,\3c&H0FFF17&)\t(3055,4460,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}レ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(613,470)\alpha&HFF&\t(2960,2961,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2961,3170,\fscx100)\t(3060,3075,\3c&HEE3000&)\t(3165,3365,\3c&HCE00EF&)\t(3065,3565,\3c&HE0608F)\t(3565,4065,\3c&H0FFF17&)\t(3265,4670,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:31.34,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(642,470)\alpha&HFF&\t(3170,3171,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3171,3380,\fscx100)\t(3270,3285,\3c&HEE3000&)\t(3375,3575,\3c&HCE00EF&)\t(3275,3775,\3c&HE0608F)\t(3775,4275,\3c&H0FFF17&)\t(3475,4880,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:31.57,0:01:31.81,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:31.77,0:01:31.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:31.77,0:01:31.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:31.79,0:01:32.03,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(284,446,284,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:31.99,0:01:32.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(262,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:31.99,0:01:32.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(326,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.21,0:01:32.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:32.41,0:01:32.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.41,0:01:32.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.42,0:01:32.66,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:32.62,0:01:32.83,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.62,0:01:32.83,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.63,0:01:32.87,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:32.83,0:01:33.04,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.83,0:01:33.04,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:32.84,0:01:33.08,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:33.04,0:01:33.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.04,0:01:33.25,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.05,0:01:33.29,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:33.25,0:01:33.46,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.25,0:01:33.46,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.26,0:01:33.50,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:33.46,0:01:33.67,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.46,0:01:33.67,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.47,0:01:33.71,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:33.67,0:01:33.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.67,0:01:33.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.68,0:01:33.92,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:33.88,0:01:34.09,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.88,0:01:34.09,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:33.89,0:01:34.13,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(574,446,574,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:34.09,0:01:34.30,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(552,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.09,0:01:34.30,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(616,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.10,0:01:34.34,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(603,446,603,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:34.30,0:01:34.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(581,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.30,0:01:34.51,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(645,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.31,0:01:34.55,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(632,446,632,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:34.51,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(610,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.51,0:01:34.72,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(674,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.57,0:01:34.81,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:34.76,0:01:35.00,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,190,\fscx100)\t(100,105,\3c&HEE3000&)\t(195,395,\3c&HCE00EF&)\t(95,595,\3c&HE0608F)\t(595,1095,\3c&H0FFF17&)\t(295,1690,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:01:34.77,0:01:34.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.77,0:01:34.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(190,191,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(191,420,\fscx100)\t(290,315,\3c&HEE3000&)\t(405,605,\3c&HCE00EF&)\t(305,805,\3c&HE0608F)\t(805,1305,\3c&H0FFF17&)\t(505,1920,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(420,421,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(421,620,\fscx100)\t(520,530,\3c&HEE3000&)\t(620,820,\3c&HCE00EF&)\t(520,1020,\3c&HE0608F)\t(1020,1520,\3c&H0FFF17&)\t(720,2120,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(620,621,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(621,850,\fscx100)\t(720,745,\3c&HEE3000&)\t(835,1035,\3c&HCE00EF&)\t(735,1235,\3c&HE0608F)\t(1235,1735,\3c&H0FFF17&)\t(935,2350,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(850,851,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(851,1040,\fscx100)\t(950,955,\3c&HEE3000&)\t(1045,1245,\3c&HCE00EF&)\t(945,1445,\3c&HE0608F)\t(1445,1945,\3c&H0FFF17&)\t(1145,2540,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}コ
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1040,1041,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1041,1280,\fscx100)\t(1140,1170,\3c&HEE3000&)\t(1260,1460,\3c&HCE00EF&)\t(1160,1660,\3c&HE0608F)\t(1660,2160,\3c&H0FFF17&)\t(1360,2780,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(1280,1281,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1281,2010,\fscx100)\t(1380,1655,\3c&HEE3000&)\t(1745,1945,\3c&HCE00EF&)\t(1645,2145,\3c&HE0608F)\t(2145,2645,\3c&H0FFF17&)\t(1845,3510,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2010,2011,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2011,2310,\fscx100)\t(2110,2170,\3c&HEE3000&)\t(2260,2460,\3c&HCE00EF&)\t(2160,2660,\3c&HE0608F)\t(2660,3160,\3c&H0FFF17&)\t(2360,3810,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ス
+Dialogue: 0,0:01:34.77,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2310,2311,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2311,2790,\fscx100)\t(2410,2560,\3c&HEE3000&)\t(2650,2850,\3c&HCE00EF&)\t(2550,3050,\3c&HE0608F)\t(3050,3550,\3c&H0FFF17&)\t(2750,4290,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キ
+Dialogue: 0,0:01:34.96,0:01:35.19,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.96,0:01:35.19,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:34.99,0:01:35.23,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:35.19,0:01:35.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.19,0:01:35.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.19,0:01:35.43,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:35.39,0:01:35.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.39,0:01:35.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.42,0:01:35.66,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:35.61,0:01:35.85,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:35.62,0:01:35.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.62,0:01:35.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.81,0:01:36.05,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.81,0:01:36.05,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:35.85,0:01:36.09,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:36.05,0:01:36.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:36.05,0:01:36.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:36.58,0:01:36.82,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:36.78,0:01:37.08,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:36.78,0:01:37.08,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:36.88,0:01:37.12,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:37.08,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:37.08,0:01:37.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:43.86,0:01:44.10,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,330,\fscx100)\t(100,175,\3c&HEE3000&)\t(265,465,\3c&HCE00EF&)\t(165,665,\3c&HE0608F)\t(665,1165,\3c&H0FFF17&)\t(365,1830,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ジュ
+Dialogue: 0,0:01:44.06,0:01:44.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.06,0:01:44.39,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(330,331,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(331,590,\fscx100)\t(430,470,\3c&HEE3000&)\t(560,760,\3c&HCE00EF&)\t(460,960,\3c&HE0608F)\t(960,1460,\3c&H0FFF17&)\t(660,2090,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(590,591,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(591,750,\fscx100)\t(690,680,\3c&HEE3000&)\t(770,970,\3c&HCE00EF&)\t(670,1170,\3c&HE0608F)\t(1170,1670,\3c&H0FFF17&)\t(870,2250,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(750,751,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(751,1230,\fscx100)\t(850,1000,\3c&HEE3000&)\t(1090,1290,\3c&HCE00EF&)\t(990,1490,\3c&HE0608F)\t(1490,1990,\3c&H0FFF17&)\t(1190,2730,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1230,1231,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1231,1460,\fscx100)\t(1330,1355,\3c&HEE3000&)\t(1445,1645,\3c&HCE00EF&)\t(1345,1845,\3c&HE0608F)\t(1845,2345,\3c&H0FFF17&)\t(1545,2960,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(1460,1461,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1461,1910,\fscx100)\t(1560,1695,\3c&HEE3000&)\t(1785,1985,\3c&HCE00EF&)\t(1685,2185,\3c&HE0608F)\t(2185,2685,\3c&H0FFF17&)\t(1885,3410,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1910,1911,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1911,2140,\fscx100)\t(2010,2035,\3c&HEE3000&)\t(2125,2325,\3c&HCE00EF&)\t(2025,2525,\3c&HE0608F)\t(2525,3025,\3c&H0FFF17&)\t(2225,3640,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}レ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(2140,2141,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2141,2350,\fscx100)\t(2240,2255,\3c&HEE3000&)\t(2345,2545,\3c&HCE00EF&)\t(2245,2745,\3c&HE0608F)\t(2745,3245,\3c&H0FFF17&)\t(2445,3850,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2350,2351,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2351,2610,\fscx100)\t(2450,2490,\3c&HEE3000&)\t(2580,2780,\3c&HCE00EF&)\t(2480,2980,\3c&HE0608F)\t(2980,3480,\3c&H0FFF17&)\t(2680,4110,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2610,2611,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2611,2950,\fscx100)\t(2710,2790,\3c&HEE3000&)\t(2880,3080,\3c&HCE00EF&)\t(2780,3280,\3c&HE0608F)\t(3280,3780,\3c&H0FFF17&)\t(2980,4450,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(2950,2951,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2951,3220,\fscx100)\t(3050,3095,\3c&HEE3000&)\t(3185,3385,\3c&HCE00EF&)\t(3085,3585,\3c&HE0608F)\t(3585,4085,\3c&H0FFF17&)\t(3285,4720,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:44.06,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(3220,3221,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3221,3840,\fscx100)\t(3320,3540,\3c&HEE3000&)\t(3630,3830,\3c&HCE00EF&)\t(3530,4030,\3c&HE0608F)\t(4030,4530,\3c&H0FFF17&)\t(3730,5340,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:44.19,0:01:44.43,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:44.39,0:01:44.65,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.39,0:01:44.65,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.45,0:01:44.69,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:44.61,0:01:44.85,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:44.65,0:01:44.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.65,0:01:44.81,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.81,0:01:45.29,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:44.81,0:01:45.29,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:45.09,0:01:45.33,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:45.29,0:01:45.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:45.29,0:01:45.52,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:45.32,0:01:45.56,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:45.52,0:01:45.97,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:45.52,0:01:45.97,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:45.77,0:01:46.01,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:45.97,0:01:46.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:45.97,0:01:46.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.00,0:01:46.24,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:46.20,0:01:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.20,0:01:46.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.21,0:01:46.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:46.41,0:01:46.67,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.41,0:01:46.67,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.47,0:01:46.71,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:46.67,0:01:47.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.67,0:01:47.01,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:46.81,0:01:47.05,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:47.01,0:01:47.28,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:47.01,0:01:47.28,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:47.08,0:01:47.32,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:47.28,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:47.28,0:01:47.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:47.92,0:01:48.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(269,446,269,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(279,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,290,\fscx100)\t(100,155,\3c&HEE3000&)\t(245,445,\3c&HCE00EF&)\t(145,645,\3c&HE0608F)\t(645,1145,\3c&H0FFF17&)\t(345,1790,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:48.12,0:01:48.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(247,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.12,0:01:48.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(311,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(290,291,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(291,580,\fscx100)\t(390,445,\3c&HEE3000&)\t(535,735,\3c&HCE00EF&)\t(435,935,\3c&HE0608F)\t(935,1435,\3c&H0FFF17&)\t(635,2080,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(580,581,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(581,870,\fscx100)\t(680,735,\3c&HEE3000&)\t(825,1025,\3c&HCE00EF&)\t(725,1225,\3c&HE0608F)\t(1225,1725,\3c&H0FFF17&)\t(925,2370,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}パ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(870,871,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(871,1160,\fscx100)\t(970,1025,\3c&HEE3000&)\t(1115,1315,\3c&HCE00EF&)\t(1015,1515,\3c&HE0608F)\t(1515,2015,\3c&H0FFF17&)\t(1215,2660,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1160,1161,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1161,1440,\fscx100)\t(1260,1310,\3c&HEE3000&)\t(1400,1600,\3c&HCE00EF&)\t(1300,1800,\3c&HE0608F)\t(1800,2300,\3c&H0FFF17&)\t(1500,2940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}モ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(424,470)\alpha&HFF&\t(1440,1441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1441,1720,\fscx100)\t(1540,1590,\3c&HEE3000&)\t(1680,1880,\3c&HCE00EF&)\t(1580,2080,\3c&HE0608F)\t(2080,2580,\3c&H0FFF17&)\t(1780,3220,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(453,470)\alpha&HFF&\t(1720,1721,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1721,2000,\fscx100)\t(1820,1870,\3c&HEE3000&)\t(1960,2160,\3c&HCE00EF&)\t(1860,2360,\3c&HE0608F)\t(2360,2860,\3c&H0FFF17&)\t(2060,3500,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(2000,2001,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2001,2280,\fscx100)\t(2100,2150,\3c&HEE3000&)\t(2240,2440,\3c&HCE00EF&)\t(2140,2640,\3c&HE0608F)\t(2640,3140,\3c&H0FFF17&)\t(2340,3780,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2280,2281,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2281,2560,\fscx100)\t(2380,2430,\3c&HEE3000&)\t(2520,2720,\3c&HCE00EF&)\t(2420,2920,\3c&HE0608F)\t(2920,3420,\3c&H0FFF17&)\t(2620,4060,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2560,2561,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2561,2840,\fscx100)\t(2660,2710,\3c&HEE3000&)\t(2800,3000,\3c&HCE00EF&)\t(2700,3200,\3c&HE0608F)\t(3200,3700,\3c&H0FFF17&)\t(2900,4340,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:48.12,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(2840,2841,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2841,3120,\fscx100)\t(2940,2990,\3c&HEE3000&)\t(3080,3280,\3c&HCE00EF&)\t(2980,3480,\3c&HE0608F)\t(3480,3980,\3c&H0FFF17&)\t(3180,4620,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ス
+Dialogue: 0,0:01:48.21,0:01:48.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:48.41,0:01:48.70,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.41,0:01:48.70,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.50,0:01:48.74,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:48.70,0:01:48.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.70,0:01:48.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.79,0:01:49.03,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:48.99,0:01:49.28,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:48.99,0:01:49.28,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.08,0:01:49.32,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:49.28,0:01:49.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.28,0:01:49.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.36,0:01:49.60,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(414,446,414,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:49.56,0:01:49.84,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(392,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.56,0:01:49.84,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(456,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.64,0:01:49.88,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(443,446,443,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:49.84,0:01:50.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(421,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.84,0:01:50.12,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(485,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:49.92,0:01:50.16,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:50.12,0:01:50.40,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.12,0:01:50.40,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.20,0:01:50.44,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:50.40,0:01:50.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.40,0:01:50.68,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.48,0:01:50.72,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:50.68,0:01:50.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.68,0:01:50.96,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.76,0:01:51.00,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:50.96,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:50.96,0:01:51.24,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:51.36,0:01:51.60,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(197,446,197,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(207,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,220,\fscx100)\t(100,120,\3c&HEE3000&)\t(210,410,\3c&HCE00EF&)\t(110,610,\3c&HE0608F)\t(610,1110,\3c&H0FFF17&)\t(310,1720,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:51.56,0:01:51.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(175,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:51.56,0:01:51.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(239,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(236,470)\alpha&HFF&\t(220,221,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(221,440,\fscx100)\t(320,340,\3c&HEE3000&)\t(430,630,\3c&HCE00EF&)\t(330,830,\3c&HE0608F)\t(830,1330,\3c&H0FFF17&)\t(530,1940,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(265,470)\alpha&HFF&\t(440,441,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(441,660,\fscx100)\t(540,560,\3c&HEE3000&)\t(650,850,\3c&HCE00EF&)\t(550,1050,\3c&HE0608F)\t(1050,1550,\3c&H0FFF17&)\t(750,2160,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ダ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(294,470)\alpha&HFF&\t(660,661,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(661,880,\fscx100)\t(760,780,\3c&HEE3000&)\t(870,1070,\3c&HCE00EF&)\t(770,1270,\3c&HE0608F)\t(1270,1770,\3c&H0FFF17&)\t(970,2380,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(323,470)\alpha&HFF&\t(880,881,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(881,1100,\fscx100)\t(980,1000,\3c&HEE3000&)\t(1090,1290,\3c&HCE00EF&)\t(990,1490,\3c&HE0608F)\t(1490,1990,\3c&H0FFF17&)\t(1190,2600,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(1100,1101,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1101,1320,\fscx100)\t(1200,1220,\3c&HEE3000&)\t(1310,1510,\3c&HCE00EF&)\t(1210,1710,\3c&HE0608F)\t(1710,2210,\3c&H0FFF17&)\t(1410,2820,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ダ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(1320,1321,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1321,1540,\fscx100)\t(1420,1440,\3c&HEE3000&)\t(1530,1730,\3c&HCE00EF&)\t(1430,1930,\3c&HE0608F)\t(1930,2430,\3c&H0FFF17&)\t(1630,3040,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(1540,1541,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1541,1760,\fscx100)\t(1640,1660,\3c&HEE3000&)\t(1750,1950,\3c&HCE00EF&)\t(1650,2150,\3c&HE0608F)\t(2150,2650,\3c&H0FFF17&)\t(1850,3260,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ソ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1760,1761,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1761,1980,\fscx100)\t(1860,1880,\3c&HEE3000&)\t(1970,2170,\3c&HCE00EF&)\t(1870,2370,\3c&HE0608F)\t(2370,2870,\3c&H0FFF17&)\t(2070,3480,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}バ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(1980,1981,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1981,2200,\fscx100)\t(2080,2100,\3c&HEE3000&)\t(2190,2390,\3c&HCE00EF&)\t(2090,2590,\3c&HE0608F)\t(2590,3090,\3c&H0FFF17&)\t(2290,3700,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ニ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(2200,2201,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2201,2420,\fscx100)\t(2300,2320,\3c&HEE3000&)\t(2410,2610,\3c&HCE00EF&)\t(2310,2810,\3c&HE0608F)\t(2810,3310,\3c&H0FFF17&)\t(2510,3920,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(526,470)\alpha&HFF&\t(2420,2421,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2421,2640,\fscx100)\t(2520,2540,\3c&HEE3000&)\t(2630,2830,\3c&HCE00EF&)\t(2530,3030,\3c&HE0608F)\t(3030,3530,\3c&H0FFF17&)\t(2730,4140,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(555,470)\alpha&HFF&\t(2640,2641,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2641,2850,\fscx100)\t(2740,2755,\3c&HEE3000&)\t(2845,3045,\3c&HCE00EF&)\t(2745,3245,\3c&HE0608F)\t(3245,3745,\3c&H0FFF17&)\t(2945,4350,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ク
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(584,470)\alpha&HFF&\t(2850,2851,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2851,3060,\fscx100)\t(2950,2965,\3c&HEE3000&)\t(3055,3255,\3c&HCE00EF&)\t(2955,3455,\3c&HE0608F)\t(3455,3955,\3c&H0FFF17&)\t(3155,4560,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}レ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(613,470)\alpha&HFF&\t(3060,3061,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3061,3270,\fscx100)\t(3160,3175,\3c&HEE3000&)\t(3265,3465,\3c&HCE00EF&)\t(3165,3665,\3c&HE0608F)\t(3665,4165,\3c&H0FFF17&)\t(3365,4770,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}テ
+Dialogue: 0,0:01:51.56,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(642,470)\alpha&HFF&\t(3270,3271,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3271,3480,\fscx100)\t(3370,3385,\3c&HEE3000&)\t(3475,3675,\3c&HCE00EF&)\t(3375,3875,\3c&HE0608F)\t(3875,4375,\3c&H0FFF17&)\t(3575,4980,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ル
+Dialogue: 0,0:01:51.58,0:01:51.82,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(226,446,226,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:51.78,0:01:52.00,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(204,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:51.78,0:01:52.00,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(268,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:51.80,0:01:52.04,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(255,446,255,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:52.00,0:01:52.22,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(233,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.00,0:01:52.22,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(297,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.02,0:01:52.26,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(284,446,284,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:52.22,0:01:52.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(262,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.22,0:01:52.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(326,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.24,0:01:52.48,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(313,446,313,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:52.44,0:01:52.66,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(291,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.44,0:01:52.66,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(355,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.46,0:01:52.70,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:52.66,0:01:52.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.66,0:01:52.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.68,0:01:52.92,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:52.88,0:01:53.10,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.88,0:01:53.10,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:52.90,0:01:53.14,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:53.10,0:01:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.10,0:01:53.32,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.12,0:01:53.36,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:53.32,0:01:53.54,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.32,0:01:53.54,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.34,0:01:53.58,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:53.54,0:01:53.76,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.54,0:01:53.76,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.56,0:01:53.80,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:53.76,0:01:53.98,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.76,0:01:53.98,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.78,0:01:54.02,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(516,446,516,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:53.98,0:01:54.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(494,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:53.98,0:01:54.20,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(558,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.00,0:01:54.24,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(545,446,545,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:54.20,0:01:54.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(523,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.20,0:01:54.41,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(587,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.21,0:01:54.45,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(574,446,574,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:54.41,0:01:54.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(552,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.41,0:01:54.62,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(616,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.42,0:01:54.66,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(603,446,603,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:54.62,0:01:54.83,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(581,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.62,0:01:54.83,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(645,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.63,0:01:54.87,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(632,446,632,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:54.83,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(610,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.83,0:01:55.04,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(674,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:54.90,0:01:55.14,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(342,446,342,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:55.10,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(352,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,450,\fscx100)\t(100,235,\3c&HEE3000&)\t(325,525,\3c&HCE00EF&)\t(225,725,\3c&HE0608F)\t(725,1225,\3c&H0FFF17&)\t(425,1950,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:01:55.10,0:01:55.55,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(320,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:55.10,0:01:55.55,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(384,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:55.10,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(381,470)\alpha&HFF&\t(450,451,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(451,900,\fscx100)\t(550,685,\3c&HEE3000&)\t(775,975,\3c&HCE00EF&)\t(675,1175,\3c&HE0608F)\t(1175,1675,\3c&H0FFF17&)\t(875,2400,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:55.10,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(410,470)\alpha&HFF&\t(900,901,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(901,1350,\fscx100)\t(1000,1135,\3c&HEE3000&)\t(1225,1425,\3c&HCE00EF&)\t(1125,1625,\3c&HE0608F)\t(1625,2125,\3c&H0FFF17&)\t(1325,2850,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:55.10,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(1350,1351,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1351,1800,\fscx100)\t(1450,1585,\3c&HEE3000&)\t(1675,1875,\3c&HCE00EF&)\t(1575,2075,\3c&HE0608F)\t(2075,2575,\3c&H0FFF17&)\t(1775,3300,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ガ
+Dialogue: 0,0:01:55.10,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(468,470)\alpha&HFF&\t(1800,1801,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1801,2240,\fscx100)\t(1900,2030,\3c&HEE3000&)\t(2120,2320,\3c&HCE00EF&)\t(2020,2520,\3c&HE0608F)\t(2520,3020,\3c&H0FFF17&)\t(2220,3740,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ス
+Dialogue: 0,0:01:55.10,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(497,470)\alpha&HFF&\t(2240,2241,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2241,2680,\fscx100)\t(2340,2470,\3c&HEE3000&)\t(2560,2760,\3c&HCE00EF&)\t(2460,2960,\3c&HE0608F)\t(2960,3460,\3c&H0FFF17&)\t(2660,4180,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キ
+Dialogue: 0,0:01:55.35,0:01:55.59,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(371,446,371,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:55.55,0:01:56.00,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(349,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:55.55,0:01:56.00,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(413,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:55.80,0:01:56.04,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(400,446,400,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:56.00,0:01:56.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(378,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:56.00,0:01:56.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(442,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:56.25,0:01:56.49,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:56.45,0:01:56.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:56.45,0:01:56.90,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:56.70,0:01:56.94,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(458,446,458,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:56.90,0:01:57.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(436,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:56.90,0:01:57.34,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(500,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:57.14,0:01:57.38,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(487,446,487,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:57.34,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(465,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:57.34,0:01:57.78,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(529,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:57.65,0:01:57.89,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(197,446,197,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(207,470)\alpha&HFF&\t(0,1,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1,360,\fscx100)\t(100,190,\3c&HEE3000&)\t(280,480,\3c&HCE00EF&)\t(180,680,\3c&HE0608F)\t(680,1180,\3c&H0FFF17&)\t(380,1860,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キッ
+Dialogue: 0,0:01:57.85,0:01:58.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(175,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:57.85,0:01:58.21,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(239,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(250,470)\alpha&HFF&\t(360,361,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(361,600,\fscx100)\t(460,490,\3c&HEE3000&)\t(580,780,\3c&HCE00EF&)\t(480,980,\3c&HE0608F)\t(980,1480,\3c&H0FFF17&)\t(680,2100,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ト
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(279,470)\alpha&HFF&\t(600,601,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(601,940,\fscx100)\t(700,780,\3c&HEE3000&)\t(870,1070,\3c&HCE00EF&)\t(770,1270,\3c&HE0608F)\t(1270,1770,\3c&H0FFF17&)\t(970,2440,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ア
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(308,470)\alpha&HFF&\t(940,941,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(941,1370,\fscx100)\t(1040,1165,\3c&HEE3000&)\t(1255,1455,\3c&HCE00EF&)\t(1155,1655,\3c&HE0608F)\t(1655,2155,\3c&H0FFF17&)\t(1355,2870,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(337,470)\alpha&HFF&\t(1370,1371,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1371,1590,\fscx100)\t(1470,1490,\3c&HEE3000&)\t(1580,1780,\3c&HCE00EF&)\t(1480,1980,\3c&HE0608F)\t(1980,2480,\3c&H0FFF17&)\t(1680,3090,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}タ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(366,470)\alpha&HFF&\t(1590,1591,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1591,1880,\fscx100)\t(1690,1745,\3c&HEE3000&)\t(1835,2035,\3c&HCE00EF&)\t(1735,2235,\3c&HE0608F)\t(2235,2735,\3c&H0FFF17&)\t(1935,3380,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(395,470)\alpha&HFF&\t(1880,1881,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(1881,2140,\fscx100)\t(1980,2020,\3c&HEE3000&)\t(2110,2310,\3c&HCE00EF&)\t(2010,2510,\3c&HE0608F)\t(2510,3010,\3c&H0FFF17&)\t(2210,3640,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}カ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(439,470)\alpha&HFF&\t(2140,2141,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2141,2420,\fscx100)\t(2240,2290,\3c&HEE3000&)\t(2380,2580,\3c&HCE00EF&)\t(2280,2780,\3c&HE0608F)\t(2780,3280,\3c&H0FFF17&)\t(2480,3920,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ジュ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(482,470)\alpha&HFF&\t(2420,2421,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2421,2690,\fscx100)\t(2520,2565,\3c&HEE3000&)\t(2655,2855,\3c&HCE00EF&)\t(2555,3055,\3c&HE0608F)\t(3055,3555,\3c&H0FFF17&)\t(2755,4190,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}シ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(511,470)\alpha&HFF&\t(2690,2691,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2691,2950,\fscx100)\t(2790,2830,\3c&HEE3000&)\t(2920,3120,\3c&HCE00EF&)\t(2820,3320,\3c&HE0608F)\t(3320,3820,\3c&H0FFF17&)\t(3020,4450,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ン
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(540,470)\alpha&HFF&\t(2950,2951,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(2951,3340,\fscx100)\t(3050,3155,\3c&HEE3000&)\t(3245,3445,\3c&HCE00EF&)\t(3145,3645,\3c&HE0608F)\t(3645,4145,\3c&H0FFF17&)\t(3345,4840,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}デ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(569,470)\alpha&HFF&\t(3340,3341,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3341,3610,\fscx100)\t(3440,3485,\3c&HEE3000&)\t(3575,3775,\3c&HCE00EF&)\t(3475,3975,\3c&HE0608F)\t(3975,4475,\3c&H0FFF17&)\t(3675,5110,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}キ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(598,470)\alpha&HFF&\t(3610,3611,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3611,3850,\fscx100)\t(3710,3740,\3c&HEE3000&)\t(3830,4030,\3c&HCE00EF&)\t(3730,4230,\3c&HE0608F)\t(4230,4730,\3c&H0FFF17&)\t(3930,5350,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ナ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(627,470)\alpha&HFF&\t(3850,3851,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(3851,4030,\fscx100)\t(3950,3950,\3c&HEE3000&)\t(4040,4240,\3c&HCE00EF&)\t(3940,4440,\3c&HE0608F)\t(4440,4940,\3c&H0FFF17&)\t(4140,5530,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}イ
+Dialogue: 0,0:01:57.85,0:02:02.54,OP_denpa,NTP,0000,0000,0000,fx,{\be1\blur2\bord1\pos(656,470)\alpha&HFF&\t(4030,4031,\fscx10\1a&000&\3a&000&\3c&HEE3000&)\t(4031,4710,\fscx100)\t(4130,4380,\3c&HEE3000&)\t(4470,4670,\3c&HCE00EF&)\t(4370,4870,\3c&HE0608F)\t(4870,5370,\3c&H0FFF17&)\t(4570,6210,\1a&HFF\3a&HFF\2a&HFF\4a&HFF)}ノ
+Dialogue: 0,0:01:58.01,0:01:58.25,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(240,446,240,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:58.21,0:01:58.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(218,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:58.21,0:01:58.45,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(282,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:58.25,0:01:58.49,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(269,446,269,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:58.45,0:01:58.79,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(247,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:58.45,0:01:58.79,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(311,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:58.59,0:01:58.83,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(298,446,298,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:01:58.79,0:01:59.22,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(276,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:58.79,0:01:59.22,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(340,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.02,0:01:59.26,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(327,446,327,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:01:59.22,0:01:59.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(305,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.22,0:01:59.44,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(369,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.24,0:01:59.48,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(356,446,356,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:01:59.44,0:01:59.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(334,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.44,0:01:59.73,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(398,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.53,0:01:59.77,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(385,446,385,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:01:59.73,0:01:59.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(363,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.73,0:01:59.99,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(427,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.79,0:02:00.03,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(429,446,429,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:01:59.99,0:02:00.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(407,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:01:59.99,0:02:00.27,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(471,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.07,0:02:00.31,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(472,446,472,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:02:00.27,0:02:00.54,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(450,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.27,0:02:00.54,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(514,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.34,0:02:00.58,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(501,446,501,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:02:00.54,0:02:00.80,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(479,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.54,0:02:00.80,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(543,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.60,0:02:00.84,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(530,446,530,472,0,240)\fscx65\fscy180\frz330\1c&H0FFCFF&}ㄣ
+Dialogue: 0,0:02:00.80,0:02:01.19,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(508,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.80,0:02:01.19,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(572,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:00.99,0:02:01.23,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(559,446,559,472,0,240)\fscx65\fscy180\frz330\1c&HC7A135&}ㄣ
+Dialogue: 0,0:02:01.19,0:02:01.46,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(537,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.19,0:02:01.46,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(601,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.26,0:02:01.50,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(588,446,588,472,0,240)\fscx65\fscy180\frz330\1c&HC34596&}ㄣ
+Dialogue: 0,0:02:01.46,0:02:01.70,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(566,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.46,0:02:01.70,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(630,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.50,0:02:01.74,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(617,446,617,472,0,240)\fscx65\fscy180\frz330\1c&HF31DFC&}ㄣ
+Dialogue: 0,0:02:01.68,0:02:01.92,OP_denpa,NTP,0000,0000,0000,fx,{\b1\move(646,446,646,472,0,240)\fscx65\fscy180\frz330\1c&H0FFF17&}ㄣ
+Dialogue: 0,0:02:01.70,0:02:01.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(595,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.70,0:02:01.88,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(659,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.88,0:02:02.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz-90\pos(624,458)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:01.88,0:02:02.56,OP_denpa,NTP,0000,0000,0000,fx,{\frz90\pos(688,456)\1c&H0FFCFF&\jitter(5,5,5,5,20)}ー
+Dialogue: 0,0:02:10.87,0:02:11.46,Default,NTP,0000,0000,0000,,不好意思
+Dialogue: 0,0:02:15.39,0:02:15.85,Default,NTP,0000,0000,0000,,拿去吧
+Dialogue: 0,0:02:16.30,0:02:17.16,Default,NTP,0000,0000,0000,,謝謝
+Dialogue: 0,0:02:19.56,0:02:20.83,Default,NTP,0000,0000,0000,,點數加1
+Dialogue: 0,0:02:22.55,0:02:23.32,Default,NTP,0000,0000,0000,,抱歉
+Dialogue: 0,0:02:24.18,0:02:25.09,Default,NTP,0000,0000,0000,,點數減1
+Dialogue: 0,0:02:25.61,0:02:28.32,Default,NTP,0000,0000,0000,,去年一年間的高中生活所得點數為-3
+Dialogue: 0,0:02:29.68,0:02:32.08,Default,NTP,0000,0000,0000,,告別了居住近15年的地方
+Dialogue: 0,0:02:32.80,0:02:36.45,Default,NTP,0000,0000,0000,,如同校園故事裡主人公常有的橋段 雙親到海外赴任
+Dialogue: 0,0:02:36.95,0:02:41.75,Default,NTP,0000,0000,0000,,將還差兩年畢業的兒子託付到父親的妹妹那裡居住
+Dialogue: 0,0:02:44.82,0:02:47.99,Default,NTP,0000,0000,0000,,所以我現在感覺到人生迎來了最棒的時刻
+Dialogue: 0,0:02:48.90,0:02:53.01,Default,NTP,0000,0000,0000,,要轉學到的地方是都市 班上的女生不可能會在十人以下
+Dialogue: 0,0:02:54.28,0:02:59.40,Default,NTP,0000,0000,0000,,而且姑姑好像沒結婚也沒小孩 而是在工作著 嘛 這也是當然的
+Dialogue: 0,0:02:59.94,0:03:01.99,Default,NTP,0000,0000,0000,,總之就是這和我獨自居住沒兩樣
+Dialogue: 0,0:03:02.81,0:03:10.41,Default,NTP,0000,0000,0000,,對正處於青春反抗期的高二男生來說 正是求之不得的環境
+Dialogue: 0,0:03:11.23,0:03:14.08,Default,NTP,0000,0000,0000,,就算把這認為是得到乖僻的神龍的幫助也不為過
+Dialogue: 0,0:03:15.03,0:03:19.01,Default,NTP,0000,0000,0000,,祈求青少年能健全成長的大人們的願望不會實現的
+Dialogue: 0,0:03:23.68,0:03:29.65,Default,NTP,0000,0000,0000,,優越感 如同從考試期間解放出來 緊張過後的嶄新感
+Dialogue: 0,0:03:30.40,0:03:32.53,Default,NTP,0000,0000,0000,,三半規管非常恰當的工作著
+Dialogue: 0,0:03:30.40,0:03:32.93,上字,NTP,0000,0000,0000,,三半規管：內耳中由三個不同方向相互垂直的半規管構成，詳情請Google。
+Dialogue: 0,0:03:34.58,0:03:37.34,Default,NTP,0000,0000,0000,,這就是被海浪輕撫的感覺嗎
+Dialogue: 0,0:03:46.78,0:03:47.56,Default,NTP,0000,0000,0000,,{\c&HC38565&\bord0\fn華康中黑體\pos(424,362)}我現在過來見你
+Dialogue: 0,0:03:56.65,0:03:57.55,Default,NTP,0000,0000,0000,,這樣能知道嗎！
+Dialogue: 0,0:03:58.14,0:03:58.96,Default,NTP,0000,0000,0000,,真？
+Dialogue: 0,0:04:01.27,0:04:03.26,Default,NTP,0000,0000,0000,,你是真吧
+Dialogue: 0,0:04:05.30,0:04:09.73,Default,NTP,0000,0000,0000,,…是！我就是你說的丹羽真 你好
+Dialogue: 0,0:04:10.27,0:04:12.22,Default,NTP,0000,0000,0000,,啊 要承蒙您照顧一段時間了
+Dialogue: 0,0:04:13.08,0:04:14.69,Default,NTP,0000,0000,0000,,哎 我說得太生硬了
+Dialogue: 0,0:04:14.66,0:04:16.35,Default,NTP,0000,0000,0000,,哪裡哪裡 這邊也是
+Dialogue: 0,0:04:17.82,0:04:20.22,Default,NTP,0000,0000,0000,,啊 應該給你名片吧
+Dialogue: 0,0:04:21.08,0:04:22.26,Default,NTP,0000,0000,0000,,我是藤和女女
+Dialogue: 0,0:04:22.98,0:04:23.76,Default,NTP,0000,0000,0000,,謝謝
+Dialogue: 0,0:04:26.88,0:04:35.56,Default,NTP,0000,0000,0000,,名字真特別呢 藝名、花名、通稱、綽號… 也不排除其實是內心的2P角色在這世界裡通用的假名
+Dialogue: 0,0:04:35.97,0:04:37.78,Default,NTP,0000,0000,0000,,這是本名啊
+Dialogue: 0,0:04:38.55,0:04:42.49,Default,NTP,0000,0000,0000,,藤和女女 叫我JOJO也是可以的哦
+Dialogue: 0,0:04:44.30,0:04:45.61,Default,NTP,0000,0000,0000,,高中很近嗎
+Dialogue: 0,0:04:46.49,0:04:50.79,Default,NTP,0000,0000,0000,,騎自行車的大概15分鐘 真的話大概會更快吧
+Dialogue: 0,0:04:59.63,0:05:00.63,Default,NTP,0000,0000,0000,,為什麼要坐前面…
+Dialogue: 0,0:05:08.45,0:05:15.28,Default,NTP,0000,0000,0000,,都市有股金屬味 比起鄉下的泥土味更值得期待啊 哈
+Dialogue: 0,0:05:18.45,0:05:21.44,Default,NTP,0000,0000,0000,,歡迎來到被宇宙人看護的城市
+Dialogue: 0,0:05:24.42,0:05:25.56,Default,NTP,0000,0000,0000,,有點被吸引了吧
+Dialogue: 0,0:05:26.10,0:05:30.53,Default,NTP,0000,0000,0000,,在這裡UFO之類的目擊情報很多 類似佛羅里達州吧
+Dialogue: 0,0:05:26.10,0:05:30.53,上字,NTP,0000,0000,0000,,美國的佛羅里達州是UFO目擊的勝地
+Dialogue: 0,0:05:32.50,0:05:36.31,Default,NTP,0000,0000,0000,,難道她是宇宙人信奉者 還是MMR直擊世代？
+Dialogue: 0,0:05:32.50,0:05:36.31,上字,NTP,0000,0000,0000,,MMR：日本漫畫家石垣ゆうき的作品，內容為探討外星人與超自然現象之謎。
+Dialogue: 0,0:05:39.21,0:05:41.93,Default,NTP,0000,0000,0000,,好了 這裡就是真你的第二個家了
+Dialogue: 0,0:05:42.41,0:05:44.17,Default,NTP,0000,0000,0000,,請、多多關照
+Dialogue: 0,0:05:44.67,0:05:45.99,Default,NTP,0000,0000,0000,,請多關照
+Dialogue: 0,0:05:46.71,0:05:47.94,Default,NTP,0000,0000,0000,,真是抱歉了 多多關照
+Dialogue: 0,0:05:50.20,0:05:51.12,Default,NTP,0000,0000,0000,,我回來了
+Dialogue: 0,0:06:01.08,0:06:03.11,Default,NTP,0000,0000,0000,,我都打掃過了 請進來吧
+Dialogue: 0,0:06:03.75,0:06:05.65,Default,NTP,0000,0000,0000,,不過有點窄哦
+Dialogue: 0,0:06:06.15,0:06:09.19,Default,NTP,0000,0000,0000,,等等 在你脫掉鞋子 露出爽朗微笑之前
+Dialogue: 0,0:06:09.60,0:06:11.77,Default,NTP,0000,0000,0000,,該注意到的東西不就在你的腳邊嗎
+Dialogue: 0,0:06:12.88,0:06:19.48,Default,NTP,0000,0000,0000,,今後我就要每天進出的這個玄關 有個類似竹輪的東西
+Dialogue: 0,0:06:28.49,0:06:31.92,Default,NTP,0000,0000,0000,,還在客氣嗎 真是太見外了
+Dialogue: 0,0:06:33.78,0:06:34.82,Default,NTP,0000,0000,0000,,這可不好哦
+Dialogue: 0,0:06:38.98,0:06:40.39,Default,NTP,0000,0000,0000,,啊啦 不合適嗎
+Dialogue: 0,0:06:41.00,0:06:41.90,Default,NTP,0000,0000,0000,,不 那個…
+Dialogue: 0,0:06:42.18,0:06:47.11,Default,NTP,0000,0000,0000,,那就好 姑姑我的目標是反差萌角色 你知道什麼是萌吧
+Dialogue: 0,0:06:47.57,0:06:48.65,Default,NTP,0000,0000,0000,,嗯 算是吧…
+Dialogue: 0,0:06:49.29,0:06:53.18,Default,NTP,0000,0000,0000,,就是指明明是姑姑卻能空手打倒力道山 這樣的人哦
+Dialogue: 0,0:06:49.29,0:06:53.18,上字,NTP,0000,0000,0000,,力道山：二戰結束後在日本的職業摔角選手，被譽為「日本職業摔角之父」
+Dialogue: 0,0:06:53.52,0:06:54.65,Default,NTP,0000,0000,0000,,才不是這樣！
+Dialogue: 0,0:06:55.46,0:06:57.41,Default,NTP,0000,0000,0000,,吐槽後反而覺得自己有些悲哀
+Dialogue: 0,0:06:57.77,0:07:00.06,Default,NTP,0000,0000,0000,,真的房間上了樓梯後馬上就到了
+Dialogue: 0,0:07:00.26,0:07:02.27,Default,NTP,0000,0000,0000,,有什麼不合適的地方要說出來哦
+Dialogue: 0,0:07:03.00,0:07:06.80,Default,NTP,0000,0000,0000,,說出來真的可以吧 省略客套話直接連珠炮似的說出來哦
+Dialogue: 0,0:07:07.39,0:07:10.42,Default,NTP,0000,0000,0000,,哪裡 能讓我住下來就已經很滿足了
+Dialogue: 0,0:07:12.82,0:07:16.11,Default,NTP,0000,0000,0000,,那棉被卷人類是啥玩意啊 搞什麼飛機啊
+Dialogue: 0,0:07:19.76,0:07:21.71,Default,NTP,0000,0000,0000,,今天我試著奮鬥了一番
+Dialogue: 0,0:07:23.52,0:07:26.87,Default,NTP,0000,0000,0000,,所以請別認為這是和平常的早餐一樣哦
+Dialogue: 0,0:07:27.41,0:07:29.13,Default,NTP,0000,0000,0000,,真你會做飯嗎
+Dialogue: 0,0:07:29.95,0:07:32.17,Default,NTP,0000,0000,0000,,不用菜刀的料理的話可以
+Dialogue: 0,0:07:33.34,0:07:34.50,Default,NTP,0000,0000,0000,,不愧是男孩子
+Dialogue: 0,0:07:36.26,0:07:37.64,Default,NTP,0000,0000,0000,,怎麼了 東張西望的
+Dialogue: 0,0:07:38.14,0:07:42.56,Default,NTP,0000,0000,0000,,不能看或者說不該看的東西在右邊 有點…
+Dialogue: 0,0:07:42.97,0:07:45.55,Default,NTP,0000,0000,0000,,幽靈肯定會從左邊出現的哦
+Dialogue: 0,0:07:45.95,0:07:50.57,Default,NTP,0000,0000,0000,,別拿科學和精神的邊緣話題當下飯菜啊
+Dialogue: 0,0:07:51.31,0:07:55.09,Default,NTP,0000,0000,0000,,好吧 我也不擅長拐彎抹角 就直說了吧
+Dialogue: 0,0:07:55.37,0:07:56.18,Default,NTP,0000,0000,0000,,這麼快就要求婚了嗎
+Dialogue: 0,0:07:56.55,0:07:58.34,Default,NTP,0000,0000,0000,,誰和你說洋水仙了！
+Dialogue: 0,0:07:58.83,0:08:00.86,Default,NTP,0000,0000,0000,,你對我說謊了
+Dialogue: 0,0:08:01.41,0:08:06.56,Default,NTP,0000,0000,0000,,謊言 真揭露了謊言 從字面上來看很帥啊
+Dialogue: 0,0:08:06.93,0:08:07.79,Default,NTP,0000,0000,0000,,啊 確實
+Dialogue: 0,0:08:08.56,0:08:11.64,Default,NTP,0000,0000,0000,,不對 姑姑你並不是一個人住的！
+Dialogue: 0,0:08:11.89,0:08:13.52,Default,NTP,0000,0000,0000,,什、什麼{\fscx200}—{\r}！
+Dialogue: 0,0:08:13.74,0:08:18.00,Default,NTP,0000,0000,0000,,你這是幹嘛 明明餓著肚子還把腰挺起來裝飽嗎
+Dialogue: 0,0:08:18.54,0:08:22.34,Default,NTP,0000,0000,0000,,這是因為抱著即使胃會痙攣還要努力的結晶啊
+Dialogue: 0,0:08:23.70,0:08:26.37,Default,NTP,0000,0000,0000,,有我說謊的證據嗎
+Dialogue: 0,0:08:27.14,0:08:27.77,Default,NTP,0000,0000,0000,,證據？
+Dialogue: 0,0:08:29.31,0:08:31.17,Default,NTP,0000,0000,0000,,給你證據
+Dialogue: 0,0:08:33.30,0:08:35.88,Default,NTP,0000,0000,0000,,我可不擅長拐彎抹角 這是什麼
+Dialogue: 0,0:08:36.39,0:08:39.81,Default,NTP,0000,0000,0000,,要說明這是什麼的話可得繞上很大個彎了
+Dialogue: 0,0:08:40.27,0:08:43.39,Default,NTP,0000,0000,0000,,那就請你說明吧 這個是什麼
+Dialogue: 0,0:08:44.91,0:08:49.30,Default,NTP,0000,0000,0000,,20世紀初 美國某個鄉下裡出現了黑雲似的的東西…
+Dialogue: 0,0:08:49.57,0:08:50.71,Default,NTP,0000,0000,0000,,省略這些前序
+Dialogue: 0,0:08:51.77,0:08:56.97,Default,NTP,0000,0000,0000,,年輕真好啊 就算急躁也能用年輕來解釋
+Dialogue: 0,0:08:57.47,0:09:02.17,Default,NTP,0000,0000,0000,,姑姑我在超市廉價品選擇特價商品時 這樣做可是被冷眼相待的啊
+Dialogue: 0,0:09:02.81,0:09:05.30,Default,NTP,0000,0000,0000,,那是眼帶血色的區別吧…
+Dialogue: 0,0:09:06.34,0:09:10.95,Default,NTP,0000,0000,0000,,總之！ 不管是15元一袋的茄子還是你多麼喜愛碎肉末的折扣時間
+Dialogue: 0,0:09:11.27,0:09:13.20,Default,NTP,0000,0000,0000,,這些都毫不相關 我的問題是…
+Dialogue: 0,0:09:12.56,0:09:16.49,Default,NTP,0000,0000,0000,,啊 飯菜要冷掉了 真真不快點吃不行哦
+Dialogue: 0,0:09:16.94,0:09:18.82,Default,NTP,0000,0000,0000,,煩死了 你說的什麼語啊！
+Dialogue: 0,0:09:25.19,0:09:30.31,Default,NTP,0000,0000,0000,,姆是以4度的現太接觸為目氣 配配有防禦基能
+Dialogue: 0,0:09:35.01,0:09:42.37,Default,NTP,0000,0000,0000,,連本赤的意膩都喪失了的區區被觀撤物體 不允取你隨便碰唔
+Dialogue: 0,0:09:43.38,0:09:50.59,Default,NTP,0000,0000,0000,,忘棄了原本是地由的所有舍的蛋白質聚合以 這就是你們
+Dialogue: 0,0:09:51.28,0:09:53.09,Default,NTP,0000,0000,0000,,抱歉 請翻譯
+Dialogue: 0,0:09:53.62,0:09:55.38,Default,NTP,0000,0000,0000,,她在說初次見面
+Dialogue: 0,0:09:56.45,0:10:01.47,Default,NTP,0000,0000,0000,,你的翻譯能力要是加上個無視別人說話的條件的話 可真是名人級的了
+Dialogue: 0,0:10:01.88,0:10:03.96,Default,NTP,0000,0000,0000,,她是我女兒 藤和艾莉歐
+Dialogue: 0,0:10:04.33,0:10:06.50,Default,NTP,0000,0000,0000,,女兒 什麼女兒
+Dialogue: 0,0:10:06.77,0:10:07.61,Default,NTP,0000,0000,0000,,My daughter
+Dialogue: 0,0:10:07.88,0:10:10.73,Default,NTP,0000,0000,0000,,你讓我從哪裡吐糟 拜託你增加點文字量再來對話
+Dialogue: 0,0:10:11.05,0:10:12.37,Default,NTP,0000,0000,0000,,而你是童貞
+Dialogue: 0,0:10:13.05,0:10:15.94,Default,NTP,0000,0000,0000,,煩死了 那是因為在鄉下相遇的機會的太少了…
+Dialogue: 0,0:10:16.33,0:10:18.19,Default,NTP,0000,0000,0000,,你不是一個人生活的嗎！
+Dialogue: 0,0:10:18.51,0:10:22.72,Default,NTP,0000,0000,0000,,獨自生活的態度不是從和真你見面起就貫徹了嘛
+Dialogue: 0,0:10:25.24,0:10:26.14,Default,NTP,0000,0000,0000,,有什麼不滿嗎
+Dialogue: 0,0:10:26.78,0:10:30.67,Default,NTP,0000,0000,0000,,不 那個… 為什麼裝著看不到的樣子…
+Dialogue: 0,0:10:31.94,0:10:33.64,Default,NTP,0000,0000,0000,,總之 你很煩啊！
+Dialogue: 0,0:10:41.10,0:10:43.09,Default,NTP,0000,0000,0000,,棉被的小褲褲什麼的 不過只是布的延長罷了
+Dialogue: 0,0:10:45.72,0:10:48.30,Default,NTP,0000,0000,0000,,該死的 不對 這太不對了
+Dialogue: 0,0:10:48.66,0:10:49.82,Default,NTP,0000,0000,0000,,欸 小真菌
+Dialogue: 0,0:10:50.50,0:10:51.41,Default,NTP,0000,0000,0000,,菌什麼啊
+Dialogue: 0,0:10:51.77,0:10:54.67,Default,NTP,0000,0000,0000,,死去的丈夫叫做喬治 妻子叫做瑪利亞
+Dialogue: 0,0:10:55.10,0:10:58.49,Default,NTP,0000,0000,0000,,別裝作什麼事都沒的樣子還給我繼續編BL的事來
+Dialogue: 0,0:10:58.86,0:11:02.25,Default,NTP,0000,0000,0000,,哈 真你完全接受了
+Dialogue: 0,0:11:03.20,0:11:03.97,Default,NTP,0000,0000,0000,,真是的
+Dialogue: 0,0:11:04.79,0:11:07.80,Default,NTP,0000,0000,0000,,從今往後我們就兩人好好生活下去吧
+Dialogue: 0,0:11:08.84,0:11:09.36,Default,NTP,0000,0000,0000,,兩人？
+Dialogue: 0,0:11:09.76,0:11:11.07,Default,NTP,0000,0000,0000,,one two
+Dialogue: 0,0:11:11.57,0:11:12.97,Default,NTP,0000,0000,0000,,那個卷狀物體的呢
+Dialogue: 0,0:11:13.34,0:11:15.37,Default,NTP,0000,0000,0000,,那個啊 別在意
+Dialogue: 0,0:11:16.28,0:11:17.46,Default,NTP,0000,0000,0000,,到底是什麼母女啊
+Dialogue: 0,0:11:18.32,0:11:19.72,Default,NTP,0000,0000,0000,,那你丈夫呢
+Dialogue: 0,0:11:20.54,0:11:21.13,Default,NTP,0000,0000,0000,,喬治？
+Dialogue: 0,0:11:21.49,0:11:23.49,Default,NTP,0000,0000,0000,,你什麼時候成了瑪利亞！
+Dialogue: 0,0:11:23.87,0:11:30.15,Default,NTP,0000,0000,0000,,誇昌自我和欲望的卑灰的生物 輸入救廚的程式
+Dialogue: 0,0:11:54.16,0:11:56.41,Default,NTP,0000,0000,0000,,雖然還遺留不少問題
+Dialogue: 0,0:11:57.01,0:12:00.63,Default,NTP,0000,0000,0000,,但明天學校就要開學了 我則是轉學生
+Dialogue: 0,0:12:35.10,0:12:39.85,Default,NTP,0000,0000,0000,,冷靜地重新認識一下事態的話 這其實是和女孩子同住一屋簷下吧
+Dialogue: 0,0:12:40.53,0:12:43.61,Default,NTP,0000,0000,0000,,但是啊… 竹輪筒可沒雌雄之分的吧
+Dialogue: 0,0:12:46.94,0:12:48.43,Default,NTP,0000,0000,0000,,嗚哇 這個沒問題嗎
+Dialogue: 0,0:12:54.50,0:12:58.31,Default,NTP,0000,0000,0000,,只有字啊？姑姑寫得莫名的認真啊
+Dialogue: 0,0:13:04.78,0:13:05.60,Default,NTP,0000,0000,0000,,我叫丹羽真
+Dialogue: 0,0:13:06.33,0:13:08.14,Default,NTP,0000,0000,0000,,那個 請多關照
+Dialogue: 0,0:13:09.22,0:13:11.48,Default,NTP,0000,0000,0000,,雖說是轉學生 但在這4月份的新學期裡
+Dialogue: 0,0:13:12.07,0:13:15.88,Default,NTP,0000,0000,0000,,看起來也就只不過像是換班一樣了 並沒有受到多大矚目
+Dialogue: 0,0:13:21.03,0:13:25.60,Default,NTP,0000,0000,0000,,我一邊搜尋可愛女生的比率 一邊感受著班級的氣氛於是班會結束了
+Dialogue: 0,0:13:29.58,0:13:30.85,Default,NTP,0000,0000,0000,,中午回到家
+Dialogue: 0,0:13:31.49,0:13:33.21,Default,NTP,0000,0000,0000,,看來最近需要維修一下了啊
+Dialogue: 0,0:13:35.43,0:13:38.71,Default,NTP,0000,0000,0000,,我有時候也會想 物品其實也有心靈的吧
+Dialogue: 0,0:13:39.98,0:13:40.71,Default,NTP,0000,0000,0000,,我回來了
+Dialogue: 0,0:13:45.21,0:13:47.65,Default,NTP,0000,0000,0000,,宇宙被誤認為封閉…
+Dialogue: 0,0:13:48.67,0:13:49.66,Default,NTP,0000,0000,0000,,電波啊
+Dialogue: 0,0:13:52.89,0:13:54.70,Default,NTP,0000,0000,0000,,我回來了
+Dialogue: 0,0:14:04.65,0:14:09.79,Default,NTP,0000,0000,0000,,我叫丹羽真 算是你的表哥吧 請多關照
+Dialogue: 0,0:14:11.69,0:14:13.32,Default,NTP,0000,0000,0000,,地休正受到威茄
+Dialogue: 0,0:14:15.45,0:14:17.21,Default,NTP,0000,0000,0000,,地休正受到威茄
+Dialogue: 0,0:14:18.16,0:14:21.10,Default,NTP,0000,0000,0000,,地球正受到威脅 是嗎
+Dialogue: 0,0:14:24.18,0:14:25.27,Default,NTP,0000,0000,0000,,啊 我知道了知道了
+Dialogue: 0,0:14:25.63,0:14:29.30,Default,NTP,0000,0000,0000,,雖然我搞不懂要理解什麼 但是我試著理解一下 快把音量調低
+Dialogue: 0,0:14:33.10,0:14:35.99,Default,NTP,0000,0000,0000,,我說你啊 真的是我的表妹嗎？
+Dialogue: 0,0:14:36.95,0:14:39.45,Default,NTP,0000,0000,0000,,還有 真的是女女姑姑的女兒嗎？
+Dialogue: 0,0:14:40.30,0:14:41.07,Default,NTP,0000,0000,0000,,表鍋…
+Dialogue: 0,0:14:41.61,0:14:45.10,Default,NTP,0000,0000,0000,,雙親傭弟的孩紙 互為表新關係
+Dialogue: 0,0:14:45.51,0:14:50.07,Default,NTP,0000,0000,0000,,因齒 也經常被用來比喻極其相室的東西
+Dialogue: 0,0:14:50.43,0:14:55.27,Default,NTP,0000,0000,0000,,例文：拈前的這家或長得和熊蟲的表哥一樣
+Dialogue: 0,0:14:55.82,0:14:58.35,Default,NTP,0000,0000,0000,,別裝得像背辭典似的來罵人
+Dialogue: 0,0:14:59.08,0:15:00.48,Default,NTP,0000,0000,0000,,你還沒見過我長什麼樣吧
+Dialogue: 0,0:15:03.13,0:15:05.07,Default,NTP,0000,0000,0000,,看來你不想回答我的問題呢
+Dialogue: 0,0:15:05.84,0:15:08.74,Default,NTP,0000,0000,0000,,總之我們要暫時一起生活了
+Dialogue: 0,0:15:12.00,0:15:13.50,Default,NTP,0000,0000,0000,,那麼 你在這做啥
+Dialogue: 0,0:15:14.18,0:15:16.89,Default,NTP,0000,0000,0000,,我在等宇咻的物持傳松
+Dialogue: 0,0:15:17.89,0:15:19.30,Default,NTP,0000,0000,0000,,你的腦袋沒問題嗎？
+Dialogue: 0,0:15:19.70,0:15:22.74,Default,NTP,0000,0000,0000,,離傳松終了時刻還有 耐分基秒
+Dialogue: 0,0:15:23.60,0:15:28.21,Default,NTP,0000,0000,0000,,害分基秒？ 2分7秒？絕對是瞎編的…
+Dialogue: 0,0:15:29.98,0:15:31.43,Default,NTP,0000,0000,0000,,您好 我是圈圈披薩
+Dialogue: 0,0:15:32.88,0:15:33.67,Default,NTP,0000,0000,0000,,多少錢？
+Dialogue: 0,0:15:34.26,0:15:35.35,Default,NTP,0000,0000,0000,,1400元
+Dialogue: 0,0:15:38.56,0:15:42.41,Default,NTP,0000,0000,0000,,這宇宙還真夠近的啊 那個連我們鄉下都有啊
+Dialogue: 0,0:15:43.13,0:15:46.08,Default,NTP,0000,0000,0000,,宇臭是淫類最金的希望
+Dialogue: 0,0:15:47.14,0:15:50.90,Default,NTP,0000,0000,0000,,啥？宇宙是人類最接近的希望？
+Dialogue: 0,0:15:51.53,0:15:54.93,Default,NTP,0000,0000,0000,,別故意說好話來打岔啊 這對我完全沒任何作用
+Dialogue: 0,0:15:55.79,0:15:58.23,Default,NTP,0000,0000,0000,,啊 喂 慢點走 很危…
+Dialogue: 0,0:16:07.32,0:16:08.14,Default,NTP,0000,0000,0000,,哦 謝謝
+Dialogue: 0,0:16:09.43,0:16:12.51,Default,NTP,0000,0000,0000,,這電波娘居然知道要付錢
+Dialogue: 0,0:16:13.19,0:16:17.71,Default,NTP,0000,0000,0000,,而且從能夠叫披薩外賣這點來看 最低限度的社會適應力是沒問題的吧
+Dialogue: 0,0:16:18.57,0:16:20.92,Default,NTP,0000,0000,0000,,也就是說卷著棉被吃披薩什麼的
+Dialogue: 0,0:16:21.33,0:16:24.28,Default,NTP,0000,0000,0000,,就算她在言行的細節部分方面雖然嚮往著宇宙
+Dialogue: 0,0:16:24.68,0:16:27.85,Default,NTP,0000,0000,0000,,但是其實還是個離不開重力的地球人 是不可能做得到的
+Dialogue: 0,0:16:28.26,0:16:30.07,Default,NTP,0000,0000,0000,,也就是她說一定會解開棉被…
+Dialogue: 0,0:16:37.18,0:16:41.02,Default,NTP,0000,0000,0000,,我看到了完全捨棄人類餐桌禮儀的飲食方式
+Dialogue: 0,0:16:43.73,0:16:44.96,Default,NTP,0000,0000,0000,,剩下的怎麼辦？
+Dialogue: 0,0:16:46.00,0:16:49.12,Default,NTP,0000,0000,0000,,以表科的現在的申查結果… 浪你吃也不是不行
+Dialogue: 0,0:16:50.07,0:16:51.30,Default,NTP,0000,0000,0000,,那麼我付一半錢吧
+Dialogue: 0,0:16:57.49,0:16:58.37,Default,NTP,0000,0000,0000,,我開動了
+Dialogue: 0,0:17:09.36,0:17:11.17,Default,NTP,0000,0000,0000,,您好 這裡是丹羽
+Dialogue: 0,0:17:11.81,0:17:13.94,Default,NTP,0000,0000,0000,,啊啦 老公 你已經回來了？
+Dialogue: 0,0:17:17.92,0:17:19.37,Default,NTP,0000,0000,0000,,小新好過分
+Dialogue: 0,0:17:19.64,0:17:23.22,Default,NTP,0000,0000,0000,,誰是小新啊 別說得我像某野原家的小孩一樣
+Dialogue: 0,0:17:23.80,0:17:26.11,Default,NTP,0000,0000,0000,,你小時候也是那樣的孩子喲
+Dialogue: 0,0:17:26.46,0:17:27.18,Default,NTP,0000,0000,0000,,少騙人了
+Dialogue: 0,0:17:27.86,0:17:29.22,Default,NTP,0000,0000,0000,,飯已經吃過了嗎？
+Dialogue: 0,0:17:29.63,0:17:31.04,Default,NTP,0000,0000,0000,,不 還沒有
+Dialogue: 0,0:17:31.55,0:17:34.81,Default,NTP,0000,0000,0000,,姑姑還不能回來 晚飯就自己解決吧
+Dialogue: 0,0:17:35.26,0:17:35.94,Default,NTP,0000,0000,0000,,我知道了
+Dialogue: 0,0:17:36.81,0:17:38.16,Default,NTP,0000,0000,0000,,你女兒怎麼辦？
+Dialogue: 0,0:17:38.80,0:17:42.87,Default,NTP,0000,0000,0000,,不知道 真也最好裝作沒看到她吧
+Dialogue: 0,0:17:43.19,0:17:44.87,Default,NTP,0000,0000,0000,,怎麼可能這樣做呢
+Dialogue: 0,0:17:45.14,0:17:47.76,Default,NTP,0000,0000,0000,,那麼就交給你啦 人家不管了
+Dialogue: 0,0:17:50.21,0:17:53.44,Default,NTP,0000,0000,0000,,你真的是她的親生母親嗎
+Dialogue: 0,0:17:55.57,0:17:59.06,Default,NTP,0000,0000,0000,,喂 我說 晚飯怎麼辦？
+Dialogue: 0,0:17:59.65,0:18:00.82,Default,NTP,0000,0000,0000,,平時你都吃什麼？
+Dialogue: 0,0:18:01.96,0:18:07.23,Default,NTP,0000,0000,0000,,平習都是通過宇臭傳松來的食物連帶夜先的能釀一起補充
+Dialogue: 0,0:18:07.64,0:18:12.48,Default,NTP,0000,0000,0000,,但是親天分給了表科一半 可動時間被縮短
+Dialogue: 0,0:18:13.43,0:18:16.24,Default,NTP,0000,0000,0000,,啊 把披薩分給了我 就沒有晚飯了
+Dialogue: 0,0:18:16.74,0:18:18.64,Default,NTP,0000,0000,0000,,我知道了 那就自己做吧…
+Dialogue: 0,0:18:20.33,0:18:22.28,Default,NTP,0000,0000,0000,,去買點什麼吧 大姐
+Dialogue: 0,0:18:23.00,0:18:26.15,Default,NTP,0000,0000,0000,,根去對表科的供幾能力考查
+Dialogue: 0,0:18:26.61,0:18:32.58,Default,NTP,0000,0000,0000,,認為表科成空為我帶來充笨的糧食是不可能的
+Dialogue: 0,0:18:42.53,0:18:46.96,Default,NTP,0000,0000,0000,,要解開棉被的話她就會鬧得很凶 只好就這樣把她塞進來
+Dialogue: 0,0:18:48.23,0:18:52.60,Default,NTP,0000,0000,0000,,如果遇上每天在城裡樸實剛健、維持和平的policeman的話
+Dialogue: 0,0:18:53.01,0:18:54.66,Default,NTP,0000,0000,0000,,絕對會被請去喝茶
+Dialogue: 0,0:18:55.70,0:18:58.44,Default,NTP,0000,0000,0000,,我祈禱著不會被當成送棉被的快遞員
+Dialogue: 0,0:18:58.99,0:19:00.48,Default,NTP,0000,0000,0000,,但這傢伙還真是興奮啊
+Dialogue: 0,0:19:01.70,0:19:03.83,Default,NTP,0000,0000,0000,,她到底多大了啊 學校呢？
+Dialogue: 0,0:19:04.51,0:19:06.00,Default,NTP,0000,0000,0000,,總覺得都很可疑
+Dialogue: 0,0:19:06.59,0:19:09.26,Default,NTP,0000,0000,0000,,而且親戚們居然誰都不知道她的存在
+Dialogue: 0,0:19:27.04,0:19:29.30,Default,NTP,0000,0000,0000,,終於到了 肚子都餓扁了
+Dialogue: 0,0:19:31.57,0:19:33.83,Default,NTP,0000,0000,0000,,要一起進去的話就把棉被脫了
+Dialogue: 0,0:19:34.46,0:19:35.82,Default,NTP,0000,0000,0000,,那種打扮是違規的
+Dialogue: 0,0:19:36.23,0:19:43.60,Default,NTP,0000,0000,0000,,我這樣二牛檢察官如果隨便拋頭露變會影強到考查的空平性
+Dialogue: 0,0:19:44.33,0:19:50.30,Default,NTP,0000,0000,0000,,是嗎？那在你的工作意識冷卻之前 就在那邊老實地等到白花開吧
+Dialogue: 0,0:19:50.62,0:19:55.91,Default,NTP,0000,0000,0000,,但是處於狀晃臨期應變是作為一牛考查員的肖志
+Dialogue: 0,0:19:56.59,0:19:57.48,Default,NTP,0000,0000,0000,,啊 也就是說？
+Dialogue: 0,0:19:58.02,0:20:00.81,Default,NTP,0000,0000,0000,,我沒辦法把幣股從這你面拔粗來
+Dialogue: 0,0:20:10.07,0:20:12.07,Default,NTP,0000,0000,0000,,說聲幫我下不就好了嘛
+Dialogue: 0,0:20:21.34,0:20:27.22,Default,NTP,0000,0000,0000,,在月光和看板的照耀下 仿佛出現了一個外星生命體
+Dialogue: 0,0:20:29.66,0:20:34.86,Default,NTP,0000,0000,0000,,你是什麼啊 宇宙人嗎？還是從竹子蹦出來的公主？
+Dialogue: 0,0:20:35.59,0:20:36.68,Default,NTP,0000,0000,0000,,宇宙人？
+Dialogue: 0,0:20:41.92,0:20:43.92,Default,NTP,0000,0000,0000,,我、我是…！
+Dialogue: 0,0:20:45.58,0:20:46.35,Default,NTP,0000,0000,0000,,喂 怎麼啦
+Dialogue: 0,0:20:46.94,0:20:47.98,Default,NTP,0000,0000,0000,,宇宙人
+Dialogue: 0,0:20:55.69,0:20:56.87,Default,NTP,0000,0000,0000,,披薩的餡料
+Dialogue: 0,0:21:06.50,0:21:11.71,Default,NTP,0000,0000,0000,,我決定向表哥闡明自己的秘密 因為你看起來很有資質
+Dialogue: 0,0:21:12.70,0:21:14.20,Default,NTP,0000,0000,0000,,恩 什麼？
+Dialogue: 0,0:21:16.83,0:21:18.55,Default,NTP,0000,0000,0000,,地球正受到威脅
+Dialogue: 0,0:21:20.32,0:21:22.99,Default,NTP,0000,0000,0000,,我是擁有宇宙人血統的調停檢察官
+Dialogue: 0,0:21:23.58,0:21:28.73,Default,NTP,0000,0000,0000,,我的使命就是調查這座小鎮上的人類以此來衡量全人類
+Dialogue: 0,0:21:29.37,0:21:34.57,Default,NTP,0000,0000,0000,,還有將宇宙人與地球接觸的痕跡消除 這兩個任務
+Dialogue: 0,0:21:35.70,0:21:41.56,Default,NTP,0000,0000,0000,,這座城市只是宇宙人的試驗所 但同時也是唯一被從引力中所解放的地區
+Dialogue: 0,0:21:44.69,0:21:46.50,Default,NTP,0000,0000,0000,,這是神所施加的懲罰呢
+Dialogue: 0,0:21:47.31,0:21:52.15,Default,NTP,0000,0000,0000,,因為外貌過於出彩 所以言行就被調整到負的以此來抵消
+Dialogue: 0,0:21:54.06,0:21:56.14,Default,NTP,0000,0000,0000,,唉 那麼該說出來了吧
+Dialogue: 0,0:21:56.86,0:21:58.88,Default,NTP,0000,0000,0000,,敷衍似的 淡漠的臺詞
+Dialogue: 0,0:21:59.42,0:22:02.41,Default,NTP,0000,0000,0000,,準備{\fscx200}—{\r} 哦 是嗎
+Dialogue: 0,0:22:04.76,0:22:09.24,Default,NTP,0000,0000,0000,,於是 我與藤和艾莉歐相識了
+Dialogue: 0,0:22:14.01,0:22:18.02,ED_JP,NTP,0000,0000,0000,,風邪引くの　風邪引くの
+Dialogue: 0,0:22:18.48,0:22:21.90,ED_JP,NTP,0000,0000,0000,,お布団なくで寒い
+Dialogue: 0,0:22:22.47,0:22:26.41,ED_JP,NTP,0000,0000,0000,,お布団履かされて寒い
+Dialogue: 0,0:22:27.40,0:22:30.82,ED_JP,NTP,0000,0000,0000,,夜明けにあなたが来る
+Dialogue: 0,0:22:31.49,0:22:35.19,ED_JP,NTP,0000,0000,0000,,あなたが笑っている
+Dialogue: 0,0:22:35.78,0:22:39.46,ED_JP,NTP,0000,0000,0000,,きっと僕には
+Dialogue: 0,0:22:40.31,0:22:44.78,ED_JP,NTP,0000,0000,0000,,見えないと思っている
+Dialogue: 0,0:22:44.91,0:22:48.96,ED_JP,NTP,0000,0000,0000,,そっと手を延ばして
+Dialogue: 0,0:22:49.18,0:22:53.90,ED_JP,NTP,0000,0000,0000,,いったい何をするつもり
+Dialogue: 0,0:22:54.34,0:22:58.53,ED_JP,NTP,0000,0000,0000,,風邪引くの　風邪引くの
+Dialogue: 0,0:23:01.07,0:23:04.21,ED_JP,NTP,0000,0000,0000,,寝たフリをして過ごす
+Dialogue: 0,0:23:05.05,0:23:08.86,ED_JP,NTP,0000,0000,0000,,少しだけ暖かくなる
+Dialogue: 0,0:23:09.98,0:23:13.42,ED_JP,NTP,0000,0000,0000,,隣で貴方が眠る
+Dialogue: 0,0:23:14.05,0:23:20.98,ED_JP,NTP,0000,0000,0000,,うるさい　寝言は無視して
+Dialogue: 0,0:23:22.98,0:23:30.29,ED_JP,NTP,0000,0000,0000,,重なるおでこにキスして
+Dialogue: 0,0:23:41.57,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(425,129)}鄉下的高中生活總計
+Dialogue: 0,0:23:44.29,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(418,154)}新生活的新鮮感
+Dialogue: 0,0:23:46.53,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(454,179)}在姑媽家發現了竹輪卷一樣的東西
+Dialogue: 0,0:23:49.24,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(414,201)}獨自生活被終結
+Dialogue: 0,0:23:51.46,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(475,226)}被棉被卷女的手碰到了 boy meets girl的那樣
+Dialogue: 0,0:23:55.13,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(455,249)}把棉被卷女裝進籃子裡在夜路上騎車
+Dialogue: 0,0:23:58.73,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(430,274)}發現了藤和艾莉歐的真相
+Dialogue: 0,0:24:01.02,0:24:06.09,point,NTP,0000,0000,0000,,{\pos(429,298)}瞭解了藤和艾莉歐的言行
+Dialogue: 0,0:24:03.60,0:24:06.09,heji,NTP,0000,0000,0000,,{\pos(456,361)}現在的青春點數合計
+Dialogue: 0,0:24:06.68,0:24:09.08,yokoku,NTP,0000,0000,0000,,{\r\1vc(&HAF7EBD&,&HD09B16&,&HAF7EBD&,&HD09B16&)}下回 『失蹤的思春期的強迫症』

@@ -1,0 +1,56 @@
+; // 欢迎访问光荣之梦 http://club.ikoei.com
+Title:戦国BASARA弐
+Original Script:光荣字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:1280
+PlayResY:720
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正粗圆_GBK,40,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,3,0,2,30,30,10,134
+Style: roll,方正中倩简体,35,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,0,2,30,30,10,134
+Style: changzeng,方正粗圆_GBK,35,&H00FFFFFF,&HF0000000,&H00800080,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,0,2,30,30,10,134
+Style: maoli,方正粗圆_GBK,35,&H00FFFFFF,&HF0000000,&H00008000,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,0,2,30,30,10,134
+Style: katakura,方正粗圆_GBK,23,&H00FFFFFF,&HF0000000,&H00175496,&H00000000,0,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: Takenaka,方正粗圆_GBK,23,&H00FFFFFF,&HF0000000,&H00FF0080,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,30,30,10,134
+Style: heti,方正粗圆_GBK,30,&H0000CA00,&HF0000000,&H00800080,&H00000000,-1,0,0,0,100,100,0,0.00,1,3,0,2,30,30,10,134
+Style: remark,方正粗圆_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,0,8,30,30,10,134
+Style: STAFF,方正粗圆_GBK,12,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0.00,1,1,0,8,30,30,10,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.68,0:00:04.13,STAFF,NTP,0000,0000,0000,,{\fad(500,500)}本字幕仅供试看之用，如您喜欢本作，请购买正版。若因私自散布传播造成法律及 相关一切问题，光荣游戏论坛及光荣字幕组(www.koeigame.cn)概不负责。
+Dialogue: 0,0:00:04.58,0:00:08.16,STAFF,NTP,0000,0000,0000,,{\fad(500,500)}制作:shining 游。。 团子
+Dialogue: 0,0:00:00.91,0:00:05.68,katakura,NTP,0000,0000,0000,,mini战国basara2
+Dialogue: 0,0:00:05.72,0:00:10.79,katakura,NTP,0000,0000,0000,,错觉！！月夜的片仓君
+Dialogue: 0,0:00:13.57,0:00:15.09,katakura,NTP,0000,0000,0000,,真美的星空啊
+Dialogue: 0,0:00:31.89,0:00:33.37,Takenaka,NTP,0000,0000,0000,,龙之右眼
+Dialogue: 0,0:00:33.90,0:00:36.21,Takenaka,NTP,0000,0000,0000,,比传闻中的还要厉害啊
+Dialogue: 0,0:00:38.62,0:00:41.25,Takenaka,NTP,0000,0000,0000,,模仿甲斐之虎的谋略
+Dialogue: 0,0:00:41.55,0:00:43.92,Takenaka,NTP,0000,0000,0000,,反施于武田军
+Dialogue: 0,0:00:45.14,0:00:47.67,Takenaka,NTP,0000,0000,0000,,他的器量
+Dialogue: 0,0:00:47.68,0:00:50.70,Takenaka,NTP,0000,0000,0000,,足以统帅为打倒织田而组织起来的东国大军
+Dialogue: 0,0:00:51.76,0:00:53.54,Takenaka,NTP,0000,0000,0000,,而在这片田里
+Dialogue: 0,0:01:03.32,0:01:06.26,Takenaka,NTP,0000,0000,0000,,把我击飞到了遥远的地方
+Dialogue: 0,0:01:19.45,0:01:22.67,Takenaka,NTP,0000,0000,0000,,你严重地推迟了丰臣军一统日本
+Dialogue: 0,0:01:23.00,0:01:27.90,Takenaka,NTP,0000,0000,0000,,并进军世界的步伐
+Dialogue: 0,0:01:28.75,0:01:31.12,Takenaka,NTP,0000,0000,0000,,这责任可是非同小可哦
+Dialogue: 0,0:01:31.72,0:01:32.82,Takenaka,NTP,0000,0000,0000,,片仓君
+Dialogue: 0,0:01:39.04,0:01:40.90,katakura,NTP,0000,0000,0000,,还真是出类拔萃啊
+Dialogue: 0,0:01:44.16,0:01:45.75,katakura,NTP,0000,0000,0000,,我片仓小十郎
+Dialogue: 0,0:01:46.34,0:01:50.38,katakura,NTP,0000,0000,0000,,今生还没见到过你这么大的茄子
+Dialogue: 0,0:01:50.66,0:01:51.61,Takenaka,NTP,0000,0000,0000,,茄子？
+Dialogue: 0,0:01:57.16,0:01:58.72,Takenaka,NTP,0000,0000,0000,,我可不是茄子
+Dialogue: 0,0:01:59.04,0:02:00.96,Takenaka,NTP,0000,0000,0000,,你也错得太离谱了 片仓君
+Dialogue: 0,0:02:14.83,0:02:15.95,Takenaka,NTP,0000,0000,0000,,片仓君
+Dialogue: 0,0:02:16.69,0:02:20.45,Takenaka,NTP,0000,0000,0000,,你究竟看到了些什么
+Dialogue: 0,0:02:21.84,0:02:23.15,katakura,NTP,0000,0000,0000,,竹中半兵卫？！
+Dialogue: 0,0:02:23.38,0:02:24.88,katakura,NTP,0000,0000,0000,,你这厮什么时候！
+Dialogue: 0,0:02:25.39,0:02:29.23,Takenaka,NTP,0000,0000,0000,,你还真是不爱听人说话啊
+Dialogue: 0,0:02:30.09,0:02:33.30,katakura,NTP,0000,0000,0000,,不许进我家田！
+Dialogue: 0,0:02:42.48,0:02:45.51,katakura,NTP,0000,0000,0000,,哼 不要惹我哦
+Dialogue: 0,0:00:00.90,0:00:00.90,*Default,NTP,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,

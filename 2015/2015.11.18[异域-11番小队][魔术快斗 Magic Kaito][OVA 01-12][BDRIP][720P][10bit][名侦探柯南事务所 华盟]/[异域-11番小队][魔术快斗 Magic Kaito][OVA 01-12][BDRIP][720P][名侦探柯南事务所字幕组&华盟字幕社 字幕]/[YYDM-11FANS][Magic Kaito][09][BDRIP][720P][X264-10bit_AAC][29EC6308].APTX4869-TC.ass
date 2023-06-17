@@ -1,0 +1,450 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2014-11-29 10:33:34
+; // 版本: 0.77
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title: まじっく快斗　第09話「魔女と探偵と怪盗と」
+Original Script: APTX4869
+Original Translation: 糖糕
+Original Editing: setsuna
+Original Timing: MCKT
+Synch Point:0
+Script Updated By: xiaobin
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:1280
+PlayResY:720
+Timer:100.0000
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft JhengHei,58,&H00FFFFFF,&HF0000000,&H00000000,&H70000000,-1,0,0,0,100,100,0,0.00,1,1,1,2,30,30,15,1
+Style: Note,Microsoft JhengHei,40,&H00FFFFFF,&HF0000000,&H00000000,&H70000000,-1,0,0,0,100,100,0,0.00,1,1,0,8,30,30,15,1
+Style: Title,华康娃娃体W5,120,&H00FFFFFF,&HF0000000,&H00333333,&H70000000,0,0,0,0,100,100,0,0.00,1,2,0,5,30,30,10,1
+Style: OPCN,APTX柯黑,40,&H08FFFFFF,&H00000000,&H00333333,&H00333333,-1,0,0,0,115,95,0,0.00,1,0,4,2,10,10,10,1
+Style: staff,APTX柯黑,43,&H00FFFFFF,&H000000FF,&H00303030,&H00000000,-1,0,0,0,120,95,0,0.00,1,2,0,1,10,10,10,1
+Style: name,APTX柯黑,50,&H00FFFFFF,&H000000FF,&H00303030,&H00000000,-1,0,0,0,120,95,1,0.00,1,2,0,1,10,10,10,1
+Style: EDCN,APTX柯黑,40,&H00FFFFFF,&HF0000000,&H30404040,&HF0000000,0,0,0,0,116,92,1,0.00,1,3,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Lead-in ===---
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Opening Theme ===---
+
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Title ===---
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== A Part ===---
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== B Part ===---
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Ending Theme ===---
+
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Next Episode Preview ===---
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Sponsors ===---
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0000,0000,0000,,---=== Next Kid's MAGIC ===---
+
+Dialogue: 0,0:00:01.33,0:00:02.96,*Default,NTP,0000,0000,0000,,時刻牢記不露聲色
+Dialogue: 0,0:00:03.34,0:00:04.86,*Default,NTP,0000,0000,0000,,將父親的教誨謹記於心
+Dialogue: 0,0:00:05.02,0:00:07.17,*Default,NTP,0000,0000,0000,,飛翔於摩天樓的奇跡魔術師
+Dialogue: 0,0:00:07.43,0:00:08.95,*Default,NTP,0000,0000,0000,,怪盜基德登場 
+Dialogue: 0,0:00:09.37,0:00:12.93,*Default,NTP,0000,0000,0000,,今天的目標是 世界最大的粉色藍寶石
+Dialogue: 0,0:00:13.05,0:00:15.18,*Default,NTP,0000,0000,0000,,來吧 演出開始了
+Dialogue: 1,0:00:15.41,0:00:19.82,OPCN,NTP,0000,0000,0000,,{\pos(648,690)\xshad3.5\yshad2\fscx125}深深愛著你的淚
+Dialogue: 0,0:00:15.41,0:00:19.82,OPCN,NTP,0000,0000,0000,,{\pos(651,692.5)\bord0.4\shad0\fscx125\1c&H333333&}深深愛著你的淚
+Dialogue: 1,0:00:19.95,0:00:22.54,OPCN,NTP,0000,0000,0000,,{\pos(639,690)\fnA-OTF ZenGoN Std R\fs45\fscx112\xshad2\yshad2\fscy98\fsp-4}W{\fsp-2}o{\fsp1}w {\fsp-1}T{\fsp-2}hi{\fsp2}s {\fsp-3}S{\fscx115\fsp-1.3}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-2}d{\fsp-1}a{\fsp0}y {\fsp-3}S{\fscx115\fsp-2}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-1}ni{\fsp-1.5}g{\fsp-2.5}ht
+Dialogue: 0,0:00:19.95,0:00:22.54,OPCN,NTP,0000,0000,0000,,{\pos(642,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.8\shad0\fscx112\fscy98\1c&H333333&\fsp-4}W{\fsp-2}o{\fsp1}w {\fsp-1}T{\fsp-2}hi{\fsp2}s {\fsp-3}S{\fscx115\fsp-1.3}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-2}d{\fsp-1}a{\fsp0}y {\fsp-3}S{\fscx115\fsp-2}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-1}ni{\fsp-1.5}g{\fsp-2.5}ht
+Dialogue: 1,0:00:22.71,0:00:25.71,OPCN,NTP,0000,0000,0000,,{\pos(640,690)\xshad3.5\yshad2\fscx125}多想在你身邊微笑
+Dialogue: 0,0:00:22.71,0:00:25.71,OPCN,NTP,0000,0000,0000,,{\pos(643,692.5)\bord0.4\shad0\fscx125\1c&H333333&}多想在你身邊微笑
+Dialogue: 1,0:00:34.34,0:00:38.06,OPCN,NTP,0000,0000,0000,,{\pos(640,690)\xshad3.5\yshad2\fscx127}防波堤綿延向前{\fscx136}　{\fscx127}沙灘熱情似火
+Dialogue: 0,0:00:34.34,0:00:38.06,OPCN,NTP,0000,0000,0000,,{\pos(643,692.5)\bord0.4\shad0\fscx127\1c&H333333&}防波堤綿延向前{\fscx136}　{\fscx127}沙灘熱情似火
+Dialogue: 1,0:00:38.35,0:00:42.81,OPCN,NTP,0000,0000,0000,,{\pos(640,690)\xshad3.5\yshad2\fscx125}渴望已久的奇跡{\fscx136}　{\fscx119}終於眷顧了我
+Dialogue: 0,0:00:38.35,0:00:42.81,OPCN,NTP,0000,0000,0000,,{\pos(643,692.5)\bord0.4\shad0\fscx125\1c&H333333&}渴望已久的奇跡{\fscx136}　{\fscx119}終於眷顧了我
+Dialogue: 1,0:00:44.81,0:00:48.57,OPCN,NTP,0000,0000,0000,,{\pos(475,690)\xshad3.5\yshad2\fscx120}不要離開
+Dialogue: 0,0:00:44.81,0:00:48.57,OPCN,NTP,0000,0000,0000,,{\pos(478,692.5)\bord0.4\shad0\fscx120\1c&H333333&}不要離開
+Dialogue: 1,0:00:44.81,0:00:48.57,OPCN,NTP,0000,0000,0000,,{\pos(786,690)\fnA-OTF ZenGoN Std R\fs45\xshad2\yshad2\fscx112\fscy98\fsp-3}s{\fsp-0.5}t{\fsp-1}a{\fsp3.5}y {\fsp0}w{\fsp-0.5}i{\fsp-0.8}t{\fsp4.8}h {\fsp-1.5}me
+Dialogue: 0,0:00:44.81,0:00:48.57,OPCN,NTP,0000,0000,0000,,{\pos(789,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.4\shad0\fscx112\fscy98\1c&H333333&\fsp-3}s{\fsp-0.5}t{\fsp-1}a{\fsp3.5}y {\fsp0}w{\fsp-0.5}i{\fsp-0.8}t{\fsp4.8}h {\fsp-1.5}me
+Dialogue: 1,0:00:48.94,0:00:52.45,OPCN,NTP,0000,0000,0000,,{\pos(639.5,690)\fnA-OTF ZenGoN Std R\fs45\xshad2\yshad2\fscx112\fscy98\fsp-1.5}E{\fscx114\fsp-2.5}v{\fscx112\fsp-0.5}e{\fsp0}r{\fsp-0.5}y{\fsp-1}t{\fsp-2}hi{\fscx116}n{\fsp0}g {\fscx112\fsp-1.5}fo{\fsp-1}r {\fsp-1.5}yo{\fsp2}u {\fsp-2.5}I{\fsp-23}’{\fsp-1}ll {\fscx116\fsp-1.5}a{\fscx112}l{\fsp-2}w{\fsp-2.5}ay{\fsp0.5}s {\fsp-1}t{\fsp-2.5}h{\fsp-1.5}i{\fsp-2}n{\fsp-0.2}k {\fsp-1.5}o{\fsp1.8}f {\fsp-2}you
+Dialogue: 0,0:00:48.94,0:00:52.45,OPCN,NTP,0000,0000,0000,,{\pos(642.5,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.4\shad0\fscx112\fscy98\1c&H333333&\fsp-1.5}E{\fscx114\fsp-2.5}v{\fscx112\fsp-1}e{\fsp0}r{\fsp-0.5}y{\fsp-1}t{\fsp-2}hi{\fscx116}n{\fsp0}g {\fscx112\fsp-1.5}fo{\fsp-1}r {\fsp-1.5}yo{\fsp2}u {\fsp-2.5}I{\fsp-23}’{\fsp-1}ll {\fscx116\fsp-1.5}a{\fscx112}l{\fsp-2}w{\fsp-2.5}ay{\fsp0.5}s {\fsp-1}t{\fsp-2.5}h{\fsp-1.5}i{\fsp-2}n{\fsp-0.2}k {\fsp-1.5}o{\fsp1.8}f {\fsp-2}you
+Dialogue: 1,0:00:55.03,0:00:58.75,OPCN,NTP,0000,0000,0000,,{\pos(637,690)\xshad3.5\yshad2\fscx126}夜晚星光點點{\fscx125}　{\fscx113}令人心醉神迷
+Dialogue: 0,0:00:55.03,0:00:58.75,OPCN,NTP,0000,0000,0000,,{\pos(640,692.5)\bord0.4\shad0\fscx126\1c&H333333&}夜晚星光點點{\fscx125}　{\fscx113}令人心醉神迷
+Dialogue: 1,0:00:59.08,0:01:03.70,OPCN,NTP,0000,0000,0000,,{\pos(640,690)\xshad3.5\yshad2\fscx121}引吭高歌{\fscx130}　{\fscx121}吐露我胸中的願望
+Dialogue: 0,0:00:59.08,0:01:03.70,OPCN,NTP,0000,0000,0000,,{\pos(643,692.5)\bord0.4\shad0\fscx121\1c&H333333&}引吭高歌{\fscx130}　{\fscx121}吐露我胸中的願望
+Dialogue: 1,0:01:05.29,0:01:09.38,OPCN,NTP,0000,0000,0000,,{\pos(465,690)\xshad3.5\yshad2\fscx117}心緒綿延不盡
+Dialogue: 0,0:01:05.29,0:01:09.38,OPCN,NTP,0000,0000,0000,,{\pos(468,692.5)\bord0.4\shad0\fscx117\1c&H333333&}心緒綿延不盡
+Dialogue: 1,0:01:05.29,0:01:09.38,OPCN,NTP,0000,0000,0000,,{\pos(792,690)\fnA-OTF ZenGoN Std R\fs45\xshad2\yshad2\fscx112\fscy98\fsp-1.8}m{\fscx115\fsp5.3}y {\fscx112\fsp-2}s{\fsp-2.2}w{\fsp-1.2}e{\fsp-1.6}e{\fsp6.8}t {\fsp-2.4}s{\fsp-2.6}o{\fsp-1.5}ng
+Dialogue: 0,0:01:05.29,0:01:09.38,OPCN,NTP,0000,0000,0000,,{\pos(795,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.4\shad0\fscx112\fscy98\1c&H333333&\fsp-1.8}m{\fscx115\fsp5.3}y {\fscx112\fsp-2}s{\fsp-2.2}w{\fsp-1.2}e{\fsp-1.6}e{\fsp6.8}t {\fsp-2.4}s{\fsp-2.6}o{\fsp-1.5}ng
+Dialogue: 1,0:01:09.55,0:01:14.09,OPCN,NTP,0000,0000,0000,,{\pos(523,690)\xshad3.5\yshad2\fscx120}帶著哭腔唱著
+Dialogue: 0,0:01:09.55,0:01:14.09,OPCN,NTP,0000,0000,0000,,{\pos(526,692.5)\bord0.4\shad0\fscx120\1c&H333333&}帶著哭腔唱著
+Dialogue: 1,0:01:09.55,0:01:14.09,OPCN,NTP,0000,0000,0000,,{\pos(791.5,690)\fnA-OTF ZenGoN Std R\fs45\xshad2\yshad2\fscx112\fscy98\fsp0.7}I {\fsp-1.6}l{\fsp-1.4}o{\fsp-1.8}v{\fsp2}e {\fsp-2.3}you
+Dialogue: 0,0:01:09.55,0:01:14.09,OPCN,NTP,0000,0000,0000,,{\pos(794.5,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.4\shad0\fscx112\fscy98\1c&H333333&\fsp0.7}I {\fsp-1.6}l{\fsp-1.4}o{\fsp-1.8}v{\fsp2}e {\fsp-2.3}you
+Dialogue: 1,0:01:14.88,0:01:19.35,OPCN,NTP,0000,0000,0000,,{\pos(644,690)\fscx123\xshad3.5\yshad2}愛上一個人{\fscx125}　{\fscx123}竟能愛到哽咽失聲
+Dialogue: 0,0:01:14.88,0:01:19.35,OPCN,NTP,0000,0000,0000,,{\pos(647,692.5)\fscx123\1c&H333333&\bord0.4\shad0}愛上一個人{\fscx125}　{\fscx123}竟能愛到哽咽失聲
+Dialogue: 1,0:01:19.35,0:01:21.93,OPCN,NTP,0000,0000,0000,,{\pos(639,690)\fnA-OTF ZenGoN Std R\fs45\xshad2\yshad2\fscx112\fscy98\fsp-4}W{\fsp-2}o{\fsp1}w {\fsp-1}T{\fsp-2}hi{\fsp2}s {\fsp-3}S{\fscx115\fsp-1.3}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-2}d{\fsp-1}a{\fsp0}y {\fsp-3}S{\fscx115\fsp-2}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-1}ni{\fsp-1.5}g{\fsp-2.5}ht
+Dialogue: 0,0:01:19.35,0:01:21.93,OPCN,NTP,0000,0000,0000,,{\pos(642,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.8\shad0\fscx112\fscy98\1c&H333333&\fsp-4}W{\fsp-2}o{\fsp1}w {\fsp-1}T{\fsp-2}hi{\fsp2}s {\fsp-3}S{\fscx115\fsp-1.3}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-2}d{\fsp-1}a{\fsp0}y {\fsp-3}S{\fscx115\fsp-2}u{\fscx112\fsp-2.5}mm{\fsp-1}e{\fsp1}r {\fsp-1}ni{\fsp-1.5}g{\fsp-2.5}ht
+Dialogue: 1,0:01:21.93,0:01:24.65,OPCN,NTP,0000,0000,0000,,{\pos(576,690)\xshad3.5\yshad2\fscx126}一切都如此珍貴
+Dialogue: 0,0:01:21.93,0:01:24.65,OPCN,NTP,0000,0000,0000,,{\pos(579,692.5)\bord0.4\shad0\fscx126\1c&H333333&}一切都如此珍貴
+Dialogue: 1,0:01:21.93,0:01:24.65,OPCN,NTP,0000,0000,0000,,{\pos(775,690)\fnA-OTF ZenGoN Std R\fs45\xshad2\yshad2\fscx120\fscy98\fsp-0.2}({\fscx112\fsp0}ba{\fsp-1}b{\fsp0}y{\fscx120})
+Dialogue: 0,0:01:21.93,0:01:24.65,OPCN,NTP,0000,0000,0000,,{\pos(778,692.5)\fnA-OTF ZenGoN Std R\fs45\bord0.8\shad0\fscx120\fscy98\1c&H333333&\fsp-0.2}({\fscx112\fsp0}ba{\fsp-1}b{\fsp0}y{\fscx120})
+Dialogue: 1,0:01:24.98,0:01:29.27,OPCN,NTP,0000,0000,0000,,{\pos(640,690)\xshad3.5\yshad2\fscx125}你的笑容給了我無盡的勇氣
+Dialogue: 0,0:01:24.98,0:01:29.27,OPCN,NTP,0000,0000,0000,,{\pos(643,692.5)\bord0.4\shad0\fscx125\1c&H333333&}你的笑容給了我無盡的勇氣
+Dialogue: 1,0:01:29.61,0:01:34.86,OPCN,NTP,0000,0000,0000,,{\pos(640,690)\xshad3.5\yshad2\fscx114}讓我繼續守候這朦朧又真切的愛
+Dialogue: 0,0:01:29.61,0:01:34.86,OPCN,NTP,0000,0000,0000,,{\pos(643,692.5)\bord0.4\shad0\fscx114\1c&H333333&}讓我繼續守候這朦朧又真切的愛
+Dialogue: 1,0:01:35.03,0:01:39.85,OPCN,NTP,0000,0000,0000,,{\fad(0,540)\pos(640,690)\xshad3.5\yshad2\fscx116}這雙眼眸追尋的　始終都是你的側顏
+Dialogue: 0,0:01:35.03,0:01:39.85,OPCN,NTP,0000,0000,0000,,{\fad(0,540)\pos(643,692.5)\bord0.4\shad0\fscx116\1c&H333333&}這雙眼眸追尋的　始終都是你的側顏
+Dialogue: 0,0:00:48.94,0:00:52.94,staff,NTP,0000,0000,0000,,{\an2\pos(640,246)\fs44\bord2.3\blur1\fscx116\3c&H404040&}片頭曲
+Dialogue: 0,0:00:48.94,0:00:52.94,staff,NTP,0000,0000,0000,,{\pos(503,292)\fs45\bord2.3\blur1\fscx100\fscy105\3c&H404040&\fsp3}「{\fscx100\fsp2}深深愛著你的{\fsp3}淚{\fscx100}」
+Dialogue: 0,0:00:48.94,0:00:52.94,staff,NTP,0000,0000,0000,,{\pos(528,577)\fs27\bord2.3\blur2\fscx123\fscy98\3a&H1D\1c&HFCFAFB&\3c&H404040&}翻譯
+Dialogue: 0,0:00:48.94,0:00:52.94,name,NTP,0000,0000,0000,,{\pos(604,578.5)\fnA-OTF ZenGoN Std R\fs36\bord2.5\blur2\fscx101\fscy98\3a&H1D\1c&HFCFAFB&\3c&H404040&\fsp2}psdbrgts
+Dialogue: 0,0:00:48.94,0:00:52.94,staff,NTP,0000,0000,0000,,{\pos(528,607)\fs27\bord2.3\blur2\fscx123\fscy98\3a&H1D\1c&HFCFAFB&\3c&H404040&}特效
+Dialogue: 0,0:00:48.94,0:00:52.94,name,NTP,0000,0000,0000,,{\pos(604,608.5)\fs32\bord2.5\blur2\fscx118\3a&H1D\1c&HFCFAFB&\3c&H404040&\fsp27}木神油
+Dialogue: 0,0:01:35.03,0:01:39.85,staff,NTP,0000,0000,0000,,{\fad(0,1000)\an5\pos(298,485)\fn方正汉真广标简体\fs32\bord2.3\blur1\fscx136\fscy130\3a&H33\3c&H404040&}名侦探柯南事务所
+Dialogue: 0,0:01:59.26,0:02:02.48,*Default,NTP,0000,0000,0000,,{\fad(380,0)}魔女鬥偵探鬥怪盜
+Dialogue: 0,0:02:25.19,0:02:26.82,*Default,NTP,0000,0000,0000,,好無趣的演出
+Dialogue: 0,0:02:37.88,0:02:41.08,*Default,NTP,0000,0000,0000,,別跑 怪盜基德
+Dialogue: 0,0:02:41.23,0:02:44.98,*Default,NTP,0000,0000,0000,,中森警部 明天見咯
+Dialogue: 0,0:02:46.04,0:02:47.38,*Default,NTP,0000,0000,0000,,又讓他得手了
+Dialogue: 0,0:02:47.40,0:02:49.03,*Default,NTP,0000,0000,0000,,連續三晚的作案預告
+Dialogue: 0,0:02:49.10,0:02:50.52,*Default,NTP,0000,0000,0000,,我們已經輸了兩場了
+Dialogue: 0,0:02:50.71,0:02:52.29,*Default,NTP,0000,0000,0000,,警部 又是這樣
+Dialogue: 0,0:02:52.32,0:02:53.18,*Default,NTP,0000,0000,0000,,我知道
+Dialogue: 0,0:02:53.53,0:02:56.41,*Default,NTP,0000,0000,0000,,不是 是東西又沒被偷走 您看
+Dialogue: 0,0:02:57.41,0:03:00.99,*Default,NTP,0000,0000,0000,,和之前如出一轍 又完璧歸趙了
+Dialogue: 0,0:03:01.30,0:03:03.44,*Default,NTP,0000,0000,0000,,基德在想什麼呢
+Dialogue: 0,0:03:03.50,0:03:04.86,*Default,NTP,0000,0000,0000,,跑來卻又不下手
+Dialogue: 0,0:03:05.13,0:03:07.05,*Default,NTP,0000,0000,0000,,他的目的究竟何在
+Dialogue: 0,0:03:07.92,0:03:10.24,*Default,NTP,0000,0000,0000,,我一定要揭穿他的真實身份
+Dialogue: 0,0:03:10.26,0:03:12.50,*Default,NTP,0000,0000,0000,,真實身份很快就會知道了
+Dialogue: 0,0:03:13.00,0:03:15.46,*Default,NTP,0000,0000,0000,,白馬同學 你什麼時候來的
+Dialogue: 0,0:03:15.92,0:03:18.84,*Default,NTP,0000,0000,0000,,我說你啊 就算你是警視總監的兒子
+Dialogue: 0,0:03:18.84,0:03:20.41,*Default,NTP,0000,0000,0000,,也不能每次都到現場來啊
+Dialogue: 0,0:03:20.41,0:03:24.65,*Default,NTP,0000,0000,0000,,中森警部 至今為止你都是怎麼辦案的
+Dialogue: 0,0:03:25.53,0:03:28.87,*Default,NTP,0000,0000,0000,,現場可是留下了直接而重要的證據
+Dialogue: 0,0:03:29.91,0:03:32.67,*Default,NTP,0000,0000,0000,,是頭髮 怪盜基德的
+Dialogue: 0,0:03:35.60,0:03:37.38,*Default,NTP,0000,0000,0000,,只要查出基德的真面目
+Dialogue: 0,0:03:37.72,0:03:40.06,*Default,NTP,0000,0000,0000,,就能接近蜘蛛
+Dialogue: 0,0:03:42.65,0:03:46.89,*Default,NTP,0000,0000,0000,,他已經結束歐洲巡演 應該馬上會潛入日本
+Dialogue: 0,0:03:48.40,0:03:49.38,*Default,NTP,0000,0000,0000,,讓開讓開
+Dialogue: 0,0:03:49.64,0:03:52.23,*Default,NTP,0000,0000,0000,,白馬偵探 基德又逃走了
+Dialogue: 0,0:03:52.24,0:03:53.27,*Default,NTP,0000,0000,0000,,請發表一下感想
+Dialogue: 0,0:03:57.41,0:03:59.32,*Default,NTP,0000,0000,0000,,我們這是要去哪兒
+Dialogue: 0,0:03:59.56,0:04:01.68,*Default,NTP,0000,0000,0000,,去了就知道了 警部
+Dialogue: 0,0:04:11.27,0:04:13.79,*Default,NTP,0000,0000,0000,,魔法球 快告訴我
+Dialogue: 0,0:04:14.05,0:04:16.93,*Default,NTP,0000,0000,0000,,這世上最美的人是誰
+Dialogue: 0,0:04:17.14,0:04:20.11,*Default,NTP,0000,0000,0000,,是紅子大人您
+Dialogue: 0,0:04:24.29,0:04:27.47,*Default,NTP,0000,0000,0000,,全世界的男人都是您的俘虜
+Dialogue: 0,0:04:27.84,0:04:31.00,*Default,NTP,0000,0000,0000,,不過 只有怪盜基德例外
+Dialogue: 0,0:04:32.13,0:04:33.26,*Default,NTP,0000,0000,0000,,黑羽快斗
+Dialogue: 0,0:04:33.46,0:04:35.72,*Default,NTP,0000,0000,0000,,你要到何時才會成為我的俘虜
+Dialogue: 0,0:04:35.73,0:04:38.34,*Default,NTP,0000,0000,0000,,您冷靜點 就快了
+Dialogue: 0,0:04:38.70,0:04:41.33,*Default,NTP,0000,0000,0000,,這麼說 他還是會成為我的俘虜啦
+Dialogue: 0,0:04:41.37,0:04:42.60,*Default,NTP,0000,0000,0000,,這不可能
+Dialogue: 0,0:04:43.43,0:04:46.84,*Default,NTP,0000,0000,0000,,就算您會使用魔法 也是不可能的
+Dialogue: 0,0:04:47.68,0:04:48.93,*Default,NTP,0000,0000,0000,,等一下
+Dialogue: 0,0:04:48.93,0:04:53.50,*Default,NTP,0000,0000,0000,,因為他不久就會從你眼前消失了
+Dialogue: 0,0:04:53.66,0:04:54.89,*Default,NTP,0000,0000,0000,,消失？
+Dialogue: 0,0:04:56.94,0:04:59.19,*Default,NTP,0000,0000,0000,,沒錯 您瞧
+Dialogue: 0,0:04:59.33,0:05:01.97,*Default,NTP,0000,0000,0000,,這是怎麼回事
+Dialogue: 0,0:05:08.54,0:05:11.72,*Default,NTP,0000,0000,0000,,這個人是… 轉學生白馬探
+Dialogue: 0,0:05:21.90,0:05:24.29,*Default,NTP,0000,0000,0000,,這建築還真夠壯觀的
+Dialogue: 0,0:05:24.84,0:05:27.31,*Default,NTP,0000,0000,0000,,不過這裡究竟是…
+Dialogue: 0,0:05:27.35,0:05:29.20,*Default,NTP,0000,0000,0000,,是我叔父的研究所
+Dialogue: 0,0:05:35.45,0:05:36.83,*Default,NTP,0000,0000,0000,,您請看
+Dialogue: 0,0:05:37.40,0:05:40.26,*Default,NTP,0000,0000,0000,,這就是至今為止我收集到的基德資料
+Dialogue: 0,0:05:40.72,0:05:45.08,*Default,NTP,0000,0000,0000,,怪盜基德 身高174CM 體重50KG
+Dialogue: 0,0:05:45.53,0:05:48.12,*Default,NTP,0000,0000,0000,,視力左眼2.0 右眼2.0
+Dialogue: 0,0:05:48.22,0:05:50.60,*Default,NTP,0000,0000,0000,,聲音無數 體育全能
+Dialogue: 0,0:05:50.62,0:05:53.56,*Default,NTP,0000,0000,0000,,集中力驚人 卻缺乏毅力
+Dialogue: 0,0:05:53.70,0:05:55.36,*Default,NTP,0000,0000,0000,,另外 性格也很差勁
+Dialogue: 0,0:05:55.48,0:05:58.11,*Default,NTP,0000,0000,0000,,阿探少爺 頭髮檢測完畢
+Dialogue: 0,0:05:58.21,0:05:59.54,*Default,NTP,0000,0000,0000,,是嗎
+Dialogue: 0,0:05:59.84,0:06:02.69,*Default,NTP,0000,0000,0000,,黑髮 日本人
+Dialogue: 0,0:06:02.87,0:06:04.71,*Default,NTP,0000,0000,0000,,血型B
+Dialogue: 0,0:06:05.25,0:06:07.18,*Default,NTP,0000,0000,0000,,推測年齡…
+Dialogue: 0,0:06:07.86,0:06:08.77,*Default,NTP,0000,0000,0000,,怎麼了
+Dialogue: 0,0:06:09.04,0:06:13.19,*Default,NTP,0000,0000,0000,,總歸是三十大幾 四十幾歲唄
+Dialogue: 0,0:06:13.43,0:06:16.04,*Default,NTP,0000,0000,0000,,不對 說不定可能50多歲了
+Dialogue: 0,0:06:16.05,0:06:19.90,*Default,NTP,0000,0000,0000,,推測年齡為15到17歲
+Dialogue: 0,0:06:21.49,0:06:23.33,*Default,NTP,0000,0000,0000,,什麼 還是個高中生啊
+Dialogue: 0,0:06:23.43,0:06:25.59,*Default,NTP,0000,0000,0000,,怎麼可能是高中生
+Dialogue: 0,0:06:25.72,0:06:28.21,*Default,NTP,0000,0000,0000,,我可是從20多歲就開始追捕他了
+Dialogue: 0,0:06:28.81,0:06:30.49,*Default,NTP,0000,0000,0000,,莫名其妙 我回去了
+Dialogue: 0,0:06:30.72,0:06:34.54,*Default,NTP,0000,0000,0000,,基德預告了明晚也要動手 忙得要死呢
+Dialogue: 0,0:06:37.92,0:06:41.17,*Default,NTP,0000,0000,0000,,少爺 這當中恐怕出了差錯
+Dialogue: 0,0:06:41.27,0:06:44.86,*Default,NTP,0000,0000,0000,,你說過這裡各種資料應有盡有是吧
+Dialogue: 0,0:06:45.18,0:06:48.25,*Default,NTP,0000,0000,0000,,是的 收集了各類領域的獨家調查
+Dialogue: 0,0:06:48.39,0:06:51.03,*Default,NTP,0000,0000,0000,,那我想借用高中生的資料
+Dialogue: 0,0:06:51.67,0:06:53.82,*Default,NTP,0000,0000,0000,,日本所有高中生的
+Dialogue: 0,0:06:54.37,0:06:55.01,*Default,NTP,0000,0000,0000,,是
+Dialogue: 0,0:06:55.48,0:06:57.56,*Default,NTP,0000,0000,0000,,今晚要熬夜了呢
+Dialogue: 0,0:07:07.75,0:07:09.53,*Default,NTP,0000,0000,0000,,抓捕基德失敗
+Dialogue: 0,0:07:09.60,0:07:12.36,*Default,NTP,0000,0000,0000,,白馬名偵探也遭遇連敗
+Dialogue: 0,0:07:13.78,0:07:15.69,*Default,NTP,0000,0000,0000,,真可憐你了 無能偵探
+Dialogue: 0,0:07:21.35,0:07:22.57,*Default,NTP,0000,0000,0000,,真是的
+Dialogue: 0,0:07:29.50,0:07:31.64,*Default,NTP,0000,0000,0000,,早啊！！
+Dialogue: 0,0:07:32.13,0:07:33.90,*Default,NTP,0000,0000,0000,,快斗！！
+Dialogue: 0,0:07:34.19,0:07:37.69,*Default,NTP,0000,0000,0000,,青子你幹嘛 一大早鬼叫什麼 吵死了
+Dialogue: 0,0:07:37.79,0:07:39.96,*Default,NTP,0000,0000,0000,,誰叫你呼呼大睡的
+Dialogue: 0,0:07:40.12,0:07:41.83,*Default,NTP,0000,0000,0000,,第一節課都已經結束了
+Dialogue: 0,0:07:42.47,0:07:44.41,*Default,NTP,0000,0000,0000,,睡太多小心變成傻子
+Dialogue: 0,0:07:44.47,0:07:45.36,*Default,NTP,0000,0000,0000,,要你管
+Dialogue: 0,0:07:46.16,0:07:48.37,*Default,NTP,0000,0000,0000,,連著幹了幾天活 快累死我了
+Dialogue: 0,0:07:53.60,0:07:55.14,*Default,NTP,0000,0000,0000,,很 很累的樣子
+Dialogue: 0,0:07:55.67,0:07:58.14,*Default,NTP,0000,0000,0000,,白馬同學會遲到真是稀奇
+Dialogue: 0,0:07:59.23,0:08:01.81,*Default,NTP,0000,0000,0000,,你看上去很疲倦呢 名偵探
+Dialogue: 0,0:08:02.01,0:08:04.03,*Default,NTP,0000,0000,0000,,不過 次次都讓基德逃脫
+Dialogue: 0,0:08:04.03,0:08:05.89,*Default,NTP,0000,0000,0000,,是會身心俱疲吧
+Dialogue: 0,0:08:06.61,0:08:08.21,*Default,NTP,0000,0000,0000,,比不上你
+Dialogue: 0,0:08:08.41,0:08:10.39,*Default,NTP,0000,0000,0000,,幹嘛啊 好討厭的眼神
+Dialogue: 0,0:08:11.47,0:08:13.31,*Default,NTP,0000,0000,0000,,我可精神的不得了
+Dialogue: 0,0:08:13.39,0:08:15.13,*Default,NTP,0000,0000,0000,,因為你一直都在睡
+Dialogue: 0,0:08:15.22,0:08:16.45,*Default,NTP,0000,0000,0000,,那就好
+Dialogue: 0,0:08:16.84,0:08:19.98,*Default,NTP,0000,0000,0000,,基德連續預告的最後地點 大島美術館
+Dialogue: 0,0:08:20.25,0:08:22.56,*Default,NTP,0000,0000,0000,,我想邀你今晚同去
+Dialogue: 0,0:08:23.65,0:08:26.16,*Default,NTP,0000,0000,0000,,還是你有什麼理由不方便去？
+Dialogue: 0,0:08:26.96,0:08:29.57,*Default,NTP,0000,0000,0000,,這傢伙 該不會是知道我的身份了
+Dialogue: 0,0:08:30.76,0:08:33.73,*Default,NTP,0000,0000,0000,,怎麼可能 正好還方便我幹活兒
+Dialogue: 0,0:08:34.82,0:08:38.13,*Default,NTP,0000,0000,0000,,去就去唄 讓我見識一下你的本事
+Dialogue: 0,0:08:40.41,0:08:43.01,*Default,NTP,0000,0000,0000,,真好 我也想去
+Dialogue: 0,0:08:43.08,0:08:43.85,*Default,NTP,0000,0000,0000,,為什麼
+Dialogue: 0,0:08:44.19,0:08:46.26,*Default,NTP,0000,0000,0000,,人家要把基德抓住
+Dialogue: 0,0:08:46.42,0:08:47.63,*Default,NTP,0000,0000,0000,,你啊…
+Dialogue: 0,0:08:48.57,0:08:49.62,*Default,NTP,0000,0000,0000,,上鉤了
+Dialogue: 0,0:08:49.75,0:08:50.34,*Default,NTP,0000,0000,0000,,不行
+Dialogue: 0,0:08:51.27,0:08:53.66,*Default,NTP,0000,0000,0000,,黑羽同學 還是別去為好
+Dialogue: 0,0:08:55.17,0:08:56.03,*Default,NTP,0000,0000,0000,,過來一下
+Dialogue: 0,0:08:56.27,0:08:57.48,*Default,NTP,0000,0000,0000,,喂 紅子
+Dialogue: 0,0:08:59.61,0:09:02.07,*Default,NTP,0000,0000,0000,,果 果然是個美人兒
+Dialogue: 0,0:09:02.70,0:09:04.02,*Default,NTP,0000,0000,0000,,紅子同學嗎
+Dialogue: 0,0:09:04.92,0:09:06.07,*Default,NTP,0000,0000,0000,,她的資料不夠啊
+Dialogue: 0,0:09:07.97,0:09:10.41,*Default,NTP,0000,0000,0000,,好痛 快放手
+Dialogue: 0,0:09:10.46,0:09:12.13,*Default,NTP,0000,0000,0000,,乖乖跟我走
+Dialogue: 0,0:09:12.69,0:09:13.57,*Default,NTP,0000,0000,0000,,你們去哪裡
+Dialogue: 0,0:09:14.85,0:09:16.54,*Default,NTP,0000,0000,0000,,兩個人說會兒話
+Dialogue: 0,0:09:16.64,0:09:18.20,*Default,NTP,0000,0000,0000,,我可沒話跟你說
+Dialogue: 0,0:09:18.21,0:09:19.56,*Default,NTP,0000,0000,0000,,我有
+Dialogue: 0,0:09:19.90,0:09:20.55,*Default,NTP,0000,0000,0000,,快斗
+Dialogue: 0,0:09:21.35,0:09:24.02,*Default,NTP,0000,0000,0000,,不許對紅子動歪腦筋
+Dialogue: 0,0:09:27.90,0:09:30.06,*Default,NTP,0000,0000,0000,,啊 圈套？
+Dialogue: 0,0:09:30.19,0:09:33.69,*Default,NTP,0000,0000,0000,,沒錯 是白馬同學為了抓你設的圈套
+Dialogue: 0,0:09:34.05,0:09:37.08,*Default,NTP,0000,0000,0000,,為什麼非要抓我啊
+Dialogue: 0,0:09:37.43,0:09:38.81,*Default,NTP,0000,0000,0000,,你還想裝傻嗎
+Dialogue: 0,0:09:38.84,0:09:41.04,*Default,NTP,0000,0000,0000,,你說什麼呢 不懂
+Dialogue: 0,0:09:41.93,0:09:42.76,*Default,NTP,0000,0000,0000,,那這麼說吧
+Dialogue: 0,0:09:43.23,0:09:45.76,*Default,NTP,0000,0000,0000,,如果你是怪盜基德
+Dialogue: 0,0:09:45.99,0:09:47.08,*Default,NTP,0000,0000,0000,,就不要去
+Dialogue: 0,0:09:51.96,0:09:52.97,*Default,NTP,0000,0000,0000,,我不會罷手的
+Dialogue: 0,0:09:54.27,0:09:58.11,*Default,NTP,0000,0000,0000,,哪怕明知是個圈套 我也必須面對挑戰
+Dialogue: 0,0:09:58.81,0:10:01.39,*Default,NTP,0000,0000,0000,,如果我真是怪盜基德的話
+Dialogue: 0,0:10:09.62,0:10:10.90,*Default,NTP,0000,0000,0000,,該上課了
+Dialogue: 0,0:10:11.15,0:10:13.95,*Default,NTP,0000,0000,0000,,好好學習 天天向上
+Dialogue: 0,0:10:12.01,0:10:13.78,*Default,NTP,0000,0000,0000,,站住
+Dialogue: 0,0:10:18.63,0:10:19.71,*Default,NTP,0000,0000,0000,,蠢貨
+Dialogue: 0,0:10:20.12,0:10:21.80,*Default,NTP,0000,0000,0000,,隨你被人抓住算了
+Dialogue: 0,0:10:22.18,0:10:24.41,*Default,NTP,0000,0000,0000,,你從我眼前消失的話
+Dialogue: 0,0:10:24.61,0:10:29.07,*Default,NTP,0000,0000,0000,,全世界的男人就都是我的俘虜了
+Dialogue: 0,0:10:38.57,0:10:42.16,*Default,NTP,0000,0000,0000,,可是 如果他真的消失了…
+Dialogue: 0,0:10:44.81,0:10:45.77,*Default,NTP,0000,0000,0000,,快斗
+Dialogue: 0,0:10:55.25,0:10:57.85,*Default,NTP,0000,0000,0000,,魔法球 請讓我再看清楚些
+Dialogue: 0,0:10:58.32,0:11:02.30,*Default,NTP,0000,0000,0000,,今晚 白馬探會給基德設下怎樣的陷阱
+Dialogue: 0,0:11:14.88,0:11:15.95,*Default,NTP,0000,0000,0000,,這是…
+Dialogue: 0,0:11:16.78,0:11:17.95,*Default,NTP,0000,0000,0000,,該不會是那傢伙
+Dialogue: 0,0:11:18.35,0:11:21.08,*Default,NTP,0000,0000,0000,,萬萬不可 紅子小姐 你不能去
+Dialogue: 0,0:11:21.22,0:11:23.52,*Default,NTP,0000,0000,0000,,那裡會發生非常恐怖的事
+Dialogue: 0,0:11:23.53,0:11:25.16,*Default,NTP,0000,0000,0000,,行了 閉嘴
+Dialogue: 0,0:11:55.39,0:11:57.09,*Default,NTP,0000,0000,0000,,這是什麼東西
+Dialogue: 0,0:11:57.40,0:12:00.23,*Default,NTP,0000,0000,0000,,世界最大的粉色藍寶石？
+Dialogue: 0,0:12:00.53,0:12:02.40,*Default,NTP,0000,0000,0000,,據美術館方面介紹
+Dialogue: 0,0:12:02.94,0:12:05.75,*Default,NTP,0000,0000,0000,,這是收藏家J?P?塔納的藏品
+Dialogue: 0,0:12:06.37,0:12:09.85,*Default,NTP,0000,0000,0000,,據說 他還是英國有名的雕刻家
+Dialogue: 0,0:12:10.34,0:12:14.47,*Default,NTP,0000,0000,0000,,他非常講究 每件寶石的展示都精心設計過
+Dialogue: 0,0:12:14.96,0:12:17.84,*Default,NTP,0000,0000,0000,,哪裡都有怪人
+Dialogue: 0,0:12:18.00,0:12:20.43,*Default,NTP,0000,0000,0000,,這讓我們很難辦事啊
+Dialogue: 0,0:12:21.78,0:12:22.45,*Default,NTP,0000,0000,0000,,警部
+Dialogue: 0,0:12:23.31,0:12:25.18,*Default,NTP,0000,0000,0000,,那個裝置已經準備好了
+Dialogue: 0,0:12:26.66,0:12:28.62,*Default,NTP,0000,0000,0000,,等著瞧吧 基德
+Dialogue: 0,0:12:28.69,0:12:30.78,*Default,NTP,0000,0000,0000,,嗨 爸爸
+Dialogue: 0,0:12:30.91,0:12:34.48,*Default,NTP,0000,0000,0000,,嗨什麼嗨 青子 你怎麼會在這裡
+Dialogue: 0,0:12:35.03,0:12:36.17,*Default,NTP,0000,0000,0000,,連快斗也來了
+Dialogue: 0,0:12:36.32,0:12:38.80,*Default,NTP,0000,0000,0000,,是白馬同學邀請我們來的
+Dialogue: 0,0:12:38.83,0:12:40.17,*Default,NTP,0000,0000,0000,,邀請…
+Dialogue: 0,0:12:40.30,0:12:42.36,*Default,NTP,0000,0000,0000,,歡迎 青子同學
+Dialogue: 0,0:12:43.37,0:12:45.40,*Default,NTP,0000,0000,0000,,白馬同學 這是怎麼回事
+Dialogue: 0,0:12:45.70,0:12:47.86,*Default,NTP,0000,0000,0000,,這又不是在開派對
+Dialogue: 0,0:12:48.06,0:12:52.20,*Default,NTP,0000,0000,0000,,我想讓令愛一睹逮捕基德的場景
+Dialogue: 0,0:12:53.39,0:12:55.83,*Default,NTP,0000,0000,0000,,你這麼掉以輕心 小心追悔莫及
+Dialogue: 0,0:12:55.86,0:12:58.76,*Default,NTP,0000,0000,0000,,沒錯 萬萬不可掉以輕心
+Dialogue: 0,0:12:59.14,0:13:02.95,*Default,NTP,0000,0000,0000,,因為他已經潛入進來了…
+Dialogue: 0,0:13:06.28,0:13:08.18,*Default,NTP,0000,0000,0000,,也不一定哦
+Dialogue: 0,0:13:10.43,0:13:14.78,*Default,NTP,0000,0000,0000,,你現在的樣子 果然和在學校時完全不同
+Dialogue: 0,0:13:15.09,0:13:18.29,*Default,NTP,0000,0000,0000,,好有偵探的范兒 真帥
+Dialogue: 0,0:13:18.59,0:13:19.22,*Default,NTP,0000,0000,0000,,哪裡帥了
+Dialogue: 0,0:13:19.73,0:13:21.23,*Default,NTP,0000,0000,0000,,跟我來 青子同學
+Dialogue: 0,0:13:23.15,0:13:25.10,*Default,NTP,0000,0000,0000,,這裡太危險 到二樓去吧
+Dialogue: 0,0:13:26.59,0:13:27.73,*Default,NTP,0000,0000,0000,,謝謝
+Dialogue: 0,0:13:30.69,0:13:33.44,*Default,NTP,0000,0000,0000,,這小子 得意忘形什麼
+Dialogue: 0,0:13:33.86,0:13:34.82,*Default,NTP,0000,0000,0000,,我這就收拾你
+Dialogue: 0,0:13:35.65,0:13:37.52,*Default,NTP,0000,0000,0000,,快斗也快走吧
+Dialogue: 0,0:13:39.08,0:13:40.63,*Default,NTP,0000,0000,0000,,我先去下廁所
+Dialogue: 0,0:13:40.87,0:13:41.82,*Default,NTP,0000,0000,0000,,趕緊哦
+Dialogue: 0,0:13:43.22,0:13:44.61,*Default,NTP,0000,0000,0000,,憋死了 憋死了
+Dialogue: 0,0:13:44.94,0:13:47.80,*Default,NTP,0000,0000,0000,,雖說順利潛入了
+Dialogue: 0,0:13:47.87,0:13:48.98,*Default,NTP,0000,0000,0000,,但還得抓緊時間
+Dialogue: 0,0:14:01.50,0:14:03.80,*Default,NTP,0000,0000,0000,,你差不多要變裝了吧
+Dialogue: 0,0:14:04.16,0:14:05.65,*Default,NTP,0000,0000,0000,,我可不會讓你得逞
+Dialogue: 0,0:14:06.71,0:14:08.00,*Default,NTP,0000,0000,0000,,你幹什麼呢
+Dialogue: 0,0:14:08.23,0:14:10.99,*Default,NTP,0000,0000,0000,,我已經什麼都知道了
+Dialogue: 0,0:14:11.24,0:14:11.97,*Default,NTP,0000,0000,0000,,知道什麼啊
+Dialogue: 0,0:14:12.37,0:14:15.32,*Default,NTP,0000,0000,0000,,從昨晚基德掉落在現場的頭髮
+Dialogue: 0,0:14:15.73,0:14:18.48,*Default,NTP,0000,0000,0000,,已經查明他是個高中生
+Dialogue: 0,0:14:20.14,0:14:24.46,*Default,NTP,0000,0000,0000,,在將全國高中生的資訊和基德進行比對後
+Dialogue: 0,0:14:25.57,0:14:27.68,*Default,NTP,0000,0000,0000,,某個名字浮出水面
+Dialogue: 0,0:14:28.67,0:14:31.39,*Default,NTP,0000,0000,0000,,就是你的名字 黑羽快斗
+Dialogue: 0,0:14:34.18,0:14:35.52,*Default,NTP,0000,0000,0000,,一定是弄錯了
+Dialogue: 0,0:14:37.26,0:14:41.46,*Default,NTP,0000,0000,0000,,只要到了基德預告的時間 就能見分曉了
+Dialogue: 0,0:14:43.08,0:14:45.42,*Default,NTP,0000,0000,0000,,警部 離預告時間還差1分鐘
+Dialogue: 0,0:14:51.08,0:14:51.56,*Default,NTP,0000,0000,0000,,瞧我的
+Dialogue: 0,0:15:03.00,0:15:04.63,*Default,NTP,0000,0000,0000,,警部 到時間了
+Dialogue: 0,0:15:05.99,0:15:08.15,*Default,NTP,0000,0000,0000,,時間都浪費了
+Dialogue: 0,0:15:08.64,0:15:12.09,*Default,NTP,0000,0000,0000,,好嘞 放馬過來 基德
+Dialogue: 0,0:15:14.39,0:15:17.20,*Default,NTP,0000,0000,0000,,什麼嘛 根本沒來
+Dialogue: 0,0:15:25.91,0:15:28.14,*Default,NTP,0000,0000,0000,,看樣子是我贏了
+Dialogue: 0,0:15:28.59,0:15:32.67,*Default,NTP,0000,0000,0000,,我勸你還是快坦白真實身份吧
+Dialogue: 0,0:15:41.92,0:15:43.10,*Default,NTP,0000,0000,0000,,你這傢伙…
+Dialogue: 0,0:15:45.18,0:15:46.64,*Default,NTP,0000,0000,0000,,怪盜基德
+Dialogue: 0,0:15:46.68,0:15:47.50,*Default,NTP,0000,0000,0000,,什麼
+Dialogue: 0,0:15:47.51,0:15:48.78,*Default,NTP,0000,0000,0000,,怎麼可能
+Dialogue: 0,0:15:48.92,0:15:51.71,*Default,NTP,0000,0000,0000,,遵照預告 寶石我收下了
+Dialogue: 0,0:15:54.39,0:15:56.21,*Default,NTP,0000,0000,0000,,掃 掃帚？
+Dialogue: 0,0:16:00.81,0:16:02.42,*Default,NTP,0000,0000,0000,,好 好厲害
+Dialogue: 0,0:16:02.52,0:16:05.07,*Default,NTP,0000,0000,0000,,白癡 你還有閒心佩服啊
+Dialogue: 0,0:16:05.88,0:16:07.14,*Default,NTP,0000,0000,0000,,動手
+Dialogue: 0,0:16:07.24,0:16:08.64,*Default,NTP,0000,0000,0000,,是 是
+Dialogue: 0,0:16:12.61,0:16:13.11,*Default,NTP,0000,0000,0000,,呀 討厭
+Dialogue: 0,0:16:16.24,0:16:17.61,*Default,NTP,0000,0000,0000,,娘娘腔？
+Dialogue: 0,0:16:18.02,0:16:19.23,*Default,NTP,0000,0000,0000,,那人該不會是…
+Dialogue: 0,0:16:24.07,0:16:25.53,*Default,NTP,0000,0000,0000,,怎麼了 怎麼回事
+Dialogue: 0,0:16:31.69,0:16:33.62,*Default,NTP,0000,0000,0000,,基德 你這混蛋
+Dialogue: 0,0:16:34.21,0:16:37.04,*Default,NTP,0000,0000,0000,,真是個讓人操心的基德
+Dialogue: 0,0:16:40.42,0:16:42.71,*Default,NTP,0000,0000,0000,,基德…該不會…
+Dialogue: 0,0:16:43.02,0:16:45.32,*Default,NTP,0000,0000,0000,,在上面 別讓他跑了
+Dialogue: 0,0:16:48.73,0:16:49.50,*Default,NTP,0000,0000,0000,,這是…
+Dialogue: 0,0:16:54.19,0:16:55.48,*Default,NTP,0000,0000,0000,,好險
+Dialogue: 0,0:17:02.49,0:17:03.07,*Default,NTP,0000,0000,0000,,來了
+Dialogue: 0,0:17:14.02,0:17:17.41,*Default,NTP,0000,0000,0000,,小姑娘 來玩個小遊戲吧
+Dialogue: 0,0:17:30.43,0:17:33.35,*Default,NTP,0000,0000,0000,,這是…什麼
+Dialogue: 0,0:17:34.04,0:17:37.21,*Default,NTP,0000,0000,0000,,歡迎來到你的噩夢之中
+Dialogue: 0,0:17:38.00,0:17:38.82,*Default,NTP,0000,0000,0000,,什麼
+Dialogue: 0,0:17:42.88,0:17:43.89,*Default,NTP,0000,0000,0000,,狩獵魔女
+Dialogue: 0,0:17:44.46,0:17:46.29,*Default,NTP,0000,0000,0000,,不對 這是…
+Dialogue: 0,0:17:46.62,0:17:50.42,*Default,NTP,0000,0000,0000,,沒錯 這是你的噩夢
+Dialogue: 0,0:17:51.59,0:17:55.31,*Default,NTP,0000,0000,0000,,將你引向毀滅的噩夢
+Dialogue: 0,0:18:04.88,0:18:05.43,*Default,NTP,0000,0000,0000,,紅子
+Dialogue: 0,0:18:22.00,0:18:22.71,*Default,NTP,0000,0000,0000,,紅子
+Dialogue: 0,0:18:25.00,0:18:26.37,*Default,NTP,0000,0000,0000,,你怎麼了 紅子
+Dialogue: 0,0:18:35.23,0:18:36.97,*Default,NTP,0000,0000,0000,,紅…子
+Dialogue: 0,0:18:45.40,0:18:46.56,*Default,NTP,0000,0000,0000,,辛苦了
+Dialogue: 0,0:18:46.92,0:18:48.30,*Default,NTP,0000,0000,0000,,小魔女
+Dialogue: 0,0:18:54.98,0:18:57.19,*Default,NTP,0000,0000,0000,,崇高的友情嗎
+Dialogue: 0,0:19:00.05,0:19:00.53,*Default,NTP,0000,0000,0000,,什麼
+Dialogue: 0,0:19:07.62,0:19:08.25,*Default,NTP,0000,0000,0000,,基德
+Dialogue: 0,0:19:09.52,0:19:10.48,*Default,NTP,0000,0000,0000,,去死吧
+Dialogue: 0,0:19:15.27,0:19:15.89,*Default,NTP,0000,0000,0000,,這是…
+Dialogue: 0,0:19:16.03,0:19:16.78,*Default,NTP,0000,0000,0000,,在這裡
+Dialogue: 0,0:19:31.61,0:19:33.27,*Default,NTP,0000,0000,0000,,你的目標是我吧
+Dialogue: 0,0:19:34.42,0:19:37.12,*Default,NTP,0000,0000,0000,,沒錯 只要你是如假包換的基德
+Dialogue: 0,0:19:37.28,0:19:40.61,*Default,NTP,0000,0000,0000,,到底何為真相 何為謊言
+Dialogue: 0,0:19:40.80,0:19:41.62,*Default,NTP,0000,0000,0000,,你說什麼
+Dialogue: 0,0:19:46.92,0:19:49.33,*Default,NTP,0000,0000,0000,,也罷 現在你就是基德
+Dialogue: 0,0:19:50.12,0:19:53.26,*Default,NTP,0000,0000,0000,,因為黑羽盜一已經不在這個世上了
+Dialogue: 0,0:19:54.43,0:19:56.81,*Default,NTP,0000,0000,0000,,難道 是這傢伙把老爸…
+Dialogue: 0,0:20:00.41,0:20:01.27,*Default,NTP,0000,0000,0000,,蜘蛛
+Dialogue: 0,0:20:02.22,0:20:05.24,*Default,NTP,0000,0000,0000,,又叫君特?馮?高德柏格二世
+Dialogue: 0,0:20:05.72,0:20:08.20,*Default,NTP,0000,0000,0000,,表面上是世界級的幻術師
+Dialogue: 0,0:20:08.50,0:20:10.93,*Default,NTP,0000,0000,0000,,然而 這個名字也並非真名
+Dialogue: 0,0:20:11.28,0:20:14.78,*Default,NTP,0000,0000,0000,,本名不詳 國籍不詳 年齡不詳
+Dialogue: 0,0:20:15.50,0:20:18.10,*Default,NTP,0000,0000,0000,,但我一定會揭穿你的真面目
+Dialogue: 0,0:20:18.28,0:20:20.10,*Default,NTP,0000,0000,0000,,你真難纏
+Dialogue: 0,0:20:22.25,0:20:23.00,*Default,NTP,0000,0000,0000,,趴下
+Dialogue: 0,0:20:33.69,0:20:34.52,*Default,NTP,0000,0000,0000,,怎麼了
+Dialogue: 0,0:20:36.55,0:20:38.08,*Default,NTP,0000,0000,0000,,再會吧 基德
+Dialogue: 0,0:20:38.26,0:20:42.58,*Default,NTP,0000,0000,0000,,別忘了 噩夢時刻伴隨著你
+Dialogue: 0,0:21:00.74,0:21:02.82,*Default,NTP,0000,0000,0000,,好險 好險
+Dialogue: 0,0:21:07.39,0:21:10.47,*Default,NTP,0000,0000,0000,,我居然中了幻術
+Dialogue: 0,0:21:15.45,0:21:16.77,*Default,NTP,0000,0000,0000,,這下子我就不欠你了
+Dialogue: 0,0:21:31.48,0:21:33.98,*Default,NTP,0000,0000,0000,,蜘蛛 你休想搶走基德
+Dialogue: 0,0:21:34.72,0:21:37.82,*Default,NTP,0000,0000,0000,,不論是你 白馬 還是警察
+Dialogue: 0,0:21:38.65,0:21:42.06,*Default,NTP,0000,0000,0000,,因為黑羽快斗註定會是我的俘虜
+Dialogue: 0,0:21:47.79,0:21:49.33,*Default,NTP,0000,0000,0000,,白馬同學 基德呢
+Dialogue: 0,0:21:53.77,0:21:57.56,*Default,NTP,0000,0000,0000,,警部 這個掛在那棵樹上了
+Dialogue: 0,0:22:01.05,0:22:02.46,*Default,NTP,0000,0000,0000,,又是這樣
+Dialogue: 0,0:22:07.52,0:22:11.22,*Default,NTP,0000,0000,0000,,警部 怪盜基德是不是有兩個人呢
+Dialogue: 0,0:22:11.48,0:22:12.43,*Default,NTP,0000,0000,0000,,不 你們都看到了吧
+Dialogue: 0,0:22:12.64,0:22:14.62,*Default,NTP,0000,0000,0000,,他剛才騎在掃帚上 是個魔法師
+Dialogue: 0,0:22:14.64,0:22:16.16,*Default,NTP,0000,0000,0000,,你們說什麼呢
+Dialogue: 0,0:22:16.24,0:22:17.96,*Default,NTP,0000,0000,0000,,怪盜基德是…
+Dialogue: 0,0:22:18.91,0:22:19.97,*Default,NTP,0000,0000,0000,,怪盜基德是？
+Dialogue: 0,0:22:21.32,0:22:22.61,*Default,NTP,0000,0000,0000,,人妖
+Dialogue: 0,0:22:35.40,0:22:36.09,*Default,NTP,0000,0000,0000,,老爸
+Dialogue: 1,0:22:51.47,0:22:56.14,EDCN,NTP,0000,0000,0000,,{\pos(349,690)\bord0\fscx119}我對你毫不在意
+Dialogue: 0,0:22:51.47,0:22:56.14,EDCN,NTP,0000,0000,0000,,{\pos(349,690)\bord2.5\blur1.5\fscx119\3a&H1D\3c&H404040&}我對你毫不在意
+Dialogue: 1,0:22:51.47,0:22:56.14,EDCN,NTP,0000,0000,0000,,{\pos(574,690)\bord0\fsx110}才怪
+Dialogue: 0,0:22:51.47,0:22:56.14,EDCN,NTP,0000,0000,0000,,{\pos(574,690)\bord2.5\blur1.5\fscx110\3a&H1D\3c&H404040&}才怪
+Dialogue: 1,0:22:51.47,0:22:56.14,EDCN,NTP,0000,0000,0000,,{\pos(867.5,690)\fnA-OTF ZenGoN Std R\fs45\bord0\fscx112\fscy98\fsp-2}y{\fsp-1.5}o{\fsp1.5}u {\fsp0}ar{\fsp1.5}e {\fsp-2}m{\fsp2}y {\fsp-1}p{\fsp-0.5}e{\fsp1}r{\fsp0}fe{\fsp-1.5}c{\fsp2.5}t {\fsp-1}guy
+Dialogue: 0,0:22:51.47,0:22:56.14,EDCN,NTP,0000,0000,0000,,{\pos(867.5,690)\fnA-OTF ZenGoN Std R\fs45\bord2.5\blur1.5\fscx112\fscy98\3a&H1D\3c&H404040&\fsp-2}y{\fsp-1.5}o{\fsp1.5}u {\fsp0}ar{\fsp1.5}e {\fsp-2}m{\fsp2}y {\fsp-1}p{\fsp-0.5}e{\fsp1}r{\fsp0}fe{\fsp-1.5}c{\fsp2.5}t {\fsp-1}guy
+Dialogue: 1,0:22:56.64,0:23:01.15,EDCN,NTP,0000,0000,0000,,{\pos(636,690)\bord0\fscx120}心中的悸動{\fscx105}　{\fscx121}隱藏不住　{\fscx117}你已把我的心牢牢占據
+Dialogue: 0,0:22:56.64,0:23:01.15,EDCN,NTP,0000,0000,0000,,{\pos(636,690)\bord2.5\blur1.5\fscx120}心中的悸動{\fscx105}　{\fscx121}隱藏不住　{\fscx117}你已把我的心牢牢占據
+Dialogue: 1,0:23:01.69,0:23:06.15,EDCN,NTP,0000,0000,0000,,{\pos(641,690)\bord0\fscx121}不擅長戀愛　{\fscx113}得不到回報{\fscx220}　{\fscx117}在你面前　{\fscx120}總是掩飾自己
+Dialogue: 0,0:23:01.69,0:23:06.15,EDCN,NTP,0000,0000,0000,,{\pos(641,690)\bord2.5\blur1.5\fscx121}不擅長戀愛　{\fscx113}得不到回報{\fscx220}　{\fscx117}在你面前　{\fscx120}總是掩飾自己
+Dialogue: 1,0:23:06.73,0:23:10.62,EDCN,NTP,0000,0000,0000,,{\pos(641,690)\bord0\fscx120}秘密藏在心裏　不讓任何人知道
+Dialogue: 0,0:23:06.73,0:23:10.62,EDCN,NTP,0000,0000,0000,,{\pos(641,690)\bord2.5\blur1.5\fscx120}秘密藏在心裏　不讓任何人知道
+Dialogue: 1,0:23:11.74,0:23:15.70,EDCN,NTP,0000,0000,0000,,{\pos(378,690)\bord0}但是
+Dialogue: 0,0:23:11.74,0:23:15.70,EDCN,NTP,0000,0000,0000,,{\pos(378,690)\bord2.5\blur1.5}但是
+Dialogue: 1,0:23:11.74,0:23:15.70,EDCN,NTP,0000,0000,0000,,{\pos(579,690)\fnA-OTF ZenGoN Std R\fs45\bord0\fscx112\fscy98\fsp-1}I{\fscx100\fsp-26}’{\fscx114\fsp1}m {\fscx112\fsp-1}a{\fsp0}lr{\fsp-0.5}ig{\fscx116\fsp-2}h{\fscx112}t
+Dialogue: 0,0:23:11.74,0:23:15.70,EDCN,NTP,0000,0000,0000,,{\pos(579,690)\fnA-OTF ZenGoN Std R\fs45\bord2.5\blur1.5\fscx112\fscy98\fsp-1}I{\fscx100\fsp-26}’{\fscx114\fsp1}m {\fscx112\fsp-1}a{\fsp0}lr{\fsp-0.5}ig{\fscx116\fsp-2}h{\fscx112}t
+Dialogue: 1,0:23:11.74,0:23:15.70,EDCN,NTP,0000,0000,0000,,{\pos(845,690)\bord0\fscx120}不去想感情的未來
+Dialogue: 0,0:23:11.74,0:23:15.70,EDCN,NTP,0000,0000,0000,,{\pos(845,690)\bord2.5\blur1.5\fscx120}不去想感情的未來
+Dialogue: 1,0:23:16.04,0:23:20.00,EDCN,NTP,0000,0000,0000,,{\pos(333,690)\bord0}還好
+Dialogue: 0,0:23:16.04,0:23:20.00,EDCN,NTP,0000,0000,0000,,{\pos(333,690)\bord2.5\blur1.5}還好
+Dialogue: 1,0:23:16.04,0:23:20.00,EDCN,NTP,0000,0000,0000,,{\pos(692,690)\fnA-OTF ZenGoN Std R\fs45\bord0\fscx112\fscy98\fsp-1}i{\fsp2}t {\fsp-1.5}i{\fsp-2}s{\fsp-3}n{\fscx100\fsp-24}’{\fscx112\fsp0.3}t {\fsp-0.5}t{\fsp-1}h{\fsp3}e {\fsp-1.5}las{\fscx116\fsp1}t {\fscx112\fsp-1}cha{\fsp-1.6}n{\fsp-1}c{\fsp2}e {\fsp-1}fo{\fsp-0.7}r {\fsp-1.5}me
+Dialogue: 0,0:23:16.04,0:23:20.00,EDCN,NTP,0000,0000,0000,,{\pos(692,690)\fnA-OTF ZenGoN Std R\fs45\bord2.5\blur1.5\fscx112\fscy98\fsp-1}i{\fsp2}t {\fsp-1.5}i{\fsp-2}s{\fsp-3}n{\fscx100\fsp-24}’{\fscx112\fsp0.3}t {\fsp-0.5}t{\fsp-1}h{\fsp3}e {\fsp-1.5}las{\fscx116\fsp1}t {\fscx112\fsp-1}cha{\fsp-1.6}n{\fsp-1}c{\fsp2}e {\fsp-1}fo{\fsp-0.7}r {\fsp-1.5}me
+Dialogue: 1,0:23:20.63,0:23:25.59,EDCN,NTP,0000,0000,0000,,{\pos(328,690)\bord0}各種各樣的
+Dialogue: 0,0:23:20.63,0:23:25.59,EDCN,NTP,0000,0000,0000,,{\pos(328,690)\bord2.5\blur1.5}各種各樣的
+Dialogue: 1,0:23:20.63,0:23:25.59,EDCN,NTP,0000,0000,0000,,{\pos(567,690)\fnA-OTF ZenGoN Std R\fs45\bord0\fscx112\fscy98\fsp-0.5}l{\fsp-1}o{\fsp-0.5}v{\fsp5.5}e {\fscx116\fsp-2}s{\fsp-1}t{\fsp-1.5}o{\fscx112\fsp1}ry
+Dialogue: 0,0:23:20.63,0:23:25.59,EDCN,NTP,0000,0000,0000,,{\pos(567,690)\fnA-OTF ZenGoN Std R\fs45\bord2.5\blur1.5\fscx112\fscy98\fsp-0.5}l{\fsp-1}o{\fsp-0.5}v{\fsp5.5}e {\fscx116\fsp-2}s{\fsp-1}t{\fsp-1.5}o{\fscx112\fsp1}ry
+Dialogue: 1,0:23:20.63,0:23:25.59,EDCN,NTP,0000,0000,0000,,{\pos(874,690)\bord0\fscx117}浮現在腦海裏
+Dialogue: 0,0:23:20.63,0:23:25.59,EDCN,NTP,0000,0000,0000,,{\pos(874,690)\bord2.5\blur1.5\fscx117}浮現在腦海裏
+Dialogue: 1,0:23:25.74,0:23:30.89,EDCN,NTP,0000,0000,0000,,{\pos(640,690)\bord0\fscx118}雖然現實與理想　還差得很遠
+Dialogue: 0,0:23:25.74,0:23:30.89,EDCN,NTP,0000,0000,0000,,{\pos(640,690)\bord2.5\blur1.5\fscx118}雖然現實與理想　還差得很遠
+Dialogue: 1,0:23:31.39,0:23:36.30,EDCN,NTP,0000,0000,0000,,{\pos(640,690)\bord0\fscx120}當然我也知道{\fscx130}　{\fscx120}我有多麼任性
+Dialogue: 0,0:23:31.39,0:23:36.30,EDCN,NTP,0000,0000,0000,,{\pos(640,690)\bord2.5\blur1.5\fscx120}當然我也知道{\fscx130}　{\fscx120}我有多麼任性
+Dialogue: 1,0:23:36.48,0:23:42.48,EDCN,NTP,0000,0000,0000,,{\pos(640,690)\bord0\fscx120}可這又有什麼錯
+Dialogue: 0,0:23:36.48,0:23:42.48,EDCN,NTP,0000,0000,0000,,{\pos(640,690)\bord2.5\blur1.5\fscx120}可這又有什麼錯
+Dialogue: 1,0:23:43.15,0:23:52.78,EDCN,NTP,0000,0000,0000,,{\pos(639,690)\bord0}我愛上了對你的愛{\fscx125}　{\fscx117}想要說卻難以開口
+Dialogue: 0,0:23:43.15,0:23:52.78,EDCN,NTP,0000,0000,0000,,{\pos(639,690)\bord2.5\blur1.5}我愛上了對你的愛{\fscx125}　{\fscx117}想要說卻難以開口
+Dialogue: 1,0:23:53.12,0:24:05.68,EDCN,NTP,0000,0000,0000,,{\fad(0,1300)\pos(521,690)\bord0\fscx114}不如幸福地把它藏在心底{\fscx70}　{\fscx115}這是只屬於我的
+Dialogue: 0,0:23:53.12,0:24:05.68,EDCN,NTP,0000,0000,0000,,{\fad(0,1300)\pos(521,690)\bord2.5\blur1.5\fscx114}不如幸福地把它藏在心底{\fscx70}　{\fscx115}這是只屬於我的
+Dialogue: 1,0:23:53.12,0:24:05.68,EDCN,NTP,0000,0000,0000,,{\fad(0,1300)\pos(985,690)\fnA-OTF ZenGoN Std R\fs45\bord0\fscx112\fscy98\fsp-1.5}s{\fsp-1}e{\fsp-1.5}cr{\fscx116\fsp-2}e{\fscx112\fsp2}t {\fsp-1}l{\fscx118}o{\fscx112}v{\fscx116}e
+Dialogue: 0,0:23:53.12,0:24:05.68,EDCN,NTP,0000,0000,0000,,{\fad(0,1300)\pos(985,690)\fnA-OTF ZenGoN Std R\fs45\bord2.5\blur1.5\fscx112\fscy98\fsp-1.5}s{\fsp-1}e{\fsp-1.5}cr{\fscx116\fsp-2}e{\fscx112\fsp2}t {\fsp-1}l{\fscx118}o{\fscx112}v{\fscx116}e
+Dialogue: 0,0:23:35.77,0:23:38.98,staff,NTP,0000,0000,0000,,{\pos(859,132)\fs37\bord2\blur2\fscx116\fscy92\3a&H11\3c&H404040&}片尾曲
+Dialogue: 0,0:23:35.77,0:23:38.98,staff,NTP,0000,0000,0000,,{\an1\pos(796,176)\fs45\bord2\blur2\fscx95\fscy92\3a&H11\3c&H404040&\fsp5}「{\fscx109\fsp2}愛上一份{\fsp5}愛{\fscx95}」
+Dialogue: 0,0:23:35.77,0:23:38.98,staff,NTP,0000,0000,0000,,{\pos(795,459)\fs27\bord2.3\blur1\fscx123\fscy98\3a&H1D\3c&H404040&}翻譯
+Dialogue: 0,0:23:35.77,0:23:38.98,name,NTP,0000,0000,0000,,{\pos(871,460.5)\fnA-OTF ZenGoN Std R\fs36\bord2.5\blur1\fscx100\fscy100\3a&H1D\3c&H404040&\fsp2.4}psdbrgts
+Dialogue: 0,0:23:35.77,0:23:38.98,staff,NTP,0000,0000,0000,,{\pos(795,491)\fs27\bord2.3\blur1\fscx123\fscy98\3a&H1D\3c&H404040&}特效
+Dialogue: 0,0:23:35.77,0:23:38.98,name,NTP,0000,0000,0000,,{\pos(871,492.5)\fnA-OTF ZenGoN Std R\fs36\bord2.5\blur1\fscx117\fscy100\3a&H1D\3c&H404040&\fsp7.8}midori
+Dialogue: 0,0:24:03.21,0:24:05.96,staff,NTP,0000,0000,0000,,{\fad(500,0)\an5\pos(949,455)\fn方正汉真广标简体\fs32\bord2.3\blur1\fscx136\fscy130\3a&H33\3c&H404040&}名侦探柯南事务所
+Dialogue: 0,0:24:07.19,0:24:08.83,*Default,NTP,0000,0000,0000,,接下來 下周是本少爺
+Dialogue: 0,0:24:08.97,0:24:10.64,*Default,NTP,0000,0000,0000,,怪盜基德大人的登場
+Dialogue: 0,0:24:11.07,0:24:12.86,*Default,NTP,0000,0000,0000,,突然出現的法國怪盜
+Dialogue: 0,0:24:12.96,0:24:14.27,*Default,NTP,0000,0000,0000,,其名為黑貓
+Dialogue: 0,0:24:14.74,0:24:16.48,*Default,NTP,0000,0000,0000,,一身漆黑的裝束
+Dialogue: 0,0:24:16.62,0:24:19.72,*Default,NTP,0000,0000,0000,,要和渾身雪白的基德一決勝負嗎
+Dialogue: 0,0:24:20.24,0:24:21.72,*Default,NTP,0000,0000,0000,,兩位怪盜的目標
+Dialogue: 0,0:24:21.81,0:24:24.28,*Default,NTP,0000,0000,0000,,是斷頭艷後的戒指 黃金眼
+Dialogue: 0,0:24:24.69,0:24:26.36,*Default,NTP,0000,0000,0000,,警部也為此身體力行
+Dialogue: 0,0:24:26.57,0:24:27.77,*Default,NTP,0000,0000,0000,,不過抱歉了 青子
+Dialogue: 0,0:24:28.01,0:24:30.51,*Default,NTP,0000,0000,0000,,這場對決 我可不能輸
+Dialogue: 0,0:24:31.01,0:24:31.55,*Default,NTP,0000,0000,0000,,下集
+Dialogue: 0,0:24:30.07,0:24:36.00,*Default,NTP,0000,0000,0000,,{\pos(640,500)}追憶之黃金眼
+Dialogue: 0,0:24:33.39,0:24:35.68,*Default,NTP,0000,0000,0000,,月光之下 前來拜會
+Dialogue: 0,0:02:03.00,0:02:37.68,Note,NTP,0000,0000,0000,Banner;10;0;10,{\an8\fs40\b0\bord2.5\shad0}片源：clubaudition　翻譯：糖糕　校對：setsuna　潤稿：xiaobin　繁化：kinson　時軸：MCKT、xiaobin　後期：木神油　協力：tetsuya　海報：DinoSherry
+Dialogue: 0,0:24:37.15,0:24:38.90,*Default,NTP,0000,0000,0000,,Next Kid's MAGIC
+Dialogue: 1,0:24:36.25,0:24:41.00,*Default,NTP,0000,0000,0000,,{\fad(200,0)\pos(643,592)\fn方正大标宋_GBK\fs49\1c&H000000&\b0\fsp2\bord0\shad0}黑貓
+Dialogue: 0,0:24:36.25,0:24:41.00,*Default,NTP,0000,0000,0000,,{\fad(400,0)\pos(645,594)\fn方正大标宋_GBK\fs49\1a&H30&\1c&HD0D0D0&\b1\fsp2\bord0\shad0}黑貓

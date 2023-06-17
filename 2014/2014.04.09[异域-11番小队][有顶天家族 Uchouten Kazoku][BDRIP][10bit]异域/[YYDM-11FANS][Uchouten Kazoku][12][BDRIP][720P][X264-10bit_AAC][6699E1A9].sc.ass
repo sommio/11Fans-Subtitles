@@ -1,0 +1,349 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正古隶_GBK,50,&H003766E2,&H000000FF,&HFF000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,6,1
+Style: Warning,FZZhunYuan-M02,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: title,方正剪纸_GBK,80,&H00FFFFFF,&H000000FF,&HFF000000,&H32000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: huiyi,FZHuaLi-M14,46,&H00FFFFFF,&H000000FF,&HFF000000,&H003766E2,0,0,0,0,100,100,0,0,1,2,1,2,10,10,6,1
+Style: logo,FZYiHei-M20S,50,&H00D8A65A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,3,2,10,10,0,1
+Style: yugao,FZZhiYi-M12S,40,&H006161DC,&H000000FF,&HFF000000,&H0012212C,0,0,0,0,100,100,0,0,1,2,2,2,10,10,8,1
+Style: next,FZYiHei-M20S,50,&H00FFFFFF,&H000000FF,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: OPJ,DFCraftYu-W5,50,&H001F213C,&H00782AE2,&H00FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,30,1
+Style: OPJ-furigana,DFCraftYu-W5,20,&H001F213C,&H00782AE2,&H00FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,20,1
+Style: Default-furigana,KaiTi,12,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,10,134
+Style: opc,FZZhiYi-M12,45,&H001F213C,&H000000FF,&H00FEFEFE,&H64782AE2,-1,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: edj,ＤＦPOPコンW12,40,&H006C6A6F,&H000000FF,&HFF000000,&HFF000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: edc,方正少儿_GBK,45,&H003E4244,&H000000FF,&H32000000,&HFF000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:11:20.99,0:11:23.95,logo,,0,0,0,,{\fsp6\pos(302,532)}异{\c&H8482D0&}域{\c&H9DC33E&}字{\c&H0BAEEB&}幕{\c&HC28E96&}组
+Dialogue: 0,0:02:30.96,0:02:35.96,Warning,NTP,0,0,0,,{\an8}{\fad(400,600)}本片字幕由异域字幕组(www.yydm.com)小组制作仅供试看之用,若您喜爱本片,请购买并支持正版!
+Dialogue: 0,0:02:36.01,0:02:40.96,Warning,NTP,0,0,0,,{\an8}{\fad(400,600)}翻校西皮组:  猫茶百合家族    时间后期吉祥物:  山风岚管家     压制正室:  茶夫人
+Dialogue: 0,0:00:17.64,0:00:20.24,Default,NTP,0,0,0,,矢一郎被星期五俱乐部抓住了
+Dialogue: 0,0:00:20.62,0:00:24.92,Default,NTP,0,0,0,,刚才在电话里 听金阁银阁说 他们负责困住矢三郎
+Dialogue: 0,0:00:25.38,0:00:28.65,Default,NTP,0,0,0,,伯母也被抓住了 但我不知道她在哪里
+Dialogue: 0,0:00:42.46,0:00:44.62,Default,NTP,0,0,0,,那个家伙不用去管他了
+Dialogue: 0,0:00:45.07,0:00:47.25,Default,NTP,0,0,0,,一点用都没有
+Dialogue: 0,0:02:31.01,0:02:33.97,title,NTP,0,0,0,,{\fsp10\pos(644,532)\c&HDAA459&}伪{\c&H8281D0&}睿{\c&H9EC33B&}山{\c&H08ACEF&}电{\c&HC28B97&}车
+Dialogue: 0,0:02:39.51,0:02:40.54,Default,NTP,0,0,0,,二哥
+Dialogue: 0,0:02:40.81,0:02:45.30,Default,NTP,0,0,0,,喂喂 矢四郎 你在这里做什么
+Dialogue: 0,0:02:45.35,0:02:49.77,Default,NTP,0,0,0,,雷神大人非常愤怒哦 怎么不陪在母亲身边
+Dialogue: 0,0:02:49.92,0:02:54.63,Default,NTP,0,0,0,,二哥 大家都被夷川抓住了
+Dialogue: 0,0:02:54.86,0:02:56.14,Default,NTP,0,0,0,,你说什么
+Dialogue: 0,0:02:56.42,0:02:58.88,Default,NTP,0,0,0,,只有靠你了二哥
+Dialogue: 0,0:02:59.23,0:03:03.85,Default,NTP,0,0,0,,但是 我可是井底之蛙啊
+Dialogue: 0,0:03:04.71,0:03:06.78,Default,NTP,0,0,0,,还能做什么
+Dialogue: 0,0:03:06.92,0:03:09.59,Default,NTP,0,0,0,,我想起了一件事
+Dialogue: 0,0:03:10.12,0:03:12.88,Default,NTP,0,0,0,,二哥 朝我这边张开嘴
+Dialogue: 0,0:03:12.91,0:03:18.11,Default,NTP,0,0,0,,喂喂 我哪能悠闲的喝什么雨水呢
+Dialogue: 0,0:03:18.13,0:03:19.85,Default,NTP,0,0,0,,你就别管了 张嘴
+Dialogue: 0,0:03:50.15,0:03:51.12,Default,NTP,0,0,0,,二哥？
+Dialogue: 0,0:03:52.92,0:03:53.95,Default,NTP,0,0,0,,二哥
+Dialogue: 0,0:03:55.52,0:03:58.81,Default,NTP,0,0,0,,卷土重来
+Dialogue: 0,0:04:06.23,0:04:08.72,Default,NTP,0,0,0,,你的哥哥是只不错的狸猫呢
+Dialogue: 0,0:04:09.02,0:04:10.63,Default,NTP,0,0,0,,真是遗憾
+Dialogue: 0,0:04:11.02,0:04:12.04,Default,NTP,0,0,0,,少扯谎了
+Dialogue: 0,0:04:12.68,0:04:14.29,Default,NTP,0,0,0,,我没有说谎
+Dialogue: 0,0:04:14.55,0:04:17.64,Default,NTP,0,0,0,,确实 我无法忘记屁股被他咬过的疼痛
+Dialogue: 0,0:04:17.96,0:04:21.57,Default,NTP,0,0,0,,屁股差点裂成四瓣了
+Dialogue: 0,0:04:22.42,0:04:25.41,Default,NTP,0,0,0,,但是 他确实是只认真的狸猫
+Dialogue: 0,0:04:25.53,0:04:26.79,Default,NTP,0,0,0,,那你去救他啊
+Dialogue: 0,0:04:27.13,0:04:28.75,Default,NTP,0,0,0,,这可不行
+Dialogue: 0,0:04:28.89,0:04:31.81,Default,NTP,0,0,0,,我们必须要服从父亲
+Dialogue: 0,0:04:31.83,0:04:33.83,Default,NTP,0,0,0,,狸猫要维持生计可不容易
+Dialogue: 0,0:04:41.05,0:04:42.46,Default,NTP,0,0,0,,怎么了 银阁
+Dialogue: 0,0:04:42.86,0:04:44.28,Default,NTP,0,0,0,,怎么晃成这样
+Dialogue: 0,0:04:44.31,0:04:45.74,Default,NTP,0,0,0,,我不知道啊 哥哥
+Dialogue: 0,0:04:45.84,0:04:48.91,Default,NTP,0,0,0,,我好像正以飞快的速度在跑呢
+Dialogue: 0,0:04:49.24,0:04:50.81,Default,NTP,0,0,0,,屁股晃个不停
+Dialogue: 0,0:04:50.95,0:04:51.99,Default,NTP,0,0,0,,好可怕
+Dialogue: 0,0:04:52.18,0:04:53.67,Default,NTP,0,0,0,,冷静 银阁
+Dialogue: 0,0:04:53.74,0:04:55.18,Default,NTP,0,0,0,,变身术会解除的
+Dialogue: 0,0:04:55.19,0:04:58.04,Default,NTP,0,0,0,,我害怕 哥哥 我不行了
+Dialogue: 0,0:04:58.17,0:04:59.28,Default,NTP,0,0,0,,不行
+Dialogue: 0,0:05:03.26,0:05:06.17,Default,NTP,0,0,0,,都说不行了
+Dialogue: 0,0:05:18.74,0:05:19.73,Default,NTP,0,0,0,,怎么回事
+Dialogue: 0,0:05:19.89,0:05:21.87,Default,NTP,0,0,0,,哥哥 我们好像在疾驰
+Dialogue: 0,0:05:27.42,0:05:30.37,Default,NTP,0,0,0,,哥哥 我来救你了
+Dialogue: 0,0:05:30.68,0:05:31.61,Default,NTP,0,0,0,,矢四郎
+Dialogue: 0,0:05:32.89,0:05:34.03,Default,NTP,0,0,0,,到底发生了什么
+Dialogue: 0,0:05:34.49,0:05:36.09,Default,NTP,0,0,0,,矢三郎
+Dialogue: 0,0:05:36.43,0:05:38.63,Default,NTP,0,0,0,,乘坐的感觉如何？
+Dialogue: 0,0:05:39.31,0:05:40.72,Default,NTP,0,0,0,,矢二郎哥哥
+Dialogue: 0,0:05:51.49,0:05:53.51,Default,NTP,0,0,0,,你们两个 刚才竟然阴我
+Dialogue: 0,0:05:55.18,0:05:56.66,Default,NTP,0,0,0,,住手 你这个色狼
+Dialogue: 0,0:05:56.68,0:05:58.52,Default,NTP,0,0,0,,不要脱我们的内裤
+Dialogue: 0,0:05:59.08,0:06:01.28,Default,NTP,0,0,0,,你会后悔的 真的
+Dialogue: 0,0:06:01.74,0:06:04.67,Default,NTP,0,0,0,,住手！！！
+Dialogue: 0,0:06:08.10,0:06:09.61,Default,NTP,0,0,0,,挤死了
+Dialogue: 0,0:06:10.51,0:06:12.29,Default,NTP,0,0,0,,矢三郎 不要动粗
+Dialogue: 0,0:06:12.32,0:06:14.16,Default,NTP,0,0,0,,这是我要说的
+Dialogue: 0,0:06:16.89,0:06:18.85,Default,NTP,0,0,0,,风神雷神的扇子
+Dialogue: 0,0:06:19.28,0:06:20.85,Default,NTP,0,0,0,,原来是你们拿着呢
+Dialogue: 0,0:06:22.40,0:06:24.96,Default,NTP,0,0,0,,我在葵桥捡到的 我没偷哦
+Dialogue: 0,0:06:24.97,0:06:26.07,Default,NTP,0,0,0,,少罗嗦
+Dialogue: 0,0:06:27.05,0:06:29.29,Default,NTP,0,0,0,,这个是红玉老师的东西
+Dialogue: 0,0:06:29.42,0:06:30.99,Default,NTP,0,0,0,,我去还给老师
+Dialogue: 0,0:06:36.95,0:06:39.04,Default,NTP,0,0,0,,让开 让开
+Dialogue: 0,0:06:39.05,0:06:41.40,Default,NTP,0,0,0,,睿山电车大人要通过喽
+Dialogue: 0,0:06:49.71,0:06:51.50,Default,NTP,0,0,0,,怎么办 矢三郎
+Dialogue: 0,0:06:51.92,0:06:56.82,Default,NTP,0,0,0,,我们一族的头领 大哥陷入了穷途末路
+Dialogue: 0,0:06:56.85,0:07:00.27,Default,NTP,0,0,0,,我却觉得莫名其妙的有趣
+Dialogue: 0,0:07:00.50,0:07:02.29,Default,NTP,0,0,0,,真是太不像话了
+Dialogue: 0,0:07:02.31,0:07:04.46,Default,NTP,0,0,0,,不要紧 跑起来吧 二哥
+Dialogue: 0,0:07:04.61,0:07:07.52,Default,NTP,0,0,0,,这也是傻瓜的血脉使然
+Dialogue: 0,0:07:08.05,0:07:10.47,Default,NTP,0,0,0,,觉得有趣是件好事啊
+Dialogue: 0,0:07:19.23,0:07:22.05,huiyi,NTP,0,0,0,,觉得有趣是件好事啊
+Dialogue: 0,0:07:28.17,0:07:30.58,Default,NTP,0,0,0,,怎么了 二哥 没事吧
+Dialogue: 0,0:07:31.04,0:07:34.28,Default,NTP,0,0,0,,父亲最后一句话是这个啊
+Dialogue: 0,0:07:35.80,0:07:38.60,Default,NTP,0,0,0,,父亲那晚对我这样说了
+Dialogue: 0,0:07:39.42,0:07:44.11,Default,NTP,0,0,0,,我长久蜗居于井底也没有想起来的话
+Dialogue: 0,0:07:44.98,0:07:47.51,Default,NTP,0,0,0,,现在终于想起来了
+Dialogue: 0,0:07:51.93,0:07:55.12,Default,NTP,0,0,0,,觉得有趣是件好事啊
+Dialogue: 0,0:08:01.12,0:08:03.35,Default,NTP,0,0,0,,二哥 你要继续前进吗
+Dialogue: 0,0:08:03.49,0:08:05.50,Default,NTP,0,0,0,,你说什么 我听不到
+Dialogue: 0,0:08:05.69,0:08:08.33,Default,NTP,0,0,0,,先斗町 我们要去先斗町
+Dialogue: 0,0:08:08.55,0:08:10.79,Default,NTP,0,0,0,,先斗町在哪里
+Dialogue: 0,0:08:14.03,0:08:16.89,Default,NTP,0,0,0,,二哥 可以在三条左转吗
+Dialogue: 0,0:08:17.09,0:08:19.03,Default,NTP,0,0,0,,太难了吧
+Dialogue: 0,0:08:31.64,0:08:33.40,Default,NTP,0,0,0,,做了坏事
+Dialogue: 0,0:08:33.85,0:08:38.25,Default,NTP,0,0,0,,二哥 停下电车 我们跑过去比较好吧
+Dialogue: 0,0:08:38.66,0:08:42.41,Default,NTP,0,0,0,,抱歉 矢三郎 我做不到
+Dialogue: 0,0:08:42.59,0:08:45.67,Default,NTP,0,0,0,,没办法 先去四条通吧
+Dialogue: 0,0:09:11.92,0:09:16.06,Default,NTP,0,0,0,,哥哥 我们一直在同一个地方绕弯
+Dialogue: 0,0:09:19.69,0:09:21.72,Default,NTP,0,0,0,,二哥 有点奇怪
+Dialogue: 0,0:09:22.14,0:09:23.64,Default,NTP,0,0,0,,放慢一点速度吧
+Dialogue: 0,0:09:23.85,0:09:31.89,Default,NTP,0,0,0,,矢三郎 你好多要求 我够努力了
+Dialogue: 0,0:09:31.93,0:09:35.50,Default,NTP,0,0,0,,你现在热血沸腾 傻瓜的血脉难以抑制了吗
+Dialogue: 0,0:09:36.07,0:09:37.79,Default,NTP,0,0,0,,看来是的
+Dialogue: 0,0:09:50.34,0:09:52.75,Default,NTP,0,0,0,,这是伪寺伪町通
+Dialogue: 0,0:09:55.34,0:09:56.40,Default,NTP,0,0,0,,你们这些家伙
+Dialogue: 0,0:09:56.42,0:09:57.88,Default,NTP,0,0,0,,是我的手机
+Dialogue: 0,0:09:58.34,0:09:59.69,Default,NTP,0,0,0,,如何 矢三郎
+Dialogue: 0,0:10:00.04,0:10:03.08,Default,NTP,0,0,0,,你不知道有句话叫做「一波未平一波又起」吗
+Dialogue: 0,0:10:03.44,0:10:06.98,Default,NTP,0,0,0,,我打电话给夷川亲卫队让他们事先埋伏了
+Dialogue: 0,0:10:07.04,0:10:08.18,Default,NTP,0,0,0,,埋伏了
+Dialogue: 0,0:10:08.22,0:10:11.97,Default,NTP,0,0,0,,你这混蛋 还想设几个陷阱才满意啊
+Dialogue: 0,0:10:12.07,0:10:13.36,Default,NTP,0,0,0,,害怕了吗
+Dialogue: 0,0:10:13.42,0:10:14.41,Default,NTP,0,0,0,,怕了吗
+Dialogue: 0,0:10:14.87,0:10:17.79,Default,NTP,0,0,0,,就这样沉入鸭川底下吧
+Dialogue: 0,0:10:18.32,0:10:19.83,Default,NTP,0,0,0,,二哥 糟了
+Dialogue: 0,0:10:19.88,0:10:21.37,Default,NTP,0,0,0,,糟了啊
+Dialogue: 0,0:10:31.20,0:10:32.48,Default,NTP,0,0,0,,我的手机
+Dialogue: 0,0:10:37.22,0:10:40.52,Default,NTP,0,0,0,,二哥 这样下去会掉进鸭川的
+Dialogue: 0,0:10:40.68,0:10:43.00,Default,NTP,0,0,0,,冬天的鸭川很冷的哦
+Dialogue: 0,0:10:43.07,0:10:44.88,Default,NTP,0,0,0,,做做准备操
+Dialogue: 0,0:10:45.04,0:10:46.20,Default,NTP,0,0,0,,被骗了吧
+Dialogue: 0,0:10:47.27,0:10:49.71,Default,NTP,0,0,0,,卷土重来 卷土重来
+Dialogue: 0,0:10:49.73,0:10:53.33,Default,NTP,0,0,0,,喂 你们也会掉进鸭川的哦
+Dialogue: 0,0:10:54.08,0:10:56.20,Default,NTP,0,0,0,,这叫做同舟共济
+Dialogue: 0,0:10:56.39,0:10:58.87,Default,NTP,0,0,0,,吴越同舟 吴越同舟
+Dialogue: 0,0:11:00.00,0:11:01.55,Default,NTP,0,0,0,,矢四郎 抓稳了
+Dialogue: 0,0:11:22.49,0:11:25.40,Default,NTP,0,0,0,,骗到他们了 骗到他们了
+Dialogue: 0,0:11:25.48,0:11:27.87,Default,NTP,0,0,0,,被骗的是你们哦
+Dialogue: 0,0:11:35.71,0:11:39.39,Default,NTP,0,0,0,,这是伪飞天叡山电车
+Dialogue: 0,0:11:50.20,0:11:52.78,Default,NTP,0,0,0,,不用冬泳真是太好了
+Dialogue: 0,0:12:00.29,0:12:01.35,Default,NTP,0,0,0,,那里吗！
+Dialogue: 0,0:12:02.01,0:12:03.24,Default,NTP,0,0,0,,可恶~~~~
+Dialogue: 0,0:12:03.85,0:12:06.47,Default,NTP,0,0,0,,被 被骗了吧 矢三郎
+Dialogue: 0,0:12:08.10,0:12:11.28,Default,NTP,0,0,0,,哥哥？在说什么呢哥哥
+Dialogue: 0,0:12:11.53,0:12:12.55,Default,NTP,0,0,0,,我们已经…
+Dialogue: 0,0:12:12.57,0:12:13.66,Default,NTP,0,0,0,,嘘！
+Dialogue: 0,0:12:14.60,0:12:18.39,Default,NTP,0,0,0,,实 实际上 我 我早就预料会有这种事了
+Dialogue: 0,0:12:18.65,0:12:21.87,Default,NTP,0,0,0,,在鸭川里 有着巨大的招财猫
+Dialogue: 0,0:12:21.88,0:12:23.35,Default,NTP,0,0,0,,等 等等一下啊
+Dialogue: 0,0:12:23.36,0:12:25.82,Default,NTP,0,0,0,,暂停 暂停 中场休息
+Dialogue: 0,0:12:26.13,0:12:28.72,Default,NTP,0,0,0,,谁等你们 我很赶时间的
+Dialogue: 0,0:12:29.06,0:12:30.87,Default,NTP,0,0,0,,你们就一路流向大阪湾去吧
+Dialogue: 0,0:12:33.12,0:12:35.33,Default,NTP,0,0,0,,我不要再在水中漂流了
+Dialogue: 0,0:12:35.81,0:12:37.85,Default,NTP,0,0,0,,会被冻死的 我说真的
+Dialogue: 0,0:12:37.94,0:12:43.77,Default,NTP,0,0,0,,我说 你俩 就在那边星期五俱乐部正举办忘年会呢
+Dialogue: 0,0:12:44.19,0:12:48.78,Default,NTP,0,0,0,,是冷冰冰的鸭川好呢 还是热滚滚的火锅…
+Dialogue: 0,0:12:56.19,0:12:59.91,Default,NTP,0,0,0,,在天上飞的感觉也满奇怪的呢
+Dialogue: 0,0:13:00.50,0:13:03.44,Default,NTP,0,0,0,,二哥 星期五俱乐部就在那里
+Dialogue: 0,0:13:03.78,0:13:06.05,Default,NTP,0,0,0,,拜托停在那个料理亭的后院
+Dialogue: 0,0:13:06.21,0:13:09.13,Default,NTP,0,0,0,,你的要求也太强人所难了
+Dialogue: 0,0:13:09.42,0:13:12.31,Default,NTP,0,0,0,,我也是第一次在天上飞诶
+Dialogue: 0,0:13:13.14,0:13:17.20,Default,NTP,0,0,0,,用风神雷神的扇子 弄点风出来加把劲怎么样
+Dialogue: 0,0:13:24.77,0:13:26.68,Default,NTP,0,0,0,,要慎重哦
+Dialogue: 0,0:13:27.38,0:13:29.51,Default,NTP,0,0,0,,轻轻地 轻轻地
+Dialogue: 0,0:13:42.68,0:13:44.28,Default,NTP,0,0,0,,肚子好痛
+Dialogue: 0,0:14:03.15,0:14:03.79,Default,NTP,0,0,0,,矢四郎
+Dialogue: 0,0:14:04.44,0:14:06.56,Default,NTP,0,0,0,,你马上跑去仙醉楼
+Dialogue: 0,0:14:06.71,0:14:08.97,Default,NTP,0,0,0,,阻止长老们的会议
+Dialogue: 0,0:14:11.39,0:14:12.68,Default,NTP,0,0,0,,尽量拖时间
+Dialogue: 0,0:14:12.74,0:14:16.70,Default,NTP,0,0,0,,如果实在没办法了 就用扇子往座位上稍稍扇一下
+Dialogue: 0,0:14:17.46,0:14:19.28,Default,NTP,0,0,0,,用完了就还给红玉老师
+Dialogue: 0,0:14:19.83,0:14:22.13,Default,NTP,0,0,0,,老师他应该也在仙醉楼
+Dialogue: 0,0:14:22.74,0:14:23.86,Default,NTP,0,0,0,,哥你呢
+Dialogue: 0,0:14:24.10,0:14:25.99,Default,NTP,0,0,0,,救出大哥后马上就过去
+Dialogue: 0,0:14:26.11,0:14:26.97,Default,NTP,0,0,0,,快去
+Dialogue: 0,0:14:27.01,0:14:29.69,Default,NTP,0,0,0,,以这个样子还在这里待着 会被吃掉的
+Dialogue: 0,0:14:33.42,0:14:34.63,Default,NTP,0,0,0,,是矢三郎吗
+Dialogue: 0,0:14:42.63,0:14:44.87,Default,NTP,0,0,0,,可恶 可恶
+Dialogue: 0,0:14:45.55,0:14:48.28,Default,NTP,0,0,0,,你肯定把我当笨蛋了吧
+Dialogue: 0,0:14:48.44,0:14:52.21,Default,NTP,0,0,0,,学着人类喊选举 到处通人情布局
+Dialogue: 0,0:14:52.53,0:14:54.60,Default,NTP,0,0,0,,最后却落得这般下场
+Dialogue: 0,0:14:55.12,0:14:57.04,Default,NTP,0,0,0,,像我这种丢人的狸猫
+Dialogue: 0,0:14:57.07,0:14:59.50,Default,NTP,0,0,0,,怎么可能肩负的起狸猫界的未来
+Dialogue: 0,0:15:00.04,0:15:02.84,Default,NTP,0,0,0,,还是直接让人类吃掉比较好
+Dialogue: 0,0:15:02.97,0:15:05.41,Default,NTP,0,0,0,,你讲的也太极端了 大哥
+Dialogue: 0,0:15:05.85,0:15:08.07,Default,NTP,0,0,0,,你想让母亲再次流泪吗
+Dialogue: 0,0:15:09.09,0:15:12.00,Default,NTP,0,0,0,,但是…我是一只多没用的狸猫啊
+Dialogue: 0,0:15:13.22,0:15:16.73,Default,NTP,0,0,0,,这也是傻瓜的血脉使然啦 大哥
+Dialogue: 0,0:15:17.50,0:15:20.07,Default,NTP,0,0,0,,学学人类有什么不好
+Dialogue: 0,0:15:21.10,0:15:23.06,Default,NTP,0,0,0,,不是要继承父亲的遗志吗
+Dialogue: 0,0:15:23.89,0:15:24.88,Default,NTP,0,0,0,,是这样吗
+Dialogue: 0,0:15:25.72,0:15:27.35,Default,NTP,0,0,0,,把夷川踢出去
+Dialogue: 0,0:15:28.05,0:15:29.85,Default,NTP,0,0,0,,他是我们杀父仇人
+Dialogue: 0,0:15:30.28,0:15:31.18,Default,NTP,0,0,0,,你说什么
+Dialogue: 0,0:15:31.59,0:15:35.32,Default,NTP,0,0,0,,把父亲交给星期五俱乐部的正是早云
+Dialogue: 0,0:15:37.27,0:15:38.97,Default,NTP,0,0,0,,是我 大哥
+Dialogue: 0,0:15:39.33,0:15:40.31,Default,NTP,0,0,0,,是矢二郎吗
+Dialogue: 0,0:15:40.96,0:15:42.57,Default,NTP,0,0,0,,赶快走吧 大哥
+Dialogue: 0,0:15:42.89,0:15:45.06,Default,NTP,0,0,0,,我已经让矢四郎先跑去仙醉楼了
+Dialogue: 0,0:15:45.12,0:15:46.07,Default,NTP,0,0,0,,还来得及
+Dialogue: 0,0:15:46.97,0:15:48.51,Default,NTP,0,0,0,,母亲也一定会高兴的
+Dialogue: 0,0:15:48.91,0:15:50.34,Default,NTP,0,0,0,,对了 母亲
+Dialogue: 0,0:15:50.77,0:15:52.32,Default,NTP,0,0,0,,救出母亲了吗
+Dialogue: 0,0:15:52.87,0:15:53.56,Default,NTP,0,0,0,,怎么样了
+Dialogue: 0,0:15:53.95,0:15:55.09,Default,NTP,0,0,0,,啊 没 还没有
+Dialogue: 0,0:15:55.32,0:15:56.55,Default,NTP,0,0,0,,不知道她在哪里
+Dialogue: 0,0:15:56.99,0:15:59.83,Default,NTP,0,0,0,,她在纸屋桥的伪电气白兰销售处
+Dialogue: 0,0:16:00.02,0:16:01.38,Default,NTP,0,0,0,,必须赶快救她
+Dialogue: 0,0:16:01.39,0:16:04.04,Default,NTP,0,0,0,,冷静点 大哥 我去
+Dialogue: 0,0:16:09.10,0:16:10.41,Default,NTP,0,0,0,,什么人
+Dialogue: 0,0:16:16.26,0:16:17.52,Default,NTP,0,0,0,,跑起来 大哥
+Dialogue: 0,0:16:17.57,0:16:19.62,Default,NTP,0,0,0,,母亲的事就交给我吧
+Dialogue: 0,0:16:31.26,0:16:34.24,Default,NTP,0,0,0,,啊啦啦 真是一团糟啊
+Dialogue: 0,0:16:35.05,0:16:36.84,Default,NTP,0,0,0,,您是哪位
+Dialogue: 0,0:16:37.03,0:16:40.69,Default,NTP,0,0,0,,因为听到了巨大的响声 来看看发生了什么事
+Dialogue: 0,0:16:40.99,0:16:43.40,Default,NTP,0,0,0,,只是个路过的吗
+Dialogue: 0,0:16:53.11,0:16:54.42,Default,NTP,0,0,0,,你们认识？
+Dialogue: 0,0:16:54.98,0:16:56.99,Default,NTP,0,0,0,,是啊 寿老人
+Dialogue: 0,0:16:57.76,0:16:59.78,Default,NTP,0,0,0,,他是个很有趣的孩子哦
+Dialogue: 0,0:17:00.07,0:17:04.03,Default,NTP,0,0,0,,是吗 有趣甚好啊
+Dialogue: 0,0:17:06.18,0:17:08.78,Default,NTP,0,0,0,,这到底是发生什么了啊
+Dialogue: 0,0:17:08.86,0:17:12.23,Default,NTP,0,0,0,,是地震吗 还是说台风？
+Dialogue: 0,0:17:14.23,0:17:16.44,Default,NTP,0,0,0,,我的狸猫逃跑了
+Dialogue: 0,0:17:16.92,0:17:19.77,Default,NTP,0,0,0,,喂你 到底发生了什么
+Dialogue: 0,0:17:20.07,0:17:23.65,Default,NTP,0,0,0,,有个巨大的东西从鸭川那边冲了进来
+Dialogue: 0,0:17:23.90,0:17:26.04,Default,NTP,0,0,0,,完全不知道怎么回事
+Dialogue: 0,0:17:26.26,0:17:28.87,Default,NTP,0,0,0,,你看啊 包厢里乱七八糟
+Dialogue: 0,0:17:28.89,0:17:30.18,Default,NTP,0,0,0,,狸猫又跑了
+Dialogue: 0,0:17:30.20,0:17:33.28,Default,NTP,0,0,0,,好了 冷静点 布袋兄
+Dialogue: 0,0:17:33.40,0:17:38.05,Default,NTP,0,0,0,,但是 我一直坚持到今天 才好不容易到手的狸猫
+Dialogue: 0,0:17:38.46,0:17:44.10,Default,NTP,0,0,0,,就算你追问这个「只是路过的」小哥 也问不出什么的
+Dialogue: 0,0:17:45.40,0:17:52.63,Default,NTP,0,0,0,,好了好了 这条街上就是偶尔会发生这种无法解释的奇妙事件
+Dialogue: 0,0:17:53.06,0:17:56.91,Default,NTP,0,0,0,,没有必要每件事都去追究 浪费自己寿命啦
+Dialogue: 0,0:17:58.07,0:18:05.17,Default,NTP,0,0,0,,安心吧 刚才路过纸屋桥的伪电气白兰销售处
+Dialogue: 0,0:18:05.25,0:18:07.50,Default,NTP,0,0,0,,正好看到了一只狸猫
+Dialogue: 0,0:18:08.01,0:18:11.13,Default,NTP,0,0,0,,好像是我的一位朋友寄放在那里的
+Dialogue: 0,0:18:11.25,0:18:14.41,Default,NTP,0,0,0,,我为了预防这样的情况发生 已经事先派人去取了
+Dialogue: 0,0:18:14.70,0:18:18.00,Default,NTP,0,0,0,,今夜就用那个煮火锅吧
+Dialogue: 0,0:18:22.09,0:18:26.47,Default,NTP,0,0,0,,真是伤脑筋啊 看来要换地方了呢
+Dialogue: 0,0:18:27.26,0:18:28.45,Default,NTP,0,0,0,,换到哪好呢
+Dialogue: 0,0:18:29.37,0:18:32.32,Default,NTP,0,0,0,,终于有机会搭乘您那个自家用电车了吗
+Dialogue: 0,0:18:32.36,0:18:36.68,Default,NTP,0,0,0,,真遗憾 那个正好被送修了
+Dialogue: 0,0:18:37.02,0:18:39.11,Default,NTP,0,0,0,,也说不上是替代的
+Dialogue: 0,0:18:39.12,0:18:42.89,Default,NTP,0,0,0,,有个叫仙醉楼的 相当有风情的料理亭
+Dialogue: 0,0:18:43.22,0:18:47.92,Default,NTP,0,0,0,,为了预防发生这种事 我已经事先预定好了
+Dialogue: 0,0:18:47.94,0:18:49.67,Default,NTP,0,0,0,,等 等 等一下
+Dialogue: 0,0:18:49.77,0:18:52.70,Default,NTP,0,0,0,,我也可以去掺和一脚吗
+Dialogue: 0,0:18:52.96,0:18:54.55,Default,NTP,0,0,0,,啊拉 你也来？
+Dialogue: 0,0:18:54.88,0:18:58.61,Default,NTP,0,0,0,,我一直很想尝尝狸猫的味道
+Dialogue: 0,0:18:58.73,0:19:02.50,Default,NTP,0,0,0,,还有 请允许我看看笼子里的狸猫吧
+Dialogue: 0,0:19:02.57,0:19:06.24,Default,NTP,0,0,0,,我今生还没见过活生生的狸猫呢
+Dialogue: 0,0:19:08.95,0:19:13.07,Default,NTP,0,0,0,,我不介意哦 怎么样
+Dialogue: 0,0:19:13.61,0:19:16.66,Default,NTP,0,0,0,,既然弁天小姐都这么说了 好吧
+Dialogue: 0,0:19:17.42,0:19:21.43,Default,NTP,0,0,0,,不过相对的 你这么年轻 就拜托你出点力了
+Dialogue: 0,0:19:21.98,0:19:25.16,Default,NTP,0,0,0,,帮忙搬一下厨房里的伪电气白兰
+Dialogue: 0,0:19:25.42,0:19:28.69,Default,NTP,0,0,0,,搬到仙醉楼去
+Dialogue: 0,0:19:29.03,0:19:30.62,Default,NTP,0,0,0,,遵命
+Dialogue: 0,0:19:36.68,0:19:39.84,Default,NTP,0,0,0,,矢一郎临阵退缩逃跑了
+Dialogue: 0,0:19:40.10,0:19:43.62,Default,NTP,0,0,0,,那种胆小鬼就不用管了
+Dialogue: 0,0:19:45.64,0:19:48.70,Default,NTP,0,0,0,,没有来就没办法了
+Dialogue: 0,0:20:03.57,0:20:05.18,Default,NTP,0,0,0,,吵死了
+Dialogue: 0,0:20:07.30,0:20:11.33,Default,NTP,0,0,0,,把我扔在一边玩什么呢
+Dialogue: 0,0:20:11.59,0:20:14.77,Default,NTP,0,0,0,,十 十分抱歉
+Dialogue: 0,0:20:15.25,0:20:18.83,Default,NTP,0,0,0,,不知从哪里来了一阵邪风
+Dialogue: 0,0:20:18.94,0:20:21.72,Default,NTP,0,0,0,,难道是老师吹起的吗
+Dialogue: 0,0:20:21.74,0:20:23.99,Default,NTP,0,0,0,,说什么呢
+Dialogue: 0,0:20:24.12,0:20:26.94,Default,NTP,0,0,0,,你们以为老朽是谁
+Dialogue: 0,0:20:28.66,0:20:32.90,Default,NTP,0,0,0,,{\an8}话说回来 因为你们这些毛球那么求我来
+Dialogue: 0,0:20:32.91,0:20:36.26,Default,NTP,0,0,0,,{\an8}我才勉为其难的来的
+Dialogue: 0,0:20:29.66,0:20:30.80,Default,NTP,0,0,0,,干的好
+Dialogue: 0,0:20:34.19,0:20:35.69,Default,NTP,0,0,0,,那我进去了
+Dialogue: 0,0:20:36.18,0:20:40.07,Default,NTP,0,0,0,,你把扇子还给老师以后就藏起来
+Dialogue: 0,0:20:50.37,0:20:53.57,Default,NTP,0,0,0,,我来迟了 让您们久等了 真是十分抱歉
+Dialogue: 0,0:20:54.01,0:20:56.68,Default,NTP,0,0,0,,但是 这其中是有原因的
+Dialogue: 0,0:20:57.14,0:21:01.27,Default,NTP,0,0,0,,我直到刚才为止 都被星期五俱乐部关了起来
+Dialogue: 0,0:21:01.46,0:21:02.75,Default,NTP,0,0,0,,什么
+Dialogue: 0,0:21:04.06,0:21:08.94,Default,NTP,0,0,0,,要问我为什么会被星期五俱乐部抓到
+Dialogue: 0,0:21:09.32,0:21:13.70,Default,NTP,0,0,0,,一切都是我旁边的这位夷川早云的阴谋
+Dialogue: 0,0:21:14.12,0:21:16.75,Default,NTP,0,0,0,,早云他为了夺取伪右卫门之座
+Dialogue: 0,0:21:16.82,0:21:20.43,Default,NTP,0,0,0,,不仅将包括我的 所有下鸭家成员全部抓了起来
+Dialogue: 0,0:21:20.88,0:21:24.66,Default,NTP,0,0,0,,还把我关进了笼子 交给了星期五俱乐部
+Dialogue: 0,0:21:24.99,0:21:28.46,Default,NTP,0,0,0,,当真有辱我们狸猫一族的名声
+Dialogue: 0,0:21:28.72,0:21:30.59,Default,NTP,0,0,0,,真有此事吗
+Dialogue: 0,0:21:30.78,0:21:32.47,Default,NTP,0,0,0,,当然是他编出来骗人的
+Dialogue: 0,0:21:32.73,0:21:35.34,Default,NTP,0,0,0,,狸猫怎么会送狸猫去当火锅
+Dialogue: 0,0:21:35.43,0:21:37.50,Default,NTP,0,0,0,,我们又不是天狗和人类
+Dialogue: 0,0:21:37.51,0:21:40.69,Default,NTP,0,0,0,,这世上不会存在做这种 这么过分事情的狸猫的
+Dialogue: 0,0:21:41.08,0:21:43.98,Default,NTP,0,0,0,,为了给自己的迟到找借口
+Dialogue: 0,0:21:43.99,0:21:46.92,Default,NTP,0,0,0,,还恶意中伤于我
+Dialogue: 0,0:21:47.10,0:21:49.26,Default,NTP,0,0,0,,手段真是太肮脏了
+Dialogue: 0,0:21:49.45,0:21:52.13,Default,NTP,0,0,0,,他说的完全是空穴来风
+Dialogue: 0,0:21:52.30,0:21:53.58,Default,NTP,0,0,0,,我并无谎言
+Dialogue: 0,0:21:53.60,0:21:55.61,Default,NTP,0,0,0,,你有证据吗
+Dialogue: 0,0:21:56.89,0:21:58.99,Default,NTP,0,0,0,,大哥说的是事实
+Dialogue: 0,0:21:59.50,0:22:02.98,Default,NTP,0,0,0,,真正爬起来还真累啊 这个楼梯
+Dialogue: 0,0:22:02.99,0:22:04.55,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:22:04.58,0:22:08.04,Default,NTP,0,0,0,,啊拉 这不是下鸭矢二郎吗
+Dialogue: 0,0:22:08.28,0:22:10.84,Default,NTP,0,0,0,,好久不见了呢
+Dialogue: 0,0:22:11.03,0:22:12.73,Default,NTP,0,0,0,,他的话不可信
+Dialogue: 0,0:22:12.74,0:22:15.26,Default,NTP,0,0,0,,他也是下鸭家的人
+Dialogue: 0,0:22:15.30,0:22:19.21,Default,NTP,0,0,0,,你们合起伙来诬陷我吗
+Dialogue: 0,0:22:19.62,0:22:24.92,Default,NTP,0,0,0,,而且话说回来 你说我把你交给了星期五俱乐部
+Dialogue: 0,0:22:25.03,0:22:27.74,Default,NTP,0,0,0,,那么你怎么还会在这里
+Dialogue: 0,0:22:27.79,0:22:29.49,Default,NTP,0,0,0,,不是早就该成为了火锅了吗
+Dialogue: 0,0:22:29.50,0:22:32.61,Default,NTP,0,0,0,,嘘！旁边好像来人了
+Dialogue: 0,0:22:29.50,0:22:32.61,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:46.60,0:22:50.39,Default,NTP,0,0,0,,狸猫是无比热爱天下太平的生物
+Dialogue: 0,0:22:52.10,0:22:55.10,Default,NTP,0,0,0,,所谓的狸猫界的天下太平又是什么呢
+Dialogue: 0,0:22:56.13,0:22:59.26,Default,NTP,0,0,0,,其实那是只需在鸭川边上美美地睡上一觉
+Dialogue: 0,0:22:59.62,0:23:03.63,Default,NTP,0,0,0,,然后抬头仰望蓝天 就能得到手的东西
+Dialogue: 0,0:23:04.61,0:23:06.95,Default,NTP,0,0,0,,相当轻而易举就能得到的东西
+Dialogue: 0,0:23:08.50,0:23:09.88,Default,NTP,0,0,0,,虽然如此
+Dialogue: 0,0:23:10.56,0:23:14.34,Default,NTP,0,0,0,,我们现在身陷的情况又是怎么回事呢
+Dialogue: 0,0:23:17.31,0:23:20.22,Default,NTP,0,0,0,,虽也可说是傻瓜血脉的使然
+Dialogue: 0,0:23:21.37,0:23:24.53,Default,NTP,0,0,0,,不过作为狸猫这样真的可以吗
+Dialogue: 0,0:23:32.69,0:23:35.84,yugao,NTP,0,0,0,,狸猫 人类 加上天狗
+Dialogue: 0,0:23:36.13,0:23:38.64,yugao,NTP,0,0,0,,大团圆结局会顺利到来吗
+Dialogue: 0,0:23:38.92,0:23:41.93,yugao,NTP,0,0,0,,觉得有趣是件好事啊
+Dialogue: 0,0:23:39.28,0:23:41.94,next,NTP,0,0,0,,{\fad(500,0)\3a&HFF&\4c&H0D1E2A&\c&HDAA459&\pos(993,718)}有{\c&H9A7AD4&}顶{\c&H9EC33B&}天{\c&H08ACEF&}家{\c&HC28B97&}族
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+

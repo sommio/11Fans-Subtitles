@@ -1,0 +1,121 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Danna S1
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,0,2,30,30,10,134
+Style: zhushi,FZZhunYuan-M02,20,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,7,10,30,10,134
+Style: biaoti,方正粗倩_GBK,30,&H00F9F9F9,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: biaoti2,方正康体_GBK,30,&H001E1E1E,&HF0000000,&H00F8F8F8,&HF0000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: ed,FZCuYuan-M03,25,&H009D9EFF,&HF06060F4,&H00FFFFFF,&HF0000000,-1,0,0,0,100,100,0,0,1,5,0,2,30,30,2,134
+Style: Warning,FZZhunYuan-M02,15,&H00FFFFFF,&H000000FF,&H00000000,&H3C000000,0,0,0,0,100,100,0,0,1,1,1,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:17.59,0:01:20.89,Warning,,0,0,0,,{\an8}{\fad(400,600)}本片字幕由異域字幕組(http://www.yyman.com.cn)製作,僅供試看之用,請在24小時內刪除.
+Dialogue: 0,0:01:23.10,0:01:25.69,Warning,,0,0,0,,{\an8}{\fad(400,600)}如果喜歡本作品,請購買並支持正版!如因私自散佈造成的法律問題,本字幕組恕不負責.
+Dialogue: 0,0:00:00.00,0:00:02.98,biaoti,NTP,0,0,0,,{\pos(229,175)}關於完全聽不懂老公在說什麼的事
+Dialogue: 0,0:00:00.00,0:00:02.98,biaoti2,NTP,0,0,0,,{\pos(181,317)}我這個死宅\N弟弟不可能\N朋友這麼少（ry
+Dialogue: 0,0:00:00.00,0:00:02.98,biaoti2,NTP,0,0,0,,{\fs20\pos(305,359)}ry：以下省略（ikaryaku）的簡單寫法 讀作略（ryaku）
+Dialogue: 0,0:00:03.22,0:00:05.09,Default,NTP,0,0,0,,蛋黃蛋君貌似是個大學生
+Dialogue: 0,0:00:03.06,0:00:05.06,zhushi,NTP,0,0,0,,マヨタマ：蛋黄酱与蛋二词的连读
+Dialogue: 0,0:00:05.24,0:00:07.48,Default,NTP,0,0,0,,在下常被誤認為中學生
+Dialogue: 0,0:00:07.62,0:00:09.50,Default,NTP,0,0,0,,有參加社團什麼的麼
+Dialogue: 0,0:00:09.53,0:00:14.10,Default,NTP,0,0,0,,雖然說是報名了漫研 但在那反而畫不了漫畫
+Dialogue: 0,0:00:09.32,0:00:13.95,zhushi,NTP,0,0,0,,漫研：漫畫研究會的簡稱 就跟某些宅社掛羊頭賣狗肉一樣 在動畫興起漫畫沒落的年代認真研究怎麼畫漫畫的漫研反而成了稀有品
+Dialogue: 0,0:00:14.09,0:00:15.24,Default,NTP,0,0,0,,廢社嗎
+Dialogue: 0,0:00:13.99,0:00:15.36,zhushi,NTP,0,0,0,,雙關語梗 社團（sa-kuru）廢物（dasai） 連讀就是廢社（da-saikuru）
+Dialogue: 0,0:00:16.22,0:00:16.94,Default,NTP,0,0,0,,正是
+Dialogue: 0,0:00:17.22,0:00:19.37,Default,NTP,0,0,0,,渣渣？很帥？
+Dialogue: 0,0:00:17.20,0:00:19.49,zhushi,NTP,0,0,0,,而這裏是斷句梗 廢物（dasai）帥氣（ku-ru/cool）
+Dialogue: 0,0:00:19.62,0:00:23.09,Default,NTP,0,0,0,,概括來講就是只能一群人聚一起才能成事
+Dialogue: 0,0:00:23.37,0:00:25.01,Default,NTP,0,0,0,,那不行嗎？
+Dialogue: 0,0:00:25.33,0:00:29.01,Default,NTP,0,0,0,,只是在下認為SOLO更能輕鬆作畫而已
+Dialogue: 0,0:00:29.25,0:00:33.54,Default,NTP,0,0,0,,就像你這樣 從廢社掀桌走人反而容易被孤立 要注意
+Dialogue: 0,0:00:33.64,0:00:34.76,Default,NTP,0,0,0,,那是經驗談？
+Dialogue: 0,0:00:36.39,0:00:40.29,Default,NTP,0,0,0,,嘛反正蛋黃蛋君畫的也是那種漫畫
+Dialogue: 0,0:00:40.51,0:00:43.66,Default,NTP,0,0,0,,能對那種作品給予理解的才說得上是漫研
+Dialogue: 0,0:00:43.98,0:00:47.93,Default,NTP,0,0,0,,不跟他們一夥的朋友還是有的 還很多
+Dialogue: 0,0:00:48.64,0:00:49.52,Default,NTP,0,0,0,,在網上？
+Dialogue: 0,0:00:49.84,0:00:51.40,Default,NTP,0,0,0,,抱歉 說過了
+Dialogue: 0,0:00:51.72,0:00:52.68,Default,NTP,0,0,0,,兄長！
+Dialogue: 0,0:00:54.09,0:00:58.71,Default,NTP,0,0,0,,啊不過我結婚了 就算沒朋友只要有老婆在就行了唄
+Dialogue: 0,0:00:59.02,0:00:59.86,Default,NTP,0,0,0,,笨蛋……
+Dialogue: 0,0:00:59.88,0:01:01.12,Default,NTP,0,0,0,,被背叛了！
+Dialogue: 0,0:01:01.16,0:01:03.37,Default,NTP,0,0,0,,而且我還有朋友……
+Dialogue: 0,0:01:03.57,0:01:05.37,Default,NTP,0,0,0,,抱歉！真心抱歉
+Dialogue: 0,0:01:06.48,0:01:09.18,Default,NTP,0,0,0,,既然如此你我結拜摯友吧兄長！
+Dialogue: 0,0:01:09.41,0:01:10.42,Default,NTP,0,0,0,,就等這個了！
+Dialogue: 0,0:01:10.46,0:01:11.63,Default,NTP,0,0,0,,一起打遊戲
+Dialogue: 0,0:01:12.90,0:01:13.84,Default,NTP,0,0,0,,一起睡覺
+Dialogue: 0,0:01:14.22,0:01:15.77,Default,NTP,0,0,0,,一起洗澡
+Dialogue: 0,0:01:15.80,0:01:17.46,Default,NTP,0,0,0,,一起擼啊……
+Dialogue: 0,0:01:17.49,0:01:21.01,Default,NTP,0,0,0,,下一站 新秋津 下一站 新秋津
+Dialogue: 0,0:01:21.13,0:01:24.27,Default,NTP,0,0,0,,果然只要有網友的話就不用管現實了
+Dialogue: 0,0:01:25.58,0:01:29.02,Default,NTP,0,0,0,,下次有線下聚會 蛋黃蛋君也來不
+Dialogue: 0,0:01:29.55,0:01:30.90,Default,NTP,0,0,0,,地點是池袋
+Dialogue: 0,0:01:31.27,0:01:33.25,Default,NTP,0,0,0,,雖然離這很近 但……
+Dialogue: 0,0:01:34.72,0:01:37.15,Default,NTP,0,0,0,,大家好 我是幹事 命運滾粗
+Dialogue: 0,0:01:34.61,0:01:37.15,Default,NTP,0,0,0,,{\pos(403,327)}DestinyFucker
+Dialogue: 0,0:01:37.45,0:01:38.92,Default,NTP,0,0,0,,今天請多指教
+Dialogue: 0,0:01:39.25,0:01:41.03,Default,NTP,0,0,0,,請多指教
+Dialogue: 0,0:01:41.67,0:01:43.69,Default,NTP,0,0,0,,好像很帥氣唉
+Dialogue: 0,0:01:44.71,0:01:46.41,Default,NTP,0,0,0,,喲 你來露臉了啊
+Dialogue: 0,0:01:46.49,0:01:48.23,Default,NTP,0,0,0,,三木桑 你在幹啥
+Dialogue: 0,0:01:48.52,0:01:49.58,Default,NTP,0,0,0,,兄長的熟人？！
+Dialogue: 0,0:01:51.08,0:01:53.05,Default,NTP,0,0,0,,第一次參加線下聚會嗎？你妹妹
+Dialogue: 0,0:01:53.36,0:01:54.55,Default,NTP,0,0,0,,好可愛啊
+Dialogue: 0,0:01:54.83,0:01:57.11,Default,NTP,0,0,0,,你好 我是他妹妹 名叫蛋黃蛋
+Dialogue: 0,0:01:57.48,0:01:59.30,Default,NTP,0,0,0,,啊！你就是那個！
+Dialogue: 0,0:01:58.84,0:02:00.09,Default,NTP,0,0,0,,{\c&H545E63&\3c&HDEE2E4&\fn@方正准圆_GBK\frz270\pos(401,279)}說明一下
+Dialogue: 0,0:02:00.09,0:02:01.35,Default,NTP,0,0,0,,{\c&H545E63&\3c&HDEE2E4&\fn@方正准圆_GBK\frz270\pos(409,283)}蛋黃蛋氏乃
+Dialogue: 0,0:02:01.35,0:02:02.60,Default,NTP,0,0,0,,{\c&H545E63&\3c&HDEE2E4&\fn@方正准圆_GBK\frz270\pos(391,317)}網上人妖
+Dialogue: 0,0:02:01.43,0:02:02.68,zhushi,NTP,0,0,0,,網上人妖：新詞 指在網絡上扮演女性的男性 由網絡（netto）人妖（okama）組合而成 順帶現在人妖一詞由於多少的貶義而被阿姐（onee）取代
+Dialogue: 0,0:02:03.74,0:02:05.88,Default,NTP,0,0,0,,我看過蛋黃蛋老師出的本哦
+Dialogue: 0,0:02:06.43,0:02:08.15,Default,NTP,0,0,0,,您叫我老師真是過獎了
+Dialogue: 0,0:02:08.36,0:02:12.66,Default,NTP,0,0,0,,很好 如果以三木桑為中心形成圈子的話 自然也就能交到朋友了吧
+Dialogue: 0,0:02:13.08,0:02:14.78,Default,NTP,0,0,0,,按照俺妹那個劇情套路來想的話！
+Dialogue: 0,0:02:15.28,0:02:16.86,Default,NTP,0,0,0,,剩下的……嗯
+Dialogue: 0,0:02:17.12,0:02:19.45,Default,NTP,0,0,0,,也就是再忍幾小時這鬼氣氛吧
+Dialogue: 0,0:02:19.89,0:02:23.94,Default,NTP,0,0,0,,說起來新本我看過了 抽插場景比平時清水了不少啊
+Dialogue: 0,0:02:24.63,0:02:28.92,Default,NTP,0,0,0,,因為加了新讀者而讓劇情不太突兀了嗎？
+Dialogue: 0,0:02:29.22,0:02:34.57,Default,NTP,0,0,0,,雖然讀者多了是好事 但也得好好畫自己喜歡的玩意啊
+Dialogue: 0,0:02:34.91,0:02:37.05,Default,NTP,0,0,0,,啊 是不是有點太上帝視角了
+Dialogue: 0,0:02:37.05,0:02:38.45,Default,NTP,0,0,0,,沒那回事
+Dialogue: 0,0:02:39.68,0:02:42.29,Default,NTP,0,0,0,,喂 你那妹妹真是個坦誠的好妹子啊
+Dialogue: 0,0:02:42.32,0:02:44.30,Default,NTP,0,0,0,,我可能會真去泡了哦
+Dialogue: 0,0:02:45.26,0:02:46.32,Default,NTP,0,0,0,,給予我權利了！
+Dialogue: 0,0:02:46.39,0:02:47.39,biaoti2,NTP,0,0,0,,{\pos(586,309)}回家
+Dialogue: 0,0:02:46.39,0:02:47.39,zhushi,NTP,0,0,0,,梗自藍胖子
+Dialogue: 0,0:02:47.62,0:02:49.81,Default,NTP,0,0,0,,唉~就是說交到朋友了啊
+Dialogue: 0,0:02:50.24,0:02:51.81,Default,NTP,0,0,0,,一件解決
+Dialogue: 0,0:02:52.23,0:02:55.07,Default,NTP,0,0,0,,說起來 那個叫三木的人不是朋友嗎
+Dialogue: 0,0:02:55.16,0:02:57.98,Default,NTP,0,0,0,,不 那個人與其說是朋友……
+Dialogue: 0,0:02:58.78,0:02:59.65,Default,NTP,0,0,0,,應該叫活祭品？
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:03:00.15,0:03:03.66,ed,NTP,0,0,0,,{\k96}我{\k58}想{\k20}讓{\k27}你{\k150}~
+Dialogue: 0,0:03:03.66,0:03:08.16,ed,NTP,0,0,0,,{\k75}給{\k75}我{\k75}適{\k75}可{\k64}而{\k86}止
+Dialogue: 0,0:03:08.16,0:03:14.17,ed,NTP,0,0,0,,{\k60\c&HA9EB95&}和{\k53}你{\k64}在{\k47}一{\k54}起{\k8} {\k13}{\k47}總{\k51}覺{\k44}得{\k51}很{\k39}有{\k70}趣
+Dialogue: 0,0:03:14.17,0:03:21.93,ed,NTP,0,0,0,,{\k65}兩{\k65}個{\k65}人{\k65}在{\k65}一{\k64}起{\k64} {\k1}{\k65}非{\k65}常{\k64}的{\k64}開{\k64}心
+Dialogue: 0,0:03:21.93,0:03:27.68,ed,NTP,0,0,0,,無論怎麼 現在還是幸福的
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+

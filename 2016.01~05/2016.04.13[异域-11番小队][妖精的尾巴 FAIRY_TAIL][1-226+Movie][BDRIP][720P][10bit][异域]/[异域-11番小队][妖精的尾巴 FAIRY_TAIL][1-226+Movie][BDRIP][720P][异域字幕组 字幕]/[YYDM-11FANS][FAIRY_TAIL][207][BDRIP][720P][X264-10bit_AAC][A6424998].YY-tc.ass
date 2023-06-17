@@ -1,0 +1,397 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 妖精的尾巴 新系列 207
+Original Script: 异域字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 残雪@YYDM-11FANS
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZCuYuan-M03,47,&H00FFFFFF,&H000000FF,&H1E000000,&H28000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: opc,方正黑体_GBK,32,&H00FFFCEA,&H000000FF,&H1972582D,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
+Style: edc,方正黑体_GBK,32,&H0AD5F4FF,&H000000FF,&H141B65CB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Warning,方正大黑_GBK,25,&H00FFFFFF,&HFF0000FF,&H00000000,&HFF000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: Title,方正北魏楷书_GBK,65,&H00FFFFFF,&H000000FF,&H64000000,&H78000000,-1,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.90,0:00:07.65,Default,NTP,0,0,0,,真是個熱鬧的街道啊
+Dialogue: 0,0:00:08.07,0:00:10.07,Default,NTP,0,0,0,,因為是港灣城市吧 南瓜
+Dialogue: 0,0:00:13.53,0:00:15.95,Default,NTP,0,0,0,,總覺得好像很多人在對我們行注目禮的說
+Dialogue: 0,0:00:16.37,0:00:17.99,Default,NTP,0,0,0,,比起這個 公主
+Dialogue: 0,0:00:18.70,0:00:23.96,Default,NTP,0,0,0,,戴上這個面具的時候 句尾一定要加上南瓜才行 南瓜
+Dialogue: 0,0:00:24.29,0:00:25.71,Default,NTP,0,0,0,,我知道了…
+Dialogue: 0,0:00:25.79,0:00:29.30,Default,NTP,0,0,0,,但是 果然還是有點牴觸心理…南瓜
+Dialogue: 0,0:00:29.46,0:00:34.63,Default,NTP,0,0,0,,啊 好好吃的樣子 到處都是
+Dialogue: 0,0:00:35.22,0:00:38.18,Default,NTP,0,0,0,,都是在王宮裏吃不到的東西呢
+Dialogue: 0,0:00:40.77,0:00:41.52,Default,NTP,0,0,0,,公主
+Dialogue: 0,0:00:41.81,0:00:46.85,Default,NTP,0,0,0,,啊 對不起 不是高興這些的時候呢…
+Dialogue: 0,0:00:47.10,0:00:48.27,Default,NTP,0,0,0,,句尾請加上 南瓜
+Dialogue: 0,0:00:48.67,0:00:49.90,Default,NTP,0,0,0,,你是吐槽這個啊
+Dialogue: 0,0:00:50.27,0:00:50.82,Default,NTP,0,0,0,,咦？
+Dialogue: 0,0:00:51.98,0:00:54.86,Default,NTP,0,0,0,,我說有似曾相識的味道 過來一看
+Dialogue: 0,0:00:55.07,0:00:57.70,Default,NTP,0,0,0,,為什麼有兩個南瓜君
+Dialogue: 0,0:00:58.24,0:01:00.45,Default,NTP,0,0,0,,話說 那個戴南瓜面具的是…
+Dialogue: 0,0:01:00.87,0:01:02.04,Default,NTP,0,0,0,,國王殿下？
+Dialogue: 0,0:01:03.33,0:01:05.66,Default,NTP,0,0,0,,那麼 國王到這裏來了？
+Dialogue: 0,0:01:05.75,0:01:07.04,Default,NTP,0,0,0,,而且還是兩位？
+Dialogue: 0,0:01:07.79,0:01:09.13,Default,NTP,0,0,0,,不 不是的
+Dialogue: 0,0:01:09.38,0:01:10.96,Default,NTP,0,0,0,,是我們 南瓜
+Dialogue: 0,0:01:11.30,0:01:12.34,Default,NTP,0,0,0,,翡翠公主
+Dialogue: 0,0:01:13.02,0:01:14.73,Default,NTP,0,0,0,,還有阿盧迦迪歐斯大人
+Dialogue: 0,0:02:47.39,0:02:49.04,Default,NTP,0,0,0,,各位 好久不見了
+Dialogue: 0,0:02:50.20,0:02:51.54,Default,NTP,0,0,0,,大魔斗比武之後就沒見了
+Dialogue: 0,0:02:51.65,0:02:52.85,Default,NTP,0,0,0,,是的說
+Dialogue: 0,0:02:53.14,0:02:55.52,Default,NTP,0,0,0,,但是 公主殿下為什麼會來這裏
+Dialogue: 0,0:02:55.63,0:02:57.57,Default,NTP,0,0,0,,這正是我們要說的
+Dialogue: 0,0:02:58.06,0:03:02.04,Default,NTP,0,0,0,,我們正要去妖精的尾巴呢
+Dialogue: 0,0:03:02.25,0:03:04.76,Default,NTP,0,0,0,,夏你們才是 怎麼會來這裏
+Dialogue: 0,0:03:05.04,0:03:07.95,Default,NTP,0,0,0,,那個…說來話長啊
+Dialogue: 0,0:03:08.47,0:03:10.15,Default,NTP,0,0,0,,我來說明一下吧
+Dialogue: 0,0:03:11.27,0:03:16.15,Default,NTP,0,0,0,,某一日 黃道十二門的金鑰匙都不能使用了
+Dialogue: 0,0:03:16.45,0:03:19.74,Default,NTP,0,0,0,,甚至 已經和我們簽訂契約的黃道十二門的星靈們
+Dialogue: 0,0:03:19.78,0:03:24.07,Default,NTP,0,0,0,,出現在我面前 單方面宣稱解除契約
+Dialogue: 0,0:03:24.91,0:03:29.31,Default,NTP,0,0,0,,我們查出他們要去一個叫「星靈·精神」的地方
+Dialogue: 0,0:03:29.50,0:03:34.74,Default,NTP,0,0,0,,舉行尋求完全自由的儀式 自由儀式
+Dialogue: 0,0:03:35.14,0:03:38.65,Default,NTP,0,0,0,,但同時 我們也知道了星靈們在得到完全自由之後
+Dialogue: 0,0:03:38.80,0:03:42.82,Default,NTP,0,0,0,,僅有12天的壽命
+Dialogue: 0,0:03:44.80,0:03:52.49,Default,NTP,0,0,0,,所以我們正在尋找 傳說位於瑪古諾利亞南面的「星靈·精神」
+Dialogue: 0,0:03:52.78,0:03:53.75,Default,NTP,0,0,0,,這樣啊…
+Dialogue: 0,0:03:54.02,0:03:57.51,Default,NTP,0,0,0,,星靈界的異變 雖然我們自己也查出了一些線索
+Dialogue: 0,0:03:57.66,0:04:00.24,Default,NTP,0,0,0,,但沒想到星靈們的動作會那麼快
+Dialogue: 0,0:04:01.09,0:04:05.44,Default,NTP,0,0,0,,其實 星靈們變得奇怪…
+Dialogue: 0,0:04:05.59,0:04:07.07,Default,NTP,0,0,0,,可能是因為我
+Dialogue: 0,0:04:07.41,0:04:08.19,Default,NTP,0,0,0,,啥？
+Dialogue: 0,0:04:08.47,0:04:09.93,Default,NTP,0,0,0,,這是怎麼回事
+Dialogue: 0,0:04:13.85,0:04:17.14,Default,NTP,0,0,0,,事情應該是從日蝕計劃開始的
+Dialogue: 0,0:04:17.24,0:04:18.70,Default,NTP,0,0,0,,日蝕計劃
+Dialogue: 0,0:04:18.85,0:04:20.07,Default,NTP,0,0,0,,但是那個不是…
+Dialogue: 0,0:04:20.27,0:04:22.28,Default,NTP,0,0,0,,已經完全結束了才對啊
+Dialogue: 0,0:04:22.65,0:04:25.99,Default,NTP,0,0,0,,不 還沒有結束…
+Dialogue: 0,0:04:26.88,0:04:28.55,Default,NTP,0,0,0,,不如說才剛剛開始
+Dialogue: 0,0:04:29.15,0:04:30.04,Default,NTP,0,0,0,,剛剛開始？
+Dialogue: 0,0:04:31.15,0:04:31.75,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:04:37.38,0:04:43.32,Default,NTP,0,0,0,,使龍穿越400年的時間 召喚到這裏來的「日蝕之門」
+Dialogue: 0,0:04:43.69,0:04:47.42,Default,NTP,0,0,0,,雖然已經因魔法師們的活躍表現而被破壞
+Dialogue: 0,0:04:49.72,0:04:55.52,Default,NTP,0,0,0,,但是其強大的力量已經波及到了自然界
+Dialogue: 0,0:04:55.64,0:04:58.77,Default,NTP,0,0,0,,所以才會出現天氣異常
+Dialogue: 0,0:05:00.54,0:05:05.94,Default,NTP,0,0,0,,也就是說 各地出現的天氣異常都是日蝕計劃的後遺癥？
+Dialogue: 0,0:05:06.35,0:05:10.12,Default,NTP,0,0,0,,嗯 但是事情並不止於此
+Dialogue: 0,0:05:10.48,0:05:15.73,Default,NTP,0,0,0,,強大的力量已經穿越時空 波及到星靈界了
+Dialogue: 0,0:05:16.11,0:05:17.68,Default,NTP,0,0,0,,連星靈界也…
+Dialogue: 0,0:05:17.92,0:05:21.20,Default,NTP,0,0,0,,所以黃道十二門的星靈們才會…
+Dialogue: 0,0:05:24.42,0:05:28.68,Title,NTP,0,0,0,,{\blur3\pos(640,450)\fad(524,0}翡翠奮起
+Dialogue: 0,0:05:30.53,0:05:33.52,Default,NTP,0,0,0,,我所指揮執行的日蝕計劃
+Dialogue: 0,0:05:33.70,0:05:36.21,Default,NTP,0,0,0,,已經讓世界瀕臨毀滅
+Dialogue: 0,0:05:37.21,0:05:39.90,Default,NTP,0,0,0,,僅憑這一點就已經不可原諒了…
+Dialogue: 0,0:05:40.17,0:05:41.85,Default,NTP,0,0,0,,這次卻連星靈界都…
+Dialogue: 0,0:05:43.38,0:05:46.28,Default,NTP,0,0,0,,全都是…我的錯
+Dialogue: 0,0:05:47.65,0:05:48.65,Default,NTP,0,0,0,,翡翠公主
+Dialogue: 0,0:05:50.60,0:05:53.03,Default,NTP,0,0,0,,你是特意來謝罪的嗎
+Dialogue: 0,0:05:53.65,0:05:55.04,Default,NTP,0,0,0,,都說了是已經完結了的事
+Dialogue: 0,0:05:55.20,0:05:57.48,Default,NTP,0,0,0,,那個時候該做的事情都做完了
+Dialogue: 0,0:05:57.68,0:05:59.01,Default,NTP,0,0,0,,這樣就可以了吧
+Dialogue: 0,0:05:59.50,0:06:02.39,Default,NTP,0,0,0,,對對 就如夏所說
+Dialogue: 0,0:06:05.55,0:06:07.24,Default,NTP,0,0,0,,謝謝
+Dialogue: 0,0:06:07.52,0:06:10.29,Default,NTP,0,0,0,,其實 大魔斗比武之後
+Dialogue: 0,0:06:10.35,0:06:13.16,Default,NTP,0,0,0,,我也依然認為這都是自己的責任而很消沉
+Dialogue: 0,0:06:13.45,0:06:17.83,Default,NTP,0,0,0,,但我回想起那時夏所說的話 而得到了救贖
+Dialogue: 0,0:06:17.92,0:06:19.07,Default,NTP,0,0,0,,那個時候？
+Dialogue: 0,0:06:19.57,0:06:20.96,Default,NTP,0,0,0,,我的話…
+Dialogue: 0,0:06:21.19,0:06:21.86,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:06:23.63,0:06:26.02,Default,NTP,0,0,0,,為了全力活在當下
+Dialogue: 0,0:06:28.45,0:06:32.08,Default,NTP,0,0,0,,多虧了你 我才能繼續向前看
+Dialogue: 0,0:06:33.04,0:06:38.45,Default,NTP,0,0,0,,所以 當知道日蝕計劃已經波及到星靈界的時候
+Dialogue: 0,0:06:38.81,0:06:40.71,Default,NTP,0,0,0,,我也明白一直自責並不能解決問題
+Dialogue: 0,0:06:41.25,0:06:43.24,Default,NTP,0,0,0,,為了全力活在當下
+Dialogue: 0,0:06:43.84,0:06:45.86,Default,NTP,0,0,0,,我製作了新的鑰匙
+Dialogue: 0,0:06:46.76,0:06:47.59,Default,NTP,0,0,0,,鑰匙？
+Dialogue: 0,0:06:51.79,0:06:52.51,Default,NTP,0,0,0,,這是？
+Dialogue: 0,0:06:53.28,0:06:57.71,Default,NTP,0,0,0,,是能讓黃道十二門的星靈們強制關門的鑰匙
+Dialogue: 0,0:06:58.61,0:07:00.05,Default,NTP,0,0,0,,強制關門？
+Dialogue: 0,0:07:00.28,0:07:01.27,Default,NTP,0,0,0,,對了！
+Dialogue: 0,0:07:01.82,0:07:06.17,Default,NTP,0,0,0,,可以強制關門的話 就能在變奇怪了的星靈們現身的時候
+Dialogue: 0,0:07:06.29,0:07:08.86,Default,NTP,0,0,0,,將它們強制送回星靈界
+Dialogue: 0,0:07:09.29,0:07:12.99,Default,NTP,0,0,0,,這樣一來 就可以避免無謂的戰鬥了
+Dialogue: 0,0:07:13.25,0:07:18.15,Default,NTP,0,0,0,,是的 有了這些鑰匙 就能救星靈們了
+Dialogue: 0,0:07:19.88,0:07:20.61,Default,NTP,0,0,0,,太好了
+Dialogue: 0,0:07:21.16,0:07:22.04,Default,NTP,0,0,0,,請等一下
+Dialogue: 0,0:07:23.02,0:07:27.29,Default,NTP,0,0,0,,剛才公主殿下說製作了這些鑰匙
+Dialogue: 0,0:07:27.43,0:07:28.96,Default,NTP,0,0,0,,為什麼能做到這樣的事
+Dialogue: 0,0:07:29.21,0:07:30.15,Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:07:30.47,0:07:33.27,Default,NTP,0,0,0,,只是可以強制關門就已經很厲害了
+Dialogue: 0,0:07:33.46,0:07:35.44,Default,NTP,0,0,0,,還要做這樣的鑰匙…
+Dialogue: 0,0:07:36.08,0:07:39.17,Default,NTP,0,0,0,,因為我 也是一名星靈魔法師
+Dialogue: 0,0:07:40.99,0:07:46.13,Default,NTP,0,0,0,,說起來 日蝕計劃中做出日蝕之門的就是翡翠公主
+Dialogue: 0,0:07:46.22,0:07:50.17,Default,NTP,0,0,0,,那個門是澤雷夫書中的魔法和星靈魔法一起…
+Dialogue: 0,0:07:50.69,0:07:52.35,Default,NTP,0,0,0,,這麼一說的話 確實能夠接受了…
+Dialogue: 0,0:07:53.37,0:07:57.07,Default,NTP,0,0,0,,但是 這鑰匙還不能使用
+Dialogue: 0,0:07:57.59,0:07:58.39,Default,NTP,0,0,0,,要說為什麼的話…
+Dialogue: 0,0:08:08.51,0:08:10.45,Default,NTP,0,0,0,,鑰匙我們沒收了
+Dialogue: 0,0:08:10.77,0:08:12.91,Default,NTP,0,0,0,,那個混蛋是什麼東西啊
+Dialogue: 0,0:08:13.31,0:08:14.80,Default,NTP,0,0,0,,真厲害真厲害
+Dialogue: 0,0:08:32.09,0:08:36.52,Default,NTP,0,0,0,,是魚…吧 露西
+Dialogue: 0,0:08:36.85,0:08:38.61,Default,NTP,0,0,0,,不要問我啦
+Dialogue: 0,0:08:39.78,0:08:40.74,Default,NTP,0,0,0,,那兩個傢伙…
+Dialogue: 0,0:08:41.45,0:08:43.18,Default,NTP,0,0,0,,真是太厲害了 寶貝
+Dialogue: 0,0:08:43.31,0:08:45.05,Default,NTP,0,0,0,,吵死了 老太婆
+Dialogue: 0,0:08:45.17,0:08:48.06,Default,NTP,0,0,0,,老 老太婆 太過分了
+Dialogue: 0,0:08:48.22,0:08:51.96,Default,NTP,0,0,0,,居然這樣稱呼你的母親 真是太過分了
+Dialogue: 0,0:08:52.18,0:08:55.29,Default,NTP,0,0,0,,哭給你看哦 看我這涓涓的淚水
+Dialogue: 0,0:08:55.38,0:08:57.68,Default,NTP,0,0,0,,我哭…我哭…
+Dialogue: 0,0:08:58.55,0:09:01.91,Default,NTP,0,0,0,,好像在演很奇怪的親子相聲一樣啊…
+Dialogue: 0,0:09:01.99,0:09:04.32,Default,NTP,0,0,0,,那兩個傢伙真的是母子嗎
+Dialogue: 0,0:09:04.44,0:09:06.64,Default,NTP,0,0,0,,是的 沒有錯
+Dialogue: 0,0:09:06.93,0:09:11.24,Default,NTP,0,0,0,,那兩個人是和我定下契約的黃道十二門的星靈
+Dialogue: 0,0:09:11.61,0:09:13.49,Default,NTP,0,0,0,,母子一體的比斯凱斯
+Dialogue: 0,0:09:13.98,0:09:15.45,Default,NTP,0,0,0,,哎 就那個？
+Dialogue: 0,0:09:15.96,0:09:19.11,Default,NTP,0,0,0,,我都說過了不要叫我寶貝了吧
+Dialogue: 0,0:09:20.49,0:09:22.21,Default,NTP,0,0,0,,好厲害 好厲害
+Dialogue: 0,0:09:22.48,0:09:26.01,Default,NTP,0,0,0,,話說你這樣發怒的臉也好可愛
+Dialogue: 0,0:09:26.30,0:09:28.89,Default,NTP,0,0,0,,他們也變化好大啊
+Dialogue: 0,0:09:29.07,0:09:31.75,Default,NTP,0,0,0,,明明以前那樣更美味的說
+Dialogue: 0,0:09:32.00,0:09:34.57,Default,NTP,0,0,0,,那是化為魚形的時候吧
+Dialogue: 0,0:09:34.73,0:09:36.36,Default,NTP,0,0,0,,我記得真正的姿態是…
+Dialogue: 0,0:09:38.18,0:09:41.06,Default,NTP,0,0,0,,在這個姿態下被召喚也就是…媽媽
+Dialogue: 0,0:09:41.25,0:09:43.37,Default,NTP,0,0,0,,消滅敵人 寶貝
+Dialogue: 0,0:09:44.19,0:09:47.09,Default,NTP,0,0,0,,果然是受日蝕計劃的影響
+Dialogue: 0,0:09:50.24,0:09:52.75,Default,NTP,0,0,0,,比斯凱斯 把鑰匙還給我們
+Dialogue: 0,0:09:55.39,0:10:01.51,Default,NTP,0,0,0,,那個是拯救你們黃道十二門星靈的重要的鑰匙
+Dialogue: 0,0:10:02.64,0:10:05.60,Default,NTP,0,0,0,,雖然我們以前好像和你締結過契約
+Dialogue: 0,0:10:05.84,0:10:07.22,Default,NTP,0,0,0,,但那已經被解除了
+Dialogue: 0,0:10:07.43,0:10:09.75,Default,NTP,0,0,0,,我們已經沒有關繫了
+Dialogue: 0,0:10:10.61,0:10:12.15,Default,NTP,0,0,0,,沒有關繫了…
+Dialogue: 0,0:10:12.78,0:10:16.79,Default,NTP,0,0,0,,寶貝 反正鑰匙也拿到了 我們也沒有必要待在這裏了
+Dialogue: 0,0:10:17.05,0:10:20.44,Default,NTP,0,0,0,,不 我還想再玩一會兒 特別是和這個傢伙
+Dialogue: 0,0:10:20.94,0:10:23.00,Default,NTP,0,0,0,,滅龍魔法師 夏
+Dialogue: 0,0:10:23.59,0:10:26.81,Default,NTP,0,0,0,,把人家說得跟一坨假髮一樣
+Dialogue: 0,0:10:27.11,0:10:30.20,Default,NTP,0,0,0,,我這次一定要把你們打回原形
+Dialogue: 0,0:10:30.71,0:10:34.36,Default,NTP,0,0,0,,順便 把鑰匙還回來
+Dialogue: 0,0:10:34.57,0:10:35.67,Default,NTP,0,0,0,,好的說
+Dialogue: 0,0:10:38.42,0:10:39.12,Default,NTP,0,0,0,,在這裏
+Dialogue: 0,0:10:39.70,0:10:41.85,Default,NTP,0,0,0,,真可靠 寶貝
+Dialogue: 0,0:10:43.33,0:10:44.70,Default,NTP,0,0,0,,給我等一下
+Dialogue: 0,0:10:44.98,0:10:46.04,Default,NTP,0,0,0,,我們也走吧
+Dialogue: 0,0:10:46.69,0:10:48.93,Default,NTP,0,0,0,,不 這裏請交給我
+Dialogue: 0,0:10:49.37,0:10:51.72,Default,NTP,0,0,0,,露西大人去保護公主殿下
+Dialogue: 0,0:10:51.98,0:10:52.53,Default,NTP,0,0,0,,但是
+Dialogue: 0,0:10:53.01,0:10:55.78,Default,NTP,0,0,0,,我還有可以戰鬥的星靈
+Dialogue: 0,0:10:56.42,0:10:57.64,Default,NTP,0,0,0,,既然如此 露
+Dialogue: 0,0:10:57.87,0:10:59.67,Default,NTP,0,0,0,,我也去幫助雪乃
+Dialogue: 0,0:11:00.87,0:11:02.31,Default,NTP,0,0,0,,我知道了 拜託你們了
+Dialogue: 0,0:11:10.40,0:11:12.75,Default,NTP,0,0,0,,休想干擾我的寶貝
+Dialogue: 0,0:11:13.16,0:11:16.40,Default,NTP,0,0,0,,你們的對手是人家
+Dialogue: 0,0:11:19.23,0:11:23.82,Default,NTP,0,0,0,,現在馬上把重要的鑰匙還回來 就饒你不死
+Dialogue: 0,0:11:24.07,0:11:24.89,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:11:25.54,0:11:30.28,Default,NTP,0,0,0,,如果你說不使用魔力戰鬥的話 那就隨便你吧
+Dialogue: 0,0:11:30.53,0:11:32.38,Default,NTP,0,0,0,,哈？我才沒有說過
+Dialogue: 0,0:11:32.62,0:11:33.50,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:11:34.17,0:11:36.47,Default,NTP,0,0,0,,如果你使用了魔力
+Dialogue: 0,0:11:36.53,0:11:41.58,Default,NTP,0,0,0,,我就一點點散佈你是個騙子魔法師的傳聞
+Dialogue: 0,0:11:41.77,0:11:46.57,Default,NTP,0,0,0,,如果你那麼害怕我的魔力 那就讓你直接嘗嘗吧
+Dialogue: 0,0:11:47.55,0:11:48.27,Default,NTP,0,0,0,,河童
+Dialogue: 0,0:11:49.39,0:11:49.95,Default,NTP,0,0,0,,啥
+Dialogue: 0,0:11:50.12,0:11:52.41,Default,NTP,0,0,0,,從河童的手裏出來了什麼
+Dialogue: 0,0:11:52.81,0:11:54.45,Default,NTP,0,0,0,,不要叫河童
+Dialogue: 0,0:11:54.87,0:11:56.97,Default,NTP,0,0,0,,你自己還不是也在叫河童嘛！
+Dialogue: 0,0:11:57.98,0:12:00.83,Default,NTP,0,0,0,,這是我的時尚道具
+Dialogue: 0,0:12:01.14,0:12:02.02,Default,NTP,0,0,0,,哪裏時尚了…
+Dialogue: 0,0:12:02.81,0:12:03.63,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:12:04.47,0:12:08.90,Default,NTP,0,0,0,,要是你說先讓對手打一拳 衡量一下對方的實力
+Dialogue: 0,0:12:09.24,0:12:10.80,Default,NTP,0,0,0,,那就這麼辦吧
+Dialogue: 0,0:12:11.88,0:12:13.66,Default,NTP,0,0,0,,所以我才沒說那種話啊！
+Dialogue: 0,0:12:13.75,0:12:14.60,Default,NTP,0,0,0,,河童！
+Dialogue: 0,0:12:24.07,0:12:25.41,Default,NTP,0,0,0,,夏！
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:12:34.75,0:12:36.37,Default,NTP,0,0,0,,人家上了哦
+Dialogue: 0,0:12:37.11,0:12:38.21,Default,NTP,0,0,0,,先讓我來…
+Dialogue: 0,0:12:38.66,0:12:39.28,Default,NTP,0,0,0,,拜託你了
+Dialogue: 0,0:12:39.98,0:12:42.63,Default,NTP,0,0,0,,開啟吧 小熊座的門扉 波拉利斯
+Dialogue: 0,0:12:46.78,0:12:48.55,Default,NTP,0,0,0,,熊
+Dialogue: 0,0:12:48.81,0:12:50.73,Default,NTP,0,0,0,,好大！而且是金屬的？
+Dialogue: 0,0:12:53.04,0:12:56.73,Default,NTP,0,0,0,,管你是金屬還是烏龜我都吃定了
+Dialogue: 0,0:13:01.91,0:13:02.56,Default,NTP,0,0,0,,好厲害
+Dialogue: 0,0:13:02.78,0:13:04.08,Default,NTP,0,0,0,,比力量是不會輸的
+Dialogue: 0,0:13:04.73,0:13:06.53,Default,NTP,0,0,0,,好厲害 好厲害
+Dialogue: 0,0:13:13.81,0:13:14.94,Default,NTP,0,0,0,,意外地弱啊…
+Dialogue: 0,0:13:15.82,0:13:16.95,Default,NTP,0,0,0,,還沒結束呢
+Dialogue: 0,0:13:17.41,0:13:18.23,Default,NTP,0,0,0,,也是啊
+Dialogue: 0,0:13:18.82,0:13:20.39,Default,NTP,0,0,0,,波拉利斯 power up
+Dialogue: 0,0:13:22.12,0:13:25.72,Default,NTP,0,0,0,,用蜂蜜代替油
+Dialogue: 0,0:13:29.43,0:13:30.71,Default,NTP,0,0,0,,最強
+Dialogue: 0,0:13:32.82,0:13:34.25,Default,NTP,0,0,0,,真是個可愛的孩子
+Dialogue: 0,0:13:34.72,0:13:37.77,Default,NTP,0,0,0,,但是好孩子吃了午飯就應該睡午覺咯
+Dialogue: 0,0:13:38.01,0:13:40.57,Default,NTP,0,0,0,,這位寶貝是好孩子 還是壞孩子呢
+Dialogue: 0,0:13:41.05,0:13:43.49,Default,NTP,0,0,0,,我是好孩子
+Dialogue: 0,0:13:43.65,0:13:46.69,Default,NTP,0,0,0,,吃了飯要睡午覺
+Dialogue: 0,0:13:46.81,0:13:48.45,Default,NTP,0,0,0,,好厲害 好厲害
+Dialogue: 0,0:13:48.92,0:13:50.25,Default,NTP,0,0,0,,又是這麼快…
+Dialogue: 0,0:13:50.39,0:13:51.55,Default,NTP,0,0,0,,不行 快起來
+Dialogue: 0,0:13:51.94,0:13:54.10,Default,NTP,0,0,0,,那我也開始用餐了哦
+Dialogue: 0,0:13:54.93,0:13:56.40,Default,NTP,0,0,0,,這次我來當你的對手
+Dialogue: 0,0:13:56.71,0:13:59.38,Default,NTP,0,0,0,,蕾比大人 皮斯克斯的弱點是水
+Dialogue: 0,0:13:59.78,0:14:00.38,Default,NTP,0,0,0,,OK
+Dialogue: 0,0:14:00.97,0:14:03.08,Default,NTP,0,0,0,,立體文字 WATER
+Dialogue: 0,0:14:05.51,0:14:07.26,Default,NTP,0,0,0,,我開動了
+Dialogue: 0,0:14:10.16,0:14:12.55,Default,NTP,0,0,0,,奇怪 應該是弱點才對啊…
+Dialogue: 0,0:14:15.98,0:14:17.36,Default,NTP,0,0,0,,夏 沒事吧
+Dialogue: 0,0:14:18.38,0:14:22.53,Default,NTP,0,0,0,,嗯 他那種奇怪的說話方式真讓人受不了
+Dialogue: 0,0:14:22.69,0:14:27.67,Default,NTP,0,0,0,,我明白了 就停止毫無意義的戰鬥 把鑰匙還給你
+Dialogue: 0,0:14:28.00,0:14:28.82,Default,NTP,0,0,0,,真的假的
+Dialogue: 0,0:14:29.41,0:14:31.87,Default,NTP,0,0,0,,怎麼…可能啊
+Dialogue: 0,0:14:37.16,0:14:39.54,Default,NTP,0,0,0,,那混蛋 火龍的…
+Dialogue: 0,0:14:39.93,0:14:40.72,Default,NTP,0,0,0,,河童
+Dialogue: 0,0:14:42.47,0:14:43.78,Default,NTP,0,0,0,,鐵拳
+Dialogue: 0,0:14:44.07,0:14:45.24,Default,NTP,0,0,0,,Double河童
+Dialogue: 0,0:14:50.02,0:14:51.17,Default,NTP,0,0,0,,挺厲害的嘛
+Dialogue: 0,0:14:51.67,0:14:52.70,Default,NTP,0,0,0,,你也一樣
+Dialogue: 0,0:14:54.35,0:14:55.51,Default,NTP,0,0,0,,我燃起來了
+Dialogue: 0,0:14:55.71,0:14:56.68,Default,NTP,0,0,0,,我也一樣…
+Dialogue: 0,0:14:57.12,0:15:01.09,Default,NTP,0,0,0,,既然如此 就戰個你死我活吧
+Dialogue: 0,0:15:01.17,0:15:02.67,Default,NTP,0,0,0,,正合我意
+Dialogue: 0,0:15:04.61,0:15:05.70,Default,NTP,0,0,0,,你去哪兒啊
+Dialogue: 0,0:15:06.25,0:15:07.45,Default,NTP,0,0,0,,夏 走了
+Dialogue: 0,0:15:07.65,0:15:08.12,Default,NTP,0,0,0,,好勒
+Dialogue: 0,0:15:09.11,0:15:10.72,Default,NTP,0,0,0,,我開動了
+Dialogue: 0,0:15:11.14,0:15:12.70,Default,NTP,0,0,0,,水不行就火
+Dialogue: 0,0:15:13.25,0:15:15.65,Default,NTP,0,0,0,,立體文字 FIRE
+Dialogue: 0,0:15:19.69,0:15:20.46,Default,NTP,0,0,0,,不行嗎
+Dialogue: 0,0:15:24.03,0:15:26.47,Default,NTP,0,0,0,,不好 潛進地面中了
+Dialogue: 0,0:15:26.68,0:15:29.98,Default,NTP,0,0,0,,這樣就不知道她會從哪裏攻擊過來了
+Dialogue: 0,0:15:30.44,0:15:33.22,Default,NTP,0,0,0,,開啟吧 天鵝座的門扉 德尼芙
+Dialogue: 0,0:15:36.83,0:15:38.70,Default,NTP,0,0,0,,德 德尼芙參上
+Dialogue: 0,0:15:40.47,0:15:42.15,Default,NTP,0,0,0,,啊…不用同情我
+Dialogue: 0,0:15:42.78,0:15:44.62,Default,NTP,0,0,0,,反正肯定想說 明明是天鵝座的星靈
+Dialogue: 0,0:15:44.72,0:15:48.11,Default,NTP,0,0,0,,羽毛卻不是白色的 之類的話吧
+Dialogue: 0,0:15:48.25,0:15:49.96,Default,NTP,0,0,0,,沒這麼想 沒這麼想
+Dialogue: 0,0:15:50.49,0:15:54.29,Default,NTP,0,0,0,,德尼芙 請判斷皮斯克斯會從哪裏過來 然後與之戰鬥
+Dialogue: 0,0:15:55.88,0:15:59.88,Default,NTP,0,0,0,,跟努力的人說加油 會起反效果的
+Dialogue: 0,0:15:59.96,0:16:01.47,Default,NTP,0,0,0,,沒這麼說 沒這麼說
+Dialogue: 0,0:16:01.63,0:16:03.02,Default,NTP,0,0,0,,好厲害
+Dialogue: 0,0:16:04.02,0:16:06.23,Default,NTP,0,0,0,,德尼芙 不努力也沒關係
+Dialogue: 0,0:16:07.07,0:16:10.88,Default,NTP,0,0,0,,請不要這麼說 我想做也是能做到的
+Dialogue: 0,0:16:11.02,0:16:12.93,Default,NTP,0,0,0,,是夏季大三角
+Dialogue: 0,0:16:20.89,0:16:22.07,Default,NTP,0,0,0,,這不挺厲害的嘛
+Dialogue: 0,0:16:23.51,0:16:25.11,Default,NTP,0,0,0,,感覺很不愉快呢…
+Dialogue: 0,0:16:26.83,0:16:28.55,Default,NTP,0,0,0,,是很難伺候的人呢…
+Dialogue: 0,0:16:28.72,0:16:30.55,Default,NTP,0,0,0,,你看 又來了
+Dialogue: 0,0:16:35.84,0:16:36.67,Default,NTP,0,0,0,,你是誰
+Dialogue: 0,0:16:39.66,0:16:40.92,Default,NTP,0,0,0,,阿盧迦迪歐斯大人
+Dialogue: 0,0:16:41.81,0:16:44.59,Default,NTP,0,0,0,,等下啊喂 好好跟我決一勝負
+Dialogue: 0,0:16:44.91,0:16:45.95,Default,NTP,0,0,0,,我知道
+Dialogue: 0,0:16:46.31,0:16:50.61,Default,NTP,0,0,0,,你的我知道我已經聽煩了 火龍的…
+Dialogue: 0,0:16:50.95,0:16:52.39,Default,NTP,0,0,0,,河童四連發
+Dialogue: 0,0:16:56.12,0:00:00.00,Default,NTP,0,0,0,,咆 哮
+Dialogue: 0,0:16:56.04,0:16:57.72,Default,NTP,0,0,0,,螺旋旋風
+Dialogue: 0,0:17:15.28,0:17:16.95,Default,NTP,0,0,0,,阿盧迦迪歐斯好強
+Dialogue: 0,0:17:17.10,0:17:20.48,Default,NTP,0,0,0,,畢竟是櫻花聖騎士團的團長嘛
+Dialogue: 0,0:17:20.81,0:17:24.12,Default,NTP,0,0,0,,論劍術沒有能出其右呢
+Dialogue: 0,0:17:25.69,0:17:27.36,Default,NTP,0,0,0,,還真挺厲害的
+Dialogue: 0,0:17:27.47,0:17:30.77,Default,NTP,0,0,0,,但是 我的背鰭能斬斷一切哦
+Dialogue: 0,0:17:35.00,0:17:37.33,Default,NTP,0,0,0,,我看穿了 你的動向
+Dialogue: 0,0:17:37.65,0:17:39.16,Default,NTP,0,0,0,,要害就是那裏
+Dialogue: 0,0:17:40.04,0:17:40.96,Default,NTP,0,0,0,,鮫肌
+Dialogue: 0,0:17:42.16,0:17:42.81,Default,NTP,0,0,0,,什麼？
+Dialogue: 0,0:17:45.19,0:17:46.22,Default,NTP,0,0,0,,阿盧迦迪歐斯
+Dialogue: 0,0:17:48.70,0:17:51.35,Default,NTP,0,0,0,,如果有白百合之鎧在的話…
+Dialogue: 0,0:17:52.15,0:17:53.21,Default,NTP,0,0,0,,可惡
+Dialogue: 0,0:17:53.69,0:17:55.13,Default,NTP,0,0,0,,啊 又來了
+Dialogue: 0,0:17:56.88,0:17:58.06,Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:17:58.69,0:18:02.17,Default,NTP,0,0,0,,對已分勝負的對手不能給最後一擊
+Dialogue: 0,0:18:02.97,0:18:03.70,Default,NTP,0,0,0,,當然是騙你的
+Dialogue: 0,0:18:04.85,0:18:07.04,Default,NTP,0,0,0,,果然是騙子河童混蛋
+Dialogue: 0,0:18:07.24,0:18:10.58,Default,NTP,0,0,0,,對了 我記得水是皮斯克斯的弱點
+Dialogue: 0,0:18:11.05,0:18:11.88,Default,NTP,0,0,0,,好勒
+Dialogue: 0,0:18:13.64,0:18:14.86,Default,NTP,0,0,0,,吃我一招
+Dialogue: 0,0:18:17.92,0:18:19.33,Default,NTP,0,0,0,,就這樣 認輸了吧
+Dialogue: 0,0:18:21.84,0:18:23.83,Default,NTP,0,0,0,,浴水而出的美男
+Dialogue: 0,0:18:24.23,0:18:25.34,Default,NTP,0,0,0,,為啥？
+Dialogue: 0,0:18:26.72,0:18:30.62,Default,NTP,0,0,0,,我們成為了日蝕星靈 克服了水這個弱點
+Dialogue: 0,0:18:30.88,0:18:32.43,Default,NTP,0,0,0,,這倒是挺好的
+Dialogue: 0,0:18:33.54,0:18:34.43,Default,NTP,0,0,0,,但破綻百出啊
+Dialogue: 0,0:18:37.14,0:18:40.09,Default,NTP,0,0,0,,這不可魚 不對 不可能
+Dialogue: 0,0:18:40.14,0:18:43.27,Default,NTP,0,0,0,,我居然會輸
+Dialogue: 0,0:18:45.93,0:18:48.98,Default,NTP,0,0,0,,開啟吧 時鐘座的門扉 霍洛洛奇姆
+Dialogue: 0,0:18:52.97,0:18:55.02,Default,NTP,0,0,0,,來 公主快進去
+Dialogue: 0,0:18:55.31,0:19:01.56,Default,NTP,0,0,0,,不 日蝕時我只會哭著旁觀 我討厭那樣的自己
+Dialogue: 0,0:19:01.95,0:19:02.78,Default,NTP,0,0,0,,公主殿下…
+Dialogue: 0,0:19:03.39,0:19:06.73,Default,NTP,0,0,0,,而且我也算個星靈魔法師的小卒
+Dialogue: 0,0:19:07.20,0:19:08.76,Default,NTP,0,0,0,,我已經不想再逃了
+Dialogue: 0,0:19:09.18,0:19:10.08,Default,NTP,0,0,0,,我明白了
+Dialogue: 0,0:19:10.61,0:19:13.91,Default,NTP,0,0,0,,公主的想法 我確實收到了
+Dialogue: 0,0:19:14.39,0:19:16.92,Default,NTP,0,0,0,,但是 這裏請交給我
+Dialogue: 0,0:19:17.34,0:19:18.28,Default,NTP,0,0,0,,露西
+Dialogue: 0,0:19:19.09,0:19:21.08,Default,NTP,0,0,0,,露西飛踢
+Dialogue: 0,0:19:27.40,0:19:28.43,Default,NTP,0,0,0,,這樣如何？
+Dialogue: 0,0:19:34.84,0:19:36.29,Default,NTP,0,0,0,,好厲害 好厲害
+Dialogue: 0,0:19:37.18,0:19:38.70,Default,NTP,0,0,0,,哎呀 已經結束了？
+Dialogue: 0,0:19:41.08,0:19:42.92,Default,NTP,0,0,0,,這次輪到你跳舞了
+Dialogue: 0,0:19:46.03,0:19:48.04,Default,NTP,0,0,0,,火龍的翼擊
+Dialogue: 0,0:19:54.04,0:19:54.81,Default,NTP,0,0,0,,夏
+Dialogue: 0,0:19:55.05,0:19:55.81,Default,NTP,0,0,0,,夏
+Dialogue: 0,0:19:57.04,0:19:59.73,Default,NTP,0,0,0,,各位 我把鑰匙奪回來啦
+Dialogue: 0,0:20:00.01,0:20:01.45,Default,NTP,0,0,0,,是的說
+Dialogue: 0,0:20:05.57,0:20:12.53,Default,NTP,0,0,0,,竟然敢弄哭我可愛的寶貝 不可原諒
+Dialogue: 0,0:20:12.98,0:20:16.23,Default,NTP,0,0,0,,快點將皮斯克斯強制關門吧
+Dialogue: 0,0:20:16.73,0:20:19.95,Default,NTP,0,0,0,,好 但是 強制關門的鑰匙
+Dialogue: 0,0:20:20.20,0:20:24.26,Default,NTP,0,0,0,,如果不吸收與星靈契約的星靈魔法師的魔力
+Dialogue: 0,0:20:24.42,0:20:28.15,Default,NTP,0,0,0,,並讓那個星靈喪失戰鬥的意志 是不會發動的
+Dialogue: 0,0:20:29.71,0:20:30.75,Default,NTP,0,0,0,,又來了
+Dialogue: 0,0:20:31.06,0:20:34.54,Default,NTP,0,0,0,,真是煩人的傢伙們啊 大家退下
+Dialogue: 0,0:20:38.45,0:20:40.69,Default,NTP,0,0,0,,生氣的媽媽以一頂百
+Dialogue: 0,0:20:41.33,0:20:42.61,Default,NTP,0,0,0,,火龍的
+Dialogue: 0,0:20:43.13,0:20:44.52,Default,NTP,0,0,0,,媽媽的
+Dialogue: 0,0:20:44.80,0:20:46.77,Default,NTP,0,0,0,,咆哮
+Dialogue: 0,0:20:47.00,0:20:48.91,Default,NTP,0,0,0,,咆哮
+Dialogue: 0,0:20:53.76,0:20:58.00,Default,NTP,0,0,0,,真是麻煩死了 這樣就鮫肌泰山壓頂
+Dialogue: 0,0:21:05.49,0:21:06.31,Default,NTP,0,0,0,,河童
+Dialogue: 0,0:21:08.81,0:21:10.55,Default,NTP,0,0,0,,鑰匙被奪走了
+Dialogue: 0,0:21:10.66,0:21:11.83,Default,NTP,0,0,0,,那混蛋
+Dialogue: 0,0:21:12.24,0:21:14.83,Default,NTP,0,0,0,,我知道了 這樣就好了
+Dialogue: 0,0:21:16.04,0:21:17.67,Default,NTP,0,0,0,,再會
+Dialogue: 0,0:21:22.39,0:21:23.44,Default,NTP,0,0,0,,翡翠公主…
+Dialogue: 0,0:21:24.28,0:21:26.48,Default,NTP,0,0,0,,不能在這裏放棄
+Dialogue: 0,0:21:26.90,0:21:30.44,Default,NTP,0,0,0,,鑰匙被搶走了的話 再做就好了
+Dialogue: 0,0:21:30.79,0:21:32.32,Default,NTP,0,0,0,,就是這個氣勢 公主
+Dialogue: 0,0:21:32.72,0:21:34.62,Default,NTP,0,0,0,,阿盧迦迪歐斯大人 你的傷怎麼樣？
+Dialogue: 0,0:21:35.10,0:21:36.55,Default,NTP,0,0,0,,沒問題
+Dialogue: 0,0:21:37.45,0:21:39.58,Default,NTP,0,0,0,,比起這些 非常抱歉…
+Dialogue: 0,0:21:40.14,0:21:41.28,Default,NTP,0,0,0,,怎麼了？
+Dialogue: 0,0:21:43.16,0:21:45.92,Default,NTP,0,0,0,,雖然覺得不該這麼做…
+Dialogue: 0,0:21:46.64,0:21:51.02,Default,NTP,0,0,0,,我料到可能會這樣 就給了公主一個假的
+Dialogue: 0,0:21:58.77,0:22:01.19,Default,NTP,0,0,0,,這才是真正的鑰匙
+Dialogue: 0,0:22:01.31,0:22:02.77,Default,NTP,0,0,0,,挺厲害的嘛 大叔
+Dialogue: 0,0:22:03.32,0:22:07.65,Default,NTP,0,0,0,,就是說 接下來只要知道了「星靈·精神」的地點
+Dialogue: 0,0:22:07.79,0:22:09.36,Default,NTP,0,0,0,,就能阻止自由儀式了
+Dialogue: 0,0:22:10.33,0:22:14.45,Default,NTP,0,0,0,,我們以妖精的尾巴為目標的另一個理由
+Dialogue: 0,0:22:14.62,0:22:16.55,Default,NTP,0,0,0,,也是為了告訴你們那個地方的所在
+Dialogue: 0,0:22:17.64,0:22:18.98,Default,NTP,0,0,0,,就是說已經知道了嗎
+Dialogue: 0,0:22:19.64,0:22:20.32,Default,NTP,0,0,0,,是的
+Dialogue: 0,0:22:20.66,0:22:24.05,Default,NTP,0,0,0,,好勒 那就快點出發吧
+Dialogue: 0,0:22:24.16,0:22:25.88,Default,NTP,0,0,0,,{\fad(0,555)}好的說
+Dialogue: 0,0:23:57.12,0:23:59.37,Default,NTP,0,0,0,,哇 好漂亮的說
+Dialogue: 0,0:23:59.58,0:24:02.54,Default,NTP,0,0,0,,看來「星靈·精神」就在這前面了吧
+Dialogue: 0,0:24:02.67,0:24:04.17,Default,NTP,0,0,0,,好勒 終於到了啊
+Dialogue: 0,0:24:04.33,0:24:06.92,Default,NTP,0,0,0,,嗯 必須得阻止自由儀式
+Dialogue: 0,0:24:07.00,0:24:10.84,Default,NTP,0,0,0,,是啊 只有12天生命的自由 開什麼玩笑
+Dialogue: 0,0:24:10.97,0:24:13.80,Default,NTP,0,0,0,,而且也不能因為這種事讓露西傷心
+Dialogue: 0,0:24:14.01,0:24:14.89,Default,NTP,0,0,0,,那是當然了
+Dialogue: 0,0:24:15.09,0:24:17.60,Default,NTP,0,0,0,,那種無聊的願望 我是不會允許的
+Dialogue: 0,0:24:17.93,0:24:20.02,Default,NTP,0,0,0,,下一話 「星靈·精神」
+Dialogue: 0,0:24:20.22,0:24:21.14,Default,NTP,0,0,0,,走了 哈比
+Dialogue: 0,0:24:21.18,0:24:23.98,Default,NTP,0,0,0,,把痛打他們一頓 讓他們好好清醒一下
+Dialogue: 0,0:24:24.06,0:24:24.77,Default,NTP,0,0,0,,好的說
+

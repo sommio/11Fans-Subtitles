@@ -1,0 +1,328 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: warning,DFKaiShuW7-B5,20,&H00ffffff,&H00ffffff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,1,1,8,5,5,10,1
+Style: Default,DFHeiMedium-B5,25,&H00ffffff,&Hf0000000,&H00000000,&Hf0000000,-1,0,0,0,100,100,0,0.00,1,1,0,2,30,30,10,1
+Style: Default1,DFKaiShuW7-B5,28,&H00ffffff,&Hf0000000,&H90000000,&H90000000,-1,0,0,0,100,100,10,0.00,1,1,2,2,30,30,10,1
+Style: op,DFGMaruGothic-SB,22,&H00334592,&H00c1f1f0,&H00000000,&H80000000,0,0,0,0,100,100,0,0.00,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:21:23.84,0:21:31.51,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,700,\alpha&HFF&\fscy50\fscx120)}{\K70}誰{\r\q2\be1\shad0\t(701,1430,\alpha&HFF&\fscy50\fscx120)}{\K73}か{\r\q2\be1\shad0\t(1431,2500,\alpha&HFF&\fscy50\fscx120)}{\K107}が{\r\q2\be1\shad0\t(2501,2800,\alpha&HFF&\fscy50\fscx120)}{\K30}見{\r\q2\be1\shad0\t(2801,3100,\alpha&HFF&\fscy50\fscx120)}{\K30}て{\r\q2\be1\shad0\t(3101,3400,\alpha&HFF&\fscy50\fscx120)}{\K30}い{\r\q2\be1\shad0\t(3401,3500,\alpha&HFF&\fscy50\fscx120)}{\K10}る{\r\q2\be1\shad0\t(3501,3700,\alpha&HFF&\fscy50\fscx120)}{\K20}{\r\q2\be1\shad0\t(3701,4140,\alpha&HFF&\fscy50\fscx120)}{\K44}ビ{\r\q2\be1\shad0\t(4141,4170,\alpha&HFF&\FSCY50\FSCX120)}{\K3}ジ{\r\q2\be1\shad0\t(4171,4320,\alpha&HFF&\fscy50\fscx120)}{\K15}ュ{\r\q2\be1\shad0\t(4321,4450,\alpha&HFF&\fscy50\fscx120)}{\K13}ア{\r\q2\be1\shad0\t(4451,4850,\alpha&HFF&\fscy50\fscx120)}{\K40}ル{\r\q2\be1\shad0\t(4851,5160,\alpha&HFF&\fscy50\fscx120)}{\K31} {\r\q2\be1\shad0\t(5161,5470,\alpha&HFF&\fscy50\fscx120)}{\K31}目{\r\q2\be1\shad0\t(5471,5680,\alpha&HFF&\fscy50\fscx120)}{\K21}の{\r\q2\be1\shad0\t(5681,6380,\alpha&HFF&\fscy50\fscx120)}{\K70}前{\r\q2\be1\shad0\t(6381,6980,\alpha&HFF&\fscy50\fscx120))}{\K60}の
+Dialogue: 0,0:21:33.80,0:21:42.44,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,480,\alpha&HFF&\fscy50\fscx120)}{\K48}急{\r\q2\be1\shad0\t(481,720,\alpha&HFF&\fscy50\fscx120)}{\K24}な{\r\q2\be1\shad0\t(721,1420,\alpha&HFF&\fscy50\fscx120)}{\K70}水{\r\q2\be1\shad0\t(1421,2530,\alpha&HFF&\fscy50\fscx120)}{\K111}が{\r\q2\be1\shad0\t(2531,3430,\alpha&HFF&\fscy50\fscx120)}{\K90}カ{\r\q2\be1\shad0\t(3431,3700,\alpha&HFF&\fscy50\fscx120)}{\K27}ラ{\r\q2\be1\shad0\t(3701,3840,\alpha&HFF&\fscy50\fscx120)}{\K14}ダ{\r\q2\be1\shad0\t(3841,4340,\alpha&HFF&\fscy50\fscx120)}{\K50}を{\r\q2\be1\shad0\t(4341,4750,\alpha&HFF&\fscy50\fscx120)}{\K41}逆{\r\q2\be1\shad0\t(4751,5060,\alpha&HFF&\FSCY50\FSCX120)}{\K31}さ{\r\q2\be1\shad0\t(5061,5500,\alpha&HFF&\fscy50\fscx120)}{\K44}に{\r\q2\be1\shad0\t(5501,6260,\alpha&HFF&\fscy50\fscx120)}{\K76}駆{\r\q2\be1\shad0\t(6261,6800,\alpha&HFF&\fscy50\fscx120)}{\K54}け{\r\q2\be1\shad0\t(6801,7610,\alpha&HFF&\fscy50\fscx120))}{\K81}巡
+Dialogue: 0,0:21:43.81,0:21:52.41,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,1000,\alpha&HFF&\fscy50\fscx120)}{\K100}今{\r\q2\be1\shad0\t(1001,1880,\alpha&HFF&\fscy50\fscx120)}{\K88}二{\r\q2\be1\shad0\t(1881,2530,\alpha&HFF&\fscy50\fscx120)}{\K65}人{\r\q2\be1\shad0\t(2531,3330,\alpha&HFF&\fscy50\fscx120)}{\K80}は{\r\q2\be1\shad0\t(3331,4230,\alpha&HFF&\fscy50\fscx120)}{\K90}出{\r\q2\be1\shad0\t(4231,4530,\alpha&HFF&\fscy50\fscx120)}{\K30}会{\r\q2\be1\shad0\t(4531,4730,\alpha&HFF&\fscy50\fscx120)}{\K20}っ{\r\q2\be1\shad0\t(4731,4930,\alpha&HFF&\FSCY50\FSCX120)}{\K20}た{\r\q2\be1\shad0\t(4931,5130,\alpha&HFF&\fscy50\fscx120)}{\K20}意{\r\q2\be1\shad0\t(5131,5930,\alpha&HFF&\fscy50\fscx120)}{\K80}味{\r\q2\be1\shad0\t(5931,6730,\alpha&HFF&\fscy50\fscx120)}{\K80}を{\r\q2\be1\shad0\t(6731,7730,\alpha&HFF&\fscy50\fscx120))}{\K100}想
+Dialogue: 0,0:21:54.50,0:22:05.90,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,400,\alpha&HFF&\fscy50\fscx120)}{\K40}き{\r\q2\be1\shad0\t(401,600,\alpha&HFF&\fscy50\fscx120)}{\K20}っ{\r\q2\be1\shad0\t(601,1000,\alpha&HFF&\fscy50\fscx120)}{\K40}と{\r\q2\be1\shad0\t(1001,2000,\alpha&HFF&\fscy50\fscx120)}{\K100}誰{\r\q2\be1\shad0\t(2001,2700,\alpha&HFF&\fscy50\fscx120)}{\K70}か{\r\q2\be1\shad0\t(2701,3220,\alpha&HFF&\fscy50\fscx120)}{\K52}の{\r\q2\be1\shad0\t(3221,4220,\alpha&HFF&\fscy50\fscx120)}{\K100}記{\r\q2\be1\shad0\t(4221,4520,\alpha&HFF&\fscy50\fscx120)}{\K30}憶{\r\q2\be1\shad0\t(4521,5020,\alpha&HFF&\fscy50\fscx120)}{\K50}の{\r\q2\be1\shad0\t(5021,5720,\alpha&HFF&\FSCY50\FSCX120)}{\K70}中{\r\q2\be1\shad0\t(5721,6720,\alpha&HFF&\fscy50\fscx120)}{\K100}泳{\r\q2\be1\shad0\t(6721,7220,\alpha&HFF&\fscy50\fscx120)}{\K50}い{\r\q2\be1\shad0\t(7221,7820,\alpha&HFF&\fscy50\fscx120)}{\K60}で{\r\q2\be1\shad0\t(7821,8130,\alpha&HFF&\fscy50\fscx120)}{\K31}い{\r\q2\be1\shad0\t(8131,9230,\alpha&HFF&\fscy50\fscx120)}{\K110}る{\r\q2\be1\shad0\t(9231,10170,\alpha&HFF&\fscy50\fscx120)}{\K94}だ{\r\q2\be1\shad0\t(10171,10460,\alpha&HFF&\FSCY50\FSCX120)}{\K29}け{\r\q2\be1\shad0\t(10461,10760,\alpha&HFF&\fscy50\fscx120)}{\K30}で{\r\q2\be1\shad0\t(10761,11160,\alpha&HFF&\fscy50\fscx120))}{\K40}も
+Dialogue: 0,0:22:06.19,0:22:09.69,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,700,\alpha&HFF&\fscy50\fscx120)}{\K70}君{\r\q2\be1\shad0\t(701,900,\alpha&HFF&\fscy50\fscx120)}{\K20}の{\r\q2\be1\shad0\t(901,1400,\alpha&HFF&\fscy50\fscx120)}{\K50}背{\r\q2\be1\shad0\t(1401,2410,\alpha&HFF&\fscy50\fscx120))}{\K101}中
+Dialogue: 0,0:22:10.04,0:22:16.60,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,1400,\alpha&HFF&\fscy50\fscx120)}{\K140}光{\r\q2\be1\shad0\t(1401,1700,\alpha&HFF&\fscy50\fscx120)}{\K30}の{\r\q2\be1\shad0\t(1701,2700,\alpha&HFF&\fscy50\fscx120)}{\K100}羽{\r\q2\be1\shad0\t(2701,3700,\alpha&HFF&\fscy50\fscx120)}{\K100}が{\r\q2\be1\shad0\t(3701,4900,\alpha&HFF&\fscy50\fscx120)}{\K120}空{\r\q2\be1\shad0\t(4901,5100,\alpha&HFF&\fscy50\fscx120)}{\K20}へ{\r\q2\be1\shad0\t(5101,5600,\alpha&HFF&\fscy50\fscx120)}{\K50}広{\r\q2\be1\shad0\t(5601,5800,\alpha&HFF&\FSCY50\FSCX120)}{\K20}が{\r\q2\be1\shad0\t(5801,6300,\alpha&HFF&\fscy50\fscx120))}{\K50}る
+Dialogue: 0,0:22:16.80,0:22:25.00,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,400,\alpha&HFF&\fscy50\fscx120)}{\K40}ど{\r\q2\be1\shad0\t(401,570,\alpha&HFF&\fscy50\fscx120)}{\K17}ん{\r\q2\be1\shad0\t(571,1090,\alpha&HFF&\fscy50\fscx120)}{\K52}な{\r\q2\be1\shad0\t(1091,1290,\alpha&HFF&\fscy50\fscx120)}{\K20}場{\r\q2\be1\shad0\t(1291,1490,\alpha&HFF&\fscy50\fscx120)}{\K20}所{\r\q2\be1\shad0\t(1491,3490,\alpha&HFF&\fscy50\fscx120)}{\K200}も{\r\q2\be1\shad0\t(3491,3990,\alpha&HFF&\fscy50\fscx120)}{\K50}{\r\q2\be1\shad0\t(3991,4490,\alpha&HFF&\fscy50\fscx120)}{\K50}ど{\r\q2\be1\shad0\t(4491,5090,\alpha&HFF&\fscy50\fscx120)}{\K60}ん{\r\q2\be1\shad0\t(5091,5490,\alpha&HFF&\FSCY50\FSCX120)}{\K40}な{\r\q2\be1\shad0\t(5491,5890,\alpha&HFF&\fscy50\fscx120)}{\K40}過{\r\q2\be1\shad0\t(5891,6290,\alpha&HFF&\fscy50\fscx120)}{\K40}去{\r\q2\be1\shad0\t(6291,6590,\alpha&HFF&\fscy50\fscx120)}{\K30}さ{\r\q2\be1\shad0\t(6591,6790,\alpha&HFF&\fscy50\fscx120)}{\K20}え{\r\q2\be1\shad0\t(6791,8090,\alpha&HFF&\fscy50\fscx120))}{\K130}も
+Dialogue: 0,0:22:25.70,0:22:37.33,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,700,\alpha&HFF&\fscy50\fscx120)}{\K70}唯{\r\q2\be1\shad0\t(701,1000,\alpha&HFF&\fscy50\fscx120)}{\K30}一{\r\q2\be1\shad0\t(1001,1300,\alpha&HFF&\fscy50\fscx120)}{\K30}つ{\r\q2\be1\shad0\t(1301,1800,\alpha&HFF&\fscy50\fscx120)}{\K50}の{\r\q2\be1\shad0\t(1801,2230,\alpha&HFF&\fscy50\fscx120)}{\K43}願{\r\q2\be1\shad0\t(2231,2630,\alpha&HFF&\fscy50\fscx120)}{\K40}い{\r\q2\be1\shad0\t(2631,4440,\alpha&HFF&\fscy50\fscx120)}{\K181}が{\r\q2\be1\shad0\t(4441,4940,\alpha&HFF&\fscy50\fscx120)}{\K50}乗{\r\q2\be1\shad0\t(4941,5360,\alpha&HFF&\fscy50\fscx120)}{\K42}り{\r\q2\be1\shad0\t(5361,5560,\alpha&HFF&\FSCY50\FSCX120)}{\K20}越{\r\q2\be1\shad0\t(5561,5760,\alpha&HFF&\fscy50\fscx120)}{\K20}え{\r\q2\be1\shad0\t(5761,5960,\alpha&HFF&\fscy50\fscx120)}{\K20}て{\r\q2\be1\shad0\t(5961,6760,\alpha&HFF&\fscy50\fscx120)}{\K80}ゆ{\r\q2\be1\shad0\t(6761,7160,\alpha&HFF&\fscy50\fscx120)}{\K40}く{\r\q2\be1\shad0\t(7161,9660,\alpha&HFF&\fscy50\fscx120))}{\K250}よ
+
+
+Dialogue: 0,0:00:00.80,0:00:03.90,Default,NTP,0000,0000,0000,,警告 大量敵機出現
+Dialogue: 0,0:00:04.40,0:00:07.70,Default,NTP,0000,0000,0000,,敵方已將目標鎖定在 澤伽佩因
+Dialogue: 0,0:00:30.00,0:00:32.50,Default,NTP,0000,0000,0000,,機體多處產生重大損傷
+Dialogue: 0,0:00:32.70,0:00:36.60,Default,NTP,0000,0000,0000,,擬態輔助實體數據傳送失敗 無法實施應急處理
+Dialogue: 0,0:00:36.80,0:00:40.50,Default,NTP,0000,0000,0000,,原體芯片損失率達到危險界限
+Dialogue: 0,0:00:40.70,0:00:44.60,Default,NTP,0000,0000,0000,,傳送回收以及數據恢復的深度破壞嚴重
+Dialogue: 0,0:00:49.20,0:00:50.10,Default,NTP,0000,0000,0000,,該說再見了
+Dialogue: 0,0:00:52.80,0:00:54.20,Default,NTP,0000,0000,0000,,哎 你在說什麼啊
+Dialogue: 0,0:00:56.40,0:00:58.50,Default,NTP,0000,0000,0000,,等下 我也要撐到最後
+Dialogue: 0,0:01:01.10,0:01:01.90,Default,NTP,0000,0000,0000,,京
+Dialogue: 0,0:01:02.20,0:01:07.10,Default,NTP,0000,0000,0000,,駕駛員脫離 開始 術士傳送 實行
+Dialogue: 0,0:01:02.20,0:01:07.10,Default,NTP,0000,0000,0000,,{\an8}{\fs20}術士 wizard 為 澤伽佩因 副駕駛員 而 主駕駛員稱為 槍手 gunner
+Dialogue: 0,0:01:19.32,0:04:00.00,warning,NTP,0000,0000,0000,Banner;20;0;50,{\pos(0,10)}本字幕由X2字幕组＆影月字幕组联合制作，仅供试看之用，禁止用于商业行为，请于下载后24小时内删除，如果你喜欢本作品，请支持购买正版。  制作人员    翻译校对   林原萌    片源&后期  lloup     时间轴 Wesley     特效 Wesley     质检 Singblue
+Dialogue: 0,0:01:30.30,0:01:35.20,Default1,NTP,0000,0000,0000,,{\fad(800,1200)\pos(354,280)}載入
+Dialogue: 0,0:01:38.20,0:01:41.40,Default,NTP,0000,0000,0000,,對不起 我再也不會說再見了
+Dialogue: 0,0:01:42.70,0:01:45.80,Default,NTP,0000,0000,0000,,決不會 讓你孤單一人
+Dialogue: 0,0:01:53.80,0:01:55.30,Default,NTP,0000,0000,0000,,喂 不許牴觸
+Dialogue: 0,0:01:59.60,0:02:00.70,Default,NTP,0000,0000,0000,,不可能
+Dialogue: 0,0:02:01.80,0:02:03.30,Default,NTP,0000,0000,0000,,我要退出
+Dialogue: 0,0:02:03.50,0:02:04.70,Default,NTP,0000,0000,0000,,停機
+Dialogue: 0,0:02:05.60,0:02:07.90,Default,NTP,0000,0000,0000,,我說小京 你想幹嘛啊
+Dialogue: 0,0:02:08.00,0:02:09.40,Default,NTP,0000,0000,0000,,剛才氣氛明明很好的
+Dialogue: 0,0:02:09.40,0:02:12.10,Default,NTP,0000,0000,0000,,什麼氣氛好啊 就算是在拍電影
+Dialogue: 0,0:02:12.30,0:02:14.30,Default,NTP,0000,0000,0000,,也不可能和富海演對手戲啊
+Dialogue: 0,0:02:14.60,0:02:17.90,Default,NTP,0000,0000,0000,,我的初吻對像如果是個男人的話 那我也太可憐啦
+Dialogue: 0,0:02:18.30,0:02:19.40,Default,NTP,0000,0000,0000,,我可是無所謂的啊
+Dialogue: 0,0:02:20.00,0:02:22.30,Default,NTP,0000,0000,0000,,你違約啊 我可是請你吃過午飯的啊
+Dialogue: 0,0:02:22.50,0:02:26.20,Default,NTP,0000,0000,0000,,人在一生中有三次是可以違背信義的
+Dialogue: 0,0:02:26.30,0:02:27.80,Default,NTP,0000,0000,0000,,現在的就是那第二次
+Dialogue: 0,0:02:28.00,0:02:28.80,Default,NTP,0000,0000,0000,,什麼啊
+Dialogue: 0,0:02:28.90,0:02:31.00,Default,NTP,0000,0000,0000,,第一次的不義是在哪裡在什麼時候啊
+Dialogue: 0,0:02:31.30,0:02:32.90,Default,NTP,0000,0000,0000,,說知道啊 那種事情
+Dialogue: 0,0:02:43.00,0:02:43.80,Default,NTP,0000,0000,0000,,那是
+Dialogue: 0,0:02:50.60,0:02:51.70,Default,NTP,0000,0000,0000,,不好意思啊 守和
+Dialogue: 0,0:02:53.00,0:02:55.70,Default,NTP,0000,0000,0000,,啊 喂 你去哪兒啊 十凍京
+Dialogue: 0,0:03:01.10,0:03:02.70,Default,NTP,0000,0000,0000,,來了來了來了
+Dialogue: 0,0:03:02.80,0:03:04.70,Default,NTP,0000,0000,0000,,快穿上衣服 十凍
+Dialogue: 0,0:03:04.80,0:03:06.30,Default,NTP,0000,0000,0000,,裸體是違反校規的啊
+Dialogue: 0,0:03:06.50,0:03:09.70,Default,NTP,0000,0000,0000,,來了啊來了啊 那是游泳隊第一個入隊申請者啊
+Dialogue: 0,0:03:15.80,0:03:19.70,Default,NTP,0000,0000,0000,,歡迎光臨 舞濱南高中游泳隊
+Dialogue: 0,0:03:19.90,0:03:23.60,Default,NTP,0000,0000,0000,,你是來申請入隊的吧 呀 真是令人感動啊
+Dialogue: 0,0:03:23.90,0:03:26.50,Default,NTP,0000,0000,0000,,我是一年D班的十凍京
+Dialogue: 0,0:03:26.60,0:03:30.10,Default,NTP,0000,0000,0000,,將青春賭在泳池的游泳隊唯一的隊員
+Dialogue: 0,0:03:31.00,0:03:33.30,Default,NTP,0000,0000,0000,,歡迎你 你叫什麼名字啊
+Dialogue: 0,0:03:46.10,0:03:47.60,Default,NTP,0000,0000,0000,,啊 你說什麼啊
+Dialogue: 0,0:03:47.90,0:03:50.60,Default,NTP,0000,0000,0000,,找到你了 果然是在這裡啊
+Dialogue: 0,0:03:55.20,0:03:57.10,Default,NTP,0000,0000,0000,,喔 不錯嘛
+Dialogue: 0,0:03:57.90,0:03:58.70,Default,NTP,0000,0000,0000,,喂
+Dialogue: 0,0:04:03.00,0:04:04.70,Default,NTP,0000,0000,0000,,不好 溺水了嗎
+Dialogue: 0,0:04:07.90,0:04:08.80,Default,NTP,0000,0000,0000,,什麼啊
+Dialogue: 0,0:04:12.50,0:04:13.60,Default,NTP,0000,0000,0000,,又是那個傢伙啊
+Dialogue: 0,0:04:13.90,0:04:14.90,Default,NTP,0000,0000,0000,,那是怎麼回事啊
+Dialogue: 0,0:04:15.00,0:04:17.90,Default,NTP,0000,0000,0000,,這個嘛 成績是蠻不錯的啦
+Dialogue: 0,0:04:18.00,0:04:19.30,Default,NTP,0000,0000,0000,,啊 我沒興趣
+Dialogue: 0,0:04:19.80,0:04:22.70,Default,NTP,0000,0000,0000,,也就是說 有個美女突然消失在泳池中
+Dialogue: 0,0:04:22.70,0:04:25.40,Default,NTP,0000,0000,0000,,為了找尋她而上課遲到了嗎
+Dialogue: 0,0:04:25.80,0:04:27.10,Default,NTP,0000,0000,0000,,是真的啊 倉毛
+Dialogue: 0,0:04:27.30,0:04:29.80,Default,NTP,0000,0000,0000,,真要說謊肯定會找個更好的借口的啦
+Dialogue: 0,0:04:29.90,0:04:31.90,Default,NTP,0000,0000,0000,,不是倉毛 是倉茂
+Dialogue: 0,0:04:32.50,0:04:34.80,Default,NTP,0000,0000,0000,,至少該記住游泳隊顧問的名字吧
+Dialogue: 0,0:04:35.20,0:04:37.40,Default,NTP,0000,0000,0000,,是顧問的話就該理解我的感受啊
+Dialogue: 0,0:04:37.40,0:04:39.20,Default,NTP,0000,0000,0000,,這可是為了振興游泳隊啊 我
+Dialogue: 0,0:04:39.90,0:04:41.70,Default,NTP,0000,0000,0000,,不管怎樣 先穿上衣服吧
+Dialogue: 0,0:04:52.60,0:04:55.00,Default,NTP,0000,0000,0000,,啊 對了
+Dialogue: 0,0:04:56.20,0:04:58.30,Default,NTP,0000,0000,0000,,怎麼了 十凍
+Dialogue: 0,0:04:58.40,0:05:00.90,Default,NTP,0000,0000,0000,,啊 沒 沒事
+Dialogue: 0,0:05:01.30,0:05:06.00,Default,NTP,0000,0000,0000,,嘿嘿 我想到咯 重振游泳隊的好點子
+Dialogue: 0,0:05:12.20,0:05:15.20,Default,NTP,0000,0000,0000,,哎 游泳隊的宣傳錄像 由我
+Dialogue: 0,0:05:15.40,0:05:18.10,Default,NTP,0000,0000,0000,,對 泳裝美女大醒目
+Dialogue: 0,0:05:18.30,0:05:21.30,Default,NTP,0000,0000,0000,,看到這個後想入隊的男生數量就會大醒目
+Dialogue: 0,0:05:21.70,0:05:23.10,Default,NTP,0000,0000,0000,,很完美的計劃吧
+Dialogue: 0,0:05:23.50,0:05:24.90,Default,NTP,0000,0000,0000,,真單純啊
+Dialogue: 0,0:05:25.50,0:05:28.40,Default,NTP,0000,0000,0000,,男人都很單純的 我就是啊
+Dialogue: 0,0:05:28.70,0:05:30.70,Default,NTP,0000,0000,0000,,你發傻啊 我才不幹呢
+Dialogue: 0,0:05:30.80,0:05:33.40,Default,NTP,0000,0000,0000,,再說 那個還稍稍帶有色情的成分啊
+Dialogue: 0,0:05:33.80,0:05:35.20,Default,NTP,0000,0000,0000,,不是 如果是你的話
+Dialogue: 0,0:05:35.20,0:05:38.70,Default,NTP,0000,0000,0000,,就能拍出女高中生健康清純的真實一面
+Dialogue: 0,0:05:39.10,0:05:43.10,Default,NTP,0000,0000,0000,,求你了 未來的電影大導演 了子·守和
+Dialogue: 0,0:05:50.20,0:05:53.00,Default,NTP,0000,0000,0000,,那 模特是誰啊 富海嗎
+Dialogue: 0,0:05:53.50,0:05:56.50,Default,NTP,0000,0000,0000,,別亂講 是剛才在泳池出現的女生啊
+Dialogue: 0,0:05:56.80,0:05:57.70,Default,NTP,0000,0000,0000,,泳池
+Dialogue: 0,0:05:57.90,0:05:59.50,Default,NTP,0000,0000,0000,,喲 最近怎樣啊 京
+Dialogue: 0,0:06:00.50,0:06:03.80,Default,NTP,0000,0000,0000,,聽說游泳隊馬上就要因人員不足而廢隊了吧
+Dialogue: 0,0:06:04.20,0:06:07.00,Default,NTP,0000,0000,0000,,河口 早瀨 潮
+Dialogue: 0,0:06:07.70,0:06:11.00,Default,NTP,0000,0000,0000,,不過 只要有你在那就沒人想入隊的吧
+Dialogue: 0,0:06:12.00,0:06:14.00,Default,NTP,0000,0000,0000,,幹嘛 你想打架啊
+Dialogue: 0,0:06:14.50,0:06:16.10,Default,NTP,0000,0000,0000,,這隻手是幹嘛  啊
+Dialogue: 0,0:06:16.50,0:06:17.90,Default,NTP,0000,0000,0000,,放手啊
+Dialogue: 0,0:06:18.10,0:06:19.90,Default,NTP,0000,0000,0000,,你先放手啊 死章魚
+Dialogue: 0,0:06:20.20,0:06:21.70,Default,NTP,0000,0000,0000,,你說什麼
+Dialogue: 0,0:06:20.70,0:06:22.70,Default,NTP,0000,0000,0000,,十凍 快住手啊
+Dialogue: 0,0:06:22.60,0:06:24.40,Default,NTP,0000,0000,0000,,我讓你放手啊
+Dialogue: 0,0:06:24.50,0:06:26.70,Default,NTP,0000,0000,0000,,啊啊 不良少年們又在干了啊
+Dialogue: 0,0:06:26.80,0:06:33.30,Default,NTP,0000,0000,0000,,京 你初中裡做的事情 我可是絕對不會原諒你的
+Dialogue: 0,0:06:30.40,0:06:31.30,Default,NTP,0000,0000,0000,,水城
+Dialogue: 0,0:06:32.20,0:06:34.30,Default,NTP,0000,0000,0000,,停手吧 河口 回家了
+Dialogue: 0,0:06:34.50,0:06:37.00,Default,NTP,0000,0000,0000,,什麼游泳隊 趕快廢掉吧
+Dialogue: 0,0:06:37.70,0:06:38.80,Default,NTP,0000,0000,0000,,住口 你個混蛋
+Dialogue: 0,0:06:38.90,0:06:41.10,Default,NTP,0000,0000,0000,,了子 你還真能忍受他啊
+Dialogue: 0,0:06:41.50,0:06:44.50,Default,NTP,0000,0000,0000,,青梅竹馬嘛 孽緣啊
+Dialogue: 0,0:06:48.10,0:06:49.90,Default,NTP,0000,0000,0000,,我沒有印象啊
+Dialogue: 0,0:06:50.00,0:06:52.50,Default,NTP,0000,0000,0000,,2年級還是3年級都沒有那樣的女孩啊
+Dialogue: 0,0:06:52.90,0:06:54.40,Default,NTP,0000,0000,0000,,轉校生呢
+Dialogue: 0,0:06:54.60,0:06:56.10,Default,NTP,0000,0000,0000,,沒聽說過那種事啊
+Dialogue: 0,0:06:56.20,0:06:58.50,Default,NTP,0000,0000,0000,,那 我們在泳池看到的是
+Dialogue: 0,0:06:59.30,0:07:01.70,Default,NTP,0000,0000,0000,,呵呵 大白天的就出幽靈了嗎
+Dialogue: 0,0:07:02.00,0:07:04.00,Default,NTP,0000,0000,0000,,不是啊 不是那種
+Dialogue: 0,0:07:04.20,0:07:04.90,Default,NTP,0000,0000,0000,,小京
+Dialogue: 0,0:07:10.00,0:07:11.10,Default,NTP,0000,0000,0000,,這什麼啊
+Dialogue: 0,0:07:11.30,0:07:13.60,Default,NTP,0000,0000,0000,,沒有任何人啊 那時
+Dialogue: 0,0:07:17.10,0:07:20.20,Default,NTP,0000,0000,0000,,天氣預報一點都不准 太糟糕了啊
+Dialogue: 0,0:07:22.00,0:07:24.90,Default,NTP,0000,0000,0000,,啊 好可愛
+Dialogue: 0,0:07:26.60,0:07:28.40,Default,NTP,0000,0000,0000,,果真是幽靈嗎
+Dialogue: 0,0:07:28.90,0:07:31.10,Default,NTP,0000,0000,0000,,不要再想了啦 那件事
+Dialogue: 0,0:07:31.30,0:07:33.00,Default,NTP,0000,0000,0000,,我說 守和啊
+Dialogue: 0,0:07:33.10,0:07:33.60,Default,NTP,0000,0000,0000,,嗯
+Dialogue: 0,0:07:34.20,0:07:36.00,Default,NTP,0000,0000,0000,,你不覺得一個人也沒有嗎
+Dialogue: 0,0:07:36.40,0:07:40.50,Default,NTP,0000,0000,0000,,下雨天嘛 你有空擔心別人還不如想想自己吧
+Dialogue: 0,0:07:40.80,0:07:42.90,Default,NTP,0000,0000,0000,,你有點奇怪啊 從中午起就
+Dialogue: 0,0:07:43.20,0:07:44.50,Default,NTP,0000,0000,0000,,話雖如此啊
+Dialogue: 0,0:07:47.10,0:07:49.30,Default,NTP,0000,0000,0000,,別說是客人了 就連店員都不在啊
+Dialogue: 0,0:07:55.10,0:07:57.00,Default,NTP,0000,0000,0000,,今天是下雨天的嗎
+Dialogue: 0,0:07:57.20,0:07:59.00,Default,NTP,0000,0000,0000,,要是平常的話應該是晴天的吧
+Dialogue: 0,0:07:59.50,0:08:03.00,Default,NTP,0000,0000,0000,,不安定的狀態看來要持續一段時間了吧
+Dialogue: 0,0:08:19.00,0:08:21.30,Default,NTP,0000,0000,0000,,啊 濕透了 濕透了
+Dialogue: 0,0:08:23.10,0:08:26.10,Default,NTP,0000,0000,0000,,回家後要馬上衝淋哦 不然要感冒的
+Dialogue: 0,0:08:26.30,0:08:27.40,Default,NTP,0000,0000,0000,,小京也是呀
+Dialogue: 0,0:08:31.30,0:08:33.40,Default,NTP,0000,0000,0000,,老爸寄來的啊 這封是
+Dialogue: 0,0:08:34.00,0:08:35.50,Default,NTP,0000,0000,0000,,沒寫發信人嘛
+Dialogue: 0,0:08:48.80,0:08:50.60,Default,NTP,0000,0000,0000,,{\an8}{\fs20}今天也會很晚回家哦 晚飯放進微波爐裡熱一下吧 母
+Dialogue: 0,0:08:58.20,0:08:59.90,Default,NTP,0000,0000,0000,,到底想說什麼啊
+Dialogue: 0,0:09:13.20,0:09:14.80,Default,NTP,0000,0000,0000,,{\an8}{\fs20}吃不吃
+Dialogue: 0,0:09:20.90,0:09:21.50,Default,NTP,0000,0000,0000,,給
+Dialogue: 0,0:09:23.90,0:09:25.80,Default,NTP,0000,0000,0000,,這是拍攝開溜的賠禮
+Dialogue: 0,0:09:25.90,0:09:28.10,Default,NTP,0000,0000,0000,,太天真了 就這個還不能原諒你
+Dialogue: 0,0:09:28.20,0:09:31.10,Default,NTP,0000,0000,0000,,那 下周日 我陪你拍攝吧
+Dialogue: 0,0:09:31.20,0:09:33.90,Default,NTP,0000,0000,0000,,但是 一定要是個能游泳的有水的地方啊
+Dialogue: 0,0:09:34.00,0:09:35.30,Default,NTP,0000,0000,0000,,你是河童啊
+Dialogue: 0,0:09:35.90,0:09:39.80,Default,NTP,0000,0000,0000,,哈哈 有水我就滿足了嘛 呵呵
+Dialogue: 0,0:09:40.00,0:09:42.20,Default,NTP,0000,0000,0000,,你真的很喜歡游泳啊
+Dialogue: 0,0:09:42.30,0:09:42.90,Default,NTP,0000,0000,0000,,差不多吧
+Dialogue: 0,0:09:43.70,0:09:44.60,Default,NTP,0000,0000,0000,,蠻辛苦的吧
+Dialogue: 0,0:09:45.00,0:09:48.20,Default,NTP,0000,0000,0000,,要是暑假前還不能召集到隊員的話 就要被廢隊了吧
+Dialogue: 0,0:09:48.70,0:09:50.00,Default,NTP,0000,0000,0000,,那也沒辦法啦
+Dialogue: 0,0:09:50.20,0:09:53.70,Default,NTP,0000,0000,0000,,初中時的我的傳聞 連高中都傳開了嘛
+Dialogue: 0,0:09:53.80,0:09:54.80,Default,NTP,0000,0000,0000,,可是 那是
+Dialogue: 0,0:09:55.20,0:09:57.00,Default,NTP,0000,0000,0000,,不用擔心的啦
+Dialogue: 0,0:09:57.30,0:09:59.50,Default,NTP,0000,0000,0000,,沒事的 只要那個女生肯出演錄像的話
+Dialogue: 0,0:10:00.10,0:10:01.00,Default,NTP,0000,0000,0000,,你要拯救啊
+Dialogue: 0,0:10:02.50,0:10:04.50,Default,NTP,0000,0000,0000,,要拯救這個世界啊
+Dialogue: 0,0:10:05.70,0:10:08.40,Default,NTP,0000,0000,0000,,我能聽懂她說的話了
+Dialogue: 0,0:10:10.30,0:10:11.50,Default,NTP,0000,0000,0000,,喂喂 小京
+Dialogue: 0,0:10:11.70,0:10:13.80,Default,NTP,0000,0000,0000,,嗯 怎麼了 守和
+Dialogue: 0,0:10:13.90,0:10:15.60,Default,NTP,0000,0000,0000,,後 後面
+Dialogue: 0,0:11:05.00,0:11:07.40,Default,NTP,0000,0000,0000,,現時刻 18點18分
+Dialogue: 0,0:11:07.70,0:11:11.10,Default,NTP,0000,0000,0000,,「世界蛇」的搜索隊正接近東京廢區
+Dialogue: 0,0:11:07.70,0:11:11.10,Default,NTP,0000,0000,0000,,{\fs20}{\an8}「世界蛇」 天才狂人『蛇神』納伽 所創神秘組織\N另 世界蛇 是北歐神話中洛基之次子 被奧丁囚於大海 自噬其尾
+Dialogue: 0,0:11:11.50,0:11:17.30,Default,NTP,0000,0000,0000,,東京廢區自16年前就已機能停滯 但仍留有大量原體數據
+Dialogue: 0,0:11:17.70,0:11:20.60,Default,NTP,0000,0000,0000,,現在 澤伽坦克 正在進行數據回收
+Dialogue: 0,0:11:20.70,0:11:23.60,Default,NTP,0000,0000,0000,,而其所處位置和敵方接觸可能性很大
+Dialogue: 0,0:11:23.80,0:11:27.40,Default,NTP,0000,0000,0000,,雖應派遣援軍 但槍手和術士的人員不足
+Dialogue: 0,0:11:27.60,0:11:31.10,Default,NTP,0000,0000,0000,,今後將需由『引導者』盡快尋找補充
+Dialogue: 0,0:11:27.80,0:11:29.30,Default,NTP,0000,0000,0000,,這 這是什麼啊
+Dialogue: 0,0:11:31.50,0:11:33.40,Default,NTP,0000,0000,0000,,你準備出擊嗎 黃
+Dialogue: 0,0:11:33.70,0:11:35.10,Default,NTP,0000,0000,0000,,在這裡我叫紫津乃
+Dialogue: 0,0:11:40.10,0:11:42.30,Default,NTP,0000,0000,0000,,你終於能聽見我的聲音了啊
+Dialogue: 0,0:11:42.60,0:11:44.10,Default,NTP,0000,0000,0000,,你真是個讓人費事的人啊
+Dialogue: 0,0:11:45.70,0:11:47.20,Default,NTP,0000,0000,0000,,你是幽靈嗎
+Dialogue: 0,0:11:49.20,0:11:50.30,Default,NTP,0000,0000,0000,,要試試看嗎
+Dialogue: 0,0:11:58.80,0:12:00.10,Default,NTP,0000,0000,0000,,哇 這裡是
+Dialogue: 0,0:12:00.50,0:12:04.60,Default,NTP,0000,0000,0000,,本想再多等會兒以恢復能力的 看來形勢不容啊
+Dialogue: 0,0:12:05.40,0:12:07.70,Default,NTP,0000,0000,0000,,我有件事要求你 能聽我說嗎
+Dialogue: 0,0:12:09.20,0:12:11.50,Default,NTP,0000,0000,0000,,拯救這個世界嗎
+Dialogue: 0,0:12:12.10,0:12:14.10,Default,NTP,0000,0000,0000,,回答正確 那麼
+Dialogue: 0,0:12:16.30,0:12:19.50,Default,NTP,0000,0000,0000,,那麼 你肯在游泳隊的宣傳錄像中出演嗎
+Dialogue: 0,0:12:33.50,0:12:35.20,Default,NTP,0000,0000,0000,,time to play the game
+Dialogue: 0,0:12:36.00,0:12:37.30,Default,NTP,0000,0000,0000,,遊戲開始咯
+Dialogue: 0,0:12:47.20,0:12:49.30,Default,NTP,0000,0000,0000,,進入引導通道
+Dialogue: 0,0:12:49.50,0:12:52.40,Default,NTP,0000,0000,0000,,復原坐標 誘導參數 設定
+Dialogue: 0,0:12:52.70,0:12:54.80,Default,NTP,0000,0000,0000,,管理值擴散 傳送口
+Dialogue: 0,0:12:55.00,0:13:00.60,Default,NTP,0000,0000,0000,,傳送高度 能量融合73％ 充滿還需85度
+Dialogue: 0,0:13:00.80,0:13:02.70,Default,NTP,0000,0000,0000,,量子傳送口 沒有異常
+Dialogue: 0,0:13:02.90,0:13:06.50,Default,NTP,0000,0000,0000,,實體隔離戰鬥值達到98CCB
+Dialogue: 0,0:13:07.90,0:13:09.90,Default,NTP,0000,0000,0000,,傳送開始 載入
+Dialogue: 0,0:13:33.40,0:13:35.40,Default,NTP,0000,0000,0000,,機器人 真的假的啊
+Dialogue: 0,0:13:42.30,0:13:43.30,Default,NTP,0000,0000,0000,,在發光
+Dialogue: 0,0:13:52.60,0:13:53.80,Default,NTP,0000,0000,0000,,真漂亮啊
+Dialogue: 0,0:13:55.10,0:13:57.20,Default,NTP,0000,0000,0000,,剛才按我想的行動了嗎
+Dialogue: 0,0:13:58.70,0:14:00.70,Default,NTP,0000,0000,0000,,好熟悉 這種感覺
+Dialogue: 0,0:14:01.40,0:14:04.10,Default,NTP,0000,0000,0000,,話說回來 我怎麼這麼平靜啊
+Dialogue: 0,0:14:04.50,0:14:06.70,Default,NTP,0000,0000,0000,,那是當然 這不是第一次啊
+Dialogue: 0,0:14:07.50,0:14:09.60,Default,NTP,0000,0000,0000,,歡迎來到 澤伽佩因
+Dialogue: 0,0:14:10.40,0:14:11.10,Default,NTP,0000,0000,0000,,你是
+Dialogue: 0,0:14:11.70,0:14:12.80,Default,NTP,0000,0000,0000,,三崎紫津乃
+Dialogue: 0,0:14:13.00,0:14:15.60,Default,NTP,0000,0000,0000,,怎麼樣 量子傳送的感覺
+Dialogue: 0,0:14:17.10,0:14:18.90,Default,NTP,0000,0000,0000,,可以問個問題吧
+Dialogue: 0,0:14:19.10,0:14:21.50,Default,NTP,0000,0000,0000,,如果只問一個的話 因為沒時間了
+Dialogue: 0,0:14:22.00,0:14:24.10,Default,NTP,0000,0000,0000,,為什麼白天你會在泳池那裡啊
+Dialogue: 0,0:14:25.40,0:14:27.10,Default,NTP,0000,0000,0000,,這是你現在想問的問題嗎
+Dialogue: 0,0:14:27.60,0:14:28.90,Default,NTP,0000,0000,0000,,沒有什麼深的理由
+Dialogue: 0,0:14:29.50,0:14:30.90,Default,NTP,0000,0000,0000,,只是想游泳罷了
+Dialogue: 0,0:14:31.10,0:14:32.90,Default,NTP,0000,0000,0000,,不過沒想到竟然會被你看見了
+Dialogue: 0,0:14:33.30,0:14:36.00,Default,NTP,0000,0000,0000,,本想等艦橋調整完成後再和你見面的
+Dialogue: 0,0:14:39.80,0:14:43.50,Default,NTP,0000,0000,0000,,相信我吧 按我說的去做就不會有問題了
+Dialogue: 0,0:14:45.40,0:14:47.90,Default,NTP,0000,0000,0000,,『這是最新款的虛擬遊戲』
+Dialogue: 0,0:14:48.10,0:14:50.30,Default,NTP,0000,0000,0000,,你現在這樣想就可以了 好嗎
+Dialogue: 0,0:14:51.00,0:14:52.10,Default,NTP,0000,0000,0000,,不可能
+Dialogue: 0,0:14:53.00,0:14:55.80,Default,NTP,0000,0000,0000,,不過 談話看來要延後了
+Dialogue: 0,0:14:57.60,0:14:58.50,Default,NTP,0000,0000,0000,,敵人
+Dialogue: 0,0:14:58.60,0:15:03.40,Default,NTP,0000,0000,0000,,「世界蛇」正面接近 空中戰機30～40架
+Dialogue: 0,0:15:04.30,0:15:05.60,Default,NTP,0000,0000,0000,,他比AI更快嘛
+Dialogue: 0,0:15:07.70,0:15:10.50,Default,NTP,0000,0000,0000,,此次任務是 澤伽坦克 的作戰支援
+Dialogue: 0,0:15:10.60,0:15:13.20,Default,NTP,0000,0000,0000,,同時 殲滅「世界蛇」戰機
+Dialogue: 0,0:15:13.40,0:15:16.00,Default,NTP,0000,0000,0000,,戰鬥時限為6分12秒
+Dialogue: 0,0:15:16.90,0:15:17.70,Default,NTP,0000,0000,0000,,能戰鬥的吧
+Dialogue: 0,0:15:24.40,0:15:26.00,Default,NTP,0000,0000,0000,,要是你肯出演錄像的話
+Dialogue: 0,0:15:27.00,0:15:27.90,Default,NTP,0000,0000,0000,,好啊
+Dialogue: 0,0:15:29.10,0:15:31.00,Default,NTP,0000,0000,0000,,澤伽佩因·阿爾蒂爾 起動
+Dialogue: 0,0:15:29.10,0:15:31.00,Default,NTP,0000,0000,0000,,{\fs20}{\an8}阿爾蒂爾 altair 天鷹座
+Dialogue: 0,0:15:56.50,0:15:57.70,Default,NTP,0000,0000,0000,,彈開了
+Dialogue: 0,0:15:57.90,0:16:03.50,Default,NTP,0000,0000,0000,,調和裝甲 光之盔甲 普通攻擊對澤伽佩因是無效的
+Dialogue: 0,0:15:57.90,0:16:03.50,Default,NTP,0000,0000,0000,,{\fs20}{\an8}調和 holon 個體與整體互相調和之意\N此片中 包括澤伽佩因的人型兵器總稱為 HolonicRotor 調和機
+Dialogue: 0,0:16:05.60,0:16:07.50,Default,NTP,0000,0000,0000,,來了 我該幹嘛
+Dialogue: 0,0:16:07.90,0:16:11.70,Default,NTP,0000,0000,0000,,阿爾蒂爾和你的思考直接聯結著 是你的話會怎麼行動呢
+Dialogue: 0,0:16:38.20,0:16:40.30,Default,NTP,0000,0000,0000,,這傢伙 能飛的嗎
+Dialogue: 0,0:16:40.50,0:16:41.60,Default,NTP,0000,0000,0000,,高興嗎
+Dialogue: 0,0:16:46.40,0:16:47.50,Default,NTP,0000,0000,0000,,需要武器嗎
+Dialogue: 0,0:16:47.90,0:16:49.30,Default,NTP,0000,0000,0000,,有的話趕快給我啊
+Dialogue: 0,0:16:49.40,0:16:50.80,Default,NTP,0000,0000,0000,,槍 還是 刀
+Dialogue: 0,0:16:51.10,0:16:51.80,Default,NTP,0000,0000,0000,,刀
+Dialogue: 0,0:16:53.00,0:16:53.70,Default,NTP,0000,0000,0000,,收到
+Dialogue: 0,0:16:54.50,0:16:57.70,Default,NTP,0000,0000,0000,,前方護臂 實體生成呼叫 出力ok
+Dialogue: 0,0:16:58.30,0:17:01.40,Default,NTP,0000,0000,0000,,調和刃 出鞘 右手邊
+Dialogue: 0,0:17:43.50,0:17:45.50,Default,NTP,0000,0000,0000,,呵啊 看招
+Dialogue: 0,0:17:49.90,0:17:51.00,Default,NTP,0000,0000,0000,,厲害啊
+Dialogue: 0,0:17:51.20,0:17:52.80,Default,NTP,0000,0000,0000,,雖有稍許生硬
+Dialogue: 0,0:17:53.20,0:17:57.40,Default,NTP,0000,0000,0000,,作為我來說 無法贊同你這次的判斷啊
+Dialogue: 0,0:17:58.00,0:17:59.10,Default,NTP,0000,0000,0000,,這可是要受到處罰的啊
+Dialogue: 0,0:17:59.30,0:18:02.90,Default,NTP,0000,0000,0000,,要是把好不容易調整完畢的阿爾蒂爾毀壞了怎麼辦
+Dialogue: 0,0:18:02.70,0:18:04.40,Default,NTP,0000,0000,0000,,這是場賭注啊
+Dialogue: 0,0:18:04.60,0:18:06.80,Default,NTP,0000,0000,0000,,『壞掉的電視機隨便你來摔』嗎
+Dialogue: 0,0:18:06.90,0:18:08.20,Default,NTP,0000,0000,0000,,不像你的作風啊
+Dialogue: 0,0:18:08.40,0:18:11.50,Default,NTP,0000,0000,0000,,少在別人的頭上囉囉嗦嗦啊 笨蛋
+Dialogue: 0,0:18:13.00,0:18:14.70,Default,NTP,0000,0000,0000,,還有三架 給我槍
+Dialogue: 0,0:18:21.50,0:18:22.70,Default,NTP,0000,0000,0000,,打不中
+Dialogue: 0,0:18:23.60,0:18:25.40,Default,NTP,0000,0000,0000,,將思考集中到刃上
+Dialogue: 0,0:18:41.20,0:18:42.20,Default,NTP,0000,0000,0000,,結束了啊
+Dialogue: 0,0:18:42.60,0:18:46.70,Default,NTP,0000,0000,0000,,友機被敵方偵查 請求反應
+Dialogue: 0,0:18:44.20,0:18:46.60,Default,NTP,0000,0000,0000,,澤伽坦克被敵人發現了嗎
+Dialogue: 0,0:18:47.10,0:18:48.40,Default,NTP,0000,0000,0000,,應該去救助他們嗎
+Dialogue: 0,0:18:49.20,0:18:50.10,Default,NTP,0000,0000,0000,,可以的話
+Dialogue: 0,0:18:50.40,0:18:51.30,Default,NTP,0000,0000,0000,,當然可以
+Dialogue: 0,0:19:05.40,0:19:06.10,Default,NTP,0000,0000,0000,,璐賢
+Dialogue: 0,0:19:06.30,0:19:08.50,Default,NTP,0000,0000,0000,,數據回收完畢的同時趕緊逃離
+Dialogue: 0,0:19:08.70,0:19:09.60,Default,NTP,0000,0000,0000,,還有09％
+Dialogue: 0,0:19:11.50,0:19:12.30,Default,NTP,0000,0000,0000,,空戰機
+Dialogue: 0,0:19:12.50,0:19:13.80,Default,NTP,0000,0000,0000,,剩下的能量還有多少
+Dialogue: 0,0:19:14.10,0:19:17.00,Default,NTP,0000,0000,0000,,320 格斗模式下大概能支撐15秒
+Dialogue: 0,0:19:17.10,0:19:17.60,Default,NTP,0000,0000,0000,,切
+Dialogue: 0,0:19:28.00,0:19:29.70,Default,NTP,0000,0000,0000,,澤伽佩因·阿爾蒂爾
+Dialogue: 0,0:19:29.80,0:19:30.70,Default,NTP,0000,0000,0000,,能動了嗎
+Dialogue: 0,0:19:30.90,0:19:33.40,Default,NTP,0000,0000,0000,,澤伽坦克 趕快返航到『海神號』
+Dialogue: 0,0:19:30.90,0:19:33.40,Default,NTP,0000,0000,0000,,{\fs20}{\an8}海神號 okeanos 俄刻阿諾斯 希臘神話中蓋亞之子 統帥海河眾神
+Dialogue: 0,0:19:33.50,0:19:35.60,Default,NTP,0000,0000,0000,,紫津乃 槍手是誰
+Dialogue: 0,0:19:38.00,0:19:39.00,Default,NTP,0000,0000,0000,,十凍京
+Dialogue: 0,0:19:44.60,0:19:45.70,Default,NTP,0000,0000,0000,,好煩
+Dialogue: 0,0:19:46.00,0:19:47.10,Default,NTP,0000,0000,0000,,瞄準核心
+Dialogue: 0,0:19:51.80,0:19:53.50,Default,NTP,0000,0000,0000,,警告 被鎖定
+Dialogue: 0,0:19:57.30,0:19:58.40,Default,NTP,0000,0000,0000,,機翼
+Dialogue: 0,0:19:59.00,0:20:01.20,Default,NTP,0000,0000,0000,,收到 光子力全開
+Dialogue: 0,0:20:18.70,0:20:20.90,Default,NTP,0000,0000,0000,,傳送時限 返航
+Dialogue: 0,0:20:21.20,0:20:23.90,Default,NTP,0000,0000,0000,,任務完成 載出
+Dialogue: 0,0:20:24.10,0:20:25.60,Default,NTP,0000,0000,0000,,載出
+Dialogue: 0,0:20:45.70,0:20:46.80,Default,NTP,0000,0000,0000,,澤伽佩因
+Dialogue: 0,0:21:06.40,0:21:08.00,Default,NTP,0000,0000,0000,,歡迎回來 京
+Dialogue: 0,0:22:51.70,0:22:55.30,Default,NTP,0000,0000,0000,,不可能啊 竟然沒有一個人認識她
+Dialogue: 0,0:22:55.90,0:22:57.70,Default,NTP,0000,0000,0000,,這絕不是做夢或是妄想啊
+Dialogue: 0,0:22:58.20,0:23:00.00,Default,NTP,0000,0000,0000,,我的身體記著的啊
+Dialogue: 0,0:23:00.70,0:23:02.00,Default,NTP,0000,0000,0000,,我一定會堅守承諾
+Dialogue: 0,0:23:02.40,0:23:05.10,Default,NTP,0000,0000,0000,,也就是說 把這些傢伙幹掉不就好了嗎
+Dialogue: 0,0:23:06.10,0:23:07.90,Default,NTP,0000,0000,0000,,我想要前進啊
+Dialogue: 0,0:23:08.50,0:23:11.00,Default,NTP,0000,0000,0000,,你到底在哪裡 三崎紫津乃
+Dialogue: 0,0:23:12.10,0:23:13.60,Default,NTP,0000,0000,0000,,下回 澤伽佩因
+Dialogue: 0,0:23:14.30,0:23:15.00,Default,NTP,0000,0000,0000,,大腦
+Dialogue: 0,0:23:15.60,0:23:17.80,Default,NTP,0000,0000,0000,,不要被消去啊 這份思念
+Dialogue: 0,0:23:30.30,0:23:31.80,Default,NTP,0000,0000,0000,,澤伽佩因 記得下次也要收看哦
+Dialogue: 0,0:23:31.90,0:23:34.30,Default,NTP,0000,0000,0000,,之後是 極樂蜻蜓 的兩人節目 也請多關照咯
+000,0000,0000,,之後是 極樂蜻蜓 的兩人節目 也請多關照咯
+ 也請多關照咯

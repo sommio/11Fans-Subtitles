@@ -1,0 +1,86 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+;
+; Script created by cySub 1.4.0 Release Build 1203
+;
+Title: <untitled>
+Original Script: <unknown>
+Script Type: V4.00+
+ScriptType: V4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Timer: 100.000
+WrapStyle: 0
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,華康粗黑體(P),32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000080,0,0,0,0,100,100,0,0.00,1,1,0,2,6,6,20,136
+Style: Staff,華康粗黑體(P),28,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00FF8000,0,0,0,0,100,100,0,0.00,1,0,0,1,400,6,370,136
+Style: OPED,華康粗黑體(P),28,&H00FFFFFF,&H00000000,&H00000000,&H00FF8000,0,0,0,0,100,100,0,0.00,1,1,0,7,10,6,10,136
+Style: preview,華康粗黑體(P),28,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00FFFF00,0,0,0,0,100,100,0,0.00,1,1,0,2,6,6,8,136
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.00,0:00:09.23,preview,NTP,0000,0000,0000,,R.O.D THE TV下一回「不是什麼大不了的問題」
+Dialogue: 0,0:00:09.61,0:00:11.73,preview,NTP,0000,0000,0000,,預測預告提示
+Dialogue: 0,0:00:11.81,0:00:15.87,preview,NTP,0000,0000,0000,,快樂的倫敦﹐愉快的倫敦
+Dialogue: 0,0:00:15.95,0:00:17.50,preview,NTP,0000,0000,0000,,開始猜吧﹐各位
+Dialogue: 0,0:00:18.58,0:00:19.84,preview,NTP,0000,0000,0000,,什麼？
+Dialogue: 0,0:00:19.92,0:00:20.47,preview,NTP,0000,0000,0000,,什麼？
+Dialogue: 0,0:00:20.55,0:00:21.81,preview,NTP,0000,0000,0000,,-聽不太懂　-不懂
+Dialogue: 0,0:00:21.89,0:00:23.05,preview,NTP,0000,0000,0000,,預告﹐預告
+Dialogue: 0,0:00:23.12,0:00:25.25,preview,NTP,0000,0000,0000,,什麼意思？
+Dialogue: 0,0:00:25.32,0:00:30.19,preview,NTP,0000,0000,0000,,雖然不是什麼大不了的問題但是倫敦很好玩的意思？
+Dialogue: 0,0:00:30.26,0:00:31.63,preview,NTP,0000,0000,0000,,不是什麼大不了的問題　但是…
+Dialogue: 0,0:00:31.69,0:00:32.85,preview,NTP,0000,0000,0000,,但是
+Dialogue: 0,0:00:32.93,0:00:35.90,preview,NTP,0000,0000,0000,,但是倫敦很好玩？
+Dialogue: 0,0:00:35.97,0:00:40.93,preview,NTP,0000,0000,0000,,雖然發生很多事情　但是大家把倫敦變得很好玩吧
+Dialogue: 0,0:00:41.00,0:00:41.56,preview,NTP,0000,0000,0000,,三姊妹？
+Dialogue: 0,0:00:41.64,0:00:43.11,preview,NTP,0000,0000,0000,,三姊妹還有老師
+Dialogue: 0,0:00:43.17,0:00:44.73,preview,NTP,0000,0000,0000,,什麼跟什麼啊
+Dialogue: 0,0:00:44.81,0:00:48.37,preview,NTP,0000,0000,0000,,那麼說　下一話你們會來救我囉
+Dialogue: 0,0:00:48.44,0:00:50.44,preview,NTP,0000,0000,0000,,對哦﹐對對對
+Dialogue: 0,0:00:50.51,0:00:52.95,preview,NTP,0000,0000,0000,,四個人開開心心的　在倫敦觀光
+Dialogue: 0,0:00:53.02,0:00:56.51,preview,NTP,0000,0000,0000,,-對哦﹐老師好厲害喔　-倫敦是個很棒的地方
+Dialogue: 0,0:00:56.59,0:00:57.61,preview,NTP,0000,0000,0000,,我很想坐馬車
+Dialogue: 0,0:00:57.69,0:00:59.12,preview,NTP,0000,0000,0000,,-坐馬車？　-想坐﹐想坐
+Dialogue: 0,0:00:59.19,0:01:00.92,preview,NTP,0000,0000,0000,,-有看過吧？　-有有有
+Dialogue: 0,0:01:00.99,0:01:02.15,preview,NTP,0000,0000,0000,,摩天輪也想去坐
+Dialogue: 0,0:01:02.23,0:01:04.46,preview,NTP,0000,0000,0000,,摩天輪也可以坐啊
+Dialogue: 0,0:01:04.53,0:01:06.29,preview,NTP,0000,0000,0000,,我會怕﹐可能不敢坐
+Dialogue: 0,0:01:06.36,0:01:07.16,preview,NTP,0000,0000,0000,,或許？
+Dialogue: 0,0:01:07.23,0:01:08.36,preview,NTP,0000,0000,0000,,或許？或許？
+Dialogue: 0,0:01:08.43,0:01:10.52,preview,NTP,0000,0000,0000,,說不定會被吃掉
+Dialogue: 0,0:01:10.60,0:01:11.46,preview,NTP,0000,0000,0000,,會被吃掉啊？
+Dialogue: 0,0:01:11.53,0:01:14.33,preview,NTP,0000,0000,0000,,但是這時候　瑪姬會來救我們啊
+Dialogue: 0,0:01:14.40,0:01:15.23,preview,NTP,0000,0000,0000,,我會加油
+Dialogue: 0,0:01:15.31,0:01:17.77,preview,NTP,0000,0000,0000,,坐紙偶飛來救我們
+Dialogue: 0,0:01:17.84,0:01:19.07,preview,NTP,0000,0000,0000,,坐紙偶來嗎？
+Dialogue: 0,0:01:19.64,0:01:21.67,preview,NTP,0000,0000,0000,,不是嗎？
+Dialogue: 0,0:01:21.74,0:01:23.37,preview,NTP,0000,0000,0000,,-姊姊　-不是啦﹐不是啦
+Dialogue: 0,0:01:23.45,0:01:25.51,preview,NTP,0000,0000,0000,,-這樣不行啦　-姊姊﹐這個好
+Dialogue: 0,0:01:25.58,0:01:28.02,preview,NTP,0000,0000,0000,,事情到底是怎樣　誰來說說看吧
+Dialogue: 0,0:01:29.25,0:01:31.62,preview,NTP,0000,0000,0000,,就是說
+Dialogue: 0,0:01:31.69,0:01:33.92,preview,NTP,0000,0000,0000,,你們三個人來救我
+Dialogue: 0,0:01:33.99,0:01:35.55,preview,NTP,0000,0000,0000,,來救妳
+Dialogue: 0,0:01:35.63,0:01:36.99,preview,NTP,0000,0000,0000,,還要救出朱利亞
+Dialogue: 0,0:01:37.06,0:01:39.59,preview,NTP,0000,0000,0000,,大家都要救…
+Dialogue: 0,0:01:39.66,0:01:42.13,preview,NTP,0000,0000,0000,,然後大家一起去觀光
+Dialogue: 0,0:01:42.20,0:01:43.76,preview,NTP,0000,0000,0000,,去看大笨鐘
+Dialogue: 0,0:01:43.83,0:01:45.20,preview,NTP,0000,0000,0000,,好想去喔
+Dialogue: 0,0:01:45.27,0:01:46.67,preview,NTP,0000,0000,0000,,大笨鐘怎麼寫？
+Dialogue: 0,0:01:46.74,0:01:47.76,preview,NTP,0000,0000,0000,,Big Ben
+Dialogue: 0,0:01:47.84,0:01:49.33,preview,NTP,0000,0000,0000,,就是Big Ben啊
+Dialogue: 0,0:01:49.41,0:01:50.17,preview,NTP,0000,0000,0000,,那是誰啊？
+Dialogue: 0,0:01:50.24,0:01:52.90,preview,NTP,0000,0000,0000,,-不是人名啦　-怎麼辦
+Dialogue: 0,0:01:52.98,0:01:56.31,preview,NTP,0000,0000,0000,,艾妮達﹐到體育館來
+Dialogue: 0,0:01:56.38,0:01:57.94,preview,NTP,0000,0000,0000,,是是是
+Dialogue: 0,0:01:58.01,0:02:02.47,preview,NTP,0000,0000,0000,,總之﹐下週會是愉快的倫敦
+Dialogue: 0,0:02:02.55,0:02:04.78,preview,NTP,0000,0000,0000,,敬請期待…
+
+

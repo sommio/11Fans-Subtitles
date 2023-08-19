@@ -1,0 +1,125 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+;
+; Script created by cySub 1.4.0 Release Build 1203
+;
+Title: <untitled>
+Original Script: <unknown>
+Script Type: V4.00+
+ScriptType: V4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Timer: 100.000
+WrapStyle: 0
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,華康粗黑體(P),32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000080,0,0,0,0,100,100,0,0.00,1,1,0,2,6,6,20,136
+Style: Staff,華康粗黑體(P),28,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00FF8000,0,0,0,0,100,100,0,0.00,1,0,0,1,400,6,370,136
+Style: OPED,華康粗黑體(P),28,&H00FFFFFF,&H00000000,&H00000000,&H00FF8000,0,0,0,0,100,100,0,0.00,1,1,0,7,10,6,10,136
+Style: preview,華康粗黑體(P),28,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00FFFF00,0,0,0,0,100,100,0,0.00,1,1,0,2,6,6,8,136
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.99,0:00:06.32,preview,NTP,0000,0000,0000,,好久不見了﹐我是瑪姬
+Dialogue: 0,0:00:06.39,0:00:07.86,preview,NTP,0000,0000,0000,,預測預告
+Dialogue: 0,0:00:07.93,0:00:14.39,preview,NTP,0000,0000,0000,,R.O.D THE TV　下一回「謊言﹐以及沉默」
+Dialogue: 0,0:00:14.47,0:00:20.03,preview,NTP,0000,0000,0000,,提示　衝擊的真相即將揭曉
+Dialogue: 0,0:00:20.11,0:00:20.90,preview,NTP,0000,0000,0000,,會是什麼呢？
+Dialogue: 0,0:00:20.97,0:00:22.97,preview,NTP,0000,0000,0000,,衝擊的真相是什麼？
+Dialogue: 0,0:00:23.04,0:00:25.34,preview,NTP,0000,0000,0000,,裘克先生其實是戴假髮
+Dialogue: 0,0:00:25.68,0:00:26.67,preview,NTP,0000,0000,0000,,不會吧
+Dialogue: 0,0:00:27.61,0:00:30.58,preview,NTP,0000,0000,0000,,果然沒錯﹐那個禿頭
+Dialogue: 0,0:00:30.65,0:00:31.91,preview,NTP,0000,0000,0000,,就是嘛﹐那個禿頭
+Dialogue: 0,0:00:31.99,0:00:33.08,preview,NTP,0000,0000,0000,,不可以那麼說啦
+Dialogue: 0,0:00:33.15,0:00:35.68,preview,NTP,0000,0000,0000,,不過﹐他好像有點受傷　說他是禿頭的話
+Dialogue: 0,0:00:35.76,0:00:38.95,preview,NTP,0000,0000,0000,,對啊﹐說他是禿頭的時候　事後會覺得有點內疚
+Dialogue: 0,0:00:39.03,0:00:41.59,preview,NTP,0000,0000,0000,,心裡會覺得毛毛的
+Dialogue: 0,0:00:41.66,0:00:43.19,preview,NTP,0000,0000,0000,,這樣啊﹐是這個啊
+Dialogue: 0,0:00:43.26,0:00:44.89,preview,NTP,0000,0000,0000,,各位呢？
+Dialogue: 0,0:00:44.97,0:00:46.69,preview,NTP,0000,0000,0000,,你們覺得是什麼？
+Dialogue: 0,0:00:46.77,0:00:48.43,preview,NTP,0000,0000,0000,,是什麼呢？姊姊
+Dialogue: 0,0:00:48.50,0:00:51.60,preview,NTP,0000,0000,0000,,啊？為什麼呢？
+Dialogue: 0,0:00:51.67,0:00:54.23,preview,NTP,0000,0000,0000,,因為姊姊最像有內幕　沒被那麼說過嗎？
+Dialogue: 0,0:00:54.31,0:00:58.87,preview,NTP,0000,0000,0000,,一定是三姊妹的過去　被揭曉了
+Dialogue: 0,0:00:58.95,0:01:00.67,preview,NTP,0000,0000,0000,,-已經揭曉了吧　-已經揭曉了嗎？
+Dialogue: 0,0:01:00.75,0:01:03.55,preview,NTP,0000,0000,0000,,-在第10話左右　-對喔﹐聖誕節的故事
+Dialogue: 0,0:01:03.62,0:01:05.08,preview,NTP,0000,0000,0000,,說不定是更早的事
+Dialogue: 0,0:01:05.15,0:01:06.45,preview,NTP,0000,0000,0000,,例如出生的事
+Dialogue: 0,0:01:06.52,0:01:07.51,preview,NTP,0000,0000,0000,,出生？
+Dialogue: 0,0:01:07.59,0:01:09.21,preview,NTP,0000,0000,0000,,出生的事情？
+Dialogue: 0,0:01:09.29,0:01:12.16,preview,NTP,0000,0000,0000,,意思是在那裡相遇　並非第一次
+Dialogue: 0,0:01:12.23,0:01:15.39,preview,NTP,0000,0000,0000,,說不定三姊妹的身世　有什麼關聯
+Dialogue: 0,0:01:15.46,0:01:17.99,preview,NTP,0000,0000,0000,,-姊姊真厲害　-朱利亞也那麼說過
+Dialogue: 0,0:01:18.06,0:01:19.40,preview,NTP,0000,0000,0000,,他說過
+Dialogue: 0,0:01:19.47,0:01:21.30,preview,NTP,0000,0000,0000,,是異母兄弟
+Dialogue: 0,0:01:21.37,0:01:22.84,preview,NTP,0000,0000,0000,,什麼？
+Dialogue: 0,0:01:22.90,0:01:24.43,preview,NTP,0000,0000,0000,,異母兄弟？
+Dialogue: 0,0:01:24.50,0:01:25.13,preview,NTP,0000,0000,0000,,搞不懂
+Dialogue: 0,0:01:25.21,0:01:27.67,preview,NTP,0000,0000,0000,,誰是媽媽？誰是爸爸？
+Dialogue: 0,0:01:27.74,0:01:34.24,preview,NTP,0000,0000,0000,,很常見的…一定…　或許大家又會消失了
+Dialogue: 0,0:01:34.31,0:01:35.58,preview,NTP,0000,0000,0000,,妳在興奮什麼啊
+Dialogue: 0,0:01:35.65,0:01:36.84,preview,NTP,0000,0000,0000,,-妳在笑什麼啊　-對不起
+Dialogue: 0,0:01:36.92,0:01:37.85,preview,NTP,0000,0000,0000,,打死妳﹐打死妳
+Dialogue: 0,0:01:37.92,0:01:39.32,preview,NTP,0000,0000,0000,,瑪姬
+Dialogue: 0,0:01:41.09,0:01:42.49,preview,NTP,0000,0000,0000,,艾妮達呢？
+Dialogue: 0,0:01:42.56,0:01:43.82,preview,NTP,0000,0000,0000,,我認為…
+Dialogue: 0,0:01:43.89,0:01:49.09,preview,NTP,0000,0000,0000,,因為姊姊的戲份很少　所以想了很多
+Dialogue: 0,0:01:49.16,0:01:51.39,preview,NTP,0000,0000,0000,,可是全部忘記了
+Dialogue: 0,0:01:51.46,0:01:52.80,preview,NTP,0000,0000,0000,,虧妳想了那麼多
+Dialogue: 0,0:01:52.87,0:01:53.73,preview,NTP,0000,0000,0000,,對了﹐對了
+Dialogue: 0,0:01:53.80,0:01:54.77,preview,NTP,0000,0000,0000,,有沒有說過複製人？
+Dialogue: 0,0:01:54.83,0:01:55.63,preview,NTP,0000,0000,0000,,對啊﹐對啊
+Dialogue: 0,0:01:55.70,0:02:00.61,preview,NTP,0000,0000,0000,,說到東尼的複製人什麼的
+Dialogue: 0,0:02:00.67,0:02:02.44,preview,NTP,0000,0000,0000,,聽說複製人長得都一樣
+Dialogue: 0,0:02:02.51,0:02:03.27,preview,NTP,0000,0000,0000,,對喔
+Dialogue: 0,0:02:03.34,0:02:04.28,preview,NTP,0000,0000,0000,,什麼都一樣
+Dialogue: 0,0:02:04.34,0:02:07.75,preview,NTP,0000,0000,0000,,-對啊　-根本完全不一樣
+Dialogue: 0,0:02:07.81,0:02:10.98,preview,NTP,0000,0000,0000,,所以對姊姊的衝擊是什麼呢？
+Dialogue: 0,0:02:11.05,0:02:13.14,preview,NTP,0000,0000,0000,,最大的衝擊可能是
+Dialogue: 0,0:02:13.22,0:02:14.65,preview,NTP,0000,0000,0000,,多雷克是個女人
+Dialogue: 0,0:02:15.49,0:02:17.55,preview,NTP,0000,0000,0000,,我不太願意想像
+Dialogue: 0,0:02:17.62,0:02:19.49,preview,NTP,0000,0000,0000,,怎麼樣？怎麼樣？
+Dialogue: 0,0:02:19.56,0:02:20.46,preview,NTP,0000,0000,0000,,很微妙
+Dialogue: 0,0:02:20.53,0:02:21.43,preview,NTP,0000,0000,0000,,真的嗎？
+Dialogue: 0,0:02:21.49,0:02:23.36,preview,NTP,0000,0000,0000,,那麼﹐其實大家都是男生？
+Dialogue: 0,0:02:24.93,0:02:25.96,preview,NTP,0000,0000,0000,,我們大家？
+Dialogue: 0,0:02:26.03,0:02:29.26,preview,NTP,0000,0000,0000,,艾妮達　妳看看自己的身體
+Dialogue: 0,0:02:29.34,0:02:31.60,preview,NTP,0000,0000,0000,,-是男生還是女生？　-有點小…
+Dialogue: 0,0:02:31.67,0:02:33.14,preview,NTP,0000,0000,0000,,兩種都說得通
+Dialogue: 0,0:02:34.81,0:02:35.33,preview,NTP,0000,0000,0000,,這樣啊
+Dialogue: 0,0:02:35.41,0:02:38.87,preview,NTP,0000,0000,0000,,因為沒有胸部
+Dialogue: 0,0:02:40.11,0:02:42.45,preview,NTP,0000,0000,0000,,如果說姊姊是男生　就有點怪怪的
+Dialogue: 0,0:02:42.52,0:02:44.51,preview,NTP,0000,0000,0000,,-是有點　-太大
+Dialogue: 0,0:02:44.58,0:02:47.05,preview,NTP,0000,0000,0000,,到底怎樣？一頭霧水
+Dialogue: 0,0:02:47.12,0:02:48.64,preview,NTP,0000,0000,0000,,為什麼在笑呢？
+Dialogue: 0,0:02:48.72,0:02:49.12,preview,NTP,0000,0000,0000,,好像很高興
+Dialogue: 0,0:02:49.19,0:02:51.42,preview,NTP,0000,0000,0000,,姊姊好像很高興的樣子
+Dialogue: 0,0:02:51.49,0:02:52.48,preview,NTP,0000,0000,0000,,怎麼啦？
+Dialogue: 0,0:02:52.56,0:02:55.59,preview,NTP,0000,0000,0000,,那麼老師認為的　衝擊性真相呢？
+Dialogue: 0,0:02:55.66,0:02:59.46,preview,NTP,0000,0000,0000,,這個嘛﹐我啊…
+Dialogue: 0,0:02:59.53,0:03:04.09,preview,NTP,0000,0000,0000,,我想一定是　三姊妹的衝擊性真相
+Dialogue: 0,0:03:04.17,0:03:05.66,preview,NTP,0000,0000,0000,,-聽了之後…　-那個時候…
+Dialogue: 0,0:03:06.44,0:03:11.34,preview,NTP,0000,0000,0000,,那麼﹐我也有在裡面的話
+Dialogue: 0,0:03:11.41,0:03:13.68,preview,NTP,0000,0000,0000,,啊﹐有可能喔
+Dialogue: 0,0:03:13.75,0:03:14.54,preview,NTP,0000,0000,0000,,這個嘛
+Dialogue: 0,0:03:14.61,0:03:17.91,preview,NTP,0000,0000,0000,,這樣聽了說不定會沉默不語
+Dialogue: 0,0:03:17.98,0:03:20.32,preview,NTP,0000,0000,0000,,說不定大家都是姊妹
+Dialogue: 0,0:03:20.39,0:03:21.58,preview,NTP,0000,0000,0000,,人類都是兄弟姊妹
+Dialogue: 0,0:03:21.65,0:03:22.21,preview,NTP,0000,0000,0000,,大家都是
+Dialogue: 0,0:03:22.29,0:03:23.28,preview,NTP,0000,0000,0000,,這個好
+Dialogue: 0,0:03:23.36,0:03:24.52,preview,NTP,0000,0000,0000,,大團圓
+Dialogue: 0,0:03:24.59,0:03:26.86,preview,NTP,0000,0000,0000,,多多少少都有血緣關係
+Dialogue: 0,0:03:26.93,0:03:27.76,preview,NTP,0000,0000,0000,,對啊
+Dialogue: 0,0:03:27.83,0:03:30.35,preview,NTP,0000,0000,0000,,-那麼做結論吧　-大家都是一家人
+Dialogue: 0,0:03:30.43,0:03:32.80,preview,NTP,0000,0000,0000,,對啊﹐要相親相愛
+Dialogue: 0,0:03:32.87,0:03:34.77,preview,NTP,0000,0000,0000,,結論就是裘克先生是戴假髮
+Dialogue: 0,0:03:34.83,0:03:35.96,preview,NTP,0000,0000,0000,,大家加油吧
+Dialogue: 0,0:03:36.04,0:03:36.69,preview,NTP,0000,0000,0000,,好
+
+

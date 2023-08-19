@@ -1,0 +1,840 @@
+[Script Info]
+
+Title: Nogizaka_Haruka_no_Himitsu 11
+Original Script:HKG
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:704
+PlayResY:396
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+;=== Nogizaka_Haruka_no_Himitsu 乃木坂春香的秘密 DVDRIP 作品ASS字幕外挂发布讯息 ===
+;
+;字幕由HKG字幕组制作
+;其他团体请勿私自作为自己的作品发布，谢谢
+;参与制作人员
+;翻译：Agtom
+;时间：国华
+;特效：怕输
+;后期：风痕 蒙面裸奔超人 Zilch [力]
+;DVDRIP：TCT66
+;海报：远阪士郎
+;
+Style: *Default,ZhunYuan,24,&H00FFFFFF,&HFF000000,&H00DE8180,&H00DE8180,1,0,0,0,100,100,0,0.00,1,2,1,2,10,10,10,1
+Style: *Default2,ZhunYuan,20,&H00FFFFFF,&HFF000000,&H00DE8180,&H00DE8180,1,0,0,0,100,100,0,0.00,1,2,1,8,10,10,10,1
+Style: *Default3,ZhunYuan,20,&H00FFFFFF,&HFF000000,&H00DE8180,&H00DE8180,1,0,0,0,100,100,0,0.00,1,2,1,8,10,10,10,1
+Style: title,ZhunYuan,22,&H00FFFFFF,&HFF000000,&H00C853DC,&H00C853DC,0,0,0,0,100,100,0,0.00,1,1,1,2,10,10,10,1
+Style: logo,DFPShiYiW5-B5,40,&H00FFFFFF,&HF0000000,&H00FF2424,&H00FF2424,1,0,0,0,100,100,0,0.00,1,1,0,5,10,10,10,1
+Style: op_jap,DFPMaruMoji-SL,23,&H0066FFFF,&H00FFFFFF,&H00455BC4,&H00FFFFFF,1,0,0,0,100,100,0,0.00,1,2,1,2,10,10,10,1
+Style: op_chi,DFPGirlW7-B5,22,&H00833AED,&H0000FFFF,&H00FFFFFF,&H002E2A73,1,0,0,0,100,100,0,0.00,1,2,1,8,10,10,10,1
+Style: ed_jap,DFPMaruMoji-SL,21,&H00EFF7F6,&H00000000,&H004C270C,&H00BB7C43,1,0,0,0,100,100,0,0.00,1,1,2,2,10,10,10,1
+Style: ed_chi,DFPGirlW7-B5,21,&H00EFF7F6,&H00000000,&H004C270C,&H00B28396,1,0,0,0,100,100,0,0.00,1,1,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(500,40)}{\1c&H52dbff&}{\3c&H5d9bde&}{\bord1\be1}Ｈ
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(500,40)}{\1c&H52dbff&}{\3c&Hffffff&}{\bord3}Ｈ
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(500,40)}{\1c&H52dbff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}Ｈ
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(530,45)}{\1c&H57e6ff&}{\3c&H5d9bde&}{\bord1\be1}Ｋ
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(530,45)}{\1c&H57e6ff&}{\3c&Hffffff&}{\bord3}Ｋ
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(530,45)}{\1c&H57e6ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}Ｋ
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(555,40)}{\1c&H57e6ff&}{\3c&H5d9bde&}{\bord1\be1}Ｇ
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(555,40)}{\1c&H57e6ff&}{\3c&Hffffff&}{\bord3}Ｇ
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs40}{\pos(555,40)}{\1c&H57e6ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}Ｇ
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(582,30)}{\1c&H60e9ff&}{\3c&H5d9bde&}{\bord1\be1}字
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(582,30)}{\1c&H60e9ff&}{\3c&Hffffff&}{\bord3}字
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(582,30)}{\1c&H60e9ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}字
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(610,35)}{\1c&H58e5ff&}{\3c&H5d9bde&}{\bord1\be1}幕
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(610,35)}{\1c&H58e5ff&}{\3c&Hffffff&}{\bord3}幕
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(610,35)}{\1c&H58e5ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}幕
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(642,33)}{\1c&H60e9ff&}{\3c&H5d9bde&}{\bord1\be1}組
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(642,33)}{\1c&H60e9ff&}{\3c&Hffffff&}{\bord3}組
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(642,33)}{\1c&H60e9ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}組
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fnHearts Galore}{\fs40}{\1c&H6573ff&}{\4c&H555fee&}{\bord0\shad1\be1}{\pos(665,40)}{\frz-30}0
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs22}{\pos(668,35)}{\1c&HFFFFFF&}{\bord0\shad0\be1}{\frz-30}の
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(620,70)}{\1c&H55d6ff&}{\3c&H5d9bde&}{\bord1\be1}製
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(620,70)}{\1c&H55d6ff&}{\3c&Hffffff&}{\bord3}製
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(620,70)}{\1c&H55d6ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}製
+Dialogue: 3,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(650,70)}{\1c&H4ec6ff&}{\3c&H5d9bde&}{\bord1\be1}作
+Dialogue: 2,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(650,70)}{\1c&H4ec6ff&}{\3c&Hffffff&}{\bord3}作
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs35}{\pos(650,70)}{\1c&H4ec6ff&}{\3c&H7c8ae5&}{\4c&H4054b1&}{\bord4\shad3\be1}作
+Dialogue: 1,0:01:03.20,0:01:07.70,logo,NTP,0000,0000,0000,,{\fad(250,500)}{\fs11}{\fncomic sans cs}{\pos(595,70)}{\an6}{\1c&H4f57fc&}{\frz12}{\3c&Hffffff&}{\4c&Hffffff&}{\bord2\shad1\be1}www.ani-comic\N.hk
+
+Dialogue: 10,0:01:09.63,0:01:15.80,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,156,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(364,520,1,\frz0\1c&H66ffff&\4c&Hffffff&)}半{\r\alpha&HFF&}{\t(520,631,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(779,890,1,\frz0\1c&H66ffff&\4c&Hffffff&)}分{\r\alpha&HFF&}{\t(890,968,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1072,1150,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(1150,1258,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1402,1510,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ら{\r\alpha&HFF&}{\t(1510,1639,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1811,1940,1,\frz0\1c&H66ffff&\4c&Hffffff&)}あ{\r\alpha&HFF&}{\t(1940,2045,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2185,2290,1,\frz0\1c&H66ffff&\4c&Hffffff&)}げ{\r\alpha&HFF&}{\t(2290,2365,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2465,2540,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(2540,2636,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2764,2860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(2860,2920,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3000,3060,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(3060,3114,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3186,3240,1,\frz0\1c&H66ffff&\4c&Hffffff&)}す{\r\alpha&HFF&}{\t(3240,3279,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3331,3370,1,\frz0\1c&H66ffff&\4c&Hffffff&)}べ{\r\alpha&HFF&}{\t(3370,3475,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3615,3720,1,\frz0\1c&H66ffff&\4c&Hffffff&)}て{\r\alpha&HFF&}{\t(3720,3912,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4168,4360,1,\frz0\1c&H66ffff&\4c&Hffffff&)}奪{\r\alpha&HFF&}{\t(4360,4417,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4493,4550,1,\frz0\1c&H66ffff&\4c&Hffffff&)}っ{\r\alpha&HFF&}{\t(4550,4622,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4718,4790,1,\frz0\1c&H66ffff&\4c&Hffffff&)}て{\r\alpha&HFF&}{\t(4790,4868,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4972,5050,1,\frz0\1c&H66ffff&\4c&Hffffff&)}欲{\r\alpha&HFF&}{\t(5050,5203,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5407,5560,1,\frz0\1c&H66ffff&\4c&Hffffff&)}し{\r\alpha&HFF&}{\t(5560,5743,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5987,6170,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(6170,6170,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(6170,6170,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:16.14,0:01:22.43,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,141,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(329,470,1,\frz0\1c&H66ffff&\4c&Hffffff&)}運{\r\alpha&HFF&}{\t(470,587,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(743,860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}命{\r\alpha&HFF&}{\t(860,935,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1035,1110,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(1110,1221,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1369,1480,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ら{\r\alpha&HFF&}{\t(1480,1714,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2026,2260,1,\frz0\1c&H66ffff&\4c&Hffffff&)}１{\r\alpha&HFF&}{\t(2260,2446,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2694,2880,1,\frz0\1c&H66ffff&\4c&Hffffff&)}秒{\r\alpha&HFF&}{\t(2880,2940,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3020,3080,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(3080,3119,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3171,3210,1,\frz0\1c&H66ffff&\4c&Hffffff&)}生{\r\alpha&HFF&}{\t(3210,3246,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3294,3330,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ま{\r\alpha&HFF&}{\t(3330,3378,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3442,3490,1,\frz0\1c&H66ffff&\4c&Hffffff&)}れ{\r\alpha&HFF&}{\t(3490,3562,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3658,3730,1,\frz0\1c&H66ffff&\4c&Hffffff&)}変{\r\alpha&HFF&}{\t(3730,3790,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3870,3930,1,\frz0\1c&H66ffff&\4c&Hffffff&)}わ{\r\alpha&HFF&}{\t(3930,3996,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4084,4150,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(4150,4312,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4528,4690,1,\frz0\1c&H66ffff&\4c&Hffffff&)}夢{\r\alpha&HFF&}{\t(4690,4762,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4858,4930,1,\frz0\1c&H66ffff&\4c&Hffffff&)}を{\r\alpha&HFF&}{\t(4930,5098,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5322,5490,1,\frz0\1c&H66ffff&\4c&Hffffff&)}見{\r\alpha&HFF&}{\t(5490,5682,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5938,6130,1,\frz0\1c&H66ffff&\4c&Hffffff&)}た{\r\alpha&HFF&}{\t(6130,6178,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(6242,6290,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:22.65,0:01:28.98,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,246,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(574,820,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ク{\r\alpha&HFF&}{\t(820,919,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1051,1150,1,\frz0\1c&H66ffff&\4c&Hffffff&)}チ{\r\alpha&HFF&}{\t(1150,1246,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1374,1470,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ビ{\r\alpha&HFF&}{\t(1470,1518,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1582,1630,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ル{\r\alpha&HFF&}{\t(1630,1729,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1861,1960,1,\frz0\1c&H66ffff&\4c&Hffffff&)}を{\r\alpha&HFF&}{\t(1960,2059,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2191,2290,1,\frz0\1c&H66ffff&\4c&Hffffff&)}噛{\r\alpha&HFF&}{\t(2290,2353,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2437,2500,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ん{\r\alpha&HFF&}{\t(2500,2608,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2752,2860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}で{\r\alpha&HFF&}{\t(2860,2923,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3007,3070,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(3070,3235,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3455,3620,1,\frz0\1c&H66ffff&\4c&Hffffff&)}痛{\r\alpha&HFF&}{\t(3620,3707,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3823,3910,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(3910,3973,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4057,4120,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ほ{\r\alpha&HFF&}{\t(4120,4237,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4393,4510,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ど{\r\alpha&HFF&}{\t(4510,4570,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4650,4710,1,\frz0\1c&H66ffff&\4c&Hffffff&)}高{\r\alpha&HFF&}{\t(4710,4776,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4864,4930,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ぶ{\r\alpha&HFF&}{\t(4930,5008,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5112,5190,1,\frz0\1c&H66ffff&\4c&Hffffff&)}っ{\r\alpha&HFF&}{\t(5190,5247,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5323,5380,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ち{\r\alpha&HFF&}{\t(5380,5413,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5457,5490,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ゃ{\r\alpha&HFF&}{\t(5490,5565,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5665,5740,1,\frz0\1c&H66ffff&\4c&Hffffff&)}う{\r\alpha&HFF&}{\t(5740,5860,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(6020,6140,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ね{\r\alpha&HFF&}{\t(6140,6197,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(6273,6330,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:28.98,0:01:31.95,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,24,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(56,80,1,\frz0\1c&H66ffff&\4c&Hffffff&)}で{\r\alpha&HFF&}{\t(80,110,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(150,180,1,\frz0\1c&H66ffff&\4c&Hffffff&)}も{\r\alpha&HFF&}{\t(180,234,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(306,360,1,\frz0\1c&H66ffff&\4c&Hffffff&)}し{\r\alpha&HFF&}{\t(360,414,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(486,540,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ょ{\r\alpha&HFF&}{\t(540,618,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(722,800,1,\frz0\1c&H66ffff&\4c&Hffffff&)}う{\r\alpha&HFF&}{\t(800,866,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(954,1020,1,\frz0\1c&H66ffff&\4c&Hffffff&)}が{\r\alpha&HFF&}{\t(1020,1092,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1188,1260,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(1260,1311,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1379,1430,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(1430,1478,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1542,1590,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(1590,1752,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1968,2130,1,\frz0\1c&H66ffff&\4c&Hffffff&)}戻{\r\alpha&HFF&}{\t(2130,2220,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2340,2430,1,\frz0\1c&H66ffff&\4c&Hffffff&)}れ{\r\alpha&HFF&}{\t(2430,2487,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2563,2620,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(2620,2725,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2865,2970,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(2970,2970,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2970,2970,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:31.95,0:01:36.24,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,141,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(329,470,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ね{\r\alpha&HFF&}{\t(470,725,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1065,1320,1,\frz0\1c&H66ffff&\4c&Hffffff&)}え{\r\alpha&HFF&}{\t(1320,1368,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1432,1480,1,\frz0\1c&H66ffff&\4c&Hffffff&)}…{\r\alpha&HFF&}{\t(1480,1504,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1536,1560,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(1560,1602,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1658,1700,1,\frz0\1c&H66ffff&\4c&Hffffff&)}こ{\r\alpha&HFF&}{\t(1700,1751,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1819,1870,1,\frz0\1c&H66ffff&\4c&Hffffff&)}れ{\r\alpha&HFF&}{\t(1870,1930,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2010,2070,1,\frz0\1c&H66ffff&\4c&Hffffff&)}が{\r\alpha&HFF&}{\t(2070,2244,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2476,2650,1,\frz0\1c&H66ffff&\4c&Hffffff&)}愛{\r\alpha&HFF&}{\t(2650,2725,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2825,2900,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(2900,3242,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3698,4040,1,\frz0\1c&H66ffff&\4c&Hffffff&)}の{\r\alpha&HFF&}{\t(4040,4115,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4215,4290,1,\frz0\1c&H66ffff&\4c&Hffffff&)}？{\r\alpha&HFF&}{\t(4290,4290,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4290,4290,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:36.24,0:01:37.29,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,111,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(259,370,1,\frz0\1c&H66ffff&\4c&Hffffff&)}Do{\r\alpha&HFF&}{\t(370,370,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(370,370,1,\frz0\1c&H66ffff&\4c&Hffffff&)}！{\r\alpha&HFF&}{\t(370,460,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(580,670,1,\frz0\1c&H66ffff&\4c&Hffffff&)}し{\r\alpha&HFF&}{\t(670,727,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(803,860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}よ{\r\alpha&HFF&}{\t(860,917,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(993,1050,1,\frz0\1c&H66ffff&\4c&Hffffff&)}う{\r\alpha&HFF&}{\t(1050,1050,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1050,1050,1,\frz0\1c&H66ffff&\4c&Hffffff&)}？{\r\alpha&HFF&}{\t(1050,1050,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1050,1050,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:37.30,0:01:39.47,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,63,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(147,210,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ふ{\r\alpha&HFF&}{\t(210,264,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(336,390,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(390,456,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(544,610,1,\frz0\1c&H66ffff&\4c&Hffffff&)}え{\r\alpha&HFF&}{\t(610,718,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(862,970,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(970,970,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(970,970,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(970,1048,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1152,1230,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ふ{\r\alpha&HFF&}{\t(1230,1284,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1356,1410,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(1410,1476,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1564,1630,1,\frz0\1c&H66ffff&\4c&Hffffff&)}え{\r\alpha&HFF&}{\t(1630,1750,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1910,2030,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(2030,2072,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2128,2170,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:39.47,0:01:43.78,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,72,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(168,240,1,\frz0\1c&H66ffff&\4c&Hffffff&)}や{\r\alpha&HFF&}{\t(240,303,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(387,450,1,\frz0\1c&H66ffff&\4c&Hffffff&)}わ{\r\alpha&HFF&}{\t(450,510,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(590,650,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ら{\r\alpha&HFF&}{\t(650,716,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(804,870,1,\frz0\1c&H66ffff&\4c&Hffffff&)}か{\r\alpha&HFF&}{\t(870,924,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(996,1050,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(1050,1146,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1274,1370,1,\frz0\1c&H66ffff&\4c&Hffffff&)}核{\r\alpha&HFF&}{\t(1370,1571,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1839,2040,1,\frz0\1c&H66ffff&\4c&Hffffff&)}心{\r\alpha&HFF&}{\t(2040,2163,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2327,2450,1,\frz0\1c&H66ffff&\4c&Hffffff&)}に{\r\alpha&HFF&}{\t(2450,2579,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2751,2880,1,\frz0\1c&H66ffff&\4c&Hffffff&)}触{\r\alpha&HFF&}{\t(2880,2991,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3139,3250,1,\frz0\1c&H66ffff&\4c&Hffffff&)}れ{\r\alpha&HFF&}{\t(3250,3325,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3425,3500,1,\frz0\1c&H66ffff&\4c&Hffffff&)}て{\r\alpha&HFF&}{\t(3500,3623,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3787,3910,1,\frz0\1c&H66ffff&\4c&Hffffff&)}よ{\r\alpha&HFF&}{\t(3910,4030,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4190,4310,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:43.94,0:01:49.46,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,75,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(175,250,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ひ{\r\alpha&HFF&}{\t(250,301,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(369,420,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ど{\r\alpha&HFF&}{\t(420,468,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(532,580,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(580,706,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(874,1000,1,\frz0\1c&H66ffff&\4c&Hffffff&)}苦{\r\alpha&HFF&}{\t(1000,1060,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1140,1200,1,\frz0\1c&H66ffff&\4c&Hffffff&)}さ{\r\alpha&HFF&}{\t(1200,1278,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1382,1460,1,\frz0\1c&H66ffff&\4c&Hffffff&)}の{\r\alpha&HFF&}{\t(1460,1646,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1894,2080,1,\frz0\1c&H66ffff&\4c&Hffffff&)}後{\r\alpha&HFF&}{\t(2080,2248,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2472,2640,1,\frz0\1c&H66ffff&\4c&Hffffff&)}で{\r\alpha&HFF&}{\t(2640,2712,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2808,2880,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(2880,2910,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2950,2980,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ほ{\r\alpha&HFF&}{\t(2980,3013,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3057,3090,1,\frz0\1c&H66ffff&\4c&Hffffff&)}と{\r\alpha&HFF&}{\t(3090,3138,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3202,3250,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ば{\r\alpha&HFF&}{\t(3250,3319,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3411,3480,1,\frz0\1c&H66ffff&\4c&Hffffff&)}し{\r\alpha&HFF&}{\t(3480,3531,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3599,3650,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(3650,3899,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4231,4480,1,\frz0\1c&H66ffff&\4c&Hffffff&)}甘{\r\alpha&HFF&}{\t(4480,4612,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4788,4920,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(4920,5100,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5340,5520,1,\frz0\1c&H66ffff&\4c&Hffffff&)}夢{\r\alpha&HFF&}{\t(5520,5520,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5520,5520,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:49.47,0:01:52.47,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,117,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(273,390,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ホ{\r\alpha&HFF&}{\t(390,504,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(656,770,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ラ{\r\alpha&HFF&}{\t(770,770,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(770,770,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(770,833,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(917,980,1,\frz0\1c&H66ffff&\4c&Hffffff&)}つ{\r\alpha&HFF&}{\t(980,1043,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1127,1190,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(1190,1265,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1365,1440,1,\frz0\1c&H66ffff&\4c&Hffffff&)}が{\r\alpha&HFF&}{\t(1440,1533,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1657,1750,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(1750,1750,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1750,1750,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(1750,1834,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1946,2030,1,\frz0\1c&H66ffff&\4c&Hffffff&)}つ{\r\alpha&HFF&}{\t(2030,2081,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2149,2200,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(2200,2269,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2361,2430,1,\frz0\1c&H66ffff&\4c&Hffffff&)}が{\r\alpha&HFF&}{\t(2430,2601,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2829,3000,1,\frz0\1c&H66ffff&\4c&Hffffff&)}る{\r\alpha&HFF&}{\t(3000,3000,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3000,3000,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:52.47,0:01:56.52,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,132,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(308,440,1,\frz0\1c&H66ffff&\4c&Hffffff&)}絡{\r\alpha&HFF&}{\t(440,491,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(559,610,1,\frz0\1c&H66ffff&\4c&Hffffff&)}み{\r\alpha&HFF&}{\t(610,667,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(743,800,1,\frz0\1c&H66ffff&\4c&Hffffff&)}つ{\r\alpha&HFF&}{\t(800,839,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(891,930,1,\frz0\1c&H66ffff&\4c&Hffffff&)}く{\r\alpha&HFF&}{\t(930,1011,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1119,1200,1,\frz0\1c&H66ffff&\4c&Hffffff&)}視{\r\alpha&HFF&}{\t(1200,1332,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1508,1640,1,\frz0\1c&H66ffff&\4c&Hffffff&)}線{\r\alpha&HFF&}{\t(1640,1748,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1892,2000,1,\frz0\1c&H66ffff&\4c&Hffffff&)}で{\r\alpha&HFF&}{\t(2000,2000,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2000,2000,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(2000,2132,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2308,2440,1,\frz0\1c&H66ffff&\4c&Hffffff&)}つ{\r\alpha&HFF&}{\t(2440,2545,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2685,2790,1,\frz0\1c&H66ffff&\4c&Hffffff&)}か{\r\alpha&HFF&}{\t(2790,2883,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3007,3100,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ま{\r\alpha&HFF&}{\t(3100,3154,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3226,3280,1,\frz0\1c&H66ffff&\4c&Hffffff&)}え{\r\alpha&HFF&}{\t(3280,3439,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3651,3810,1,\frz0\1c&H66ffff&\4c&Hffffff&)}て{\r\alpha&HFF&}{\t(3810,3882,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3978,4050,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:01:56.52,0:02:01.64,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,0,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(0,0,1,\frz0\1c&H66ffff&\4c&Hffffff&)}「{\r\alpha&HFF&}{\t(0,42,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(98,140,1,\frz0\1c&H66ffff&\4c&Hffffff&)}わ{\r\alpha&HFF&}{\t(140,167,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(203,230,1,\frz0\1c&H66ffff&\4c&Hffffff&)}た{\r\alpha&HFF&}{\t(230,305,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(405,480,1,\frz0\1c&H66ffff&\4c&Hffffff&)}し{\r\alpha&HFF&}{\t(480,525,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(585,630,1,\frz0\1c&H66ffff&\4c&Hffffff&)}の{\r\alpha&HFF&}{\t(630,687,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(763,820,1,\frz0\1c&H66ffff&\4c&Hffffff&)}こ{\r\alpha&HFF&}{\t(820,943,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1107,1230,1,\frz0\1c&H66ffff&\4c&Hffffff&)}と{\r\alpha&HFF&}{\t(1230,1437,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1713,1920,1,\frz0\1c&H66ffff&\4c&Hffffff&)}大{\r\alpha&HFF&}{\t(1920,2067,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2263,2410,1,\frz0\1c&H66ffff&\4c&Hffffff&)}好{\r\alpha&HFF&}{\t(2410,2548,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2732,2870,1,\frz0\1c&H66ffff&\4c&Hffffff&)}き{\r\alpha&HFF&}{\t(2870,2927,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3003,3060,1,\frz0\1c&H66ffff&\4c&Hffffff&)}で{\r\alpha&HFF&}{\t(3060,3144,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3256,3340,1,\frz0\1c&H66ffff&\4c&Hffffff&)}す{\r\alpha&HFF&}{\t(3340,3793,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(4397,4850,1,\frz0\1c&H66ffff&\4c&Hffffff&)}か{\r\alpha&HFF&}{\t(4850,4931,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5039,5120,1,\frz0\1c&H66ffff&\4c&Hffffff&)}？」{\r\alpha&HFF&}{\t(5120,5120,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5120,5120,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:02:01.78,0:02:05.05,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,69,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(161,230,1,\frz0\1c&H66ffff&\4c&Hffffff&)}お{\r\alpha&HFF&}{\t(230,296,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(384,450,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ね{\r\alpha&HFF&}{\t(450,489,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(541,580,1,\frz0\1c&H66ffff&\4c&Hffffff&)}が{\r\alpha&HFF&}{\t(580,664,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(776,860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(860,860,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(860,860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}　{\r\alpha&HFF&}{\t(860,908,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(972,1020,1,\frz0\1c&H66ffff&\4c&Hffffff&)}Bit{\r\alpha&HFF&}{\t(1020,1152,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1328,1460,1,\frz0\1c&H66ffff&\4c&Hffffff&)}ter{\r\alpha&HFF&}{\t(1460,1463,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1467,1470,1,\frz0\1c&H66ffff&\4c&Hffffff&)} {\r\alpha&HFF&}{\t(1470,1935,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(2555,3020,1,\frz0\1c&H66ffff&\4c&Hffffff&)}Tune{\r\alpha&HFF&}{\t(3020,3095,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3195,3270,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 10,0:02:05.05,0:02:10.38,op_jap,NTP,0000,0000,0000,,{\r\alpha&HFF&}{\t(0,105,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(245,350,1,\frz0\1c&H66ffff&\4c&Hffffff&)}離{\r\alpha&HFF&}{\t(350,434,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(546,630,1,\frz0\1c&H66ffff&\4c&Hffffff&)}さ{\r\alpha&HFF&}{\t(630,744,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(896,1010,1,\frz0\1c&H66ffff&\4c&Hffffff&)}な{\r\alpha&HFF&}{\t(1010,1133,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(1297,1420,1,\frz0\1c&H66ffff&\4c&Hffffff&)}い{\r\alpha&HFF&}{\t(1420,2452,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(3828,4860,1,\frz0\1c&H66ffff&\4c&Hffffff&)}で{\r\alpha&HFF&}{\t(4860,5001,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5189,5330,1,\frz0\1c&H66ffff&\4c&Hffffff&)}…{\r\alpha&HFF&}{\t(5330,5330,1,\alpha&H00&\1c&H586aff&\4c&H000000&)}{\t(5330,5330,1,\frz0\1c&H66ffff&\4c&Hffffff&)}
+Dialogue: 0,0:01:09.63,0:01:15.80,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}只{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}取{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}一{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}半{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}可{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}不{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}給{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}希{\r\org(-500,-390)\frz5}{\t(500,520,1,\frz0.5)}{\t(530,550,1,\frz0)}望{\r\org(-500,-390)\frz5}{\t(550,570,1,\frz0.5)}{\t(580,600,1,\frz0)}你{\r\org(-500,-390)\frz5}{\t(600,620,1,\frz0.5)}{\t(630,650,1,\frz0)}能{\r\org(-500,-390)\frz5}{\t(650,670,1,\frz0.5)}{\t(680,700,1,\frz0)}奪{\r\org(-500,-390)\frz5}{\t(700,720,1,\frz0.5)}{\t(730,750,1,\frz0)}去{\r\org(-500,-390)\frz5}{\t(750,770,1,\frz0.5)}{\t(780,800,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(800,820,1,\frz0.5)}{\t(830,850,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(850,870,1,\frz0.5)}{\t(880,900,1,\frz0)}全{\r\org(-500,-390)\frz5}{\t(900,920,1,\frz0.5)}{\t(930,950,1,\frz0)}部
+Dialogue: 0,0:01:16.14,0:01:22.43,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}如{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}果{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}這{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}是{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}命{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}運{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}那{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}做{\r\org(-500,-390)\frz5}{\t(500,520,1,\frz0.5)}{\t(530,550,1,\frz0)}了{\r\org(-500,-390)\frz5}{\t(550,570,1,\frz0.5)}{\t(580,600,1,\frz0)}個{\r\org(-500,-390)\frz5}{\t(600,620,1,\frz0.5)}{\t(630,650,1,\frz0)}1{\r\org(-500,-390)\frz5}{\t(650,670,1,\frz0.5)}{\t(680,700,1,\frz0)}秒{\r\org(-500,-390)\frz5}{\t(700,720,1,\frz0.5)}{\t(730,750,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(750,770,1,\frz0.5)}{\t(780,800,1,\frz0)}重{\r\org(-500,-390)\frz5}{\t(800,820,1,\frz0.5)}{\t(830,850,1,\frz0)}生{\r\org(-500,-390)\frz5}{\t(850,870,1,\frz0.5)}{\t(880,900,1,\frz0)}之{\r\org(-500,-390)\frz5}{\t(900,920,1,\frz0.5)}{\t(930,950,1,\frz0)}夢
+Dialogue: 0,0:01:22.65,0:01:28.98,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}緊{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}咬{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}著{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}雙{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}唇{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}興{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}奮{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}之{\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}情{\r\org(-500,-390)\frz5}{\t(500,520,1,\frz0.5)}{\t(530,550,1,\frz0)}高{\r\org(-500,-390)\frz5}{\t(550,570,1,\frz0.5)}{\t(580,600,1,\frz0)}漲{\r\org(-500,-390)\frz5}{\t(600,620,1,\frz0.5)}{\t(630,650,1,\frz0)}到{\r\org(-500,-390)\frz5}{\t(650,670,1,\frz0.5)}{\t(680,700,1,\frz0)}疼{\r\org(-500,-390)\frz5}{\t(700,720,1,\frz0.5)}{\t(730,750,1,\frz0)}痛{\r\org(-500,-390)\frz5}{\t(750,770,1,\frz0.5)}{\t(780,800,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(800,820,1,\frz0.5)}{\t(830,850,1,\frz0)}地{\r\org(-500,-390)\frz5}{\t(850,870,1,\frz0.5)}{\t(880,900,1,\frz0)}步
+Dialogue: 0,0:01:28.98,0:01:31.95,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}但{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}別{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}無{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}他{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}法{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}事{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}到{\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}如{\r\org(-500,-390)\frz5}{\t(500,520,1,\frz0.5)}{\t(530,550,1,\frz0)}今{\r\org(-500,-390)\frz5}{\t(550,570,1,\frz0.5)}{\t(580,600,1,\frz0)}已{\r\org(-500,-390)\frz5}{\t(600,620,1,\frz0.5)}{\t(630,650,1,\frz0)}無{\r\org(-500,-390)\frz5}{\t(650,670,1,\frz0.5)}{\t(680,700,1,\frz0)}法{\r\org(-500,-390)\frz5}{\t(700,720,1,\frz0.5)}{\t(730,750,1,\frz0)}回{\r\org(-500,-390)\frz5}{\t(750,770,1,\frz0.5)}{\t(780,800,1,\frz0)}頭
+Dialogue: 0,0:01:31.95,0:01:36.24,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}吶{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}…{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}這{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}就{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}是{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}所{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}謂{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}愛{\r\org(-500,-390)\frz5}{\t(500,520,1,\frz0.5)}{\t(530,550,1,\frz0)}嗎{\r\org(-500,-390)\frz5}{\t(550,570,1,\frz0.5)}{\t(580,600,1,\frz0)}？
+Dialogue: 0,0:01:36.24,0:01:37.29,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}D{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}o{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}！{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}要{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}來{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}嗎{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}？
+Dialogue: 0,0:01:37.30,0:01:39.47,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}不{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}斷{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}顫{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}抖{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}不{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}斷{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}顫{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}抖
+Dialogue: 0,0:01:39.47,0:01:43.78,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}觸{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}碰{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}柔{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}軟{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}核{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}心{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}吧
+Dialogue: 0,0:01:43.94,0:01:49.46,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}濃{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}濃{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}苦{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}澀{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}過{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}後{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}將{\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}迸{\r\org(-500,-390)\frz5}{\t(500,520,1,\frz0.5)}{\t(530,550,1,\frz0)}發{\r\org(-500,-390)\frz5}{\t(550,570,1,\frz0.5)}{\t(580,600,1,\frz0)}出{\r\org(-500,-390)\frz5}{\t(600,620,1,\frz0.5)}{\t(630,650,1,\frz0)}甜{\r\org(-500,-390)\frz5}{\t(650,670,1,\frz0.5)}{\t(680,700,1,\frz0)}美{\r\org(-500,-390)\frz5}{\t(700,720,1,\frz0.5)}{\t(730,750,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(750,770,1,\frz0.5)}{\t(780,800,1,\frz0)}夢
+Dialogue: 0,0:01:49.47,0:01:52.47,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}來{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}們{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}緊{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}密{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}相{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}連
+Dialogue: 0,0:01:52.47,0:01:56.52,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}用{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}纏{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}綿{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}視{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}線{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}抓{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}緊{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}我
+Dialogue: 0,0:01:56.52,0:02:01.64,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}「{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}是{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}否{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}你{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}最{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}愛{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}？{\r\org(-500,-390)\frz5}{\t(450,470,1,\frz0.5)}{\t(480,500,1,\frz0)}」
+Dialogue: 0,0:02:01.78,0:02:05.05,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}求{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}你{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}了{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)} {\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}苦{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}澀{\r\org(-500,-390)\frz5}{\t(300,320,1,\frz0.5)}{\t(330,350,1,\frz0)}的{\r\org(-500,-390)\frz5}{\t(350,370,1,\frz0.5)}{\t(380,400,1,\frz0)}旋{\r\org(-500,-390)\frz5}{\t(400,420,1,\frz0.5)}{\t(430,450,1,\frz0)}律
+Dialogue: 0,0:02:05.05,0:02:10.38,op_chi,NTP,0000,0000,0000,,{\r\org(-500,-390)\frz5}{\t(0,20,1,\frz0.5)}{\t(30,50,1,\frz0)}不{\r\org(-500,-390)\frz5}{\t(50,70,1,\frz0.5)}{\t(80,100,1,\frz0)}要{\r\org(-500,-390)\frz5}{\t(100,120,1,\frz0.5)}{\t(130,150,1,\frz0)}離{\r\org(-500,-390)\frz5}{\t(150,170,1,\frz0.5)}{\t(180,200,1,\frz0)}開{\r\org(-500,-390)\frz5}{\t(200,220,1,\frz0.5)}{\t(230,250,1,\frz0)}我{\r\org(-500,-390)\frz5}{\t(250,270,1,\frz0.5)}{\t(280,300,1,\frz0)}…
+
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(154,386)\r\be1\t(0,176,1,\frz20\fry-15\fs20\1c&Hffffe2&\bord0)\t(264,440,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k44}だ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(176,386)\r\be1\t(440,512,1,\frz20\fry20\fs20\1c&He1ffec&\bord0)\t(548,620,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}い
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(198,386)\r\be1\t(620,800,1,\frz-15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(890,1070,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k45}じ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(1070,1118,1,\frz15\fry-15\fs20\1c&Hfce9ff&\bord0)\t(1142,1190,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}な
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(1190,1314,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(1376,1500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}ト
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(1500,1564,1,\frz-15\fry-20\fs20\1c&Hd8fff7&\bord0)\t(1596,1660,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}コ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(1660,1820,1,\frz15\fry-15\fs19\1c&Hffffe2&\bord0)\t(1900,2060,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k40}で
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(2060,2184,1,\frz15\fry20\fs19\1c&Hfce9ff&\bord0)\t(2246,2370,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}ね
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(2370,2406,1,\frz15\fry20\fs19\1c&Hffaecb&\bord0)\t(2424,2460,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k9}え
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(2460,2484,1,\frz15\fry20\fs19\1c&Hd8fff7&\bord0)\t(2496,2520,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k6}ジ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(2520,2560,1,\frz15\fry-20\fs19\1c&Hd8fff7&\bord0)\t(2580,2620,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k10}ャ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(2620,2648,1,\frz20\fry15\fs19\1c&Hfce9ff&\bord0)\t(2662,2690,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k7}マ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2690,2734,1,\frz-15\fry-15\fs19\1c&Hffffe2&\bord0)\t(2756,2800,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k11}を
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(2800,2860,1,\frz-20\fry20\fs20\1c&Hffffe2&\bord0)\t(2890,2950,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}し
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(484,386)\r\be1\t(2950,3018,1,\frz-20\fry-15\fs19\1c&Hfce9ff&\bord0)\t(3052,3120,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}な
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(506,386)\r\be1\t(3120,3232,1,\frz-20\fry15\fs20\1c&Hfce9ff&\bord0)\t(3288,3400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}い
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(528,386)\r\be1\t(3400,3936,1,\frz-15\fry20\fs20\1c&Hffffe2&\bord0)\t(4204,4740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k134}で
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_jap,NTP,0000,0000,0000,,{\pos(550,386)\r\be1\t(4740,4832,1,\frz15\fry-20\fs20\1c&Hfce9ff&\bord0)\t(4878,4970,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k23}！
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(0,140,1,\frz-15\fry15\fs19\1c&Hd8fff7&\bord0)\t(210,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k35}ま
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(350,422,1,\frz-15\fry15\fs19\1c&He1ffec&\bord0)\t(458,530,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}さ
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(530,702,1,\frz-20\fry-20\fs20\1c&Hffaecb&\bord0)\t(788,960,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k43}に
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(960,1004,1,\frz15\fry-15\fs20\1c&Hd8fff7&\bord0)\t(1026,1070,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k11}手
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(1070,1146,1,\frz-20\fry-15\fs20\1c&He1ffec&\bord0)\t(1184,1260,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k19}と
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(1260,1368,1,\frz-20\fry-15\fs19\1c&Hffaecb&\bord0)\t(1422,1530,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k27}手
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(1530,1650,1,\frz15\fry-20\fs20\1c&Hfce9ff&\bord0)\t(1710,1830,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}が
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(1830,1958,1,\frz-20\fry15\fs19\1c&Hffaecb&\bord0)\t(2022,2150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k32}触
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(2150,2262,1,\frz15\fry15\fs19\1c&Hfce9ff&\bord0)\t(2318,2430,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}れ
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2430,2514,1,\frz-20\fry20\fs20\1c&Hffffe2&\bord0)\t(2556,2640,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}た
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(2640,2840,1,\frz-20\fry-20\fs20\1c&Hffaecb&\bord0)\t(2940,3140,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k50}瞬
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_jap,NTP,0000,0000,0000,,{\pos(484,386)\r\be1\t(3140,3388,1,\frz-20\fry15\fs19\1c&Hffaecb&\bord0)\t(3512,3760,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k62}間
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(0,104,1,\frz-15\fry-15\fs20\1c&Hd8fff7&\bord0)\t(156,260,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k26}あ
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(260,336,1,\frz15\fry-15\fs20\1c&He1ffec&\bord0)\t(374,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k19}ら
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(450,518,1,\frz20\fry-20\fs19\1c&He1ffec&\bord0)\t(552,620,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}ち
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(620,668,1,\frz15\fry-15\fs20\1c&Hfce9ff&\bord0)\t(692,740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}っ
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(363,386)\r\be1\t(740,796,1,\frz20\fry-15\fs19\1c&Hfce9ff&\bord0)\t(824,880,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}·ち
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(880,944,1,\frz15\fry15\fs19\1c&Hffffe2&\bord0)\t(976,1040,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}っ
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(429,386)\r\be1\t(1040,1080,1,\frz20\fry-15\fs20\1c&Hffaecb&\bord0)\t(1100,1140,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k10}·ち
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(1140,1192,1,\frz20\fry20\fs20\1c&Hfce9ff&\bord0)\t(1218,1270,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}っ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(198,386)\r\be1\t(0,60,1,\frz-20\fry20\fs20\1c&Hfce9ff&\bord0)\t(90,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}オ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(150,210,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(240,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}ジ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(300,356,1,\frz15\fry-15\fs20\1c&Hffffe2&\bord0)\t(384,440,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}ャ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(440,560,1,\frz15\fry-15\fs20\1c&Hffaecb&\bord0)\t(620,740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}マ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(740,980,1,\frz-20\fry20\fs20\1c&Hffaecb&\bord0)\t(1100,1340,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k60}虫
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(1340,1456,1,\frz-20\fry-20\fs19\1c&Hffffe2&\bord0)\t(1514,1630,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}や
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(1630,1734,1,\frz15\fry-15\fs20\1c&Hffffe2&\bord0)\t(1786,1890,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k26}っ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(1890,1970,1,\frz-20\fry15\fs19\1c&Hd8fff7&\bord0)\t(2010,2090,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k20}て
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(2090,2214,1,\frz-20\fry-20\fs20\1c&Hffaecb&\bord0)\t(2276,2400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}く
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(2400,2516,1,\frz-15\fry20\fs19\1c&Hfce9ff&\bord0)\t(2574,2690,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}る
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2760,2856,1,\frz20\fry15\fs20\1c&Hfce9ff&\bord0)\t(2904,3000,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k24}イ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(3000,3096,1,\frz-20\fry15\fs20\1c&He1ffec&\bord0)\t(3144,3240,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k24}エ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(484,386)\r\be1\t(3240,3428,1,\frz-15\fry-15\fs20\1c&Hffaecb&\bord0)\t(3522,3710,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k47}イ
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_jap,NTP,0000,0000,0000,,{\pos(506,386)\r\be1\t(3710,3710,1,\frz-20\fry20\fs20\1c&Hffffe2&\bord0)\t(3710,3710,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k0}！
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(0,104,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(156,260,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k26}か
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(260,340,1,\frz-15\fry20\fs19\1c&He1ffec&\bord0)\t(380,460,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k20}な
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(460,624,1,\frz15\fry20\fs19\1c&Hffaecb&\bord0)\t(706,870,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k41}り
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(870,998,1,\frz20\fry20\fs19\1c&Hfce9ff&\bord0)\t(1062,1190,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k32}絶
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(1190,1422,1,\frz15\fry-15\fs20\1c&Hfce9ff&\bord0)\t(1538,1770,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k58}妙
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(1770,1834,1,\frz-20\fry-15\fs20\1c&Hffffe2&\bord0)\t(1866,1930,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}で
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(1930,2102,1,\frz20\fry20\fs19\1c&Hfce9ff&\bord0)\t(2188,2360,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k43}す
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(2360,2408,1,\frz-20\fry-20\fs20\1c&Hd8fff7&\bord0)\t(2432,2480,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}タ
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(2480,2548,1,\frz-15\fry20\fs19\1c&Hffaecb&\bord0)\t(2582,2650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}イ
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2650,2778,1,\frz-20\fry15\fs20\1c&Hffaecb&\bord0)\t(2842,2970,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k32}ミ
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(2970,3138,1,\frz-20\fry20\fs20\1c&Hfce9ff&\bord0)\t(3222,3390,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k42}ン
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_jap,NTP,0000,0000,0000,,{\pos(484,386)\r\be1\t(3390,3674,1,\frz15\fry-20\fs19\1c&Hd8fff7&\bord0)\t(3816,4100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k71}グ
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(0,64,1,\frz-20\fry20\fs20\1c&Hffffe2&\bord0)\t(96,160,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}ぐ
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(160,220,1,\frz15\fry15\fs19\1c&Hffaecb&\bord0)\t(250,310,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}ず
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(310,466,1,\frz-15\fry15\fs19\1c&Hffaecb&\bord0)\t(544,700,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k39}ぐ
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(700,764,1,\frz-20\fry-20\fs20\1c&He1ffec&\bord0)\t(796,860,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}ず
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(860,1052,1,\frz-20\fry20\fs19\1c&Hffaecb&\bord0)\t(1148,1340,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k48}し
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(1340,1404,1,\frz20\fry15\fs20\1c&Hd8fff7&\bord0)\t(1436,1500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}て
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(1500,1616,1,\frz-15\fry-20\fs19\1c&He1ffec&\bord0)\t(1674,1790,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}は
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(1790,1902,1,\frz-15\fry-20\fs20\1c&Hd8fff7&\bord0)\t(1958,2070,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}い
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(2070,2194,1,\frz-15\fry15\fs20\1c&Hd8fff7&\bord0)\t(2256,2380,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}ら
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2380,2504,1,\frz-15\fry-20\fs20\1c&Hffaecb&\bord0)\t(2566,2690,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}れ
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(2690,2858,1,\frz-15\fry15\fs20\1c&Hfce9ff&\bord0)\t(2942,3110,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k42}な
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_jap,NTP,0000,0000,0000,,{\pos(484,386)\r\be1\t(3110,3454,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(3626,3970,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k86}い
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(231,386)\r\be1\t(0,124,1,\frz20\fry15\fs19\1c&Hffffe2&\bord0)\t(186,310,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}う
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(253,386)\r\be1\t(310,358,1,\frz-20\fry-15\fs19\1c&Hffaecb&\bord0)\t(382,430,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}わ
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(275,386)\r\be1\t(430,606,1,\frz20\fry-20\fs20\1c&Hfce9ff&\bord0)\t(694,870,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k44}さ
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(297,386)\r\be1\t(870,990,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(1050,1170,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}の
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(319,386)\r\be1\t(1170,1290,1,\frz15\fry-15\fs20\1c&Hffaecb&\bord0)\t(1350,1470,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}あ
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(341,386)\r\be1\t(1470,1582,1,\frz20\fry15\fs20\1c&Hffaecb&\bord0)\t(1638,1750,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}の
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(363,386)\r\be1\t(1750,1874,1,\frz-20\fry15\fs19\1c&Hd8fff7&\bord0)\t(1936,2060,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}娘
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(385,386)\r\be1\t(2060,2172,1,\frz15\fry20\fs19\1c&He1ffec&\bord0)\t(2228,2340,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}も
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(429,386)\r\be1\t(2340,2508,1,\frz20\fry-20\fs19\1c&Hffffe2&\bord0)\t(2592,2760,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k42}き
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(451,386)\r\be1\t(2760,2836,1,\frz20\fry20\fs19\1c&Hfce9ff&\bord0)\t(2874,2950,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k19}っ
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_jap,NTP,0000,0000,0000,,{\pos(473,386)\r\be1\t(2950,3254,1,\frz20\fry15\fs20\1c&Hffaecb&\bord0)\t(3406,3710,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k76}と
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(209,386)\r\be1\t(0,116,1,\frz-15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(174,290,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}ピ
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(231,386)\r\be1\t(290,406,1,\frz15\fry-15\fs19\1c&He1ffec&\bord0)\t(464,580,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}ン
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(253,386)\r\be1\t(580,652,1,\frz-20\fry20\fs19\1c&Hd8fff7&\bord0)\t(688,760,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}キ
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(275,386)\r\be1\t(760,820,1,\frz-15\fry-15\fs20\1c&He1ffec&\bord0)\t(850,910,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}ィ
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(297,386)\r\be1\t(910,950,1,\frz-20\fry15\fs20\1c&Hd8fff7&\bord0)\t(970,1010,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k10}－
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(319,386)\r\be1\t(1010,1174,1,\frz-15\fry-15\fs19\1c&Hfce9ff&\bord0)\t(1256,1420,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k41}に
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(363,386)\r\be1\t(1460,1572,1,\frz-15\fry-20\fs19\1c&Hffffe2&\bord0)\t(1628,1740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}頬
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(385,386)\r\be1\t(1740,1840,1,\frz-15\fry-15\fs20\1c&Hffffe2&\bord0)\t(1890,1990,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k25}っ
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(407,386)\r\be1\t(1990,2118,1,\frz-20\fry15\fs20\1c&He1ffec&\bord0)\t(2182,2310,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k32}ぺ
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(429,386)\r\be1\t(2310,2382,1,\frz-15\fry20\fs19\1c&Hffaecb&\bord0)\t(2418,2490,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}た
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(451,386)\r\be1\t(2490,2598,1,\frz20\fry20\fs20\1c&Hffaecb&\bord0)\t(2652,2760,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k27}染
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(473,386)\r\be1\t(2760,2832,1,\frz15\fry20\fs19\1c&He1ffec&\bord0)\t(2868,2940,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}め
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_jap,NTP,0000,0000,0000,,{\pos(495,386)\r\be1\t(2940,3292,1,\frz20\fry20\fs20\1c&Hfce9ff&\bord0)\t(3468,3820,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k88}て
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(187,386)\r\be1\t(0,112,1,\frz-15\fry-15\fs20\1c&Hffaecb&\bord0)\t(168,280,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}言
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(209,386)\r\be1\t(280,372,1,\frz-20\fry-15\fs20\1c&Hd8fff7&\bord0)\t(418,510,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k23}い
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(231,386)\r\be1\t(510,654,1,\frz15\fry-15\fs20\1c&He1ffec&\bord0)\t(726,870,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k36}た
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(253,386)\r\be1\t(870,990,1,\frz15\fry20\fs19\1c&Hffffe2&\bord0)\t(1050,1170,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}く
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(275,386)\r\be1\t(1170,1294,1,\frz-15\fry-15\fs20\1c&He1ffec&\bord0)\t(1356,1480,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}て
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(319,386)\r\be1\t(1480,1548,1,\frz-15\fry20\fs19\1c&He1ffec&\bord0)\t(1582,1650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}で
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(341,386)\r\be1\t(1650,1810,1,\frz-15\fry-20\fs20\1c&Hd8fff7&\bord0)\t(1890,2050,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k40}も
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(363,386)\r\be1\t(2050,2106,1,\frz20\fry-20\fs19\1c&Hfce9ff&\bord0)\t(2134,2190,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}言
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(385,386)\r\be1\t(2190,2262,1,\frz-15\fry15\fs19\1c&Hffaecb&\bord0)\t(2298,2370,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}え
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(407,386)\r\be1\t(2370,2462,1,\frz15\fry20\fs19\1c&Hffaecb&\bord0)\t(2508,2600,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k23}な
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(429,386)\r\be1\t(2600,2672,1,\frz20\fry15\fs20\1c&He1ffec&\bord0)\t(2708,2780,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}い
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(473,386)\r\be1\t(2780,2964,1,\frz15\fry20\fs20\1c&Hffaecb&\bord0)\t(3056,3240,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k46}そ
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(495,386)\r\be1\t(3240,3364,1,\frz15\fry-20\fs20\1c&Hfce9ff&\bord0)\t(3426,3550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}れ
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_jap,NTP,0000,0000,0000,,{\pos(517,386)\r\be1\t(3550,3794,1,\frz15\fry20\fs20\1c&Hffaecb&\bord0)\t(3916,4160,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k61}は
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(198,386)\r\be1\t(0,72,1,\frz15\fry15\fs19\1c&Hffffe2&\bord0)\t(108,180,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}て
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(180,232,1,\frz15\fry15\fs19\1c&Hfce9ff&\bord0)\t(258,310,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}っ
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(310,398,1,\frz-20\fry15\fs20\1c&Hffaecb&\bord0)\t(442,530,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k22}ぺ
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(530,614,1,\frz20\fry-20\fs20\1c&Hffaecb&\bord0)\t(656,740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}ん
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(740,1044,1,\frz-15\fry15\fs19\1c&Hd8fff7&\bord0)\t(1196,1500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k76}に
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(1500,1600,1,\frz15\fry20\fs20\1c&He1ffec&\bord0)\t(1650,1750,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k25}「
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(1750,1830,1,\frz20\fry15\fs19\1c&Hffaecb&\bord0)\t(1870,1950,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k20}ス
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(1950,1950,1,\frz-20\fry-20\fs20\1c&Hffffe2&\bord0)\t(1950,1950,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k0}」
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(1950,2034,1,\frz15\fry-20\fs19\1c&Hffffe2&\bord0)\t(2076,2160,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}の
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(2160,2240,1,\frz20\fry20\fs20\1c&He1ffec&\bord0)\t(2280,2360,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k20}付
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(2360,2480,1,\frz20\fry-20\fs20\1c&Hffffe2&\bord0)\t(2540,2660,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}く
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2660,2896,1,\frz20\fry15\fs19\1c&Hffaecb&\bord0)\t(3014,3250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k59}言
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(3250,3418,1,\frz20\fry20\fs19\1c&Hfce9ff&\bord0)\t(3502,3670,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k42}葉
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(484,386)\r\be1\t(3670,3726,1,\frz20\fry15\fs19\1c&He1ffec&\bord0)\t(3754,3810,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}で
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_jap,NTP,0000,0000,0000,,{\pos(506,386)\r\be1\t(3810,4334,1,\frz-20\fry-20\fs19\1c&Hffaecb&\bord0)\t(4596,5120,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k131}す
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(209,386)\r\be1\t(0,168,1,\frz-15\fry-20\fs20\1c&Hffaecb&\bord0)\t(252,420,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k42}コ
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(231,386)\r\be1\t(420,496,1,\frz20\fry20\fs20\1c&Hffffe2&\bord0)\t(534,610,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k19}イ
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(253,386)\r\be1\t(610,726,1,\frz20\fry15\fs19\1c&Hffaecb&\bord0)\t(784,900,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}を
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(275,386)\r\be1\t(900,1016,1,\frz-20\fry15\fs19\1c&Hd8fff7&\bord0)\t(1074,1190,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}し
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(297,386)\r\be1\t(1190,1306,1,\frz-15\fry15\fs20\1c&Hffaecb&\bord0)\t(1364,1480,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}た
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(319,386)\r\be1\t(1480,1584,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(1636,1740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k26}い
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(341,386)\r\be1\t(1740,1860,1,\frz20\fry15\fs19\1c&Hd8fff7&\bord0)\t(1920,2040,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}な
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(363,386)\r\be1\t(2040,2152,1,\frz20\fry15\fs20\1c&Hffaecb&\bord0)\t(2208,2320,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}ら
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(407,386)\r\be1\t(2320,2452,1,\frz-20\fry-20\fs20\1c&Hd8fff7&\bord0)\t(2518,2650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k33}よ
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(429,386)\r\be1\t(2650,2750,1,\frz20\fry-15\fs19\1c&He1ffec&\bord0)\t(2800,2900,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k25}っ
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(451,386)\r\be1\t(2900,3024,1,\frz20\fry-20\fs19\1c&He1ffec&\bord0)\t(3086,3210,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k31}と
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(473,386)\r\be1\t(3210,3278,1,\frz-20\fry20\fs20\1c&Hffaecb&\bord0)\t(3312,3380,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}い
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_jap,NTP,0000,0000,0000,,{\pos(495,386)\r\be1\t(3380,3560,1,\frz-20\fry15\fs20\1c&Hffffe2&\bord0)\t(3650,3830,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k45}で
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(88,386)\r\be1\t(0,228,1,\frz20\fry-15\fs19\1c&Hd8fff7&\bord0)\t(342,570,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k57}花
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(110,386)\r\be1\t(570,658,1,\frz15\fry-15\fs20\1c&He1ffec&\bord0)\t(702,790,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k22}し
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(132,386)\r\be1\t(790,882,1,\frz-20\fry15\fs19\1c&Hffffe2&\bord0)\t(928,1020,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k23}ょ
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(154,386)\r\be1\t(1020,1044,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(1056,1080,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k6}っ
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(176,386)\r\be1\t(1080,1140,1,\frz15\fry20\fs20\1c&Hd8fff7&\bord0)\t(1170,1230,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}て
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(220,386)\r\be1\t(1230,1422,1,\frz-15\fry20\fs20\1c&He1ffec&\bord0)\t(1518,1710,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k48}夢
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(242,386)\r\be1\t(1710,1786,1,\frz20\fry15\fs19\1c&Hffffe2&\bord0)\t(1824,1900,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k19}し
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(1900,1956,1,\frz-20\fry20\fs20\1c&Hffaecb&\bord0)\t(1984,2040,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}ょ
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(2040,2076,1,\frz-20\fry-15\fs19\1c&Hffaecb&\bord0)\t(2094,2130,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k9}っ
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(2130,2242,1,\frz20\fry20\fs19\1c&Hffaecb&\bord0)\t(2298,2410,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}て
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(2410,2642,1,\frz-15\fry-15\fs20\1c&He1ffec&\bord0)\t(2758,2990,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k58}歌
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(2990,3046,1,\frz20\fry-20\fs19\1c&Hd8fff7&\bord0)\t(3074,3130,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}い
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(3130,3170,1,\frz20\fry20\fs20\1c&He1ffec&\bord0)\t(3190,3230,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k10}ま
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(3230,3286,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(3314,3370,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}し
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(3370,3406,1,\frz-20\fry15\fs20\1c&Hd8fff7&\bord0)\t(3424,3460,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k9}ょ
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(462,386)\r\be1\t(3460,3612,1,\frz20\fry-15\fs20\1c&Hd8fff7&\bord0)\t(3688,3840,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k38}う
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(506,386)\r\be1\t(3840,3924,1,\frz-15\fry15\fs20\1c&Hd8fff7&\bord0)\t(3966,4050,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}ら
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(528,386)\r\be1\t(4050,4098,1,\frz-20\fry20\fs19\1c&Hffffe2&\bord0)\t(4122,4170,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}ん
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(550,386)\r\be1\t(4170,4238,1,\frz20\fry-15\fs19\1c&Hffffe2&\bord0)\t(4272,4340,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}ら
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(572,386)\r\be1\t(4340,4372,1,\frz-20\fry20\fs19\1c&Hfce9ff&\bord0)\t(4388,4420,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k8}ん
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(594,386)\r\be1\t(4420,4504,1,\frz-15\fry-20\fs20\1c&He1ffec&\bord0)\t(4546,4630,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}ら
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_jap,NTP,0000,0000,0000,,{\pos(616,386)\r\be1\t(4630,4674,1,\frz20\fry15\fs20\1c&Hd8fff7&\bord0)\t(4696,4740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k11}ん
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(141,386)\r\be1\t(0,160,1,\frz-15\fry15\fs20\1c&Hffffe2&\bord0)\t(240,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k40}ワ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(163,386)\r\be1\t(400,472,1,\frz-20\fry-15\fs19\1c&Hffaecb&\bord0)\t(508,580,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}ケ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(185,386)\r\be1\t(580,760,1,\frz-15\fry15\fs19\1c&He1ffec&\bord0)\t(850,1030,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k45}ワ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(207,386)\r\be1\t(1030,1114,1,\frz20\fry-20\fs20\1c&He1ffec&\bord0)\t(1156,1240,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}カ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(229,386)\r\be1\t(1240,1336,1,\frz-20\fry20\fs20\1c&Hd8fff7&\bord0)\t(1384,1480,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k24}ン
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(251,386)\r\be1\t(1480,1560,1,\frz-15\fry-20\fs20\1c&Hffaecb&\bord0)\t(1600,1680,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k20}ナ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(273,386)\r\be1\t(1680,1764,1,\frz-15\fry20\fs20\1c&Hfce9ff&\bord0)\t(1806,1890,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}イ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(306,386)\r\be1\t(1890,1950,1,\frz-20\fry-15\fs19\1c&Hffaecb&\bord0)\t(1980,2040,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}！？
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(339,386)\r\be1\t(2040,2076,1,\frz20\fry15\fs19\1c&Hd8fff7&\bord0)\t(2094,2130,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k9}そ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(361,386)\r\be1\t(2130,2170,1,\frz-15\fry-15\fs20\1c&Hffaecb&\bord0)\t(2190,2230,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k10}り
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(383,386)\r\be1\t(2230,2282,1,\frz-15\fry-20\fs20\1c&He1ffec&\bord0)\t(2308,2360,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}ゃ
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(2360,2468,1,\frz20\fry20\fs19\1c&Hd8fff7&\bord0)\t(2522,2630,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k27}LOVE
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(453,386)\r\be1\t(2630,2702,1,\frz-15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(2738,2810,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}な
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(475,386)\r\be1\t(2810,2858,1,\frz15\fry20\fs19\1c&He1ffec&\bord0)\t(2882,2930,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}ん
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(497,386)\r\be1\t(2930,2966,1,\frz15\fry15\fs19\1c&Hffaecb&\bord0)\t(2984,3020,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k9}で
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(519,386)\r\be1\t(3020,3160,1,\frz20\fry20\fs20\1c&He1ffec&\bord0)\t(3230,3370,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k35}す
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(541,386)\r\be1\t(3370,3450,1,\frz-20\fry-15\fs20\1c&Hffaecb&\bord0)\t(3490,3570,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k20}も
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_jap,NTP,0000,0000,0000,,{\pos(563,386)\r\be1\t(3570,3662,1,\frz15\fry-15\fs19\1c&He1ffec&\bord0)\t(3708,3800,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k23}ん
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(0,64,1,\frz20\fry20\fs19\1c&Hffffe2&\bord0)\t(96,160,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}ク
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(160,224,1,\frz20\fry-20\fs19\1c&Hffffe2&\bord0)\t(256,320,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}チ
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(320,440,1,\frz15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(500,620,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k30}ビ
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(620,716,1,\frz20\fry20\fs19\1c&Hd8fff7&\bord0)\t(764,860,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k24}ル
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(860,992,1,\frz20\fry20\fs20\1c&Hffaecb&\bord0)\t(1058,1190,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k33}が
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(374,386)\r\be1\t(1190,1434,1,\frz15\fry-20\fs20\1c&He1ffec&\bord0)\t(1556,1800,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k61}動
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(1800,1868,1,\frz-15\fry20\fs20\1c&He1ffec&\bord0)\t(1902,1970,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}い
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(1970,2110,1,\frz-15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(2180,2320,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k35}て
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(2320,2332,1,\frz20\fry15\fs19\1c&He1ffec&\bord0)\t(2338,2350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k3}…
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(203,386)\r\be1\t(0,72,1,\frz-15\fry20\fs20\1c&Hfce9ff&\bord0)\t(108,180,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}で
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(225,386)\r\be1\t(180,232,1,\frz-15\fry20\fs20\1c&Hfce9ff&\bord0)\t(258,310,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}も
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(269,386)\r\be1\t(310,474,1,\frz15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(556,720,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k41}こ
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(291,386)\r\be1\t(720,792,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(828,900,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}こ
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(313,386)\r\be1\t(900,1056,1,\frz20\fry15\fs19\1c&Hffffe2&\bord0)\t(1134,1290,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k39}か
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(335,386)\r\be1\t(1290,1374,1,\frz-20\fry15\fs20\1c&Hffaecb&\bord0)\t(1416,1500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}ら
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(357,386)\r\be1\t(1500,1660,1,\frz15\fry-15\fs20\1c&He1ffec&\bord0)\t(1740,1900,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k40}は
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(390,386)\r\be1\t(2070,2130,1,\frz-20\fry20\fs20\1c&Hd8fff7&\bord0)\t(2160,2220,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}「ヒ
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(423,386)\r\be1\t(2220,2284,1,\frz20\fry-20\fs20\1c&Hffffe2&\bord0)\t(2316,2380,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}ミ
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(445,386)\r\be1\t(2380,2436,1,\frz15\fry20\fs20\1c&He1ffec&\bord0)\t(2464,2520,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}チ
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(467,386)\r\be1\t(2520,2576,1,\frz15\fry20\fs20\1c&Hfce9ff&\bord0)\t(2604,2660,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k14}ュ
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_jap,NTP,0000,0000,0000,,{\pos(495,386)\r\be1\t(2660,2660,1,\frz-15\fry-20\fs19\1c&Hffaecb&\bord0)\t(2660,2660,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k0}?」
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(264,386)\r\be1\t(0,220,1,\frz-20\fry-20\fs19\1c&Hffffe2&\bord0)\t(330,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k55}人
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(286,386)\r\be1\t(550,694,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(766,910,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k36}さ
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(910,1026,1,\frz15\fry15\fs19\1c&Hd8fff7&\bord0)\t(1084,1200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k29}し
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(330,386)\r\be1\t(1200,1264,1,\frz20\fry20\fs19\1c&Hfce9ff&\bord0)\t(1296,1360,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}ゆ
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(352,386)\r\be1\t(1360,1420,1,\frz20\fry-15\fs20\1c&He1ffec&\bord0)\t(1450,1510,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}び
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(396,386)\r\be1\t(1510,1562,1,\frz-15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(1588,1640,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}ゆ
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(418,386)\r\be1\t(1640,1752,1,\frz15\fry15\fs19\1c&He1ffec&\bord0)\t(1808,1920,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k28}び
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_jap,NTP,0000,0000,0000,,{\pos(440,386)\r\be1\t(1920,1972,1,\frz20\fry15\fs20\1c&Hffaecb&\bord0)\t(1998,2050,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}っ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(209,386)\r\be1\t(0,96,1,\frz20\fry-15\fs19\1c&He1ffec&\bord0)\t(144,240,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k24}ナ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(231,386)\r\be1\t(240,308,1,\frz-20\fry-15\fs19\1c&Hd8fff7&\bord0)\t(342,410,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}イ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(253,386)\r\be1\t(410,482,1,\frz-15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(518,590,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k18}シ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(275,386)\r\be1\t(590,634,1,\frz15\fry15\fs19\1c&He1ffec&\bord0)\t(656,700,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k11}ョ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(308,386)\r\be1\t(700,792,1,\frz20\fry20\fs20\1c&Hfce9ff&\bord0)\t(838,930,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k23}·モ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(341,386)\r\be1\t(930,998,1,\frz-15\fry15\fs20\1c&Hffffe2&\bord0)\t(1032,1100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k17}ー
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(363,386)\r\be1\t(1100,1208,1,\frz15\fry-15\fs20\1c&He1ffec&\bord0)\t(1262,1370,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k27}ド
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(407,386)\r\be1\t(1370,1454,1,\frz-20\fry15\fs20\1c&Hd8fff7&\bord0)\t(1496,1580,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k21}ひ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(429,386)\r\be1\t(1580,1644,1,\frz-20\fry-20\fs19\1c&Hd8fff7&\bord0)\t(1676,1740,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k16}そ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(451,386)\r\be1\t(1740,1792,1,\frz-15\fry20\fs20\1c&He1ffec&\bord0)\t(1818,1870,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k13}ひ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(473,386)\r\be1\t(1870,1930,1,\frz20\fry20\fs19\1c&Hfce9ff&\bord0)\t(1960,2020,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k15}そ
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_jap,NTP,0000,0000,0000,,{\pos(495,386)\r\be1\t(2020,2068,1,\frz-20\fry20\fs20\1c&Hfce9ff&\bord0)\t(2092,2140,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k12}っ
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(236,30)\r\be1\t(0,20,1,\frz20\fry20\fs20\1c&Hd8fff7&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}關
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(258,30)\r\be1\t(50,70,1,\frz-20\fry-15\fs19\1c&Hffaecb&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}鍵
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(280,30)\r\be1\t(100,120,1,\frz-15\fry15\fs19\1c&Hffffe2&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}時
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(302,30)\r\be1\t(150,170,1,\frz-15\fry-15\fs20\1c&Hffaecb&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}刻
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(336,30)\r\be1\t(250,270,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}別
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(358,30)\r\be1\t(300,320,1,\frz15\fry15\fs19\1c&Hffaecb&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}跑
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(380,30)\r\be1\t(350,370,1,\frz-15\fry15\fs20\1c&Hd8fff7&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}出
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(402,30)\r\be1\t(400,420,1,\frz15\fry15\fs19\1c&Hffffe2&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}來
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(424,30)\r\be1\t(450,470,1,\frz-20\fry20\fs19\1c&Hfce9ff&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}礙
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(446,30)\r\be1\t(500,520,1,\frz15\fry-15\fs20\1c&Hffaecb&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}事
+Dialogue: 0,0:22:51.39,0:22:56.36,ed_chi,NTP,0000,0000,0000,,{\pos(468,30)\r\be1\t(550,570,1,\frz-15\fry15\fs20\1c&Hffaecb&\bord0)\t(580,600,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}！
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(286,30)\r\be1\t(0,20,1,\frz15\fry20\fs20\1c&He1ffec&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}雙
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(308,30)\r\be1\t(50,70,1,\frz15\fry15\fs20\1c&He1ffec&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}手
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(100,120,1,\frz20\fry20\fs20\1c&Hffffe2&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}才
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(150,170,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}剛
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(200,220,1,\frz-20\fry-15\fs20\1c&Hfce9ff&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}剛
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(250,270,1,\frz20\fry20\fs20\1c&Hfce9ff&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}碰
+Dialogue: 0,0:23:07.80,0:23:11.99,ed_chi,NTP,0000,0000,0000,,{\pos(418,30)\r\be1\t(300,320,1,\frz20\fry15\fs20\1c&He1ffec&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}上
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_chi,NTP,0000,0000,0000,,{\pos(290,30)\r\be1\t(0,20,1,\frz-20\fry15\fs20\1c&Hfce9ff&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}哎
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_chi,NTP,0000,0000,0000,,{\pos(312,30)\r\be1\t(50,70,1,\frz15\fry-20\fs19\1c&He1ffec&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}呀
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_chi,NTP,0000,0000,0000,,{\pos(346,30)\r\be1\t(150,170,1,\frz15\fry20\fs19\1c&Hd8fff7&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}切
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_chi,NTP,0000,0000,0000,,{\pos(380,30)\r\be1\t(250,270,1,\frz15\fry15\fs20\1c&Hffaecb&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}切
+Dialogue: 0,0:23:12.15,0:23:13.57,ed_chi,NTP,0000,0000,0000,,{\pos(414,30)\r\be1\t(350,370,1,\frz15\fry-15\fs19\1c&Hfce9ff&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}切
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(201,30)\r\be1\t(0,20,1,\frz20\fry-20\fs20\1c&Hd8fff7&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}電
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(223,30)\r\be1\t(50,70,1,\frz-15\fry-20\fs19\1c&Hd8fff7&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}燈
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(245,30)\r\be1\t(100,120,1,\frz15\fry15\fs20\1c&Hd8fff7&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}泡
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(267,30)\r\be1\t(150,170,1,\frz-15\fry-20\fs19\1c&Hffffe2&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}就
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(289,30)\r\be1\t(200,220,1,\frz-15\fry-15\fs20\1c&He1ffec&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}跑
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(311,30)\r\be1\t(250,270,1,\frz20\fry-15\fs20\1c&He1ffec&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}出
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(333,30)\r\be1\t(300,320,1,\frz-15\fry-15\fs19\1c&Hffaecb&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}來
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(355,30)\r\be1\t(350,370,1,\frz15\fry-20\fs19\1c&He1ffec&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}發
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(377,30)\r\be1\t(400,420,1,\frz20\fry20\fs19\1c&Hffffe2&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}光
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(399,30)\r\be1\t(450,470,1,\frz15\fry-15\fs20\1c&Hfce9ff&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}發
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(421,30)\r\be1\t(500,520,1,\frz15\fry20\fs20\1c&Hd8fff7&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}熱
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(450,30)\r\be1\t(600,620,1,\frz20\fry15\fs20\1c&He1ffec&\bord0)\t(630,650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}Y
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(472,30)\r\be1\t(650,670,1,\frz15\fry15\fs19\1c&He1ffec&\bord0)\t(680,700,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}e
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(494,30)\r\be1\t(700,720,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(730,750,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}a
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(516,30)\r\be1\t(750,770,1,\frz15\fry-20\fs20\1c&Hffaecb&\bord0)\t(780,800,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}h
+Dialogue: 0,0:23:13.57,0:23:17.28,ed_chi,NTP,0000,0000,0000,,{\pos(538,30)\r\be1\t(800,820,1,\frz-20\fry15\fs19\1c&Hd8fff7&\bord0)\t(830,850,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}！
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(242,30)\r\be1\t(0,20,1,\frz15\fry-15\fs20\1c&Hfce9ff&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}你
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(264,30)\r\be1\t(50,70,1,\frz-20\fry-15\fs20\1c&Hffaecb&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}出
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(286,30)\r\be1\t(100,120,1,\frz15\fry-15\fs20\1c&Hd8fff7&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}現
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(308,30)\r\be1\t(150,170,1,\frz-20\fry-15\fs20\1c&Hd8fff7&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}的
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(200,220,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}時
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(250,270,1,\frz-20\fry-15\fs20\1c&Hffffe2&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}機
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(300,320,1,\frz20\fry-20\fs20\1c&Hffaecb&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}也
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(350,370,1,\frz20\fry20\fs20\1c&Hd8fff7&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}太
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(418,30)\r\be1\t(400,420,1,\frz-15\fry20\fs19\1c&Hd8fff7&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}妙
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(440,30)\r\be1\t(450,470,1,\frz-15\fry-20\fs20\1c&Hffffe2&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}了
+Dialogue: 0,0:23:17.28,0:23:21.66,ed_chi,NTP,0000,0000,0000,,{\pos(462,30)\r\be1\t(500,520,1,\frz15\fry-20\fs19\1c&Hd8fff7&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}吧
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(286,30)\r\be1\t(0,20,1,\frz-15\fry-20\fs19\1c&He1ffec&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}讓
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(308,30)\r\be1\t(50,70,1,\frz-20\fry20\fs19\1c&Hd8fff7&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}我
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(100,120,1,\frz20\fry15\fs19\1c&Hd8fff7&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}嘟
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(150,170,1,\frz15\fry20\fs20\1c&He1ffec&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}囔
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(200,220,1,\frz20\fry-20\fs19\1c&Hffaecb&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}個
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(250,270,1,\frz15\fry-20\fs20\1c&Hfce9ff&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}不
+Dialogue: 0,0:23:21.66,0:23:26.09,ed_chi,NTP,0000,0000,0000,,{\pos(418,30)\r\be1\t(300,320,1,\frz-20\fry-15\fs19\1c&He1ffec&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}停
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(269,30)\r\be1\t(0,20,1,\frz-20\fry20\fs19\1c&Hffaecb&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}傳
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(291,30)\r\be1\t(50,70,1,\frz-15\fry20\fs19\1c&Hfce9ff&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}說
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(313,30)\r\be1\t(100,120,1,\frz-15\fry-15\fs20\1c&Hfce9ff&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}中
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(335,30)\r\be1\t(150,170,1,\frz-15\fry20\fs19\1c&Hfce9ff&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}的
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(357,30)\r\be1\t(200,220,1,\frz15\fry15\fs19\1c&Hffffe2&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}她
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(391,30)\r\be1\t(300,320,1,\frz-15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}也
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(413,30)\r\be1\t(350,370,1,\frz20\fry20\fs19\1c&Hd8fff7&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}一
+Dialogue: 0,0:23:26.69,0:23:30.40,ed_chi,NTP,0000,0000,0000,,{\pos(435,30)\r\be1\t(400,420,1,\frz-15\fry20\fs20\1c&Hffaecb&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}定
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(275,30)\r\be1\t(0,20,1,\frz-20\fry-15\fs20\1c&Hffffe2&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}雙
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(297,30)\r\be1\t(50,70,1,\frz20\fry20\fs20\1c&Hffaecb&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}頰
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(319,30)\r\be1\t(100,120,1,\frz-20\fry20\fs20\1c&He1ffec&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}染
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(341,30)\r\be1\t(150,170,1,\frz-20\fry20\fs20\1c&Hffffe2&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}上
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(363,30)\r\be1\t(200,220,1,\frz20\fry20\fs20\1c&Hfce9ff&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}桃
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(385,30)\r\be1\t(250,270,1,\frz-20\fry-15\fs20\1c&Hffaecb&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}紅
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(407,30)\r\be1\t(300,320,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}之
+Dialogue: 0,0:23:30.80,0:23:34.75,ed_chi,NTP,0000,0000,0000,,{\pos(429,30)\r\be1\t(350,370,1,\frz20\fry-20\fs20\1c&Hffaecb&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}色
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(208,30)\r\be1\t(0,20,1,\frz-20\fry-15\fs20\1c&Hffaecb&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}縱
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(230,30)\r\be1\t(50,70,1,\frz15\fry15\fs19\1c&Hd8fff7&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}有
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(252,30)\r\be1\t(100,120,1,\frz20\fry20\fs19\1c&Hd8fff7&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}千
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(274,30)\r\be1\t(150,170,1,\frz-15\fry-20\fs20\1c&Hfce9ff&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}言
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(296,30)\r\be1\t(200,220,1,\frz20\fry-15\fs19\1c&Hffffe2&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}萬
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(318,30)\r\be1\t(250,270,1,\frz15\fry20\fs19\1c&Hffffe2&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}語
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(350,370,1,\frz-15\fry-15\fs20\1c&He1ffec&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}卻
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(400,420,1,\frz15\fry15\fs20\1c&Hffaecb&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}無
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(450,470,1,\frz15\fry15\fs19\1c&Hd8fff7&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}從
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(418,30)\r\be1\t(500,520,1,\frz-15\fry-15\fs20\1c&Hffffe2&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}開
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(440,30)\r\be1\t(550,570,1,\frz-20\fry-15\fs20\1c&Hfce9ff&\bord0)\t(580,600,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}口
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(474,30)\r\be1\t(650,670,1,\frz15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(680,700,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}那
+Dialogue: 0,0:23:36.07,0:23:40.49,ed_chi,NTP,0000,0000,0000,,{\pos(496,30)\r\be1\t(700,720,1,\frz-20\fry-20\fs20\1c&Hffffe2&\bord0)\t(730,750,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}是
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(242,30)\r\be1\t(0,20,1,\frz-15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}首
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(264,30)\r\be1\t(50,70,1,\frz15\fry-20\fs19\1c&He1ffec&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}字
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(286,30)\r\be1\t(100,120,1,\frz15\fry15\fs19\1c&Hfce9ff&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}為
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(308,30)\r\be1\t(150,170,1,\frz-15\fry20\fs20\1c&Hffffe2&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}「
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(200,220,1,\frz-20\fry15\fs20\1c&Hffaecb&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}喜
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(250,270,1,\frz15\fry20\fs20\1c&He1ffec&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}」
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(300,320,1,\frz-20\fry-20\fs20\1c&He1ffec&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}字
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(350,370,1,\frz20\fry20\fs19\1c&Hffaecb&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}的
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(418,30)\r\be1\t(400,420,1,\frz15\fry-20\fs20\1c&Hffffe2&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}話
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(440,30)\r\be1\t(450,470,1,\frz20\fry-20\fs20\1c&He1ffec&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}語
+Dialogue: 0,0:23:40.49,0:23:45.78,ed_chi,NTP,0000,0000,0000,,{\pos(462,30)\r\be1\t(500,520,1,\frz-20\fry20\fs19\1c&Hffaecb&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啊
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(253,30)\r\be1\t(0,20,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}想
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(275,30)\r\be1\t(50,70,1,\frz15\fry-20\fs20\1c&Hd8fff7&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}戀
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(297,30)\r\be1\t(100,120,1,\frz-20\fry-20\fs20\1c&Hffaecb&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}愛
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(319,30)\r\be1\t(150,170,1,\frz20\fry15\fs19\1c&Hd8fff7&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}的
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(341,30)\r\be1\t(200,220,1,\frz15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}話
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(363,30)\r\be1\t(250,270,1,\frz-15\fry-20\fs20\1c&Hd8fff7&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}就
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(385,30)\r\be1\t(300,320,1,\frz-20\fry-15\fs19\1c&Hfce9ff&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}靠
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(407,30)\r\be1\t(350,370,1,\frz15\fry15\fs19\1c&Hfce9ff&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}過
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(429,30)\r\be1\t(400,420,1,\frz20\fry20\fs19\1c&Hd8fff7&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}來
+Dialogue: 0,0:23:47.87,0:23:51.70,ed_chi,NTP,0000,0000,0000,,{\pos(451,30)\r\be1\t(450,470,1,\frz-15\fry15\fs19\1c&Hffaecb&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}吧
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(230,30)\r\be1\t(0,20,1,\frz15\fry-15\fs19\1c&Hd8fff7&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}跟
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(252,30)\r\be1\t(50,70,1,\frz15\fry15\fs19\1c&Hffaecb&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}我
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(274,30)\r\be1\t(100,120,1,\frz20\fry-20\fs20\1c&Hfce9ff&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}高
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(296,30)\r\be1\t(150,170,1,\frz-20\fry15\fs19\1c&Hd8fff7&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}唱
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(250,270,1,\frz-20\fry-15\fs19\1c&Hfce9ff&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}花
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(300,320,1,\frz15\fry20\fs20\1c&Hfce9ff&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啊
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(350,370,1,\frz-20\fry15\fs19\1c&He1ffec&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}夢
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(400,420,1,\frz15\fry20\fs19\1c&Hfce9ff&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啊
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(430,30)\r\be1\t(500,520,1,\frz-15\fry-20\fs20\1c&Hffffe2&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啦
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(452,30)\r\be1\t(550,570,1,\frz-15\fry20\fs20\1c&Hd8fff7&\bord0)\t(580,600,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啦
+Dialogue: 0,0:23:52.54,0:23:57.28,ed_chi,NTP,0000,0000,0000,,{\pos(474,30)\r\be1\t(600,620,1,\frz-15\fry-20\fs19\1c&Hfce9ff&\bord0)\t(630,650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啦
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(229,30)\r\be1\t(0,20,1,\frz-20\fry-15\fs19\1c&Hfce9ff&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}莫
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(251,30)\r\be1\t(50,70,1,\frz20\fry-20\fs20\1c&He1ffec&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}名
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(273,30)\r\be1\t(100,120,1,\frz-15\fry20\fs19\1c&Hffffe2&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}其
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(295,30)\r\be1\t(150,170,1,\frz-20\fry20\fs20\1c&Hffffe2&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}妙
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(317,30)\r\be1\t(200,220,1,\frz15\fry-20\fs20\1c&Hffffe2&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}！
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(339,30)\r\be1\t(250,270,1,\frz-20\fry-20\fs19\1c&Hd8fff7&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}？
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(361,30)\r\be1\t(300,320,1,\frz-20\fry-20\fs20\1c&Hffffe2&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}這
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(383,30)\r\be1\t(350,370,1,\frz20\fry15\fs19\1c&Hd8fff7&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}就
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(405,30)\r\be1\t(400,420,1,\frz15\fry-20\fs19\1c&Hd8fff7&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}是
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(427,30)\r\be1\t(450,470,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}L
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(449,30)\r\be1\t(500,520,1,\frz20\fry15\fs20\1c&Hffffe2&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}O
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(471,30)\r\be1\t(550,570,1,\frz15\fry20\fs20\1c&Hd8fff7&\bord0)\t(580,600,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}V
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(493,30)\r\be1\t(600,620,1,\frz-15\fry-15\fs19\1c&Hffaecb&\bord0)\t(630,650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}E
+Dialogue: 0,0:23:57.28,0:24:01.38,ed_chi,NTP,0000,0000,0000,,{\pos(515,30)\r\be1\t(650,670,1,\frz-15\fry-15\fs20\1c&He1ffec&\bord0)\t(680,700,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啊
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_chi,NTP,0000,0000,0000,,{\pos(319,30)\r\be1\t(0,20,1,\frz15\fry20\fs20\1c&He1ffec&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}輕
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_chi,NTP,0000,0000,0000,,{\pos(341,30)\r\be1\t(50,70,1,\frz15\fry20\fs20\1c&Hfce9ff&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}啟
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_chi,NTP,0000,0000,0000,,{\pos(363,30)\r\be1\t(100,120,1,\frz20\fry-15\fs19\1c&Hd8fff7&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}雙
+Dialogue: 0,0:24:01.67,0:24:04.02,ed_chi,NTP,0000,0000,0000,,{\pos(385,30)\r\be1\t(150,170,1,\frz-15\fry-20\fs19\1c&Hd8fff7&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}唇
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(212,30)\r\be1\t(0,20,1,\frz15\fry15\fs19\1c&Hfce9ff&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}但
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(234,30)\r\be1\t(50,70,1,\frz20\fry20\fs19\1c&Hffffe2&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}是
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(268,30)\r\be1\t(150,170,1,\frz-15\fry20\fs20\1c&Hffaecb&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}接
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(290,30)\r\be1\t(200,220,1,\frz-15\fry20\fs19\1c&Hfce9ff&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}下
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(312,30)\r\be1\t(250,270,1,\frz15\fry15\fs20\1c&Hffaecb&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}來
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(334,30)\r\be1\t(300,320,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}就
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(356,30)\r\be1\t(350,370,1,\frz20\fry-15\fs20\1c&Hffffe2&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}是
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(378,30)\r\be1\t(400,420,1,\frz-15\fry-15\fs19\1c&He1ffec&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}「
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(400,30)\r\be1\t(450,470,1,\frz20\fry15\fs20\1c&He1ffec&\bord0)\t(480,500,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}秘
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(422,30)\r\be1\t(500,520,1,\frz15\fry20\fs19\1c&Hffffe2&\bord0)\t(530,550,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}密
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(444,30)\r\be1\t(550,570,1,\frz15\fry20\fs19\1c&Hd8fff7&\bord0)\t(580,600,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}c
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(466,30)\r\be1\t(600,620,1,\frz20\fry-20\fs19\1c&He1ffec&\bord0)\t(630,650,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}h
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(488,30)\r\be1\t(650,670,1,\frz-15\fry20\fs19\1c&Hfce9ff&\bord0)\t(680,700,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}u
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(510,30)\r\be1\t(700,720,1,\frz-20\fry-20\fs20\1c&Hd8fff7&\bord0)\t(730,750,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}?
+Dialogue: 0,0:24:04.02,0:24:06.68,ed_chi,NTP,0000,0000,0000,,{\pos(532,30)\r\be1\t(750,770,1,\frz20\fry15\fs20\1c&Hd8fff7&\bord0)\t(780,800,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}」
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_chi,NTP,0000,0000,0000,,{\pos(308,30)\r\be1\t(0,20,1,\frz-15\fry-15\fs19\1c&Hffffe2&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}食
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(50,70,1,\frz20\fry20\fs19\1c&Hffaecb&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}指
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(100,120,1,\frz-15\fry20\fs20\1c&He1ffec&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}手
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(150,170,1,\frz-20\fry-15\fs19\1c&He1ffec&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}指
+Dialogue: 0,0:24:06.68,0:24:08.73,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(200,220,1,\frz-15\fry-15\fs20\1c&Hffffe2&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}指
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(264,30)\r\be1\t(0,20,1,\frz-15\fry15\fs20\1c&Hd8fff7&\bord0)\t(30,50,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}秘
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(286,30)\r\be1\t(50,70,1,\frz-20\fry20\fs20\1c&Hfce9ff&\bord0)\t(80,100,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}密
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(308,30)\r\be1\t(100,120,1,\frz15\fry-20\fs20\1c&Hfce9ff&\bord0)\t(130,150,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}模
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(330,30)\r\be1\t(150,170,1,\frz-20\fry-20\fs20\1c&Hffaecb&\bord0)\t(180,200,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}式
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(352,30)\r\be1\t(200,220,1,\frz15\fry20\fs19\1c&Hfce9ff&\bord0)\t(230,250,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}就
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(374,30)\r\be1\t(250,270,1,\frz-20\fry-20\fs19\1c&Hffaecb&\bord0)\t(280,300,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}要
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(396,30)\r\be1\t(300,320,1,\frz20\fry20\fs20\1c&He1ffec&\bord0)\t(330,350,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}小
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(418,30)\r\be1\t(350,370,1,\frz-15\fry15\fs20\1c&Hfce9ff&\bord0)\t(380,400,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}聲
+Dialogue: 0,0:24:08.96,0:24:11.31,ed_chi,NTP,0000,0000,0000,,{\pos(440,30)\r\be1\t(400,420,1,\frz15\fry-15\fs19\1c&Hffaecb&\bord0)\t(430,450,1,\frz0\fry0\1c&Hffffff&\bord1\fs21)\k5}說
+
+Dialogue: 0,0:00:02.67,0:00:03.81,*Default,NTP,0000,0000,0000,,喂 大哥哥
+Dialogue: 0,0:00:05.40,0:00:08.78,*Default,NTP,0000,0000,0000,,是～我～ Pretty 小美夏哦
+Dialogue: 0,0:00:09.91,0:00:11.15,*Default,NTP,0000,0000,0000,,你该不会睡觉了吧
+Dialogue: 0,0:00:11.73,0:00:13.11,*Default,NTP,0000,0000,0000,,是吗 太好了
+Dialogue: 0,0:00:13.65,0:00:16.47,*Default,NTP,0000,0000,0000,,嗯 其实有件很重要的事情想跟你说...啊
+Dialogue: 0,0:00:16.72,0:00:17.27,*Default,NTP,0000,0000,0000,,怎么了
+Dialogue: 0,0:00:18.32,0:00:20.51,*Default,NTP,0000,0000,0000,,卷在身上的毛巾掉下来了
+Dialogue: 0,0:00:20.95,0:00:22.22,*Default,NTP,0000,0000,0000,,我刚才在洗澡嘛
+Dialogue: 0,0:00:22.47,0:00:25.81,*Default,NTP,0000,0000,0000,,咦～大哥哥你在想像什么呢
+Dialogue: 0,0:00:25.88,0:00:26.60,*Default,NTP,0000,0000,0000,,我挂啦
+Dialogue: 0,0:00:26.64,0:00:27.71,*Default,NTP,0000,0000,0000,,啊啊 等等 等等
+Dialogue: 0,0:00:28.02,0:00:30.69,*Default,NTP,0000,0000,0000,,其实啊 十月二十你有空吗
+Dialogue: 0,0:00:31.03,0:00:35.53,*Default,NTP,0000,0000,0000,,二十？我看看...倒是没什么事啦
+Dialogue: 0,0:00:36.37,0:00:38.45,*Default,NTP,0000,0000,0000,,呃？春香生日？
+Dialogue: 0,0:00:38.88,0:00:43.02,*Default,NTP,0000,0000,0000,,对 然后晚上有生日派对 要记好哦
+Dialogue: 0,0:00:43.31,0:00:44.59,*Default,NTP,0000,0000,0000,,好了 晚安
+Dialogue: 0,0:00:45.10,0:00:46.88,*Default,NTP,0000,0000,0000,,生日...啊
+Dialogue: 0,0:00:45.88,0:00:48.07,*Default,NTP,0000,0000,0000,,恭喜各位
+Dialogue: 0,0:00:49.63,0:00:52.31,*Default,NTP,0000,0000,0000,,希望幸福能传递到大家手中
+Dialogue: 0,0:02:23.20,0:02:27.45,title,NTP,0000,0000,0000,,{\pos(380,310)}『…久等了?』
+Dialogue: 0,0:02:25.27,0:02:26.89,*Default,NTP,0000,0000,0000,,那 那个 春香
+Dialogue: 0,0:02:27.58,0:02:31.07,*Default,NTP,0000,0000,0000,,你最近 有没有什么 想要的东西？
+Dialogue: 0,0:02:31.40,0:02:34.36,*Default,NTP,0000,0000,0000,,想要的东西吗？我看看...
+Dialogue: 0,0:02:34.49,0:02:38.96,*Default,NTP,0000,0000,0000,,英语的笔记本...红笔也差不多用完了
+Dialogue: 0,0:02:39.15,0:02:41.78,*Default,NTP,0000,0000,0000,,再带点梦想色彩的东西呢？
+Dialogue: 0,0:02:41.92,0:02:44.90,*Default,NTP,0000,0000,0000,,哦 那就是最近在电视上看到的
+Dialogue: 0,0:02:45.00,0:02:47.54,*Default,NTP,0000,0000,0000,,跟西枇杷岛的大山猫的婴儿之类的
+Dialogue: 0,0:02:47.79,0:02:50.67,*Default,NTP,0000,0000,0000,,蓝色的树袋熊之类的 来个亲密接触
+Dialogue: 0,0:02:50.87,0:02:53.67,*Default,NTP,0000,0000,0000,,有没有些更加容易买到手的？
+Dialogue: 0,0:02:53.82,0:02:54.63,*Default,NTP,0000,0000,0000,,这个嘛...
+Dialogue: 0,0:02:56.10,0:02:56.94,*Default,NTP,0000,0000,0000,,没事吧
+Dialogue: 0,0:02:57.13,0:02:58.17,*Default,NTP,0000,0000,0000,,嗯 没事
+Dialogue: 0,0:02:58.26,0:02:59.59,*Default,NTP,0000,0000,0000,,那个 不好意思啊
+Dialogue: 0,0:03:00.55,0:03:02.48,*Default,NTP,0000,0000,0000,,如果刚才真的摔下去了
+Dialogue: 0,0:03:02.61,0:03:04.77,*Default,NTP,0000,0000,0000,,就像昨天的冒失少女小秋了
+Dialogue: 0,0:03:04.83,0:03:07.32,*Default,NTP,0000,0000,0000,,啊 裕人也有看啊
+Dialogue: 0,0:03:07.52,0:03:09.60,*Default,NTP,0000,0000,0000,,这星期也很有意思呢
+Dialogue: 0,0:03:09.90,0:03:12.69,*Default,NTP,0000,0000,0000,,那头疯牛横穿过的那里 特别...
+Dialogue: 0,0:03:12.69,0:03:16.52,*Default,NTP,0000,0000,0000,,春香 现在这场合 聊这话题不妙啊
+Dialogue: 0,0:03:16.66,0:03:17.39,*Default,NTP,0000,0000,0000,,是
+Dialogue: 0,0:03:17.39,0:03:20.08,*Default,NTP,0000,0000,0000,,盯...
+Dialogue: 0,0:03:28.04,0:03:30.74,*Default,NTP,0000,0000,0000,,对不起 又给你添麻烦了
+Dialogue: 0,0:03:30.85,0:03:34.14,*Default,NTP,0000,0000,0000,,别在意啦 挑起话题的是我嘛
+Dialogue: 0,0:03:34.21,0:03:37.82,*Default,NTP,0000,0000,0000,,但是啊 你真的很喜欢呢 冒失少女小秋
+Dialogue: 0,0:03:37.94,0:03:40.76,*Default,NTP,0000,0000,0000,,对 以前都是偷偷摸摸地看
+Dialogue: 0,0:03:41.13,0:03:44.14,*Default,NTP,0000,0000,0000,,多亏了裕人 也得到了爸爸的认可
+Dialogue: 0,0:03:44.38,0:03:45.60,*Default,NTP,0000,0000,0000,,真的太好了
+Dialogue: 0,0:03:47.30,0:03:49.78,*Default,NTP,0000,0000,0000,,希望幸福能传递到大家手中
+Dialogue: 0,0:03:51.91,0:03:53.06,*Default,NTP,0000,0000,0000,,啊 这样啊
+Dialogue: 0,0:04:02.20,0:04:05.34,*Default,NTP,0000,0000,0000,,没想到我竟然会有孤身跑来秋叶原的这一天
+Dialogue: 0,0:04:05.83,0:04:08.47,*Default,NTP,0000,0000,0000,,说来 初次约会也是到这里呢
+Dialogue: 0,0:04:22.86,0:04:25.35,*Default,NTP,0000,0000,0000,,唉...到底买哪个好呢
+Dialogue: 0,0:04:25.63,0:04:28.89,*Default,NTP,0000,0000,0000,,说来 什么才算是好的手办呢
+Dialogue: 0,0:04:29.07,0:04:30.17,*Default,NTP,0000,0000,0000,,完全搞不清楚
+Dialogue: 0,0:04:30.43,0:04:34.09,*Default,NTP,0000,0000,0000,,啊 那边的上色不行 而且做工也很一般呢
+Dialogue: 0,0:04:34.27,0:04:34.98,*Default,NTP,0000,0000,0000,,原来如此
+Dialogue: 0,0:04:36.52,0:04:37.41,*Default,NTP,0000,0000,0000,,信长？
+Dialogue: 0,0:04:37.91,0:04:42.56,*Default,NTP,0000,0000,0000,,哟～裕人终于也在这条道上觉醒了
+Dialogue: 0,0:04:43.12,0:04:44.40,*Default,NTP,0000,0000,0000,,感激流涕啊
+Dialogue: 0,0:04:44.68,0:04:46.49,*Default,NTP,0000,0000,0000,,不 我不是...
+Dialogue: 0,0:04:46.97,0:04:48.22,*Default,NTP,0000,0000,0000,,心照 心照
+Dialogue: 0,0:04:48.49,0:04:51.87,*Default,NTP,0000,0000,0000,,话说 你今天是来买冒失少女小秋的手办吗
+Dialogue: 0,0:04:51.97,0:04:53.93,*Default,NTP,0000,0000,0000,,嘛 的确是啦
+Dialogue: 0,0:04:53.94,0:04:58.97,*Default,NTP,0000,0000,0000,,这样啊 现在在网上跟同人界都备受瞩目呢
+Dialogue: 0,0:04:59.21,0:05:01.78,*Default,NTP,0000,0000,0000,,裕人也挺有眼光的嘛
+Dialogue: 0,0:05:02.28,0:05:06.13,*Default,NTP,0000,0000,0000,,这个 造型忠实于原作 上色也完美
+Dialogue: 0,0:05:06.40,0:05:09.35,*Default,NTP,0000,0000,0000,,而且 说到小秋 果然还是得看这个姿势
+Dialogue: 0,0:05:09.38,0:05:10.19,*Default,NTP,0000,0000,0000,,原来如此
+Dialogue: 0,0:05:11.26,0:05:11.81,*Default,NTP,0000,0000,0000,,这个呢？
+Dialogue: 0,0:05:11.90,0:05:13.74,*Default,NTP,0000,0000,0000,,诶～眼光很不错嘛
+Dialogue: 0,0:05:14.17,0:05:17.53,*Default,NTP,0000,0000,0000,,裕人 那是冒失少女小秋的最新版本哦
+Dialogue: 0,0:05:17.81,0:05:18.70,*Default,NTP,0000,0000,0000,,做工也不错
+Dialogue: 0,0:05:18.86,0:05:21.12,*Default,NTP,0000,0000,0000,,嗯 这个我也推荐
+Dialogue: 0,0:05:22.52,0:05:25.09,*Default,NTP,0000,0000,0000,,嗯 决定了 就买这个吧
+Dialogue: 0,0:05:26.93,0:05:29.26,*Default,NTP,0000,0000,0000,,谢啦 信长 帮大忙了
+Dialogue: 0,0:05:29.29,0:05:30.36,*Default,NTP,0000,0000,0000,,客气客气
+Dialogue: 0,0:05:30.70,0:05:36.24,*Default,NTP,0000,0000,0000,,因为啊 没想到星期天在秋叶原能跟裕人聊手办呢
+Dialogue: 0,0:05:36.40,0:05:37.99,*Default,NTP,0000,0000,0000,,嘛 但是那就...
+Dialogue: 0,0:05:38.06,0:05:39.73,*Default,NTP,0000,0000,0000,,裕人 你变了
+Dialogue: 0,0:05:39.86,0:05:41.63,*Default,NTP,0000,0000,0000,,我....变了?
+Dialogue: 0,0:05:42.08,0:05:43.27,*Default,NTP,0000,0000,0000,,对啊～
+Dialogue: 0,0:05:43.54,0:05:47.33,*Default,NTP,0000,0000,0000,,小时候第一次一起来那次 你太过分了
+Dialogue: 0,0:05:47.76,0:05:52.70,*Default,NTP,0000,0000,0000,,我把难得买到的书交给你保管 你竟然送了一本给别人
+Dialogue: 0,0:05:52.98,0:05:55.28,*Default,NTP,0000,0000,0000,,呃 有这么一回事吗
+Dialogue: 0,0:05:55.54,0:05:57.66,*Default,NTP,0000,0000,0000,,你忘了？！
+Dialogue: 0,0:05:58.00,0:05:59.59,*Default,NTP,0000,0000,0000,,那次我是记得啦...
+Dialogue: 0,0:06:00.02,0:06:01.69,*Default,NTP,0000,0000,0000,,打死我也不会再来啦！
+Dialogue: 0,0:06:01.71,0:06:03.50,*Default,NTP,0000,0000,0000,,秋叶原这个鬼地方！
+Dialogue: 0,0:06:05.05,0:06:07.13,*Default,NTP,0000,0000,0000,,问题是去完回来啊
+Dialogue: 0,0:06:07.77,0:06:12.15,*Default,NTP,0000,0000,0000,,过分！竟然将我买的书随随便便送给别人
+Dialogue: 0,0:06:12.44,0:06:15.02,*Default,NTP,0000,0000,0000,,谁让你叫我帮忙提行李啊
+Dialogue: 0,0:06:15.16,0:06:19.05,*Default,NTP,0000,0000,0000,,裕人你根本不明白 那本书有多珍贵
+Dialogue: 0,0:06:19.30,0:06:21.38,*Default,NTP,0000,0000,0000,,那种事 发生过吗
+Dialogue: 0,0:06:21.44,0:06:23.67,*Default,NTP,0000,0000,0000,,到头来 那本书可是附赠premium的
+Dialogue: 0,0:06:23.69,0:06:25.46,*Default,NTP,0000,0000,0000,,我再也买不到了
+Dialogue: 0,0:06:25.80,0:06:27.75,*Default,NTP,0000,0000,0000,,前段时间图书馆入货了
+Dialogue: 0,0:06:28.08,0:06:30.73,*Default,NTP,0000,0000,0000,,我才终于得偿所望
+Dialogue: 0,0:06:30.98,0:06:32.68,*Default,NTP,0000,0000,0000,,那书有这么珍贵吗
+Dialogue: 0,0:06:32.69,0:06:34.75,*Default,NTP,0000,0000,0000,,当然 之前不是也跟你说过吗
+Dialogue: 0,0:06:34.76,0:06:36.76,*Default,NTP,0000,0000,0000,,Innocent Smile的创刊号
+Dialogue: 0,0:06:42.73,0:06:44.87,*Default,NTP,0000,0000,0000,,Innocent Smile...吗？
+Dialogue: 0,0:06:45.47,0:06:46.52,*Default,NTP,0000,0000,0000,,春香她也好像是...
+Dialogue: 0,0:06:47.31,0:06:49.82,*Default,NTP,0000,0000,0000,,已经是五六年前的事了
+Dialogue: 0,0:06:50.45,0:06:53.13,*Default,NTP,0000,0000,0000,,被爸爸责骂 我跑去公园大哭一场
+Dialogue: 0,0:06:53.62,0:06:56.94,*Default,NTP,0000,0000,0000,,有个陌生的男孩子 送了我一本书
+Dialogue: 0,0:06:56.95,0:06:59.54,*Default,NTP,0000,0000,0000,,啊 难道说那本书是...
+Dialogue: 0,0:06:59.59,0:07:02.48,*Default,NTP,0000,0000,0000,,对 Innocent Smile的创刊号
+Dialogue: 0,0:07:02.72,0:07:05.12,*Default,NTP,0000,0000,0000,,裕人少爷 裕人少爷
+Dialogue: 0,0:07:06.59,0:07:07.32,*Default,NTP,0000,0000,0000,,咦？
+Dialogue: 0,0:07:07.47,0:07:08.58,*Default,NTP,0000,0000,0000,,裕人少爷
+Dialogue: 0,0:07:08.64,0:07:10.41,*Default,NTP,0000,0000,0000,,久候多时了
+Dialogue: 0,0:07:18.85,0:07:22.23,*Default,NTP,0000,0000,0000,,你忘了吗 今天是春香小姐的生日
+Dialogue: 0,0:07:22.36,0:07:24.60,*Default,NTP,0000,0000,0000,,不 我当然记得
+Dialogue: 0,0:07:24.76,0:07:26.77,*Default,NTP,0000,0000,0000,,但是 派对不是晚上才开始吗
+Dialogue: 0,0:07:26.90,0:07:28.29,*Default,NTP,0000,0000,0000,,而且啊...
+Dialogue: 0,0:07:29.33,0:07:31.65,*Default,NTP,0000,0000,0000,,为什么琉子跟由香里老师都在
+Dialogue: 0,0:07:31.70,0:07:32.99,*Default,NTP,0000,0000,0000,,有什么不满吗
+Dialogue: 0,0:07:33.03,0:07:36.12,*Default,NTP,0000,0000,0000,,我们也接受邀请了呢
+Dialogue: 0,0:07:36.35,0:07:39.70,*Default,NTP,0000,0000,0000,,你想想 这就是「枯木も山の赈い(聊胜于无)」啊
+Dialogue: 0,0:07:39.88,0:07:42.55,*Default,NTP,0000,0000,0000,,说什么疯话 枯木只有由香里一个啦
+Dialogue: 0,0:07:42.57,0:07:44.44,*Default,NTP,0000,0000,0000,,我们不是去春香家吗
+Dialogue: 0,0:07:45.00,0:07:48.88,*Default,NTP,0000,0000,0000,,是～我们带各位去特别的派对会场
+Dialogue: 0,0:08:00.51,0:08:03.18,*Default,NTP,0000,0000,0000,,航行时间 预定2小时15分钟
+Dialogue: 0,0:08:03.54,0:08:06.63,*Default,NTP,0000,0000,0000,,我们是去哪里啊
+Dialogue: 0,0:08:06.65,0:08:09.86,*Default,NTP,0000,0000,0000,,这是商业机密 恕难回答
+Dialogue: 0,0:08:10.79,0:08:13.37,*Default,NTP,0000,0000,0000,,差不多要突入超音速了哦
+Dialogue: 0,0:08:28.28,0:08:32.26,*Default,NTP,0000,0000,0000,,啊～这热水真棒
+Dialogue: 0,0:08:32.76,0:08:36.00,*Default,NTP,0000,0000,0000,,泡温泉就是爽呢
+Dialogue: 0,0:08:37.64,0:08:39.22,*Default,NTP,0000,0000,0000,,如果不是在隔壁城市的话
+Dialogue: 0,0:08:39.29,0:08:41.14,*Default,NTP,0000,0000,0000,,我还真想每周都来泡呢
+Dialogue: 0,0:08:41.14,0:08:44.50,*Default,NTP,0000,0000,0000,,裕人 现在在做什么呢
+Dialogue: 0,0:08:51.50,0:08:54.91,*Default,NTP,0000,0000,0000,,真是的 那种程度就晕过去了
+Dialogue: 0,0:08:54.96,0:08:56.98,*Default,NTP,0000,0000,0000,,身为我弟弟 实在太窝囊废了吧
+Dialogue: 0,0:08:57.02,0:09:00.55,*Default,NTP,0000,0000,0000,,就算你...这么说...
+Dialogue: 0,0:09:00.62,0:09:03.40,*Default,NTP,0000,0000,0000,,没事吧？阿裕～
+Dialogue: 0,0:09:03.73,0:09:08.04,*Default,NTP,0000,0000,0000,,大哥哥 欢迎来到嬉春(Happy Spring)岛
+Dialogue: 0,0:09:08.41,0:09:10.37,*Default,NTP,0000,0000,0000,,Happy Spring？
+Dialogue: 0,0:09:10.82,0:09:14.13,*Default,NTP,0000,0000,0000,,对 靠近赤道的前·无人岛呢
+Dialogue: 0,0:09:14.49,0:09:19.19,*Default,NTP,0000,0000,0000,,说是为了庆祝姐姐生日 爸爸特意买下来的
+Dialogue: 0,0:09:21.13,0:09:25.80,*Default,NTP,0000,0000,0000,,所以啊 是为了祈愿姐姐获得幸福 命名为「嬉春岛」
+Dialogue: 0,0:09:25.81,0:09:28.34,*Default,NTP,0000,0000,0000,,嘛 虽然姐姐她不知道呢
+Dialogue: 0,0:09:30.22,0:09:32.13,*Default,NTP,0000,0000,0000,,好厉害啊 那...
+Dialogue: 0,0:09:32.38,0:09:35.30,*Default,NTP,0000,0000,0000,,那边那堆好像在哪里见过的人
+Dialogue: 0,0:09:35.39,0:09:36.89,*Default,NTP,0000,0000,0000,,都是参加派对的客人吗
+Dialogue: 0,0:09:37.12,0:09:39.96,*Default,NTP,0000,0000,0000,,对 跟我们家有生意来往的财阀啊
+Dialogue: 0,0:09:40.03,0:09:41.76,*Default,NTP,0000,0000,0000,,或者其他国家的大人物
+Dialogue: 0,0:09:42.18,0:09:45.80,*Default,NTP,0000,0000,0000,,加上其他这样或那样的人 总共有600人左右吧
+Dialogue: 0,0:09:46.24,0:09:47.22,*Default,NTP,0000,0000,0000,,600...
+Dialogue: 0,0:09:47.56,0:09:49.59,*Default,NTP,0000,0000,0000,,哦 大哥哥 你看那个
+Dialogue: 0,0:09:50.15,0:09:54.90,*Default,NTP,0000,0000,0000,,那些集装箱里面 全部都是送给姐姐的生日礼物哦
+Dialogue: 0,0:10:01.54,0:10:02.23,*Default,NTP,0000,0000,0000,,美夏小姐
+Dialogue: 0,0:10:04.23,0:10:07.38,*Default,NTP,0000,0000,0000,,呃 大哥哥 那个...
+Dialogue: 0,0:10:07.40,0:10:11.42,*Default,NTP,0000,0000,0000,,从姐姐角度来说 收到那些也未必会开心啦
+Dialogue: 0,0:10:11.81,0:10:14.30,*Default,NTP,0000,0000,0000,,来自全世界的名流和礼物堆里
+Dialogue: 0,0:10:15.29,0:10:16.21,*Default,NTP,0000,0000,0000,,这样好吗？
+Dialogue: 0,0:10:18.53,0:10:21.32,*Default,NTP,0000,0000,0000,,就我...送这种礼物
+Dialogue: 0,0:10:22.30,0:10:24.40,*Default,NTP,0000,0000,0000,,裕人～
+Dialogue: 0,0:10:25.67,0:10:28.73,*Default,NTP,0000,0000,0000,,裕人 等你好久了
+Dialogue: 0,0:10:30.81,0:10:32.46,*Default,NTP,0000,0000,0000,,春...香
+Dialogue: 0,0:10:49.04,0:10:50.53,*Default,NTP,0000,0000,0000,,大家还没换好吗
+Dialogue: 0,0:10:50.95,0:10:52.52,*Default,NTP,0000,0000,0000,,干杯～
+Dialogue: 0,0:10:52.59,0:10:55.01,*Default,NTP,0000,0000,0000,,喂 裕人 你也来闷一口吧
+Dialogue: 0,0:10:55.01,0:10:56.73,*Default,NTP,0000,0000,0000,,这里不是日本
+Dialogue: 0,0:10:56.79,0:10:59.41,*Default,NTP,0000,0000,0000,,我就破例允许你喝酒好了 来吧
+Dialogue: 0,0:11:02.87,0:11:05.76,*Default,NTP,0000,0000,0000,,真是的 那个醉鬼军团
+Dialogue: 0,0:11:05.81,0:11:07.88,*Default,NTP,0000,0000,0000,,无论到哪里都不会改变呢
+Dialogue: 0,0:11:08.11,0:11:10.59,*Default,NTP,0000,0000,0000,,她们就不稍微懂得客气和不好意思吗
+Dialogue: 0,0:11:16.98,0:11:21.68,*Default,NTP,0000,0000,0000,,说是为了庆祝姐姐生日 爸爸特意买下来的
+Dialogue: 0,0:11:28.20,0:11:32.58,*Default,NTP,0000,0000,0000,,整座岛都是属于春香的 是这么回事呢
+Dialogue: 0,0:11:33.64,0:11:35.10,*Default,NTP,0000,0000,0000,,裕人～
+Dialogue: 0,0:11:35.79,0:11:37.33,*Default,NTP,0000,0000,0000,,派对晚上才开始
+Dialogue: 0,0:11:37.36,0:11:39.12,*Default,NTP,0000,0000,0000,,之前都是自由时间哦
+Dialogue: 0,0:11:39.35,0:11:41.81,*Default,NTP,0000,0000,0000,,泳衣已经准备好了 换好了到沙滩等我们吧
+Dialogue: 0,0:11:41.88,0:11:44.59,*Default,NTP,0000,0000,0000,,要尽兴哦 裕人
+Dialogue: 0,0:11:45.82,0:11:46.76,*Default,NTP,0000,0000,0000,,春香...
+Dialogue: 0,0:11:48.00,0:11:50.66,*Default,NTP,0000,0000,0000,,嗯...不见呢
+Dialogue: 0,0:11:55.63,0:11:57.63,*Default,NTP,0000,0000,0000,,他在找东西吗
+Dialogue: 0,0:11:58.08,0:12:00.41,*Default,NTP,0000,0000,0000,,那个 不介意的话 我也来帮忙吧
+Dialogue: 0,0:12:05.40,0:12:06.81,*Default,NTP,0000,0000,0000,,你是什么人
+Dialogue: 0,0:12:07.24,0:12:08.09,*Default,NTP,0000,0000,0000,,你好
+Dialogue: 0,0:12:08.55,0:12:10.00,*Default,NTP,0000,0000,0000,,我是受邀出席派对的
+Dialogue: 0,0:12:10.22,0:12:12.20,*Default,NTP,0000,0000,0000,,看您好像在找东西 我也来帮忙吧
+Dialogue: 0,0:12:12.57,0:12:15.02,*Default,NTP,0000,0000,0000,,哦哦哦 这可帮大忙了
+Dialogue: 0,0:12:15.07,0:12:18.74,*Default,NTP,0000,0000,0000,,其实我的宝贝钓钩在这附近丢失了
+Dialogue: 0,0:12:18.75,0:12:19.62,*Default,NTP,0000,0000,0000,,钓钩？
+Dialogue: 0,0:12:19.69,0:12:20.18,*Default,NTP,0000,0000,0000,,没错
+Dialogue: 0,0:12:20.39,0:12:23.16,*Default,NTP,0000,0000,0000,,要钓到梦幻的巨型鱼「Rainbow Snake」
+Dialogue: 0,0:12:23.16,0:12:25.97,*Default,NTP,0000,0000,0000,,无论如何都需要那个钩子
+Dialogue: 0,0:12:26.01,0:12:29.48,*Default,NTP,0000,0000,0000,,明白了 总之是在这岩场范围内吧
+Dialogue: 0,0:12:29.63,0:12:30.23,*Default,NTP,0000,0000,0000,,嗯
+Dialogue: 0,0:12:42.88,0:12:45.86,*Default,NTP,0000,0000,0000,,说来 你是第一次来这里吧
+Dialogue: 0,0:12:45.88,0:12:48.54,*Default,NTP,0000,0000,0000,,对 大约1小时之前到的
+Dialogue: 0,0:12:48.73,0:12:52.66,*Default,NTP,0000,0000,0000,,原来如此 刚才坐冬将军来的原来是你
+Dialogue: 0,0:12:52.71,0:12:55.69,*Default,NTP,0000,0000,0000,,说来 你跟春香是什么关系？
+Dialogue: 0,0:12:55.91,0:12:59.76,*Default,NTP,0000,0000,0000,,「春香」...嘛 该说是同班同学
+Dialogue: 0,0:13:00.41,0:13:01.85,*Default,NTP,0000,0000,0000,,还是说朋友好呢
+Dialogue: 0,0:13:02.06,0:13:03.19,*Default,NTP,0000,0000,0000,,哦～
+Dialogue: 0,0:13:04.58,0:13:08.88,*Default,NTP,0000,0000,0000,,对 应该算...朋友吧
+Dialogue: 0,0:13:13.25,0:13:14.95,*Default,NTP,0000,0000,0000,,有什么事吗
+Dialogue: 0,0:13:19.32,0:13:21.45,*Default,NTP,0000,0000,0000,,请问是怎么了
+Dialogue: 0,0:13:21.72,0:13:24.73,*Default,NTP,0000,0000,0000,,大哥哥 你在哪里？
+Dialogue: 0,0:13:25.49,0:13:27.54,*Default,NTP,0000,0000,0000,,是在叫你吧
+Dialogue: 0,0:13:27.68,0:13:29.16,*Default,NTP,0000,0000,0000,,嗯 算是吧
+Dialogue: 0,0:13:29.40,0:13:30.39,*Default,NTP,0000,0000,0000,,我这边就算了
+Dialogue: 0,0:13:30.82,0:13:32.60,*Default,NTP,0000,0000,0000,,抱歉啊 让你帮忙了
+Dialogue: 0,0:13:32.60,0:13:34.26,*Default,NTP,0000,0000,0000,,但 但是 还没找到啊
+Dialogue: 0,0:13:34.30,0:13:37.27,*Default,NTP,0000,0000,0000,,让女士等待 这种男人不及格的哦
+Dialogue: 0,0:13:37.36,0:13:38.41,*Default,NTP,0000,0000,0000,,快 还不快去
+Dialogue: 0,0:13:38.55,0:13:39.42,*Default,NTP,0000,0000,0000,,是
+Dialogue: 0,0:13:40.37,0:13:43.36,*Default,NTP,0000,0000,0000,,那个 抱歉没能帮上忙
+Dialogue: 0,0:13:43.93,0:13:44.57,*Default,NTP,0000,0000,0000,,再见
+Dialogue: 0,0:13:44.94,0:13:46.51,*Default,NTP,0000,0000,0000,,嗯 回头见
+Dialogue: 0,0:13:48.46,0:13:49.67,*Default,NTP,0000,0000,0000,,原来如此
+Dialogue: 0,0:13:55.35,0:13:58.51,*Default,NTP,0000,0000,0000,,看来跟稀罕品种搭上了呢
+Dialogue: 0,0:13:59.18,0:14:01.36,*Default,NTP,0000,0000,0000,,大哥哥 这边这边
+Dialogue: 0,0:14:02.69,0:14:03.64,*Default,NTP,0000,0000,0000,,刚才你去哪了
+Dialogue: 0,0:14:03.72,0:14:05.15,*Default,NTP,0000,0000,0000,,没什么 有点事罢了
+Dialogue: 0,0:14:05.50,0:14:08.41,*Default,NTP,0000,0000,0000,,比起那个 你们不热吗
+Dialogue: 0,0:14:08.50,0:14:09.73,*Default,NTP,0000,0000,0000,,没有问题
+Dialogue: 0,0:14:10.02,0:14:14.35,*Default,NTP,0000,0000,0000,,身为女仆 只有身穿女仆服 才对得起这名号
+Dialogue: 0,0:14:14.64,0:14:16.61,*Default,NTP,0000,0000,0000,,这是工作嘛
+Dialogue: 0,0:14:16.92,0:14:17.76,*Default,NTP,0000,0000,0000,,是...
+Dialogue: 0,0:14:18.03,0:14:21.01,*Default,NTP,0000,0000,0000,,真是的 我看着都觉得热
+Dialogue: 0,0:14:21.06,0:14:23.87,*Default,NTP,0000,0000,0000,,两位 现在先别工作了
+Dialogue: 0,0:14:24.08,0:14:24.78,*Default,NTP,0000,0000,0000,,来
+Dialogue: 0,0:14:25.52,0:14:26.21,*Default,NTP,0000,0000,0000,,不要
+Dialogue: 0,0:14:26.43,0:14:29.55,*Default,NTP,0000,0000,0000,,哎呀 救命啊
+Dialogue: 0,0:14:30.55,0:14:31.80,*Default,NTP,0000,0000,0000,,来 快脱啊
+Dialogue: 0,0:14:40.39,0:14:43.13,*Default,NTP,0000,0000,0000,,果然 你们玩劲十足嘛
+Dialogue: 0,0:14:43.32,0:14:45.10,*Default,NTP,0000,0000,0000,,不 并不是那样的
+Dialogue: 0,0:14:45.38,0:14:49.31,*Default,NTP,0000,0000,0000,,啊啦啊啦 为什么我会穿着这种东西呢
+Dialogue: 0,0:14:49.68,0:14:50.96,*Default,NTP,0000,0000,0000,,还装
+Dialogue: 0,0:14:55.00,0:14:56.51,*Default,NTP,0000,0000,0000,,裕人～
+Dialogue: 0,0:15:05.72,0:15:07.41,*Default,NTP,0000,0000,0000,,久等了 裕人
+Dialogue: 0,0:15:12.69,0:15:16.02,*Default,NTP,0000,0000,0000,,那个 裕...人
+Dialogue: 0,0:15:16.30,0:15:17.46,*Default,NTP,0000,0000,0000,,啊 是
+Dialogue: 0,0:15:17.65,0:15:20.49,*Default,NTP,0000,0000,0000,,我这身打扮 很奇怪吗
+Dialogue: 0,0:15:20.50,0:15:21.98,*Default,NTP,0000,0000,0000,,不 没这回事
+Dialogue: 0,0:15:22.01,0:15:23.31,*Default,NTP,0000,0000,0000,,一点也不奇怪
+Dialogue: 0,0:15:23.60,0:15:24.56,*Default,NTP,0000,0000,0000,,那...
+Dialogue: 0,0:15:25.09,0:15:28.37,*Default,NTP,0000,0000,0000,,你这样盯着的话 那个...
+Dialogue: 0,0:15:29.54,0:15:30.67,*Default,NTP,0000,0000,0000,,抱歉
+Dialogue: 0,0:15:31.28,0:15:35.80,*Default,NTP,0000,0000,0000,,那 那个 很适合你哦 这 这身泳衣
+Dialogue: 0,0:15:35.86,0:15:38.55,*Default,NTP,0000,0000,0000,,是吗 谢谢你
+Dialogue: 0,0:15:38.84,0:15:40.95,*Default,NTP,0000,0000,0000,,我 我很开心哦
+Dialogue: 0,0:15:40.96,0:15:42.02,*Default,NTP,0000,0000,0000,,是吗
+Dialogue: 0,0:15:44.47,0:15:47.31,*Default,NTP,0000,0000,0000,,两位 关系和睦是好事情
+Dialogue: 0,0:15:47.37,0:15:49.15,*Default,NTP,0000,0000,0000,,但是别忘了这里可不只你们两个哦
+Dialogue: 0,0:16:03.71,0:16:04.21,*Default,NTP,0000,0000,0000,,看球
+Dialogue: 0,0:16:05.72,0:16:06.25,*Default,NTP,0000,0000,0000,,来
+Dialogue: 0,0:16:08.48,0:16:09.14,*Default,NTP,0000,0000,0000,,All right
+Dialogue: 0,0:16:09.51,0:16:10.49,*Default,NTP,0000,0000,0000,,包在我身上
+Dialogue: 0,0:16:18.49,0:16:20.02,*Default,NTP,0000,0000,0000,,讨厌 又来这招
+Dialogue: 0,0:16:20.28,0:16:22.03,*Default,NTP,0000,0000,0000,,大哥哥你太H了
+Dialogue: 0,0:16:22.12,0:16:25.14,*Default,NTP,0000,0000,0000,,「又来这招」是指什么啊 给
+Dialogue: 0,0:16:26.13,0:16:29.06,*Default,NTP,0000,0000,0000,,心如鹿撞吗 砰 砰 跳
+Dialogue: 0,0:16:29.18,0:16:31.29,*Default,NTP,0000,0000,0000,,笨蛋 你怎么能这样说...
+Dialogue: 0,0:16:33.21,0:16:34.10,*Default,NTP,0000,0000,0000,,不行！
+Dialogue: 0,0:16:34.23,0:16:35.42,*Default,NTP,0000,0000,0000,,美夏 不行
+Dialogue: 0,0:16:36.31,0:16:38.43,*Default,NTP,0000,0000,0000,,姐姐真讨厌
+Dialogue: 0,0:16:38.81,0:16:42.85,*Default,NTP,0000,0000,0000,,用不着贴那么紧 人家不会抢大哥哥的啦
+Dialogue: 0,0:17:01.51,0:17:05.20,*Default,NTP,0000,0000,0000,,裕人～我在这边哦
+Dialogue: 0,0:17:05.46,0:17:06.99,*Default,NTP,0000,0000,0000,,等等啦 春香
+Dialogue: 0,0:17:07.99,0:17:10.02,*Default,NTP,0000,0000,0000,,不行～就不等你～
+Dialogue: 0,0:17:10.05,0:17:11.63,*Default,NTP,0000,0000,0000,,哦 真有种
+Dialogue: 0,0:17:11.77,0:17:12.72,*Default,NTP,0000,0000,0000,,给我等着
+Dialogue: 0,0:17:12.89,0:17:14.75,*Default,NTP,0000,0000,0000,,人 家 就 不 等～
+Dialogue: 0,0:17:22.65,0:17:23.26,*Default,NTP,0000,0000,0000,,春香
+Dialogue: 0,0:17:24.59,0:17:25.31,*Default,NTP,0000,0000,0000,,春香小姐
+Dialogue: 0,0:17:25.46,0:17:26.28,*Default,NTP,0000,0000,0000,,姐姐
+Dialogue: 0,0:17:26.38,0:17:27.13,*Default,NTP,0000,0000,0000,,春香小姐
+Dialogue: 0,0:17:29.59,0:17:30.41,*Default,NTP,0000,0000,0000,,春香！
+Dialogue: 0,0:17:38.97,0:17:40.08,*Default,NTP,0000,0000,0000,,老师 春香她怎样
+Dialogue: 0,0:17:40.50,0:17:44.52,*Default,NTP,0000,0000,0000,,嗯 这下果然得人工呼吸呢
+Dialogue: 0,0:17:45.47,0:17:48.33,*Default,NTP,0000,0000,0000,,对啊 只有这个办法了
+Dialogue: 0,0:17:49.03,0:17:51.51,*Default,NTP,0000,0000,0000,,嗯 动作慢了就糟糕了
+Dialogue: 0,0:17:51.78,0:17:53.60,*Default,NTP,0000,0000,0000,,呃 那个...
+Dialogue: 0,0:17:53.68,0:17:54.80,*Default,NTP,0000,0000,0000,,拜托你了 大哥哥
+Dialogue: 0,0:17:54.89,0:17:55.91,*Default,NTP,0000,0000,0000,,来 请尽快
+Dialogue: 0,0:17:57.15,0:17:57.67,*Default,NTP,0000,0000,0000,,要我来？
+Dialogue: 0,0:17:58.65,0:17:59.67,*Default,NTP,0000,0000,0000,,真的要我上？
+Dialogue: 0,0:17:59.83,0:18:00.86,*Default,NTP,0000,0000,0000,,除了你还有谁
+Dialogue: 0,0:18:01.12,0:18:02.15,*Default,NTP,0000,0000,0000,,加油～
+Dialogue: 0,0:18:02.58,0:18:03.45,*Default,NTP,0000,0000,0000,,救救春香小姐
+Dialogue: 0,0:18:03.70,0:18:04.71,*Default,NTP,0000,0000,0000,,拜托了
+Dialogue: 0,0:18:04.92,0:18:05.57,*Default,NTP,0000,0000,0000,,加油(中文：拜托了？)
+Dialogue: 0,0:18:42.72,0:18:45.52,*Default,NTP,0000,0000,0000,,切 明明都很顺利的
+Dialogue: 0,0:18:45.63,0:18:47.65,*Default,NTP,0000,0000,0000,,就差一步了呢
+Dialogue: 0,0:18:48.70,0:18:50.78,*Default,NTP,0000,0000,0000,,难 难道 你们！
+Dialogue: 0,0:18:51.06,0:18:54.01,*Default,NTP,0000,0000,0000,,啊啦啊啦 那种「知道了没什么大碍
+Dialogue: 0,0:18:54.06,0:18:57.26,*Default,NTP,0000,0000,0000,,出于兴趣第一的考虑想看看接吻场面」的事情
+Dialogue: 0,0:18:57.45,0:18:58.85,*Default,NTP,0000,0000,0000,,我们可没想过哦
+Dialogue: 0,0:18:58.96,0:19:00.44,*Default,NTP,0000,0000,0000,,这是误会
+Dialogue: 0,0:19:00.58,0:19:01.21,*Default,NTP,0000,0000,0000,,嗯
+Dialogue: 0,0:19:01.47,0:19:05.11,*Default,NTP,0000,0000,0000,,啊啊 真想看看啊 你们俩的初吻
+Dialogue: 0,0:19:05.18,0:19:06.87,*Default,NTP,0000,0000,0000,,果 果然！
+Dialogue: 0,0:19:06.92,0:19:09.61,*Default,NTP,0000,0000,0000,,呀～大哥哥生气了
+Dialogue: 0,0:19:09.98,0:19:11.11,*Default,NTP,0000,0000,0000,,快跑啊
+Dialogue: 0,0:19:12.86,0:19:14.09,*Default,NTP,0000,0000,0000,,那群人真是的
+Dialogue: 0,0:19:14.48,0:19:15.59,*Default,NTP,0000,0000,0000,,连叶月小姐也跟他们一起疯
+Dialogue: 0,0:19:33.65,0:19:36.90,*Default,NTP,0000,0000,0000,,切 竟然对我的春香小姐...
+Dialogue: 0,0:19:51.51,0:19:55.85,*Default,NTP,0000,0000,0000,,好了 换好衣服之后 请到会场集合吧
+Dialogue: 0,0:19:56.44,0:20:00.12,*Default,NTP,0000,0000,0000,,衣服已经放在里头的准备室了
+Dialogue: 0,0:20:00.19,0:20:00.73,*Default,NTP,0000,0000,0000,,嗯
+Dialogue: 0,0:20:00.78,0:20:01.36,*Default,NTP,0000,0000,0000,,告辞
+Dialogue: 0,0:20:01.77,0:20:03.79,*Default,NTP,0000,0000,0000,,裕人 我们会场见
+Dialogue: 0,0:20:03.97,0:20:04.66,*Default,NTP,0000,0000,0000,,嗯
+Dialogue: 0,0:20:10.86,0:20:12.93,*Default,NTP,0000,0000,0000,,Hey 那边的四眼田鸡
+Dialogue: 0,0:20:16.61,0:20:20.51,*Default,NTP,0000,0000,0000,,没啥 只是看到这座高贵的城堡里面
+Dialogue: 0,0:20:20.59,0:20:24.16,*Default,NTP,0000,0000,0000,,不知为何有个邋邋遢遢 蚱蜢般的男人乱转
+Dialogue: 0,0:20:24.20,0:20:25.91,*Default,NTP,0000,0000,0000,,觉得很不爽罢了
+Dialogue: 0,0:20:26.17,0:20:28.21,*Default,NTP,0000,0000,0000,,ha ha ha
+Dialogue: 0,0:20:28.46,0:20:29.19,*Default,NTP,0000,0000,0000,,有什么事吗
+Dialogue: 0,0:20:31.80,0:20:33.94,*Default,NTP,0000,0000,0000,,虽然不知道你用了什么手段
+Dialogue: 0,0:20:34.26,0:20:40.27,*Default,NTP,0000,0000,0000,,获邀来这里的 只有世界各国的要员跟我们这些财团的名流
+Dialogue: 0,0:20:40.58,0:20:44.08,*Default,NTP,0000,0000,0000,,即使你这种土里土气的一般市民混进来了
+Dialogue: 0,0:20:44.12,0:20:46.56,*Default,NTP,0000,0000,0000,,也只会留下丢脸的回忆罢了
+Dialogue: 0,0:20:46.87,0:20:48.91,*Default,NTP,0000,0000,0000,,就是想给你这个忠告
+Dialogue: 0,0:20:49.19,0:20:50.57,*Default,NTP,0000,0000,0000,,对吧 各位
+Dialogue: 0,0:20:52.04,0:20:54.78,*Default,NTP,0000,0000,0000,,话只有这些？告辞
+Dialogue: 0,0:20:57.17,0:20:58.25,*Default,NTP,0000,0000,0000,,你干什么
+Dialogue: 0,0:20:58.26,0:21:01.99,*Default,NTP,0000,0000,0000,,ha ha ha 嘛 你先等一下嘛
+Dialogue: 0,0:21:02.25,0:21:04.13,*Default,NTP,0000,0000,0000,,都混进来派对了
+Dialogue: 0,0:21:04.30,0:21:10.75,*Default,NTP,0000,0000,0000,,你到底想送什么给那华美无比的春香小姐做生日礼物啊
+Dialogue: 0,0:21:12.22,0:21:13.80,*Default,NTP,0000,0000,0000,,与你无关吧
+Dialogue: 0,0:21:14.08,0:21:14.65,*Default,NTP,0000,0000,0000,,顺带一提
+Dialogue: 0,0:21:17.39,0:21:22.02,*Default,NTP,0000,0000,0000,,我送的是 让爸爸买来的这服饰跟珠宝
+Dialogue: 0,0:21:23.34,0:21:24.40,*Default,NTP,0000,0000,0000,,什 什么？
+Dialogue: 0,0:21:24.62,0:21:25.37,*Default,NTP,0000,0000,0000,,看吧
+Dialogue: 0,0:21:25.79,0:21:29.35,*Default,NTP,0000,0000,0000,,镶嵌了100克拉份量的钻石的这套服饰
+Dialogue: 0,0:21:29.40,0:21:30.40,*Default,NTP,0000,0000,0000,,镶红宝石的鞋
+Dialogue: 0,0:21:30.60,0:21:31.86,*Default,NTP,0000,0000,0000,,戒指 项链
+Dialogue: 0,0:21:32.00,0:21:34.78,*Default,NTP,0000,0000,0000,,还有粉红钻石制成的头冠 耳环
+Dialogue: 0,0:21:34.92,0:21:39.16,*Default,NTP,0000,0000,0000,,共计545克拉 跟世界第一大的钻石是一样的
+Dialogue: 0,0:21:34.92,0:21:39.16,*Default2,NTP,0000,0000,0000,,{\an8}(*The Golden Jubilee Diamond 世上最大的钻石(切割研磨后) 重545.67克拉 泰国王拉玛九世所有)
+Dialogue: 0,0:21:39.33,0:21:42.45,*Default,NTP,0000,0000,0000,,没错 你不觉这是跟世界第一的春香小姐
+Dialogue: 0,0:21:42.70,0:21:45.83,*Default,NTP,0000,0000,0000,,最为相称的礼物吗
+Dialogue: 0,0:21:46.08,0:21:47.68,*Default,NTP,0000,0000,0000,,500是...
+Dialogue: 0,0:21:48.34,0:21:52.12,*Default,NTP,0000,0000,0000,,送礼是为了取悦于人
+Dialogue: 0,0:21:52.51,0:21:57.77,*Default,NTP,0000,0000,0000,,你的礼物 能比我的更能取悦春香小姐吗
+Dialogue: 0,0:22:02.08,0:22:07.25,*Default,NTP,0000,0000,0000,,嘛 不想丢脸的话 就老老实实地退场吧
+Dialogue: 0,0:22:07.53,0:22:10.69,*Default,NTP,0000,0000,0000,,说到底你也只是一只误闯错误的地方
+Dialogue: 0,0:22:10.79,0:22:13.49,*Default,NTP,0000,0000,0000,,愚蠢的不显口鼻蝇罢了
+Dialogue: 0,0:22:10.79,0:22:13.49,*Default2,NTP,0000,0000,0000,,{\an8}(*ツマグロキンバエ Stomorhina obsoleta 不显口鼻蝇 这种蝇是吸花蜜的)
+Dialogue: 0,0:22:13.82,0:22:17.43,*Default,NTP,0000,0000,0000,,ha ha ha...
+Dialogue: 0,0:22:21.54,0:22:23.20,*Default,NTP,0000,0000,0000,,会场上的各位
+Dialogue: 0,0:22:23.51,0:22:27.59,*Default,NTP,0000,0000,0000,,春香小姐的生日派对很快就要开始了
+Dialogue: 0,0:22:28.14,0:22:31.85,*Default,NTP,0000,0000,0000,,请到城内中央的Siegfried间里集合
+Dialogue: 0,0:24:15.69,0:24:18.23,*Default,NTP,0000,0000,0000,,一名男子与一名女子
+Dialogue: 0,0:24:18.51,0:24:19.96,*Default,NTP,0000,0000,0000,,化作流星划破天际
+Dialogue: 0,0:24:20.40,0:24:22.28,*Default,NTP,0000,0000,0000,,现在 一切将迎来终结
+Dialogue: 0,0:24:22.54,0:24:23.97,*Default,NTP,0000,0000,0000,,奔驰的冒失少女
+Dialogue: 0,0:24:24.41,0:24:26.17,*Default,NTP,0000,0000,0000,,现在 一切将迎来新开始
+Dialogue: 0,0:24:26.49,0:24:28.51,*Default,NTP,0000,0000,0000,,秋叶原诞生了希望
+Dialogue: 0,0:24:28.82,0:24:31.01,*Default,NTP,0000,0000,0000,,大结局 『这是秘密！』
+Dialogue: 0,0:24:31.46,0:24:33.96,*Default,NTP,0000,0000,0000,,遥远的时空中 赌上一切

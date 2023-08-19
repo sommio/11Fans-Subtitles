@@ -1,0 +1,458 @@
+﻿﻿[Script Info]
+
+;==================================
+;
+;   W-ZONE字幕组 制作
+;
+;==================================
+
+Title:
+Original Script:
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:1280
+PlayResY:720
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,FZZhunYuan-M02,49,&H00FFFFFF,&H00000000,&H004B4B4B,&H00000000,-1,0,0,0,100,100,0,0,1,1.75,0.75,2,20,20,10,1
+Style: Staff,FZZhunYuan-M02,32,&H00FFFFFF,&H000000FF,&H004B4B4B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: OPEDJ,DFPKaiSho-Md,41,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,8,30,30,10,1
+Style: OPEDC,方正楷体_GBK,46,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,2,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:34.43,0:01:36.57,*Default,NTP,0,0,0,,会稍有摇晃 请注意
+Dialogue: 0,0:01:54.03,0:01:55.13,*Default,NTP,0,0,0,,为什么带着棺材…
+Dialogue: 0,0:01:55.13,0:01:56.99,*Default,NTP,0,0,0,,真不吉利…
+Dialogue: 0,0:01:57.10,0:01:58.15,*Default,NTP,0,0,0,,不能看
+Dialogue: 0,0:02:00.39,0:02:01.97,*Default,NTP,0,0,0,,托鲁 脸奇怪
+Dialogue: 0,0:02:02.44,0:02:03.46,*Default,NTP,0,0,0,,大家都在看你
+Dialogue: 0,0:02:04.26,0:02:06.95,*Default,NTP,0,0,0,,哎 大家看的是你啦
+Dialogue: 0,0:02:07.48,0:02:08.73,*Default,NTP,0,0,0,,震惊的事实
+Dialogue: 0,0:02:11.23,0:02:12.56,*Default,NTP,0,0,0,,不愧是兄长
+Dialogue: 0,0:02:13.01,0:02:16.78,*Default,NTP,0,0,0,,漫溢着狂气的脸庞独占了大家的视线
+Dialogue: 0,0:02:16.88,0:02:18.57,*Default,NTP,0,0,0,,谁漫溢了啊
+Dialogue: 0,0:02:20.11,0:02:22.37,*Default,NTP,0,0,0,,本是为了逃离他们才乘上公车
+Dialogue: 0,0:02:22.69,0:02:24.13,*Default,NTP,0,0,0,,但这样下去不行啊
+Dialogue: 0,0:02:24.68,0:02:26.68,*Default,NTP,0,0,0,,果然还是得找自己的代步工具
+
+Dialogue: 0,0:02:28.52,0:02:32.03,*Default,NTP,0,0,0,,英雄栖息的森林
+
+Dialogue: 0,0:02:37.27,0:02:40.16,*Default,NTP,0,0,0,,我去买些药草和食材
+Dialogue: 0,0:02:40.53,0:02:41.88,*Default,NTP,0,0,0,,嗯 有劳
+Dialogue: 0,0:02:42.14,0:02:43.97,*Default,NTP,0,0,0,,阿卡莉 别迷路 注意
+Dialogue: 0,0:02:44.12,0:02:45.17,*Default,NTP,0,0,0,,你还有脸说别人…
+Dialogue: 0,0:02:51.58,0:02:53.39,*Default,NTP,0,0,0,,必须处理一下这东西
+Dialogue: 0,0:02:55.60,0:02:56.38,*Default,NTP,0,0,0,,搞定
+Dialogue: 0,0:02:57.72,0:03:00.47,*Default,NTP,0,0,0,,棺材 神圣 轻黩禁止
+Dialogue: 0,0:03:00.87,0:03:02.62,*Default,NTP,0,0,0,,总比招摇过市要好吧?
+Dialogue: 0,0:03:04.32,0:03:05.89,*Default,NTP,0,0,0,,首先找辆车吧
+Dialogue: 0,0:03:06.34,0:03:07.10,*Default,NTP,0,0,0,,还有 嘉依卡
+Dialogue: 0,0:03:07.46,0:03:08.52,*Default,NTP,0,0,0,,关于下一件工作…
+Dialogue: 0,0:03:10.85,0:03:11.38,*Default,NTP,0,0,0,,咦?
+Dialogue: 0,0:03:14.67,0:03:16.78,*Default,NTP,0,0,0,,可爱 入手需要
+Dialogue: 0,0:03:17.47,0:03:19.20,*Default,NTP,0,0,0,,你呀 这个以后再说
+Dialogue: 0,0:03:20.95,0:03:22.14,*Default,NTP,0,0,0,,以后再说听到吗
+Dialogue: 0,0:03:22.53,0:03:24.76,*Default,NTP,0,0,0,,你这明显是观光的态度啊
+Dialogue: 0,0:03:28.04,0:03:30.07,*Default,NTP,0,0,0,,下一件工作该怎么办?
+Dialogue: 0,0:03:30.66,0:03:32.90,*Default,NTP,0,0,0,,作为雇主你得说明下啊
+Dialogue: 0,0:03:34.79,0:03:35.90,*Default,NTP,0,0,0,,姆伊个头啊你
+Dialogue: 0,0:03:37.69,0:03:38.86,*Default,NTP,0,0,0,,麻烦了
+Dialogue: 0,0:03:40.36,0:03:41.60,*Default,NTP,0,0,0,,阿卡莉 归来
+Dialogue: 0,0:03:44.56,0:03:46.02,*Default,NTP,0,0,0,,总之先吃饭吧
+Dialogue: 0,0:03:57.20,0:03:57.86,*Default,NTP,0,0,0,,基烈特大人
+Dialogue: 0,0:03:58.45,0:03:59.97,*Default,NTP,0,0,0,,啊 马特乌斯
+Dialogue: 0,0:04:00.93,0:04:02.92,*Default,NTP,0,0,0,,康拉德机关长传来消息了
+Dialogue: 0,0:04:06.60,0:04:07.31,*Default,NTP,0,0,0,,写了些什么?
+Dialogue: 0,0:04:07.80,0:04:11.40,*Default,NTP,0,0,0,,「很遗憾现在人手不足 无法增派援手
+Dialogue: 0,0:04:11.80,0:04:13.08,*Default,NTP,0,0,0,,我处静待捷报
+Dialogue: 0,0:04:13.89,0:04:18.13,*Default,NTP,0,0,0,,另 关于嘉依卡的资料已寄送支部」
+Dialogue: 0,0:04:20.26,0:04:24.75,*Default,NTP,0,0,0,,他们翻山前往了伊芙索姆市的可能性很大
+Dialogue: 0,0:04:24.99,0:04:28.95,*Default,NTP,0,0,0,,背着棺材 徒步旅行恐怕并不现实
+Dialogue: 0,0:04:29.28,0:04:32.41,*Default,NTP,0,0,0,,的确 那他们接下来采取的行动
+Dialogue: 0,0:04:33.01,0:04:34.40,*Default,NTP,0,0,0,,想必是获取移动工具…
+Dialogue: 0,0:04:35.11,0:04:38.49,*Default,NTP,0,0,0,,从这个位置来说 他们应该差不多到达城市了
+Dialogue: 0,0:04:40.37,0:04:42.62,*Default,NTP,0,0,0,,尼古拉 你伤势如何了?
+Dialogue: 0,0:04:43.16,0:04:44.58,*Default,NTP,0,0,0,,只是擦伤罢了
+Dialogue: 0,0:04:44.92,0:04:45.94,*Default,NTP,0,0,0,,明明是重伤
+Dialogue: 0,0:04:46.67,0:04:48.87,*Default,NTP,0,0,0,,尼古拉真是的 竟然输给那种家伙
+Dialogue: 0,0:04:49.80,0:04:50.90,*Default,NTP,0,0,0,,真严厉呀
+Dialogue: 0,0:04:51.51,0:04:53.71,*Default,NTP,0,0,0,,不过 竟然能打伤尼古拉
+Dialogue: 0,0:04:54.20,0:04:55.91,*Default,NTP,0,0,0,,对方的身手也不一般啊
+Dialogue: 0,0:04:56.71,0:04:57.89,*Default,NTP,0,0,0,,只是靠些下三滥的招数吧
+Dialogue: 0,0:04:58.00,0:04:59.21,*Default,NTP,0,0,0,,乱破师的看家本领嘛
+Dialogue: 0,0:04:59.52,0:05:01.31,*Default,NTP,0,0,0,,好了 尽早出发吧
+Dialogue: 0,0:05:02.17,0:05:04.47,*Default,NTP,0,0,0,,等到了城市 分头走访调查吧
+Dialogue: 0,0:05:04.80,0:05:06.99,*Default,NTP,0,0,0,,是 我一定会为您抓到他的
+Dialogue: 0,0:05:07.96,0:05:09.04,*Default,NTP,0,0,0,,那看你的了 薇薇
+Dialogue: 0,0:05:09.58,0:05:10.20,*Default,NTP,0,0,0,,是
+Dialogue: 0,0:05:14.86,0:05:17.80,*Default,NTP,0,0,0,,量大 价廉 而且还美味
+Dialogue: 0,0:05:20.69,0:05:24.52,*Default,NTP,0,0,0,,你真是那个阿图尔·贾兹皇帝的女儿吗
+Dialogue: 0,0:05:25.17,0:05:27.41,*Default,NTP,0,0,0,,实乃公主 敬意 多表
+Dialogue: 0,0:05:28.09,0:05:30.90,*Default,NTP,0,0,0,,那么 其他几位拿着遗体的英雄
+Dialogue: 0,0:05:31.34,0:05:32.69,*Default,NTP,0,0,0,,你知道名字和位置吗
+Dialogue: 0,0:05:36.67,0:05:37.96,*Default,NTP,0,0,0,,还得从这开始啊
+Dialogue: 0,0:05:39.25,0:05:42.09,*Default,NTP,0,0,0,,可 阿巴尔特伯爵的事情你又是从哪听到的?
+Dialogue: 0,0:05:42.72,0:05:44.24,*Default,NTP,0,0,0,,情报提供者 有
+Dialogue: 0,0:05:44.65,0:05:45.25,*Default,NTP,0,0,0,,谁啊?
+Dialogue: 0,0:05:45.64,0:05:46.48,*Default,NTP,0,0,0,,神秘人物
+Dialogue: 0,0:05:48.26,0:05:51.31,*Default,NTP,0,0,0,,莫非是那个基烈特提到的
+Dialogue: 0,0:05:51.82,0:05:55.30,*Default,NTP,0,0,0,,拥立你 企图复兴帝国的那些人?
+Dialogue: 0,0:05:57.25,0:05:58.45,*Default,NTP,0,0,0,,透着蹊跷啊
+Dialogue: 0,0:05:59.44,0:06:03.43,*Default,NTP,0,0,0,,你有自己正陷进可怕漩涡里的自觉吗
+Dialogue: 0,0:06:05.49,0:06:07.54,*Default,NTP,0,0,0,,你这样子真的能走下去吗
+Dialogue: 0,0:06:08.04,0:06:11.32,*Default,NTP,0,0,0,,关于这点 兄长我们也一样
+Dialogue: 0,0:06:12.07,0:06:13.44,*Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:06:14.08,0:06:17.04,*Default,NTP,0,0,0,,被一帮麻烦的家伙追捕
+Dialogue: 0,0:06:18.15,0:06:18.89,*Default,NTP,0,0,0,,这个 再来一碗
+Dialogue: 0,0:06:19.60,0:06:21.05,*Default,NTP,0,0,0,,托鲁 要吃吗
+Dialogue: 0,0:06:23.71,0:06:25.89,*Default,NTP,0,0,0,,我果然还是过于武断了吗
+Dialogue: 0,0:06:26.76,0:06:27.97,*Default,NTP,0,0,0,,我刚才听说
+Dialogue: 0,0:06:28.58,0:06:31.92,*Default,NTP,0,0,0,,这城市的领主好像就是八英雄之一
+Dialogue: 0,0:06:32.49,0:06:33.11,*Default,NTP,0,0,0,,英雄?
+Dialogue: 0,0:06:33.65,0:06:35.22,*Default,NTP,0,0,0,,阿卡莉你不早说
+Dialogue: 0,0:06:35.58,0:06:37.06,*Default,NTP,0,0,0,,我一直在等待说出的契机
+Dialogue: 0,0:06:37.59,0:06:38.53,*Default,NTP,0,0,0,,哪门子契机啊
+Dialogue: 0,0:06:38.92,0:06:41.33,*Default,NTP,0,0,0,,然后呢 那领主现在在哪儿?
+Dialogue: 0,0:06:41.53,0:06:44.68,*Default,NTP,0,0,0,,谁也不知道领主住哪儿
+Dialogue: 0,0:06:45.22,0:06:48.65,*Default,NTP,0,0,0,,不仅如此 甚至连见过其人的都没有
+Dialogue: 0,0:06:49.87,0:06:51.72,*Default,NTP,0,0,0,,但至少会有点传闻吧
+Dialogue: 0,0:06:52.55,0:06:56.36,*Default,NTP,0,0,0,,听说是个 和装铠龙签下契约的女骑士
+Dialogue: 0,0:06:56.91,0:06:58.32,*Default,NTP,0,0,0,,龙…骑士?
+Dialogue: 0,0:06:58.52,0:07:00.89,*Default,NTP,0,0,0,,你没见过装铠龙吗
+Dialogue: 0,0:07:01.34,0:07:03.57,*Default,NTP,0,0,0,,弃兽中最可怕的一种呀
+Dialogue: 0,0:07:04.30,0:07:07.06,*Default,NTP,0,0,0,,传说见过它身影的人都会被吃掉
+Dialogue: 0,0:07:07.64,0:07:08.28,*Default,NTP,0,0,0,,你见过吗
+Dialogue: 0,0:07:09.53,0:07:10.48,*Default,NTP,0,0,0,,我是没有啦
+Dialogue: 0,0:07:10.88,0:07:13.89,*Default,NTP,0,0,0,,但听说领主驾驭着那个装铠龙啊
+Dialogue: 0,0:07:15.11,0:07:18.19,*Default,NTP,0,0,0,,你们对于领主知道点什么吗
+Dialogue: 0,0:07:18.64,0:07:21.41,*Default,NTP,0,0,0,,能知道什么 传闻倒是有不少啦
+Dialogue: 0,0:07:21.70,0:07:26.02,*Default,NTP,0,0,0,,但多亏现任领主并不严厉 官老爷们管的也松
+Dialogue: 0,0:07:26.87,0:07:28.26,*Default,NTP,0,0,0,,税也低
+Dialogue: 0,0:07:28.64,0:07:30.60,*Default,NTP,0,0,0,,在这个城市 日子还挺好过的
+Dialogue: 0,0:07:31.27,0:07:31.79,*Default,NTP,0,0,0,,不过嘛
+Dialogue: 0,0:07:31.98,0:07:34.89,*Default,NTP,0,0,0,,这种事情和你这个一看就是无业游民的旅行者
+Dialogue: 0,0:07:35.27,0:07:36.88,*Default,NTP,0,0,0,,毫无关系吧
+Dialogue: 0,0:07:38.08,0:07:38.89,*Default,NTP,0,0,0,,所言极是
+Dialogue: 0,0:07:41.08,0:07:44.82,*Default,NTP,0,0,0,,而且 还叫那么惹人怜爱的少女背着大行李
+Dialogue: 0,0:07:45.12,0:07:46.39,*Default,NTP,0,0,0,,让她付账
+Dialogue: 0,0:07:47.02,0:07:48.96,*Default,NTP,0,0,0,,我从你身上感到浓浓的废柴气息
+Dialogue: 0,0:07:53.26,0:07:55.46,*Default,NTP,0,0,0,,我好歹是有重新工作了啊
+Dialogue: 0,0:07:55.69,0:07:57.14,*Default,NTP,0,0,0,,领主 会面 火急
+Dialogue: 0,0:07:58.74,0:08:01.18,*Default,NTP,0,0,0,,但根本不知道她人在哪儿啊
+Dialogue: 0,0:08:03.18,0:08:04.81,*Default,NTP,0,0,0,,总之 先找住的地方吧
+Dialogue: 0,0:08:07.91,0:08:08.32,*Default,NTP,0,0,0,,什么嘛
+Dialogue: 0,0:08:09.06,0:08:11.27,*Default,NTP,0,0,0,,让我们住一晚又不会少块肉
+Dialogue: 0,0:08:12.03,0:08:14.25,*Default,NTP,0,0,0,,讲什么 棺材不得入内
+Dialogue: 0,0:08:14.82,0:08:15.89,*Default,NTP,0,0,0,,真让人头疼
+Dialogue: 0,0:08:16.29,0:08:18.52,*Default,NTP,0,0,0,,棺材 带入禁止 不合理
+Dialogue: 0,0:08:19.10,0:08:21.38,*Default,NTP,0,0,0,,我本以为可以和兄长在带床幔的床上
+Dialogue: 0,0:08:21.70,0:08:23.57,*Default,NTP,0,0,0,,过个激情的夜晚
+Dialogue: 0,0:08:23.90,0:08:25.02,*Default,NTP,0,0,0,,为此曾心跳不已呢
+Dialogue: 0,0:08:25.23,0:08:25.91,*Default,NTP,0,0,0,,心跳个鬼啦
+Dialogue: 0,0:08:30.12,0:08:31.31,*Default,NTP,0,0,0,,什么? 刚走?
+Dialogue: 0,0:08:32.00,0:08:33.51,*Default,NTP,0,0,0,,您确定她真是背着棺材吗
+Dialogue: 0,0:08:33.81,0:08:35.65,*Default,NTP,0,0,0,,芷依塔 应该还没走远
+Dialogue: 0,0:08:36.27,0:08:37.21,*Default,NTP,0,0,0,,谢谢您
+Dialogue: 0,0:08:40.92,0:08:41.70,*Default,NTP,0,0,0,,薇薇 那里
+Dialogue: 0,0:08:46.89,0:08:47.56,*Default,NTP,0,0,0,,站住
+Dialogue: 0,0:08:50.88,0:08:52.48,*Default,NTP,0,0,0,,对不起 我们认错人了
+Dialogue: 0,0:08:53.05,0:08:54.66,*Default,NTP,0,0,0,,那他们在哪儿? 哪边?
+Dialogue: 0,0:08:55.13,0:08:56.14,*Default,NTP,0,0,0,,到底去哪儿了?
+Dialogue: 0,0:08:57.84,0:08:58.69,*Default,NTP,0,0,0,,那个乱破师
+Dialogue: 0,0:08:59.55,0:09:01.55,*Default,NTP,0,0,0,,我无论如何也要抓住他
+Dialogue: 0,0:09:01.92,0:09:03.93,*Default,NTP,0,0,0,,稍微冷静点啦 薇薇
+Dialogue: 0,0:09:04.39,0:09:07.28,*Default,NTP,0,0,0,,那家伙竟不听好意劝告 故意和基烈特大人作对
+Dialogue: 0,0:09:07.36,0:09:08.42,*Default,NTP,0,0,0,,绝对不可原谅
+Dialogue: 0,0:09:11.21,0:09:12.36,*Default,NTP,0,0,0,,是因为这个啊
+Dialogue: 0,0:09:13.35,0:09:14.87,*Default,NTP,0,0,0,,什 什么啊 芷依塔
+Dialogue: 0,0:09:17.88,0:09:18.87,*Default,NTP,0,0,0,,那机车…
+Dialogue: 0,0:09:23.07,0:09:25.11,*Default,NTP,0,0,0,,可恶 这么快就被追上了
+Dialogue: 0,0:09:25.56,0:09:27.96,*Default,NTP,0,0,0,,干脆抢辆车逃跑?
+Dialogue: 0,0:09:28.25,0:09:30.56,*Default,NTP,0,0,0,,不 最好不要在这引起骚乱
+Dialogue: 0,0:09:31.10,0:09:32.62,*Default,NTP,0,0,0,,只能赶紧出城了
+Dialogue: 0,0:09:33.08,0:09:33.60,*Default,NTP,0,0,0,,你们好
+Dialogue: 0,0:09:41.40,0:09:41.95,*Default,NTP,0,0,0,,怎可能
+Dialogue: 0,0:09:42.53,0:09:44.02,*Default,NTP,0,0,0,,那是我的台词呀
+Dialogue: 0,0:09:44.63,0:09:48.48,*Default,NTP,0,0,0,,才刚见面就砍我 是察觉到了什么吗
+Dialogue: 0,0:09:48.97,0:09:52.36,*Default,NTP,0,0,0,,若是如此 她也算捡到了个不错的宝贝啊
+Dialogue: 0,0:09:52.92,0:09:54.29,*Default,NTP,0,0,0,,再度 情报 感谢
+Dialogue: 0,0:10:04.32,0:10:05.11,*Default,NTP,0,0,0,,你认识他吗
+Dialogue: 0,0:10:05.90,0:10:07.73,*Default,NTP,0,0,0,,遗体 情报 提供者
+Dialogue: 0,0:10:08.67,0:10:10.62,*Default,NTP,0,0,0,,哦 就是这家伙…
+Dialogue: 0,0:10:12.70,0:10:13.76,*Default,NTP,0,0,0,,你是谁?
+Dialogue: 0,0:10:14.68,0:10:17.42,*Default,NTP,0,0,0,,我给不出可令你满意的答覆
+Dialogue: 0,0:10:18.87,0:10:21.55,*Default,NTP,0,0,0,,但连个名字都没有 确实不太方便
+Dialogue: 0,0:10:21.90,0:10:23.11,*Default,NTP,0,0,0,,就叫我奇伊吧
+Dialogue: 0,0:10:24.11,0:10:27.18,*Default,NTP,0,0,0,,我算是嘉依卡·贾兹的协助者
+Dialogue: 0,0:10:28.17,0:10:29.92,*Default,NTP,0,0,0,,是贾兹皇帝的信奉者吗
+Dialogue: 0,0:10:30.31,0:10:31.12,*Default,NTP,0,0,0,,否定
+Dialogue: 0,0:10:31.67,0:10:35.74,*Default,NTP,0,0,0,,我只是帮助她收集遗体罢了
+Dialogue: 0,0:10:36.24,0:10:36.98,*Default,NTP,0,0,0,,帮助?
+Dialogue: 0,0:10:37.69,0:10:41.26,*Default,NTP,0,0,0,,我能做的只有提供情报
+Dialogue: 0,0:10:42.00,0:10:44.99,*Default,NTP,0,0,0,,你这么可疑 要我如何信你?
+Dialogue: 0,0:10:45.55,0:10:46.77,*Default,NTP,0,0,0,,作为证据
+Dialogue: 0,0:10:47.55,0:10:50.58,*Default,NTP,0,0,0,,那棺材里手腕持有者的情报
+Dialogue: 0,0:10:51.13,0:10:53.06,*Default,NTP,0,0,0,,便是我带给她的
+Dialogue: 0,0:10:54.01,0:10:54.69,*Default,NTP,0,0,0,,是这样吗
+Dialogue: 0,0:10:55.06,0:10:55.70,*Default,NTP,0,0,0,,肯定
+Dialogue: 0,0:10:56.06,0:10:56.54,*Default,NTP,0,0,0,,当然
+Dialogue: 0,0:10:56.93,0:10:59.24,*Default,NTP,0,0,0,,是否相信我 这是你的自由
+Dialogue: 0,0:11:00.85,0:11:03.95,*Default,NTP,0,0,0,,你们…没有车 很不方便吧?
+Dialogue: 0,0:11:05.01,0:11:06.12,*Default,NTP,0,0,0,,车辆 需求
+Dialogue: 0,0:11:06.78,0:11:08.83,*Default,NTP,0,0,0,,那我现在就提供你们情报吧
+Dialogue: 0,0:11:09.38,0:11:12.46,*Default,NTP,0,0,0,,出城向南不远处有个森林
+Dialogue: 0,0:11:13.30,0:11:15.17,*Default,NTP,0,0,0,,森林深处有一口小泉
+Dialogue: 0,0:11:15.87,0:11:18.25,*Default,NTP,0,0,0,,水边舍弃着几辆机车
+Dialogue: 0,0:11:19.52,0:11:21.94,*Default,NTP,0,0,0,,因为这一带以前曾打过一场大仗
+Dialogue: 0,0:11:23.14,0:11:24.26,*Default,NTP,0,0,0,,另外还有一件事
+Dialogue: 0,0:11:24.75,0:11:26.78,*Default,NTP,0,0,0,,持有贾兹皇帝遗体的英雄
+Dialogue: 0,0:11:27.15,0:11:30.13,*Default,NTP,0,0,0,,就在离这车行半日的森林里
+Dialogue: 0,0:11:30.60,0:11:32.19,*Default,NTP,0,0,0,,名字叫多明妮卡·斯考达
+Dialogue: 0,0:11:32.58,0:11:33.65,*Default,NTP,0,0,0,,此地的领主
+Dialogue: 0,0:11:34.29,0:11:35.56,*Default,NTP,0,0,0,,是龙骑士吗
+Dialogue: 0,0:11:35.91,0:11:37.73,*Default,NTP,0,0,0,,用自己的眼睛确认吧
+Dialogue: 0,0:11:40.28,0:11:41.01,*Default,NTP,0,0,0,,这是什么把戏?
+Dialogue: 0,0:11:42.59,0:11:43.35,*Default,NTP,0,0,0,,看不穿
+Dialogue: 0,0:11:46.94,0:11:47.61,*Default,NTP,0,0,0,,谢谢
+Dialogue: 0,0:11:51.58,0:11:54.30,*Default,NTP,0,0,0,,那个奇伊说的话真能信任吗
+Dialogue: 0,0:11:54.64,0:11:55.79,*Default,NTP,0,0,0,,骗子 不是
+Dialogue: 0,0:11:56.23,0:11:58.59,*Default,NTP,0,0,0,,但机车要靠魔法才能驱动
+Dialogue: 0,0:11:59.25,0:12:00.86,*Default,NTP,0,0,0,,我和阿卡莉无法驾驶
+Dialogue: 0,0:12:01.57,0:12:03.06,*Default,NTP,0,0,0,,你能行吗
+Dialogue: 0,0:12:03.47,0:12:04.35,*Default,NTP,0,0,0,,没问题
+Dialogue: 0,0:12:10.56,0:12:11.17,*Default,NTP,0,0,0,,存在
+Dialogue: 0,0:12:11.89,0:12:13.11,*Default,NTP,0,0,0,,机车存在
+Dialogue: 0,0:12:28.11,0:12:29.17,*Default,NTP,0,0,0,,运作 可以
+Dialogue: 0,0:12:29.55,0:12:30.34,*Default,NTP,0,0,0,,收获
+Dialogue: 0,0:12:30.88,0:12:32.87,*Default,NTP,0,0,0,,看来他没说谎
+Dialogue: 0,0:12:34.23,0:12:34.90,*Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:12:37.06,0:12:37.92,*Default,NTP,0,0,0,,清扫 需要
+Dialogue: 0,0:12:39.38,0:12:40.81,*Default,NTP,0,0,0,,零件交换 需要
+Dialogue: 0,0:13:00.81,0:13:01.66,*Default,NTP,0,0,0,,这样就好
+Dialogue: 0,0:13:04.96,0:13:06.32,*Default,NTP,0,0,0,,已经能动了啊
+Dialogue: 0,0:13:17.16,0:13:18.94,*Default,NTP,0,0,0,,试驾 良好
+Dialogue: 0,0:13:23.61,0:13:27.16,*Default,NTP,0,0,0,,Aimul Iai Delza Tolg Ilug
+Dialogue: 0,0:13:27.56,0:13:29.11,*Default,NTP,0,0,0,,Fifa Axom
+Dialogue: 0,0:13:29.42,0:13:30.53,*Default,NTP,0,0,0,,{\fs43\shad0\pos(640,660)}Eksebs Les
+Dialogue: 0,0:13:30.00,0:13:31.48,*Default,NTP,0,0,0,,不能老实点用篝火烧吗
+Dialogue: 0,0:13:32.31,0:13:33.89,*Default,NTP,0,0,0,,呐 这有锅
+Dialogue: 0,0:13:34.35,0:13:36.22,*Default,NTP,0,0,0,,烹调 魔法 短时间
+Dialogue: 0,0:13:36.79,0:13:37.72,*Default,NTP,0,0,0,,沸腾吧
+Dialogue: 0,0:13:38.03,0:13:38.90,*Default,NTP,0,0,0,,The Boiler
+Dialogue: 0,0:13:46.74,0:13:48.02,*Default,NTP,0,0,0,,好一朵美丽的肉片花
+Dialogue: 0,0:13:53.55,0:13:57.39,*Default,NTP,0,0,0,,好了 边吃边听我说吧
+Dialogue: 0,0:13:59.02,0:14:00.21,*Default,NTP,0,0,0,,关于收集遗体
+Dialogue: 0,0:14:00.86,0:14:02.47,*Default,NTP,0,0,0,,我想决定下以后的方针
+Dialogue: 0,0:14:05.49,0:14:06.05,*Default,NTP,0,0,0,,怎么了?
+Dialogue: 0,0:14:06.95,0:14:08.57,*Default,NTP,0,0,0,,兄长…出面主持!
+Dialogue: 0,0:14:09.00,0:14:11.32,*Default,NTP,0,0,0,,雇主靠不住 我是事出无奈啊
+Dialogue: 0,0:14:12.89,0:14:13.95,*Default,NTP,0,0,0,,说的就是你
+Dialogue: 0,0:14:15.30,0:14:16.47,*Default,NTP,0,0,0,,接下来去找那个奇伊说的
+Dialogue: 0,0:14:16.88,0:14:19.73,*Default,NTP,0,0,0,,多明妮卡·斯考达进行遗体交涉
+Dialogue: 0,0:14:20.95,0:14:21.83,*Default,NTP,0,0,0,,我好感动
+Dialogue: 0,0:14:21.98,0:14:22.38,*Default,NTP,0,0,0,,什么啊?
+Dialogue: 0,0:14:22.85,0:14:23.69,*Default,NTP,0,0,0,,都多少年了
+Dialogue: 0,0:14:24.44,0:14:26.71,*Default,NTP,0,0,0,,不 或许这还是头一次?
+Dialogue: 0,0:14:27.29,0:14:29.94,*Default,NTP,0,0,0,,听到兄长 充满干劲的发言
+Dialogue: 0,0:14:30.41,0:14:32.57,*Default,NTP,0,0,0,,为什么我一点也不觉得被夸奖了
+Dialogue: 0,0:14:32.85,0:14:35.61,*Default,NTP,0,0,0,,英雄 遗体持有 可能性大
+Dialogue: 0,0:14:36.84,0:14:37.56,*Default,NTP,0,0,0,,话虽如此
+Dialogue: 0,0:14:38.10,0:14:41.64,*Default,NTP,0,0,0,,既然是龙骑士 身边应该会有装铠龙吧
+Dialogue: 0,0:14:42.62,0:14:44.44,*Default,NTP,0,0,0,,那可是大大的不妙
+Dialogue: 0,0:14:46.56,0:14:48.07,*Default,NTP,0,0,0,,即是说 就算勇武如兄长
+Dialogue: 0,0:14:48.17,0:14:50.59,*Default,NTP,0,0,0,,被制成标本的可能性也很大呀
+Dialogue: 0,0:14:52.66,0:14:54.59,*Default,NTP,0,0,0,,装铠龙的传闻我有听过一点
+Dialogue: 0,0:14:55.33,0:14:57.73,*Default,NTP,0,0,0,,貌似是帮相当凶恶狡猾的家伙
+Dialogue: 0,0:14:58.73,0:14:59.57,*Default,NTP,0,0,0,,有这样一个故事
+Dialogue: 0,0:15:00.57,0:15:02.00,*Default,NTP,0,0,0,,事情发生在探险家和他的同伴们
+Dialogue: 0,0:15:02.53,0:15:05.99,*Default,NTP,0,0,0,,正用小舟从湖中滑进钟乳洞之时
+Dialogue: 0,0:15:06.88,0:15:09.85,*Default,NTP,0,0,0,,此刻 突然传来一阵「呼~呼~」的奇怪声响
+Dialogue: 0,0:15:10.95,0:15:12.29,*Default,NTP,0,0,0,,大家感到非常害怕
+Dialogue: 0,0:15:12.81,0:15:16.24,*Default,NTP,0,0,0,,唯有靠队长「只是风声」的言语壮胆
+Dialogue: 0,0:15:17.09,0:15:19.86,*Default,NTP,0,0,0,,然而 那不过是自欺欺人
+Dialogue: 0,0:15:20.66,0:15:22.19,*Default,NTP,0,0,0,,因为 那个钟乳洞…
+Dialogue: 0,0:15:24.88,0:15:26.46,*Default,NTP,0,0,0,,就是装铠龙的嘴里
+Dialogue: 0,0:15:28.13,0:15:32.18,*Default,NTP,0,0,0,,「呼~呼~」的声音 事实上是龙的鼻息
+Dialogue: 0,0:15:33.86,0:15:35.24,*Default,NTP,0,0,0,,另外还有这样一个故事
+Dialogue: 0,0:15:36.38,0:15:37.72,*Default,NTP,0,0,0,,探视湖泊时
+Dialogue: 0,0:15:38.44,0:15:40.90,*Default,NTP,0,0,0,,湖泊突然开始剧烈荡漾
+Dialogue: 0,0:15:42.80,0:15:44.97,*Default,NTP,0,0,0,,结果从水里冒出装铠龙来
+Dialogue: 0,0:15:45.60,0:15:47.75,*Default,NTP,0,0,0,,把船一口吞下…
+Dialogue: 0,0:15:48.55,0:15:51.14,*Default,NTP,0,0,0,,然后咯吱 咯吱 咯吱
+Dialogue: 0,0:15:52.33,0:15:54.31,*Default,NTP,0,0,0,,吃了个一干二净
+Dialogue: 0,0:15:54.70,0:15:55.68,*Default,NTP,0,0,0,,阿卡莉 别说了
+Dialogue: 0,0:15:55.94,0:15:57.06,*Default,NTP,0,0,0,,托鲁 会害怕
+Dialogue: 0,0:15:57.64,0:15:58.93,*Default,NTP,0,0,0,,别拿我当挡箭牌
+Dialogue: 0,0:16:01.17,0:16:04.84,*Default,NTP,0,0,0,,不知若我们求她让出遗体 她会不会乖乖给啊
+Dialogue: 0,0:16:06.99,0:16:07.89,*Default,NTP,0,0,0,,我还听到个传闻
+Dialogue: 0,0:16:08.45,0:16:10.31,*Default,NTP,0,0,0,,据说装铠龙晚上会睡觉
+Dialogue: 0,0:16:11.33,0:16:14.56,*Default,NTP,0,0,0,,要和领主交涉 最好选晚上吧
+Dialogue: 0,0:16:15.40,0:16:18.84,*Default,NTP,0,0,0,,那么 吃完饭赶紧出发比较好
+Dialogue: 0,0:16:22.25,0:16:26.71,*Default,NTP,0,0,0,,经各处询问 得知街上曾出现三人身影
+Dialogue: 0,0:16:27.51,0:16:29.71,*Default,NTP,0,0,0,,但没有发现他们留宿市内旅店
+Dialogue: 0,0:16:30.25,0:16:32.68,*Default,NTP,0,0,0,,及获取车辆的痕迹
+Dialogue: 0,0:16:33.13,0:16:36.21,*Default,NTP,0,0,0,,可进入森林 也只是死路一条
+Dialogue: 0,0:16:37.70,0:16:38.86,*Default,NTP,0,0,0,,还是抓不到线索
+Dialogue: 0,0:16:40.44,0:16:42.94,*Default,NTP,0,0,0,,关于这点 这个也是
+Dialogue: 0,0:16:43.72,0:16:46.07,*Default,NTP,0,0,0,,这是本部发来的嘉依卡相关资料吗
+Dialogue: 0,0:16:46.59,0:16:47.11,*Default,NTP,0,0,0,,嗯
+Dialogue: 0,0:16:47.76,0:16:49.49,*Default,NTP,0,0,0,,但情报少得惊人
+Dialogue: 0,0:16:50.60,0:16:54.05,*Default,NTP,0,0,0,,什么至今抓到的嘉依卡 全都缺乏可信度
+Dialogue: 0,0:16:54.91,0:16:56.72,*Default,NTP,0,0,0,,以及其他小队抓获的嘉依卡中
+Dialogue: 0,0:16:57.49,0:17:00.62,*Default,NTP,0,0,0,,曾有畏惧审讯自绝性命的人
+Dialogue: 0,0:17:01.47,0:17:02.53,*Default,NTP,0,0,0,,就这点情报
+Dialogue: 0,0:17:03.04,0:17:07.40,*Default,NTP,0,0,0,,而我们也曾经抓到过两名近似欺诈师的假嘉依卡
+Dialogue: 0,0:17:08.04,0:17:12.14,*Default,NTP,0,0,0,,也就是说 至今抓到的嘉依卡中没有真身吗
+Dialogue: 0,0:17:12.80,0:17:15.29,*Default,NTP,0,0,0,,感觉不明之处 实在太多了呀
+Dialogue: 0,0:17:15.61,0:17:16.22,*Default,NTP,0,0,0,,我同意
+Dialogue: 0,0:17:16.61,0:17:17.25,*Default,NTP,0,0,0,,我说…
+Dialogue: 0,0:17:18.11,0:17:20.50,*Default,NTP,0,0,0,,对于嘉依卡这个存在本身
+Dialogue: 0,0:17:20.78,0:17:23.48,*Default,NTP,0,0,0,,我感觉我们好像弄错了什么
+Dialogue: 0,0:17:23.88,0:17:24.59,*Default,NTP,0,0,0,,弄错?
+Dialogue: 0,0:17:24.93,0:17:25.42,*Default,NTP,0,0,0,,是的
+Dialogue: 0,0:17:25.86,0:17:30.99,*Default,NTP,0,0,0,,我们受机关的命令 捕获嘉依卡和回收皇帝遗体
+Dialogue: 0,0:17:31.54,0:17:35.99,*Default,NTP,0,0,0,,但「嘉依卡收集魔王遗体会招来灾祸」这个理由
+Dialogue: 0,0:17:36.23,0:17:38.10,*Default,NTP,0,0,0,,是不是也太抽象了?
+Dialogue: 0,0:17:38.75,0:17:42.25,*Default,NTP,0,0,0,,可是 据说活了超过五百年的魔王的遗体
+Dialogue: 0,0:17:42.58,0:17:45.19,*Default,NTP,0,0,0,,的确可作为强力的魔法思念料
+Dialogue: 0,0:17:46.20,0:17:48.02,*Default,NTP,0,0,0,,是不希望那些被恶用吧?
+Dialogue: 0,0:17:48.39,0:17:52.79,*Default,NTP,0,0,0,,但实际把魔法思念料当作武器使用的组织
+Dialogue: 0,0:17:53.27,0:17:55.00,*Default,NTP,0,0,0,,真的存在吗
+Dialogue: 0,0:17:55.55,0:17:56.36,*Default,NTP,0,0,0,,比起这个…
+Dialogue: 0,0:17:56.93,0:17:59.72,*Default,NTP,0,0,0,,我对另一个 更根本的地方感到疑惑
+Dialogue: 0,0:18:00.50,0:18:01.09,*Default,NTP,0,0,0,,什么?
+Dialogue: 0,0:18:01.87,0:18:04.97,*Default,NTP,0,0,0,,皇帝 真的有女儿吗
+Dialogue: 0,0:18:14.08,0:18:16.05,*Default,NTP,0,0,0,,没问题吧? 你注意点啊
+Dialogue: 0,0:18:16.91,0:18:17.98,*Default,NTP,0,0,0,,放心 放心
+Dialogue: 0,0:18:20.71,0:18:22.01,*Default,NTP,0,0,0,,托鲁 感谢
+Dialogue: 0,0:18:23.38,0:18:26.09,*Default,NTP,0,0,0,,下个目标 同行前往 深深感谢
+Dialogue: 0,0:18:26.09,0:18:26.72,*Default,NTP,0,0,0,,危险
+Dialogue: 0,0:18:31.51,0:18:33.36,*Default,NTP,0,0,0,,往别处看 驾驶 禁止
+Dialogue: 0,0:18:35.54,0:18:38.00,*Default,NTP,0,0,0,,真亏你一个人能活到现在
+Dialogue: 0,0:18:38.70,0:18:40.24,*Default,NTP,0,0,0,,没遇到 什么不方便
+Dialogue: 0,0:18:41.63,0:18:44.88,*Default,NTP,0,0,0,,喂 你收集父亲遗体
+Dialogue: 0,0:18:45.51,0:18:47.47,*Default,NTP,0,0,0,,就意味着成为帝国残党的头目
+Dialogue: 0,0:18:48.13,0:18:51.43,*Default,NTP,0,0,0,,并且要被那个基烈特追捕 是吧
+Dialogue: 0,0:18:53.18,0:18:54.93,*Default,NTP,0,0,0,,白天遇到的那个奇伊
+Dialogue: 0,0:18:55.33,0:18:57.13,*Default,NTP,0,0,0,,也是不知在打什么算盘
+Dialogue: 0,0:18:58.17,0:19:02.21,*Default,NTP,0,0,0,,你其实至今处境挺惨的吧
+Dialogue: 0,0:19:03.43,0:19:06.53,*Default,NTP,0,0,0,,你究竟是怎么从贾兹帝国逃过来的?
+Dialogue: 0,0:19:07.42,0:19:09.41,*Default,NTP,0,0,0,,从里面逃出来 应该很困难吧?
+Dialogue: 0,0:19:10.75,0:19:12.24,*Default,NTP,0,0,0,,一开始就在 国外
+Dialogue: 0,0:19:13.07,0:19:15.50,*Default,NTP,0,0,0,,也就是说 终战时你已在外地?
+Dialogue: 0,0:19:16.24,0:19:16.88,*Default,NTP,0,0,0,,肯定
+Dialogue: 0,0:19:17.14,0:19:19.92,*Default,NTP,0,0,0,,独自一人? 就没个随从吗
+Dialogue: 0,0:19:21.31,0:19:22.72,*Default,NTP,0,0,0,,一人 最初就是
+Dialogue: 0,0:19:24.69,0:19:26.98,*Default,NTP,0,0,0,,察觉时 已经结束
+Dialogue: 0,0:19:27.68,0:19:29.09,*Default,NTP,0,0,0,,父亲 死了
+Dialogue: 0,0:19:29.69,0:19:32.54,*Default,NTP,0,0,0,,你难道 不记得当时的事情了?
+Dialogue: 0,0:19:33.13,0:19:33.73,*Default,NTP,0,0,0,,肯定
+Dialogue: 0,0:19:34.21,0:19:35.37,*Default,NTP,0,0,0,,记忆 缺落
+Dialogue: 0,0:19:35.75,0:19:37.97,*Default,NTP,0,0,0,,缺落 丧失了中间的记忆?
+Dialogue: 0,0:19:38.65,0:19:42.69,*Default,NTP,0,0,0,,有战前记忆 终战后的模糊
+Dialogue: 0,0:19:43.48,0:19:46.56,*Default,NTP,0,0,0,,鲜明记忆 只有过去一年
+Dialogue: 0,0:19:47.32,0:19:48.74,*Default,NTP,0,0,0,,原来这么回事…
+Dialogue: 0,0:19:49.59,0:19:51.06,*Default,NTP,0,0,0,,为隐瞒 道歉
+Dialogue: 0,0:19:51.74,0:19:53.69,*Default,NTP,0,0,0,,时机 错失 说明
+Dialogue: 0,0:19:55.17,0:19:56.54,*Default,NTP,0,0,0,,真是复杂
+Dialogue: 0,0:19:59.34,0:19:59.80,*Default,NTP,0,0,0,,兄长
+Dialogue: 0,0:20:00.83,0:20:01.41,*Default,NTP,0,0,0,,我知道
+Dialogue: 0,0:20:02.08,0:20:03.38,*Default,NTP,0,0,0,,刚才我忘说了
+Dialogue: 0,0:20:03.92,0:20:05.30,*Default,NTP,0,0,0,,这一带遇难者频出
+Dialogue: 0,0:20:06.10,0:20:08.97,*Default,NTP,0,0,0,,连本地人都很少涉足
+Dialogue: 0,0:20:09.58,0:20:11.99,*Default,NTP,0,0,0,,嗯 大家都是被这帮家伙干掉了吧
+Dialogue: 0,0:20:12.72,0:20:13.89,*Default,NTP,0,0,0,,你不能早点提醒吗
+Dialogue: 0,0:20:14.67,0:20:15.15,*Default,NTP,0,0,0,,狗狗?
+Dialogue: 0,0:20:15.75,0:20:17.28,*Default,NTP,0,0,0,,不是普通的狗 是双头犬
+Dialogue: 0,0:20:17.69,0:20:18.24,*Default,NTP,0,0,0,,弃兽
+Dialogue: 0,0:20:20.32,0:20:22.57,*Default,NTP,0,0,0,,单独行动倒没什么可怕
+Dialogue: 0,0:20:23.13,0:20:24.36,*Default,NTP,0,0,0,,但数量这么多…
+Dialogue: 0,0:20:25.26,0:20:26.54,*Default,NTP,0,0,0,,嘉依卡 数五下
+Dialogue: 0,0:20:27.80,0:20:29.32,*Default,NTP,0,0,0,,数时尽量加速
+Dialogue: 0,0:20:29.87,0:20:31.34,*Default,NTP,0,0,0,,数完把连接缆断开
+Dialogue: 0,0:20:32.02,0:20:34.72,*Default,NTP,0,0,0,,不然连你也要吃雷击
+Dialogue: 0,0:20:38.23,0:20:41.97,*Default,NTP,0,0,0,,一 二 三 四
+Dialogue: 0,0:20:42.50,0:20:43.01,*Default,NTP,0,0,0,,五
+Dialogue: 0,0:20:46.32,0:20:47.68,*Default,NTP,0,0,0,,阿卡莉 嘉依卡拜托你了
+Dialogue: 0,0:20:57.26,0:20:59.11,*Default,NTP,0,0,0,,看到没 退远点 退远点
+Dialogue: 0,0:21:01.18,0:21:01.73,*Default,NTP,0,0,0,,托鲁
+Dialogue: 0,0:21:02.05,0:21:03.37,*Default,NTP,0,0,0,,快走 不要管我
+Dialogue: 0,0:21:25.11,0:21:25.87,*Default,NTP,0,0,0,,不妙啊
+Dialogue: 0,0:21:45.94,0:21:47.26,*Default,NTP,0,0,0,,快滚 狗崽子们
+Dialogue: 0,0:23:26.83,0:23:29.56,*Default,NTP,0,0,0,,英雄多明妮卡 像是看破红尘的隐士
+Dialogue: 0,0:23:30.12,0:23:32.18,*Default,NTP,0,0,0,,讨伐贾兹皇帝 是否有参与?
+Dialogue: 0,0:23:33.04,0:23:34.58,*Default,NTP,0,0,0,,装铠龙不在 是好机会
+Dialogue: 0,0:23:35.14,0:23:36.06,*Default,NTP,0,0,0,,还是陷阱?
+Dialogue: 0,0:23:37.20,0:23:39.84,*Default,NTP,0,0,0,,下周 第四集 「装铠龙的愿望」
+
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,// Staff
+Dialogue: 0,0:02:34.50,0:02:38.50,Staff,NTP,0,0,0,,{\an8\fs32\shad0\c&HFEFFFF&\3c&H252729&\fsp-2\fad(200,200)}「WLGO动漫」 本字幕由W-ZONE字幕组制作 仅供交流试看 有爱请支持正版 www.wlgo.com\N长期招募日语翻译、时间、特效、后期等人员 有意请加QQ群：254174155
+Dialogue: 0,0:02:39.16,0:02:43.50,Staff,NTP,0,0,0,,{\an8\fs32\fsp0\shad0\c&HFEFFFF&\3c&H252729&\fad(200,200)}翻译:FST\n\n\n\n时间:nolicier\n\n\n\n特效:BBA\n\n\n\n后期:果果
+
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,// OPEDC
+Dialogue: 0,0:00:01.73,0:00:06.69,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}我们不要被条框锁住的自由
+Dialogue: 0,0:00:07.14,0:00:11.37,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}即使是拼凑的时光又怎样
+Dialogue: 0,0:00:24.36,0:00:29.87,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}有了像今天这样的日子才叫生活
+Dialogue: 0,0:00:30.07,0:00:33.52,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}我相信 我相信
+Dialogue: 0,0:00:35.29,0:00:40.49,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}有了你就能一起踏过所有的困难
+Dialogue: 0,0:00:40.94,0:00:44.51,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}我相信 我相信
+Dialogue: 0,0:00:45.84,0:00:49.43,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}恋爱笨蛋 看不清眼前
+Dialogue: 0,0:00:49.79,0:00:53.61,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}束手无策 在这深夜里
+Dialogue: 0,0:00:53.91,0:00:57.61,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}走投无路 遵守着约定
+Dialogue: 0,0:00:57.94,0:01:03.20,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}在自己镜中留下投影
+Dialogue: 0,0:01:04.99,0:01:10.04,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}我们不要被条框锁住的自由
+Dialogue: 0,0:01:10.41,0:01:14.66,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}即使是拼凑的时光又怎样
+Dialogue: 0,0:01:14.98,0:01:21.05,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}向左向右都通向告别 这种答案毫无意义
+Dialogue: 0,0:01:21.22,0:01:26.23,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}我只会继续前进
+Dialogue: 0,0:01:26.74,0:01:29.85,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}直到遇见你
+Dialogue: 0,0:21:56.35,0:22:00.87,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}看看地狱之底
+Dialogue: 0,0:22:01.08,0:22:08.44,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}小心别堕落下去 我的同胞
+Dialogue: 0,0:22:19.39,0:22:23.72,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}行尸走肉般走过的路
+Dialogue: 0,0:22:24.16,0:22:29.23,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}头顶的阳光分外刺眼
+Dialogue: 0,0:22:30.34,0:22:34.44,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}不知何时你已经沦落
+Dialogue: 0,0:22:34.85,0:22:40.15,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}连自己名字也都遗忘
+Dialogue: 0,0:22:41.10,0:22:44.36,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}究竟人类 为何而活
+Dialogue: 0,0:22:44.81,0:22:48.03,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}哪怕生命 流逝消磨
+Dialogue: 0,0:22:48.59,0:22:51.94,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}这无尽的烦恼
+Dialogue: 0,0:22:52.71,0:22:56.65,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}不如随之起舞
+Dialogue: 0,0:22:56.86,0:22:57.64,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}无常之花
+Dialogue: 0,0:22:59.58,0:23:09.06,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}从寸草不生的山谷向上攀爬 听风带来山林的回响
+Dialogue: 0,0:23:09.42,0:23:14.79,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}请看 指引我们的快乐
+Dialogue: 0,0:23:15.18,0:23:19.91,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}就是斩断悲哀的原理
+Dialogue: 0,0:23:20.59,0:23:24.52,OPEDC,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}别害怕 别颤抖 活下去
+
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,// OPEDJ
+Dialogue: 0,0:00:01.73,0:00:06.69,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}がんじがらめの自由なんて僕たちはいらない
+Dialogue: 0,0:00:07.14,0:00:11.37,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}つぎはぎだらけな中で
+Dialogue: 0,0:00:24.36,0:00:29.87,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}今日みたいな日があるから　生きていけるんだよね
+Dialogue: 0,0:00:30.07,0:00:33.52,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}って思う　って思う
+Dialogue: 0,0:00:35.29,0:00:40.49,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}君って人がいるから　越えていけるんだよね
+Dialogue: 0,0:00:40.94,0:00:44.51,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}って思う　って思う
+Dialogue: 0,0:00:45.84,0:00:49.43,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}愛の馬鹿　視界不良
+Dialogue: 0,0:00:49.79,0:00:53.61,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}どうしろって言うんだ　この夜に
+Dialogue: 0,0:00:53.91,0:00:57.61,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}行き止まり　で指切り
+Dialogue: 0,0:00:57.94,0:01:03.20,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}自分の鏡に　映し出せよ
+Dialogue: 0,0:01:04.99,0:01:10.04,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}がんじがらめの自由なんて僕たちはいらない
+Dialogue: 0,0:01:10.41,0:01:14.66,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}つぎはぎだらけな中で
+Dialogue: 0,0:01:14.98,0:01:21.05,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}さよならだけしか見つけられない答えなんてつまらない
+Dialogue: 0,0:01:21.22,0:01:26.23,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}会えるまで
+Dialogue: 0,0:01:26.74,0:01:29.85,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}探すから
+Dialogue: 0,0:21:56.35,0:22:00.87,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}地獄の底まで覗きこめ
+Dialogue: 0,0:22:01.08,0:22:08.44,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}腐敗ちて行くな　同胞
+Dialogue: 0,0:22:19.39,0:22:23.72,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}死体みたいに歩く道
+Dialogue: 0,0:22:24.16,0:22:29.23,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}ギラギラと太陽が照りつける
+Dialogue: 0,0:22:30.34,0:22:34.44,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}おまえは何時か名前さえ
+Dialogue: 0,0:22:34.85,0:22:40.15,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}分からなくなるくらい堕ちてゆく
+Dialogue: 0,0:22:41.10,0:22:44.36,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}人は　何故生きるのか
+Dialogue: 0,0:22:44.81,0:22:48.03,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}生命　切り刻んでも
+Dialogue: 0,0:22:48.59,0:22:51.94,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}終わりなき煩悩
+Dialogue: 0,0:22:52.71,0:22:56.65,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}抱いて踊れば
+Dialogue: 0,0:22:56.86,0:22:57.64,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}無常花
+Dialogue: 0,0:22:59.58,0:23:09.06,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}渇きの谷から攀じ登れ　風の音が木霊して
+Dialogue: 0,0:23:09.42,0:23:14.79,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}ご覧　我らを導く快楽は
+Dialogue: 0,0:23:15.18,0:23:19.91,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}悲しみを突っ切っていく原理
+Dialogue: 0,0:23:20.59,0:23:24.52,OPEDJ,NTP,0,0,0,,{\fad(300,300)\blur2\be2\bord2}恐れるな　震えるな　生きるのだ

@@ -1,0 +1,501 @@
+﻿[Script Info]
+Title:SakuraTrick-10
+Original Script:华盟字幕社
+Synch Point:0
+ScriptType: v4.00+
+Collisions:Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: zhengwen,方正准圆_GBK,68,&H00FFFFFF,&H004080FF,&H000F0F0F,&H501F1F1F,-1,0,0,0,100,100,0,0,1,3,1.5,2,23,23,15,134
+Style: zhushi,方正准圆_GBK,60,&H00FFFFFF,&H004080FF,&H000F0F0F,&HF0555555,-1,0,0,0,100,100,0,0,1,3,0,8,23,23,18,134
+Style: zhushi2,方正准圆_GBK,63,&H00FFFFFF,&H004080FF,&H000F0F0F,&H50222222,-1,0,0,0,100,100,0,0,1,3,1.5,2,23,23,15,134
+Style: EDJ,DFHSGothic-W5,50,&H00FFFFFF,&HFF00FFFF,&H008748BA,&H008748BA,-1,0,0,0,100,100,0,0,1,1.5,3,2,23,23,15,1
+Style: EDC,方正黑体_GBK,53,&H00FFFFFF,&H0000FFFF,&H008748BA,&H008748BA,-1,0,0,0,100,100,0,0,1,1.5,3,8,23,23,15,1
+Style: OPJ,DFGMaruGothic-Bd,56,&H00FFFFFF,&HFF00FFFF,&H000080FF,&H000080FF,0,0,0,0,100,100,4.5,0,1,3,0,2,23,23,8,128
+Style: OPC,方正准圆_GBK,60,&H00FFFFFF,&H0000FFFF,&H000080FF,&H000080FF,-1,0,0,0,100,100,4.5,0,1,3,0,8,23,23,8,134
+Style: jinggao,微软雅黑,53,&H00FFFFFF,&H0000FFFF,&H001F1F1F,&H60000000,-1,0,0,0,100,100,0,0,1,1.5,1.5,8,23,23,15,134
+Style: title,方正粗倩_GBK,105,&H008F4EF6,&H004080FF,&H00FFFFFF,&HFF1E79FF,0,0,0,0,100,100,15,0,1,4.5,0,2,23,23,15,134
+Style: title1,方正粗倩_GBK,105,&H00EBC4FF,&HF0000000,&H00EBC4FF,&H00EBC4FF,0,0,0,0,100,100,15,0,1,6,4.5,2,23,23,15,134
+Style: INJP,DFMaruGothic-Md,60,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,1.5,7,45,45,15,1
+Style: INCN,方正准圆_GBK,63,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,3,1.5,7,45,45,15,134
+Style: IN,方正楷体_GBK,33,&H001F1F1F,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,0,0,2,45,45,15,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:30.31,0:01:34.91,zhengwen,NTP,0,0,0,,無論何物  凡細小者皆美
+Dialogue: 0,0:01:36.67,0:01:37.71,zhengwen,NTP,0,0,0,,好冷
+Dialogue: 0,0:01:39.26,0:01:43.01,zhengwen,NTP,0,0,0,,總覺得今天好冷哦  小柚
+Dialogue: 0,0:01:43.05,0:01:45.51,zhengwen,NTP,0,0,0,,春香沒看今天的天氣預報嗎
+Dialogue: 0,0:01:46.98,0:01:47.99,zhengwen,NTP,0,0,0,,下雪了？！
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:01:48.60,0:01:52.09,title1,NTP,0,0,0,,{\pos(960,750)}「下雪的日子跟回憶與衝擊」
+Dialogue: 0,0:01:48.60,0:01:52.09,title,NTP,0,0,0,,{\pos(960,750)}「下雪的日子跟回憶與衝擊」
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:01:53.99,0:01:55.93,zhengwen,NTP,0,0,0,,我們這裡很少下雪的呢
+Dialogue: 0,0:01:56.05,0:01:58.73,zhengwen,NTP,0,0,0,,好少見哦  會不會有積雪呢
+Dialogue: 0,0:01:58.85,0:02:00.64,zhengwen,NTP,0,0,0,,不會啦  很快就會停的吧
+Dialogue: 0,0:02:00.81,0:02:02.44,zhengwen,NTP,0,0,0,,小優還在睡覺吧
+Dialogue: 0,0:02:02.56,0:02:04.46,zhengwen,NTP,0,0,0,,小優  下雪了哦
+Dialogue: 0,0:02:05.54,0:02:08.92,zhengwen,NTP,0,0,0,,還醒著呢  這也是很少見的呢
+Dialogue: 0,0:02:10.71,0:02:13.28,zhengwen,NTP,0,0,0,,知道了  這是正要開始睡的節奏
+Dialogue: 0,0:02:16.59,0:02:19.89,zhengwen,NTP,0,0,0,,小優  到午休時間了哦  下雪了哦
+Dialogue: 0,0:02:20.04,0:02:21.37,zhengwen,NTP,0,0,0,,看看窗外吧
+Dialogue: 0,0:02:24.83,0:02:27.91,zhengwen,NTP,0,0,0,,別睡了  快起來
+Dialogue: 0,0:02:31.66,0:02:32.59,zhengwen,NTP,0,0,0,,吃掉了…！
+Dialogue: 0,0:02:44.97,0:02:47.37,zhengwen,NTP,0,0,0,,幹嘛  你們好吵
+Dialogue: 0,0:02:47.60,0:02:50.16,zhengwen,NTP,0,0,0,,真是的  春香就像小孩子似的
+Dialogue: 0,0:02:50.89,0:02:52.97,zhengwen,NTP,0,0,0,,小優  外面下雪了哦
+Dialogue: 0,0:02:55.85,0:02:57.63,zhengwen,NTP,0,0,0,,人家對下雪才沒興趣呢
+Dialogue: 0,0:02:58.84,0:03:00.63,zhengwen,NTP,0,0,0,,真像大人說的話呢
+Dialogue: 0,0:03:00.85,0:03:02.93,zhengwen,NTP,0,0,0,,這樣不就不能在室外上體育課了
+Dialogue: 0,0:03:03.28,0:03:04.53,zhengwen,NTP,0,0,0,,好吧還是個孩子
+Dialogue: 0,0:03:08.17,0:03:10.32,zhengwen,NTP,0,0,0,,我倒是很喜歡呢
+Dialogue: 0,0:03:10.51,0:03:13.82,zhengwen,NTP,0,0,0,,我也喜歡  有種夢幻般的感覺
+Dialogue: 0,0:03:13.92,0:03:16.57,zhengwen,NTP,0,0,0,,也對呢  不愧是小雫
+Dialogue: 0,0:03:18.84,0:03:22.86,zhengwen,NTP,0,0,0,,對了  既然這麼難得  我們去外面吃午飯吧
+Dialogue: 0,0:03:24.25,0:03:26.06,zhengwen,NTP,0,0,0,,小春春你是認真的？
+Dialogue: 0,0:03:26.31,0:03:27.46,zhengwen,NTP,0,0,0,,你再考慮一下
+Dialogue: 0,0:03:27.52,0:03:27.98,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:03:29.61,0:03:31.11,zhengwen,NTP,0,0,0,,我…我也去！
+Dialogue: 0,0:03:31.17,0:03:32.44,zhengwen,NTP,0,0,0,,小雫
+Dialogue: 0,0:03:33.94,0:03:35.79,zhengwen,NTP,0,0,0,,好了  其他人來不來
+Dialogue: 0,0:03:35.85,0:03:37.23,zhengwen,NTP,0,0,0,,不要  太冷了
+Dialogue: 0,0:03:37.25,0:03:38.24,zhengwen,NTP,0,0,0,,不要
+Dialogue: 0,0:03:38.30,0:03:39.12,zhengwen,NTP,0,0,0,,NO
+Dialogue: 0,0:03:39.38,0:03:40.69,zhengwen,NTP,0,0,0,,剩下的還有…
+Dialogue: 0,0:03:44.62,0:03:46.27,zhengwen,NTP,0,0,0,,小楓快說點什麼
+Dialogue: 0,0:03:47.23,0:03:50.77,zhengwen,NTP,0,0,0,,我接下來還要去學生會交接工作  所以不去了
+Dialogue: 0,0:03:51.12,0:03:52.86,zhengwen,NTP,0,0,0,,好像的確有這麼一回事來著
+Dialogue: 0,0:03:52.96,0:03:54.43,zhengwen,NTP,0,0,0,,怎麼這樣…
+Dialogue: 0,0:03:54.55,0:03:58.08,zhengwen,NTP,0,0,0,,三比二  不出門派的勝利
+Dialogue: 0,0:04:01.78,0:04:04.14,zhengwen,NTP,0,0,0,,那就我們自己去吧  小雫
+Dialogue: 0,0:04:05.57,0:04:07.21,zhengwen,NTP,0,0,0,,你們真的去啊
+Dialogue: 0,0:04:09.05,0:04:10.82,zhengwen,NTP,0,0,0,,想要背叛嗎
+Dialogue: 0,0:04:18.88,0:04:21.93,zhengwen,NTP,0,0,0,,雖然很冷  但這感覺很不錯呢
+Dialogue: 0,0:04:22.04,0:04:22.63,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:04:28.12,0:04:30.59,zhengwen,NTP,0,0,0,,沒事吧  要是感冒了就麻煩了
+Dialogue: 0,0:04:31.23,0:04:32.63,zhengwen,NTP,0,0,0,,沒問題的
+Dialogue: 0,0:04:32.82,0:04:35.47,zhengwen,NTP,0,0,0,,我有帶小暖爐  一起用吧
+Dialogue: 0,0:04:35.91,0:04:37.48,zhengwen,NTP,0,0,0,,好暖和哦
+Dialogue: 0,0:04:44.22,0:04:46.24,zhengwen,NTP,0,0,0,,這樣就沒法吃便當了…
+Dialogue: 0,0:04:58.32,0:05:04.31,zhengwen,NTP,0,0,0,,春…春香  我…我覺得我們還是不要勉強自己比較好
+Dialogue: 0,0:05:04.57,0:05:07.10,zhengwen,NTP,0,0,0,,話…話是沒錯…
+Dialogue: 0,0:05:07.33,0:05:08.61,zhengwen,NTP,0,0,0,,我們回去吧
+Dialogue: 0,0:05:10.11,0:05:16.73,zhengwen,NTP,0,0,0,,但是這個景色說不定明年和後年就看不到了
+Dialogue: 0,0:05:19.95,0:05:22.81,zhengwen,NTP,0,0,0,,這大概會成為我們高中裡最後的一場雪景
+Dialogue: 0,0:05:23.41,0:05:25.30,zhengwen,NTP,0,0,0,,我想多看看把它深深記下來
+Dialogue: 0,0:05:28.83,0:05:30.49,zhengwen,NTP,0,0,0,,果然還是不行
+Dialogue: 0,0:05:32.99,0:05:36.48,zhengwen,NTP,0,0,0,,總覺得春香會說一些像琴音一樣的話
+Dialogue: 0,0:05:36.81,0:05:38.30,zhengwen,NTP,0,0,0,,什麼  就剛才那番話？
+Dialogue: 0,0:05:38.40,0:05:40.36,zhengwen,NTP,0,0,0,,嗯  有一點偏執
+Dialogue: 0,0:05:41.25,0:05:44.52,zhengwen,NTP,0,0,0,,你們都說過  因為三年很短  所以想要珍惜每一天
+Dialogue: 0,0:05:47.00,0:05:49.16,zhengwen,NTP,0,0,0,,我也被她說過
+Dialogue: 0,0:05:49.69,0:05:51.10,zhengwen,NTP,0,0,0,,錯過了這次機會的話
+Dialogue: 0,0:05:51.42,0:05:54.74,zhengwen,NTP,0,0,0,,就再也沒機會讓小優辦應援團了
+Dialogue: 0,0:05:56.13,0:05:56.95,zhengwen,NTP,0,0,0,,原來是這樣
+Dialogue: 0,0:05:57.17,0:06:01.69,zhengwen,NTP,0,0,0,,現在我好像能理解為什麼你們都這麼偏執了
+Dialogue: 0,0:06:02.40,0:06:06.03,zhengwen,NTP,0,0,0,,對了  琴音她也是有未婚夫的人
+Dialogue: 0,0:06:07.02,0:06:10.63,zhengwen,NTP,0,0,0,,所以她和小雫的時間是有限的
+Dialogue: 0,0:06:11.16,0:06:14.70,zhengwen,NTP,0,0,0,,所以就算家裡人反對也要住在小雫家裡
+Dialogue: 0,0:06:18.95,0:06:19.73,zhengwen,NTP,0,0,0,,等我一下
+Dialogue: 0,0:06:21.92,0:06:23.03,zhengwen,NTP,0,0,0,,跑了…
+Dialogue: 0,0:06:25.37,0:06:27.85,zhengwen,NTP,0,0,0,,琴音之所以現在要和我在一起
+Dialogue: 0,0:06:28.44,0:06:32.19,zhengwen,NTP,0,0,0,,是因為畢業後我們就不能再在一起
+Dialogue: 0,0:06:33.19,0:06:37.68,zhengwen,NTP,0,0,0,,而我卻不只希望有現在能在一起
+Dialogue: 0,0:06:39.32,0:06:42.56,zhengwen,NTP,0,0,0,,而是就算畢業了  就算畢業之後…
+Dialogue: 0,0:06:44.76,0:06:46.92,zhengwen,NTP,0,0,0,,也想要永遠和你在一起
+Dialogue: 0,0:07:08.21,0:07:10.08,zhengwen,NTP,0,0,0,,小雫  我們去玩雪吧
+Dialogue: 0,0:07:10.72,0:07:11.65,zhengwen,NTP,0,0,0,,一起製造美好的回憶
+Dialogue: 0,0:07:12.69,0:07:14.05,zhengwen,NTP,0,0,0,,這樣等我們都長大了之後
+Dialogue: 0,0:07:14.47,0:07:17.52,zhengwen,NTP,0,0,0,,也能一起回憶我們年輕時做過的事情
+Dialogue: 0,0:07:19.63,0:07:20.31,zhengwen,NTP,0,0,0,,嗯
+Dialogue: 0,0:07:22.80,0:07:24.31,zhengwen,NTP,0,0,0,,冷死啦
+Dialogue: 0,0:07:25.29,0:07:27.35,zhengwen,NTP,0,0,0,,我都說了不要的
+Dialogue: 0,0:07:27.45,0:07:28.92,zhengwen,NTP,0,0,0,,很快就習慣了
+Dialogue: 0,0:07:28.96,0:07:30.70,zhengwen,NTP,0,0,0,,真是的我又不是小孩子了
+Dialogue: 0,0:07:30.87,0:07:33.18,zhengwen,NTP,0,0,0,,我們都已經是高中生了啊
+Dialogue: 0,0:07:34.07,0:07:36.45,zhengwen,NTP,0,0,0,,活該  太遲鈍了
+Dialogue: 0,0:07:44.98,0:07:46.29,zhengwen,NTP,0,0,0,,小優！
+Dialogue: 0,0:07:46.81,0:07:49.29,zhengwen,NTP,0,0,0,,小柚  你也不用這麼較真吧
+Dialogue: 0,0:07:50.04,0:07:52.48,zhengwen,NTP,0,0,0,,誰讓她說我遲鈍啊
+Dialogue: 0,0:07:54.81,0:07:57.52,zhengwen,NTP,0,0,0,,小雫和琴音也吃我大雪球啦
+Dialogue: 0,0:07:57.73,0:08:00.30,zhengwen,NTP,0,0,0,,小優…真是的
+Dialogue: 0,0:08:00.40,0:08:03.96,zhengwen,NTP,0,0,0,,討厭！人家的發圈都被弄濕了
+Dialogue: 0,0:08:05.27,0:08:07.69,zhengwen,NTP,0,0,0,,小雫居然會發出這麼大的聲音
+Dialogue: 0,0:08:15.59,0:08:17.23,zhengwen,NTP,0,0,0,,太弱了
+Dialogue: 0,0:08:19.34,0:08:21.51,zhengwen,NTP,0,0,0,,那就開始吧
+Dialogue: 0,0:08:24.66,0:08:25.60,zhengwen,NTP,0,0,0,,我丟咯
+Dialogue: 0,0:08:25.67,0:08:26.43,zhengwen,NTP,0,0,0,,吃我雪球啦
+Dialogue: 0,0:08:29.13,0:08:30.10,zhengwen,NTP,0,0,0,,小優
+Dialogue: 0,0:08:30.78,0:08:32.45,zhengwen,NTP,0,0,0,,琴音你太過分啦
+Dialogue: 0,0:08:34.52,0:08:35.97,zhengwen,NTP,0,0,0,,看來是優太遲…
+Dialogue: 0,0:08:38.31,0:08:39.37,zhengwen,NTP,0,0,0,,有你的啊
+Dialogue: 0,0:08:41.73,0:08:43.40,zhengwen,NTP,0,0,0,,抓到小柚了
+Dialogue: 0,0:08:43.58,0:08:46.27,zhengwen,NTP,0,0,0,,像大家這樣一起玩耍真好玩啊
+Dialogue: 0,0:08:46.40,0:08:47.51,zhengwen,NTP,0,0,0,,對啊
+Dialogue: 0,0:08:49.08,0:08:51.13,zhengwen,NTP,0,0,0,,請大家不要忘了還有楓…
+Dialogue: 0,0:08:55.08,0:08:55.82,zhengwen,NTP,0,0,0,,以上這些
+Dialogue: 0,0:08:56.26,0:08:58.88,zhengwen,NTP,0,0,0,,就是學生會待交接工作的全部
+Dialogue: 0,0:08:59.59,0:09:02.80,zhengwen,NTP,0,0,0,,雖說從明年開始就只剩下兩個年級了
+Dialogue: 0,0:09:03.15,0:09:04.72,zhengwen,NTP,0,0,0,,但也請要加油哦
+Dialogue: 0,0:09:05.03,0:09:07.18,zhengwen,NTP,0,0,0,,小澄  剩下的就交給你咯
+Dialogue: 0,0:09:07.33,0:09:10.73,zhengwen,NTP,0,0,0,,嗯  就交給我吧
+Dialogue: 0,0:09:11.15,0:09:14.56,zhengwen,NTP,0,0,0,,那麼  這一年辛苦大家了
+Dialogue: 0,0:09:15.04,0:09:16.77,zhengwen,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:09:19.77,0:09:20.82,zhengwen,NTP,0,0,0,,美月會長
+Dialogue: 0,0:09:20.86,0:09:22.82,zhengwen,NTP,0,0,0,,嗯？楓同學
+Dialogue: 0,0:09:23.16,0:09:24.21,zhengwen,NTP,0,0,0,,辛苦了
+Dialogue: 0,0:09:25.00,0:09:28.24,zhengwen,NTP,0,0,0,,不對  現在應該不是叫美月會長了吧
+Dialogue: 0,0:09:29.23,0:09:30.76,zhengwen,NTP,0,0,0,,應該是  前美月會長
+Dialogue: 0,0:09:31.00,0:09:32.62,zhengwen,NTP,0,0,0,,請你還是像以前一樣吧
+Dialogue: 0,0:09:33.11,0:09:36.99,zhengwen,NTP,0,0,0,,那個…雖然我從之前開始就有點在意了
+Dialogue: 0,0:09:37.19,0:09:39.83,zhengwen,NTP,0,0,0,,美月會長是不是也有點那個啊
+Dialogue: 0,0:09:40.77,0:09:44.08,zhengwen,NTP,0,0,0,,不是啦  雖然我也覺得這是個挺難說出口的事情
+Dialogue: 0,0:09:44.33,0:09:48.27,zhengwen,NTP,0,0,0,,不過你可以跟我談談啊  沒關係的
+Dialogue: 0,0:09:50.14,0:09:53.22,zhengwen,NTP,0,0,0,,雖然柚子她可能也會很驚訝
+Dialogue: 0,0:09:53.97,0:09:56.63,zhengwen,NTP,0,0,0,,但我想應該也是跟我一樣的
+Dialogue: 0,0:09:57.19,0:10:00.53,zhengwen,NTP,0,0,0,,從剛才開始你想說什麼呢
+Dialogue: 0,0:10:01.17,0:10:04.34,zhengwen,NTP,0,0,0,,春香和優不是在交往嗎
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:10:06.29,0:10:08.79,title1,NTP,0,0,0,,{\pos(720,1065)\fs67.5}「下雪的日子跟回憶與衝擊」
+Dialogue: 0,0:10:06.29,0:10:08.79,title,NTP,0,0,0,,{\pos(720,1065)\fs67.5}「下雪的日子跟回憶與衝擊」
+Dialogue: 0,0:10:06.29,0:10:08.79,title1,NTP,0,0,0,,{\pos(1575,1065)\fs67.5}  完
+Dialogue: 0,0:10:06.29,0:10:08.79,title,NTP,0,0,0,,{\pos(1575,1065)\fs67.5}  完
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:10:11.16,0:10:13.69,zhengwen,NTP,0,0,0,,不是啦  胖了這麼多不是很不妙嗎
+Dialogue: 0,0:10:21.20,0:10:23.06,zhengwen,NTP,0,0,0,,不知道今天體育課是什麼內容呢
+Dialogue: 0,0:10:23.39,0:10:24.55,zhengwen,NTP,0,0,0,,不知道
+Dialogue: 0,0:10:24.91,0:10:27.72,zhengwen,NTP,0,0,0,,我記得老師說過是跳繩來著
+Dialogue: 0,0:10:28.45,0:10:30.49,zhengwen,NTP,0,0,0,,為什麼不是排球
+Dialogue: 0,0:10:31.17,0:10:33.14,zhengwen,NTP,0,0,0,,小優你穿短褲不冷嗎
+Dialogue: 0,0:10:33.24,0:10:34.13,zhengwen,NTP,0,0,0,,沒問題
+Dialogue: 0,0:10:35.18,0:10:37.41,zhengwen,NTP,0,0,0,,都說小孩子是不怕冷的呢
+Dialogue: 0,0:10:37.69,0:10:39.14,zhengwen,NTP,0,0,0,,人家才不是魚子呢
+Dialogue: 0,0:10:39.87,0:10:41.25,zhengwen,NTP,0,0,0,,魚子
+Dialogue: 0,0:10:43.94,0:10:46.37,zhengwen,NTP,0,0,0,,小楓  差不多該走了
+Dialogue: 0,0:10:47.56,0:10:48.77,zhengwen,NTP,0,0,0,,抱歉  現在就來
+Dialogue: 0,0:10:49.75,0:10:51.20,zhengwen,NTP,0,0,0,,嗯…喂楓你的裙子
+Dialogue: 0,0:10:51.31,0:10:53.26,zhengwen,NTP,0,0,0,,哦  好險
+Dialogue: 0,0:10:53.41,0:10:55.89,zhengwen,NTP,0,0,0,,差點就要把裙子穿皺了
+Dialogue: 0,0:10:56.02,0:10:58.35,zhengwen,NTP,0,0,0,,真是的  上課要遲到了
+Dialogue: 0,0:10:59.50,0:11:01.81,zhengwen,NTP,0,0,0,,剛才真的是忘記脫了嗎
+Dialogue: 0,0:11:02.98,0:11:07.35,zhengwen,NTP,0,0,0,,因為是小楓…所以我還以為你是故意的
+Dialogue: 0,0:11:07.54,0:11:10.56,zhengwen,NTP,0,0,0,,然後在等誰來吐槽之類的
+Dialogue: 0,0:11:10.71,0:11:12.46,zhengwen,NTP,0,0,0,,那就當做是那麼回事吧
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:11:12.94,0:11:16.44,title1,NTP,0,0,0,,{\pos(960,765)}「體育倉庫裡的慣例」
+Dialogue: 0,0:11:12.94,0:11:16.44,title,NTP,0,0,0,,{\pos(960,765)}「體育倉庫裡的慣例」
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:11:19.23,0:11:20.95,zhengwen,NTP,0,0,0,,你今天怎麼了
+Dialogue: 0,0:11:21.38,0:11:22.62,zhengwen,NTP,0,0,0,,從早上開始就怪怪的哦
+Dialogue: 0,0:11:23.37,0:11:25.04,zhengwen,NTP,0,0,0,,在考慮一些事情
+Dialogue: 0,0:11:25.60,0:11:28.10,zhengwen,NTP,0,0,0,,嗯？小楓有點奇怪嗎
+Dialogue: 0,0:11:28.52,0:11:29.67,zhengwen,NTP,0,0,0,,我沒看出來呢
+Dialogue: 0,0:11:29.77,0:11:31.47,zhengwen,NTP,0,0,0,,感覺和平時沒什麼區別
+Dialogue: 0,0:11:31.86,0:11:33.66,zhengwen,NTP,0,0,0,,琴音也沒察覺嗎
+Dialogue: 0,0:11:33.98,0:11:34.75,zhengwen,NTP,0,0,0,,怎麼
+Dialogue: 0,0:11:35.28,0:11:37.60,zhengwen,NTP,0,0,0,,你們不是從初中開始就關係很好嗎
+Dialogue: 0,0:11:38.64,0:11:41.19,zhengwen,NTP,0,0,0,,人家眼裡只有小雫啦
+Dialogue: 0,0:11:42.64,0:11:44.31,zhengwen,NTP,0,0,0,,你…你在說什麼啊
+Dialogue: 0,0:11:45.06,0:11:46.19,zhengwen,NTP,0,0,0,,摸摸頭摸摸頭
+Dialogue: 0,0:11:46.94,0:11:49.44,zhengwen,NTP,0,0,0,,小雫好可愛哦
+Dialogue: 0,0:11:49.48,0:11:50.67,zhengwen,NTP,0,0,0,,對吧
+Dialogue: 0,0:11:50.78,0:11:52.91,zhengwen,NTP,0,0,0,,別摸了  頭髮要亂掉了
+Dialogue: 0,0:11:53.59,0:11:54.92,zhengwen,NTP,0,0,0,,小優  救救我
+Dialogue: 0,0:11:56.38,0:11:57.36,zhengwen,NTP,0,0,0,,小雫
+Dialogue: 0,0:12:01.98,0:12:06.02,zhengwen,NTP,0,0,0,,小楓哪兒奇怪了  我不是很明白呢
+Dialogue: 0,0:12:06.40,0:12:07.87,zhengwen,NTP,0,0,0,,一直是副撲克臉
+Dialogue: 0,0:12:08.41,0:12:10.20,zhengwen,NTP,0,0,0,,是有什麼煩惱嗎
+Dialogue: 0,0:12:10.37,0:12:11.83,zhengwen,NTP,0,0,0,,她一直很奇怪吧
+Dialogue: 0,0:12:12.08,0:12:13.90,zhengwen,NTP,0,0,0,,隨身攜帶老鼠玩具
+Dialogue: 0,0:12:14.23,0:12:18.74,zhengwen,NTP,0,0,0,,小楓的煩惱肯定就是今天要捉弄誰這種吧
+Dialogue: 0,0:12:19.21,0:12:20.62,zhengwen,NTP,0,0,0,,沒什麼好在意的
+Dialogue: 0,0:12:25.74,0:12:29.62,zhengwen,NTP,0,0,0,,糟糕  不小心就把我的蜘蛛扔出去了
+Dialogue: 0,0:12:29.72,0:12:31.71,zhengwen,NTP,0,0,0,,我明明很擔心你好不好
+Dialogue: 0,0:12:31.87,0:12:34.39,zhengwen,NTP,0,0,0,,擔心的只有小雫吧
+Dialogue: 0,0:12:34.49,0:12:37.65,zhengwen,NTP,0,0,0,,你哪裡買的啊  就算有賣一般也沒人會買吧
+Dialogue: 0,0:12:37.95,0:12:40.50,zhengwen,NTP,0,0,0,,但是春香  這是玩偶喲
+Dialogue: 0,0:12:41.54,0:12:43.14,zhengwen,NTP,0,0,0,,小優不要碰
+Dialogue: 0,0:12:43.31,0:12:44.45,zhengwen,NTP,0,0,0,,來  呸  跟我說  呸
+Dialogue: 0,0:12:45.06,0:12:46.25,zhengwen,NTP,0,0,0,,還要吐出來麼
+Dialogue: 0,0:12:49.72,0:12:50.53,zhengwen,NTP,0,0,0,,偷笑
+Dialogue: 0,0:12:50.71,0:12:54.42,zhengwen,NTP,0,0,0,,我要在跳長繩時讓小楓大吃一驚
+Dialogue: 0,0:12:57.08,0:12:59.41,zhengwen,NTP,0,0,0,,心胸寬廣點吧  春香
+Dialogue: 0,0:12:59.53,0:13:02.60,zhengwen,NTP,0,0,0,,是小楓她玩弄了我寬廣的胸懷
+Dialogue: 0,0:13:03.60,0:13:07.44,zhengwen,NTP,0,0,0,,春香你就是因為這樣才沒法從SBJK畢業
+Dialogue: 0,0:13:08.02,0:13:09.99,zhengwen,NTP,0,0,0,,我這哪裡和嫉妒有關了
+Dialogue: 0,0:13:10.29,0:13:13.35,zhengwen,NTP,0,0,0,,執念很深的女高中生的簡稱
+Dialogue: 0,0:13:13.39,0:13:16.46,zhengwen,NTP,0,0,0,,討厭啊  又習得了個奇怪的技能
+Dialogue: 0,0:13:19.25,0:13:20.83,zhengwen,NTP,0,0,0,,長繩都準備好了嗎
+Dialogue: 0,0:13:20.93,0:13:22.39,zhengwen,NTP,0,0,0,,準備好了
+Dialogue: 0,0:13:22.94,0:13:25.37,zhengwen,NTP,0,0,0,,今天是分組來比賽
+Dialogue: 0,0:13:25.88,0:13:29.42,zhengwen,NTP,0,0,0,,最後一名要接受懲罰  大家加油啊
+Dialogue: 0,0:13:30.93,0:13:31.95,zhengwen,NTP,0,0,0,,真討厭
+Dialogue: 0,0:13:32.07,0:13:33.10,zhengwen,NTP,0,0,0,,沒什麼自信
+Dialogue: 0,0:13:34.75,0:13:36.88,zhengwen,NTP,0,0,0,,我絕對不會輸給小楓的
+Dialogue: 0,0:13:38.45,0:13:40.59,zhengwen,NTP,0,0,0,,要麼  一二  開始
+Dialogue: 0,0:13:41.63,0:13:42.81,zhengwen,NTP,0,0,0,,一二
+Dialogue: 0,0:13:43.33,0:13:44.50,zhengwen,NTP,0,0,0,,一
+Dialogue: 0,0:13:46.52,0:13:48.14,zhengwen,NTP,0,0,0,,真是的  春香
+Dialogue: 0,0:13:48.72,0:13:50.97,zhengwen,NTP,0,0,0,,四五
+Dialogue: 0,0:13:52.79,0:13:53.98,zhengwen,NTP,0,0,0,,那重新開始
+Dialogue: 0,0:13:54.39,0:13:55.54,zhengwen,NTP,0,0,0,,一
+Dialogue: 0,0:13:56.96,0:13:57.77,zhengwen,NTP,0,0,0,,抱歉
+Dialogue: 0,0:13:58.37,0:13:59.30,zhengwen,NTP,0,0,0,,再來一次
+Dialogue: 0,0:13:59.66,0:14:00.75,zhengwen,NTP,0,0,0,,一
+Dialogue: 0,0:14:00.86,0:14:01.55,zhengwen,NTP,0,0,0,,好痛
+Dialogue: 0,0:14:01.88,0:14:02.83,zhengwen,NTP,0,0,0,,別在意
+Dialogue: 0,0:14:04.81,0:14:06.50,zhengwen,NTP,0,0,0,,春香
+Dialogue: 0,0:14:07.44,0:14:09.30,zhengwen,NTP,0,0,0,,跳起來就行了  春香
+Dialogue: 0,0:14:09.36,0:14:10.75,zhengwen,NTP,0,0,0,,我有在跳啊
+Dialogue: 0,0:14:10.87,0:14:13.18,zhengwen,NTP,0,0,0,,你的SBJK技能等級又上升了
+Dialogue: 0,0:14:13.98,0:14:17.27,zhengwen,NTP,0,0,0,,剛才那個和嫉妒心還有執念什麼的沒關係吧
+Dialogue: 0,0:14:17.45,0:14:21.17,zhengwen,NTP,0,0,0,,讓人難以置信的丟臉的女高中生的簡稱
+Dialogue: 0,0:14:21.75,0:14:23.68,zhengwen,NTP,0,0,0,,你剛才挑撥別人算什麼
+Dialogue: 0,0:14:23.80,0:14:25.94,zhengwen,NTP,0,0,0,,只有這點讓我無言以對
+Dialogue: 0,0:14:26.81,0:14:30.05,zhengwen,NTP,0,0,0,,小春春一直在繩子轉起來的時候跳
+Dialogue: 0,0:14:30.20,0:14:32.57,zhengwen,NTP,0,0,0,,下次在繩子快到腳下的時候跳會比較好
+Dialogue: 0,0:14:33.35,0:14:35.15,zhengwen,NTP,0,0,0,,重振旗鼓再來試試吧
+Dialogue: 0,0:14:35.61,0:14:36.25,zhengwen,NTP,0,0,0,,好的
+Dialogue: 0,0:14:38.34,0:14:40.89,zhengwen,NTP,0,0,0,,要來了喲  一…
+Dialogue: 0,0:14:41.62,0:14:43.27,zhengwen,NTP,0,0,0,,太好了  跳過去了
+Dialogue: 0,0:14:46.17,0:14:47.43,zhengwen,NTP,0,0,0,,對不起  是我
+Dialogue: 0,0:14:47.55,0:14:49.22,zhengwen,NTP,0,0,0,,小雫的話可以原諒
+Dialogue: 0,0:14:49.35,0:14:50.81,zhengwen,NTP,0,0,0,,小優…
+Dialogue: 0,0:14:52.52,0:14:53.93,zhengwen,NTP,0,0,0,,998
+Dialogue: 0,0:14:54.12,0:14:55.50,zhengwen,NTP,0,0,0,,999
+Dialogue: 0,0:14:56.19,0:14:57.40,zhengwen,NTP,0,0,0,,1000
+Dialogue: 0,0:14:59.04,0:15:00.26,zhengwen,NTP,0,0,0,,好  到此為止
+Dialogue: 0,0:15:03.70,0:15:05.54,zhengwen,NTP,0,0,0,,池野你們好厲害啊
+Dialogue: 0,0:15:08.11,0:15:10.89,zhengwen,NTP,0,0,0,,就是這樣  最後一名拜託你們收拾器具了
+Dialogue: 0,0:15:15.66,0:15:17.61,zhengwen,NTP,0,0,0,,都是春香一直被絆到
+Dialogue: 0,0:15:17.71,0:15:21.60,zhengwen,NTP,0,0,0,,我知道  全部我來收拾  就原諒我吧
+Dialogue: 0,0:15:21.82,0:15:23.44,zhengwen,NTP,0,0,0,,謝啦  小春春
+Dialogue: 0,0:15:23.71,0:15:25.09,zhengwen,NTP,0,0,0,,真的沒關係嗎
+Dialogue: 0,0:15:25.26,0:15:26.50,zhengwen,NTP,0,0,0,,沒關係
+Dialogue: 0,0:15:26.70,0:15:28.44,zhengwen,NTP,0,0,0,,只是把繩子放回去而已
+Dialogue: 0,0:15:28.54,0:15:29.49,zhengwen,NTP,0,0,0,,你們別在意
+Dialogue: 0,0:15:31.90,0:15:33.27,zhengwen,NTP,0,0,0,,好多
+Dialogue: 0,0:15:34.06,0:15:35.56,zhengwen,NTP,0,0,0,,果…果然…
+Dialogue: 0,0:15:37.38,0:15:39.95,zhengwen,NTP,0,0,0,,都…都已經回去了啊
+Dialogue: 0,0:15:45.24,0:15:47.36,zhengwen,NTP,0,0,0,,小優  怎麼了
+Dialogue: 0,0:15:48.45,0:15:49.61,zhengwen,NTP,0,0,0,,沒什麼
+Dialogue: 0,0:15:51.09,0:15:53.14,zhengwen,NTP,0,0,0,,在這裡等春香吧
+Dialogue: 0,0:15:54.93,0:15:57.91,zhengwen,NTP,0,0,0,,滿面春風  真是好懂啊
+Dialogue: 0,0:16:01.22,0:16:04.24,zhengwen,NTP,0,0,0,,已經收拾完了嗎  真快
+Dialogue: 0,0:16:05.97,0:16:10.58,zhengwen,NTP,0,0,0,,好  這樣就都結束了
+Dialogue: 0,0:16:16.73,0:16:18.12,zhengwen,NTP,0,0,0,,被關住了
+Dialogue: 0,0:16:18.48,0:16:24.15,zhengwen,NTP,0,0,0,,等等  我還在裡面  有誰在嗎  開門
+Dialogue: 0,0:16:26.03,0:16:28.92,zhengwen,NTP,0,0,0,,對了  手…手機…
+Dialogue: 0,0:16:30.17,0:16:32.07,zhengwen,NTP,0,0,0,,放在校服口袋裡了
+Dialogue: 0,0:16:34.53,0:16:37.86,zhengwen,NTP,0,0,0,,小優  我被關住了
+Dialogue: 0,0:16:39.05,0:16:41.34,zhengwen,NTP,0,0,0,,以前也發生過這種事呢
+Dialogue: 0,0:16:41.98,0:16:43.99,zhengwen,NTP,0,0,0,,偷偷跑進空教室裡
+Dialogue: 0,0:16:44.67,0:16:48.45,zhengwen,NTP,0,0,0,,那時候有小優在所以一點都不害怕
+Dialogue: 0,0:16:50.39,0:16:51.84,zhengwen,NTP,0,0,0,,小優
+Dialogue: 0,0:16:53.36,0:16:55.27,zhengwen,NTP,0,0,0,,春香真慢啊
+Dialogue: 0,0:16:55.44,0:16:58.04,zhengwen,NTP,0,0,0,,果然去幫忙比較好吧
+Dialogue: 0,0:16:58.53,0:17:03.18,zhengwen,NTP,0,0,0,,你們在幹什麼啊  還不回教室
+Dialogue: 0,0:17:03.65,0:17:05.83,zhengwen,NTP,0,0,0,,小柚  小楓  那個啊…
+Dialogue: 0,0:17:05.83,0:17:08.88,zhengwen,NTP,0,0,0,,你們打掃的真快啊  幫大忙了
+Dialogue: 0,0:17:09.98,0:17:11.00,zhengwen,NTP,0,0,0,,老師？
+Dialogue: 0,0:17:12.44,0:17:14.68,zhengwen,NTP,0,0,0,,咦  春香還沒回來
+Dialogue: 0,0:17:15.56,0:17:18.29,zhengwen,NTP,0,0,0,,春香不會是被關在倉庫裡了
+Dialogue: 0,0:17:18.61,0:17:20.83,zhengwen,NTP,0,0,0,,老師  等等
+Dialogue: 0,0:17:21.02,0:17:23.17,zhengwen,NTP,0,0,0,,我從外面看看
+Dialogue: 0,0:17:23.52,0:17:25.13,zhengwen,NTP,0,0,0,,體育館裡面就拜託你了  琴音
+Dialogue: 0,0:17:25.23,0:17:26.10,zhengwen,NTP,0,0,0,,OK
+Dialogue: 0,0:17:26.57,0:17:29.13,zhengwen,NTP,0,0,0,,果然是在擔心女朋友呢
+Dialogue: 0,0:17:29.38,0:17:30.08,zhengwen,NTP,0,0,0,,女朋友？
+Dialogue: 0,0:17:32.30,0:17:34.77,zhengwen,NTP,0,0,0,,這種情況誰是女朋友呢
+Dialogue: 0,0:17:36.84,0:17:38.93,zhengwen,NTP,0,0,0,,喂  春香
+Dialogue: 0,0:17:39.17,0:17:40.13,zhengwen,NTP,0,0,0,,你在嗎
+Dialogue: 0,0:17:40.67,0:17:42.91,zhengwen,NTP,0,0,0,,果然不在倉庫裡嗎
+Dialogue: 0,0:17:43.07,0:17:44.92,zhengwen,NTP,0,0,0,,是不是錯過了
+Dialogue: 0,0:17:46.85,0:17:48.99,zhengwen,NTP,0,0,0,,春香
+Dialogue: 0,0:17:50.72,0:17:51.49,zhengwen,NTP,0,0,0,,有隻手
+Dialogue: 0,0:17:51.79,0:17:53.96,zhengwen,NTP,0,0,0,,只對優的聲音有反應啊
+Dialogue: 0,0:17:54.46,0:17:56.75,zhengwen,NTP,0,0,0,,看來真是被關在裡面了啊
+Dialogue: 0,0:17:57.02,0:17:58.95,zhengwen,NTP,0,0,0,,春香沒事吧
+Dialogue: 0,0:17:59.47,0:18:01.91,zhengwen,NTP,0,0,0,,萬一被壓在什麼東西下面就…
+Dialogue: 0,0:18:04.59,0:18:07.01,zhengwen,NTP,0,0,0,,那麼活潑看來沒事
+Dialogue: 0,0:18:07.16,0:18:08.18,zhengwen,NTP,0,0,0,,是啊
+Dialogue: 0,0:18:08.41,0:18:10.57,zhengwen,NTP,0,0,0,,但是好擔心啊
+Dialogue: 0,0:18:10.69,0:18:11.77,zhengwen,NTP,0,0,0,,看看裡面怎麼樣
+Dialogue: 0,0:18:12.88,0:18:15.32,zhengwen,NTP,0,0,0,,小柚  拜託了
+Dialogue: 0,0:18:15.38,0:18:18.20,zhengwen,NTP,0,0,0,,你不會是想騎在我肩上吧
+Dialogue: 0,0:18:21.57,0:18:23.41,zhengwen,NTP,0,0,0,,來  有梯子
+Dialogue: 0,0:18:24.24,0:18:26.10,zhengwen,NTP,0,0,0,,小楓謝謝你
+Dialogue: 0,0:18:30.54,0:18:31.42,zhengwen,NTP,0,0,0,,春香
+Dialogue: 0,0:18:31.85,0:18:32.85,zhengwen,NTP,0,0,0,,小優
+Dialogue: 0,0:18:34.18,0:18:35.04,zhengwen,NTP,0,0,0,,沒事吧
+Dialogue: 0,0:18:35.37,0:18:36.36,zhengwen,NTP,0,0,0,,小優
+Dialogue: 0,0:18:36.75,0:18:38.69,zhengwen,NTP,0,0,0,,我出不去了
+Dialogue: 0,0:18:39.57,0:18:40.42,zhengwen,NTP,0,0,0,,謝謝你
+Dialogue: 0,0:18:40.70,0:18:41.48,zhengwen,NTP,0,0,0,,春香
+Dialogue: 0,0:18:41.58,0:18:43.49,zhengwen,NTP,0,0,0,,我要掉下去了
+Dialogue: 0,0:18:45.94,0:18:50.00,zhengwen,NTP,0,0,0,,小優你來之前我都在想你的事
+Dialogue: 0,0:18:54.75,0:18:56.41,zhengwen,NTP,0,0,0,,我想做了
+Dialogue: 0,0:18:57.80,0:18:58.46,zhengwen,NTP,0,0,0,,但是…
+Dialogue: 0,0:18:59.73,0:19:02.01,zhengwen,NTP,0,0,0,,下面有小柚她們在
+Dialogue: 0,0:19:03.80,0:19:05.08,zhengwen,NTP,0,0,0,,是啊
+Dialogue: 0,0:19:05.68,0:19:06.66,zhengwen,NTP,0,0,0,,不行啊
+Dialogue: 0,0:19:12.03,0:19:14.30,zhengwen,NTP,0,0,0,,一會兒的話…
+Dialogue: 0,0:19:26.24,0:19:28.99,zhengwen,NTP,0,0,0,,小柚她們沒有發覺吧
+Dialogue: 0,0:19:29.52,0:19:30.73,zhengwen,NTP,0,0,0,,沒事的
+Dialogue: 0,0:19:38.68,0:19:41.86,zhengwen,NTP,0,0,0,,優打算把春香拉出來啊
+Dialogue: 0,0:19:42.11,0:19:43.29,zhengwen,NTP,0,0,0,,這太勉強了吧
+Dialogue: 0,0:19:44.23,0:19:45.27,zhengwen,NTP,0,0,0,,危險危險
+Dialogue: 0,0:19:49.03,0:19:49.92,zhengwen,NTP,0,0,0,,春香
+Dialogue: 0,0:19:52.05,0:19:53.44,zhengwen,NTP,0,0,0,,好痛…
+Dialogue: 0,0:19:54.23,0:19:55.03,zhengwen,NTP,0,0,0,,小優
+Dialogue: 0,0:19:57.53,0:19:59.98,zhengwen,NTP,0,0,0,,我一下子不知道會怎麼樣了
+Dialogue: 0,0:20:00.22,0:20:01.48,zhengwen,NTP,0,0,0,,你真冒失
+Dialogue: 0,0:20:01.65,0:20:03.96,zhengwen,NTP,0,0,0,,真是的  真會惹事啊
+Dialogue: 0,0:20:04.19,0:20:05.87,zhengwen,NTP,0,0,0,,不好意思讓你久等了
+Dialogue: 0,0:20:06.31,0:20:07.37,zhengwen,NTP,0,0,0,,沒受傷吧
+Dialogue: 0,0:20:07.74,0:20:08.43,zhengwen,NTP,0,0,0,,沒事的
+Dialogue: 0,0:20:08.43,0:20:10.91,zhengwen,NTP,0,0,0,,她們倆果然沒有在交往嗎
+Dialogue: 0,0:20:11.34,0:20:13.78,zhengwen,NTP,0,0,0,,雖然美月會長那麼說了
+Dialogue: 0,0:20:14.21,0:20:17.47,zhengwen,NTP,0,0,0,,交往是怎麼回事
+Dialogue: 0,0:20:17.71,0:20:18.75,zhengwen,NTP,0,0,0,,那個…
+Dialogue: 0,0:20:19.26,0:20:21.09,zhengwen,NTP,0,0,0,,蜜柑同學也知道嗎
+Dialogue: 0,0:20:21.81,0:20:23.87,zhengwen,NTP,0,0,0,,這個人應該是故意說錯了的吧
+Dialogue: 0,0:20:24.45,0:20:27.71,zhengwen,NTP,0,0,0,,不  我也沒直接問過她們
+Dialogue: 0,0:20:27.89,0:20:30.26,zhengwen,NTP,0,0,0,,這只是我個人猜測
+Dialogue: 0,0:20:31.15,0:20:34.61,zhengwen,NTP,0,0,0,,什麼嘛  這不沒確定是在交往
+Dialogue: 0,0:20:35.30,0:20:37.44,zhengwen,NTP,0,0,0,,而且說到底她們倆都是女孩子啊
+Dialogue: 0,0:20:37.60,0:20:38.88,zhengwen,NTP,0,0,0,,不要嚇我
+Dialogue: 0,0:20:39.27,0:20:40.46,zhengwen,NTP,0,0,0,,也是呢
+Dialogue: 0,0:20:40.69,0:20:46.65,zhengwen,NTP,0,0,0,,不用擔心  春香同學只是個比較喜歡身體接觸的普通女孩子
+Dialogue: 0,0:20:47.99,0:20:52.60,zhengwen,NTP,0,0,0,,春香同學比較努力  她只是一直在支持著優而已
+Dialogue: 0,0:20:55.63,0:20:59.74,zhengwen,NTP,0,0,0,,美月會長淨是在說春香的事呢
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:21:01.32,0:21:03.82,title1,NTP,0,0,0,,{\pos(720,1065)\fs67.5}「體育倉庫裡的慣例」
+Dialogue: 0,0:21:01.32,0:21:03.82,title,NTP,0,0,0,,{\pos(720,1065)\fs67.5}「體育倉庫裡的慣例」
+Dialogue: 0,0:21:01.32,0:21:03.82,title1,NTP,0,0,0,,{\pos(1575,1065)\fs67.5}完
+Dialogue: 0,0:21:01.32,0:21:03.82,title,NTP,0,0,0,,{\pos(1575,1065)\fs67.5}完
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:21:03.87,0:21:06.46,zhengwen,NTP,0,0,0,,笑一下  小理奈
+Dialogue: 0,0:21:08.64,0:21:10.43,zhengwen,NTP,0,0,0,,理奈副會長
+Dialogue: 0,0:21:11.08,0:21:12.50,zhengwen,NTP,0,0,0,,早上好
+Dialogue: 0,0:21:16.91,0:21:18.44,zhengwen,NTP,0,0,0,,理奈副會長
+Dialogue: 0,0:21:18.85,0:21:20.51,zhengwen,NTP,0,0,0,,現在有空嗎
+Dialogue: 0,0:21:23.62,0:21:25.40,zhengwen,NTP,0,0,0,,非常感謝
+Dialogue: 0,0:21:28.20,0:21:32.46,zhengwen,NTP,0,0,0,,接下來阪井理奈副會長有個通知
+Dialogue: 0,0:21:37.32,0:21:39.56,zhengwen,NTP,0,0,0,,非常感謝
+Dialogue: 0,0:21:44.46,0:21:46.88,zhengwen,NTP,0,0,0,,喂  楓  為什麼
+Dialogue: 0,0:21:48.23,0:21:50.00,zhengwen,NTP,0,0,0,,理奈副會長只是在笑…
+Dialogue: 0,0:21:50.00,0:21:50.77,zhengwen,NTP,0,0,0,,柚！
+Dialogue: 0,0:21:53.56,0:21:56.05,zhengwen,NTP,0,0,0,,這已經無所謂了吧
+Dialogue: 0,0:21:56.57,0:21:58.20,zhengwen,NTP,0,0,0,,但是楓…
+Dialogue: 0,0:22:03.10,0:22:04.81,zhengwen,NTP,0,0,0,,不  那個…
+Dialogue: 0,0:22:06.00,0:22:07.26,zhengwen,NTP,0,0,0,,沒什麼事
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:22:07.30,0:22:09.80,title1,NTP,0,0,0,,{\pos(720,1065)\fs67.5}笑一下  小理奈
+Dialogue: 0,0:22:07.30,0:22:09.80,title,NTP,0,0,0,,{\pos(720,1065)\fs67.5}笑一下  小理奈
+Dialogue: 0,0:22:07.30,0:22:09.80,title1,NTP,0,0,0,,{\pos(1575,1065)\fs67.5}完
+Dialogue: 0,0:22:07.30,0:22:09.80,title,NTP,0,0,0,,{\pos(1575,1065)\fs67.5}完
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:23:41.11,0:23:42.96,zhengwen,NTP,0,0,0,,咦  這個蜜柑是怎麼回事
+Dialogue: 0,0:23:43.08,0:23:44.54,zhengwen,NTP,0,0,0,,是媽媽給的
+Dialogue: 0,0:23:44.60,0:23:45.57,zhengwen,NTP,0,0,0,,看上去很好吃呢
+Dialogue: 0,0:23:45.67,0:23:46.83,zhengwen,NTP,0,0,0,,有點酸
+Dialogue: 0,0:23:46.93,0:23:48.30,zhengwen,NTP,0,0,0,,比檸檬要甜吧
+Dialogue: 0,0:23:48.42,0:23:51.35,zhengwen,NTP,0,0,0,,這麼說來我和一個叫做小柚的女孩子交朋友了
+Dialogue: 0,0:23:51.37,0:23:52.22,zhengwen,NTP,0,0,0,,恭喜你啊
+Dialogue: 0,0:23:52.28,0:23:55.01,zhengwen,NTP,0,0,0,,姐姐  你吃那麼多蜜柑太狡猾了
+Dialogue: 0,0:23:55.03,0:23:56.29,zhengwen,NTP,0,0,0,,有什麼關係嘛
+Dialogue: 0,0:23:56.46,0:23:58.71,zhengwen,NTP,0,0,0,,然後呢  那個蜜柑同學怎麼了
+Dialogue: 0,0:23:58.75,0:24:01.59,zhengwen,NTP,0,0,0,,蜜柑她最喜歡炒麵了
+Dialogue: 0,0:24:01.73,0:24:03.41,zhengwen,NTP,0,0,0,,下集  Trick11
+Dialogue: 0,0:24:03.59,0:24:07.41,zhengwen,NTP,0,0,0,,「清澈會長！」以及「櫻花色的真相」以上兩個故事
+Dialogue: 0,0:24:07.57,0:24:08.35,zhengwen,NTP,0,0,0,,敬請期待
+Dialogue: 0,0:24:08.79,0:24:09.40,zhengwen,NTP,0,0,0,,咦？
+Dialogue: 0,0:00:00.10,0:00:00.10,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.10,0:00:00.10,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.10,0:00:00.10,zhengwen,NTP,0,0,0,,\\---------------------Staff----------------------
+Dialogue: 0,0:01:30.07,0:01:35.03,jinggao,NTP,0,0,0,,{\fad(500,500)}華盟字幕社下屬百合組榮譽出品
+Dialogue: 0,0:01:35.04,0:01:40.03,jinggao,NTP,0,0,0,,{\fad(500,500)}翻譯：detectivexsc、peanut；校對：阿維豆奶；後期：whwdlxy9416；繁化：Kinson。
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,\\---------------------OPJP----------------------
+Dialogue: 0,0:00:00.32,0:00:03.81,OPJ,NTP,0,0,0,,{\fad(100,100)}kiss×3　もう夢中なの
+Dialogue: 0,0:00:16.00,0:00:18.68,OPJ,NTP,0,0,0,,{\fad(100,100)}ドキドキしちゃうのよ
+Dialogue: 0,0:00:19.05,0:00:21.91,OPJ,NTP,0,0,0,,{\fad(100,100)}あなたのそばで、また
+Dialogue: 0,0:00:22.28,0:00:25.01,OPJ,NTP,0,0,0,,{\fad(100,100)}高鳴るこの鼓動
+Dialogue: 0,0:00:25.28,0:00:27.67,OPJ,NTP,0,0,0,,{\fad(100,100)}止まらないよ
+Dialogue: 0,0:00:28.54,0:00:31.20,OPJ,NTP,0,0,0,,{\fad(100,100)}友達なんだけど
+Dialogue: 0,0:00:31.60,0:00:34.42,OPJ,NTP,0,0,0,,{\fad(100,100)}その以上の気持ち？！
+Dialogue: 0,0:00:34.75,0:00:37.58,OPJ,NTP,0,0,0,,{\fad(100,100)}このままじゃ私は
+Dialogue: 0,0:00:37.88,0:00:40.19,OPJ,NTP,0,0,0,,{\fad(100,100)}どうかしちゃう
+Dialogue: 0,0:00:41.12,0:00:46.89,OPJ,NTP,0,0,0,,{\fad(100,100)}我慢では　解決出来ないの
+Dialogue: 0,0:00:47.28,0:00:55.47,OPJ,NTP,0,0,0,,{\fad(100,100)}誰にも真似できない  ことがしたいの
+Dialogue: 0,0:00:56.65,0:00:57.97,OPJ,NTP,0,0,0,,{\fad(100,100)}Won chu KissMe!　
+Dialogue: 0,0:00:57.97,0:01:02.63,OPJ,NTP,0,0,0,,{\fad(100,100)}特別な二人だけの秘密
+Dialogue: 0,0:01:02.98,0:01:05.78,OPJ,NTP,0,0,0,,{\fad(100,100)}いつだって　どこだって
+Dialogue: 0,0:01:06.19,0:01:12.08,OPJ,NTP,0,0,0,,{\fad(100,100)}私のすべてを受け止めてほしいの
+Dialogue: 0,0:01:12.36,0:01:13.91,OPJ,NTP,0,0,0,,{\fad(100,100)}Can I KissYou?
+Dialogue: 0,0:01:13.91,0:01:18.37,OPJ,NTP,0,0,0,,{\fad(100,100)}最高の二人だけの時間
+Dialogue: 0,0:01:18.70,0:01:21.57,OPJ,NTP,0,0,0,,{\fad(100,100)}唇触れ合うの
+Dialogue: 0,0:01:21.83,0:01:26.55,OPJ,NTP,0,0,0,,{\fad(100,100)}あなたと私のkiss×3
+Dialogue: 0,0:01:26.70,0:01:28.45,OPJ,NTP,0,0,0,,{\fad(100,100)}離れたくない
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,\\---------------------OPCN----------------------
+Dialogue: 0,0:00:00.32,0:00:03.81,OPC,NTP,0,0,0,,{\fad(100,100)}kiss×3  已經如癡如醉了
+Dialogue: 0,0:00:16.00,0:00:18.68,OPC,NTP,0,0,0,,{\fad(100,100)}僅僅只是在你身旁
+Dialogue: 0,0:00:19.05,0:00:21.91,OPC,NTP,0,0,0,,{\fad(100,100)}心中就已躁動不止
+Dialogue: 0,0:00:22.28,0:00:25.01,OPC,NTP,0,0,0,,{\fad(100,100)}激動的心跳
+Dialogue: 0,0:00:25.28,0:00:27.67,OPC,NTP,0,0,0,,{\fad(100,100)}已經無法停止
+Dialogue: 0,0:00:28.54,0:00:31.20,OPC,NTP,0,0,0,,{\fad(100,100)}雖然只是朋友
+Dialogue: 0,0:00:31.60,0:00:34.42,OPC,NTP,0,0,0,,{\fad(100,100)}但感情卻不止於此？！
+Dialogue: 0,0:00:34.75,0:00:37.58,OPC,NTP,0,0,0,,{\fad(100,100)}這樣下去我就要
+Dialogue: 0,0:00:37.88,0:00:40.19,OPC,NTP,0,0,0,,{\fad(100,100)}變得奇怪了
+Dialogue: 0,0:00:41.12,0:00:46.89,OPC,NTP,0,0,0,,{\fad(100,100)}忍耐  不能解決問題
+Dialogue: 0,0:00:47.28,0:00:55.47,OPC,NTP,0,0,0,,{\fad(100,100)}好想做些他人模仿不出來的事情
+Dialogue: 0,0:00:56.65,0:00:57.97,OPC,NTP,0,0,0,,{\fad(100,100)}Won chu KissMe!
+Dialogue: 0,0:00:57.97,0:01:02.63,OPC,NTP,0,0,0,,{\fad(100,100)}只屬於我們倆的特殊秘密
+Dialogue: 0,0:01:02.98,0:01:05.78,OPC,NTP,0,0,0,,{\fad(100,100)}無論何時無論何地
+Dialogue: 0,0:01:06.19,0:01:12.08,OPC,NTP,0,0,0,,{\fad(100,100)}希望你能接納我的一切
+Dialogue: 0,0:01:12.36,0:01:13.91,OPC,NTP,0,0,0,,{\fad(100,100)}Can I KissYou？
+Dialogue: 0,0:01:13.91,0:01:18.37,OPC,NTP,0,0,0,,{\fad(100,100)}最棒的倆人獨處
+Dialogue: 0,0:01:18.70,0:01:21.57,OPC,NTP,0,0,0,,{\fad(100,100)}嘴唇相接
+Dialogue: 0,0:01:21.83,0:01:26.55,OPC,NTP,0,0,0,,{\fad(100,100)}這就是你與我的kiss×3
+Dialogue: 0,0:01:26.70,0:01:28.45,OPC,NTP,0,0,0,,{\fad(100,100)}不想分開
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,\\---------------------EDJP----------------------
+Dialogue: 0,0:22:33.92,0:22:36.88,EDJ,NTP,0,0,0,,{\fad(100,100)}二人だけの時間が
+Dialogue: 0,0:22:37.04,0:22:39.84,EDJ,NTP,0,0,0,,{\fad(100,100)}二人だけの秘密が
+Dialogue: 0,0:22:40.02,0:22:45.16,EDJ,NTP,0,0,0,,{\fad(100,100)}二人だけの約束  あるからね
+Dialogue: 0,0:22:45.97,0:22:48.70,EDJ,NTP,0,0,0,,{\fad(100,100)}喜び分かち合えて
+Dialogue: 0,0:22:48.76,0:22:51.60,EDJ,NTP,0,0,0,,{\fad(100,100)}悲しみ分け合えたら
+Dialogue: 0,0:22:51.76,0:22:57.23,EDJ,NTP,0,0,0,,{\fad(100,100)}一人より幸せに　なれるように
+Dialogue: 0,0:22:57.45,0:23:02.33,EDJ,NTP,0,0,0,,{\fad(100,100)}明日も思い出を
+Dialogue: 0,0:23:02.63,0:23:04.41,EDJ,NTP,0,0,0,,{\fad(100,100)}さぁ増やそう
+Dialogue: 0,0:23:04.60,0:23:08.24,EDJ,NTP,0,0,0,,{\fad(100,100)}一杯にしちゃおうね
+Dialogue: 0,0:23:09.20,0:23:14.21,EDJ,NTP,0,0,0,,{\fad(100,100)}この広い世界で  逢えた奇跡
+Dialogue: 0,0:23:14.81,0:23:20.49,EDJ,NTP,0,0,0,,{\fad(100,100)}特別なの　あなたじゃないとだめだから
+Dialogue: 0,0:23:21.26,0:23:26.59,EDJ,NTP,0,0,0,,{\fad(100,100)}二人じゃないとできないことだよ
+Dialogue: 0,0:23:27.14,0:23:33.05,EDJ,NTP,0,0,0,,{\fad(100,100)}今すぐに　大好き　Kiss(and)Love
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,\\---------------------EDCN----------------------
+Dialogue: 0,0:22:33.92,0:22:36.88,EDC,NTP,0,0,0,,{\fad(100,100)}只屬於我們倆的時間
+Dialogue: 0,0:22:37.04,0:22:39.84,EDC,NTP,0,0,0,,{\fad(100,100)}只屬於我們倆的秘密
+Dialogue: 0,0:22:40.02,0:22:45.16,EDC,NTP,0,0,0,,{\fad(100,100)}因為有我們倆的約定在
+Dialogue: 0,0:22:45.97,0:22:48.70,EDC,NTP,0,0,0,,{\fad(100,100)}將喜悅分享
+Dialogue: 0,0:22:48.76,0:22:51.60,EDC,NTP,0,0,0,,{\fad(100,100)}把悲傷共擔
+Dialogue: 0,0:22:51.76,0:22:57.23,EDC,NTP,0,0,0,,{\fad(100,100)}就能變得比獨自一人的時候更幸福
+Dialogue: 0,0:22:57.45,0:23:02.33,EDC,NTP,0,0,0,,{\fad(100,100)}明天也一起來
+Dialogue: 0,0:23:02.63,0:23:04.41,EDC,NTP,0,0,0,,{\fad(100,100)}增加回憶吧
+Dialogue: 0,0:23:04.60,0:23:08.24,EDC,NTP,0,0,0,,{\fad(100,100)}要裝得滿滿的哦
+Dialogue: 0,0:23:09.20,0:23:14.21,EDC,NTP,0,0,0,,{\fad(100,100)}在這廣袤世界裡相會的奇跡
+Dialogue: 0,0:23:14.81,0:23:20.49,EDC,NTP,0,0,0,,{\fad(100,100)}是因為有特別的你才能做到的
+Dialogue: 0,0:23:21.26,0:23:26.59,EDC,NTP,0,0,0,,{\fad(100,100)}不是我們倆就無法做到的
+Dialogue: 0,0:23:27.14,0:23:33.05,EDC,NTP,0,0,0,,{\fad(100,100)}現在就想說  好喜歡你  Kiss and Love
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,zhengwen,NTP,0,0,0,,

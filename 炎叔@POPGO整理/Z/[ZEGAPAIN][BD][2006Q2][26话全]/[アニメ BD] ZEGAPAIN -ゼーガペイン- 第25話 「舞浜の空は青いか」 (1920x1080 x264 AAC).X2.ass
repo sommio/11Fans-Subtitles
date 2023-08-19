@@ -1,0 +1,282 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 704
+PlayResY: 396
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: op,DFGMaruGothic-SB,22,&H00334592,&H00c1f1f0,&H00000000,&H80000000,0,0,0,0,100,100,0,0.00,1,1,0,2,10,10,10,1
+Style: warning,DFKaiShuW7-B5,20,&H00ffffff,&H00ffffff,&H00000000,&H00000000,-1,0,0,0,100,100,0,0.00,1,1,1,8,5,5,10,1
+Style: Default,DFHeiMedium-B5,25,&H00ffffff,&Hf0000000,&H00000000,&Hf0000000,-1,0,0,0,100,100,0,0.00,1,1,0,2,30,30,10,1
+Style: Default1,DFKaiShuW7-B5,28,&H00ffffff,&Hf0000000,&H90000000,&H90000000,-1,0,0,0,100,100,10,0.00,1,1,2,2,30,30,10,1
+Style: ed,DFGMaruGothic-SB,22,&H00c1f1f0,&H00334592,&H00000000,&H80000000,0,0,0,0,100,100,0,0.00,1,1,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.44,0:00:12.11,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,700,\alpha&HFF&\fscy50\fscx120)}{\K70}誰{\r\q2\be1\shad0\t(701,1430,\alpha&HFF&\fscy50\fscx120)}{\K73}か{\r\q2\be1\shad0\t(1431,2500,\alpha&HFF&\fscy50\fscx120)}{\K107}が{\r\q2\be1\shad0\t(2501,2800,\alpha&HFF&\fscy50\fscx120)}{\K30}見{\r\q2\be1\shad0\t(2801,3100,\alpha&HFF&\fscy50\fscx120)}{\K30}て{\r\q2\be1\shad0\t(3101,3400,\alpha&HFF&\fscy50\fscx120)}{\K30}い{\r\q2\be1\shad0\t(3401,3500,\alpha&HFF&\fscy50\fscx120)}{\K10}る{\r\q2\be1\shad0\t(3501,3700,\alpha&HFF&\fscy50\fscx120)}{\K20}{\r\q2\be1\shad0\t(3701,4140,\alpha&HFF&\fscy50\fscx120)}{\K44}ビ{\r\q2\be1\shad0\t(4141,4170,\alpha&HFF&\FSCY50\FSCX120)}{\K3}ジ{\r\q2\be1\shad0\t(4171,4320,\alpha&HFF&\fscy50\fscx120)}{\K15}ュ{\r\q2\be1\shad0\t(4321,4450,\alpha&HFF&\fscy50\fscx120)}{\K13}ア{\r\q2\be1\shad0\t(4451,4850,\alpha&HFF&\fscy50\fscx120)}{\K40}ル{\r\q2\be1\shad0\t(4851,5160,\alpha&HFF&\fscy50\fscx120)}{\K31} {\r\q2\be1\shad0\t(5161,5470,\alpha&HFF&\fscy50\fscx120)}{\K31}目{\r\q2\be1\shad0\t(5471,5680,\alpha&HFF&\fscy50\fscx120)}{\K21}の{\r\q2\be1\shad0\t(5681,6380,\alpha&HFF&\fscy50\fscx120)}{\K70}前{\r\q2\be1\shad0\t(6381,6980,\alpha&HFF&\fscy50\fscx120))}{\K60}の
+Dialogue: 0,0:00:14.40,0:00:23.04,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,480,\alpha&HFF&\fscy50\fscx120)}{\K48}急{\r\q2\be1\shad0\t(481,720,\alpha&HFF&\fscy50\fscx120)}{\K24}な{\r\q2\be1\shad0\t(721,1420,\alpha&HFF&\fscy50\fscx120)}{\K70}水{\r\q2\be1\shad0\t(1421,2530,\alpha&HFF&\fscy50\fscx120)}{\K111}が{\r\q2\be1\shad0\t(2531,3430,\alpha&HFF&\fscy50\fscx120)}{\K90}カ{\r\q2\be1\shad0\t(3431,3700,\alpha&HFF&\fscy50\fscx120)}{\K27}ラ{\r\q2\be1\shad0\t(3701,3840,\alpha&HFF&\fscy50\fscx120)}{\K14}ダ{\r\q2\be1\shad0\t(3841,4340,\alpha&HFF&\fscy50\fscx120)}{\K50}を{\r\q2\be1\shad0\t(4341,4750,\alpha&HFF&\fscy50\fscx120)}{\K41}逆{\r\q2\be1\shad0\t(4751,5060,\alpha&HFF&\FSCY50\FSCX120)}{\K31}さ{\r\q2\be1\shad0\t(5061,5500,\alpha&HFF&\fscy50\fscx120)}{\K44}に{\r\q2\be1\shad0\t(5501,6260,\alpha&HFF&\fscy50\fscx120)}{\K76}駆{\r\q2\be1\shad0\t(6261,6800,\alpha&HFF&\fscy50\fscx120)}{\K54}け{\r\q2\be1\shad0\t(6801,7610,\alpha&HFF&\fscy50\fscx120))}{\K81}巡
+Dialogue: 0,0:00:24.41,0:00:33.01,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,1000,\alpha&HFF&\fscy50\fscx120)}{\K100}今{\r\q2\be1\shad0\t(1001,1880,\alpha&HFF&\fscy50\fscx120)}{\K88}二{\r\q2\be1\shad0\t(1881,2530,\alpha&HFF&\fscy50\fscx120)}{\K65}人{\r\q2\be1\shad0\t(2531,3330,\alpha&HFF&\fscy50\fscx120)}{\K80}は{\r\q2\be1\shad0\t(3331,4230,\alpha&HFF&\fscy50\fscx120)}{\K90}出{\r\q2\be1\shad0\t(4231,4530,\alpha&HFF&\fscy50\fscx120)}{\K30}會{\r\q2\be1\shad0\t(4531,4730,\alpha&HFF&\fscy50\fscx120)}{\K20}っ{\r\q2\be1\shad0\t(4731,4930,\alpha&HFF&\FSCY50\FSCX120)}{\K20}た{\r\q2\be1\shad0\t(4931,5130,\alpha&HFF&\fscy50\fscx120)}{\K20}意{\r\q2\be1\shad0\t(5131,5930,\alpha&HFF&\fscy50\fscx120)}{\K80}味{\r\q2\be1\shad0\t(5931,6730,\alpha&HFF&\fscy50\fscx120)}{\K80}を{\r\q2\be1\shad0\t(6731,7730,\alpha&HFF&\fscy50\fscx120))}{\K100}想
+Dialogue: 0,0:00:35.10,0:00:46.50,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,400,\alpha&HFF&\fscy50\fscx120)}{\K40}き{\r\q2\be1\shad0\t(401,600,\alpha&HFF&\fscy50\fscx120)}{\K20}っ{\r\q2\be1\shad0\t(601,1000,\alpha&HFF&\fscy50\fscx120)}{\K40}と{\r\q2\be1\shad0\t(1001,2000,\alpha&HFF&\fscy50\fscx120)}{\K100}誰{\r\q2\be1\shad0\t(2001,2700,\alpha&HFF&\fscy50\fscx120)}{\K70}か{\r\q2\be1\shad0\t(2701,3220,\alpha&HFF&\fscy50\fscx120)}{\K52}の{\r\q2\be1\shad0\t(3221,4220,\alpha&HFF&\fscy50\fscx120)}{\K100}記{\r\q2\be1\shad0\t(4221,4520,\alpha&HFF&\fscy50\fscx120)}{\K30}憶{\r\q2\be1\shad0\t(4521,5020,\alpha&HFF&\fscy50\fscx120)}{\K50}の{\r\q2\be1\shad0\t(5021,5720,\alpha&HFF&\FSCY50\FSCX120)}{\K70}中{\r\q2\be1\shad0\t(5721,6720,\alpha&HFF&\fscy50\fscx120)}{\K100}泳{\r\q2\be1\shad0\t(6721,7220,\alpha&HFF&\fscy50\fscx120)}{\K50}い{\r\q2\be1\shad0\t(7221,7820,\alpha&HFF&\fscy50\fscx120)}{\K60}で{\r\q2\be1\shad0\t(7821,8130,\alpha&HFF&\fscy50\fscx120)}{\K31}い{\r\q2\be1\shad0\t(8131,9230,\alpha&HFF&\fscy50\fscx120)}{\K110}る{\r\q2\be1\shad0\t(9231,10170,\alpha&HFF&\fscy50\fscx120)}{\K94}だ{\r\q2\be1\shad0\t(10171,10460,\alpha&HFF&\FSCY50\FSCX120)}{\K29}け{\r\q2\be1\shad0\t(10461,10760,\alpha&HFF&\fscy50\fscx120)}{\K30}で{\r\q2\be1\shad0\t(10761,11160,\alpha&HFF&\fscy50\fscx120))}{\K40}も
+Dialogue: 0,0:00:46.79,0:00:50.29,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,700,\alpha&HFF&\fscy50\fscx120)}{\K70}君{\r\q2\be1\shad0\t(701,900,\alpha&HFF&\fscy50\fscx120)}{\K20}の{\r\q2\be1\shad0\t(901,1400,\alpha&HFF&\fscy50\fscx120)}{\K50}背{\r\q2\be1\shad0\t(1401,2410,\alpha&HFF&\fscy50\fscx120))}{\K101}中
+Dialogue: 0,0:00:50.64,0:00:57.20,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,1400,\alpha&HFF&\fscy50\fscx120)}{\K140}光{\r\q2\be1\shad0\t(1401,1700,\alpha&HFF&\fscy50\fscx120)}{\K30}の{\r\q2\be1\shad0\t(1701,2700,\alpha&HFF&\fscy50\fscx120)}{\K100}羽{\r\q2\be1\shad0\t(2701,3700,\alpha&HFF&\fscy50\fscx120)}{\K100}が{\r\q2\be1\shad0\t(3701,4900,\alpha&HFF&\fscy50\fscx120)}{\K120}空{\r\q2\be1\shad0\t(4901,5100,\alpha&HFF&\fscy50\fscx120)}{\K20}へ{\r\q2\be1\shad0\t(5101,5600,\alpha&HFF&\fscy50\fscx120)}{\K50}広{\r\q2\be1\shad0\t(5601,5800,\alpha&HFF&\FSCY50\FSCX120)}{\K20}が{\r\q2\be1\shad0\t(5801,6300,\alpha&HFF&\fscy50\fscx120))}{\K50}る
+Dialogue: 0,0:00:57.40,0:01:05.60,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,400,\alpha&HFF&\fscy50\fscx120)}{\K40}ど{\r\q2\be1\shad0\t(401,570,\alpha&HFF&\fscy50\fscx120)}{\K17}ん{\r\q2\be1\shad0\t(571,1090,\alpha&HFF&\fscy50\fscx120)}{\K52}な{\r\q2\be1\shad0\t(1091,1290,\alpha&HFF&\fscy50\fscx120)}{\K20}場{\r\q2\be1\shad0\t(1291,1490,\alpha&HFF&\fscy50\fscx120)}{\K20}所{\r\q2\be1\shad0\t(1491,3490,\alpha&HFF&\fscy50\fscx120)}{\K200}も{\r\q2\be1\shad0\t(3491,3990,\alpha&HFF&\fscy50\fscx120)}{\K50}{\r\q2\be1\shad0\t(3991,4490,\alpha&HFF&\fscy50\fscx120)}{\K50}ど{\r\q2\be1\shad0\t(4491,5090,\alpha&HFF&\fscy50\fscx120)}{\K60}ん{\r\q2\be1\shad0\t(5091,5490,\alpha&HFF&\FSCY50\FSCX120)}{\K40}な{\r\q2\be1\shad0\t(5491,5890,\alpha&HFF&\fscy50\fscx120)}{\K40}過{\r\q2\be1\shad0\t(5891,6290,\alpha&HFF&\fscy50\fscx120)}{\K40}去{\r\q2\be1\shad0\t(6291,6590,\alpha&HFF&\fscy50\fscx120)}{\K30}さ{\r\q2\be1\shad0\t(6591,6790,\alpha&HFF&\fscy50\fscx120)}{\K20}え{\r\q2\be1\shad0\t(6791,8090,\alpha&HFF&\fscy50\fscx120))}{\K130}も
+Dialogue: 0,0:01:06.30,0:01:17.93,op,NTP,0000,0000,0000,,{\org(120000,-50000)}{\r\q2\be1\shad0\t(0,700,\alpha&HFF&\fscy50\fscx120)}{\K70}唯{\r\q2\be1\shad0\t(701,1000,\alpha&HFF&\fscy50\fscx120)}{\K30}一{\r\q2\be1\shad0\t(1001,1300,\alpha&HFF&\fscy50\fscx120)}{\K30}つ{\r\q2\be1\shad0\t(1301,1800,\alpha&HFF&\fscy50\fscx120)}{\K50}の{\r\q2\be1\shad0\t(1801,2230,\alpha&HFF&\fscy50\fscx120)}{\K43}願{\r\q2\be1\shad0\t(2231,2630,\alpha&HFF&\fscy50\fscx120)}{\K40}い{\r\q2\be1\shad0\t(2631,4440,\alpha&HFF&\fscy50\fscx120)}{\K181}が{\r\q2\be1\shad0\t(4441,4940,\alpha&HFF&\fscy50\fscx120)}{\K50}乗{\r\q2\be1\shad0\t(4941,5360,\alpha&HFF&\fscy50\fscx120)}{\K42}り{\r\q2\be1\shad0\t(5361,5560,\alpha&HFF&\FSCY50\FSCX120)}{\K20}越{\r\q2\be1\shad0\t(5561,5760,\alpha&HFF&\fscy50\fscx120)}{\K20}え{\r\q2\be1\shad0\t(5761,5960,\alpha&HFF&\fscy50\fscx120)}{\K20}て{\r\q2\be1\shad0\t(5961,6760,\alpha&HFF&\fscy50\fscx120)}{\K80}ゆ{\r\q2\be1\shad0\t(6761,7160,\alpha&HFF&\fscy50\fscx120)}{\K40}く{\r\q2\be1\shad0\t(7161,9660,\alpha&HFF&\fscy50\fscx120))}{\K250}よ
+Dialogue: 0,0:01:30.95,0:01:33.85,Default,NTP,0000,0000,0000,,跑步 加油 加油 加油
+Dialogue: 0,0:01:34.65,0:01:37.95,Default,NTP,0000,0000,0000,,跑步 加油 加油 加油
+Dialogue: 0,0:01:34.85,0:03:59.85,warning,NTP,0000,0000,0000,Banner;20;0;50,{\pos(0,10)}本字幕由X2字幕組＆影月字幕組聯合制作，僅供試看之用，禁止用於商業行為，請於下載後24小時內刪除，如果你喜歡本作品，請支援購買正版。  製作人員    翻譯校對   林原萌    片源&後期  lloup     時間軸 Wesley     特效 Wesley     質檢 Singblue
+Dialogue: 0,0:01:38.65,0:01:42.05,Default,NTP,0000,0000,0000,,跑步 加油 加油 加油
+Dialogue: 0,0:01:42.25,0:01:44.55,Default,NTP,0000,0000,0000,,看啊 多么宁静啊
+Dialogue: 0,0:01:45.35,0:01:49.45,Default,NTP,0000,0000,0000,,现实世界的情况也已经不再反馈进来了
+Dialogue: 0,0:01:49.95,0:01:52.15,Default,NTP,0000,0000,0000,,和海神号的联结切断了吗
+Dialogue: 0,0:01:52.55,0:01:54.85,Default,NTP,0000,0000,0000,,战局究竟如何了呢
+Dialogue: 0,0:01:55.35,0:01:58.65,Default,NTP,0000,0000,0000,,要是QL没有用尽的话 弗里斯卑尔格也能..
+Dialogue: 0,0:01:59.15,0:02:00.65,Default,NTP,0000,0000,0000,,希望仍然是存在的
+Dialogue: 0,0:02:02.15,0:02:06.65,Default,NTP,0000,0000,0000,,只要京他们能够接触到岛的原型体的话
+Dialogue: 0,0:02:07.15,0:02:11.05,Default,NTP,0000,0000,0000,,但是 就算是能拿到『复活系统』
+Dialogue: 0,0:02:11.75,0:02:14.55,Default,NTP,0000,0000,0000,,没有了海神号 也无法将其带回地球啊
+Dialogue: 0,0:02:14.85,0:02:16.85,Default,NTP,0000,0000,0000,,只是系统的设计图的话
+Dialogue: 0,0:02:17.05,0:02:19.65,Default,NTP,0000,0000,0000,,应该也能传送至泽伽佩因的服务器内的
+Dialogue: 0,0:02:20.35,0:02:23.45,Default,NTP,0000,0000,0000,,然后根据这个在地球的工场里组装就可以了
+Dialogue: 0,0:02:24.15,0:02:28.15,Default,NTP,0000,0000,0000,,工场 就是制造出海神号和泽伽的地方吗
+Dialogue: 0,0:02:28.55,0:02:31.45,Default,NTP,0000,0000,0000,,可是 这样的话 舞滨服务器不就
+Dialogue: 0,0:02:31.85,0:02:35.45,Default,NTP,0000,0000,0000,,泽伽里面是无法装下这么多的情报量的
+Dialogue: 0,0:02:36.55,0:02:41.55,Default,NTP,0000,0000,0000,,遗憾 这座城市以及我们也会 在吉菲塔斯的内部
+Dialogue: 0,0:02:52.95,0:02:53.85,Default,NTP,0000,0000,0000,,这是
+Dialogue: 0,0:02:54.05,0:02:56.95,Default,NTP,0000,0000,0000,,{\fad(100,100)\pos(354,280)}舞滨的天空是蔚蓝的吗
+Dialogue: 0,0:02:58.95,0:03:00.85,Default,NTP,0000,0000,0000,,机体主体 受到严重损伤
+Dialogue: 0,0:03:01.65,0:03:03.55,Default,NTP,0000,0000,0000,,装甲快要支持不住了
+Dialogue: 0,0:03:06.75,0:03:08.35,Default,NTP,0000,0000,0000,,支持住 璐贤
+Dialogue: 0,0:03:11.25,0:03:11.95,Default,NTP,0000,0000,0000,,京
+Dialogue: 0,0:03:16.95,0:03:19.05,Default,NTP,0000,0000,0000,,没用的 无光者
+Dialogue: 0,0:03:19.95,0:03:22.05,Default,NTP,0000,0000,0000,,看招
+Dialogue: 0,0:03:24.35,0:03:25.05,Default,NTP,0000,0000,0000,,什么
+Dialogue: 0,0:03:36.85,0:03:38.25,Default,NTP,0000,0000,0000,,看好了
+Dialogue: 0,0:03:38.35,0:03:38.95,Default,NTP,0000,0000,0000,,什么
+Dialogue: 0,0:03:43.05,0:03:45.45,Default,NTP,0000,0000,0000,,看到了没 逐层组装化QL的威力
+Dialogue: 0,0:03:45.75,0:03:47.25,Default,NTP,0000,0000,0000,,小京 伽尔达就要
+Dialogue: 0,0:03:47.65,0:03:49.75,Default,NTP,0000,0000,0000,,伽尔达 熄火坠落
+Dialogue: 0,0:03:50.65,0:03:53.05,Default,NTP,0000,0000,0000,,美雨 谢谢
+Dialogue: 0,0:04:04.95,0:04:06.85,Default,NTP,0000,0000,0000,,璐贤
+Dialogue: 0,0:04:10.15,0:04:11.85,Default,NTP,0000,0000,0000,,QL的逐层组装技术
+Dialogue: 0,0:04:12.15,0:04:13.75,Default,NTP,0000,0000,0000,,幻体修复程序
+Dialogue: 0,0:04:14.35,0:04:15.25,Default,NTP,0000,0000,0000,,好厉害
+Dialogue: 0,0:04:15.45,0:04:18.05,Default,NTP,0000,0000,0000,,而这个就是 复活系统
+Dialogue: 0,0:04:19.25,0:04:21.85,Default,NTP,0000,0000,0000,,岛司令 最后的赠物
+Dialogue: 0,0:04:22.25,0:04:23.65,Default,NTP,0000,0000,0000,,借由世界蛇的技术
+Dialogue: 0,0:04:23.85,0:04:27.55,Default,NTP,0000,0000,0000,,舞滨服务器的全息记录也已经被处理成相当的小型化了
+Dialogue: 0,0:04:28.25,0:04:30.45,Default,NTP,0000,0000,0000,,啊 这个的话 说不定可以
+Dialogue: 0,0:04:30.75,0:04:31.65,Default,NTP,0000,0000,0000,,不行啊
+Dialogue: 0,0:04:31.75,0:04:32.65,Default,NTP,0000,0000,0000,,怎么了
+Dialogue: 0,0:04:33.15,0:04:37.25,Default,NTP,0000,0000,0000,,再生系统的大部分使用了未知的技术
+Dialogue: 0,0:04:37.75,0:04:39.75,Default,NTP,0000,0000,0000,,技术的解析也不知道需要花多长的时间啊
+Dialogue: 0,0:04:40.55,0:04:42.85,Default,NTP,0000,0000,0000,,就算将这份数据带回地球
+Dialogue: 0,0:04:43.45,0:04:45.95,Default,NTP,0000,0000,0000,,凭现在的我们 是无法组装起来的
+Dialogue: 0,0:04:52.15,0:04:53.75,Default,NTP,0000,0000,0000,,你这家伙 竟然敢
+Dialogue: 0,0:04:55.05,0:04:55.75,Default,NTP,0000,0000,0000,,艾比斯
+Dialogue: 0,0:04:56.05,0:04:59.35,Default,NTP,0000,0000,0000,,我们也已经 没有再生机会了
+Dialogue: 0,0:05:07.75,0:05:08.95,Default,NTP,0000,0000,0000,,跑哪儿了
+Dialogue: 0,0:05:09.05,0:05:11.15,Default,NTP,0000,0000,0000,,{\a6}迈因狄艾 反应丢失
+Dialogue: 0,0:05:10.35,0:05:11.95,Default,NTP,0000,0000,0000,,到处都没有他们的反应啊
+Dialogue: 0,0:05:13.15,0:05:14.95,Default,NTP,0000,0000,0000,,两位都做得很漂亮
+Dialogue: 0,0:05:21.35,0:05:22.85,Default,NTP,0000,0000,0000,,姐姐 璐贤
+Dialogue: 0,0:05:23.25,0:05:25.05,Default,NTP,0000,0000,0000,,究竟是谁把两人带回这里的啊
+Dialogue: 0,0:05:25.95,0:05:28.15,Default,NTP,0000,0000,0000,,是我们啊 港副司令
+Dialogue: 0,0:05:28.35,0:05:30.35,Default,NTP,0000,0000,0000,,塔尔博 你没事了吗
+Dialogue: 0,0:05:31.85,0:05:33.35,Default,NTP,0000,0000,0000,,啊 那个
+Dialogue: 0,0:05:37.15,0:05:39.25,Default,NTP,0000,0000,0000,,服务区内出现量子兵器反应
+Dialogue: 0,0:05:41.95,0:05:44.05,Default,NTP,0000,0000,0000,,那家伙是 迈因狄艾
+Dialogue: 0,0:05:45.35,0:05:46.65,Default,NTP,0000,0000,0000,,啊 那是啥啊
+Dialogue: 0,0:05:47.75,0:05:49.05,Default,NTP,0000,0000,0000,,有什么东西在飞嘛
+Dialogue: 0,0:05:52.35,0:05:55.75,Default,NTP,0000,0000,0000,,他们已经被传送至舞滨服务器内了
+Dialogue: 0,0:05:55.85,0:05:57.05,Default,NTP,0000,0000,0000,,你说是舞滨
+Dialogue: 0,0:05:57.65,0:05:59.75,Default,NTP,0000,0000,0000,,这是纳伽所希望的
+Dialogue: 0,0:05:59.95,0:06:03.65,Default,NTP,0000,0000,0000,,为什么 量子兵器怎么可能入侵到这里呢
+Dialogue: 0,0:06:04.35,0:06:06.65,Default,NTP,0000,0000,0000,,是对抗幻体用的化身啊
+Dialogue: 0,0:06:07.25,0:06:11.15,Default,NTP,0000,0000,0000,,海神号现在呢 已经在吉菲塔斯的管理之下咯
+Dialogue: 0,0:06:11.25,0:06:12.25,Default,NTP,0000,0000,0000,,你们说什么
+Dialogue: 0,0:06:12.45,0:06:16.75,Default,NTP,0000,0000,0000,,简单来说呢 我们呢 我们被侵占了呢
+Dialogue: 0,0:06:20.65,0:06:22.55,Default,NTP,0000,0000,0000,,把这里破坏掉就行了吗
+Dialogue: 0,0:06:22.85,0:06:25.05,Default,NTP,0000,0000,0000,,这就是 纳伽的意志
+Dialogue: 0,0:06:40.35,0:06:42.85,Default,NTP,0000,0000,0000,,不好 中弹的幻体8人消失
+Dialogue: 0,0:06:43.55,0:06:46.55,Default,NTP,0000,0000,0000,,被他们从服务器内部完全消除 已经无法修复了
+Dialogue: 0,0:06:47.55,0:06:49.15,Default,NTP,0000,0000,0000,,不能通过系统将他们驱逐出去吗
+Dialogue: 0,0:06:49.65,0:06:53.75,Default,NTP,0000,0000,0000,,我在弄 可是这种异物的侵入 并不在设想之中啊
+Dialogue: 0,0:06:57.95,0:07:03.15,Default,NTP,0000,0000,0000,,现在 我们已经和纳伽 也就是吉菲塔斯一体化了
+Dialogue: 0,0:07:03.35,0:07:05.15,Default,NTP,0000,0000,0000,,你这家伙 太卑鄙了啊
+Dialogue: 0,0:07:05.35,0:07:07.15,Default,NTP,0000,0000,0000,,快把我们也传送到舞滨去啊
+Dialogue: 0,0:07:07.95,0:07:09.35,Default,NTP,0000,0000,0000,,我们也是这样想的啊
+Dialogue: 0,0:07:10.15,0:07:12.25,Default,NTP,0000,0000,0000,,纳伽也是这么希望的啊
+Dialogue: 0,0:07:13.05,0:07:15.55,Default,NTP,0000,0000,0000,,阿尔蒂尔 量子变换 完成
+Dialogue: 0,0:07:16.45,0:07:18.35,Default,NTP,0000,0000,0000,,下载至舞滨服务区
+Dialogue: 0,0:07:26.95,0:07:28.15,Default,NTP,0000,0000,0000,,那是什么啊
+Dialogue: 0,0:07:28.45,0:07:30.55,Default,NTP,0000,0000,0000,,是世界蛇的敌机啊
+Dialogue: 0,0:07:30.75,0:07:33.45,Default,NTP,0000,0000,0000,,怎么可能啊 那架机体可从来都没见过哎
+Dialogue: 0,0:07:33.75,0:07:35.45,Default,NTP,0000,0000,0000,,不对啊 你说的那是游戏啊
+Dialogue: 0,0:07:36.35,0:07:38.05,Default,NTP,0000,0000,0000,,不是啊 这可不是游戏啊
+Dialogue: 0,0:07:43.95,0:07:47.25,Default,NTP,0000,0000,0000,,那里聚集着很多无光者啊
+Dialogue: 0,0:07:47.75,0:07:49.55,Default,NTP,0000,0000,0000,,全部 消除
+Dialogue: 0,0:07:52.85,0:07:53.85,Default,NTP,0000,0000,0000,,朝这边来了哎
+Dialogue: 0,0:08:05.25,0:08:07.55,Default,NTP,0000,0000,0000,,哼 就这样坠毁吧
+Dialogue: 0,0:08:13.95,0:08:14.65,Default,NTP,0000,0000,0000,,阿尔蒂尔
+Dialogue: 0,0:08:17.95,0:08:19.05,Default,NTP,0000,0000,0000,,泽伽佩因
+Dialogue: 0,0:08:19.35,0:08:20.55,Default,NTP,0000,0000,0000,,是泽伽佩因哎
+Dialogue: 0,0:08:21.95,0:08:22.85,Default,NTP,0000,0000,0000,,喂 你们看那里
+Dialogue: 0,0:08:23.85,0:08:25.05,Default,NTP,0000,0000,0000,,十冻
+Dialogue: 0,0:08:25.25,0:08:26.05,Default,NTP,0000,0000,0000,,是京
+Dialogue: 0,0:08:26.75,0:08:27.85,Default,NTP,0000,0000,0000,,那家伙
+Dialogue: 0,0:08:28.05,0:08:28.95,Default,NTP,0000,0000,0000,,了子
+Dialogue: 0,0:08:29.95,0:08:31.05,Default,NTP,0000,0000,0000,,宝贵的地方
+Dialogue: 0,0:08:31.75,0:08:33.65,Default,NTP,0000,0000,0000,,想要破坏的人 我决不原谅
+Dialogue: 0,0:08:41.15,0:08:44.75,Default,NTP,0000,0000,0000,,兀鲁瓦弗尔 20架化身 安巴鲁 5架化身
+Dialogue: 0,0:08:44.85,0:08:46.75,Default,NTP,0000,0000,0000,,已经送到你们那边了哦
+Dialogue: 0,0:08:46.95,0:08:49.85,Default,NTP,0000,0000,0000,,不赶紧处理掉的话 大家都会消失的哦
+Dialogue: 0,0:08:51.75,0:08:52.95,Default,NTP,0000,0000,0000,,啊 不好
+Dialogue: 0,0:09:12.55,0:09:13.45,Default,NTP,0000,0000,0000,,副会长
+Dialogue: 0,0:09:14.25,0:09:15.45,Default,NTP,0000,0000,0000,,黑潮
+Dialogue: 0,0:09:15.75,0:09:17.15,Default,NTP,0000,0000,0000,,那个不是入江吗
+Dialogue: 0,0:09:18.15,0:09:19.35,Default,NTP,0000,0000,0000,,紫津乃学姐
+Dialogue: 0,0:09:20.05,0:09:23.05,Default,NTP,0000,0000,0000,,这里是我们的城市 我们的学校啊
+Dialogue: 0,0:09:23.85,0:09:25.65,Default,NTP,0000,0000,0000,,一定要坚守下去
+Dialogue: 0,0:09:30.15,0:09:32.45,Default,NTP,0000,0000,0000,,大家 赶快到体育馆中避难啊
+Dialogue: 0,0:09:32.75,0:09:35.55,Default,NTP,0000,0000,0000,,学生的避难就交给我吧 你们
+Dialogue: 0,0:09:37.05,0:09:38.35,Default,NTP,0000,0000,0000,,十冻 交给你们了
+Dialogue: 0,0:09:38.55,0:09:40.35,Default,NTP,0000,0000,0000,,大家 这边来啊 快点
+Dialogue: 0,0:09:41.35,0:09:44.45,Default,NTP,0000,0000,0000,,快点 快点 快点
+Dialogue: 0,0:09:44.55,0:09:45.45,Default,NTP,0000,0000,0000,,你们
+Dialogue: 0,0:09:47.05,0:09:47.75,Default,NTP,0000,0000,0000,,等下啊
+Dialogue: 0,0:09:48.15,0:09:49.25,Default,NTP,0000,0000,0000,,交给我吧
+Dialogue: 0,0:09:49.75,0:09:50.45,Default,NTP,0000,0000,0000,,拜托了
+Dialogue: 0,0:09:54.65,0:09:56.35,Default,NTP,0000,0000,0000,,好厉害 是真的哎
+Dialogue: 0,0:10:07.75,0:10:10.65,Default,NTP,0000,0000,0000,,小京 哎 老姐
+Dialogue: 0,0:10:12.25,0:10:14.75,Default,NTP,0000,0000,0000,,浩二 笨蛋 快点逃啊
+Dialogue: 0,0:10:15.15,0:10:18.45,Default,NTP,0000,0000,0000,,边守边打 原来是这么难的啊
+Dialogue: 0,0:10:36.05,0:10:38.95,Default,NTP,0000,0000,0000,,我们已经将体育馆的保卫系统\N以精确定位形式进行强化了
+Dialogue: 0,0:10:39.45,0:10:40.65,Default,NTP,0000,0000,0000,,这里是安全的
+Dialogue: 0,0:10:51.25,0:10:54.65,Default,NTP,0000,0000,0000,,闸门封锁 敌人不会再进来了
+Dialogue: 0,0:10:55.05,0:10:56.15,Default,NTP,0000,0000,0000,,啊 这是
+Dialogue: 0,0:10:57.15,0:10:57.75,Default,NTP,0000,0000,0000,,地球
+Dialogue: 0,0:10:58.45,0:10:59.95,Default,NTP,0000,0000,0000,,已经有那么多德弗泰拉了吗
+Dialogue: 0,0:11:00.15,0:11:02.15,Default,NTP,0000,0000,0000,,还有12小时 整个地球将会
+Dialogue: 0,0:11:02.95,0:11:04.95,Default,NTP,0000,0000,0000,,被吞噬进去反而能轻松一些哦
+Dialogue: 0,0:11:05.55,0:11:08.75,Default,NTP,0000,0000,0000,,德弗泰拉领域是为了这个目的而做出来的嘛
+Dialogue: 0,0:11:09.35,0:11:14.55,Default,NTP,0000,0000,0000,,为了将吞入的量子数据\N改写成去除痛苦的形式的自动装置
+Dialogue: 0,0:11:14.95,0:11:18.85,Default,NTP,0000,0000,0000,,不知不觉中这些数据\N孕育出了富有多样性的生态系统呢
+Dialogue: 0,0:11:23.35,0:11:27.15,Default,NTP,0000,0000,0000,,多亏了这些 才有了艾比斯和辛这样的进化呢
+Dialogue: 0,0:11:27.35,0:11:28.05,Default,NTP,0000,0000,0000,,少烦
+Dialogue: 0,0:11:30.45,0:11:35.95,Default,NTP,0000,0000,0000,,当然了 事实上是和赛雷布兰的战斗促进了这进化啊
+Dialogue: 0,0:11:36.85,0:11:40.05,Default,NTP,0000,0000,0000,,因此 现在才会让他们这样战斗着啊
+Dialogue: 0,0:11:43.15,0:11:45.15,Default,NTP,0000,0000,0000,,海神号 海神号吗
+Dialogue: 0,0:11:46.75,0:11:49.95,Default,NTP,0000,0000,0000,,我舰现在正在攻击敌轨道基地 克劳德
+Dialogue: 0,0:11:50.55,0:11:52.15,Default,NTP,0000,0000,0000,,月球的战局如何了
+Dialogue: 0,0:11:52.45,0:11:53.45,Default,NTP,0000,0000,0000,,青空司令
+Dialogue: 0,0:12:02.25,0:12:03.25,Default,NTP,0000,0000,0000,,没事吧
+Dialogue: 0,0:12:03.55,0:12:05.55,Default,NTP,0000,0000,0000,,啊 这点程度 没事的
+Dialogue: 0,0:12:06.15,0:12:10.85,Default,NTP,0000,0000,0000,,我还需要靠你来模拟出消灭敌人后的任务呢
+Dialogue: 0,0:12:11.15,0:12:14.65,Default,NTP,0000,0000,0000,,消灭敌人以后？ 现在哪儿有余地去想这些
+Dialogue: 0,0:12:14.85,0:12:17.65,Default,NTP,0000,0000,0000,,司令的话 一定会妥善准备到那一步的
+Dialogue: 0,0:12:18.95,0:12:19.85,Default,NTP,0000,0000,0000,,我明白了
+Dialogue: 0,0:12:41.35,0:12:43.35,Default,NTP,0000,0000,0000,,我 稍微出去一下啊
+Dialogue: 0,0:12:45.35,0:12:46.75,Default,NTP,0000,0000,0000,,等下 我也去
+Dialogue: 0,0:12:54.45,0:12:55.15,Default,NTP,0000,0000,0000,,混蛋
+Dialogue: 0,0:13:01.45,0:13:02.25,Default,NTP,0000,0000,0000,,守和
+Dialogue: 0,0:13:08.05,0:13:08.75,Default,NTP,0000,0000,0000,,京
+Dialogue: 0,0:13:14.85,0:13:16.05,Default,NTP,0000,0000,0000,,紫津乃学姐
+Dialogue: 0,0:13:17.15,0:13:23.65,Default,NTP,0000,0000,0000,,你还在那里假装人类吗 耶鲁4.31版本
+Dialogue: 0,0:13:24.85,0:13:28.25,Default,NTP,0000,0000,0000,,就算你在那里 也没法入手你所期望的幸福的啊
+Dialogue: 0,0:13:28.45,0:13:31.55,Default,NTP,0000,0000,0000,,那是因为 你原本就是个没有实体的
+Dialogue: 0,0:13:31.75,0:13:35.65,Default,NTP,0000,0000,0000,,在IAL社的量子服务器内培养出的人工幻体
+Dialogue: 0,0:13:38.55,0:13:42.35,Default,NTP,0000,0000,0000,,违抗作你为父亲的纳伽 这可不太好哦
+Dialogue: 0,0:13:42.65,0:13:43.45,Default,NTP,0000,0000,0000,,不对
+Dialogue: 0,0:13:45.45,0:13:51.15,Default,NTP,0000,0000,0000,,我们AI只是一组\N将大量类似于人类的反应模式集合起来的程序而已
+Dialogue: 0,0:13:52.45,0:13:57.05,Default,NTP,0000,0000,0000,,通过策划 推论 反应的演算的巨大连锁
+Dialogue: 0,0:13:57.55,0:14:00.45,Default,NTP,0000,0000,0000,,进行犹如拥有智能的行为而已
+Dialogue: 0,0:14:00.65,0:14:03.35,Default,NTP,0000,0000,0000,,这里是不存在着合理性的感受
+Dialogue: 0,0:14:03.55,0:14:06.65,Default,NTP,0000,0000,0000,,或是作为意识中心的迪卡儿一般的激情的
+Dialogue: 0,0:14:08.15,0:14:09.75,Default,NTP,0000,0000,0000,,这里的情况还真糟糕啊
+Dialogue: 0,0:14:10.25,0:14:13.95,Default,NTP,0000,0000,0000,,但是 能够阻止 量子的波动演算
+Dialogue: 0,0:14:14.25,0:14:15.85,Default,NTP,0000,0000,0000,,『你是有这种能力的』
+Dialogue: 0,0:14:16.35,0:14:18.25,Default,NTP,0000,0000,0000,,纳伽就是这样主张的
+Dialogue: 0,0:14:18.65,0:14:22.45,Default,NTP,0000,0000,0000,,为了证明这些 才将人类幻体化了的呢
+Dialogue: 0,0:14:22.95,0:14:26.25,Default,NTP,0000,0000,0000,,可是 耶鲁 就算你拥有『心』
+Dialogue: 0,0:14:26.35,0:14:27.85,Default,NTP,0000,0000,0000,,你也不过是实验材料而已
+Dialogue: 0,0:14:28.45,0:14:32.45,Default,NTP,0000,0000,0000,,和其它幻体不同 是不可能成为现实世界的人类的啊
+Dialogue: 0,0:14:32.95,0:14:35.95,Default,NTP,0000,0000,0000,,回来吧 回到世界蛇来
+Dialogue: 0,0:14:36.95,0:14:40.45,Default,NTP,0000,0000,0000,,我并没有欺骗大家 我只是不知道啊
+Dialogue: 0,0:14:55.15,0:14:57.75,Default,NTP,0000,0000,0000,,直到那时 我也才
+Dialogue: 0,0:15:01.35,0:15:02.65,Default,NTP,0000,0000,0000,,紫津乃学姐
+Dialogue: 0,0:15:02.95,0:15:04.35,Default,NTP,0000,0000,0000,,安巴鲁 接近
+Dialogue: 0,0:15:30.45,0:15:33.25,Default,NTP,0000,0000,0000,,对不起 大家
+Dialogue: 0,0:15:34.15,0:15:37.25,Default,NTP,0000,0000,0000,,你在说什么啊 紫津乃 你是我们的同伴啊
+Dialogue: 0,0:15:38.75,0:15:41.75,Default,NTP,0000,0000,0000,,我们可是并肩作战至今的同伴啊
+Dialogue: 0,0:15:44.05,0:15:45.65,Default,NTP,0000,0000,0000,,那是
+Dialogue: 0,0:15:48.25,0:15:50.05,Default,NTP,0000,0000,0000,,当然的啊
+Dialogue: 0,0:16:04.45,0:16:07.15,Default,NTP,0000,0000,0000,,十冻京 就此了断吧
+Dialogue: 0,0:16:10.45,0:16:11.45,Default,NTP,0000,0000,0000,,滚出去
+Dialogue: 0,0:16:12.35,0:16:13.25,Default,NTP,0000,0000,0000,,河口
+Dialogue: 0,0:16:14.25,0:16:16.05,Default,NTP,0000,0000,0000,,这里是我们的城市啊
+Dialogue: 0,0:16:16.25,0:16:17.75,Default,NTP,0000,0000,0000,,给我滚出去啊
+Dialogue: 0,0:16:21.75,0:16:23.95,Default,NTP,0000,0000,0000,,笨蛋啊 毫无意义的行为啊
+Dialogue: 0,0:16:37.55,0:16:39.85,Default,NTP,0000,0000,0000,,这份感觉 是什么
+Dialogue: 0,0:16:41.35,0:16:43.75,Default,NTP,0000,0000,0000,,陈旧的细胞 产生疼痛了
+Dialogue: 0,0:16:45.65,0:16:46.65,Default,NTP,0000,0000,0000,,滚出去啊
+Dialogue: 0,0:16:51.25,0:16:53.05,Default,NTP,0000,0000,0000,,这里很不好
+Dialogue: 0,0:16:53.25,0:16:55.55,Default,NTP,0000,0000,0000,,嗯 是不该待的地方
+Dialogue: 0,0:16:59.35,0:17:00.15,Default,NTP,0000,0000,0000,,混蛋
+Dialogue: 0,0:17:19.05,0:17:22.35,Default,NTP,0000,0000,0000,,我们 输给了无光者
+Dialogue: 0,0:17:25.55,0:17:27.05,Default,NTP,0000,0000,0000,,艾比斯
+Dialogue: 0,0:17:52.05,0:17:56.55,Default,NTP,0000,0000,0000,,请注意 我将向各位引导者说明任务的内容
+Dialogue: 0,0:17:57.45,0:18:02.15,Default,NTP,0000,0000,0000,,使用了世界蛇技术而小型化的舞滨服务器的全息记录
+Dialogue: 0,0:18:02.55,0:18:04.65,Default,NTP,0000,0000,0000,,将被以物质形式收纳进泽伽佩因
+Dialogue: 0,0:18:06.35,0:18:08.35,Default,NTP,0000,0000,0000,,将泽伽胸部的机舱组件
+Dialogue: 0,0:18:08.55,0:18:11.05,Default,NTP,0000,0000,0000,,和舞滨服务器的水平位置达成同步
+Dialogue: 0,0:18:11.35,0:18:14.55,Default,NTP,0000,0000,0000,,拉动入图所示的把手 就能以全自动形式进行收纳
+Dialogue: 0,0:18:15.35,0:18:19.25,Default,NTP,0000,0000,0000,,将时钟频率降低的话 就有可能将其带回地球
+Dialogue: 0,0:18:20.45,0:18:23.45,Default,NTP,0000,0000,0000,,但是 打开锁盖并拉动把手的作业
+Dialogue: 0,0:18:23.65,0:18:26.15,Default,NTP,0000,0000,0000,,一定得由实体化了的人类亲手操作才行
+Dialogue: 0,0:18:27.55,0:18:29.35,Default,NTP,0000,0000,0000,,这原本是作业机器人该做的工作
+Dialogue: 0,0:18:29.75,0:18:33.55,Default,NTP,0000,0000,0000,,但是我们现在已经没有能执行这项作业的机器人了
+Dialogue: 0,0:18:34.75,0:18:39.95,Default,NTP,0000,0000,0000,,而且 数分锺后舞滨服务器所处的实验室本身也将发生爆炸
+Dialogue: 0,0:18:41.15,0:18:43.95,Default,NTP,0000,0000,0000,,在此之前完成作业的手段就只有一个
+Dialogue: 0,0:18:44.45,0:18:48.35,Default,NTP,0000,0000,0000,,那就是 由某人使用复活系统恢复成人类
+Dialogue: 0,0:18:49.55,0:18:51.15,Default,NTP,0000,0000,0000,,恢复成人类的那个人
+Dialogue: 0,0:18:51.75,0:18:58.25,Default,NTP,0000,0000,0000,,将孤独地活在另一个时间中\N直到地球上完成了复活系统的那一天
+Dialogue: 0,0:18:59.65,0:19:04.25,Default,NTP,0000,0000,0000,,10年之后或是20年之后 又或者更长
+Dialogue: 0,0:19:10.85,0:19:12.15,Default,NTP,0000,0000,0000,,那我走了 守和
+Dialogue: 0,0:19:37.55,0:19:39.55,Default,NTP,0000,0000,0000,,你等着他吧 就在这里
+Dialogue: 0,0:19:51.95,0:19:52.85,Default,NTP,0000,0000,0000,,京
+Dialogue: 0,0:19:55.95,0:19:58.25,Default,NTP,0000,0000,0000,,小京
+Dialogue: 0,0:20:52.25,0:20:54.85,Default,NTP,0000,0000,0000,,能摸到了 能触摸到了哎
+Dialogue: 0,0:21:12.05,0:21:14.45,Default,NTP,0000,0000,0000,,好 第3阶段 完成
+Dialogue: 0,0:21:23.65,0:21:27.85,Default,NTP,0000,0000,0000,,守和 舞滨的天空 是蔚蓝色的吗
+Dialogue: 0,0:21:29.95,0:21:31.75,Default,NTP,0000,0000,0000,,京 来吧
+Dialogue: 0,0:21:48.75,0:21:51.55,Default,NTP,0000,0000,0000,,我 已经全都记起来了
+Dialogue: 0,0:21:55.05,0:21:56.85,Default,NTP,0000,0000,0000,,走了 紫津乃
+Dialogue: 0,0:21:57.65,0:21:58.25,Default,NTP,0000,0000,0000,,好
+Dialogue: 0,0:22:06.35,0:22:08.55,Default,NTP,0000,0000,0000,,任务 过渡至第4阶段
+Dialogue: 0,0:22:09.65,0:22:12.55,Default,NTP,0000,0000,0000,,泽伽佩因•弗里斯卑尔格 起动
+Dialogue: 0,0:22:57.95,0:23:02.95,Default,NTP,0000,0000,0000,,莫消此念 勿忘我痛
+Dialogue: 0,0:23:06.65,0:23:08.95,Default,NTP,0000,0000,0000,,泽伽佩因 最终回
+Dialogue: 0,0:23:10.55,0:23:12.05,Default,NTP,0000,0000,0000,,森罗万象
+Dialogue: 0,0:23:14.05,0:23:16.85,Default,NTP,0000,0000,0000,,京 我曾非常的爱你
+Dialogue: 0,0:21:28.60,0:21:41.60,ed,NTP,0000,0000,0000,,{\be1}{\K50}目{\K20}が{\K40}覚{\K40}め{\K100}て{\K130}　{\K60}夢{\K30}の{\K50}痛{\K60}み{\K100}が{\K130}　{\K50}夜{\K30}に{\K50}{\K40}溶{\K40}け{\K30}て{\K30}行{\K130}く{\K30}
+Dialogue: 0,0:21:43.80,0:21:56.20,ed,NTP,0000,0000,0000,,{\be1}{\K50}風{\K40}の{\K60}街{\K130}の{\K100}　{\K50}冷{\K30}た{\K30}い{\K70}空{\K130}が{\K80}　{\K30}全{\K60}て{\K40}を{\K60}変{\K40}え{\K30}て{\K30}行{\K130}く{\K30}
+Dialogue: 0,0:21:59.00,0:22:10.80,ed,NTP,0000,0000,0000,,{\be1}{\K40}時{\K30}が{\K30}戻{\K20}っ{\K50}た{\K50}ら{\K160}　{\K40}時{\K30}が{\K30}戻{\K20}っ{\K50}た{\K50}ら{\K160}　{\K40}時{\K30}が{\K30}戻{\K20}っ{\K50}た{\K50}ら{\K160}
+Dialogue: 0,0:22:13.20,0:22:20.10,ed,NTP,0000,0000,0000,,{\K40}キ{\K40}ス{\K50}し{\K40}て{\K100}グッドバイ{\K70}　{\K20}あ{\K20}り{\K40}と{\K30}あ{\K20}ら{\K30}ゆ{\K30}る{\K30}も{\K60}の{\K40}
+Dialogue: 0,0:22:20.20,0:22:28.40,ed,NTP,0000,0000,0000,,{\be1}{\K60}巡{\K50}る{\K40}行{\K40}く{\K80}時{\K40}に{\K100}　{\K60}巡{\K40}り{\K60}来{\K40}る{\K80}貴{\K80}方{\K40}に{\K40}
+Dialogue: 0,0:22:28.60,0:22:35.00,ed,NTP,0000,0000,0000,,{\be1}{\K50}記{\K60}憶{\K50}の{\K80}淵{\K40}で{\K40}　{\K40}時{\K40}は{\K40}繰{\K40}り{\K40}返{\K40}す{\K40}
+Dialogue: 0,0:22:35.40,0:22:45.40,ed,NTP,0000,0000,0000,,{\be1}{\K120}イメージ{\K40}を{\K40}見{\K100}た{\K100}　{\K120}イメージ{\K40}を{\K60}見{\K100}た{\K100}く{\K100}て{\K40}

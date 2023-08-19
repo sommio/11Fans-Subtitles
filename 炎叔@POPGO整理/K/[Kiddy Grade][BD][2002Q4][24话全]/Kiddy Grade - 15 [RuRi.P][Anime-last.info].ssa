@@ -1,0 +1,233 @@
+[Script Info]
+; This is a Sub Station Alpha v4 script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Note: This file was saved by SubResync.
+; 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+;FREEWINDSUB=正文字幕
+Style: Default,simhei,15,&Hffffff,&Hfcc4a5,&H000008,&H000008,0,0,1,1,1,2,30,30,10,0,1
+;FREEWINDSUB=中文歌词
+Style: SongChn,simhei,15,&Hffffff,&Hfcc4a5,&H000008,&H000008,0,0,1,1,1,2,30,30,10,0,1
+;FREEWINDSUB=日文歌词
+Style: SongJap,simhei,12,&Hff00ff,&Hffffff,&H000000,&Haaccff,0,0,0,1,0,6,30,30,0,0,1
+;FREEWINDSUB=罗马注音
+Style: SongRom,Comic Sans MS,14,&Hff5000,&Hffffff,&H000000,&Haaccff,0,0,0,1,0,6,30,30,0,0,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:01.76,0:00:05.43,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K30}Any {\K60}Planet's {\K80}Keeping {\K180}Twinkle
+Dialogue: Marked=0,0:00:05.43,0:00:07.55,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K60}Never {\K30}Let {\K10}Me {\K30}For{\K30}ge{\K30}t
+Dialogue: Marked=0,0:00:09.36,0:00:12.97,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K80}Everybody's {\K70}Keeping{\K40} {\K140}Secrets
+Dialogue: Marked=0,0:00:12.97,0:00:15.37,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K30}Never {\K30}Let {\K30}Me {\K110}Get Back
+Dialogue: Marked=0,0:00:17.26,0:00:20.75,SongChn,NTP,0000,0000,0000,,{\fs14}只要你注意到我 我就不会寂寞
+Dialogue: Marked=0,0:00:17.27,0:00:20.76,SongRom,NTP,0000,0000,0000,,{\a6\k40}So {\k20}Take {\k20}It {\k40}Together {\k40}Now {\k50}hi {\k17}to {\k17}ri {\k17}ja {\k17}na {\k17}i {\k17}yo
+Dialogue: Marked=0,0:00:17.28,0:00:20.77,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K40}So {\K20}Take {\K20}It {\K40}Together {\K40}Now {\fnSimhei\fs14\K50}独{\K50}りじゃ{\K50}ないよ
+Dialogue: Marked=0,0:00:20.77,0:00:24.06,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K50}Give {\K30}Me {\K20}The {\K90}Holy {\K120}Land
+Dialogue: Marked=0,0:00:25.00,0:00:28.30,SongChn,NTP,0000,0000,0000,,{\fs14}怀抱着遥远的记忆
+Dialogue: Marked=0,0:00:25.01,0:00:28.31,SongRom,NTP,0000,0000,0000,,{\a6\k40}haru {\k25}ka {\k25}na {\k50} {\k50}ki {\k30}o {\k30}kuda {\k50}i {\k20}te
+Dialogue: Marked=0,0:00:25.02,0:00:28.32,SongJap,NTP,0000,0000,0000,,{\a6\K40}遥{\K50}かな{\K50} {\K50}記{\K30}憶{\K30}抱{\K50}い{\K20}て
+Dialogue: Marked=0,0:00:28.31,0:00:32.53,SongChn,NTP,0000,0000,0000,,{\fs14}彷徨着 Oh,Tears Of Stars
+Dialogue: Marked=0,0:00:28.32,0:00:32.54,SongRom,NTP,0000,0000,0000,,{\a6\K50\k30}sa {\k30}mayo {\k50}u {\k50}{\k30}Oh,{\k40}Tears {\k20}Of {\k20}{\k80}Stars
+Dialogue: Marked=0,0:00:28.33,0:00:32.55,SongJap,NTP,0000,0000,0000,,{\a6\K50\K60}彷徨{\K50}う{\K50} {\fnMonotype Corsiva\fs16\K30}Oh,{\K40}Tears {\K20}Of{\K20} {\K80}Stars
+Dialogue: Marked=0,0:00:32.54,0:00:39.34,SongChn,NTP,0000,0000,0000,,{\fs14}让现在发出光芒 随着时间流向未来
+Dialogue: Marked=0,0:00:32.55,0:00:39.35,SongRom,NTP,0000,0000,0000,,{\a6\k30}mi {\k30}rai {\k60}e {\k50}{\k55}naga {\k20}re {\k20}te {\k20}ku {\k30}{\k30}ima {\k30}o {\k50}{\k50}kaga {\k20}ya {\k20}ka {\k20}se {\k150}te
+Dialogue: Marked=0,0:00:32.56,0:00:39.36,SongJap,NTP,0000,0000,0000,,{\a6\K60}未来{\K60}へ{\K50} {\K55}流{\K60}れてく{\K30} {\K230}今を輝かせ{\K150}て
+Dialogue: Marked=0,0:00:40.28,0:00:45.48,SongChn,NTP,0000,0000,0000,,{\fs14}选择已逝去的过去的拼图
+Dialogue: Marked=0,0:00:40.29,0:00:45.49,SongRom,NTP,0000,0000,0000,,{\a6\k26}na {\k26}ku {\k26}shi {\k40}ta {\k50}{\k40}ka {\k30}ko {\k20}no {\k20}PA {\k30}ZU {\k30}RU {\k50}{\k40}era {\k40}n {\k40}da
+Dialogue: Marked=0,0:00:40.30,0:00:45.50,SongJap,NTP,0000,0000,0000,,{\a6\K80}なくし{\K40}た{\K50} {\K80}過去{\K70}のパズル{\K50} {\K60}選ん{\K60}だ
+Dialogue: Marked=0,0:00:45.50,0:00:47.56,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K30}So {\K50}It's {\K50}My {\K70}Heart
+Dialogue: Marked=0,0:00:47.96,0:00:50.88,SongChn,NTP,0000,0000,0000,,{\fs14}人事全非的城镇
+Dialogue: Marked=0,0:00:47.97,0:00:50.89,SongRom,NTP,0000,0000,0000,,{\a6\k23}KA {\k23}TA {\k23}CHI {\k30}o {\k50}{\k50}ka {\k20}e {\k20}ta {\k20}ma {\k20}chi
+Dialogue: Marked=0,0:00:47.98,0:00:50.90,SongJap,NTP,0000,0000,0000,,{\a6\K70}カタチ{\K30}を{\K50} {\K70}変{\K60}えた都市
+Dialogue: Marked=0,0:00:50.89,0:00:54.62,SongChn,NTP,0000,0000,0000,,{\fs14}我一直都注意着
+Dialogue: Marked=0,0:00:50.90,0:00:54.63,SongRom,NTP,0000,0000,0000,,{\a6\k50}zut {\k60}to {\k26}ki {\k26}zu {\k26}i {\k26}te {\k26}ta {\k200}yo
+Dialogue: Marked=0,0:00:50.91,0:00:54.64,SongJap,NTP,0000,0000,0000,,{\a6\K50}ずっ{\K60}と{\K130}気付いてた{\K200}よ
+Dialogue: Marked=0,0:00:56.00,0:01:01.99,SongChn,NTP,0000,0000,0000,,{\fs14}想要遗忘的伤痕及红色的天空
+Dialogue: Marked=0,0:00:56.01,0:01:02.00,SongRom,NTP,0000,0000,0000,,{\a6\k20}wa {\k20}su {\k20}re {\k20}ta {\k40}i {\k100}kizu {\k60}ato {\k50}ni {\k20}{\k30}RU {\k30}U {\k30}JU {\k30}no {\k30}so {\k80}ra
+Dialogue: Marked=0,0:00:56.02,0:01:02.01,SongJap,NTP,0000,0000,0000,,{\a6\K100}忘れたい{\K70}傷{\K90}跡{\K50}に{\K30} {\K150}ルージュの宇{\K80}宙
+Dialogue: Marked=0,0:01:02.41,0:01:06.07,SongChn,NTP,0000,0000,0000,,{\fs14}想用疼痛的亲吻
+Dialogue: Marked=0,0:01:02.42,0:01:06.08,SongRom,NTP,0000,0000,0000,,{\a6\k50}ita {\k20}i {\k100}Kiss {\k300}de
+Dialogue: Marked=0,0:01:02.43,0:01:06.09,SongJap,NTP,0000,0000,0000,,{\a6\K70}痛い{\fnMonotype Corsiva\fs16\K70}Kiss{\fnsimhei\fs14\K300}で
+Dialogue: Marked=0,0:01:06.08,0:01:10.74,SongChn,NTP,0000,0000,0000,,{\fs14}来溶化的话
+Dialogue: Marked=0,0:01:06.09,0:01:10.75,SongRom,NTP,0000,0000,0000,,{\a6\k20}to {\k20}ka {\k60}se {\k50}ru {\k20}na {\k300}ra
+Dialogue: Marked=0,0:01:06.10,0:01:10.76,SongJap,NTP,0000,0000,0000,,{\a6\K70}溶かせ{\K70}るな{\K300}ら
+Dialogue: Marked=0,0:01:10.76,0:01:12.49,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K70}Fate {\K30}And {\K60}Fakes
+Dialogue: Marked=0,0:01:12.48,0:01:18.31,SongChn,NTP,0000,0000,0000,,{\fs14}请告诉我重要的事是什么
+Dialogue: Marked=0,0:01:12.49,0:01:18.32,SongRom,NTP,0000,0000,0000,,{\a6\k50}su {\k25}be {\k25}te {\k80}{\k20}dai {\k20}ji {\k20}na {\k20}KO {\k60}TO {\k20}wa {\k40}nani {\k20}{\k60}oshi {\k25}e {\k25}te
+Dialogue: Marked=0,0:01:12.50,0:01:18.33,SongJap,NTP,0000,0000,0000,,{\a6\K50}す{\K50}べて{\K80} {\K130}大事なコトは{\K40}何{\K50} {\K60}教{\K50}えて
+Dialogue: Marked=0,0:01:18.33,0:01:20.07,SongJap,NTP,0000,0000,0000,,{\a6\fnMonotype Corsiva\fs16\K70}Love {\K30}And {\K60}Pain
+Dialogue: Marked=0,0:01:20.06,0:01:28.22,SongChn,NTP,0000,0000,0000,,{\fs14}简直就像在相同的时光中打转 Reflection
+Dialogue: Marked=0,0:01:20.07,0:01:28.23,SongRom,NTP,0000,0000,0000,,{\a6\k60}ma {\k15}ru {\k15}de {\k80}{\k20}on {\k20}na {\k20}ji {\k60}toki {\k50}no {\k30}naka {\k50}{\k26}ma {\k26}wa {\k26}ru {\k100}Reflection
+Dialogue: Marked=0,0:01:20.08,0:01:28.24,SongJap,NTP,0000,0000,0000,,{\a6\K60}ま{\K30}るで{\K80} {\K60}おんな{\K140}じ時空の中{\K50} {\K80}まわる{\fnMonotype Corsiva\fs16\K100}Reflec{\K180}tion
+Dialogue: Marked=0,0:02:05.81,0:02:08.61,*Default,NTP,0000,0000,0000,,这个时刻终于来到了吗
+Dialogue: Marked=0,0:02:12.51,0:02:14.01,*Default,NTP,0000,0000,0000,,第十五话 崩坏
+Dialogue: Marked=0,0:02:23.91,0:02:29.11,*Default,NTP,0000,0000,0000,,1030 各种传感器及旅客状况均没有异常
+Dialogue: Marked=0,0:02:32.41,0:02:34.01,*Default,NTP,0000,0000,0000,,怎么了 利奇？
+Dialogue: Marked=0,0:02:35.81,0:02:39.41,*Default,NTP,0000,0000,0000,,刚才我好像看到了Eclair她们
+Dialogue: Marked=0,0:02:46.51,0:02:48.51,*Default,NTP,0000,0000,0000,,Tweedledee 振作起来
+Dialogue: Marked=0,0:02:50.81,0:02:53.01,*Default,NTP,0000,0000,0000,,没有比这更讨厌的任务了
+Dialogue: Marked=0,0:02:53.81,0:02:54.51,*Default,NTP,0000,0000,0000,,姐姐
+Dialogue: Marked=0,0:02:58.41,0:03:01.01,*Default,NTP,0000,0000,0000,,无论发生什么 我都会保护你的
+Dialogue: Marked=0,0:03:01.01,0:03:02.21,*Default,NTP,0000,0000,0000,,Tweedledum
+Dialogue: Marked=0,0:03:04.01,0:03:04.61,*Default,NTP,0000,0000,0000,,绝对
+Dialogue: Marked=0,0:03:12.31,0:03:14.91,*Default,NTP,0000,0000,0000,,我们原本应该是自由待命的
+Dialogue: Marked=0,0:03:18.01,0:03:19.91,*Default,NTP,0000,0000,0000,,我知道
+Dialogue: Marked=0,0:03:19.91,0:03:21.81,*Default,NTP,0000,0000,0000,,不过我们明明还在放假
+Dialogue: Marked=0,0:03:22.51,0:03:26.41,*Default,NTP,0000,0000,0000,,说什么没任务的ES成员要在总部待命
+Dialogue: Marked=0,0:03:27.11,0:03:29.31,*Default,NTP,0000,0000,0000,,我完美的休假计划…
+Dialogue: Marked=0,0:03:30.21,0:03:32.41,*Default,NTP,0000,0000,0000,,休假计划…
+Dialogue: Marked=0,0:03:37.01,0:03:40.31,*Default,NTP,0000,0000,0000,,我知道 我已经有心理准备了
+Dialogue: Marked=0,0:03:41.51,0:03:43.51,*Default,NTP,0000,0000,0000,,不能逃走对吧
+Dialogue: Marked=0,0:03:48.51,0:03:51.11,*Default,NTP,0000,0000,0000,,继Eclair、Lumiere之后
+Dialogue: Marked=0,0:03:51.11,0:03:57.41,*Default,NTP,0000,0000,0000,,Un-ou、A-ou也玷污了GOTT的金字招牌
+Dialogue: Marked=0,0:03:58.21,0:03:59.31,*Default,NTP,0000,0000,0000,,ES成员
+Dialogue: Marked=0,0:04:00.11,0:04:02.31,*Default,NTP,0000,0000,0000,,Encounter of Shadow-work Member
+Dialogue: Marked=0,0:04:02.31,0:04:04.21,*Default,NTP,0000,0000,0000,,最多只是影子一般的存在
+Dialogue: Marked=0,0:04:04.81,0:04:06.51,*Default,NTP,0000,0000,0000,,不是什么金字招牌
+Dialogue: Marked=0,0:04:07.81,0:04:11.31,*Default,NTP,0000,0000,0000,,说的也是 局长才是金字招牌呀
+Dialogue: Marked=0,0:04:12.31,0:04:16.51,*Default,NTP,0000,0000,0000,,现在Dextera他们正好不在 真是选了一个好时机
+Dialogue: Marked=0,0:04:17.51,0:04:18.71,*Default,NTP,0000,0000,0000,,看来正是如此
+Dialogue: Marked=0,0:04:20.21,0:04:24.41,*Default,NTP,0000,0000,0000,,那么 我们先走了 请期待我们的战果 局长
+Dialogue: Marked=0,0:05:04.41,0:05:09.11,*Default,NTP,0000,0000,0000,,二号塔35-A地区发生爆炸 并有十五处同时起火
+Dialogue: Marked=0,0:05:09.11,0:05:10.21,*Default,NTP,0000,0000,0000,,原因…
+Dialogue: Marked=0,0:05:10.21,0:05:13.51,*Default,NTP,0000,0000,0000,,仍然不明 不过同时有物理和逻辑攻击
+Dialogue: Marked=0,0:05:13.61,0:05:13.71,*Default,NTP,0000,0000,0000,,关掉警报
+Dialogue: Marked=0,0:05:13.71,0:05:13.81,*Default,NTP,0000,0000,0000,,我听不见没有及时逃离的人的声音
+Dialogue: Marked=0,0:05:13.81,0:05:13.91,*Default,NTP,0000,0000,0000,,明白
+Dialogue: Marked=0,0:05:13.91,0:05:14.01,*Default,NTP,0000,0000,0000,,快 这边 快逃
+Dialogue: Marked=0,0:05:14.01,0:05:23.21,*Default,NTP,0000,0000,0000,,快
+Dialogue: Marked=0,0:05:23.21,0:05:24.21,*Default,NTP,0000,0000,0000,,你们俩也快出去
+Dialogue: Marked=0,0:05:26.11,0:05:27.61,*Default,NTP,0000,0000,0000,,爆炸发生在一号和三号通路
+Dialogue: Marked=0,0:05:28.51,0:05:30.31,*Default,NTP,0000,0000,0000,,这里的高速电梯应该还能使用
+Dialogue: Marked=0,0:05:30.31,0:05:32.01,*Default,NTP,0000,0000,0000,,我去保持楼梯通畅
+Dialogue: Marked=0,0:05:32.01,0:05:32.81,*Default,NTP,0000,0000,0000,,就这么办
+Dialogue: Marked=0,0:05:42.61,0:05:44.71,*Default,NTP,0000,0000,0000,,你又在重复相同的事
+Dialogue: Marked=0,0:05:45.51,0:05:47.91,*Default,NTP,0000,0000,0000,,如此一来你也将走上死亡的命运
+Dialogue: Marked=0,0:05:49.11,0:05:51.81,*Default,NTP,0000,0000,0000,,因为我们以前就是这么死的
+Dialogue: Marked=0,0:05:54.21,0:05:56.01,*Default,NTP,0000,0000,0000,,到此为止了 Eclair
+Dialogue: Marked=0,0:05:56.91,0:05:57.91,*Default,NTP,0000,0000,0000,,Tweedledee
+Dialogue: Marked=0,0:05:58.91,0:06:01.61,*Default,NTP,0000,0000,0000,,Eclair GOTT的叛徒
+Dialogue: Marked=0,0:06:02.61,0:06:03.41,*Default,NTP,0000,0000,0000,,Tweedledum
+Dialogue: Marked=0,0:06:04.11,0:06:05.61,*Default,NTP,0000,0000,0000,,我不会让你过去的
+Dialogue: Marked=0,0:06:05.61,0:06:06.91,*Default,NTP,0000,0000,0000,,投降吧
+Dialogue: Marked=0,0:06:06.91,0:06:08.81,*Default,NTP,0000,0000,0000,,不会把你怎么样的
+Dialogue: Marked=0,0:06:09.51,0:06:12.21,*Default,NTP,0000,0000,0000,,虽然整肃命令大概不会撤销
+Dialogue: Marked=0,0:06:38.11,0:06:39.11,*Default,NTP,0000,0000,0000,,Tweedledee
+Dialogue: Marked=0,0:06:43.71,0:06:44.91,*Default,NTP,0000,0000,0000,,什么
+Dialogue: Marked=0,0:07:05.91,0:07:06.71,*Default,NTP,0000,0000,0000,,Eclair
+Dialogue: Marked=0,0:07:07.51,0:07:10.91,*Default,NTP,0000,0000,0000,,你是怎么恢复过去的记忆和能力的？
+Dialogue: Marked=0,0:07:12.31,0:07:15.51,*Default,NTP,0000,0000,0000,,在众多ES成员中有最强力量的
+Dialogue: Marked=0,0:07:17.81,0:07:20.61,*Default,NTP,0000,0000,0000,,我的枪果然也不能用了
+Dialogue: Marked=0,0:07:28.41,0:07:29.71,*Default,NTP,0000,0000,0000,,全员上刺刀
+Dialogue: Marked=0,0:07:32.21,0:07:33.01,*Default,NTP,0000,0000,0000,,冲锋
+Dialogue: Marked=0,0:07:38.61,0:07:39.81,*Default,NTP,0000,0000,0000,,好 上吧
+Dialogue: Marked=0,0:08:01.11,0:08:03.61,*Default,NTP,0000,0000,0000,,游戏就到这里吧 小Lumi
+Dialogue: Marked=0,0:08:14.51,0:08:15.71,*Default,NTP,0000,0000,0000,,雾状纳米屏壁？
+Dialogue: Marked=0,0:08:24.01,0:08:28.31,*Default,NTP,0000,0000,0000,,对付小Lumi时 局内戒备用的雾状纳米机械根本是反效果
+Dialogue: Marked=0,0:08:29.01,0:08:30.51,*Default,NTP,0000,0000,0000,,不过 如果这样…
+Dialogue: Marked=0,0:08:35.51,0:08:36.91,*Default,NTP,0000,0000,0000,,你不知道吗？
+Dialogue: Marked=0,0:08:36.91,0:08:41.31,*Default,NTP,0000,0000,0000,,这种战法是我们的得意招数
+Dialogue: Marked=0,0:08:53.61,0:08:56.01,*Default,NTP,0000,0000,0000,,你们的精确瞄准还真帮了大忙
+Dialogue: Marked=0,0:08:58.51,0:09:00.41,*Default,NTP,0000,0000,0000,,你不知道吗？
+Dialogue: Marked=0,0:09:00.41,0:09:03.51,*Default,NTP,0000,0000,0000,,我也很擅长用这种战法
+Dialogue: Marked=0,0:09:09.91,0:09:11.11,*Default,NTP,0000,0000,0000,,非常抱歉
+Dialogue: Marked=0,0:09:11.11,0:09:14.31,*Default,NTP,0000,0000,0000,,我没什么时间陪你们玩
+Dialogue: Marked=0,0:09:14.31,0:09:15.51,*Default,NTP,0000,0000,0000,,告辞了
+Dialogue: Marked=0,0:09:51.21,0:09:53.31,*Default,NTP,0000,0000,0000,,战术简单到令人意外
+Dialogue: Marked=0,0:09:54.21,0:09:58.11,*Default,NTP,0000,0000,0000,,下棋是看穿对手下一步的游戏 让我们多享受一下吧
+Dialogue: Marked=0,0:10:32.31,0:10:33.41,*Default,NTP,0000,0000,0000,,来得太晚了
+Dialogue: Marked=0,0:10:48.71,0:10:50.31,*Default,NTP,0000,0000,0000,,小Lumi
+Dialogue: Marked=0,0:10:51.81,0:10:53.41,*Default,NTP,0000,0000,0000,,虽然是很原始的灭火设备
+Dialogue: Marked=0,0:10:53.41,0:10:57.21,*Default,NTP,0000,0000,0000,,不过经我稍微改造后效果相当不错
+Dialogue: Marked=0,0:12:01.11,0:12:01.81,*Default,NTP,0000,0000,0000,,Cesario
+Dialogue: Marked=0,0:12:08.31,0:12:11.11,*Default,NTP,0000,0000,0000,,Cesario、Cesario
+Dialogue: Marked=0,0:13:07.41,0:13:08.51,*Default,NTP,0000,0000,0000,,到此为止了
+Dialogue: Marked=0,0:13:09.11,0:13:12.01,*Default,NTP,0000,0000,0000,,你的力量和我的磁场
+Dialogue: Marked=0,0:13:12.01,0:13:15.01,*Default,NTP,0000,0000,0000,,到底哪个比较强？来比比看吧
+Dialogue: Marked=0,0:13:19.61,0:13:20.31,*Default,NTP,0000,0000,0000,,Tweedledum
+Dialogue: Marked=0,0:13:28.81,0:13:32.41,*Default,NTP,0000,0000,0000,,Tweedledum 我会发信号 使用Windstoss对付她
+Dialogue: Marked=0,0:13:32.41,0:13:34.21,*Default,NTP,0000,0000,0000,,姐姐 我们对付的是人
+Dialogue: Marked=0,0:13:35.41,0:13:39.51,*Default,NTP,0000,0000,0000,,她可是ES成员 而且是G级的
+Dialogue: Marked=0,0:15:07.31,0:15:08.31,*Default,NTP,0000,0000,0000,,Eclair
+Dialogue: Marked=0,0:15:39.31,0:15:40.01,*Default,NTP,0000,0000,0000,,姐姐
+Dialogue: Marked=0,0:15:40.01,0:15:41.51,*Default,NTP,0000,0000,0000,,Tweedledum 不要分心
+Dialogue: Marked=0,0:15:48.21,0:15:50.41,*Default,NTP,0000,0000,0000,,难道是…怎么会？
+Dialogue: Marked=0,0:16:01.81,0:16:02.91,*Default,NTP,0000,0000,0000,,姐姐 危险！
+Dialogue: Marked=0,0:17:07.91,0:17:08.51,*Default,NTP,0000,0000,0000,,Lumiere
+Dialogue: Marked=0,0:17:21.91,0:17:24.81,*Default,NTP,0000,0000,0000,,你觉得那种方法有效吗？
+Dialogue: Marked=0,0:17:33.81,0:17:35.21,*Default,NTP,0000,0000,0000,,真是愚蠢
+Dialogue: Marked=0,0:17:39.91,0:17:42.31,*Default,NTP,0000,0000,0000,,你认为这种东西能拖延我们吗？
+Dialogue: Marked=0,0:17:48.71,0:17:49.21,*Default,NTP,0000,0000,0000,,姐姐！
+Dialogue: Marked=0,0:17:56.11,0:17:57.01,*Default,NTP,0000,0000,0000,,姐姐…
+Dialogue: Marked=0,0:18:16.51,0:18:17.41,*Default,NTP,0000,0000,0000,,Lumiere
+Dialogue: Marked=0,0:18:17.41,0:18:19.91,*Default,NTP,0000,0000,0000,,这时候还有时间担心别人吗？
+Dialogue: Marked=0,0:18:35.21,0:18:37.31,*Default,NTP,0000,0000,0000,,线路被物理性地切断了
+Dialogue: Marked=0,0:18:38.21,0:18:41.21,*Default,NTP,0000,0000,0000,,看来爆炸的烟火表演做过头了
+Dialogue: Marked=0,0:19:07.91,0:19:09.51,*Default,NTP,0000,0000,0000,,果然还是来了
+Dialogue: Marked=0,0:19:11.21,0:19:14.21,*Default,NTP,0000,0000,0000,,难道是有人指使？
+Dialogue: Marked=0,0:19:17.51,0:19:20.71,*Default,NTP,0000,0000,0000,,我讨厌被别人利用
+Dialogue: Marked=0,0:19:22.41,0:19:24.11,*Default,NTP,0000,0000,0000,,这是“自由意识”的驱使
+Dialogue: Marked=0,0:19:35.81,0:19:38.21,*Default,NTP,0000,0000,0000,,永别了 女王殿下
+Dialogue: Marked=0,0:19:51.91,0:19:53.51,*Default,NTP,0000,0000,0000,,那是什么？房顶上有个人
+Dialogue: Marked=0,0:19:57.91,0:20:02.21,*Default,NTP,0000,0000,0000,,称作GOTT的王国 就这样崩坏了吗
+Dialogue: Marked=0,0:20:03.51,0:20:06.21,*Default,NTP,0000,0000,0000,,那么 我们也一起走吧
+Dialogue: Marked=0,0:20:08.21,0:20:08.91,*Default,NTP,0000,0000,0000,,靠近
+Dialogue: Marked=0,0:20:09.51,0:20:11.21,*Default,NTP,0000,0000,0000,,如果是来不及逃的人就去救他
+Dialogue: Marked=0,0:20:11.21,0:20:11.81,*Default,NTP,0000,0000,0000,,是
+Dialogue: Marked=0,0:20:15.51,0:20:16.21,*Default,NTP,0000,0000,0000,,消失了
+Dialogue: Marked=0,0:20:16.91,0:20:17.81,*Default,NTP,0000,0000,0000,,传感器怎么显示？
+Dialogue: Marked=0,0:20:17.81,0:20:18.91,*Default,NTP,0000,0000,0000,,没有生命反映
+Dialogue: Marked=0,0:20:21.01,0:20:24.01,*Default,NTP,0000,0000,0000,,快 紧急撤离！快要崩塌了！
+Dialogue: Marked=0,0:20:44.81,0:20:45.31,*Default,NTP,0000,0000,0000,,没事吧
+Dialogue: Marked=0,0:20:49.21,0:20:50.11,*Default,NTP,0000,0000,0000,,这边也麻烦你了
+Dialogue: Marked=0,0:20:51.81,0:20:53.71,*Default,NTP,0000,0000,0000,,对不起 谁来帮个忙
+Dialogue: Marked=0,0:21:02.91,0:21:05.21,*Default,NTP,0000,0000,0000,,所有这一切就这么结束了吗
+Dialogue: Marked=0,0:21:05.81,0:21:09.01,*Default,NTP,0000,0000,0000,,不 这只是一幕的结束
+Dialogue: Marked=0,0:21:09.81,0:21:11.01,*Default,NTP,0000,0000,0000,,等到幕间休息后
+Dialogue: Marked=0,0:21:12.01,0:21:14.21,*Default,NTP,0000,0000,0000,,又会上演怎样的节目呢
+Dialogue: Marked=0,0:21:56.71,0:21:59.50,SongChn,NTP,0000,0000,0000,,{\fs14}就这样走吧
+Dialogue: Marked=0,0:21:56.71,0:21:59.50,SongRom,NTP,0000,0000,0000,,{\a6\k40\k40}sa {\k40}a {\k30}{\k40}yu {\k40}ko {\k10}u
+Dialogue: Marked=0,0:21:56.71,0:21:59.50,SongJap,NTP,0000,0000,0000,,{\a6\K80}さぁ{\K50}{\K80}行こう
+Dialogue: Marked=0,0:22:00.71,0:22:05.21,SongChn,NTP,0000,0000,0000,,{\fs14}别再回头
+Dialogue: Marked=0,0:22:00.71,0:22:05.21,SongRom,NTP,0000,0000,0000,,{\a6\k30\k60}mo {\k20}u {\k125}furi {\k20}ka {\k20}{\k80}e {\k15}la {\k15}na {\k15}i
+Dialogue: Marked=0,0:22:00.71,0:22:05.21,SongJap,NTP,0000,0000,0000,,{\a6\K60}も{\K20}う{\K125}振{\K20}り{\K20}{\K80}返{\K35}らな{\K35}い
+Dialogue: Marked=0,0:22:05.92,0:22:08.11,SongChn,NTP,0000,0000,0000,,{\fs14}就这样吧
+Dialogue: Marked=0,0:22:05.92,0:22:08.11,SongRom,NTP,0000,0000,0000,,{\a6\k20\k40}ko {\k40}no {\k65}ma {\k65}ma
+Dialogue: Marked=0,0:22:05.92,0:22:08.11,SongJap,NTP,0000,0000,0000,,{\a6\K80}この{\K130}まま
+Dialogue: Marked=0,0:22:09.15,0:22:13.99,SongChn,NTP,0000,0000,0000,,{\fs14}就算是没有尽头亦无妨
+Dialogue: Marked=0,0:22:09.15,0:22:13.99,SongRom,NTP,0000,0000,0000,,{\a6\k70\k60}a {\k30}te {\k50}na {\k50}do {\k35}na {\k90}ku {\k30}te {\k10}i {\k10}i
+Dialogue: Marked=0,0:22:09.15,0:22:13.99,SongJap,NTP,0000,0000,0000,,{\a6\K60\K60}あ{\K30}て{\K50}な{\K50}ど{\K35}無{\K90}く{\K30}て{\K10}い{\K10}い
+Dialogue: Marked=0,0:22:14.72,0:22:18.43,SongChn,NTP,0000,0000,0000,,{\fs14}如同作着梦
+Dialogue: Marked=0,0:22:14.72,0:22:18.43,SongRom,NTP,0000,0000,0000,,{\a6\k20\k70}yume {\k50}{\k25}mi {\k25}ru {\k30}yo {\k50}u {\k90}na
+Dialogue: Marked=0,0:22:14.72,0:22:18.43,SongJap,NTP,0000,0000,0000,,{\a6\K80}夢{\K50}{\K50}みる{\K30}よ{\K50}う{\K90}な
+Dialogue: Marked=0,0:22:18.43,0:22:23.91,SongChn,NTP,0000,0000,0000,,{\fs14}我不想要的梦
+Dialogue: Marked=0,0:22:18.43,0:22:23.91,SongRom,NTP,0000,0000,0000,,{\a6\k30\k80}yume {\k90}wa {\k50}{\k35}hoshi {\k90}ku {\k90}na {\k10}i
+Dialogue: Marked=0,0:22:18.43,0:22:23.91,SongJap,NTP,0000,0000,0000,,{\a6\K90}夢{\K90}は{\K50}{\K35}欲し{\K90}く{\K140}ない
+Dialogue: Marked=0,0:22:25.30,0:22:33.98,SongChn,NTP,0000,0000,0000,,{\fs14}对着流星许下一个心愿
+Dialogue: Marked=0,0:22:25.30,0:22:33.98,SongRom,NTP,0000,0000,0000,,{\a6\k30\k30}na {\k40}ga {\k50}re {\k60}yu {\k100}ku {\k30}{\k50}ho {\k60}shi {\k20}ni {\k70}ka {\k20}ke {\k40}ta {\k70}nega {\k20}i {\k40}wa {\k20}hi {\k90}to {\k10}tsu
+Dialogue: Marked=0,0:22:25.30,0:22:33.98,SongJap,NTP,0000,0000,0000,,{\a6\K100}流{\K50}れ{\K160}行{\K30}{\K50}く{\K60}星{\K20}に{\K70}か{\K20}け{\K40}た{\K70}願{\K20}い{\K40}は{\K20}ひ{\K90}と{\K10}つ
+Dialogue: Marked=0,0:22:33.98,0:22:42.21,SongChn,NTP,0000,0000,0000,,{\fs14}请给我永远不变的坚强
+Dialogue: Marked=0,0:22:33.98,0:22:42.21,SongRom,NTP,0000,0000,0000,,{\a6\k30\k50}ka {\k30}re {\k50}ru {\k140}koto {\k40}{\k30}no {\k80}na {\k10}i {\k100}tsuyo {\k20}sa {\k60}o {\k60}kuda {\k60}sa {\k10}i
+Dialogue: Marked=0,0:22:33.98,0:22:42.21,SongJap,NTP,0000,0000,0000,,{\a6\K80}枯{\K30}れ{\K50}る{\K120}事{\K40}{\K30}の{\K80}な{\K10}い{\K120}強{\K20}さ{\K60}を{\K60}下{\K60}さ{\K10}い
+Dialogue: Marked=0,0:22:42.85,0:22:51.79,SongChn,NTP,0000,0000,0000,,{\fs14}在这条无边无际的道路上
+Dialogue: Marked=0,0:22:42.85,0:22:51.79,SongRom,NTP,0000,0000,0000,,{\a6\k40\k40}do {\k50}ko {\k65}ma {\k65}de {\k100}mo {\k100}tsuzu {\k50}i {\k40}te {\k25}yu {\k60}ku {\k60}ko {\k15}no {\k50}mi {\k30}chi {\k120}o
+Dialogue: Marked=0,0:22:42.85,0:22:51.79,SongJap,NTP,0000,0000,0000,,{\a6\K30\K50}ど{\K20}こ{\K130}まで{\K100}も{\K100}続{\K60}い{\K70}てゆ{\K30}く{\K70}こ{\K20}の{\K60}み{\K30}ち{\K120}を
+Dialogue: Marked=0,0:22:51.79,0:23:03.80,SongChn,NTP,0000,0000,0000,,{\fs14}只能朝着远方继续前行
+Dialogue: Marked=0,0:22:51.79,0:23:03.80,SongRom,NTP,0000,0000,0000,,{\a6\k30\k90}aru {\k50}ki {\k90}tsuzu {\k70}{\k50}ke {\k70}te {\k30}{\k50}yu {\k30}ku {\k100}shi {\k60}ka {\k40}na {\k500}i
+Dialogue: Marked=0,0:22:51.79,0:23:03.80,SongJap,NTP,0000,0000,0000,,{\a6\K100}歩{\K50}き{\K110}続{\K70}{\K50}け{\K70}て{\K30}{\K50}ゆ{\K30}く{\K100}し{\K60}か{\K40}な{\K500}い
+Dialogue: Marked=0,0:23:06.91,0:23:09.21,*Default,NTP,0000,0000,0000,,失去的东西 被丢弃的东西
+Dialogue: Marked=0,0:23:09.71,0:23:12.11,*Default,NTP,0000,0000,0000,,都沿着路边散落着
+Dialogue: Marked=0,0:23:12.11,0:23:15.11,*Default,NTP,0000,0000,0000,,宛如留下的足迹一般
+Dialogue: Marked=0,0:23:15.91,0:23:19.31,*Default,NTP,0000,0000,0000,,下回 Kiddy Grade 追忆
+
+

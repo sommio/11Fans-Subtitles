@@ -1,0 +1,770 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shingeki-sp3,KaiTi,40,&H00FFFFFF,&HF0696969,&H968C8C8C,&H968C8C8C,-1,0,0,0,100,100,0,0,3,2,2,2,30,30,10,134
+Style: shingeki-text-ch,FZZhunYuan-M02,70,&H00FFFFFF,&H00242424,&H00242424,&H00000639,-1,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,1
+Style: shingeki-text-jp,DFMaruGothic-Bd,40,&H00FFFFFF,&H000019FF,&H00242424,&H00000639,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,1
+Style: shingeki-title,华文楷体,60,&H00FFFFFF,&H000019FF,&H00000000,&H00020203,-1,0,0,0,100,100,0,0,1,3,3,2,10,10,10,1
+Style: shingeki-sp,方正报宋_GBK,60,&H00FAFAFF,&H000019FF,&H00F2F2F7,&H00000000,-1,0,0,0,100,100,5,0,1,0,3,2,10,10,10,1
+Style: shingeki-sp2,FZLiBian-S02,50,&H00FFFFFF,&H000019FF,&H64050C86,&H64050C86,-1,0,0,0,100,100,0,0,3,2,2,2,10,10,10,1
+Style: shingeki-int,华文楷体,35,&H00F7F7F8,&H000019FF,&H00000001,&H37020203,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: shingeki-ed,Microsoft YaHei,60,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,1,3,10,20,10,1
+Style: shingeki-op-ch,经典粗仿黑,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,25,1
+Style: shingeki-op-jp,FZHei-B01,45,&H00FFFFFF,&H000019FF,&H003843E3,&H003843E3,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: shingeki-staff,华文楷体,50,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,2,2,2,20,20,10,1
+Style: Default,Microsoft YaHei,50,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+Style: shingeki-op-ch-gb,华康俪金黑W8(P),50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,11,11,26,1
+Style: shingeki-op-ch-big5,经典粗仿黑,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,11,11,26,1
+Style: shingeki-int-2,华文楷体,35,&H00040404,&H000019FF,&H00F0F0F0,&H37020203,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
+Style: shingeki-text-ch-fan,方正中等线_GBK,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+Style: shingeki-op--ch-fan,方正中雅宋_GBK,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,3,8,10,10,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:03.91,0:03:09.50,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(1000,1700,\alpha&H00)\t(1700,$end,\alpha&HFF)\p1\fscx250\fscy200\pos(1501.333,1077.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:03.91,0:03:09.50,shingeki-op-jp,NTP,0,0,0,,{\blur3}これ以上の地獄はないだろうと信じたかった
+Dialogue: 0,0:03:09.54,0:03:15.50,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(1440,1700,\alpha&H00)\t(1700,$end,\alpha&HFF)\p1\fscx200\fscy150\pos(1392,1069.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:09.54,0:03:15.50,shingeki-op-jp,NTP,0,0,0,,{\blur3}されど人類最悪の日はいつも唐突に
+Dialogue: 0,0:03:15.59,0:03:21.47,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(1440,1700,\alpha&H00)\t(1700,$end,\alpha&HFF)\p1\fscx200\fscy150\pos(1392,1069.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:15.59,0:03:21.47,shingeki-op-jp,NTP,0,0,0,,{\blur3}扉を叩く音は絶えず酷く無作法で
+Dialogue: 0,0:03:21.63,0:03:27.47,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(1440,1700,\alpha&H00)\t(1700,$end,\alpha&HFF)\p1\fscx200\fscy150\pos(1392,1069.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:21.63,0:03:27.47,shingeki-op-jp,NTP,0,0,0,,{\blur3}招かれた最悪の日は悪夢のように
+Dialogue: 0,0:03:27.60,0:03:30.48,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(600,900,\alpha&H00)\t(900,$end,\alpha&HFF)\p1\fscx140\fscy140\pos(1258.666,1069.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:27.60,0:03:30.48,shingeki-op-jp,NTP,0,0,0,,{\blur3}過ぎし日を裏切る者
+Dialogue: 0,0:03:30.69,0:03:33.27,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(600,900,\alpha&H00)\t(900,$end,\alpha&HFF)\p1\fscx140\fscy140\pos(1258.666,1069.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:30.69,0:03:33.27,shingeki-op-jp,NTP,0,0,0,,{\blur3}奴らは駆逐すべき敵だ
+Dialogue: 0,0:03:33.52,0:03:39.49,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(600,900,\alpha&H00)\t(900,$end,\alpha&HFF)\p1\fscx250\fscy200\pos(1501.333,1077.334)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:33.52,0:03:39.49,shingeki-op-jp,NTP,0,0,0,,{\blur3}あの日どんな顔で瞳で俺たちを見つめていた
+Dialogue: 0,0:03:39.65,0:03:42.61,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(600,900,\alpha&H00)\t(900,$end,\alpha&HFF)\p1\fscx180\fscy180\pos(1349.333,1074.667)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:39.65,0:03:42.61,shingeki-op-jp,NTP,0,0,0,,{\blur3}何を捨てれば悪魔を押し退ける
+Dialogue: 0,0:03:42.61,0:03:48.41,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx250\fscy150\pos(1490.667,1069.333)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:42.61,0:03:48.41,shingeki-op-jp,NTP,0,0,0,,{\blur3}命さえ　魂さえ　決して惜しくなどはない
+Dialogue: 0,0:03:48.54,0:03:51.33,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx100\fscy100\pos(1173.334,1061.333)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:48.54,0:03:51.33,shingeki-op-jp,NTP,0,0,0,,{\blur3}捧げよ　捧げよ
+Dialogue: 0,0:03:51.58,0:03:54.42,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx100\fscy100\pos(1173.334,1061.333)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:51.58,0:03:54.42,shingeki-op-jp,NTP,0,0,0,,{\blur3}心臓を捧げよ
+Dialogue: 0,0:03:54.58,0:04:00.42,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx180\fscy180\pos(1357.333,1074.667)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:03:54.58,0:04:00.42,shingeki-op-jp,NTP,0,0,0,,{\blur3}全ての犠牲は今この時のために
+Dialogue: 0,0:04:00.59,0:04:03.43,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx100\fscy100\pos(1173.334,1061.333)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:04:00.59,0:04:03.43,shingeki-op-jp,NTP,0,0,0,,{\blur3}捧げよ　捧げよ
+Dialogue: 0,0:04:03.59,0:04:06.39,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx100\fscy100\pos(1173.334,1061.333)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:04:03.59,0:04:06.39,shingeki-op-jp,NTP,0,0,0,,{\blur3}心臓を捧げよ
+Dialogue: 0,0:04:06.55,0:04:14.15,shingeki-op-jp,NTP,0,0,0,,{\blur10\alpha&HFF\t(0,300,\alpha&H00)\t(300,$end,\alpha&HFF)\p1\fscx180\fscy180\pos(1357.333,1074.667)}m -238 -5 m -200 0 b 80 13 -80 13 200 0
+Dialogue: 0,0:04:06.55,0:04:14.15,shingeki-op-jp,NTP,0,0,0,,{\blur3}進むべき未来をその手で切り拓け
+Dialogue: 0,0:05:25.13,0:05:25.13,shingeki-op-jp,,0,0,0,,
+Dialogue: 0,0:03:03.91,0:03:09.50,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}曾經相信沒有更甚於此的地獄存在
+Dialogue: 0,0:03:09.54,0:03:15.50,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}然而人類的末日卻總是突如其來
+Dialogue: 0,0:03:15.59,0:03:21.47,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}叩擊門扉的聲音如此雜亂無章而又不絕於耳
+Dialogue: 0,0:03:21.63,0:03:27.47,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}循聲而來的末日如夢魔般揮之不去
+Dialogue: 0,0:03:27.60,0:03:30.48,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}背叛過去的叛徒們
+Dialogue: 0,0:03:30.69,0:03:33.27,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}他們正是應被驅逐的仇敵
+Dialogue: 0,0:03:33.52,0:03:39.49,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}當時他們用了怎樣的眼神看著我們
+Dialogue: 0,0:03:39.65,0:03:42.61,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}不惜捨棄一切也要擊退惡魔
+Dialogue: 0,0:03:42.61,0:03:48.41,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}即使犧牲性命 拋棄靈魂 為此也在所不惜
+Dialogue: 0,0:03:48.54,0:03:51.33,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}奉獻吧 奉獻吧
+Dialogue: 0,0:03:51.58,0:03:54.42,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}獻上你的心臟吧
+Dialogue: 0,0:03:54.58,0:04:00.42,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}一切的犧牲都是為了這一刻
+Dialogue: 0,0:04:00.59,0:04:03.43,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}奉獻吧 奉獻吧
+Dialogue: 0,0:04:03.59,0:04:06.39,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}獻上你的心臟吧
+Dialogue: 0,0:04:06.55,0:04:14.15,shingeki-op--ch-fan,NTP,0,0,0,,{\blur5}用這雙手開拓人類前進的未來
+Dialogue: 0,0:04:23.49,0:04:27.00,shingeki-op--ch-fan,,0,0,0,,{\blur5\fad(200,200)\an8\fs43}本字幕由悠哈璃羽字幕社提供  僅供試看學習之用  請於下載後24小時之內刪除
+Dialogue: 0,0:04:23.49,0:04:27.00,shingeki-op--ch-fan,,0,0,0,,{\blur5\fad(200,200)\an8\fs43}翻譯：大布鹿  CM  日字：莫幻  CM  校對：莫幻  CM  時軸：雪櫃  後期：燈燈  壓製：CZ
+Dialogue: 0,0:03:02.16,0:03:03.49,Default,,0,0,0,,{\p1\bord0\1img(D:/logo.png)\pos(946.667,966)}m 0 0 l 0 113 l 335 113 l 335 0
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:22:21.07,0:22:23.36,shingeki-ed,NTP,0,0,0,,Sitting in our cage
+Dialogue: 0,0:22:23.53,0:22:27.61,shingeki-ed,NTP,0,0,0,,We will see innocent scarlet
+Dialogue: 0,0:22:27.74,0:22:30.33,shingeki-ed,NTP,0,0,0,,Wait tomorrow go today
+Dialogue: 0,0:22:30.45,0:22:32.99,shingeki-ed,NTP,0,0,0,,Go today morning
+Dialogue: 0,0:22:33.16,0:22:35.66,shingeki-ed,NTP,0,0,0,,Give it up the scar will stay
+Dialogue: 0,0:22:35.79,0:22:40.13,shingeki-ed,NTP,0,0,0,,Go tomorrow Every single day
+Dialogue: 0,0:22:40.17,0:22:43.25,shingeki-ed,NTP,0,0,0,,It is next to you shining
+Dialogue: 0,0:22:43.34,0:22:48.26,shingeki-ed,NTP,0,0,0,,The one who we have fath on Fooled us
+Dialogue: 0,0:22:48.26,0:22:52.43,shingeki-ed,NTP,0,0,0,,Now we have to decide who is our clan
+Dialogue: 0,0:22:52.56,0:22:57.56,shingeki-ed,NTP,0,0,0,,Surely you know because I have a dream I fight on
+Dialogue: 0,0:22:57.73,0:23:00.19,shingeki-ed,NTP,0,0,0,,Come on to me everyone
+Dialogue: 0,0:23:00.36,0:23:04.28,shingeki-ed,NTP,0,0,0,,Feel again with me
+Dialogue: 0,0:23:14.91,0:23:19.33,shingeki-ed,NTP,0,0,0,,So again I catch your sleeve
+Dialogue: 0,0:23:19.58,0:23:21.83,shingeki-ed,NTP,0,0,0,,A sweet story
+Dialogue: 0,0:23:21.96,0:23:24.30,shingeki-ed,NTP,0,0,0,,Wait tomorrow Go today
+Dialogue: 0,0:23:24.38,0:23:27.01,shingeki-ed,NTP,0,0,0,,Go today Morning
+Dialogue: 0,0:23:27.09,0:23:29.59,shingeki-ed,NTP,0,0,0,,Give it up the scar will stay
+Dialogue: 0,0:23:29.84,0:23:33.68,shingeki-ed,NTP,0,0,0,,Go tomorrow every single day
+Dialogue: 0,0:23:33.76,0:23:37.48,shingeki-ed,NTP,0,0,0,,It is next to you
+Dialogue: 0,0:22:21.07,0:22:23.36,shingeki-ed,,0,0,0,,蹲坐在我們的籠子裡
+Dialogue: 0,0:22:23.53,0:22:27.61,shingeki-ed,,0,0,0,,映入眼帘的是鮮紅的落日
+Dialogue: 0,0:22:27.74,0:22:30.33,shingeki-ed,,0,0,0,,靜待明天取代今天
+Dialogue: 0,0:22:30.45,0:22:32.99,shingeki-ed,,0,0,0,,在新的一天再次迎來破曉時分
+Dialogue: 0,0:22:33.16,0:22:35.66,shingeki-ed,,0,0,0,,半途而廢 傷疤依在
+Dialogue: 0,0:22:35.79,0:22:40.13,shingeki-ed,,0,0,0,,度過明天 把握每一天
+Dialogue: 0,0:22:40.17,0:22:43.25,shingeki-ed,,0,0,0,,光輝就在你身邊
+Dialogue: 0,0:22:43.34,0:22:48.26,shingeki-ed,,0,0,0,,然而我們被曾經所信奉的事物愚弄
+Dialogue: 0,0:22:48.26,0:22:52.43,shingeki-ed,,0,0,0,,如今我們必須決定該何去何從
+Dialogue: 0,0:22:52.56,0:22:57.56,shingeki-ed,,0,0,0,,你非常清楚 我堅持奮鬥是因為我懷揣著夢想
+Dialogue: 0,0:22:57.73,0:23:00.19,shingeki-ed,,0,0,0,,希望各位隨我而行
+Dialogue: 0,0:23:00.36,0:23:04.28,shingeki-ed,,0,0,0,,再次與我一同感受為夢想而奮鬥的喜悅
+Dialogue: 0,0:23:14.91,0:23:19.33,shingeki-ed,,0,0,0,,於是我再次握緊你的衣袖
+Dialogue: 0,0:23:19.58,0:23:21.83,shingeki-ed,,0,0,0,,這是何等甜蜜的故事
+Dialogue: 0,0:23:21.96,0:23:24.30,shingeki-ed,,0,0,0,,靜待明天取代今天
+Dialogue: 0,0:23:24.38,0:23:27.01,shingeki-ed,,0,0,0,,在新的一天迎來破曉時分
+Dialogue: 0,0:23:27.09,0:23:29.59,shingeki-ed,,0,0,0,,半途而廢 傷疤依在
+Dialogue: 0,0:23:29.84,0:23:33.68,shingeki-ed,,0,0,0,,度過明天 把握每一天
+Dialogue: 0,0:23:33.76,0:23:37.48,shingeki-ed,,0,0,0,,希望就在你身邊
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:09.56,0:00:11.61,shingeki-text-jp,NTP,0,0,0,,コニー　生存者はいったか
+Dialogue: 0,0:00:13.36,0:00:13.87,shingeki-text-jp,NTP,0,0,0,,いない
+Dialogue: 0,0:00:15.80,0:00:16.33,shingeki-text-jp,NTP,0,0,0,,いねぇよ
+Dialogue: 0,0:00:18.19,0:00:19.19,shingeki-text-jp,NTP,0,0,0,,もうおしまいだ
+Dialogue: 0,0:00:20.39,0:00:23.34,shingeki-text-jp,NTP,0,0,0,,俺の故郷はもう　どこにもいなくなっちゃた
+Dialogue: 0,0:00:31.08,0:00:32.94,shingeki-text-jp,NTP,0,0,0,,おい　なにか妙だぞ
+Dialogue: 0,0:00:36.06,0:00:37.49,shingeki-text-jp,NTP,0,0,0,,誰か死体を見たか
+Dialogue: 0,0:00:38.92,0:00:39.37,shingeki-text-jp,NTP,0,0,0,,いいえ
+Dialogue: 0,0:00:40.34,0:00:40.97,shingeki-text-jp,NTP,0,0,0,,見てません
+Dialogue: 0,0:00:41.79,0:00:43.13,shingeki-text-jp,NTP,0,0,0,,そんなことはあるのか
+Dialogue: 0,0:00:43.65,0:00:45.87,shingeki-text-jp,NTP,0,0,0,,巨人が一滴の血も残らずに集落…
+Dialogue: 0,0:00:46.04,0:00:46.95,shingeki-text-jp,NTP,0,0,0,,全員逃げたんだよ
+Dialogue: 0,0:00:47.43,0:00:49.01,shingeki-text-jp,NTP,0,0,0,,誰も喰われてないってことだ
+Dialogue: 0,0:00:49.40,0:00:50.69,shingeki-text-jp,NTP,0,0,0,,家族も村の人も
+Dialogue: 0,0:00:52.02,0:00:54.39,shingeki-text-jp,NTP,0,0,0,,そうか　そうですよね
+Dialogue: 0,0:00:54.89,0:00:55.34,shingeki-text-jp,NTP,0,0,0,,あぁ　だって
+Dialogue: 0,0:00:55.68,0:01:00.15,shingeki-text-jp,NTP,0,0,0,,巨人に喰われて一切痕跡が残らないなんてありえないよ
+Dialogue: 0,0:01:01.47,0:01:03.26,shingeki-text-jp,NTP,0,0,0,,ありえない点は他にもある
+Dialogue: 0,0:01:04.86,0:01:07.90,shingeki-text-jp,NTP,0,0,0,,村人の避難が本当に完了していたというのなら
+Dialogue: 0,0:01:08.91,0:01:11.03,shingeki-text-jp,NTP,0,0,0,,巨人が誰もいないはず空き屋を
+Dialogue: 0,0:01:11.43,0:01:13.84,shingeki-text-jp,NTP,0,0,0,,こうも徹底的に壊したりするもんか
+Dialogue: 0,0:01:15.52,0:01:18.91,shingeki-text-jp,NTP,0,0,0,,それに何より不可解なのはあの馬小屋だ
+Dialogue: 0,0:01:20.61,0:01:25.04,shingeki-text-jp,NTP,0,0,0,,馬なしで逃げても　生存の可能性は相当薄いだのに
+Dialogue: 0,0:01:26.58,0:01:27.83,shingeki-text-jp,NTP,0,0,0,,松明はもう揃ったな
+Dialogue: 0,0:01:28.67,0:01:29.26,shingeki-text-jp,NTP,0,0,0,,いくぞ
+Dialogue: 0,0:01:30.19,0:01:32.69,shingeki-text-jp,NTP,0,0,0,,これより　壁の破壊箇所を特定しに行く
+Dialogue: 0,0:01:33.14,0:01:33.58,shingeki-text-jp,NTP,0,0,0,,はい
+Dialogue: 0,0:01:44.89,0:01:47.46,shingeki-text-jp,NTP,0,0,0,,お…かえ…り
+Dialogue: 0,0:02:03.38,0:02:03.95,shingeki-text-jp,NTP,0,0,0,,あ…いま
+Dialogue: 0,0:02:05.41,0:02:06.52,shingeki-text-jp,NTP,0,0,0,,おいコニー　急げ
+Dialogue: 0,0:02:07.16,0:02:08.64,shingeki-text-jp,NTP,0,0,0,,ゲルガーたちに遅れちまうぞ
+Dialogue: 0,0:02:10.05,0:02:11.86,shingeki-text-jp,NTP,0,0,0,,ライナー　聞いたか
+Dialogue: 0,0:02:12.07,0:02:13.17,shingeki-text-jp,NTP,0,0,0,,今あいつが…
+Dialogue: 0,0:02:13.30,0:02:14.62,shingeki-text-jp,NTP,0,0,0,,俺には何も聞こえてない
+Dialogue: 0,0:02:15.89,0:02:18.53,shingeki-text-jp,NTP,0,0,0,,とにかく喋ってないで　任務に集中しろ！
+Dialogue: 0,0:02:19.09,0:02:20.98,shingeki-text-jp,NTP,0,0,0,,なんか　あいつさ
+Dialogue: 0,0:02:21.76,0:02:25.59,shingeki-text-jp,NTP,0,0,0,,ありえないだけど　なんか母ちゃんに…
+Dialogue: 0,0:02:25.73,0:02:26.32,shingeki-text-jp,NTP,0,0,0,,コニー！
+Dialogue: 0,0:02:26.73,0:02:28.89,shingeki-text-jp,NTP,0,0,0,,お前は今どういう状況かわかってんのか
+Dialogue: 0,0:02:30.01,0:02:34.13,shingeki-text-jp,NTP,0,0,0,,俺たちの働きが　何十万人の命を直接影響してるだぞ
+Dialogue: 0,0:02:35.19,0:02:38.08,shingeki-text-jp,NTP,0,0,0,,考えるなら今避難してるお前の家族のことだろ
+Dialogue: 0,0:02:39.08,0:02:40.78,shingeki-text-jp,NTP,0,0,0,,兵士なら今は最善を尽くせ！
+Dialogue: 0,0:02:46.72,0:02:47.59,shingeki-text-jp,NTP,0,0,0,,あぁ　そうだな
+Dialogue: 0,0:02:50.32,0:02:51.15,shingeki-text-jp,NTP,0,0,0,,そうの通りだ
+Dialogue: 0,0:04:36.94,0:04:38.63,shingeki-text-jp,NTP,0,0,0,,もうこの辺は壁に近いので
+Dialogue: 0,0:04:38.80,0:04:39.94,shingeki-text-jp,NTP,0,0,0,,人が住んでる地域ではありません
+Dialogue: 0,0:04:41.47,0:04:44.13,shingeki-text-jp,NTP,0,0,0,,そう　思ってたより早く済んだな
+Dialogue: 0,0:04:46.65,0:04:48.68,shingeki-text-jp,NTP,0,0,0,,よし　このまま南下しよう
+Dialogue: 0,0:04:50.27,0:04:51.16,shingeki-text-jp,NTP,0,0,0,,なぜですか
+Dialogue: 0,0:04:51.96,0:04:54.29,shingeki-text-jp,NTP,0,0,0,,これより南に人はいないはずでは
+Dialogue: 0,0:04:55.48,0:04:58.14,shingeki-text-jp,NTP,0,0,0,,破壊された壁の位置を特定しなければならない
+Dialogue: 0,0:04:58.74,0:05:01.20,shingeki-text-jp,NTP,0,0,0,,西側から壁沿いに走って探そう
+Dialogue: 0,0:05:02.53,0:05:05.17,shingeki-text-jp,NTP,0,0,0,,私とクリスタは戦闘装備がないんですよ
+Dialogue: 0,0:05:05.77,0:05:08.79,shingeki-text-jp,NTP,0,0,0,,これより南には巨人がうちゃうちゃいるはず
+Dialogue: 0,0:05:09.48,0:05:12.42,shingeki-text-jp,NTP,0,0,0,,私たちにはやつらのおやつになる可能性が高い
+Dialogue: 0,0:05:13.40,0:05:15.32,shingeki-text-jp,NTP,0,0,0,,一旦前線から引かせてください
+Dialogue: 0,0:05:16.54,0:05:17.13,shingeki-text-jp,NTP,0,0,0,,ユミル
+Dialogue: 0,0:05:17.81,0:05:18.37,shingeki-text-jp,NTP,0,0,0,,だめだ
+Dialogue: 0,0:05:18.97,0:05:21.09,shingeki-text-jp,NTP,0,0,0,,連絡要員は一人でも確保しておきたい
+Dialogue: 0,0:05:21.99,0:05:22.88,shingeki-text-jp,NTP,0,0,0,,気持ちはわかるが
+Dialogue: 0,0:05:23.35,0:05:25.33,shingeki-text-jp,NTP,0,0,0,,兵士を選んだ以上は覚悟してくれ
+Dialogue: 0,0:05:32.16,0:05:32.66,shingeki-text-jp,NTP,0,0,0,,ユミル
+Dialogue: 0,0:05:33.41,0:05:35.70,shingeki-text-jp,NTP,0,0,0,,私はここで最善を尽くしたい
+Dialogue: 0,0:05:37.77,0:05:41.33,shingeki-text-jp,NTP,0,0,0,,だって私は自分で調査兵団を選んだんだから
+Dialogue: 0,0:05:42.68,0:05:44.92,shingeki-text-jp,NTP,0,0,0,,でも　あなたはそうじゃないでしょう？
+Dialogue: 0,0:05:47.02,0:05:49.51,shingeki-text-jp,NTP,0,0,0,,あの時調査兵団を選んだのは私…
+Dialogue: 0,0:05:50.23,0:05:52.10,shingeki-text-jp,NTP,0,0,0,,ふん！　お前のためにでも言いたいのか
+Dialogue: 0,0:05:53.09,0:05:54.61,shingeki-text-jp,NTP,0,0,0,,じゃあなんで今ここにいるの
+Dialogue: 0,0:05:55.70,0:05:58.93,shingeki-text-jp,NTP,0,0,0,,あなたは私に憲兵団を目指すよう促すばかりか
+Dialogue: 0,0:05:59.21,0:06:00.88,shingeki-text-jp,NTP,0,0,0,,その権利さえ渡そうとした
+Dialogue: 0,0:06:02.89,0:06:06.69,shingeki-text-jp,NTP,0,0,0,,私の実力が今期の十番以内に似合うはずがない
+Dialogue: 0,0:06:07.66,0:06:11.49,shingeki-text-jp,NTP,0,0,0,,誰に聞いたって　十番以内はあなただと答えるはず
+Dialogue: 0,0:06:12.65,0:06:14.21,shingeki-text-jp,NTP,0,0,0,,どうやったのはわからないけど
+Dialogue: 0,0:06:16.76,0:06:19.72,shingeki-text-jp,NTP,0,0,0,,なんで私にそこまでするの
+Dialogue: 0,0:06:24.61,0:06:29.13,shingeki-text-jp,NTP,0,0,0,,私の生まれた家と関係ある？
+Dialogue: 0,0:06:31.89,0:06:33.77,shingeki-text-jp,NTP,0,0,0,,あぁ　ある
+Dialogue: 0,0:06:36.36,0:06:39.28,shingeki-text-jp,NTP,0,0,0,,クリスタ　安心してくれよ
+Dialogue: 0,0:06:40.57,0:06:44.72,shingeki-text-jp,NTP,0,0,0,,私がここにいるのは　すべて自分のためなんだ
+Dialogue: 0,0:06:47.38,0:06:48.07,shingeki-text-jp,NTP,0,0,0,,そうか
+Dialogue: 0,0:06:51.55,0:06:52.71,shingeki-text-jp,NTP,0,0,0,,よかった
+Dialogue: 0,0:07:07.35,0:07:09.20,shingeki-text-jp,NTP,0,0,0,,目標　射程内に入りました
+Dialogue: 0,0:07:09.97,0:07:11.64,shingeki-text-jp,NTP,0,0,0,,全砲　砲撃準備よし
+Dialogue: 0,0:07:13.79,0:07:15.46,shingeki-text-jp,NTP,0,0,0,,まだだ　引き付けろ
+Dialogue: 0,0:07:16.62,0:07:16.99,shingeki-text-jp,NTP,0,0,0,,はい
+Dialogue: 0,0:07:18.36,0:07:19.59,shingeki-text-jp,NTP,0,0,0,,撃てぇ！
+Dialogue: 0,0:07:39.94,0:07:40.47,shingeki-text-jp,NTP,0,0,0,,やったか
+Dialogue: 0,0:07:42.72,0:07:44.02,shingeki-text-jp,NTP,0,0,0,,やってますリコ班長
+Dialogue: 0,0:07:44.69,0:07:47.33,shingeki-text-jp,NTP,0,0,0,,この調子なら　この防衛戦も維持できます
+Dialogue: 0,0:07:48.06,0:07:51.05,shingeki-text-jp,NTP,0,0,0,,いや　巨人の恐ろしさは数の力だ
+Dialogue: 0,0:07:52.05,0:07:55.57,shingeki-text-jp,NTP,0,0,0,,集団で来られたら　ここも突破されてしまうだろ
+Dialogue: 0,0:07:57.66,0:08:00.89,shingeki-text-jp,NTP,0,0,0,,ただなんだろう　何か…
+Dialogue: 0,0:08:03.05,0:08:03.68,shingeki-text-jp,NTP,0,0,0,,おかしい
+Dialogue: 0,0:08:04.71,0:08:06.65,shingeki-text-jp,NTP,0,0,0,,ハンネス隊長　どうかされましたか
+Dialogue: 0,0:08:07.64,0:08:10.28,shingeki-text-jp,NTP,0,0,0,,いまだに一匹も巨人と遭遇しない
+Dialogue: 0,0:08:11.28,0:08:13.85,shingeki-text-jp,NTP,0,0,0,,壁の穴にはかなり近づいたはずだ
+Dialogue: 0,0:08:14.84,0:08:17.41,shingeki-text-jp,NTP,0,0,0,,なのにまだ随分と静かじゃないか
+Dialogue: 0,0:08:20.94,0:08:25.80,shingeki-text-jp,NTP,0,0,0,,願わくば　このまま穏やかなままとはいかねぇもんだろか
+Dialogue: 0,0:08:48.17,0:08:48.72,shingeki-text-jp,NTP,0,0,0,,いつだ
+Dialogue: 0,0:08:50.94,0:08:51.93,shingeki-text-jp,NTP,0,0,0,,いつ現れる
+Dialogue: 0,0:08:54.08,0:08:55.28,shingeki-text-jp,NTP,0,0,0,,いつどの瞬間
+Dialogue: 0,0:08:56.44,0:08:59.31,shingeki-text-jp,NTP,0,0,0,,あいつらが暗闇から飛び出してもおかしくねぇ
+Dialogue: 0,0:09:01.88,0:09:05.59,shingeki-text-jp,NTP,0,0,0,,いや　このまま穴に近づいていけば
+Dialogue: 0,0:09:06.27,0:09:08.57,shingeki-text-jp,NTP,0,0,0,,その瞬間は必ず訪れる
+Dialogue: 0,0:09:10.16,0:09:14.27,shingeki-text-jp,NTP,0,0,0,,畜生　おかしくなりそうだ
+Dialogue: 0,0:09:40.27,0:09:42.54,shingeki-text-jp,NTP,0,0,0,,お前らも壁に沿って来たのか
+Dialogue: 0,0:09:43.28,0:09:45.58,shingeki-text-jp,NTP,0,0,0,,あぁ　それで穴は特に
+Dialogue: 0,0:09:46.01,0:09:46.63,shingeki-text-jp,NTP,0,0,0,,はぁ？
+Dialogue: 0,0:09:48.07,0:09:50.49,shingeki-text-jp,NTP,0,0,0,,ここから西に異常は見つからなかった
+Dialogue: 0,0:09:51.78,0:09:53.31,shingeki-text-jp,NTP,0,0,0,,そっちが見つけたんじゃないの
+Dialogue: 0,0:09:54.96,0:09:58.56,shingeki-text-jp,NTP,0,0,0,,いや　こちらは穴など見てない
+Dialogue: 0,0:10:05.53,0:10:06.82,shingeki-text-jp,NTP,0,0,0,,見落とした可能性は？
+Dialogue: 0,0:10:07.40,0:10:10.99,shingeki-text-jp,NTP,0,0,0,,ありえない　巨人が通れるほどの破壊跡だぞ
+Dialogue: 0,0:10:11.93,0:10:13.95,shingeki-text-jp,NTP,0,0,0,,もう一度確認してみるか
+Dialogue: 0,0:10:14.71,0:10:15.89,shingeki-text-jp,NTP,0,0,0,,そうすべきだが
+Dialogue: 0,0:10:16.23,0:10:19.22,shingeki-text-jp,NTP,0,0,0,,さすがに馬も我々も疲労が限界に来てる
+Dialogue: 0,0:10:20.94,0:10:22.56,shingeki-text-jp,NTP,0,0,0,,せめて月明かりでも
+Dialogue: 0,0:10:28.95,0:10:29.63,shingeki-text-jp,NTP,0,0,0,,あれは…
+Dialogue: 0,0:10:35.34,0:10:36.39,shingeki-text-jp,NTP,0,0,0,,城跡か
+Dialogue: 0,0:10:54.44,0:10:55.31,shingeki-text-jp,NTP,0,0,0,,多少割れてるが
+Dialogue: 0,0:10:55.93,0:10:58.21,shingeki-text-jp,NTP,0,0,0,,一晩休む分には問題なさそうだ
+Dialogue: 0,0:10:59.73,0:11:02.20,shingeki-text-jp,NTP,0,0,0,,あぁ　今夜は月があるね
+Dialogue: 0,0:11:11.96,0:11:12.41,shingeki-text-jp,NTP,0,0,0,,ハンジ
+Dialogue: 0,0:11:14.93,0:11:15.92,shingeki-text-jp,NTP,0,0,0,,おい　クソ眼鏡
+Dialogue: 0,0:11:17.88,0:11:21.38,shingeki-text-jp,NTP,0,0,0,,お前はただの石ころで遊ぶ暗い趣味なんてあったか
+Dialogue: 0,0:11:23.76,0:11:24.45,shingeki-text-jp,NTP,0,0,0,,あぁ　そうだよ
+Dialogue: 0,0:11:25.33,0:11:26.90,shingeki-text-jp,NTP,0,0,0,,これはただの石じゃない
+Dialogue: 0,0:11:27.59,0:11:30.99,shingeki-text-jp,NTP,0,0,0,,雌型の巨人が残した硬い皮膚の破片だ
+Dialogue: 0,0:11:32.54,0:11:33.62,shingeki-text-jp,NTP,0,0,0,,消えてない
+Dialogue: 0,0:11:34.02,0:11:34.49,shingeki-text-jp,NTP,0,0,0,,そう
+Dialogue: 0,0:11:35.00,0:11:38.36,shingeki-text-jp,NTP,0,0,0,,アニが巨人化を解いて体から切り離されてもこの通り
+Dialogue: 0,0:11:38.92,0:11:41.66,shingeki-text-jp,NTP,0,0,0,,蒸発しない　消えないだ
+Dialogue: 0,0:11:42.54,0:11:44.20,shingeki-text-jp,NTP,0,0,0,,もしかしたらと思ってね
+Dialogue: 0,0:11:44.68,0:11:46.34,shingeki-text-jp,NTP,0,0,0,,壁の破片と見比べたら
+Dialogue: 0,0:11:46.58,0:11:50.43,shingeki-text-jp,NTP,0,0,0,,そうの模様の配列と構造までよく似ていたんだ
+Dialogue: 0,0:11:51.22,0:11:54.52,shingeki-text-jp,NTP,0,0,0,,つもりあの壁は大型巨人が支柱になっていて
+Dialogue: 0,0:11:54.72,0:11:59.62,shingeki-text-jp,NTP,0,0,0,,その表層は硬化した皮膚で形成されたと考えていい
+Dialogue: 0,0:12:01.08,0:12:03.34,shingeki-text-jp,NTP,0,0,0,,本当にアルミンの言ってた通り
+Dialogue: 0,0:12:05.84,0:12:06.83,shingeki-text-jp,NTP,0,0,0,,じ　じゃあ…
+Dialogue: 0,0:12:07.79,0:12:09.76,shingeki-text-jp,NTP,0,0,0,,待って言わせてくれアルミン
+Dialogue: 0,0:12:10.74,0:12:14.05,shingeki-text-jp,NTP,0,0,0,,このままじゃ破壊されたウォール?ローゼを塞ぐのは困難だろ
+Dialogue: 0,0:12:14.91,0:12:18.13,shingeki-text-jp,NTP,0,0,0,,穴を塞ぐには適した岩でもない限りはね
+Dialogue: 0,0:12:19.87,0:12:21.13,shingeki-text-jp,NTP,0,0,0,,でも もし…
+Dialogue: 0,0:12:21.33,0:12:22.68,shingeki-text-jp,NTP,0,0,0,,巨人化したエレンが
+Dialogue: 0,0:12:23.64,0:12:27.69,shingeki-text-jp,NTP,0,0,0,,硬化する巨人の能力で壁を塞げるだとしたら
+Dialogue: 0,0:12:29.68,0:12:33.73,shingeki-text-jp,NTP,0,0,0,,俺で　穴を塞ぐ
+Dialogue: 0,0:12:35.76,0:12:37.90,shingeki-text-jp,NTP,0,0,0,,元の材質が同じはずなんだ
+Dialogue: 0,0:12:38.60,0:12:40.95,shingeki-text-jp,NTP,0,0,0,,巨人化を解いた後も蒸発せずに
+Dialogue: 0,0:12:41.15,0:12:43.36,shingeki-text-jp,NTP,0,0,0,,石化した巨像を残せるのなら
+Dialogue: 0,0:12:44.50,0:12:45.24,shingeki-text-jp,NTP,0,0,0,,あるいは…
+Dialogue: 0,0:12:49.54,0:12:51.93,shingeki-text-jp,NTP,0,0,0,,賭ける価値は大いにあると思います
+Dialogue: 0,0:12:52.79,0:12:54.58,shingeki-text-jp,NTP,0,0,0,,それにそのやり方が可能なら
+Dialogue: 0,0:12:55.60,0:12:57.93,shingeki-text-jp,NTP,0,0,0,,ウォール?マリアの奪還も明るいですよね
+Dialogue: 0,0:12:59.24,0:13:03.22,shingeki-text-jp,NTP,0,0,0,,従来のやり方だと　大量の資材を運ぶ必要があったから
+Dialogue: 0,0:13:03.63,0:13:06.86,shingeki-text-jp,NTP,0,0,0,,壁外に拠点を設けながら進むしかなかった
+Dialogue: 0,0:13:07.86,0:13:11.08,shingeki-text-jp,NTP,0,0,0,,でも　荷馬車を護送する必要がないとなると
+Dialogue: 0,0:13:11.34,0:13:13.67,shingeki-text-jp,NTP,0,0,0,,シガンシナ区まで最速で迎えます
+Dialogue: 0,0:13:14.66,0:13:17.37,shingeki-text-jp,NTP,0,0,0,,それを夜間に決行するのはどうでしょうか
+Dialogue: 0,0:13:18.09,0:13:18.65,shingeki-text-jp,NTP,0,0,0,,夜に？
+Dialogue: 0,0:13:18.97,0:13:21.73,shingeki-text-jp,NTP,0,0,0,,はい　巨人が動かない夜にです
+Dialogue: 0,0:13:23.60,0:13:24.57,shingeki-text-jp,NTP,0,0,0,,なるほど
+Dialogue: 0,0:13:24.95,0:13:26.17,shingeki-text-jp,NTP,0,0,0,,少数だけなら
+Dialogue: 0,0:13:26.30,0:13:28.83,shingeki-text-jp,NTP,0,0,0,,一気にウォール?マリアまで行けるかもしれないのか
+Dialogue: 0,0:13:30.95,0:13:33.29,shingeki-text-jp,NTP,0,0,0,,状況は絶望のドン底なのに
+Dialogue: 0,0:13:33.91,0:13:36.43,shingeki-text-jp,NTP,0,0,0,,それでも希望はあるもんなんだね
+Dialogue: 0,0:13:37.65,0:13:39.85,shingeki-text-jp,NTP,0,0,0,,えぇ　ただし全ては
+Dialogue: 0,0:13:40.43,0:13:43.46,shingeki-text-jp,NTP,0,0,0,,エレンが穴を塞げるかどうかにかかっているですもの
+Dialogue: 0,0:13:45.85,0:13:48.69,shingeki-text-jp,NTP,0,0,0,,こんなことを聞かれても困ると思うだけど
+Dialogue: 0,0:13:49.74,0:13:51.10,shingeki-text-jp,NTP,0,0,0,,それで出来そう？
+Dialogue: 0,0:14:01.19,0:14:03.09,shingeki-text-jp,NTP,0,0,0,,出来そうかどうかじゃねぇだろ
+Dialogue: 0,0:14:04.65,0:14:06.88,shingeki-text-jp,NTP,0,0,0,,やれ　やるしかねぇだろ
+Dialogue: 0,0:14:08.04,0:14:13.58,shingeki-text-jp,NTP,0,0,0,,こんな状況だ　兵団もそれに死力を尽くす以外にやることはねぇはずだ
+Dialogue: 0,0:14:14.86,0:14:16.41,shingeki-text-jp,NTP,0,0,0,,必ず成功させろ
+Dialogue: 0,0:14:17.35,0:14:17.98,shingeki-text-jp,NTP,0,0,0,,はい！
+Dialogue: 0,0:14:18.47,0:14:20.90,shingeki-text-jp,NTP,0,0,0,,俺が　必ず穴を塞ぎます
+Dialogue: 0,0:14:22.53,0:14:23.36,shingeki-text-jp,NTP,0,0,0,,必ず…
+Dialogue: 0,0:14:31.35,0:14:34.61,shingeki-text-jp,NTP,0,0,0,,地下室　俺ん家の地下室だ
+Dialogue: 0,0:14:35.50,0:14:37.25,shingeki-text-jp,NTP,0,0,0,,親父の言葉が本当なら
+Dialogue: 0,0:14:37.97,0:14:40.73,shingeki-text-jp,NTP,0,0,0,,そこに全ての答えがあるはずだ
+Dialogue: 0,0:14:48.84,0:14:49.70,shingeki-text-jp,NTP,0,0,0,,エルミハ区だ
+Dialogue: 0,0:15:04.37,0:15:05.42,shingeki-text-jp,NTP,0,0,0,,おい止まるな
+Dialogue: 0,0:15:05.95,0:15:07.59,shingeki-text-jp,NTP,0,0,0,,迷子になっちまうだろが
+Dialogue: 0,0:15:08.89,0:15:09.75,shingeki-text-jp,NTP,0,0,0,,これは…
+Dialogue: 0,0:15:10.68,0:15:12.89,shingeki-text-jp,NTP,0,0,0,,それはこなりゃ決まってる
+Dialogue: 0,0:15:14.01,0:15:16.20,shingeki-text-jp,NTP,0,0,0,,壁が破壊されちまったんだから
+Dialogue: 1,0:15:18.99,0:15:21.63,shingeki-text-jp,NTP,0,0,0,,{\an8\\pos(960,66.666)}お母さん　お父さん
+Dialogue: 0,0:15:24.22,0:15:27.17,shingeki-text-jp,NTP,0,0,0,,おい　なんのつもりだ
+Dialogue: 0,0:15:28.39,0:15:31.86,shingeki-text-jp,NTP,0,0,0,,住処を失った人の表情がよく拝めるな
+Dialogue: 0,0:15:33.54,0:15:36.29,shingeki-text-jp,NTP,0,0,0,,あれがお前らが切り捨てようとしてる顔だ
+Dialogue: 0,0:15:37.34,0:15:38.98,shingeki-text-jp,NTP,0,0,0,,お前らの望みが叶って
+Dialogue: 0,0:15:39.39,0:15:41.94,shingeki-text-jp,NTP,0,0,0,,壁の中を巨人で満たすことに成功すれば
+Dialogue: 0,0:15:42.80,0:15:45.13,shingeki-text-jp,NTP,0,0,0,,みんな巨人のくせぇ口の中で
+Dialogue: 0,0:15:45.47,0:15:47.45,shingeki-text-jp,NTP,0,0,0,,人生最悪の気分を味わい
+Dialogue: 0,0:15:47.65,0:15:49.27,shingeki-text-jp,NTP,0,0,0,,その生涯を終える
+Dialogue: 0,0:15:50.09,0:15:51.95,shingeki-text-jp,NTP,0,0,0,,人類全員仲良くな
+Dialogue: 0,0:15:56.54,0:15:59.32,shingeki-text-jp,NTP,0,0,0,,エルミハ区を出たら　もう巨人の領域になるよ
+Dialogue: 0,0:16:00.41,0:16:02.53,shingeki-text-jp,NTP,0,0,0,,エレン　馬には乗りそうか
+Dialogue: 0,0:16:02.98,0:16:05.59,shingeki-text-jp,NTP,0,0,0,,えぇ　体の力が戻って来ました
+Dialogue: 0,0:16:06.34,0:16:08.80,shingeki-text-jp,NTP,0,0,0,,西側のリフトに用意してある　急ぐぞ
+Dialogue: 0,0:16:08.72,0:16:09.39,shingeki-text-jp,NTP,0,0,0,,はい
+Dialogue: 0,0:16:13.19,0:16:14.77,shingeki-text-jp,NTP,0,0,0,,分隊長　急ぎましょう
+Dialogue: 0,0:16:15.49,0:16:17.07,shingeki-text-jp,NTP,0,0,0,,モブリット？？　ちょっと待って
+Dialogue: 0,0:16:18.95,0:16:21.56,shingeki-text-jp,NTP,0,0,0,,何か気持ちの変化はありましたか
+Dialogue: 0,0:16:26.86,0:16:29.05,shingeki-text-jp,NTP,0,0,0,,時間がない　分かるだろう
+Dialogue: 0,0:16:29.30,0:16:31.12,shingeki-text-jp,NTP,0,0,0,,話すか黙るはっきりしろよ
+Dialogue: 0,0:16:31.24,0:16:32.39,shingeki-text-jp,NTP,0,0,0,,お願いですから
+Dialogue: 0,0:16:34.37,0:16:35.92,shingeki-text-jp,NTP,0,0,0,,私は話せない
+Dialogue: 0,0:16:36.73,0:16:40.60,shingeki-text-jp,NTP,0,0,0,,他の教徒もそれは同じで　変わることはないだろ
+Dialogue: 0,0:16:41.47,0:16:42.94,shingeki-text-jp,NTP,0,0,0,,それはどうも
+Dialogue: 0,0:16:43.28,0:16:45.98,shingeki-text-jp,NTP,0,0,0,,わざわざ教えてくれて助かったよ
+Dialogue: 0,0:16:46.77,0:16:51.35,shingeki-text-jp,NTP,0,0,0,,それは自分で決めるには あまりにも大きなことだからだ
+Dialogue: 0,0:16:52.86,0:16:57.38,shingeki-text-jp,NTP,0,0,0,,我々ウォール教は大いなる意思に従っているだけの存在だ
+Dialogue: 0,0:16:55.33,0:16:55.97,shingeki-text-jp,NTP,0,0,0,,{\an8\pos(960,58)}\Nここです
+Dialogue: 0,0:16:56.22,0:16:57.77,shingeki-text-jp,NTP,0,0,0,,{\an8\pos(962.667,52.667)}\Nはい　ありがとうございます
+Dialogue: 0,0:16:58.42,0:17:01.72,shingeki-text-jp,NTP,0,0,0,,誰の意思　神様ってやつ
+Dialogue: 0,0:17:02.03,0:17:03.58,shingeki-text-jp,NTP,0,0,0,,我々は話せない
+Dialogue: 0,0:17:04.25,0:17:07.22,shingeki-text-jp,NTP,0,0,0,,だが　その大いなる意思により
+Dialogue: 0,0:17:07.63,0:17:12.23,shingeki-text-jp,NTP,0,0,0,,監視するよう命じられた人物の名なら教えることができる
+Dialogue: 0,0:17:12.70,0:17:13.36,shingeki-text-jp,NTP,0,0,0,,監視？
+Dialogue: 0,0:17:15.65,0:17:19.77,shingeki-text-jp,NTP,0,0,0,,その人物は今年調査兵団に入団したと聞いた
+Dialogue: 0,0:17:22.88,0:17:24.08,shingeki-text-jp,NTP,0,0,0,,その子の名は…
+Dialogue: 0,0:17:24.94,0:17:25.85,shingeki-text-jp,NTP,0,0,0,,失礼します
+Dialogue: 0,0:17:26.59,0:17:29.88,shingeki-text-jp,NTP,0,0,0,,104期調査兵　サシャ?ブラウスです
+Dialogue: 0,0:17:31.20,0:17:32.78,shingeki-text-jp,NTP,0,0,0,,あいつ…
+Dialogue: 0,0:17:33.82,0:17:34.51,shingeki-text-jp,NTP,0,0,0,,誰？
+Dialogue: 0,0:17:34.76,0:17:37.29,shingeki-text-jp,NTP,0,0,0,,あの　分隊長殿　これを…
+Dialogue: 0,0:17:37.61,0:17:39.38,shingeki-text-jp,NTP,0,0,0,,とにかく彼女を連れてこい
+Dialogue: 0,0:17:39.87,0:17:45.04,shingeki-text-jp,NTP,0,0,0,,彼女なら　我々の知りえない真相さえ知ることができるだろう
+Dialogue: 0,0:17:45.56,0:17:48.18,shingeki-text-jp,NTP,0,0,0,,私ができる情報はここまでだ
+Dialogue: 0,0:17:49.83,0:17:52.05,shingeki-text-jp,NTP,0,0,0,,後はお前たちに委ねる
+Dialogue: 0,0:17:53.07,0:17:56.74,shingeki-text-jp,NTP,0,0,0,,その子　104期だから今は最前線にいるんじゃ
+Dialogue: 0,0:17:57.15,0:17:59.57,shingeki-text-jp,NTP,0,0,0,,行きましょう　とにかく急がないと
+Dialogue: 0,0:18:00.05,0:18:01.22,shingeki-text-jp,NTP,0,0,0,,待って
+Dialogue: 0,0:18:03.25,0:18:04.02,shingeki-text-jp,NTP,0,0,0,,サシャ
+Dialogue: 0,0:18:05.13,0:18:06.70,shingeki-text-jp,NTP,0,0,0,,こんなところで何やってるの
+Dialogue: 0,0:18:09.87,0:18:12.81,shingeki-text-jp,NTP,0,0,0,,先程　兵団支部に事後報告に行ったところ
+Dialogue: 0,0:18:12.95,0:18:16.43,shingeki-text-jp,NTP,0,0,0,,上官殿から分隊長宛の書類をお預かりしました
+Dialogue: 0,0:18:17.23,0:18:18.13,shingeki-text-jp,NTP,0,0,0,,書類？
+Dialogue: 0,0:18:18.66,0:18:20.77,shingeki-text-jp,NTP,0,0,0,,分かった　ご苦労さん
+Dialogue: 0,0:18:23.69,0:18:26.34,shingeki-text-jp,NTP,0,0,0,,それで　その104期の子は誰なの
+Dialogue: 0,0:18:26.99,0:18:28.78,shingeki-text-jp,NTP,0,0,0,,あの一番小さい子ですよ
+Dialogue: 0,0:18:29.49,0:18:31.12,shingeki-text-jp,NTP,0,0,0,,金髪の長い髪で
+Dialogue: 0,0:18:32.68,0:18:34.09,shingeki-text-jp,NTP,0,0,0,,えっと…あとは…
+Dialogue: 0,0:18:34.86,0:18:35.59,shingeki-text-jp,NTP,0,0,0,,かわいい
+Dialogue: 0,0:18:37.72,0:18:39.81,shingeki-text-jp,NTP,0,0,0,,ユミルといつも一緒にいる子です
+Dialogue: 0,0:18:41.29,0:18:42.26,shingeki-text-jp,NTP,0,0,0,,え　ユミル？
+Dialogue: 0,0:18:45.72,0:18:46.90,shingeki-text-jp,NTP,0,0,0,,どういうことだ
+Dialogue: 0,0:18:49.26,0:18:52.87,shingeki-text-jp,NTP,0,0,0,,ユミル　お前…
+Dialogue: 0,0:18:55.43,0:18:56.68,shingeki-text-jp,NTP,0,0,0,,全員起きろ
+Dialogue: 0,0:18:57.05,0:18:59.18,shingeki-text-jp,NTP,0,0,0,,屋上に来てくれ　すぐにだ
+Dialogue: 0,0:19:08.31,0:19:10.82,shingeki-text-jp,NTP,0,0,0,,月明かりが出てきて　気づいたら…
+Dialogue: 0,0:19:14.08,0:19:16.82,shingeki-text-jp,NTP,0,0,0,,なんでだよ　なんでまだ動いてんだ
+Dialogue: 0,0:19:17.39,0:19:19.60,shingeki-text-jp,NTP,0,0,0,,日没からかなり時間が経ったのに
+Dialogue: 0,0:19:21.27,0:19:22.33,shingeki-text-jp,NTP,0,0,0,,どうなっているの
+Dialogue: 0,0:19:23.09,0:19:25.03,shingeki-text-jp,NTP,0,0,0,,おい　あれを見ろ
+Dialogue: 0,0:19:26.62,0:19:29.93,shingeki-text-jp,NTP,0,0,0,,でけぇ　なんだあいつは　巨人？
+Dialogue: 0,0:19:30.97,0:19:32.79,shingeki-text-jp,NTP,0,0,0,,っていうか　なんかありゃ
+Dialogue: 0,0:19:33.28,0:19:34.47,shingeki-text-jp,NTP,0,0,0,,獣じゃねぇか
+Dialogue: 0,0:19:41.26,0:19:43.24,shingeki-text-jp,NTP,0,0,0,,あいつ　壁の方に
+Dialogue: 0,0:19:50.77,0:19:52.13,shingeki-text-jp,NTP,0,0,0,,全員　わかったね
+Dialogue: 0,0:19:52.40,0:19:52.86,shingeki-text-jp,NTP,0,0,0,,はい！
+Dialogue: 0,0:19:54.73,0:19:55.84,shingeki-text-jp,NTP,0,0,0,,とにかく前線に…
+Dialogue: 0,0:19:55.87,0:19:56.71,shingeki-text-jp,NTP,0,0,0,,落ち着けエレン
+Dialogue: 0,0:19:59.20,0:20:00.16,shingeki-text-jp,NTP,0,0,0,,お前らも聞け
+Dialogue: 0,0:20:01.25,0:20:02.63,shingeki-text-jp,NTP,0,0,0,,こっからは別行動だ
+Dialogue: 0,0:20:03.32,0:20:04.60,shingeki-text-jp,NTP,0,0,0,,後は任したぞ
+Dialogue: 0,0:20:05.72,0:20:08.13,shingeki-text-jp,NTP,0,0,0,,お前らはエルヴィンが決めた即席な班だが
+Dialogue: 0,0:20:08.73,0:20:10.64,shingeki-text-jp,NTP,0,0,0,,今はお前らだけが頼りだ
+Dialogue: 0,0:20:11.55,0:20:13.23,shingeki-text-jp,NTP,0,0,0,,分かってんだな　アルミン
+Dialogue: 0,0:20:13.66,0:20:16.21,shingeki-text-jp,NTP,0,0,0,,お前は今後も　ハンジと知恵を絞れ
+Dialogue: 0,0:20:16.49,0:20:17.52,shingeki-text-jp,NTP,0,0,0,,はい
+Dialogue: 0,0:20:18.70,0:20:22.79,shingeki-text-jp,NTP,0,0,0,,ミカサ　お前はなぜエレンに執着してるかは知らんが
+Dialogue: 0,0:20:23.65,0:20:27.22,shingeki-text-jp,NTP,0,0,0,,お前の能力の全ては　エレンを守ることに使え
+Dialogue: 0,0:20:27.57,0:20:29.28,shingeki-text-jp,NTP,0,0,0,,はい　もちろんです
+Dialogue: 0,0:20:30.31,0:20:33.08,shingeki-text-jp,NTP,0,0,0,,それからだ　エレン
+Dialogue: 0,0:20:38.61,0:20:39.32,shingeki-text-jp,NTP,0,0,0,,おい　待って
+Dialogue: 0,0:20:40.12,0:20:41.49,shingeki-text-jp,NTP,0,0,0,,待って待って待ってくれ
+Dialogue: 0,0:20:43.22,0:20:44.56,shingeki-text-jp,NTP,0,0,0,,何入ってきてんだよ
+Dialogue: 0,0:20:45.68,0:20:49.35,shingeki-text-jp,NTP,0,0,0,,っざけんじゃねぇ　ふざけんじゃねぇぞ
+Dialogue: 0,0:20:49.79,0:20:51.98,shingeki-text-jp,NTP,0,0,0,,酒も飲めねじゃねぇか俺は
+Dialogue: 0,0:20:52.71,0:20:54.55,shingeki-text-jp,NTP,0,0,0,,てめぇらのためによ！
+Dialogue: 0,0:20:55.20,0:20:56.66,shingeki-text-jp,NTP,0,0,0,,新兵　下がっているんだよ
+Dialogue: 0,0:20:58.18,0:21:02.36,shingeki-text-jp,NTP,0,0,0,,ここからは　立体機動装置の出番だ
+Dialogue: 0,0:21:05.18,0:21:05.68,shingeki-text-jp,NTP,0,0,0,,行くぞ
+Dialogue: 0,0:21:24.29,0:21:25.69,shingeki-text-jp,NTP,0,0,0,,それからだ　エレン
+Dialogue: 0,0:21:26.48,0:21:28.30,shingeki-text-jp,NTP,0,0,0,,お前は自分を抑制しろ
+Dialogue: 0,0:21:29.67,0:21:32.23,shingeki-text-jp,NTP,0,0,0,,怒りに溺れて本質を見失うな
+Dialogue: 0,0:21:33.38,0:21:35.22,shingeki-text-jp,NTP,0,0,0,,今度こそしくじるなよ
+Dialogue: 0,0:21:36.13,0:21:36.70,shingeki-text-jp,NTP,0,0,0,,はい！
+Dialogue: 0,0:21:39.72,0:21:42.24,shingeki-text-jp,NTP,0,0,0,,ここの塔からならは壁を見渡せそうだ
+Dialogue: 0,0:21:43.29,0:21:45.79,shingeki-text-jp,NTP,0,0,0,,南西の壁近くにある古城を
+Dialogue: 0,0:21:46.98,0:21:48.99,shingeki-text-jp,NTP,0,0,0,,ウトガルド城を目指そう
+Dialogue: 0,0:00:00.00,0:00:00.00,shingeki-text-jp,NTP,0,0,0,,
+Dialogue: 0,0:23:41.92,0:23:45.01,shingeki-text-jp,NTP,0,0,0,,巨人の侵入地点を探す調査兵団は
+Dialogue: 0,0:23:45.39,0:23:47.32,shingeki-text-jp,NTP,0,0,0,,ウドガルド城へと到着する
+Dialogue: 0,0:23:48.45,0:23:50.63,shingeki-text-jp,NTP,0,0,0,,束の間の休息を破ったのは
+Dialogue: 0,0:23:51.05,0:23:54.23,shingeki-text-jp,NTP,0,0,0,,夜にもかかわらず活動する巨人たちだった
+Dialogue: 0,0:23:55.52,0:23:57.22,shingeki-text-jp,NTP,0,0,0,,奮戦する調査兵団
+Dialogue: 0,0:23:58.44,0:24:02.33,shingeki-text-jp,NTP,0,0,0,,城内へと侵入した巨人に襲われたライナーの脳裏に
+Dialogue: 0,0:24:02.68,0:24:04.59,shingeki-text-jp,NTP,0,0,0,,過去の思い出が蘇る
+Dialogue: 0,0:24:05.84,0:24:08.61,shingeki-text-jp,NTP,0,0,0,,次回　兵士
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:09.56,0:00:11.61,shingeki-text-ch,NTP,0,0,0,,康尼 找到倖存者了嗎
+Dialogue: 0,0:00:13.36,0:00:13.87,shingeki-text-ch,NTP,0,0,0,,沒有
+Dialogue: 0,0:00:15.80,0:00:16.33,shingeki-text-ch,NTP,0,0,0,,沒有啊
+Dialogue: 0,0:00:18.19,0:00:19.19,shingeki-text-ch,NTP,0,0,0,,已經完了
+Dialogue: 0,0:00:20.39,0:00:23.34,shingeki-text-ch,NTP,0,0,0,,我的故鄉已經徹底消失了
+Dialogue: 0,0:00:31.08,0:00:32.94,shingeki-text-ch,NTP,0,0,0,,喂 這裡有些不對勁
+Dialogue: 0,0:00:36.06,0:00:37.49,shingeki-text-ch,NTP,0,0,0,,有誰發現屍體了嗎
+Dialogue: 0,0:00:38.92,0:00:39.37,shingeki-text-ch,NTP,0,0,0,,沒有
+Dialogue: 0,0:00:40.34,0:00:40.97,shingeki-text-ch,NTP,0,0,0,,我沒看見
+Dialogue: 0,0:00:41.79,0:00:43.13,shingeki-text-ch,NTP,0,0,0,,怎麼會有這樣的事情呢
+Dialogue: 0,0:00:43.65,0:00:45.87,shingeki-text-ch,NTP,0,0,0,,被巨人襲擊的村落居然一滴血也沒有…
+Dialogue: 0,0:00:46.04,0:00:46.95,shingeki-text-ch,NTP,0,0,0,,村民肯定是都逃跑了
+Dialogue: 0,0:00:47.43,0:00:49.01,shingeki-text-ch,NTP,0,0,0,,也就是說誰也沒被吃掉
+Dialogue: 0,0:00:49.40,0:00:50.69,shingeki-text-ch,NTP,0,0,0,,包括是你的家人還是村民們
+Dialogue: 0,0:00:52.02,0:00:54.39,shingeki-text-ch,NTP,0,0,0,,對啊 一定是這樣的吧
+Dialogue: 0,0:00:54.89,0:00:55.34,shingeki-text-ch,NTP,0,0,0,,是啊
+Dialogue: 0,0:00:55.68,0:01:00.15,shingeki-text-ch,NTP,0,0,0,,要是被巨人吃了 不可能一點痕跡也沒有的
+Dialogue: 0,0:01:01.47,0:01:03.26,shingeki-text-ch,NTP,0,0,0,,不可能的疑點還有很多
+Dialogue: 0,0:01:04.86,0:01:07.90,shingeki-text-ch,NTP,0,0,0,,如果村民真的已經去避難了的話
+Dialogue: 0,0:01:08.91,0:01:11.03,shingeki-text-ch,NTP,0,0,0,,巨人會像這樣把空無一人的房子
+Dialogue: 0,0:01:11.43,0:01:13.84,shingeki-text-ch,NTP,0,0,0,,全都給破壞殆盡嗎
+Dialogue: 0,0:01:15.52,0:01:18.91,shingeki-text-ch,NTP,0,0,0,,而且更讓我百思不得其解的是那個馬廄
+Dialogue: 0,0:01:20.61,0:01:25.04,shingeki-text-ch,NTP,0,0,0,,明明要是不騎馬逃跑 生存的可能性便會微乎其微
+Dialogue: 0,0:01:26.58,0:01:27.83,shingeki-text-ch,NTP,0,0,0,,都準備好火把了吧
+Dialogue: 0,0:01:28.67,0:01:29.26,shingeki-text-ch,NTP,0,0,0,,我們走
+Dialogue: 0,0:01:30.19,0:01:32.69,shingeki-text-ch,NTP,0,0,0,,我們現在去確認城牆被破壞的地方
+Dialogue: 0,0:01:33.14,0:01:33.58,shingeki-text-ch,NTP,0,0,0,,是
+Dialogue: 0,0:01:44.89,0:01:47.46,shingeki-text-ch,NTP,0,0,0,,歡…迎回…來…
+Dialogue: 0,0:02:03.38,0:02:03.95,shingeki-text-ch,NTP,0,0,0,,剛剛…
+Dialogue: 0,0:02:05.41,0:02:06.52,shingeki-text-ch,NTP,0,0,0,,康尼 動作快點
+Dialogue: 0,0:02:07.16,0:02:08.64,shingeki-text-ch,NTP,0,0,0,,要趕不上格魯噶他們了
+Dialogue: 0,0:02:10.05,0:02:11.86,shingeki-text-ch,NTP,0,0,0,,萊納 你聽見了嗎
+Dialogue: 0,0:02:12.07,0:02:13.17,shingeki-text-ch,NTP,0,0,0,,剛剛那傢伙…
+Dialogue: 0,0:02:13.30,0:02:14.62,shingeki-text-ch,NTP,0,0,0,,我什麼也沒聽見
+Dialogue: 0,0:02:15.89,0:02:18.53,shingeki-text-ch,NTP,0,0,0,,總之現在什麼都別說 集中精神執行任務
+Dialogue: 0,0:02:19.09,0:02:20.98,shingeki-text-ch,NTP,0,0,0,,那傢伙…似乎…
+Dialogue: 0,0:02:21.76,0:02:25.59,shingeki-text-ch,NTP,0,0,0,,雖然不太可能 總覺得它跟媽媽…
+Dialogue: 0,0:02:25.73,0:02:26.32,shingeki-text-ch,NTP,0,0,0,,康尼！
+Dialogue: 0,0:02:26.73,0:02:28.89,shingeki-text-ch,NTP,0,0,0,,你知道現在是什麼情況嗎
+Dialogue: 0,0:02:30.01,0:02:34.13,shingeki-text-ch,NTP,0,0,0,,我們的行動直接關係著數十萬人的安危啊
+Dialogue: 0,0:02:35.19,0:02:38.08,shingeki-text-ch,NTP,0,0,0,,現在要想的話應該是你那些已經避難了的家人的事情吧
+Dialogue: 0,0:02:39.08,0:02:40.78,shingeki-text-ch,NTP,0,0,0,,是士兵的話現在就竭盡全力
+Dialogue: 0,0:02:46.72,0:02:47.59,shingeki-text-ch,NTP,0,0,0,,沒錯啊
+Dialogue: 0,0:02:50.32,0:02:51.15,shingeki-text-ch,NTP,0,0,0,,就是那樣
+Dialogue: 0,0:04:27.13,0:04:32.06,shingeki-title,NTP,0,0,0,,{\pos(962.667,662)}通向南西
+Dialogue: 0,0:04:35.58,0:04:40.26,shingeki-sp,NTP,0,0,0,,{\pos(1400,731.333)}發現巨人七小時後{\fad(600,600)}
+Dialogue: 0,0:04:36.94,0:04:38.63,shingeki-text-ch,NTP,0,0,0,,這一帶接近牆壁
+Dialogue: 0,0:04:38.80,0:04:39.94,shingeki-text-ch,NTP,0,0,0,,已經沒有居民區了
+Dialogue: 0,0:04:41.47,0:04:44.13,shingeki-text-ch,NTP,0,0,0,,是嗎 比我想像中結束得要早啊
+Dialogue: 0,0:04:46.65,0:04:48.68,shingeki-text-ch,NTP,0,0,0,,好 就這樣南下
+Dialogue: 0,0:04:50.27,0:04:51.16,shingeki-text-ch,NTP,0,0,0,,為什麼
+Dialogue: 0,0:04:51.96,0:04:54.29,shingeki-text-ch,NTP,0,0,0,,這裡以南的地方已經沒人住了…
+Dialogue: 0,0:04:55.48,0:04:58.14,shingeki-text-ch,NTP,0,0,0,,必須去確認被破壞了的城牆的位置
+Dialogue: 0,0:04:58.74,0:05:01.20,shingeki-text-ch,NTP,0,0,0,,從西面開始 沿著城牆邊跑邊搜索吧
+Dialogue: 0,0:05:02.53,0:05:05.17,shingeki-text-ch,NTP,0,0,0,,我和赫里斯塔可是沒有帶戰鬥裝備
+Dialogue: 0,0:05:05.77,0:05:08.79,shingeki-text-ch,NTP,0,0,0,,接下來南面應該會有巨人蜂擁而至
+Dialogue: 0,0:05:09.48,0:05:12.42,shingeki-text-ch,NTP,0,0,0,,我們很有可能就這樣成了它們的美餐
+Dialogue: 0,0:05:13.40,0:05:15.32,shingeki-text-ch,NTP,0,0,0,,請允許我們暫時脫離前線
+Dialogue: 0,0:05:16.54,0:05:17.13,shingeki-text-ch,NTP,0,0,0,,尤彌爾
+Dialogue: 0,0:05:17.81,0:05:18.37,shingeki-text-ch,NTP,0,0,0,,不行
+Dialogue: 0,0:05:18.97,0:05:21.09,shingeki-text-ch,NTP,0,0,0,,聯絡人員哪怕再多一個都是必要的
+Dialogue: 0,0:05:21.99,0:05:22.88,shingeki-text-ch,NTP,0,0,0,,我明白你的心情
+Dialogue: 0,0:05:23.35,0:05:25.33,shingeki-text-ch,NTP,0,0,0,,但既然選擇了成為士兵 就請你做好覺悟
+Dialogue: 0,0:05:32.16,0:05:32.66,shingeki-text-ch,NTP,0,0,0,,尤彌爾
+Dialogue: 0,0:05:33.41,0:05:35.70,shingeki-text-ch,NTP,0,0,0,,我想在這兒 在最前線竭盡全力
+Dialogue: 0,0:05:37.77,0:05:41.33,shingeki-text-ch,NTP,0,0,0,,因為 是我自己要選擇加入調查兵團的
+Dialogue: 0,0:05:42.68,0:05:44.92,shingeki-text-ch,NTP,0,0,0,,但是 你卻不是這樣的吧
+Dialogue: 0,0:05:47.02,0:05:49.51,shingeki-text-ch,NTP,0,0,0,,那個時候你之所以加入調查兵團是因為我…
+Dialogue: 0,0:05:50.23,0:05:52.10,shingeki-text-ch,NTP,0,0,0,,你想說我是為了你才這樣做嗎
+Dialogue: 0,0:05:53.09,0:05:54.61,shingeki-text-ch,NTP,0,0,0,,那你為什麼現在會在這兒呢
+Dialogue: 0,0:05:55.70,0:05:58.93,shingeki-text-ch,NTP,0,0,0,,你總是在催促我要以憲兵團為目標
+Dialogue: 0,0:05:59.21,0:06:00.88,shingeki-text-ch,NTP,0,0,0,,甚至想把那個機會讓給我
+Dialogue: 0,0:06:02.89,0:06:06.69,shingeki-text-ch,NTP,0,0,0,,以我的實力是沒法躋身這一期前十名的
+Dialogue: 0,0:06:07.66,0:06:11.49,shingeki-text-ch,NTP,0,0,0,,無論聽誰說 你本應名列前十名之中
+Dialogue: 0,0:06:12.65,0:06:14.21,shingeki-text-ch,NTP,0,0,0,,雖然不知道你是怎麼做的
+Dialogue: 0,0:06:16.76,0:06:19.72,shingeki-text-ch,NTP,0,0,0,,為什麼 要為我做到這個份上呢
+Dialogue: 0,0:06:24.61,0:06:29.13,shingeki-text-ch,NTP,0,0,0,,和我出生的家庭有關嗎
+Dialogue: 0,0:06:31.89,0:06:33.77,shingeki-text-ch,NTP,0,0,0,,是啊 有關係
+Dialogue: 0,0:06:36.36,0:06:39.28,shingeki-text-ch,NTP,0,0,0,,赫里斯塔 你安心吧
+Dialogue: 0,0:06:40.57,0:06:44.72,shingeki-text-ch,NTP,0,0,0,,我之所以會在這兒都是為了自己
+Dialogue: 0,0:06:47.38,0:06:48.07,shingeki-text-ch,NTP,0,0,0,,是這樣啊
+Dialogue: 0,0:06:51.55,0:06:52.71,shingeki-text-ch,NTP,0,0,0,,太好了
+Dialogue: 0,0:07:00.56,0:07:04.86,shingeki-sp,NTP,0,0,0,,{\pos(970.667,776.666)}發現巨人九小時後{\fad(600,600)}
+Dialogue: 0,0:07:00.56,0:07:04.86,shingeki-sp,NTP,0,0,0,,{\pos(962.667,835.334)}東部防線{\fad(600,600)}
+Dialogue: 0,0:07:07.35,0:07:09.20,shingeki-text-ch,NTP,0,0,0,,目標進入射程內
+Dialogue: 0,0:07:09.97,0:07:11.64,shingeki-text-ch,NTP,0,0,0,,全炮已準備就緒
+Dialogue: 0,0:07:13.79,0:07:15.46,shingeki-text-ch,NTP,0,0,0,,再等等 把它再引過來一點
+Dialogue: 0,0:07:16.62,0:07:16.99,shingeki-text-ch,NTP,0,0,0,,是
+Dialogue: 0,0:07:18.36,0:07:19.59,shingeki-text-ch,NTP,0,0,0,,開炮
+Dialogue: 0,0:07:39.94,0:07:40.47,shingeki-text-ch,NTP,0,0,0,,成功了嗎
+Dialogue: 0,0:07:42.72,0:07:44.02,shingeki-text-ch,NTP,0,0,0,,我們成功了 黎各班長
+Dialogue: 0,0:07:44.69,0:07:47.33,shingeki-text-ch,NTP,0,0,0,,照這樣下去 就能維持這條防禦線了
+Dialogue: 0,0:07:48.06,0:07:51.05,shingeki-text-ch,NTP,0,0,0,,不 巨人的可怕之處在於它們的數量
+Dialogue: 0,0:07:52.05,0:07:55.57,shingeki-text-ch,NTP,0,0,0,,如果是成批過來的話 這裡也會被突破吧
+Dialogue: 0,0:07:57.66,0:08:00.89,shingeki-text-ch,NTP,0,0,0,,只是 為什麼呢 總覺得…
+Dialogue: 0,0:08:03.05,0:08:03.68,shingeki-text-ch,NTP,0,0,0,,太奇怪了
+Dialogue: 0,0:08:04.71,0:08:06.65,shingeki-text-ch,NTP,0,0,0,,漢尼斯隊長 您怎麼了
+Dialogue: 0,0:08:07.64,0:08:10.28,shingeki-text-ch,NTP,0,0,0,,到現在都還沒有遇到一匹巨人
+Dialogue: 0,0:08:11.28,0:08:13.85,shingeki-text-ch,NTP,0,0,0,,明明應該接近牆壁的缺口了才對
+Dialogue: 0,0:08:14.84,0:08:17.41,shingeki-text-ch,NTP,0,0,0,,但是卻還這麼寧靜不是嗎
+Dialogue: 0,0:08:20.94,0:08:25.80,shingeki-text-ch,NTP,0,0,0,,但願能一直這樣安穩下去就好了
+Dialogue: 0,0:08:40.75,0:08:45.58,shingeki-sp,NTP,0,0,0,,{\pos(978.667,811.333)}發現巨人十一小時後{\fad(800,y)}
+Dialogue: 0,0:08:48.17,0:08:48.72,shingeki-text-ch,NTP,0,0,0,,什麼時候…
+Dialogue: 0,0:08:50.94,0:08:51.93,shingeki-text-ch,NTP,0,0,0,,什麼時候會出現
+Dialogue: 0,0:08:54.08,0:08:55.28,shingeki-text-ch,NTP,0,0,0,,在哪個瞬間
+Dialogue: 0,0:08:56.44,0:08:59.31,shingeki-text-ch,NTP,0,0,0,,他們從黑暗之中跳出來也不足為奇
+Dialogue: 0,0:09:01.88,0:09:05.59,shingeki-text-ch,NTP,0,0,0,,不 就這樣接近缺口的話
+Dialogue: 0,0:09:06.27,0:09:08.57,shingeki-text-ch,NTP,0,0,0,,那個瞬間一定會來臨
+Dialogue: 0,0:09:10.16,0:09:14.27,shingeki-text-ch,NTP,0,0,0,,可惡… 我感覺快要瘋掉了
+Dialogue: 0,0:09:40.27,0:09:42.54,shingeki-text-ch,NTP,0,0,0,,你們也是沿著城牆過來的嗎
+Dialogue: 0,0:09:43.28,0:09:45.58,shingeki-text-ch,NTP,0,0,0,,是啊 而且也沒找到缺口
+Dialogue: 0,0:09:46.01,0:09:46.63,shingeki-text-ch,NTP,0,0,0,,什麼？
+Dialogue: 0,0:09:48.07,0:09:50.49,shingeki-text-ch,NTP,0,0,0,,從這裡向西走沒有發現缺口
+Dialogue: 0,0:09:51.78,0:09:53.31,shingeki-text-ch,NTP,0,0,0,,你們那邊沒有發現嗎
+Dialogue: 0,0:09:54.96,0:09:58.56,shingeki-text-ch,NTP,0,0,0,,沒有 我們這邊也沒有發現缺口
+Dialogue: 0,0:10:05.53,0:10:06.82,shingeki-text-ch,NTP,0,0,0,,會不會是看漏眼了？
+Dialogue: 0,0:10:07.40,0:10:10.99,shingeki-text-ch,NTP,0,0,0,,不可能 那可是能讓巨人通過的大小
+Dialogue: 0,0:10:11.93,0:10:13.95,shingeki-text-ch,NTP,0,0,0,,要再確認一次嗎
+Dialogue: 0,0:10:14.71,0:10:15.89,shingeki-text-ch,NTP,0,0,0,,本來是應該這麼做的
+Dialogue: 0,0:10:16.23,0:10:19.22,shingeki-text-ch,NTP,0,0,0,,但馬匹還是我們的體力都已經到極限了
+Dialogue: 0,0:10:20.94,0:10:22.56,shingeki-text-ch,NTP,0,0,0,,至少有點月光就好了
+Dialogue: 0,0:10:28.95,0:10:29.63,shingeki-text-ch,NTP,0,0,0,,那是…
+Dialogue: 0,0:10:35.34,0:10:36.39,shingeki-text-ch,NTP,0,0,0,,城堡的遺蹟嗎
+Dialogue: 0,0:10:40.20,0:10:45.05,shingeki-sp2,NTP,0,0,0,,{\pos(482.667,211.333)\3c&H247F7B&\4c&H247F7B&}現在可以公開的情報
+Dialogue: 0,0:10:40.20,0:10:45.05,shingeki-sp,NTP,0,0,0,,{\fs35\pos(987.332,854)}火把
+Dialogue: 0,0:10:40.20,0:10:45.05,shingeki-sp,NTP,0,0,0,,{\fs35\pos(1394.333,914)}乍一看雖然落後，但火把即使落地火光也不會馬上熄滅
+Dialogue: 0,0:10:40.20,0:10:45.05,shingeki-sp,,0,0,0,,{\fs35\pos(1382,969.333)}非常適合夜間的作戰行動,以長時間燃燒的原材料製成
+Dialogue: 0,0:10:40.20,0:10:45.05,shingeki-sp,NTP,0,0,0,,{\fs35\pos(1248.667,1024.666)}這樣的火把是調查兵團的標準裝備。
+Dialogue: 0,0:10:54.44,0:10:55.31,shingeki-text-ch,NTP,0,0,0,,雖然有點破敗
+Dialogue: 0,0:10:55.93,0:10:58.21,shingeki-text-ch,NTP,0,0,0,,但還是能湊合住上一晚的樣子
+Dialogue: 0,0:10:59.73,0:11:02.20,shingeki-text-ch,NTP,0,0,0,,是啊 今晚能看見月亮啊
+Dialogue: 0,0:11:11.96,0:11:12.41,shingeki-text-ch,NTP,0,0,0,,韓吉
+Dialogue: 0,0:11:14.93,0:11:15.92,shingeki-text-ch,NTP,0,0,0,,喂 死四眼
+Dialogue: 0,0:11:17.88,0:11:21.38,shingeki-text-ch,NTP,0,0,0,,原來你有玩石頭這種消極趣味的嗎
+Dialogue: 0,0:11:23.76,0:11:24.45,shingeki-text-ch,NTP,0,0,0,,是啊
+Dialogue: 0,0:11:25.33,0:11:26.90,shingeki-text-ch,NTP,0,0,0,,這不是普通的石頭
+Dialogue: 0,0:11:27.59,0:11:30.99,shingeki-text-ch,NTP,0,0,0,,是女巨人留下來的硬化皮膚的碎片
+Dialogue: 0,0:11:32.54,0:11:33.62,shingeki-text-ch,NTP,0,0,0,,竟然沒有消失
+Dialogue: 0,0:11:34.02,0:11:34.49,shingeki-text-ch,NTP,0,0,0,,對的
+Dialogue: 0,0:11:35.00,0:11:38.36,shingeki-text-ch,NTP,0,0,0,,即便阿尼脫離了巨人化 讓它與本體分離依然是這樣
+Dialogue: 0,0:11:38.92,0:11:41.66,shingeki-text-ch,NTP,0,0,0,,並沒有蒸發掉 它不會消失
+Dialogue: 0,0:11:42.54,0:11:44.20,shingeki-text-ch,NTP,0,0,0,,雖然只是我的猜測
+Dialogue: 0,0:11:44.68,0:11:46.34,shingeki-text-ch,NTP,0,0,0,,和城牆的碎片比較之後
+Dialogue: 0,0:11:46.58,0:11:50.43,shingeki-text-ch,NTP,0,0,0,,兩者的模樣和排列方式甚至構造都非常相似
+Dialogue: 0,0:11:51.22,0:11:54.52,shingeki-text-ch,NTP,0,0,0,,也就是說 我想那些牆壁是以大型巨人為支柱
+Dialogue: 0,0:11:54.72,0:11:59.62,shingeki-text-ch,NTP,0,0,0,,表面則是皮膚硬化形成的
+Dialogue: 0,0:12:01.08,0:12:03.34,shingeki-text-ch,NTP,0,0,0,,真的如阿明所說那樣
+Dialogue: 0,0:12:05.84,0:12:06.83,shingeki-text-ch,NTP,0,0,0,,那 那麼…
+Dialogue: 0,0:12:07.79,0:12:09.76,shingeki-text-ch,NTP,0,0,0,,等等 先讓我說完 阿明
+Dialogue: 0,0:12:10.74,0:12:14.05,shingeki-text-ch,NTP,0,0,0,,照現在的情況來看想要修復羅塞之牆極其困難吧
+Dialogue: 0,0:12:14.91,0:12:18.13,shingeki-text-ch,NTP,0,0,0,,前提是找不到適合的岩石的話
+Dialogue: 0,0:12:19.87,0:12:21.13,shingeki-text-ch,NTP,0,0,0,,但是 如果…
+Dialogue: 0,0:12:21.33,0:12:22.68,shingeki-text-ch,NTP,0,0,0,,巨人化後的艾倫
+Dialogue: 0,0:12:23.64,0:12:27.69,shingeki-text-ch,NTP,0,0,0,,能用巨人的硬化能力去堵住缺口的話
+Dialogue: 0,0:12:29.68,0:12:33.73,shingeki-text-ch,NTP,0,0,0,,用我 來堵住缺口
+Dialogue: 0,0:12:35.76,0:12:37.90,shingeki-text-ch,NTP,0,0,0,,原材料應該是一樣的
+Dialogue: 0,0:12:38.60,0:12:40.95,shingeki-text-ch,NTP,0,0,0,,假如解除巨人化後
+Dialogue: 0,0:12:41.15,0:12:43.36,shingeki-text-ch,NTP,0,0,0,,依然能留下不會蒸發的石化巨像
+Dialogue: 0,0:12:44.50,0:12:45.24,shingeki-text-ch,NTP,0,0,0,,也許就…
+Dialogue: 0,0:12:49.54,0:12:51.93,shingeki-text-ch,NTP,0,0,0,,我覺得很值得為之一搏
+Dialogue: 0,0:12:52.79,0:12:54.58,shingeki-text-ch,NTP,0,0,0,,而且如果這樣方法可行的話
+Dialogue: 0,0:12:55.60,0:12:57.93,shingeki-text-ch,NTP,0,0,0,,奪回瑪利亞之牆的計劃也漸漸變得明朗了呢
+Dialogue: 0,0:12:59.24,0:13:03.22,shingeki-text-ch,NTP,0,0,0,,如果是以前的做法 因為要輸送大量的資材
+Dialogue: 0,0:13:03.63,0:13:06.86,shingeki-text-ch,NTP,0,0,0,,壁外還需要邊設置補給點邊前進
+Dialogue: 0,0:13:07.86,0:13:11.08,shingeki-text-ch,NTP,0,0,0,,但是 如果不需要護送運送物資的馬車
+Dialogue: 0,0:13:11.34,0:13:13.67,shingeki-text-ch,NTP,0,0,0,,就能以最快的速度抵達希干希納區
+Dialogue: 0,0:13:14.66,0:13:17.37,shingeki-text-ch,NTP,0,0,0,,在夜間實施這個作戰如何呢
+Dialogue: 0,0:13:18.09,0:13:18.65,shingeki-text-ch,NTP,0,0,0,,在晚上？
+Dialogue: 0,0:13:18.97,0:13:21.73,shingeki-text-ch,NTP,0,0,0,,是的 趁著巨人不能在夜間活動
+Dialogue: 0,0:13:23.60,0:13:24.57,shingeki-text-ch,NTP,0,0,0,,原來如此
+Dialogue: 0,0:13:24.95,0:13:26.17,shingeki-text-ch,NTP,0,0,0,,如果人數不多的話
+Dialogue: 0,0:13:26.30,0:13:28.83,shingeki-text-ch,NTP,0,0,0,,說不定甚至可以一口氣抵達瑪利亞之牆
+Dialogue: 0,0:13:30.95,0:13:33.29,shingeki-text-ch,NTP,0,0,0,,即使現狀是前所未有的絕望
+Dialogue: 0,0:13:33.91,0:13:36.43,shingeki-text-ch,NTP,0,0,0,,但還是留有一線生機的
+Dialogue: 0,0:13:37.65,0:13:39.85,shingeki-text-ch,NTP,0,0,0,,是的 但是這一切…
+Dialogue: 0,0:13:40.43,0:13:43.46,shingeki-text-ch,NTP,0,0,0,,都以艾倫能堵住缺口為前提
+Dialogue: 0,0:13:45.85,0:13:48.69,shingeki-text-ch,NTP,0,0,0,,雖然有點為難你 但我還是想問問
+Dialogue: 0,0:13:49.74,0:13:51.10,shingeki-text-ch,NTP,0,0,0,,所以…你能做到嗎
+Dialogue: 0,0:14:01.19,0:14:03.09,shingeki-text-ch,NTP,0,0,0,,不是能不能做到的問題吧
+Dialogue: 0,0:14:04.65,0:14:06.88,shingeki-text-ch,NTP,0,0,0,,給我去做 現在沒有其他選擇了
+Dialogue: 0,0:14:08.04,0:14:13.58,shingeki-text-ch,NTP,0,0,0,,這種情況下 兵團除了拼盡性命以外也做不了什麼了
+Dialogue: 0,0:14:14.86,0:14:16.41,shingeki-text-ch,NTP,0,0,0,,所以必須讓它成功
+Dialogue: 0,0:14:17.35,0:14:17.98,shingeki-text-ch,NTP,0,0,0,,明白！
+Dialogue: 0,0:14:18.47,0:14:20.90,shingeki-text-ch,NTP,0,0,0,,我一定會把洞口堵上的
+Dialogue: 0,0:14:22.53,0:14:23.36,shingeki-text-ch,NTP,0,0,0,,一定…
+Dialogue: 0,0:14:31.35,0:14:34.61,shingeki-text-ch,NTP,0,0,0,,地下室 我家的地下室
+Dialogue: 0,0:14:35.50,0:14:37.25,shingeki-text-ch,NTP,0,0,0,,如果父親的話是真的
+Dialogue: 0,0:14:37.97,0:14:40.73,shingeki-text-ch,NTP,0,0,0,,在那裡就能找到所有問題的答案…
+Dialogue: 0,0:14:48.84,0:14:49.70,shingeki-text-ch,NTP,0,0,0,,到艾路米哈區了
+Dialogue: 0,0:15:04.37,0:15:05.42,shingeki-text-ch,NTP,0,0,0,,喂 別停下腳步
+Dialogue: 0,0:15:05.95,0:15:07.59,shingeki-text-ch,NTP,0,0,0,,你想迷路嗎
+Dialogue: 0,0:15:08.89,0:15:09.75,shingeki-text-ch,NTP,0,0,0,,這是…
+Dialogue: 0,0:15:10.68,0:15:12.89,shingeki-text-ch,NTP,0,0,0,,這種情況不是理所當然的嗎
+Dialogue: 0,0:15:14.01,0:15:16.20,shingeki-text-ch,NTP,0,0,0,,因為城牆被破壞了啊
+Dialogue: 0,0:15:18.99,0:15:21.63,shingeki-text-ch,NTP,0,0,0,,{\an8}媽媽 爸爸
+Dialogue: 0,0:15:24.22,0:15:27.17,shingeki-text-ch,NTP,0,0,0,,喂 你想做什麼
+Dialogue: 0,0:15:28.39,0:15:31.86,shingeki-text-ch,NTP,0,0,0,,好好看看失去住所的人們的表情吧
+Dialogue: 0,0:15:33.54,0:15:36.29,shingeki-text-ch,NTP,0,0,0,,那些就是你們想要將其拋棄的人們的表情
+Dialogue: 0,0:15:37.34,0:15:38.98,shingeki-text-ch,NTP,0,0,0,,要是你們的願望實現了
+Dialogue: 0,0:15:39.39,0:15:41.94,shingeki-text-ch,NTP,0,0,0,,牆裡成功地充滿了巨人
+Dialogue: 0,0:15:42.80,0:15:45.13,shingeki-text-ch,NTP,0,0,0,,那大家都會進入在巨人的散發惡臭的嘴巴裡
+Dialogue: 0,0:15:45.47,0:15:47.45,shingeki-text-ch,NTP,0,0,0,,品嘗人生最可怕的感受
+Dialogue: 0,0:15:47.65,0:15:49.27,shingeki-text-ch,NTP,0,0,0,,然後結束這一生吧
+Dialogue: 0,0:15:50.09,0:15:51.95,shingeki-text-ch,NTP,0,0,0,,全人類無一例外
+Dialogue: 0,0:15:56.54,0:15:59.32,shingeki-text-ch,NTP,0,0,0,,離開艾路米哈區之後 就是巨人的地盤了
+Dialogue: 0,0:16:00.41,0:16:02.53,shingeki-text-ch,NTP,0,0,0,,艾倫 你現在能騎馬嗎
+Dialogue: 0,0:16:02.98,0:16:05.59,shingeki-text-ch,NTP,0,0,0,,是 身體的力氣已經恢復了
+Dialogue: 0,0:16:06.34,0:16:08.80,shingeki-text-ch,NTP,0,0,0,,西側的升降機那裡準備了馬 快點去吧
+Dialogue: 0,0:16:08.72,0:16:09.39,shingeki-text-ch,NTP,0,0,0,,是
+Dialogue: 0,0:16:13.19,0:16:14.77,shingeki-text-ch,NTP,0,0,0,,分隊長 快過來吧
+Dialogue: 0,0:16:15.49,0:16:17.07,shingeki-text-ch,NTP,0,0,0,,馬布里特 等一下
+Dialogue: 0,0:16:18.95,0:16:21.56,shingeki-text-ch,NTP,0,0,0,,您的想法有變化了嗎
+Dialogue: 0,0:16:26.86,0:16:29.05,shingeki-text-ch,NTP,0,0,0,,沒時間了 你自己也清楚吧
+Dialogue: 0,0:16:29.30,0:16:31.12,shingeki-text-ch,NTP,0,0,0,,快點決定說還是不說吧
+Dialogue: 0,0:16:31.24,0:16:32.39,shingeki-text-ch,NTP,0,0,0,,就當我求你了
+Dialogue: 0,0:16:34.37,0:16:35.92,shingeki-text-ch,NTP,0,0,0,,我不能說
+Dialogue: 0,0:16:36.73,0:16:40.60,shingeki-text-ch,NTP,0,0,0,,其他的教徒肯定也是如此 不會改變的吧
+Dialogue: 0,0:16:41.47,0:16:42.94,shingeki-text-ch,NTP,0,0,0,,那還真是謝謝你了啊
+Dialogue: 0,0:16:43.28,0:16:45.98,shingeki-text-ch,NTP,0,0,0,,感謝你特意告訴我這樣的情報
+Dialogue: 0,0:16:46.77,0:16:51.35,shingeki-text-ch,NTP,0,0,0,,那是過於重大 不能私自決定的事情
+Dialogue: 0,0:16:52.86,0:16:57.38,shingeki-text-ch,NTP,0,0,0,,我們城牆教只不過是服從於偉大意志的存在
+Dialogue: 0,0:16:55.33,0:16:55.97,shingeki-text-ch,NTP,0,0,0,,{\an8}這邊
+Dialogue: 0,0:16:56.22,0:16:57.77,shingeki-text-ch,NTP,0,0,0,,{\an8}好的 謝謝你
+Dialogue: 0,0:16:58.42,0:17:01.72,shingeki-text-ch,NTP,0,0,0,,是誰的意志 是所謂的神嗎
+Dialogue: 0,0:17:02.03,0:17:03.58,shingeki-text-ch,NTP,0,0,0,,我們不能說
+Dialogue: 0,0:17:04.25,0:17:07.22,shingeki-text-ch,NTP,0,0,0,,但是我可以告訴你
+Dialogue: 0,0:17:07.63,0:17:12.23,shingeki-text-ch,NTP,0,0,0,,那位偉大意志命令我們監視的人物的名字
+Dialogue: 0,0:17:12.70,0:17:13.36,shingeki-text-ch,NTP,0,0,0,,監視？
+Dialogue: 0,0:17:15.65,0:17:19.77,shingeki-text-ch,NTP,0,0,0,,我聽說那人今年加入了調查兵團
+Dialogue: 0,0:17:22.88,0:17:24.08,shingeki-text-ch,NTP,0,0,0,,那孩子的名字是…
+Dialogue: 0,0:17:24.94,0:17:25.85,shingeki-text-ch,NTP,0,0,0,,打擾了
+Dialogue: 0,0:17:26.59,0:17:29.88,shingeki-text-ch,NTP,0,0,0,,我是第104期調查士兵 薩莎·布勞斯
+Dialogue: 0,0:17:31.20,0:17:32.78,shingeki-text-ch,NTP,0,0,0,,那傢伙…
+Dialogue: 0,0:17:33.82,0:17:34.51,shingeki-text-ch,NTP,0,0,0,,是誰啊？
+Dialogue: 0,0:17:34.76,0:17:37.29,shingeki-text-ch,NTP,0,0,0,,那個 分隊長閣下 這個…
+Dialogue: 0,0:17:37.61,0:17:39.38,shingeki-text-ch,NTP,0,0,0,,總之把她帶到這兒來
+Dialogue: 0,0:17:39.87,0:17:45.04,shingeki-text-ch,NTP,0,0,0,,要是她的話 想必肯定能夠知曉連我們也尚未知曉的真相吧
+Dialogue: 0,0:17:45.56,0:17:48.18,shingeki-text-ch,NTP,0,0,0,,我能提供的情報到此為止了
+Dialogue: 0,0:17:49.83,0:17:52.05,shingeki-text-ch,NTP,0,0,0,,接下來就交給你們了
+Dialogue: 0,0:17:53.07,0:17:56.74,shingeki-text-ch,NTP,0,0,0,,那孩子 是104期所以還在最前線吧
+Dialogue: 0,0:17:57.15,0:17:59.57,shingeki-text-ch,NTP,0,0,0,,我們走吧 再不快點的話
+Dialogue: 0,0:18:00.05,0:18:01.22,shingeki-text-ch,NTP,0,0,0,,等等
+Dialogue: 0,0:18:03.25,0:18:04.02,shingeki-text-ch,NTP,0,0,0,,薩沙？
+Dialogue: 0,0:18:05.13,0:18:06.70,shingeki-text-ch,NTP,0,0,0,,你在這兒做什麼呢
+Dialogue: 0,0:18:09.87,0:18:12.81,shingeki-text-ch,NTP,0,0,0,,剛才在下前往兵團支部進行報告時
+Dialogue: 0,0:18:12.95,0:18:16.43,shingeki-text-ch,NTP,0,0,0,,長官讓我把文書交給分隊長您
+Dialogue: 0,0:18:17.23,0:18:18.13,shingeki-text-ch,NTP,0,0,0,,文書？
+Dialogue: 0,0:18:18.66,0:18:20.77,shingeki-text-ch,NTP,0,0,0,,我知道了 辛苦你了
+Dialogue: 0,0:18:23.69,0:18:26.34,shingeki-text-ch,NTP,0,0,0,,所以 那個104期的孩子到底是誰啊
+Dialogue: 0,0:18:26.99,0:18:28.78,shingeki-text-ch,NTP,0,0,0,,是那個長得最嬌小的孩子
+Dialogue: 0,0:18:29.49,0:18:31.12,shingeki-text-ch,NTP,0,0,0,,留著金色長髮
+Dialogue: 0,0:18:32.68,0:18:34.09,shingeki-text-ch,NTP,0,0,0,,還有…還有…
+Dialogue: 0,0:18:34.86,0:18:35.59,shingeki-text-ch,NTP,0,0,0,,很可愛
+Dialogue: 0,0:18:37.72,0:18:39.81,shingeki-text-ch,NTP,0,0,0,,是經常和尤彌爾待在一起的孩子
+Dialogue: 0,0:18:41.29,0:18:42.26,shingeki-text-ch,NTP,0,0,0,,尤彌爾？
+Dialogue: 0,0:18:45.72,0:18:46.90,shingeki-text-ch,NTP,0,0,0,,怎麼回事
+Dialogue: 0,0:18:49.26,0:18:52.87,shingeki-text-ch,NTP,0,0,0,,尤彌爾 你…
+Dialogue: 0,0:18:55.43,0:18:56.68,shingeki-text-ch,NTP,0,0,0,,全員起來了
+Dialogue: 0,0:18:57.05,0:18:59.18,shingeki-text-ch,NTP,0,0,0,,現在立馬到樓頂來
+Dialogue: 0,0:19:08.31,0:19:10.82,shingeki-text-ch,NTP,0,0,0,,月亮出來後回過神來才發現它們
+Dialogue: 0,0:19:14.08,0:19:16.82,shingeki-text-ch,NTP,0,0,0,,為什麼啊 它們為什麼還能活動啊
+Dialogue: 0,0:19:17.39,0:19:19.60,shingeki-text-ch,NTP,0,0,0,,明明已經日落了那麼長時間了
+Dialogue: 0,0:19:21.27,0:19:22.33,shingeki-text-ch,NTP,0,0,0,,怎麼辦才好
+Dialogue: 0,0:19:23.09,0:19:25.03,shingeki-text-ch,NTP,0,0,0,,喂 快看那個
+Dialogue: 0,0:19:26.62,0:19:29.93,shingeki-text-ch,NTP,0,0,0,,好大 那傢伙是什麼來頭啊 巨人？
+Dialogue: 0,0:19:30.97,0:19:32.79,shingeki-text-ch,NTP,0,0,0,,那個樣子倒不如說…
+Dialogue: 0,0:19:33.28,0:19:34.47,shingeki-text-ch,NTP,0,0,0,,更像野獸啊
+Dialogue: 0,0:19:41.26,0:19:43.24,shingeki-text-ch,NTP,0,0,0,,那傢伙 朝著牆壁的方向那邊去了
+Dialogue: 0,0:19:50.77,0:19:52.13,shingeki-text-ch,NTP,0,0,0,,全員 都明白了嗎
+Dialogue: 0,0:19:52.40,0:19:52.86,shingeki-text-ch,NTP,0,0,0,,是！
+Dialogue: 0,0:19:54.73,0:19:55.84,shingeki-text-ch,NTP,0,0,0,,總之先到前線去…
+Dialogue: 0,0:19:55.87,0:19:56.71,shingeki-text-ch,NTP,0,0,0,,冷靜 艾倫
+Dialogue: 0,0:19:59.20,0:20:00.16,shingeki-text-ch,NTP,0,0,0,,你們也給我聽好了
+Dialogue: 0,0:20:01.25,0:20:02.63,shingeki-text-ch,NTP,0,0,0,,接下來是分頭行動
+Dialogue: 0,0:20:03.32,0:20:04.60,shingeki-text-ch,NTP,0,0,0,,之後的事情就交給你們了
+Dialogue: 0,0:20:05.72,0:20:08.13,shingeki-text-ch,NTP,0,0,0,,雖然你們是埃爾文建立的速編班
+Dialogue: 0,0:20:08.73,0:20:10.64,shingeki-text-ch,NTP,0,0,0,,但是現在也就只能依靠你們了
+Dialogue: 0,0:20:11.55,0:20:13.23,shingeki-text-ch,NTP,0,0,0,,明白了嗎 阿明
+Dialogue: 0,0:20:13.66,0:20:16.21,shingeki-text-ch,NTP,0,0,0,,今後你就和韓吉一起出謀劃策
+Dialogue: 0,0:20:16.49,0:20:17.52,shingeki-text-ch,NTP,0,0,0,,是
+Dialogue: 0,0:20:18.70,0:20:22.79,shingeki-text-ch,NTP,0,0,0,,三笠 我不知道你為什麼如此執著於艾倫
+Dialogue: 0,0:20:23.65,0:20:27.22,shingeki-text-ch,NTP,0,0,0,,但你要用你所有的能力去保護好艾倫
+Dialogue: 0,0:20:27.57,0:20:29.28,shingeki-text-ch,NTP,0,0,0,,明白 那是當然
+Dialogue: 0,0:20:30.31,0:20:33.08,shingeki-text-ch,NTP,0,0,0,,還有艾倫
+Dialogue: 0,0:20:38.61,0:20:39.32,shingeki-text-ch,NTP,0,0,0,,等等
+Dialogue: 0,0:20:40.12,0:20:41.49,shingeki-text-ch,NTP,0,0,0,,給我等等啊
+Dialogue: 0,0:20:43.22,0:20:44.56,shingeki-text-ch,NTP,0,0,0,,你們要進來幹什麼啊
+Dialogue: 0,0:20:45.68,0:20:49.35,shingeki-text-ch,NTP,0,0,0,,開什麼玩笑 開什麼玩笑啊
+Dialogue: 0,0:20:49.79,0:20:51.98,shingeki-text-ch,NTP,0,0,0,,我還沒喝到酒啊
+Dialogue: 0,0:20:52.71,0:20:54.55,shingeki-text-ch,NTP,0,0,0,,就因為你們這群畜生！
+Dialogue: 0,0:20:55.20,0:20:56.66,shingeki-text-ch,NTP,0,0,0,,新兵 都退下
+Dialogue: 0,0:20:58.18,0:21:02.36,shingeki-text-ch,NTP,0,0,0,,接下來就是立體機動裝置出場的時間了
+Dialogue: 0,0:21:05.18,0:21:05.68,shingeki-text-ch,NTP,0,0,0,,我們上
+Dialogue: 0,0:21:24.29,0:21:25.69,shingeki-text-ch,NTP,0,0,0,,還有啊 艾倫
+Dialogue: 0,0:21:26.48,0:21:28.30,shingeki-text-ch,NTP,0,0,0,,你要抑制住自己
+Dialogue: 0,0:21:29.67,0:21:32.23,shingeki-text-ch,NTP,0,0,0,,不要因為憤怒喪失了理智
+Dialogue: 0,0:21:33.38,0:21:35.22,shingeki-text-ch,NTP,0,0,0,,這回千萬不要搞砸了
+Dialogue: 0,0:21:36.13,0:21:36.70,shingeki-text-ch,NTP,0,0,0,,是！
+Dialogue: 0,0:21:39.72,0:21:42.24,shingeki-text-ch,NTP,0,0,0,,似乎從這裡的塔樓可以眺望到城牆
+Dialogue: 0,0:21:43.29,0:21:45.79,shingeki-text-ch,NTP,0,0,0,,我們朝靠近城牆西南方向的古城
+Dialogue: 0,0:21:46.98,0:21:48.99,shingeki-text-ch,NTP,0,0,0,,厄特加爾城出發
+Dialogue: 0,0:00:00.00,0:00:00.00,shingeki-text-ch,NTP,0,0,0,,
+Dialogue: 0,0:23:41.92,0:23:45.01,shingeki-text-ch,NTP,0,0,0,,前去搜索巨人入侵地點的調查兵團
+Dialogue: 0,0:23:45.39,0:23:47.32,shingeki-text-ch,NTP,0,0,0,,到達了厄特加爾城
+Dialogue: 0,0:23:48.45,0:23:50.63,shingeki-text-ch,NTP,0,0,0,,打斷了眾人的短暫休息的
+Dialogue: 0,0:23:51.05,0:23:54.23,shingeki-text-ch,NTP,0,0,0,,是不受黑夜束縛隨意活動的巨人們
+Dialogue: 0,0:23:55.52,0:23:57.22,shingeki-text-ch,NTP,0,0,0,,奮戰中的調查兵團
+Dialogue: 0,0:23:58.44,0:24:02.33,shingeki-text-ch,NTP,0,0,0,,在被侵入城堡內的巨人襲擊的萊納的腦內
+Dialogue: 0,0:24:02.68,0:24:04.59,shingeki-text-ch,NTP,0,0,0,,過去的回憶正在復甦
+Dialogue: 0,0:24:05.84,0:24:08.61,shingeki-text-ch,NTP,0,0,0,,下一集 士兵
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,NTP,0,0,0,,
+
